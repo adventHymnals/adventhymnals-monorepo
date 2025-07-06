@@ -19,16 +19,16 @@ export default async function HymnalsPage() {
     <Layout hymnalReferences={hymnalReferences}>
       <div className="min-h-screen bg-gray-50">
         {/* Header */}
-        <div className="bg-white shadow-sm">
+        <div className="bg-gradient-to-r from-primary-600 to-primary-700">
           <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-            <div className="text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+            <div className="text-center text-white">
+              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
                 Hymnal Collections
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-lg leading-8 text-primary-100">
                 Explore 13 complete hymnal collections spanning 160+ years of Adventist musical heritage
               </p>
-              <div className="mt-8 flex justify-center gap-8 text-sm text-gray-500">
+              <div className="mt-8 flex justify-center gap-8 text-sm text-primary-200">
                 <div className="flex items-center">
                   <BookOpenIcon className="h-5 w-5 mr-2" />
                   <span>5,500+ Hymns</span>

@@ -307,12 +307,13 @@ export default async function HymnPage({ params }: HymnPageProps) {
                       <h4 className="text-sm font-medium text-gray-700 mb-2">Themes:</h4>
                       <div className="flex flex-wrap gap-2">
                         {hymn.metadata.themes.map((theme) => (
-                          <span
+                          <Link
                             key={theme}
-                            className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-primary-100 text-primary-800"
+                            href={`/topics?search=${encodeURIComponent(theme)}`}
+                            className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-primary-100 text-primary-800 hover:bg-primary-200 transition-colors"
                           >
                             {theme}
-                          </span>
+                          </Link>
                         ))}
                       </div>
                     </div>

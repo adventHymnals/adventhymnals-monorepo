@@ -100,13 +100,13 @@ export default async function TopicsPage() {
     <Layout hymnalReferences={hymnalReferences}>
       <div className="min-h-screen bg-gray-50">
         {/* Header */}
-        <div className="bg-white shadow-sm">
+        <div className="bg-gradient-to-r from-primary-600 to-primary-700">
           <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-            <div className="text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+            <div className="text-center text-white">
+              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
                 Browse by Topic
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-lg leading-8 text-primary-100">
                 Explore hymns organized by themes and topics to find the perfect songs for worship, study, or personal reflection
               </p>
             </div>
