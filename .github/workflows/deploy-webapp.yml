@@ -14,15 +14,13 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -55,49 +53,11 @@ jobs:
           NEXT_OUTPUT: export
           NEXT_DISTDIR: out
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./apps/web/out
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
-  deploy-to-custom-repo:
-    runs-on: ubuntu-latest
-    needs: build
-    if: github.ref == 'refs/heads/master'
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: ./deploy
-
-      - name: Extract artifact
-        run: |
-          cd deploy
-          tar -xf artifact.tar
-
       - name: Deploy to adventhymnals.github.io
         uses: peaceiris/actions-gh-pages@v3
         with:
           external_repository: adventhymnals/adventhymnals.github.io
           deploy_key: ${{ secrets.DEPLOY_SSH_KEY }}
-          publish_dir: ./deploy
+          publish_dir: ./apps/web/out
           publish_branch: master
           cname: adventhymnals.org
