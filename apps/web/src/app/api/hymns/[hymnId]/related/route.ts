@@ -20,7 +20,7 @@ export async function GET(
     try {
       const { searchParams } = new URL(request.url);
       limit = parseInt(searchParams.get('limit') || '10', 10);
-    } catch (urlError) {
+    } catch {
       // Use default for static export
       console.log('Using default limit for static export');
     }

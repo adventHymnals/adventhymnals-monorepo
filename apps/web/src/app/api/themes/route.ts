@@ -1,7 +1,12 @@
 import { NextResponse } from 'next/server';
 import { loadHymnalReferences, loadHymnalHymns } from '@/lib/data-server';
+import { withCors, handleOptionsRequest } from '@/lib/cors';
 
-export async function GET() {
+export async function OPTIONS(request: Request) {
+  return handleOptionsRequest(request);
+}
+
+export async function GET(request: Request) {
   try {
     const hymnalReferences = await loadHymnalReferences();
     const themeMap = new Map<string, { count: number; hymns: unknown[] }>();
@@ -55,12 +60,14 @@ export async function GET() {
       }))
       .sort((a, b) => b.count - a.count);
 
-    return NextResponse.json(themes);
+    const response = NextResponse.json(themes);
+    return withCors(response, request.headers.get('origin'));
   } catch (error) {
     console.error('API Error fetching themes:', error);
-    return NextResponse.json(
+    const response = NextResponse.json(
       { error: 'Failed to fetch themes' }, 
       { status: 500 }
     );
+    return withCors(response, request.headers.get('origin'));
   }
 }

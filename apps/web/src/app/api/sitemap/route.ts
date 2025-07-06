@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { loadHymnalReferences } from '@/lib/data';
+import { loadHymnalReferences } from '@/lib/data-server';
 import { generateSitemapUrls } from '@/lib/seo';
 
 export async function GET() {

@@ -67,7 +67,11 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
         console.warn('Could not enter fullscreen:', error);
         // Try alternative method for older browsers
         try {
-          const elem = document.documentElement as any;
+          const elem = document.documentElement as unknown as {
+            webkitRequestFullscreen?: () => Promise<void>;
+            mozRequestFullScreen?: () => Promise<void>;
+            msRequestFullscreen?: () => Promise<void>;
+          };
           if (elem.webkitRequestFullscreen) {
             await elem.webkitRequestFullscreen();
             setIsFullscreen(true);
@@ -216,8 +220,8 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
   // Filter hymns for search
   const filteredHymns = allHymns.filter((h: unknown) => {
     const hymn = h as { title: string; id: string };
-    return (hymn as any).title?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      (hymn as any).id?.toLowerCase().includes(searchTerm.toLowerCase());
+    return hymn.title?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      hymn.id?.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
   // Keyboard shortcuts
@@ -364,7 +368,7 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
             ? 'bg-gray-200 text-gray-700' 
             : 'bg-gray-800 text-gray-300'
         )}>
-          Key: {(hymn as any)?.key || 'C Major'}
+          Key: {(hymn as { key?: string }).key || 'C Major'}
         </div>
       </div>
 
@@ -388,18 +392,18 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
                 fontSizeClasses,
                 themeClasses.text
               )}>
-                {(hymn as any).title}
+                {hymn.title}
               </h1>
               {settings.showMetadata && (
                 <div className={classNames(
                   'text-2xl md:text-3xl lg:text-4xl space-y-2',
                   settings.theme === 'light' ? 'text-gray-600' : 'text-gray-300'
                 )}>
-                  {(hymn as any).author && <div>Words: {(hymn as any).author}</div>}
-                  {(hymn as any).composer && <div>Music: {(hymn as any).composer}</div>}
-                  {(hymn as any).tune && <div>Tune: {(hymn as any).tune}</div>}
-                  {(hymn as any).key && <div>Key: {(hymn as any).key}</div>}
-                  {(hymn as any).meter && <div>Meter: {(hymn as any).meter}</div>}
+                  {(hymn as { author?: string }).author && <div>Words: {(hymn as { author?: string }).author}</div>}
+                  {(hymn as { composer?: string }).composer && <div>Music: {(hymn as { composer?: string }).composer}</div>}
+                  {(hymn as { tune?: string }).tune && <div>Tune: {(hymn as { tune?: string }).tune}</div>}
+                  {(hymn as { key?: string }).key && <div>Key: {(hymn as { key?: string }).key}</div>}
+                  {(hymn as { meter?: string }).meter && <div>Meter: {(hymn as { meter?: string }).meter}</div>}
                 </div>
               )}
             </>
@@ -583,7 +587,7 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
               <div className="p-6 border-b">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-semibold text-gray-900">
-                    {(hymnalData as any)?.name || 'Hymnal'} - Select Hymn
+                    {(hymnalData as { name?: string } | null)?.name || 'Hymnal'} - Select Hymn
                   </h3>
                   <button
                     onClick={() => setShowIndex(false)}
@@ -602,7 +606,7 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
                     onChange={(e) => setSearchTerm(e.target.value)}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' && filteredHymns.length > 0) {
-                        goToHymn((filteredHymns[0] as any).id);
+                        goToHymn((filteredHymns[0] as { id: string }).id);
                       }
                     }}
                     className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 bg-white"
@@ -614,7 +618,7 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
               <div className="flex-1 overflow-y-auto p-6">
                 <div className="grid gap-2">
                   {filteredHymns.slice(0, 100).map((h) => {
-                    const hymn = h as any;
+                    const hymn = h as { id: string; title: string; number?: number; author?: string };
                     return (
                     <button
                       key={hymn.id}

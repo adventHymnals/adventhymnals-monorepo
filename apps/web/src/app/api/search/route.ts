@@ -12,7 +12,7 @@ export async function GET(request: Request) {
       query = searchParams.get('q');
       hymnalId = searchParams.get('hymnal') || undefined;
       limit = parseInt(searchParams.get('limit') || '20', 10);
-    } catch (urlError) {
+    } catch {
       // For static export, return empty results
       return NextResponse.json({ hymns: [], total: 0 });
     }

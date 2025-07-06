@@ -1,7 +1,12 @@
 import { NextResponse } from 'next/server';
 import { loadHymnalReferences, loadHymnalHymns } from '@/lib/data-server';
+import { withCors, handleOptionsRequest } from '@/lib/cors';
 
-export async function GET() {
+export async function OPTIONS(request: Request) {
+  return handleOptionsRequest(request);
+}
+
+export async function GET(request: Request) {
   try {
     const hymnalReferences = await loadHymnalReferences();
     const composerMap = new Map<string, { count: number; hymns: unknown[] }>();
@@ -53,12 +58,14 @@ export async function GET() {
       }))
       .sort((a, b) => b.count - a.count);
 
-    return NextResponse.json(composers);
+    const response = NextResponse.json(composers);
+    return withCors(response, request.headers.get('origin'));
   } catch (error) {
     console.error('API Error fetching composers:', error);
-    return NextResponse.json(
+    const response = NextResponse.json(
       { error: 'Failed to fetch composers' }, 
       { status: 500 }
     );
+    return withCors(response, request.headers.get('origin'));
   }
 }

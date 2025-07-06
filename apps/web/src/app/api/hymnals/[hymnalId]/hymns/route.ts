@@ -25,7 +25,7 @@ export async function GET(
       const { searchParams } = new URL(request.url);
       page = parseInt(searchParams.get('page') || '1', 10);
       limit = parseInt(searchParams.get('limit') || '50', 10);
-    } catch (urlError) {
+    } catch {
       // Fallback for static export - use defaults
       console.log('Using default pagination for static export');
     }

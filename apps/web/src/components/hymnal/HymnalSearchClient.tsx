@@ -102,7 +102,7 @@ export default function HymnalSearchClient({
         ) : (
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {filteredHymns.map((hymnData) => {
-              const hymn = hymnData as any;
+              const hymn = hymnData as { id: string; number: number; title: string; author?: string; composer?: string; metadata?: { themes?: string[] }; verses?: { text?: string }[] };
               return (
             <Link
               key={hymn.id}
@@ -131,9 +131,9 @@ export default function HymnalSearchClient({
                 </div>
               )}
               
-              {hymn.verses[0] && hymn.verses[0].text && (
+              {hymn.verses?.[0]?.text && (
                 <p className="text-sm text-gray-700 line-clamp-2">
-                  {hymn.verses[0].text.split('\n')[0]}
+                  {hymn.verses?.[0]?.text?.split('\n')[0]}
                 </p>
               )}
             </Link>

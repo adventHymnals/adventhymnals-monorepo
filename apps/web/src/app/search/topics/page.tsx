@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { TagIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
@@ -24,7 +24,7 @@ interface ThemeData {
   }>;
 }
 
-export default function TopicsSearchPage() {
+function TopicsSearchContent() {
   const [themes, setThemes] = useState<ThemeData[]>([]);
   const [filteredThemes, setFilteredThemes] = useState<ThemeData[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -253,5 +253,22 @@ export default function TopicsSearchPage() {
         </div>
       </div>
     </Layout>
+  );
+}
+
+export default function TopicsSearchPage() {
+  return (
+    <Suspense fallback={
+      <Layout>
+        <div className="min-h-screen flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary-600 mx-auto mb-4"></div>
+            <p className="text-gray-600">Loading topics...</p>
+          </div>
+        </div>
+      </Layout>
+    }>
+      <TopicsSearchContent />
+    </Suspense>
   );
 }

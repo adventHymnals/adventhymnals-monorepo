@@ -129,7 +129,20 @@ export async function loadHymn(hymnId: string): Promise<Hymn | null> {
     const filePath = path.join(process.cwd(), '../..', `data/processed/hymns/${hymnalId}/${hymnId}.json`);
     
     const data = await fs.readFile(filePath, 'utf8');
-    const hymn = JSON.parse(data) as Hymn;
+    
+    // Try to parse JSON, with fallback for control character issues
+    let hymn: Hymn;
+    
+    try {
+      hymn = JSON.parse(data) as Hymn;
+    } catch (parseError) {
+      // If JSON parsing fails, try cleaning the data
+      console.warn(`JSON parse failed for ${hymnId}, attempting to clean data:`, parseError);
+      
+      // Simple cleaning: remove control characters except normal whitespace
+      const cleanedData = data.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, '');
+      hymn = JSON.parse(cleanedData) as Hymn;
+    }
     
     cache.set(cacheKey, hymn);
     return hymn;
