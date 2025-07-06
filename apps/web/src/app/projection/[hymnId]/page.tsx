@@ -4,7 +4,8 @@ import { useEffect, useState, useCallback } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { 
   ProjectionSlide, 
-  ProjectionSettings
+  ProjectionSettings,
+  Hymn
 } from '@advent-hymnals/shared';
 import {
   generateProjectionSlides,
@@ -42,7 +43,7 @@ const defaultSettings: ProjectionSettings = {
 export default function ProjectionPage({ params }: ProjectionPageProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const [hymn, setHymn] = useState<unknown>(null);
+  const [hymn, setHymn] = useState<Hymn | null>(null);
   const [slides, setSlides] = useState<ProjectionSlide[]>([]);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [settings, setSettings] = useState<ProjectionSettings>(defaultSettings);
@@ -66,7 +67,7 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
         console.warn('Could not enter fullscreen:', error);
         // Try alternative method for older browsers
         try {
-          const elem = document.documentElement as unknown;
+          const elem = document.documentElement as any;
           if (elem.webkitRequestFullscreen) {
             await elem.webkitRequestFullscreen();
             setIsFullscreen(true);
@@ -159,6 +160,11 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
     }
   }, [hymn, settings]);
 
+  // Navigation functions
+  const nextSlide = useCallback(() => {
+    setCurrentSlide(prev => (prev < slides.length - 1 ? prev + 1 : prev));
+  }, [slides.length]);
+
   // Auto advance functionality
   useEffect(() => {
     if (settings.autoAdvance && settings.autoAdvanceDelay) {
@@ -171,11 +177,6 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
       };
     }
   }, [currentSlide, settings.autoAdvance, settings.autoAdvanceDelay, nextSlide]);
-
-  // Navigation functions
-  const nextSlide = useCallback(() => {
-    setCurrentSlide(prev => (prev < slides.length - 1 ? prev + 1 : prev));
-  }, [slides.length]);
 
   const previousSlide = useCallback(() => {
     setCurrentSlide(prev => (prev > 0 ? prev - 1 : prev));
@@ -215,8 +216,8 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
   // Filter hymns for search
   const filteredHymns = allHymns.filter((h: unknown) => {
     const hymn = h as { title: string; id: string };
-    return hymn.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      hymn.id.toLowerCase().includes(searchTerm.toLowerCase());
+    return (hymn as any).title?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      (hymn as any).id?.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
   // Keyboard shortcuts
@@ -363,7 +364,7 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
             ? 'bg-gray-200 text-gray-700' 
             : 'bg-gray-800 text-gray-300'
         )}>
-          Key: {hymn.key || 'C Major'}
+          Key: {(hymn as any)?.key || 'C Major'}
         </div>
       </div>
 
@@ -387,18 +388,18 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
                 fontSizeClasses,
                 themeClasses.text
               )}>
-                {hymn.title}
+                {(hymn as any).title}
               </h1>
               {settings.showMetadata && (
                 <div className={classNames(
                   'text-2xl md:text-3xl lg:text-4xl space-y-2',
                   settings.theme === 'light' ? 'text-gray-600' : 'text-gray-300'
                 )}>
-                  {hymn.author && <div>Words: {hymn.author}</div>}
-                  {hymn.composer && <div>Music: {hymn.composer}</div>}
-                  {hymn.tune && <div>Tune: {hymn.tune}</div>}
-                  {hymn.key && <div>Key: {hymn.key}</div>}
-                  {hymn.meter && <div>Meter: {hymn.meter}</div>}
+                  {(hymn as any).author && <div>Words: {(hymn as any).author}</div>}
+                  {(hymn as any).composer && <div>Music: {(hymn as any).composer}</div>}
+                  {(hymn as any).tune && <div>Tune: {(hymn as any).tune}</div>}
+                  {(hymn as any).key && <div>Key: {(hymn as any).key}</div>}
+                  {(hymn as any).meter && <div>Meter: {(hymn as any).meter}</div>}
                 </div>
               )}
             </>
@@ -582,7 +583,7 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
               <div className="p-6 border-b">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-semibold text-gray-900">
-                    {hymnalData?.name || 'Hymnal'} - Select Hymn
+                    {(hymnalData as any)?.name || 'Hymnal'} - Select Hymn
                   </h3>
                   <button
                     onClick={() => setShowIndex(false)}
@@ -601,7 +602,7 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
                     onChange={(e) => setSearchTerm(e.target.value)}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' && filteredHymns.length > 0) {
-                        goToHymn(filteredHymns[0].id);
+                        goToHymn((filteredHymns[0] as any).id);
                       }
                     }}
                     className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 bg-white"
@@ -612,26 +613,29 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
               
               <div className="flex-1 overflow-y-auto p-6">
                 <div className="grid gap-2">
-                  {filteredHymns.slice(0, 100).map((h) => (
+                  {filteredHymns.slice(0, 100).map((h) => {
+                    const hymn = h as any;
+                    return (
                     <button
-                      key={h.id}
-                      onClick={() => goToHymn(h.id)}
+                      key={hymn.id}
+                      onClick={() => goToHymn(hymn.id)}
                       className={`p-3 text-left rounded-lg border transition-colors hover:bg-blue-50 hover:border-blue-300 ${
-                        h.id === params.hymnId 
+                        hymn.id === params.hymnId 
                           ? 'bg-blue-100 border-blue-500' 
                           : 'bg-gray-50 border-gray-200'
                       }`}
                     >
                       <div className="font-medium text-gray-900">
-                        {h.number ? `${h.number}. ` : ''}{h.title}
+                        {hymn.number ? `${hymn.number}. ` : ''}{hymn.title}
                       </div>
-                      {h.author && (
+                      {hymn.author && (
                         <div className="text-sm text-gray-600 mt-1">
-                          {h.author}
+                          {hymn.author}
                         </div>
                       )}
                     </button>
-                  ))}
+                    );
+                  })}
                   
                   {filteredHymns.length === 0 && (
                     <div className="text-center py-8 text-gray-500">

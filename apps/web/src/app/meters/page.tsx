@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { MagnifyingGlassIcon, MusicalNoteIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import { loadHymnalReferences } from '@/lib/data';
+import { HymnalCollection } from '@advent-hymnals/shared';
 
 interface MeterData {
   meter: string;
@@ -28,7 +29,7 @@ export default function MetersPage() {
   const [filteredMeters, setFilteredMeters] = useState<MeterData[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
-  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<HymnalCollection | undefined>(undefined);
   const [sortBy, setSortBy] = useState<'count' | 'alphabetical'>('count');
 
   useEffect(() => {

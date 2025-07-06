@@ -45,7 +45,7 @@ function LyricsDisplay({ hymn, className }: { hymn: Hymn; className?: string }) 
   );
 }
 
-function SolfaDisplay({ notation, className }: { hymn: Hymn; notation?: HymnNotation; className?: string }) {
+function SolfaDisplay({ notation, className }: { notation?: HymnNotation; className?: string }) {
   if (!notation) {
     return (
       <div className={classNames('text-center py-12', className)}>
@@ -87,7 +87,7 @@ function SolfaDisplay({ notation, className }: { hymn: Hymn; notation?: HymnNota
   );
 }
 
-function StaffDisplay({ notation, className }: { hymn: Hymn; notation?: HymnNotation; className?: string }) {
+function StaffDisplay({ notation, className }: { notation?: HymnNotation; className?: string }) {
   if (!notation) {
     return (
       <div className={classNames('text-center py-12', className)}>
@@ -120,7 +120,7 @@ function StaffDisplay({ notation, className }: { hymn: Hymn; notation?: HymnNota
   );
 }
 
-function ChordDisplay({ notation, className }: { hymn: Hymn; notation?: HymnNotation; className?: string }) {
+function ChordDisplay({ notation, className }: { notation?: HymnNotation; className?: string }) {
   if (!notation) {
     return (
       <div className={classNames('text-center py-12', className)}>

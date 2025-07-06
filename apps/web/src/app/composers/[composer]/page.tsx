@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { MusicalNoteIcon, ArrowLeftIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import { loadHymnalReferences } from '@/lib/data';
+import { HymnalCollection } from '@advent-hymnals/shared';
 
 interface HymnData {
   id: string;
@@ -29,7 +30,7 @@ export default function ComposerDetailPage({ params }: ComposerDetailProps) {
   const [hymns, setHymns] = useState<HymnData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<HymnalCollection | undefined>(undefined);
   
   const decodedComposer = decodeURIComponent(params.composer);
 

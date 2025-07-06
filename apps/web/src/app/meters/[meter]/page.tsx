@@ -6,6 +6,7 @@ import { MusicalNoteIcon, ArrowLeftIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import HymnFilters from '@/components/search/HymnFilters';
 import { loadHymnalReferences } from '@/lib/data';
+import { HymnalCollection } from '@advent-hymnals/shared';
 
 interface HymnData {
   id: string;
@@ -31,7 +32,7 @@ export default function MeterDetailPage({ params }: MeterDetailProps) {
   const [filteredHymns, setFilteredHymns] = useState<HymnData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<HymnalCollection | undefined>(undefined);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedHymnal, setSelectedHymnal] = useState('');
   const [sortBy, setSortBy] = useState<'title' | 'number'>('number');

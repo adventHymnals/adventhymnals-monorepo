@@ -101,7 +101,9 @@ export default function HymnalSearchClient({
           </div>
         ) : (
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {filteredHymns.map((hymn) => (
+            {filteredHymns.map((hymnData) => {
+              const hymn = hymnData as any;
+              return (
             <Link
               key={hymn.id}
               href={`/${hymnalSlug}/hymn-${hymn.number}-${hymn.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')}`}
@@ -135,7 +137,8 @@ export default function HymnalSearchClient({
                 </p>
               )}
             </Link>
-          ))}
+              );
+            })}
           </div>
         )}
       </div>

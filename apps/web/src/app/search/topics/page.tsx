@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { TagIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import { loadHymnalReferences } from '@/lib/data';
+import { HymnalCollection } from '@advent-hymnals/shared';
 
 interface ThemeData {
   theme: string;
@@ -28,7 +29,7 @@ export default function TopicsSearchPage() {
   const [filteredThemes, setFilteredThemes] = useState<ThemeData[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
-  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<HymnalCollection | undefined>(undefined);
   const [selectedThemes, setSelectedThemes] = useState<string[]>([]);
   
   const router = useRouter();
