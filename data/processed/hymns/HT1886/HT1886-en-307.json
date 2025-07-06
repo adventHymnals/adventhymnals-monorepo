@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Life and Character", "teaching", "gospel", "grace", "invitation"],
+    "themes": [
+      "Christ",
+      "Life and Character",
+      "teaching",
+      "gospel",
+      "grace",
+      "invitation"
+    ],
     "scripture_references": [],
     "tune_source": "171, 194, 540",
     "original_language": "en"

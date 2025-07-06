@@ -33,8 +33,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["purification", "salvation", "heaven", "redemption"],
-    "scripture_references": ["Revelation 7:14"],
+    "themes": [
+      "purification",
+      "salvation",
+      "heaven",
+      "redemption"
+    ],
+    "scripture_references": [
+      "Revelation 7:14"
+    ],
     "tune_source": "Henry Smart",
     "original_language": "en"
   }

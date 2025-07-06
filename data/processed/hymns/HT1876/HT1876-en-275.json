@@ -4,18 +4,39 @@
   "title": "We know he must be here",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "We know he must be here, If this vile house of clay, This tabernacle, suit below, In ruinous decay;"},
-    {"number": 2, "text": "We know he must be here, Not made with mortal hands; And firm as our Redeemer's love That heavenly fabric stands."},
-    {"number": 3, "text": "Full oft we have beheld And hope the restless strife, All meekly to be swallowed up Of everlasting life."},
-    {"number": 4, "text": "Lord, we are filled with thee In perfect holiness, And rise prepared thy face to see, Thy bright, unclouded face."},
-    {"number": 5, "text": "Then bring us home to thee, Who hast the earnest given; And then triumphantly come down, And take us up to Heaven."}
+    {
+      "number": 1,
+      "text": "We know he must be here, If this vile house of clay, This tabernacle, suit below, In ruinous decay;"
+    },
+    {
+      "number": 2,
+      "text": "We know he must be here, Not made with mortal hands; And firm as our Redeemer's love That heavenly fabric stands."
+    },
+    {
+      "number": 3,
+      "text": "Full oft we have beheld And hope the restless strife, All meekly to be swallowed up Of everlasting life."
+    },
+    {
+      "number": 4,
+      "text": "Lord, we are filled with thee In perfect holiness, And rise prepared thy face to see, Thy bright, unclouded face."
+    },
+    {
+      "number": 5,
+      "text": "Then bring us home to thee, Who hast the earnest given; And then triumphantly come down, And take us up to Heaven."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["resurrection", "heaven", "holiness", "preparation", "hope"],
+    "themes": [
+      "resurrection",
+      "heaven",
+      "holiness",
+      "preparation",
+      "hope"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

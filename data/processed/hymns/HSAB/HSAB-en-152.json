@@ -26,7 +26,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["blessed hope", "pilgrimage", "cross bearing", "warfare", "sacrifice", "Second Coming", "comfort"],
+    "themes": [
+      "blessed hope",
+      "pilgrimage",
+      "cross bearing",
+      "warfare",
+      "sacrifice",
+      "Second Coming",
+      "comfort"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

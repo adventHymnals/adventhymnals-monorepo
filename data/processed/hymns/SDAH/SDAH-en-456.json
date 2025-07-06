@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1800,
     "copyright": "Public Domain",
-    "themes": ["friendship with Jesus", "divine love", "spiritual communion", "witness", "personal relationship"],
-    "scripture_references": ["John 15:13-15", "Philippians 4:13", "1 Peter 5:7"],
+    "themes": [
+      "friendship with Jesus",
+      "divine love",
+      "spiritual communion",
+      "witness",
+      "personal relationship"
+    ],
+    "scripture_references": [
+      "John 15:13-15",
+      "Philippians 4:13",
+      "1 Peter 5:7"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

@@ -23,8 +23,17 @@
   "metadata": {
     "year": 1971,
     "copyright": "© 1971 William J. Gaither",
-    "themes": ["resurrection", "hope", "life", "future", "assurance"],
-    "scripture_references": ["1 Corinthians 15:20", "Romans 6:9"],
+    "themes": [
+      "resurrection",
+      "hope",
+      "life",
+      "future",
+      "assurance"
+    ],
+    "scripture_references": [
+      "1 Corinthians 15:20",
+      "Romans 6:9"
+    ],
     "tune_source": "William J. Gaither",
     "original_language": "en"
   }

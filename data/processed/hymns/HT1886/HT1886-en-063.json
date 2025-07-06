@@ -36,7 +36,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "worship", "God's power", "divine healing", "God's wisdom", "God's love for saints"],
+    "themes": [
+      "praise",
+      "worship",
+      "God's power",
+      "divine healing",
+      "God's wisdom",
+      "God's love for saints"
+    ],
     "scripture_references": [],
     "tune_source": "Isaac Watts",
     "original_language": "en"

@@ -28,7 +28,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "sanctuary", "prayer"],
+    "themes": [
+      "worship",
+      "sanctuary",
+      "prayer"
+    ],
     "scripture_references": [],
     "tune_source": "James Montgomery",
     "original_language": "en"

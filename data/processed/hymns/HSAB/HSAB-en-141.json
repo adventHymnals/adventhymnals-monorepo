@@ -29,7 +29,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["waiting", "Jesus", "Second Coming", "hope", "faith", "perseverance"],
+    "themes": [
+      "waiting",
+      "Jesus",
+      "Second Coming",
+      "hope",
+      "faith",
+      "perseverance"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

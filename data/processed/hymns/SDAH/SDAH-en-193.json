@@ -33,7 +33,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["teaching", "love", "obedience", "discipleship", "devotion"],
+    "themes": [
+      "teaching",
+      "love",
+      "obedience",
+      "discipleship",
+      "devotion"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

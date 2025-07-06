@@ -36,8 +36,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["New Jerusalem", "Second Coming", "glory"],
-    "scripture_references": ["Revelation 21"],
+    "themes": [
+      "New Jerusalem",
+      "Second Coming",
+      "glory"
+    ],
+    "scripture_references": [
+      "Revelation 21"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

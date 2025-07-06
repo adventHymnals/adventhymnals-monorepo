@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["shepherd", "healing", "redemption", "God's power", "salvation"],
-    "scripture_references": ["Psalm 23"],
+    "themes": [
+      "shepherd",
+      "healing",
+      "redemption",
+      "God's power",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Psalm 23"
+    ],
     "tune_source": "227, 649, 669",
     "original_language": "en"
   }

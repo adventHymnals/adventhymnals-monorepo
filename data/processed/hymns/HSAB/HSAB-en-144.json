@@ -30,7 +30,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["heaven", "eternal life", "Jesus as King", "saints", "harmony", "music"],
+    "themes": [
+      "heaven",
+      "eternal life",
+      "Jesus as King",
+      "saints",
+      "harmony",
+      "music"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

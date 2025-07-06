@@ -4,16 +4,31 @@
   "title": "Ah! why should doubts and fears arise?",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Ah! why should doubts and fears arise? And sorrows fill my weeping eyes? Too slow, alas! the mind receives The comforts that the gospel gives."},
-    {"number": 2, "text": "Oh, for a strong, a lasting faith, To credit what th' Almighty saith, T' embrace the message of his Son, And call the joys of Heaven my own."},
-    {"number": 3, "text": "Then should the earth's old pillars shake, And all the wheels of nature break, My steadfast soul would fear no more Than solid rocks when billows roar."}
+    {
+      "number": 1,
+      "text": "Ah! why should doubts and fears arise? And sorrows fill my weeping eyes? Too slow, alas! the mind receives The comforts that the gospel gives."
+    },
+    {
+      "number": 2,
+      "text": "Oh, for a strong, a lasting faith, To credit what th' Almighty saith, T' embrace the message of his Son, And call the joys of Heaven my own."
+    },
+    {
+      "number": 3,
+      "text": "Then should the earth's old pillars shake, And all the wheels of nature break, My steadfast soul would fear no more Than solid rocks when billows roar."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["doubt", "faith", "comfort", "gospel", "steadfastness"],
+    "themes": [
+      "doubt",
+      "faith",
+      "comfort",
+      "gospel",
+      "steadfastness"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

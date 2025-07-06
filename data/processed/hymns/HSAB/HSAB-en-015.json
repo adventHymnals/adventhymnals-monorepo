@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "farewell", "holiness", "unity", "Canaan"],
+    "themes": [
+      "second advent",
+      "farewell",
+      "holiness",
+      "unity",
+      "Canaan"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -24,8 +24,16 @@
   "metadata": {
     "year": null,
     "copyright": "Public Domain",
-    "themes": ["Child Dedication", "Parenting", "Family", "Commitment"],
-    "scripture_references": ["1 Samuel 1:27-28", "Proverbs 22:6"],
+    "themes": [
+      "Child Dedication",
+      "Parenting",
+      "Family",
+      "Commitment"
+    ],
+    "scripture_references": [
+      "1 Samuel 1:27-28",
+      "Proverbs 22:6"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

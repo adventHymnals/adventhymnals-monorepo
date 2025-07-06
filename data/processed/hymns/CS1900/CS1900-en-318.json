@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Jesus name", "love", "worship", "heaven"],
-    "scripture_references": ["Philippians 2:9-11"],
+    "themes": [
+      "Jesus name",
+      "love",
+      "worship",
+      "heaven"
+    ],
+    "scripture_references": [
+      "Philippians 2:9-11"
+    ],
     "tune_source": "W. B. Bradbury",
     "original_language": "en"
   }

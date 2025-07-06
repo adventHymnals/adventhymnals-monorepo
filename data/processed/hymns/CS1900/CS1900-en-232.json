@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1900, by W. H. DOANE. Used by permission.",
-    "themes": ["jesus", "christlike", "growth", "sanctification"],
+    "themes": [
+      "jesus",
+      "christlike",
+      "growth",
+      "sanctification"
+    ],
     "scripture_references": [],
     "tune_source": "W. H. DOANE",
     "original_language": "en"

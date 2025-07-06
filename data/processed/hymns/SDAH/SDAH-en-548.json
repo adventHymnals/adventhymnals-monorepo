@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1982,
     "copyright": "1982 Hope Publishing Co.",
-    "themes": ["praise", "life stages", "purpose", "service"],
+    "themes": [
+      "praise",
+      "life stages",
+      "purpose",
+      "service"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

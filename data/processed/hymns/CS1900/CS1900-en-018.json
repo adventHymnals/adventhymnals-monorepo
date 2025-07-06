@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1876, by W. A. Ogden",
-    "themes": ["calling", "shepherd", "tenderness", "home", "mercy", "pleading", "weary"],
-    "scripture_references": ["John 10:11"],
+    "themes": [
+      "calling",
+      "shepherd",
+      "tenderness",
+      "home",
+      "mercy",
+      "pleading",
+      "weary"
+    ],
+    "scripture_references": [
+      "John 10:11"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

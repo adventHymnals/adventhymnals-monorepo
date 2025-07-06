@@ -27,7 +27,11 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "Jesus' return", "kingdom of God"],
+    "themes": [
+      "second advent",
+      "Jesus' return",
+      "kingdom of God"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

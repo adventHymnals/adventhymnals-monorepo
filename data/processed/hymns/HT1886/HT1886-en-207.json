@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["ten commandments", "law of God", "sanctuary", "divine law", "permanence"],
-    "scripture_references": ["Exodus 31:18", "Revelation 11:19"],
+    "themes": [
+      "ten commandments",
+      "law of God",
+      "sanctuary",
+      "divine law",
+      "permanence"
+    ],
+    "scripture_references": [
+      "Exodus 31:18",
+      "Revelation 11:19"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

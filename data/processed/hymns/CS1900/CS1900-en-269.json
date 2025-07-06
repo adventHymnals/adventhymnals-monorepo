@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["God's love", "kindness", "redemption", "faithfulness"],
+    "themes": [
+      "God's love",
+      "kindness",
+      "redemption",
+      "faithfulness"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

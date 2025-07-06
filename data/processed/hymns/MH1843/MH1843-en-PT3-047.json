@@ -11,7 +11,7 @@
       "text": "I've found a Friend; oh, such a Friend! He loved me ere I knew Him; He drew me with the cords of love, And thus He bound me to Him. And 'round my heart still closely twine Those ties which naught can sever, For I am His, and He is mine, Forever and forever."
     },
     {
-      "number": "2", 
+      "number": "2",
       "text": "I've found a Friend; oh, such a Friend! He bled, He died to save me; And not alone the gift of life, But His own self He gave me. Naught that I have my own I call, I hold it for the Giver; My heart, my strength, my life, my all, Are His, and His forever."
     },
     {
@@ -29,7 +29,13 @@
   "composer": "",
   "author": "",
   "page": 186,
-  "themes": ["Friend", "Jesus", "Love", "Salvation", "Eternal Life"],
+  "themes": [
+    "Friend",
+    "Jesus",
+    "Love",
+    "Salvation",
+    "Eternal Life"
+  ],
   "key_signature": "Bb",
   "time_signature": "3/4"
 }

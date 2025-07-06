@@ -16,7 +16,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Divine Guidance", "Shepherd", "Spiritual Longing", "Protection"],
+    "themes": [
+      "Divine Guidance",
+      "Shepherd",
+      "Spiritual Longing",
+      "Protection"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "10s & 11s",
     "hymnal_context": "Millerite/Adventist movement hymnal",

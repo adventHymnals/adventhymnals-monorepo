@@ -16,8 +16,18 @@
   "metadata": {
     "year": 1400,
     "copyright": "Public Domain",
-    "themes": ["peace", "prayer", "Latin text", "divine petition", "worship"],
-    "scripture_references": ["John 14:27", "Numbers 6:26", "Philippians 4:7"],
+    "themes": [
+      "peace",
+      "prayer",
+      "Latin text",
+      "divine petition",
+      "worship"
+    ],
+    "scripture_references": [
+      "John 14:27",
+      "Numbers 6:26",
+      "Philippians 4:7"
+    ],
     "tune_source": "Traditional",
     "original_language": "la"
   }

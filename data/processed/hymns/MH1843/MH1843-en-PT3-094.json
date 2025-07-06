@@ -27,7 +27,16 @@
   "composer": "",
   "author": "",
   "page": 233,
-  "themes": ["Christ", "Glory", "Light", "Sun", "Righteousness", "Dayspring", "Daystar", "Heart"],
+  "themes": [
+    "Christ",
+    "Glory",
+    "Light",
+    "Sun",
+    "Righteousness",
+    "Dayspring",
+    "Daystar",
+    "Heart"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

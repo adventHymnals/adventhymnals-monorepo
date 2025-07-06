@@ -16,7 +16,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "truth", "love", "divine grace", "spiritual light"],
+    "themes": [
+      "Holy Spirit",
+      "truth",
+      "love",
+      "divine grace",
+      "spiritual light"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1858,
     "copyright": "Public Domain",
-    "themes": ["heaven", "home", "eternal life", "no death", "Father's house"],
-    "scripture_references": ["John 14:2", "2 Corinthians 5:1", "Revelation 21:4"],
+    "themes": [
+      "heaven",
+      "home",
+      "eternal life",
+      "no death",
+      "Father's house"
+    ],
+    "scripture_references": [
+      "John 14:2",
+      "2 Corinthians 5:1",
+      "Revelation 21:4"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

@@ -18,7 +18,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["King of Kings", "Second Coming", "Judgment", "Resurrection", "New Jerusalem"],
+    "themes": [
+      "King of Kings",
+      "Second Coming",
+      "Judgment",
+      "Resurrection",
+      "New Jerusalem"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "P. M. (Particular Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

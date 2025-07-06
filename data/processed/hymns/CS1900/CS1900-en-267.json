@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["discipleship", "following Jesus", "service", "trust"],
+    "themes": [
+      "discipleship",
+      "following Jesus",
+      "service",
+      "trust"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

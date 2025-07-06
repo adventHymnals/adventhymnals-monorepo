@@ -31,8 +31,17 @@
   "metadata": {
     "year": 1880,
     "copyright": "Public Domain",
-    "themes": ["refuge", "protection", "safety", "storms", "trust"],
-    "scripture_references": ["Psalm 61:2", "Isaiah 25:4"],
+    "themes": [
+      "refuge",
+      "protection",
+      "safety",
+      "storms",
+      "trust"
+    ],
+    "scripture_references": [
+      "Psalm 61:2",
+      "Isaiah 25:4"
+    ],
     "tune_source": "Ira D. Sankey",
     "original_language": "en"
   }

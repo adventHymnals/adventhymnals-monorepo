@@ -4,17 +4,36 @@
   "title": "Hark! th' Archangel's trump is sounding",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Hark! th' Archangel's trump is sounding, Solemn tones break on the ear; Louder now its echoes bounding, All the earth astonished hear: Hallelujah! Christ our Saviour doth appear."},
-    {"number": 2, "text": "See the righteous dead are waking, Coming forth from their abode; Light resplendent o'er them breaking— Jesus Christ appears their God: Hallelujah! They have found the promise true."},
-    {"number": 3, "text": "Now the happy throng in union Rise to meet their coming Lord; Joyfully they hail communion, Endless praise to their great reward. Hallelujah! Praise his gracious name and word."},
-    {"number": 4, "text": "Freed from every pain and sorrow, Every tear is wiped away; No forebodings of a morrow Dark and fearful—all is day! Day forever, With the saints, a blissful day."}
+    {
+      "number": 1,
+      "text": "Hark! th' Archangel's trump is sounding, Solemn tones break on the ear; Louder now its echoes bounding, All the earth astonished hear: Hallelujah! Christ our Saviour doth appear."
+    },
+    {
+      "number": 2,
+      "text": "See the righteous dead are waking, Coming forth from their abode; Light resplendent o'er them breaking— Jesus Christ appears their God: Hallelujah! They have found the promise true."
+    },
+    {
+      "number": 3,
+      "text": "Now the happy throng in union Rise to meet their coming Lord; Joyfully they hail communion, Endless praise to their great reward. Hallelujah! Praise his gracious name and word."
+    },
+    {
+      "number": 4,
+      "text": "Freed from every pain and sorrow, Every tear is wiped away; No forebodings of a morrow Dark and fearful—all is day! Day forever, With the saints, a blissful day."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["second coming", "resurrection", "trumpet", "joy", "freedom", "eternal day"],
+    "themes": [
+      "second coming",
+      "resurrection",
+      "trumpet",
+      "joy",
+      "freedom",
+      "eternal day"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "8s, 7s & 4s"

@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["morning prayer", "christ pleading", "spirit guide", "righteousness", "favor"],
+    "themes": [
+      "morning prayer",
+      "christ pleading",
+      "spirit guide",
+      "righteousness",
+      "favor"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's light", "divine guidance", "hope", "comfort", "God's mercy", "spiritual illumination"],
+    "themes": [
+      "God's light",
+      "divine guidance",
+      "hope",
+      "comfort",
+      "God's mercy",
+      "spiritual illumination"
+    ],
     "scripture_references": [],
     "tune_source": "Charles Wesley",
     "original_language": "en"

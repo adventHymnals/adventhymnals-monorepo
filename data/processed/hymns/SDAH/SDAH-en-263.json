@@ -33,7 +33,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Holy Spirit", "Fire of God", "Spiritual Renewal", "Divine Love"],
+    "themes": [
+      "Holy Spirit",
+      "Fire of God",
+      "Spiritual Renewal",
+      "Divine Love"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

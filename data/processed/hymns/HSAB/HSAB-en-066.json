@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["pilgrims", "city of god", "pearls and jasper", "rivers and trees", "glory of god"],
+    "themes": [
+      "pilgrims",
+      "city of god",
+      "pearls and jasper",
+      "rivers and trees",
+      "glory of god"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

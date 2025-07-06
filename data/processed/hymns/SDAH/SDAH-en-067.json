@@ -23,8 +23,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["Nunc Dimittis", "peace", "salvation", "light", "glory"],
-    "scripture_references": ["Luke 2:29-32"],
+    "themes": [
+      "Nunc Dimittis",
+      "peace",
+      "salvation",
+      "light",
+      "glory"
+    ],
+    "scripture_references": [
+      "Luke 2:29-32"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

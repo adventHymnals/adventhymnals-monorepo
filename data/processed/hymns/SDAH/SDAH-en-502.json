@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus", "comfort", "protection", "rest"],
+    "themes": [
+      "Jesus",
+      "comfort",
+      "protection",
+      "rest"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

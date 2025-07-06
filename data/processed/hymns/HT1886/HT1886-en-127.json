@@ -24,8 +24,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "praise", "Jesus Christ", "worthy the Lamb", "testimony", "heavenly choir"],
-    "scripture_references": ["Revelation 5:12"],
+    "themes": [
+      "worship",
+      "praise",
+      "Jesus Christ",
+      "worthy the Lamb",
+      "testimony",
+      "heavenly choir"
+    ],
+    "scripture_references": [
+      "Revelation 5:12"
+    ],
     "tune_source": "Felice Giardini",
     "original_language": "en"
   }

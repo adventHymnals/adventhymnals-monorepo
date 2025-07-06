@@ -24,8 +24,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "worship", "worthy the Lamb", "angels", "Jesus Christ", "heaven"],
-    "scripture_references": ["Revelation 5:11-12"],
+    "themes": [
+      "praise",
+      "worship",
+      "worthy the Lamb",
+      "angels",
+      "Jesus Christ",
+      "heaven"
+    ],
+    "scripture_references": [
+      "Revelation 5:11-12"
+    ],
     "tune_source": "57, 438, 254",
     "original_language": "en"
   }

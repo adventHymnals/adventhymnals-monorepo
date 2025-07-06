@@ -29,8 +29,16 @@
   "metadata": {
     "year": 1818,
     "copyright": null,
-    "themes": ["christmas", "peace", "nativity", "holy_night", "christ_child"],
-    "scripture_references": ["Luke 2:1-20"],
+    "themes": [
+      "christmas",
+      "peace",
+      "nativity",
+      "holy_night",
+      "christ_child"
+    ],
+    "scripture_references": [
+      "Luke 2:1-20"
+    ],
     "tune_source": "Austrian",
     "original_language": "de"
   }

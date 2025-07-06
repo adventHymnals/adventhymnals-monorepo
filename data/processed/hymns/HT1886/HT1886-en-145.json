@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "truth", "repentance", "spiritual renewal", "worship"],
+    "themes": [
+      "Holy Spirit",
+      "truth",
+      "repentance",
+      "spiritual renewal",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

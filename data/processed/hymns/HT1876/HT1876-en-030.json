@@ -18,7 +18,12 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["closing prayer", "guidance", "love", "faith"],
+    "themes": [
+      "closing prayer",
+      "guidance",
+      "love",
+      "faith"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

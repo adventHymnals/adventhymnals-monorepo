@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1863,
     "copyright": "Public Domain",
-    "themes": ["gathering", "scattered flock", "truth", "second coming", "commandments"],
-    "scripture_references": ["Ezekiel 34:11-16", "John 10:16", "Revelation 14:12"],
+    "themes": [
+      "gathering",
+      "scattered flock",
+      "truth",
+      "second coming",
+      "commandments"
+    ],
+    "scripture_references": [
+      "Ezekiel 34:11-16",
+      "John 10:16",
+      "Revelation 14:12"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

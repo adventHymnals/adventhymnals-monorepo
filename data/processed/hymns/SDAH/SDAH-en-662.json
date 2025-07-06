@@ -14,8 +14,16 @@
     }
   ],
   "metadata": {
-    "themes": ["reverence", "incarnation", "worship", "silence"],
-    "scripture_references": ["Habakkuk 2:20", "Zechariah 2:13"],
+    "themes": [
+      "reverence",
+      "incarnation",
+      "worship",
+      "silence"
+    ],
+    "scripture_references": [
+      "Habakkuk 2:20",
+      "Zechariah 2:13"
+    ],
     "copyright": "Public Domain"
   }
 }

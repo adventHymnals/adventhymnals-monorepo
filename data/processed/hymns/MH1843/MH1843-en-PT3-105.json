@@ -27,7 +27,16 @@
   "composer": "",
   "author": "",
   "page": 244,
-  "themes": ["Jesus", "Song", "Mercy", "Blessings", "Heart", "Praise", "Lamb", "Blood"],
+  "themes": [
+    "Jesus",
+    "Song",
+    "Mercy",
+    "Blessings",
+    "Heart",
+    "Praise",
+    "Lamb",
+    "Blood"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

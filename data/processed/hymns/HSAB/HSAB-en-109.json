@@ -18,7 +18,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Bible", "scripture", "word of God", "divine law", "truth", "immutable", "tradition"],
+    "themes": [
+      "Bible",
+      "scripture",
+      "word of God",
+      "divine law",
+      "truth",
+      "immutable",
+      "tradition"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

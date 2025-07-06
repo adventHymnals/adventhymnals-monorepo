@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1869,
     "copyright": "Public Domain",
-    "themes": ["devotion", "spiritual growth", "love for Christ", "prayer", "consecration"],
-    "scripture_references": ["John 21:15-17", "Matthew 22:37", "1 John 4:19"],
+    "themes": [
+      "devotion",
+      "spiritual growth",
+      "love for Christ",
+      "prayer",
+      "consecration"
+    ],
+    "scripture_references": [
+      "John 21:15-17",
+      "Matthew 22:37",
+      "1 John 4:19"
+    ],
     "tune_source": "William H. Doane",
     "original_language": "en"
   }

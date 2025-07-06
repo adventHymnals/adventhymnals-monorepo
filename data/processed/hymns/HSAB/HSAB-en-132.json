@@ -22,7 +22,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["baptism", "Jesus", "Jordan", "salvation", "obedience", "holy rite"],
+    "themes": [
+      "baptism",
+      "Jesus",
+      "Jordan",
+      "salvation",
+      "obedience",
+      "holy rite"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

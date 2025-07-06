@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1893, by F. E. Belden",
-    "themes": ["passover", "blood", "sacrifice", "lamb"],
-    "scripture_references": ["Exodus 12:13", "1 Corinthians 5:7"],
+    "themes": [
+      "passover",
+      "blood",
+      "sacrifice",
+      "lamb"
+    ],
+    "scripture_references": [
+      "Exodus 12:13",
+      "1 Corinthians 5:7"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en"
   }

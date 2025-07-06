@@ -27,7 +27,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["jesus_love", "children", "bible", "salvation", "devotion"],
+    "themes": [
+      "jesus_love",
+      "children",
+      "bible",
+      "salvation",
+      "devotion"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

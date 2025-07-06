@@ -20,8 +20,18 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["children", "little ones", "Jesus", "come", "love", "hands", "blessing"],
-    "scripture_references": ["Matt. 19:14"],
+    "themes": [
+      "children",
+      "little ones",
+      "Jesus",
+      "come",
+      "love",
+      "hands",
+      "blessing"
+    ],
+    "scripture_references": [
+      "Matt. 19:14"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

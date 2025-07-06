@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's presence", "word", "faith", "guidance", "Jesus"],
+    "themes": [
+      "God's presence",
+      "word",
+      "faith",
+      "guidance",
+      "Jesus"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

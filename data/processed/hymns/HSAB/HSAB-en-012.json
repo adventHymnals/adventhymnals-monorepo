@@ -34,7 +34,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "devotion", "persecution", "divine approval", "Charles Fitch"],
+    "themes": [
+      "second advent",
+      "devotion",
+      "persecution",
+      "divine approval",
+      "Charles Fitch"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

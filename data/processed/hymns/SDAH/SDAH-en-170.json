@@ -33,7 +33,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["resurrection", "Easter", "triumph", "praise"],
+    "themes": [
+      "resurrection",
+      "Easter",
+      "triumph",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1755,
     "copyright": "Public Domain",
-    "themes": ["consecration", "service", "devotion", "surrender"],
-    "scripture_references": ["Romans 12:1", "2 Corinthians 5:15"],
+    "themes": [
+      "consecration",
+      "service",
+      "devotion",
+      "surrender"
+    ],
+    "scripture_references": [
+      "Romans 12:1",
+      "2 Corinthians 5:15"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

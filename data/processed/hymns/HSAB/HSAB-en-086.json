@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["jesus my all", "holy prophets", "king's highway", "redeeming blood", "way to god"],
+    "themes": [
+      "jesus my all",
+      "holy prophets",
+      "king's highway",
+      "redeeming blood",
+      "way to god"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

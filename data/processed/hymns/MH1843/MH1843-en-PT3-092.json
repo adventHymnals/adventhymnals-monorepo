@@ -31,7 +31,16 @@
   "composer": "Eric H. Thiman",
   "author": "Fred Pratt Green",
   "page": 231,
-  "themes": ["King", "Blest", "God", "Humble", "Grace", "Power", "Light", "Free"],
+  "themes": [
+    "King",
+    "Blest",
+    "God",
+    "Humble",
+    "Grace",
+    "Power",
+    "Light",
+    "Free"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

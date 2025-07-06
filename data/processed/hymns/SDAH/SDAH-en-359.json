@@ -29,8 +29,17 @@
   "metadata": {
     "year": 1868,
     "copyright": null,
-    "themes": ["Mission", "Call to Service", "Evangelism", "Harvest"],
-    "scripture_references": ["Isaiah 6:8", "Matthew 9:37-38", "John 4:35"],
+    "themes": [
+      "Mission",
+      "Call to Service",
+      "Evangelism",
+      "Harvest"
+    ],
+    "scripture_references": [
+      "Isaiah 6:8",
+      "Matthew 9:37-38",
+      "John 4:35"
+    ],
     "tune_source": "John B. Calkin",
     "original_language": "en"
   }

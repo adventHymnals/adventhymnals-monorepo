@@ -27,8 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1896, by J. P. Holbrook",
-    "themes": ["evangelism", "missions", "spreading the gospel"],
-    "scripture_references": ["Mark 16:15"],
+    "themes": [
+      "evangelism",
+      "missions",
+      "spreading the gospel"
+    ],
+    "scripture_references": [
+      "Mark 16:15"
+    ],
     "tune_source": "J. P. Holbrook",
     "original_language": "en"
   }

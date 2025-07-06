@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Sufferings and Death", "crucifixion", "ransom", "blood", "forgiveness"],
+    "themes": [
+      "Christ",
+      "Sufferings and Death",
+      "crucifixion",
+      "ransom",
+      "blood",
+      "forgiveness"
+    ],
     "scripture_references": [],
     "tune_source": "846, 897, 703",
     "original_language": "en"

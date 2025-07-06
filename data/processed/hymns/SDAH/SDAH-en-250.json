@@ -37,7 +37,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Praise", "Thousand Tongues", "Redeemer", "Glory", "Jesus Christ"],
+    "themes": [
+      "Praise",
+      "Thousand Tongues",
+      "Redeemer",
+      "Glory",
+      "Jesus Christ"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

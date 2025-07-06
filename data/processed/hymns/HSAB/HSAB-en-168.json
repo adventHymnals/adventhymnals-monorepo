@@ -26,7 +26,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["expectation", "Second Coming", "resurrection", "judgment", "triumph", "peace", "bliss"],
+    "themes": [
+      "expectation",
+      "Second Coming",
+      "resurrection",
+      "judgment",
+      "triumph",
+      "peace",
+      "bliss"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

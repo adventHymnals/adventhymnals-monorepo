@@ -25,8 +25,18 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["evangelism", "missions", "salvation", "Emmanuel", "proclamation", "divine protection"],
-    "scripture_references": ["Matthew 28:19", "Mark 16:15"],
+    "themes": [
+      "evangelism",
+      "missions",
+      "salvation",
+      "Emmanuel",
+      "proclamation",
+      "divine protection"
+    ],
+    "scripture_references": [
+      "Matthew 28:19",
+      "Mark 16:15"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

@@ -18,7 +18,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Kingdom of God", "Millennium", "Universal Peace", "God's Reign"],
+    "themes": [
+      "Kingdom of God",
+      "Millennium",
+      "Universal Peace",
+      "God's Reign"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "L. M. (Long Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

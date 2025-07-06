@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1887,
     "copyright": "Public Domain",
-    "themes": ["trust", "divine support", "peace", "fellowship with God", "security"],
-    "scripture_references": ["Deuteronomy 33:27", "Psalm 91:1-2", "Isaiah 40:11"],
+    "themes": [
+      "trust",
+      "divine support",
+      "peace",
+      "fellowship with God",
+      "security"
+    ],
+    "scripture_references": [
+      "Deuteronomy 33:27",
+      "Psalm 91:1-2",
+      "Isaiah 40:11"
+    ],
     "tune_source": "Anthony J. Showalter",
     "original_language": "en"
   }

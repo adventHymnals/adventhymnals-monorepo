@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1893, by F. E. Belden",
-    "themes": ["judgment", "weighing", "balance", "warning"],
-    "scripture_references": ["Daniel 5:27"],
+    "themes": [
+      "judgment",
+      "weighing",
+      "balance",
+      "warning"
+    ],
+    "scripture_references": [
+      "Daniel 5:27"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en"
   }

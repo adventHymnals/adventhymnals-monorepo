@@ -36,8 +36,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["new year", "spiritual journey", "faithfulness", "talents", "finishing the work"],
-    "scripture_references": ["Matt 25:14-30", "2 Tim 4:7", "Matt 25:21"],
+    "themes": [
+      "new year",
+      "spiritual journey",
+      "faithfulness",
+      "talents",
+      "finishing the work"
+    ],
+    "scripture_references": [
+      "Matt 25:14-30",
+      "2 Tim 4:7",
+      "Matt 25:21"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

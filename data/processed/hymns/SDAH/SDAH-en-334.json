@@ -25,7 +25,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Blessing", "Grace", "Mercy", "Redemption", "Love"],
+    "themes": [
+      "Blessing",
+      "Grace",
+      "Mercy",
+      "Redemption",
+      "Love"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -18,7 +18,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["peace", "rest", "home", "joy", "sorrow turned to joy"],
+    "themes": [
+      "peace",
+      "rest",
+      "home",
+      "joy",
+      "sorrow turned to joy"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M. Double"

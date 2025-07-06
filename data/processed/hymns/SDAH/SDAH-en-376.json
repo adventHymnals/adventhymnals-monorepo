@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1872,
     "copyright": "Public Domain",
-    "themes": ["Dedication", "Stewardship", "God's Sovereignty", "Worship"],
-    "scripture_references": ["1 Chronicles 29:14", "Psalm 24:1"],
+    "themes": [
+      "Dedication",
+      "Stewardship",
+      "God's Sovereignty",
+      "Worship"
+    ],
+    "scripture_references": [
+      "1 Chronicles 29:14",
+      "Psalm 24:1"
+    ],
     "tune_source": "John B. Dykes, 1875",
     "original_language": "en"
   }

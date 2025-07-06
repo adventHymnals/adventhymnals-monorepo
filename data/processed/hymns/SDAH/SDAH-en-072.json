@@ -26,7 +26,11 @@
   },
   "metadata": {
     "year": 9,
-    "themes": ["Christ", "Creation", "Trinity"],
+    "themes": [
+      "Christ",
+      "Creation",
+      "Trinity"
+    ],
     "scripture_references": [],
     "tune_source": "Plainsong, Mode IV",
     "original_language": "la"

@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Jesus", "salvation", "glory", "love"],
+    "themes": [
+      "Jesus",
+      "salvation",
+      "glory",
+      "love"
+    ],
     "scripture_references": [],
     "tune_source": "J. H. Stockton",
     "original_language": "en"

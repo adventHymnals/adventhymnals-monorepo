@@ -19,8 +19,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "By permission of the John Church Co., owners of copyright",
-    "themes": ["jewels", "precious ones", "kingdom", "crown", "gathering"],
-    "scripture_references": ["Mal. 3:17"],
+    "themes": [
+      "jewels",
+      "precious ones",
+      "kingdom",
+      "crown",
+      "gathering"
+    ],
+    "scripture_references": [
+      "Mal. 3:17"
+    ],
     "tune_source": "Geo. F. Root",
     "original_language": "en"
   }

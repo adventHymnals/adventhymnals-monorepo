@@ -31,7 +31,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Great Physician", "Jesus", "Healing", "Sweet Name", "Glory"],
+    "themes": [
+      "Great Physician",
+      "Jesus",
+      "Healing",
+      "Sweet Name",
+      "Glory"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

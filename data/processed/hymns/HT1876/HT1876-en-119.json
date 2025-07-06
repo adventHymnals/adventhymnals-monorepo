@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["heart to praise", "sprinkled blood", "Redeemer's throne", "love divine", "new name"],
+    "themes": [
+      "heart to praise",
+      "sprinkled blood",
+      "Redeemer's throne",
+      "love divine",
+      "new name"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

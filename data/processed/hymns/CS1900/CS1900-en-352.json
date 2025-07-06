@@ -21,7 +21,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["jubilee", "freedom", "redemption"],
+    "themes": [
+      "jubilee",
+      "freedom",
+      "redemption"
+    ],
     "scripture_references": [],
     "tune_source": "H. J. Zelley",
     "original_language": "en"

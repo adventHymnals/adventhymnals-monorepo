@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1866,
     "copyright": "Public Domain",
-    "themes": ["Evangelism", "Lost Sheep", "Shepherd", "Mission"],
-    "scripture_references": ["Luke 15:3-7", "Matthew 18:12-14"],
+    "themes": [
+      "Evangelism",
+      "Lost Sheep",
+      "Shepherd",
+      "Mission"
+    ],
+    "scripture_references": [
+      "Luke 15:3-7",
+      "Matthew 18:12-14"
+    ],
     "tune_source": "Benjamin R. Hanby, 1866",
     "original_language": "en"
   }

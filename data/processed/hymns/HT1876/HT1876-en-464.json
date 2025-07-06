@@ -18,7 +18,12 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Jesus", "crowned", "world resign", "heaven"],
+    "themes": [
+      "Jesus",
+      "crowned",
+      "world resign",
+      "heaven"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "H. M.",

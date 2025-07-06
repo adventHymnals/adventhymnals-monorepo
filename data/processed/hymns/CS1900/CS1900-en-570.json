@@ -23,8 +23,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1900, by F. E. Belden",
-    "themes": ["second coming", "dawning", "waiting", "glory", "Jesus' return"],
-    "scripture_references": ["1 Cor. 1:7"],
+    "themes": [
+      "second coming",
+      "dawning",
+      "waiting",
+      "glory",
+      "Jesus' return"
+    ],
+    "scripture_references": [
+      "1 Cor. 1:7"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en"
   }

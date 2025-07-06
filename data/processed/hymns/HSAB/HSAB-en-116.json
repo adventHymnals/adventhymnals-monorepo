@@ -22,7 +22,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Sabbath", "peaceful morning", "worship", "holy rest", "spiritual nourishment", "praise"],
+    "themes": [
+      "Sabbath",
+      "peaceful morning",
+      "worship",
+      "holy rest",
+      "spiritual nourishment",
+      "praise"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

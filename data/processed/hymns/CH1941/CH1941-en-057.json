@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1870,
     "copyright": "Public Domain",
-    "themes": ["evening", "global church", "continuous worship", "God's kingdom"],
-    "scripture_references": ["Psalm 113:3", "Malachi 1:11"],
+    "themes": [
+      "evening",
+      "global church",
+      "continuous worship",
+      "God's kingdom"
+    ],
+    "scripture_references": [
+      "Psalm 113:3",
+      "Malachi 1:11"
+    ],
     "tune_source": "St. Clement, Clement Cotterill Scholefield, 1874",
     "original_language": "en"
   }

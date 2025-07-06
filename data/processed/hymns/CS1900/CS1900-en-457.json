@@ -23,8 +23,17 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["adoption", "inheritance", "children of God", "identity"],
-    "scripture_references": ["Romans 8:17", "Galatians 4:7", "1 John 3:1"],
+    "themes": [
+      "adoption",
+      "inheritance",
+      "children of God",
+      "identity"
+    ],
+    "scripture_references": [
+      "Romans 8:17",
+      "Galatians 4:7",
+      "1 John 3:1"
+    ],
     "tune_source": "Rev. John B. Sumner",
     "original_language": "en"
   }

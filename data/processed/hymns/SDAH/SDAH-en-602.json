@@ -26,8 +26,16 @@
     }
   ],
   "metadata": {
-    "themes": ["faithfulness", "encouragement", "second coming", "eternal life"],
-    "scripture_references": ["Matthew 25:23", "Revelation 22:12"],
+    "themes": [
+      "faithfulness",
+      "encouragement",
+      "second coming",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "Matthew 25:23",
+      "Revelation 22:12"
+    ],
     "copyright": "Public Domain"
   }
 }

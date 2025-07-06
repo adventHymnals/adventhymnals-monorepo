@@ -31,7 +31,16 @@
   "composer": "",
   "author": "",
   "page": 235,
-  "themes": ["Christ", "Foundation", "Cornerstone", "Church", "Lord", "Temple", "Glory", "Trinity"],
+  "themes": [
+    "Christ",
+    "Foundation",
+    "Cornerstone",
+    "Church",
+    "Lord",
+    "Temple",
+    "Glory",
+    "Trinity"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

@@ -25,8 +25,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["praise", "joy", "new song", "worship"],
-    "scripture_references": ["Psalm 98"],
+    "themes": [
+      "praise",
+      "joy",
+      "new song",
+      "worship"
+    ],
+    "scripture_references": [
+      "Psalm 98"
+    ],
     "tune_source": "E. E. Hewitt",
     "original_language": "en"
   }

@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["peace", "dove", "Jesus", "salvation"],
+    "themes": [
+      "peace",
+      "dove",
+      "Jesus",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": "Francis L. Huntington",
     "original_language": "en"

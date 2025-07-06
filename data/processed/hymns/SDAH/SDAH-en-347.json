@@ -33,8 +33,18 @@
   "metadata": {
     "year": 1837,
     "copyright": null,
-    "themes": ["Church", "Foundation", "Rock", "Temple", "Worship"],
-    "scripture_references": ["Matthew 16:18", "1 Corinthians 3:16", "Matthew 18:20"],
+    "themes": [
+      "Church",
+      "Foundation",
+      "Rock",
+      "Temple",
+      "Worship"
+    ],
+    "scripture_references": [
+      "Matthew 16:18",
+      "1 Corinthians 3:16",
+      "Matthew 18:20"
+    ],
     "tune_source": "Ludvig M. Lindeman",
     "original_language": "da"
   }

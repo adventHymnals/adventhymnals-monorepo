@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["prayer", "Sabbath", "divine guidance", "worship", "blessing"],
+    "themes": [
+      "prayer",
+      "Sabbath",
+      "divine guidance",
+      "worship",
+      "blessing"
+    ],
     "scripture_references": [],
     "tune_source": "Otto. 11s.",
     "original_language": "en"

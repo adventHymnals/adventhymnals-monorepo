@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Resurrection and Ascension", "morning", "angels", "triumph", "joy"],
+    "themes": [
+      "Christ",
+      "Resurrection and Ascension",
+      "morning",
+      "angels",
+      "triumph",
+      "joy"
+    ],
     "scripture_references": [],
     "tune_source": "108, 514, 562",
     "original_language": "en"

@@ -28,8 +28,15 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["morning prayer", "guidance", "trust", "protection"],
-    "scripture_references": ["Psalm 5"],
+    "themes": [
+      "morning prayer",
+      "guidance",
+      "trust",
+      "protection"
+    ],
+    "scripture_references": [
+      "Psalm 5"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

@@ -27,7 +27,13 @@
   "metadata": {
     "year": 1968,
     "copyright": "© 1968 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["modern_city", "urban_life", "human_dignity", "christ_presence", "social_concern"],
+    "themes": [
+      "modern_city",
+      "urban_life",
+      "human_dignity",
+      "christ_presence",
+      "social_concern"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

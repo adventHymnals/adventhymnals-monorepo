@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["gospel", "mercy", "wisdom", "comfort", "guidance"],
+    "themes": [
+      "gospel",
+      "mercy",
+      "wisdom",
+      "comfort",
+      "guidance"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

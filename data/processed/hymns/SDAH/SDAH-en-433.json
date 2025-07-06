@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1867,
     "copyright": "Public Domain",
-    "themes": ["heaven", "multitude", "victory", "triumph", "reunion"],
-    "scripture_references": ["Revelation 7:9", "Revelation 19:1", "Revelation 5:11"],
+    "themes": [
+      "heaven",
+      "multitude",
+      "victory",
+      "triumph",
+      "reunion"
+    ],
+    "scripture_references": [
+      "Revelation 7:9",
+      "Revelation 19:1",
+      "Revelation 5:11"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

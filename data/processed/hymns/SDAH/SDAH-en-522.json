@@ -31,8 +31,17 @@
   "metadata": {
     "year": 1834,
     "copyright": "Public Domain",
-    "themes": ["hope", "salvation", "foundation", "righteousness", "security"],
-    "scripture_references": ["1 Corinthians 3:11", "Matthew 7:24-25"],
+    "themes": [
+      "hope",
+      "salvation",
+      "foundation",
+      "righteousness",
+      "security"
+    ],
+    "scripture_references": [
+      "1 Corinthians 3:11",
+      "Matthew 7:24-25"
+    ],
     "tune_source": "William Bradbury",
     "original_language": "en"
   }

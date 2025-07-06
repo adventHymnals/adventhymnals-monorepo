@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["unity", "meeting", "peace", "love", "eternity"],
+    "themes": [
+      "unity",
+      "meeting",
+      "peace",
+      "love",
+      "eternity"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

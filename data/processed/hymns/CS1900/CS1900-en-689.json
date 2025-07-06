@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["heaven", "reunion", "eternal life", "hope"],
+    "themes": [
+      "heaven",
+      "reunion",
+      "eternal life",
+      "hope"
+    ],
     "scripture_references": [],
     "tune_source": "Hubert P. Main",
     "original_language": "en"

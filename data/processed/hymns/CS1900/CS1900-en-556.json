@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["burden", "trust", "sustenance", "promise"],
-    "scripture_references": ["Psalm 55:22"],
+    "themes": [
+      "burden",
+      "trust",
+      "sustenance",
+      "promise"
+    ],
+    "scripture_references": [
+      "Psalm 55:22"
+    ],
     "tune_source": "H. R. Palmer",
     "original_language": "en"
   }

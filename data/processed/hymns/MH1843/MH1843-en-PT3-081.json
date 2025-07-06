@@ -31,7 +31,15 @@
   "composer": "",
   "author": "",
   "page": 220,
-  "themes": ["Jesus", "Name", "Angels", "Crown", "Lord", "Seraphs", "Israel"],
+  "themes": [
+    "Jesus",
+    "Name",
+    "Angels",
+    "Crown",
+    "Lord",
+    "Seraphs",
+    "Israel"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

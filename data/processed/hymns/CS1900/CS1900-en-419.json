@@ -31,7 +31,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "By permission.",
-    "themes": ["prayer", "Jesus as friend", "comfort"],
+    "themes": [
+      "prayer",
+      "Jesus as friend",
+      "comfort"
+    ],
     "scripture_references": [],
     "tune_source": "J. E. Rankin",
     "original_language": "en"

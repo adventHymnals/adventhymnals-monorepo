@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["eternal life", "light", "peace", "redemption"],
+    "themes": [
+      "eternal life",
+      "light",
+      "peace",
+      "redemption"
+    ],
     "scripture_references": [],
     "tune_source": "Johnson",
     "original_language": "en"

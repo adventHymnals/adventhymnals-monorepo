@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["harvest", "missions", "evangelism", "workers"],
+    "themes": [
+      "harvest",
+      "missions",
+      "evangelism",
+      "workers"
+    ],
     "scripture_references": [],
     "tune_source": "E. O. Excell",
     "original_language": "en"

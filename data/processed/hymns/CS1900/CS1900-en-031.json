@@ -21,7 +21,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Music copyright, 1895, by F. E. Belden",
-    "themes": ["knocking", "waiting", "pilgrim", "door", "heart", "soul", "king"],
+    "themes": [
+      "knocking",
+      "waiting",
+      "pilgrim",
+      "door",
+      "heart",
+      "soul",
+      "king"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

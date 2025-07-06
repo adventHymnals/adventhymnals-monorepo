@@ -27,7 +27,15 @@
   "composer": "",
   "author": "",
   "page": 207,
-  "themes": ["Brethren", "Sisters", "Victory", "Battle", "Sword", "Faith", "Bride"],
+  "themes": [
+    "Brethren",
+    "Sisters",
+    "Victory",
+    "Battle",
+    "Sword",
+    "Faith",
+    "Bride"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

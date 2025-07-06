@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["pilgrimage", "temptation", "trials", "eternal rest", "persecution"],
-    "scripture_references": ["Heb 4:9-11", "Rev 14:13", "Matt 11:28-30"],
+    "themes": [
+      "pilgrimage",
+      "temptation",
+      "trials",
+      "eternal rest",
+      "persecution"
+    ],
+    "scripture_references": [
+      "Heb 4:9-11",
+      "Rev 14:13",
+      "Matt 11:28-30"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

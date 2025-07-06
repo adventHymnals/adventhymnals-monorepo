@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["new day", "opportunities", "service", "gratitude"],
+    "themes": [
+      "new day",
+      "opportunities",
+      "service",
+      "gratitude"
+    ],
     "scripture_references": [],
     "tune_source": "E. E. Excell",
     "original_language": "en"

@@ -4,15 +4,27 @@
   "title": "The Saviour comes, his advent's nigh",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "The Saviour comes, his advent's nigh; He soon will rend the azure sky, Descending swift to earth once more, When God shall dwell indeed with men."},
-    {"number": 2, "text": "Saints, lift your heads; that day is near When your Redeemer shall appear, To take his kingdom and the crown, And make his ransomed church his own."}
+    {
+      "number": 1,
+      "text": "The Saviour comes, his advent's nigh; He soon will rend the azure sky, Descending swift to earth once more, When God shall dwell indeed with men."
+    },
+    {
+      "number": 2,
+      "text": "Saints, lift your heads; that day is near When your Redeemer shall appear, To take his kingdom and the crown, And make his ransomed church his own."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["second coming", "descent", "kingdom", "redemption", "church"],
+    "themes": [
+      "second coming",
+      "descent",
+      "kingdom",
+      "redemption",
+      "church"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

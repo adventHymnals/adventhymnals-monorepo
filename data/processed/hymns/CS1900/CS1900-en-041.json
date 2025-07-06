@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["going", "following", "cross", "sacrifice", "Eden", "kingdom", "love"],
-    "scripture_references": ["Mark 10:21"],
+    "themes": [
+      "going",
+      "following",
+      "cross",
+      "sacrifice",
+      "Eden",
+      "kingdom",
+      "love"
+    ],
+    "scripture_references": [
+      "Mark 10:21"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

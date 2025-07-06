@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["joy", "worship", "Zion", "heaven", "praise"],
+    "themes": [
+      "joy",
+      "worship",
+      "Zion",
+      "heaven",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": "Warwick, Ralph Harrison",
     "original_language": "en"

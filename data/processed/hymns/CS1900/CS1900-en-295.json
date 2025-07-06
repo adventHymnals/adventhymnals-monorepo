@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["love for Jesus", "devotion", "salvation", "eternity"],
-    "scripture_references": ["1 John 4:19"],
+    "themes": [
+      "love for Jesus",
+      "devotion",
+      "salvation",
+      "eternity"
+    ],
+    "scripture_references": [
+      "1 John 4:19"
+    ],
     "tune_source": "A. J. Gordon",
     "original_language": "en"
   }

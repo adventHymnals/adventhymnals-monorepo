@@ -31,7 +31,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Holy Spirit", "Fill Me", "Hover", "Presence", "Comfort"],
+    "themes": [
+      "Holy Spirit",
+      "Fill Me",
+      "Hover",
+      "Presence",
+      "Comfort"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

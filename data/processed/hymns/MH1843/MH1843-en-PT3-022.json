@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Second Coming", "Clouds", "Triumph", "Majesty", "Recognition"],
+    "themes": [
+      "Second Coming",
+      "Clouds",
+      "Triumph",
+      "Majesty",
+      "Recognition"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "8.7.8.7. with Chorus",
     "hymnal_context": "Millerite/Adventist movement hymnal",

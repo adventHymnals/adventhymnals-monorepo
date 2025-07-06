@@ -32,8 +32,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["assurance", "foundation", "God's promises", "trials"],
-    "scripture_references": ["Isaiah 41:10", "Isaiah 43:2", "Hebrews 13:5"],
+    "themes": [
+      "assurance",
+      "foundation",
+      "God's promises",
+      "trials"
+    ],
+    "scripture_references": [
+      "Isaiah 41:10",
+      "Isaiah 43:2",
+      "Hebrews 13:5"
+    ],
     "tune_source": "Traditional American",
     "original_language": "en"
   }

@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Sufferings and Death", "wisdom", "love", "Adam", "redemption"],
+    "themes": [
+      "Christ",
+      "Sufferings and Death",
+      "wisdom",
+      "love",
+      "Adam",
+      "redemption"
+    ],
     "scripture_references": [],
     "tune_source": "175, 201, 474",
     "original_language": "en"

@@ -27,7 +27,13 @@
   "metadata": {
     "year": 1900,
     "copyright": "By permission of Dr. H. R. Palmer.",
-    "themes": ["Galilee", "memories", "Jesus", "rest", "peace"],
+    "themes": [
+      "Galilee",
+      "memories",
+      "Jesus",
+      "rest",
+      "peace"
+    ],
     "scripture_references": [],
     "tune_source": "H. R. Palmer",
     "original_language": "en"

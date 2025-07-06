@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["perseverance", "journey", "canaan", "obedience", "dedication"],
+    "themes": [
+      "perseverance",
+      "journey",
+      "canaan",
+      "obedience",
+      "dedication"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

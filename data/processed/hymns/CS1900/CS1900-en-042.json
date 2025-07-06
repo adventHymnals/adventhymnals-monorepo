@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1885. Used by permission",
-    "themes": ["water", "fountain", "living waters", "thirst", "desert", "refreshment", "Rock of Ages"],
-    "scripture_references": ["Rev. 21:6"],
+    "themes": [
+      "water",
+      "fountain",
+      "living waters",
+      "thirst",
+      "desert",
+      "refreshment",
+      "Rock of Ages"
+    ],
+    "scripture_references": [
+      "Rev. 21:6"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

@@ -30,7 +30,16 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Lord's Supper", "communion", "grief", "suffering", "faith", "hope", "love", "obedience"],
+    "themes": [
+      "Lord's Supper",
+      "communion",
+      "grief",
+      "suffering",
+      "faith",
+      "hope",
+      "love",
+      "obedience"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

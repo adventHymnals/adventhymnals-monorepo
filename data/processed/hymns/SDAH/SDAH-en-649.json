@@ -26,8 +26,16 @@
     }
   ],
   "metadata": {
-    "themes": ["national prayer", "peace", "protection", "unity"],
-    "scripture_references": ["Psalm 33:12", "1 Timothy 2:1-2"],
+    "themes": [
+      "national prayer",
+      "peace",
+      "protection",
+      "unity"
+    ],
+    "scripture_references": [
+      "Psalm 33:12",
+      "1 Timothy 2:1-2"
+    ],
     "copyright": "Public Domain"
   }
 }

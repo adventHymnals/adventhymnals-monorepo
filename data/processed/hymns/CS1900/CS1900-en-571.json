@@ -23,8 +23,16 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["nearness to home", "heaven", "mansions", "Jesus", "cross"],
-    "scripture_references": ["Matt. 16:13"],
+    "themes": [
+      "nearness to home",
+      "heaven",
+      "mansions",
+      "Jesus",
+      "cross"
+    ],
+    "scripture_references": [
+      "Matt. 16:13"
+    ],
     "tune_source": "Philip Phillips",
     "original_language": "en"
   }

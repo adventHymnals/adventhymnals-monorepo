@@ -25,7 +25,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["communion", "sacrifice", "unity", "remembrance"],
+    "themes": [
+      "communion",
+      "sacrifice",
+      "unity",
+      "remembrance"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

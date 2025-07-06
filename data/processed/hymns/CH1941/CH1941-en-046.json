@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "praise", "eternal joy"],
-    "scripture_references": ["Psalm 92", "Psalm 147:1"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "praise",
+      "eternal joy"
+    ],
+    "scripture_references": [
+      "Psalm 92",
+      "Psalm 147:1"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

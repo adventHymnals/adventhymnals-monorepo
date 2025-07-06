@@ -34,7 +34,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "little flock", "protection", "signs", "warfare"],
+    "themes": [
+      "second advent",
+      "little flock",
+      "protection",
+      "signs",
+      "warfare"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

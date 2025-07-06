@@ -4,17 +4,37 @@
   "title": "Why should we tremble to convey",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Why should we tremble to convey The Christian to the tomb? There once the flesh of Jesus lay, And left a long perfume."},
-    {"number": 2, "text": "The graves of all the saints he blest, And softened every bed; Where should the dying members rest, But with their dying Head?"},
-    {"number": 3, "text": "Thence he arose, ascending high, And showed our feet the way; Up to the Lord we all shall fly At the great rising day."},
-    {"number": 4, "text": "Then let the last, loud trumpet sound, And bid our kindred rise; Awake, ye nations under ground; Ye saints, ascend the skies."}
+    {
+      "number": 1,
+      "text": "Why should we tremble to convey The Christian to the tomb? There once the flesh of Jesus lay, And left a long perfume."
+    },
+    {
+      "number": 2,
+      "text": "The graves of all the saints he blest, And softened every bed; Where should the dying members rest, But with their dying Head?"
+    },
+    {
+      "number": 3,
+      "text": "Thence he arose, ascending high, And showed our feet the way; Up to the Lord we all shall fly At the great rising day."
+    },
+    {
+      "number": 4,
+      "text": "Then let the last, loud trumpet sound, And bid our kindred rise; Awake, ye nations under ground; Ye saints, ascend the skies."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["death", "burial", "resurrection", "Jesus' tomb", "saints", "second coming", "rising day"],
+    "themes": [
+      "death",
+      "burial",
+      "resurrection",
+      "Jesus' tomb",
+      "saints",
+      "second coming",
+      "rising day"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

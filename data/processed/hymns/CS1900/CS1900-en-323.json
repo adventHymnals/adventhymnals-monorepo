@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["security", "Jesus blood", "righteousness", "foundation"],
-    "scripture_references": ["Matthew 7:24-25"],
+    "themes": [
+      "security",
+      "Jesus blood",
+      "righteousness",
+      "foundation"
+    ],
+    "scripture_references": [
+      "Matthew 7:24-25"
+    ],
     "tune_source": "Wm. B. Bradbury",
     "original_language": "en"
   }

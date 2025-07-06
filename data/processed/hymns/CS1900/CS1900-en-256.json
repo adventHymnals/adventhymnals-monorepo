@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Jesus as King", "coronation", "worship", "praise"],
+    "themes": [
+      "Jesus as King",
+      "coronation",
+      "worship",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": "Oliver Holden",
     "original_language": "en"

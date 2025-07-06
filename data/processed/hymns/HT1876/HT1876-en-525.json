@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["God's ways", "mysterious ways", "providence", "faith", "trust"],
+    "themes": [
+      "God's ways",
+      "mysterious ways",
+      "providence",
+      "faith",
+      "trust"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

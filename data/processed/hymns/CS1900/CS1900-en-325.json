@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["heaven", "home", "communion", "comfort"],
-    "scripture_references": ["John 14:2"],
+    "themes": [
+      "heaven",
+      "home",
+      "communion",
+      "comfort"
+    ],
+    "scripture_references": [
+      "John 14:2"
+    ],
     "tune_source": "J. Sweet",
     "original_language": "en"
   }

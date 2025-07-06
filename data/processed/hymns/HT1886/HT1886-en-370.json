@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ as the Way", "Christ as Truth", "Christ as Life", "salvation", "eternal life"],
-    "scripture_references": ["John 14:6", "John 11:25"],
+    "themes": [
+      "Christ as the Way",
+      "Christ as Truth",
+      "Christ as Life",
+      "salvation",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "John 14:6",
+      "John 11:25"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

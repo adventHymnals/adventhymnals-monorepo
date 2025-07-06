@@ -24,8 +24,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "invitation", "rest", "thirst", "light", "comfort"],
-    "scripture_references": ["Matthew 11:28"],
+    "themes": [
+      "Jesus Christ",
+      "invitation",
+      "rest",
+      "thirst",
+      "light",
+      "comfort"
+    ],
+    "scripture_references": [
+      "Matthew 11:28"
+    ],
     "tune_source": "Louis Spohr",
     "original_language": "en",
     "extraction_status": "completed"

@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1816,
     "copyright": "Public Domain",
-    "themes": ["Christmas", "nativity", "angels", "worship"],
-    "scripture_references": ["Luke 2:8-14", "Matthew 2:1-12"],
+    "themes": [
+      "Christmas",
+      "nativity",
+      "angels",
+      "worship"
+    ],
+    "scripture_references": [
+      "Luke 2:8-14",
+      "Matthew 2:1-12"
+    ],
     "tune_source": "Regent Square, Henry Smart, 1867",
     "original_language": "en"
   }

@@ -26,7 +26,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["gabriel's trump", "jubilee", "jerusalem", "zion", "bridegroom", "home"],
+    "themes": [
+      "gabriel's trump",
+      "jubilee",
+      "jerusalem",
+      "zion",
+      "bridegroom",
+      "home"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

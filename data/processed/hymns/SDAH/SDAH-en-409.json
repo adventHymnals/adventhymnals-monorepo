@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["communion", "invitation", "second_coming", "spiritual_nourishment"],
+    "themes": [
+      "communion",
+      "invitation",
+      "second_coming",
+      "spiritual_nourishment"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

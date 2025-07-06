@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["heavenly music", "angels", "jordan river", "heavenly chorus", "longing for heaven"],
-    "scripture_references": ["Rev 5:8-12", "Josh 3:14-17", "Rev 14:2-3"],
+    "themes": [
+      "heavenly music",
+      "angels",
+      "jordan river",
+      "heavenly chorus",
+      "longing for heaven"
+    ],
+    "scripture_references": [
+      "Rev 5:8-12",
+      "Josh 3:14-17",
+      "Rev 14:2-3"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

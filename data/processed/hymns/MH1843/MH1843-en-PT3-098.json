@@ -31,7 +31,16 @@
   "composer": "",
   "author": "",
   "page": 237,
-  "themes": ["Cross", "Christ", "Glory", "Light", "Peace", "Joy", "Love", "Time"],
+  "themes": [
+    "Cross",
+    "Christ",
+    "Glory",
+    "Light",
+    "Peace",
+    "Joy",
+    "Love",
+    "Time"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

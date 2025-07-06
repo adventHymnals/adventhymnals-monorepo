@@ -33,8 +33,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["worship", "praise", "blessing", "adoration"],
-    "scripture_references": ["Nehemiah 9:5"],
+    "themes": [
+      "worship",
+      "praise",
+      "blessing",
+      "adoration"
+    ],
+    "scripture_references": [
+      "Nehemiah 9:5"
+    ],
     "tune_source": "Samuel J. Potter",
     "original_language": "en"
   }

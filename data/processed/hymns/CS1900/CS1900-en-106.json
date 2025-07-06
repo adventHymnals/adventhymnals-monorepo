@@ -27,8 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["cleansing", "purity", "blood of Christ"],
-    "scripture_references": ["1 John 1:7"],
+    "themes": [
+      "cleansing",
+      "purity",
+      "blood of Christ"
+    ],
+    "scripture_references": [
+      "1 John 1:7"
+    ],
     "tune_source": "J. H. Stockton",
     "original_language": "en",
     "verse_count": 3,

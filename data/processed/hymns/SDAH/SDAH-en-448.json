@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1800,
     "copyright": "Public Domain",
-    "themes": ["seeing Jesus", "trumpet sound", "eternal life", "spiritual warfare", "glory"],
-    "scripture_references": ["1 Thessalonians 4:16", "1 Corinthians 15:52", "Revelation 19:6-7"],
+    "themes": [
+      "seeing Jesus",
+      "trumpet sound",
+      "eternal life",
+      "spiritual warfare",
+      "glory"
+    ],
+    "scripture_references": [
+      "1 Thessalonians 4:16",
+      "1 Corinthians 15:52",
+      "Revelation 19:6-7"
+    ],
     "tune_source": "American Folk Hymn",
     "original_language": "en"
   }

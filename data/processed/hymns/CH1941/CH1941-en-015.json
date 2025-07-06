@@ -28,8 +28,16 @@
   "metadata": {
     "year": 820,
     "copyright": "Public Domain",
-    "themes": ["Palm Sunday", "worship", "Christ the King", "praise"],
-    "scripture_references": ["Matthew 21:9", "Mark 11:9-10"],
+    "themes": [
+      "Palm Sunday",
+      "worship",
+      "Christ the King",
+      "praise"
+    ],
+    "scripture_references": [
+      "Matthew 21:9",
+      "Mark 11:9-10"
+    ],
     "tune_source": "St. Theodulph, Melchior Teschner, 1615",
     "original_language": "la",
     "translator": "John Mason Neale"

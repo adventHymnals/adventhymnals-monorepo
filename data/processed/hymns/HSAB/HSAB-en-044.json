@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["victory", "title", "heaven", "peace", "overcoming"],
+    "themes": [
+      "victory",
+      "title",
+      "heaven",
+      "peace",
+      "overcoming"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

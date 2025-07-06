@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["saviour near", "watching", "waiting", "second coming", "joy"],
+    "themes": [
+      "saviour near",
+      "watching",
+      "waiting",
+      "second coming",
+      "joy"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

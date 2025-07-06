@@ -4,17 +4,35 @@
   "title": "Holy Bible! book divine!",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Holy Bible! book divine! Precious treasure, thou art mine ! Mine, to tell me whence I came; Mine, to teach me what I am."},
-    {"number": 2, "text": "Mine, to chide me when I rove; Mine, to show a Savior's love; Mine, art thou to guide my feet; Mine, to judge, condemn, acquit."},
-    {"number": 3, "text": "Mine, to comfort in distress, If the Holy Spirit bless; Mine, to show, by living faith, Man can triumph over death."},
-    {"number": 4, "text": "Mine, to tell of joys to come, And the rebel sinner's doom; O thou precious Book divine, Precious treasure, thou art mine !"}
+    {
+      "number": 1,
+      "text": "Holy Bible! book divine! Precious treasure, thou art mine ! Mine, to tell me whence I came; Mine, to teach me what I am."
+    },
+    {
+      "number": 2,
+      "text": "Mine, to chide me when I rove; Mine, to show a Savior's love; Mine, art thou to guide my feet; Mine, to judge, condemn, acquit."
+    },
+    {
+      "number": 3,
+      "text": "Mine, to comfort in distress, If the Holy Spirit bless; Mine, to show, by living faith, Man can triumph over death."
+    },
+    {
+      "number": 4,
+      "text": "Mine, to tell of joys to come, And the rebel sinner's doom; O thou precious Book divine, Precious treasure, thou art mine !"
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Bible", "Scripture", "God's word", "salvation", "guidance"],
+    "themes": [
+      "Bible",
+      "Scripture",
+      "God's word",
+      "salvation",
+      "guidance"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "7s"

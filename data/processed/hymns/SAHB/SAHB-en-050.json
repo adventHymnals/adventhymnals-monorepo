@@ -27,7 +27,11 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["King of Glory", "gates", "Lord of hosts"],
+    "themes": [
+      "King of Glory",
+      "gates",
+      "Lord of hosts"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

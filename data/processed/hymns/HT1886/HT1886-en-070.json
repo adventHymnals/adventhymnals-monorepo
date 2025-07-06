@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's love", "worship", "praise", "mercy", "grace"],
+    "themes": [
+      "God's love",
+      "worship",
+      "praise",
+      "mercy",
+      "grace"
+    ],
     "scripture_references": [],
     "tune_source": "Zorah, Guillaume Franc",
     "original_language": "en"

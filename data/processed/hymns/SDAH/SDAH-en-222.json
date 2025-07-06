@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1806,
     "copyright": "Public Domain",
-    "themes": ["Praise", "Kingship of Christ", "Heaven", "Glory"],
-    "scripture_references": ["Revelation 5:11-13", "Revelation 19:6"],
+    "themes": [
+      "Praise",
+      "Kingship of Christ",
+      "Heaven",
+      "Glory"
+    ],
+    "scripture_references": [
+      "Revelation 5:11-13",
+      "Revelation 19:6"
+    ],
     "tune_source": "Lowell Mason, 1832",
     "original_language": "en"
   }

@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["convert", "thoughtful heart", "eternal things", "judgment day", "holy trembling"],
+    "themes": [
+      "convert",
+      "thoughtful heart",
+      "eternal things",
+      "judgment day",
+      "holy trembling"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "6. P. M."

@@ -35,7 +35,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["nativity", "shepherds", "angels", "Christ's birth"],
+    "themes": [
+      "nativity",
+      "shepherds",
+      "angels",
+      "Christ's birth"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

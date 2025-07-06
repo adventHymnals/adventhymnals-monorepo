@@ -25,7 +25,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["King of Glory", "Peace", "Love", "Praise", "Worship"],
+    "themes": [
+      "King of Glory",
+      "Peace",
+      "Love",
+      "Praise",
+      "Worship"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

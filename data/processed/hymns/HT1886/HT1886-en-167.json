@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["prayer", "Holy Spirit", "heavenly Father", "divine grace", "blessing", "praise"],
+    "themes": [
+      "prayer",
+      "Holy Spirit",
+      "heavenly Father",
+      "divine grace",
+      "blessing",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": "Zebulon, H. M., Lowell Mason",
     "original_language": "en"

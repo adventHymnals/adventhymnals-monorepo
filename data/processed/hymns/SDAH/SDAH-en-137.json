@@ -35,8 +35,17 @@
   "metadata": {
     "year": 1857,
     "copyright": null,
-    "themes": ["christmas", "wise_men", "gifts", "star", "worship", "epiphany"],
-    "scripture_references": ["Matthew 2:1-12"],
+    "themes": [
+      "christmas",
+      "wise_men",
+      "gifts",
+      "star",
+      "worship",
+      "epiphany"
+    ],
+    "scripture_references": [
+      "Matthew 2:1-12"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

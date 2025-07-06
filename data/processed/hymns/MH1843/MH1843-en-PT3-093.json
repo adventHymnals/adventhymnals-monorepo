@@ -35,7 +35,16 @@
   "composer": "",
   "author": "",
   "page": 232,
-  "themes": ["Jesus", "Name", "King", "Glory", "Father", "Lord", "Creation", "Angels"],
+  "themes": [
+    "Jesus",
+    "Name",
+    "King",
+    "Glory",
+    "Father",
+    "Lord",
+    "Creation",
+    "Angels"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

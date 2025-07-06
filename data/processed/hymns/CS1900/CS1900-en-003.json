@@ -27,7 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by arr. with The Biglow & Main Co'y owners of copyright",
-    "themes": ["Jesus", "love", "children", "Bible", "assurance", "salvation"],
+    "themes": [
+      "Jesus",
+      "love",
+      "children",
+      "Bible",
+      "assurance",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

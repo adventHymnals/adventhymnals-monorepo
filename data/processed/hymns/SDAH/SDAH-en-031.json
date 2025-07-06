@@ -28,8 +28,14 @@
   "metadata": {
     "year": 1962,
     "copyright": "Words © 1962, Ren. 1990 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission",
-    "themes": ["praise", "worship", "testimony"],
-    "scripture_references": ["Luke 1:46-55"],
+    "themes": [
+      "praise",
+      "worship",
+      "testimony"
+    ],
+    "scripture_references": [
+      "Luke 1:46-55"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

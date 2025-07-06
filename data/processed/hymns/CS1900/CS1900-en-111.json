@@ -31,7 +31,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["dependence on Christ", "prayer", "communion"],
+    "themes": [
+      "dependence on Christ",
+      "prayer",
+      "communion"
+    ],
     "scripture_references": [],
     "tune_source": "Robert Lowry",
     "original_language": "en",

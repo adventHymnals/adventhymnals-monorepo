@@ -29,7 +29,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Holy Spirit", "consecration", "divine presence"],
+    "themes": [
+      "Holy Spirit",
+      "consecration",
+      "divine presence"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

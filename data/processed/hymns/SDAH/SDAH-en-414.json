@@ -29,7 +29,11 @@
   "metadata": {
     "year": 1984,
     "copyright": "© 1984 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["Fruit of the Spirit", "Spiritual Growth", "Christian Living"],
+    "themes": [
+      "Fruit of the Spirit",
+      "Spiritual Growth",
+      "Christian Living"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["guidance", "trust", "leadership", "God's care"],
+    "themes": [
+      "guidance",
+      "trust",
+      "leadership",
+      "God's care"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

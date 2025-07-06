@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1903,
     "copyright": "Public Domain",
-    "themes": ["eternal life", "death", "comfort", "resurrection"],
-    "scripture_references": ["John 11:25-26", "Colossians 3:3"],
+    "themes": [
+      "eternal life",
+      "death",
+      "comfort",
+      "resurrection"
+    ],
+    "scripture_references": [
+      "John 11:25-26",
+      "Colossians 3:3"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

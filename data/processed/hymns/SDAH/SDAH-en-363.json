@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1961,
     "copyright": "© 1961 Albert F. Bayly",
-    "themes": ["Service", "Compassion", "Social Justice", "Worship"],
-    "scripture_references": ["Matthew 25:35-40", "Luke 4:18-19"],
+    "themes": [
+      "Service",
+      "Compassion",
+      "Social Justice",
+      "Worship"
+    ],
+    "scripture_references": [
+      "Matthew 25:35-40",
+      "Luke 4:18-19"
+    ],
     "tune_source": "Traditional Welsh Melody",
     "original_language": "en"
   }

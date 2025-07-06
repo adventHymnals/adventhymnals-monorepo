@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's grace", "divine providence", "God's guidance", "mercy", "peace", "trust"],
+    "themes": [
+      "God's grace",
+      "divine providence",
+      "God's guidance",
+      "mercy",
+      "peace",
+      "trust"
+    ],
     "scripture_references": [],
     "tune_source": "Uxbridge, Lowell Mason",
     "original_language": "en"

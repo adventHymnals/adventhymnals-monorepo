@@ -20,7 +20,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["shepherd", "guidance", "pastoral care", "divine love"],
+    "themes": [
+      "shepherd",
+      "guidance",
+      "pastoral care",
+      "divine love"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

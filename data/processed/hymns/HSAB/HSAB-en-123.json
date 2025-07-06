@@ -22,7 +22,16 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Sabbath", "welcome", "rest", "hope", "love", "glory", "Spirit", "holy fire"],
+    "themes": [
+      "Sabbath",
+      "welcome",
+      "rest",
+      "hope",
+      "love",
+      "glory",
+      "Spirit",
+      "holy fire"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

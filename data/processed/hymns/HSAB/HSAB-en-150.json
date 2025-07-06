@@ -33,7 +33,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["resurrection", "Second Coming", "righteous crown", "saints", "glorious hope"],
+    "themes": [
+      "resurrection",
+      "Second Coming",
+      "righteous crown",
+      "saints",
+      "glorious hope"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

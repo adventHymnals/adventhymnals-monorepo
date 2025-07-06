@@ -22,7 +22,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["New Jerusalem", "City of God", "heaven", "eternal home", "reunification", "no more death"],
+    "themes": [
+      "New Jerusalem",
+      "City of God",
+      "heaven",
+      "eternal home",
+      "reunification",
+      "no more death"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

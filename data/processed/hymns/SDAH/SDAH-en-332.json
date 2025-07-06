@@ -31,7 +31,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Salvation", "Blood of Christ", "Cleansing", "Sanctification", "Grace"],
+    "themes": [
+      "Salvation",
+      "Blood of Christ",
+      "Cleansing",
+      "Sanctification",
+      "Grace"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["second coming", "crowns", "saints", "bride of Christ"],
+    "themes": [
+      "second coming",
+      "crowns",
+      "saints",
+      "bride of Christ"
+    ],
     "scripture_references": [],
     "tune_source": "Mrs. E. R. Latta",
     "original_language": "en"

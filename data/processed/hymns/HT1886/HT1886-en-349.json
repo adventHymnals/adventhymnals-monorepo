@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Mediation and Atonement", "judgment", "destiny", "mercy", "victory"],
+    "themes": [
+      "Christ",
+      "Mediation and Atonement",
+      "judgment",
+      "destiny",
+      "mercy",
+      "victory"
+    ],
     "scripture_references": [],
     "tune_source": "1266, 616.",
     "original_language": "en"

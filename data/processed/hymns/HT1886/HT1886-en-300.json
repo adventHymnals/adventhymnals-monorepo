@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Christmas", "Jerusalem", "triumph", "salvation", "joy"],
+    "themes": [
+      "Christ",
+      "Christmas",
+      "Jerusalem",
+      "triumph",
+      "salvation",
+      "joy"
+    ],
     "scripture_references": [],
     "tune_source": "Avison, C. Avison",
     "original_language": "en"

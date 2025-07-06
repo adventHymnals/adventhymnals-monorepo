@@ -26,8 +26,17 @@
     }
   ],
   "metadata": {
-    "themes": ["spiritual warfare", "perseverance", "trust", "faith"],
-    "scripture_references": ["1 Timothy 6:12", "1 Corinthians 9:24", "Philippians 3:14"],
+    "themes": [
+      "spiritual warfare",
+      "perseverance",
+      "trust",
+      "faith"
+    ],
+    "scripture_references": [
+      "1 Timothy 6:12",
+      "1 Corinthians 9:24",
+      "Philippians 3:14"
+    ],
     "copyright": "Public Domain"
   }
 }

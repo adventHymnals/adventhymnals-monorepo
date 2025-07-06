@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's glory", "divine greatness", "God's power", "divine wisdom", "God's unchanging nature"],
+    "themes": [
+      "God's glory",
+      "divine greatness",
+      "God's power",
+      "divine wisdom",
+      "God's unchanging nature"
+    ],
     "scripture_references": [],
     "tune_source": "Isaac Watts",
     "original_language": "en"

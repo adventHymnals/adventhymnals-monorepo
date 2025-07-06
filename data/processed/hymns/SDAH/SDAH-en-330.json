@@ -33,7 +33,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Consecration", "Surrender", "Discipleship", "Service", "Love"],
+    "themes": [
+      "Consecration",
+      "Surrender",
+      "Discipleship",
+      "Service",
+      "Love"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

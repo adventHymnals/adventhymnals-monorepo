@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1878, by John J. Hood. Used by permission of E. O. Excell, owner",
-    "themes": ["invitation", "stranger", "door", "heart", "Jesus", "welcome"],
-    "scripture_references": ["Rev. 3:20"],
+    "themes": [
+      "invitation",
+      "stranger",
+      "door",
+      "heart",
+      "Jesus",
+      "welcome"
+    ],
+    "scripture_references": [
+      "Rev. 3:20"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

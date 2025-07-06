@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["longing", "kingdom", "temptation", "glory", "heaven"],
+    "themes": [
+      "longing",
+      "kingdom",
+      "temptation",
+      "glory",
+      "heaven"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -32,8 +32,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["creation", "Sabbath", "God's law", "ten commandments", "sanctification"],
-    "scripture_references": ["Genesis 2:2-3", "Exodus 20:8-11"],
+    "themes": [
+      "creation",
+      "Sabbath",
+      "God's law",
+      "ten commandments",
+      "sanctification"
+    ],
+    "scripture_references": [
+      "Genesis 2:2-3",
+      "Exodus 20:8-11"
+    ],
     "tune_source": "Lenox. H. M.",
     "original_language": "en"
   }

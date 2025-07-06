@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["Kingship of Christ", "Global Mission", "Eternal Reign", "Praise"],
-    "scripture_references": ["Psalm 72:8", "Psalm 72:11"],
+    "themes": [
+      "Kingship of Christ",
+      "Global Mission",
+      "Eternal Reign",
+      "Praise"
+    ],
+    "scripture_references": [
+      "Psalm 72:8",
+      "Psalm 72:11"
+    ],
     "tune_source": "John Hatton, 1793",
     "original_language": "en"
   }

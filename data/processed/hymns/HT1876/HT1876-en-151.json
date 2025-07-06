@@ -4,17 +4,35 @@
   "title": "Buried beneath the yielding wave",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Buried beneath the yielding wave, The great Redeemer lies; Faith views him in the watery grave, And thence beholds him rise."},
-    {"number": 2, "text": "Thus do those willing souls, to-day, Their ardent zeal express, And in the Lord's appointed way, Fulfill all righteousness."},
-    {"number": 3, "text": "With joy we in his footsteps tread, And would his cause maintain,— Like him be numbered with the dead, And with him rise and reign."},
-    {"number": 4, "text": "His presence oft revives our hearts, And drives our fears away; When he commands, and strength imparts, We cheerfully obey."}
+    {
+      "number": 1,
+      "text": "Buried beneath the yielding wave, The great Redeemer lies; Faith views him in the watery grave, And thence beholds him rise."
+    },
+    {
+      "number": 2,
+      "text": "Thus do those willing souls, to-day, Their ardent zeal express, And in the Lord's appointed way, Fulfill all righteousness."
+    },
+    {
+      "number": 3,
+      "text": "With joy we in his footsteps tread, And would his cause maintain,— Like him be numbered with the dead, And with him rise and reign."
+    },
+    {
+      "number": 4,
+      "text": "His presence oft revives our hearts, And drives our fears away; When he commands, and strength imparts, We cheerfully obey."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["baptism", "Jesus", "death and resurrection", "obedience", "faith"],
+    "themes": [
+      "baptism",
+      "Jesus",
+      "death and resurrection",
+      "obedience",
+      "faith"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

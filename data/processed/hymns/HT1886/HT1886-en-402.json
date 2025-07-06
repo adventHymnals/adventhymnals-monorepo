@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["faithfulness", "provision", "nature", "hope"],
-    "scripture_references": ["Lamentations 3:22-23", "James 1:17"],
+    "themes": [
+      "faithfulness",
+      "provision",
+      "nature",
+      "hope"
+    ],
+    "scripture_references": [
+      "Lamentations 3:22-23",
+      "James 1:17"
+    ],
     "tune_source": "William Runyan",
     "original_language": "en"
   }

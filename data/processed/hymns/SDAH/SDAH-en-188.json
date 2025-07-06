@@ -37,7 +37,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["jesus_love", "sacrifice", "crucifixion", "salvation", "devotion"],
+    "themes": [
+      "jesus_love",
+      "sacrifice",
+      "crucifixion",
+      "salvation",
+      "devotion"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

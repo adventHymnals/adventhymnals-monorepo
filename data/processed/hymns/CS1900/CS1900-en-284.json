@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["love", "praise", "Jesus", "devotion"],
-    "scripture_references": ["John 3:16"],
+    "themes": [
+      "love",
+      "praise",
+      "Jesus",
+      "devotion"
+    ],
+    "scripture_references": [
+      "John 3:16"
+    ],
     "tune_source": "Dr. Croft",
     "original_language": "en"
   }

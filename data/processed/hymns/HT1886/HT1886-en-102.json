@@ -20,8 +20,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "love of Christ", "longing for Christ", "prayer"],
-    "scripture_references": ["Malachi 4:2"],
+    "themes": [
+      "Jesus Christ",
+      "love of Christ",
+      "longing for Christ",
+      "prayer"
+    ],
+    "scripture_references": [
+      "Malachi 4:2"
+    ],
     "tune_source": "744",
     "original_language": "en"
   }

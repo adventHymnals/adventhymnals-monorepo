@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["faith", "Jesus", "dependence on God", "salvation", "atonement"],
+    "themes": [
+      "faith",
+      "Jesus",
+      "dependence on God",
+      "salvation",
+      "atonement"
+    ],
     "scripture_references": [],
     "tune_source": "Downs, Lowell Mason",
     "original_language": "en"

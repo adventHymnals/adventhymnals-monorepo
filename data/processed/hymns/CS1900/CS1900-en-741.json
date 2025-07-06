@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["heaven", "comfort", "no sorrow", "eternal joy"],
+    "themes": [
+      "heaven",
+      "comfort",
+      "no sorrow",
+      "eternal joy"
+    ],
     "scripture_references": [],
     "tune_source": "J. A. Duchan",
     "original_language": "en"

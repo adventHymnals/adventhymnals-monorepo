@@ -29,7 +29,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["dedication", "consecration", "divine purpose"],
+    "themes": [
+      "dedication",
+      "consecration",
+      "divine purpose"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

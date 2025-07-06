@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Wake", "Bridegroom", "Preparation", "Marriage Supper"],
+    "themes": [
+      "Wake",
+      "Bridegroom",
+      "Preparation",
+      "Marriage Supper"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

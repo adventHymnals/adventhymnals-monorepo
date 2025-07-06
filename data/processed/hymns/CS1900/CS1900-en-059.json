@@ -29,8 +29,18 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Gethsemane", "suffering", "prayer", "Jesus Christ", "passion"],
-    "scripture_references": ["Matthew 26:36-46", "Mark 14:32-42", "Luke 22:39-46"],
+    "themes": [
+      "Gethsemane",
+      "suffering",
+      "prayer",
+      "Jesus Christ",
+      "passion"
+    ],
+    "scripture_references": [
+      "Matthew 26:36-46",
+      "Mark 14:32-42",
+      "Luke 22:39-46"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

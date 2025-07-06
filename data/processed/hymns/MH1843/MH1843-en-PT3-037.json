@@ -18,7 +18,14 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Jesus' Reign", "Universal Kingdom", "Eternal Worship", "Blessings", "Healing Power", "Freedom from Death"],
+    "themes": [
+      "Jesus' Reign",
+      "Universal Kingdom",
+      "Eternal Worship",
+      "Blessings",
+      "Healing Power",
+      "Freedom from Death"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "L.M. (Long Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

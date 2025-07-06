@@ -40,8 +40,16 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["Millerite movement", "1843-1844 dates", "Second Advent", "Great Disappointment"],
-    "scripture_references": ["Matthew 25:1-13", "Revelation 19:7-9"],
+    "themes": [
+      "Millerite movement",
+      "1843-1844 dates",
+      "Second Advent",
+      "Great Disappointment"
+    ],
+    "scripture_references": [
+      "Matthew 25:1-13",
+      "Revelation 19:7-9"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Reflects the Millerite experience and reinterpretation post-1844",

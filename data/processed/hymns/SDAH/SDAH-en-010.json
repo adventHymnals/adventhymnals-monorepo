@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1843,
     "copyright": "Public Domain",
-    "themes": ["praise", "worship", "joy", "eternal"],
-    "scripture_references": ["Psalm 95:1-2", "Revelation 19:6"],
+    "themes": [
+      "praise",
+      "worship",
+      "joy",
+      "eternal"
+    ],
+    "scripture_references": [
+      "Psalm 95:1-2",
+      "Revelation 19:6"
+    ],
     "tune_source": "Traditional Spanish melody",
     "original_language": "en"
   }

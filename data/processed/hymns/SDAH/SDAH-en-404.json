@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1968,
     "copyright": "Words © 1968 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["communion", "service", "discipleship", "mission"],
+    "themes": [
+      "communion",
+      "service",
+      "discipleship",
+      "mission"
+    ],
     "scripture_references": [],
     "tune_source": "Grenoble Antiphoner",
     "original_language": "en"

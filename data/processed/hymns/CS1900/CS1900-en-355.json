@@ -29,7 +29,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["praise", "truth", "Christ the King"],
+    "themes": [
+      "praise",
+      "truth",
+      "Christ the King"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

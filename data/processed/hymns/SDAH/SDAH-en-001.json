@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1680,
     "copyright": "Public Domain",
-    "themes": ["praise", "worship", "creation", "providence"],
-    "scripture_references": ["Psalm 103:1-5", "Psalm 150"],
+    "themes": [
+      "praise",
+      "worship",
+      "creation",
+      "providence"
+    ],
+    "scripture_references": [
+      "Psalm 103:1-5",
+      "Psalm 150"
+    ],
     "tune_source": "Stralsund Gesangbuch, 1665",
     "original_language": "de",
     "translator": "Catherine Winkworth"

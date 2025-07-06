@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["blessing", "dismissal", "joy", "peace"],
+    "themes": [
+      "blessing",
+      "dismissal",
+      "joy",
+      "peace"
+    ],
     "scripture_references": [],
     "tune_source": "Sicilian",
     "original_language": "en"

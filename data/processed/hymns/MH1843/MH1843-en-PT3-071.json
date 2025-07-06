@@ -31,7 +31,15 @@
   "composer": "",
   "author": "",
   "page": 211,
-  "themes": ["Jehovah", "Throne", "Nations", "Worship", "God", "Praise", "Truth"],
+  "themes": [
+    "Jehovah",
+    "Throne",
+    "Nations",
+    "Worship",
+    "God",
+    "Praise",
+    "Truth"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

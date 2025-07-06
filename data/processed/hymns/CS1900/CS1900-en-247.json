@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "From \"Glad Tidings\" by per. of Gospel Advocate Publishing Co.",
-    "themes": ["nature", "lilies", "God's care", "prayer"],
-    "scripture_references": ["Matthew 6:28-29"],
+    "themes": [
+      "nature",
+      "lilies",
+      "God's care",
+      "prayer"
+    ],
+    "scripture_references": [
+      "Matthew 6:28-29"
+    ],
     "tune_source": "Anita Corey",
     "original_language": "en"
   }

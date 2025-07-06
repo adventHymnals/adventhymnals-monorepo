@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Scripture", "divine revelation", "spiritual treasure", "salvation", "eternal life"],
+    "themes": [
+      "Scripture",
+      "divine revelation",
+      "spiritual treasure",
+      "salvation",
+      "eternal life"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

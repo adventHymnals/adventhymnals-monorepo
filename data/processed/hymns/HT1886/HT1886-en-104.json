@@ -32,8 +32,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "adoration of Christ", "Jesus Christ", "worthy the Lamb", "praise", "redemption"],
-    "scripture_references": ["Revelation 5:12"],
+    "themes": [
+      "worship",
+      "adoration of Christ",
+      "Jesus Christ",
+      "worthy the Lamb",
+      "praise",
+      "redemption"
+    ],
+    "scripture_references": [
+      "Revelation 5:12"
+    ],
     "tune_source": "Russia",
     "original_language": "en"
   }

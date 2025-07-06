@@ -33,8 +33,15 @@
     "text": "All things bright and beautiful,\nAll creatures great and small,\nAll things wise and wonderful,\nThe Lord God made them all."
   },
   "metadata": {
-    "themes": ["Creation", "Nature", "God's Work", "Children"],
-    "scripture_references": ["Genesis 1"],
+    "themes": [
+      "Creation",
+      "Nature",
+      "God's Work",
+      "Children"
+    ],
+    "scripture_references": [
+      "Genesis 1"
+    ],
     "tune_source": "Royal Oak",
     "original_language": "en"
   }

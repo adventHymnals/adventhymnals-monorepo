@@ -29,8 +29,15 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["praise", "worship", "God's goodness", "thanksgiving"],
-    "scripture_references": ["Psalm 100"],
+    "themes": [
+      "praise",
+      "worship",
+      "God's goodness",
+      "thanksgiving"
+    ],
+    "scripture_references": [
+      "Psalm 100"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

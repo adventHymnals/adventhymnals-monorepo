@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1869,
     "copyright": "Public Domain",
-    "themes": ["Mission", "Evangelism", "Christ for the World", "Healing"],
-    "scripture_references": ["Matthew 28:19", "John 3:16"],
+    "themes": [
+      "Mission",
+      "Evangelism",
+      "Christ for the World",
+      "Healing"
+    ],
+    "scripture_references": [
+      "Matthew 28:19",
+      "John 3:16"
+    ],
     "tune_source": "Felice de Giardini, 1769",
     "original_language": "en"
   }

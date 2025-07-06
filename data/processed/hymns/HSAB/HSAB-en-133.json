@@ -18,7 +18,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["baptism", "obedience", "vows", "sacred rite", "strength"],
+    "themes": [
+      "baptism",
+      "obedience",
+      "vows",
+      "sacred rite",
+      "strength"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

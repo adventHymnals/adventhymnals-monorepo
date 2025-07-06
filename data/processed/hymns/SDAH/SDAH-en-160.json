@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Palm Sunday", "triumph", "majesty", "sacrifice"],
+    "themes": [
+      "Palm Sunday",
+      "triumph",
+      "majesty",
+      "sacrifice"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

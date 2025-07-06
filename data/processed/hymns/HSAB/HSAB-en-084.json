@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["jubilee", "sins washed", "perfect day", "satan's kingdom", "saints in glory"],
+    "themes": [
+      "jubilee",
+      "sins washed",
+      "perfect day",
+      "satan's kingdom",
+      "saints in glory"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

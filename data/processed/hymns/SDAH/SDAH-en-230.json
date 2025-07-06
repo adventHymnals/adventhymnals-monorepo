@@ -27,8 +27,16 @@
   "metadata": {
     "year": 820,
     "copyright": "Public Domain",
-    "themes": ["Palm Sunday", "Triumphal Entry", "Kingship", "Praise"],
-    "scripture_references": ["Matthew 21:9", "Mark 11:9-10"],
+    "themes": [
+      "Palm Sunday",
+      "Triumphal Entry",
+      "Kingship",
+      "Praise"
+    ],
+    "scripture_references": [
+      "Matthew 21:9",
+      "Mark 11:9-10"
+    ],
     "tune_source": "Melchior Teschner, 1615",
     "original_language": "la"
   }

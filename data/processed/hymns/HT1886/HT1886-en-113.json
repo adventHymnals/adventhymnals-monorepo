@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "worship", "Jesus Christ", "testimony", "singing", "trust"],
+    "themes": [
+      "praise",
+      "worship",
+      "Jesus Christ",
+      "testimony",
+      "singing",
+      "trust"
+    ],
     "scripture_references": [],
     "tune_source": "436, 114, 227",
     "original_language": "en"

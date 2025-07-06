@@ -24,8 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["warning", "judgment", "repentance"],
-    "scripture_references": ["Malachi 3:2"],
+    "themes": [
+      "warning",
+      "judgment",
+      "repentance"
+    ],
+    "scripture_references": [
+      "Malachi 3:2"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

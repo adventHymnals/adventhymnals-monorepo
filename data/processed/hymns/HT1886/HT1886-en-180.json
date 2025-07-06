@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Scripture", "divine revelation", "spiritual light", "God's word", "truth"],
+    "themes": [
+      "Scripture",
+      "divine revelation",
+      "spiritual light",
+      "God's word",
+      "truth"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "First Advent", "Christmas", "angels", "glory", "peace"],
+    "themes": [
+      "Christ",
+      "First Advent",
+      "Christmas",
+      "angels",
+      "glory",
+      "peace"
+    ],
     "scripture_references": [],
     "tune_source": "Herald Angels, 7s. D.",
     "original_language": "en"

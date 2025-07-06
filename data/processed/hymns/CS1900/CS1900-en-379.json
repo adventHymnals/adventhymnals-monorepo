@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["dedication", "service", "love", "commitment"],
+    "themes": [
+      "dedication",
+      "service",
+      "love",
+      "commitment"
+    ],
     "scripture_references": [],
     "tune_source": "Rev. Robert Lowry",
     "original_language": "en"

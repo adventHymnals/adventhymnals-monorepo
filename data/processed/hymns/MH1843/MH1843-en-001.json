@@ -14,7 +14,11 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Second Coming", "Longing for Christ", "Advent Hope"],
+    "themes": [
+      "Second Coming",
+      "Longing for Christ",
+      "Advent Hope"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "None specified",
     "hymnal_context": "Millerite/Adventist movement hymnal",

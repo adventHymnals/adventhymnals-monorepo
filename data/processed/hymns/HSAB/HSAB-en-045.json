@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["triumph", "praise", "throne", "reign", "glory"],
+    "themes": [
+      "triumph",
+      "praise",
+      "throne",
+      "reign",
+      "glory"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

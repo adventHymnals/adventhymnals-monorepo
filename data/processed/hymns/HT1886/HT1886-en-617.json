@@ -24,7 +24,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christian warfare", "perseverance", "heaven"],
+    "themes": [
+      "Christian warfare",
+      "perseverance",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": "London, Ernest Radford",
     "original_language": "en"

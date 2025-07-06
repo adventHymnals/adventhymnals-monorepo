@@ -27,8 +27,17 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["salvation", "story", "cross", "intercession", "surrender"],
-    "scripture_references": ["1 Timothy 1:15", "Hebrews 7:25"],
+    "themes": [
+      "salvation",
+      "story",
+      "cross",
+      "intercession",
+      "surrender"
+    ],
+    "scripture_references": [
+      "1 Timothy 1:15",
+      "Hebrews 7:25"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

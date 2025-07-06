@@ -4,16 +4,31 @@
   "title": "Away my unbelieving fear!",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Away my unbelieving fear! Fear shall in me no more have place; My Saviour doth not yet appear; He hides the brightness of his face: But shall I therefore let him go, And basely to the tempter yield? No, in the strength of Jesus, no, I never will give up my shield."},
-    {"number": 2, "text": "Although the vine its fruit deny, Though the olive yield no oil, The withering fig trees from the sky, The fields elude the tiller's toil, The empty stall no herd afford, And perish all the bleating race, Yet I will triumph in the Lord, The God of my salvation praise."},
-    {"number": 3, "text": "Barren although my soul remain, And not one bud of grace appear, No fruit of all my toil and pain, Yet will I cleave to Christ more near; My blooming hopes cut off I see, Yet will I in my Saviour trust, And glory that he died for me."}
+    {
+      "number": 1,
+      "text": "Away my unbelieving fear! Fear shall in me no more have place; My Saviour doth not yet appear; He hides the brightness of his face: But shall I therefore let him go, And basely to the tempter yield? No, in the strength of Jesus, no, I never will give up my shield."
+    },
+    {
+      "number": 2,
+      "text": "Although the vine its fruit deny, Though the olive yield no oil, The withering fig trees from the sky, The fields elude the tiller's toil, The empty stall no herd afford, And perish all the bleating race, Yet I will triumph in the Lord, The God of my salvation praise."
+    },
+    {
+      "number": 3,
+      "text": "Barren although my soul remain, And not one bud of grace appear, No fruit of all my toil and pain, Yet will I cleave to Christ more near; My blooming hopes cut off I see, Yet will I in my Saviour trust, And glory that he died for me."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["faith over fear", "trust", "perseverance", "salvation", "hope"],
+    "themes": [
+      "faith over fear",
+      "trust",
+      "perseverance",
+      "salvation",
+      "hope"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M. Double"

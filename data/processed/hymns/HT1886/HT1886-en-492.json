@@ -16,7 +16,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "From 'Songs of Triumph,' by per.",
-    "themes": ["service", "devotion", "discipleship"],
+    "themes": [
+      "service",
+      "devotion",
+      "discipleship"
+    ],
     "scripture_references": [],
     "tune_source": "W. J. Kirkpatrick",
     "original_language": "en",

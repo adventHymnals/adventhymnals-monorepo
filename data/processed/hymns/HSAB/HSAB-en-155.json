@@ -26,7 +26,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["faithfulness", "Second Coming", "perseverance", "reward", "eternity", "crown", "victory"],
+    "themes": [
+      "faithfulness",
+      "Second Coming",
+      "perseverance",
+      "reward",
+      "eternity",
+      "crown",
+      "victory"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

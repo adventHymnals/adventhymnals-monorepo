@@ -31,7 +31,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895, by Thos. J. Kirkpatrick. Used by permission.",
-    "themes": ["salvation", "forgiveness", "redemption"],
+    "themes": [
+      "salvation",
+      "forgiveness",
+      "redemption"
+    ],
     "scripture_references": [],
     "tune_source": "J. B. Pounds",
     "original_language": "en"

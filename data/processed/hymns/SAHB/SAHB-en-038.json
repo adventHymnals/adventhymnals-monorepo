@@ -27,7 +27,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["cross", "sacrifice", "love", "devotion"],
+    "themes": [
+      "cross",
+      "sacrifice",
+      "love",
+      "devotion"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -29,8 +29,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["gratitude", "stewardship", "service", "tithing"],
-    "scripture_references": ["Malachi 3:10", "2 Corinthians 9:7"],
+    "themes": [
+      "gratitude",
+      "stewardship",
+      "service",
+      "tithing"
+    ],
+    "scripture_references": [
+      "Malachi 3:10",
+      "2 Corinthians 9:7"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

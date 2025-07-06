@@ -4,14 +4,22 @@
   "title": "Newell",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "What poor despised company Of travelers are these, Who walk in yonder narrow way, Along the rugged maze? Along the rugged maze?"}
+    {
+      "number": 1,
+      "text": "What poor despised company Of travelers are these, Who walk in yonder narrow way, Along the rugged maze? Along the rugged maze?"
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["travelers", "narrow way", "rugged maze", "despised company"],
+    "themes": [
+      "travelers",
+      "narrow way",
+      "rugged maze",
+      "despised company"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

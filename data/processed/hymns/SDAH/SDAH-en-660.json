@@ -14,8 +14,16 @@
     }
   ],
   "metadata": {
-    "themes": ["doxology", "Trinity", "praise", "glory"],
-    "scripture_references": ["Matthew 28:19", "Ephesians 3:21"],
+    "themes": [
+      "doxology",
+      "Trinity",
+      "praise",
+      "glory"
+    ],
+    "scripture_references": [
+      "Matthew 28:19",
+      "Ephesians 3:21"
+    ],
     "copyright": "Public Domain"
   }
 }

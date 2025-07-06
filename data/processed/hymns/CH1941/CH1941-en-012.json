@@ -20,8 +20,16 @@
   "metadata": {
     "year": 1680,
     "copyright": "Public Domain",
-    "themes": ["praise", "creation", "providence", "worship"],
-    "scripture_references": ["Psalm 103:1-5", "Psalm 150"],
+    "themes": [
+      "praise",
+      "creation",
+      "providence",
+      "worship"
+    ],
+    "scripture_references": [
+      "Psalm 103:1-5",
+      "Psalm 150"
+    ],
     "tune_source": "Lobe den Herren, Stralsund Gesangbuch, 1665",
     "original_language": "de",
     "translator": "Catherine Winkworth"

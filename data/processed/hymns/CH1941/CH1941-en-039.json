@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["morning prayer", "worship", "seeking God", "holiness"],
-    "scripture_references": ["Psalm 5", "Psalm 143:8"],
+    "themes": [
+      "morning prayer",
+      "worship",
+      "seeking God",
+      "holiness"
+    ],
+    "scripture_references": [
+      "Psalm 5",
+      "Psalm 143:8"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

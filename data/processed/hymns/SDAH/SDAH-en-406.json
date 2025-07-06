@@ -25,8 +25,15 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["love", "service", "humility", "communion"],
-    "scripture_references": ["John 13"],
+    "themes": [
+      "love",
+      "service",
+      "humility",
+      "communion"
+    ],
+    "scripture_references": [
+      "John 13"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

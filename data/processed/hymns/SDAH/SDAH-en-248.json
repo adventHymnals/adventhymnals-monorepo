@@ -27,7 +27,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus Christ", "Love", "Name", "Savior", "Music"],
+    "themes": [
+      "Jesus Christ",
+      "Love",
+      "Name",
+      "Savior",
+      "Music"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["spiritual rest", "worldly vanity", "eternal life", "heaven", "Christ as the Way"],
-    "scripture_references": ["Matthew 11:28", "John 14:6", "1 John 5:11-12"],
+    "themes": [
+      "spiritual rest",
+      "worldly vanity",
+      "eternal life",
+      "heaven",
+      "Christ as the Way"
+    ],
+    "scripture_references": [
+      "Matthew 11:28",
+      "John 14:6",
+      "1 John 5:11-12"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

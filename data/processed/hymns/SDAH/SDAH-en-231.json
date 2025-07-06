@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1974,
     "copyright": "© 1974 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["Kingship of Christ", "Humility", "Service", "Palm Sunday"],
-    "scripture_references": ["Matthew 21:9", "Matthew 11:28-30"],
+    "themes": [
+      "Kingship of Christ",
+      "Humility",
+      "Service",
+      "Palm Sunday"
+    ],
+    "scripture_references": [
+      "Matthew 21:9",
+      "Matthew 11:28-30"
+    ],
     "tune_source": "Eric H. Thiman",
     "original_language": "en"
   }

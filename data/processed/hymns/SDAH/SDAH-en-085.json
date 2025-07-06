@@ -26,8 +26,16 @@
     }
   ],
   "metadata": {
-    "themes": ["Trinity", "Protection", "Sea", "Travel", "Navy"],
-    "scripture_references": ["Matthew 8:23-27"],
+    "themes": [
+      "Trinity",
+      "Protection",
+      "Sea",
+      "Travel",
+      "Navy"
+    ],
+    "scripture_references": [
+      "Matthew 8:23-27"
+    ],
     "tune_source": "Melita",
     "original_language": "en"
   }

@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["joy", "thanksgiving", "worship", "praise", "God's goodness", "devotion"],
+    "themes": [
+      "joy",
+      "thanksgiving",
+      "worship",
+      "praise",
+      "God's goodness",
+      "devotion"
+    ],
     "scripture_references": [],
     "tune_source": "Thanksgiving, F. E. Beldin",
     "original_language": "en"

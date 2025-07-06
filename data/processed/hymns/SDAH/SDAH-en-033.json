@@ -28,8 +28,15 @@
   "metadata": {
     "year": 1973,
     "copyright": "Words © 1973 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission. Music © 1973 The Jubilate Group, Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission",
-    "themes": ["praise", "new song", "worship"],
-    "scripture_references": ["Psalm 96", "Psalm 98"],
+    "themes": [
+      "praise",
+      "new song",
+      "worship"
+    ],
+    "scripture_references": [
+      "Psalm 96",
+      "Psalm 98"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

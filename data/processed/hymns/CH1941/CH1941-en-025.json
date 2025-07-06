@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1755,
     "copyright": "Public Domain",
-    "themes": ["worship", "gathering", "blessing", "spiritual renewal"],
-    "scripture_references": ["Psalm 122:1", "Hebrews 10:25"],
+    "themes": [
+      "worship",
+      "gathering",
+      "blessing",
+      "spiritual renewal"
+    ],
+    "scripture_references": [
+      "Psalm 122:1",
+      "Hebrews 10:25"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

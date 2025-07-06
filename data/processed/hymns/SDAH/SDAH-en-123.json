@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1860,
     "copyright": "Public Domain",
-    "themes": ["Epiphany", "Wise Men", "Star of Bethlehem", "Worship"],
-    "scripture_references": ["Matthew 2:1-12"],
+    "themes": [
+      "Epiphany",
+      "Wise Men",
+      "Star of Bethlehem",
+      "Worship"
+    ],
+    "scripture_references": [
+      "Matthew 2:1-12"
+    ],
     "tune_source": "Conrad Kocher, 1838",
     "original_language": "en"
   }

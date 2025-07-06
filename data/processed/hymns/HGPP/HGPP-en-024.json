@@ -32,8 +32,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["second coming", "prayer", "martyrdom", "persecution", "kingdom of God"],
-    "scripture_references": ["Rev 6:9-11", "Matt 6:10", "Rev 11:15"],
+    "themes": [
+      "second coming",
+      "prayer",
+      "martyrdom",
+      "persecution",
+      "kingdom of God"
+    ],
+    "scripture_references": [
+      "Rev 6:9-11",
+      "Matt 6:10",
+      "Rev 11:15"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

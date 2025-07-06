@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Resurrection and Ascension", "angels", "triumph", "glory", "victory"],
+    "themes": [
+      "Christ",
+      "Resurrection and Ascension",
+      "angels",
+      "triumph",
+      "glory",
+      "victory"
+    ],
     "scripture_references": [],
     "tune_source": "18, 97, 407.",
     "original_language": "en"

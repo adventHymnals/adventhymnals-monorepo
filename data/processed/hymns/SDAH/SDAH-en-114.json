@@ -29,8 +29,16 @@
   "metadata": {
     "year": 1862,
     "copyright": "Public Domain",
-    "themes": ["God's Mercy", "God's Love", "Grace", "Forgiveness"],
-    "scripture_references": ["Ephesians 2:4-7", "1 John 4:16"],
+    "themes": [
+      "God's Mercy",
+      "God's Love",
+      "Grace",
+      "Forgiveness"
+    ],
+    "scripture_references": [
+      "Ephesians 2:4-7",
+      "1 John 4:16"
+    ],
     "tune_source": "Lizzie S. Tourjée, 1877",
     "original_language": "en"
   }

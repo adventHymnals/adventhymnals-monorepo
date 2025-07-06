@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["God's glory", "divine attributes", "comfort", "refuge"],
-    "scripture_references": ["Psalm 36:5-9"],
+    "themes": [
+      "God's glory",
+      "divine attributes",
+      "comfort",
+      "refuge"
+    ],
+    "scripture_references": [
+      "Psalm 36:5-9"
+    ],
     "tune_source": "J. H. Stockton",
     "original_language": "en"
   }

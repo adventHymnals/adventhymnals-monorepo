@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1773,
     "copyright": "Public Domain",
-    "themes": ["dismissal", "blessing", "journey", "eternal life"],
-    "scripture_references": ["Numbers 6:24-26", "2 Corinthians 13:14"],
+    "themes": [
+      "dismissal",
+      "blessing",
+      "journey",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "Numbers 6:24-26",
+      "2 Corinthians 13:14"
+    ],
     "tune_source": "Italian Hymn, Felice de Giardini, 1769",
     "original_language": "en"
   }

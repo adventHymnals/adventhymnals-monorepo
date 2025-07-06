@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1858,
     "copyright": "Public Domain",
-    "themes": ["heaven", "Jerusalem", "glory", "eternal joy", "paradise"],
-    "scripture_references": ["Revelation 21:2", "Hebrews 12:22", "Revelation 7:9-10"],
+    "themes": [
+      "heaven",
+      "Jerusalem",
+      "glory",
+      "eternal joy",
+      "paradise"
+    ],
+    "scripture_references": [
+      "Revelation 21:2",
+      "Hebrews 12:22",
+      "Revelation 7:9-10"
+    ],
     "tune_source": "Traditional",
     "original_language": "la"
   }

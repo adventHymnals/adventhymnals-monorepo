@@ -4,16 +4,31 @@
   "title": "Thy precious promises are sweet",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Thy precious promises are sweet; I keep thy law in sight; Through all the business of the day, To form my actions right."},
-    {"number": 2, "text": "My heart in midnight silence cries, How sweet thy comforts be! My thoughts in holy wonder rise, And bring their thanks to thee."},
-    {"number": 3, "text": "And when my spirit drinks her fill At some good word of thine, Not mighty men that share the spoil, Have joys compared with mine."}
+    {
+      "number": 1,
+      "text": "Thy precious promises are sweet; I keep thy law in sight; Through all the business of the day, To form my actions right."
+    },
+    {
+      "number": 2,
+      "text": "My heart in midnight silence cries, How sweet thy comforts be! My thoughts in holy wonder rise, And bring their thanks to thee."
+    },
+    {
+      "number": 3,
+      "text": "And when my spirit drinks her fill At some good word of thine, Not mighty men that share the spoil, Have joys compared with mine."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["God's promises", "God's law", "comfort", "meditation", "joy"],
+    "themes": [
+      "God's promises",
+      "God's law",
+      "comfort",
+      "meditation",
+      "joy"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

@@ -25,7 +25,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["future world", "creation groans", "trumpet sound", "prophets sought", "light"],
+    "themes": [
+      "future world",
+      "creation groans",
+      "trumpet sound",
+      "prophets sought",
+      "light"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

@@ -14,7 +14,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Preparation", "End Times", "Gabriel's Trumpet", "Spiritual Readiness"],
+    "themes": [
+      "Preparation",
+      "End Times",
+      "Gabriel's Trumpet",
+      "Spiritual Readiness"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "",
     "hymnal_context": "Millerite/Adventist movement hymnal",

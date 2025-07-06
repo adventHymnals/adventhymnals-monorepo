@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus", "guidance", "comfort", "trust"],
+    "themes": [
+      "Jesus",
+      "guidance",
+      "comfort",
+      "trust"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

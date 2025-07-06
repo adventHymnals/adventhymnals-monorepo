@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["God's goodness", "grace", "Scripture", "divine love"],
-    "scripture_references": ["Psalm 119:32", "Psalm 119:105"],
+    "themes": [
+      "God's goodness",
+      "grace",
+      "Scripture",
+      "divine love"
+    ],
+    "scripture_references": [
+      "Psalm 119:32",
+      "Psalm 119:105"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

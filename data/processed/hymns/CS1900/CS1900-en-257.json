@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["praise", "Jehovah", "worship", "glory"],
+    "themes": [
+      "praise",
+      "Jehovah",
+      "worship",
+      "glory"
+    ],
     "scripture_references": [],
     "tune_source": "Henley Casey",
     "original_language": "en"

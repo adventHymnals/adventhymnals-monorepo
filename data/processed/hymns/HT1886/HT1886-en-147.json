@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "Comforter", "divine guidance", "spiritual influence", "holiness"],
+    "themes": [
+      "Holy Spirit",
+      "Comforter",
+      "divine guidance",
+      "spiritual influence",
+      "holiness"
+    ],
     "scripture_references": [],
     "tune_source": "Belmont, Samuel Webbe",
     "original_language": "en"

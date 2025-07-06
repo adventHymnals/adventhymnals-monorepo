@@ -22,7 +22,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Zion", "triumph", "second advent", "resurrection", "salvation", "joy"],
+    "themes": [
+      "Zion",
+      "triumph",
+      "second advent",
+      "resurrection",
+      "salvation",
+      "joy"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

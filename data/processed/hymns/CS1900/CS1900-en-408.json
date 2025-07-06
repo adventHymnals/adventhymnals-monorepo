@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by Wm. J. Kirkpatrick. Used by permission.",
-    "themes": ["Bible", "missions", "light", "truth"],
+    "themes": [
+      "Bible",
+      "missions",
+      "light",
+      "truth"
+    ],
     "scripture_references": [],
     "tune_source": "Wm. J. Kirkpatrick",
     "original_language": "en"

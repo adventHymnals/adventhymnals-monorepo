@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895, by Wm. R. Newell",
-    "themes": ["cross", "Calvary", "sacrifice", "love"],
+    "themes": [
+      "cross",
+      "Calvary",
+      "sacrifice",
+      "love"
+    ],
     "scripture_references": [],
     "tune_source": "D. B. Towner",
     "original_language": "en"

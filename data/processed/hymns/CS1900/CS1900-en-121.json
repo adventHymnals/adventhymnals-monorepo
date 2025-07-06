@@ -25,8 +25,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["sin", "atonement", "substitution"],
-    "scripture_references": ["Isaiah 53:6"],
+    "themes": [
+      "sin",
+      "atonement",
+      "substitution"
+    ],
+    "scripture_references": [
+      "Isaiah 53:6"
+    ],
     "tune_source": "J. H. Stockton",
     "original_language": "en",
     "verse_count": 3,

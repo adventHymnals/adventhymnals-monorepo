@@ -33,7 +33,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["foundation", "faith", "God's promises", "assurance"],
+    "themes": [
+      "foundation",
+      "faith",
+      "God's promises",
+      "assurance"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

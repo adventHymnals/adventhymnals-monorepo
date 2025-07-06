@@ -4,17 +4,34 @@
   "title": "How pleasant, how divinely fair",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "How pleasant, how divinely fair, O Lord of hosts, thy dwellings are! With long desire my spirit faints To meet th' assemblies of thy saints."},
-    {"number": 2, "text": "My flesh would rest in thine abode, My panting heart cries out for God; My God, my King, why should I be So far from all my joys and thee?"},
-    {"number": 3, "text": "Blest are the souls that find a place Within the temple of thy grace; There they behold thy gentler rays, And seek thy face, and learn thy praise."},
-    {"number": 4, "text": "Blest are the men whose hearts are set To find the way to Zion's gate; God is their strength; and through the road They lean upon their helper, God."}
+    {
+      "number": 1,
+      "text": "How pleasant, how divinely fair, O Lord of hosts, thy dwellings are! With long desire my spirit faints To meet th' assemblies of thy saints."
+    },
+    {
+      "number": 2,
+      "text": "My flesh would rest in thine abode, My panting heart cries out for God; My God, my King, why should I be So far from all my joys and thee?"
+    },
+    {
+      "number": 3,
+      "text": "Blest are the souls that find a place Within the temple of thy grace; There they behold thy gentler rays, And seek thy face, and learn thy praise."
+    },
+    {
+      "number": 4,
+      "text": "Blest are the men whose hearts are set To find the way to Zion's gate; God is their strength; and through the road They lean upon their helper, God."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["worship", "longing for God", "temple", "Zion"],
+    "themes": [
+      "worship",
+      "longing for God",
+      "temple",
+      "Zion"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

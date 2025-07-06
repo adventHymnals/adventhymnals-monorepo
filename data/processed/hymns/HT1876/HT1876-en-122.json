@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Father", "grace", "heart", "mercy-seat", "white as snow"],
+    "themes": [
+      "Father",
+      "grace",
+      "heart",
+      "mercy-seat",
+      "white as snow"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

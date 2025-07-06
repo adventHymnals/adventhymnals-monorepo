@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["salvation", "Jesus' death", "grace", "sin", "redemption"],
+    "themes": [
+      "salvation",
+      "Jesus' death",
+      "grace",
+      "sin",
+      "redemption"
+    ],
     "scripture_references": [],
     "tune_source": "399, 396, 644",
     "original_language": "en"

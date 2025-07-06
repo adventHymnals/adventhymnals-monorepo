@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's tenderness", "God's chastening", "God as Father", "comfort", "God's care"],
+    "themes": [
+      "God's tenderness",
+      "God's chastening",
+      "God as Father",
+      "comfort",
+      "God's care"
+    ],
     "scripture_references": [],
     "tune_source": "Dove",
     "original_language": "en"

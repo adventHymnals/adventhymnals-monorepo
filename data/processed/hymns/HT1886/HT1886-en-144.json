@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "worship", "devotion", "spiritual awakening", "prayer"],
+    "themes": [
+      "Holy Spirit",
+      "worship",
+      "devotion",
+      "spiritual awakening",
+      "prayer"
+    ],
     "scripture_references": [],
     "tune_source": "St. Martin's, William Tansur",
     "original_language": "en"

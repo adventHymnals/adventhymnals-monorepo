@@ -31,7 +31,16 @@
   "composer": "",
   "author": "",
   "page": 228,
-  "themes": ["Glory", "Hymn", "Christ", "Ascension", "Throne", "King", "Lord", "Alleluia"],
+  "themes": [
+    "Glory",
+    "Hymn",
+    "Christ",
+    "Ascension",
+    "Throne",
+    "King",
+    "Lord",
+    "Alleluia"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

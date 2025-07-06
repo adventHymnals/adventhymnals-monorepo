@@ -29,8 +29,16 @@
   "metadata": {
     "year": 1868,
     "copyright": null,
-    "themes": ["christmas", "bethlehem", "nativity", "peace", "incarnation"],
-    "scripture_references": ["Luke 2:1-20"],
+    "themes": [
+      "christmas",
+      "bethlehem",
+      "nativity",
+      "peace",
+      "incarnation"
+    ],
+    "scripture_references": [
+      "Luke 2:1-20"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

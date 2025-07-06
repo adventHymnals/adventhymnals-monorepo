@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1874,
     "copyright": "Public Domain",
-    "themes": ["heaven", "eternal life", "New Jerusalem", "no night", "glory"],
-    "scripture_references": ["Revelation 21:25", "Revelation 22:5", "Revelation 21:4"],
+    "themes": [
+      "heaven",
+      "eternal life",
+      "New Jerusalem",
+      "no night",
+      "glory"
+    ],
+    "scripture_references": [
+      "Revelation 21:25",
+      "Revelation 22:5",
+      "Revelation 21:4"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

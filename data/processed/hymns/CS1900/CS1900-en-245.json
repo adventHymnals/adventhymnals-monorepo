@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by perm. The Biglow & Main Co. Copyright.",
-    "themes": ["Sabbath", "worship", "rest", "holiness"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "rest",
+      "holiness"
+    ],
     "scripture_references": [],
     "tune_source": "Wm. B. Bradbury",
     "original_language": "en"

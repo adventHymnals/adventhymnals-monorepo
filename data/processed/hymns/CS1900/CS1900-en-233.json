@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1900, by J. P. HOLBROOK.",
-    "themes": ["purity", "heart", "sanctification", "love"],
+    "themes": [
+      "purity",
+      "heart",
+      "sanctification",
+      "love"
+    ],
     "scripture_references": [],
     "tune_source": "J. P. HOLBROOK",
     "original_language": "en"

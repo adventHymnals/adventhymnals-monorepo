@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["glory", "grace", "Spirit", "truth", "holiness"],
+    "themes": [
+      "glory",
+      "grace",
+      "Spirit",
+      "truth",
+      "holiness"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

@@ -28,8 +28,15 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["shepherd", "guidance", "provision", "comfort"],
-    "scripture_references": ["Psalm 23"],
+    "themes": [
+      "shepherd",
+      "guidance",
+      "provision",
+      "comfort"
+    ],
+    "scripture_references": [
+      "Psalm 23"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

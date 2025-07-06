@@ -29,8 +29,17 @@
     "text": "Onward, Christian soldiers!\nMarching as to war,\nWith the cross of Jesus\nGoing on before."
   },
   "metadata": {
-    "themes": ["warfare", "unity", "church", "triumph"],
-    "scripture_references": ["2 Timothy 2:3", "Ephesians 6:11", "Matthew 16:18"],
+    "themes": [
+      "warfare",
+      "unity",
+      "church",
+      "triumph"
+    ],
+    "scripture_references": [
+      "2 Timothy 2:3",
+      "Ephesians 6:11",
+      "Matthew 16:18"
+    ],
     "copyright": "Public Domain"
   }
 }

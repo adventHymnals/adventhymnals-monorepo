@@ -34,7 +34,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["journey", "perseverance", "time", "eternity", "faithfulness"],
+    "themes": [
+      "journey",
+      "perseverance",
+      "time",
+      "eternity",
+      "faithfulness"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

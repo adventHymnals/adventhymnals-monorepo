@@ -31,8 +31,14 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["praise", "worship", "heavenly worship"],
-    "scripture_references": ["Psalm 148"],
+    "themes": [
+      "praise",
+      "worship",
+      "heavenly worship"
+    ],
+    "scripture_references": [
+      "Psalm 148"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

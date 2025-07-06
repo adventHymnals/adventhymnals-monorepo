@@ -37,8 +37,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["discipleship", "sacrifice", "following Jesus", "devotion"],
-    "scripture_references": ["Matthew 16:24"],
+    "themes": [
+      "discipleship",
+      "sacrifice",
+      "following Jesus",
+      "devotion"
+    ],
+    "scripture_references": [
+      "Matthew 16:24"
+    ],
     "tune_source": "Mozart",
     "original_language": "en"
   }

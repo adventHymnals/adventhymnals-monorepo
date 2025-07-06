@@ -23,7 +23,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["mission", "calling", "harvest", "service"],
+    "themes": [
+      "mission",
+      "calling",
+      "harvest",
+      "service"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

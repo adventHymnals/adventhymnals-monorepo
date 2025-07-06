@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1872,
     "copyright": "Public Domain",
-    "themes": ["invitation", "cleansing", "blood of Christ", "salvation"],
-    "scripture_references": ["Isaiah 1:18", "1 John 1:7"],
+    "themes": [
+      "invitation",
+      "cleansing",
+      "blood of Christ",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Isaiah 1:18",
+      "1 John 1:7"
+    ],
     "tune_source": "Lewis Hartsough, 1872",
     "original_language": "en"
   }

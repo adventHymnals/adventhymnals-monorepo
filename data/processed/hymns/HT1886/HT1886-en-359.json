@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["prayer", "intercession", "Christ's sacrifice", "assurance", "blood of Christ"],
-    "scripture_references": ["Hebrews 7:25", "1 John 2:1"],
+    "themes": [
+      "prayer",
+      "intercession",
+      "Christ's sacrifice",
+      "assurance",
+      "blood of Christ"
+    ],
+    "scripture_references": [
+      "Hebrews 7:25",
+      "1 John 2:1"
+    ],
     "tune_source": "Murray, German",
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

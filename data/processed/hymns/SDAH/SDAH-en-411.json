@@ -33,7 +33,11 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus Christ", "Communion", "Praise"],
+    "themes": [
+      "Jesus Christ",
+      "Communion",
+      "Praise"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

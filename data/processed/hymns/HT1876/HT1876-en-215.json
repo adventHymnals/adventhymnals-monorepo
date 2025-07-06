@@ -4,17 +4,36 @@
   "title": "If, through unruffled seas",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "If, through unruffled seas, Calmly toward Heaven we sail, With grateful hearts, O God, to thee, We'll own the fostering gale."},
-    {"number": 2, "text": "But should the surges rise, And rest delay to come, Blest be the sorrow, kind the storm, Which drives us nearer home."},
-    {"number": 3, "text": "Soon shall our doubts and fears All yield to thy control; Thy tender mercies shall illume The midnight of the soul."},
-    {"number": 4, "text": "Teach us in every state To make thy will our own; And when the joys of sense depart, To live by faith alone."}
+    {
+      "number": 1,
+      "text": "If, through unruffled seas, Calmly toward Heaven we sail, With grateful hearts, O God, to thee, We'll own the fostering gale."
+    },
+    {
+      "number": 2,
+      "text": "But should the surges rise, And rest delay to come, Blest be the sorrow, kind the storm, Which drives us nearer home."
+    },
+    {
+      "number": 3,
+      "text": "Soon shall our doubts and fears All yield to thy control; Thy tender mercies shall illume The midnight of the soul."
+    },
+    {
+      "number": 4,
+      "text": "Teach us in every state To make thy will our own; And when the joys of sense depart, To live by faith alone."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["journey to heaven", "gratitude", "storms of life", "trust", "faith", "God's will"],
+    "themes": [
+      "journey to heaven",
+      "gratitude",
+      "storms of life",
+      "trust",
+      "faith",
+      "God's will"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

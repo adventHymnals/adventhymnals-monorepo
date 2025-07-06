@@ -31,8 +31,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["heaven", "reunion", "victory", "joy"],
-    "scripture_references": ["John 14:2-3", "Revelation 21:21"],
+    "themes": [
+      "heaven",
+      "reunion",
+      "victory",
+      "joy"
+    ],
+    "scripture_references": [
+      "John 14:2-3",
+      "Revelation 21:21"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

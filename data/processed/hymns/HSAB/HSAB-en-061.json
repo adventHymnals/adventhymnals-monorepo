@@ -26,7 +26,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["lift your heads", "friends of jesus", "second coming", "kingdom near", "victory", "love", "eternity"],
+    "themes": [
+      "lift your heads",
+      "friends of jesus",
+      "second coming",
+      "kingdom near",
+      "victory",
+      "love",
+      "eternity"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

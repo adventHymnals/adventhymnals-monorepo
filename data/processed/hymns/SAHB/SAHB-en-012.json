@@ -23,7 +23,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["Christmas", "incarnation", "peace", "new birth"],
+    "themes": [
+      "Christmas",
+      "incarnation",
+      "peace",
+      "new birth"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

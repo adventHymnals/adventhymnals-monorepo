@@ -29,7 +29,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Fellowship", "Christian Unity", "Love", "Prayer", "Comfort"],
+    "themes": [
+      "Fellowship",
+      "Christian Unity",
+      "Love",
+      "Prayer",
+      "Comfort"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

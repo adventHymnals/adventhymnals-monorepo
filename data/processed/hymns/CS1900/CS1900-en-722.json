@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["heaven", "eternal life", "journey", "promise"],
+    "themes": [
+      "heaven",
+      "eternal life",
+      "journey",
+      "promise"
+    ],
     "scripture_references": [],
     "tune_source": "Fauquette",
     "original_language": "en"

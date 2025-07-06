@@ -22,8 +22,15 @@
     }
   ],
   "metadata": {
-    "themes": ["Creation", "Astronomy", "God's Power", "Nature"],
-    "scripture_references": ["Psalm 19:1"],
+    "themes": [
+      "Creation",
+      "Astronomy",
+      "God's Power",
+      "Nature"
+    ],
+    "scripture_references": [
+      "Psalm 19:1"
+    ],
     "tune_source": "Creation",
     "original_language": "en"
   }

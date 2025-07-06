@@ -25,7 +25,13 @@
   "metadata": {
     "year": 1933,
     "copyright": "© 1933 Word Music. All Rights Reserved. Used By Permission.",
-    "themes": ["Resurrection", "Living Savior", "Presence", "Hope", "Care"],
+    "themes": [
+      "Resurrection",
+      "Living Savior",
+      "Presence",
+      "Hope",
+      "Care"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

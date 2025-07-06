@@ -24,8 +24,19 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "heaven", "angels", "Prince of life", "cross", "resurrection", "ascension"],
-    "scripture_references": ["Ephesians 1:20-21", "Acts 1:9-11"],
+    "themes": [
+      "Jesus Christ",
+      "heaven",
+      "angels",
+      "Prince of life",
+      "cross",
+      "resurrection",
+      "ascension"
+    ],
+    "scripture_references": [
+      "Ephesians 1:20-21",
+      "Acts 1:9-11"
+    ],
     "tune_source": "899, 917",
     "original_language": "en"
   }

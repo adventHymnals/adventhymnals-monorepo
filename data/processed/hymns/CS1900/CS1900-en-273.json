@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["joy", "Jesus as joy", "spiritual satisfaction", "devotion"],
+    "themes": [
+      "joy",
+      "Jesus as joy",
+      "spiritual satisfaction",
+      "devotion"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

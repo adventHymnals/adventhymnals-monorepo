@@ -4,16 +4,32 @@
   "title": "Seasons of affliction, with sorrow oppressed",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Seasons of affliction, with sorrow oppressed, How oft have I sighed for the season of rest, When my heart in this wilderness world I have found, But find in the bosom of Jesus a home."},
-    {"number": 2, "text": "No spot on this earth can give permanent bliss, No bond for the stranger and pilgrim is this; But beyond the bright river, a mansion where I shall dwell, We'll find in the bosom of Jesus a home."},
-    {"number": 3, "text": "This hope cheers the prospect that's gloomy and drear, And solace to hearts that are troubled and sear; Oh! there, in sweet bonds of delight we shall roam, And find in the bosom of Jesus a home."}
+    {
+      "number": 1,
+      "text": "Seasons of affliction, with sorrow oppressed, How oft have I sighed for the season of rest, When my heart in this wilderness world I have found, But find in the bosom of Jesus a home."
+    },
+    {
+      "number": 2,
+      "text": "No spot on this earth can give permanent bliss, No bond for the stranger and pilgrim is this; But beyond the bright river, a mansion where I shall dwell, We'll find in the bosom of Jesus a home."
+    },
+    {
+      "number": 3,
+      "text": "This hope cheers the prospect that's gloomy and drear, And solace to hearts that are troubled and sear; Oh! there, in sweet bonds of delight we shall roam, And find in the bosom of Jesus a home."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["comfort", "rest", "pilgrimage", "hope", "home", "refuge"],
+    "themes": [
+      "comfort",
+      "rest",
+      "pilgrimage",
+      "hope",
+      "home",
+      "refuge"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "11s"

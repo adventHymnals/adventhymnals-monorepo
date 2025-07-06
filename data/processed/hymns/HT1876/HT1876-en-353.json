@@ -4,14 +4,23 @@
   "title": "Harwell",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Hark! ten thousand harps and voices Sound the note of your glory. Ever bright and joyous, Jesus reigns the God of glory."}
+    {
+      "number": 1,
+      "text": "Hark! ten thousand harps and voices Sound the note of your glory. Ever bright and joyous, Jesus reigns the God of glory."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["harps", "voices", "glory", "Jesus", "reigns"],
+    "themes": [
+      "harps",
+      "voices",
+      "glory",
+      "Jesus",
+      "reigns"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "8s, 7s & 7s"

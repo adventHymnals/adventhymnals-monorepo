@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": "Words © 1954, Ren. 1982 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission. Music © 1966, Ren. 1994 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["Word of God", "Creation", "Incarnation", "Holy Spirit"],
+    "themes": [
+      "Word of God",
+      "Creation",
+      "Incarnation",
+      "Holy Spirit"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

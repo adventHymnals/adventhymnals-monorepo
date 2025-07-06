@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["scattered flock", "gathering", "truth", "second coming", "blessed hope"],
+    "themes": [
+      "scattered flock",
+      "gathering",
+      "truth",
+      "second coming",
+      "blessed hope"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "8s & 7s"

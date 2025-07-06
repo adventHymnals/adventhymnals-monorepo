@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["day past", "evening", "night", "angels guard", "bosom of love"],
+    "themes": [
+      "day past",
+      "evening",
+      "night",
+      "angels guard",
+      "bosom of love"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

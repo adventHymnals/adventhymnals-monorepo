@@ -24,8 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["warning", "invitation", "salvation"],
-    "scripture_references": ["2 Corinthians 6:2"],
+    "themes": [
+      "warning",
+      "invitation",
+      "salvation"
+    ],
+    "scripture_references": [
+      "2 Corinthians 6:2"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

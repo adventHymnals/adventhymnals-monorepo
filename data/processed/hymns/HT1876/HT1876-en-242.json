@@ -4,17 +4,37 @@
   "title": "Ah! lovely appearance of death",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Ah! lovely appearance of death— How beautiful and fair, Yes, even now, though void of breath, God's impress still is there."},
-    {"number": 2, "text": "And soon as the Archangel's cry Beneath death's icy hand— Oh! will it not be beauteous there, Mid the immortal band?"},
-    {"number": 3, "text": "When Jesus bids it rise again With all the saints in light, A glorious body then he'll give, Resplendent to the sight!"},
-    {"number": 4, "text": "Though nature weeps when lovely lies So strongly bond are riven, Yet faith the Saviour's words applies, Of such the realms of Heaven!"}
+    {
+      "number": 1,
+      "text": "Ah! lovely appearance of death— How beautiful and fair, Yes, even now, though void of breath, God's impress still is there."
+    },
+    {
+      "number": 2,
+      "text": "And soon as the Archangel's cry Beneath death's icy hand— Oh! will it not be beauteous there, Mid the immortal band?"
+    },
+    {
+      "number": 3,
+      "text": "When Jesus bids it rise again With all the saints in light, A glorious body then he'll give, Resplendent to the sight!"
+    },
+    {
+      "number": 4,
+      "text": "Though nature weeps when lovely lies So strongly bond are riven, Yet faith the Saviour's words applies, Of such the realms of Heaven!"
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["death", "beauty in death", "resurrection", "glorified body", "saints", "heaven", "faith"],
+    "themes": [
+      "death",
+      "beauty in death",
+      "resurrection",
+      "glorified body",
+      "saints",
+      "heaven",
+      "faith"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

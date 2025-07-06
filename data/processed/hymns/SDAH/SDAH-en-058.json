@@ -23,7 +23,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["evening", "vespers", "water", "praise"],
+    "themes": [
+      "evening",
+      "vespers",
+      "water",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -26,8 +26,16 @@
     }
   ],
   "metadata": {
-    "themes": ["home", "blessing", "peace", "family unity"],
-    "scripture_references": ["Joshua 24:15", "Psalm 127:1"],
+    "themes": [
+      "home",
+      "blessing",
+      "peace",
+      "family unity"
+    ],
+    "scripture_references": [
+      "Joshua 24:15",
+      "Psalm 127:1"
+    ],
     "copyright": "Public Domain"
   }
 }

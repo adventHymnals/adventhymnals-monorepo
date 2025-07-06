@@ -20,8 +20,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895, by F. E. Belden",
-    "themes": ["two ways", "narrow way", "wide way", "holiness", "ruin", "glory", "truth"],
-    "scripture_references": ["John 14:6"],
+    "themes": [
+      "two ways",
+      "narrow way",
+      "wide way",
+      "holiness",
+      "ruin",
+      "glory",
+      "truth"
+    ],
+    "scripture_references": [
+      "John 14:6"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1877,
     "copyright": "Public Domain",
-    "themes": ["second coming", "resurrection", "kingdom", "pilgrimage", "eternal life"],
-    "scripture_references": ["1 Thessalonians 4:16-17", "Revelation 20:6", "Daniel 7:27"],
+    "themes": [
+      "second coming",
+      "resurrection",
+      "kingdom",
+      "pilgrimage",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "1 Thessalonians 4:16-17",
+      "Revelation 20:6",
+      "Daniel 7:27"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

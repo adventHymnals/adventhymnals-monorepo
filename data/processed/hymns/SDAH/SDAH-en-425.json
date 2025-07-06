@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1894,
     "copyright": "Public Domain",
-    "themes": ["heaven", "angels", "salvation", "redemption", "praise"],
-    "scripture_references": ["Revelation 5:9-10", "Revelation 7:9-10", "Isaiah 6:3"],
+    "themes": [
+      "heaven",
+      "angels",
+      "salvation",
+      "redemption",
+      "praise"
+    ],
+    "scripture_references": [
+      "Revelation 5:9-10",
+      "Revelation 7:9-10",
+      "Isaiah 6:3"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

@@ -44,8 +44,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["second coming", "proclamation", "angels", "resurrection", "salvation"],
-    "scripture_references": ["Matt 24:30-31", "1 Thess 4:16-17", "Rev 1:7"],
+    "themes": [
+      "second coming",
+      "proclamation",
+      "angels",
+      "resurrection",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Matt 24:30-31",
+      "1 Thess 4:16-17",
+      "Rev 1:7"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

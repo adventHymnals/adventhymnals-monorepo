@@ -27,7 +27,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["crucifixion", "Christ's suffering", "gratitude", "death"],
+    "themes": [
+      "crucifixion",
+      "Christ's suffering",
+      "gratitude",
+      "death"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -30,8 +30,17 @@
     }
   ],
   "metadata": {
-    "themes": ["vigilance", "spiritual warfare", "prayer", "watchfulness"],
-    "scripture_references": ["Matthew 26:41", "Ephesians 6:11-18", "1 Peter 5:8"],
+    "themes": [
+      "vigilance",
+      "spiritual warfare",
+      "prayer",
+      "watchfulness"
+    ],
+    "scripture_references": [
+      "Matthew 26:41",
+      "Ephesians 6:11-18",
+      "1 Peter 5:8"
+    ],
     "copyright": "Public Domain"
   }
 }

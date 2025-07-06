@@ -4,18 +4,40 @@
   "title": "OUR Lord is risen from the dead",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "OUR Lord is risen from the dead; Our Jesus is gone up on high! A captive host he led captive To the bright portals of the sky."},
-    {"number": 2, "text": "There his triumphal chariot waits, And angels chant the solemn lay; Lift up your heads, ye heavenly gates; Ye everlasting doors, give way."},
-    {"number": 3, "text": "Loose all your bars of massy light, And wide unfold the beauteous scene; He claims these mansions as his right; Receive the King of glory in."},
-    {"number": 4, "text": "Lo! His triumphal chariot waits, And angels chant the solemn lay; Lift up your heads, ye heavenly gates; Ye everlasting doors, give way."},
-    {"number": 5, "text": "Who is this King of glory? Who? The Lord, of glorious power possessed; The King of saints and angels too; God over all, forever blest."}
+    {
+      "number": 1,
+      "text": "OUR Lord is risen from the dead; Our Jesus is gone up on high! A captive host he led captive To the bright portals of the sky."
+    },
+    {
+      "number": 2,
+      "text": "There his triumphal chariot waits, And angels chant the solemn lay; Lift up your heads, ye heavenly gates; Ye everlasting doors, give way."
+    },
+    {
+      "number": 3,
+      "text": "Loose all your bars of massy light, And wide unfold the beauteous scene; He claims these mansions as his right; Receive the King of glory in."
+    },
+    {
+      "number": 4,
+      "text": "Lo! His triumphal chariot waits, And angels chant the solemn lay; Lift up your heads, ye heavenly gates; Ye everlasting doors, give way."
+    },
+    {
+      "number": 5,
+      "text": "Who is this King of glory? Who? The Lord, of glorious power possessed; The King of saints and angels too; God over all, forever blest."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["resurrection", "Jesus", "ascension", "triumph", "glory", "angels"],
+    "themes": [
+      "resurrection",
+      "Jesus",
+      "ascension",
+      "triumph",
+      "glory",
+      "angels"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

@@ -4,15 +4,27 @@
   "title": "I love thine earthly Sabbaths, Lord",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "I love thine earthly Sabbaths, Lord, For they are days of holy rest; And have a meaning in thy word, That they shall be forever blest."},
-    {"number": 2, "text": "I love thine earthly Sabbaths, Lord, To join and congregate thy people here, To hear thy faithful, precious word, And lift them for a higher sphere."}
+    {
+      "number": 1,
+      "text": "I love thine earthly Sabbaths, Lord, For they are days of holy rest; And have a meaning in thy word, That they shall be forever blest."
+    },
+    {
+      "number": 2,
+      "text": "I love thine earthly Sabbaths, Lord, To join and congregate thy people here, To hear thy faithful, precious word, And lift them for a higher sphere."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Sabbath", "worship", "rest", "God's word", "congregation"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "rest",
+      "God's word",
+      "congregation"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

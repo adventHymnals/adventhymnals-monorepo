@@ -4,16 +4,32 @@
   "title": "When, along life's thorny road",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "When, along life's thorny road, Faints the soul beneath the load; When, by cross and loss oppressed, Worn and weary, seeks for rest; When the wily tempter's near, Filling us with doubt and fear; Jesus, to thy cross we flee; Jesus, we will look to thee."},
-    {"number": 2, "text": "Thou, our Saviour, from the throne, Listenest to thy people's moan; Thou, the faithful and the true, Every pang thy members bear, All of tenderness thou art; Thou wilt heal the broken heart; Full of power, thine arm shall quell Every foe that doth rebel."},
-    {"number": 3, "text": "Mighty to redeem and save, Thou hast overcome the grave; Thou the bars of death hast riven, Opened wide the gates of heaven; Thou canst break the galling chain, Taking thy poor pilgrims home; Jesus, thou are all and all— Ever, ever, Lord, with thee."}
+    {
+      "number": 1,
+      "text": "When, along life's thorny road, Faints the soul beneath the load; When, by cross and loss oppressed, Worn and weary, seeks for rest; When the wily tempter's near, Filling us with doubt and fear; Jesus, to thy cross we flee; Jesus, we will look to thee."
+    },
+    {
+      "number": 2,
+      "text": "Thou, our Saviour, from the throne, Listenest to thy people's moan; Thou, the faithful and the true, Every pang thy members bear, All of tenderness thou art; Thou wilt heal the broken heart; Full of power, thine arm shall quell Every foe that doth rebel."
+    },
+    {
+      "number": 3,
+      "text": "Mighty to redeem and save, Thou hast overcome the grave; Thou the bars of death hast riven, Opened wide the gates of heaven; Thou canst break the galling chain, Taking thy poor pilgrims home; Jesus, thou are all and all— Ever, ever, Lord, with thee."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["comfort", "trials", "refuge", "trust", "deliverance", "victory"],
+    "themes": [
+      "comfort",
+      "trials",
+      "refuge",
+      "trust",
+      "deliverance",
+      "victory"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "7s. Double"

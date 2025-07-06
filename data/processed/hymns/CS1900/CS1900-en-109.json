@@ -25,8 +25,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["blood of Christ", "atonement", "peace"],
-    "scripture_references": ["Hebrews 12:24"],
+    "themes": [
+      "blood of Christ",
+      "atonement",
+      "peace"
+    ],
+    "scripture_references": [
+      "Hebrews 12:24"
+    ],
     "tune_source": "J. H. Stockton",
     "original_language": "en",
     "verse_count": 3,

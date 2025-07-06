@@ -34,7 +34,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Israelites", "journey", "pillar of light", "Canaan", "promised land", "perseverance", "faith"],
+    "themes": [
+      "Israelites",
+      "journey",
+      "pillar of light",
+      "Canaan",
+      "promised land",
+      "perseverance",
+      "faith"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

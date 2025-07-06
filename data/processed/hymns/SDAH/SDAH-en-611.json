@@ -26,8 +26,17 @@
     }
   ],
   "metadata": {
-    "themes": ["spiritual race", "perseverance", "vigilance", "victory"],
-    "scripture_references": ["1 Corinthians 9:24", "Philippians 3:13-14", "Hebrews 12:1"],
+    "themes": [
+      "spiritual race",
+      "perseverance",
+      "vigilance",
+      "victory"
+    ],
+    "scripture_references": [
+      "1 Corinthians 9:24",
+      "Philippians 3:13-14",
+      "Hebrews 12:1"
+    ],
     "copyright": "Public Domain"
   }
 }

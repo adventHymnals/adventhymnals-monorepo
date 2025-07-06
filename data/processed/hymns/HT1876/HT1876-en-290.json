@@ -4,8 +4,14 @@
   "title": "Lo! the long hastening on, soon the morning will dawn",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Lo! the long hastening on, soon the morning will dawn, When the King shall in glory descend; We expect soon to join all the bright, holy throng, In the kingdom that never shall end."},
-    {"number": 2, "text": "O Saviour! dear Saviour! O Saviour come! Here we roam and we sigh, and we call over and over, Come and gather the faithful ones."}
+    {
+      "number": 1,
+      "text": "Lo! the long hastening on, soon the morning will dawn, When the King shall in glory descend; We expect soon to join all the bright, holy throng, In the kingdom that never shall end."
+    },
+    {
+      "number": 2,
+      "text": "O Saviour! dear Saviour! O Saviour come! Here we roam and we sigh, and we call over and over, Come and gather the faithful ones."
+    }
   ],
   "chorus": {
     "text": "Chorus."
@@ -15,7 +21,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["second coming", "longing", "kingdom", "gathering", "dawn"],
+    "themes": [
+      "second coming",
+      "longing",
+      "kingdom",
+      "gathering",
+      "dawn"
+    ],
     "original_language": "en",
     "has_chorus": true,
     "meter": "P. M."

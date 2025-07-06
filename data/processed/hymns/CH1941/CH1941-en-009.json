@@ -24,8 +24,15 @@
   "metadata": {
     "year": 1860,
     "copyright": "Public Domain",
-    "themes": ["praise", "Trinity", "Father", "salvation"],
-    "scripture_references": ["Psalm 150"],
+    "themes": [
+      "praise",
+      "Trinity",
+      "Father",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Psalm 150"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

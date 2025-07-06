@@ -20,8 +20,16 @@
   "metadata": {
     "year": 1633,
     "copyright": "Public Domain",
-    "themes": ["praise", "worship", "universal", "creation"],
-    "scripture_references": ["Psalm 148", "Psalm 150"],
+    "themes": [
+      "praise",
+      "worship",
+      "universal",
+      "creation"
+    ],
+    "scripture_references": [
+      "Psalm 148",
+      "Psalm 150"
+    ],
     "tune_source": "Robert G. McCutchan, 1930",
     "original_language": "en"
   }

@@ -27,7 +27,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["invitation", "rest", "comfort"],
+    "themes": [
+      "invitation",
+      "rest",
+      "comfort"
+    ],
     "scripture_references": [],
     "tune_source": "Ira D. Sankey",
     "original_language": "en",

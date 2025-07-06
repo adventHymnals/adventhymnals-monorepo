@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1827,
     "copyright": "Public Domain",
-    "themes": ["morning", "Christ's presence", "reflection", "eternal life"],
-    "scripture_references": ["2 Corinthians 3:18", "1 John 3:2"],
+    "themes": [
+      "morning",
+      "Christ's presence",
+      "reflection",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "2 Corinthians 3:18",
+      "1 John 3:2"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

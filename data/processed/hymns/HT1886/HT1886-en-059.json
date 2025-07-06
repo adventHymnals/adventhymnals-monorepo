@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's name", "divine majesty", "God's eternity", "creation", "God's unchanging nature", "worship"],
+    "themes": [
+      "God's name",
+      "divine majesty",
+      "God's eternity",
+      "creation",
+      "God's unchanging nature",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": "Isaac Watts",
     "original_language": "en"

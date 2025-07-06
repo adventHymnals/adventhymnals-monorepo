@@ -25,7 +25,15 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["praise", "Trinity", "Father", "Son", "Holy Spirit", "love", "compassion"],
+    "themes": [
+      "praise",
+      "Trinity",
+      "Father",
+      "Son",
+      "Holy Spirit",
+      "love",
+      "compassion"
+    ],
     "scripture_references": [],
     "tune_source": "[unclear]",
     "original_language": "en"

@@ -21,7 +21,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Advent", "Christ's Birth", "Deliverance", "Kingdom", "Rest"],
+    "themes": [
+      "Advent",
+      "Christ's Birth",
+      "Deliverance",
+      "Kingdom",
+      "Rest"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

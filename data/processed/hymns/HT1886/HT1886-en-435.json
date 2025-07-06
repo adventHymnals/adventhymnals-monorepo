@@ -23,8 +23,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["salvation", "cross", "Jesus", "faith", "Calvary"],
-    "scripture_references": ["Isaiah 45:22"],
+    "themes": [
+      "salvation",
+      "cross",
+      "Jesus",
+      "faith",
+      "Calvary"
+    ],
+    "scripture_references": [
+      "Isaiah 45:22"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en"
   }

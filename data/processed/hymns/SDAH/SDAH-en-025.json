@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["praise", "worship", "alleluia", "God's glory"],
+    "themes": [
+      "praise",
+      "worship",
+      "alleluia",
+      "God's glory"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

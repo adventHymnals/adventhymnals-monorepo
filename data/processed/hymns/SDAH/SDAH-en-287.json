@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Invitation", "Jesus Calling", "Come Home", "Mercy"],
+    "themes": [
+      "Invitation",
+      "Jesus Calling",
+      "Come Home",
+      "Mercy"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

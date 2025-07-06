@@ -21,8 +21,16 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["christmas", "nativity", "mary", "prophecy", "incarnation"],
-    "scripture_references": ["Isaiah 11:1"],
+    "themes": [
+      "christmas",
+      "nativity",
+      "mary",
+      "prophecy",
+      "incarnation"
+    ],
+    "scripture_references": [
+      "Isaiah 11:1"
+    ],
     "tune_source": "German",
     "original_language": "de"
   }

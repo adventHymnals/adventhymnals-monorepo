@@ -36,8 +36,16 @@
   "metadata": {
     "year": 1865,
     "copyright": "Public Domain",
-    "themes": ["evening", "rest", "protection", "children"],
-    "scripture_references": ["Psalm 4:8", "Psalm 91:11"],
+    "themes": [
+      "evening",
+      "rest",
+      "protection",
+      "children"
+    ],
+    "scripture_references": [
+      "Psalm 4:8",
+      "Psalm 91:11"
+    ],
     "tune_source": "Eudoxia, Joseph Barnby, 1868",
     "original_language": "en"
   }

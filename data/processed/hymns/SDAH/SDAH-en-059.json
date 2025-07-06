@@ -29,7 +29,13 @@
   "metadata": {
     "year": 1973,
     "copyright": "Words © 1973 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["gathering", "worship", "unity", "church", "Jesus"],
+    "themes": [
+      "gathering",
+      "worship",
+      "unity",
+      "church",
+      "Jesus"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

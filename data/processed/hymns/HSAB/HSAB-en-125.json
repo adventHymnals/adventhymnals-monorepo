@@ -26,7 +26,17 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Sabbath", "welcome", "rest", "heaven", "calm", "repose", "praise", "prayer", "blessings"],
+    "themes": [
+      "Sabbath",
+      "welcome",
+      "rest",
+      "heaven",
+      "calm",
+      "repose",
+      "praise",
+      "prayer",
+      "blessings"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

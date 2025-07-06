@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1893, by F. E. Belden",
-    "themes": ["love", "Jesus", "divine love", "peace"],
+    "themes": [
+      "love",
+      "Jesus",
+      "divine love",
+      "peace"
+    ],
     "scripture_references": [],
     "tune_source": "F. E. Belden",
     "original_language": "en"

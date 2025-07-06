@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["blessing", "parting", "protection", "farewell"],
-    "scripture_references": ["Numbers 6:24-26"],
+    "themes": [
+      "blessing",
+      "parting",
+      "protection",
+      "farewell"
+    ],
+    "scripture_references": [
+      "Numbers 6:24-26"
+    ],
     "tune_source": "Weber",
     "original_language": "en"
   }

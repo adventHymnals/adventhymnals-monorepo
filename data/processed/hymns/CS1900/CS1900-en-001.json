@@ -27,8 +27,17 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["children", "leading", "God", "divine love", "precious gift", "trust"],
-    "scripture_references": ["Mark 10:14"],
+    "themes": [
+      "children",
+      "leading",
+      "God",
+      "divine love",
+      "precious gift",
+      "trust"
+    ],
+    "scripture_references": [
+      "Mark 10:14"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

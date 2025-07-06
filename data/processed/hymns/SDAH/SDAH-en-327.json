@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1922,
     "copyright": "© 1922, 1950, renewed 1939, 1966 by Chancel Music, Inc.",
-    "themes": ["commitment", "discipleship", "devotion", "consecration"],
-    "scripture_references": ["Matthew 16:26", "Philippians 3:8"],
+    "themes": [
+      "commitment",
+      "discipleship",
+      "devotion",
+      "consecration"
+    ],
+    "scripture_references": [
+      "Matthew 16:26",
+      "Philippians 3:8"
+    ],
     "tune_source": "George Beverly Shea, 1939",
     "original_language": "en",
     "composer_dates": "1894-1966"

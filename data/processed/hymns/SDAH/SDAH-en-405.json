@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["communion", "worship", "gods_presence", "spiritual_nourishment"],
+    "themes": [
+      "communion",
+      "worship",
+      "gods_presence",
+      "spiritual_nourishment"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

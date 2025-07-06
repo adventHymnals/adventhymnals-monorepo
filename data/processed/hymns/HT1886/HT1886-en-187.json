@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's word", "spiritual guidance", "divine wisdom", "spiritual food", "heavenly teaching"],
+    "themes": [
+      "God's word",
+      "spiritual guidance",
+      "divine wisdom",
+      "spiritual food",
+      "heavenly teaching"
+    ],
     "scripture_references": [],
     "tune_source": "114, 147, 209",
     "original_language": "en"

@@ -33,7 +33,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "happy day", "jubilee", "victory", "Eden restored"],
+    "themes": [
+      "second advent",
+      "happy day",
+      "jubilee",
+      "victory",
+      "Eden restored"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1948,
     "copyright": "Copyright 1948 by John W. Peterson Music Company",
-    "themes": ["God's Power", "Miracles", "Salvation", "Grace"],
-    "scripture_references": ["Psalm 19:1", "Romans 1:20"],
+    "themes": [
+      "God's Power",
+      "Miracles",
+      "Salvation",
+      "Grace"
+    ],
+    "scripture_references": [
+      "Psalm 19:1",
+      "Romans 1:20"
+    ],
     "tune_source": "John W. Peterson",
     "original_language": "en"
   }

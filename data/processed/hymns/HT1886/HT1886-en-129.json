@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["glory to God", "praise", "worthy the Lamb", "heavenly worship", "ransomed race"],
-    "scripture_references": ["Luke 2:14", "Revelation 5:12"],
+    "themes": [
+      "glory to God",
+      "praise",
+      "worthy the Lamb",
+      "heavenly worship",
+      "ransomed race"
+    ],
+    "scripture_references": [
+      "Luke 2:14",
+      "Revelation 5:12"
+    ],
     "tune_source": "84, 156",
     "original_language": "en"
   }

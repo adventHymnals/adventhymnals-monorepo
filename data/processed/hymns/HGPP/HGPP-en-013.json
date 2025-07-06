@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["faith", "second coming", "prophecy", "judgment", "perseverance"],
-    "scripture_references": ["Heb 11:1", "Rev 3:20", "Hab 2:4"],
+    "themes": [
+      "faith",
+      "second coming",
+      "prophecy",
+      "judgment",
+      "perseverance"
+    ],
+    "scripture_references": [
+      "Heb 11:1",
+      "Rev 3:20",
+      "Hab 2:4"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

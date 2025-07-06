@@ -34,7 +34,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Christian warfare", "armor of God", "spiritual battle", "victory", "truth", "Jesus as friend"],
+    "themes": [
+      "Christian warfare",
+      "armor of God",
+      "spiritual battle",
+      "victory",
+      "truth",
+      "Jesus as friend"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

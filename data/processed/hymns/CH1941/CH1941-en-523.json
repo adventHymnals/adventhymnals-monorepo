@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1870,
     "copyright": "Public Domain",
-    "themes": ["name of Jesus", "comfort", "protection", "worship"],
-    "scripture_references": ["Philippians 2:9-11", "Acts 4:12"],
+    "themes": [
+      "name of Jesus",
+      "comfort",
+      "protection",
+      "worship"
+    ],
+    "scripture_references": [
+      "Philippians 2:9-11",
+      "Acts 4:12"
+    ],
     "tune_source": "Precious Name, William Howard Doane, 1871",
     "original_language": "en"
   }

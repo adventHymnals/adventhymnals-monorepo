@@ -38,7 +38,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["longing", "home", "heaven", "weariness", "anticipation"],
+    "themes": [
+      "longing",
+      "home",
+      "heaven",
+      "weariness",
+      "anticipation"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

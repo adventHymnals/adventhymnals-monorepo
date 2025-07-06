@@ -30,7 +30,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["baptism", "following Jesus", "cross", "burial", "resurrection", "Jordan", "fellowship"],
+    "themes": [
+      "baptism",
+      "following Jesus",
+      "cross",
+      "burial",
+      "resurrection",
+      "Jordan",
+      "fellowship"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

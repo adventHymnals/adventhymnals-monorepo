@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1949,
     "copyright": "© 1949 and 1953 The Stuart Hine Trust. All rights in the USA, its territories and possessions, except print rights, administered by Capitol CMG Publishing. USA, North Central and South America print rights administered by Hope Publishing Company. All other non US Americas rights administered by The Stuart Hine Trust. Rest of world rights administered by Integrity Music UK. All rights reserved. Used by permission.",
-    "themes": ["God's Greatness", "Creation", "Cross", "Second Coming"],
+    "themes": [
+      "God's Greatness",
+      "Creation",
+      "Cross",
+      "Second Coming"
+    ],
     "scripture_references": [],
     "tune_source": "O Store Gud",
     "original_language": "sv"

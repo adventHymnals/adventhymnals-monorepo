@@ -4,18 +4,39 @@
   "title": "Awake, my heart! my soul arise!",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Awake, my heart! my soul arise! This is the day believers prize; Improve this Sabbath, then, with care; Let every moment have its share."},
-    {"number": 2, "text": "Oh, solemn thought! Lord, give me power, To rightly spend this holy hour; Oh! let thy wings of faith and love To bear my longing spirit move."},
-    {"number": 3, "text": "Jesus, assist, now let me fall To worship thee, and serve thee all; To glorify thy matchless grace; To see thy beauteous face."},
-    {"number": 4, "text": "Be with me in thy house to-day, And tune my heart to sing and pray; Command thy word to fall like dew, Refreshing, and renewing all below."},
-    {"number": 5, "text": "Call forth all my thoughts, and let them rove O'er the green pastures of thy love; Oh! let not sin prevent my rest, Or keep my from thy Sabbath feast."}
+    {
+      "number": 1,
+      "text": "Awake, my heart! my soul arise! This is the day believers prize; Improve this Sabbath, then, with care; Let every moment have its share."
+    },
+    {
+      "number": 2,
+      "text": "Oh, solemn thought! Lord, give me power, To rightly spend this holy hour; Oh! let thy wings of faith and love To bear my longing spirit move."
+    },
+    {
+      "number": 3,
+      "text": "Jesus, assist, now let me fall To worship thee, and serve thee all; To glorify thy matchless grace; To see thy beauteous face."
+    },
+    {
+      "number": 4,
+      "text": "Be with me in thy house to-day, And tune my heart to sing and pray; Command thy word to fall like dew, Refreshing, and renewing all below."
+    },
+    {
+      "number": 5,
+      "text": "Call forth all my thoughts, and let them rove O'er the green pastures of thy love; Oh! let not sin prevent my rest, Or keep my from thy Sabbath feast."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Sabbath", "worship", "spiritual awakening", "prayer", "God's word"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "spiritual awakening",
+      "prayer",
+      "God's word"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

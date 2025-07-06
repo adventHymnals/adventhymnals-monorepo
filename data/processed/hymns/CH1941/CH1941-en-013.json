@@ -28,8 +28,15 @@
   "metadata": {
     "year": 1561,
     "copyright": "Public Domain",
-    "themes": ["praise", "worship", "universal praise", "God's goodness"],
-    "scripture_references": ["Psalm 100"],
+    "themes": [
+      "praise",
+      "worship",
+      "universal praise",
+      "God's goodness"
+    ],
+    "scripture_references": [
+      "Psalm 100"
+    ],
     "tune_source": "Old Hundredth, Louis Bourgeois, 1551",
     "original_language": "en"
   }

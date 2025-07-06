@@ -29,7 +29,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["humility", "service", "obedience"],
+    "themes": [
+      "humility",
+      "service",
+      "obedience"
+    ],
     "scripture_references": [],
     "tune_source": "John E. Gould",
     "original_language": "en"

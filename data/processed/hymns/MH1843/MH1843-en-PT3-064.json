@@ -27,7 +27,13 @@
   "composer": "",
   "author": "",
   "page": 203,
-  "themes": ["Zion", "Awakening", "Gladness", "Dawn", "Deliverance"],
+  "themes": [
+    "Zion",
+    "Awakening",
+    "Gladness",
+    "Dawn",
+    "Deliverance"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

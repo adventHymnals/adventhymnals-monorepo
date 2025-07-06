@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1800,
     "copyright": "Public Domain",
-    "themes": ["unity", "Christian fellowship", "Canaan", "promised land", "spiritual journey"],
-    "scripture_references": ["Deuteronomy 8:7-10", "Hebrews 11:8-16", "Psalms 133:1"],
+    "themes": [
+      "unity",
+      "Christian fellowship",
+      "Canaan",
+      "promised land",
+      "spiritual journey"
+    ],
+    "scripture_references": [
+      "Deuteronomy 8:7-10",
+      "Hebrews 11:8-16",
+      "Psalms 133:1"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

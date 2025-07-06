@@ -20,8 +20,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1884, by F. E. Belden. Used by permission",
-    "themes": ["father", "compassion", "comfort", "children", "mercy", "grace", "tenderness"],
-    "scripture_references": ["Ps. 103:13"],
+    "themes": [
+      "father",
+      "compassion",
+      "comfort",
+      "children",
+      "mercy",
+      "grace",
+      "tenderness"
+    ],
+    "scripture_references": [
+      "Ps. 103:13"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

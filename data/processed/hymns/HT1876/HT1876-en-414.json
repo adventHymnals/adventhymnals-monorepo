@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["wanderer", "nearer to God", "dreams", "Bethel", "Jacob's ladder"],
+    "themes": [
+      "wanderer",
+      "nearer to God",
+      "dreams",
+      "Bethel",
+      "Jacob's ladder"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "6s & 4s",

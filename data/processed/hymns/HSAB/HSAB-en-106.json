@@ -22,7 +22,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Zion", "salvation", "marriage supper", "bridegroom", "second advent", "judgment", "New Jerusalem"],
+    "themes": [
+      "Zion",
+      "salvation",
+      "marriage supper",
+      "bridegroom",
+      "second advent",
+      "judgment",
+      "New Jerusalem"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -27,7 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by permission of W. A. Ogden",
-    "themes": ["seeking", "lost", "wanderer", "mountain", "Jesus", "shepherd", "rescue"],
+    "themes": [
+      "seeking",
+      "lost",
+      "wanderer",
+      "mountain",
+      "Jesus",
+      "shepherd",
+      "rescue"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

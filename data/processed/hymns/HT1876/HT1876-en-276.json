@@ -4,15 +4,28 @@
   "title": "Son of God, thy people shield",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Son of God, thy people shield, Must we still thine absence mourn? Let thy promise be fulfilled, Thou hast said, I will return. Gracious Master, soon appear, Take me to thy home of light; Thou wilt close the constant tear, Hope be turned to joyful sight."},
-    {"number": 2, "text": "As a woman counts the days Till her absent lord returns, Looks and watches, weeps and prays, So the church must long for thee. Come, that we may see thee such; Thou the sheep shall feed in peace; Hushed forever trouble's sigh, Sin and sorrow ever cease."}
+    {
+      "number": 1,
+      "text": "Son of God, thy people shield, Must we still thine absence mourn? Let thy promise be fulfilled, Thou hast said, I will return. Gracious Master, soon appear, Take me to thy home of light; Thou wilt close the constant tear, Hope be turned to joyful sight."
+    },
+    {
+      "number": 2,
+      "text": "As a woman counts the days Till her absent lord returns, Looks and watches, weeps and prays, So the church must long for thee. Come, that we may see thee such; Thou the sheep shall feed in peace; Hushed forever trouble's sigh, Sin and sorrow ever cease."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["second coming", "waiting", "longing", "hope", "comfort", "peace"],
+    "themes": [
+      "second coming",
+      "waiting",
+      "longing",
+      "hope",
+      "comfort",
+      "peace"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "7s. Double"

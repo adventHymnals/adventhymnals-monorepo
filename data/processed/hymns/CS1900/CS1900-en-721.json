@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["second coming", "urgency", "preparation", "bridegroom"],
+    "themes": [
+      "second coming",
+      "urgency",
+      "preparation",
+      "bridegroom"
+    ],
     "scripture_references": [],
     "tune_source": "J. E. Rankin",
     "original_language": "en"

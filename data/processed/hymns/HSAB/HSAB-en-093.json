@@ -34,7 +34,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "Jesus' return", "hope", "resurrection", "hosanna", "praise"],
+    "themes": [
+      "second advent",
+      "Jesus' return",
+      "hope",
+      "resurrection",
+      "hosanna",
+      "praise"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

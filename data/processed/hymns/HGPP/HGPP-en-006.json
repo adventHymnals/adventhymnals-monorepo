@@ -36,8 +36,20 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["sabbath", "seal of God", "mark of the beast", "angels", "end times", "deliverance"],
-    "scripture_references": ["Rev 7:1-4", "Exod 31:13", "Ezek 9:4", "Rev 14:9-12"],
+    "themes": [
+      "sabbath",
+      "seal of God",
+      "mark of the beast",
+      "angels",
+      "end times",
+      "deliverance"
+    ],
+    "scripture_references": [
+      "Rev 7:1-4",
+      "Exod 31:13",
+      "Ezek 9:4",
+      "Rev 14:9-12"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

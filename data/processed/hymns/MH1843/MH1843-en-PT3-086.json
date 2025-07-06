@@ -31,7 +31,16 @@
   "composer": "",
   "author": "",
   "page": 225,
-  "themes": ["God", "Purpose", "Glory", "Earth", "Waters", "Gospel", "Truth", "Harvest"],
+  "themes": [
+    "God",
+    "Purpose",
+    "Glory",
+    "Earth",
+    "Waters",
+    "Gospel",
+    "Truth",
+    "Harvest"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

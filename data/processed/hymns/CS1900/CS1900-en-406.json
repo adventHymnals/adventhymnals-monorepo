@@ -27,8 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["evangelism", "seeking lost souls", "missions"],
-    "scripture_references": ["Luke 15:4"],
+    "themes": [
+      "evangelism",
+      "seeking lost souls",
+      "missions"
+    ],
+    "scripture_references": [
+      "Luke 15:4"
+    ],
     "tune_source": "W. A. Ogden",
     "original_language": "en"
   }

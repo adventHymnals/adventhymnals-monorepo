@@ -22,7 +22,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["awakening", "urgency", "salvation", "watchfulness", "repentance", "second advent"],
+    "themes": [
+      "awakening",
+      "urgency",
+      "salvation",
+      "watchfulness",
+      "repentance",
+      "second advent"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

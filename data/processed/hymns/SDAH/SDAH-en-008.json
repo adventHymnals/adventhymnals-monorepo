@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1597,
     "copyright": "Public Domain",
-    "themes": ["thanksgiving", "protection", "guidance", "deliverance"],
-    "scripture_references": ["Psalm 95:2", "Psalm 100:4"],
+    "themes": [
+      "thanksgiving",
+      "protection",
+      "guidance",
+      "deliverance"
+    ],
+    "scripture_references": [
+      "Psalm 95:2",
+      "Psalm 100:4"
+    ],
     "tune_source": "Netherlands folk melody, arranged by Edward Kremser, 1877",
     "original_language": "nl",
     "translator": "Theodore Baker"

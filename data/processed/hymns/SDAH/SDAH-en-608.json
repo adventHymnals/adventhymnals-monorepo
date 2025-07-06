@@ -25,8 +25,17 @@
     "text": "Faith is the victory!\nFaith is the victory!\nO, glorious victory,\nThat overcomes the world."
   },
   "metadata": {
-    "themes": ["faith", "victory", "spiritual warfare", "triumph"],
-    "scripture_references": ["1 John 5:4", "Ephesians 6:11-17", "Revelation 3:5"],
+    "themes": [
+      "faith",
+      "victory",
+      "spiritual warfare",
+      "triumph"
+    ],
+    "scripture_references": [
+      "1 John 5:4",
+      "Ephesians 6:11-17",
+      "Revelation 3:5"
+    ],
     "copyright": "Public Domain"
   }
 }

@@ -18,7 +18,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["death", "rest", "sleep", "comfort", "trumpet", "resurrection", "peace"],
+    "themes": [
+      "death",
+      "rest",
+      "sleep",
+      "comfort",
+      "trumpet",
+      "resurrection",
+      "peace"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -25,8 +25,16 @@
   "metadata": {
     "year": 1982,
     "copyright": "1982 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["creation", "stewardship", "environment", "praise"],
-    "scripture_references": ["Genesis 1:28", "Psalm 104:24"],
+    "themes": [
+      "creation",
+      "stewardship",
+      "environment",
+      "praise"
+    ],
+    "scripture_references": [
+      "Genesis 1:28",
+      "Psalm 104:24"
+    ],
     "tune_source": "Jane Marshall",
     "original_language": "en"
   }

@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1887,
     "copyright": "Public Domain",
-    "themes": ["pilgrimage", "perseverance", "hope", "cross bearing", "spiritual warfare"],
-    "scripture_references": ["Hebrews 12:1-2", "Ephesians 6:11-17", "Titus 2:13"],
+    "themes": [
+      "pilgrimage",
+      "perseverance",
+      "hope",
+      "cross bearing",
+      "spiritual warfare"
+    ],
+    "scripture_references": [
+      "Hebrews 12:1-2",
+      "Ephesians 6:11-17",
+      "Titus 2:13"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

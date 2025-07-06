@@ -27,8 +27,17 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895, by F. E. Belden",
-    "themes": ["invitation", "room", "Jesus", "heart", "welcome", "inn"],
-    "scripture_references": ["Luke 2:7"],
+    "themes": [
+      "invitation",
+      "room",
+      "Jesus",
+      "heart",
+      "welcome",
+      "inn"
+    ],
+    "scripture_references": [
+      "Luke 2:7"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

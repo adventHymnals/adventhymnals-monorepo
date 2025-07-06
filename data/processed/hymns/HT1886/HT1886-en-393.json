@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["friendship", "prayer", "comfort", "trust"],
-    "scripture_references": ["1 Peter 5:7", "Philippians 4:6-7"],
+    "themes": [
+      "friendship",
+      "prayer",
+      "comfort",
+      "trust"
+    ],
+    "scripture_references": [
+      "1 Peter 5:7",
+      "Philippians 4:6-7"
+    ],
     "tune_source": "Charles Converse",
     "original_language": "en"
   }

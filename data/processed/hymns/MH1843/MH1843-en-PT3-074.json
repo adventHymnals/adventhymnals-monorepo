@@ -31,7 +31,15 @@
   "composer": "",
   "author": "",
   "page": 213,
-  "themes": ["Rest", "Lord", "King", "Saints", "God", "Prayer", "Bliss"],
+  "themes": [
+    "Rest",
+    "Lord",
+    "King",
+    "Saints",
+    "God",
+    "Prayer",
+    "Bliss"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

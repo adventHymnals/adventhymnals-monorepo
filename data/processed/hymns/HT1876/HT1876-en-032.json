@@ -26,7 +26,12 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Holy Spirit", "light", "peace", "blessing"],
+    "themes": [
+      "Holy Spirit",
+      "light",
+      "peace",
+      "blessing"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "8s & 7s"

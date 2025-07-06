@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["pilgrimage", "heavenly home", "detachment from world", "eternal life"],
-    "scripture_references": ["Heb 11:13-16", "Phil 3:20", "1 Pet 2:11"],
+    "themes": [
+      "pilgrimage",
+      "heavenly home",
+      "detachment from world",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "Heb 11:13-16",
+      "Phil 3:20",
+      "1 Pet 2:11"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

@@ -33,8 +33,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["pilgrimage", "discipleship", "trials", "heavenly reward"],
-    "scripture_references": ["Hebrews 11:13", "2 Corinthians 4:17"],
+    "themes": [
+      "pilgrimage",
+      "discipleship",
+      "trials",
+      "heavenly reward"
+    ],
+    "scripture_references": [
+      "Hebrews 11:13",
+      "2 Corinthians 4:17"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

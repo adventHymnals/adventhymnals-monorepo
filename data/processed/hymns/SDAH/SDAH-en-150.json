@@ -43,7 +43,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["life_of_christ", "kingship", "worship", "christmas"],
+    "themes": [
+      "life_of_christ",
+      "kingship",
+      "worship",
+      "christmas"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

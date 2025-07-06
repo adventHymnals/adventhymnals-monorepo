@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": "Words © 1983, rev. 1996 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["Calvary", "Following Jesus", "Discipleship", "Love"],
+    "themes": [
+      "Calvary",
+      "Following Jesus",
+      "Discipleship",
+      "Love"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

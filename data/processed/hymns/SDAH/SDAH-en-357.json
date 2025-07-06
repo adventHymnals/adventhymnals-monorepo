@@ -25,8 +25,18 @@
   "metadata": {
     "year": 1863,
     "copyright": null,
-    "themes": ["Work", "Harvest", "Service", "Gospel", "Stewardship"],
-    "scripture_references": ["Matthew 9:37-38", "John 9:4", "Matthew 25:21"],
+    "themes": [
+      "Work",
+      "Harvest",
+      "Service",
+      "Gospel",
+      "Stewardship"
+    ],
+    "scripture_references": [
+      "Matthew 9:37-38",
+      "John 9:4",
+      "Matthew 25:21"
+    ],
     "tune_source": "T. Tertius Noble",
     "original_language": "en"
   }

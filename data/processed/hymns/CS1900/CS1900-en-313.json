@@ -35,8 +35,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Jesus reign", "praise", "heaven", "glory"],
-    "scripture_references": ["Revelation 5:11-13"],
+    "themes": [
+      "Jesus reign",
+      "praise",
+      "heaven",
+      "glory"
+    ],
+    "scripture_references": [
+      "Revelation 5:11-13"
+    ],
     "tune_source": "Haydn",
     "original_language": "en"
   }

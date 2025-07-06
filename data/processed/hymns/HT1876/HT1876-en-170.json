@@ -4,16 +4,31 @@
   "title": "Eternal Spirit, source of truth",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Eternal Spirit, source of truth, Our contrite hearts inspire; Revive the flame of heavenly love, And feed the pure desire."},
-    {"number": 2, "text": "Subdue the power of every sin, Whate'er that sin may be, And, soothe the sorrow of the trouble mind, And set the captive free."},
-    {"number": 3, "text": "Then our our spirits witness bear That we are sons of God, Redeemed from sin, from death and hell, Through our Redeemer's blood."}
+    {
+      "number": 1,
+      "text": "Eternal Spirit, source of truth, Our contrite hearts inspire; Revive the flame of heavenly love, And feed the pure desire."
+    },
+    {
+      "number": 2,
+      "text": "Subdue the power of every sin, Whate'er that sin may be, And, soothe the sorrow of the trouble mind, And set the captive free."
+    },
+    {
+      "number": 3,
+      "text": "Then our our spirits witness bear That we are sons of God, Redeemed from sin, from death and hell, Through our Redeemer's blood."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Holy Spirit", "inspiration", "redemption", "freedom from sin", "sonship"],
+    "themes": [
+      "Holy Spirit",
+      "inspiration",
+      "redemption",
+      "freedom from sin",
+      "sonship"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["worship", "house of God", "prayer", "praise", "dedication"],
+    "themes": [
+      "worship",
+      "house of God",
+      "prayer",
+      "praise",
+      "dedication"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

@@ -36,8 +36,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "majesty", "beauty of Christ", "salvation", "gratitude", "love divine"],
-    "scripture_references": ["Song of Solomon 5:10"],
+    "themes": [
+      "Jesus Christ",
+      "majesty",
+      "beauty of Christ",
+      "salvation",
+      "gratitude",
+      "love divine"
+    ],
+    "scripture_references": [
+      "Song of Solomon 5:10"
+    ],
     "tune_source": "Thomas Hastings",
     "original_language": "en"
   }

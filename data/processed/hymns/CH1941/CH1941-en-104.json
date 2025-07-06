@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1868,
     "copyright": "Public Domain",
-    "themes": ["Christmas", "nativity", "Bethlehem", "incarnation"],
-    "scripture_references": ["Luke 2:1-20", "Matthew 1:23"],
+    "themes": [
+      "Christmas",
+      "nativity",
+      "Bethlehem",
+      "incarnation"
+    ],
+    "scripture_references": [
+      "Luke 2:1-20",
+      "Matthew 1:23"
+    ],
     "tune_source": "St. Louis, Lewis Henry Redner, 1868",
     "original_language": "en"
   }

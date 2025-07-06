@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["praise", "creation", "worship", "God's power"],
-    "scripture_references": ["Psalm 148:1"],
+    "themes": [
+      "praise",
+      "creation",
+      "worship",
+      "God's power"
+    ],
+    "scripture_references": [
+      "Psalm 148:1"
+    ],
     "tune_source": "Arranged",
     "original_language": "en"
   }

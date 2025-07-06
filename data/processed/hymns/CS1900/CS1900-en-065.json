@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "By permission of Jno. J. Hood & Co.",
-    "themes": ["temptation", "victory", "faith", "strength"],
+    "themes": [
+      "temptation",
+      "victory",
+      "faith",
+      "strength"
+    ],
     "scripture_references": [],
     "tune_source": "H.R. Palmer",
     "original_language": "en"

@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["evening", "prayer", "rest", "communion"],
-    "scripture_references": ["Psalm 4:8"],
+    "themes": [
+      "evening",
+      "prayer",
+      "rest",
+      "communion"
+    ],
+    "scripture_references": [
+      "Psalm 4:8"
+    ],
     "tune_source": "J. Barnby",
     "original_language": "en"
   }

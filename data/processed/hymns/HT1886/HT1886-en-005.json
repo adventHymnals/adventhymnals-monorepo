@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["retreat", "prayer", "Jesus", "worship", "presence"],
+    "themes": [
+      "retreat",
+      "prayer",
+      "Jesus",
+      "worship",
+      "presence"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

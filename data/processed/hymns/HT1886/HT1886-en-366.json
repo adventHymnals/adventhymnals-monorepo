@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus' sacrifice", "spiritual growth", "divine guidance", "perseverance", "heaven"],
-    "scripture_references": ["1 Peter 1:6-7", "Hebrews 12:5-11"],
+    "themes": [
+      "Jesus' sacrifice",
+      "spiritual growth",
+      "divine guidance",
+      "perseverance",
+      "heaven"
+    ],
+    "scripture_references": [
+      "1 Peter 1:6-7",
+      "Hebrews 12:5-11"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

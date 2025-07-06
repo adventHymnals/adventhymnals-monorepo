@@ -19,8 +19,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1897, by F. E. Belden",
-    "themes": ["trust", "care", "comfort", "faith"],
-    "scripture_references": ["1 Peter 5:7"],
+    "themes": [
+      "trust",
+      "care",
+      "comfort",
+      "faith"
+    ],
+    "scripture_references": [
+      "1 Peter 5:7"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en"
   }

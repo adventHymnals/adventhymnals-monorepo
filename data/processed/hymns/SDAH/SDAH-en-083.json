@@ -26,8 +26,15 @@
     }
   ],
   "metadata": {
-    "themes": ["Worship", "God's Majesty", "God's Care", "Praise"],
-    "scripture_references": ["Psalm 104"],
+    "themes": [
+      "Worship",
+      "God's Majesty",
+      "God's Care",
+      "Praise"
+    ],
+    "scripture_references": [
+      "Psalm 104"
+    ],
     "tune_source": "Lyons",
     "original_language": "en"
   }

@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Zion", "God's city", "security", "salvation"],
+    "themes": [
+      "Zion",
+      "God's city",
+      "security",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

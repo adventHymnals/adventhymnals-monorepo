@@ -33,8 +33,17 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Church", "Ministry", "Gifts", "Service", "Leadership"],
-    "scripture_references": ["1 Corinthians 12:4-11", "Ephesians 4:11-13"],
+    "themes": [
+      "Church",
+      "Ministry",
+      "Gifts",
+      "Service",
+      "Leadership"
+    ],
+    "scripture_references": [
+      "1 Corinthians 12:4-11",
+      "Ephesians 4:11-13"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

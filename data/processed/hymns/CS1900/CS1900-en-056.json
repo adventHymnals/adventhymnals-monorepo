@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["blessing", "revival", "prayer", "spiritual renewal"],
-    "scripture_references": ["Ezekiel 34:26"],
+    "themes": [
+      "blessing",
+      "revival",
+      "prayer",
+      "spiritual renewal"
+    ],
+    "scripture_references": [
+      "Ezekiel 34:26"
+    ],
     "tune_source": "James McGranahan",
     "original_language": "en"
   }

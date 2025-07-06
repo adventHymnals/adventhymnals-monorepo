@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "joy", "temple", "Spirit", "unity"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "joy",
+      "temple",
+      "Spirit",
+      "unity"
+    ],
     "scripture_references": [],
     "tune_source": "Herbert, C. M., Lowell Mason",
     "original_language": "en"

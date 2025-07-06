@@ -25,7 +25,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Way", "Truth", "Life", "Light", "Joy"],
+    "themes": [
+      "Way",
+      "Truth",
+      "Life",
+      "Light",
+      "Joy"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

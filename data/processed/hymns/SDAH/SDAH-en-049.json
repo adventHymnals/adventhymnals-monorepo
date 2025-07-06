@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["evening", "blessing", "protection", "comfort"],
+    "themes": [
+      "evening",
+      "blessing",
+      "protection",
+      "comfort"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

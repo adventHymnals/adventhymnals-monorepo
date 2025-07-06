@@ -32,7 +32,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Zion", "city of God", "pilgrimage"],
+    "themes": [
+      "Zion",
+      "city of God",
+      "pilgrimage"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1885, by E. E. Belden. Used by permission",
-    "themes": ["second coming", "readiness", "parable", "bridegroom"],
-    "scripture_references": ["Matthew 25:1-13"],
+    "themes": [
+      "second coming",
+      "readiness",
+      "parable",
+      "bridegroom"
+    ],
+    "scripture_references": [
+      "Matthew 25:1-13"
+    ],
     "tune_source": "E. E. Belden",
     "original_language": "en"
   }

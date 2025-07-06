@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1742,
     "copyright": "Public Domain",
-    "themes": ["God's love", "Jesus", "devotion", "eternal love"],
-    "scripture_references": ["1 John 4:8", "John 1:14"],
+    "themes": [
+      "God's love",
+      "Jesus",
+      "devotion",
+      "eternal love"
+    ],
+    "scripture_references": [
+      "1 John 4:8",
+      "John 1:14"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

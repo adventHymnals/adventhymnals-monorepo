@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["safety", "sanctuary", "salvation", "rest"],
+    "themes": [
+      "safety",
+      "sanctuary",
+      "salvation",
+      "rest"
+    ],
     "scripture_references": [],
     "tune_source": "J. R. Kel",
     "original_language": "en"

@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["nature", "God's creation", "cross of Christ", "grace", "worship", "praise"],
-    "scripture_references": ["Psalm 19:1"],
+    "themes": [
+      "nature",
+      "God's creation",
+      "cross of Christ",
+      "grace",
+      "worship",
+      "praise"
+    ],
+    "scripture_references": [
+      "Psalm 19:1"
+    ],
     "tune_source": "386, 212, 47",
     "original_language": "en"
   }

@@ -28,8 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "praise", "universal praise"],
-    "scripture_references": ["Psalm 117"],
+    "themes": [
+      "worship",
+      "praise",
+      "universal praise"
+    ],
+    "scripture_references": [
+      "Psalm 117"
+    ],
     "tune_source": "Angels, Orlando Gibbons",
     "original_language": "en"
   }

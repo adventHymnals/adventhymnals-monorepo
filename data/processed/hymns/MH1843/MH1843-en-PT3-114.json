@@ -29,7 +29,19 @@
   "composer": "Ralph Vaughan Williams",
   "author": "Bianco da Siena",
   "page": 257,
-  "themes": ["Love Divine", "Soul", "Comforter", "Heart", "Holy Flame", "Glorious Light", "Charity", "Lowliness", "Yearning", "Holy Spirit", "Dwelling"],
+  "themes": [
+    "Love Divine",
+    "Soul",
+    "Comforter",
+    "Heart",
+    "Holy Flame",
+    "Glorious Light",
+    "Charity",
+    "Lowliness",
+    "Yearning",
+    "Holy Spirit",
+    "Dwelling"
+  ],
   "key_signature": "A",
   "time_signature": "4/4"
 }

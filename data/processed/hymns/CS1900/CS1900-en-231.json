@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["saviour", "worth", "glory", "praise"],
+    "themes": [
+      "saviour",
+      "worth",
+      "glory",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

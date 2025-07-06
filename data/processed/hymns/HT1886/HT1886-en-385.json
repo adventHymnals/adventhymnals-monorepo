@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["journey", "following Christ", "salvation", "discipleship"],
-    "scripture_references": ["John 14:6", "Isaiah 35:8"],
+    "themes": [
+      "journey",
+      "following Christ",
+      "salvation",
+      "discipleship"
+    ],
+    "scripture_references": [
+      "John 14:6",
+      "Isaiah 35:8"
+    ],
     "tune_source": "Lowell Mason",
     "original_language": "en"
   }

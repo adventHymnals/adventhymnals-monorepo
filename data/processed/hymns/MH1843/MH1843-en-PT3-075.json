@@ -31,7 +31,15 @@
   "composer": "",
   "author": "",
   "page": 214,
-  "themes": ["Soul", "Rest", "God", "Sabbath", "Lord", "Heaven", "Christ"],
+  "themes": [
+    "Soul",
+    "Rest",
+    "God",
+    "Sabbath",
+    "Lord",
+    "Heaven",
+    "Christ"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

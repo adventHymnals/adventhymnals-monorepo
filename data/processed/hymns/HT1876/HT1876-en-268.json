@@ -4,17 +4,36 @@
   "title": "Hail, glorious day! ere long to dawn",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Hail, glorious day! ere long to dawn, And set at rest our hopes: O glorious morn! the trump comes forth, With shouts of victory."},
-    {"number": 2, "text": "And when my Saviour shall appear, If in the grave I lie, All nature shall come forth in life, And live, no more to die."},
-    {"number": 3, "text": "I shall arise in that bright day— In death, my weary eyes. In that bright morn, my Lord to see, And meet him in the skies."},
-    {"number": 4, "text": "And in that resurrection morn I shall his face behold; Th thou my Lord to me will give The starry crown of gold."}
+    {
+      "number": 1,
+      "text": "Hail, glorious day! ere long to dawn, And set at rest our hopes: O glorious morn! the trump comes forth, With shouts of victory."
+    },
+    {
+      "number": 2,
+      "text": "And when my Saviour shall appear, If in the grave I lie, All nature shall come forth in life, And live, no more to die."
+    },
+    {
+      "number": 3,
+      "text": "I shall arise in that bright day— In death, my weary eyes. In that bright morn, my Lord to see, And meet him in the skies."
+    },
+    {
+      "number": 4,
+      "text": "And in that resurrection morn I shall his face behold; Th thou my Lord to me will give The starry crown of gold."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["second coming", "resurrection", "victory", "eternal life", "crown of gold", "meeting Jesus"],
+    "themes": [
+      "second coming",
+      "resurrection",
+      "victory",
+      "eternal life",
+      "crown of gold",
+      "meeting Jesus"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

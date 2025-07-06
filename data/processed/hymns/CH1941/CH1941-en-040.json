@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1829,
     "copyright": "Public Domain",
-    "themes": ["morning worship", "holiness", "Trinity", "praise"],
-    "scripture_references": ["Revelation 4:8", "Isaiah 6:3"],
+    "themes": [
+      "morning worship",
+      "holiness",
+      "Trinity",
+      "praise"
+    ],
+    "scripture_references": [
+      "Revelation 4:8",
+      "Isaiah 6:3"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

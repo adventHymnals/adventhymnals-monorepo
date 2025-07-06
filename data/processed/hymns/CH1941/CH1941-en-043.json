@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1828,
     "copyright": "Public Domain",
-    "themes": ["morning", "praise", "constant worship", "comfort"],
-    "scripture_references": ["Psalm 113:3", "1 Thessalonians 5:16-18"],
+    "themes": [
+      "morning",
+      "praise",
+      "constant worship",
+      "comfort"
+    ],
+    "scripture_references": [
+      "Psalm 113:3",
+      "1 Thessalonians 5:16-18"
+    ],
     "tune_source": "Laudes Domini, Joseph Barnby, 1868",
     "original_language": "de",
     "translator": "Edward Caswall"

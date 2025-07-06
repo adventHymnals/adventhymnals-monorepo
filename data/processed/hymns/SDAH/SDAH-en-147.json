@@ -29,8 +29,18 @@
   "metadata": {
     "year": 1977,
     "copyright": "Hope Publishing Co.",
-    "themes": ["transfiguration", "christ", "glory", "worship", "revelation"],
-    "scripture_references": ["Matthew 17:1-8", "Mark 9:2-8", "Luke 9:28-36"],
+    "themes": [
+      "transfiguration",
+      "christ",
+      "glory",
+      "worship",
+      "revelation"
+    ],
+    "scripture_references": [
+      "Matthew 17:1-8",
+      "Mark 9:2-8",
+      "Luke 9:28-36"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

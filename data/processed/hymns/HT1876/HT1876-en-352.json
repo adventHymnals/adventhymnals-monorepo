@@ -4,18 +4,42 @@
   "title": "ON the high cliffs of Jordan, with pleasure I stand",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "ON the high cliffs of Jordan, with pleasure I stand, And view the fair city which God hath prepared; And enter the kingdom prepared as their home."},
-    {"number": 2, "text": "Tis there all the nations redeemed by the Lamb, In circles around the eternal throne, And the song of redemption shall never be done. To enter those mansions, prepared as their home."},
-    {"number": 3, "text": "All tears shall be wiped from the eyes of the blest, The Lord, our Redeemer, in righteousness reigns; The scepter of empire he now doth assume, And kindly doth welcome his followers home."},
-    {"number": 4, "text": "How blessed are those who embrace the tree of life! Where saints tell, how grateful, the tree of life grows! The regions unheavenly forever in bloom, God's own habitation, the saints' happy home!"},
-    {"number": 5, "text": "Those pleasures of glory, oh! when shall we share, And crowns of celestial felicity wear? And range o'er those landscapes exempt from a sigh, The home of the faithful, now specially nigh?"}
+    {
+      "number": 1,
+      "text": "ON the high cliffs of Jordan, with pleasure I stand, And view the fair city which God hath prepared; And enter the kingdom prepared as their home."
+    },
+    {
+      "number": 2,
+      "text": "Tis there all the nations redeemed by the Lamb, In circles around the eternal throne, And the song of redemption shall never be done. To enter those mansions, prepared as their home."
+    },
+    {
+      "number": 3,
+      "text": "All tears shall be wiped from the eyes of the blest, The Lord, our Redeemer, in righteousness reigns; The scepter of empire he now doth assume, And kindly doth welcome his followers home."
+    },
+    {
+      "number": 4,
+      "text": "How blessed are those who embrace the tree of life! Where saints tell, how grateful, the tree of life grows! The regions unheavenly forever in bloom, God's own habitation, the saints' happy home!"
+    },
+    {
+      "number": 5,
+      "text": "Those pleasures of glory, oh! when shall we share, And crowns of celestial felicity wear? And range o'er those landscapes exempt from a sigh, The home of the faithful, now specially nigh?"
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Jordan", "city", "kingdom", "nations", "Lamb", "redemption", "tree of life", "glory"],
+    "themes": [
+      "Jordan",
+      "city",
+      "kingdom",
+      "nations",
+      "Lamb",
+      "redemption",
+      "tree of life",
+      "glory"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "11s"

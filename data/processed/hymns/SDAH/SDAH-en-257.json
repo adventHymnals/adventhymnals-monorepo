@@ -29,7 +29,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Love Divine", "Holy Spirit", "Soul", "Ardor", "Charity"],
+    "themes": [
+      "Love Divine",
+      "Holy Spirit",
+      "Soul",
+      "Ardor",
+      "Charity"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

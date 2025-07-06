@@ -21,7 +21,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["baptism", "new life", "resurrection"],
+    "themes": [
+      "baptism",
+      "new life",
+      "resurrection"
+    ],
     "scripture_references": [],
     "tune_source": "Unknown",
     "original_language": "en"

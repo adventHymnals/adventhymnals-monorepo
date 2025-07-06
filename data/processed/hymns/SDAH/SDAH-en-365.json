@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1868,
     "copyright": "Public Domain",
-    "themes": ["Mission", "Evangelism", "Great Commission", "Second Coming"],
-    "scripture_references": ["Matthew 28:19-20", "Acts 1:8"],
+    "themes": [
+      "Mission",
+      "Evangelism",
+      "Great Commission",
+      "Second Coming"
+    ],
+    "scripture_references": [
+      "Matthew 28:19-20",
+      "Acts 1:8"
+    ],
     "tune_source": "James Walch, 1875",
     "original_language": "en"
   }

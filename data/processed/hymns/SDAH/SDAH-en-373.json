@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1887,
     "copyright": "Public Domain",
-    "themes": ["Lost Sheep", "Evangelism", "Mission", "Salvation"],
-    "scripture_references": ["Luke 15:3-7", "Matthew 18:12-14"],
+    "themes": [
+      "Lost Sheep",
+      "Evangelism",
+      "Mission",
+      "Salvation"
+    ],
+    "scripture_references": [
+      "Luke 15:3-7",
+      "Matthew 18:12-14"
+    ],
     "tune_source": "William A. Ogden, 1887",
     "original_language": "en"
   }

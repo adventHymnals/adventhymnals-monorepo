@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["worship", "praise", "God's greatness", "thanksgiving"],
-    "scripture_references": ["Psalm 95:1-6"],
+    "themes": [
+      "worship",
+      "praise",
+      "God's greatness",
+      "thanksgiving"
+    ],
+    "scripture_references": [
+      "Psalm 95:1-6"
+    ],
     "tune_source": "Dr. Mason",
     "original_language": "en"
   }

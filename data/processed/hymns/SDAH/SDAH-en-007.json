@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1824,
     "copyright": "Public Domain",
-    "themes": ["kingdom", "sovereignty", "worship", "praise"],
-    "scripture_references": ["Psalm 97:1", "Psalm 99:1-2"],
+    "themes": [
+      "kingdom",
+      "sovereignty",
+      "worship",
+      "praise"
+    ],
+    "scripture_references": [
+      "Psalm 97:1",
+      "Psalm 99:1-2"
+    ],
     "tune_source": "John Hatton, c. 1793",
     "original_language": "en"
   }

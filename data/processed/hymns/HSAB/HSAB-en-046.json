@@ -34,7 +34,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["ark of covenant", "law of god", "victory", "remnant", "commandments"],
+    "themes": [
+      "ark of covenant",
+      "law of god",
+      "victory",
+      "remnant",
+      "commandments"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

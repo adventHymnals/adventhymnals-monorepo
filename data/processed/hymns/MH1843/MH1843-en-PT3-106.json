@@ -31,7 +31,16 @@
   "composer": "",
   "author": "",
   "page": 245,
-  "themes": ["Jesus", "Grace", "Salvation", "Love", "Spirit", "Word", "Kingdom", "Peace"],
+  "themes": [
+    "Jesus",
+    "Grace",
+    "Salvation",
+    "Love",
+    "Spirit",
+    "Word",
+    "Kingdom",
+    "Peace"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

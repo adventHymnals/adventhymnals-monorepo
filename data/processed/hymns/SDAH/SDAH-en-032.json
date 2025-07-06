@@ -31,8 +31,14 @@
   "metadata": {
     "year": 1972,
     "copyright": "Words © 1972 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission",
-    "themes": ["music", "praise", "worship"],
-    "scripture_references": ["Matthew 26:30"],
+    "themes": [
+      "music",
+      "praise",
+      "worship"
+    ],
+    "scripture_references": [
+      "Matthew 26:30"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

@@ -24,8 +24,20 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["heaven", "eternal joy", "Eden restored", "heavenly worship", "angelic legions", "salvation through Jesus", "anticipation of glory"],
-    "scripture_references": ["Revelation 21:1-4", "Isaiah 51:3", "Revelation 5:11-14"],
+    "themes": [
+      "heaven",
+      "eternal joy",
+      "Eden restored",
+      "heavenly worship",
+      "angelic legions",
+      "salvation through Jesus",
+      "anticipation of glory"
+    ],
+    "scripture_references": [
+      "Revelation 21:1-4",
+      "Isaiah 51:3",
+      "Revelation 5:11-14"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement, James White compilation",

@@ -22,8 +22,15 @@
     }
   ],
   "metadata": {
-    "themes": ["Praise", "God's Glory", "Creation", "Salvation"],
-    "scripture_references": ["Psalm 96"],
+    "themes": [
+      "Praise",
+      "God's Glory",
+      "Creation",
+      "Salvation"
+    ],
+    "scripture_references": [
+      "Psalm 96"
+    ],
     "tune_source": "Old 124th",
     "original_language": "en"
   }

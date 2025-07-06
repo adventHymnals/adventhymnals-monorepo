@@ -22,8 +22,15 @@
     }
   ],
   "metadata": {
-    "themes": ["God's Care", "Creation", "Children", "Stars"],
-    "scripture_references": ["Psalm 147:4"],
+    "themes": [
+      "God's Care",
+      "Creation",
+      "Children",
+      "Stars"
+    ],
+    "scripture_references": [
+      "Psalm 147:4"
+    ],
     "tune_source": "Wer nur den lieben Gott",
     "original_language": "de"
   }

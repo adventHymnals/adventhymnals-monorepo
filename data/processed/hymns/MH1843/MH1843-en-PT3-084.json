@@ -31,7 +31,17 @@
   "composer": "",
   "author": "",
   "page": 223,
-  "themes": ["Jesus", "Crown", "Lamb", "Throne", "King", "Lord", "Love", "Peace", "Eternity"],
+  "themes": [
+    "Jesus",
+    "Crown",
+    "Lamb",
+    "Throne",
+    "King",
+    "Lord",
+    "Love",
+    "Peace",
+    "Eternity"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

@@ -11,7 +11,7 @@
       "text": "Jesus! what a Friend for sinners! Jesus! Lover of my soul; Friends may fail me, foes assail me, He, my Savior, makes me whole."
     },
     {
-      "number": "2", 
+      "number": "2",
       "text": "Jesus! what a Strength for weakness! Let me hide myself in Him; Tempted, tried, and sometimes failing, He, my Strength, my victory wins."
     },
     {
@@ -31,7 +31,13 @@
   "composer": "",
   "author": "",
   "page": 187,
-  "themes": ["Jesus", "Friend", "Salvation", "Strength", "Comfort"],
+  "themes": [
+    "Jesus",
+    "Friend",
+    "Salvation",
+    "Strength",
+    "Comfort"
+  ],
   "key_signature": "Bb",
   "time_signature": "4/4"
 }

@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1824,
     "copyright": "Public Domain",
-    "themes": ["evening", "prayer", "forgiveness", "eternal life"],
-    "scripture_references": ["Psalm 139:23-24", "1 John 1:9"],
+    "themes": [
+      "evening",
+      "prayer",
+      "forgiveness",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "Psalm 139:23-24",
+      "1 John 1:9"
+    ],
     "tune_source": "Seymour, Carl Maria von Weber, 1826",
     "original_language": "en"
   }

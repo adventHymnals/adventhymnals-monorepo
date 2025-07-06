@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["angels", "pilgrimage", "heaven", "invitation"],
-    "scripture_references": ["Hebrews 1:14"],
+    "themes": [
+      "angels",
+      "pilgrimage",
+      "heaven",
+      "invitation"
+    ],
+    "scripture_references": [
+      "Hebrews 1:14"
+    ],
     "tune_source": "St. John",
     "original_language": "en"
   }

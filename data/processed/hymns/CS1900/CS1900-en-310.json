@@ -33,8 +33,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["salvation", "spiritual life", "faith", "comfort"],
-    "scripture_references": ["John 14:6"],
+    "themes": [
+      "salvation",
+      "spiritual life",
+      "faith",
+      "comfort"
+    ],
+    "scripture_references": [
+      "John 14:6"
+    ],
     "tune_source": "E. Lewis",
     "original_language": "en"
   }

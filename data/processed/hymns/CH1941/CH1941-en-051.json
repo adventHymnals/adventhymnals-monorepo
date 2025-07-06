@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1877,
     "copyright": "Public Domain",
-    "themes": ["evening", "worship", "creation", "holiness"],
-    "scripture_references": ["Isaiah 6:3", "Revelation 4:8"],
+    "themes": [
+      "evening",
+      "worship",
+      "creation",
+      "holiness"
+    ],
+    "scripture_references": [
+      "Isaiah 6:3",
+      "Revelation 4:8"
+    ],
     "tune_source": "Chautauqua, William Fisk Sherwin, 1877",
     "original_language": "en"
   }

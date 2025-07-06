@@ -31,7 +31,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["God's presence", "comfort", "death", "eternal hope"],
+    "themes": [
+      "God's presence",
+      "comfort",
+      "death",
+      "eternal hope"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["aspiration", "trials", "spiritual growth", "trust"],
-    "scripture_references": ["Genesis 28:10-22", "Romans 8:28"],
+    "themes": [
+      "aspiration",
+      "trials",
+      "spiritual growth",
+      "trust"
+    ],
+    "scripture_references": [
+      "Genesis 28:10-22",
+      "Romans 8:28"
+    ],
     "tune_source": "Lowell Mason",
     "original_language": "en"
   }

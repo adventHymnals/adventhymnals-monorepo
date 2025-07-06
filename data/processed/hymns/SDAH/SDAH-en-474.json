@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1870,
     "copyright": "Public Domain",
-    "themes": ["name of Jesus", "comfort", "protection", "prayer", "precious name"],
-    "scripture_references": ["Acts 4:12", "Philippians 2:9-11", "Colossians 3:17"],
+    "themes": [
+      "name of Jesus",
+      "comfort",
+      "protection",
+      "prayer",
+      "precious name"
+    ],
+    "scripture_references": [
+      "Acts 4:12",
+      "Philippians 2:9-11",
+      "Colossians 3:17"
+    ],
     "tune_source": "William H. Doane",
     "original_language": "en"
   }

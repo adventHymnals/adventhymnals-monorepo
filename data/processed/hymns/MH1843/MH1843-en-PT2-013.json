@@ -15,7 +15,11 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Book Divine", "Inspiration Given", "Bright as Lamp"],
+    "themes": [
+      "Book Divine",
+      "Inspiration Given",
+      "Bright as Lamp"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "Fermata markings",
     "hymnal_context": "Millerite/Adventist movement hymnal",

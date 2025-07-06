@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "prayer", "forgiveness", "heaven"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "prayer",
+      "forgiveness",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": "Elizabethtown, C. M., George Kingsley",
     "original_language": "en"

@@ -31,7 +31,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus Christ", "Salvation", "Atonement", "Praise", "Redemption"],
+    "themes": [
+      "Jesus Christ",
+      "Salvation",
+      "Atonement",
+      "Praise",
+      "Redemption"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

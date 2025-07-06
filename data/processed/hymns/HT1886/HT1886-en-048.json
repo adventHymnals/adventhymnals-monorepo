@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["submission", "God's will", "trust", "divine wisdom", "patience", "faith"],
+    "themes": [
+      "submission",
+      "God's will",
+      "trust",
+      "divine wisdom",
+      "patience",
+      "faith"
+    ],
     "scripture_references": [],
     "tune_source": "Isaac Watts",
     "original_language": "en"

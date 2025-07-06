@@ -18,7 +18,14 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Babylon's Fall", "Second Coming", "Divine Glory", "Angelic Hosts", "Cosmic Judgment", "Saints' Deliverance"],
+    "themes": [
+      "Babylon's Fall",
+      "Second Coming",
+      "Divine Glory",
+      "Angelic Hosts",
+      "Cosmic Judgment",
+      "Saints' Deliverance"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "P.M. (Particular Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

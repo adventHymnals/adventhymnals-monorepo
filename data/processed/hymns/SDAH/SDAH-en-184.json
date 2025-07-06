@@ -31,7 +31,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["salvation", "redemption", "cleansing", "jesus_payment", "grace"],
+    "themes": [
+      "salvation",
+      "redemption",
+      "cleansing",
+      "jesus_payment",
+      "grace"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

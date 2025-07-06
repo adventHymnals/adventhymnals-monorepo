@@ -23,8 +23,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["lifting up Jesus", "salvation", "proclamation", "evangelism"],
-    "scripture_references": ["John 3:14-15"],
+    "themes": [
+      "lifting up Jesus",
+      "salvation",
+      "proclamation",
+      "evangelism"
+    ],
+    "scripture_references": [
+      "John 3:14-15"
+    ],
     "tune_source": "D. S. Hakes",
     "original_language": "en",
     "extraction_status": "completed"

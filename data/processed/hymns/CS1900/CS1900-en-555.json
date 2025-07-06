@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["vigilance", "warfare", "watchfulness", "spiritual discipline"],
+    "themes": [
+      "vigilance",
+      "warfare",
+      "watchfulness",
+      "spiritual discipline"
+    ],
     "scripture_references": [],
     "tune_source": "G. J. Webb",
     "original_language": "en"

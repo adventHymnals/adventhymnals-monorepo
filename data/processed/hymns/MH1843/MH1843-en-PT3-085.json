@@ -35,7 +35,15 @@
   "composer": "",
   "author": "",
   "page": 224,
-  "themes": ["Jesus", "Kingdom", "Seek", "Father", "Treasure", "Leaven", "Seed"],
+  "themes": [
+    "Jesus",
+    "Kingdom",
+    "Seek",
+    "Father",
+    "Treasure",
+    "Leaven",
+    "Seed"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

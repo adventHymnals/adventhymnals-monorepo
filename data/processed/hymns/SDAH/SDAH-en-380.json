@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1779,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "Rest", "Worship", "Sacred Time"],
-    "scripture_references": ["Exodus 20:8-11", "Isaiah 58:13-14"],
+    "themes": [
+      "Sabbath",
+      "Rest",
+      "Worship",
+      "Sacred Time"
+    ],
+    "scripture_references": [
+      "Exodus 20:8-11",
+      "Isaiah 58:13-14"
+    ],
     "tune_source": "William B. Bradbury, 1859",
     "original_language": "en"
   }

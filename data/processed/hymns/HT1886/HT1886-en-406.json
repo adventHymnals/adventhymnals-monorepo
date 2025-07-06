@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["surrender", "submission", "sanctification", "yielding"],
-    "scripture_references": ["Jeremiah 18:6", "Galatians 2:20"],
+    "themes": [
+      "surrender",
+      "submission",
+      "sanctification",
+      "yielding"
+    ],
+    "scripture_references": [
+      "Jeremiah 18:6",
+      "Galatians 2:20"
+    ],
     "tune_source": "George Stebbins",
     "original_language": "en"
   }

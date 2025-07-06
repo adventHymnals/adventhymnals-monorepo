@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath rest", "creation", "worship", "divine guidance", "glory to God"],
-    "scripture_references": ["Genesis 2:2-3"],
+    "themes": [
+      "Sabbath rest",
+      "creation",
+      "worship",
+      "divine guidance",
+      "glory to God"
+    ],
+    "scripture_references": [
+      "Genesis 2:2-3"
+    ],
     "tune_source": "Freeport. 10s.",
     "original_language": "en"
   }

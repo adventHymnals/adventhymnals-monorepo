@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1874,
     "copyright": "Public Domain",
-    "themes": ["Harvest", "Evangelism", "Sowing", "Reaping"],
-    "scripture_references": ["Psalm 126:5-6", "Galatians 6:9"],
+    "themes": [
+      "Harvest",
+      "Evangelism",
+      "Sowing",
+      "Reaping"
+    ],
+    "scripture_references": [
+      "Psalm 126:5-6",
+      "Galatians 6:9"
+    ],
     "tune_source": "George A. Minor, 1874",
     "original_language": "en"
   }

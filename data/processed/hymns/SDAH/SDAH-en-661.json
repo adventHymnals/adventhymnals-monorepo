@@ -18,8 +18,16 @@
     }
   ],
   "metadata": {
-    "themes": ["holiness", "worship", "praise", "Trinity"],
-    "scripture_references": ["Isaiah 6:3", "Revelation 4:8"],
+    "themes": [
+      "holiness",
+      "worship",
+      "praise",
+      "Trinity"
+    ],
+    "scripture_references": [
+      "Isaiah 6:3",
+      "Revelation 4:8"
+    ],
     "copyright": "Public Domain"
   }
 }

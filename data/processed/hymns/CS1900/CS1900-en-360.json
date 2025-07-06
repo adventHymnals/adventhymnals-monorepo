@@ -21,7 +21,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["peace", "Jesus", "love", "eternal life"],
+    "themes": [
+      "peace",
+      "Jesus",
+      "love",
+      "eternal life"
+    ],
     "scripture_references": [],
     "tune_source": "E. M. Koscher",
     "original_language": "en"

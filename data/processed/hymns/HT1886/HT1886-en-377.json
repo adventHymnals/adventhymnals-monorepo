@@ -36,8 +36,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ as Savior", "refuge in distress", "freedom from sin", "guilt and burden", "substitutionary atonement"],
-    "scripture_references": ["Matthew 11:28", "1 Peter 2:24", "Isaiah 53:4-6"],
+    "themes": [
+      "Christ as Savior",
+      "refuge in distress",
+      "freedom from sin",
+      "guilt and burden",
+      "substitutionary atonement"
+    ],
+    "scripture_references": [
+      "Matthew 11:28",
+      "1 Peter 2:24",
+      "Isaiah 53:4-6"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

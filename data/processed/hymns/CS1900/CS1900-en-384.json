@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["perseverance", "faithfulness", "working", "endurance"],
+    "themes": [
+      "perseverance",
+      "faithfulness",
+      "working",
+      "endurance"
+    ],
     "scripture_references": [],
     "tune_source": "Robert Lowry",
     "original_language": "en"

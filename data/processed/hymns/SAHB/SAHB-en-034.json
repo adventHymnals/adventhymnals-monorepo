@@ -23,7 +23,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["guidance", "pilgrimage", "strength", "deliverance"],
+    "themes": [
+      "guidance",
+      "pilgrimage",
+      "strength",
+      "deliverance"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -37,7 +37,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["salvation", "invitation", "acceptance"],
+    "themes": [
+      "salvation",
+      "invitation",
+      "acceptance"
+    ],
     "scripture_references": [],
     "tune_source": "William B. Bradbury",
     "original_language": "en",

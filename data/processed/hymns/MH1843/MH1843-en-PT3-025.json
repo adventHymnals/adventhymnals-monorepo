@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Pilgrimage", "Heavenly Home", "Longing", "Temporality", "Hope"],
+    "themes": [
+      "Pilgrimage",
+      "Heavenly Home",
+      "Longing",
+      "Temporality",
+      "Hope"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "11.11.11.11 (Peculiar Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's power", "divine majesty", "God's glory", "reverence", "worship", "humility"],
+    "themes": [
+      "God's power",
+      "divine majesty",
+      "God's glory",
+      "reverence",
+      "worship",
+      "humility"
+    ],
     "scripture_references": [],
     "tune_source": "Isaac Watts",
     "original_language": "en"

@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "Jesus reigns", "heavenly worship", "King of glory", "second coming", "hallelujah"],
-    "scripture_references": ["Revelation 19:6", "1 Corinthians 15:25"],
+    "themes": [
+      "praise",
+      "Jesus reigns",
+      "heavenly worship",
+      "King of glory",
+      "second coming",
+      "hallelujah"
+    ],
+    "scripture_references": [
+      "Revelation 19:6",
+      "1 Corinthians 15:25"
+    ],
     "tune_source": "Lowell Mason",
     "original_language": "en"
   }

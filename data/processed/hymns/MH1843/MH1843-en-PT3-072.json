@@ -31,7 +31,16 @@
   "composer": "",
   "author": "",
   "page": 212,
-  "themes": ["Work", "God", "King", "Praise", "Love", "Rest", "Grace", "Joy"],
+  "themes": [
+    "Work",
+    "God",
+    "King",
+    "Praise",
+    "Love",
+    "Rest",
+    "Grace",
+    "Joy"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

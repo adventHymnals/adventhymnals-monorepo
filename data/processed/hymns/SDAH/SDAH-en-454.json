@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1800,
     "copyright": "Public Domain",
-    "themes": ["Second Coming", "angels", "saints", "glory", "kingdom of God"],
-    "scripture_references": ["Matthew 24:30", "1 Thessalonians 4:16-17", "Revelation 1:7"],
+    "themes": [
+      "Second Coming",
+      "angels",
+      "saints",
+      "glory",
+      "kingdom of God"
+    ],
+    "scripture_references": [
+      "Matthew 24:30",
+      "1 Thessalonians 4:16-17",
+      "Revelation 1:7"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

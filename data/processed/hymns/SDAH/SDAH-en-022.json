@@ -29,7 +29,11 @@
   "metadata": {
     "year": 1976,
     "copyright": "Words © 1976 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["praise", "worship", "God's song"],
+    "themes": [
+      "praise",
+      "worship",
+      "God's song"
+    ],
     "scripture_references": [],
     "tune_source": "Genevan Psalter",
     "original_language": "en"

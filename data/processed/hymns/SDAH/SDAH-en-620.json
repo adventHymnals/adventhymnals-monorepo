@@ -31,8 +31,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["heaven", "promised land", "eternal life", "hope"],
-    "scripture_references": ["Joshua 3:14-17", "Revelation 21:1-4"],
+    "themes": [
+      "heaven",
+      "promised land",
+      "eternal life",
+      "hope"
+    ],
+    "scripture_references": [
+      "Joshua 3:14-17",
+      "Revelation 21:1-4"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

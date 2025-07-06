@@ -32,8 +32,17 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["lord's prayer", "petition", "forgiveness", "kingdom of God", "second coming"],
-    "scripture_references": ["Matt 6:9-13", "Luke 11:2-4"],
+    "themes": [
+      "lord's prayer",
+      "petition",
+      "forgiveness",
+      "kingdom of God",
+      "second coming"
+    ],
+    "scripture_references": [
+      "Matt 6:9-13",
+      "Luke 11:2-4"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

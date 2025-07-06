@@ -23,8 +23,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1897, by F. E. Belden.",
-    "themes": ["prayer", "intercession", "restoration", "erring souls"],
-    "scripture_references": ["James 5:16", "Galatians 6:1"],
+    "themes": [
+      "prayer",
+      "intercession",
+      "restoration",
+      "erring souls"
+    ],
+    "scripture_references": [
+      "James 5:16",
+      "Galatians 6:1"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en"
   }

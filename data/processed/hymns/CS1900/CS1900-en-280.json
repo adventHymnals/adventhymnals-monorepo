@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Christmas", "nativity", "angels", "Jesus birth"],
-    "scripture_references": ["Luke 2:14"],
+    "themes": [
+      "Christmas",
+      "nativity",
+      "angels",
+      "Jesus birth"
+    ],
+    "scripture_references": [
+      "Luke 2:14"
+    ],
     "tune_source": "Mendelssohn",
     "original_language": "en"
   }

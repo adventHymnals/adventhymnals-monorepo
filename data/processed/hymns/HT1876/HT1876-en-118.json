@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["My Lord", "mercy", "purifying blood", "leper", "Lord divine"],
+    "themes": [
+      "My Lord",
+      "mercy",
+      "purifying blood",
+      "leper",
+      "Lord divine"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

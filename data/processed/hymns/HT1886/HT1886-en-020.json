@@ -28,7 +28,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "praise", "God's condescending grace"],
+    "themes": [
+      "worship",
+      "praise",
+      "God's condescending grace"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

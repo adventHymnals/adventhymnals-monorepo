@@ -27,7 +27,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["Jesus' lordship", "worship", "praise", "universal kingdom"],
+    "themes": [
+      "Jesus' lordship",
+      "worship",
+      "praise",
+      "universal kingdom"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

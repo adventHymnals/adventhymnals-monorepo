@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Gethsemane", "prayer", "suffering", "Jesus"],
-    "scripture_references": ["Matthew 26:36-46"],
+    "themes": [
+      "Gethsemane",
+      "prayer",
+      "suffering",
+      "Jesus"
+    ],
+    "scripture_references": [
+      "Matthew 26:36-46"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

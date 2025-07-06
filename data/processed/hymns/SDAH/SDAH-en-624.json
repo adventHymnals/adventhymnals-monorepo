@@ -25,8 +25,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["companionship", "comfort", "trials", "spiritual journey"],
-    "scripture_references": ["Psalm 23:4", "Matthew 28:20"],
+    "themes": [
+      "companionship",
+      "comfort",
+      "trials",
+      "spiritual journey"
+    ],
+    "scripture_references": [
+      "Psalm 23:4",
+      "Matthew 28:20"
+    ],
     "tune_source": "Traditional African American Spiritual",
     "original_language": "en"
   }

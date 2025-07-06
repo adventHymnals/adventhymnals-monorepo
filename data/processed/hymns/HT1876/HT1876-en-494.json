@@ -34,7 +34,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["protecting Power", "mercy", "ruling hand", "joy", "storms"],
+    "themes": [
+      "protecting Power",
+      "mercy",
+      "ruling hand",
+      "joy",
+      "storms"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

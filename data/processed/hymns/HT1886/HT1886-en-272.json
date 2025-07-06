@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "closing", "prayer", "farewell"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "closing",
+      "prayer",
+      "farewell"
+    ],
     "scripture_references": [],
     "tune_source": "Hart, 7s.",
     "original_language": "en"

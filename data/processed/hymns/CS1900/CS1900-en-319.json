@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["salvation", "joy", "commitment", "baptism"],
-    "scripture_references": ["Acts 8:39"],
+    "themes": [
+      "salvation",
+      "joy",
+      "commitment",
+      "baptism"
+    ],
+    "scripture_references": [
+      "Acts 8:39"
+    ],
     "tune_source": "E. F. Rimbault",
     "original_language": "en"
   }

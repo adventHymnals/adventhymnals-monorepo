@@ -25,8 +25,16 @@
   "metadata": {
     "year": 1849,
     "copyright": null,
-    "themes": ["christmas", "angels", "peace", "worship", "hope"],
-    "scripture_references": ["Luke 2:8-20"],
+    "themes": [
+      "christmas",
+      "angels",
+      "peace",
+      "worship",
+      "hope"
+    ],
+    "scripture_references": [
+      "Luke 2:8-20"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

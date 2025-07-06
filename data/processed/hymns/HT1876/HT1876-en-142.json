@@ -4,17 +4,35 @@
   "title": "My spirit on my care",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "My spirit on my care, Blest Saviour, I recline; Thou wilt not leave me to despair, For thou art love divine."},
-    {"number": 2, "text": "In thee I place my trust, On thee I calmly rest; I know thee good, I know thee just, And count thy choice the best."},
-    {"number": 3, "text": "Whate'er events betide, Thy will they all perform; Safe in thy breast my head I hide, Nor fear the coming storm."},
-    {"number": 4, "text": "Let good or ill befall, It must be good for me,— Secure of having thee in all, Of having all in thee."}
+    {
+      "number": 1,
+      "text": "My spirit on my care, Blest Saviour, I recline; Thou wilt not leave me to despair, For thou art love divine."
+    },
+    {
+      "number": 2,
+      "text": "In thee I place my trust, On thee I calmly rest; I know thee good, I know thee just, And count thy choice the best."
+    },
+    {
+      "number": 3,
+      "text": "Whate'er events betide, Thy will they all perform; Safe in thy breast my head I hide, Nor fear the coming storm."
+    },
+    {
+      "number": 4,
+      "text": "Let good or ill befall, It must be good for me,— Secure of having thee in all, Of having all in thee."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["trust", "Jesus", "rest", "divine will", "security"],
+    "themes": [
+      "trust",
+      "Jesus",
+      "rest",
+      "divine will",
+      "security"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

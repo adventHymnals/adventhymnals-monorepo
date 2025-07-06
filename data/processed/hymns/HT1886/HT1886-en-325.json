@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Sufferings and Death", "Calvary", "cross", "blood", "refuge"],
+    "themes": [
+      "Christ",
+      "Sufferings and Death",
+      "Calvary",
+      "cross",
+      "blood",
+      "refuge"
+    ],
     "scripture_references": [],
     "tune_source": "80, 183, 747",
     "original_language": "en"

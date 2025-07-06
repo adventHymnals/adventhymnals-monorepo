@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["law of God", "righteousness", "obedience", "peace", "steadfastness"],
-    "scripture_references": ["Psalm 119:1"],
+    "themes": [
+      "law of God",
+      "righteousness",
+      "obedience",
+      "peace",
+      "steadfastness"
+    ],
+    "scripture_references": [
+      "Psalm 119:1"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

@@ -23,7 +23,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "bride of Christ", "hope", "joy"],
+    "themes": [
+      "second advent",
+      "bride of Christ",
+      "hope",
+      "joy"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

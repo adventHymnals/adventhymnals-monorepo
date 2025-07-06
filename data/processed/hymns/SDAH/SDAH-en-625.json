@@ -31,8 +31,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["spiritual growth", "aspiration", "faith", "victory"],
-    "scripture_references": ["Philippians 3:14", "Colossians 3:1-2"],
+    "themes": [
+      "spiritual growth",
+      "aspiration",
+      "faith",
+      "victory"
+    ],
+    "scripture_references": [
+      "Philippians 3:14",
+      "Colossians 3:1-2"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

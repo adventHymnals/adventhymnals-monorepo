@@ -31,7 +31,16 @@
   "composer": "",
   "author": "",
   "page": 236,
-  "themes": ["Love", "Jesus", "Savior", "Lord", "Happy", "Joy", "King", "Praise"],
+  "themes": [
+    "Love",
+    "Jesus",
+    "Savior",
+    "Lord",
+    "Happy",
+    "Joy",
+    "King",
+    "Praise"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

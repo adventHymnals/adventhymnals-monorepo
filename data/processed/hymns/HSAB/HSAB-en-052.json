@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["morning", "dawn", "glory", "redeemer", "home"],
+    "themes": [
+      "morning",
+      "dawn",
+      "glory",
+      "redeemer",
+      "home"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

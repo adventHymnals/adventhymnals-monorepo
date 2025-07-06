@@ -33,8 +33,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Jesus beauty", "salvation", "grace", "victory"],
-    "scripture_references": ["Song of Solomon 5:16"],
+    "themes": [
+      "Jesus beauty",
+      "salvation",
+      "grace",
+      "victory"
+    ],
+    "scripture_references": [
+      "Song of Solomon 5:16"
+    ],
     "tune_source": "T. Hastings",
     "original_language": "en"
   }

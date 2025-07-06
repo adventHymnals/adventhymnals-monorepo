@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1755,
     "copyright": "Public Domain",
-    "themes": ["God's gentleness", "trust", "care", "burden bearing"],
-    "scripture_references": ["Matthew 11:28-30", "1 Peter 5:7"],
+    "themes": [
+      "God's gentleness",
+      "trust",
+      "care",
+      "burden bearing"
+    ],
+    "scripture_references": [
+      "Matthew 11:28-30",
+      "1 Peter 5:7"
+    ],
     "tune_source": "Dennis, Hans Georg Nägeli, 1845",
     "original_language": "en"
   }

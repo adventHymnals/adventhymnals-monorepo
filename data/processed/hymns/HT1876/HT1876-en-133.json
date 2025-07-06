@@ -4,16 +4,31 @@
   "title": "'Tis by the faith of Jesus we come",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "'Tis by the faith of Jesus we come, We walk through deserts dark as night; Till we arrive at Heaven, our home, Truth is our guide, and faith our light."},
-    {"number": 2, "text": "The word of sight she well supplies; She makes the pearly gates appear; Far into distant worlds she flies, And brings the glorious prospect near."},
-    {"number": 3, "text": "Though lions roar, and tempests blow, And rocks and dangers fill the way, With joy we tread the desert through, While faith inspires a heavenly ray."}
+    {
+      "number": 1,
+      "text": "'Tis by the faith of Jesus we come, We walk through deserts dark as night; Till we arrive at Heaven, our home, Truth is our guide, and faith our light."
+    },
+    {
+      "number": 2,
+      "text": "The word of sight she well supplies; She makes the pearly gates appear; Far into distant worlds she flies, And brings the glorious prospect near."
+    },
+    {
+      "number": 3,
+      "text": "Though lions roar, and tempests blow, And rocks and dangers fill the way, With joy we tread the desert through, While faith inspires a heavenly ray."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["faith", "Jesus", "journey", "heaven", "perseverance"],
+    "themes": [
+      "faith",
+      "Jesus",
+      "journey",
+      "heaven",
+      "perseverance"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

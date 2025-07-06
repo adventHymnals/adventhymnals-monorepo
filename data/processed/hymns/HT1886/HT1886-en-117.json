@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "devotion", "sweetness of Jesus", "hope", "love of Jesus"],
+    "themes": [
+      "Jesus Christ",
+      "devotion",
+      "sweetness of Jesus",
+      "hope",
+      "love of Jesus"
+    ],
     "scripture_references": [],
     "tune_source": "John B. Dykes",
     "original_language": "en"

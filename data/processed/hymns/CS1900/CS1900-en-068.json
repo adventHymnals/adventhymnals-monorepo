@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "By permission of Jno. J. Hood & Co.",
-    "themes": ["Galilee", "Jesus", "memories", "love"],
+    "themes": [
+      "Galilee",
+      "Jesus",
+      "memories",
+      "love"
+    ],
     "scripture_references": [],
     "tune_source": "H. P. Danks",
     "original_language": "en"

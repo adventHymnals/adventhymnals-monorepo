@@ -25,7 +25,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["praise", "Jesus", "victory", "redemption"],
+    "themes": [
+      "praise",
+      "Jesus",
+      "victory",
+      "redemption"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

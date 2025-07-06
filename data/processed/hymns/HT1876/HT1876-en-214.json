@@ -4,15 +4,28 @@
   "title": "Lord, in the strength of grace",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Lord, in the strength of grace, With a glad heart, and free, Myself, my residue of days, I consecrate to thee."},
-    {"number": 2, "text": "Thy willing servant, I Restore to thee thine own; And from this moment, live or die, Will serve my God alone."}
+    {
+      "number": 1,
+      "text": "Lord, in the strength of grace, With a glad heart, and free, Myself, my residue of days, I consecrate to thee."
+    },
+    {
+      "number": 2,
+      "text": "Thy willing servant, I Restore to thee thine own; And from this moment, live or die, Will serve my God alone."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["consecration", "dedication", "service", "devotion", "grace", "surrender"],
+    "themes": [
+      "consecration",
+      "dedication",
+      "service",
+      "devotion",
+      "grace",
+      "surrender"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

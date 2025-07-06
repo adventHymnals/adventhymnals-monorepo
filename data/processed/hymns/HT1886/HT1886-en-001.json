@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "prayer", "praise", "God's presence", "devotion"],
+    "themes": [
+      "worship",
+      "prayer",
+      "praise",
+      "God's presence",
+      "devotion"
+    ],
     "scripture_references": [],
     "tune_source": "Old Hundred, Guillaume Franc",
     "original_language": "en"

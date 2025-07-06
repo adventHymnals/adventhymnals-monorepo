@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1863,
     "copyright": "Public Domain",
-    "themes": ["Second Coming", "Church", "Waiting", "Longing"],
-    "scripture_references": ["Revelation 22:20", "2 Peter 3:9"],
+    "themes": [
+      "Second Coming",
+      "Church",
+      "Waiting",
+      "Longing"
+    ],
+    "scripture_references": [
+      "Revelation 22:20",
+      "2 Peter 3:9"
+    ],
     "tune_source": "Joseph Barnby, 1868",
     "original_language": "en"
   }

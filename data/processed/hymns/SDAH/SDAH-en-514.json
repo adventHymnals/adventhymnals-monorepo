@@ -29,8 +29,17 @@
   "metadata": {
     "year": 1644,
     "copyright": "Public Domain",
-    "themes": ["prayer", "protection", "church", "peace", "salvation"],
-    "scripture_references": ["Psalm 20", "Ephesians 6:10-18"],
+    "themes": [
+      "prayer",
+      "protection",
+      "church",
+      "peace",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Psalm 20",
+      "Ephesians 6:10-18"
+    ],
     "tune_source": "Johannes Brahms",
     "original_language": "de"
   }

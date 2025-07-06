@@ -4,16 +4,31 @@
   "title": "Light of the world, the light",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Light of the world, the light, Those friendly brethren prove, Whose cheerful hearts unite wide Of harmony and love!"},
-    {"number": 2, "text": "When streams of love like Christ, descending, Descend on every soul, And heavenly peace with holy joy Shades and revives the whole."},
-    {"number": 3, "text": "'Tis pleasant as the morning dew, That fall on Zion's hill, Where God the midst glory shows, And makes his grace distill."}
+    {
+      "number": 1,
+      "text": "Light of the world, the light, Those friendly brethren prove, Whose cheerful hearts unite wide Of harmony and love!"
+    },
+    {
+      "number": 2,
+      "text": "When streams of love like Christ, descending, Descend on every soul, And heavenly peace with holy joy Shades and revives the whole."
+    },
+    {
+      "number": 3,
+      "text": "'Tis pleasant as the morning dew, That fall on Zion's hill, Where God the midst glory shows, And makes his grace distill."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["light of the world", "Christian unity", "love", "harmony", "God's grace"],
+    "themes": [
+      "light of the world",
+      "Christian unity",
+      "love",
+      "harmony",
+      "God's grace"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

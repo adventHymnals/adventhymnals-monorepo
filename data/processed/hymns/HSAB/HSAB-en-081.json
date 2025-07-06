@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["true witness", "spirit's course", "word of god", "cross endured", "shadowing wings"],
+    "themes": [
+      "true witness",
+      "spirit's course",
+      "word of god",
+      "cross endured",
+      "shadowing wings"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

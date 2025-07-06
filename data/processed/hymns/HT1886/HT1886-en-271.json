@@ -20,7 +20,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "closing", "peace", "heaven", "grace"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "closing",
+      "peace",
+      "heaven",
+      "grace"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

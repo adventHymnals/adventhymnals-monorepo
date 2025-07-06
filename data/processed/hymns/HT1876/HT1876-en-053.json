@@ -42,7 +42,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Redeemer", "Scripture", "word", "salvation", "obedience"],
+    "themes": [
+      "Redeemer",
+      "Scripture",
+      "word",
+      "salvation",
+      "obedience"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

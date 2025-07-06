@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Zion", "church", "divine provision", "glory"],
-    "scripture_references": ["Isaiah 33:20"],
+    "themes": [
+      "Zion",
+      "church",
+      "divine provision",
+      "glory"
+    ],
+    "scripture_references": [
+      "Isaiah 33:20"
+    ],
     "tune_source": "Wm. J. Kirkpatrick",
     "original_language": "en"
   }

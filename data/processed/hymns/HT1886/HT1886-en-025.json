@@ -28,8 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "God's house", "protection"],
-    "scripture_references": ["Psalm 84"],
+    "themes": [
+      "worship",
+      "God's house",
+      "protection"
+    ],
+    "scripture_references": [
+      "Psalm 84"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

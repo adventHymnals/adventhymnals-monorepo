@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["service", "watchfulness", "readiness", "second coming"],
+    "themes": [
+      "service",
+      "watchfulness",
+      "readiness",
+      "second coming"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

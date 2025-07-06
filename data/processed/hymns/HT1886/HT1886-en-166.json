@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "divine light", "comfort", "guidance", "cleansing", "hope"],
+    "themes": [
+      "Holy Spirit",
+      "divine light",
+      "comfort",
+      "guidance",
+      "cleansing",
+      "hope"
+    ],
     "scripture_references": [],
     "tune_source": "Salisbury, 7s & 5",
     "original_language": "en"

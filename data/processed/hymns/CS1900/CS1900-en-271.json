@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Holy Spirit", "peace", "comfort", "rest"],
+    "themes": [
+      "Holy Spirit",
+      "peace",
+      "comfort",
+      "rest"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

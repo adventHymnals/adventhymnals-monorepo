@@ -24,7 +24,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["divine guidance", "protection", "humility", "Holy Spirit"],
+    "themes": [
+      "divine guidance",
+      "protection",
+      "humility",
+      "Holy Spirit"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

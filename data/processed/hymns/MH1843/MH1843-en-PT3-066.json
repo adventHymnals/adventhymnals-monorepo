@@ -35,7 +35,14 @@
   "composer": "",
   "author": "",
   "page": 205,
-  "themes": ["Awake", "Song", "Moses", "Lamb", "Praise", "Savior"],
+  "themes": [
+    "Awake",
+    "Song",
+    "Moses",
+    "Lamb",
+    "Praise",
+    "Savior"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

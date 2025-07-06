@@ -36,8 +36,15 @@
   "metadata": {
     "year": 1868,
     "copyright": "Public Domain",
-    "themes": ["shepherd", "guidance", "comfort", "eternal life"],
-    "scripture_references": ["Psalm 23"],
+    "themes": [
+      "shepherd",
+      "guidance",
+      "comfort",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "Psalm 23"
+    ],
     "tune_source": "Dominus regit me, John Bacchus Dykes, 1868",
     "original_language": "en"
   }

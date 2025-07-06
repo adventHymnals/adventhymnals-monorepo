@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "First Advent", "Christmas", "incarnation", "praise"],
+    "themes": [
+      "Christ",
+      "First Advent",
+      "Christmas",
+      "incarnation",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": "Harmony Grove, L. M.",
     "original_language": "en"

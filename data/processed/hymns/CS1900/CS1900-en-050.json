@@ -27,7 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1900, by F. E. Belden",
-    "themes": ["salvation", "refuge", "haven", "rest", "God's love", "shelter"],
+    "themes": [
+      "salvation",
+      "refuge",
+      "haven",
+      "rest",
+      "God's love",
+      "shelter"
+    ],
     "scripture_references": [],
     "tune_source": "F. E. Belden",
     "original_language": "en"

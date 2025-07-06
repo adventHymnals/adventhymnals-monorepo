@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1740,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "Light", "Worship", "Rest"],
-    "scripture_references": ["Psalm 36:9", "1 John 1:5"],
+    "themes": [
+      "Sabbath",
+      "Light",
+      "Worship",
+      "Rest"
+    ],
+    "scripture_references": [
+      "Psalm 36:9",
+      "1 John 1:5"
+    ],
     "tune_source": "William H. Monk, 1861",
     "original_language": "en"
   }

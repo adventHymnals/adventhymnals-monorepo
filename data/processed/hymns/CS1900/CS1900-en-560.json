@@ -29,8 +29,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["closeness to God", "perseverance", "spiritual journey"],
-    "scripture_references": ["Genesis 28:10-22"],
+    "themes": [
+      "closeness to God",
+      "perseverance",
+      "spiritual journey"
+    ],
+    "scripture_references": [
+      "Genesis 28:10-22"
+    ],
     "tune_source": "Bethany",
     "original_language": "en"
   }

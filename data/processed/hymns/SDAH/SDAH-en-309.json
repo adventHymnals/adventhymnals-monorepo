@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Surrender", "Consecration", "Total Commitment", "Salvation"],
+    "themes": [
+      "Surrender",
+      "Consecration",
+      "Total Commitment",
+      "Salvation"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

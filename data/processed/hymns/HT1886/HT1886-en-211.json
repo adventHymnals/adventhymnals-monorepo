@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's statutes", "meditation", "divine word", "courage", "proclamation"],
-    "scripture_references": ["Psalm 119:23"],
+    "themes": [
+      "God's statutes",
+      "meditation",
+      "divine word",
+      "courage",
+      "proclamation"
+    ],
+    "scripture_references": [
+      "Psalm 119:23"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

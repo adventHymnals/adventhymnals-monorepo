@@ -1,5 +1,5 @@
 {
-  "id": "CS1900-en-410", 
+  "id": "CS1900-en-410",
   "number": 410,
   "title": "We'll Live in Tents",
   "author": "H. S. Case",
@@ -23,7 +23,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden. Used by permission.",
-    "themes": ["pilgrimage", "heaven", "temporary dwelling"],
+    "themes": [
+      "pilgrimage",
+      "heaven",
+      "temporary dwelling"
+    ],
     "scripture_references": [],
     "tune_source": "H. S. Case",
     "original_language": "en"

@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1740,
     "copyright": "Public Domain",
-    "themes": ["refuge", "comfort", "grace", "salvation"],
-    "scripture_references": ["Psalm 91:4", "John 4:14"],
+    "themes": [
+      "refuge",
+      "comfort",
+      "grace",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Psalm 91:4",
+      "John 4:14"
+    ],
     "tune_source": "Martyn, Simeon Butler Marsh, 1834",
     "original_language": "en"
   }

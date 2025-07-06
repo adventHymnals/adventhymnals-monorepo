@@ -30,7 +30,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Sabbath", "praise", "holy day", "worship", "divine law", "grace", "Spirit"],
+    "themes": [
+      "Sabbath",
+      "praise",
+      "holy day",
+      "worship",
+      "divine law",
+      "grace",
+      "Spirit"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

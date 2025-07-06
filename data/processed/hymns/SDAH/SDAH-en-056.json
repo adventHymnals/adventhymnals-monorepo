@@ -29,7 +29,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["evening", "church", "global worship", "God's kingdom", "praise"],
+    "themes": [
+      "evening",
+      "church",
+      "global worship",
+      "God's kingdom",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

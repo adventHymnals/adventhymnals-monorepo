@@ -23,8 +23,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "Music copyright, 1897, by J. E. Belden.",
-    "themes": ["waiting on God", "strength", "patience", "trust"],
-    "scripture_references": ["Isaiah 40:31", "Psalm 27:14"],
+    "themes": [
+      "waiting on God",
+      "strength",
+      "patience",
+      "trust"
+    ],
+    "scripture_references": [
+      "Isaiah 40:31",
+      "Psalm 27:14"
+    ],
     "tune_source": "A. S. Hickman",
     "original_language": "en"
   }

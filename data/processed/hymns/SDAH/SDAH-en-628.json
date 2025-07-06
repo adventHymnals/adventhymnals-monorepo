@@ -27,8 +27,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["Jacob's ladder", "spiritual ascent", "mercy", "heaven"],
-    "scripture_references": ["Genesis 28:10-22", "John 1:51"],
+    "themes": [
+      "Jacob's ladder",
+      "spiritual ascent",
+      "mercy",
+      "heaven"
+    ],
+    "scripture_references": [
+      "Genesis 28:10-22",
+      "John 1:51"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

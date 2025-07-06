@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["salvation", "freedom", "grace", "redemption"],
-    "scripture_references": ["Romans 6:14"],
+    "themes": [
+      "salvation",
+      "freedom",
+      "grace",
+      "redemption"
+    ],
+    "scripture_references": [
+      "Romans 6:14"
+    ],
     "tune_source": "Wm. J. Kirkpatrick",
     "original_language": "en"
   }

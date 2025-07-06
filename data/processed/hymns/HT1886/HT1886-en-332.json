@@ -48,7 +48,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Sufferings and Death", "Calvary", "crucifixion", "resurrection", "victory"],
+    "themes": [
+      "Christ",
+      "Sufferings and Death",
+      "Calvary",
+      "crucifixion",
+      "resurrection",
+      "victory"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

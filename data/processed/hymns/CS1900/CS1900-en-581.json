@@ -25,8 +25,18 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Holy Spirit", "word of God", "truth", "scripture", "light", "divine guidance"],
-    "scripture_references": ["2 Timothy 3:16", "Psalm 119:105"],
+    "themes": [
+      "Holy Spirit",
+      "word of God",
+      "truth",
+      "scripture",
+      "light",
+      "divine guidance"
+    ],
+    "scripture_references": [
+      "2 Timothy 3:16",
+      "Psalm 119:105"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

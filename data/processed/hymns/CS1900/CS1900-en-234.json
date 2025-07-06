@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["singing", "joy", "peace", "music"],
+    "themes": [
+      "singing",
+      "joy",
+      "peace",
+      "music"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

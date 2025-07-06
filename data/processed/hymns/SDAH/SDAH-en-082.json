@@ -26,8 +26,15 @@
     }
   ],
   "metadata": {
-    "themes": ["Worship", "God's Sovereignty", "Creation", "Praise"],
-    "scripture_references": ["Psalm 100"],
+    "themes": [
+      "Worship",
+      "God's Sovereignty",
+      "Creation",
+      "Praise"
+    ],
+    "scripture_references": [
+      "Psalm 100"
+    ],
     "tune_source": "St. Anne",
     "original_language": "en"
   }

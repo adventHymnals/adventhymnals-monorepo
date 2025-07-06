@@ -29,8 +29,16 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["christmas", "nativity", "angels", "shepherds", "worship"],
-    "scripture_references": ["Luke 2:8-20"],
+    "themes": [
+      "christmas",
+      "nativity",
+      "angels",
+      "shepherds",
+      "worship"
+    ],
+    "scripture_references": [
+      "Luke 2:8-20"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

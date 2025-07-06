@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "scattered flock", "gathering", "commandments", "unity"],
+    "themes": [
+      "second advent",
+      "scattered flock",
+      "gathering",
+      "commandments",
+      "unity"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

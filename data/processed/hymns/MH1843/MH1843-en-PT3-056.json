@@ -11,7 +11,7 @@
       "text": "\"There shall be showers of blessing:\" This is the promise of love; There shall be seasons refreshing, Sent from the Savior above."
     },
     {
-      "number": "2", 
+      "number": "2",
       "text": "\"There shall be showers of blessing\" Precious reviving again; Over the hills and the valleys, Sound of abundance of rain."
     },
     {
@@ -31,7 +31,12 @@
   "composer": "",
   "author": "",
   "page": 195,
-  "themes": ["Blessing", "Revival", "Prayer", "God's Promise"],
+  "themes": [
+    "Blessing",
+    "Revival",
+    "Prayer",
+    "God's Promise"
+  ],
   "key_signature": "Bb",
   "time_signature": "6/8"
 }

@@ -26,7 +26,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["baptism", "Jesus", "John the Baptist", "Jordan River", "righteousness", "salvation"],
+    "themes": [
+      "baptism",
+      "Jesus",
+      "John the Baptist",
+      "Jordan River",
+      "righteousness",
+      "salvation"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -32,8 +32,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["warning", "judgment", "repentance"],
-    "scripture_references": ["Proverbs 1:24-28", "Luke 13:25"],
+    "themes": [
+      "warning",
+      "judgment",
+      "repentance"
+    ],
+    "scripture_references": [
+      "Proverbs 1:24-28",
+      "Luke 13:25"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

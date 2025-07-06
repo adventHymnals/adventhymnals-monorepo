@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Sufferings and Death", "love", "crucifixion", "sacrifice", "salvation"],
+    "themes": [
+      "Christ",
+      "Sufferings and Death",
+      "love",
+      "crucifixion",
+      "sacrifice",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": "Stella, Unknown",
     "original_language": "en"

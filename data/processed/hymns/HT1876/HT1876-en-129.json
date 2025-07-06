@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["sinner", "secure", "pray", "Lord's avenging", "advent"],
+    "themes": [
+      "sinner",
+      "secure",
+      "pray",
+      "Lord's avenging",
+      "advent"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "7s."

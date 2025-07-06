@@ -22,7 +22,12 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["prayer", "worship", "reverence", "grace"],
+    "themes": [
+      "prayer",
+      "worship",
+      "reverence",
+      "grace"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

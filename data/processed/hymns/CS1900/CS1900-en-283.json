@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["salvation", "joy", "faith", "redemption"],
-    "scripture_references": ["John 3:16"],
+    "themes": [
+      "salvation",
+      "joy",
+      "faith",
+      "redemption"
+    ],
+    "scripture_references": [
+      "John 3:16"
+    ],
     "tune_source": "Arranged",
     "original_language": "en"
   }

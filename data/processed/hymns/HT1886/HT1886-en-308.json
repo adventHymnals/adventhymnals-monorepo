@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Life and Character", "grace", "patience", "love", "forgiveness"],
+    "themes": [
+      "Christ",
+      "Life and Character",
+      "grace",
+      "patience",
+      "love",
+      "forgiveness"
+    ],
     "scripture_references": [],
     "tune_source": "Evan, William H. Havergal",
     "original_language": "en"

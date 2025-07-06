@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's love", "divine mercy", "grace", "salvation freely given", "Calvary"],
-    "scripture_references": ["Romans 8:32", "Matthew 7:7-8", "Ephesians 2:8-9"],
+    "themes": [
+      "God's love",
+      "divine mercy",
+      "grace",
+      "salvation freely given",
+      "Calvary"
+    ],
+    "scripture_references": [
+      "Romans 8:32",
+      "Matthew 7:7-8",
+      "Ephesians 2:8-9"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["patience", "waiting", "perseverance", "strength"],
+    "themes": [
+      "patience",
+      "waiting",
+      "perseverance",
+      "strength"
+    ],
     "scripture_references": [],
     "tune_source": "Johnson",
     "original_language": "en"

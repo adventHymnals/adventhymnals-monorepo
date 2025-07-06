@@ -31,7 +31,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["Jesus' reign", "kingdom", "universal worship", "blessings"],
+    "themes": [
+      "Jesus' reign",
+      "kingdom",
+      "universal worship",
+      "blessings"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

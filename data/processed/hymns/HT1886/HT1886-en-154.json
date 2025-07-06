@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "divine comfort", "heavenly love", "spiritual guidance", "grace"],
+    "themes": [
+      "Holy Spirit",
+      "divine comfort",
+      "heavenly love",
+      "spiritual guidance",
+      "grace"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

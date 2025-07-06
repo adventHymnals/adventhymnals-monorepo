@@ -25,7 +25,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["evening", "rest", "protection", "Jesus", "angels"],
+    "themes": [
+      "evening",
+      "rest",
+      "protection",
+      "Jesus",
+      "angels"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

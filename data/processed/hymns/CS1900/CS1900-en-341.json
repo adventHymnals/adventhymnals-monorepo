@@ -21,7 +21,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["willingness", "love", "salvation"],
+    "themes": [
+      "willingness",
+      "love",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": "Jno. R. Clements",
     "original_language": "en"

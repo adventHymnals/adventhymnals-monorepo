@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["creation", "God's beauty", "nature", "providence", "praise"],
+    "themes": [
+      "creation",
+      "God's beauty",
+      "nature",
+      "providence",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": "669, 500, 201",
     "original_language": "en"

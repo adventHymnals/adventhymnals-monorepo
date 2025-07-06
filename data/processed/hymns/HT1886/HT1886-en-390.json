@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["invitation", "salvation", "acceptance", "cleansing"],
-    "scripture_references": ["John 6:37", "1 John 1:7"],
+    "themes": [
+      "invitation",
+      "salvation",
+      "acceptance",
+      "cleansing"
+    ],
+    "scripture_references": [
+      "John 6:37",
+      "1 John 1:7"
+    ],
     "tune_source": "William Bradbury",
     "original_language": "en"
   }

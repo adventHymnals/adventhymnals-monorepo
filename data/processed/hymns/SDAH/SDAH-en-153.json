@@ -25,7 +25,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["peace", "surrender", "will of God", "control"],
+    "themes": [
+      "peace",
+      "surrender",
+      "will of God",
+      "control"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

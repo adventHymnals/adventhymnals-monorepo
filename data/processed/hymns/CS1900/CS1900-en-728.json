@@ -25,7 +25,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["second coming", "eternal life", "reunion"],
+    "themes": [
+      "second coming",
+      "eternal life",
+      "reunion"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

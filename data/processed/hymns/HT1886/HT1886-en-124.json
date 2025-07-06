@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "praise", "Jesus Christ", "completeness in Christ", "fulness of Godhead"],
-    "scripture_references": ["Colossians 2:9-10"],
+    "themes": [
+      "worship",
+      "praise",
+      "Jesus Christ",
+      "completeness in Christ",
+      "fulness of Godhead"
+    ],
+    "scripture_references": [
+      "Colossians 2:9-10"
+    ],
     "tune_source": "259, 604",
     "original_language": "en"
   }

@@ -27,7 +27,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by permission of Biglow & Main.",
-    "themes": ["praise", "children", "Jesus"],
+    "themes": [
+      "praise",
+      "children",
+      "Jesus"
+    ],
     "scripture_references": [],
     "tune_source": "Robert Lowry",
     "original_language": "en"

@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Life and Character", "pilgrimage", "suffering", "cross", "sacrifice"],
+    "themes": [
+      "Christ",
+      "Life and Character",
+      "pilgrimage",
+      "suffering",
+      "cross",
+      "sacrifice"
+    ],
     "scripture_references": [],
     "tune_source": "120, 227, 204",
     "original_language": "en"

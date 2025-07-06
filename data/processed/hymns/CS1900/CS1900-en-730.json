@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["perseverance", "heaven", "family", "spiritual journey"],
+    "themes": [
+      "perseverance",
+      "heaven",
+      "family",
+      "spiritual journey"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

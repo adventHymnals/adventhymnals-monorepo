@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["new jerusalem", "eternal city", "new heavens and earth", "angels", "eternal king"],
-    "scripture_references": ["Rev 21:1-4", "Rev 21:10-27", "2 Pet 3:13"],
+    "themes": [
+      "new jerusalem",
+      "eternal city",
+      "new heavens and earth",
+      "angels",
+      "eternal king"
+    ],
+    "scripture_references": [
+      "Rev 21:1-4",
+      "Rev 21:10-27",
+      "2 Pet 3:13"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

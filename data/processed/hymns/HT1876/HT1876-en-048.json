@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Scripture", "God's word", "sacred book", "Lord's presence", "longing"],
+    "themes": [
+      "Scripture",
+      "God's word",
+      "sacred book",
+      "Lord's presence",
+      "longing"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M.",

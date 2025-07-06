@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1816,
     "copyright": "Public Domain",
-    "themes": ["Christmas", "Angels", "Worship", "Christ's Birth"],
-    "scripture_references": ["Luke 2:13-14", "Matthew 2:1-2"],
+    "themes": [
+      "Christmas",
+      "Angels",
+      "Worship",
+      "Christ's Birth"
+    ],
+    "scripture_references": [
+      "Luke 2:13-14",
+      "Matthew 2:1-2"
+    ],
     "tune_source": "Henry T. Smart, 1867",
     "original_language": "en"
   }

@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus", "presence", "salvation", "grace", "heaven"],
+    "themes": [
+      "Jesus",
+      "presence",
+      "salvation",
+      "grace",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": "St. Thomas, George F. Handel",
     "original_language": "en"

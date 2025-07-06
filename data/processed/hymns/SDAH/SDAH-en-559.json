@@ -25,7 +25,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["thanksgiving", "praise", "blessing", "Trinity"],
+    "themes": [
+      "thanksgiving",
+      "praise",
+      "blessing",
+      "Trinity"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

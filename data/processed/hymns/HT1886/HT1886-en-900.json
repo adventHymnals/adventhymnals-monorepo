@@ -32,8 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Second Advent", "resurrection", "hope"],
-    "scripture_references": ["1 Thessalonians 4:16-17"],
+    "themes": [
+      "Second Advent",
+      "resurrection",
+      "hope"
+    ],
+    "scripture_references": [
+      "1 Thessalonians 4:16-17"
+    ],
     "tune_source": "Advent, Edwin Barnes",
     "original_language": "en"
   }

@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["creation", "God's power", "nature's praise", "divine majesty", "celestial glory", "God's handiwork"],
+    "themes": [
+      "creation",
+      "God's power",
+      "nature's praise",
+      "divine majesty",
+      "celestial glory",
+      "God's handiwork"
+    ],
     "scripture_references": [],
     "tune_source": "Creation, Francis J. Haydn",
     "original_language": "en"

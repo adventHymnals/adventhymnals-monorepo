@@ -20,7 +20,15 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Second Coming", "King of Kings", "Babylon's Fall", "Resurrection", "Judgment Day", "New Jerusalem", "Victory"],
+    "themes": [
+      "Second Coming",
+      "King of Kings",
+      "Babylon's Fall",
+      "Resurrection",
+      "Judgment Day",
+      "New Jerusalem",
+      "Victory"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "P.M. (Particular Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

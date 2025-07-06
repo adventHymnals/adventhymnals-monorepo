@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["prayer", "mercy", "salvation", "humility"],
+    "themes": [
+      "prayer",
+      "mercy",
+      "salvation",
+      "humility"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

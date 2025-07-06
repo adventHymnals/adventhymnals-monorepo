@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1880,
     "copyright": "Public Domain",
-    "themes": ["farewell", "protection", "God's presence", "reunion"],
-    "scripture_references": ["Ruth 1:16-17", "Matthew 28:20"],
+    "themes": [
+      "farewell",
+      "protection",
+      "God's presence",
+      "reunion"
+    ],
+    "scripture_references": [
+      "Ruth 1:16-17",
+      "Matthew 28:20"
+    ],
     "tune_source": "God Be With You, William Gould Tomer, 1880",
     "original_language": "en"
   }

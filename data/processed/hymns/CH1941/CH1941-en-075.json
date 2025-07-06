@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1833,
     "copyright": "Public Domain",
-    "themes": ["worship", "God's majesty", "creation", "providence"],
-    "scripture_references": ["Psalm 104", "Daniel 7:9"],
+    "themes": [
+      "worship",
+      "God's majesty",
+      "creation",
+      "providence"
+    ],
+    "scripture_references": [
+      "Psalm 104",
+      "Daniel 7:9"
+    ],
     "tune_source": "Lyons, Johann Michael Haydn, 1784",
     "original_language": "en"
   }

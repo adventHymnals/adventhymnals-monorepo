@@ -4,19 +4,44 @@
   "title": "A MYSTERY doth the gospel show",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "A MYSTERY doth the gospel show; We shall ere long be changed below, All our corruption put away, And their loud songs salute the skies."},
-    {"number": 2, "text": "The earth, to its first form restored, Shall glorify its infinitely bright, And we, upon that holy ground, Where they may view him face to face."},
-    {"number": 3, "text": "What is our present bitter loss, When God shall wipe from off our eyes All tears of grief, and bliss restore, And suffer us to sin no more?"},
-    {"number": 4, "text": "We would proclaim, There still is room For sinners yet to seek the Lord; Oh! fly, or ye must feel his rod!"},
-    {"number": 5, "text": "Open each eye, unstop each ear, And show the vast approach draws near, To claim the kingdoms for his own, Renew the world, erect thy throne."},
-    {"number": 6, "text": "Oh! quickly change each earthly clod; Restore the image of our God; Let universal nature sing Praises to Christ, our heavenly King."}
+    {
+      "number": 1,
+      "text": "A MYSTERY doth the gospel show; We shall ere long be changed below, All our corruption put away, And their loud songs salute the skies."
+    },
+    {
+      "number": 2,
+      "text": "The earth, to its first form restored, Shall glorify its infinitely bright, And we, upon that holy ground, Where they may view him face to face."
+    },
+    {
+      "number": 3,
+      "text": "What is our present bitter loss, When God shall wipe from off our eyes All tears of grief, and bliss restore, And suffer us to sin no more?"
+    },
+    {
+      "number": 4,
+      "text": "We would proclaim, There still is room For sinners yet to seek the Lord; Oh! fly, or ye must feel his rod!"
+    },
+    {
+      "number": 5,
+      "text": "Open each eye, unstop each ear, And show the vast approach draws near, To claim the kingdoms for his own, Renew the world, erect thy throne."
+    },
+    {
+      "number": 6,
+      "text": "Oh! quickly change each earthly clod; Restore the image of our God; Let universal nature sing Praises to Christ, our heavenly King."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["mystery", "gospel", "transformation", "earth restored", "Christ", "kingdom"],
+    "themes": [
+      "mystery",
+      "gospel",
+      "transformation",
+      "earth restored",
+      "Christ",
+      "kingdom"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

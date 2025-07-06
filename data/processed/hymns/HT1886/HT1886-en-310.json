@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Life and Character", "transfiguration", "prayer", "spiritual experience"],
+    "themes": [
+      "Christ",
+      "Life and Character",
+      "transfiguration",
+      "prayer",
+      "spiritual experience"
+    ],
     "scripture_references": [],
     "tune_source": "686, 438, 446",
     "original_language": "en"

@@ -33,8 +33,17 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["love_of_god", "incarnation", "christ_sacrifice", "devotion", "trinity"],
-    "scripture_references": ["John 3:16", "Philippians 2:5-11"],
+    "themes": [
+      "love_of_god",
+      "incarnation",
+      "christ_sacrifice",
+      "devotion",
+      "trinity"
+    ],
+    "scripture_references": [
+      "John 3:16",
+      "Philippians 2:5-11"
+    ],
     "tune_source": "English",
     "original_language": "la"
   }

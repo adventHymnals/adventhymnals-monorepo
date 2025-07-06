@@ -4,17 +4,34 @@
   "title": "Almighty Father, bless the word",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Almighty Father, bless the word, Which, through thy grace, we now have heard; Oh! may the precious seed take root, Spring up, and bear abundant fruit."},
-    {"number": 2, "text": "We praise thee for the means of grace, Thus in thy courts to seek thy face; Grant, Lord, that we who worship here, May all, at length, in Heaven appear."},
-    {"number": 3, "text": "We praise thee for the means of grace, Thus in thy courts to seek thy face; Grant, Lord, that we who worship here, May all, at length, in Heaven appear."},
-    {"number": 4, "text": "In the provisions of thy house We still shall find a sweet repast; There mercy like a river flows, And brings salvation to our taste."}
+    {
+      "number": 1,
+      "text": "Almighty Father, bless the word, Which, through thy grace, we now have heard; Oh! may the precious seed take root, Spring up, and bear abundant fruit."
+    },
+    {
+      "number": 2,
+      "text": "We praise thee for the means of grace, Thus in thy courts to seek thy face; Grant, Lord, that we who worship here, May all, at length, in Heaven appear."
+    },
+    {
+      "number": 3,
+      "text": "We praise thee for the means of grace, Thus in thy courts to seek thy face; Grant, Lord, that we who worship here, May all, at length, in Heaven appear."
+    },
+    {
+      "number": 4,
+      "text": "In the provisions of thy house We still shall find a sweet repast; There mercy like a river flows, And brings salvation to our taste."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["worship", "God's word", "grace", "salvation"],
+    "themes": [
+      "worship",
+      "God's word",
+      "grace",
+      "salvation"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

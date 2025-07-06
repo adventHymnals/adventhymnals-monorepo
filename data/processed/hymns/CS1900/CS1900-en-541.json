@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895, by J. H. Tenney. Used by permission",
-    "themes": ["trust", "faith", "providence", "daily living"],
+    "themes": [
+      "trust",
+      "faith",
+      "providence",
+      "daily living"
+    ],
     "scripture_references": [],
     "tune_source": "J. H. Tenney",
     "original_language": "en"

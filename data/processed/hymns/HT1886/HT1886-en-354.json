@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["redeeming love", "Christ's sacrifice", "intercession", "atonement"],
-    "scripture_references": ["Hebrews 4:15", "1 John 2:1"],
+    "themes": [
+      "redeeming love",
+      "Christ's sacrifice",
+      "intercession",
+      "atonement"
+    ],
+    "scripture_references": [
+      "Hebrews 4:15",
+      "1 John 2:1"
+    ],
     "tune_source": "Woodland, Nathaniel D. Gould",
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

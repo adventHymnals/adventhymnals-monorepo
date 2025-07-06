@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Universal Praise", "God's Mercy", "Truth", "Hallelujah", "Worship"],
+    "themes": [
+      "Universal Praise",
+      "God's Mercy",
+      "Truth",
+      "Hallelujah",
+      "Worship"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "Irregular Meter",
     "hymnal_context": "Millerite/Adventist movement hymnal",

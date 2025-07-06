@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["human sinfulness", "original sin", "need for grace", "cleansing"],
-    "scripture_references": ["Psalm 51:5", "Romans 3:23"],
+    "themes": [
+      "human sinfulness",
+      "original sin",
+      "need for grace",
+      "cleansing"
+    ],
+    "scripture_references": [
+      "Psalm 51:5",
+      "Romans 3:23"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

@@ -28,7 +28,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["refuge", "protection", "grace"],
+    "themes": [
+      "refuge",
+      "protection",
+      "grace"
+    ],
     "scripture_references": [],
     "tune_source": "Wickham, Morris",
     "original_language": "en"

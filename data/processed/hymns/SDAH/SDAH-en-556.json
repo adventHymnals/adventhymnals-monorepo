@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1961,
     "copyright": "1961, Ren. 1989 The Hymn Society",
-    "themes": ["stewardship", "giving", "first fruits", "service"],
+    "themes": [
+      "stewardship",
+      "giving",
+      "first fruits",
+      "service"
+    ],
     "scripture_references": [],
     "tune_source": "Augsburg Publishing House",
     "original_language": "en"

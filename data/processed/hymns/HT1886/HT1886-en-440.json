@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["repentance", "joy", "salvation", "heaven", "mercy"],
-    "scripture_references": ["Luke 15:7"],
+    "themes": [
+      "repentance",
+      "joy",
+      "salvation",
+      "heaven",
+      "mercy"
+    ],
+    "scripture_references": [
+      "Luke 15:7"
+    ],
     "tune_source": "354, 359, 635",
     "original_language": "en"
   }

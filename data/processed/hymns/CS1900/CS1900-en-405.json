@@ -27,8 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["evangelism", "urgency", "saving souls"],
-    "scripture_references": ["Romans 1:14"],
+    "themes": [
+      "evangelism",
+      "urgency",
+      "saving souls"
+    ],
+    "scripture_references": [
+      "Romans 1:14"
+    ],
     "tune_source": "F. J. Haydn",
     "original_language": "en"
   }

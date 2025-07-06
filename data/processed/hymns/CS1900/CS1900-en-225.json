@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1900, by GEO. H. GABRIEL. Used by permission.",
-    "themes": ["praise", "worship", "king", "glory"],
+    "themes": [
+      "praise",
+      "worship",
+      "king",
+      "glory"
+    ],
     "scripture_references": [],
     "tune_source": "GEO. H. GABRIEL",
     "original_language": "en"

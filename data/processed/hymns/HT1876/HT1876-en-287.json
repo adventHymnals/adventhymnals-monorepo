@@ -4,16 +4,32 @@
   "title": "How long, O Lord our Saviour",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "How long, O Lord our Saviour, Wilt thou remain away? Our hearts are growing weary Of thy so long delay. Oh! when shall come the moment, When, brighter far than morn, The sunshine of thy glory Shall on thy people dawn!"},
-    {"number": 2, "text": "How long, O gracious Master, Wilt thou thy household leave? So long thy sheep have wandered, Few thy return believe. Immersed in sloth and folly, Thy servants, Lord, we see; And few of us stand ready With joy to welcome thee."},
-    {"number": 3, "text": "Oh! wake thy slumbering people, Send forth thy quickening word; Let all thy saints repeat it, The Saviour draweth nigh! Now let each cheering promise Glow with its living ray, Our loins well girded by thee, Each longing heart prepare With joy thy face to see."}
+    {
+      "number": 1,
+      "text": "How long, O Lord our Saviour, Wilt thou remain away? Our hearts are growing weary Of thy so long delay. Oh! when shall come the moment, When, brighter far than morn, The sunshine of thy glory Shall on thy people dawn!"
+    },
+    {
+      "number": 2,
+      "text": "How long, O gracious Master, Wilt thou thy household leave? So long thy sheep have wandered, Few thy return believe. Immersed in sloth and folly, Thy servants, Lord, we see; And few of us stand ready With joy to welcome thee."
+    },
+    {
+      "number": 3,
+      "text": "Oh! wake thy slumbering people, Send forth thy quickening word; Let all thy saints repeat it, The Saviour draweth nigh! Now let each cheering promise Glow with its living ray, Our loins well girded by thee, Each longing heart prepare With joy thy face to see."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["second coming", "waiting", "longing", "awakening", "preparation", "delay"],
+    "themes": [
+      "second coming",
+      "waiting",
+      "longing",
+      "awakening",
+      "preparation",
+      "delay"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "7s & 6s"

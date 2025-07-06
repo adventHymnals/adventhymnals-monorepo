@@ -26,8 +26,16 @@
     }
   ],
   "metadata": {
-    "themes": ["patriotism", "divine guidance", "national prayer", "protection"],
-    "scripture_references": ["Psalm 33:12", "Proverbs 14:34"],
+    "themes": [
+      "patriotism",
+      "divine guidance",
+      "national prayer",
+      "protection"
+    ],
+    "scripture_references": [
+      "Psalm 33:12",
+      "Proverbs 14:34"
+    ],
     "copyright": "Public Domain"
   }
 }

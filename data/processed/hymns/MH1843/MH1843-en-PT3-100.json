@@ -27,7 +27,16 @@
   "composer": "",
   "author": "",
   "page": 239,
-  "themes": ["Jesus", "Treasure", "Friend", "Heart", "Foes", "Peace", "Father", "Lamb"],
+  "themes": [
+    "Jesus",
+    "Treasure",
+    "Friend",
+    "Heart",
+    "Foes",
+    "Peace",
+    "Father",
+    "Lamb"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

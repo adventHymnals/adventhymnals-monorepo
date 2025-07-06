@@ -28,8 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["heaven", "paradise", "worship"],
-    "scripture_references": ["Revelation 7:9"],
+    "themes": [
+      "heaven",
+      "paradise",
+      "worship"
+    ],
+    "scripture_references": [
+      "Revelation 7:9"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

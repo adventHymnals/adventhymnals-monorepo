@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1887,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "Rest", "Holiness", "Sacred Time"],
-    "scripture_references": ["Exodus 20:8-11", "Ezekiel 20:12"],
+    "themes": [
+      "Sabbath",
+      "Rest",
+      "Holiness",
+      "Sacred Time"
+    ],
+    "scripture_references": [
+      "Exodus 20:8-11",
+      "Ezekiel 20:12"
+    ],
     "tune_source": "George C. Stebbins, 1887",
     "original_language": "en"
   }

@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["holy day", "rest", "Christ", "communion", "heaven"],
+    "themes": [
+      "holy day",
+      "rest",
+      "Christ",
+      "communion",
+      "heaven"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "10s"

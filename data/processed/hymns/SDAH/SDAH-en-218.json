@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1856,
     "copyright": "Public Domain",
-    "themes": ["Children", "Second Coming", "Precious to God"],
-    "scripture_references": ["Malachi 3:17", "Matthew 19:14"],
+    "themes": [
+      "Children",
+      "Second Coming",
+      "Precious to God"
+    ],
+    "scripture_references": [
+      "Malachi 3:17",
+      "Matthew 19:14"
+    ],
     "tune_source": "George F. Root, 1856",
     "original_language": "en"
   }

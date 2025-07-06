@@ -31,7 +31,23 @@
   "composer": "",
   "author": "",
   "page": 258,
-  "themes": ["Baptize", "Anew", "Power", "Love", "Refresh", "Savior", "Unworthy", "Unholy", "Cleansed", "Sin", "Wash", "Clean", "Heavenly Dove", "Beloved", "Spirit"],
+  "themes": [
+    "Baptize",
+    "Anew",
+    "Power",
+    "Love",
+    "Refresh",
+    "Savior",
+    "Unworthy",
+    "Unholy",
+    "Cleansed",
+    "Sin",
+    "Wash",
+    "Clean",
+    "Heavenly Dove",
+    "Beloved",
+    "Spirit"
+  ],
   "key_signature": "G",
   "time_signature": "3/4"
 }

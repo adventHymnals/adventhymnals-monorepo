@@ -31,7 +31,15 @@
   "composer": "",
   "author": "",
   "page": 208,
-  "themes": ["Glorious Day", "Hour", "Light", "Savior", "Heaven", "Fire", "Nations"],
+  "themes": [
+    "Glorious Day",
+    "Hour",
+    "Light",
+    "Savior",
+    "Heaven",
+    "Fire",
+    "Nations"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

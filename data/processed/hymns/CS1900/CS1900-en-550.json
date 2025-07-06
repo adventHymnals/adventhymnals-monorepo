@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["salvation", "assurance", "Jesus", "atonement"],
+    "themes": [
+      "salvation",
+      "assurance",
+      "Jesus",
+      "atonement"
+    ],
     "scripture_references": [],
     "tune_source": "P. P. Bliss",
     "original_language": "en"

@@ -31,7 +31,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["heart", "praise", "cleansing", "surrender"],
+    "themes": [
+      "heart",
+      "praise",
+      "cleansing",
+      "surrender"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

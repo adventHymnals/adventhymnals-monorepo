@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["communion", "worship", "humility", "praise"],
+    "themes": [
+      "communion",
+      "worship",
+      "humility",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": "Spiritual",
     "original_language": "en"

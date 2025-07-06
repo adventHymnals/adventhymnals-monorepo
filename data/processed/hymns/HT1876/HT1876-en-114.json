@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["dark night", "garden", "cross", "temptations", "prayer"],
+    "themes": [
+      "dark night",
+      "garden",
+      "cross",
+      "temptations",
+      "prayer"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

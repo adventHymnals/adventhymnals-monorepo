@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["prophets", "Scripture", "God's word", "Redeemer", "hope"],
+    "themes": [
+      "prophets",
+      "Scripture",
+      "God's word",
+      "Redeemer",
+      "hope"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

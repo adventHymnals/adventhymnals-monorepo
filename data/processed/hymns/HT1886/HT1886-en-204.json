@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["law of God", "conscience", "sin", "conviction", "redemption"],
-    "scripture_references": ["Romans 7:9"],
+    "themes": [
+      "law of God",
+      "conscience",
+      "sin",
+      "conviction",
+      "redemption"
+    ],
+    "scripture_references": [
+      "Romans 7:9"
+    ],
     "tune_source": "Avon. C. M., Hugh Wilson",
     "original_language": "en"
   }

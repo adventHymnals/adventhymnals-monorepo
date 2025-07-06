@@ -33,7 +33,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["urgency", "Second Coming", "work", "jubilee", "welcome", "labor", "home"],
+    "themes": [
+      "urgency",
+      "Second Coming",
+      "work",
+      "jubilee",
+      "welcome",
+      "labor",
+      "home"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

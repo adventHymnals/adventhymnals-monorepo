@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["son of god", "people's shield", "i will return", "morning's light", "church longing"],
+    "themes": [
+      "son of god",
+      "people's shield",
+      "i will return",
+      "morning's light",
+      "church longing"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -4,17 +4,36 @@
   "title": "Awake, my soul",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Awake, my soul! stretch every nerve, And press with vigor on; A heavenly race demands thy zeal, And an immortal crown."},
-    {"number": 2, "text": "'Tis God's all-animating voice That calls thee from on high; 'Tis his whose hand presents the prize To thine aspiring eye."},
-    {"number": 3, "text": "A cloud of witnesses around Hold thee in full survey; Forget the steps already trod, And onward urge thy way."},
-    {"number": 4, "text": "Blest Saviour! introduced by thee, Have I my race begun; And, crowned with victory, at thy feet I'll lay my trophies down."}
+    {
+      "number": 1,
+      "text": "Awake, my soul! stretch every nerve, And press with vigor on; A heavenly race demands thy zeal, And an immortal crown."
+    },
+    {
+      "number": 2,
+      "text": "'Tis God's all-animating voice That calls thee from on high; 'Tis his whose hand presents the prize To thine aspiring eye."
+    },
+    {
+      "number": 3,
+      "text": "A cloud of witnesses around Hold thee in full survey; Forget the steps already trod, And onward urge thy way."
+    },
+    {
+      "number": 4,
+      "text": "Blest Saviour! introduced by thee, Have I my race begun; And, crowned with victory, at thy feet I'll lay my trophies down."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["awakening", "spiritual race", "perseverance", "crown of life", "victory", "zeal"],
+    "themes": [
+      "awakening",
+      "spiritual race",
+      "perseverance",
+      "crown of life",
+      "victory",
+      "zeal"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

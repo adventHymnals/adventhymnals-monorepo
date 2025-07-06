@@ -27,7 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1879, by W. H. Doane. Used by permission",
-    "themes": ["giving", "freely", "blessing", "Saviour", "talent", "harvest", "salvation"],
+    "themes": [
+      "giving",
+      "freely",
+      "blessing",
+      "Saviour",
+      "talent",
+      "harvest",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

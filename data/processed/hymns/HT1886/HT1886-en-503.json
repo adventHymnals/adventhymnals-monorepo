@@ -24,7 +24,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["grace", "mercy", "wandering heart", "dedication"],
+    "themes": [
+      "grace",
+      "mercy",
+      "wandering heart",
+      "dedication"
+    ],
     "scripture_references": [],
     "tune_source": "NETTLETON",
     "original_language": "en",

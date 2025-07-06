@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["guidance", "trust", "journey", "faith"],
+    "themes": [
+      "guidance",
+      "trust",
+      "journey",
+      "faith"
+    ],
     "scripture_references": [],
     "tune_source": "J. B. Dykes",
     "original_language": "en"

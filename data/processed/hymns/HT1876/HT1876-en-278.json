@@ -4,16 +4,32 @@
   "title": "Beyond this gloomy night",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Beyond this gloomy night Eternal beauties rise; A land of love, a land of light, Unseen by mortal eyes."},
-    {"number": 2, "text": "This is the land of life, Where death is known no more; Saints ever rest, now free from strife, On that present happy shore."},
-    {"number": 3, "text": "For Jesus is the way, And sin, we shall be free; And perfect love and friendship reign Through all eternity."}
+    {
+      "number": 1,
+      "text": "Beyond this gloomy night Eternal beauties rise; A land of love, a land of light, Unseen by mortal eyes."
+    },
+    {
+      "number": 2,
+      "text": "This is the land of life, Where death is known no more; Saints ever rest, now free from strife, On that present happy shore."
+    },
+    {
+      "number": 3,
+      "text": "For Jesus is the way, And sin, we shall be free; And perfect love and friendship reign Through all eternity."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["heaven", "eternal life", "rest", "freedom", "love", "eternity"],
+    "themes": [
+      "heaven",
+      "eternal life",
+      "rest",
+      "freedom",
+      "love",
+      "eternity"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

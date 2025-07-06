@@ -4,17 +4,35 @@
   "title": "Baptized into our Saviour's death",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Baptized into our Saviour's death, Our souls to sin must die; With Christ our Lord we live anew, With Christ ascend on high."},
-    {"number": 2, "text": "There by his Father's side he sits, Enthroned above the sky; Yet owns himself our Brother still, And hears us when we cry."},
-    {"number": 3, "text": "Rise from these earthly trifles, Rise On wings of faith and love; To joys celestial turn your eyes, And fix our hearts above."},
-    {"number": 4, "text": "Let not earth's pleasures draw us down; All grace and strength to live; And ne'er forget the effective prayer, At last to gain the prize."}
+    {
+      "number": 1,
+      "text": "Baptized into our Saviour's death, Our souls to sin must die; With Christ our Lord we live anew, With Christ ascend on high."
+    },
+    {
+      "number": 2,
+      "text": "There by his Father's side he sits, Enthroned above the sky; Yet owns himself our Brother still, And hears us when we cry."
+    },
+    {
+      "number": 3,
+      "text": "Rise from these earthly trifles, Rise On wings of faith and love; To joys celestial turn your eyes, And fix our hearts above."
+    },
+    {
+      "number": 4,
+      "text": "Let not earth's pleasures draw us down; All grace and strength to live; And ne'er forget the effective prayer, At last to gain the prize."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["baptism", "death to sin", "resurrection", "Jesus", "heavenly focus"],
+    "themes": [
+      "baptism",
+      "death to sin",
+      "resurrection",
+      "Jesus",
+      "heavenly focus"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

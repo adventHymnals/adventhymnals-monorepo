@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Mediation and Atonement", "temple", "blood", "ministry", "mercy"],
+    "themes": [
+      "Christ",
+      "Mediation and Atonement",
+      "temple",
+      "blood",
+      "ministry",
+      "mercy"
+    ],
     "scripture_references": [],
     "tune_source": "89, 347, 25.",
     "original_language": "en"

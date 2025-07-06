@@ -31,7 +31,16 @@
   "composer": "",
   "author": "",
   "page": 221,
-  "themes": ["Jesus", "Lord", "King", "Rejoice", "Kingdom", "Triumph", "Savior", "Heaven"],
+  "themes": [
+    "Jesus",
+    "Lord",
+    "King",
+    "Rejoice",
+    "Kingdom",
+    "Triumph",
+    "Savior",
+    "Heaven"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

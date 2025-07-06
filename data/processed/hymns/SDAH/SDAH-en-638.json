@@ -27,8 +27,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["children", "offering", "service", "devotion"],
-    "scripture_references": ["Matthew 2:11", "Mark 10:14"],
+    "themes": [
+      "children",
+      "offering",
+      "service",
+      "devotion"
+    ],
+    "scripture_references": [
+      "Matthew 2:11",
+      "Mark 10:14"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

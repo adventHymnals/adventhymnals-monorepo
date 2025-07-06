@@ -14,7 +14,11 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["lord's prayer", "our father", "heaven"],
+    "themes": [
+      "lord's prayer",
+      "our father",
+      "heaven"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

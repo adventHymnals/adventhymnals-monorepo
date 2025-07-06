@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1877,
     "copyright": "Public Domain",
-    "themes": ["Evangelism", "Warning", "Salvation", "Great Commission"],
-    "scripture_references": ["Ezekiel 3:17", "Matthew 28:19"],
+    "themes": [
+      "Evangelism",
+      "Warning",
+      "Salvation",
+      "Great Commission"
+    ],
+    "scripture_references": [
+      "Ezekiel 3:17",
+      "Matthew 28:19"
+    ],
     "tune_source": "Traditional American Melody",
     "original_language": "en"
   }

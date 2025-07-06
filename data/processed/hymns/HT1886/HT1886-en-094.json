@@ -40,7 +40,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's might", "God's grandeur", "creation", "providence", "redemption", "Christ's glory"],
+    "themes": [
+      "God's might",
+      "God's grandeur",
+      "creation",
+      "providence",
+      "redemption",
+      "Christ's glory"
+    ],
     "scripture_references": [],
     "tune_source": "271, 180, 41",
     "original_language": "en"

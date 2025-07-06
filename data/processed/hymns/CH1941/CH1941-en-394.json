@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1836,
     "copyright": "Public Domain",
-    "themes": ["shepherd", "guidance", "protection", "care"],
-    "scripture_references": ["Psalm 23", "John 10:11"],
+    "themes": [
+      "shepherd",
+      "guidance",
+      "protection",
+      "care"
+    ],
+    "scripture_references": [
+      "Psalm 23",
+      "John 10:11"
+    ],
     "tune_source": "Bradbury, William Batchelder Bradbury, 1859",
     "original_language": "en"
   }

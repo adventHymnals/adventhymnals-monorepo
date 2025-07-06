@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["prayer", "communion with God", "comfort", "heaven"],
-    "scripture_references": ["Matthew 6:6", "1 Peter 5:7"],
+    "themes": [
+      "prayer",
+      "communion with God",
+      "comfort",
+      "heaven"
+    ],
+    "scripture_references": [
+      "Matthew 6:6",
+      "1 Peter 5:7"
+    ],
     "tune_source": "William Bradbury",
     "original_language": "en"
   }

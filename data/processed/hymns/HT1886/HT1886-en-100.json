@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["longing for God", "spiritual thirst", "God's mercy", "faith", "God's faithfulness"],
-    "scripture_references": ["Psalm 42:1"],
+    "themes": [
+      "longing for God",
+      "spiritual thirst",
+      "God's mercy",
+      "faith",
+      "God's faithfulness"
+    ],
+    "scripture_references": [
+      "Psalm 42:1"
+    ],
     "tune_source": "Mendelssohn, Felix Mendelssohn",
     "original_language": "en"
   }

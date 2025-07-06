@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Second Coming", "Proclamation", "Trumpet", "Glory"],
+    "themes": [
+      "Second Coming",
+      "Proclamation",
+      "Trumpet",
+      "Glory"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

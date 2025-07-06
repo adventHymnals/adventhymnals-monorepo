@@ -26,8 +26,15 @@
     }
   ],
   "metadata": {
-    "themes": ["surrender", "Christ in us", "sanctification"],
-    "scripture_references": ["Galatians 2:20", "Colossians 1:27"],
+    "themes": [
+      "surrender",
+      "Christ in us",
+      "sanctification"
+    ],
+    "scripture_references": [
+      "Galatians 2:20",
+      "Colossians 1:27"
+    ],
     "tune_source": "Philip P. Bliss",
     "original_language": "en"
   }

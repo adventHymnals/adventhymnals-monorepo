@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Way", "Truth", "Life", "salvation", "eternal life"],
+    "themes": [
+      "Way",
+      "Truth",
+      "Life",
+      "salvation",
+      "eternal life"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

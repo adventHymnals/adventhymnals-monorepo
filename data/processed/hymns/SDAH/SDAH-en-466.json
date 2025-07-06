@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1889,
     "copyright": "Public Domain",
-    "themes": ["peace", "spiritual rest", "divine comfort", "heavenly melody", "eternal security"],
-    "scripture_references": ["John 14:27", "Philippians 4:7", "Isaiah 26:3"],
+    "themes": [
+      "peace",
+      "spiritual rest",
+      "divine comfort",
+      "heavenly melody",
+      "eternal security"
+    ],
+    "scripture_references": [
+      "John 14:27",
+      "Philippians 4:7",
+      "Isaiah 26:3"
+    ],
     "tune_source": "W. G. Cooper",
     "original_language": "en"
   }

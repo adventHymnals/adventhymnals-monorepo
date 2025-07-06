@@ -33,7 +33,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["religion", "soldiers", "jubilee", "cross", "kingdom", "preaching", "glory"],
+    "themes": [
+      "religion",
+      "soldiers",
+      "jubilee",
+      "cross",
+      "kingdom",
+      "preaching",
+      "glory"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

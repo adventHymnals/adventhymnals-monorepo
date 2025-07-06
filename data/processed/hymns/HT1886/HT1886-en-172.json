@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Scriptures", "prophets", "divine inspiration", "God's word", "redemption"],
+    "themes": [
+      "Holy Scriptures",
+      "prophets",
+      "divine inspiration",
+      "God's word",
+      "redemption"
+    ],
     "scripture_references": [],
     "tune_source": "229, 642, 692",
     "original_language": "en"

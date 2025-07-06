@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["witness", "Jesus Christ", "Paradise", "eternal life", "love of Christ"],
+    "themes": [
+      "witness",
+      "Jesus Christ",
+      "Paradise",
+      "eternal life",
+      "love of Christ"
+    ],
     "scripture_references": [],
     "tune_source": "109, 101, 717",
     "original_language": "en"

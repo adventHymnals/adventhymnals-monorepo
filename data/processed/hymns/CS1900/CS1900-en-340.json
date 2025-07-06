@@ -21,7 +21,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["faith", "resurrection", "triumph"],
+    "themes": [
+      "faith",
+      "resurrection",
+      "triumph"
+    ],
     "scripture_references": [],
     "tune_source": "Geo. C. Stebbins",
     "original_language": "en"

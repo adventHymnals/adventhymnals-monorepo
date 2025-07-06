@@ -24,7 +24,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["salvation", "grace", "joy", "heaven"],
+    "themes": [
+      "salvation",
+      "grace",
+      "joy",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": "305, 366, 635",
     "original_language": "en"

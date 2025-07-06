@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["dull soul", "eastern skies", "marriage feast", "victory palms", "Heaven's bliss"],
+    "themes": [
+      "dull soul",
+      "eastern skies",
+      "marriage feast",
+      "victory palms",
+      "Heaven's bliss"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "6s & 4s."

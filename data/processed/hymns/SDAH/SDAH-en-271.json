@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Word of God", "Bread of Life", "Scripture", "Spiritual Nourishment"],
+    "themes": [
+      "Word of God",
+      "Bread of Life",
+      "Scripture",
+      "Spiritual Nourishment"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -4,18 +4,40 @@
   "title": "God of love that hearest prayer",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "God of love that hearest prayer, Kindly for thy people care, Who on thee alone depend; Love us, save us to the end."},
-    {"number": 2, "text": "Save us in the prosperous hour, From the flattering tempter's power, From his unsuspected wiles, From the world's pernicious smiles."},
-    {"number": 3, "text": "Cut off our dependence vain On the help of feeble man; Every arm of flesh remove; Stay us only on thy love!"},
-    {"number": 4, "text": "Men of worldly, low design, Let not these thy people join; Save us from the great and wise, Till they sink in their own eyes."},
-    {"number": 5, "text": "Never let the world break in; Fix a mighty gulf between; Keep us little and unknown, Prized and loved by God alone."}
+    {
+      "number": 1,
+      "text": "God of love that hearest prayer, Kindly for thy people care, Who on thee alone depend; Love us, save us to the end."
+    },
+    {
+      "number": 2,
+      "text": "Save us in the prosperous hour, From the flattering tempter's power, From his unsuspected wiles, From the world's pernicious smiles."
+    },
+    {
+      "number": 3,
+      "text": "Cut off our dependence vain On the help of feeble man; Every arm of flesh remove; Stay us only on thy love!"
+    },
+    {
+      "number": 4,
+      "text": "Men of worldly, low design, Let not these thy people join; Save us from the great and wise, Till they sink in their own eyes."
+    },
+    {
+      "number": 5,
+      "text": "Never let the world break in; Fix a mighty gulf between; Keep us little and unknown, Prized and loved by God alone."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["God's love", "prayer", "care", "dependence on God", "salvation", "perseverance"],
+    "themes": [
+      "God's love",
+      "prayer",
+      "care",
+      "dependence on God",
+      "salvation",
+      "perseverance"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "7s."

@@ -22,7 +22,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Sabbath", "joy", "worship", "prayer", "holy rest", "sacred day"],
+    "themes": [
+      "Sabbath",
+      "joy",
+      "worship",
+      "prayer",
+      "holy rest",
+      "sacred day"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

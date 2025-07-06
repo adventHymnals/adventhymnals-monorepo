@@ -17,7 +17,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Second Coming", "Divine Mercy", "Restitution", "New Creation", "Eternal Kingdom"],
+    "themes": [
+      "Second Coming",
+      "Divine Mercy",
+      "Restitution",
+      "New Creation",
+      "Eternal Kingdom"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "",
     "hymnal_context": "Millerite/Adventist movement hymnal",

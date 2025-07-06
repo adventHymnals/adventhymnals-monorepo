@@ -20,8 +20,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["scripture", "bible", "divine revelation", "guidance", "salvation"],
-    "scripture_references": ["Ps 119:105", "2 Tim 3:16-17", "Heb 4:12"],
+    "themes": [
+      "scripture",
+      "bible",
+      "divine revelation",
+      "guidance",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Ps 119:105",
+      "2 Tim 3:16-17",
+      "Heb 4:12"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

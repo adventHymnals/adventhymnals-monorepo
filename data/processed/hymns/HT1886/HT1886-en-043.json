@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "creation", "Trinity", "salvation", "heaven"],
+    "themes": [
+      "praise",
+      "creation",
+      "Trinity",
+      "salvation",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

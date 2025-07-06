@@ -14,7 +14,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Redemption", "Zion", "Pilgrimage", "Divine Guidance", "Sacred Mount"],
+    "themes": [
+      "Redemption",
+      "Zion",
+      "Pilgrimage",
+      "Divine Guidance",
+      "Sacred Mount"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "",
     "hymnal_context": "Millerite/Adventist movement hymnal",

@@ -25,7 +25,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["punctuality", "order", "time"],
+    "themes": [
+      "punctuality",
+      "order",
+      "time"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -20,7 +20,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Rapturous Joy", "Trumpet's Voice", "Jesus Comes", "Angels' Joy", "Saints' Redemption"],
+    "themes": [
+      "Rapturous Joy",
+      "Trumpet's Voice",
+      "Jesus Comes",
+      "Angels' Joy",
+      "Saints' Redemption"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "Fermata markings",
     "hymnal_context": "Millerite/Adventist movement hymnal",

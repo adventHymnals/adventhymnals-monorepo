@@ -16,8 +16,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Copyrighted 1886 by F. E. Belden",
-    "themes": ["salvation", "Noah's ark", "mercy"],
-    "scripture_references": ["Matthew 24:37"],
+    "themes": [
+      "salvation",
+      "Noah's ark",
+      "mercy"
+    ],
+    "scripture_references": [
+      "Matthew 24:37"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en",
     "extraction_status": "metadata_only_copyright_protected"

@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["children", "friendship", "growth", "guidance"],
+    "themes": [
+      "children",
+      "friendship",
+      "growth",
+      "guidance"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

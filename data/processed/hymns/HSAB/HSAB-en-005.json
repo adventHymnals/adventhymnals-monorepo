@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "pilgrimage", "journey", "heavenly home", "separation"],
+    "themes": [
+      "second advent",
+      "pilgrimage",
+      "journey",
+      "heavenly home",
+      "separation"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

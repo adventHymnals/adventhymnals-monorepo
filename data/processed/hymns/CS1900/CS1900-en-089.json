@@ -31,7 +31,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "By permission of John J. Hood",
-    "themes": ["trust", "salvation", "faith"],
+    "themes": [
+      "trust",
+      "salvation",
+      "faith"
+    ],
     "scripture_references": [],
     "tune_source": "J. H. Stockton",
     "original_language": "en",

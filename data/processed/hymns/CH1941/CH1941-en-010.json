@@ -24,8 +24,15 @@
   "metadata": {
     "year": 1875,
     "copyright": "Public Domain",
-    "themes": ["praise", "creation", "mercy", "faithfulness"],
-    "scripture_references": ["Psalm 136"],
+    "themes": [
+      "praise",
+      "creation",
+      "mercy",
+      "faithfulness"
+    ],
+    "scripture_references": [
+      "Psalm 136"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

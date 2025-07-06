@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["blessing", "peace", "Jesus", "righteousness", "faith"],
+    "themes": [
+      "blessing",
+      "peace",
+      "Jesus",
+      "righteousness",
+      "faith"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

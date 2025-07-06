@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "By 'The Singing King' in 'Our Choice's Day.' Copyright 1900 by Chas. H. Gabriel. Used by permission.",
-    "themes": ["Jesus as King", "praise", "worship", "heaven"],
+    "themes": [
+      "Jesus as King",
+      "praise",
+      "worship",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": "Chas. H. Gabriel",
     "original_language": "en"

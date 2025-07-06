@@ -27,8 +27,16 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["shepherd", "guidance", "following_jesus", "calvary", "protection"],
-    "scripture_references": ["Psalm 23"],
+    "themes": [
+      "shepherd",
+      "guidance",
+      "following_jesus",
+      "calvary",
+      "protection"
+    ],
+    "scripture_references": [
+      "Psalm 23"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

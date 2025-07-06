@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's awesomeness", "God as Father", "heaven", "God's grace", "eternal joy"],
+    "themes": [
+      "God's awesomeness",
+      "God as Father",
+      "heaven",
+      "God's grace",
+      "eternal joy"
+    ],
     "scripture_references": [],
     "tune_source": "71, 96, 191",
     "original_language": "en"

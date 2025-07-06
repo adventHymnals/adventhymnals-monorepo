@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["perseverance", "canaan", "commitment", "obedience", "not turning back"],
-    "scripture_references": ["Luke 9:62", "Phil 3:13-14", "Heb 10:38-39"],
+    "themes": [
+      "perseverance",
+      "canaan",
+      "commitment",
+      "obedience",
+      "not turning back"
+    ],
+    "scripture_references": [
+      "Luke 9:62",
+      "Phil 3:13-14",
+      "Heb 10:38-39"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

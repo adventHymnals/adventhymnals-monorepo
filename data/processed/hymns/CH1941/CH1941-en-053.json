@@ -28,8 +28,16 @@
   "metadata": {
     "year": "6th century",
     "copyright": "Public Domain",
-    "themes": ["creation", "light", "evening prayer", "protection"],
-    "scripture_references": ["Genesis 1:3-5", "Psalm 139:12"],
+    "themes": [
+      "creation",
+      "light",
+      "evening prayer",
+      "protection"
+    ],
+    "scripture_references": [
+      "Genesis 1:3-5",
+      "Psalm 139:12"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "la",
     "translator": "John Mason Neale"

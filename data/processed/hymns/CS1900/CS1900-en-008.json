@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by permission of Oliver Ditson & Co., owners of the copyright",
-    "themes": ["cleansing", "blood", "fountain", "Lamb", "snow", "purity", "forgiveness"],
-    "scripture_references": ["Isa. 1:18"],
+    "themes": [
+      "cleansing",
+      "blood",
+      "fountain",
+      "Lamb",
+      "snow",
+      "purity",
+      "forgiveness"
+    ],
+    "scripture_references": [
+      "Isa. 1:18"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

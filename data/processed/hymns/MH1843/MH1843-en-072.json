@@ -20,7 +20,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Heavenly Home", "Earthly Pilgrimage", "Rest in Christ", "Longing for Heaven"],
+    "themes": [
+      "Heavenly Home",
+      "Earthly Pilgrimage",
+      "Rest in Christ",
+      "Longing for Heaven"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "Dolce",
     "hymnal_context": "Millerite/Adventist movement hymnal",

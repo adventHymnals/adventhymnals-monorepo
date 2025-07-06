@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Zion", "Worship", "Journey", "Heaven"],
+    "themes": [
+      "Zion",
+      "Worship",
+      "Journey",
+      "Heaven"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

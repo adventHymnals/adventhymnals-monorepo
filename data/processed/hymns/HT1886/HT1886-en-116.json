@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus as shepherd", "gratitude", "comfort", "guidance", "fear", "heavenly home"],
-    "scripture_references": ["Psalm 23"],
+    "themes": [
+      "Jesus as shepherd",
+      "gratitude",
+      "comfort",
+      "guidance",
+      "fear",
+      "heavenly home"
+    ],
+    "scripture_references": [
+      "Psalm 23"
+    ],
     "tune_source": "546, 201, 227",
     "original_language": "en"
   }

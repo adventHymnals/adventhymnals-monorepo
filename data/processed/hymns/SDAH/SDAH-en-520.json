@@ -31,8 +31,17 @@
   "metadata": {
     "year": 1890,
     "copyright": "Public Domain",
-    "themes": ["salvation", "protection", "refuge", "praise", "security"],
-    "scripture_references": ["Exodus 33:22", "Psalm 91:1"],
+    "themes": [
+      "salvation",
+      "protection",
+      "refuge",
+      "praise",
+      "security"
+    ],
+    "scripture_references": [
+      "Exodus 33:22",
+      "Psalm 91:1"
+    ],
     "tune_source": "William J. Kirkpatrick",
     "original_language": "en"
   }

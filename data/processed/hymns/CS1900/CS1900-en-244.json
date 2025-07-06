@@ -31,7 +31,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by W. H. Doane. Used by permission.",
-    "themes": ["Sabbath School", "childhood memories", "religious education"],
+    "themes": [
+      "Sabbath School",
+      "childhood memories",
+      "religious education"
+    ],
     "scripture_references": [],
     "tune_source": "W. H. Doane",
     "original_language": "en"

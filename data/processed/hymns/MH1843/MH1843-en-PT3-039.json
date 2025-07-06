@@ -20,7 +20,14 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Savior's Coming", "Ancient Prophecy", "Peace", "Millennial Kingdom", "Universal Harmony", "Eternal Reign"],
+    "themes": [
+      "Savior's Coming",
+      "Ancient Prophecy",
+      "Peace",
+      "Millennial Kingdom",
+      "Universal Harmony",
+      "Eternal Reign"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "10s",
     "hymnal_context": "Millerite/Adventist movement hymnal",

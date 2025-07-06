@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["God's care", "trust", "burden bearing", "comfort"],
-    "scripture_references": ["1 Peter 5:7"],
+    "themes": [
+      "God's care",
+      "trust",
+      "burden bearing",
+      "comfort"
+    ],
+    "scripture_references": [
+      "1 Peter 5:7"
+    ],
     "tune_source": "H. K. Oliver",
     "original_language": "en"
   }

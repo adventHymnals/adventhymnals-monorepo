@@ -27,7 +27,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["praise", "Jesus' reign", "eternal glory", "second advent"],
+    "themes": [
+      "praise",
+      "Jesus' reign",
+      "eternal glory",
+      "second advent"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

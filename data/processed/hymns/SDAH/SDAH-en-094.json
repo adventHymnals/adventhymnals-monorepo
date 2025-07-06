@@ -26,8 +26,15 @@
     }
   ],
   "metadata": {
-    "themes": ["Nature", "Creation", "Cross", "God's Glory"],
-    "scripture_references": ["Romans 1:20"],
+    "themes": [
+      "Nature",
+      "Creation",
+      "Cross",
+      "God's Glory"
+    ],
+    "scripture_references": [
+      "Romans 1:20"
+    ],
     "tune_source": "God of All Nature",
     "original_language": "en"
   }

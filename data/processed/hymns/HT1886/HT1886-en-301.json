@@ -36,7 +36,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Life and Character", "discipleship", "imitation", "love", "devotion"],
+    "themes": [
+      "Christ",
+      "Life and Character",
+      "discipleship",
+      "imitation",
+      "love",
+      "devotion"
+    ],
     "scripture_references": [],
     "tune_source": "Rockingham, Lowell Mason",
     "original_language": "en"

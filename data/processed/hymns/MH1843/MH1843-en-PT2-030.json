@@ -14,7 +14,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Divine Decree", "God's Will", "Cosmic Destruction", "Submission to God"],
+    "themes": [
+      "Divine Decree",
+      "God's Will",
+      "Cosmic Destruction",
+      "Submission to God"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "Slow and solemn",
     "hymnal_context": "Millerite/Adventist movement hymnal",

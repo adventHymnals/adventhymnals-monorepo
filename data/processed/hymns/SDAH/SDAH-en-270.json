@@ -29,7 +29,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Holy Spirit", "Dove", "Wind", "Rain", "Flame"],
+    "themes": [
+      "Holy Spirit",
+      "Dove",
+      "Wind",
+      "Rain",
+      "Flame"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -25,8 +25,16 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["midnight", "calling", "evangelism", "fishing for men", "souls"],
-    "scripture_references": ["Matthew 4:19"],
+    "themes": [
+      "midnight",
+      "calling",
+      "evangelism",
+      "fishing for men",
+      "souls"
+    ],
+    "scripture_references": [
+      "Matthew 4:19"
+    ],
     "tune_source": "Geo. F. Root",
     "original_language": "en"
   }

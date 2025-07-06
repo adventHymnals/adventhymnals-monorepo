@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["faith", "guidance", "devotion", "eternal life"],
-    "scripture_references": ["Hebrews 12:2", "Psalm 23:4"],
+    "themes": [
+      "faith",
+      "guidance",
+      "devotion",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "Hebrews 12:2",
+      "Psalm 23:4"
+    ],
     "tune_source": "Lowell Mason",
     "original_language": "en"
   }

@@ -27,7 +27,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["invitation", "salvation", "grace", "come as you are"],
+    "themes": [
+      "invitation",
+      "salvation",
+      "grace",
+      "come as you are"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

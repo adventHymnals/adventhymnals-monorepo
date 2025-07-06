@@ -33,7 +33,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus Christ", "Joy", "Love", "Light", "Bread of Life"],
+    "themes": [
+      "Jesus Christ",
+      "Joy",
+      "Love",
+      "Light",
+      "Bread of Life"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

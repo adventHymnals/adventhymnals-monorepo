@@ -31,7 +31,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "By permission of R. Lowry",
-    "themes": ["salvation", "blood", "cleansing"],
+    "themes": [
+      "salvation",
+      "blood",
+      "cleansing"
+    ],
     "scripture_references": [],
     "tune_source": "Robert Lowry",
     "original_language": "en",

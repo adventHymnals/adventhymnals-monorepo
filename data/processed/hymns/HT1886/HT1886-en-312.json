@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Life and Character", "invitation", "presence", "healing", "faith"],
+    "themes": [
+      "Christ",
+      "Life and Character",
+      "invitation",
+      "presence",
+      "healing",
+      "faith"
+    ],
     "scripture_references": [],
     "tune_source": "Invitation, William V. Wallace",
     "original_language": "en"

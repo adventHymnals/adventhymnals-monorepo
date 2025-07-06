@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["marching", "discipline", "following Christ", "keeping time"],
+    "themes": [
+      "marching",
+      "discipline",
+      "following Christ",
+      "keeping time"
+    ],
     "scripture_references": [],
     "tune_source": "W. H. Doane",
     "original_language": "en"

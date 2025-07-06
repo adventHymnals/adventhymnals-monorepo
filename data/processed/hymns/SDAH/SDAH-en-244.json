@@ -25,7 +25,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus Christ", "Song", "Praise", "Mercy", "Salvation"],
+    "themes": [
+      "Jesus Christ",
+      "Song",
+      "Praise",
+      "Mercy",
+      "Salvation"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

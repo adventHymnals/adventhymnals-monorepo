@@ -24,7 +24,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "prayer", "healing"],
+    "themes": [
+      "Holy Spirit",
+      "prayer",
+      "healing"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

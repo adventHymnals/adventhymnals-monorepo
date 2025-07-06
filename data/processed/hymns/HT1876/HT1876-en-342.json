@@ -4,16 +4,31 @@
   "title": "I WITNESSED on a cloud, the Judge will come",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "I WITNESSED on a cloud, the Judge will come, Bright flames prepare his way; Thunder and darkness, fire and storm, Lead on the dreadful day."},
-    {"number": 2, "text": "No more shall bold blasphemers say, Judgment will ne'er begin; No more abuse his long delay To multiply their sin."},
-    {"number": 3, "text": "Then shall the Lord a refuge prove For all his poor oppressed; To save the people of his love, And give the weary rest."}
+    {
+      "number": 1,
+      "text": "I WITNESSED on a cloud, the Judge will come, Bright flames prepare his way; Thunder and darkness, fire and storm, Lead on the dreadful day."
+    },
+    {
+      "number": 2,
+      "text": "No more shall bold blasphemers say, Judgment will ne'er begin; No more abuse his long delay To multiply their sin."
+    },
+    {
+      "number": 3,
+      "text": "Then shall the Lord a refuge prove For all his poor oppressed; To save the people of his love, And give the weary rest."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["judgment", "Second Coming", "thunder", "refuge", "salvation"],
+    "themes": [
+      "judgment",
+      "Second Coming",
+      "thunder",
+      "refuge",
+      "salvation"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath rest", "joy", "worship", "reflection", "heavenly rest"],
-    "scripture_references": ["Isaiah 4:6"],
+    "themes": [
+      "Sabbath rest",
+      "joy",
+      "worship",
+      "reflection",
+      "heavenly rest"
+    ],
+    "scripture_references": [
+      "Isaiah 4:6"
+    ],
     "tune_source": "Ewing. 7s & 6s. D.",
     "original_language": "en"
   }

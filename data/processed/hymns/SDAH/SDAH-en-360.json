@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1864,
     "copyright": "Public Domain",
-    "themes": ["Epiphany", "Wise Men", "Guidance", "Mission", "Star of Bethlehem"],
-    "scripture_references": ["Matthew 2:1-12", "Isaiah 60:3"],
+    "themes": [
+      "Epiphany",
+      "Wise Men",
+      "Guidance",
+      "Mission",
+      "Star of Bethlehem"
+    ],
+    "scripture_references": [
+      "Matthew 2:1-12",
+      "Isaiah 60:3"
+    ],
     "tune_source": "Traditional English Melody",
     "original_language": "en"
   }

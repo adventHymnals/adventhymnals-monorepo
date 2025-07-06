@@ -4,17 +4,36 @@
   "title": "SINNERS, the call obey",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "SINNERS, the call obey, The latest call of God; Turn, turn, or in that awful day, Of a devoted race."},
-    {"number": 2, "text": "To shelter the distressed, He laid his own down; Fought our battle, won the rest, In Jesus' wounds secure."},
-    {"number": 3, "text": "Justice consents to spare, From the devouring sword; Our city of defence is prayer, Our help is in the Lord."},
-    {"number": 4, "text": "O fly, if the sentence fallen, And laugh at innocence; Those everlasting arms, we know, Shall be our sure defense."}
+    {
+      "number": 1,
+      "text": "SINNERS, the call obey, The latest call of God; Turn, turn, or in that awful day, Of a devoted race."
+    },
+    {
+      "number": 2,
+      "text": "To shelter the distressed, He laid his own down; Fought our battle, won the rest, In Jesus' wounds secure."
+    },
+    {
+      "number": 3,
+      "text": "Justice consents to spare, From the devouring sword; Our city of defence is prayer, Our help is in the Lord."
+    },
+    {
+      "number": 4,
+      "text": "O fly, if the sentence fallen, And laugh at innocence; Those everlasting arms, we know, Shall be our sure defense."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["call", "obedience", "salvation", "justice", "defense", "prayer"],
+    "themes": [
+      "call",
+      "obedience",
+      "salvation",
+      "justice",
+      "defense",
+      "prayer"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

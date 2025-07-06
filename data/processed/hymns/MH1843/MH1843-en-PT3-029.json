@@ -18,7 +18,14 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["New Jerusalem", "Heavenly Vision", "Christ's Beauty", "Eternal City", "Healing", "Holiness"],
+    "themes": [
+      "New Jerusalem",
+      "Heavenly Vision",
+      "Christ's Beauty",
+      "Eternal City",
+      "Healing",
+      "Holiness"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "8 lines 8s",
     "hymnal_context": "Millerite/Adventist movement hymnal",

@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1800,
     "copyright": "Public Domain",
-    "themes": ["heavenly home", "promised land", "pilgrimage", "eternal joy", "beautiful city"],
-    "scripture_references": ["Revelation 21:2-4", "Revelation 7:9-10", "Isaiah 35:1-2"],
+    "themes": [
+      "heavenly home",
+      "promised land",
+      "pilgrimage",
+      "eternal joy",
+      "beautiful city"
+    ],
+    "scripture_references": [
+      "Revelation 21:2-4",
+      "Revelation 7:9-10",
+      "Isaiah 35:1-2"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

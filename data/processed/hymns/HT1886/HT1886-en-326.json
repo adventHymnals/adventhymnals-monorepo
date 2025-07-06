@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Sufferings and Death", "Gethsemane", "prayer", "obedience", "temptation"],
+    "themes": [
+      "Christ",
+      "Sufferings and Death",
+      "Gethsemane",
+      "prayer",
+      "obedience",
+      "temptation"
+    ],
     "scripture_references": [],
     "tune_source": "549, 720, 777",
     "original_language": "en"

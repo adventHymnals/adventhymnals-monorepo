@@ -27,8 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["coming to Christ", "rest", "pardon"],
-    "scripture_references": ["Matthew 11:28"],
+    "themes": [
+      "coming to Christ",
+      "rest",
+      "pardon"
+    ],
+    "scripture_references": [
+      "Matthew 11:28"
+    ],
     "tune_source": "Geo. C. Stebbins",
     "original_language": "en",
     "verse_count": 3,

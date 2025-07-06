@@ -31,8 +31,17 @@
   "metadata": {
     "year": 1739,
     "copyright": null,
-    "themes": ["ascension", "triumph", "glory", "heaven", "christ"],
-    "scripture_references": ["Luke 24:50-51", "Acts 1:9-11"],
+    "themes": [
+      "ascension",
+      "triumph",
+      "glory",
+      "heaven",
+      "christ"
+    ],
+    "scripture_references": [
+      "Luke 24:50-51",
+      "Acts 1:9-11"
+    ],
     "tune_source": "Welsh",
     "original_language": "en"
   }

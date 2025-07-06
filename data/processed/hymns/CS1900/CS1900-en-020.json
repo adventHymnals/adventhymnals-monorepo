@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1878, by N. G. Shepherd. Used by permission of the author. The publishers of Christ in Song desire to call attention to the text and thought of this hymn, which aim to lead souls nearer Christ, and encourage backsliders in the work that lends with Christ, that belong to God, In the moments of the revival these lines may be helpful.",
-    "themes": ["crossing", "line", "heaven", "faith", "doubt", "readiness", "angels"],
-    "scripture_references": ["Acts 17:27"],
+    "themes": [
+      "crossing",
+      "line",
+      "heaven",
+      "faith",
+      "doubt",
+      "readiness",
+      "angels"
+    ],
+    "scripture_references": [
+      "Acts 17:27"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

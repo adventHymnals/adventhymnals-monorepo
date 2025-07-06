@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["divine light", "prayer", "mercy", "love"],
-    "scripture_references": ["1 John 1:5"],
+    "themes": [
+      "divine light",
+      "prayer",
+      "mercy",
+      "love"
+    ],
+    "scripture_references": [
+      "1 John 1:5"
+    ],
     "tune_source": "A. S. Sullivan",
     "original_language": "en"
   }

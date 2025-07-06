@@ -35,8 +35,18 @@
   "metadata": {
     "year": 1858,
     "copyright": "Public Domain",
-    "themes": ["heaven", "homeland", "eternal life", "glory", "paradise"],
-    "scripture_references": ["Revelation 21:18-21", "Hebrews 11:16", "1 Peter 1:4"],
+    "themes": [
+      "heaven",
+      "homeland",
+      "eternal life",
+      "glory",
+      "paradise"
+    ],
+    "scripture_references": [
+      "Revelation 21:18-21",
+      "Hebrews 11:16",
+      "1 Peter 1:4"
+    ],
     "tune_source": "Traditional",
     "original_language": "la"
   }

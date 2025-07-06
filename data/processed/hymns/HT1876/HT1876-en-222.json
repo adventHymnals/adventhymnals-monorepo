@@ -4,17 +4,37 @@
   "title": "Sleep not, soldier of the cross",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Sleep not, soldier of the cross, Foes are lurking all around; Look and hear to find retreat, This is but lay battle ground."},
-    {"number": 2, "text": "Up, and take thy shield and sword, Up, it is the call of Heaven; Shout not faithless from the Lord, Nobly strive as both striven."},
-    {"number": 3, "text": "Break through all the force of ill, Tread the might of passion down, Struggle onward, onward still, Take the conquering Saviour's crown."},
-    {"number": 4, "text": "Through the midst of toil and pain, Let the thought ne'er leave thy breast, Every triumph thou dost gain Makes thee sweet thy coming rest."}
+    {
+      "number": 1,
+      "text": "Sleep not, soldier of the cross, Foes are lurking all around; Look and hear to find retreat, This is but lay battle ground."
+    },
+    {
+      "number": 2,
+      "text": "Up, and take thy shield and sword, Up, it is the call of Heaven; Shout not faithless from the Lord, Nobly strive as both striven."
+    },
+    {
+      "number": 3,
+      "text": "Break through all the force of ill, Tread the might of passion down, Struggle onward, onward still, Take the conquering Saviour's crown."
+    },
+    {
+      "number": 4,
+      "text": "Through the midst of toil and pain, Let the thought ne'er leave thy breast, Every triumph thou dost gain Makes thee sweet thy coming rest."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["vigilance", "spiritual warfare", "perseverance", "victory", "crown", "struggle", "rest"],
+    "themes": [
+      "vigilance",
+      "spiritual warfare",
+      "perseverance",
+      "victory",
+      "crown",
+      "struggle",
+      "rest"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "7s."

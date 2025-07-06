@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["walking with God", "fellowship", "trust", "guidance"],
-    "scripture_references": ["Micah 6:8"],
+    "themes": [
+      "walking with God",
+      "fellowship",
+      "trust",
+      "guidance"
+    ],
+    "scripture_references": [
+      "Micah 6:8"
+    ],
     "tune_source": "W. H. Doane",
     "original_language": "en"
   }

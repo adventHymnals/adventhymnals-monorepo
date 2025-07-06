@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1751,
     "copyright": null,
-    "themes": ["christmas", "worship", "adoration", "incarnation", "angels"],
-    "scripture_references": ["Luke 2:8-20"],
+    "themes": [
+      "christmas",
+      "worship",
+      "adoration",
+      "incarnation",
+      "angels"
+    ],
+    "scripture_references": [
+      "Luke 2:8-20"
+    ],
     "tune_source": null,
     "original_language": "la"
   }

@@ -25,7 +25,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Spirit of the Lord", "Revelation", "Prophets", "Word", "Father's Will"],
+    "themes": [
+      "Spirit of the Lord",
+      "Revelation",
+      "Prophets",
+      "Word",
+      "Father's Will"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

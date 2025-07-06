@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["thanksgiving", "gratitude", "children", "family"],
+    "themes": [
+      "thanksgiving",
+      "gratitude",
+      "children",
+      "family"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

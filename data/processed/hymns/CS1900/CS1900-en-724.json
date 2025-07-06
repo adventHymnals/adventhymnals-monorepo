@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["heaven", "eternal life", "journey", "promised land"],
+    "themes": [
+      "heaven",
+      "eternal life",
+      "journey",
+      "promised land"
+    ],
     "scripture_references": [],
     "tune_source": "Arr. by J. P. Holbrook",
     "original_language": "en"

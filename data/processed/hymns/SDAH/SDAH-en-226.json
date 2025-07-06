@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1739,
     "copyright": "Public Domain",
-    "themes": ["Advent", "Christ's Coming", "Heart Preparation", "Kingdom"],
-    "scripture_references": ["Psalm 24:7-10", "Revelation 3:20"],
+    "themes": [
+      "Advent",
+      "Christ's Coming",
+      "Heart Preparation",
+      "Kingdom"
+    ],
+    "scripture_references": [
+      "Psalm 24:7-10",
+      "Revelation 3:20"
+    ],
     "tune_source": "Georg Philipp Telemann, 1730",
     "original_language": "en"
   }

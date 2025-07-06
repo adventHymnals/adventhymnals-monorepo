@@ -33,8 +33,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Christmas", "angels", "peace", "prophecy"],
-    "scripture_references": ["Luke 2:14"],
+    "themes": [
+      "Christmas",
+      "angels",
+      "peace",
+      "prophecy"
+    ],
+    "scripture_references": [
+      "Luke 2:14"
+    ],
     "tune_source": "C. S. Willis",
     "original_language": "en"
   }

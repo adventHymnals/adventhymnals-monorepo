@@ -22,8 +22,17 @@
     }
   ],
   "metadata": {
-    "themes": ["spiritual warfare", "vigilance", "perseverance", "prayer"],
-    "scripture_references": ["1 Peter 5:8", "Ephesians 6:11-18", "1 Corinthians 16:13"],
+    "themes": [
+      "spiritual warfare",
+      "vigilance",
+      "perseverance",
+      "prayer"
+    ],
+    "scripture_references": [
+      "1 Peter 5:8",
+      "Ephesians 6:11-18",
+      "1 Corinthians 16:13"
+    ],
     "copyright": "Public Domain"
   }
 }

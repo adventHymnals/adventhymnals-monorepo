@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
-    "themes": ["heaven", "homeland", "no night", "no sin", "longing"],
-    "scripture_references": ["Hebrews 11:16", "Revelation 21:25", "Revelation 21:4"],
+    "themes": [
+      "heaven",
+      "homeland",
+      "no night",
+      "no sin",
+      "longing"
+    ],
+    "scripture_references": [
+      "Hebrews 11:16",
+      "Revelation 21:25",
+      "Revelation 21:4"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

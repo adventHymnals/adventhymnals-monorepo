@@ -22,7 +22,12 @@
     }
   ],
   "metadata": {
-    "themes": ["Creation", "God's World", "Cross", "Time"],
+    "themes": [
+      "Creation",
+      "God's World",
+      "Cross",
+      "Time"
+    ],
     "scripture_references": [],
     "tune_source": "Terra Patris",
     "original_language": "en"

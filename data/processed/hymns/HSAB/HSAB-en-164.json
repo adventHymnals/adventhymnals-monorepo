@@ -34,7 +34,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["faithfulness", "perseverance", "heaven", "meeting", "praise", "joy"],
+    "themes": [
+      "faithfulness",
+      "perseverance",
+      "heaven",
+      "meeting",
+      "praise",
+      "joy"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -39,7 +39,15 @@
   "composer": "",
   "author": "",
   "page": 215,
-  "themes": ["Feet", "Zion", "Salvation", "Peace", "Savior", "King", "Jerusalem"],
+  "themes": [
+    "Feet",
+    "Zion",
+    "Salvation",
+    "Peace",
+    "Savior",
+    "King",
+    "Jerusalem"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

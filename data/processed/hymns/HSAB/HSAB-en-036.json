@@ -18,7 +18,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["resurrection", "trumpet", "glory", "heaven", "immortality"],
+    "themes": [
+      "resurrection",
+      "trumpet",
+      "glory",
+      "heaven",
+      "immortality"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

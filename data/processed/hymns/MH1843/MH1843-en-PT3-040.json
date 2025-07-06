@@ -18,7 +18,14 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Missions", "Global Evangelism", "Salvation", "Redemption", "Universal Gospel", "Christ's Reign"],
+    "themes": [
+      "Missions",
+      "Global Evangelism",
+      "Salvation",
+      "Redemption",
+      "Universal Gospel",
+      "Christ's Reign"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "7 & 6",
     "hymnal_context": "Millerite/Adventist movement hymnal",

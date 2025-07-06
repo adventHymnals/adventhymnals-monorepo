@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["service", "dedication", "willingness", "surrender"],
+    "themes": [
+      "service",
+      "dedication",
+      "willingness",
+      "surrender"
+    ],
     "scripture_references": [],
     "tune_source": "Unknown",
     "original_language": "en"

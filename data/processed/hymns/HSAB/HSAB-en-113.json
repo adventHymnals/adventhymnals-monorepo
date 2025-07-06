@@ -26,7 +26,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Sabbath", "worship", "praise", "sacred rest", "David's harp", "grace", "eternal joy"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "praise",
+      "sacred rest",
+      "David's harp",
+      "grace",
+      "eternal joy"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

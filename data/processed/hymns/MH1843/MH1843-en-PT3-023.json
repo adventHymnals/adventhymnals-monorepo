@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Scripture", "God's Word", "Divine Guidance", "Truth", "Prophecy"],
+    "themes": [
+      "Scripture",
+      "God's Word",
+      "Divine Guidance",
+      "Truth",
+      "Prophecy"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "C. M. (Common Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

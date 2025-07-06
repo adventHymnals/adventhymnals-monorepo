@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "three angels' messages", "judgment", "Babylon", "commandments"],
+    "themes": [
+      "second advent",
+      "three angels' messages",
+      "judgment",
+      "Babylon",
+      "commandments"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

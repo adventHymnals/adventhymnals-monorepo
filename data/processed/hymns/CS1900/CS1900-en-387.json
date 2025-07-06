@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["lighthouse", "guidance", "helping others", "witness"],
+    "themes": [
+      "lighthouse",
+      "guidance",
+      "helping others",
+      "witness"
+    ],
     "scripture_references": [],
     "tune_source": "P. P. Bliss",
     "original_language": "en"

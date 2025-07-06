@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Sufferings and Death", "crucifixion", "finished work", "victory", "triumph"],
+    "themes": [
+      "Christ",
+      "Sufferings and Death",
+      "crucifixion",
+      "finished work",
+      "victory",
+      "triumph"
+    ],
     "scripture_references": [],
     "tune_source": "Olden, Lowell Mason",
     "original_language": "en"

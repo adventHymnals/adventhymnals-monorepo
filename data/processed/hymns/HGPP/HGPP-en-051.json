@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["sabbath rest", "praise", "worship", "eternal joy", "david's harp"],
-    "scripture_references": ["Ps 92:1-2", "Heb 4:9", "Rev 21:4"],
+    "themes": [
+      "sabbath rest",
+      "praise",
+      "worship",
+      "eternal joy",
+      "david's harp"
+    ],
+    "scripture_references": [
+      "Ps 92:1-2",
+      "Heb 4:9",
+      "Rev 21:4"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

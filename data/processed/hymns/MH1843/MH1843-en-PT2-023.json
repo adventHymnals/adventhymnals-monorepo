@@ -22,7 +22,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Christian Fellowship", "Second Advent", "Liberation", "Prophecy", "Biblical Authority"],
+    "themes": [
+      "Christian Fellowship",
+      "Second Advent",
+      "Liberation",
+      "Prophecy",
+      "Biblical Authority"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "",
     "hymnal_context": "Millerite/Adventist movement hymnal",

@@ -4,17 +4,36 @@
   "title": "The Spirit in our hearts",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "The Spirit in our hearts Is whispering, Sinner, come; And Jesus calls, with sweetest voice, To all his children, Come!"},
-    {"number": 2, "text": "Let him that heareth say To all about him, Come; And let the thirsting, consciencous, To Christ, the fountain, come!"},
-    {"number": 3, "text": "Yes, whosoever will, O let him freely come, And freely drink the stream of life; 'Tis Jesus bids him come."},
-    {"number": 4, "text": "Lo! Jesus, who invites, Declares, I quickly come; Lord, even so, we wait thy hour; O blest Redeemer, come."}
+    {
+      "number": 1,
+      "text": "The Spirit in our hearts Is whispering, Sinner, come; And Jesus calls, with sweetest voice, To all his children, Come!"
+    },
+    {
+      "number": 2,
+      "text": "Let him that heareth say To all about him, Come; And let the thirsting, consciencous, To Christ, the fountain, come!"
+    },
+    {
+      "number": 3,
+      "text": "Yes, whosoever will, O let him freely come, And freely drink the stream of life; 'Tis Jesus bids him come."
+    },
+    {
+      "number": 4,
+      "text": "Lo! Jesus, who invites, Declares, I quickly come; Lord, even so, we wait thy hour; O blest Redeemer, come."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Holy Spirit", "invitation", "come to Jesus", "salvation", "fountain of life", "second coming"],
+    "themes": [
+      "Holy Spirit",
+      "invitation",
+      "come to Jesus",
+      "salvation",
+      "fountain of life",
+      "second coming"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

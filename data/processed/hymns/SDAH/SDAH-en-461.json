@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1752,
     "copyright": "Public Domain",
-    "themes": ["trust in God", "patience", "divine providence", "comfort in trials", "eternal hope"],
-    "scripture_references": ["Psalm 46:10", "Romans 8:28", "1 Thessalonians 4:17"],
+    "themes": [
+      "trust in God",
+      "patience",
+      "divine providence",
+      "comfort in trials",
+      "eternal hope"
+    ],
+    "scripture_references": [
+      "Psalm 46:10",
+      "Romans 8:28",
+      "1 Thessalonians 4:17"
+    ],
     "tune_source": "Jean Sibelius",
     "original_language": "de"
   }

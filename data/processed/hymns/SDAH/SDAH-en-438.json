@@ -35,8 +35,18 @@
   "metadata": {
     "year": 1867,
     "copyright": "Public Domain",
-    "themes": ["second coming", "resurrection", "trumpet", "saints rising", "heavenly music"],
-    "scripture_references": ["1 Thessalonians 4:16-17", "1 Corinthians 15:52", "Matthew 24:31"],
+    "themes": [
+      "second coming",
+      "resurrection",
+      "trumpet",
+      "saints rising",
+      "heavenly music"
+    ],
+    "scripture_references": [
+      "1 Thessalonians 4:16-17",
+      "1 Corinthians 15:52",
+      "Matthew 24:31"
+    ],
     "tune_source": "African American Spiritual",
     "original_language": "en"
   }

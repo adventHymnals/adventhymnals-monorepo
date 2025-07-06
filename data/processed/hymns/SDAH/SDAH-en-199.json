@@ -29,7 +29,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["crown", "victory", "glory", "crucifixion", "triumph"],
+    "themes": [
+      "crown",
+      "victory",
+      "glory",
+      "crucifixion",
+      "triumph"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -30,7 +30,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["blessing", "Jesus", "salvation", "call on Jesus", "biblical characters", "glory"],
+    "themes": [
+      "blessing",
+      "Jesus",
+      "salvation",
+      "call on Jesus",
+      "biblical characters",
+      "glory"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

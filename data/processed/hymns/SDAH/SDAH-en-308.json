@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Consecration", "Dedication", "Surrender", "Discipleship"],
+    "themes": [
+      "Consecration",
+      "Dedication",
+      "Surrender",
+      "Discipleship"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

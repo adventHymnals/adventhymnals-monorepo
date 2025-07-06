@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["crown", "lamb", "lord", "worship"],
+    "themes": [
+      "crown",
+      "lamb",
+      "lord",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": "G. J. ELVEY",
     "original_language": "en"

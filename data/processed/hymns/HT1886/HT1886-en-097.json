@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "God's glory", "God's might", "God's care", "God's mercy"],
+    "themes": [
+      "worship",
+      "God's glory",
+      "God's might",
+      "God's care",
+      "God's mercy"
+    ],
     "scripture_references": [],
     "tune_source": "Lyons, Francis J. Haydn",
     "original_language": "en"

@@ -20,8 +20,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1885. Used by permission",
-    "themes": ["sacrifice", "life", "blood", "ransom", "resurrection", "Father", "throne"],
-    "scripture_references": ["Phil. 3:10"],
+    "themes": [
+      "sacrifice",
+      "life",
+      "blood",
+      "ransom",
+      "resurrection",
+      "Father",
+      "throne"
+    ],
+    "scripture_references": [
+      "Phil. 3:10"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

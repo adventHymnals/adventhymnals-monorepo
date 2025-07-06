@@ -27,7 +27,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["jesus_love", "salvation", "praise", "worship", "calvary"],
+    "themes": [
+      "jesus_love",
+      "salvation",
+      "praise",
+      "worship",
+      "calvary"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

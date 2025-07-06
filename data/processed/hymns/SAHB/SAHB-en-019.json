@@ -27,7 +27,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["pilgrimage", "heavenly home", "longing", "New Jerusalem"],
+    "themes": [
+      "pilgrimage",
+      "heavenly home",
+      "longing",
+      "New Jerusalem"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

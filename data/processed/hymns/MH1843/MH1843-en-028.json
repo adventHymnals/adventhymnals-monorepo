@@ -19,7 +19,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Christ's Sufferings", "Atonement", "Godly Sorrow", "Divine Love"],
+    "themes": [
+      "Christ's Sufferings",
+      "Atonement",
+      "Godly Sorrow",
+      "Divine Love"
+    ],
     "musical_notation": "Text only on this page",
     "tempo_marking": "None specified",
     "hymnal_context": "Millerite/Adventist movement hymnal",

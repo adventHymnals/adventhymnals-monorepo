@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1893, by F. E. Belden",
-    "themes": ["seeking", "early devotion", "learning", "following"],
-    "scripture_references": ["Proverbs 8:17"],
+    "themes": [
+      "seeking",
+      "early devotion",
+      "learning",
+      "following"
+    ],
+    "scripture_references": [
+      "Proverbs 8:17"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en"
   }

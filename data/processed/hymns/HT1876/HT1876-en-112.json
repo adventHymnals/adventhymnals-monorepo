@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["broken heart", "mercy", "grace", "Calvary", "redemption"],
+    "themes": [
+      "broken heart",
+      "mercy",
+      "grace",
+      "Calvary",
+      "redemption"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

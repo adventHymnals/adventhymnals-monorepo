@@ -35,7 +35,16 @@
   "composer": "",
   "author": "",
   "page": 226,
-  "themes": ["King", "Glory", "Gates", "Jesus", "Heart", "Temple", "Grace", "Love"],
+  "themes": [
+    "King",
+    "Glory",
+    "Gates",
+    "Jesus",
+    "Heart",
+    "Temple",
+    "Grace",
+    "Love"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

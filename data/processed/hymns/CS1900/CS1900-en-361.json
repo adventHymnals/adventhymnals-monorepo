@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["shepherding", "ministry", "feeding the flock", "spiritual hunger"],
+    "themes": [
+      "shepherding",
+      "ministry",
+      "feeding the flock",
+      "spiritual hunger"
+    ],
     "scripture_references": [],
     "tune_source": "A. J. Showalter",
     "original_language": "en"

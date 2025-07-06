@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["trust", "faith", "Jesus", "assurance"],
+    "themes": [
+      "trust",
+      "faith",
+      "Jesus",
+      "assurance"
+    ],
     "scripture_references": [],
     "tune_source": "Wm. J. Kirkpatrick",
     "original_language": "en"

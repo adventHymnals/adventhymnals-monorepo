@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1841,
     "copyright": "Public Domain",
-    "themes": ["pilgrimage", "stranger", "journey", "heavenly city", "temporary sojourn"],
-    "scripture_references": ["Hebrews 11:13", "1 Peter 2:11", "Revelation 21:4"],
+    "themes": [
+      "pilgrimage",
+      "stranger",
+      "journey",
+      "heavenly city",
+      "temporary sojourn"
+    ],
+    "scripture_references": [
+      "Hebrews 11:13",
+      "1 Peter 2:11",
+      "Revelation 21:4"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

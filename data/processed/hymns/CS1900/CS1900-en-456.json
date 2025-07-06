@@ -23,8 +23,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895, by F. E. Belden. Used by permission of Bible Echo.",
-    "themes": ["beauty", "virtue", "Christian character", "flowers"],
-    "scripture_references": ["Matthew 5:16"],
+    "themes": [
+      "beauty",
+      "virtue",
+      "Christian character",
+      "flowers"
+    ],
+    "scripture_references": [
+      "Matthew 5:16"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en"
   }

@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1883, by James McGranahan.",
-    "themes": ["blessing", "revival", "rain", "mercy"],
-    "scripture_references": ["Ezekiel 34:26"],
+    "themes": [
+      "blessing",
+      "revival",
+      "rain",
+      "mercy"
+    ],
+    "scripture_references": [
+      "Ezekiel 34:26"
+    ],
     "tune_source": "James McGranahan",
     "original_language": "en"
   }

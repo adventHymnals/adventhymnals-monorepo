@@ -35,7 +35,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["invitation", "acceptance", "cleansing", "coming to Christ"],
+    "themes": [
+      "invitation",
+      "acceptance",
+      "cleansing",
+      "coming to Christ"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1696,
     "copyright": "Public Domain",
-    "themes": ["Longing for God", "Spiritual Thirst", "Hope", "Trinity"],
-    "scripture_references": ["Psalm 42:1"],
+    "themes": [
+      "Longing for God",
+      "Spiritual Thirst",
+      "Hope",
+      "Trinity"
+    ],
+    "scripture_references": [
+      "Psalm 42:1"
+    ],
     "tune_source": "Hugh Wilson, 1824",
     "original_language": "en"
   }

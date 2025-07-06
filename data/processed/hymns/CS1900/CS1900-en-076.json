@@ -25,8 +25,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1893, by P. P. Bliss",
-    "themes": ["persuasion", "salvation", "urgency", "decision"],
-    "scripture_references": ["Acts 26:28"],
+    "themes": [
+      "persuasion",
+      "salvation",
+      "urgency",
+      "decision"
+    ],
+    "scripture_references": [
+      "Acts 26:28"
+    ],
     "tune_source": "P. P. Bliss",
     "original_language": "en"
   }

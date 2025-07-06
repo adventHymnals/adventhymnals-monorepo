@@ -29,7 +29,11 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["praise", "worship", "God's attributes"],
+    "themes": [
+      "praise",
+      "worship",
+      "God's attributes"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

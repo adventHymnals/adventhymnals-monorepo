@@ -25,8 +25,16 @@
     "text": "Love at home, love at home;\nTime doth softly, sweetly glide, When there's love at home."
   },
   "metadata": {
-    "themes": ["home", "love", "family", "peace"],
-    "scripture_references": ["1 Corinthians 13:4-7", "Psalm 133:1"],
+    "themes": [
+      "home",
+      "love",
+      "family",
+      "peace"
+    ],
+    "scripture_references": [
+      "1 Corinthians 13:4-7",
+      "Psalm 133:1"
+    ],
     "copyright": "Public Domain"
   }
 }

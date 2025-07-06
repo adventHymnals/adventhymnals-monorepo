@@ -4,16 +4,32 @@
   "title": "Lo! He comes; th' Archangel's trumpet",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Lo! He comes; th' Archangel's trumpet Wakes to life the slumbering dead; Mid ten thousand thousand angels, See their great exalted Head! Hallelujah! Welcome, welcome, Son of God."},
-    {"number": 2, "text": "Hail the earth-awakening morning! Saints behold the Judge appear; Truth and justice go before him; Now the joyful sentence hear: Hallelujah! Welcome, welcome, Judge divine."},
-    {"number": 3, "text": "Come, ye blessed of my Father, Enter into life and joy; Banish all your fears and sorrows; Endless praise to your employ! Hallelujah! Welcome to your great reward."}
+    {
+      "number": 1,
+      "text": "Lo! He comes; th' Archangel's trumpet Wakes to life the slumbering dead; Mid ten thousand thousand angels, See their great exalted Head! Hallelujah! Welcome, welcome, Son of God."
+    },
+    {
+      "number": 2,
+      "text": "Hail the earth-awakening morning! Saints behold the Judge appear; Truth and justice go before him; Now the joyful sentence hear: Hallelujah! Welcome, welcome, Judge divine."
+    },
+    {
+      "number": 3,
+      "text": "Come, ye blessed of my Father, Enter into life and joy; Banish all your fears and sorrows; Endless praise to your employ! Hallelujah! Welcome to your great reward."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["second coming", "resurrection", "judgment", "angels", "welcome", "joy"],
+    "themes": [
+      "second coming",
+      "resurrection",
+      "judgment",
+      "angels",
+      "welcome",
+      "joy"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "8s, 7s & 4s"

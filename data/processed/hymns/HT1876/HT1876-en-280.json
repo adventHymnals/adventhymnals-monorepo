@@ -4,15 +4,27 @@
   "title": "The day comes on apace",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "The day comes on apace! Soon shall his face at last; Who trust the Saviour's grace Shall see his face at last. The clouds that now obstruct their sight Shall quickly all be put to flight."},
-    {"number": 2, "text": "Ye saints, lift up your heads; Salvation draweth nigh; So the Redeemer said, Its radiance through the sky! Oh, let the sight your spirits cheer! The Lord himself will soon appear."}
+    {
+      "number": 1,
+      "text": "The day comes on apace! Soon shall his face at last; Who trust the Saviour's grace Shall see his face at last. The clouds that now obstruct their sight Shall quickly all be put to flight."
+    },
+    {
+      "number": 2,
+      "text": "Ye saints, lift up your heads; Salvation draweth nigh; So the Redeemer said, Its radiance through the sky! Oh, let the sight your spirits cheer! The Lord himself will soon appear."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["second coming", "hope", "salvation", "encouragement", "anticipation"],
+    "themes": [
+      "second coming",
+      "hope",
+      "salvation",
+      "encouragement",
+      "anticipation"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "H. M."

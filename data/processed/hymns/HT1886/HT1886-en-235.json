@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "peace", "joy", "grace", "eternal rest"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "peace",
+      "joy",
+      "grace",
+      "eternal rest"
+    ],
     "scripture_references": [],
     "tune_source": "Chardon, C. P. M., Lowell Mason",
     "original_language": "en"

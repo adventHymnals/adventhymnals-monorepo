@@ -17,7 +17,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Worldly Vanity", "Heavenly City", "True Joy", "Following Jesus", "Spiritual Calling"],
+    "themes": [
+      "Worldly Vanity",
+      "Heavenly City",
+      "True Joy",
+      "Following Jesus",
+      "Spiritual Calling"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "5 & 6",
     "hymnal_context": "Millerite/Adventist movement hymnal",

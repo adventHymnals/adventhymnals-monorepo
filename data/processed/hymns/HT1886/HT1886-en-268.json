@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's wisdom", "glory", "salvation", "Trinity", "communion"],
+    "themes": [
+      "God's wisdom",
+      "glory",
+      "salvation",
+      "Trinity",
+      "communion"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

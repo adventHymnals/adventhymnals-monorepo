@@ -27,7 +27,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["refuge in Christ", "salvation", "cleansing", "atonement"],
+    "themes": [
+      "refuge in Christ",
+      "salvation",
+      "cleansing",
+      "atonement"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

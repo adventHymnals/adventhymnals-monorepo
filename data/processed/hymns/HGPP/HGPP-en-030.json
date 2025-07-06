@@ -36,8 +36,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["little flock", "remnant", "protection", "signs", "second coming"],
-    "scripture_references": ["Luke 12:32", "Matt 24:6-14", "Rev 1:7"],
+    "themes": [
+      "little flock",
+      "remnant",
+      "protection",
+      "signs",
+      "second coming"
+    ],
+    "scripture_references": [
+      "Luke 12:32",
+      "Matt 24:6-14",
+      "Rev 1:7"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

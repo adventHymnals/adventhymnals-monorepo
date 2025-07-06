@@ -4,9 +4,18 @@
   "title": "Gracious Father, guard thy children",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Gracious Father, guard thy children From the foe's destructive wiles, In this dark and trying hour. Thou wilt surely prove thy people, Let thy power upon them shine, But thy word illumine our pathway, And in God thy strength recline."},
-    {"number": 2, "text": "We are in the time of waiting; Soon we shall behold our Lord, Wafted far away from sorrow, Speed! till he shall speak the word. Keep us, Lord, till thine appearing, True, unspotted from the world, Let thy Holy Spirit cheer us, Till thy banner is unfurled."},
-    {"number": 3, "text": "With what joyful exultation Shall the saints thy banner see, When the Lord for whom we've waited, Shall proclaim the jubilee! Freedom shall be theirs from all sin and pain; Freedom from the wiles of Satan, And from death's destructive reign."}
+    {
+      "number": 1,
+      "text": "Gracious Father, guard thy children From the foe's destructive wiles, In this dark and trying hour. Thou wilt surely prove thy people, Let thy power upon them shine, But thy word illumine our pathway, And in God thy strength recline."
+    },
+    {
+      "number": 2,
+      "text": "We are in the time of waiting; Soon we shall behold our Lord, Wafted far away from sorrow, Speed! till he shall speak the word. Keep us, Lord, till thine appearing, True, unspotted from the world, Let thy Holy Spirit cheer us, Till thy banner is unfurled."
+    },
+    {
+      "number": 3,
+      "text": "With what joyful exultation Shall the saints thy banner see, When the Lord for whom we've waited, Shall proclaim the jubilee! Freedom shall be theirs from all sin and pain; Freedom from the wiles of Satan, And from death's destructive reign."
+    }
   ],
   "chorus": {
     "text": "All the prophets of old saw a beautiful world, And they looked for the same with delight; And apostles have told us of that glorious light, Where the lamb is the glorious light."
@@ -16,7 +25,14 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["protection", "waiting", "hope", "freedom", "second coming", "victory"],
+    "themes": [
+      "protection",
+      "waiting",
+      "hope",
+      "freedom",
+      "second coming",
+      "victory"
+    ],
     "original_language": "en",
     "has_chorus": true,
     "meter": "8s & 7s Double"

@@ -33,7 +33,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["evening", "blessing", "prayer", "doxology"],
+    "themes": [
+      "evening",
+      "blessing",
+      "prayer",
+      "doxology"
+    ],
     "scripture_references": [],
     "tune_source": "T. Tallis",
     "original_language": "en"

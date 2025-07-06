@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1566,
     "copyright": "Public Domain",
-    "themes": ["evening", "protection", "service", "community"],
-    "scripture_references": ["Psalm 121:3-4", "Romans 12:10"],
+    "themes": [
+      "evening",
+      "protection",
+      "service",
+      "community"
+    ],
+    "scripture_references": [
+      "Psalm 121:3-4",
+      "Romans 12:10"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "de",
     "translator": "Frances Elizabeth Cox"

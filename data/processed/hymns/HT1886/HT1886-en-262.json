@@ -24,7 +24,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["eternal Father", "divine love", "Holy Spirit", "guidance"],
+    "themes": [
+      "eternal Father",
+      "divine love",
+      "Holy Spirit",
+      "guidance"
+    ],
     "scripture_references": [],
     "tune_source": "Mason. L. M.",
     "original_language": "en"

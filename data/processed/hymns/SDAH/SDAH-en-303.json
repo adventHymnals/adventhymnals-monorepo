@@ -25,7 +25,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Cross", "Jesus Christ", "Redemption", "Rest", "Refuge"],
+    "themes": [
+      "Cross",
+      "Jesus Christ",
+      "Redemption",
+      "Rest",
+      "Refuge"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

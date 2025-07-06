@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["zion", "restoration", "awakening", "gathering"],
+    "themes": [
+      "zion",
+      "restoration",
+      "awakening",
+      "gathering"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["seeking God", "following Jesus", "young faith", "devotion"],
+    "themes": [
+      "seeking God",
+      "following Jesus",
+      "young faith",
+      "devotion"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

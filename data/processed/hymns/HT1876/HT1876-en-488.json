@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["God of morning", "sun", "duties", "commands", "guidance"],
+    "themes": [
+      "God of morning",
+      "sun",
+      "duties",
+      "commands",
+      "guidance"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

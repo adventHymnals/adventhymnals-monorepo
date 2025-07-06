@@ -21,7 +21,13 @@
   "metadata": {
     "year": 1900,
     "copyright": "Music Copyright, 1900, by F. E. Belden",
-    "themes": ["seeing Jesus", "faith", "strength", "foundation", "grace"],
+    "themes": [
+      "seeing Jesus",
+      "faith",
+      "strength",
+      "foundation",
+      "grace"
+    ],
     "scripture_references": [],
     "tune_source": "F. E. Belden",
     "original_language": "en"

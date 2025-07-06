@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["salvation by grace", "spiritual rebirth", "Holy Spirit", "new creation", "divine sovereignty"],
-    "scripture_references": ["John 3:5-8", "2 Corinthians 5:17", "Ephesians 2:8-9"],
+    "themes": [
+      "salvation by grace",
+      "spiritual rebirth",
+      "Holy Spirit",
+      "new creation",
+      "divine sovereignty"
+    ],
+    "scripture_references": [
+      "John 3:5-8",
+      "2 Corinthians 5:17",
+      "Ephesians 2:8-9"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

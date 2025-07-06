@@ -24,8 +24,19 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "prayer", "purification", "holy fire", "faith", "hope", "rest in God"],
-    "scripture_references": ["Acts 2:3", "1 Thessalonians 5:19"],
+    "themes": [
+      "Holy Spirit",
+      "prayer",
+      "purification",
+      "holy fire",
+      "faith",
+      "hope",
+      "rest in God"
+    ],
+    "scripture_references": [
+      "Acts 2:3",
+      "1 Thessalonians 5:19"
+    ],
     "tune_source": "216, 717, 215",
     "original_language": "en"
   }

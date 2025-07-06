@@ -22,7 +22,12 @@
     }
   ],
   "metadata": {
-    "themes": ["Spring", "Nature", "Creation", "Renewal"],
+    "themes": [
+      "Spring",
+      "Nature",
+      "Creation",
+      "Renewal"
+    ],
     "scripture_references": [],
     "tune_source": "Tempus Adest Floridum",
     "original_language": "en"

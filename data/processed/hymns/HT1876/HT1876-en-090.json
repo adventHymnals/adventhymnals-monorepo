@@ -4,17 +4,35 @@
   "title": "Thy holy Sabbath, Lord",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Thy holy Sabbath, Lord, Thy people hail with joy; Come, bring us what to hear thy word, Let praise and love employ."},
-    {"number": 2, "text": "With sweet delight, the day That thou hast called your own, We hail, and all our homage pay To thee on sacred throne."},
-    {"number": 3, "text": "Oh! may thy saints be blest; Assist us while we pray; May we enjoy a holy rest, And keep the sacred day."},
-    {"number": 4, "text": "When Sabbaths here shall end, And from these courts we move, May we an endless Sabbath spend In heavenly courts above."}
+    {
+      "number": 1,
+      "text": "Thy holy Sabbath, Lord, Thy people hail with joy; Come, bring us what to hear thy word, Let praise and love employ."
+    },
+    {
+      "number": 2,
+      "text": "With sweet delight, the day That thou hast called your own, We hail, and all our homage pay To thee on sacred throne."
+    },
+    {
+      "number": 3,
+      "text": "Oh! may thy saints be blest; Assist us while we pray; May we enjoy a holy rest, And keep the sacred day."
+    },
+    {
+      "number": 4,
+      "text": "When Sabbaths here shall end, And from these courts we move, May we an endless Sabbath spend In heavenly courts above."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Sabbath", "worship", "praise", "heaven", "rest"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "praise",
+      "heaven",
+      "rest"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

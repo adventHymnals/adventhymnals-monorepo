@@ -24,8 +24,15 @@
   "metadata": {
     "year": 1863,
     "copyright": "Public Domain",
-    "themes": ["worship", "holiness", "adoration"],
-    "scripture_references": ["1 Chronicles 16:29", "Psalm 96:9"],
+    "themes": [
+      "worship",
+      "holiness",
+      "adoration"
+    ],
+    "scripture_references": [
+      "1 Chronicles 16:29",
+      "Psalm 96:9"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

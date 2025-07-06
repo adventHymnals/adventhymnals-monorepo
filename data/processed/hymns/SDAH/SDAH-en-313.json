@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1869,
     "copyright": "Public Domain",
-    "themes": ["cross", "salvation", "nearness to Christ", "comfort"],
-    "scripture_references": ["Galatians 6:14", "Hebrews 12:2"],
+    "themes": [
+      "cross",
+      "salvation",
+      "nearness to Christ",
+      "comfort"
+    ],
+    "scripture_references": [
+      "Galatians 6:14",
+      "Hebrews 12:2"
+    ],
     "tune_source": "William H. Doane, 1869",
     "original_language": "en",
     "notes": "Found on same page as hymn 312"

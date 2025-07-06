@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1739,
     "copyright": "Public Domain",
-    "themes": ["Christmas", "Christ's Birth", "Angels", "Incarnation"],
-    "scripture_references": ["Luke 2:14", "Isaiah 9:6"],
+    "themes": [
+      "Christmas",
+      "Christ's Birth",
+      "Angels",
+      "Incarnation"
+    ],
+    "scripture_references": [
+      "Luke 2:14",
+      "Isaiah 9:6"
+    ],
     "tune_source": "Felix Mendelssohn, 1840",
     "original_language": "en"
   }

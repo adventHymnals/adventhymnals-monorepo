@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["cross", "crown", "calvary", "home", "sacrifice"],
+    "themes": [
+      "cross",
+      "crown",
+      "calvary",
+      "home",
+      "sacrifice"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

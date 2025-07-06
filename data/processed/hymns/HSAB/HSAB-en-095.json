@@ -22,7 +22,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Jesus", "guidance", "salvation", "hope", "Bethlehem", "Christmas"],
+    "themes": [
+      "Jesus",
+      "guidance",
+      "salvation",
+      "hope",
+      "Bethlehem",
+      "Christmas"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

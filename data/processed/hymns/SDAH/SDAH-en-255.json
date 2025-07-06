@@ -31,7 +31,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Mystery", "Jesus Christ", "Cannot Tell", "Worship", "Savior"],
+    "themes": [
+      "Mystery",
+      "Jesus Christ",
+      "Cannot Tell",
+      "Worship",
+      "Savior"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -36,8 +36,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "First Advent", "Christmas", "shepherds", "nativity", "angels"],
-    "scripture_references": ["Luke 2:8-14"],
+    "themes": [
+      "Christ",
+      "First Advent",
+      "Christmas",
+      "shepherds",
+      "nativity",
+      "angels"
+    ],
+    "scripture_references": [
+      "Luke 2:8-14"
+    ],
     "tune_source": "Christmas, C. M.",
     "original_language": "en"
   }

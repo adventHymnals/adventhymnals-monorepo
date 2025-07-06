@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1876, by P. P. Bliss.",
-    "themes": ["Passover", "blood", "salvation", "protection", "redemption"],
-    "scripture_references": ["Exodus 12:13"],
+    "themes": [
+      "Passover",
+      "blood",
+      "salvation",
+      "protection",
+      "redemption"
+    ],
+    "scripture_references": [
+      "Exodus 12:13"
+    ],
     "tune_source": "P. P. Bliss",
     "original_language": "en"
   }

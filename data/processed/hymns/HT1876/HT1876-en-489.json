@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["opening eyes", "rapture", "early vows", "heart", "eternal King"],
+    "themes": [
+      "opening eyes",
+      "rapture",
+      "early vows",
+      "heart",
+      "eternal King"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

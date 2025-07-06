@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by arr. of Jno. J. Hood, owner of copyright",
-    "themes": ["Jesus", "saves", "salvation", "joyful sound", "tidings", "victory", "triumph"],
-    "scripture_references": ["Rom. 10:13"],
+    "themes": [
+      "Jesus",
+      "saves",
+      "salvation",
+      "joyful sound",
+      "tidings",
+      "victory",
+      "triumph"
+    ],
+    "scripture_references": [
+      "Rom. 10:13"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

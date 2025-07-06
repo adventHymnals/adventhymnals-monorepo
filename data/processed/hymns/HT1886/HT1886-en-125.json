@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "coronation", "Lamb of God", "worship", "eternal praise", "Lord of peace"],
-    "scripture_references": ["Revelation 5:6", "Revelation 19:16"],
+    "themes": [
+      "Jesus Christ",
+      "coronation",
+      "Lamb of God",
+      "worship",
+      "eternal praise",
+      "Lord of peace"
+    ],
+    "scripture_references": [
+      "Revelation 5:6",
+      "Revelation 19:16"
+    ],
     "tune_source": "George J. Elvey",
     "original_language": "en"
   }

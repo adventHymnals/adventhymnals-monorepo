@@ -33,8 +33,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["prayer", "worship", "communion with God", "devotion"],
-    "scripture_references": ["Matthew 6:9"],
+    "themes": [
+      "prayer",
+      "worship",
+      "communion with God",
+      "devotion"
+    ],
+    "scripture_references": [
+      "Matthew 6:9"
+    ],
     "tune_source": "Henry J. Gauntlett",
     "original_language": "en"
   }

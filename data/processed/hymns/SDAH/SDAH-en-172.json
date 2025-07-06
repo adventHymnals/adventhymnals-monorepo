@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1695,
     "copyright": null,
-    "themes": ["easter", "resurrection", "victory", "triumph", "praise"],
-    "scripture_references": ["1 Corinthians 15:54-57"],
+    "themes": [
+      "easter",
+      "resurrection",
+      "victory",
+      "triumph",
+      "praise"
+    ],
+    "scripture_references": [
+      "1 Corinthians 15:54-57"
+    ],
     "tune_source": "Italian",
     "original_language": "la"
   }

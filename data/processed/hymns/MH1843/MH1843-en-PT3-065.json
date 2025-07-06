@@ -39,7 +39,14 @@
   "composer": "",
   "author": "",
   "page": 204,
-  "themes": ["Soul", "Lord", "Savior", "Jesus", "Love", "Deliverance"],
+  "themes": [
+    "Soul",
+    "Lord",
+    "Savior",
+    "Jesus",
+    "Love",
+    "Deliverance"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

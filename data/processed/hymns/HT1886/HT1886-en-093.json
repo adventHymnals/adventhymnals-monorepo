@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's mercy", "God's justice", "God's love", "salvation", "God's kindness"],
+    "themes": [
+      "God's mercy",
+      "God's justice",
+      "God's love",
+      "salvation",
+      "God's kindness"
+    ],
     "scripture_references": [],
     "tune_source": "169, 41, 535",
     "original_language": "en"

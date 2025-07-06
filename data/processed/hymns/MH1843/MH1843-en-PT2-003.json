@@ -21,7 +21,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Angelic Legions", "Celestial Harps", "Concert of Praise", "Hallelujah", "Songs to the Lamb"],
+    "themes": [
+      "Angelic Legions",
+      "Celestial Harps",
+      "Concert of Praise",
+      "Hallelujah",
+      "Songs to the Lamb"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "D.C. (Da Capo)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

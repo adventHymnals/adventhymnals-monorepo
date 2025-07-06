@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["trumpet", "warning", "victory", "Saviour", "Zion"],
+    "themes": [
+      "trumpet",
+      "warning",
+      "victory",
+      "Saviour",
+      "Zion"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "8s & 7s, Double"

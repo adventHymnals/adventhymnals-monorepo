@@ -24,7 +24,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["divine presence", "blessing", "protection", "worship"],
+    "themes": [
+      "divine presence",
+      "blessing",
+      "protection",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

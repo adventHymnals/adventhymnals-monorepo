@@ -16,8 +16,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Copyrighted 1886 by The J. E. White Pub. Co.",
-    "themes": ["salvation", "refuge", "ark"],
-    "scripture_references": ["Genesis 7:1"],
+    "themes": [
+      "salvation",
+      "refuge",
+      "ark"
+    ],
+    "scripture_references": [
+      "Genesis 7:1"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en",
     "extraction_status": "metadata_only_copyright_protected"

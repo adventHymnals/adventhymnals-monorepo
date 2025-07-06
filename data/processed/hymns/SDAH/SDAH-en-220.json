@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1969,
     "copyright": "© 1969 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["Second Coming", "Glory", "Resurrection", "Alleluia"],
-    "scripture_references": ["1 Thessalonians 4:16-17", "1 Corinthians 15:51-52"],
+    "themes": [
+      "Second Coming",
+      "Glory",
+      "Resurrection",
+      "Alleluia"
+    ],
+    "scripture_references": [
+      "1 Thessalonians 4:16-17",
+      "1 Corinthians 15:51-52"
+    ],
     "tune_source": "Wayne Hooper, 1984",
     "original_language": "en"
   }

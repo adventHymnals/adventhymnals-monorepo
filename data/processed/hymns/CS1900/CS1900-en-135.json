@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1874, by J. H. Fillmore.",
-    "themes": ["surrender", "self-denial", "Jesus", "spiritual growth"],
+    "themes": [
+      "surrender",
+      "self-denial",
+      "Jesus",
+      "spiritual growth"
+    ],
     "scripture_references": [],
     "tune_source": "J. H. Fillmore",
     "original_language": "en"

@@ -31,7 +31,13 @@
   "composer": "",
   "author": "",
   "page": 199,
-  "themes": ["Battle", "Victory", "Jesus", "Triumph", "Warfare"],
+  "themes": [
+    "Battle",
+    "Victory",
+    "Jesus",
+    "Triumph",
+    "Warfare"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

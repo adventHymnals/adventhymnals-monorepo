@@ -31,8 +31,17 @@
   "metadata": {
     "year": 1891,
     "copyright": "Public Domain",
-    "themes": ["faith", "rest", "salvation", "assurance", "trust"],
-    "scripture_references": ["Hebrews 4:9-10", "John 6:37"],
+    "themes": [
+      "faith",
+      "rest",
+      "salvation",
+      "assurance",
+      "trust"
+    ],
+    "scripture_references": [
+      "Hebrews 4:9-10",
+      "John 6:37"
+    ],
     "tune_source": "Andre E. M. Grétry",
     "original_language": "en"
   }

@@ -29,8 +29,18 @@
   "metadata": {
     "year": 1707,
     "copyright": "Public Domain",
-    "themes": ["second coming", "new heaven and earth", "glory", "comfort", "eternal life"],
-    "scripture_references": ["Revelation 21:1-4", "2 Peter 3:13", "Isaiah 25:8"],
+    "themes": [
+      "second coming",
+      "new heaven and earth",
+      "glory",
+      "comfort",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "Revelation 21:1-4",
+      "2 Peter 3:13",
+      "Isaiah 25:8"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

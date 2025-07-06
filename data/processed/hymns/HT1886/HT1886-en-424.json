@@ -28,8 +28,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["warning", "mercy", "last call"],
-    "scripture_references": ["Jeremiah 8:20", "Revelation 22:17"],
+    "themes": [
+      "warning",
+      "mercy",
+      "last call"
+    ],
+    "scripture_references": [
+      "Jeremiah 8:20",
+      "Revelation 22:17"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

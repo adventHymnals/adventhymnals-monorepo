@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["gratitude", "devotion", "service", "God's mercy", "dedication"],
+    "themes": [
+      "gratitude",
+      "devotion",
+      "service",
+      "God's mercy",
+      "dedication"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

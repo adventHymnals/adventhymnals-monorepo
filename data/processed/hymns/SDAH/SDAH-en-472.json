@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1800,
     "copyright": "Public Domain",
-    "themes": ["heavenly music", "angels", "home in heaven", "celestial harmony", "spiritual longing"],
-    "scripture_references": ["Revelation 14:2-3", "Revelation 5:9-10", "Luke 15:10"],
+    "themes": [
+      "heavenly music",
+      "angels",
+      "home in heaven",
+      "celestial harmony",
+      "spiritual longing"
+    ],
+    "scripture_references": [
+      "Revelation 14:2-3",
+      "Revelation 5:9-10",
+      "Luke 15:10"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

@@ -24,8 +24,16 @@
   "metadata": {
     "year": "[needs verification]",
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "weekly rhythm", "eternal rest", "preparation"],
-    "scripture_references": ["Hebrews 4:9-11", "Genesis 2:2-3"],
+    "themes": [
+      "Sabbath",
+      "weekly rhythm",
+      "eternal rest",
+      "preparation"
+    ],
+    "scripture_references": [
+      "Hebrews 4:9-11",
+      "Genesis 2:2-3"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

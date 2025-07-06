@@ -27,7 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895, Used by permission of W. H. Doane",
-    "themes": ["evangelism", "invitation", "gathering", "feast", "shepherd", "salvation"],
+    "themes": [
+      "evangelism",
+      "invitation",
+      "gathering",
+      "feast",
+      "shepherd",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

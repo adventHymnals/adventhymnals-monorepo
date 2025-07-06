@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1894,
     "copyright": "Public Domain",
-    "themes": ["Exaltation of Christ", "Evangelism", "Cross", "Salvation"],
-    "scripture_references": ["John 12:32", "John 3:14-15"],
+    "themes": [
+      "Exaltation of Christ",
+      "Evangelism",
+      "Cross",
+      "Salvation"
+    ],
+    "scripture_references": [
+      "John 12:32",
+      "John 3:14-15"
+    ],
     "tune_source": "Charles H. Gabriel, 1894",
     "original_language": "en"
   }

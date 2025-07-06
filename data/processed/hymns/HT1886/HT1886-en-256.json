@@ -16,7 +16,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "Trinity", "doxology", "worship"],
+    "themes": [
+      "praise",
+      "Trinity",
+      "doxology",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": "Old Hundred. L. M. - Guillaume Franc",
     "original_language": "en"

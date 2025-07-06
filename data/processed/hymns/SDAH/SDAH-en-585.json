@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1970,
     "copyright": "© 1980 by Hope Publishing Co., Carol Stream, IL 60188",
-    "themes": ["unity", "love for one another", "acceptance", "cross"],
-    "scripture_references": ["John 12:32", "Romans 15:7"],
+    "themes": [
+      "unity",
+      "love for one another",
+      "acceptance",
+      "cross"
+    ],
+    "scripture_references": [
+      "John 12:32",
+      "Romans 15:7"
+    ],
     "tune_source": "Gordon Slater, 1896-1979",
     "original_language": "en",
     "author_dates": "1936-",

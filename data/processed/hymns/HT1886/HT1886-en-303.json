@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Life and Character", "healing", "miracles", "compassion", "service"],
+    "themes": [
+      "Christ",
+      "Life and Character",
+      "healing",
+      "miracles",
+      "compassion",
+      "service"
+    ],
     "scripture_references": [],
     "tune_source": "64, 542, 29",
     "original_language": "en"

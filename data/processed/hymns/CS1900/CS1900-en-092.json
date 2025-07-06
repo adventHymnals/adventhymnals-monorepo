@@ -29,7 +29,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["weariness", "longing", "heaven"],
+    "themes": [
+      "weariness",
+      "longing",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": "John Larkin",
     "original_language": "en",

@@ -27,8 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["generosity", "stewardship", "giving"],
-    "scripture_references": ["Matthew 10:8"],
+    "themes": [
+      "generosity",
+      "stewardship",
+      "giving"
+    ],
+    "scripture_references": [
+      "Matthew 10:8"
+    ],
     "tune_source": "Thos. E. Perkins",
     "original_language": "en"
   }

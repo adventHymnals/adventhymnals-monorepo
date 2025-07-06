@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["firm foundation", "excellent word", "deep waters", "fiery trials", "never forsake"],
+    "themes": [
+      "firm foundation",
+      "excellent word",
+      "deep waters",
+      "fiery trials",
+      "never forsake"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

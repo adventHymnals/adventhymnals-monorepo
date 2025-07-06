@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["peace", "faith", "trust", "assurance"],
+    "themes": [
+      "peace",
+      "faith",
+      "trust",
+      "assurance"
+    ],
     "scripture_references": [],
     "tune_source": "P. P. Bliss",
     "original_language": "en"

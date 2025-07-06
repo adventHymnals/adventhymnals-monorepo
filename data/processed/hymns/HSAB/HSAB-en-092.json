@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["holiness", "Christian living", "doctrine", "salvation", "faith"],
+    "themes": [
+      "holiness",
+      "Christian living",
+      "doctrine",
+      "salvation",
+      "faith"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

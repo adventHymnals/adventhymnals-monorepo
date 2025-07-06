@@ -24,8 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["invitation", "Jesus knocking", "repentance"],
-    "scripture_references": ["Revelation 3:20"],
+    "themes": [
+      "invitation",
+      "Jesus knocking",
+      "repentance"
+    ],
+    "scripture_references": [
+      "Revelation 3:20"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

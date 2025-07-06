@@ -33,8 +33,15 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["worship", "praise", "God as creator", "salvation"],
-    "scripture_references": ["Psalm 95"],
+    "themes": [
+      "worship",
+      "praise",
+      "God as creator",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Psalm 95"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

@@ -24,7 +24,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["blessing", "discipleship", "worship"],
+    "themes": [
+      "blessing",
+      "discipleship",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": "James Montgomery",
     "original_language": "en"

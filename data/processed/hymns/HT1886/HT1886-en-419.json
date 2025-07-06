@@ -20,8 +20,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["invitation", "peace", "God's protection"],
-    "scripture_references": ["Job 22:21"],
+    "themes": [
+      "invitation",
+      "peace",
+      "God's protection"
+    ],
+    "scripture_references": [
+      "Job 22:21"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

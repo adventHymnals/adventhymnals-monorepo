@@ -22,8 +22,15 @@
     }
   ],
   "metadata": {
-    "themes": ["Angels", "Praise", "Trinity", "Worship"],
-    "scripture_references": ["Revelation 4"],
+    "themes": [
+      "Angels",
+      "Praise",
+      "Trinity",
+      "Worship"
+    ],
+    "scripture_references": [
+      "Revelation 4"
+    ],
     "tune_source": "Lasst uns erfreuen",
     "original_language": "en"
   }

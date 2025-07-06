@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["trust", "patience", "comfort", "God's faithfulness"],
-    "scripture_references": ["Psalm 46:10", "Romans 8:28"],
+    "themes": [
+      "trust",
+      "patience",
+      "comfort",
+      "God's faithfulness"
+    ],
+    "scripture_references": [
+      "Psalm 46:10",
+      "Romans 8:28"
+    ],
     "tune_source": "Jean Sibelius",
     "original_language": "de"
   }

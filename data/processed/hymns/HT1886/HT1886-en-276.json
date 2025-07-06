@@ -20,7 +20,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "closing", "fellowship", "preparation", "glory"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "closing",
+      "fellowship",
+      "preparation",
+      "glory"
+    ],
     "scripture_references": [],
     "tune_source": "Tune, Rock of Ages, No. 1174",
     "original_language": "en"

@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["prospect of heaven", "jordan", "canaan", "eternal day", "rest"],
+    "themes": [
+      "prospect of heaven",
+      "jordan",
+      "canaan",
+      "eternal day",
+      "rest"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

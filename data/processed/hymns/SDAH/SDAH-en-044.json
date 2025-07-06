@@ -25,7 +25,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["morning", "creation", "praise", "nature"],
+    "themes": [
+      "morning",
+      "creation",
+      "praise",
+      "nature"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -19,7 +19,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Jordan River", "Canaan", "Promised Land", "Heavenly Home"],
+    "themes": [
+      "Jordan River",
+      "Canaan",
+      "Promised Land",
+      "Heavenly Home"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "From the Wesleyan Harp",
     "hymnal_context": "Millerite/Adventist movement hymnal",

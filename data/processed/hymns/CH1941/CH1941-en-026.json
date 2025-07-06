@@ -28,8 +28,16 @@
   "metadata": {
     "year": "[needs verification]",
     "copyright": "Public Domain",
-    "themes": ["communion", "Lord's Supper", "fellowship", "sacrifice"],
-    "scripture_references": ["1 Corinthians 11:23-26", "Luke 22:19-20"],
+    "themes": [
+      "communion",
+      "Lord's Supper",
+      "fellowship",
+      "sacrifice"
+    ],
+    "scripture_references": [
+      "1 Corinthians 11:23-26",
+      "Luke 22:19-20"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

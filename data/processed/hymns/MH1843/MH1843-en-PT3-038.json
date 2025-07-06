@@ -18,7 +18,15 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Lord's Anointed", "David's Son", "Liberation", "Justice", "Divine Reign", "Peace", "Righteousness"],
+    "themes": [
+      "Lord's Anointed",
+      "David's Son",
+      "Liberation",
+      "Justice",
+      "Divine Reign",
+      "Peace",
+      "Righteousness"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "7 & 6",
     "hymnal_context": "Millerite/Adventist movement hymnal",

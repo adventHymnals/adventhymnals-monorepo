@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["grace", "salvation", "gratitude", "sin", "transformation"],
+    "themes": [
+      "grace",
+      "salvation",
+      "gratitude",
+      "sin",
+      "transformation"
+    ],
     "scripture_references": [],
     "tune_source": "Denton, E. Hamilton",
     "original_language": "en"

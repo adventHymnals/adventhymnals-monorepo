@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by permission of P. P. Bliss.",
-    "themes": ["anchor", "harbor", "safety", "refuge", "invitation"],
-    "scripture_references": ["Hebrews 6:19"],
+    "themes": [
+      "anchor",
+      "harbor",
+      "safety",
+      "refuge",
+      "invitation"
+    ],
+    "scripture_references": [
+      "Hebrews 6:19"
+    ],
     "tune_source": "P. P. Bliss",
     "original_language": "en"
   }

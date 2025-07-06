@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895, by F. E. Belden",
-    "themes": ["covering", "life", "forgiveness", "transgression", "snow", "robes", "love"],
-    "scripture_references": ["Ps. 32:1"],
+    "themes": [
+      "covering",
+      "life",
+      "forgiveness",
+      "transgression",
+      "snow",
+      "robes",
+      "love"
+    ],
+    "scripture_references": [
+      "Ps. 32:1"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

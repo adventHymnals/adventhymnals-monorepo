@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "By arrangement with Jno. J. Hesse",
-    "themes": ["judgment", "harvest", "Jesus", "book", "redeemed", "resurrection", "stand"],
-    "scripture_references": ["Matt. 13:41"],
+    "themes": [
+      "judgment",
+      "harvest",
+      "Jesus",
+      "book",
+      "redeemed",
+      "resurrection",
+      "stand"
+    ],
+    "scripture_references": [
+      "Matt. 13:41"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

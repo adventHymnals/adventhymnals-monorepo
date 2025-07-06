@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["God's reign", "majesty", "judgment", "glory"],
-    "scripture_references": ["Psalm 93", "Psalm 97"],
+    "themes": [
+      "God's reign",
+      "majesty",
+      "judgment",
+      "glory"
+    ],
+    "scripture_references": [
+      "Psalm 93",
+      "Psalm 97"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["triumph", "resurrection", "second coming", "joy"],
+    "themes": [
+      "triumph",
+      "resurrection",
+      "second coming",
+      "joy"
+    ],
     "scripture_references": [],
     "tune_source": "J. Lux",
     "original_language": "en"

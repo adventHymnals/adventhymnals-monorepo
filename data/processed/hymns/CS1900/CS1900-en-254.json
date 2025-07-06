@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Song shall be taught to the Lord, praise ye the Lord.--Psa 149:1",
-    "themes": ["praise", "worship", "children", "Jesus as King"],
-    "scripture_references": ["Psalm 149:1"],
+    "themes": [
+      "praise",
+      "worship",
+      "children",
+      "Jesus as King"
+    ],
+    "scripture_references": [
+      "Psalm 149:1"
+    ],
     "tune_source": "Emily H. Woodman",
     "original_language": "en"
   }

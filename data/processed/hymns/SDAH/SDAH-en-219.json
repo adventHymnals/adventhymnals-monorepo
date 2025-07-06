@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1884,
     "copyright": "Public Domain",
-    "themes": ["Second Coming", "Glory of Christ", "Resurrection", "Rapture"],
-    "scripture_references": ["Revelation 1:14-16", "1 Thessalonians 4:16-17"],
+    "themes": [
+      "Second Coming",
+      "Glory of Christ",
+      "Resurrection",
+      "Rapture"
+    ],
+    "scripture_references": [
+      "Revelation 1:14-16",
+      "1 Thessalonians 4:16-17"
+    ],
     "tune_source": "John R. Sweney, 1884",
     "original_language": "en"
   }

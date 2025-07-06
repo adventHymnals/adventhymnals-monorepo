@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["burdened", "Saviour", "weary sinner", "repent", "faith"],
+    "themes": [
+      "burdened",
+      "Saviour",
+      "weary sinner",
+      "repent",
+      "faith"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

@@ -31,7 +31,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["worship", "God's majesty", "creation", "divine care"],
+    "themes": [
+      "worship",
+      "God's majesty",
+      "creation",
+      "divine care"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

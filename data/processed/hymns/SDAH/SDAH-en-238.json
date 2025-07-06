@@ -32,8 +32,17 @@
   "metadata": {
     "year": 1779,
     "copyright": "Public Domain",
-    "themes": ["Name of Jesus", "Comfort", "Healing", "Grace", "Praise"],
-    "scripture_references": ["Acts 4:12", "Philippians 2:9-10"],
+    "themes": [
+      "Name of Jesus",
+      "Comfort",
+      "Healing",
+      "Grace",
+      "Praise"
+    ],
+    "scripture_references": [
+      "Acts 4:12",
+      "Philippians 2:9-10"
+    ],
     "tune_source": "Traditional American melody",
     "original_language": "en"
   }

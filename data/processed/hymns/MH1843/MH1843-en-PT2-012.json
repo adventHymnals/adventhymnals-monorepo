@@ -28,7 +28,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Bible to Glory", "Religion Happy", "Fighting for Kingdom", "King Jesus Captain", "Live Forever"],
+    "themes": [
+      "Bible to Glory",
+      "Religion Happy",
+      "Fighting for Kingdom",
+      "King Jesus Captain",
+      "Live Forever"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "Chorus markings",
     "hymnal_context": "Millerite/Adventist movement hymnal",

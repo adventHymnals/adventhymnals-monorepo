@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["love", "children", "assurance", "salvation"],
-    "scripture_references": ["Mark 10:14", "1 John 4:19"],
+    "themes": [
+      "love",
+      "children",
+      "assurance",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Mark 10:14",
+      "1 John 4:19"
+    ],
     "tune_source": "William Bradbury",
     "original_language": "en"
   }

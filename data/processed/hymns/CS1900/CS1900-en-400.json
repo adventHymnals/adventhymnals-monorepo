@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["lifting up Jesus", "evangelism", "drawing all men", "salvation"],
+    "themes": [
+      "lifting up Jesus",
+      "evangelism",
+      "drawing all men",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": "H. L. Gilmour",
     "original_language": "en"

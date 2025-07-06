@@ -27,7 +27,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Redemption", "Blood of Christ", "Salvation", "Joy", "Eternal Life"],
+    "themes": [
+      "Redemption",
+      "Blood of Christ",
+      "Salvation",
+      "Joy",
+      "Eternal Life"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

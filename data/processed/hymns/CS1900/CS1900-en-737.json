@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["journey", "love", "redemption", "victory"],
+    "themes": [
+      "journey",
+      "love",
+      "redemption",
+      "victory"
+    ],
     "scripture_references": [],
     "tune_source": "Anon",
     "original_language": "en"

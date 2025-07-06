@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "divine illumination", "spiritual gladness", "peace", "strength"],
+    "themes": [
+      "Holy Spirit",
+      "divine illumination",
+      "spiritual gladness",
+      "peace",
+      "strength"
+    ],
     "scripture_references": [],
     "tune_source": "130, 41, 62",
     "original_language": "en"

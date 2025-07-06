@@ -4,17 +4,37 @@
   "title": "THY kingdom come. Thus day by day",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "THY kingdom come. Thus day by day, We lift our hands to God and pray; But who has ever truly weighed The meaning of the words he said?"},
-    {"number": 2, "text": "Thy kingdom come. O day of joy, When praise shall fill every tongue employ; When hate and strife shall be no more, And man with man shall all be peace."},
-    {"number": 3, "text": "Jesus shall reign on Zion's hill, And all the earth with glory fill; When Satan's reign shall have an end, And sin and death afflict no more."},
-    {"number": 4, "text": "Then all the hosts of heaven shall sing, By all who live beneath the sun; For saints shall then as angels be, All changed to immortality."}
+    {
+      "number": 1,
+      "text": "THY kingdom come. Thus day by day, We lift our hands to God and pray; But who has ever truly weighed The meaning of the words he said?"
+    },
+    {
+      "number": 2,
+      "text": "Thy kingdom come. O day of joy, When praise shall fill every tongue employ; When hate and strife shall be no more, And man with man shall all be peace."
+    },
+    {
+      "number": 3,
+      "text": "Jesus shall reign on Zion's hill, And all the earth with glory fill; When Satan's reign shall have an end, And sin and death afflict no more."
+    },
+    {
+      "number": 4,
+      "text": "Then all the hosts of heaven shall sing, By all who live beneath the sun; For saints shall then as angels be, All changed to immortality."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["kingdom", "prayer", "joy", "praise", "Jesus", "Zion", "immortality"],
+    "themes": [
+      "kingdom",
+      "prayer",
+      "joy",
+      "praise",
+      "Jesus",
+      "Zion",
+      "immortality"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

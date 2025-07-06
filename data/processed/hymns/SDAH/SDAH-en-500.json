@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1882,
     "copyright": "Public Domain",
-    "themes": ["holiness", "devotion", "spiritual discipline", "Christlikeness", "spiritual growth"],
-    "scripture_references": ["1 Peter 1:16", "2 Corinthians 3:18", "Galatians 5:25"],
+    "themes": [
+      "holiness",
+      "devotion",
+      "spiritual discipline",
+      "Christlikeness",
+      "spiritual growth"
+    ],
+    "scripture_references": [
+      "1 Peter 1:16",
+      "2 Corinthians 3:18",
+      "Galatians 5:25"
+    ],
     "tune_source": "George C. Stebbins",
     "original_language": "en"
   }

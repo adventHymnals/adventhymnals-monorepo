@@ -26,8 +26,16 @@
     }
   ],
   "metadata": {
-    "themes": ["divine provision", "stewardship", "temperance", "divine guidance"],
-    "scripture_references": ["James 1:17", "1 Corinthians 10:31"],
+    "themes": [
+      "divine provision",
+      "stewardship",
+      "temperance",
+      "divine guidance"
+    ],
+    "scripture_references": [
+      "James 1:17",
+      "1 Corinthians 10:31"
+    ],
     "copyright": "Public Domain"
   }
 }

@@ -28,8 +28,15 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["God's goodness", "divine justice", "providence", "grace"],
-    "scripture_references": ["Psalm 36:5-7"],
+    "themes": [
+      "God's goodness",
+      "divine justice",
+      "providence",
+      "grace"
+    ],
+    "scripture_references": [
+      "Psalm 36:5-7"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

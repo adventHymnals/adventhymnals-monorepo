@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1869,
     "copyright": "Public Domain",
-    "themes": ["Evangelism", "Salvation", "Compassion", "Rescue"],
-    "scripture_references": ["Luke 19:10", "Jude 1:23"],
+    "themes": [
+      "Evangelism",
+      "Salvation",
+      "Compassion",
+      "Rescue"
+    ],
+    "scripture_references": [
+      "Luke 19:10",
+      "Jude 1:23"
+    ],
     "tune_source": "William H. Doane, 1870",
     "original_language": "en"
   }

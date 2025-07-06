@@ -25,7 +25,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["last trump", "resurrection", "martyrs", "redemption", "praise"],
+    "themes": [
+      "last trump",
+      "resurrection",
+      "martyrs",
+      "redemption",
+      "praise"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

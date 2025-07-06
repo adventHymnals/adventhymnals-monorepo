@@ -23,8 +23,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by permission of J. B. Sumner.",
-    "themes": ["God's love", "children", "care", "sparrows"],
-    "scripture_references": ["Matthew 10:29-31"],
+    "themes": [
+      "God's love",
+      "children",
+      "care",
+      "sparrows"
+    ],
+    "scripture_references": [
+      "Matthew 10:29-31"
+    ],
     "tune_source": "J. B. Sumner",
     "original_language": "en"
   }

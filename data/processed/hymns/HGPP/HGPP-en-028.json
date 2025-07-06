@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["friendship", "jesus as friend", "new jerusalem", "heavenly home", "eternal life"],
-    "scripture_references": ["John 15:13-15", "Rev 21:1-4", "Heb 11:16"],
+    "themes": [
+      "friendship",
+      "jesus as friend",
+      "new jerusalem",
+      "heavenly home",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "John 15:13-15",
+      "Rev 21:1-4",
+      "Heb 11:16"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

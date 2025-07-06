@@ -39,7 +39,15 @@
   "composer": "",
   "author": "",
   "page": 217,
-  "themes": ["Zion", "City", "God", "Savior", "Rock", "Glory", "Grace"],
+  "themes": [
+    "Zion",
+    "City",
+    "God",
+    "Savior",
+    "Rock",
+    "Glory",
+    "Grace"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

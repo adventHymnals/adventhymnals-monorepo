@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["testimony", "Jesus", "evangelism", "gospel"],
-    "scripture_references": ["Mark 16:15"],
+    "themes": [
+      "testimony",
+      "Jesus",
+      "evangelism",
+      "gospel"
+    ],
+    "scripture_references": [
+      "Mark 16:15"
+    ],
     "tune_source": "A. Williams",
     "original_language": "en"
   }

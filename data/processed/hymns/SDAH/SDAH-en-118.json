@@ -35,8 +35,16 @@
   "metadata": {
     "year": 1200,
     "copyright": "Public Domain",
-    "themes": ["Christmas", "Nativity", "Wise Men", "Star of Bethlehem"],
-    "scripture_references": ["Luke 2:8-20", "Matthew 2:1-12"],
+    "themes": [
+      "Christmas",
+      "Nativity",
+      "Wise Men",
+      "Star of Bethlehem"
+    ],
+    "scripture_references": [
+      "Luke 2:8-20",
+      "Matthew 2:1-12"
+    ],
     "tune_source": "English carol",
     "original_language": "en"
   }

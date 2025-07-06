@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Saviour calls", "children", "gracious arms", "heirs of Heaven", "offspring"],
+    "themes": [
+      "Saviour calls",
+      "children",
+      "gracious arms",
+      "heirs of Heaven",
+      "offspring"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

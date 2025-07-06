@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["rest", "heaven", "eternal life", "comfort"],
+    "themes": [
+      "rest",
+      "heaven",
+      "eternal life",
+      "comfort"
+    ],
     "scripture_references": [],
     "tune_source": "J. H. Harker, arr.",
     "original_language": "en"

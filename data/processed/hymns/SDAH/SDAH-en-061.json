@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1979,
     "copyright": "Words © 1979 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission. Music © 1942, Ren. 1970 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["God's presence", "worship", "church", "prayer"],
+    "themes": [
+      "God's presence",
+      "worship",
+      "church",
+      "prayer"
+    ],
     "scripture_references": [],
     "tune_source": "[unclear]",
     "original_language": "en"

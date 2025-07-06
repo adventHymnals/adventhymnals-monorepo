@@ -33,7 +33,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["providence", "trust", "mystery", "divine_wisdom"],
+    "themes": [
+      "providence",
+      "trust",
+      "mystery",
+      "divine_wisdom"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

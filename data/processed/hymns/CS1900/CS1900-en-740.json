@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["rest", "death", "resurrection", "peace"],
+    "themes": [
+      "rest",
+      "death",
+      "resurrection",
+      "peace"
+    ],
     "scripture_references": [],
     "tune_source": "E. J. Cawston",
     "original_language": "en"

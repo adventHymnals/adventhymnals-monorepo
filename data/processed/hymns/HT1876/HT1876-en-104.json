@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["day of rest", "worship", "Holy Spirit", "baptism", "holy fire"],
+    "themes": [
+      "day of rest",
+      "worship",
+      "Holy Spirit",
+      "baptism",
+      "holy fire"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "11s"

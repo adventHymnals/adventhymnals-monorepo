@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["blessedness", "obedience", "God's commandments", "divine will", "guidance"],
-    "scripture_references": ["Psalm 119:1-5"],
+    "themes": [
+      "blessedness",
+      "obedience",
+      "God's commandments",
+      "divine will",
+      "guidance"
+    ],
+    "scripture_references": [
+      "Psalm 119:1-5"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by permission.",
-    "themes": ["Jesus", "salvation", "joy", "eternity"],
+    "themes": [
+      "Jesus",
+      "salvation",
+      "joy",
+      "eternity"
+    ],
     "scripture_references": [],
     "tune_source": "J. E. Thomas",
     "original_language": "en"

@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895. Used by permission",
-    "themes": ["choice", "Lords side", "right", "wrong", "Moses", "camp", "stand"],
-    "scripture_references": ["Ex. 32:26"],
+    "themes": [
+      "choice",
+      "Lords side",
+      "right",
+      "wrong",
+      "Moses",
+      "camp",
+      "stand"
+    ],
+    "scripture_references": [
+      "Ex. 32:26"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

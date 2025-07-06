@@ -25,7 +25,26 @@
   "composer": "Harold Friedell",
   "author": "Percy Dearmer",
   "page": 259,
-  "themes": ["Spirit", "Tether", "Humbly", "Name", "Met Together", "Midst", "Alleluia", "Garment", "Hem", "Brethren", "Gather", "Christ", "Thanks", "Father", "Break", "Bread", "Bless", "Cup"],
+  "themes": [
+    "Spirit",
+    "Tether",
+    "Humbly",
+    "Name",
+    "Met Together",
+    "Midst",
+    "Alleluia",
+    "Garment",
+    "Hem",
+    "Brethren",
+    "Gather",
+    "Christ",
+    "Thanks",
+    "Father",
+    "Break",
+    "Bread",
+    "Bless",
+    "Cup"
+  ],
   "key_signature": "G",
   "time_signature": "4/4"
 }

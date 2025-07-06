@@ -18,7 +18,16 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["beautiful valley", "love crowns", "meek and lowly", "humble subjection", "unshaken protection", "peace", "lord will deliver", "beautiful river"],
+    "themes": [
+      "beautiful valley",
+      "love crowns",
+      "meek and lowly",
+      "humble subjection",
+      "unshaken protection",
+      "peace",
+      "lord will deliver",
+      "beautiful river"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

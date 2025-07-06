@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "pilgrimage", "rest", "trials", "hope"],
+    "themes": [
+      "second advent",
+      "pilgrimage",
+      "rest",
+      "trials",
+      "hope"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -25,8 +25,17 @@
   "metadata": {
     "year": 1850,
     "copyright": "Public Domain",
-    "themes": ["trust", "guidance", "protection", "shepherd", "comfort"],
-    "scripture_references": ["Psalm 23", "John 10:11"],
+    "themes": [
+      "trust",
+      "guidance",
+      "protection",
+      "shepherd",
+      "comfort"
+    ],
+    "scripture_references": [
+      "Psalm 23",
+      "John 10:11"
+    ],
     "tune_source": "Felix Mendelssohn",
     "original_language": "en"
   }

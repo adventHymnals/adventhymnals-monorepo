@@ -22,8 +22,15 @@
     }
   ],
   "metadata": {
-    "themes": ["God's Power", "Creation", "God's Goodness", "Nature"],
-    "scripture_references": ["Genesis 1"],
+    "themes": [
+      "God's Power",
+      "Creation",
+      "God's Goodness",
+      "Nature"
+    ],
+    "scripture_references": [
+      "Genesis 1"
+    ],
     "tune_source": "Ellacombe",
     "original_language": "en"
   }

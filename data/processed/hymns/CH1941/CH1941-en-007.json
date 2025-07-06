@@ -24,8 +24,14 @@
   "metadata": {
     "year": 1781,
     "copyright": "Public Domain",
-    "themes": ["God's reign", "justice", "Zion"],
-    "scripture_references": ["Psalm 97"],
+    "themes": [
+      "God's reign",
+      "justice",
+      "Zion"
+    ],
+    "scripture_references": [
+      "Psalm 97"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

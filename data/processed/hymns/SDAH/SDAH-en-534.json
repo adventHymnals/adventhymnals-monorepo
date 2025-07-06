@@ -35,7 +35,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["hope", "security", "steadfastness", "salvation"],
+    "themes": [
+      "hope",
+      "security",
+      "steadfastness",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

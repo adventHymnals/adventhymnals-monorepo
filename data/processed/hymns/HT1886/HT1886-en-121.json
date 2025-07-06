@@ -32,8 +32,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "crown of thorns", "glory", "cross", "victory", "eternal joy"],
-    "scripture_references": ["Hebrews 2:9", "Philippians 2:9-11"],
+    "themes": [
+      "Jesus Christ",
+      "crown of thorns",
+      "glory",
+      "cross",
+      "victory",
+      "eternal joy"
+    ],
+    "scripture_references": [
+      "Hebrews 2:9",
+      "Philippians 2:9-11"
+    ],
     "tune_source": "185, 227, 201",
     "original_language": "en"
   }

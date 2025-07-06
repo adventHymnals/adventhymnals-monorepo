@@ -11,7 +11,7 @@
       "text": "And can it be that I should gain An interest in the Savior's blood? Died He for me, who caused His pain? For me, who Him to death pursued? Amazing love! how can it be That Thou, my God, shouldst die for me?"
     },
     {
-      "number": "2", 
+      "number": "2",
       "text": "He left His Father's throne above, So free, so infinite His grace; Emptied Himself of all but love, And bled for Adam's helpless race; 'Tis mercy all, immense and free; For, O my God, it found out me."
     },
     {
@@ -31,7 +31,13 @@
   "composer": "",
   "author": "",
   "page": 198,
-  "themes": ["Amazing Grace", "Jesus", "Sacrifice", "Love", "Salvation"],
+  "themes": [
+    "Amazing Grace",
+    "Jesus",
+    "Sacrifice",
+    "Love",
+    "Salvation"
+  ],
   "key_signature": "D",
   "time_signature": "4/4"
 }

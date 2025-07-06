@@ -27,7 +27,17 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["time", "moments", "wasted", "prayer", "Master", "sheaves", "sowing", "life", "hope"],
+    "themes": [
+      "time",
+      "moments",
+      "wasted",
+      "prayer",
+      "Master",
+      "sheaves",
+      "sowing",
+      "life",
+      "hope"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

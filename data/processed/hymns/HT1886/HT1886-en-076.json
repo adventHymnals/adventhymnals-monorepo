@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "God's faithfulness", "God's power", "God's grace", "worship"],
+    "themes": [
+      "praise",
+      "God's faithfulness",
+      "God's power",
+      "God's grace",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": "120, 76, 305",
     "original_language": "en"

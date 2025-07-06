@@ -29,8 +29,17 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["God's Love", "Creation", "Truth", "Peace", "Brotherhood"],
-    "scripture_references": ["1 John 4:7-8", "Romans 8:28"],
+    "themes": [
+      "God's Love",
+      "Creation",
+      "Truth",
+      "Peace",
+      "Brotherhood"
+    ],
+    "scripture_references": [
+      "1 John 4:7-8",
+      "Romans 8:28"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

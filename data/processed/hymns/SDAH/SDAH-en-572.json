@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["dedication", "service", "youth", "devotion"],
+    "themes": [
+      "dedication",
+      "service",
+      "youth",
+      "devotion"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

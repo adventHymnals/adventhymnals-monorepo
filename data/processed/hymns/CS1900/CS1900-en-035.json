@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1885, by F. E. Belden, in Bible Object Lessons; and Copyright, 1886, Same, on behalf of Christ in Song. Used by permission of the Intl. Kindergarten and Home-Sch. College",
-    "themes": ["bravery", "saying no", "temptation", "Satan", "Jesus", "strength", "worship"],
-    "scripture_references": ["Luke 4:8"],
+    "themes": [
+      "bravery",
+      "saying no",
+      "temptation",
+      "Satan",
+      "Jesus",
+      "strength",
+      "worship"
+    ],
+    "scripture_references": [
+      "Luke 4:8"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

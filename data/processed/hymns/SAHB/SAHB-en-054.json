@@ -35,7 +35,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["judgment", "invitation", "salvation", "second advent"],
+    "themes": [
+      "judgment",
+      "invitation",
+      "salvation",
+      "second advent"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

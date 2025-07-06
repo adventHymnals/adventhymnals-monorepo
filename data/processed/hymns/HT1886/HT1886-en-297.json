@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Christmas", "angels", "shepherds", "wise men", "salvation"],
+    "themes": [
+      "Christ",
+      "Christmas",
+      "angels",
+      "shepherds",
+      "wise men",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": "277, 92, 47",
     "original_language": "en"

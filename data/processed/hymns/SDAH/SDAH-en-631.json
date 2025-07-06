@@ -25,8 +25,16 @@
   "metadata": {
     "year": 1985,
     "copyright": "1985 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["comfort", "doubt", "faith", "hope"],
-    "scripture_references": ["Psalm 23:4", "Isaiah 43:2"],
+    "themes": [
+      "comfort",
+      "doubt",
+      "faith",
+      "hope"
+    ],
+    "scripture_references": [
+      "Psalm 23:4",
+      "Isaiah 43:2"
+    ],
     "tune_source": "Anon. from Hymns and Tunes",
     "original_language": "en"
   }

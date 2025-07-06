@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1875,
     "copyright": null,
-    "themes": ["Praise", "Salvation", "Jesus Christ", "Redemption"],
-    "scripture_references": ["John 3:16", "Romans 5:8"],
+    "themes": [
+      "Praise",
+      "Salvation",
+      "Jesus Christ",
+      "Redemption"
+    ],
+    "scripture_references": [
+      "John 3:16",
+      "Romans 5:8"
+    ],
     "tune_source": "William H. Doane",
     "original_language": "en"
   }

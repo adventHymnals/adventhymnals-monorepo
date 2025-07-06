@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["testimony", "separation", "babylon", "spiritual warfare", "truth"],
-    "scripture_references": ["Heb 4:12", "Rev 18:4", "Eph 6:10-17"],
+    "themes": [
+      "testimony",
+      "separation",
+      "babylon",
+      "spiritual warfare",
+      "truth"
+    ],
+    "scripture_references": [
+      "Heb 4:12",
+      "Rev 18:4",
+      "Eph 6:10-17"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

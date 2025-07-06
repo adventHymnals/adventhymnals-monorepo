@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's mercy", "gratitude", "praise", "God's care", "thanksgiving"],
+    "themes": [
+      "God's mercy",
+      "gratitude",
+      "praise",
+      "God's care",
+      "thanksgiving"
+    ],
     "scripture_references": [],
     "tune_source": "Geneva",
     "original_language": "en"

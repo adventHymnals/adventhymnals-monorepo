@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "prayer", "divine presence", "spiritual guidance", "Pentecost"],
+    "themes": [
+      "Holy Spirit",
+      "prayer",
+      "divine presence",
+      "spiritual guidance",
+      "Pentecost"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

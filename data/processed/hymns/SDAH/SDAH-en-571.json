@@ -25,8 +25,15 @@
   "metadata": {
     "year": 1969,
     "copyright": "1969 Hope Publishing Co.",
-    "themes": ["justice", "mercy", "discipleship", "Micah 6:8"],
-    "scripture_references": ["Micah 6:8"],
+    "themes": [
+      "justice",
+      "mercy",
+      "discipleship",
+      "Micah 6:8"
+    ],
+    "scripture_references": [
+      "Micah 6:8"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["dedication", "life commitment", "salvation", "devotion"],
-    "scripture_references": ["2 Corinthians 5:15"],
+    "themes": [
+      "dedication",
+      "life commitment",
+      "salvation",
+      "devotion"
+    ],
+    "scripture_references": [
+      "2 Corinthians 5:15"
+    ],
     "tune_source": "C. R. Dunbar",
     "original_language": "en"
   }

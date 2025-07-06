@@ -23,7 +23,15 @@
   "composer": "",
   "author": "",
   "page": 213,
-  "themes": ["Day", "Spirit", "Lord", "Humble", "Faith", "Praise", "Holiness"],
+  "themes": [
+    "Day",
+    "Spirit",
+    "Lord",
+    "Humble",
+    "Faith",
+    "Praise",
+    "Holiness"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

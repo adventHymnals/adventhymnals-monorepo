@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["glory", "worship", "holiness", "praise"],
-    "scripture_references": ["Isaiah 6:3"],
+    "themes": [
+      "glory",
+      "worship",
+      "holiness",
+      "praise"
+    ],
+    "scripture_references": [
+      "Isaiah 6:3"
+    ],
     "tune_source": "J. H. Maunder",
     "original_language": "en"
   }

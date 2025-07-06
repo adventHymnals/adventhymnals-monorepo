@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1864,
     "copyright": "Public Domain",
-    "themes": ["creation", "beauty", "thanksgiving", "nature"],
-    "scripture_references": ["Genesis 1:31", "Psalm 104"],
+    "themes": [
+      "creation",
+      "beauty",
+      "thanksgiving",
+      "nature"
+    ],
+    "scripture_references": [
+      "Genesis 1:31",
+      "Psalm 104"
+    ],
     "tune_source": "Dix, Conrad Kocher, 1838",
     "original_language": "en"
   }

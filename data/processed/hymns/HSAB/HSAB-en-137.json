@@ -22,7 +22,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Lord's Supper", "communion", "broken body", "blood", "unity", "hope", "Second Coming"],
+    "themes": [
+      "Lord's Supper",
+      "communion",
+      "broken body",
+      "blood",
+      "unity",
+      "hope",
+      "Second Coming"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Sufferings and Death", "crucifixion", "forgiveness", "salvation", "recognition"],
+    "themes": [
+      "Christ",
+      "Sufferings and Death",
+      "crucifixion",
+      "forgiveness",
+      "salvation",
+      "recognition"
+    ],
     "scripture_references": [],
     "tune_source": "Tune Morton, No. 464",
     "original_language": "en"

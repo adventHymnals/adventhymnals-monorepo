@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Sufferings and Death", "crucifixion", "sacrifice", "love", "salvation"],
+    "themes": [
+      "Christ",
+      "Sufferings and Death",
+      "crucifixion",
+      "sacrifice",
+      "love",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": "896, 179, 181",
     "original_language": "en"

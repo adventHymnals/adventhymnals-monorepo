@@ -40,8 +40,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["longing for home", "pilgrimage", "paradise", "tree of life", "weary saint"],
-    "scripture_references": ["Rev 22:1-5", "Rev 21:4", "2 Cor 5:1-2"],
+    "themes": [
+      "longing for home",
+      "pilgrimage",
+      "paradise",
+      "tree of life",
+      "weary saint"
+    ],
+    "scripture_references": [
+      "Rev 22:1-5",
+      "Rev 21:4",
+      "2 Cor 5:1-2"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

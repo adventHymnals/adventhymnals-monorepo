@@ -23,8 +23,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["watchfulness", "prayer", "vigilance", "spiritual warfare"],
-    "scripture_references": ["1 Cor. 16:13"],
+    "themes": [
+      "watchfulness",
+      "prayer",
+      "vigilance",
+      "spiritual warfare"
+    ],
+    "scripture_references": [
+      "1 Cor. 16:13"
+    ],
     "tune_source": "R. Lowry",
     "original_language": "en",
     "extraction_status": "completed"

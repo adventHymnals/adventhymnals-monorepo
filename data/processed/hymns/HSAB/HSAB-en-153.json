@@ -30,7 +30,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Christian living", "daily devotion", "faithfulness", "Sabbath", "charity", "eternal joy", "worship"],
+    "themes": [
+      "Christian living",
+      "daily devotion",
+      "faithfulness",
+      "Sabbath",
+      "charity",
+      "eternal joy",
+      "worship"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

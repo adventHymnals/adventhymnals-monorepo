@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "closing", "truth", "praise", "heart"],
+    "themes": [
+      "worship",
+      "closing",
+      "truth",
+      "praise",
+      "heart"
+    ],
     "scripture_references": [],
     "tune_source": "Wilmot, 8s & 7s.",
     "original_language": "en"

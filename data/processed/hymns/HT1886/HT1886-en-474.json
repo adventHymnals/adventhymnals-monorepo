@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["sowing", "harvest", "perseverance", "reaping"],
-    "scripture_references": ["Ps. 126:6"],
+    "themes": [
+      "sowing",
+      "harvest",
+      "perseverance",
+      "reaping"
+    ],
+    "scripture_references": [
+      "Ps. 126:6"
+    ],
     "tune_source": "C. S. Carle",
     "original_language": "en",
     "extraction_status": "completed"

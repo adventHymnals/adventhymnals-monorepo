@@ -4,16 +4,33 @@
   "title": "GREAT God, whose universal sway",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "GREAT God, whose universal sway All known and unknown worlds obey, Now give the kingdom to thy Son, Extend his power, exalt his throne."},
-    {"number": 2, "text": "The scepter well becomes his hands; All heaven submits to his commands; His justice shall protect the just, And pride and rage prevail no more."},
-    {"number": 3, "text": "With power he vindicates the just, And treads th' oppressor in the dust; His righteous government shall last, Till days, and years, and time be past."}
+    {
+      "number": 1,
+      "text": "GREAT God, whose universal sway All known and unknown worlds obey, Now give the kingdom to thy Son, Extend his power, exalt his throne."
+    },
+    {
+      "number": 2,
+      "text": "The scepter well becomes his hands; All heaven submits to his commands; His justice shall protect the just, And pride and rage prevail no more."
+    },
+    {
+      "number": 3,
+      "text": "With power he vindicates the just, And treads th' oppressor in the dust; His righteous government shall last, Till days, and years, and time be past."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["God", "kingdom", "Son", "power", "throne", "justice", "government"],
+    "themes": [
+      "God",
+      "kingdom",
+      "Son",
+      "power",
+      "throne",
+      "justice",
+      "government"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

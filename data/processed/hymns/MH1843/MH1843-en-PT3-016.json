@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Warning", "Trumpet Call", "Urgency", "Watchmen", "Second Coming"],
+    "themes": [
+      "Warning",
+      "Trumpet Call",
+      "Urgency",
+      "Watchmen",
+      "Second Coming"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "L. M. (Long Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

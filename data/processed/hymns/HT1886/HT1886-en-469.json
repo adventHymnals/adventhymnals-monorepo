@@ -23,8 +23,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["work", "watchfulness", "prayer", "diligence"],
-    "scripture_references": ["1 Thess. 5:6"],
+    "themes": [
+      "work",
+      "watchfulness",
+      "prayer",
+      "diligence"
+    ],
+    "scripture_references": [
+      "1 Thess. 5:6"
+    ],
     "tune_source": "A. B. Fillmore",
     "original_language": "en",
     "extraction_status": "completed"

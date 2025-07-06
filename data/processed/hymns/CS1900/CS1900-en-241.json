@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by H. R. Palmer, owner of the copyright.",
-    "themes": ["kindness", "love", "children", "angry words"],
-    "scripture_references": ["John 13:34"],
+    "themes": [
+      "kindness",
+      "love",
+      "children",
+      "angry words"
+    ],
+    "scripture_references": [
+      "John 13:34"
+    ],
     "tune_source": "H. R. Palmer",
     "original_language": "en"
   }

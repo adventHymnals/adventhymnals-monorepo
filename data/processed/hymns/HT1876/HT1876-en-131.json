@@ -4,17 +4,35 @@
   "title": "To-day the Savior calls!",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "To-day the Savior calls! Ye wanderers, come! O ye benighted souls, Why longer roam?"},
-    {"number": 2, "text": "To-day the Savior calls! Oh! listen now; Within these sacred walls, To Jesus bow."},
-    {"number": 3, "text": "To-day the Savior calls! For mercy flee; For all the guilty calls; Must guilty be."},
-    {"number": 4, "text": "To-day the Savior calls! For refuge fly; The storm of vengeance falls; Him is nigh."}
+    {
+      "number": 1,
+      "text": "To-day the Savior calls! Ye wanderers, come! O ye benighted souls, Why longer roam?"
+    },
+    {
+      "number": 2,
+      "text": "To-day the Savior calls! Oh! listen now; Within these sacred walls, To Jesus bow."
+    },
+    {
+      "number": 3,
+      "text": "To-day the Savior calls! For mercy flee; For all the guilty calls; Must guilty be."
+    },
+    {
+      "number": 4,
+      "text": "To-day the Savior calls! For refuge fly; The storm of vengeance falls; Him is nigh."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["salvation", "Jesus' call", "mercy", "urgency", "repentance"],
+    "themes": [
+      "salvation",
+      "Jesus' call",
+      "mercy",
+      "urgency",
+      "repentance"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "6s & 4s"

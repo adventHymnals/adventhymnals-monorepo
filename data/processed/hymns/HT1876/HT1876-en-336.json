@@ -4,17 +4,35 @@
   "title": "THAT awful day will surely come",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "THAT awful day will surely come— Th' appointed hour makes haste— When I must stand before my Judge, And pass the solemn test."},
-    {"number": 2, "text": "Jesus, thou source of all my joys, Thou ruler of my heart, How could I bear to hear thy voice Pronounce the word, Depart!"},
-    {"number": 3, "text": "What! I to be banished from my Lord, To rocks and mountains cry! And bid the hills conceal my grief, And hide me from his eye."},
-    {"number": 4, "text": "Oh! if I wretched state of deep despair, By angels' doom to dwell, And lie most doleful station where Devils and darkness dwell."}
+    {
+      "number": 1,
+      "text": "THAT awful day will surely come— Th' appointed hour makes haste— When I must stand before my Judge, And pass the solemn test."
+    },
+    {
+      "number": 2,
+      "text": "Jesus, thou source of all my joys, Thou ruler of my heart, How could I bear to hear thy voice Pronounce the word, Depart!"
+    },
+    {
+      "number": 3,
+      "text": "What! I to be banished from my Lord, To rocks and mountains cry! And bid the hills conceal my grief, And hide me from his eye."
+    },
+    {
+      "number": 4,
+      "text": "Oh! if I wretched state of deep despair, By angels' doom to dwell, And lie most doleful station where Devils and darkness dwell."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["judgment", "fear", "despair", "Jesus", "salvation"],
+    "themes": [
+      "judgment",
+      "fear",
+      "despair",
+      "Jesus",
+      "salvation"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

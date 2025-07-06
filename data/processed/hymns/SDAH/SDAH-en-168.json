@@ -21,7 +21,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["resurrection", "ascension", "cosmic", "presence"],
+    "themes": [
+      "resurrection",
+      "ascension",
+      "cosmic",
+      "presence"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

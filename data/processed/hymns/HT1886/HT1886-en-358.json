@@ -32,8 +32,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "crucifixion", "atonement", "salvation", "glory", "praise"],
-    "scripture_references": ["Philippians 2:9-11", "Revelation 5:12"],
+    "themes": [
+      "Jesus Christ",
+      "crucifixion",
+      "atonement",
+      "salvation",
+      "glory",
+      "praise"
+    ],
+    "scripture_references": [
+      "Philippians 2:9-11",
+      "Revelation 5:12"
+    ],
     "tune_source": "Autumn, No. 557",
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1875,
     "copyright": "Public Domain",
-    "themes": ["Zion", "heavenly city", "beauty", "gates of pearl", "eternal life"],
-    "scripture_references": ["Revelation 21:2", "Revelation 21:21", "Revelation 22:1-2"],
+    "themes": [
+      "Zion",
+      "heavenly city",
+      "beauty",
+      "gates of pearl",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "Revelation 21:2",
+      "Revelation 21:21",
+      "Revelation 22:1-2"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

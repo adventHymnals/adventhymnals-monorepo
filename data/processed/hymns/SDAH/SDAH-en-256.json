@@ -29,7 +29,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Servants of God", "Master", "Wonderful Name", "Kingdom", "Salvation"],
+    "themes": [
+      "Servants of God",
+      "Master",
+      "Wonderful Name",
+      "Kingdom",
+      "Salvation"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

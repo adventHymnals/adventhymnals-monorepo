@@ -33,8 +33,18 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Sabbath", "Worship", "Rest", "Creation", "Sanctification"],
-    "scripture_references": ["Genesis 2:2-3", "Exodus 20:8-11", "Isaiah 58:13-14"],
+    "themes": [
+      "Sabbath",
+      "Worship",
+      "Rest",
+      "Creation",
+      "Sanctification"
+    ],
+    "scripture_references": [
+      "Genesis 2:2-3",
+      "Exodus 20:8-11",
+      "Isaiah 58:13-14"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

@@ -29,7 +29,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["divine voice", "guidance", "faith"],
+    "themes": [
+      "divine voice",
+      "guidance",
+      "faith"
+    ],
     "scripture_references": [],
     "tune_source": "G. W. Copeland",
     "original_language": "en",

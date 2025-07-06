@@ -27,8 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["baptism", "Holy Spirit", "power"],
-    "scripture_references": ["Acts 1:8"],
+    "themes": [
+      "baptism",
+      "Holy Spirit",
+      "power"
+    ],
+    "scripture_references": [
+      "Acts 1:8"
+    ],
     "tune_source": "A. J. Gordon",
     "original_language": "en",
     "verse_count": 3,

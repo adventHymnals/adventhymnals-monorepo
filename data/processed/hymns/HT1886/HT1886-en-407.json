@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["invitation", "calling", "mercy", "homecoming"],
-    "scripture_references": ["Matthew 11:28", "Luke 15:20"],
+    "themes": [
+      "invitation",
+      "calling",
+      "mercy",
+      "homecoming"
+    ],
+    "scripture_references": [
+      "Matthew 11:28",
+      "Luke 15:20"
+    ],
     "tune_source": "Will Thompson",
     "original_language": "en"
   }

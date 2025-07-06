@@ -34,7 +34,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "New Jerusalem", "heavenly city", "God's presence", "restoration"],
+    "themes": [
+      "second advent",
+      "New Jerusalem",
+      "heavenly city",
+      "God's presence",
+      "restoration"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

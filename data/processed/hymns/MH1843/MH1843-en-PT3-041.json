@@ -19,7 +19,14 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Rejoicing", "Christ's Kingship", "Victory", "Eternal Hope", "Triumph", "Divine Authority"],
+    "themes": [
+      "Rejoicing",
+      "Christ's Kingship",
+      "Victory",
+      "Eternal Hope",
+      "Triumph",
+      "Divine Authority"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "S.M. (Short Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

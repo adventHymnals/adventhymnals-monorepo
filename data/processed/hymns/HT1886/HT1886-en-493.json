@@ -16,8 +16,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Copyrighted 1886 by J. E. White",
-    "themes": ["prayer", "refuge", "comfort"],
-    "scripture_references": ["Psalm 46:1"],
+    "themes": [
+      "prayer",
+      "refuge",
+      "comfort"
+    ],
+    "scripture_references": [
+      "Psalm 46:1"
+    ],
     "tune_source": "W. J. Borwick",
     "original_language": "en",
     "extraction_status": "metadata_only_copyright_protected"

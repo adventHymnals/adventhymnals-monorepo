@@ -25,7 +25,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["confession", "cleansing", "surrender"],
+    "themes": [
+      "confession",
+      "cleansing",
+      "surrender"
+    ],
     "scripture_references": [],
     "tune_source": "W. J. Kirkpatrick",
     "original_language": "en",

@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["sabbath", "eternal rest", "heavenly sabbath", "no more sin", "eternal day"],
-    "scripture_references": ["Heb 4:9-11", "Rev 21:4", "Rev 22:5"],
+    "themes": [
+      "sabbath",
+      "eternal rest",
+      "heavenly sabbath",
+      "no more sin",
+      "eternal day"
+    ],
+    "scripture_references": [
+      "Heb 4:9-11",
+      "Rev 21:4",
+      "Rev 22:5"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

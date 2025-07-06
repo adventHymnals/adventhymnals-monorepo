@@ -26,8 +26,15 @@
     }
   ],
   "metadata": {
-    "themes": ["cross bearing", "following Jesus", "sacrifice"],
-    "scripture_references": ["Matthew 16:24", "Luke 9:23"],
+    "themes": [
+      "cross bearing",
+      "following Jesus",
+      "sacrifice"
+    ],
+    "scripture_references": [
+      "Matthew 16:24",
+      "Luke 9:23"
+    ],
     "tune_source": "Wolfgang Amadeus Mozart",
     "original_language": "en"
   }

@@ -26,8 +26,18 @@
     }
   ],
   "metadata": {
-    "themes": ["grace", "glory", "courage", "wisdom", "service"],
-    "scripture_references": ["Ephesians 3:16", "James 1:5", "Philippians 4:13"],
+    "themes": [
+      "grace",
+      "glory",
+      "courage",
+      "wisdom",
+      "service"
+    ],
+    "scripture_references": [
+      "Ephesians 3:16",
+      "James 1:5",
+      "Philippians 4:13"
+    ],
     "copyright": "Public Domain"
   }
 }

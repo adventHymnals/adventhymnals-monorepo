@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["narrow path", "cross", "self-denial", "new birth", "guidance"],
+    "themes": [
+      "narrow path",
+      "cross",
+      "self-denial",
+      "new birth",
+      "guidance"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M.",

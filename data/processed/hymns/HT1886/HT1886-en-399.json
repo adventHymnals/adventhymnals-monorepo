@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["peace", "trials", "faith", "atonement"],
-    "scripture_references": ["Isaiah 26:3", "Romans 8:28"],
+    "themes": [
+      "peace",
+      "trials",
+      "faith",
+      "atonement"
+    ],
+    "scripture_references": [
+      "Isaiah 26:3",
+      "Romans 8:28"
+    ],
     "tune_source": "Philip Bliss",
     "original_language": "en"
   }

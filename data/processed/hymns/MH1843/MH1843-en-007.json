@@ -18,7 +18,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Mortality", "Heaven", "Eternal Life", "Longing for Glory"],
+    "themes": [
+      "Mortality",
+      "Heaven",
+      "Eternal Life",
+      "Longing for Glory"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "None specified",
     "hymnal_context": "Millerite/Adventist movement hymnal",

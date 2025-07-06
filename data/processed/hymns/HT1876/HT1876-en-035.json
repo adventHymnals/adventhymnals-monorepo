@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Jesus", "fame", "worship", "Lamb", "glory"],
+    "themes": [
+      "Jesus",
+      "fame",
+      "worship",
+      "Lamb",
+      "glory"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "6s & 4s"

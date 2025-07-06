@@ -30,7 +30,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["Jesus' love", "children", "salvation", "comfort"],
+    "themes": [
+      "Jesus' love",
+      "children",
+      "salvation",
+      "comfort"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

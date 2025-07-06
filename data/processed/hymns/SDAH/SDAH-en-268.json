@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Holy Spirit", "Light", "Cleansing", "Divine Presence"],
+    "themes": [
+      "Holy Spirit",
+      "Light",
+      "Cleansing",
+      "Divine Presence"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

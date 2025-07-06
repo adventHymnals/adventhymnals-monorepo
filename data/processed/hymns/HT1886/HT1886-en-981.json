@@ -28,8 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["heaven", "Jerusalem", "longing"],
-    "scripture_references": ["Revelation 21"],
+    "themes": [
+      "heaven",
+      "Jerusalem",
+      "longing"
+    ],
+    "scripture_references": [
+      "Revelation 21"
+    ],
     "tune_source": "St. Peter, Reinagle",
     "original_language": "en"
   }

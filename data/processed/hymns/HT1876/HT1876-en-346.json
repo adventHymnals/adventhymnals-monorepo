@@ -4,17 +4,35 @@
   "title": "WE'VE no abiding city here",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "WE'VE no abiding city here; Sad truth, were this to be our home; But let this thought our spirits cheer, We seek a city yet to come."},
-    {"number": 2, "text": "We've no abiding city here; We seek a city out of sight; Zion its name—the Lord is there, It shines with everlasting light."},
-    {"number": 3, "text": "O sweet abode of peace and love, Where pilgrims freed from toil are blest! Had I the pinions of a dove, I'd fly to thee, and be at rest."},
-    {"number": 4, "text": "But hush, my soul! I hear the voice; The time my God appoints is best; While here, to do his will my choice, And in his love and mercy rest."}
+    {
+      "number": 1,
+      "text": "WE'VE no abiding city here; Sad truth, were this to be our home; But let this thought our spirits cheer, We seek a city yet to come."
+    },
+    {
+      "number": 2,
+      "text": "We've no abiding city here; We seek a city out of sight; Zion its name—the Lord is there, It shines with everlasting light."
+    },
+    {
+      "number": 3,
+      "text": "O sweet abode of peace and love, Where pilgrims freed from toil are blest! Had I the pinions of a dove, I'd fly to thee, and be at rest."
+    },
+    {
+      "number": 4,
+      "text": "But hush, my soul! I hear the voice; The time my God appoints is best; While here, to do his will my choice, And in his love and mercy rest."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["city", "church", "glory", "light", "love"],
+    "themes": [
+      "city",
+      "church",
+      "glory",
+      "light",
+      "love"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

@@ -4,17 +4,34 @@
   "title": "Praise to Him by whose kind favor",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Praise to Him by whose kind favor Heavenly truth has reached our eyes; May its sweet reviving savor Fill our hearts, and calm our fears."},
-    {"number": 2, "text": "Truth! how sacred is the treasure! Teach us, Lord, its worth to know; Vain the hope, and short the pleasure, Which the sons of earth below."},
-    {"number": 3, "text": "What of truth we have been hearing, Fix, O Lord, in every heart; In the day of thine appearing, May we share the people's part."},
-    {"number": 4, "text": "Till we leave this world forever, May we live beneath thine eye; This our aim, our sole endeavor, Thine to live, and thine to die."}
+    {
+      "number": 1,
+      "text": "Praise to Him by whose kind favor Heavenly truth has reached our eyes; May its sweet reviving savor Fill our hearts, and calm our fears."
+    },
+    {
+      "number": 2,
+      "text": "Truth! how sacred is the treasure! Teach us, Lord, its worth to know; Vain the hope, and short the pleasure, Which the sons of earth below."
+    },
+    {
+      "number": 3,
+      "text": "What of truth we have been hearing, Fix, O Lord, in every heart; In the day of thine appearing, May we share the people's part."
+    },
+    {
+      "number": 4,
+      "text": "Till we leave this world forever, May we live beneath thine eye; This our aim, our sole endeavor, Thine to live, and thine to die."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["truth", "praise", "devotion", "eternal perspective"],
+    "themes": [
+      "truth",
+      "praise",
+      "devotion",
+      "eternal perspective"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "8s & 7s"

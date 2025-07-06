@@ -27,7 +27,14 @@
   "composer": "",
   "author": "",
   "page": 200,
-  "themes": ["Journey", "Time", "Master", "Eternity", "Service", "Faithfulness"],
+  "themes": [
+    "Journey",
+    "Time",
+    "Master",
+    "Eternity",
+    "Service",
+    "Faithfulness"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

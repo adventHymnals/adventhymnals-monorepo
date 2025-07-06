@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1877,
     "copyright": "Public Domain",
-    "themes": ["eternal reunion", "Immanuel's land", "no separation", "heavenly joy", "trumpet"],
-    "scripture_references": ["Revelation 21:4", "1 Thessalonians 4:17", "John 14:3"],
+    "themes": [
+      "eternal reunion",
+      "Immanuel's land",
+      "no separation",
+      "heavenly joy",
+      "trumpet"
+    ],
+    "scripture_references": [
+      "Revelation 21:4",
+      "1 Thessalonians 4:17",
+      "John 14:3"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

@@ -32,8 +32,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["sabbath blessings", "sabbath rest", "worship", "prayer", "eternal sabbath"],
-    "scripture_references": ["Isa 58:13-14", "Heb 4:9", "Ps 92:1-2"],
+    "themes": [
+      "sabbath blessings",
+      "sabbath rest",
+      "worship",
+      "prayer",
+      "eternal sabbath"
+    ],
+    "scripture_references": [
+      "Isa 58:13-14",
+      "Heb 4:9",
+      "Ps 92:1-2"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

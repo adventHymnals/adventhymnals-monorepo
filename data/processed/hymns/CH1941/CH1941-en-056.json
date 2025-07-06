@@ -28,8 +28,16 @@
   "metadata": {
     "year": "[needs verification]",
     "copyright": "Public Domain",
-    "themes": ["evening", "worship", "forgiveness", "rest"],
-    "scripture_references": ["Psalm 4:8", "1 John 1:9"],
+    "themes": [
+      "evening",
+      "worship",
+      "forgiveness",
+      "rest"
+    ],
+    "scripture_references": [
+      "Psalm 4:8",
+      "1 John 1:9"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

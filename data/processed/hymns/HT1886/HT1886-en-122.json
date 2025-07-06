@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "Redeemer", "dying Lamb", "salvation", "praise", "eternal song"],
-    "scripture_references": ["Revelation 5:6"],
+    "themes": [
+      "Jesus Christ",
+      "Redeemer",
+      "dying Lamb",
+      "salvation",
+      "praise",
+      "eternal song"
+    ],
+    "scripture_references": [
+      "Revelation 5:6"
+    ],
     "tune_source": "546, 369, 996",
     "original_language": "en"
   }

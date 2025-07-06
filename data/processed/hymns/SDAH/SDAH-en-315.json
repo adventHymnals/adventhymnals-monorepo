@@ -26,8 +26,15 @@
     }
   ],
   "metadata": {
-    "themes": ["spiritual growth", "prayer", "sanctification"],
-    "scripture_references": ["Genesis 5:24", "Enoch 6:9"],
+    "themes": [
+      "spiritual growth",
+      "prayer",
+      "sanctification"
+    ],
+    "scripture_references": [
+      "Genesis 5:24",
+      "Enoch 6:9"
+    ],
     "tune_source": "Charles Converse",
     "original_language": "en"
   }

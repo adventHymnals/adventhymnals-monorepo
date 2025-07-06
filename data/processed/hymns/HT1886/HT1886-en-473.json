@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["watchfulness", "prayer", "readiness", "second coming"],
-    "scripture_references": ["Luke 21:36"],
+    "themes": [
+      "watchfulness",
+      "prayer",
+      "readiness",
+      "second coming"
+    ],
+    "scripture_references": [
+      "Luke 21:36"
+    ],
     "tune_source": "W. J. Kirkpatrick",
     "original_language": "en",
     "extraction_status": "completed"

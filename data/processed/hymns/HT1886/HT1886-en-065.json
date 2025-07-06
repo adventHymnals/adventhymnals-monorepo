@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["human limitations", "God's sovereignty", "divine mystery", "trust", "faith", "humility"],
+    "themes": [
+      "human limitations",
+      "God's sovereignty",
+      "divine mystery",
+      "trust",
+      "faith",
+      "humility"
+    ],
     "scripture_references": [],
     "tune_source": "Isaac Watts",
     "original_language": "en"

@@ -27,7 +27,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus", "story", "nativity", "crucifixion", "redemption"],
+    "themes": [
+      "Jesus",
+      "story",
+      "nativity",
+      "crucifixion",
+      "redemption"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["death", "comfort", "eternal life", "hope"],
+    "themes": [
+      "death",
+      "comfort",
+      "eternal life",
+      "hope"
+    ],
     "scripture_references": [],
     "tune_source": "J. H. Rosecrans",
     "original_language": "en"

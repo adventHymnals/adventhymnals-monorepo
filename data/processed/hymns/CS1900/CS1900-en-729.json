@@ -29,7 +29,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["heaven", "homeland", "eternal rest"],
+    "themes": [
+      "heaven",
+      "homeland",
+      "eternal rest"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

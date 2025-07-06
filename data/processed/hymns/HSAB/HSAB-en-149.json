@@ -29,7 +29,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Jerusalem", "holy city", "Jesus exalted", "angels", "conqueror", "heavenly home"],
+    "themes": [
+      "Jerusalem",
+      "holy city",
+      "Jesus exalted",
+      "angels",
+      "conqueror",
+      "heavenly home"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

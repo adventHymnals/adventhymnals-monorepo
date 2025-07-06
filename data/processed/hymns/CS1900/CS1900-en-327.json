@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["invitation", "salvation", "cleansing", "grace"],
-    "scripture_references": ["Isaiah 55:1"],
+    "themes": [
+      "invitation",
+      "salvation",
+      "cleansing",
+      "grace"
+    ],
+    "scripture_references": [
+      "Isaiah 55:1"
+    ],
     "tune_source": "Charles H. Gabriel",
     "original_language": "en"
   }

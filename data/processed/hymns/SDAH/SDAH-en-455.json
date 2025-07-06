@@ -36,8 +36,18 @@
   "metadata": {
     "year": 1866,
     "copyright": "Public Domain",
-    "themes": ["divine love", "Christ's presence", "healing", "immortal love", "spiritual communion"],
-    "scripture_references": ["John 14:16-17", "Matthew 18:20", "Luke 8:44-48"],
+    "themes": [
+      "divine love",
+      "Christ's presence",
+      "healing",
+      "immortal love",
+      "spiritual communion"
+    ],
+    "scripture_references": [
+      "John 14:16-17",
+      "Matthew 18:20",
+      "Luke 8:44-48"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

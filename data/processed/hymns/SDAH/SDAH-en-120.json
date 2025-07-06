@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1862,
     "copyright": "Public Domain",
-    "themes": ["christmas", "angels", "nativity", "praise"],
-    "scripture_references": ["Luke 2:8-14"],
+    "themes": [
+      "christmas",
+      "angels",
+      "nativity",
+      "praise"
+    ],
+    "scripture_references": [
+      "Luke 2:8-14"
+    ],
     "tune_source": "Traditional French carol",
     "original_language": "fr",
     "translator": "James Chadwick"

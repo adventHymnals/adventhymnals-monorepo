@@ -4,17 +4,35 @@
   "title": "God's holy law is magnified",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "God's holy law is magnified, Speaks nothing but despair; Burdened with guilt, and are oppressed, We find no comfort there."},
-    {"number": 2, "text": "Not all our groans and tears, Not works which we have done, Nor vows, nor promises, nor prayers, Can e'er for sin atone."},
-    {"number": 3, "text": "Relief alone is found In Jesus' precious blood - 'Tis this that heals the mortal wound, And reconciles to God."},
-    {"number": 4, "text": "High lifted on the cross, The spotless Victim dies; This our salvation's only source, Whence all our hopes arise."}
+    {
+      "number": 1,
+      "text": "God's holy law is magnified, Speaks nothing but despair; Burdened with guilt, and are oppressed, We find no comfort there."
+    },
+    {
+      "number": 2,
+      "text": "Not all our groans and tears, Not works which we have done, Nor vows, nor promises, nor prayers, Can e'er for sin atone."
+    },
+    {
+      "number": 3,
+      "text": "Relief alone is found In Jesus' precious blood - 'Tis this that heals the mortal wound, And reconciles to God."
+    },
+    {
+      "number": 4,
+      "text": "High lifted on the cross, The spotless Victim dies; This our salvation's only source, Whence all our hopes arise."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["God's law", "sin", "Jesus' blood", "salvation", "cross"],
+    "themes": [
+      "God's law",
+      "sin",
+      "Jesus' blood",
+      "salvation",
+      "cross"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

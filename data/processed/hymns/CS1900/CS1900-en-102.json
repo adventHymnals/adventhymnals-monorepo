@@ -27,7 +27,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["cleansing", "sanctification", "prayer"],
+    "themes": [
+      "cleansing",
+      "sanctification",
+      "prayer"
+    ],
     "scripture_references": [],
     "tune_source": "J. H. Burke",
     "original_language": "en",

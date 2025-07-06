@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "First Advent", "Christmas", "nativity", "angels"],
+    "themes": [
+      "Christ",
+      "First Advent",
+      "Christmas",
+      "nativity",
+      "angels"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

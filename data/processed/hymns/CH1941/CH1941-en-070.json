@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1858,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "guidance", "comfort", "pilgrimage"],
-    "scripture_references": ["John 16:13", "Romans 8:14"],
+    "themes": [
+      "Holy Spirit",
+      "guidance",
+      "comfort",
+      "pilgrimage"
+    ],
+    "scripture_references": [
+      "John 16:13",
+      "Romans 8:14"
+    ],
     "tune_source": "Faithful Guide, Marcus Morris Wells, 1858",
     "original_language": "en"
   }

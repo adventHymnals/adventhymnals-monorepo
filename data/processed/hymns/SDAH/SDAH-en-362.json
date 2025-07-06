@@ -35,8 +35,16 @@
   "metadata": {
     "year": 1916,
     "copyright": "Public Domain",
-    "themes": ["Cross", "Victory", "Triumph", "Christ's Love"],
-    "scripture_references": ["John 12:32", "Galatians 6:14"],
+    "themes": [
+      "Cross",
+      "Victory",
+      "Triumph",
+      "Christ's Love"
+    ],
+    "scripture_references": [
+      "John 12:32",
+      "Galatians 6:14"
+    ],
     "tune_source": "Sydney H. Nicholson, 1916",
     "original_language": "en"
   }

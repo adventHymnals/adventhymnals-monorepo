@@ -4,18 +4,40 @@
   "title": "Jesus, my all, to heaven is gone",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Jesus, my all, to heaven is gone, On thee I cast my care; With humble confidence look on, And know thou hear'st my prayer."},
-    {"number": 2, "text": "I want a sober mind, A self-renouncing will, That tramples down and casts behind The baits of pleasing ill."},
-    {"number": 3, "text": "A soul inured to pain, To hardship, grief, and loss; Bold to take up, firm to sustain The consecrated cross."},
-    {"number": 4, "text": "I want a godly fear, A quick, discerning eye, That looks to thee when sin is near, And sees the tempter fly."},
-    {"number": 5, "text": "A spirit still prepared, And armed with jealous care, Forever standing on its guard, And watching unto prayer."}
+    {
+      "number": 1,
+      "text": "Jesus, my all, to heaven is gone, On thee I cast my care; With humble confidence look on, And know thou hear'st my prayer."
+    },
+    {
+      "number": 2,
+      "text": "I want a sober mind, A self-renouncing will, That tramples down and casts behind The baits of pleasing ill."
+    },
+    {
+      "number": 3,
+      "text": "A soul inured to pain, To hardship, grief, and loss; Bold to take up, firm to sustain The consecrated cross."
+    },
+    {
+      "number": 4,
+      "text": "I want a godly fear, A quick, discerning eye, That looks to thee when sin is near, And sees the tempter fly."
+    },
+    {
+      "number": 5,
+      "text": "A spirit still prepared, And armed with jealous care, Forever standing on its guard, And watching unto prayer."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Jesus in heaven", "trust", "prayer", "confidence", "self-denial", "spiritual mindedness"],
+    "themes": [
+      "Jesus in heaven",
+      "trust",
+      "prayer",
+      "confidence",
+      "self-denial",
+      "spiritual mindedness"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

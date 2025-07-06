@@ -19,7 +19,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Judgment Day", "Archangel's Trump", "Christ's Descent", "Divine Majesty", "Universal Submission"],
+    "themes": [
+      "Judgment Day",
+      "Archangel's Trump",
+      "Christ's Descent",
+      "Divine Majesty",
+      "Universal Submission"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "",
     "hymnal_context": "Millerite/Adventist movement hymnal",

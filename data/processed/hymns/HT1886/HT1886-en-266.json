@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["parting", "blessing", "Saviour's name", "eternal home", "praise"],
+    "themes": [
+      "parting",
+      "blessing",
+      "Saviour's name",
+      "eternal home",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": "Nares. S. M.",
     "original_language": "en"

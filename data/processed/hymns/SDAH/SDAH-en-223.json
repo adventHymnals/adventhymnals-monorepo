@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1851,
     "copyright": "Public Domain",
-    "themes": ["Kingship of Christ", "Love", "Peace", "Eternity"],
-    "scripture_references": ["Revelation 19:12", "1 Timothy 6:15"],
+    "themes": [
+      "Kingship of Christ",
+      "Love",
+      "Peace",
+      "Eternity"
+    ],
+    "scripture_references": [
+      "Revelation 19:12",
+      "1 Timothy 6:15"
+    ],
     "tune_source": "George J. Elvey, 1868",
     "original_language": "en"
   }

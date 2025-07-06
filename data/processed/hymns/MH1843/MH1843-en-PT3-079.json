@@ -31,7 +31,15 @@
   "composer": "",
   "author": "",
   "page": 218,
-  "themes": ["Triumphant", "Zion", "Savior", "Righteousness", "God", "Victory", "Peace"],
+  "themes": [
+    "Triumphant",
+    "Zion",
+    "Savior",
+    "Righteousness",
+    "God",
+    "Victory",
+    "Peace"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

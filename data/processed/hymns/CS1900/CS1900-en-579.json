@@ -23,8 +23,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1900, by F. E. Belden",
-    "themes": ["second coming", "watching", "readiness", "hour unknown", "preparation"],
-    "scripture_references": ["Matt. 24:36"],
+    "themes": [
+      "second coming",
+      "watching",
+      "readiness",
+      "hour unknown",
+      "preparation"
+    ],
+    "scripture_references": [
+      "Matt. 24:36"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en"
   }

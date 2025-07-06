@@ -27,7 +27,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["spiritual race", "perseverance", "crown", "victory"],
+    "themes": [
+      "spiritual race",
+      "perseverance",
+      "crown",
+      "victory"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

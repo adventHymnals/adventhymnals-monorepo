@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["friendship", "prayer", "comfort", "peace"],
-    "scripture_references": ["Philippians 4:6-7"],
+    "themes": [
+      "friendship",
+      "prayer",
+      "comfort",
+      "peace"
+    ],
+    "scripture_references": [
+      "Philippians 4:6-7"
+    ],
     "tune_source": "C. C. Converse",
     "original_language": "en"
   }

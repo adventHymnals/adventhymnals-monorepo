@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["love for Christ", "devotion", "surrender", "prayer"],
-    "scripture_references": ["1 Corinthians 16:22"],
+    "themes": [
+      "love for Christ",
+      "devotion",
+      "surrender",
+      "prayer"
+    ],
+    "scripture_references": [
+      "1 Corinthians 16:22"
+    ],
     "tune_source": "W. H. Doane",
     "original_language": "en"
   }

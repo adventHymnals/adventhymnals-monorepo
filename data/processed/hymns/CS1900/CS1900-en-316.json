@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Trinity", "worship", "praise", "divine power"],
-    "scripture_references": ["Revelation 4:8"],
+    "themes": [
+      "Trinity",
+      "worship",
+      "praise",
+      "divine power"
+    ],
+    "scripture_references": [
+      "Revelation 4:8"
+    ],
     "tune_source": "Spanish Hymn",
     "original_language": "en"
   }

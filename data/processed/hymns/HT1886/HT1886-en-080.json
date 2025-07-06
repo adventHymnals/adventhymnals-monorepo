@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's revelation", "nature", "God's love", "God's grace", "creation"],
+    "themes": [
+      "God's revelation",
+      "nature",
+      "God's love",
+      "God's grace",
+      "creation"
+    ],
     "scripture_references": [],
     "tune_source": "Woodland, Nathaniel D. Gould",
     "original_language": "en"

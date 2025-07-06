@@ -22,7 +22,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Sabbath", "holy rest", "Jehovah", "piety", "prayer", "praise", "heavenly Father"],
+    "themes": [
+      "Sabbath",
+      "holy rest",
+      "Jehovah",
+      "piety",
+      "prayer",
+      "praise",
+      "heavenly Father"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -29,8 +29,17 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["second_coming", "hope", "resurrection", "triumph", "saints"],
-    "scripture_references": ["1 Thessalonians 4:16-17", "Revelation 19:11-16"],
+    "themes": [
+      "second_coming",
+      "hope",
+      "resurrection",
+      "triumph",
+      "saints"
+    ],
+    "scripture_references": [
+      "1 Thessalonians 4:16-17",
+      "Revelation 19:11-16"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["mighty change", "followers", "rest", "eternal day", "no sorrow"],
+    "themes": [
+      "mighty change",
+      "followers",
+      "rest",
+      "eternal day",
+      "no sorrow"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

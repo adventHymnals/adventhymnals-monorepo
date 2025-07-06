@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "First Advent", "Christmas", "angels", "peace", "midnight"],
+    "themes": [
+      "Christ",
+      "First Advent",
+      "Christmas",
+      "angels",
+      "peace",
+      "midnight"
+    ],
     "scripture_references": [],
     "tune_source": "Carol, C. M. D.",
     "original_language": "en"

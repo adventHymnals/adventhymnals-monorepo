@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["last call", "mercy lingers", "harvest past", "spirit invites", "bride calling"],
+    "themes": [
+      "last call",
+      "mercy lingers",
+      "harvest past",
+      "spirit invites",
+      "bride calling"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

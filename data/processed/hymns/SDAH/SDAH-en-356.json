@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1969,
     "copyright": "© 1969 Galliard Ltd., Used by permission of Galaxy Music Corporation",
-    "themes": ["urban ministry", "social justice", "mission", "hope"],
-    "scripture_references": ["Jeremiah 29:7", "Revelation 21:1-4"],
+    "themes": [
+      "urban ministry",
+      "social justice",
+      "mission",
+      "hope"
+    ],
+    "scripture_references": [
+      "Jeremiah 29:7",
+      "Revelation 21:1-4"
+    ],
     "tune_source": "Peter Cutts, 1962",
     "original_language": "en",
     "author_dates": "1917-1982"

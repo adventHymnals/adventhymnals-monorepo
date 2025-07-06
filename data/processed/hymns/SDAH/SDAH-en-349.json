@@ -27,8 +27,17 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["God's Love", "Unity", "Christian Fellowship", "Christ"],
-    "scripture_references": ["1 John 4:8", "1 John 4:16", "1 Corinthians 13:13"],
+    "themes": [
+      "God's Love",
+      "Unity",
+      "Christian Fellowship",
+      "Christ"
+    ],
+    "scripture_references": [
+      "1 John 4:8",
+      "1 John 4:16",
+      "1 Corinthians 13:13"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

@@ -35,7 +35,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Knowing God", "Fear of God", "Love of God", "Service"],
+    "themes": [
+      "Knowing God",
+      "Fear of God",
+      "Love of God",
+      "Service"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

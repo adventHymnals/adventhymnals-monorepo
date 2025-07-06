@@ -25,7 +25,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["substitution", "suffering", "Gethsemane"],
+    "themes": [
+      "substitution",
+      "suffering",
+      "Gethsemane"
+    ],
     "scripture_references": [],
     "tune_source": "Mrs. W. J. Kirkpatrick",
     "original_language": "en",

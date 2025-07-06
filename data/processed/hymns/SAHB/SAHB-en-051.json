@@ -30,7 +30,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["safety", "Jesus", "protection", "rest"],
+    "themes": [
+      "safety",
+      "Jesus",
+      "protection",
+      "rest"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

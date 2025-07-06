@@ -36,8 +36,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "Jesus Christ", "redemption", "testimony", "healing", "salvation"],
-    "scripture_references": ["Isaiah 35:5-6", "Luke 7:22"],
+    "themes": [
+      "praise",
+      "Jesus Christ",
+      "redemption",
+      "testimony",
+      "healing",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Isaiah 35:5-6",
+      "Luke 7:22"
+    ],
     "tune_source": "Howard",
     "original_language": "en"
   }

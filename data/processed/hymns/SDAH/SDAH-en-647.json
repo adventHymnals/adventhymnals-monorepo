@@ -25,8 +25,16 @@
     "text": "Glory! glory! Hallelujah!\nGlory! glory! Hallelujah!\nGlory! glory! Hallelujah!\nHis truth is marching on."
   },
   "metadata": {
-    "themes": ["second coming", "judgment", "freedom", "divine justice"],
-    "scripture_references": ["Revelation 19:15", "Isaiah 63:3"],
+    "themes": [
+      "second coming",
+      "judgment",
+      "freedom",
+      "divine justice"
+    ],
+    "scripture_references": [
+      "Revelation 19:15",
+      "Isaiah 63:3"
+    ],
     "copyright": "Public Domain"
   }
 }

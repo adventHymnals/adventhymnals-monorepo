@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's perfect law", "soul conversion", "divine wisdom", "justice", "spiritual sweetness"],
-    "scripture_references": ["Psalm 19"],
+    "themes": [
+      "God's perfect law",
+      "soul conversion",
+      "divine wisdom",
+      "justice",
+      "spiritual sweetness"
+    ],
+    "scripture_references": [
+      "Psalm 19"
+    ],
     "tune_source": "120, 70, 114",
     "original_language": "en"
   }

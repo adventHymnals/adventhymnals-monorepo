@@ -37,8 +37,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Jesus name", "comfort", "salvation", "praise"],
-    "scripture_references": ["Acts 4:12"],
+    "themes": [
+      "Jesus name",
+      "comfort",
+      "salvation",
+      "praise"
+    ],
+    "scripture_references": [
+      "Acts 4:12"
+    ],
     "tune_source": "Lewis Edson",
     "original_language": "en"
   }

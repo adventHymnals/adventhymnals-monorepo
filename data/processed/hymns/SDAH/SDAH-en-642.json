@@ -22,8 +22,18 @@
     }
   ],
   "metadata": {
-    "themes": ["praise", "worship", "mind", "body", "spirit", "holistic praise"],
-    "scripture_references": ["1 Corinthians 6:19-20", "Romans 12:1-2"],
+    "themes": [
+      "praise",
+      "worship",
+      "mind",
+      "body",
+      "spirit",
+      "holistic praise"
+    ],
+    "scripture_references": [
+      "1 Corinthians 6:19-20",
+      "Romans 12:1-2"
+    ],
     "copyright": "Public Domain"
   }
 }

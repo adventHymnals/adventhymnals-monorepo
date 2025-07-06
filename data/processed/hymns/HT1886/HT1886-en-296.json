@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Christmas", "angels", "glory", "peace", "salvation"],
+    "themes": [
+      "Christ",
+      "Christmas",
+      "angels",
+      "glory",
+      "peace",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": "165, 584, 277",
     "original_language": "en"

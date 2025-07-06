@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["thanksgiving", "gratitude", "daily bread", "provision"],
-    "scripture_references": ["Matthew 6:11"],
+    "themes": [
+      "thanksgiving",
+      "gratitude",
+      "daily bread",
+      "provision"
+    ],
+    "scripture_references": [
+      "Matthew 6:11"
+    ],
     "tune_source": "J. A. Freylinghausen",
     "original_language": "en"
   }

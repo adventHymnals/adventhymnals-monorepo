@@ -27,7 +27,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1887, by D. B. Towner. By per.",
-    "themes": ["trust", "following Jesus", "safety in Christ"],
+    "themes": [
+      "trust",
+      "following Jesus",
+      "safety in Christ"
+    ],
     "scripture_references": [],
     "tune_source": "D. B. Towner",
     "original_language": "en"

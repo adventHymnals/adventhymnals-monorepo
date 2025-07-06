@@ -24,8 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["invitation", "salvation", "cross"],
-    "scripture_references": ["Matthew 11:28-30"],
+    "themes": [
+      "invitation",
+      "salvation",
+      "cross"
+    ],
+    "scripture_references": [
+      "Matthew 11:28-30"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

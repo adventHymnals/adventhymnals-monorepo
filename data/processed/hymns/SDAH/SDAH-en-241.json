@@ -33,7 +33,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus Christ", "Love", "Rest", "Hope", "Joy"],
+    "themes": [
+      "Jesus Christ",
+      "Love",
+      "Rest",
+      "Hope",
+      "Joy"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

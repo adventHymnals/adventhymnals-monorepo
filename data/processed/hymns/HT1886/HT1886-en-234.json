@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "peace", "creation", "heaven", "Zion"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "peace",
+      "creation",
+      "heaven",
+      "Zion"
+    ],
     "scripture_references": [],
     "tune_source": "Nashville, L. M. 6l., Lowell Mason",
     "original_language": "en"

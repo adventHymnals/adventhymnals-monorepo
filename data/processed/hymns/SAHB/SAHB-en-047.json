@@ -31,7 +31,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["God's presence", "comfort", "shepherd", "restoration"],
+    "themes": [
+      "God's presence",
+      "comfort",
+      "shepherd",
+      "restoration"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

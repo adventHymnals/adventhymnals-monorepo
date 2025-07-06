@@ -16,7 +16,14 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Last Trumpet", "Resurrection", "Rapture", "Heavenly Glory", "Eternal Worship", "Immortal King"],
+    "themes": [
+      "Last Trumpet",
+      "Resurrection",
+      "Rapture",
+      "Heavenly Glory",
+      "Eternal Worship",
+      "Immortal King"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "7 & 6",
     "hymnal_context": "Millerite/Adventist movement hymnal",

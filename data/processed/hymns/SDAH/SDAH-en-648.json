@@ -18,8 +18,16 @@
     }
   ],
   "metadata": {
-    "themes": ["patriotism", "sacrifice", "heavenly country", "devotion"],
-    "scripture_references": ["Hebrews 11:16", "Philippians 3:20"],
+    "themes": [
+      "patriotism",
+      "sacrifice",
+      "heavenly country",
+      "devotion"
+    ],
+    "scripture_references": [
+      "Hebrews 11:16",
+      "Philippians 3:20"
+    ],
     "copyright": "Public Domain"
   }
 }

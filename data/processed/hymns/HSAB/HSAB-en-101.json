@@ -34,7 +34,16 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["prayer", "mercy seat", "darkest cloud", "jacob's ladder", "faith and love", "armor bright", "satan trembles", "moses"],
+    "themes": [
+      "prayer",
+      "mercy seat",
+      "darkest cloud",
+      "jacob's ladder",
+      "faith and love",
+      "armor bright",
+      "satan trembles",
+      "moses"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

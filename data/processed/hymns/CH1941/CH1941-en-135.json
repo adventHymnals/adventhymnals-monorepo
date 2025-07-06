@@ -24,8 +24,16 @@
   "metadata": {
     "year": 750,
     "copyright": "Public Domain",
-    "themes": ["resurrection", "Easter", "victory", "joy"],
-    "scripture_references": ["Matthew 28:1-10", "1 Corinthians 15:20"],
+    "themes": [
+      "resurrection",
+      "Easter",
+      "victory",
+      "joy"
+    ],
+    "scripture_references": [
+      "Matthew 28:1-10",
+      "1 Corinthians 15:20"
+    ],
     "tune_source": "Ellacombe, Arthur Seymour Sullivan, 1874",
     "original_language": "gr",
     "translator": "John Mason Neale"

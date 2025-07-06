@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["repentance", "humility", "reverence", "contrition", "spiritual desire"],
+    "themes": [
+      "repentance",
+      "humility",
+      "reverence",
+      "contrition",
+      "spiritual desire"
+    ],
     "scripture_references": [],
     "tune_source": "179, 201, 306",
     "original_language": "en"

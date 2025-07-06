@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1825,
     "copyright": "Public Domain",
-    "themes": ["Cross", "Glory", "Peace", "Joy", "Sanctification"],
-    "scripture_references": ["Galatians 6:14", "1 Corinthians 2:2"],
+    "themes": [
+      "Cross",
+      "Glory",
+      "Peace",
+      "Joy",
+      "Sanctification"
+    ],
+    "scripture_references": [
+      "Galatians 6:14",
+      "1 Corinthians 2:2"
+    ],
     "tune_source": "Ithamar Conkey, 1849",
     "original_language": "en"
   }

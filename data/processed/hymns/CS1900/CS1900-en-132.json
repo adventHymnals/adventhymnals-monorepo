@@ -23,8 +23,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["God's love", "love", "worship"],
-    "scripture_references": ["1 John 4:8"],
+    "themes": [
+      "God's love",
+      "love",
+      "worship"
+    ],
+    "scripture_references": [
+      "1 John 4:8"
+    ],
     "tune_source": "M. H. Huntington",
     "original_language": "en"
   }

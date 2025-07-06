@@ -31,7 +31,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["closeness to God", "trials", "spiritual growth", "heaven"],
+    "themes": [
+      "closeness to God",
+      "trials",
+      "spiritual growth",
+      "heaven"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

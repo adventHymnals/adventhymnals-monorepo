@@ -29,8 +29,15 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["communion", "redemption", "second_coming", "sacrifice"],
-    "scripture_references": ["1 Corinthians 11:26"],
+    "themes": [
+      "communion",
+      "redemption",
+      "second_coming",
+      "sacrifice"
+    ],
+    "scripture_references": [
+      "1 Corinthians 11:26"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

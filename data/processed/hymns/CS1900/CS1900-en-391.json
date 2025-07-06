@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["love", "happiness", "joy", "peace"],
+    "themes": [
+      "love",
+      "happiness",
+      "joy",
+      "peace"
+    ],
     "scripture_references": [],
     "tune_source": "F. C. Pickens",
     "original_language": "en"

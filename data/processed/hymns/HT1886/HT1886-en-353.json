@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus", "glory", "death", "guidance", "comfort", "grace"],
-    "scripture_references": ["Romans 8:34", "Hebrews 4:16"],
+    "themes": [
+      "Jesus",
+      "glory",
+      "death",
+      "guidance",
+      "comfort",
+      "grace"
+    ],
+    "scripture_references": [
+      "Romans 8:34",
+      "Hebrews 4:16"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

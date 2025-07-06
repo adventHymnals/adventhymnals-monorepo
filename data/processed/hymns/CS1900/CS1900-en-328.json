@@ -25,8 +25,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["invitation", "rest", "living water", "light"],
-    "scripture_references": ["Matthew 11:28"],
+    "themes": [
+      "invitation",
+      "rest",
+      "living water",
+      "light"
+    ],
+    "scripture_references": [
+      "Matthew 11:28"
+    ],
     "tune_source": "Lewis Newton",
     "original_language": "en"
   }

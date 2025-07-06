@@ -32,8 +32,15 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["creation", "seasons", "nature", "praise"],
-    "scripture_references": ["Psalm 147"],
+    "themes": [
+      "creation",
+      "seasons",
+      "nature",
+      "praise"
+    ],
+    "scripture_references": [
+      "Psalm 147"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

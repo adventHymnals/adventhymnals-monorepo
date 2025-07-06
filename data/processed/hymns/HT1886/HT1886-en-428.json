@@ -36,8 +36,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["invitation", "repentance", "acceptance", "salvation", "Jesus Christ"],
-    "scripture_references": ["John 6:37"],
+    "themes": [
+      "invitation",
+      "repentance",
+      "acceptance",
+      "salvation",
+      "Jesus Christ"
+    ],
+    "scripture_references": [
+      "John 6:37"
+    ],
     "tune_source": "William B. Bradbury",
     "original_language": "en"
   }

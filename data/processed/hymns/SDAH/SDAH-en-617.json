@@ -29,8 +29,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["end times", "spiritual warfare", "Christian vigilance", "second coming"],
-    "scripture_references": ["Revelation 16:14", "Ephesians 6:10-18"],
+    "themes": [
+      "end times",
+      "spiritual warfare",
+      "Christian vigilance",
+      "second coming"
+    ],
+    "scripture_references": [
+      "Revelation 16:14",
+      "Ephesians 6:10-18"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

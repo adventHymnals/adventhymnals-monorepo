@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["truth", "ten commandments", "sabbath", "obedience", "divine law"],
-    "scripture_references": ["John 17:17", "Exod 20:1-17", "Exod 20:8-11"],
+    "themes": [
+      "truth",
+      "ten commandments",
+      "sabbath",
+      "obedience",
+      "divine law"
+    ],
+    "scripture_references": [
+      "John 17:17",
+      "Exod 20:1-17",
+      "Exod 20:8-11"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

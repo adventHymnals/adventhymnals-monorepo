@@ -29,8 +29,17 @@
   "metadata": {
     "year": 1862,
     "copyright": null,
-    "themes": ["epiphany", "manifestation", "jesus_ministry", "thanksgiving", "praise"],
-    "scripture_references": ["Matthew 2:1-12", "John 2:1-11"],
+    "themes": [
+      "epiphany",
+      "manifestation",
+      "jesus_ministry",
+      "thanksgiving",
+      "praise"
+    ],
+    "scripture_references": [
+      "Matthew 2:1-12",
+      "John 2:1-11"
+    ],
     "tune_source": "German",
     "original_language": "en"
   }

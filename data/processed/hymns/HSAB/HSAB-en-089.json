@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["happy land", "ever bright", "flowers bloom", "blest shore", "lamb on throne"],
+    "themes": [
+      "happy land",
+      "ever bright",
+      "flowers bloom",
+      "blest shore",
+      "lamb on throne"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -29,7 +29,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["God", "faith", "trust"],
+    "themes": [
+      "God",
+      "faith",
+      "trust"
+    ],
     "scripture_references": [],
     "tune_source": "Portuguese, No. 1",
     "original_language": "en",

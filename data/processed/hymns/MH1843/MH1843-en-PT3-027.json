@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Zion", "Second Coming", "Judgment Day", "Gospel Trumpet", "Redemption"],
+    "themes": [
+      "Zion",
+      "Second Coming",
+      "Judgment Day",
+      "Gospel Trumpet",
+      "Redemption"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "C. M. (Common Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

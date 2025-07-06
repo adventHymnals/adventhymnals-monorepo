@@ -24,8 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["invitation", "salvation", "repentance"],
-    "scripture_references": ["Isaiah 55:6"],
+    "themes": [
+      "invitation",
+      "salvation",
+      "repentance"
+    ],
+    "scripture_references": [
+      "Isaiah 55:6"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's glory", "praise", "humility", "dedication", "salvation"],
+    "themes": [
+      "God's glory",
+      "praise",
+      "humility",
+      "dedication",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": "Rathbun, Ithamar Conkey",
     "original_language": "en"

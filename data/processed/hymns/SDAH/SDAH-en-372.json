@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["Gospel Messengers", "Good News", "Evangelism", "Zion"],
-    "scripture_references": ["Romans 10:15", "Isaiah 52:7"],
+    "themes": [
+      "Gospel Messengers",
+      "Good News",
+      "Evangelism",
+      "Zion"
+    ],
+    "scripture_references": [
+      "Romans 10:15",
+      "Isaiah 52:7"
+    ],
     "tune_source": "Henry T. Smart, 1867",
     "original_language": "en"
   }

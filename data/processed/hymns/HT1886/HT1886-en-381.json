@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's law", "human transgression", "guilt and despair", "Christ's blood", "salvation through the cross"],
-    "scripture_references": ["Romans 3:20", "1 John 1:7", "John 3:14-15"],
+    "themes": [
+      "God's law",
+      "human transgression",
+      "guilt and despair",
+      "Christ's blood",
+      "salvation through the cross"
+    ],
+    "scripture_references": [
+      "Romans 3:20",
+      "1 John 1:7",
+      "John 3:14-15"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

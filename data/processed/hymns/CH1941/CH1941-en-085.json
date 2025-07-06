@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1826,
     "copyright": "Public Domain",
-    "themes": ["holiness", "purity", "God's light", "redemption"],
-    "scripture_references": ["1 John 1:5", "Hebrews 12:29"],
+    "themes": [
+      "holiness",
+      "purity",
+      "God's light",
+      "redemption"
+    ],
+    "scripture_references": [
+      "1 John 1:5",
+      "Hebrews 12:29"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

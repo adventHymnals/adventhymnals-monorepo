@@ -27,7 +27,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["universal praise", "creation", "salvation", "worship"],
+    "themes": [
+      "universal praise",
+      "creation",
+      "salvation",
+      "worship"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -31,7 +31,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus Christ", "Learning", "Grace", "Love", "Knowledge"],
+    "themes": [
+      "Jesus Christ",
+      "Learning",
+      "Grace",
+      "Love",
+      "Knowledge"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

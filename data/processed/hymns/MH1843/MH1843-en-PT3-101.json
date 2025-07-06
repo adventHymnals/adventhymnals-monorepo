@@ -31,7 +31,16 @@
   "composer": "",
   "author": "",
   "page": 240,
-  "themes": ["Jesus", "Fairest", "Lord", "Nature", "Beauty", "Glory", "Honor", "Savior"],
+  "themes": [
+    "Jesus",
+    "Fairest",
+    "Lord",
+    "Nature",
+    "Beauty",
+    "Glory",
+    "Honor",
+    "Savior"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

@@ -4,19 +4,44 @@
   "title": "Social Worship",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "What poor, despised company Of travelers are these, Who walk in yonder narrow way, Along the rugged maze?"},
-    {"number": 2, "text": "Ah! these are of a royal line, All children of a King, Heirs of immortal crowns divine; And lo! for joy they sing."},
-    {"number": 3, "text": "Why do they, then, appear so mean, And why so much despised? Because of their rich robes unseen The world is not apprised."},
-    {"number": 4, "text": "But they keep they that narrow road, That rugged, thorny maze; Why, that's the way their Leader trod; They love to walk His ways."},
-    {"number": 5, "text": "Why do they shun the pleasing path That worldlings love so well? Because that is the post of death, The certain way to hell."},
-    {"number": 6, "text": "What, is there then no other road To bliss and glory, too? Christ is the only way to God, No other can be found."}
+    {
+      "number": 1,
+      "text": "What poor, despised company Of travelers are these, Who walk in yonder narrow way, Along the rugged maze?"
+    },
+    {
+      "number": 2,
+      "text": "Ah! these are of a royal line, All children of a King, Heirs of immortal crowns divine; And lo! for joy they sing."
+    },
+    {
+      "number": 3,
+      "text": "Why do they, then, appear so mean, And why so much despised? Because of their rich robes unseen The world is not apprised."
+    },
+    {
+      "number": 4,
+      "text": "But they keep they that narrow road, That rugged, thorny maze; Why, that's the way their Leader trod; They love to walk His ways."
+    },
+    {
+      "number": 5,
+      "text": "Why do they shun the pleasing path That worldlings love so well? Because that is the post of death, The certain way to hell."
+    },
+    {
+      "number": 6,
+      "text": "What, is there then no other road To bliss and glory, too? Christ is the only way to God, No other can be found."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["travelers", "narrow way", "royal line", "children of a King", "immortal crowns", "Christ as the way"],
+    "themes": [
+      "travelers",
+      "narrow way",
+      "royal line",
+      "children of a King",
+      "immortal crowns",
+      "Christ as the way"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

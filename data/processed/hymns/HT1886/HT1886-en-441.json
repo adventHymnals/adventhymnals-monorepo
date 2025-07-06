@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["grace", "salvation", "faith", "conversion", "God's faithfulness"],
-    "scripture_references": ["1 Chronicles 17:16-17", "Ephesians 2:8"],
+    "themes": [
+      "grace",
+      "salvation",
+      "faith",
+      "conversion",
+      "God's faithfulness"
+    ],
+    "scripture_references": [
+      "1 Chronicles 17:16-17",
+      "Ephesians 2:8"
+    ],
     "tune_source": "354, 449, 147",
     "original_language": "en"
   }

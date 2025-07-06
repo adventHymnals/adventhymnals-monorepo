@@ -35,7 +35,19 @@
   "composer": "",
   "author": "",
   "page": 253,
-  "themes": ["Name", "Jesus", "Dearest", "Angels", "Joy", "Heaven", "Christian", "Hope", "Glory", "Labor", "Vineyard"],
+  "themes": [
+    "Name",
+    "Jesus",
+    "Dearest",
+    "Angels",
+    "Joy",
+    "Heaven",
+    "Christian",
+    "Hope",
+    "Glory",
+    "Labor",
+    "Vineyard"
+  ],
   "key_signature": "Bb",
   "time_signature": "4/4"
 }

@@ -35,7 +35,15 @@
   "composer": "",
   "author": "",
   "page": 216,
-  "themes": ["Saints", "Lord", "Savior", "King", "Triumphs", "Death", "Angels"],
+  "themes": [
+    "Saints",
+    "Lord",
+    "Savior",
+    "King",
+    "Triumphs",
+    "Death",
+    "Angels"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

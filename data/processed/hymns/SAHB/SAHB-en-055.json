@@ -35,7 +35,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["Mount Zion", "New Jerusalem", "heavenly city", "God's dwelling"],
+    "themes": [
+      "Mount Zion",
+      "New Jerusalem",
+      "heavenly city",
+      "God's dwelling"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

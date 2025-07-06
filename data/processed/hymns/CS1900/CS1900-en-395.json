@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["daily work", "service", "faithfulness", "rest"],
+    "themes": [
+      "daily work",
+      "service",
+      "faithfulness",
+      "rest"
+    ],
     "scripture_references": [],
     "tune_source": "Robert Lowry",
     "original_language": "en"

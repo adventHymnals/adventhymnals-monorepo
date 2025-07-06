@@ -29,8 +29,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["gentleness", "compassion", "kindness"],
-    "scripture_references": ["Isaiah 42:3"],
+    "themes": [
+      "gentleness",
+      "compassion",
+      "kindness"
+    ],
+    "scripture_references": [
+      "Isaiah 42:3"
+    ],
     "tune_source": "John S. Norris",
     "original_language": "en"
   }

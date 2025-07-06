@@ -25,7 +25,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895, by J. H. Stockton.",
-    "themes": ["cross", "triumph", "hallelujah"],
+    "themes": [
+      "cross",
+      "triumph",
+      "hallelujah"
+    ],
     "scripture_references": [],
     "tune_source": "J. H. Stockton",
     "original_language": "en"

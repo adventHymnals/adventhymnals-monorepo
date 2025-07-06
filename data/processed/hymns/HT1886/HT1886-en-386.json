@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["thanksgiving", "grace", "redemption", "dedication"],
-    "scripture_references": ["1 Samuel 7:12", "Luke 15:3-7"],
+    "themes": [
+      "thanksgiving",
+      "grace",
+      "redemption",
+      "dedication"
+    ],
+    "scripture_references": [
+      "1 Samuel 7:12",
+      "Luke 15:3-7"
+    ],
     "tune_source": "Traditional American",
     "original_language": "en"
   }

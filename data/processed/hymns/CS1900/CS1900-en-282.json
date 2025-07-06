@@ -33,8 +33,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["gratitude", "mercy", "praise", "providence"],
-    "scripture_references": ["Psalm 103:2"],
+    "themes": [
+      "gratitude",
+      "mercy",
+      "praise",
+      "providence"
+    ],
+    "scripture_references": [
+      "Psalm 103:2"
+    ],
     "tune_source": "John Clark",
     "original_language": "en"
   }

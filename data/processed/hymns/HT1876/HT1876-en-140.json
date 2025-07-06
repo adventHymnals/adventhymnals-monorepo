@@ -4,17 +4,35 @@
   "title": "With joy we meditate the grace",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "With joy we meditate the grace Of our High Priest above; His heart is made of tenderness, His bowels glow with love."},
-    {"number": 2, "text": "Touched with a sympathy within, He knows our feeble frame; He knows what sore temptations mean, For he has felt the same."},
-    {"number": 3, "text": "He, in the days of feeble flesh, Poured out his cries and tears; And in his measure feels afresh What every member bears."},
-    {"number": 4, "text": "Then let our humble faith address His mercy and his power; We shall obtain deliv'ring grace In the distressing hour."}
+    {
+      "number": 1,
+      "text": "With joy we meditate the grace Of our High Priest above; His heart is made of tenderness, His bowels glow with love."
+    },
+    {
+      "number": 2,
+      "text": "Touched with a sympathy within, He knows our feeble frame; He knows what sore temptations mean, For he has felt the same."
+    },
+    {
+      "number": 3,
+      "text": "He, in the days of feeble flesh, Poured out his cries and tears; And in his measure feels afresh What every member bears."
+    },
+    {
+      "number": 4,
+      "text": "Then let our humble faith address His mercy and his power; We shall obtain deliv'ring grace In the distressing hour."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["grace", "High Priest", "Jesus", "sympathy", "mercy"],
+    "themes": [
+      "grace",
+      "High Priest",
+      "Jesus",
+      "sympathy",
+      "mercy"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

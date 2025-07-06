@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["pilgrimage", "perseverance", "heaven", "journey"],
+    "themes": [
+      "pilgrimage",
+      "perseverance",
+      "heaven",
+      "journey"
+    ],
     "scripture_references": [],
     "tune_source": "F. E. Belden",
     "original_language": "en"

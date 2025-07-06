@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Resurrection and Ascension", "morning", "triumph", "fear", "faith"],
+    "themes": [
+      "Christ",
+      "Resurrection and Ascension",
+      "morning",
+      "triumph",
+      "fear",
+      "faith"
+    ],
     "scripture_references": [],
     "tune_source": "Vienna. 7s.",
     "original_language": "en"

@@ -23,7 +23,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["gospel spread", "missions", "nations", "salvation"],
+    "themes": [
+      "gospel spread",
+      "missions",
+      "nations",
+      "salvation"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

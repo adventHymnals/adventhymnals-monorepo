@@ -33,8 +33,17 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["redeeming_love", "sacrifice", "intercession", "priest", "salvation"],
-    "scripture_references": ["Hebrews 4:14-16", "1 John 2:1-2"],
+    "themes": [
+      "redeeming_love",
+      "sacrifice",
+      "intercession",
+      "priest",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Hebrews 4:14-16",
+      "1 John 2:1-2"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

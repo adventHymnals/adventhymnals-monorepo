@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1908,
     "copyright": "Public Domain",
-    "themes": ["heaven", "king", "glory", "salvation", "eternal life"],
-    "scripture_references": ["Revelation 22:4", "1 John 3:2", "Matthew 25:34"],
+    "themes": [
+      "heaven",
+      "king",
+      "glory",
+      "salvation",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "Revelation 22:4",
+      "1 John 3:2",
+      "Matthew 25:34"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

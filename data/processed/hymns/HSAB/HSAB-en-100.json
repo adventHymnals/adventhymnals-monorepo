@@ -30,7 +30,16 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["harp untuned", "zion's songs", "sinners", "zeal declines", "love grows cold", "ark of god", "saviour", "throne of grace"],
+    "themes": [
+      "harp untuned",
+      "zion's songs",
+      "sinners",
+      "zeal declines",
+      "love grows cold",
+      "ark of god",
+      "saviour",
+      "throne of grace"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

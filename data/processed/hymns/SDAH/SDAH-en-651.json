@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1845,
     "copyright": "Public Domain",
-    "themes": ["home", "family", "Christian living", "love in the home"],
-    "scripture_references": ["Colossians 3:17", "Joshua 24:15"],
+    "themes": [
+      "home",
+      "family",
+      "Christian living",
+      "love in the home"
+    ],
+    "scripture_references": [
+      "Colossians 3:17",
+      "Joshua 24:15"
+    ],
     "tune_source": "Alfred Scott-Gatty, 1847-1918",
     "original_language": "de",
     "author_dates": "1801-1859",

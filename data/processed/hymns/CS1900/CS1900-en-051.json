@@ -23,7 +23,14 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1889, by H. R. Palmer",
-    "themes": ["invitation", "salvation", "Jesus", "calling", "home", "sinner"],
+    "themes": [
+      "invitation",
+      "salvation",
+      "Jesus",
+      "calling",
+      "home",
+      "sinner"
+    ],
     "scripture_references": [],
     "tune_source": "H. R. Palmer",
     "original_language": "en"

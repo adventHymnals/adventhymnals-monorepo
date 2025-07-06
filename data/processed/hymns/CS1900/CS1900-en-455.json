@@ -23,8 +23,16 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["witness", "light", "service", "Christian living"],
-    "scripture_references": ["Matthew 5:16", "John 8:12"],
+    "themes": [
+      "witness",
+      "light",
+      "service",
+      "Christian living"
+    ],
+    "scripture_references": [
+      "Matthew 5:16",
+      "John 8:12"
+    ],
     "tune_source": "E. O. Excell",
     "original_language": "en"
   }

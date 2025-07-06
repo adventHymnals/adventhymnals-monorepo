@@ -29,8 +29,17 @@
   "metadata": {
     "year": 1972,
     "copyright": "Words © 1972 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["Service", "Work", "Unity", "Partnership", "God's Kingdom"],
-    "scripture_references": ["Matthew 6:10", "1 Corinthians 12:12-14"],
+    "themes": [
+      "Service",
+      "Work",
+      "Unity",
+      "Partnership",
+      "God's Kingdom"
+    ],
+    "scripture_references": [
+      "Matthew 6:10",
+      "1 Corinthians 12:12-14"
+    ],
     "tune_source": "Walter MacNutt",
     "original_language": "en"
   }

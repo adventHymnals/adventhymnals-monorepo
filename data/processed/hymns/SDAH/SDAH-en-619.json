@@ -25,8 +25,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["Christian leadership", "spiritual warfare", "victory", "peace"],
-    "scripture_references": ["Psalm 23:4", "Matthew 28:20"],
+    "themes": [
+      "Christian leadership",
+      "spiritual warfare",
+      "victory",
+      "peace"
+    ],
+    "scripture_references": [
+      "Psalm 23:4",
+      "Matthew 28:20"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

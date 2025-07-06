@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["Christmas", "Christ's Reign", "Joy", "Salvation"],
-    "scripture_references": ["Psalm 98"],
+    "themes": [
+      "Christmas",
+      "Christ's Reign",
+      "Joy",
+      "Salvation"
+    ],
+    "scripture_references": [
+      "Psalm 98"
+    ],
     "tune_source": "George F. Handel, 1742",
     "original_language": "en"
   }

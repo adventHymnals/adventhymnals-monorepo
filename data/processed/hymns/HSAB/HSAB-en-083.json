@@ -34,7 +34,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["saints' home", "communion", "banquet of mercy", "valley of conflict", "hallelujahs"],
+    "themes": [
+      "saints' home",
+      "communion",
+      "banquet of mercy",
+      "valley of conflict",
+      "hallelujahs"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

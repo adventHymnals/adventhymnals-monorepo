@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worthy the Lamb", "praise", "glory", "hallelujah", "kingdom come", "millennium"],
-    "scripture_references": ["Revelation 5:12", "Revelation 20:4"],
+    "themes": [
+      "worthy the Lamb",
+      "praise",
+      "glory",
+      "hallelujah",
+      "kingdom come",
+      "millennium"
+    ],
+    "scripture_references": [
+      "Revelation 5:12",
+      "Revelation 20:4"
+    ],
     "tune_source": "Unknown",
     "original_language": "en"
   }

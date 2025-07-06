@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["glory", "heavenly vision", "worship", "eternal joy", "second coming"],
-    "scripture_references": ["Rev 21:1-4", "2 Cor 12:2-4", "1 Cor 2:9"],
+    "themes": [
+      "glory",
+      "heavenly vision",
+      "worship",
+      "eternal joy",
+      "second coming"
+    ],
+    "scripture_references": [
+      "Rev 21:1-4",
+      "2 Cor 12:2-4",
+      "1 Cor 2:9"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

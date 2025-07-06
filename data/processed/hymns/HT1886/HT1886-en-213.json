@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "creation", "rest", "memorial", "praise", "redemption"],
-    "scripture_references": ["Genesis 2:2-3", "Exodus 20:8-11"],
+    "themes": [
+      "Sabbath",
+      "creation",
+      "rest",
+      "memorial",
+      "praise",
+      "redemption"
+    ],
+    "scripture_references": [
+      "Genesis 2:2-3",
+      "Exodus 20:8-11"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

@@ -21,7 +21,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["resurrection", "intercession", "redemption"],
+    "themes": [
+      "resurrection",
+      "intercession",
+      "redemption"
+    ],
     "scripture_references": [],
     "tune_source": "Lewis Edson",
     "original_language": "en"

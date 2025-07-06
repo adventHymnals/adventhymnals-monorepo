@@ -24,8 +24,15 @@
   "metadata": {
     "year": "[needs verification]",
     "copyright": "Public Domain",
-    "themes": ["praise", "worship", "healing", "comfort"],
-    "scripture_references": ["Psalm 147"],
+    "themes": [
+      "praise",
+      "worship",
+      "healing",
+      "comfort"
+    ],
+    "scripture_references": [
+      "Psalm 147"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

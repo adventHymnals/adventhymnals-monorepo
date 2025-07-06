@@ -33,8 +33,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Solo Copyright",
-    "themes": ["salvation", "redemption", "lost sheep", "good shepherd"],
-    "scripture_references": ["Luke 15:3-7"],
+    "themes": [
+      "salvation",
+      "redemption",
+      "lost sheep",
+      "good shepherd"
+    ],
+    "scripture_references": [
+      "Luke 15:3-7"
+    ],
     "tune_source": "I. P. Sankey",
     "original_language": "en"
   }

@@ -29,8 +29,17 @@
   "metadata": {
     "year": 1740,
     "copyright": "Public Domain",
-    "themes": ["mercy", "repentance", "forgiveness", "grace", "love"],
-    "scripture_references": ["1 Timothy 1:15", "Romans 5:20"],
+    "themes": [
+      "mercy",
+      "repentance",
+      "forgiveness",
+      "grace",
+      "love"
+    ],
+    "scripture_references": [
+      "1 Timothy 1:15",
+      "Romans 5:20"
+    ],
     "tune_source": "Carl Gotthelf Gläser",
     "original_language": "en"
   }

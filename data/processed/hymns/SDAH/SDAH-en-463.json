@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1875,
     "copyright": "Public Domain",
-    "themes": ["peace", "comfort", "trust", "security in Christ", "divine assurance"],
-    "scripture_references": ["Isaiah 26:3", "John 14:27", "Philippians 4:7"],
+    "themes": [
+      "peace",
+      "comfort",
+      "trust",
+      "security in Christ",
+      "divine assurance"
+    ],
+    "scripture_references": [
+      "Isaiah 26:3",
+      "John 14:27",
+      "Philippians 4:7"
+    ],
     "tune_source": "George Thomas Caldbeck",
     "original_language": "en"
   }

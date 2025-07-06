@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Invitation", "Salvation", "Jesus", "Grace"],
+    "themes": [
+      "Invitation",
+      "Salvation",
+      "Jesus",
+      "Grace"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

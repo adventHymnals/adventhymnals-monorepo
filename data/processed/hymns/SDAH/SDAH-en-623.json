@@ -35,8 +35,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["discipleship", "following Christ", "commitment", "perseverance"],
-    "scripture_references": ["Matthew 16:24", "Luke 9:23"],
+    "themes": [
+      "discipleship",
+      "following Christ",
+      "commitment",
+      "perseverance"
+    ],
+    "scripture_references": [
+      "Matthew 16:24",
+      "Luke 9:23"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

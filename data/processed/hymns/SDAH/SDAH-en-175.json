@@ -29,8 +29,17 @@
   "metadata": {
     "year": 1928,
     "copyright": null,
-    "themes": ["easter", "resurrection", "new_life", "love", "renewal"],
-    "scripture_references": ["John 12:24", "1 Corinthians 15:35-44"],
+    "themes": [
+      "easter",
+      "resurrection",
+      "new_life",
+      "love",
+      "renewal"
+    ],
+    "scripture_references": [
+      "John 12:24",
+      "1 Corinthians 15:35-44"
+    ],
     "tune_source": "French",
     "original_language": "en"
   }

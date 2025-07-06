@@ -19,8 +19,16 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["sleep", "rest", "beloved", "peace", "God's gift"],
-    "scripture_references": ["Ps. 127:2"],
+    "themes": [
+      "sleep",
+      "rest",
+      "beloved",
+      "peace",
+      "God's gift"
+    ],
+    "scripture_references": [
+      "Ps. 127:2"
+    ],
     "tune_source": "Frank Gray",
     "original_language": "en"
   }

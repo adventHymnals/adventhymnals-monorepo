@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["beautiful home", "going home", "eternity", "visions", "peaceful"],
+    "themes": [
+      "beautiful home",
+      "going home",
+      "eternity",
+      "visions",
+      "peaceful"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

@@ -36,7 +36,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "name of Jesus", "comfort", "healing", "praise", "spiritual nourishment"],
+    "themes": [
+      "Jesus Christ",
+      "name of Jesus",
+      "comfort",
+      "healing",
+      "praise",
+      "spiritual nourishment"
+    ],
     "scripture_references": [],
     "tune_source": "27, 187, 744",
     "original_language": "en"

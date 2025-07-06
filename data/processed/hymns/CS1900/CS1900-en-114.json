@@ -27,7 +27,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["mercy", "warning", "salvation"],
+    "themes": [
+      "mercy",
+      "warning",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": "Will L. Thompson",
     "original_language": "en",

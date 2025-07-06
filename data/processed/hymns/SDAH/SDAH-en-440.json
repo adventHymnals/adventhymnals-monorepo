@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1760,
     "copyright": "Public Domain",
-    "themes": ["Christian hope", "encouragement", "heaven", "perseverance", "reunion"],
-    "scripture_references": ["1 Peter 1:3", "Romans 8:24-25", "Hebrews 6:19"],
+    "themes": [
+      "Christian hope",
+      "encouragement",
+      "heaven",
+      "perseverance",
+      "reunion"
+    ],
+    "scripture_references": [
+      "1 Peter 1:3",
+      "Romans 8:24-25",
+      "Hebrews 6:19"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

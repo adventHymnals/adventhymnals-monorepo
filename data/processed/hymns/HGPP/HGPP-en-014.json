@@ -40,8 +40,19 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["armageddon", "second coming", "judgment", "battle", "resurrection", "king of kings"],
-    "scripture_references": ["Rev 16:14-16", "Rev 19:11-21", "Joel 3:12-16"],
+    "themes": [
+      "armageddon",
+      "second coming",
+      "judgment",
+      "battle",
+      "resurrection",
+      "king of kings"
+    ],
+    "scripture_references": [
+      "Rev 16:14-16",
+      "Rev 19:11-21",
+      "Joel 3:12-16"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Word of God", "Scripture", "Light", "Truth"],
+    "themes": [
+      "Word of God",
+      "Scripture",
+      "Light",
+      "Truth"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

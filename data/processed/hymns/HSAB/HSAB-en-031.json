@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second coming", "kingdom of god", "bridegroom", "glory", "redemption"],
+    "themes": [
+      "second coming",
+      "kingdom of god",
+      "bridegroom",
+      "glory",
+      "redemption"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

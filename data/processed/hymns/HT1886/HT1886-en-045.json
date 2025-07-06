@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "holiness", "beauty", "adoration", "devotion", "reverence"],
+    "themes": [
+      "worship",
+      "holiness",
+      "beauty",
+      "adoration",
+      "devotion",
+      "reverence"
+    ],
     "scripture_references": [],
     "tune_source": "Southampton, Edwin Barnes",
     "original_language": "en"

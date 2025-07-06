@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Salvation", "Cross", "Consecration", "Cleansing"],
+    "themes": [
+      "Salvation",
+      "Cross",
+      "Consecration",
+      "Cleansing"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

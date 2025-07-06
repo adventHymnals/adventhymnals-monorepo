@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["lord", "zion", "reign", "glory"],
+    "themes": [
+      "lord",
+      "zion",
+      "reign",
+      "glory"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

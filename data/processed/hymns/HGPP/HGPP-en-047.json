@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["almost home", "bright crowns", "jerusalem", "faithful watching", "bride"],
-    "scripture_references": ["Rev 3:11", "Rev 22:17", "2 Tim 4:8"],
+    "themes": [
+      "almost home",
+      "bright crowns",
+      "jerusalem",
+      "faithful watching",
+      "bride"
+    ],
+    "scripture_references": [
+      "Rev 3:11",
+      "Rev 22:17",
+      "2 Tim 4:8"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

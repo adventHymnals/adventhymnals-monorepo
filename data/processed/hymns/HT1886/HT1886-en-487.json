@@ -16,7 +16,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Copyrighted 1886 by F. E. Belden",
-    "themes": ["prayer", "intercession", "salvation"],
+    "themes": [
+      "prayer",
+      "intercession",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": "F. E. Belden",
     "original_language": "en",

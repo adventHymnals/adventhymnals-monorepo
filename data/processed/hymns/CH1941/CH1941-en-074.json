@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1827,
     "copyright": "Public Domain",
-    "themes": ["holiness", "heavenly worship", "angels", "glory"],
-    "scripture_references": ["Isaiah 6:2-3", "Revelation 4:8"],
+    "themes": [
+      "holiness",
+      "heavenly worship",
+      "angels",
+      "glory"
+    ],
+    "scripture_references": [
+      "Isaiah 6:2-3",
+      "Revelation 4:8"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

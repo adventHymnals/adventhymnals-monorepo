@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Bible", "guidance", "light", "Scripture"],
+    "themes": [
+      "Bible",
+      "guidance",
+      "light",
+      "Scripture"
+    ],
     "scripture_references": [],
     "tune_source": "E. S. Lorenz",
     "original_language": "en"

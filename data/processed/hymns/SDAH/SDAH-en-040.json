@@ -28,7 +28,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Sabbath", "rest", "worship", "renewal"],
+    "themes": [
+      "Sabbath",
+      "rest",
+      "worship",
+      "renewal"
+    ],
     "scripture_references": [],
     "tune_source": "[unclear]",
     "original_language": "en"

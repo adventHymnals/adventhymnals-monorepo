@@ -36,8 +36,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["spiritual warfare", "armor of God", "soldiers of Christ", "victory", "crown"],
-    "scripture_references": ["Eph 6:10-17", "2 Tim 4:7-8", "Rev 3:21"],
+    "themes": [
+      "spiritual warfare",
+      "armor of God",
+      "soldiers of Christ",
+      "victory",
+      "crown"
+    ],
+    "scripture_references": [
+      "Eph 6:10-17",
+      "2 Tim 4:7-8",
+      "Rev 3:21"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1892, by Thos. A. White, Bell Co. Used by permission.",
-    "themes": ["name of Jesus", "blessing", "praise", "holiness"],
+    "themes": [
+      "name of Jesus",
+      "blessing",
+      "praise",
+      "holiness"
+    ],
     "scripture_references": [],
     "tune_source": "W. A. Ogden",
     "original_language": "en"

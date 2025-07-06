@@ -26,8 +26,15 @@
     }
   ],
   "metadata": {
-    "themes": ["consecration", "youth commitment", "service"],
-    "scripture_references": ["Romans 12:1", "1 Timothy 4:12"],
+    "themes": [
+      "consecration",
+      "youth commitment",
+      "service"
+    ],
+    "scripture_references": [
+      "Romans 12:1",
+      "1 Timothy 4:12"
+    ],
     "tune_source": "Joseph Barnby",
     "original_language": "en"
   }

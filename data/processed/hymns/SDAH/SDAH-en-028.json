@@ -25,7 +25,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["praise", "creation", "beauty", "thanksgiving"],
+    "themes": [
+      "praise",
+      "creation",
+      "beauty",
+      "thanksgiving"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

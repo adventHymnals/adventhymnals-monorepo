@@ -31,7 +31,20 @@
   "composer": "",
   "author": "",
   "page": 254,
-  "themes": ["Great Physician", "Jesus", "Sympathizing", "Drooping Heart", "Dying Lamb", "Blessed Savior", "Guilt", "Fear", "Crown", "Life", "Glory", "Redemption"],
+  "themes": [
+    "Great Physician",
+    "Jesus",
+    "Sympathizing",
+    "Drooping Heart",
+    "Dying Lamb",
+    "Blessed Savior",
+    "Guilt",
+    "Fear",
+    "Crown",
+    "Life",
+    "Glory",
+    "Redemption"
+  ],
   "key_signature": "Db",
   "time_signature": "6/8"
 }

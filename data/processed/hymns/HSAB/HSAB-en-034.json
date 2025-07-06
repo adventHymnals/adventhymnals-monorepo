@@ -38,7 +38,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second coming", "resurrection", "angels", "glory", "salvation"],
+    "themes": [
+      "second coming",
+      "resurrection",
+      "angels",
+      "glory",
+      "salvation"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

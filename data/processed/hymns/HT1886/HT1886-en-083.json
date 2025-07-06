@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's power", "creation", "God's wisdom", "God's goodness", "God's presence"],
+    "themes": [
+      "God's power",
+      "creation",
+      "God's wisdom",
+      "God's goodness",
+      "God's presence"
+    ],
     "scripture_references": [],
     "tune_source": "Varina, George F. Root",
     "original_language": "en"

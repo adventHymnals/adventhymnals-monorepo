@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["reverence", "God's mystery", "divine wisdom", "God's power", "God's love", "humility"],
+    "themes": [
+      "reverence",
+      "God's mystery",
+      "divine wisdom",
+      "God's power",
+      "God's love",
+      "humility"
+    ],
     "scripture_references": [],
     "tune_source": "Anne Steele",
     "original_language": "en"

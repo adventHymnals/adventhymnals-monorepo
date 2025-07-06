@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["rescue", "evangelism", "salvation", "urgency"],
+    "themes": [
+      "rescue",
+      "evangelism",
+      "salvation",
+      "urgency"
+    ],
     "scripture_references": [],
     "tune_source": "E. S. Ufford",
     "original_language": "en"

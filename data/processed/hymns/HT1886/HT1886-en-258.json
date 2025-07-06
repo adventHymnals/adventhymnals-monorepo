@@ -24,7 +24,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "daily life", "divine guidance", "prayer"],
+    "themes": [
+      "worship",
+      "daily life",
+      "divine guidance",
+      "prayer"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

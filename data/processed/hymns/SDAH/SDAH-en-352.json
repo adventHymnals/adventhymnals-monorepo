@@ -29,8 +29,19 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus Christ", "Love", "Commandment", "Friendship", "Obedience"],
-    "scripture_references": ["John 15:12", "John 15:13", "John 15:16", "John 15:17"],
+    "themes": [
+      "Jesus Christ",
+      "Love",
+      "Commandment",
+      "Friendship",
+      "Obedience"
+    ],
+    "scripture_references": [
+      "John 15:12",
+      "John 15:13",
+      "John 15:16",
+      "John 15:17"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

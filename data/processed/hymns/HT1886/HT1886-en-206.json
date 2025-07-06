@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["law of God", "perfection", "conversion", "wisdom", "righteousness"],
-    "scripture_references": ["Psalm 19:7-8"],
+    "themes": [
+      "law of God",
+      "perfection",
+      "conversion",
+      "wisdom",
+      "righteousness"
+    ],
+    "scripture_references": [
+      "Psalm 19:7-8"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

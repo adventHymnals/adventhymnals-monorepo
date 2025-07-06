@@ -34,8 +34,17 @@
     }
   ],
   "metadata": {
-    "themes": ["discipleship", "courage", "spiritual warfare", "commitment"],
-    "scripture_references": ["2 Timothy 2:3", "1 Corinthians 16:13", "Ephesians 6:10-18"],
+    "themes": [
+      "discipleship",
+      "courage",
+      "spiritual warfare",
+      "commitment"
+    ],
+    "scripture_references": [
+      "2 Timothy 2:3",
+      "1 Corinthians 16:13",
+      "Ephesians 6:10-18"
+    ],
     "copyright": "Public Domain"
   }
 }

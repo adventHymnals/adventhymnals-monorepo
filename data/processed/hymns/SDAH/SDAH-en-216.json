@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1893,
     "copyright": "Public Domain",
-    "themes": ["Second Coming", "Heaven", "Judgment", "Readiness"],
-    "scripture_references": ["1 Corinthians 15:51-52", "1 Thessalonians 4:16-17"],
+    "themes": [
+      "Second Coming",
+      "Heaven",
+      "Judgment",
+      "Readiness"
+    ],
+    "scripture_references": [
+      "1 Corinthians 15:51-52",
+      "1 Thessalonians 4:16-17"
+    ],
     "tune_source": "James M. Black, 1893",
     "original_language": "en"
   }

@@ -30,7 +30,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["encouragement", "faith", "perseverance", "Christ", "hope", "victory"],
+    "themes": [
+      "encouragement",
+      "faith",
+      "perseverance",
+      "Christ",
+      "hope",
+      "victory"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

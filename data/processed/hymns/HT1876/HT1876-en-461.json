@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["hope", "Jesus' blood", "righteousness", "grace", "covenant"],
+    "themes": [
+      "hope",
+      "Jesus' blood",
+      "righteousness",
+      "grace",
+      "covenant"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

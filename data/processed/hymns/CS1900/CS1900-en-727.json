@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["pilgrimage", "heaven", "journey", "faith"],
+    "themes": [
+      "pilgrimage",
+      "heaven",
+      "journey",
+      "faith"
+    ],
     "scripture_references": [],
     "tune_source": "J. B. Dykes",
     "original_language": "en"

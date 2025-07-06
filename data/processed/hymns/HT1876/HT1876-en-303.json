@@ -4,16 +4,32 @@
   "title": "Dear Saviour, we would know thy love",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Dear Saviour, we would know thy love Which yet no measure knows; For is it not the source of all From these salvation flows."},
-    {"number": 2, "text": "Pain would we strike the golden harp, And wear the promised crown; And at thy feet while bending low, Would sing what grace hath done."},
-    {"number": 3, "text": "Then leave us not in this dark world, At strangers long to roam; Come, Lord, and take us to thyself, Come, Jesus, quickly come."}
+    {
+      "number": 1,
+      "text": "Dear Saviour, we would know thy love Which yet no measure knows; For is it not the source of all From these salvation flows."
+    },
+    {
+      "number": 2,
+      "text": "Pain would we strike the golden harp, And wear the promised crown; And at thy feet while bending low, Would sing what grace hath done."
+    },
+    {
+      "number": 3,
+      "text": "Then leave us not in this dark world, At strangers long to roam; Come, Lord, and take us to thyself, Come, Jesus, quickly come."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["love", "salvation", "worship", "grace", "second coming", "home"],
+    "themes": [
+      "love",
+      "salvation",
+      "worship",
+      "grace",
+      "second coming",
+      "home"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

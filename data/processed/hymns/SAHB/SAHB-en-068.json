@@ -23,7 +23,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["God's grace", "thanksgiving", "spiritual journey", "dedication"],
+    "themes": [
+      "God's grace",
+      "thanksgiving",
+      "spiritual journey",
+      "dedication"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

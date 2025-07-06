@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1874, by P. P. Bliss",
-    "themes": ["sowing", "seed", "harvest", "reaping", "corruption", "Spirit", "life"],
-    "scripture_references": ["Gal. 6:8"],
+    "themes": [
+      "sowing",
+      "seed",
+      "harvest",
+      "reaping",
+      "corruption",
+      "Spirit",
+      "life"
+    ],
+    "scripture_references": [
+      "Gal. 6:8"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "prayer", "eternal rest", "heaven"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "prayer",
+      "eternal rest",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": "Burton, L. M., Isaac B. Woodbury",
     "original_language": "en"

@@ -33,7 +33,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["jerusalem", "precious stone", "pearl gates", "golden streets", "ten thousand years"],
+    "themes": [
+      "jerusalem",
+      "precious stone",
+      "pearl gates",
+      "golden streets",
+      "ten thousand years"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

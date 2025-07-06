@@ -34,7 +34,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["bondage", "freedom", "Egypt", "jubilee", "Second Coming", "deliverance"],
+    "themes": [
+      "bondage",
+      "freedom",
+      "Egypt",
+      "jubilee",
+      "Second Coming",
+      "deliverance"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

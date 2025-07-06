@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ's priesthood", "heavenly service", "atonement", "Second Coming"],
-    "scripture_references": ["Hebrews 9:11-12", "Hebrews 8:1"],
+    "themes": [
+      "Christ's priesthood",
+      "heavenly service",
+      "atonement",
+      "Second Coming"
+    ],
+    "scripture_references": [
+      "Hebrews 9:11-12",
+      "Hebrews 8:1"
+    ],
     "tune_source": "Logan, L.A. Logan",
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

@@ -4,18 +4,39 @@
   "title": "Thus far we've parted again to meet",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Thus far we've parted again to meet Before Jehovah's mercy seat; To seek his face, to hear his word, And get refreshment from the Lord."},
-    {"number": 2, "text": "Now met to praise his holy name, Whose mercies flow each day the same, Whose love finds hearts with sin and guilt, We seek instruction, patience, peace."},
-    {"number": 3, "text": "Let every heart rise up a prayer For every soul as here we meet; To ask the Spirit to repair Our souls and heart from sin so dark."},
-    {"number": 4, "text": "And may our acts make the heart, To join with holy love and praise, And tell to all who come this way, Our souls rejoice the blessed days."},
-    {"number": 5, "text": "Then hail, thou sacred, blessed day, The best of all the seven; When hearts unite their vows to pay Of gratitude to Heaven."}
+    {
+      "number": 1,
+      "text": "Thus far we've parted again to meet Before Jehovah's mercy seat; To seek his face, to hear his word, And get refreshment from the Lord."
+    },
+    {
+      "number": 2,
+      "text": "Now met to praise his holy name, Whose mercies flow each day the same, Whose love finds hearts with sin and guilt, We seek instruction, patience, peace."
+    },
+    {
+      "number": 3,
+      "text": "Let every heart rise up a prayer For every soul as here we meet; To ask the Spirit to repair Our souls and heart from sin so dark."
+    },
+    {
+      "number": 4,
+      "text": "And may our acts make the heart, To join with holy love and praise, And tell to all who come this way, Our souls rejoice the blessed days."
+    },
+    {
+      "number": 5,
+      "text": "Then hail, thou sacred, blessed day, The best of all the seven; When hearts unite their vows to pay Of gratitude to Heaven."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["worship", "praise", "mercy", "Sabbath", "gratitude"],
+    "themes": [
+      "worship",
+      "praise",
+      "mercy",
+      "Sabbath",
+      "gratitude"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

@@ -31,8 +31,16 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["easter", "resurrection", "triumph", "victory", "celebration"],
-    "scripture_references": ["Luke 24:1-12"],
+    "themes": [
+      "easter",
+      "resurrection",
+      "triumph",
+      "victory",
+      "celebration"
+    ],
+    "scripture_references": [
+      "Luke 24:1-12"
+    ],
     "tune_source": "German",
     "original_language": "en"
   }

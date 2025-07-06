@@ -16,7 +16,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Divine Sovereignty", "Christ's Reign", "Justice", "Righteous Government"],
+    "themes": [
+      "Divine Sovereignty",
+      "Christ's Reign",
+      "Justice",
+      "Righteous Government"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "L. M. (Long Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

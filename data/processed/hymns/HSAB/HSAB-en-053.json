@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["coming one", "prayer", "intercession", "grace", "wrestling"],
+    "themes": [
+      "coming one",
+      "prayer",
+      "intercession",
+      "grace",
+      "wrestling"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

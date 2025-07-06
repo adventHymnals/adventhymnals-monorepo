@@ -28,8 +28,14 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["humility", "ordinance of humility", "following Christ's example"],
-    "scripture_references": ["John 13:1-17"],
+    "themes": [
+      "humility",
+      "ordinance of humility",
+      "following Christ's example"
+    ],
+    "scripture_references": [
+      "John 13:1-17"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Foot washing ordinance practice"

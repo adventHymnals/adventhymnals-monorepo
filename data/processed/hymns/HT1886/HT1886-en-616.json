@@ -24,7 +24,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["pilgrimage", "heaven", "journey"],
+    "themes": [
+      "pilgrimage",
+      "heaven",
+      "journey"
+    ],
     "scripture_references": [],
     "tune_source": "I'm a Traveler, N. Billings",
     "original_language": "en"

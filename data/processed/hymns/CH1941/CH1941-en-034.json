@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1866,
     "copyright": "Public Domain",
-    "themes": ["evening", "peace", "protection", "worship closing"],
-    "scripture_references": ["Numbers 6:24-26", "John 14:27"],
+    "themes": [
+      "evening",
+      "peace",
+      "protection",
+      "worship closing"
+    ],
+    "scripture_references": [
+      "Numbers 6:24-26",
+      "John 14:27"
+    ],
     "tune_source": "Ellers, Edward John Hopkins, 1869",
     "original_language": "en"
   }

@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1863,
     "copyright": "Public Domain",
-    "themes": ["harvest", "blessing", "God's provision", "spiritual growth"],
-    "scripture_references": ["Matthew 9:37-38", "Luke 10:2"],
+    "themes": [
+      "harvest",
+      "blessing",
+      "God's provision",
+      "spiritual growth"
+    ],
+    "scripture_references": [
+      "Matthew 9:37-38",
+      "Luke 10:2"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

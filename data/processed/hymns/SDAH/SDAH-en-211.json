@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Second Coming", "Judgment", "Clouds", "Majesty"],
+    "themes": [
+      "Second Coming",
+      "Judgment",
+      "Clouds",
+      "Majesty"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

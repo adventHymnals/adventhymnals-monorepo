@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["lonely pilgrim", "better day", "glorious home", "trials", "saviour's path"],
+    "themes": [
+      "lonely pilgrim",
+      "better day",
+      "glorious home",
+      "trials",
+      "saviour's path"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

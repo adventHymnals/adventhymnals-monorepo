@@ -26,7 +26,16 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Lord's Supper", "communion", "death", "crucifixion", "faith", "blood", "Second Coming", "heavenly home"],
+    "themes": [
+      "Lord's Supper",
+      "communion",
+      "death",
+      "crucifixion",
+      "faith",
+      "blood",
+      "Second Coming",
+      "heavenly home"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

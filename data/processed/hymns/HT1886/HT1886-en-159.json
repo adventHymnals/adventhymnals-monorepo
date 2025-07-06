@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "divine love", "forgiveness", "salvation", "spiritual guidance"],
+    "themes": [
+      "Holy Spirit",
+      "divine love",
+      "forgiveness",
+      "salvation",
+      "spiritual guidance"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

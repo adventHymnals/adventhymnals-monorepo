@@ -4,18 +4,40 @@
   "title": "Home, home, home! before us",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Home, home, home! before us! When, when shall we be there? Long, long, here we have wandered, Burdened with sorrow and care; Home, home, home, home— Sorrow breathes not in its air."},
-    {"number": 2, "text": "Home, home, there in thy bowers, Sweet, sweet music shall swell; Sin, sin, sorrow, and sighing, Peace in each bosom shall dwell— Home, home, home, home— Peace in each bosom shall dwell."},
-    {"number": 3, "text": "Home, home, rest to the weary, Peace, peace, to the torn breast; Hope, hope, hope of the erring— There in thy bosom he'll rest! Home, home, home, home— There will the wanderers rest."},
-    {"number": 4, "text": "Home, home, bliss to the parted! Friends, friends, meet us there; Here, here, lonely they've left us; Soon we'll be parted no more. Home, home, home, home— Friends will be parted no more."},
-    {"number": 5, "text": "Home, home, let us now hasten, See, see, angels above! Hark! hark! how do they call us Home to their dwelling of love. Home, home, home, home— Home of our Father's kind love."}
+    {
+      "number": 1,
+      "text": "Home, home, home! before us! When, when shall we be there? Long, long, here we have wandered, Burdened with sorrow and care; Home, home, home, home— Sorrow breathes not in its air."
+    },
+    {
+      "number": 2,
+      "text": "Home, home, there in thy bowers, Sweet, sweet music shall swell; Sin, sin, sorrow, and sighing, Peace in each bosom shall dwell— Home, home, home, home— Peace in each bosom shall dwell."
+    },
+    {
+      "number": 3,
+      "text": "Home, home, rest to the weary, Peace, peace, to the torn breast; Hope, hope, hope of the erring— There in thy bosom he'll rest! Home, home, home, home— There will the wanderers rest."
+    },
+    {
+      "number": 4,
+      "text": "Home, home, bliss to the parted! Friends, friends, meet us there; Here, here, lonely they've left us; Soon we'll be parted no more. Home, home, home, home— Friends will be parted no more."
+    },
+    {
+      "number": 5,
+      "text": "Home, home, let us now hasten, See, see, angels above! Hark! hark! how do they call us Home to their dwelling of love. Home, home, home, home— Home of our Father's kind love."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["heaven", "home", "comfort", "rest", "peace", "reunion"],
+    "themes": [
+      "heaven",
+      "home",
+      "comfort",
+      "rest",
+      "peace",
+      "reunion"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "7s, 6s & 4s"

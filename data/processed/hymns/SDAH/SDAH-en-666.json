@@ -14,8 +14,15 @@
     }
   ],
   "metadata": {
-    "themes": ["trust", "burden", "sustenance", "mercy"],
-    "scripture_references": ["[to be determined]"],
+    "themes": [
+      "trust",
+      "burden",
+      "sustenance",
+      "mercy"
+    ],
+    "scripture_references": [
+      "[to be determined]"
+    ],
     "copyright": "Public Domain"
   }
 }

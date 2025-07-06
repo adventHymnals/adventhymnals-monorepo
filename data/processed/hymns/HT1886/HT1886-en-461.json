@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["call to service", "urgency", "God's work", "no excuses"],
+    "themes": [
+      "call to service",
+      "urgency",
+      "God's work",
+      "no excuses"
+    ],
     "scripture_references": [],
     "tune_source": "F. E. Belden",
     "original_language": "en",

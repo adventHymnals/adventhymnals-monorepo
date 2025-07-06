@@ -34,7 +34,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["law of god", "ten commandments", "ark", "tabernacle", "obedience"],
+    "themes": [
+      "law of god",
+      "ten commandments",
+      "ark",
+      "tabernacle",
+      "obedience"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

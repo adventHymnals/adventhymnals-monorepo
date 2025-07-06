@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1967,
     "copyright": "1967 Hope Publishing Co.",
-    "themes": ["creation", "science", "technology", "purpose"],
+    "themes": [
+      "creation",
+      "science",
+      "technology",
+      "purpose"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

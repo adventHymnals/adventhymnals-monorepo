@@ -39,7 +39,14 @@
   "composer": "",
   "author": "",
   "page": 201,
-  "themes": ["Soldier", "Cross", "Lamb", "Courage", "Victory", "Triumph"],
+  "themes": [
+    "Soldier",
+    "Cross",
+    "Lamb",
+    "Courage",
+    "Victory",
+    "Triumph"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

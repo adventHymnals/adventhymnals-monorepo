@@ -32,8 +32,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "joy", "loving hearts", "Living Bread", "light of the world", "spiritual nourishment"],
-    "scripture_references": ["John 6:35", "John 8:12"],
+    "themes": [
+      "Jesus Christ",
+      "joy",
+      "loving hearts",
+      "Living Bread",
+      "light of the world",
+      "spiritual nourishment"
+    ],
+    "scripture_references": [
+      "John 6:35",
+      "John 8:12"
+    ],
     "tune_source": "Lowell Mason",
     "original_language": "en"
   }

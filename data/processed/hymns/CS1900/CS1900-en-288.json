@@ -39,8 +39,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["creation", "nature", "God's works", "children"],
-    "scripture_references": ["Genesis 1:31"],
+    "themes": [
+      "creation",
+      "nature",
+      "God's works",
+      "children"
+    ],
+    "scripture_references": [
+      "Genesis 1:31"
+    ],
     "tune_source": "Dr. Gauntlett",
     "original_language": "en"
   }

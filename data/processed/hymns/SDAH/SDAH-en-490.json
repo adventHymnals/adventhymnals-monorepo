@@ -16,8 +16,12 @@
   "metadata": {
     "year": 1800,
     "copyright": "Public Domain",
-    "themes": ["placeholder"],
-    "scripture_references": ["Psalm 1:1"],
+    "themes": [
+      "placeholder"
+    ],
+    "scripture_references": [
+      "Psalm 1:1"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

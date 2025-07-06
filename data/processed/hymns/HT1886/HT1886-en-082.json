@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's goodness", "God's love", "creation", "harvest", "gospel"],
+    "themes": [
+      "God's goodness",
+      "God's love",
+      "creation",
+      "harvest",
+      "gospel"
+    ],
     "scripture_references": [],
     "tune_source": "19, 190, 304",
     "original_language": "en"

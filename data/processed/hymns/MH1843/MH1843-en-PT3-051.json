@@ -11,7 +11,7 @@
       "text": "Jesus loves me! this I know, For the Bible tells me so; Little ones to Him belong, They are weak, but He is strong."
     },
     {
-      "number": "2", 
+      "number": "2",
       "text": "Jesus loves me! He who died Heaven's gate to open wide; He will wash away my sin, Let His little child come in."
     },
     {
@@ -27,7 +27,13 @@
   "composer": "",
   "author": "",
   "page": 190,
-  "themes": ["Jesus", "Love", "Children", "Bible", "Salvation"],
+  "themes": [
+    "Jesus",
+    "Love",
+    "Children",
+    "Bible",
+    "Salvation"
+  ],
   "key_signature": "C",
   "time_signature": "4/4"
 }

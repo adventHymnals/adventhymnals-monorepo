@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["trust", "salvation", "guidance", "faith"],
+    "themes": [
+      "trust",
+      "salvation",
+      "guidance",
+      "faith"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

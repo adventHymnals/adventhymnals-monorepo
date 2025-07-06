@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["foundation", "faith", "security", "Jesus"],
+    "themes": [
+      "foundation",
+      "faith",
+      "security",
+      "Jesus"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

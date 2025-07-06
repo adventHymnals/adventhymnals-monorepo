@@ -27,7 +27,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["praise", "doxology", "Trinity", "God's blessings"],
+    "themes": [
+      "praise",
+      "doxology",
+      "Trinity",
+      "God's blessings"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

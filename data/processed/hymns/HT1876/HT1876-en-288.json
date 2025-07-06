@@ -4,16 +4,31 @@
   "title": "Christ, the Lord, will come again",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Christ, the Lord, will come again, None shall wait for him in vain, Let us live his glory see; Christ will come and call for me."},
-    {"number": 2, "text": "Then, when he his word fulfils, Shakes the earth and rends the skies, Rising millions shall proclaim Blessings on the Saviour's name."},
-    {"number": 3, "text": "Hail! redeeming Son of God! Ransomed hosts will shout aloud; Praise, eternal praise be given To the Lord of earth and Heaven!"}
+    {
+      "number": 1,
+      "text": "Christ, the Lord, will come again, None shall wait for him in vain, Let us live his glory see; Christ will come and call for me."
+    },
+    {
+      "number": 2,
+      "text": "Then, when he his word fulfils, Shakes the earth and rends the skies, Rising millions shall proclaim Blessings on the Saviour's name."
+    },
+    {
+      "number": 3,
+      "text": "Hail! redeeming Son of God! Ransomed hosts will shout aloud; Praise, eternal praise be given To the Lord of earth and Heaven!"
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["second coming", "hope", "praise", "resurrection", "redemption"],
+    "themes": [
+      "second coming",
+      "hope",
+      "praise",
+      "resurrection",
+      "redemption"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "7s"

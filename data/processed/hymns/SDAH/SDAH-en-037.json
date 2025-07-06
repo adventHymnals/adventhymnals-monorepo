@@ -24,8 +24,15 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["praise", "thanksgiving", "trust", "God's love"],
-    "scripture_references": ["Psalm 34"],
+    "themes": [
+      "praise",
+      "thanksgiving",
+      "trust",
+      "God's love"
+    ],
+    "scripture_references": [
+      "Psalm 34"
+    ],
     "tune_source": "[unclear]",
     "original_language": "en"
   }

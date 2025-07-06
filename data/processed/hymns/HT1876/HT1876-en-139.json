@@ -4,17 +4,35 @@
   "title": "Oh! could our thoughts and wishes fly",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Oh! could our thoughts and wishes fly, Above these gloomy shades, To those bright worlds beyond the sky, Where sorrow ne'er invades!"},
-    {"number": 2, "text": "There, joys unseen by mortal eyes, Or reason's feeble ray, In ever-blooming prospect rise, Exposed to no decay."},
-    {"number": 3, "text": "Lord, send a beam of light divine, To guide our upward aim; With one reviving touch of thine, Our languid hearts inflame."},
-    {"number": 4, "text": "Oh! then, on faith's sublimest wing, Our ardent souls shall rise, To those bright worlds where pleasures spring, Immortal in the skies."}
+    {
+      "number": 1,
+      "text": "Oh! could our thoughts and wishes fly, Above these gloomy shades, To those bright worlds beyond the sky, Where sorrow ne'er invades!"
+    },
+    {
+      "number": 2,
+      "text": "There, joys unseen by mortal eyes, Or reason's feeble ray, In ever-blooming prospect rise, Exposed to no decay."
+    },
+    {
+      "number": 3,
+      "text": "Lord, send a beam of light divine, To guide our upward aim; With one reviving touch of thine, Our languid hearts inflame."
+    },
+    {
+      "number": 4,
+      "text": "Oh! then, on faith's sublimest wing, Our ardent souls shall rise, To those bright worlds where pleasures spring, Immortal in the skies."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["heaven", "aspiration", "faith", "divine light", "eternity"],
+    "themes": [
+      "heaven",
+      "aspiration",
+      "faith",
+      "divine light",
+      "eternity"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["harvest", "thanksgiving", "nature", "providence"],
+    "themes": [
+      "harvest",
+      "thanksgiving",
+      "nature",
+      "providence"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

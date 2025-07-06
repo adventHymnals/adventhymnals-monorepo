@@ -11,7 +11,7 @@
       "text": "Tell me the old, old story, Of unseen things above, Of Jesus and His glory, Of Jesus and His love; Tell me the story simply, As to a little child, For I am weak and weary, And helpless and defiled."
     },
     {
-      "number": "2", 
+      "number": "2",
       "text": "Tell me the story softly, With earnest tones and grave; Remember I'm the sinner Whom Jesus came to save; Tell me the story always, If you would really be, In any time of trouble, A comforter to me."
     },
     {
@@ -27,7 +27,13 @@
   "composer": "",
   "author": "",
   "page": 196,
-  "themes": ["Gospel Story", "Jesus", "Love", "Salvation", "Comfort"],
+  "themes": [
+    "Gospel Story",
+    "Jesus",
+    "Love",
+    "Salvation",
+    "Comfort"
+  ],
   "key_signature": "Bb",
   "time_signature": "4/4"
 }

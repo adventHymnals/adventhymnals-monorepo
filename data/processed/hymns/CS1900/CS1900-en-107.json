@@ -27,8 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["new birth", "salvation", "spiritual regeneration"],
-    "scripture_references": ["John 3:3"],
+    "themes": [
+      "new birth",
+      "salvation",
+      "spiritual regeneration"
+    ],
+    "scripture_references": [
+      "John 3:3"
+    ],
     "tune_source": "J. H. Burke",
     "original_language": "en",
     "verse_count": 3,

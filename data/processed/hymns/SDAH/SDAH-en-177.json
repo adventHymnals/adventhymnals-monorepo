@@ -29,8 +29,17 @@
   "metadata": {
     "year": 1739,
     "copyright": null,
-    "themes": ["righteousness", "blood_of_christ", "redemption", "justification", "salvation"],
-    "scripture_references": ["Isaiah 61:10", "Romans 3:21-26"],
+    "themes": [
+      "righteousness",
+      "blood_of_christ",
+      "redemption",
+      "justification",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Isaiah 61:10",
+      "Romans 3:21-26"
+    ],
     "tune_source": null,
     "original_language": "de"
   }

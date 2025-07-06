@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Scriptures", "angels", "divine preservation", "God's will", "faith and sight"],
+    "themes": [
+      "Holy Scriptures",
+      "angels",
+      "divine preservation",
+      "God's will",
+      "faith and sight"
+    ],
     "scripture_references": [],
     "tune_source": "675, 448, 147",
     "original_language": "en"

@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright owned by Jno. J. Hood. Used by permission.",
-    "themes": ["promises", "faith", "trust", "God's word"],
+    "themes": [
+      "promises",
+      "faith",
+      "trust",
+      "God's word"
+    ],
     "scripture_references": [],
     "tune_source": "R. K. Carter",
     "original_language": "en"

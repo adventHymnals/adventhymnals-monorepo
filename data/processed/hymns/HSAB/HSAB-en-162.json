@@ -25,7 +25,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Lamb of God", "worship", "kingdom", "millennium", "service", "praise"],
+    "themes": [
+      "Lamb of God",
+      "worship",
+      "kingdom",
+      "millennium",
+      "service",
+      "praise"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

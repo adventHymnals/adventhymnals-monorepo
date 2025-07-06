@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's refuge", "divine protection", "security", "God's omnipotence", "trust", "faith"],
+    "themes": [
+      "God's refuge",
+      "divine protection",
+      "security",
+      "God's omnipotence",
+      "trust",
+      "faith"
+    ],
     "scripture_references": [],
     "tune_source": "Isaac Watts",
     "original_language": "en"

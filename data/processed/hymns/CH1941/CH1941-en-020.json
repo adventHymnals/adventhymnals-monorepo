@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1848,
     "copyright": "Public Domain",
-    "themes": ["God's presence", "creation", "light", "worship"],
-    "scripture_references": ["Psalm 139:7-12", "1 John 1:5"],
+    "themes": [
+      "God's presence",
+      "creation",
+      "light",
+      "worship"
+    ],
+    "scripture_references": [
+      "Psalm 139:7-12",
+      "1 John 1:5"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

@@ -42,7 +42,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["lord coming", "jubilee", "tidings glad", "white garments", "watch and pray"],
+    "themes": [
+      "lord coming",
+      "jubilee",
+      "tidings glad",
+      "white garments",
+      "watch and pray"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -18,7 +18,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["New Jerusalem", "Pilgrimage", "King's Beauty", "Church of Firstborn"],
+    "themes": [
+      "New Jerusalem",
+      "Pilgrimage",
+      "King's Beauty",
+      "Church of Firstborn"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "8 lines 8s",
     "hymnal_context": "Millerite/Adventist movement hymnal",

@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1800,
     "copyright": "Public Domain",
-    "themes": ["heavenly music", "angels", "Jordan River", "heavenly home", "spiritual longing"],
-    "scripture_references": ["Revelation 14:2-3", "Luke 15:10", "Joshua 3:14-17"],
+    "themes": [
+      "heavenly music",
+      "angels",
+      "Jordan River",
+      "heavenly home",
+      "spiritual longing"
+    ],
+    "scripture_references": [
+      "Revelation 14:2-3",
+      "Luke 15:10",
+      "Joshua 3:14-17"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1746,
     "copyright": "Public Domain",
-    "themes": ["Kingship of Christ", "Joy", "Praise", "Second Coming"],
-    "scripture_references": ["Philippians 4:4", "Revelation 19:6"],
+    "themes": [
+      "Kingship of Christ",
+      "Joy",
+      "Praise",
+      "Second Coming"
+    ],
+    "scripture_references": [
+      "Philippians 4:4",
+      "Revelation 19:6"
+    ],
     "tune_source": "John Darwall, 1770",
     "original_language": "en"
   }

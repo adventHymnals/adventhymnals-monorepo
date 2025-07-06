@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["fall of babylon", "judgment", "deliverance", "second coming", "prophecy"],
+    "themes": [
+      "fall of babylon",
+      "judgment",
+      "deliverance",
+      "second coming",
+      "prophecy"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

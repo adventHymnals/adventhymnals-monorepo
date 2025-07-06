@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1892, by W. G. Cooper. Used by permission.",
-    "themes": ["peace", "rest", "Jesus", "love"],
+    "themes": [
+      "peace",
+      "rest",
+      "Jesus",
+      "love"
+    ],
     "scripture_references": [],
     "tune_source": "Rev. W. G. Cooper",
     "original_language": "en"

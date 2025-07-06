@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "God's mercy", "God's grace", "God's pity", "forgiveness"],
+    "themes": [
+      "praise",
+      "God's mercy",
+      "God's grace",
+      "God's pity",
+      "forgiveness"
+    ],
     "scripture_references": [],
     "tune_source": "601, 660, 256",
     "original_language": "en"

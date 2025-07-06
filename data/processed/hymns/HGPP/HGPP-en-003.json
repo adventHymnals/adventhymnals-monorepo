@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["heaven", "eternal life", "glory", "second coming", "celestial home"],
-    "scripture_references": ["Rev 21:1-4", "1 Cor 2:9", "Phil 3:20-21"],
+    "themes": [
+      "heaven",
+      "eternal life",
+      "glory",
+      "second coming",
+      "celestial home"
+    ],
+    "scripture_references": [
+      "Rev 21:1-4",
+      "1 Cor 2:9",
+      "Phil 3:20-21"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["salvation", "atonement", "refuge", "grace"],
-    "scripture_references": ["1 Corinthians 10:4", "John 19:34"],
+    "themes": [
+      "salvation",
+      "atonement",
+      "refuge",
+      "grace"
+    ],
+    "scripture_references": [
+      "1 Corinthians 10:4",
+      "John 19:34"
+    ],
     "tune_source": "Thomas Hastings",
     "original_language": "en"
   }

@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["gospel", "God's mercy", "divine wisdom", "spiritual guidance", "eternal life"],
+    "themes": [
+      "gospel",
+      "God's mercy",
+      "divine wisdom",
+      "spiritual guidance",
+      "eternal life"
+    ],
     "scripture_references": [],
     "tune_source": "219, 169, 51",
     "original_language": "en"

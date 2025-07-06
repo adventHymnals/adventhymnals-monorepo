@@ -32,8 +32,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "Jesus Christ", "coronation", "worship", "Jesus as Lord", "all nations praise"],
-    "scripture_references": ["Philippians 2:9-11", "Revelation 5:13"],
+    "themes": [
+      "praise",
+      "Jesus Christ",
+      "coronation",
+      "worship",
+      "Jesus as Lord",
+      "all nations praise"
+    ],
+    "scripture_references": [
+      "Philippians 2:9-11",
+      "Revelation 5:13"
+    ],
     "tune_source": "Oliver Holden",
     "original_language": "en"
   }

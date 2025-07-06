@@ -32,8 +32,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "ascension", "intercession", "atonement", "Christ's love"],
-    "scripture_references": ["Hebrews 7:25", "Romans 8:34"],
+    "themes": [
+      "praise",
+      "ascension",
+      "intercession",
+      "atonement",
+      "Christ's love"
+    ],
+    "scripture_references": [
+      "Hebrews 7:25",
+      "Romans 8:34"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

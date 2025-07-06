@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["human sinfulness", "spiritual bondage", "divine grace", "salvation", "trust in Christ"],
-    "scripture_references": ["Romans 3:23", "Ephesians 2:1-5", "Mark 9:24"],
+    "themes": [
+      "human sinfulness",
+      "spiritual bondage",
+      "divine grace",
+      "salvation",
+      "trust in Christ"
+    ],
+    "scripture_references": [
+      "Romans 3:23",
+      "Ephesians 2:1-5",
+      "Mark 9:24"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

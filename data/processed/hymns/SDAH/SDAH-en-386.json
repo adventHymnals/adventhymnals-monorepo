@@ -24,8 +24,16 @@
   "metadata": {
     "year": null,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "Creation", "Worship", "Restoration"],
-    "scripture_references": ["Genesis 2:2-3", "Revelation 21:1-4"],
+    "themes": [
+      "Sabbath",
+      "Creation",
+      "Worship",
+      "Restoration"
+    ],
+    "scripture_references": [
+      "Genesis 2:2-3",
+      "Revelation 21:1-4"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

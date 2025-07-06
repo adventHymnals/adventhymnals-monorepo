@@ -23,7 +23,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["surrender", "calling", "commitment"],
+    "themes": [
+      "surrender",
+      "calling",
+      "commitment"
+    ],
     "scripture_references": [],
     "tune_source": "Geo. C. Stebbins",
     "original_language": "en",

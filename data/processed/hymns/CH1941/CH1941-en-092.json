@@ -28,8 +28,16 @@
   "metadata": {
     "year": "[needs verification]",
     "copyright": "Public Domain",
-    "themes": ["Scripture", "God's love", "salvation", "Jesus"],
-    "scripture_references": ["John 3:16", "2 Timothy 3:16"],
+    "themes": [
+      "Scripture",
+      "God's love",
+      "salvation",
+      "Jesus"
+    ],
+    "scripture_references": [
+      "John 3:16",
+      "2 Timothy 3:16"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

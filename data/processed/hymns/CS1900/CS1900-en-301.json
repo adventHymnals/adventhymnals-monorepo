@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["dedication", "Jesus", "commitment", "discipleship"],
-    "scripture_references": ["Romans 12:1"],
+    "themes": [
+      "dedication",
+      "Jesus",
+      "commitment",
+      "discipleship"
+    ],
+    "scripture_references": [
+      "Romans 12:1"
+    ],
     "tune_source": "J. Stainer",
     "original_language": "en"
   }

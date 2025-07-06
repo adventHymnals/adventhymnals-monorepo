@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["presence", "comfort", "salvation", "Beloved", "voice"],
+    "themes": [
+      "presence",
+      "comfort",
+      "salvation",
+      "Beloved",
+      "voice"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "11s & 8s",

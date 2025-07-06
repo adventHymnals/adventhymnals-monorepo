@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["reunion", "heaven", "eternal friendship", "no parting"],
+    "themes": [
+      "reunion",
+      "heaven",
+      "eternal friendship",
+      "no parting"
+    ],
     "scripture_references": [],
     "tune_source": "J. S. Heal",
     "original_language": "en"

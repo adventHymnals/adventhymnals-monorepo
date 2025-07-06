@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Belshazzar", "judgment", "warning", "handwriting on wall", "accountability"],
-    "scripture_references": ["Daniel 5:1-31"],
+    "themes": [
+      "Belshazzar",
+      "judgment",
+      "warning",
+      "handwriting on wall",
+      "accountability"
+    ],
+    "scripture_references": [
+      "Daniel 5:1-31"
+    ],
     "tune_source": "P. P. Bliss",
     "original_language": "en"
   }

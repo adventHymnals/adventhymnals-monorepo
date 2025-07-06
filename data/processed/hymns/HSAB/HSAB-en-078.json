@@ -29,7 +29,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["time's farewell", "sleeping martyrs", "sleeping saints", "jubilee", "new jerusalem"],
+    "themes": [
+      "time's farewell",
+      "sleeping martyrs",
+      "sleeping saints",
+      "jubilee",
+      "new jerusalem"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

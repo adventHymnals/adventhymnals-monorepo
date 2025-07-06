@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["courage", "faith", "divine protection", "perseverance", "trials", "salvation"],
-    "scripture_references": ["Joshua 1:9", "Isaiah 41:10"],
+    "themes": [
+      "courage",
+      "faith",
+      "divine protection",
+      "perseverance",
+      "trials",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Joshua 1:9",
+      "Isaiah 41:10"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

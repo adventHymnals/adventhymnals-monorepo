@@ -27,7 +27,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1896, by J. R. Sartain.",
-    "themes": ["constant care", "God's love", "moment by moment"],
+    "themes": [
+      "constant care",
+      "God's love",
+      "moment by moment"
+    ],
     "scripture_references": [],
     "tune_source": "J. R. Sartain",
     "original_language": "en"

@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["christian uniform", "bread of life", "righteousness", "jesus' blood", "spiritual armor"],
+    "themes": [
+      "christian uniform",
+      "bread of life",
+      "righteousness",
+      "jesus' blood",
+      "spiritual armor"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["seeking truth", "ten commandments", "obedience", "sabbath", "divine law"],
+    "themes": [
+      "seeking truth",
+      "ten commandments",
+      "obedience",
+      "sabbath",
+      "divine law"
+    ],
     "scripture_references": [],
     "tune_source": "212, 216, 61",
     "original_language": "en"

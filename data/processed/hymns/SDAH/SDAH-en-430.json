@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1877,
     "copyright": "Public Domain",
-    "themes": ["heaven", "joy", "eternal life", "New Jerusalem", "harvest"],
-    "scripture_references": ["Matthew 13:39", "John 4:36", "Revelation 21:2"],
+    "themes": [
+      "heaven",
+      "joy",
+      "eternal life",
+      "New Jerusalem",
+      "harvest"
+    ],
+    "scripture_references": [
+      "Matthew 13:39",
+      "John 4:36",
+      "Revelation 21:2"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

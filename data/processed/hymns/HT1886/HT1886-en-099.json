@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["holiness", "worship", "God's majesty", "angels", "God's perfection"],
+    "themes": [
+      "holiness",
+      "worship",
+      "God's majesty",
+      "angels",
+      "God's perfection"
+    ],
     "scripture_references": [],
     "tune_source": "Nicea",
     "original_language": "en"

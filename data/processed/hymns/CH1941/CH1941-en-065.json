@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1818,
     "copyright": "Public Domain",
-    "themes": ["prayer", "communion with God", "Christian life", "devotion"],
-    "scripture_references": ["Romans 8:26", "Luke 11:1"],
+    "themes": [
+      "prayer",
+      "communion with God",
+      "Christian life",
+      "devotion"
+    ],
+    "scripture_references": [
+      "Romans 8:26",
+      "Luke 11:1"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

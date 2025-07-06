@@ -27,8 +27,17 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895, by F. E. Belden",
-    "themes": ["invitation", "rest", "comfort", "sorrow", "Jesus", "burden"],
-    "scripture_references": ["Matt. 11:28"],
+    "themes": [
+      "invitation",
+      "rest",
+      "comfort",
+      "sorrow",
+      "Jesus",
+      "burden"
+    ],
+    "scripture_references": [
+      "Matt. 11:28"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

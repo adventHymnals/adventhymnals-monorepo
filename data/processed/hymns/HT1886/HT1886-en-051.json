@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's refuge", "protection", "peace", "divine strength", "security", "God's word"],
+    "themes": [
+      "God's refuge",
+      "protection",
+      "peace",
+      "divine strength",
+      "security",
+      "God's word"
+    ],
     "scripture_references": [],
     "tune_source": "Miller, Lowell Mason",
     "original_language": "en"

@@ -26,7 +26,11 @@
     }
   ],
   "metadata": {
-    "themes": ["Trinity", "Worship", "Praise"],
+    "themes": [
+      "Trinity",
+      "Worship",
+      "Praise"
+    ],
     "scripture_references": [],
     "tune_source": "Italian Hymn",
     "original_language": "en"

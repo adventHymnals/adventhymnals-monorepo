@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "First Advent", "Christmas", "angels", "Palestine", "glory"],
+    "themes": [
+      "Christ",
+      "First Advent",
+      "Christmas",
+      "angels",
+      "Palestine",
+      "glory"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

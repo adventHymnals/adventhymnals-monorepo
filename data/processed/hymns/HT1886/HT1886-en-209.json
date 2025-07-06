@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["seeking God", "obedience", "God's word", "reverence", "salvation"],
-    "scripture_references": ["Psalm 119:11"],
+    "themes": [
+      "seeking God",
+      "obedience",
+      "God's word",
+      "reverence",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Psalm 119:11"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

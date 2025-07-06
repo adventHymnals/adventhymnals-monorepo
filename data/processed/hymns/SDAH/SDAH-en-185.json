@@ -31,7 +31,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["jesus_friendship", "devotion", "trust", "comfort", "loyalty"],
+    "themes": [
+      "jesus_friendship",
+      "devotion",
+      "trust",
+      "comfort",
+      "loyalty"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -27,7 +27,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1872, by R. Lowry. Used by permission.",
-    "themes": ["dependence on God", "prayer", "constant need"],
+    "themes": [
+      "dependence on God",
+      "prayer",
+      "constant need"
+    ],
     "scripture_references": [],
     "tune_source": "Rev. Robert Lowry",
     "original_language": "en"

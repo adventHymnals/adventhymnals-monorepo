@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1897, by E. O. Excell.",
-    "themes": ["gratitude", "blessings", "thanksgiving", "encouragement"],
+    "themes": [
+      "gratitude",
+      "blessings",
+      "thanksgiving",
+      "encouragement"
+    ],
     "scripture_references": [],
     "tune_source": "E. O. Excell",
     "original_language": "en"

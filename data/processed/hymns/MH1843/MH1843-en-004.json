@@ -16,7 +16,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Journey to Heaven", "Children of God", "Blessed Hope", "Encouragement"],
+    "themes": [
+      "Journey to Heaven",
+      "Children of God",
+      "Blessed Hope",
+      "Encouragement"
+    ],
     "musical_notation": "Text only on this page",
     "tempo_marking": "None specified",
     "hymnal_context": "Millerite/Adventist movement hymnal",

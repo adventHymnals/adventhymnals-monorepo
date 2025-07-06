@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Life and Character", "healing", "spiritual blindness", "following Christ"],
+    "themes": [
+      "Christ",
+      "Life and Character",
+      "healing",
+      "spiritual blindness",
+      "following Christ"
+    ],
     "scripture_references": [],
     "tune_source": "215, 196, 514",
     "original_language": "en"

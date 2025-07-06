@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1885, by Wm. A. Thompson & Co. Not copyrighted",
-    "themes": ["calling", "pleading", "tarry", "Jesus", "come", "home", "waiting"],
-    "scripture_references": ["Isa. 55:3"],
+    "themes": [
+      "calling",
+      "pleading",
+      "tarry",
+      "Jesus",
+      "come",
+      "home",
+      "waiting"
+    ],
+    "scripture_references": [
+      "Isa. 55:3"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

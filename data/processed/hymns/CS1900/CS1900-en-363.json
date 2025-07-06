@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Sabbath", "worship", "morning", "spiritual renewal"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "morning",
+      "spiritual renewal"
+    ],
     "scripture_references": [],
     "tune_source": "F. Schneider",
     "original_language": "en"

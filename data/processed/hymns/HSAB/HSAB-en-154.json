@@ -34,7 +34,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Second Coming", "joy", "waiting", "promise", "patience", "glory", "heaven"],
+    "themes": [
+      "Second Coming",
+      "joy",
+      "waiting",
+      "promise",
+      "patience",
+      "glory",
+      "heaven"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

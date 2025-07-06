@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["brotherhood", "unity", "divine blessing", "peace"],
+    "themes": [
+      "brotherhood",
+      "unity",
+      "divine blessing",
+      "peace"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

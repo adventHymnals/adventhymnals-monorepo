@@ -34,7 +34,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["beyond the river", "Jordan", "Christ", "paradise", "eternal life"],
+    "themes": [
+      "beyond the river",
+      "Jordan",
+      "Christ",
+      "paradise",
+      "eternal life"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "8s & 7s"

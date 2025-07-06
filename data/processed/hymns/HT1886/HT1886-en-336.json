@@ -44,7 +44,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Resurrection and Ascension", "triumph", "victory", "glory", "eternal life"],
+    "themes": [
+      "Christ",
+      "Resurrection and Ascension",
+      "triumph",
+      "victory",
+      "glory",
+      "eternal life"
+    ],
     "scripture_references": [],
     "tune_source": "229, 756, 843",
     "original_language": "en"

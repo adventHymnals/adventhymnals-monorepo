@@ -33,8 +33,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright by Ira D. Sankey.",
-    "themes": ["lost sheep", "redemption", "Christ's love", "salvation"],
-    "scripture_references": ["Luke 15:3-7"],
+    "themes": [
+      "lost sheep",
+      "redemption",
+      "Christ's love",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Luke 15:3-7"
+    ],
     "tune_source": "P. P. Bliss",
     "original_language": "en"
   }

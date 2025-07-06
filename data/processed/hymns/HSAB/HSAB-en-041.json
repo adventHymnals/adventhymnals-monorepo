@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["watchman", "night", "dawn", "prince of peace", "hope"],
+    "themes": [
+      "watchman",
+      "night",
+      "dawn",
+      "prince of peace",
+      "hope"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

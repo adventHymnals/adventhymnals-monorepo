@@ -32,8 +32,18 @@
   "metadata": {
     "year": 1983,
     "copyright": "Copyright 1983 Hope Publishing Co.",
-    "themes": ["celebration of life", "joy", "love", "God's love", "human experience"],
-    "scripture_references": ["Ecclesiastes 3:1-8", "1 John 4:16", "Romans 5:8"],
+    "themes": [
+      "celebration of life",
+      "joy",
+      "love",
+      "God's love",
+      "human experience"
+    ],
+    "scripture_references": [
+      "Ecclesiastes 3:1-8",
+      "1 John 4:16",
+      "Romans 5:8"
+    ],
     "tune_source": "Peter Cutts",
     "original_language": "en"
   }

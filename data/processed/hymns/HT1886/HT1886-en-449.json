@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["mercy", "trust", "burden bearing", "weakness", "faith"],
-    "scripture_references": ["Psalm 51"],
+    "themes": [
+      "mercy",
+      "trust",
+      "burden bearing",
+      "weakness",
+      "faith"
+    ],
+    "scripture_references": [
+      "Psalm 51"
+    ],
     "tune_source": "179, 354, 714",
     "original_language": "en"
   }

@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1820,
     "copyright": "Public Domain",
-    "themes": ["evening", "protection", "trust", "eternal hope"],
-    "scripture_references": ["Psalm 91:5-6", "Psalm 121:3-4"],
+    "themes": [
+      "evening",
+      "protection",
+      "trust",
+      "eternal hope"
+    ],
+    "scripture_references": [
+      "Psalm 91:5-6",
+      "Psalm 121:3-4"
+    ],
     "tune_source": "Evening Prayer, George Coles Stebbins, 1878",
     "original_language": "en"
   }

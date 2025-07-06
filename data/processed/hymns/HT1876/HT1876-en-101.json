@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["peaceful day", "Sabbath", "rest", "creation", "worship"],
+    "themes": [
+      "peaceful day",
+      "Sabbath",
+      "rest",
+      "creation",
+      "worship"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. P. M."

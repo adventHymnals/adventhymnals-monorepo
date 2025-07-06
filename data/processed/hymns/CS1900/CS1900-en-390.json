@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["surrender", "willingness", "obedience", "service"],
+    "themes": [
+      "surrender",
+      "willingness",
+      "obedience",
+      "service"
+    ],
     "scripture_references": [],
     "tune_source": "Charles E. Rounsefell",
     "original_language": "en"

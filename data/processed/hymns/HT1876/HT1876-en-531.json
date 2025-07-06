@@ -18,7 +18,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["grace", "Trinity", "union", "communion", "blessing"],
+    "themes": [
+      "grace",
+      "Trinity",
+      "union",
+      "communion",
+      "blessing"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "8s & 7s"

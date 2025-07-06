@@ -27,8 +27,16 @@
   "metadata": {
     "year": null,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "Creation", "Rest", "Holiness"],
-    "scripture_references": ["Genesis 2:2-3", "Mark 2:27"],
+    "themes": [
+      "Sabbath",
+      "Creation",
+      "Rest",
+      "Holiness"
+    ],
+    "scripture_references": [
+      "Genesis 2:2-3",
+      "Mark 2:27"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

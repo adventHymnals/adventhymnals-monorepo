@@ -14,8 +14,14 @@
     }
   ],
   "metadata": {
-    "themes": ["amen", "worship", "conclusion"],
-    "scripture_references": ["[to be determined]"],
+    "themes": [
+      "amen",
+      "worship",
+      "conclusion"
+    ],
+    "scripture_references": [
+      "[to be determined]"
+    ],
     "copyright": "Public Domain"
   }
 }

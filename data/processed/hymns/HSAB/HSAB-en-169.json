@@ -21,7 +21,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["love", "worship", "glory", "eternity", "redeeming love", "throne", "home"],
+    "themes": [
+      "love",
+      "worship",
+      "glory",
+      "eternity",
+      "redeeming love",
+      "throne",
+      "home"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

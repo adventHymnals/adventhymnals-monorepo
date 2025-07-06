@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Scriptures", "divine inspiration", "spiritual guidance", "eternal light", "comfort"],
+    "themes": [
+      "Holy Scriptures",
+      "divine inspiration",
+      "spiritual guidance",
+      "eternal light",
+      "comfort"
+    ],
     "scripture_references": [],
     "tune_source": "179, 227, 147",
     "original_language": "en"

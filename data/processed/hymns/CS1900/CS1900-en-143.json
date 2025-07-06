@@ -29,8 +29,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["persistence", "blessing", "wrestling with God"],
-    "scripture_references": ["Genesis 32:26"],
+    "themes": [
+      "persistence",
+      "blessing",
+      "wrestling with God"
+    ],
+    "scripture_references": [
+      "Genesis 32:26"
+    ],
     "tune_source": "R. H. Prichard",
     "original_language": "en"
   }

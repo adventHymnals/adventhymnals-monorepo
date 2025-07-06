@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1877,
     "copyright": "Public Domain",
-    "themes": ["sonship", "inheritance", "heavenly riches", "adoption", "royal identity"],
-    "scripture_references": ["Romans 8:17", "1 John 3:1", "Ephesians 1:5"],
+    "themes": [
+      "sonship",
+      "inheritance",
+      "heavenly riches",
+      "adoption",
+      "royal identity"
+    ],
+    "scripture_references": [
+      "Romans 8:17",
+      "1 John 3:1",
+      "Ephesians 1:5"
+    ],
     "tune_source": "John B. Sumner",
     "original_language": "en"
   }

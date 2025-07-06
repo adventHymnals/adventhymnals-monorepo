@@ -4,17 +4,34 @@
   "title": "How perfect is thy word",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "How perfect is thy word, Thy judgments all are just; And ever in thy promise, Lord, May man securely trust."},
-    {"number": 2, "text": "I hear thy word in love, In faith thy word receive; Oh, grant me grace from above, To teach me, Lord, thy way."},
-    {"number": 3, "text": "Thy testimonies, Lord, are true, Thy precepts all are pure; And long as Heaven and earth remain, The truth shall still endure."},
-    {"number": 4, "text": "Oh! may my soul with joy Trust in thy faithful word; Be it through life my chief employ, To keep thy precepts, Lord."}
+    {
+      "number": 1,
+      "text": "How perfect is thy word, Thy judgments all are just; And ever in thy promise, Lord, May man securely trust."
+    },
+    {
+      "number": 2,
+      "text": "I hear thy word in love, In faith thy word receive; Oh, grant me grace from above, To teach me, Lord, thy way."
+    },
+    {
+      "number": 3,
+      "text": "Thy testimonies, Lord, are true, Thy precepts all are pure; And long as Heaven and earth remain, The truth shall still endure."
+    },
+    {
+      "number": 4,
+      "text": "Oh! may my soul with joy Trust in thy faithful word; Be it through life my chief employ, To keep thy precepts, Lord."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["God's word", "Scripture", "truth", "commandments"],
+    "themes": [
+      "God's word",
+      "Scripture",
+      "truth",
+      "commandments"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

@@ -28,8 +28,15 @@
   "metadata": {
     "year": 1663,
     "copyright": "Public Domain",
-    "themes": ["communion", "Lord's Supper", "love of Christ", "remembrance"],
-    "scripture_references": ["1 Corinthians 11:23-26"],
+    "themes": [
+      "communion",
+      "Lord's Supper",
+      "love of Christ",
+      "remembrance"
+    ],
+    "scripture_references": [
+      "1 Corinthians 11:23-26"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "de",
     "translator": "[needs verification]"

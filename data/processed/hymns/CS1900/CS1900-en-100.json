@@ -25,8 +25,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["refuge", "cleansing", "mercy"],
-    "scripture_references": ["Psalm 11:1"],
+    "themes": [
+      "refuge",
+      "cleansing",
+      "mercy"
+    ],
+    "scripture_references": [
+      "Psalm 11:1"
+    ],
     "tune_source": "J. P. Webster",
     "original_language": "en",
     "verse_count": 3,

@@ -20,7 +20,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Resurrection and Ascension", "assurance", "eternal life", "blessing", "intercession"],
+    "themes": [
+      "Christ",
+      "Resurrection and Ascension",
+      "assurance",
+      "eternal life",
+      "blessing",
+      "intercession"
+    ],
     "scripture_references": [],
     "tune_source": "223, 84, 59",
     "original_language": "en"

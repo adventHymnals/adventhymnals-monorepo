@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["faith", "perseverance", "spiritual warfare", "trust"],
-    "scripture_references": ["1 Timothy 6:12"],
+    "themes": [
+      "faith",
+      "perseverance",
+      "spiritual warfare",
+      "trust"
+    ],
+    "scripture_references": [
+      "1 Timothy 6:12"
+    ],
     "tune_source": "Doudney",
     "original_language": "en"
   }

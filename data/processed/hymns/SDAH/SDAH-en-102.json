@@ -29,8 +29,15 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["protection", "trust", "divine_care", "psalm_121"],
-    "scripture_references": ["Psalm 121"],
+    "themes": [
+      "protection",
+      "trust",
+      "divine_care",
+      "psalm_121"
+    ],
+    "scripture_references": [
+      "Psalm 121"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

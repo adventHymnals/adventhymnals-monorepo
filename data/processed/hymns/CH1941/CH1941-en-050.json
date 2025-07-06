@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1847,
     "copyright": "Public Domain",
-    "themes": ["evening", "comfort", "companionship", "death"],
-    "scripture_references": ["Luke 24:29", "Hebrews 13:5"],
+    "themes": [
+      "evening",
+      "comfort",
+      "companionship",
+      "death"
+    ],
+    "scripture_references": [
+      "Luke 24:29",
+      "Hebrews 13:5"
+    ],
     "tune_source": "Eventide, William Henry Monk, 1861",
     "original_language": "en"
   }

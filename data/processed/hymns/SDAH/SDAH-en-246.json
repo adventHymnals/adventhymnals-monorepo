@@ -27,7 +27,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Lamb of God", "Worthy", "Praise", "Glory", "Hallelujah"],
+    "themes": [
+      "Lamb of God",
+      "Worthy",
+      "Praise",
+      "Glory",
+      "Hallelujah"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

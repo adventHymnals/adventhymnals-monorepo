@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Sufferings and Death", "universal love", "forgiveness", "salvation", "grace"],
+    "themes": [
+      "Christ",
+      "Sufferings and Death",
+      "universal love",
+      "forgiveness",
+      "salvation",
+      "grace"
+    ],
     "scripture_references": [],
     "tune_source": "284, 689, 706",
     "original_language": "en"

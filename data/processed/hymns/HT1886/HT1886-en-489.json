@@ -16,8 +16,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Copyrighted 1886 by F. E. Belden",
-    "themes": ["salvation", "cross", "healing"],
-    "scripture_references": ["Numbers 21:8"],
+    "themes": [
+      "salvation",
+      "cross",
+      "healing"
+    ],
+    "scripture_references": [
+      "Numbers 21:8"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en",
     "extraction_status": "metadata_only_copyright_protected"

@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["salvation", "urgency", "mercy", "Spirit", "eternity"],
+    "themes": [
+      "salvation",
+      "urgency",
+      "mercy",
+      "Spirit",
+      "eternity"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "11s"

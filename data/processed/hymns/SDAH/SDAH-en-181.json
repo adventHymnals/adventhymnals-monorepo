@@ -27,8 +27,17 @@
   "metadata": {
     "year": 1901,
     "copyright": null,
-    "themes": ["comfort", "caring", "grief", "assurance", "jesus_care"],
-    "scripture_references": ["1 Peter 5:7", "Hebrews 4:15"],
+    "themes": [
+      "comfort",
+      "caring",
+      "grief",
+      "assurance",
+      "jesus_care"
+    ],
+    "scripture_references": [
+      "1 Peter 5:7",
+      "Hebrews 4:15"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

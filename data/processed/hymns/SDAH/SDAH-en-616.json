@@ -25,8 +25,15 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["spiritual warfare", "Christian soldier", "strength", "victory"],
-    "scripture_references": ["Ephesians 6:10-18"],
+    "themes": [
+      "spiritual warfare",
+      "Christian soldier",
+      "strength",
+      "victory"
+    ],
+    "scripture_references": [
+      "Ephesians 6:10-18"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

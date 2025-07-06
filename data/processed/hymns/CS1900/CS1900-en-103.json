@@ -23,8 +23,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["remembrance", "prayer", "salvation"],
-    "scripture_references": ["Luke 23:42"],
+    "themes": [
+      "remembrance",
+      "prayer",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Luke 23:42"
+    ],
     "tune_source": "J. H. Burke",
     "original_language": "en",
     "verse_count": 2,

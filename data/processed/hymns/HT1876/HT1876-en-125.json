@@ -4,17 +4,35 @@
   "title": "O sinner, make thy choice to-day!",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "O sinner, make thy choice to-day! Soon will the Judge appear; And then thy cries will sound too late; Too late for God to hear."},
-    {"number": 2, "text": "The day of mercy gone, The Spirit grieved away; The cup, long filling, now o'erflown, Proclaims the vengeful day."},
-    {"number": 3, "text": "Thy God, insulted, scorns To draw his glittering sword; And from thy guilty head to pour The vials of the Lord."},
-    {"number": 4, "text": "One only hope I see; One only refuge know; The blood that Jesus shed for thee! No other hope but thou."}
+    {
+      "number": 1,
+      "text": "O sinner, make thy choice to-day! Soon will the Judge appear; And then thy cries will sound too late; Too late for God to hear."
+    },
+    {
+      "number": 2,
+      "text": "The day of mercy gone, The Spirit grieved away; The cup, long filling, now o'erflown, Proclaims the vengeful day."
+    },
+    {
+      "number": 3,
+      "text": "Thy God, insulted, scorns To draw his glittering sword; And from thy guilty head to pour The vials of the Lord."
+    },
+    {
+      "number": 4,
+      "text": "One only hope I see; One only refuge know; The blood that Jesus shed for thee! No other hope but thou."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["repentance", "judgment", "mercy", "Jesus' blood", "salvation"],
+    "themes": [
+      "repentance",
+      "judgment",
+      "mercy",
+      "Jesus' blood",
+      "salvation"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

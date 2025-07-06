@@ -4,17 +4,35 @@
   "title": "How sweet the name of Jesus sounds",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "How sweet the name of Jesus sounds In sinful man! 'twas death and hell! Eternal death, destruction sure— Who, who, what portion could endure!"},
-    {"number": 2, "text": "But O! the second Adam's name! Redemption comes, Good news, they cry— The holy throng,—let mortal man Descends to earth, God's holy Son."},
-    {"number": 3, "text": "And dies for man, then lives again, A victor he the foe hath slain; Abolished death,—oh, wondrous plan! Salvation brought to fallen man."},
-    {"number": 4, "text": "Oh! may we be the truly wise, Who seek with all our hearts this prize; Content no more for earth's renown, But look for an immortal crown."}
+    {
+      "number": 1,
+      "text": "How sweet the name of Jesus sounds In sinful man! 'twas death and hell! Eternal death, destruction sure— Who, who, what portion could endure!"
+    },
+    {
+      "number": 2,
+      "text": "But O! the second Adam's name! Redemption comes, Good news, they cry— The holy throng,—let mortal man Descends to earth, God's holy Son."
+    },
+    {
+      "number": 3,
+      "text": "And dies for man, then lives again, A victor he the foe hath slain; Abolished death,—oh, wondrous plan! Salvation brought to fallen man."
+    },
+    {
+      "number": 4,
+      "text": "Oh! may we be the truly wise, Who seek with all our hearts this prize; Content no more for earth's renown, But look for an immortal crown."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Jesus' name", "salvation", "redemption", "victory over death", "eternal life"],
+    "themes": [
+      "Jesus' name",
+      "salvation",
+      "redemption",
+      "victory over death",
+      "eternal life"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

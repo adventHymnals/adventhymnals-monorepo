@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Words of Life", "Gospel", "Scripture", "Beauty"],
+    "themes": [
+      "Words of Life",
+      "Gospel",
+      "Scripture",
+      "Beauty"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

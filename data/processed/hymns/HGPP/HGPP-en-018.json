@@ -32,8 +32,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["second coming", "bright morning", "bridegroom", "resurrection", "trumpet"],
-    "scripture_references": ["1 Thess 4:16-17", "Rev 19:7-9", "Matt 25:1-13"],
+    "themes": [
+      "second coming",
+      "bright morning",
+      "bridegroom",
+      "resurrection",
+      "trumpet"
+    ],
+    "scripture_references": [
+      "1 Thess 4:16-17",
+      "Rev 19:7-9",
+      "Matt 25:1-13"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

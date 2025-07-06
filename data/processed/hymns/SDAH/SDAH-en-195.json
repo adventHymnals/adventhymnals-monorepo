@@ -31,8 +31,16 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["blessing", "revival", "rain", "mercy", "prayer"],
-    "scripture_references": ["Ezekiel 34:26"],
+    "themes": [
+      "blessing",
+      "revival",
+      "rain",
+      "mercy",
+      "prayer"
+    ],
+    "scripture_references": [
+      "Ezekiel 34:26"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

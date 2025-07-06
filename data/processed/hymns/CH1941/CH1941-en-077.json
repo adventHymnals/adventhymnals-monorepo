@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1906,
     "copyright": "Public Domain",
-    "themes": ["angels", "saints", "heavenly worship", "alleluia"],
-    "scripture_references": ["Revelation 4:6-8", "Luke 1:46-47"],
+    "themes": [
+      "angels",
+      "saints",
+      "heavenly worship",
+      "alleluia"
+    ],
+    "scripture_references": [
+      "Revelation 4:6-8",
+      "Luke 1:46-47"
+    ],
     "tune_source": "Lasst uns erfreuen, Ralph Vaughan Williams, 1906",
     "original_language": "en"
   }

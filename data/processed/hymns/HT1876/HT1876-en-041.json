@@ -4,17 +4,34 @@
   "title": "O Thou, to whom, in ancient time",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "O Thou, to whom, in ancient time, The psalmist's sacred harp was strung, Whom kings adored in song sublime, And prophets praised with glowing tongue,—"},
-    {"number": 2, "text": "Not now on Zion's height alone Thy favored worshippers may dwell, Nor where, at sultry noon, thy Son Sat weary by the patriarch's well."},
-    {"number": 3, "text": "From every place below the skies, The grateful song, the fervent prayer, The incense of the heart, may rise To Heaven, and find acceptance there."},
-    {"number": 4, "text": "To Thee shall age, with snowy hair, And strength, and beauty, bend the knee, And childhood lisp, with reverent air, Its praises and its prayers to thee."}
+    {
+      "number": 1,
+      "text": "O Thou, to whom, in ancient time, The psalmist's sacred harp was strung, Whom kings adored in song sublime, And prophets praised with glowing tongue,—"
+    },
+    {
+      "number": 2,
+      "text": "Not now on Zion's height alone Thy favored worshippers may dwell, Nor where, at sultry noon, thy Son Sat weary by the patriarch's well."
+    },
+    {
+      "number": 3,
+      "text": "From every place below the skies, The grateful song, the fervent prayer, The incense of the heart, may rise To Heaven, and find acceptance there."
+    },
+    {
+      "number": 4,
+      "text": "To Thee shall age, with snowy hair, And strength, and beauty, bend the knee, And childhood lisp, with reverent air, Its praises and its prayers to thee."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["worship", "universal praise", "prayer", "all ages"],
+    "themes": [
+      "worship",
+      "universal praise",
+      "prayer",
+      "all ages"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

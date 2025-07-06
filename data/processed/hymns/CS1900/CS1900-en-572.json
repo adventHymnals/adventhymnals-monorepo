@@ -23,8 +23,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1900, by Herbert R. Main. Used by permission",
-    "themes": ["glory", "eternal life", "pleasures", "bright forever", "summer land"],
-    "scripture_references": ["Ps. 16:11"],
+    "themes": [
+      "glory",
+      "eternal life",
+      "pleasures",
+      "bright forever",
+      "summer land"
+    ],
+    "scripture_references": [
+      "Ps. 16:11"
+    ],
     "tune_source": "Herbert R. Main",
     "original_language": "en"
   }

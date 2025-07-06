@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1890,
     "copyright": "Public Domain",
-    "themes": ["Harvest", "Evangelism", "Work", "Mission"],
-    "scripture_references": ["Matthew 9:37-38", "John 4:35"],
+    "themes": [
+      "Harvest",
+      "Evangelism",
+      "Work",
+      "Mission"
+    ],
+    "scripture_references": [
+      "Matthew 9:37-38",
+      "John 4:35"
+    ],
     "tune_source": "J. H. Burke, 1890",
     "original_language": "en"
   }

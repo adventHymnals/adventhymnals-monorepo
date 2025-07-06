@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["burdened soul", "sins", "Friend who died", "cross", "peace"],
+    "themes": [
+      "burdened soul",
+      "sins",
+      "Friend who died",
+      "cross",
+      "peace"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

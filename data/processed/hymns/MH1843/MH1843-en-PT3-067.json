@@ -31,7 +31,14 @@
   "composer": "",
   "author": "",
   "page": 206,
-  "themes": ["Charge", "God", "Soul", "Service", "Calling", "Duty"],
+  "themes": [
+    "Charge",
+    "God",
+    "Soul",
+    "Service",
+    "Calling",
+    "Duty"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

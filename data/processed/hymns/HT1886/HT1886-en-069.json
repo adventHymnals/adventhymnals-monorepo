@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's providence", "seasons", "nature's cycles", "praise", "thanksgiving", "worship"],
+    "themes": [
+      "God's providence",
+      "seasons",
+      "nature's cycles",
+      "praise",
+      "thanksgiving",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": "Philip Doddridge",
     "original_language": "en"

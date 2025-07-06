@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1820,
     "copyright": "Public Domain",
-    "themes": ["praise", "salvation", "grace", "redemption"],
-    "scripture_references": ["Ephesians 2:8-9", "1 Peter 2:9"],
+    "themes": [
+      "praise",
+      "salvation",
+      "grace",
+      "redemption"
+    ],
+    "scripture_references": [
+      "Ephesians 2:8-9",
+      "1 Peter 2:9"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

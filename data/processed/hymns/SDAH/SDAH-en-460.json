@@ -24,8 +24,17 @@
   "metadata": {
     "year": 1979,
     "copyright": "Copyright 1979 Hope Publishing Co.",
-    "themes": ["Christ's comfort", "spiritual refreshment", "divine provision", "metaphorical imagery"],
-    "scripture_references": ["John 7:37-38", "Isaiah 55:1", "Psalm 42:1-2"],
+    "themes": [
+      "Christ's comfort",
+      "spiritual refreshment",
+      "divine provision",
+      "metaphorical imagery"
+    ],
+    "scripture_references": [
+      "John 7:37-38",
+      "Isaiah 55:1",
+      "Psalm 42:1-2"
+    ],
     "tune_source": "T. Brian Coleman",
     "original_language": "en"
   }

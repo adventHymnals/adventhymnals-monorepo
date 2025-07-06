@@ -25,8 +25,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["protection", "guardian", "trust", "psalm"],
-    "scripture_references": ["Psalm 121"],
+    "themes": [
+      "protection",
+      "guardian",
+      "trust",
+      "psalm"
+    ],
+    "scripture_references": [
+      "Psalm 121"
+    ],
     "tune_source": "Arr. from Mornington",
     "original_language": "en"
   }

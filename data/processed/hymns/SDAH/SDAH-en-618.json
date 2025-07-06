@@ -29,8 +29,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["spiritual warfare", "Christian courage", "victory", "perseverance"],
-    "scripture_references": ["Ephesians 6:10-18", "1 Corinthians 16:13"],
+    "themes": [
+      "spiritual warfare",
+      "Christian courage",
+      "victory",
+      "perseverance"
+    ],
+    "scripture_references": [
+      "Ephesians 6:10-18",
+      "1 Corinthians 16:13"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

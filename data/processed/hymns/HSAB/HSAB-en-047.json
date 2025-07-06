@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["longing for heaven", "mortality", "eternal home", "hope", "glory"],
+    "themes": [
+      "longing for heaven",
+      "mortality",
+      "eternal home",
+      "hope",
+      "glory"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

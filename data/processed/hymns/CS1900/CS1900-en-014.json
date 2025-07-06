@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895. Used by permission",
-    "themes": ["life", "look", "cross", "Crucified", "salvation", "faith", "tree"],
-    "scripture_references": ["Isa. 45:22"],
+    "themes": [
+      "life",
+      "look",
+      "cross",
+      "Crucified",
+      "salvation",
+      "faith",
+      "tree"
+    ],
+    "scripture_references": [
+      "Isa. 45:22"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

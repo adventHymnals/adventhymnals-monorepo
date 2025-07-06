@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["joy", "praise", "Creator", "thanksgiving", "worship"],
+    "themes": [
+      "joy",
+      "praise",
+      "Creator",
+      "thanksgiving",
+      "worship"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "11s & 8s"

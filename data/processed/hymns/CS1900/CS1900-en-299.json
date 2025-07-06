@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["dismissal", "blessing", "faithfulness", "gospel"],
-    "scripture_references": ["Numbers 6:24-26"],
+    "themes": [
+      "dismissal",
+      "blessing",
+      "faithfulness",
+      "gospel"
+    ],
+    "scripture_references": [
+      "Numbers 6:24-26"
+    ],
     "tune_source": "L. J. Hayward",
     "original_language": "en"
   }

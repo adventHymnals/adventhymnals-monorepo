@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "By permission",
-    "themes": ["mighty", "save", "Jesus", "name", "power", "righteousness", "strength"],
-    "scripture_references": ["Isa. 63:1"],
+    "themes": [
+      "mighty",
+      "save",
+      "Jesus",
+      "name",
+      "power",
+      "righteousness",
+      "strength"
+    ],
+    "scripture_references": [
+      "Isa. 63:1"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

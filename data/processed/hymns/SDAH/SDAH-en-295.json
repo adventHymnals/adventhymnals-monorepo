@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Chief of Sinners", "Jesus' Love", "Salvation", "Eternal Life"],
+    "themes": [
+      "Chief of Sinners",
+      "Jesus' Love",
+      "Salvation",
+      "Eternal Life"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

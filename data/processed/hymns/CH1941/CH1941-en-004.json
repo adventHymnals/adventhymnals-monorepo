@@ -28,8 +28,15 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["reverence", "worship", "God's power", "nature"],
-    "scripture_references": ["Psalm 89"],
+    "themes": [
+      "reverence",
+      "worship",
+      "God's power",
+      "nature"
+    ],
+    "scripture_references": [
+      "Psalm 89"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

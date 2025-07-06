@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["God's nearness", "comfort", "trust", "guidance"],
+    "themes": [
+      "God's nearness",
+      "comfort",
+      "trust",
+      "guidance"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -29,7 +29,13 @@
   "metadata": {
     "year": 1975,
     "copyright": "rev. 1995 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["resurrection", "christ_alive", "worship", "love", "victory"],
+    "themes": [
+      "resurrection",
+      "christ_alive",
+      "worship",
+      "love",
+      "victory"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

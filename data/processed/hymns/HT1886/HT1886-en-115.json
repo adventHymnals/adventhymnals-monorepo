@@ -20,7 +20,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "Jesus Christ", "trust", "grace", "testimony"],
+    "themes": [
+      "praise",
+      "Jesus Christ",
+      "trust",
+      "grace",
+      "testimony"
+    ],
     "scripture_references": [],
     "tune_source": "227, 546, 747",
     "original_language": "en"

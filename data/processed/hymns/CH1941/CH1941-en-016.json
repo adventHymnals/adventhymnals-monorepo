@@ -24,8 +24,15 @@
   "metadata": {
     "year": 1834,
     "copyright": "Public Domain",
-    "themes": ["praise", "alleluia", "creation", "mercy"],
-    "scripture_references": ["Psalm 150"],
+    "themes": [
+      "praise",
+      "alleluia",
+      "creation",
+      "mercy"
+    ],
+    "scripture_references": [
+      "Psalm 150"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

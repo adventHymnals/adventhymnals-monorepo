@@ -35,7 +35,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["grace", "salvation", "redemption", "eternity"],
+    "themes": [
+      "grace",
+      "salvation",
+      "redemption",
+      "eternity"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

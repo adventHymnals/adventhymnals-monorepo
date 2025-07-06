@@ -26,7 +26,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Christian warfare", "soldier", "Jesus as Captain", "cross", "faith", "holiness", "victory"],
+    "themes": [
+      "Christian warfare",
+      "soldier",
+      "Jesus as Captain",
+      "cross",
+      "faith",
+      "holiness",
+      "victory"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

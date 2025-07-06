@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "By permission of Prof. H. R. Palmer.",
-    "themes": ["temptation", "perseverance", "faith", "victory"],
+    "themes": [
+      "temptation",
+      "perseverance",
+      "faith",
+      "victory"
+    ],
     "scripture_references": [],
     "tune_source": "H. R. Palmer",
     "original_language": "en"

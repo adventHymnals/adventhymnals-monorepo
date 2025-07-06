@@ -33,8 +33,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["worship", "God's majesty", "creation", "divine power"],
-    "scripture_references": ["Psalm 104:1"],
+    "themes": [
+      "worship",
+      "God's majesty",
+      "creation",
+      "divine power"
+    ],
+    "scripture_references": [
+      "Psalm 104:1"
+    ],
     "tune_source": "J. M. Haydn",
     "original_language": "en"
   }

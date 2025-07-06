@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "source of light", "truth", "guidance", "redeeming love", "spiritual enlightenment"],
-    "scripture_references": ["John 16:13", "Ephesians 1:18"],
+    "themes": [
+      "Holy Spirit",
+      "source of light",
+      "truth",
+      "guidance",
+      "redeeming love",
+      "spiritual enlightenment"
+    ],
+    "scripture_references": [
+      "John 16:13",
+      "Ephesians 1:18"
+    ],
     "tune_source": "168, 212, 215",
     "original_language": "en"
   }

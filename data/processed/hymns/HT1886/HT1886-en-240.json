@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "rest", "blessing", "prayer"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "rest",
+      "blessing",
+      "prayer"
+    ],
     "scripture_references": [],
     "tune_source": "Pleyel, 7s., Ignace Pleyel",
     "original_language": "en"

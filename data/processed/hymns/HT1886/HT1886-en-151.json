@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "spiritual awakening", "divine light", "faith", "sanctification"],
+    "themes": [
+      "Holy Spirit",
+      "spiritual awakening",
+      "divine light",
+      "faith",
+      "sanctification"
+    ],
     "scripture_references": [],
     "tune_source": "Boylston, Lowell Mason",
     "original_language": "en"

@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Christian Character", "Christlikeness", "Discipleship", "Sanctification"],
+    "themes": [
+      "Christian Character",
+      "Christlikeness",
+      "Discipleship",
+      "Sanctification"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

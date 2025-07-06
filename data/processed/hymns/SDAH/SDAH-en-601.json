@@ -26,8 +26,16 @@
     }
   ],
   "metadata": {
-    "themes": ["watchfulness", "second coming", "hope", "vigilance"],
-    "scripture_references": ["Isaiah 62:6", "Habakkuk 2:1"],
+    "themes": [
+      "watchfulness",
+      "second coming",
+      "hope",
+      "vigilance"
+    ],
+    "scripture_references": [
+      "Isaiah 62:6",
+      "Habakkuk 2:1"
+    ],
     "copyright": "Public Domain"
   }
 }

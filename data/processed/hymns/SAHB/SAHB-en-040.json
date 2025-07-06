@@ -31,7 +31,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["Holy Spirit", "revival", "spiritual awakening", "love"],
+    "themes": [
+      "Holy Spirit",
+      "revival",
+      "spiritual awakening",
+      "love"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

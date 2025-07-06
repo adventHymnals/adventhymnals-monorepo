@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["love of God's law", "meditation", "divine word", "treasure", "promises"],
-    "scripture_references": ["Psalm 119:97"],
+    "themes": [
+      "love of God's law",
+      "meditation",
+      "divine word",
+      "treasure",
+      "promises"
+    ],
+    "scripture_references": [
+      "Psalm 119:97"
+    ],
     "tune_source": "Winchester. C. M., Thomas Firth",
     "original_language": "en"
   }

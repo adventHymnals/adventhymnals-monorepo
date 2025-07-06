@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1897, by P. P. Bilhorn. In \"Songs of Love and Praise No. 5.\" Used by permission of Biglow & Main Co., owners of copyright",
-    "themes": ["glad", "Jesus", "love", "children", "Father", "kingdom", "Book"],
-    "scripture_references": ["Luke 18:16"],
+    "themes": [
+      "glad",
+      "Jesus",
+      "love",
+      "children",
+      "Father",
+      "kingdom",
+      "Book"
+    ],
+    "scripture_references": [
+      "Luke 18:16"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

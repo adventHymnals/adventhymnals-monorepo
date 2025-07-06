@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1879,
     "copyright": "Public Domain",
-    "themes": ["Christmas", "nativity", "Jesus birth", "celebration", "joy"],
-    "scripture_references": ["Luke 2:7-14", "Matthew 2:1-2", "Isaiah 9:6"],
+    "themes": [
+      "Christmas",
+      "nativity",
+      "Jesus birth",
+      "celebration",
+      "joy"
+    ],
+    "scripture_references": [
+      "Luke 2:7-14",
+      "Matthew 2:1-2",
+      "Isaiah 9:6"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

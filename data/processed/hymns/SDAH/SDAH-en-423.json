@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1779,
     "copyright": "Public Domain",
-    "themes": ["Zion", "God's city", "salvation", "security", "praise"],
-    "scripture_references": ["Psalm 87:3", "Isaiah 33:20-21", "Revelation 21:2-3"],
+    "themes": [
+      "Zion",
+      "God's city",
+      "salvation",
+      "security",
+      "praise"
+    ],
+    "scripture_references": [
+      "Psalm 87:3",
+      "Isaiah 33:20-21",
+      "Revelation 21:2-3"
+    ],
     "tune_source": "Austrian Hymn",
     "original_language": "en"
   }

@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["prayer", "God's love", "blessing", "salvation", "Jesus"],
+    "themes": [
+      "prayer",
+      "God's love",
+      "blessing",
+      "salvation",
+      "Jesus"
+    ],
     "scripture_references": [],
     "tune_source": "Father",
     "original_language": "en"

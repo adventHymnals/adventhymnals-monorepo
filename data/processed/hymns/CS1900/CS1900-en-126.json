@@ -27,7 +27,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1885, by R. E. Hudson. Used by permission.",
-    "themes": ["salvation", "cross", "redemption"],
+    "themes": [
+      "salvation",
+      "cross",
+      "redemption"
+    ],
     "scripture_references": [],
     "tune_source": "R. E. Hudson",
     "original_language": "en"

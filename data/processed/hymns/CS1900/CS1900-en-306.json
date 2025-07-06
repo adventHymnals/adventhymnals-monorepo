@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["providence", "gratitude", "God's care", "life journey"],
-    "scripture_references": ["Psalm 23:6"],
+    "themes": [
+      "providence",
+      "gratitude",
+      "God's care",
+      "life journey"
+    ],
+    "scripture_references": [
+      "Psalm 23:6"
+    ],
     "tune_source": "J. Langran",
     "original_language": "en"
   }

@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1623,
     "copyright": "Public Domain",
-    "themes": ["Praise", "God's Goodness", "God's Faithfulness", "God's Mercy"],
-    "scripture_references": ["Psalm 136"],
+    "themes": [
+      "Praise",
+      "God's Goodness",
+      "God's Faithfulness",
+      "God's Mercy"
+    ],
+    "scripture_references": [
+      "Psalm 136"
+    ],
     "tune_source": "John Antes, 1789",
     "original_language": "en"
   }

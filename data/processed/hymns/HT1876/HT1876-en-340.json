@@ -4,17 +4,36 @@
   "title": "OH! I can think, and will it be",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "OH! I can think, and will it be The hour of Judgment now is come, Which soon must fix our destiny, And seal the sinner's fearful doom? Yes, it is so; the Judgment hour Is swiftly hastening to its close; Then will the Judge, in mighty power, Descend in vengeance on his foes."},
-    {"number": 2, "text": "He who came down to earth to die, An offering for the sins of men, And then ascended up on high, And will ere long return again, Is reigning now before the ark, And mercy-seat, and cherubim, To plead his blood for each, and make The last remembrance of their sin."},
-    {"number": 3, "text": "The solemn moment is at hand When we who have his name confessed, Each by his lot must appear and stand, And pass the final, searching test. Jesus! may hope in thee arise, In mercy now upon us look, Confess our names before the throne, And blot our sins from out thy book."},
-    {"number": 4, "text": "O blessed Saviour! may we feel The full importance of this hour. Inspire our hearts with holy zeal, And aid us by thy Spirit's power; That we may, in thy strength, be strong, And have the conflict valiantly; Then, on Mount Zion, join the song, And well the notes of victory."}
+    {
+      "number": 1,
+      "text": "OH! I can think, and will it be The hour of Judgment now is come, Which soon must fix our destiny, And seal the sinner's fearful doom? Yes, it is so; the Judgment hour Is swiftly hastening to its close; Then will the Judge, in mighty power, Descend in vengeance on his foes."
+    },
+    {
+      "number": 2,
+      "text": "He who came down to earth to die, An offering for the sins of men, And then ascended up on high, And will ere long return again, Is reigning now before the ark, And mercy-seat, and cherubim, To plead his blood for each, and make The last remembrance of their sin."
+    },
+    {
+      "number": 3,
+      "text": "The solemn moment is at hand When we who have his name confessed, Each by his lot must appear and stand, And pass the final, searching test. Jesus! may hope in thee arise, In mercy now upon us look, Confess our names before the throne, And blot our sins from out thy book."
+    },
+    {
+      "number": 4,
+      "text": "O blessed Saviour! may we feel The full importance of this hour. Inspire our hearts with holy zeal, And aid us by thy Spirit's power; That we may, in thy strength, be strong, And have the conflict valiantly; Then, on Mount Zion, join the song, And well the notes of victory."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["judgment", "mercy", "Jesus", "salvation", "victory", "atonement"],
+    "themes": [
+      "judgment",
+      "mercy",
+      "Jesus",
+      "salvation",
+      "victory",
+      "atonement"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M. Double."

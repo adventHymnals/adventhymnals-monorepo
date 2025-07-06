@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["call", "salvation", "urgency", "mercy"],
-    "scripture_references": ["2 Corinthians 6:2"],
+    "themes": [
+      "call",
+      "salvation",
+      "urgency",
+      "mercy"
+    ],
+    "scripture_references": [
+      "2 Corinthians 6:2"
+    ],
     "tune_source": "J. H. Stockton",
     "original_language": "en"
   }

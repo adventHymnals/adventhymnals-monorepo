@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's kingship", "divine sovereignty", "praise", "worship", "God's justice", "trust"],
+    "themes": [
+      "God's kingship",
+      "divine sovereignty",
+      "praise",
+      "worship",
+      "God's justice",
+      "trust"
+    ],
     "scripture_references": [],
     "tune_source": "Charles Meineke",
     "original_language": "en"

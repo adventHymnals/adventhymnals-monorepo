@@ -25,7 +25,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["comfort", "invitation", "healing"],
+    "themes": [
+      "comfort",
+      "invitation",
+      "healing"
+    ],
     "scripture_references": [],
     "tune_source": "Samuel Webbe",
     "original_language": "en",

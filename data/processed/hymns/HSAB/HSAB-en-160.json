@@ -25,7 +25,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Second Coming", "glory", "crown", "pilgrimage", "home", "praise"],
+    "themes": [
+      "Second Coming",
+      "glory",
+      "crown",
+      "pilgrimage",
+      "home",
+      "praise"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

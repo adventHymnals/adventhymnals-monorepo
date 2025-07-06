@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["heavenly music", "angels", "jordan", "longing", "heaven"],
+    "themes": [
+      "heavenly music",
+      "angels",
+      "jordan",
+      "longing",
+      "heaven"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

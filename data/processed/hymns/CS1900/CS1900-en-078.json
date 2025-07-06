@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["cross", "salvation", "trust", "humility"],
+    "themes": [
+      "cross",
+      "salvation",
+      "trust",
+      "humility"
+    ],
     "scripture_references": [],
     "tune_source": "Wm. G. Fischer",
     "original_language": "en"

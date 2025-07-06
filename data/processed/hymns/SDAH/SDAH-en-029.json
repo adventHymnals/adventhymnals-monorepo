@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["praise", "God's power", "God's love", "salvation"],
+    "themes": [
+      "praise",
+      "God's power",
+      "God's love",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

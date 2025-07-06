@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["holiness", "Trinity", "worship", "adoration"],
-    "scripture_references": ["Revelation 4:8", "Isaiah 6:3"],
+    "themes": [
+      "holiness",
+      "Trinity",
+      "worship",
+      "adoration"
+    ],
+    "scripture_references": [
+      "Revelation 4:8",
+      "Isaiah 6:3"
+    ],
     "tune_source": "John Dykes",
     "original_language": "en"
   }

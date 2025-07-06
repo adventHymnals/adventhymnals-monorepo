@@ -29,8 +29,17 @@
   "metadata": {
     "year": 1653,
     "copyright": "Public Domain",
-    "themes": ["trust", "comfort", "providence", "faith", "hope"],
-    "scripture_references": ["Psalm 55:22", "1 Peter 5:7"],
+    "themes": [
+      "trust",
+      "comfort",
+      "providence",
+      "faith",
+      "hope"
+    ],
+    "scripture_references": [
+      "Psalm 55:22",
+      "1 Peter 5:7"
+    ],
     "tune_source": "William Henry Monk",
     "original_language": "de"
   }

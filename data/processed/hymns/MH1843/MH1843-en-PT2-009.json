@@ -24,7 +24,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Lovely Morning", "Mighty Trump", "Bridegroom from Glory", "Saints Immortal", "Bride and Bridegroom"],
+    "themes": [
+      "Lovely Morning",
+      "Mighty Trump",
+      "Bridegroom from Glory",
+      "Saints Immortal",
+      "Bride and Bridegroom"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "Allegretto",
     "hymnal_context": "Millerite/Adventist movement hymnal",

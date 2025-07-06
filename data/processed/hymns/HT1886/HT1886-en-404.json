@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["dependence", "prayer", "comfort", "spiritual need"],
-    "scripture_references": ["John 15:5", "Philippians 4:19"],
+    "themes": [
+      "dependence",
+      "prayer",
+      "comfort",
+      "spiritual need"
+    ],
+    "scripture_references": [
+      "John 15:5",
+      "Philippians 4:19"
+    ],
     "tune_source": "Robert Lowry",
     "original_language": "en"
   }

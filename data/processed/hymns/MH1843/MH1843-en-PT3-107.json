@@ -27,7 +27,16 @@
   "composer": "",
   "author": "",
   "page": 246,
-  "themes": ["Worthy", "Lamb", "Slain", "Savior", "Kingdom", "Power", "Glory", "Hallelujah"],
+  "themes": [
+    "Worthy",
+    "Lamb",
+    "Slain",
+    "Savior",
+    "Kingdom",
+    "Power",
+    "Glory",
+    "Hallelujah"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

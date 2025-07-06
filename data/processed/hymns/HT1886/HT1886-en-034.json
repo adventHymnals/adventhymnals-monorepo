@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "worship", "God's name", "triumph", "adoration"],
-    "scripture_references": ["Psalm 150"],
+    "themes": [
+      "praise",
+      "worship",
+      "God's name",
+      "triumph",
+      "adoration"
+    ],
+    "scripture_references": [
+      "Psalm 150"
+    ],
     "tune_source": "America, Henry Carey",
     "original_language": "en"
   }

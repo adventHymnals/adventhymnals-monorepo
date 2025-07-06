@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Worship", "Holiness", "Praise", "Angels", "Divine Majesty"],
+    "themes": [
+      "Worship",
+      "Holiness",
+      "Praise",
+      "Angels",
+      "Divine Majesty"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "6.6.6.6.8.8 (Peculiar Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

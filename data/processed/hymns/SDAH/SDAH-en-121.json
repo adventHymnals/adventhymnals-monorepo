@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1907,
     "copyright": "Public Domain",
-    "themes": ["Christmas", "Evangelism", "Christ's Birth", "Shepherds"],
-    "scripture_references": ["Luke 2:8-20"],
+    "themes": [
+      "Christmas",
+      "Evangelism",
+      "Christ's Birth",
+      "Shepherds"
+    ],
+    "scripture_references": [
+      "Luke 2:8-20"
+    ],
     "tune_source": "African-American Spiritual",
     "original_language": "en"
   }

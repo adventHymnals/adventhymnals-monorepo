@@ -20,8 +20,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["invitation", "comfort", "humility"],
-    "scripture_references": ["Matthew 11:28", "Job 22:21"],
+    "themes": [
+      "invitation",
+      "comfort",
+      "humility"
+    ],
+    "scripture_references": [
+      "Matthew 11:28",
+      "Job 22:21"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

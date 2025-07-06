@@ -26,7 +26,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["heaven", "blessed hope", "eternal rest", "praise"],
+    "themes": [
+      "heaven",
+      "blessed hope",
+      "eternal rest",
+      "praise"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

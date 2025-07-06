@@ -25,8 +25,18 @@
   "metadata": {
     "year": 1875,
     "copyright": "Public Domain",
-    "themes": ["guidance", "trust", "providence", "eternal life", "praise"],
-    "scripture_references": ["Psalm 23", "Isaiah 55:10-11", "John 6:35"],
+    "themes": [
+      "guidance",
+      "trust",
+      "providence",
+      "eternal life",
+      "praise"
+    ],
+    "scripture_references": [
+      "Psalm 23",
+      "Isaiah 55:10-11",
+      "John 6:35"
+    ],
     "tune_source": "Robert Lowry",
     "original_language": "en"
   }

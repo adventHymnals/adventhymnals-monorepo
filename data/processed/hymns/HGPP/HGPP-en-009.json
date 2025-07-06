@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["heaven", "pilgrimage", "new earth", "eternal rest", "tree of life"],
-    "scripture_references": ["Rev 21:1-4", "Rev 22:1-5", "Isa 35:1-10"],
+    "themes": [
+      "heaven",
+      "pilgrimage",
+      "new earth",
+      "eternal rest",
+      "tree of life"
+    ],
+    "scripture_references": [
+      "Rev 21:1-4",
+      "Rev 22:1-5",
+      "Isa 35:1-10"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

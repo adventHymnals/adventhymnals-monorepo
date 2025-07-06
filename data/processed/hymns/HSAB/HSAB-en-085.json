@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["sojourn", "fight but not fear", "satan's malice", "foes within", "father calls"],
+    "themes": [
+      "sojourn",
+      "fight but not fear",
+      "satan's malice",
+      "foes within",
+      "father calls"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

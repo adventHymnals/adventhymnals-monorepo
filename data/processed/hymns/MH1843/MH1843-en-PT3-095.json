@@ -31,7 +31,16 @@
   "composer": "",
   "author": "Fred Pratt Green",
   "page": 234,
-  "themes": ["Christ", "Light", "Peace", "Life", "Brother", "Father", "Glory", "God"],
+  "themes": [
+    "Christ",
+    "Light",
+    "Peace",
+    "Life",
+    "Brother",
+    "Father",
+    "Glory",
+    "God"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["king of glory", "bethlehem", "calvary", "suffering saints", "city fair"],
+    "themes": [
+      "king of glory",
+      "bethlehem",
+      "calvary",
+      "suffering saints",
+      "city fair"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

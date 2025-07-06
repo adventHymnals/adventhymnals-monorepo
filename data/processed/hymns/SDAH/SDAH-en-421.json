@@ -33,7 +33,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Saints", "Faith", "Victory", "Worship"],
+    "themes": [
+      "Saints",
+      "Faith",
+      "Victory",
+      "Worship"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

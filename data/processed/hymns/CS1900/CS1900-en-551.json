@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["faithfulness", "truth", "promise", "steadfastness"],
+    "themes": [
+      "faithfulness",
+      "truth",
+      "promise",
+      "steadfastness"
+    ],
     "scripture_references": [],
     "tune_source": "G. J. Elvey",
     "original_language": "en"

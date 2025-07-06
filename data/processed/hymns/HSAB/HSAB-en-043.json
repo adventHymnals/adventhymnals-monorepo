@@ -34,7 +34,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["pilgrims", "narrow way", "persecution", "royal heritage", "path to heaven"],
+    "themes": [
+      "pilgrims",
+      "narrow way",
+      "persecution",
+      "royal heritage",
+      "path to heaven"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -33,7 +33,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["salvation", "cleansing", "redemption"],
+    "themes": [
+      "salvation",
+      "cleansing",
+      "redemption"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en",

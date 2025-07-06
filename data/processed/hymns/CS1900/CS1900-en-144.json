@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["narrow way", "cross", "sacrifice", "salvation"],
-    "scripture_references": ["Matthew 7:13-14"],
+    "themes": [
+      "narrow way",
+      "cross",
+      "sacrifice",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Matthew 7:13-14"
+    ],
     "tune_source": "Geo. C. Hugg",
     "original_language": "en"
   }

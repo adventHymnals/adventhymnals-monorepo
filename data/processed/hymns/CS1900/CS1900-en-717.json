@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["trust", "guidance", "faith", "dependence"],
+    "themes": [
+      "trust",
+      "guidance",
+      "faith",
+      "dependence"
+    ],
     "scripture_references": [],
     "tune_source": "D. B. Towner",
     "original_language": "en"

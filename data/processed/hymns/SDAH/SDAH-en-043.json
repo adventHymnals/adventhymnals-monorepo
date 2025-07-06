@@ -37,7 +37,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["morning", "praise", "Jesus", "worship"],
+    "themes": [
+      "morning",
+      "praise",
+      "Jesus",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

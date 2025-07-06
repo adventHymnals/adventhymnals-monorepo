@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's holiness", "divine purity", "worship", "God's majesty", "divine love", "reverence"],
+    "themes": [
+      "God's holiness",
+      "divine purity",
+      "worship",
+      "God's majesty",
+      "divine love",
+      "reverence"
+    ],
     "scripture_references": [],
     "tune_source": "Charles Wesley",
     "original_language": "en"

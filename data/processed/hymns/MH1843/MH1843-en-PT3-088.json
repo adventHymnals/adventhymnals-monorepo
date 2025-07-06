@@ -31,7 +31,16 @@
   "composer": "",
   "author": "",
   "page": 227,
-  "themes": ["Jesus", "Reign", "Kingdom", "Sun", "Shore", "Love", "Blessings", "Angels"],
+  "themes": [
+    "Jesus",
+    "Reign",
+    "Kingdom",
+    "Sun",
+    "Shore",
+    "Love",
+    "Blessings",
+    "Angels"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

@@ -25,8 +25,15 @@
   "metadata": {
     "year": 1885,
     "copyright": "Public Domain",
-    "themes": ["Christmas", "Christ's Birth", "Children", "Prayer"],
-    "scripture_references": ["Luke 2:7"],
+    "themes": [
+      "Christmas",
+      "Christ's Birth",
+      "Children",
+      "Prayer"
+    ],
+    "scripture_references": [
+      "Luke 2:7"
+    ],
     "tune_source": "James R. Murray, 1887",
     "original_language": "en"
   }

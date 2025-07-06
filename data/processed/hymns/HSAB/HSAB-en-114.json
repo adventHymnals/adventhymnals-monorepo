@@ -34,7 +34,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Sabbath", "creation", "God's commandments", "Sinai", "divine law", "Jesus", "obedience"],
+    "themes": [
+      "Sabbath",
+      "creation",
+      "God's commandments",
+      "Sinai",
+      "divine law",
+      "Jesus",
+      "obedience"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

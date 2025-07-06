@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["eternal life", "death", "heaven", "second coming"],
+    "themes": [
+      "eternal life",
+      "death",
+      "heaven",
+      "second coming"
+    ],
     "scripture_references": [],
     "tune_source": "L. Mason",
     "original_language": "en"

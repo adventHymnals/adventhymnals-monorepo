@@ -34,7 +34,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["jewels", "saints", "precious stones", "heavenly kingdom", "priest"],
+    "themes": [
+      "jewels",
+      "saints",
+      "precious stones",
+      "heavenly kingdom",
+      "priest"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -31,7 +31,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["invitation", "Jesus", "acceptance"],
+    "themes": [
+      "invitation",
+      "Jesus",
+      "acceptance"
+    ],
     "scripture_references": [],
     "tune_source": "Samuel W. Beazley",
     "original_language": "en",

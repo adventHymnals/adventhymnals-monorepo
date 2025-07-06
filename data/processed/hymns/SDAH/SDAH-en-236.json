@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1844,
     "copyright": "Public Domain",
-    "themes": ["Love for Jesus", "Joy", "Praise", "Personal Devotion"],
-    "scripture_references": ["1 John 4:19", "Psalm 116:1"],
+    "themes": [
+      "Love for Jesus",
+      "Joy",
+      "Praise",
+      "Personal Devotion"
+    ],
+    "scripture_references": [
+      "1 John 4:19",
+      "Psalm 116:1"
+    ],
     "tune_source": "Adolphe Adam, 1844",
     "original_language": "en"
   }

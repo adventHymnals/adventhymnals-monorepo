@@ -26,8 +26,17 @@
     }
   ],
   "metadata": {
-    "themes": ["moral choice", "courage", "truth", "social justice"],
-    "scripture_references": ["Joshua 24:15", "Isaiah 55:11", "Galatians 6:7"],
+    "themes": [
+      "moral choice",
+      "courage",
+      "truth",
+      "social justice"
+    ],
+    "scripture_references": [
+      "Joshua 24:15",
+      "Isaiah 55:11",
+      "Galatians 6:7"
+    ],
     "copyright": "Public Domain"
   }
 }

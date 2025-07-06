@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Heaven", "Second Coming", "Face to Face", "Glory"],
+    "themes": [
+      "Heaven",
+      "Second Coming",
+      "Face to Face",
+      "Glory"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

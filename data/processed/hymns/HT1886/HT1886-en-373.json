@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["human helplessness", "spiritual transformation", "Holy Spirit", "divine power", "heart renewal"],
-    "scripture_references": ["Ezekiel 36:26", "2 Corinthians 3:18", "John 3:5-8"],
+    "themes": [
+      "human helplessness",
+      "spiritual transformation",
+      "Holy Spirit",
+      "divine power",
+      "heart renewal"
+    ],
+    "scripture_references": [
+      "Ezekiel 36:26",
+      "2 Corinthians 3:18",
+      "John 3:5-8"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

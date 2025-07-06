@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1865,
     "copyright": null,
-    "themes": ["christmas", "nativity", "christ_child", "worship", "incarnation"],
-    "scripture_references": ["Luke 2:1-20"],
+    "themes": [
+      "christmas",
+      "nativity",
+      "christ_child",
+      "worship",
+      "incarnation"
+    ],
+    "scripture_references": [
+      "Luke 2:1-20"
+    ],
     "tune_source": "English",
     "original_language": "en"
   }

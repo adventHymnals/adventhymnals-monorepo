@@ -35,7 +35,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["invitation", "return", "salvation", "Jesus' love"],
+    "themes": [
+      "invitation",
+      "return",
+      "salvation",
+      "Jesus' love"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

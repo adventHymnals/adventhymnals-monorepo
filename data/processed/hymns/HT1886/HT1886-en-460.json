@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["harvest", "evangelism", "workers", "prayer"],
+    "themes": [
+      "harvest",
+      "evangelism",
+      "workers",
+      "prayer"
+    ],
     "scripture_references": [],
     "tune_source": "D. S. Hakes",
     "original_language": "en",

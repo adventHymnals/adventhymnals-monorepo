@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1827,
     "copyright": "Public Domain",
-    "themes": ["morning", "God's care", "guidance", "daily prayer"],
-    "scripture_references": ["Psalm 118:24", "Psalm 139:9-10"],
+    "themes": [
+      "morning",
+      "God's care",
+      "guidance",
+      "daily prayer"
+    ],
+    "scripture_references": [
+      "Psalm 118:24",
+      "Psalm 139:9-10"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

@@ -20,7 +20,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "closing", "love", "mercy", "protection"],
+    "themes": [
+      "worship",
+      "closing",
+      "love",
+      "mercy",
+      "protection"
+    ],
     "scripture_references": [],
     "tune_source": "Gracious Token, P. M.",
     "original_language": "en"

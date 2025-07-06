@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Urgency", "Signs of the Times", "Awakening", "Preparation", "Imminence"],
+    "themes": [
+      "Urgency",
+      "Signs of the Times",
+      "Awakening",
+      "Preparation",
+      "Imminence"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "C. M. (Common Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

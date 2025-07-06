@@ -36,7 +36,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["reverence", "worship", "God's glory", "thanksgiving", "commitment"],
+    "themes": [
+      "reverence",
+      "worship",
+      "God's glory",
+      "thanksgiving",
+      "commitment"
+    ],
     "scripture_references": [],
     "tune_source": "Harvey's Chant, William B. Bradbury",
     "original_language": "en"

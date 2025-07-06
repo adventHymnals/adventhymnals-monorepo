@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["glory", "second coming", "bridegroom", "throne", "joy"],
+    "themes": [
+      "glory",
+      "second coming",
+      "bridegroom",
+      "throne",
+      "joy"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

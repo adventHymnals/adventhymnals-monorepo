@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "restitution", "kingdom", "New Jerusalem", "salvation"],
+    "themes": [
+      "second advent",
+      "restitution",
+      "kingdom",
+      "New Jerusalem",
+      "salvation"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

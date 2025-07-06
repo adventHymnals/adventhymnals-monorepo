@@ -31,7 +31,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["following Christ", "discipleship", "trust"],
+    "themes": [
+      "following Christ",
+      "discipleship",
+      "trust"
+    ],
     "scripture_references": [],
     "tune_source": "F. J. Haydn",
     "original_language": "en"

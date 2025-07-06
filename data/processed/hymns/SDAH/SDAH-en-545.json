@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["shepherd", "guidance", "protection", "care"],
+    "themes": [
+      "shepherd",
+      "guidance",
+      "protection",
+      "care"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

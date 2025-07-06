@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "Saviour", "incarnation", "love divine", "comfort", "hope"],
+    "themes": [
+      "Jesus Christ",
+      "Saviour",
+      "incarnation",
+      "love divine",
+      "comfort",
+      "hope"
+    ],
     "scripture_references": [],
     "tune_source": "150, 747, 227",
     "original_language": "en"

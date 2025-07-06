@@ -11,7 +11,7 @@
       "text": "My song is love unknown, My Savior's love to me, Love to the loveless shown, That they might lovely be. O who am I, that for my sake My Lord should take frail flesh and die?"
     },
     {
-      "number": "2", 
+      "number": "2",
       "text": "He came from His blest throne, Salvation to bestow, But men made strange, and none The longed-for Christ would know. But O my Friend, my Friend indeed, Who at my need His life did spend."
     },
     {
@@ -37,7 +37,13 @@
   "composer": "",
   "author": "",
   "page": 188,
-  "themes": ["Love", "Jesus", "Salvation", "Cross", "Sacrifice"],
+  "themes": [
+    "Love",
+    "Jesus",
+    "Salvation",
+    "Cross",
+    "Sacrifice"
+  ],
   "key_signature": "Bb",
   "time_signature": "4/4"
 }

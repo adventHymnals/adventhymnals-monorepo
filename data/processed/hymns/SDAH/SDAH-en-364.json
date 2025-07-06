@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1954,
     "copyright": "© 1954 The Hymn Society",
-    "themes": ["Urban Ministry", "Compassion", "Spirit of Christ", "Service"],
-    "scripture_references": ["Matthew 23:37", "Luke 19:41"],
+    "themes": [
+      "Urban Ministry",
+      "Compassion",
+      "Spirit of Christ",
+      "Service"
+    ],
+    "scripture_references": [
+      "Matthew 23:37",
+      "Luke 19:41"
+    ],
     "tune_source": "Richard Terry, 1918",
     "original_language": "en"
   }

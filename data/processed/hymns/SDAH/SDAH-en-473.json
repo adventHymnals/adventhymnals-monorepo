@@ -32,8 +32,18 @@
   "metadata": {
     "year": 1841,
     "copyright": "Public Domain",
-    "themes": ["spiritual nearness", "trials and growth", "devotion", "heavenly aspiration", "trust"],
-    "scripture_references": ["Genesis 28:10-22", "Psalm 73:28", "James 4:8"],
+    "themes": [
+      "spiritual nearness",
+      "trials and growth",
+      "devotion",
+      "heavenly aspiration",
+      "trust"
+    ],
+    "scripture_references": [
+      "Genesis 28:10-22",
+      "Psalm 73:28",
+      "James 4:8"
+    ],
     "tune_source": "Lowell Mason",
     "original_language": "en"
   }

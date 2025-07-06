@@ -22,7 +22,14 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["joyfully", "onward", "glory", "home", "pilgrim", "death"],
+    "themes": [
+      "joyfully",
+      "onward",
+      "glory",
+      "home",
+      "pilgrim",
+      "death"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "10s."

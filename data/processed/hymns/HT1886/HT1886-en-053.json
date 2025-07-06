@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's omniscience", "divine knowledge", "God's presence", "reverence", "awe", "spiritual awareness"],
+    "themes": [
+      "God's omniscience",
+      "divine knowledge",
+      "God's presence",
+      "reverence",
+      "awe",
+      "spiritual awareness"
+    ],
     "scripture_references": [],
     "tune_source": "Isaac Watts",
     "original_language": "en"

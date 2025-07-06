@@ -20,8 +20,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["sacred morning", "Sabbath", "creation", "rest", "holiness"],
-    "scripture_references": ["Genesis 2:2-3"],
+    "themes": [
+      "sacred morning",
+      "Sabbath",
+      "creation",
+      "rest",
+      "holiness"
+    ],
+    "scripture_references": [
+      "Genesis 2:2-3"
+    ],
     "tune_source": "7s. 6l.",
     "original_language": "en"
   }

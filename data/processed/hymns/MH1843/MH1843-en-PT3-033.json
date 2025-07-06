@@ -17,7 +17,14 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["New Jerusalem", "Heavenly City", "Pilgrims", "Lamb's Bride", "Eternal Light", "Golden Streets"],
+    "themes": [
+      "New Jerusalem",
+      "Heavenly City",
+      "Pilgrims",
+      "Lamb's Bride",
+      "Eternal Light",
+      "Golden Streets"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "8s",
     "hymnal_context": "Millerite/Adventist movement hymnal",

@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "Rest", "Worship", "Joy"],
-    "scripture_references": ["Exodus 20:8", "John 14:6"],
+    "themes": [
+      "Sabbath",
+      "Rest",
+      "Worship",
+      "Joy"
+    ],
+    "scripture_references": [
+      "Exodus 20:8",
+      "John 14:6"
+    ],
     "tune_source": "J. H. Fillmore, 1876",
     "original_language": "en"
   }

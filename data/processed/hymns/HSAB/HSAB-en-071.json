@@ -26,7 +26,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["exile", "better land", "captive", "pilgrim", "brighter land", "crystal streams"],
+    "themes": [
+      "exile",
+      "better land",
+      "captive",
+      "pilgrim",
+      "brighter land",
+      "crystal streams"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

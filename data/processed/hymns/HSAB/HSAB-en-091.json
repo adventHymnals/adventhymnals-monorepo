@@ -18,7 +18,12 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["met in jesus' name", "glorify lord", "fulfill duty", "love and holy fear"],
+    "themes": [
+      "met in jesus' name",
+      "glorify lord",
+      "fulfill duty",
+      "love and holy fear"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -4,18 +4,40 @@
   "title": "DARK brood the heavens over thee",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "DARK brood the heavens over thee! Black clouds of gloom are gathering fast! In vain the lightnings of the free— Thy days of sin and mirth are past."},
-    {"number": 2, "text": "Dark brood the heavens over thee! Red moons of death are warring round; Bright lightnings dash from sea to sea— How shakes the heaving, broken ground!"},
-    {"number": 3, "text": "Dark brood the heavens over thee! Behold, the Judge of all appears; Unrobed in matchless majesty, Raised from the buried dust of years."},
-    {"number": 4, "text": "Dark brood the heavens over thee! Sinner, behold thy dreadful doom: Destruction opens wide for thee— Thy blindly chosen, final home."},
-    {"number": 5, "text": "Yet stay—the vision lingers yet; Why, sinner, oh! why wilt thou die? Dark brood the heavens, but mercy waits; This hour to Christ, thy Saviour, fly."}
+    {
+      "number": 1,
+      "text": "DARK brood the heavens over thee! Black clouds of gloom are gathering fast! In vain the lightnings of the free— Thy days of sin and mirth are past."
+    },
+    {
+      "number": 2,
+      "text": "Dark brood the heavens over thee! Red moons of death are warring round; Bright lightnings dash from sea to sea— How shakes the heaving, broken ground!"
+    },
+    {
+      "number": 3,
+      "text": "Dark brood the heavens over thee! Behold, the Judge of all appears; Unrobed in matchless majesty, Raised from the buried dust of years."
+    },
+    {
+      "number": 4,
+      "text": "Dark brood the heavens over thee! Sinner, behold thy dreadful doom: Destruction opens wide for thee— Thy blindly chosen, final home."
+    },
+    {
+      "number": 5,
+      "text": "Yet stay—the vision lingers yet; Why, sinner, oh! why wilt thou die? Dark brood the heavens, but mercy waits; This hour to Christ, thy Saviour, fly."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["judgment", "doom", "destruction", "mercy", "salvation", "warning"],
+    "themes": [
+      "judgment",
+      "doom",
+      "destruction",
+      "mercy",
+      "salvation",
+      "warning"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

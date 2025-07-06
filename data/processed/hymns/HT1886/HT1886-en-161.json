@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "divine truth", "spiritual awakening", "love", "freedom"],
+    "themes": [
+      "Holy Spirit",
+      "divine truth",
+      "spiritual awakening",
+      "love",
+      "freedom"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

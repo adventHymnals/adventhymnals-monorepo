@@ -32,8 +32,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["cross of Christ", "glory", "comfort", "peace", "joy", "sacred story"],
-    "scripture_references": ["Galatians 6:14"],
+    "themes": [
+      "cross of Christ",
+      "glory",
+      "comfort",
+      "peace",
+      "joy",
+      "sacred story"
+    ],
+    "scripture_references": [
+      "Galatians 6:14"
+    ],
     "tune_source": "Edwin Barnes",
     "original_language": "en"
   }

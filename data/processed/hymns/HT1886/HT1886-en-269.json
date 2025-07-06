@@ -28,7 +28,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["constant communion with God", "prayer", "daily devotion", "divine presence"],
+    "themes": [
+      "constant communion with God",
+      "prayer",
+      "daily devotion",
+      "divine presence"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

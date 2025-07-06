@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1869,
     "copyright": "Public Domain",
-    "themes": ["evangelism", "rescue", "mercy", "compassion"],
-    "scripture_references": ["Luke 19:10", "James 5:20"],
+    "themes": [
+      "evangelism",
+      "rescue",
+      "mercy",
+      "compassion"
+    ],
+    "scripture_references": [
+      "Luke 19:10",
+      "James 5:20"
+    ],
     "tune_source": "Rescue, William Howard Doane, 1870",
     "original_language": "en"
   }

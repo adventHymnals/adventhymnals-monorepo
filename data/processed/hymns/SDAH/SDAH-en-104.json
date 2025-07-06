@@ -27,8 +27,15 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["shepherd", "psalm_23", "trust", "guidance"],
-    "scripture_references": ["Psalm 23"],
+    "themes": [
+      "shepherd",
+      "psalm_23",
+      "trust",
+      "guidance"
+    ],
+    "scripture_references": [
+      "Psalm 23"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

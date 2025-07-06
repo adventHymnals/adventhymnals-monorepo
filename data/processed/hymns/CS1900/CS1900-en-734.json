@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["redemption", "second coming", "signs of the times", "hope"],
+    "themes": [
+      "redemption",
+      "second coming",
+      "signs of the times",
+      "hope"
+    ],
     "scripture_references": [],
     "tune_source": "Dora T. Peixoto",
     "original_language": "en"

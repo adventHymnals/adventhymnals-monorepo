@@ -11,7 +11,7 @@
       "text": "I will sing (I will sing) of Jesus' love, Sing of Him (sing of Him) who first loved me; For He left (for He left) bright worlds above, And died on Calvary."
     },
     {
-      "number": "2", 
+      "number": "2",
       "text": "O the depths (O the depths) of love divine! Earth or heaven (earth or heaven) can never know How that sins (how that sins) as dark as mine Can be made as white as snow."
     },
     {
@@ -27,7 +27,12 @@
   "composer": "",
   "author": "",
   "page": 183,
-  "themes": ["Jesus", "Love", "Salvation", "Praise"],
+  "themes": [
+    "Jesus",
+    "Love",
+    "Salvation",
+    "Praise"
+  ],
   "key_signature": "Bb",
   "time_signature": "4/4"
 }

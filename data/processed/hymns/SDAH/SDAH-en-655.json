@@ -26,8 +26,16 @@
     }
   ],
   "metadata": {
-    "themes": ["home", "family", "prayer", "happiness"],
-    "scripture_references": ["Psalm 127:1", "Joshua 24:15"],
+    "themes": [
+      "home",
+      "family",
+      "prayer",
+      "happiness"
+    ],
+    "scripture_references": [
+      "Psalm 127:1",
+      "Joshua 24:15"
+    ],
     "copyright": "Public Domain"
   }
 }

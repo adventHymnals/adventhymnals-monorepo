@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Salvation", "Redemption", "Purification", "Jesus Christ"],
+    "themes": [
+      "Salvation",
+      "Redemption",
+      "Purification",
+      "Jesus Christ"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

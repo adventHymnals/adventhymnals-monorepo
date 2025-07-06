@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1742,
     "copyright": "Public Domain",
-    "themes": ["heart", "praise", "sanctification", "Christ's reign"],
-    "scripture_references": ["Psalm 51:10", "Ezekiel 36:26"],
+    "themes": [
+      "heart",
+      "praise",
+      "sanctification",
+      "Christ's reign"
+    ],
+    "scripture_references": [
+      "Psalm 51:10",
+      "Ezekiel 36:26"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

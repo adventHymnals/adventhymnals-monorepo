@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["work", "waiting", "service", "diligence"],
-    "scripture_references": ["John 9:4"],
+    "themes": [
+      "work",
+      "waiting",
+      "service",
+      "diligence"
+    ],
+    "scripture_references": [
+      "John 9:4"
+    ],
     "tune_source": "J. H. Tenney",
     "original_language": "en",
     "extraction_status": "completed"

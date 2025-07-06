@@ -24,7 +24,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "praise", "testimony"],
+    "themes": [
+      "worship",
+      "praise",
+      "testimony"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

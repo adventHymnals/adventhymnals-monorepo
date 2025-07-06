@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["harvest", "evangelism", "sowing and reaping", "ministry"],
-    "scripture_references": ["Matt. 13:39"],
+    "themes": [
+      "harvest",
+      "evangelism",
+      "sowing and reaping",
+      "ministry"
+    ],
+    "scripture_references": [
+      "Matt. 13:39"
+    ],
     "tune_source": "George A. Minor",
     "original_language": "en",
     "extraction_status": "completed"

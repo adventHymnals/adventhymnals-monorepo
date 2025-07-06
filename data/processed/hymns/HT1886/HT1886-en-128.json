@@ -20,8 +20,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["evangelism", "testimony", "victory over Satan", "missionary work", "eternal reward"],
-    "scripture_references": ["Luke 10:18", "Revelation 12:9"],
+    "themes": [
+      "evangelism",
+      "testimony",
+      "victory over Satan",
+      "missionary work",
+      "eternal reward"
+    ],
+    "scripture_references": [
+      "Luke 10:18",
+      "Revelation 12:9"
+    ],
     "tune_source": "94, 156",
     "original_language": "en"
   }

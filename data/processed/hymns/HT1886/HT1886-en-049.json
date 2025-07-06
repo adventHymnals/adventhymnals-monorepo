@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's wisdom", "divine justice", "mercy", "God's love", "grace", "holiness"],
+    "themes": [
+      "God's wisdom",
+      "divine justice",
+      "mercy",
+      "God's love",
+      "grace",
+      "holiness"
+    ],
     "scripture_references": [],
     "tune_source": "Isaac Watts",
     "original_language": "en"

@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1970,
     "copyright": "1970 Hope Publishing Co.",
-    "themes": ["thanksgiving", "creation", "harvest", "service"],
+    "themes": [
+      "thanksgiving",
+      "creation",
+      "harvest",
+      "service"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

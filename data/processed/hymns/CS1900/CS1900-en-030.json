@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "By permission of Biglow & Manin",
-    "themes": ["giving", "Jesus", "heart", "gifts", "love", "kindness", "poor"],
-    "scripture_references": ["Prov. 23:26"],
+    "themes": [
+      "giving",
+      "Jesus",
+      "heart",
+      "gifts",
+      "love",
+      "kindness",
+      "poor"
+    ],
+    "scripture_references": [
+      "Prov. 23:26"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

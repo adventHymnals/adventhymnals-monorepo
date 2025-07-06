@@ -4,17 +4,35 @@
   "title": "Let plenteous grace descend on those",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Let plenteous grace descend on those Who, hoping in thy word, This day have solemnly declared That Jesus is their Lord."},
-    {"number": 2, "text": "With cheerful feet may they advance, And run the Christian race, And, through the troubles of the way, Find thy sufficient grace."},
-    {"number": 3, "text": "Lord, plant us all into thy death, That we thy life may prove; Partakers of thy cross beneath, And of thy crown above."},
-    {"number": 4, "text": "Come, Holy Spirit, Love divine, Thy grace to us be given; To a new life our souls incline, A life for earth and heaven."}
+    {
+      "number": 1,
+      "text": "Let plenteous grace descend on those Who, hoping in thy word, This day have solemnly declared That Jesus is their Lord."
+    },
+    {
+      "number": 2,
+      "text": "With cheerful feet may they advance, And run the Christian race, And, through the troubles of the way, Find thy sufficient grace."
+    },
+    {
+      "number": 3,
+      "text": "Lord, plant us all into thy death, That we thy life may prove; Partakers of thy cross beneath, And of thy crown above."
+    },
+    {
+      "number": 4,
+      "text": "Come, Holy Spirit, Love divine, Thy grace to us be given; To a new life our souls incline, A life for earth and heaven."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["baptism", "grace", "Christian life", "Holy Spirit", "dedication"],
+    "themes": [
+      "baptism",
+      "grace",
+      "Christian life",
+      "Holy Spirit",
+      "dedication"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

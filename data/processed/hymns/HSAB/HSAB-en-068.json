@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["jesus there", "marriage feast", "victory palms", "heaven's bliss", "bride of lamb"],
+    "themes": [
+      "jesus there",
+      "marriage feast",
+      "victory palms",
+      "heaven's bliss",
+      "bride of lamb"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

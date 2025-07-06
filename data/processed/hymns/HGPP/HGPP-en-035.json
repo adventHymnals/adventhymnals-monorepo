@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["cross bearing", "discipleship", "sacrifice", "faithful service", "eternal glory"],
-    "scripture_references": ["Matt 16:24", "Luke 9:23", "Gal 2:20"],
+    "themes": [
+      "cross bearing",
+      "discipleship",
+      "sacrifice",
+      "faithful service",
+      "eternal glory"
+    ],
+    "scripture_references": [
+      "Matt 16:24",
+      "Luke 9:23",
+      "Gal 2:20"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

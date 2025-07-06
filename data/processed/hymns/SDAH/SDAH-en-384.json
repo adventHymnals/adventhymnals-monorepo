@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1774,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "Rest", "God's Care", "Worship"],
-    "scripture_references": ["Psalm 118:24", "Hebrews 4:9"],
+    "themes": [
+      "Sabbath",
+      "Rest",
+      "God's Care",
+      "Worship"
+    ],
+    "scripture_references": [
+      "Psalm 118:24",
+      "Hebrews 4:9"
+    ],
     "tune_source": "Lowell Mason, 1824",
     "original_language": "en"
   }

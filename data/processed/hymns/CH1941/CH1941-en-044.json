@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["morning", "duty", "devotion", "spiritual awakening"],
-    "scripture_references": ["Psalm 57:8", "Ephesians 5:14"],
+    "themes": [
+      "morning",
+      "duty",
+      "devotion",
+      "spiritual awakening"
+    ],
+    "scripture_references": [
+      "Psalm 57:8",
+      "Ephesians 5:14"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

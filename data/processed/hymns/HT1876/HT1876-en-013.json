@@ -4,16 +4,30 @@
   "title": "How sweet to leave the world awhile",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "How sweet to leave the world awhile, And seek the presence of our Lord; Dear Saviour, on thy people smile, And come according to thy word."},
-    {"number": 2, "text": "From busy scenes we now retreat, That we may here converse with thee; Oh! make this season sweet and meet, Let thy presence fill this place."},
-    {"number": 3, "text": "Our voices to the winds we'll raise, That we by faith may see thy face; Oh! speak, that we thy voice may hear, And let thy presence fill this place."}
+    {
+      "number": 1,
+      "text": "How sweet to leave the world awhile, And seek the presence of our Lord; Dear Saviour, on thy people smile, And come according to thy word."
+    },
+    {
+      "number": 2,
+      "text": "From busy scenes we now retreat, That we may here converse with thee; Oh! make this season sweet and meet, Let thy presence fill this place."
+    },
+    {
+      "number": 3,
+      "text": "Our voices to the winds we'll raise, That we by faith may see thy face; Oh! speak, that we thy voice may hear, And let thy presence fill this place."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["worship", "retreat", "God's presence", "communion"],
+    "themes": [
+      "worship",
+      "retreat",
+      "God's presence",
+      "communion"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

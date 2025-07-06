@@ -25,8 +25,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["stewardship", "God's gifts", "service", "sharing"],
-    "scripture_references": ["2 Corinthians 9:7", "1 Peter 4:10"],
+    "themes": [
+      "stewardship",
+      "God's gifts",
+      "service",
+      "sharing"
+    ],
+    "scripture_references": [
+      "2 Corinthians 9:7",
+      "1 Peter 4:10"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

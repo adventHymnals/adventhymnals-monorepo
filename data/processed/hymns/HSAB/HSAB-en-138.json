@@ -34,7 +34,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["sanctuary", "heavenly temple", "High Priest", "blood", "Ten Commandments", "Mercy seat", "judgment"],
+    "themes": [
+      "sanctuary",
+      "heavenly temple",
+      "High Priest",
+      "blood",
+      "Ten Commandments",
+      "Mercy seat",
+      "judgment"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

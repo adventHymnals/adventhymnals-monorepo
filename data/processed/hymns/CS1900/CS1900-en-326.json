@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["guidance", "Trinity", "providence", "peace"],
-    "scripture_references": ["Psalm 23:1"],
+    "themes": [
+      "guidance",
+      "Trinity",
+      "providence",
+      "peace"
+    ],
+    "scripture_references": [
+      "Psalm 23:1"
+    ],
     "tune_source": "Arranged",
     "original_language": "en"
   }

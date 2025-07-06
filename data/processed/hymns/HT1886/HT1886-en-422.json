@@ -16,8 +16,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["warning", "eternity", "repentance"],
-    "scripture_references": ["Hebrews 2:3"],
+    "themes": [
+      "warning",
+      "eternity",
+      "repentance"
+    ],
+    "scripture_references": [
+      "Hebrews 2:3"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

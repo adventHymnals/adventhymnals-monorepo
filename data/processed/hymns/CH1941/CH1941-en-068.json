@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1749,
     "copyright": "Public Domain",
-    "themes": ["unity", "peace", "Christian fellowship", "love"],
-    "scripture_references": ["Ephesians 4:2-3", "Galatians 6:2"],
+    "themes": [
+      "unity",
+      "peace",
+      "Christian fellowship",
+      "love"
+    ],
+    "scripture_references": [
+      "Ephesians 4:2-3",
+      "Galatians 6:2"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

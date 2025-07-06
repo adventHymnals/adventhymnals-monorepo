@@ -24,7 +24,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["pilgrimage", "homecoming", "heaven", "spiritual journey"],
+    "themes": [
+      "pilgrimage",
+      "homecoming",
+      "heaven",
+      "spiritual journey"
+    ],
     "scripture_references": [],
     "tune_source": "HOMEWARD BOUND",
     "original_language": "en",

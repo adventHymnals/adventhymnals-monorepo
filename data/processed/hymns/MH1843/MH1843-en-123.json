@@ -16,7 +16,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Watchmen", "Gospel Proclamation", "Second Coming", "Spiritual Awakening"],
+    "themes": [
+      "Watchmen",
+      "Gospel Proclamation",
+      "Second Coming",
+      "Spiritual Awakening"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "P.M. (Particular Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

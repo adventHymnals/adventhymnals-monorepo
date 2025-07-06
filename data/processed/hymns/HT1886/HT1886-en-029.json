@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["holiness", "reverence", "worship", "God's name", "purity"],
+    "themes": [
+      "holiness",
+      "reverence",
+      "worship",
+      "God's name",
+      "purity"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

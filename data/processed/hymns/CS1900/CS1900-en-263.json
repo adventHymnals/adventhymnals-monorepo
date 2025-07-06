@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["morning prayer", "worship", "righteousness", "divine presence"],
+    "themes": [
+      "morning prayer",
+      "worship",
+      "righteousness",
+      "divine presence"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

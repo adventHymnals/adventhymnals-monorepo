@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1779,
     "copyright": "Public Domain",
-    "themes": ["Kingship of Christ", "Crown", "Worship", "Universal Praise"],
-    "scripture_references": ["Philippians 2:9-11", "Revelation 19:16"],
+    "themes": [
+      "Kingship of Christ",
+      "Crown",
+      "Worship",
+      "Universal Praise"
+    ],
+    "scripture_references": [
+      "Philippians 2:9-11",
+      "Revelation 19:16"
+    ],
     "tune_source": "Oliver Holden, 1793",
     "original_language": "en"
   }

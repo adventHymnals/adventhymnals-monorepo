@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus", "Invitation", "Heart's Door", "Repentance"],
+    "themes": [
+      "Jesus",
+      "Invitation",
+      "Heart's Door",
+      "Repentance"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

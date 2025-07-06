@@ -27,7 +27,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1896. Used by permission.",
-    "themes": ["dependence on God", "prayer", "guidance"],
+    "themes": [
+      "dependence on God",
+      "prayer",
+      "guidance"
+    ],
     "scripture_references": [],
     "tune_source": "J. E. Rankin",
     "original_language": "en"

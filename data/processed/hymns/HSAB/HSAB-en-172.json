@@ -22,7 +22,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["death", "blessed dead", "rest", "reward", "heaven", "Jesus", "sleep in death"],
+    "themes": [
+      "death",
+      "blessed dead",
+      "rest",
+      "reward",
+      "heaven",
+      "Jesus",
+      "sleep in death"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

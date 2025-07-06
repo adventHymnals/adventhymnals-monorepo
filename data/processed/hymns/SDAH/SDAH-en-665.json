@@ -14,8 +14,14 @@
     }
   ],
   "metadata": {
-    "themes": ["stewardship", "offering", "gratitude"],
-    "scripture_references": ["[to be determined]"],
+    "themes": [
+      "stewardship",
+      "offering",
+      "gratitude"
+    ],
+    "scripture_references": [
+      "[to be determined]"
+    ],
     "copyright": "Public Domain"
   }
 }

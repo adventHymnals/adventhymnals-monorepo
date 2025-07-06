@@ -29,7 +29,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["evening", "praise", "forgiveness", "rest", "Trinity"],
+    "themes": [
+      "evening",
+      "praise",
+      "forgiveness",
+      "rest",
+      "Trinity"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

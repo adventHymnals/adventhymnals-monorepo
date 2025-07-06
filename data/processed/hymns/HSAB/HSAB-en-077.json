@@ -22,7 +22,12 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["world's vain store", "city found", "true joys", "follow saviour"],
+    "themes": [
+      "world's vain store",
+      "city found",
+      "true joys",
+      "follow saviour"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

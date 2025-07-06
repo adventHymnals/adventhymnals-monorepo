@@ -4,17 +4,34 @@
   "title": "Go, preach my gospel, saith the Lord",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Go, preach my gospel, saith the Lord; Bid the whole world my grace receive; He shall be saved that trusts my word; And they condemned who disbelieve."},
-    {"number": 2, "text": "I'll make your great commission known, And ye shall prove my gospel true By all the works that I have done, By all the wonders ye shall do."},
-    {"number": 3, "text": "Teach all the nations my commands; I'm with you till the world shall end; All power is trusted in my hands, I can destroy, and I defend."},
-    {"number": 4, "text": "He spake, and light shone round his head; On a bright cloud to Heaven he rode; They to the farthest nations spread The grace of their ascended Lord."}
+    {
+      "number": 1,
+      "text": "Go, preach my gospel, saith the Lord; Bid the whole world my grace receive; He shall be saved that trusts my word; And they condemned who disbelieve."
+    },
+    {
+      "number": 2,
+      "text": "I'll make your great commission known, And ye shall prove my gospel true By all the works that I have done, By all the wonders ye shall do."
+    },
+    {
+      "number": 3,
+      "text": "Teach all the nations my commands; I'm with you till the world shall end; All power is trusted in my hands, I can destroy, and I defend."
+    },
+    {
+      "number": 4,
+      "text": "He spake, and light shone round his head; On a bright cloud to Heaven he rode; They to the farthest nations spread The grace of their ascended Lord."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["gospel", "mission", "Great Commission", "salvation"],
+    "themes": [
+      "gospel",
+      "mission",
+      "Great Commission",
+      "salvation"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

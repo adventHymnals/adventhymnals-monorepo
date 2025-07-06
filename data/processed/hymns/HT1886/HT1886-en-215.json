@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath rest", "six days' work", "worship", "peace", "heavenly rest"],
-    "scripture_references": ["Hebrews 4:9"],
+    "themes": [
+      "Sabbath rest",
+      "six days' work",
+      "worship",
+      "peace",
+      "heavenly rest"
+    ],
+    "scripture_references": [
+      "Hebrews 4:9"
+    ],
     "tune_source": "Hebron. L. M.",
     "original_language": "en"
   }

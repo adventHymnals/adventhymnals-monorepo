@@ -36,8 +36,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "rest", "peace", "holiness", "worship", "law of God"],
-    "scripture_references": ["Isaiah 58:13-14"],
+    "themes": [
+      "Sabbath",
+      "rest",
+      "peace",
+      "holiness",
+      "worship",
+      "law of God"
+    ],
+    "scripture_references": [
+      "Isaiah 58:13-14"
+    ],
     "tune_source": "Park Street. L. M.",
     "original_language": "en"
   }

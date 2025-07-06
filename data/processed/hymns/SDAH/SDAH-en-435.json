@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Public Domain",
-    "themes": ["heaven", "glory", "eternal life", "Jesus face", "triumph"],
-    "scripture_references": ["1 Corinthians 13:12", "Revelation 22:4", "2 Corinthians 3:18"],
+    "themes": [
+      "heaven",
+      "glory",
+      "eternal life",
+      "Jesus face",
+      "triumph"
+    ],
+    "scripture_references": [
+      "1 Corinthians 13:12",
+      "Revelation 22:4",
+      "2 Corinthians 3:18"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

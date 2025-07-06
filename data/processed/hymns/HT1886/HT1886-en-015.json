@@ -32,7 +32,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "prayer", "seeking God"],
+    "themes": [
+      "worship",
+      "prayer",
+      "seeking God"
+    ],
     "scripture_references": [],
     "tune_source": "Hendon, C. H. A. Malan",
     "original_language": "en"

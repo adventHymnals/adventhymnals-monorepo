@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1865, by P. P. Bliss.",
-    "themes": ["Immanuel", "glory", "light", "Jesus"],
+    "themes": [
+      "Immanuel",
+      "glory",
+      "light",
+      "Jesus"
+    ],
     "scripture_references": [],
     "tune_source": "J. H. Fillmore",
     "original_language": "en"

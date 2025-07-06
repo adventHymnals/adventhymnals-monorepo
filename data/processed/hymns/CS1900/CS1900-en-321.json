@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["salvation", "scripture", "Jesus name", "joy"],
-    "scripture_references": ["2 Timothy 3:16"],
+    "themes": [
+      "salvation",
+      "scripture",
+      "Jesus name",
+      "joy"
+    ],
+    "scripture_references": [
+      "2 Timothy 3:16"
+    ],
     "tune_source": "J. Gilchrist",
     "original_language": "en"
   }

@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Jesus", "Call", "Discipleship", "Following Christ"],
+    "themes": [
+      "Jesus",
+      "Call",
+      "Discipleship",
+      "Following Christ"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

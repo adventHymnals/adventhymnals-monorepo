@@ -27,7 +27,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Jesus Christ", "devotion", "complete dependence"],
+    "themes": [
+      "Jesus Christ",
+      "devotion",
+      "complete dependence"
+    ],
     "scripture_references": [],
     "tune_source": "J. H. Stockton",
     "original_language": "en",

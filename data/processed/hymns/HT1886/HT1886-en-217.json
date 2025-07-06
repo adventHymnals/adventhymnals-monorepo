@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["holy time", "Sabbath", "commandments", "faith of Jesus", "divine rest"],
-    "scripture_references": ["Revelation 14:12"],
+    "themes": [
+      "holy time",
+      "Sabbath",
+      "commandments",
+      "faith of Jesus",
+      "divine rest"
+    ],
+    "scripture_references": [
+      "Revelation 14:12"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

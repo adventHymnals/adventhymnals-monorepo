@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["giving", "children", "offerings", "generosity"],
+    "themes": [
+      "giving",
+      "children",
+      "offerings",
+      "generosity"
+    ],
     "scripture_references": [],
     "tune_source": "W. J. Kirkpatrick",
     "original_language": "en"

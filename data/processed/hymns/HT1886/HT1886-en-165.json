@@ -24,7 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["divine love", "Jesus", "salvation", "Holy Spirit", "grace", "peace"],
+    "themes": [
+      "divine love",
+      "Jesus",
+      "salvation",
+      "Holy Spirit",
+      "grace",
+      "peace"
+    ],
     "scripture_references": [],
     "tune_source": "577, 41, 62",
     "original_language": "en"

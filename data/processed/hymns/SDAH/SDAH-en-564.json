@@ -21,7 +21,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["gratitude", "nature", "fellowship", "divine love"],
+    "themes": [
+      "gratitude",
+      "nature",
+      "fellowship",
+      "divine love"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

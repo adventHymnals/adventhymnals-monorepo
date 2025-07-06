@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["fall of babylon", "zion", "second coming", "separation", "judgment"],
-    "scripture_references": ["Rev 18:1-4", "Rev 14:8", "Jer 51:8-9"],
+    "themes": [
+      "fall of babylon",
+      "zion",
+      "second coming",
+      "separation",
+      "judgment"
+    ],
+    "scripture_references": [
+      "Rev 18:1-4",
+      "Rev 14:8",
+      "Jer 51:8-9"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

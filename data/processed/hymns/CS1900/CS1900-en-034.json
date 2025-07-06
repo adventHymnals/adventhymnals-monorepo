@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by permission of Biglow & Main, owners of the copyright",
-    "themes": ["fear", "afraid", "trust", "future", "Saviour", "work", "Jesus"],
-    "scripture_references": ["1 John 4:18"],
+    "themes": [
+      "fear",
+      "afraid",
+      "trust",
+      "future",
+      "Saviour",
+      "work",
+      "Jesus"
+    ],
+    "scripture_references": [
+      "1 John 4:18"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

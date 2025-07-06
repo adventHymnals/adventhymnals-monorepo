@@ -36,7 +36,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's glory", "God's power", "salvation", "God's justice", "God's grace", "worship"],
+    "themes": [
+      "God's glory",
+      "God's power",
+      "salvation",
+      "God's justice",
+      "God's grace",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": "486, 291, 569",
     "original_language": "en"

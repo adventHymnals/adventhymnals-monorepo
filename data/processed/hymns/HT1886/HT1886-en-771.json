@@ -20,7 +20,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus", "protection", "refuge"],
+    "themes": [
+      "Jesus",
+      "protection",
+      "refuge"
+    ],
     "scripture_references": [],
     "tune_source": "Martyn, Simeon B. Marsh",
     "original_language": "en"

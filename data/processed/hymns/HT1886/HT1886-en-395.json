@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["presence of God", "evening", "death", "comfort"],
-    "scripture_references": ["Luke 24:29", "1 Corinthians 15:55"],
+    "themes": [
+      "presence of God",
+      "evening",
+      "death",
+      "comfort"
+    ],
+    "scripture_references": [
+      "Luke 24:29",
+      "1 Corinthians 15:55"
+    ],
     "tune_source": "William Monk",
     "original_language": "en"
   }

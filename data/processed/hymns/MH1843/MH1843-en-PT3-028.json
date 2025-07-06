@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Divine Guidance", "Pilgrimage", "Heavenly Home", "Jerusalem", "Spiritual Journey"],
+    "themes": [
+      "Divine Guidance",
+      "Pilgrimage",
+      "Heavenly Home",
+      "Jerusalem",
+      "Spiritual Journey"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "6 lines 8s",
     "hymnal_context": "Millerite/Adventist movement hymnal",

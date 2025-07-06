@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["cross", "sacrifice", "salvation", "glory"],
-    "scripture_references": ["Galatians 6:14", "1 Corinthians 1:18"],
+    "themes": [
+      "cross",
+      "sacrifice",
+      "salvation",
+      "glory"
+    ],
+    "scripture_references": [
+      "Galatians 6:14",
+      "1 Corinthians 1:18"
+    ],
     "tune_source": "George Bennard",
     "original_language": "en"
   }

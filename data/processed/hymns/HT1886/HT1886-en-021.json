@@ -28,7 +28,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "creation", "praise", "angels"],
+    "themes": [
+      "worship",
+      "creation",
+      "praise",
+      "angels"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

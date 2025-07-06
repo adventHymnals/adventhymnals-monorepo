@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["invitation", "heaven", "salvation", "faith", "eternal life"],
+    "themes": [
+      "invitation",
+      "heaven",
+      "salvation",
+      "faith",
+      "eternal life"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

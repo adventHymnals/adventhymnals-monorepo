@@ -21,7 +21,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["fellowship", "unity", "Christian love"],
+    "themes": [
+      "fellowship",
+      "unity",
+      "Christian love"
+    ],
     "scripture_references": [],
     "tune_source": "J. P. Naegeli",
     "original_language": "en"

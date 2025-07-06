@@ -34,7 +34,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["vision", "cross", "crucifixion", "prophecy", "judgment", "memory", "faith"],
+    "themes": [
+      "vision",
+      "cross",
+      "crucifixion",
+      "prophecy",
+      "judgment",
+      "memory",
+      "faith"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

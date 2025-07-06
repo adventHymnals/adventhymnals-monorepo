@@ -15,7 +15,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["New Jerusalem", "Longing for Heaven", "Spiritual Transformation", "Divine Glory"],
+    "themes": [
+      "New Jerusalem",
+      "Longing for Heaven",
+      "Spiritual Transformation",
+      "Divine Glory"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "C. M. (Common Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

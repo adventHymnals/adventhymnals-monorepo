@@ -21,7 +21,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["mission", "communion", "service", "blessing"],
+    "themes": [
+      "mission",
+      "communion",
+      "service",
+      "blessing"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

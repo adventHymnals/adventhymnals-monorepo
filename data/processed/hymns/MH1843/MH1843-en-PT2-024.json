@@ -18,7 +18,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Christian Life", "Happiness", "Daily Devotion", "Trust in God", "Eternal Joy"],
+    "themes": [
+      "Christian Life",
+      "Happiness",
+      "Daily Devotion",
+      "Trust in God",
+      "Eternal Joy"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "",
     "hymnal_context": "Millerite/Adventist movement hymnal",

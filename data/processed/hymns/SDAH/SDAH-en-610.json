@@ -25,8 +25,17 @@
     "text": "Stand like the brave,\nstand like the brave,\nStand like the brave,\nwith thy face to the foe."
   },
   "metadata": {
-    "themes": ["courage", "spiritual warfare", "steadfastness", "vigilance"],
-    "scripture_references": ["Ephesians 6:11-17", "1 Corinthians 16:13", "2 Timothy 2:3"],
+    "themes": [
+      "courage",
+      "spiritual warfare",
+      "steadfastness",
+      "vigilance"
+    ],
+    "scripture_references": [
+      "Ephesians 6:11-17",
+      "1 Corinthians 16:13",
+      "2 Timothy 2:3"
+    ],
     "copyright": "Public Domain"
   }
 }

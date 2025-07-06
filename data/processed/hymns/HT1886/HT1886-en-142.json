@@ -24,7 +24,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "nature", "blessing"],
+    "themes": [
+      "Holy Spirit",
+      "nature",
+      "blessing"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

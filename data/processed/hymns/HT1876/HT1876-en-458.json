@@ -14,7 +14,12 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["hearest prayer", "humble cry", "blessing", "Holy Spirit"],
+    "themes": [
+      "hearest prayer",
+      "humble cry",
+      "blessing",
+      "Holy Spirit"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "H. M."

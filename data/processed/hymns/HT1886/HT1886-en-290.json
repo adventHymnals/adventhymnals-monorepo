@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "First Advent", "Christmas", "hope", "Prince of Peace"],
-    "scripture_references": ["Isaiah 9:6"],
+    "themes": [
+      "Christ",
+      "First Advent",
+      "Christmas",
+      "hope",
+      "Prince of Peace"
+    ],
+    "scripture_references": [
+      "Isaiah 9:6"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

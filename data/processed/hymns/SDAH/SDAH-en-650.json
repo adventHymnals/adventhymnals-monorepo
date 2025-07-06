@@ -22,8 +22,16 @@
     }
   ],
   "metadata": {
-    "themes": ["family", "home", "parenthood", "children"],
-    "scripture_references": ["Ephesians 3:14-15", "Psalm 127:3"],
+    "themes": [
+      "family",
+      "home",
+      "parenthood",
+      "children"
+    ],
+    "scripture_references": [
+      "Ephesians 3:14-15",
+      "Psalm 127:3"
+    ],
     "copyright": "Public Domain"
   }
 }

@@ -4,19 +4,41 @@
   "title": "What shall I render to my God",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "What shall I render to my God For all his kindness shown? My feet shall visit thine abode, My songs address thy throne."},
-    {"number": 2, "text": "Among the saints that fill thy house, My offering shall be paid; There shall my zeal perform the vows My soul in anguish made."},
-    {"number": 3, "text": "How much is mercy thy delight, Thou ever blessed God! How dear thy servants in thy sight! How precious is their blood!"},
-    {"number": 4, "text": "How happy all thy servants are! How great thy grace to me! My life, which thou hast made thy care, Lord, I devote to thee."},
-    {"number": 5, "text": "Now I am thine, forever thine, Nor shall my purpose move; Thy hand hath loosed my bonds of pain, And bound me with thy love."},
-    {"number": 6, "text": "Here in thy courts I leave my vow, And thy rich grace record; Witness, ye saints, who hear me now, If I forsake the Lord."}
+    {
+      "number": 1,
+      "text": "What shall I render to my God For all his kindness shown? My feet shall visit thine abode, My songs address thy throne."
+    },
+    {
+      "number": 2,
+      "text": "Among the saints that fill thy house, My offering shall be paid; There shall my zeal perform the vows My soul in anguish made."
+    },
+    {
+      "number": 3,
+      "text": "How much is mercy thy delight, Thou ever blessed God! How dear thy servants in thy sight! How precious is their blood!"
+    },
+    {
+      "number": 4,
+      "text": "How happy all thy servants are! How great thy grace to me! My life, which thou hast made thy care, Lord, I devote to thee."
+    },
+    {
+      "number": 5,
+      "text": "Now I am thine, forever thine, Nor shall my purpose move; Thy hand hath loosed my bonds of pain, And bound me with thy love."
+    },
+    {
+      "number": 6,
+      "text": "Here in thy courts I leave my vow, And thy rich grace record; Witness, ye saints, who hear me now, If I forsake the Lord."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["worship", "devotion", "praise"],
+    "themes": [
+      "worship",
+      "devotion",
+      "praise"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

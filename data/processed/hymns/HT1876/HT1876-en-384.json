@@ -4,14 +4,25 @@
   "title": "I WAIT, O my soul, thy Maker's will",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "I WAIT, O my soul, thy Maker's will, Tumultuous passions all be still, Nor let a murmuring thought arise; His ways are just, his counsels wise."}
+    {
+      "number": 1,
+      "text": "I WAIT, O my soul, thy Maker's will, Tumultuous passions all be still, Nor let a murmuring thought arise; His ways are just, his counsels wise."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["wait", "soul", "Maker", "will", "passions", "just", "wise"],
+    "themes": [
+      "wait",
+      "soul",
+      "Maker",
+      "will",
+      "passions",
+      "just",
+      "wise"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

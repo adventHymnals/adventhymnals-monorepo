@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Christmas", "wise men", "star", "worship", "salvation"],
+    "themes": [
+      "Christ",
+      "Christmas",
+      "wise men",
+      "star",
+      "worship",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": "Dix, William H. Monk",
     "original_language": "en"

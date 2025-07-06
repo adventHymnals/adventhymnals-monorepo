@@ -28,8 +28,15 @@
   "metadata": {
     "year": 1757,
     "copyright": "Public Domain",
-    "themes": ["Trinity", "worship", "praise", "Holy Spirit"],
-    "scripture_references": ["Matthew 28:19"],
+    "themes": [
+      "Trinity",
+      "worship",
+      "praise",
+      "Holy Spirit"
+    ],
+    "scripture_references": [
+      "Matthew 28:19"
+    ],
     "tune_source": "Italian Hymn, Felice de Giardini, 1769",
     "original_language": "en"
   }

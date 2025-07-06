@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Jesus friendship", "comfort", "uniqueness", "faithfulness"],
-    "scripture_references": ["John 15:13"],
+    "themes": [
+      "Jesus friendship",
+      "comfort",
+      "uniqueness",
+      "faithfulness"
+    ],
+    "scripture_references": [
+      "John 15:13"
+    ],
     "tune_source": "James McGranahan",
     "original_language": "en"
   }

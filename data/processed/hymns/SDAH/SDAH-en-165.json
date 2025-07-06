@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["victory", "triumph", "coronation", "praise"],
+    "themes": [
+      "victory",
+      "triumph",
+      "coronation",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

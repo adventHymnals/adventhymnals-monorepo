@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["sowing and reaping", "harvest", "consequences", "eternal destiny"],
-    "scripture_references": ["Gal. 6:7"],
+    "themes": [
+      "sowing and reaping",
+      "harvest",
+      "consequences",
+      "eternal destiny"
+    ],
+    "scripture_references": [
+      "Gal. 6:7"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en",
     "extraction_status": "completed"

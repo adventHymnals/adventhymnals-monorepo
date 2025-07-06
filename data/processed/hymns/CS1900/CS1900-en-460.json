@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["mountain top experience", "communion with Christ", "spiritual vision", "peace"],
-    "scripture_references": ["Matthew 17:1-9", "Exodus 24:12-18"],
+    "themes": [
+      "mountain top experience",
+      "communion with Christ",
+      "spiritual vision",
+      "peace"
+    ],
+    "scripture_references": [
+      "Matthew 17:1-9",
+      "Exodus 24:12-18"
+    ],
     "tune_source": "J. H. Tenney",
     "original_language": "en"
   }

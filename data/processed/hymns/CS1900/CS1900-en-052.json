@@ -23,8 +23,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright by permission of Robert Lowry",
-    "themes": ["treasures", "salvation", "pure gold", "spiritual wealth", "eternal value"],
-    "scripture_references": ["Rev 3:18"],
+    "themes": [
+      "treasures",
+      "salvation",
+      "pure gold",
+      "spiritual wealth",
+      "eternal value"
+    ],
+    "scripture_references": [
+      "Rev 3:18"
+    ],
     "tune_source": "Robert Lowry",
     "original_language": "en"
   }

@@ -28,7 +28,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["prayer", "devotion", "longing"],
+    "themes": [
+      "prayer",
+      "devotion",
+      "longing"
+    ],
     "scripture_references": [],
     "tune_source": "Isaac Watts",
     "original_language": "en"

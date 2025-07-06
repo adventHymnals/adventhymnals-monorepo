@@ -23,7 +23,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Sinner's Heart", "Judge Divine", "Gracious Savior", "Dead Awaken", "Blessed Kingdom"],
+    "themes": [
+      "Sinner's Heart",
+      "Judge Divine",
+      "Gracious Savior",
+      "Dead Awaken",
+      "Blessed Kingdom"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "Crescendo",
     "hymnal_context": "Millerite/Adventist movement hymnal",

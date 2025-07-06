@@ -32,7 +32,11 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["heart", "praise", "Holy Spirit"],
+    "themes": [
+      "heart",
+      "praise",
+      "Holy Spirit"
+    ],
     "scripture_references": [],
     "tune_source": "Mendon, German",
     "original_language": "en"

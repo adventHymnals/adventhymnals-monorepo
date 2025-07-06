@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Midnight Cry", "Parable of Ten Virgins", "Bridegroom", "Preparation", "Watchfulness"],
+    "themes": [
+      "Midnight Cry",
+      "Parable of Ten Virgins",
+      "Bridegroom",
+      "Preparation",
+      "Watchfulness"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "C. M. (Common Meter)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

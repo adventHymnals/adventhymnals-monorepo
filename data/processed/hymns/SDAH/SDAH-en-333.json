@@ -29,7 +29,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["John the Baptist", "Advent", "Preparation", "Jesus Christ", "Salvation"],
+    "themes": [
+      "John the Baptist",
+      "Advent",
+      "Preparation",
+      "Jesus Christ",
+      "Salvation"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "worship", "God's glory", "divine wisdom", "creation", "God's majesty"],
+    "themes": [
+      "praise",
+      "worship",
+      "God's glory",
+      "divine wisdom",
+      "creation",
+      "God's majesty"
+    ],
     "scripture_references": [],
     "tune_source": "Luton, George Burder",
     "original_language": "en"

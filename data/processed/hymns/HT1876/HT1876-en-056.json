@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["young people", "God's word", "guidance", "wisdom", "truth"],
+    "themes": [
+      "young people",
+      "God's word",
+      "guidance",
+      "wisdom",
+      "truth"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

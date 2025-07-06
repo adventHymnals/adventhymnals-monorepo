@@ -32,7 +32,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "Jesus", "shepherd", "rest", "heaven"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "Jesus",
+      "shepherd",
+      "rest",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

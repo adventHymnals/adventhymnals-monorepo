@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "praise", "sacred rest", "creation"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "praise",
+      "sacred rest",
+      "creation"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

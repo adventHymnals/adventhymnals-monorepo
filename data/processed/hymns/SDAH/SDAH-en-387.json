@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "Rest", "Peace", "Healing"],
-    "scripture_references": ["Exodus 20:8-11", "Matthew 11:28"],
+    "themes": [
+      "Sabbath",
+      "Rest",
+      "Peace",
+      "Healing"
+    ],
+    "scripture_references": [
+      "Exodus 20:8-11",
+      "Matthew 11:28"
+    ],
     "tune_source": "Traditional Hebrew melody",
     "original_language": "en"
   }

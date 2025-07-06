@@ -27,7 +27,16 @@
   "composer": "",
   "author": "",
   "page": 230,
-  "themes": ["Glory", "Honor", "Redeemer", "King", "Children", "Hosanna", "Angels", "Praise"],
+  "themes": [
+    "Glory",
+    "Honor",
+    "Redeemer",
+    "King",
+    "Children",
+    "Hosanna",
+    "Angels",
+    "Praise"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

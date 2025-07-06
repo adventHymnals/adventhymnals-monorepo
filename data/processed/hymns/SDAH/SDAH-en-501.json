@@ -31,7 +31,11 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["prayer", "devotion", "comfort"],
+    "themes": [
+      "prayer",
+      "devotion",
+      "comfort"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

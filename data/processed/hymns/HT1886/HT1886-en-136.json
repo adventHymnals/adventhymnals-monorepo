@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "guidance", "truth", "holiness", "heaven", "divine light"],
-    "scripture_references": ["John 16:13", "John 14:6"],
+    "themes": [
+      "Holy Spirit",
+      "guidance",
+      "truth",
+      "holiness",
+      "heaven",
+      "divine light"
+    ],
+    "scripture_references": [
+      "John 16:13",
+      "John 14:6"
+    ],
     "tune_source": "George Kingsley",
     "original_language": "en"
   }

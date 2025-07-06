@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Scriptures", "divine guidance", "God's word", "spiritual treasure", "faith"],
+    "themes": [
+      "Holy Scriptures",
+      "divine guidance",
+      "God's word",
+      "spiritual treasure",
+      "faith"
+    ],
     "scripture_references": [],
     "tune_source": "169, 246, 443",
     "original_language": "en"

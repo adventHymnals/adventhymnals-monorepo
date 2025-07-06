@@ -4,18 +4,39 @@
   "title": "Come, dearest Lord, and feed thy sheep",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Come, dearest Lord, and feed thy sheep, On this sweet day of rest; Oh! bless the flock, and make this fold Enjoy a heavenly feast."},
-    {"number": 2, "text": "Welcome and precious is my soul Are these sweet days of love; But what a Sabbath shall I keep When I shall rest above!"},
-    {"number": 3, "text": "Come, Lord Jesus, I long, I long, Thy footsteps, Lord, I trace; Here, in thine own appointed way, I wait to see thy face."},
-    {"number": 4, "text": "Come on the wings of love and peace, On wings which my Lord I've seen, And oft, when feasting on his word, In rapture I have been."},
-    {"number": 5, "text": "Oh! if my soul, when Christ appears, In the sweet frame be found, I'll sleep my Savior in mine arms, And leave this earthly ground."}
+    {
+      "number": 1,
+      "text": "Come, dearest Lord, and feed thy sheep, On this sweet day of rest; Oh! bless the flock, and make this fold Enjoy a heavenly feast."
+    },
+    {
+      "number": 2,
+      "text": "Welcome and precious is my soul Are these sweet days of love; But what a Sabbath shall I keep When I shall rest above!"
+    },
+    {
+      "number": 3,
+      "text": "Come, Lord Jesus, I long, I long, Thy footsteps, Lord, I trace; Here, in thine own appointed way, I wait to see thy face."
+    },
+    {
+      "number": 4,
+      "text": "Come on the wings of love and peace, On wings which my Lord I've seen, And oft, when feasting on his word, In rapture I have been."
+    },
+    {
+      "number": 5,
+      "text": "Oh! if my soul, when Christ appears, In the sweet frame be found, I'll sleep my Savior in mine arms, And leave this earthly ground."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Sabbath", "Jesus", "worship", "rest", "second coming"],
+    "themes": [
+      "Sabbath",
+      "Jesus",
+      "worship",
+      "rest",
+      "second coming"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

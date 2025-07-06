@@ -15,7 +15,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Heavenly Journey", "Eternal World", "Canaan's Shore", "Soul's Joy", "Celestial Voyage"],
+    "themes": [
+      "Heavenly Journey",
+      "Eternal World",
+      "Canaan's Shore",
+      "Soul's Joy",
+      "Celestial Voyage"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "",
     "hymnal_context": "Millerite/Adventist movement hymnal",

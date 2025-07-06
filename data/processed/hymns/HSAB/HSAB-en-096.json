@@ -30,7 +30,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["scripture", "word of God", "guidance", "hope", "second advent", "Bible"],
+    "themes": [
+      "scripture",
+      "word of God",
+      "guidance",
+      "hope",
+      "second advent",
+      "Bible"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

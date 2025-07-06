@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["atonement", "salvation", "blood of Christ", "redemption"],
-    "scripture_references": ["Zechariah 13:1", "Luke 23:39-43"],
+    "themes": [
+      "atonement",
+      "salvation",
+      "blood of Christ",
+      "redemption"
+    ],
+    "scripture_references": [
+      "Zechariah 13:1",
+      "Luke 23:39-43"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

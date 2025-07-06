@@ -33,8 +33,17 @@
   "metadata": {
     "year": 1828,
     "copyright": "Public Domain",
-    "themes": ["refuge", "mercy", "prayer", "peace", "comfort"],
-    "scripture_references": ["Hebrews 4:16", "Exodus 25:17"],
+    "themes": [
+      "refuge",
+      "mercy",
+      "prayer",
+      "peace",
+      "comfort"
+    ],
+    "scripture_references": [
+      "Hebrews 4:16",
+      "Exodus 25:17"
+    ],
     "tune_source": "Thomas Hastings",
     "original_language": "en"
   }

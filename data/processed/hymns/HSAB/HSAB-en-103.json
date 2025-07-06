@@ -26,7 +26,17 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["christian warrior", "whole armor of god", "spirit's sword", "gospel", "salvation's helmet", "righteousness", "faith's shield", "victory", "immortal crown"],
+    "themes": [
+      "christian warrior",
+      "whole armor of god",
+      "spirit's sword",
+      "gospel",
+      "salvation's helmet",
+      "righteousness",
+      "faith's shield",
+      "victory",
+      "immortal crown"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

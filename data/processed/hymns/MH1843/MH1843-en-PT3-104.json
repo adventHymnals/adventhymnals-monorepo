@@ -27,7 +27,16 @@
   "composer": "",
   "author": "",
   "page": 243,
-  "themes": ["King", "Glory", "Peace", "Love", "Heart", "Praise", "Seven", "Days"],
+  "themes": [
+    "King",
+    "Glory",
+    "Peace",
+    "Love",
+    "Heart",
+    "Praise",
+    "Seven",
+    "Days"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

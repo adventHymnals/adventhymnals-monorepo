@@ -24,8 +24,15 @@
   "metadata": {
     "year": 1982,
     "copyright": "© 1982 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission. Music © 1984 James Bingham. All rights reserved. Used by permission.",
-    "themes": ["Love", "Faith", "Hope", "Spiritual Gifts"],
-    "scripture_references": ["1 Corinthians 13"],
+    "themes": [
+      "Love",
+      "Faith",
+      "Hope",
+      "Spiritual Gifts"
+    ],
+    "scripture_references": [
+      "1 Corinthians 13"
+    ],
     "tune_source": "Bingham",
     "original_language": "en"
   }

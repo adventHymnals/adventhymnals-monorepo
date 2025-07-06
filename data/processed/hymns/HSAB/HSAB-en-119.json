@@ -18,7 +18,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Sabbath", "evening", "peace", "rest", "vespers", "heaven"],
+    "themes": [
+      "Sabbath",
+      "evening",
+      "peace",
+      "rest",
+      "vespers",
+      "heaven"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

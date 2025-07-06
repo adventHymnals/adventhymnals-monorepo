@@ -25,7 +25,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["guidance", "pilgrimage", "provision", "protection"],
+    "themes": [
+      "guidance",
+      "pilgrimage",
+      "provision",
+      "protection"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

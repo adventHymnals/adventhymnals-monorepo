@@ -14,8 +14,15 @@
     }
   ],
   "metadata": {
-    "themes": ["amen", "conclusion", "affirmation"],
-    "scripture_references": ["1 Corinthians 14:16", "Revelation 22:20"],
+    "themes": [
+      "amen",
+      "conclusion",
+      "affirmation"
+    ],
+    "scripture_references": [
+      "1 Corinthians 14:16",
+      "Revelation 22:20"
+    ],
     "copyright": "Public Domain"
   }
 }

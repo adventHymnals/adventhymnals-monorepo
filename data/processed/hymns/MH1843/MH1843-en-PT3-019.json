@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Worship", "Thanksgiving", "God's Greatness", "Adoration", "Praise"],
+    "themes": [
+      "Worship",
+      "Thanksgiving",
+      "God's Greatness",
+      "Adoration",
+      "Praise"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "Irregular Meter",
     "hymnal_context": "Millerite/Adventist movement hymnal",

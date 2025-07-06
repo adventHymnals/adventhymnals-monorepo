@@ -21,8 +21,16 @@
   "metadata": {
     "year": 1641,
     "copyright": "Public Domain",
-    "themes": ["Christmas", "Christ's Birth", "Light", "Salvation"],
-    "scripture_references": ["Luke 2:9-14", "Isaiah 9:2"],
+    "themes": [
+      "Christmas",
+      "Christ's Birth",
+      "Light",
+      "Salvation"
+    ],
+    "scripture_references": [
+      "Luke 2:9-14",
+      "Isaiah 9:2"
+    ],
     "tune_source": "Johann Schop, 1641",
     "original_language": "de"
   }

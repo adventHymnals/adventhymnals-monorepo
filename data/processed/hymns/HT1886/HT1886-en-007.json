@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "prayer", "presence", "blessing", "grace"],
+    "themes": [
+      "worship",
+      "prayer",
+      "presence",
+      "blessing",
+      "grace"
+    ],
     "scripture_references": [],
     "tune_source": "Manoah, Francis J. Haydn",
     "original_language": "en"

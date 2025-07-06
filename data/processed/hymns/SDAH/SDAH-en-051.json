@@ -31,7 +31,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["evening", "worship", "praise", "God's presence"],
+    "themes": [
+      "evening",
+      "worship",
+      "praise",
+      "God's presence"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

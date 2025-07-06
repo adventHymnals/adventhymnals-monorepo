@@ -38,7 +38,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "Armageddon", "battle", "resurrection", "judgment", "warfare"],
+    "themes": [
+      "second advent",
+      "Armageddon",
+      "battle",
+      "resurrection",
+      "judgment",
+      "warfare"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

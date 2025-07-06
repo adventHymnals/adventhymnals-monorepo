@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1876,
     "copyright": null,
-    "themes": ["Redemption", "Jesus Christ", "Cross", "Salvation"],
-    "scripture_references": ["Galatians 3:13", "1 Peter 1:18-19"],
+    "themes": [
+      "Redemption",
+      "Jesus Christ",
+      "Cross",
+      "Salvation"
+    ],
+    "scripture_references": [
+      "Galatians 3:13",
+      "1 Peter 1:18-19"
+    ],
     "tune_source": "James McGranahan",
     "original_language": "en"
   }

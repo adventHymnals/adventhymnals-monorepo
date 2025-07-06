@@ -25,8 +25,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["stewardship", "dedication", "service", "gratitude"],
-    "scripture_references": ["Romans 12:1", "1 Chronicles 29:14"],
+    "themes": [
+      "stewardship",
+      "dedication",
+      "service",
+      "gratitude"
+    ],
+    "scripture_references": [
+      "Romans 12:1",
+      "1 Chronicles 29:14"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

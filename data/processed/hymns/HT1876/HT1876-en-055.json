@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["word value", "knowledge", "grace", "Jesus", "heavenly love"],
+    "themes": [
+      "word value",
+      "knowledge",
+      "grace",
+      "Jesus",
+      "heavenly love"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

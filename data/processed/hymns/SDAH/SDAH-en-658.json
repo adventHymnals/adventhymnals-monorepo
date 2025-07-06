@@ -22,8 +22,16 @@
     }
   ],
   "metadata": {
-    "themes": ["marriage", "prayer", "blessing", "unity"],
-    "scripture_references": ["Matthew 19:6", "1 Corinthians 7:39"],
+    "themes": [
+      "marriage",
+      "prayer",
+      "blessing",
+      "unity"
+    ],
+    "scripture_references": [
+      "Matthew 19:6",
+      "1 Corinthians 7:39"
+    ],
     "copyright": "Public Domain"
   }
 }

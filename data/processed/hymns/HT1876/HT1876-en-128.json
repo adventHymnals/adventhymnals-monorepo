@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["heavy clouds", "destruction", "sinner", "thunder", "judgments"],
+    "themes": [
+      "heavy clouds",
+      "destruction",
+      "sinner",
+      "thunder",
+      "judgments"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "7s."

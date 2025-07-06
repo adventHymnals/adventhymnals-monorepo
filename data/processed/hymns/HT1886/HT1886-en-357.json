@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["blood of Christ", "atonement", "forgiveness", "intercession", "mercy"],
-    "scripture_references": ["Hebrews 12:24", "1 Peter 1:2"],
+    "themes": [
+      "blood of Christ",
+      "atonement",
+      "forgiveness",
+      "intercession",
+      "mercy"
+    ],
+    "scripture_references": [
+      "Hebrews 12:24",
+      "1 Peter 1:2"
+    ],
     "tune_source": "Munich, Felix Mendelssohn-Bartholdy",
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

@@ -25,8 +25,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["praise", "victory", "redemption", "hope"],
-    "scripture_references": ["Revelation 5:9"],
+    "themes": [
+      "praise",
+      "victory",
+      "redemption",
+      "hope"
+    ],
+    "scripture_references": [
+      "Revelation 5:9"
+    ],
     "tune_source": "J. H. Fillmore",
     "original_language": "en"
   }

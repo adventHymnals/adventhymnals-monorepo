@@ -27,8 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["jubilee", "freedom", "grace"],
-    "scripture_references": ["Leviticus 25:10"],
+    "themes": [
+      "jubilee",
+      "freedom",
+      "grace"
+    ],
+    "scripture_references": [
+      "Leviticus 25:10"
+    ],
     "tune_source": "H. J. Zelley",
     "original_language": "en",
     "verse_count": 3,

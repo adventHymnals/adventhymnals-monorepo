@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by W. S. Marshall. Used by permission.",
-    "themes": ["Holy Spirit", "peace", "quietness", "comfort"],
+    "themes": [
+      "Holy Spirit",
+      "peace",
+      "quietness",
+      "comfort"
+    ],
     "scripture_references": [],
     "tune_source": "W. S. Marshall",
     "original_language": "en"

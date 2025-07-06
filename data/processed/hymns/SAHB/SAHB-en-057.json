@@ -31,7 +31,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["chosen generation", "royal priesthood", "light of the world", "salt of the earth"],
+    "themes": [
+      "chosen generation",
+      "royal priesthood",
+      "light of the world",
+      "salt of the earth"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

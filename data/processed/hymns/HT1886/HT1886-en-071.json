@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's grace", "God's goodness", "providence", "compassion", "mercy"],
+    "themes": [
+      "God's grace",
+      "God's goodness",
+      "providence",
+      "compassion",
+      "mercy"
+    ],
     "scripture_references": [],
     "tune_source": "114, 147, 227",
     "original_language": "en"

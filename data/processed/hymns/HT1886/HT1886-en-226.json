@@ -20,7 +20,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "holy rest", "congregation", "heaven"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "holy rest",
+      "congregation",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

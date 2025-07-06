@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["human inability", "futility of works", "Christ's work alone", "salvation by grace", "peace through Christ"],
-    "scripture_references": ["Ephesians 2:8-9", "Titus 3:5", "Romans 3:20"],
+    "themes": [
+      "human inability",
+      "futility of works",
+      "Christ's work alone",
+      "salvation by grace",
+      "peace through Christ"
+    ],
+    "scripture_references": [
+      "Ephesians 2:8-9",
+      "Titus 3:5",
+      "Romans 3:20"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

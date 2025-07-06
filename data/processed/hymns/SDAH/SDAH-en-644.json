@@ -26,8 +26,16 @@
     }
   ],
   "metadata": {
-    "themes": ["healing", "medical ministry", "service", "compassion"],
-    "scripture_references": ["Matthew 9:35", "Luke 4:18"],
+    "themes": [
+      "healing",
+      "medical ministry",
+      "service",
+      "compassion"
+    ],
+    "scripture_references": [
+      "Matthew 9:35",
+      "Luke 4:18"
+    ],
     "copyright": "Public Domain"
   }
 }

@@ -27,7 +27,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["assurance", "heaven", "persecution", "eternal rest"],
+    "themes": [
+      "assurance",
+      "heaven",
+      "persecution",
+      "eternal rest"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

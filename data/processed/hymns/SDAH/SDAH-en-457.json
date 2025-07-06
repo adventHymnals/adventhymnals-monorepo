@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1868,
     "copyright": "Public Domain",
-    "themes": ["evangelism", "testimony", "gospel story", "salvation", "witnessing"],
-    "scripture_references": ["Romans 1:16", "1 Corinthians 1:18", "2 Timothy 4:2"],
+    "themes": [
+      "evangelism",
+      "testimony",
+      "gospel story",
+      "salvation",
+      "witnessing"
+    ],
+    "scripture_references": [
+      "Romans 1:16",
+      "1 Corinthians 1:18",
+      "2 Timothy 4:2"
+    ],
     "tune_source": "William G. Fischer",
     "original_language": "en"
   }

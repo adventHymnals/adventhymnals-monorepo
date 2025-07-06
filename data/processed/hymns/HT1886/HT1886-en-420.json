@@ -24,8 +24,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["comfort", "mercy", "healing"],
-    "scripture_references": ["Revelation 21:4"],
+    "themes": [
+      "comfort",
+      "mercy",
+      "healing"
+    ],
+    "scripture_references": [
+      "Revelation 21:4"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

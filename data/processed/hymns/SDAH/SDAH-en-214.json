@@ -21,7 +21,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Hope", "Faith", "Unity", "Love", "Promise"],
+    "themes": [
+      "Hope",
+      "Faith",
+      "Unity",
+      "Love",
+      "Promise"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

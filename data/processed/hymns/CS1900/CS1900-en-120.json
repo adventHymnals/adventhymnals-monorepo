@@ -27,7 +27,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["judgment", "second coming", "trial"],
+    "themes": [
+      "judgment",
+      "second coming",
+      "trial"
+    ],
     "scripture_references": [],
     "tune_source": "Robert Lowry",
     "original_language": "en",

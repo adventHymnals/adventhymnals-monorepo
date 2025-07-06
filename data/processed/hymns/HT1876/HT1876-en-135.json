@@ -4,17 +4,35 @@
   "title": "Oh! happy are they who yet sail on",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Oh! happy are they who yet sail on, O thou, my Savior and my God! Well may I let thy glowing bridge, And tell thy raptures all abroad."},
-    {"number": 2, "text": "The done, the great temptation done! I am my Lord's, and he is mine; He drew me, and I followed him; Charmed to confess the voice divine."},
-    {"number": 3, "text": "Now rest, my long divided heart, Fixed on this blissful center, rest, Nor ever from thy Lord depart, With him of every good possessed."},
-    {"number": 4, "text": "High Heaven, that heard the solemn vow, That vow renewed shall daily hear, Till in life's latest hour I bow, And bless at last a bond so dear."}
+    {
+      "number": 1,
+      "text": "Oh! happy are they who yet sail on, O thou, my Savior and my God! Well may I let thy glowing bridge, And tell thy raptures all abroad."
+    },
+    {
+      "number": 2,
+      "text": "The done, the great temptation done! I am my Lord's, and he is mine; He drew me, and I followed him; Charmed to confess the voice divine."
+    },
+    {
+      "number": 3,
+      "text": "Now rest, my long divided heart, Fixed on this blissful center, rest, Nor ever from thy Lord depart, With him of every good possessed."
+    },
+    {
+      "number": 4,
+      "text": "High Heaven, that heard the solemn vow, That vow renewed shall daily hear, Till in life's latest hour I bow, And bless at last a bond so dear."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["salvation", "Jesus", "commitment", "devotion", "rest"],
+    "themes": [
+      "salvation",
+      "Jesus",
+      "commitment",
+      "devotion",
+      "rest"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

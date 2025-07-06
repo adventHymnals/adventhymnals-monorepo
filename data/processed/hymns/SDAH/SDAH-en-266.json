@@ -33,7 +33,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Holy Spirit", "Prayer", "Divine Love", "Spiritual Growth"],
+    "themes": [
+      "Holy Spirit",
+      "Prayer",
+      "Divine Love",
+      "Spiritual Growth"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

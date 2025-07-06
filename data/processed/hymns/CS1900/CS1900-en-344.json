@@ -21,7 +21,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["children", "blessing", "kingdom of heaven"],
+    "themes": [
+      "children",
+      "blessing",
+      "kingdom of heaven"
+    ],
     "scripture_references": [],
     "tune_source": "Unknown",
     "original_language": "en"

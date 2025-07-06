@@ -37,8 +37,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["praise", "redemption", "Jesus name", "salvation"],
-    "scripture_references": ["Acts 4:12"],
+    "themes": [
+      "praise",
+      "redemption",
+      "Jesus name",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Acts 4:12"
+    ],
     "tune_source": "Dr. Harwood",
     "original_language": "en"
   }

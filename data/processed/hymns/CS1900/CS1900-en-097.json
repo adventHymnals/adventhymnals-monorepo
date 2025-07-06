@@ -27,8 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["calling", "mercy", "salvation"],
-    "scripture_references": ["Matthew 11:28"],
+    "themes": [
+      "calling",
+      "mercy",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Matthew 11:28"
+    ],
     "tune_source": "Geo. C. Stebbins",
     "original_language": "en",
     "verse_count": 3,

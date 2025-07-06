@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1887,
     "copyright": "Public Domain",
-    "themes": ["joy", "spiritual sunshine", "peace", "praise", "divine presence"],
-    "scripture_references": ["Psalm 16:11", "John 8:12", "Galatians 5:22"],
+    "themes": [
+      "joy",
+      "spiritual sunshine",
+      "peace",
+      "praise",
+      "divine presence"
+    ],
+    "scripture_references": [
+      "Psalm 16:11",
+      "John 8:12",
+      "Galatians 5:22"
+    ],
     "tune_source": "John R. Sweney",
     "original_language": "en"
   }

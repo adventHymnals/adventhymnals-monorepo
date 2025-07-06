@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by permission of The Johns Church Co., owners of the copyright",
-    "themes": ["blessed", "doers", "hearers", "commandments", "law", "justified", "word"],
-    "scripture_references": ["Rom. 2:13"],
+    "themes": [
+      "blessed",
+      "doers",
+      "hearers",
+      "commandments",
+      "law",
+      "justified",
+      "word"
+    ],
+    "scripture_references": [
+      "Rom. 2:13"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

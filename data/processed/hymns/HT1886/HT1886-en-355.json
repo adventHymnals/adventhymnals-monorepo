@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["heavenly tabernacle", "Christ's priesthood", "intercession", "Jewish priesthood"],
-    "scripture_references": ["Hebrews 8:1-2", "Hebrews 9:11"],
+    "themes": [
+      "heavenly tabernacle",
+      "Christ's priesthood",
+      "intercession",
+      "Jewish priesthood"
+    ],
+    "scripture_references": [
+      "Hebrews 8:1-2",
+      "Hebrews 9:11"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

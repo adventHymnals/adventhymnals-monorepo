@@ -35,8 +35,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["warning", "invitation", "harvest", "judgment", "mercy"],
-    "scripture_references": ["Jeremiah 8:20"],
+    "themes": [
+      "warning",
+      "invitation",
+      "harvest",
+      "judgment",
+      "mercy"
+    ],
+    "scripture_references": [
+      "Jeremiah 8:20"
+    ],
     "tune_source": "William B. Bradbury",
     "original_language": "en"
   }

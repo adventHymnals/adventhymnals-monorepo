@@ -33,7 +33,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Holy Spirit", "Living Fire", "Biblical Heroes", "Spiritual Power"],
+    "themes": [
+      "Holy Spirit",
+      "Living Fire",
+      "Biblical Heroes",
+      "Spiritual Power"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

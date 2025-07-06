@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900. Used by permission.",
-    "themes": ["Jesus", "discipleship", "gospel light", "salvation"],
+    "themes": [
+      "Jesus",
+      "discipleship",
+      "gospel light",
+      "salvation"
+    ],
     "scripture_references": [],
     "tune_source": "F. E. Belden",
     "original_language": "en"

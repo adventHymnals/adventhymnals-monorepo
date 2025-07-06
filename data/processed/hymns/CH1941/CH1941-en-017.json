@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1865,
     "copyright": "Public Domain",
-    "themes": ["rejoicing", "purity", "worship", "celebration"],
-    "scripture_references": ["Psalm 32:11", "1 Peter 1:8"],
+    "themes": [
+      "rejoicing",
+      "purity",
+      "worship",
+      "celebration"
+    ],
+    "scripture_references": [
+      "Psalm 32:11",
+      "1 Peter 1:8"
+    ],
     "tune_source": "Marion, Arthur Henry Messiter, 1883",
     "original_language": "en"
   }

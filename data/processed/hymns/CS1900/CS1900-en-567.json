@@ -19,7 +19,13 @@
   "metadata": {
     "year": 1900,
     "copyright": "Words, copyright 1900 by J. E. Rankin",
-    "themes": ["glory", "throne", "victory", "satisfaction", "heaven"],
+    "themes": [
+      "glory",
+      "throne",
+      "victory",
+      "satisfaction",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": "J. H. Brubaker",
     "original_language": "en"

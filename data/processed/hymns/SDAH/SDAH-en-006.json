@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1863,
     "copyright": "Public Domain",
-    "themes": ["worship", "holiness", "reverence", "trust"],
-    "scripture_references": ["Psalm 96:9", "1 Chronicles 16:29"],
+    "themes": [
+      "worship",
+      "holiness",
+      "reverence",
+      "trust"
+    ],
+    "scripture_references": [
+      "Psalm 96:9",
+      "1 Chronicles 16:29"
+    ],
     "tune_source": "Robert Jackson, 1888",
     "original_language": "en"
   }

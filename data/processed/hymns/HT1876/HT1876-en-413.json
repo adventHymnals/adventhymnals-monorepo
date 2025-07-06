@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["fear the Lord", "covenant", "altar", "vows", "shepherd"],
+    "themes": [
+      "fear the Lord",
+      "covenant",
+      "altar",
+      "vows",
+      "shepherd"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

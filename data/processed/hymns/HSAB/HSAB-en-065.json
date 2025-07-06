@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["morning watch", "day-star", "wedding garments", "lamps burning", "victory"],
+    "themes": [
+      "morning watch",
+      "day-star",
+      "wedding garments",
+      "lamps burning",
+      "victory"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

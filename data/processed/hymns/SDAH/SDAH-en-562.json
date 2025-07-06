@@ -33,7 +33,12 @@
   "metadata": {
     "year": 1976,
     "copyright": "1976 Hope Publishing Co.",
-    "themes": ["harvest", "thanksgiving", "sharing", "first fruits"],
+    "themes": [
+      "harvest",
+      "thanksgiving",
+      "sharing",
+      "first fruits"
+    ],
     "scripture_references": [],
     "tune_source": "Horst Gehann",
     "original_language": "en"

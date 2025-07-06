@@ -28,8 +28,16 @@
   "metadata": {
     "year": "[needs verification]",
     "copyright": "Public Domain",
-    "themes": ["incarnation", "prophecy", "light", "humility"],
-    "scripture_references": ["Isaiah 9:2", "Luke 2:30-32"],
+    "themes": [
+      "incarnation",
+      "prophecy",
+      "light",
+      "humility"
+    ],
+    "scripture_references": [
+      "Isaiah 9:2",
+      "Luke 2:30-32"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

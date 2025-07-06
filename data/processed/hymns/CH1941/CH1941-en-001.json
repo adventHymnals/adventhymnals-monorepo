@@ -28,8 +28,14 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["worship", "praise", "sovereignty of God"],
-    "scripture_references": ["Psalm 100"],
+    "themes": [
+      "worship",
+      "praise",
+      "sovereignty of God"
+    ],
+    "scripture_references": [
+      "Psalm 100"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

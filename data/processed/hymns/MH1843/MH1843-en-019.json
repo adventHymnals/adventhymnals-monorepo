@@ -22,7 +22,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Sons of Zion", "Marriage Supper", "New Jerusalem", "Readiness"],
+    "themes": [
+      "Sons of Zion",
+      "Marriage Supper",
+      "New Jerusalem",
+      "Readiness"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "None specified",
     "hymnal_context": "Millerite/Adventist movement hymnal",

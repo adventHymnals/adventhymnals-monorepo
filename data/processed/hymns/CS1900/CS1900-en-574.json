@@ -23,8 +23,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1900, by The Biglow & Main Co., owners of copyright",
-    "themes": ["rest", "Eden", "valley", "beautiful", "home"],
-    "scripture_references": ["Isa. 55:1"],
+    "themes": [
+      "rest",
+      "Eden",
+      "valley",
+      "beautiful",
+      "home"
+    ],
+    "scripture_references": [
+      "Isa. 55:1"
+    ],
     "tune_source": "W. F. Sherwin",
     "original_language": "en"
   }

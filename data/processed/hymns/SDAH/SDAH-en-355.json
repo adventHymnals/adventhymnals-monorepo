@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1903,
     "copyright": "Public Domain",
-    "themes": ["mission", "urban ministry", "social concern", "compassion"],
-    "scripture_references": ["Matthew 9:36", "Matthew 25:31-46"],
+    "themes": [
+      "mission",
+      "urban ministry",
+      "social concern",
+      "compassion"
+    ],
+    "scripture_references": [
+      "Matthew 9:36",
+      "Matthew 25:31-46"
+    ],
     "tune_source": "William Gardiner's Sacred Melodies, 1815",
     "original_language": "en",
     "author_dates": "1850-1935"

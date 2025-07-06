@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1834,
     "copyright": "Public Domain",
-    "themes": ["trial", "temptation", "prayer", "dependence on God"],
-    "scripture_references": ["Luke 22:31-32", "1 Peter 5:7"],
+    "themes": [
+      "trial",
+      "temptation",
+      "prayer",
+      "dependence on God"
+    ],
+    "scripture_references": [
+      "Luke 22:31-32",
+      "1 Peter 5:7"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

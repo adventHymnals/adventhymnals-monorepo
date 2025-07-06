@@ -4,17 +4,35 @@
   "title": "Six days of toil and care",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Six days of toil and care, I bid you all adieu; My soul, enjoy thy Sabbath hours, I gladly welcome you."},
-    {"number": 2, "text": "My heart with rapture burns To Eden's vale so fair, That for its blessed solitude, And view the Sabbath there."},
-    {"number": 3, "text": "Seven thousand years they roll, Shall memory faithful prove To Him who made the earth and sea, And starry worlds above."},
-    {"number": 4, "text": "Each Sabbath spent aright Shall bring us nearer thee, Till in that glorious land of light We're made forever free."}
+    {
+      "number": 1,
+      "text": "Six days of toil and care, I bid you all adieu; My soul, enjoy thy Sabbath hours, I gladly welcome you."
+    },
+    {
+      "number": 2,
+      "text": "My heart with rapture burns To Eden's vale so fair, That for its blessed solitude, And view the Sabbath there."
+    },
+    {
+      "number": 3,
+      "text": "Seven thousand years they roll, Shall memory faithful prove To Him who made the earth and sea, And starry worlds above."
+    },
+    {
+      "number": 4,
+      "text": "Each Sabbath spent aright Shall bring us nearer thee, Till in that glorious land of light We're made forever free."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Sabbath", "Eden", "rest", "creation", "heaven"],
+    "themes": [
+      "Sabbath",
+      "Eden",
+      "rest",
+      "creation",
+      "heaven"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

@@ -4,16 +4,32 @@
   "title": "I know that my Redeemer lives",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "I know that my Redeemer lives; He lives, and on the earth shall stand; All power to him the Father gives, My dust has numbered in his hand."},
-    {"number": 2, "text": "In his most holy flesh shall I, I surely shall behold him near; Shall see him in the latest day, In all his majesty appear."},
-    {"number": 3, "text": "With mine and not another's eyes, The King in beauty I shall view; I shall from him receive the prize, The starry crown to victors due."}
+    {
+      "number": 1,
+      "text": "I know that my Redeemer lives; He lives, and on the earth shall stand; All power to him the Father gives, My dust has numbered in his hand."
+    },
+    {
+      "number": 2,
+      "text": "In his most holy flesh shall I, I surely shall behold him near; Shall see him in the latest day, In all his majesty appear."
+    },
+    {
+      "number": 3,
+      "text": "With mine and not another's eyes, The King in beauty I shall view; I shall from him receive the prize, The starry crown to victors due."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["redemption", "resurrection", "hope", "victory", "reward", "majesty"],
+    "themes": [
+      "redemption",
+      "resurrection",
+      "hope",
+      "victory",
+      "reward",
+      "majesty"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

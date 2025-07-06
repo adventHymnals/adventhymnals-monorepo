@@ -29,8 +29,15 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["new song", "victory", "judgment", "praise"],
-    "scripture_references": ["Psalm 98"],
+    "themes": [
+      "new song",
+      "victory",
+      "judgment",
+      "praise"
+    ],
+    "scripture_references": [
+      "Psalm 98"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

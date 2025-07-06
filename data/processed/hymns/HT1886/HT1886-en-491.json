@@ -16,8 +16,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "From 'Songs of Devotion,' by pem. Biglow & Main",
-    "themes": ["prayer", "mercy", "salvation"],
-    "scripture_references": ["Acts 2:17"],
+    "themes": [
+      "prayer",
+      "mercy",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Acts 2:17"
+    ],
     "tune_source": "W. H. Doane",
     "original_language": "en",
     "extraction_status": "metadata_only_copyright_protected"

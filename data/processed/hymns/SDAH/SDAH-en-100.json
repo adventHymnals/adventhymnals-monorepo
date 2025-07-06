@@ -27,8 +27,15 @@
   "metadata": {
     "year": 1923,
     "copyright": "© 1923, Ren. 1951 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["God's Faithfulness", "God's Mercy", "God's Provision", "Trust"],
-    "scripture_references": ["Lamentations 3:22-23"],
+    "themes": [
+      "God's Faithfulness",
+      "God's Mercy",
+      "God's Provision",
+      "Trust"
+    ],
+    "scripture_references": [
+      "Lamentations 3:22-23"
+    ],
     "tune_source": "Faithfulness",
     "original_language": "en"
   }

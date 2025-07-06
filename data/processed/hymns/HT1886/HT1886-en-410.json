@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["fellowship", "unity", "Christian love", "community"],
-    "scripture_references": ["Ephesians 4:3", "1 John 1:7"],
+    "themes": [
+      "fellowship",
+      "unity",
+      "Christian love",
+      "community"
+    ],
+    "scripture_references": [
+      "Ephesians 4:3",
+      "1 John 1:7"
+    ],
     "tune_source": "Lowell Mason",
     "original_language": "en"
   }

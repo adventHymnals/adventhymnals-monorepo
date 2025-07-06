@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895, by S. E. Belden",
-    "themes": ["rock", "foundation", "building", "storm", "trial", "hope", "ages"],
-    "scripture_references": ["Matt. 7:24"],
+    "themes": [
+      "rock",
+      "foundation",
+      "building",
+      "storm",
+      "trial",
+      "hope",
+      "ages"
+    ],
+    "scripture_references": [
+      "Matt. 7:24"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

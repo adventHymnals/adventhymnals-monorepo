@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1877,
     "copyright": "Public Domain",
-    "themes": ["heaven", "homeland", "eternal life", "invitation", "crystal sea"],
-    "scripture_references": ["Revelation 22:1", "John 14:2", "Revelation 21:4"],
+    "themes": [
+      "heaven",
+      "homeland",
+      "eternal life",
+      "invitation",
+      "crystal sea"
+    ],
+    "scripture_references": [
+      "Revelation 22:1",
+      "John 14:2",
+      "Revelation 21:4"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

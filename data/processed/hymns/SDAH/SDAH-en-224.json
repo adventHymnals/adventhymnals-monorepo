@@ -44,8 +44,16 @@
   "metadata": {
     "year": 1972,
     "copyright": "© 1972 Maranatha! Music",
-    "themes": ["Kingdom of God", "Discipleship", "Seeking God", "Following Jesus"],
-    "scripture_references": ["Matthew 6:33", "Matthew 13:44-46"],
+    "themes": [
+      "Kingdom of God",
+      "Discipleship",
+      "Seeking God",
+      "Following Jesus"
+    ],
+    "scripture_references": [
+      "Matthew 6:33",
+      "Matthew 13:44-46"
+    ],
     "tune_source": "Karen Lafferty, 1972",
     "original_language": "en"
   }

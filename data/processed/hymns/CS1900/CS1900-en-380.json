@@ -31,7 +31,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["testimony", "evangelism", "story of Jesus", "witness"],
+    "themes": [
+      "testimony",
+      "evangelism",
+      "story of Jesus",
+      "witness"
+    ],
     "scripture_references": [],
     "tune_source": "Wm. G. Fischer",
     "original_language": "en"

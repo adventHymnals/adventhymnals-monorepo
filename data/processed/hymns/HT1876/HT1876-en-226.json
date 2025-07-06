@@ -4,16 +4,32 @@
   "title": "I want a principle within",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "I want a principle within Of jealous, godly fear; A sensibility of sin, A pain to feel it near; I want the first approach to feel Of pride or fond desire; To catch the wandering of my will, And quench the kindling fire."},
-    {"number": 2, "text": "From thee that I no more may part, No more thy goodness grieve, The filial awe, the fleshly heart, The tender conscience give. Quick as the apple of an eye, O God, my conscience make; Awake my soul when sin is nigh, And keep it still awake."},
-    {"number": 3, "text": "If to the right or left I stray, That moment, Lord, reprove; And let me weep my life away, For having grieved thy love. Oh, may the least omission pain My well-instructed soul! And drive me to the blood again, Which makes the wounded whole."}
+    {
+      "number": 1,
+      "text": "I want a principle within Of jealous, godly fear; A sensibility of sin, A pain to feel it near; I want the first approach to feel Of pride or fond desire; To catch the wandering of my will, And quench the kindling fire."
+    },
+    {
+      "number": 2,
+      "text": "From thee that I no more may part, No more thy goodness grieve, The filial awe, the fleshly heart, The tender conscience give. Quick as the apple of an eye, O God, my conscience make; Awake my soul when sin is nigh, And keep it still awake."
+    },
+    {
+      "number": 3,
+      "text": "If to the right or left I stray, That moment, Lord, reprove; And let me weep my life away, For having grieved thy love. Oh, may the least omission pain My well-instructed soul! And drive me to the blood again, Which makes the wounded whole."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["godly fear", "sensitivity to sin", "conscience", "repentance", "staying close to God", "spiritual vigilance"],
+    "themes": [
+      "godly fear",
+      "sensitivity to sin",
+      "conscience",
+      "repentance",
+      "staying close to God",
+      "spiritual vigilance"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M. Double."

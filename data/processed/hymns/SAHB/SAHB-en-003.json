@@ -27,7 +27,11 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["worship", "praise", "vespers"],
+    "themes": [
+      "worship",
+      "praise",
+      "vespers"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

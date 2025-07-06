@@ -4,18 +4,39 @@
   "title": "THE time is near when Zion's sons",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "THE time is near when Zion's sons, With rapturous joy shall sing the song Foretold by seers—anointed ones: We have a city great and strong."},
-    {"number": 2, "text": "Open, ye gates! The glorious King Approaches with a holy throng; Open, ye gates! Saints, angels, sing On golden harps the victor's song!"},
-    {"number": 3, "text": "O righteous nation! enter in, That kept the law of truth below, Enter the place all free from sin, Where living streams forever flow."},
-    {"number": 4, "text": "Within these walls shall they remain, Well trusted, mighty Lord! in thee; Death shall not conquer their domain, They, deathless, shall forever free."},
-    {"number": 5, "text": "Thus the redeemed to Zion come, With glory shining from their faces; Angelic legions wait them home, While shouts of praise the earth employ."}
+    {
+      "number": 1,
+      "text": "THE time is near when Zion's sons, With rapturous joy shall sing the song Foretold by seers—anointed ones: We have a city great and strong."
+    },
+    {
+      "number": 2,
+      "text": "Open, ye gates! The glorious King Approaches with a holy throng; Open, ye gates! Saints, angels, sing On golden harps the victor's song!"
+    },
+    {
+      "number": 3,
+      "text": "O righteous nation! enter in, That kept the law of truth below, Enter the place all free from sin, Where living streams forever flow."
+    },
+    {
+      "number": 4,
+      "text": "Within these walls shall they remain, Well trusted, mighty Lord! in thee; Death shall not conquer their domain, They, deathless, shall forever free."
+    },
+    {
+      "number": 5,
+      "text": "Thus the redeemed to Zion come, With glory shining from their faces; Angelic legions wait them home, While shouts of praise the earth employ."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["hour", "God", "optimism", "great", "eternal"],
+    "themes": [
+      "hour",
+      "God",
+      "optimism",
+      "great",
+      "eternal"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["nearness to God", "daily life", "joy", "Jesus", "divine love"],
+    "themes": [
+      "nearness to God",
+      "daily life",
+      "joy",
+      "Jesus",
+      "divine love"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M.",

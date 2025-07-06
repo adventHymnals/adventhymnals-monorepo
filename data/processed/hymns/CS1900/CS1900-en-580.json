@@ -25,8 +25,18 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["truth", "resurrection", "error", "righteousness", "eternal years", "divine justice"],
-    "scripture_references": ["Psalm 85:11", "John 8:32"],
+    "themes": [
+      "truth",
+      "resurrection",
+      "error",
+      "righteousness",
+      "eternal years",
+      "divine justice"
+    ],
+    "scripture_references": [
+      "Psalm 85:11",
+      "John 8:32"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

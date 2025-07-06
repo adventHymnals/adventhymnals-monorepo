@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["morning", "protection", "prayer", "praise"],
+    "themes": [
+      "morning",
+      "protection",
+      "prayer",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

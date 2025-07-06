@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Jesus as friend", "comfort", "salvation", "lily of the valley"],
+    "themes": [
+      "Jesus as friend",
+      "comfort",
+      "salvation",
+      "lily of the valley"
+    ],
     "scripture_references": [],
     "tune_source": "Arr. from English Melody",
     "original_language": "en"

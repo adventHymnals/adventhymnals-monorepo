@@ -24,7 +24,12 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["heavenly longing", "earthly weariness", "eternal rest", "death"],
+    "themes": [
+      "heavenly longing",
+      "earthly weariness",
+      "eternal rest",
+      "death"
+    ],
     "scripture_references": [],
     "tune_source": "LET ME GO",
     "original_language": "en",

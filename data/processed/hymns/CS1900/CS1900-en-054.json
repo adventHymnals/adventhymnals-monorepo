@@ -23,7 +23,13 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyrighted, 1900, by F. E. Belden",
-    "themes": ["courage", "righteousness", "truth", "conviction", "divine help"],
+    "themes": [
+      "courage",
+      "righteousness",
+      "truth",
+      "conviction",
+      "divine help"
+    ],
     "scripture_references": [],
     "tune_source": "F. E. Belden",
     "original_language": "en"

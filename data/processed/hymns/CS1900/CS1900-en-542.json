@@ -29,8 +29,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["purity", "heart", "divine presence"],
-    "scripture_references": ["Matthew 5:8"],
+    "themes": [
+      "purity",
+      "heart",
+      "divine presence"
+    ],
+    "scripture_references": [
+      "Matthew 5:8"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

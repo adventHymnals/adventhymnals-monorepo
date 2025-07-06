@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Bible", "treasure", "fountain", "guide", "pearl"],
+    "themes": [
+      "Bible",
+      "treasure",
+      "fountain",
+      "guide",
+      "pearl"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "8s & 7s"

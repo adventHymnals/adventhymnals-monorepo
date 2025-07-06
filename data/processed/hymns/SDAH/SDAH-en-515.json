@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1875,
     "copyright": "Public Domain",
-    "themes": ["light", "faith and trust", "salvation", "strength"],
-    "scripture_references": ["Psalm 27:1", "Psalm 18:2"],
+    "themes": [
+      "light",
+      "faith and trust",
+      "salvation",
+      "strength"
+    ],
+    "scripture_references": [
+      "Psalm 27:1",
+      "Psalm 18:2"
+    ],
     "tune_source": "Dr. J. W. Bischoff",
     "original_language": "en",
     "author_dates": "1828-1876",

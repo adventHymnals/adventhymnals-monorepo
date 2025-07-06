@@ -31,7 +31,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1889, by F. E. Belden",
-    "themes": ["Saviour", "Father", "pleading", "glory", "tenderness", "peace", "eternity", "heaven"],
+    "themes": [
+      "Saviour",
+      "Father",
+      "pleading",
+      "glory",
+      "tenderness",
+      "peace",
+      "eternity",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

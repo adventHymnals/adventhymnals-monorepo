@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1869, by W. H. Doane.",
-    "themes": ["safety", "comfort", "Jesus", "peace"],
+    "themes": [
+      "safety",
+      "comfort",
+      "Jesus",
+      "peace"
+    ],
     "scripture_references": [],
     "tune_source": "W. H. Doane",
     "original_language": "en"

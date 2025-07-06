@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1893, by F. E. Belden",
-    "themes": ["judgment", "Belshazzar", "Daniel", "handwriting"],
-    "scripture_references": ["Daniel 5:5-28"],
+    "themes": [
+      "judgment",
+      "Belshazzar",
+      "Daniel",
+      "handwriting"
+    ],
+    "scripture_references": [
+      "Daniel 5:5-28"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en"
   }

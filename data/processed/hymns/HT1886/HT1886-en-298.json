@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "First Advent", "Christmas", "star", "wise men", "worship"],
+    "themes": [
+      "Christ",
+      "First Advent",
+      "Christmas",
+      "star",
+      "wise men",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": "Hanover, Johann C. W. A. Mozart",
     "original_language": "en"

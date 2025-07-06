@@ -25,7 +25,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "faith", "trumpet", "judgment", "prophetic fulfillment"],
+    "themes": [
+      "second advent",
+      "faith",
+      "trumpet",
+      "judgment",
+      "prophetic fulfillment"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

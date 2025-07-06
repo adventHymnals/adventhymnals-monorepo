@@ -4,15 +4,28 @@
   "title": "Oh! watch, and fight, and pray",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Oh! watch, and fight, and pray; The battle ne'er give o'er; Renew it boldly every day, And help divine implore."},
-    {"number": 2, "text": "Ne'er think the victory won, Nor lay thine armor down; Thy arduous task will not be done Till thou obtain thy crown."}
+    {
+      "number": 1,
+      "text": "Oh! watch, and fight, and pray; The battle ne'er give o'er; Renew it boldly every day, And help divine implore."
+    },
+    {
+      "number": 2,
+      "text": "Ne'er think the victory won, Nor lay thine armor down; Thy arduous task will not be done Till thou obtain thy crown."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["spiritual warfare", "vigilance", "prayer", "perseverance", "crown of victory", "Christian battle"],
+    "themes": [
+      "spiritual warfare",
+      "vigilance",
+      "prayer",
+      "perseverance",
+      "crown of victory",
+      "Christian battle"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "S. M."

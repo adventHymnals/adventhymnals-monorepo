@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Mediation and Atonement", "temple", "intercession", "sympathy", "help"],
+    "themes": [
+      "Christ",
+      "Mediation and Atonement",
+      "temple",
+      "intercession",
+      "sympathy",
+      "help"
+    ],
     "scripture_references": [],
     "tune_source": "Ward. L. M.",
     "original_language": "en"

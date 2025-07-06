@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's glory in creation", "divine revelation", "spiritual treasure", "God's word", "wisdom"],
-    "scripture_references": ["Psalm 19"],
+    "themes": [
+      "God's glory in creation",
+      "divine revelation",
+      "spiritual treasure",
+      "God's word",
+      "wisdom"
+    ],
+    "scripture_references": [
+      "Psalm 19"
+    ],
     "tune_source": "492, 671, 246",
     "original_language": "en"
   }

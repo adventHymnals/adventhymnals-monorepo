@@ -25,8 +25,17 @@
     "text": "Rouse, then, soldiers!\nRally round the banner!\nReady, steady,\nPass the word along;\nOnward, forward,\nShout aloud hosanna!\nChrist is Captain of the mighty throng."
   },
   "metadata": {
-    "themes": ["spiritual warfare", "victory", "battle", "service"],
-    "scripture_references": ["2 Timothy 2:3", "Ephesians 6:11-17", "1 Corinthians 15:57"],
+    "themes": [
+      "spiritual warfare",
+      "victory",
+      "battle",
+      "service"
+    ],
+    "scripture_references": [
+      "2 Timothy 2:3",
+      "Ephesians 6:11-17",
+      "1 Corinthians 15:57"
+    ],
     "copyright": "Public Domain"
   }
 }

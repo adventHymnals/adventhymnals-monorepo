@@ -16,8 +16,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Copyrighted 1886 by J. E. White",
-    "themes": ["salvation", "healing", "opportunity"],
-    "scripture_references": ["Matthew 20:30"],
+    "themes": [
+      "salvation",
+      "healing",
+      "opportunity"
+    ],
+    "scripture_references": [
+      "Matthew 20:30"
+    ],
     "tune_source": "J. E. White",
     "original_language": "en",
     "extraction_status": "metadata_only_copyright_protected"

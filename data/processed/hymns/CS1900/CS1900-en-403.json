@@ -23,7 +23,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by permission of Review & Herald Pub. Co.",
-    "themes": ["perseverance", "faith", "cross"],
+    "themes": [
+      "perseverance",
+      "faith",
+      "cross"
+    ],
     "scripture_references": [],
     "tune_source": "F. E. Belden",
     "original_language": "en"

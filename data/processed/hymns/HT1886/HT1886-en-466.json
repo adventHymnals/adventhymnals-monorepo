@@ -31,8 +31,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["harvest", "evangelism", "ministry", "call to service"],
-    "scripture_references": ["Joel 3:13"],
+    "themes": [
+      "harvest",
+      "evangelism",
+      "ministry",
+      "call to service"
+    ],
+    "scripture_references": [
+      "Joel 3:13"
+    ],
     "tune_source": "Geo. F. Root",
     "original_language": "en",
     "extraction_status": "completed"

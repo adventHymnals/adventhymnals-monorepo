@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["creation", "nature", "God's sovereignty", "hope"],
-    "scripture_references": ["Psalm 24:1", "Revelation 21:1"],
+    "themes": [
+      "creation",
+      "nature",
+      "God's sovereignty",
+      "hope"
+    ],
+    "scripture_references": [
+      "Psalm 24:1",
+      "Revelation 21:1"
+    ],
     "tune_source": "Traditional English",
     "original_language": "en"
   }

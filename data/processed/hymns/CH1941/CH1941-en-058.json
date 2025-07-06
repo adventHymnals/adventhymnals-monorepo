@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1870,
     "copyright": "Public Domain",
-    "themes": ["evening", "heavenly worship", "continuous praise", "angels"],
-    "scripture_references": ["Revelation 4:8-11", "Isaiah 6:2-3"],
+    "themes": [
+      "evening",
+      "heavenly worship",
+      "continuous praise",
+      "angels"
+    ],
+    "scripture_references": [
+      "Revelation 4:8-11",
+      "Isaiah 6:2-3"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

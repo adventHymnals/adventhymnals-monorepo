@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["evening", "companionship", "comfort", "prayer"],
+    "themes": [
+      "evening",
+      "companionship",
+      "comfort",
+      "prayer"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

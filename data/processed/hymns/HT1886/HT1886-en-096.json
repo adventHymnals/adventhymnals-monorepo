@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["seeking God's help", "God's grace", "salvation", "praise", "dedication"],
+    "themes": [
+      "seeking God's help",
+      "God's grace",
+      "salvation",
+      "praise",
+      "dedication"
+    ],
     "scripture_references": [],
     "tune_source": "503, 499, 406",
     "original_language": "en"

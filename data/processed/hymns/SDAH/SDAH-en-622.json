@@ -21,8 +21,16 @@
   "metadata": {
     "year": null,
     "copyright": "",
-    "themes": ["pilgrimage", "trust", "perseverance", "hope"],
-    "scripture_references": ["Psalm 23:4", "Isaiah 40:31"],
+    "themes": [
+      "pilgrimage",
+      "trust",
+      "perseverance",
+      "hope"
+    ],
+    "scripture_references": [
+      "Psalm 23:4",
+      "Isaiah 40:31"
+    ],
     "tune_source": "",
     "original_language": "en"
   }

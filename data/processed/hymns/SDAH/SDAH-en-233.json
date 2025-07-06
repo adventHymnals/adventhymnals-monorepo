@@ -24,8 +24,17 @@
   "metadata": {
     "year": 1740,
     "copyright": "Public Domain",
-    "themes": ["Christ as Light", "Morning Prayer", "Spiritual Illumination", "Sun of Righteousness"],
-    "scripture_references": ["Malachi 4:2", "Luke 1:78", "John 8:12"],
+    "themes": [
+      "Christ as Light",
+      "Morning Prayer",
+      "Spiritual Illumination",
+      "Sun of Righteousness"
+    ],
+    "scripture_references": [
+      "Malachi 4:2",
+      "Luke 1:78",
+      "John 8:12"
+    ],
     "tune_source": "Traditional German melody",
     "original_language": "en"
   }

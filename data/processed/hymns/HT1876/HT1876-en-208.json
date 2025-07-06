@@ -4,17 +4,35 @@
   "title": "How sweet, how heavenly is the sight",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "How sweet, how heavenly is the sight When those that love the Lord In one another's peace delight, And thus fulfil his word!"},
-    {"number": 2, "text": "When each can feel his brother's sigh, And with him bear a part; When sorrow flows from eye to eye, And joy from heart to heart."},
-    {"number": 3, "text": "When, free from envy, scorn, and pride, Our wishes all above, Each can his brother's failings hide, And show a brother's love."},
-    {"number": 4, "text": "When love, in one delightful stream, Through every bosom flows; And union sweet, and dear esteem, In every action glows."}
+    {
+      "number": 1,
+      "text": "How sweet, how heavenly is the sight When those that love the Lord In one another's peace delight, And thus fulfil his word!"
+    },
+    {
+      "number": 2,
+      "text": "When each can feel his brother's sigh, And with him bear a part; When sorrow flows from eye to eye, And joy from heart to heart."
+    },
+    {
+      "number": 3,
+      "text": "When, free from envy, scorn, and pride, Our wishes all above, Each can his brother's failings hide, And show a brother's love."
+    },
+    {
+      "number": 4,
+      "text": "When love, in one delightful stream, Through every bosom flows; And union sweet, and dear esteem, In every action glows."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Christian love", "unity", "brotherhood", "fellowship", "mutual support"],
+    "themes": [
+      "Christian love",
+      "unity",
+      "brotherhood",
+      "fellowship",
+      "mutual support"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

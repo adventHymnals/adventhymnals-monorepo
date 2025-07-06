@@ -37,8 +37,17 @@
   "metadata": {
     "year": 1700,
     "copyright": null,
-    "themes": ["christmas", "shepherds", "angels", "nativity", "peace", "good_will"],
-    "scripture_references": ["Luke 2:8-20"],
+    "themes": [
+      "christmas",
+      "shepherds",
+      "angels",
+      "nativity",
+      "peace",
+      "good_will"
+    ],
+    "scripture_references": [
+      "Luke 2:8-20"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

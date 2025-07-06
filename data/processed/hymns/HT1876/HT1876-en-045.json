@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["temple dedication", "prayer", "praise", "repentance", "blessing"],
+    "themes": [
+      "temple dedication",
+      "prayer",
+      "praise",
+      "repentance",
+      "blessing"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

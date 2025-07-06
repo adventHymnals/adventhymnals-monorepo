@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["faithfulness", "courage", "standing firm", "truth"],
+    "themes": [
+      "faithfulness",
+      "courage",
+      "standing firm",
+      "truth"
+    ],
     "scripture_references": [],
     "tune_source": "F. F. Fleming",
     "original_language": "en"

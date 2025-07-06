@@ -33,8 +33,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["resurrection", "praise", "sabbath", "triumph"],
-    "scripture_references": ["Psalm 118:24"],
+    "themes": [
+      "resurrection",
+      "praise",
+      "sabbath",
+      "triumph"
+    ],
+    "scripture_references": [
+      "Psalm 118:24"
+    ],
     "tune_source": "Beethoven",
     "original_language": "en"
   }

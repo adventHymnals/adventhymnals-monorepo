@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["holy spirit", "guidance", "comfort", "pilgrimage"],
+    "themes": [
+      "holy spirit",
+      "guidance",
+      "comfort",
+      "pilgrimage"
+    ],
     "scripture_references": [],
     "tune_source": "M. M. Wells",
     "original_language": "en"

@@ -31,7 +31,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["God's faithfulness", "divine promises", "trials", "refuge"],
+    "themes": [
+      "God's faithfulness",
+      "divine promises",
+      "trials",
+      "refuge"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

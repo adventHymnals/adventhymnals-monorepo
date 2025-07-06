@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "First Advent", "Christmas", "angels", "shepherds", "worship"],
+    "themes": [
+      "Christ",
+      "First Advent",
+      "Christmas",
+      "angels",
+      "shepherds",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": "Regent Square, Henry Smart",
     "original_language": "en"

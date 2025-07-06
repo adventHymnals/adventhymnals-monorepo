@@ -27,8 +27,14 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Holy Spirit", "filling", "sanctification"],
-    "scripture_references": ["Ephesians 5:18"],
+    "themes": [
+      "Holy Spirit",
+      "filling",
+      "sanctification"
+    ],
+    "scripture_references": [
+      "Ephesians 5:18"
+    ],
     "tune_source": "J. H. Stockton",
     "original_language": "en",
     "verse_count": 3,

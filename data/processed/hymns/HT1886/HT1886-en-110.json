@@ -32,8 +32,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "redemption", "loving-kindness", "God's love", "eternal praise"],
-    "scripture_references": ["Psalm 107:1"],
+    "themes": [
+      "praise",
+      "redemption",
+      "loving-kindness",
+      "God's love",
+      "eternal praise"
+    ],
+    "scripture_references": [
+      "Psalm 107:1"
+    ],
     "tune_source": "1164, 101, 47",
     "original_language": "en"
   }

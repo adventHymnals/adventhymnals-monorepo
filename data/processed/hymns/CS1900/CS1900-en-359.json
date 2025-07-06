@@ -25,7 +25,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["welcome", "worship", "praise", "prayer"],
+    "themes": [
+      "welcome",
+      "worship",
+      "praise",
+      "prayer"
+    ],
     "scripture_references": [],
     "tune_source": "Unknown",
     "original_language": "en"

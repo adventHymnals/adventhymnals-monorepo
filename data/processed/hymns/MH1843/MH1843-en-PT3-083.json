@@ -27,7 +27,16 @@
   "composer": "",
   "author": "",
   "page": 222,
-  "themes": ["Jesus", "Harps", "Voices", "Praise", "Heaven", "King", "Glory", "Savior"],
+  "themes": [
+    "Jesus",
+    "Harps",
+    "Voices",
+    "Praise",
+    "Heaven",
+    "King",
+    "Glory",
+    "Savior"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

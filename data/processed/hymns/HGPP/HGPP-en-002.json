@@ -32,8 +32,20 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["Second Advent", "Three Angels' Messages", "Revelation 14", "Commandments", "Beast and Image", "Babylon's Fall", "Faith of Jesus"],
-    "scripture_references": ["Revelation 14:6-12", "Revelation 18:2", "Revelation 13"],
+    "themes": [
+      "Second Advent",
+      "Three Angels' Messages",
+      "Revelation 14",
+      "Commandments",
+      "Beast and Image",
+      "Babylon's Fall",
+      "Faith of Jesus"
+    ],
+    "scripture_references": [
+      "Revelation 14:6-12",
+      "Revelation 18:2",
+      "Revelation 13"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement, James White compilation",

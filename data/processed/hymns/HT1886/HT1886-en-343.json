@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Mediation and Atonement", "faith", "intercession", "sacrifice", "second coming"],
+    "themes": [
+      "Christ",
+      "Mediation and Atonement",
+      "faith",
+      "intercession",
+      "sacrifice",
+      "second coming"
+    ],
     "scripture_references": [],
     "tune_source": "Anvern. L. M.",
     "original_language": "en"

@@ -30,7 +30,18 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["captain", "alarm of war", "powers of hell", "armor", "hope", "faith", "shield", "sword", "jesus", "victory"],
+    "themes": [
+      "captain",
+      "alarm of war",
+      "powers of hell",
+      "armor",
+      "hope",
+      "faith",
+      "shield",
+      "sword",
+      "jesus",
+      "victory"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

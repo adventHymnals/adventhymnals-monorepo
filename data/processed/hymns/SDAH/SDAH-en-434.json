@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1865,
     "copyright": "Public Domain",
-    "themes": ["heaven", "glory", "eternal life", "freedom from sin", "anticipation"],
-    "scripture_references": ["Revelation 21:21", "Hebrews 12:23", "1 Corinthians 2:9"],
+    "themes": [
+      "heaven",
+      "glory",
+      "eternal life",
+      "freedom from sin",
+      "anticipation"
+    ],
+    "scripture_references": [
+      "Revelation 21:21",
+      "Hebrews 12:23",
+      "1 Corinthians 2:9"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

@@ -23,8 +23,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["salvation", "pearl of great price", "Jesus", "value"],
-    "scripture_references": ["Matthew 13:46"],
+    "themes": [
+      "salvation",
+      "pearl of great price",
+      "Jesus",
+      "value"
+    ],
+    "scripture_references": [
+      "Matthew 13:46"
+    ],
     "tune_source": "Chas. P. Jones",
     "original_language": "en"
   }

@@ -24,8 +24,17 @@
   "metadata": {
     "year": 1858,
     "copyright": "Public Domain",
-    "themes": ["Sacrifice of Christ", "Devotion", "Discipleship", "Love of Christ"],
-    "scripture_references": ["1 Peter 2:21", "Galatians 2:20", "1 John 3:16"],
+    "themes": [
+      "Sacrifice of Christ",
+      "Devotion",
+      "Discipleship",
+      "Love of Christ"
+    ],
+    "scripture_references": [
+      "1 Peter 2:21",
+      "Galatians 2:20",
+      "1 John 3:16"
+    ],
     "tune_source": "Philip P. Bliss, 1873",
     "original_language": "en"
   }

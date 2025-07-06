@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "prayer", "protection", "waiting", "jubilee"],
+    "themes": [
+      "second advent",
+      "prayer",
+      "protection",
+      "waiting",
+      "jubilee"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

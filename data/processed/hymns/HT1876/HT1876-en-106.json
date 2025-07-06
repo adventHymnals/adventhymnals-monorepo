@@ -30,7 +30,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["last call", "mercy", "salvation", "warning", "harvest"],
+    "themes": [
+      "last call",
+      "mercy",
+      "salvation",
+      "warning",
+      "harvest"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "11s"

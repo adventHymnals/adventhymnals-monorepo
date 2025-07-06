@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1200,
     "copyright": "Public Domain",
-    "themes": ["Advent", "Christ's Coming", "Redemption", "Peace"],
-    "scripture_references": ["Isaiah 7:14", "Matthew 1:23"],
+    "themes": [
+      "Advent",
+      "Christ's Coming",
+      "Redemption",
+      "Peace"
+    ],
+    "scripture_references": [
+      "Isaiah 7:14",
+      "Matthew 1:23"
+    ],
     "tune_source": "French melody, 15th century",
     "original_language": "la"
   }

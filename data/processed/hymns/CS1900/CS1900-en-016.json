@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1876, by Robt. Lowry",
-    "themes": ["waiting", "grace", "labor", "burden", "treasure", "fountain", "Calvary"],
-    "scripture_references": ["Isa. 30:18"],
+    "themes": [
+      "waiting",
+      "grace",
+      "labor",
+      "burden",
+      "treasure",
+      "fountain",
+      "Calvary"
+    ],
+    "scripture_references": [
+      "Isa. 30:18"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

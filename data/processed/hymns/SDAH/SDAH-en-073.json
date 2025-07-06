@@ -26,8 +26,15 @@
     }
   ],
   "metadata": {
-    "themes": ["Trinity", "Holiness", "Worship", "Praise"],
-    "scripture_references": ["Revelation 4:8"],
+    "themes": [
+      "Trinity",
+      "Holiness",
+      "Worship",
+      "Praise"
+    ],
+    "scripture_references": [
+      "Revelation 4:8"
+    ],
     "tune_source": "Nicaea",
     "original_language": "en"
   }

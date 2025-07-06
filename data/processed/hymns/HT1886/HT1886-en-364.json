@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["human frailty", "God's majesty", "humility", "mortality"],
-    "scripture_references": ["Job 4:17", "Isaiah 40:15"],
+    "themes": [
+      "human frailty",
+      "God's majesty",
+      "humility",
+      "mortality"
+    ],
+    "scripture_references": [
+      "Job 4:17",
+      "Isaiah 40:15"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

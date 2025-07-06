@@ -39,7 +39,13 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Blood of Christ", "Salvation", "Cleansing", "Redemption", "Atonement"],
+    "themes": [
+      "Blood of Christ",
+      "Salvation",
+      "Cleansing",
+      "Redemption",
+      "Atonement"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

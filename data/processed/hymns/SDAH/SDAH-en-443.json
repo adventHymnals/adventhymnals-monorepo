@@ -29,8 +29,18 @@
   "metadata": {
     "year": 1868,
     "copyright": "Public Domain",
-    "themes": ["heaven", "no sorrow", "eternal joy", "no sin", "perfect love"],
-    "scripture_references": ["Revelation 21:4", "Revelation 22:5", "Revelation 7:16-17"],
+    "themes": [
+      "heaven",
+      "no sorrow",
+      "eternal joy",
+      "no sin",
+      "perfect love"
+    ],
+    "scripture_references": [
+      "Revelation 21:4",
+      "Revelation 22:5",
+      "Revelation 7:16-17"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

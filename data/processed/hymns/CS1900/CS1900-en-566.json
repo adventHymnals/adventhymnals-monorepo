@@ -23,7 +23,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by J. H. Brubaker",
-    "themes": ["satisfaction", "awakening", "peace", "resurrection"],
+    "themes": [
+      "satisfaction",
+      "awakening",
+      "peace",
+      "resurrection"
+    ],
     "scripture_references": [],
     "tune_source": "J. H. Brubaker",
     "original_language": "en"

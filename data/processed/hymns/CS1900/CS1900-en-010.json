@@ -23,7 +23,14 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1895, by F. E. Belden",
-    "themes": ["salvation", "decision", "step", "light", "darkness", "Jesus"],
+    "themes": [
+      "salvation",
+      "decision",
+      "step",
+      "light",
+      "darkness",
+      "Jesus"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

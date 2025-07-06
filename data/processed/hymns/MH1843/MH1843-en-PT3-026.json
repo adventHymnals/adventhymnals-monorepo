@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Heaven", "Hope", "Rest", "Reunion", "Eternal Home"],
+    "themes": [
+      "Heaven",
+      "Hope",
+      "Rest",
+      "Reunion",
+      "Eternal Home"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "9.9.9.9. with Chorus",
     "hymnal_context": "Millerite/Adventist movement hymnal",

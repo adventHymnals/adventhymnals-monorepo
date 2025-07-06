@@ -21,7 +21,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["stewardship", "gratitude", "offering"],
+    "themes": [
+      "stewardship",
+      "gratitude",
+      "offering"
+    ],
     "scripture_references": [],
     "tune_source": "J. B. Dykes",
     "original_language": "en"

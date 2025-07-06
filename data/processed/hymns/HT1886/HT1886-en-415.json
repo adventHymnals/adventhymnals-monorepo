@@ -28,8 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["comfort", "invitation", "rest"],
-    "scripture_references": ["Matthew 11:28"],
+    "themes": [
+      "comfort",
+      "invitation",
+      "rest"
+    ],
+    "scripture_references": [
+      "Matthew 11:28"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

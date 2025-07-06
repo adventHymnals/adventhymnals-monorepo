@@ -16,8 +16,16 @@
   "metadata": {
     "year": 1862,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "Rest", "Worship", "Joy"],
-    "scripture_references": ["Psalm 118:24", "Isaiah 58:13"],
+    "themes": [
+      "Sabbath",
+      "Rest",
+      "Worship",
+      "Joy"
+    ],
+    "scripture_references": [
+      "Psalm 118:24",
+      "Isaiah 58:13"
+    ],
     "tune_source": "German melody, arr. Lowell Mason",
     "original_language": "en",
     "note": "Same content as hymn 382"

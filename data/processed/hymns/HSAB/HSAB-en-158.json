@@ -42,7 +42,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Calvary", "salvation", "intercession", "Second Coming", "signs", "readiness", "resurrection"],
+    "themes": [
+      "Calvary",
+      "salvation",
+      "intercession",
+      "Second Coming",
+      "signs",
+      "readiness",
+      "resurrection"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

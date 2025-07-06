@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "divine power", "spiritual light", "redemption", "praise"],
+    "themes": [
+      "Holy Spirit",
+      "divine power",
+      "spiritual light",
+      "redemption",
+      "praise"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

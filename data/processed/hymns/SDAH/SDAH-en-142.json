@@ -31,8 +31,17 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["christmas", "angels", "glory", "nativity", "worship", "shepherds"],
-    "scripture_references": ["Luke 2:8-20"],
+    "themes": [
+      "christmas",
+      "angels",
+      "glory",
+      "nativity",
+      "worship",
+      "shepherds"
+    ],
+    "scripture_references": [
+      "Luke 2:8-20"
+    ],
     "tune_source": "French",
     "original_language": "fr"
   }

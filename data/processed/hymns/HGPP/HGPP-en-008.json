@@ -35,8 +35,16 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["Second Coming", "deliverance", "joy", "eternal happiness"],
-    "scripture_references": ["Revelation 21:1-4", "Isaiah 35:10"],
+    "themes": [
+      "Second Coming",
+      "deliverance",
+      "joy",
+      "eternal happiness"
+    ],
+    "scripture_references": [
+      "Revelation 21:1-4",
+      "Isaiah 35:10"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Anticipation of Christ's return and earth made new"

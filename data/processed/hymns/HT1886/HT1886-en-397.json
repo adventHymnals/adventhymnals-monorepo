@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["assurance", "salvation", "testimony", "praise"],
-    "scripture_references": ["Romans 8:16", "1 John 5:13"],
+    "themes": [
+      "assurance",
+      "salvation",
+      "testimony",
+      "praise"
+    ],
+    "scripture_references": [
+      "Romans 8:16",
+      "1 John 5:13"
+    ],
     "tune_source": "Phoebe Knapp",
     "original_language": "en"
   }

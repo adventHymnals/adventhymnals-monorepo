@@ -31,7 +31,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["missionary", "evangelism", "service"],
+    "themes": [
+      "missionary",
+      "evangelism",
+      "service"
+    ],
     "scripture_references": [],
     "tune_source": "J. L. Holden",
     "original_language": "en"

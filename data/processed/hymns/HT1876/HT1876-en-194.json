@@ -4,17 +4,35 @@
   "title": "Jesus, the conqueror, reigns!",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Jesus, the conqueror, reigns! Shed in my heart abroad— Then shall his feet no longer pain, Nor leave the heavenly road."},
-    {"number": 2, "text": "O that in me the sacred fire Might now begin to glow, Burn up the dross of base desire, And make the mountains flow."},
-    {"number": 3, "text": "O that it now from heaven might fall, And all my sins consume— Come, Holy Ghost, for thee I call, Spirit of burning, come."},
-    {"number": 4, "text": "Refining fire, go through my heart, Illuminate my soul; Scatter thy life through every part, And sanctify the whole."}
+    {
+      "number": 1,
+      "text": "Jesus, the conqueror, reigns! Shed in my heart abroad— Then shall his feet no longer pain, Nor leave the heavenly road."
+    },
+    {
+      "number": 2,
+      "text": "O that in me the sacred fire Might now begin to glow, Burn up the dross of base desire, And make the mountains flow."
+    },
+    {
+      "number": 3,
+      "text": "O that it now from heaven might fall, And all my sins consume— Come, Holy Ghost, for thee I call, Spirit of burning, come."
+    },
+    {
+      "number": 4,
+      "text": "Refining fire, go through my heart, Illuminate my soul; Scatter thy life through every part, And sanctify the whole."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Jesus as conqueror", "Holy Spirit", "purification", "sanctification", "spiritual fire"],
+    "themes": [
+      "Jesus as conqueror",
+      "Holy Spirit",
+      "purification",
+      "sanctification",
+      "spiritual fire"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

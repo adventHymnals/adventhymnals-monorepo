@@ -23,7 +23,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["comfort", "mercy", "healing", "sorrow"],
+    "themes": [
+      "comfort",
+      "mercy",
+      "healing",
+      "sorrow"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

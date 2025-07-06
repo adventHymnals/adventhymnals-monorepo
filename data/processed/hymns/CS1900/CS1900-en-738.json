@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright 1900 by F. E. Belden",
-    "themes": ["rest", "heaven", "pilgrimage", "patience"],
+    "themes": [
+      "rest",
+      "heaven",
+      "pilgrimage",
+      "patience"
+    ],
     "scripture_references": [],
     "tune_source": "H. R. Palmer",
     "original_language": "en"

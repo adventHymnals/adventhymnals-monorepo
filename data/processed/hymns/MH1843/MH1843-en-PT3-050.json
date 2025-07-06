@@ -11,7 +11,7 @@
       "text": "Who can cheer the heart like Jesus, By His presence all divine? True and tender, pure and precious, Oh, how blest to call Him mine!"
     },
     {
-      "number": "2", 
+      "number": "2",
       "text": "Love of Christ so freely given, Grace of God beyond degree, Mercy higher than the heaven, Deeper than the deepest sea."
     },
     {
@@ -31,7 +31,13 @@
   "composer": "",
   "author": "",
   "page": 189,
-  "themes": ["Jesus", "Love", "Grace", "Praise", "Devotion"],
+  "themes": [
+    "Jesus",
+    "Love",
+    "Grace",
+    "Praise",
+    "Devotion"
+  ],
   "key_signature": "Bb",
   "time_signature": "4/4"
 }

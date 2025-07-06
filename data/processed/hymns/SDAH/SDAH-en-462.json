@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1873,
     "copyright": "Public Domain",
-    "themes": ["assurance", "salvation", "praise", "testimony", "joy"],
-    "scripture_references": ["Romans 8:16", "1 John 5:13", "Ephesians 1:14"],
+    "themes": [
+      "assurance",
+      "salvation",
+      "praise",
+      "testimony",
+      "joy"
+    ],
+    "scripture_references": [
+      "Romans 8:16",
+      "1 John 5:13",
+      "Ephesians 1:14"
+    ],
     "tune_source": "Phoebe Palmer Knapp",
     "original_language": "en"
   }

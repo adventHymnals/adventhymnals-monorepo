@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["resurrection", "victory", "triumph", "glory"],
+    "themes": [
+      "resurrection",
+      "victory",
+      "triumph",
+      "glory"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

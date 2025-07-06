@@ -31,7 +31,13 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["Calvary", "salvation", "grace", "redemption", "cross"],
+    "themes": [
+      "Calvary",
+      "salvation",
+      "grace",
+      "redemption",
+      "cross"
+    ],
     "scripture_references": [],
     "tune_source": "D. B. Towner",
     "original_language": "en"

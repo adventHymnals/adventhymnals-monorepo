@@ -4,16 +4,31 @@
   "title": "THE day of wrath, that dreadful day",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "THE day of wrath, that dreadful day, When heaven and earth shall pass away— What power shall be the sinner's stay? How shall he meet that dreadful day?"},
-    {"number": 2, "text": "When, shriveling like a parched scroll, The flaming heavens together roll, And louder yet, and yet more dread, Resounds the trump that wakes the dead,—"},
-    {"number": 3, "text": "Oh! on that day, that wrathful day, When man to judgment wakes from clay, Be thou, O Christ, thy people's stay, Though heaven and earth shall pass away."}
+    {
+      "number": 1,
+      "text": "THE day of wrath, that dreadful day, When heaven and earth shall pass away— What power shall be the sinner's stay? How shall he meet that dreadful day?"
+    },
+    {
+      "number": 2,
+      "text": "When, shriveling like a parched scroll, The flaming heavens together roll, And louder yet, and yet more dread, Resounds the trump that wakes the dead,—"
+    },
+    {
+      "number": 3,
+      "text": "Oh! on that day, that wrathful day, When man to judgment wakes from clay, Be thou, O Christ, thy people's stay, Though heaven and earth shall pass away."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["judgment", "wrath", "Christ", "apocalypse", "protection"],
+    "themes": [
+      "judgment",
+      "wrath",
+      "Christ",
+      "apocalypse",
+      "protection"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

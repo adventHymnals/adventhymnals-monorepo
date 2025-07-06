@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Sabbath", "worship", "reunion", "peace", "heaven"],
+    "themes": [
+      "Sabbath",
+      "worship",
+      "reunion",
+      "peace",
+      "heaven"
+    ],
     "scripture_references": [],
     "tune_source": "Unity, 6s & 5s.",
     "original_language": "en"

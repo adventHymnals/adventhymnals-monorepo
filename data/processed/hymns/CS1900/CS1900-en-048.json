@@ -29,8 +29,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1889, by F. E. Belden",
-    "themes": ["Jesus", "Nazareth", "salvation", "healing", "mercy", "Saviour"],
-    "scripture_references": ["Mark 10:46-52", "Luke 18:35-43"],
+    "themes": [
+      "Jesus",
+      "Nazareth",
+      "salvation",
+      "healing",
+      "mercy",
+      "Saviour"
+    ],
+    "scripture_references": [
+      "Mark 10:46-52",
+      "Luke 18:35-43"
+    ],
     "tune_source": "F. E. Belden",
     "original_language": "en"
   }

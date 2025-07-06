@@ -26,8 +26,16 @@
     }
   ],
   "metadata": {
-    "themes": ["children", "parental prayer", "guidance", "protection"],
-    "scripture_references": ["Proverbs 22:6", "Matthew 19:14"],
+    "themes": [
+      "children",
+      "parental prayer",
+      "guidance",
+      "protection"
+    ],
+    "scripture_references": [
+      "Proverbs 22:6",
+      "Matthew 19:14"
+    ],
     "copyright": "Public Domain"
   }
 }

@@ -29,8 +29,16 @@
   "metadata": {
     "year": 1973,
     "copyright": "1973 The Hymn Society (Admin. Hope Publishing Co., Carol Stream, IL 60188). All rights reserved. Used by permission.",
-    "themes": ["creation", "stewardship", "environment", "responsibility"],
-    "scripture_references": ["Genesis 1:28", "Psalm 24:1"],
+    "themes": [
+      "creation",
+      "stewardship",
+      "environment",
+      "responsibility"
+    ],
+    "scripture_references": [
+      "Genesis 1:28",
+      "Psalm 24:1"
+    ],
     "tune_source": "H. Walford Davies",
     "original_language": "en"
   }

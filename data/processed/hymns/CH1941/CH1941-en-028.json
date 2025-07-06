@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1825,
     "copyright": "Public Domain",
-    "themes": ["prayer", "communion with God", "comfort", "devotion"],
-    "scripture_references": ["Matthew 6:6", "Psalm 55:17"],
+    "themes": [
+      "prayer",
+      "communion with God",
+      "comfort",
+      "devotion"
+    ],
+    "scripture_references": [
+      "Matthew 6:6",
+      "Psalm 55:17"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

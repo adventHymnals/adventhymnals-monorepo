@@ -27,7 +27,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["happy land", "heaven", "glory", "eternal praise"],
+    "themes": [
+      "happy land",
+      "heaven",
+      "glory",
+      "eternal praise"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

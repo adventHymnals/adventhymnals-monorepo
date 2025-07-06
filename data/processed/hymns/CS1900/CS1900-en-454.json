@@ -23,8 +23,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1891, by W. H. Doane. Used by permission",
-    "themes": ["victory", "spiritual warfare", "battle", "faith"],
-    "scripture_references": ["1 Timothy 6:12", "2 Timothy 4:7"],
+    "themes": [
+      "victory",
+      "spiritual warfare",
+      "battle",
+      "faith"
+    ],
+    "scripture_references": [
+      "1 Timothy 6:12",
+      "2 Timothy 4:7"
+    ],
     "tune_source": "W. H. Doane",
     "original_language": "en"
   }

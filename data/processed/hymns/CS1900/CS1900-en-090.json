@@ -31,7 +31,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["comfort", "assurance", "peace"],
+    "themes": [
+      "comfort",
+      "assurance",
+      "peace"
+    ],
     "scripture_references": [],
     "tune_source": "Samuel W. Beazley",
     "original_language": "en",

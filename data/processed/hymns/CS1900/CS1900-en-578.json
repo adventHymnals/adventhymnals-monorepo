@@ -19,8 +19,16 @@
   "metadata": {
     "year": 1900,
     "copyright": "From \"Gospel Hymns\"—Hope Publishing Co., owners of copyright",
-    "themes": ["Jesus coming", "watching", "saints", "trumpet", "chariot"],
-    "scripture_references": ["Jude 14"],
+    "themes": [
+      "Jesus coming",
+      "watching",
+      "saints",
+      "trumpet",
+      "chariot"
+    ],
+    "scripture_references": [
+      "Jude 14"
+    ],
     "tune_source": "W. J. Kirkpatrick",
     "original_language": "en"
   }

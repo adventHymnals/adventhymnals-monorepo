@@ -24,8 +24,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's glory", "nature", "Holy Scriptures", "divine revelation", "creation"],
-    "scripture_references": ["Psalm 19:1"],
+    "themes": [
+      "God's glory",
+      "nature",
+      "Holy Scriptures",
+      "divine revelation",
+      "creation"
+    ],
+    "scripture_references": [
+      "Psalm 19:1"
+    ],
     "tune_source": "5, 101, 398",
     "original_language": "en"
   }

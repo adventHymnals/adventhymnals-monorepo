@@ -31,7 +31,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["faith", "God's promises", "perseverance", "assurance"],
+    "themes": [
+      "faith",
+      "God's promises",
+      "perseverance",
+      "assurance"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

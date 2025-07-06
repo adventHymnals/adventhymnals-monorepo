@@ -4,18 +4,38 @@
   "title": "Thou art my portion, O my God",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Thou art my portion, O my God! Soon as I know thy way, My heart makes haste to love thy word, And suffers no delay."},
-    {"number": 2, "text": "I choose the path of heavenly truth, And glory in my choice; Not all the riches of the earth Could make me so rejoice."},
-    {"number": 3, "text": "The testimonies of thy grace I set before mine eyes; Thence I derive my daily strength, And there my comfort lies."},
-    {"number": 4, "text": "If once I wander from thy path, I think upon my ways; Then turn my feet to thy commands, And trust thy pardoning grace."},
-    {"number": 5, "text": "Now I am thine,—forever thine,— Oh, save thy servant, Lord! Thou art my shield, my hiding-place, My hope is in thy word."}
+    {
+      "number": 1,
+      "text": "Thou art my portion, O my God! Soon as I know thy way, My heart makes haste to love thy word, And suffers no delay."
+    },
+    {
+      "number": 2,
+      "text": "I choose the path of heavenly truth, And glory in my choice; Not all the riches of the earth Could make me so rejoice."
+    },
+    {
+      "number": 3,
+      "text": "The testimonies of thy grace I set before mine eyes; Thence I derive my daily strength, And there my comfort lies."
+    },
+    {
+      "number": 4,
+      "text": "If once I wander from thy path, I think upon my ways; Then turn my feet to thy commands, And trust thy pardoning grace."
+    },
+    {
+      "number": 5,
+      "text": "Now I am thine,—forever thine,— Oh, save thy servant, Lord! Thou art my shield, my hiding-place, My hope is in thy word."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["God as portion", "choice", "commandments", "trust"],
+    "themes": [
+      "God as portion",
+      "choice",
+      "commandments",
+      "trust"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

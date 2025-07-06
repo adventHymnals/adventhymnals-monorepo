@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["convert", "comfort", "blood of the Lamb", "joy", "Redeemer"],
+    "themes": [
+      "convert",
+      "comfort",
+      "blood of the Lamb",
+      "joy",
+      "Redeemer"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "P. M.",

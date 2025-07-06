@@ -27,7 +27,17 @@
   "composer": "A. H. Ackley",
   "author": "A. H. Ackley",
   "page": 251,
-  "themes": ["Risen Savior", "Living", "Mercy", "Cheer", "Leading", "Hope", "Lives", "Christ Jesus", "Salvation"],
+  "themes": [
+    "Risen Savior",
+    "Living",
+    "Mercy",
+    "Cheer",
+    "Leading",
+    "Hope",
+    "Lives",
+    "Christ Jesus",
+    "Salvation"
+  ],
   "key_signature": "Bb",
   "time_signature": "6/8"
 }

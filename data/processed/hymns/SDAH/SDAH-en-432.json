@@ -31,8 +31,18 @@
   "metadata": {
     "year": 1864,
     "copyright": "Public Domain",
-    "themes": ["heaven", "river of life", "gathering", "eternal worship", "peace"],
-    "scripture_references": ["Revelation 22:1-2", "Psalm 46:4", "Ezekiel 47:1-12"],
+    "themes": [
+      "heaven",
+      "river of life",
+      "gathering",
+      "eternal worship",
+      "peace"
+    ],
+    "scripture_references": [
+      "Revelation 22:1-2",
+      "Psalm 46:4",
+      "Ezekiel 47:1-12"
+    ],
     "tune_source": "Traditional",
     "original_language": "en"
   }

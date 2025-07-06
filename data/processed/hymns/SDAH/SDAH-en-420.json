@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Heaven", "New Jerusalem", "Hope", "Longing"],
+    "themes": [
+      "Heaven",
+      "New Jerusalem",
+      "Hope",
+      "Longing"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

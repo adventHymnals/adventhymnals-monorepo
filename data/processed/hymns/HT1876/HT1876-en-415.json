@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["Jesus", "promise", "gathered", "presence", "Spirit"],
+    "themes": [
+      "Jesus",
+      "promise",
+      "gathered",
+      "presence",
+      "Spirit"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "7s"

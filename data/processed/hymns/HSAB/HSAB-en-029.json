@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["pure testimony", "truth", "separation", "spiritual warfare", "persecution"],
+    "themes": [
+      "pure testimony",
+      "truth",
+      "separation",
+      "spiritual warfare",
+      "persecution"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

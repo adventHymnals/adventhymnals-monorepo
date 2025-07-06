@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1826,
     "copyright": "Public Domain",
-    "themes": ["Trinity", "holiness", "worship", "adoration"],
-    "scripture_references": ["Revelation 4:8", "Isaiah 6:3"],
+    "themes": [
+      "Trinity",
+      "holiness",
+      "worship",
+      "adoration"
+    ],
+    "scripture_references": [
+      "Revelation 4:8",
+      "Isaiah 6:3"
+    ],
     "tune_source": "Nicaea, John Bacchus Dykes, 1861",
     "original_language": "en"
   }

@@ -33,7 +33,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["crown", "promised land", "Egypt", "salvation", "Second Coming", "praise", "joy"],
+    "themes": [
+      "crown",
+      "promised land",
+      "Egypt",
+      "salvation",
+      "Second Coming",
+      "praise",
+      "joy"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

@@ -29,7 +29,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["name of Jesus", "comfort", "healing", "refuge"],
+    "themes": [
+      "name of Jesus",
+      "comfort",
+      "healing",
+      "refuge"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

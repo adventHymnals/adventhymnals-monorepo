@@ -24,7 +24,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ as Lamb", "God's name", "God's glory", "human dignity", "God's bounty"],
+    "themes": [
+      "Christ as Lamb",
+      "God's name",
+      "God's glory",
+      "human dignity",
+      "God's bounty"
+    ],
     "scripture_references": [],
     "tune_source": "11, 236, 69",
     "original_language": "en"

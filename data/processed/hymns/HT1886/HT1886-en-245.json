@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["closing Sabbath", "reflection", "sacred time", "communion with God", "forgiveness"],
+    "themes": [
+      "closing Sabbath",
+      "reflection",
+      "sacred time",
+      "communion with God",
+      "forgiveness"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

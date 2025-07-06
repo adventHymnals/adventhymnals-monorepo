@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["Word of God", "Scripture", "Heritage", "Eternal Life"],
+    "themes": [
+      "Word of God",
+      "Scripture",
+      "Heritage",
+      "Eternal Life"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

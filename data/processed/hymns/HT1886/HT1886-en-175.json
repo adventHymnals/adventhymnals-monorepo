@@ -32,7 +32,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["God's mercy", "Holy Scriptures", "divine instruction", "spiritual joy", "Jesus Christ"],
+    "themes": [
+      "God's mercy",
+      "Holy Scriptures",
+      "divine instruction",
+      "spiritual joy",
+      "Jesus Christ"
+    ],
     "scripture_references": [],
     "tune_source": "74, 714, 699",
     "original_language": "en"

@@ -21,7 +21,12 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Evangelical Invitation", "Urgency", "Christ's Welcome", "Salvation"],
+    "themes": [
+      "Evangelical Invitation",
+      "Urgency",
+      "Christ's Welcome",
+      "Salvation"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "11s",
     "hymnal_context": "Millerite/Adventist movement hymnal",

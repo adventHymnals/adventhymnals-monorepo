@@ -29,8 +29,15 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["children", "Jesus love", "prayer", "heaven"],
-    "scripture_references": ["Mark 10:14"],
+    "themes": [
+      "children",
+      "Jesus love",
+      "prayer",
+      "heaven"
+    ],
+    "scripture_references": [
+      "Mark 10:14"
+    ],
     "tune_source": "Arranged",
     "original_language": "en"
   }

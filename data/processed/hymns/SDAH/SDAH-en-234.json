@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1969,
     "copyright": "© 1969 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["Christ as Light", "Peace", "Life", "Glory to God"],
-    "scripture_references": ["John 14:9", "John 8:12", "John 14:6"],
+    "themes": [
+      "Christ as Light",
+      "Peace",
+      "Life",
+      "Glory to God"
+    ],
+    "scripture_references": [
+      "John 14:9",
+      "John 8:12",
+      "John 14:6"
+    ],
     "tune_source": "Paris Antiphoner, 1681",
     "original_language": "en"
   }

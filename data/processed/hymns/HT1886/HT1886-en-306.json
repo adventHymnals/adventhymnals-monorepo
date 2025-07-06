@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Christ", "Life and Character", "transfiguration", "glory", "vision"],
+    "themes": [
+      "Christ",
+      "Life and Character",
+      "transfiguration",
+      "glory",
+      "vision"
+    ],
     "scripture_references": [],
     "tune_source": "272, 66, 201",
     "original_language": "en"

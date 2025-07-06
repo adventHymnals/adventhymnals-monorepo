@@ -29,7 +29,13 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["cross", "glory", "hope", "peace", "joy"],
+    "themes": [
+      "cross",
+      "glory",
+      "hope",
+      "peace",
+      "joy"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

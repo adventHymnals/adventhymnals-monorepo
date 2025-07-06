@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1680,
     "copyright": "Public Domain",
-    "themes": ["trust", "hope", "faithfulness", "praise"],
-    "scripture_references": ["Psalm 62:5-8", "1 Peter 1:21"],
+    "themes": [
+      "trust",
+      "hope",
+      "faithfulness",
+      "praise"
+    ],
+    "scripture_references": [
+      "Psalm 62:5-8",
+      "1 Peter 1:21"
+    ],
     "tune_source": "Joachim Neander, 1680",
     "original_language": "de",
     "translator": "Robert Seymour Bridges"

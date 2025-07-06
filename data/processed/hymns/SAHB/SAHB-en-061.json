@@ -23,7 +23,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["prayer", "communion with God", "spiritual comfort", "heaven"],
+    "themes": [
+      "prayer",
+      "communion with God",
+      "spiritual comfort",
+      "heaven"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

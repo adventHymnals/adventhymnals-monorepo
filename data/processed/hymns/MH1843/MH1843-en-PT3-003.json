@@ -17,7 +17,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Zion", "City of God", "Salvation", "Living Waters", "Kings and Priests"],
+    "themes": [
+      "Zion",
+      "City of God",
+      "Salvation",
+      "Living Waters",
+      "Kings and Priests"
+    ],
     "musical_notation": "Text only",
     "tempo_marking": "8 & 7",
     "hymnal_context": "Millerite/Adventist movement hymnal",

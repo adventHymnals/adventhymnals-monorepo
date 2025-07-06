@@ -27,7 +27,11 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1896, by J. P. Holbrook.",
-    "themes": ["Sunday school", "teaching", "accountability"],
+    "themes": [
+      "Sunday school",
+      "teaching",
+      "accountability"
+    ],
     "scripture_references": [],
     "tune_source": "J. P. Holbrook",
     "original_language": "en"

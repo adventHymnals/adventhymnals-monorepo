@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["sprinkled blood", "Father's throne", "forgiveness", "grace", "pleading"],
+    "themes": [
+      "sprinkled blood",
+      "Father's throne",
+      "forgiveness",
+      "grace",
+      "pleading"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "7s & 6s"

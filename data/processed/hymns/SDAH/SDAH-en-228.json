@@ -28,8 +28,16 @@
   "metadata": {
     "year": 731,
     "copyright": "Public Domain",
-    "themes": ["Ascension", "Glory", "Praise", "Eternal Reign"],
-    "scripture_references": ["Luke 24:51", "Acts 1:9-11"],
+    "themes": [
+      "Ascension",
+      "Glory",
+      "Praise",
+      "Eternal Reign"
+    ],
+    "scripture_references": [
+      "Luke 24:51",
+      "Acts 1:9-11"
+    ],
     "tune_source": "Charles Villiers Stanford, 1904",
     "original_language": "la"
   }

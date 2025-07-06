@@ -25,8 +25,17 @@
   "metadata": {
     "year": 1830,
     "copyright": "Public Domain",
-    "themes": ["faith", "salvation", "guidance", "dedication", "prayer"],
-    "scripture_references": ["John 1:29", "Hebrews 12:2"],
+    "themes": [
+      "faith",
+      "salvation",
+      "guidance",
+      "dedication",
+      "prayer"
+    ],
+    "scripture_references": [
+      "John 1:29",
+      "Hebrews 12:2"
+    ],
     "tune_source": "Lowell Mason",
     "original_language": "en"
   }

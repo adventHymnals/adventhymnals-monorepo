@@ -26,8 +26,16 @@
     }
   ],
   "metadata": {
-    "themes": ["marriage", "covenant", "blessing", "unity"],
-    "scripture_references": ["Genesis 2:24", "Ecclesiastes 4:12"],
+    "themes": [
+      "marriage",
+      "covenant",
+      "blessing",
+      "unity"
+    ],
+    "scripture_references": [
+      "Genesis 2:24",
+      "Ecclesiastes 4:12"
+    ],
     "copyright": "© 1968 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission."
   }
 }

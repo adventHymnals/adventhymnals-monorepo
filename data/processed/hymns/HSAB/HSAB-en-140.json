@@ -34,7 +34,14 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Sabbath", "creation", "rest day", "God's law", "redemption", "Jesus"],
+    "themes": [
+      "Sabbath",
+      "creation",
+      "rest day",
+      "God's law",
+      "redemption",
+      "Jesus"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

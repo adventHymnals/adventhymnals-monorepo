@@ -29,7 +29,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["death", "comfort", "eternal life"],
+    "themes": [
+      "death",
+      "comfort",
+      "eternal life"
+    ],
     "scripture_references": [],
     "tune_source": "L. O. Emerson",
     "original_language": "en"

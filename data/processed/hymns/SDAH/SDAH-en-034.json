@@ -27,7 +27,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["joy", "praise", "worship", "gathering"],
+    "themes": [
+      "joy",
+      "praise",
+      "worship",
+      "gathering"
+    ],
     "scripture_references": [],
     "tune_source": "[unclear]",
     "original_language": "en"

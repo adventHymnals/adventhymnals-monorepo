@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1835,
     "copyright": "Public Domain",
-    "themes": ["Great Commission", "Evangelism", "Mission", "Gospel"],
-    "scripture_references": ["Matthew 28:19-20", "Mark 16:15-16"],
+    "themes": [
+      "Great Commission",
+      "Evangelism",
+      "Mission",
+      "Gospel"
+    ],
+    "scripture_references": [
+      "Matthew 28:19-20",
+      "Mark 16:15-16"
+    ],
     "tune_source": "John Tullidge, 1871",
     "original_language": "en"
   }

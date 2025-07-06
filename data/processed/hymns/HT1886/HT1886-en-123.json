@@ -28,7 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["praise", "Jesus Christ", "matchless worth", "salvation", "righteousness", "eternal praise"],
+    "themes": [
+      "praise",
+      "Jesus Christ",
+      "matchless worth",
+      "salvation",
+      "righteousness",
+      "eternal praise"
+    ],
     "scripture_references": [],
     "tune_source": "Lowell Mason",
     "original_language": "en"

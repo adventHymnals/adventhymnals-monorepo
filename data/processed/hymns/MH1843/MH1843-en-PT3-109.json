@@ -33,7 +33,18 @@
   "composer": "",
   "author": "",
   "page": 252,
-  "themes": ["Song of Songs", "Angels", "Christ", "Worthy", "Lamb", "Slain", "Redeemed", "Blood", "Kings", "Priests"],
+  "themes": [
+    "Song of Songs",
+    "Angels",
+    "Christ",
+    "Worthy",
+    "Lamb",
+    "Slain",
+    "Redeemed",
+    "Blood",
+    "Kings",
+    "Priests"
+  ],
   "key_signature": "F",
   "time_signature": "3/4"
 }

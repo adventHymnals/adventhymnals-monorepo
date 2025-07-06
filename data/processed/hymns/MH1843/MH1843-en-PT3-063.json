@@ -31,7 +31,13 @@
   "composer": "",
   "author": "",
   "page": 202,
-  "themes": ["Conversion", "Soul", "Eternity", "Righteousness", "Judgment"],
+  "themes": [
+    "Conversion",
+    "Soul",
+    "Eternity",
+    "Righteousness",
+    "Judgment"
+  ],
   "key_signature": "",
   "time_signature": ""
 }

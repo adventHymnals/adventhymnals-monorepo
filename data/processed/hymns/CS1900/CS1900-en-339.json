@@ -21,7 +21,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["love", "need", "grace"],
+    "themes": [
+      "love",
+      "need",
+      "grace"
+    ],
     "scripture_references": [],
     "tune_source": "Ira D. Sankey",
     "original_language": "en"

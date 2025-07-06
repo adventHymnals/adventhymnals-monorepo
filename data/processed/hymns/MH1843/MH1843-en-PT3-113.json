@@ -29,7 +29,22 @@
   "composer": "",
   "author": "Charles Wesley",
   "page": 256,
-  "themes": ["Servants", "God", "Master", "Proclaim", "Wonderful Name", "Jesus", "Kingdom", "Glorious", "Rules", "Salvation", "Throne", "Angels", "Worship", "Lamb"],
+  "themes": [
+    "Servants",
+    "God",
+    "Master",
+    "Proclaim",
+    "Wonderful Name",
+    "Jesus",
+    "Kingdom",
+    "Glorious",
+    "Rules",
+    "Salvation",
+    "Throne",
+    "Angels",
+    "Worship",
+    "Lamb"
+  ],
   "key_signature": "G",
   "time_signature": "3/4"
 }

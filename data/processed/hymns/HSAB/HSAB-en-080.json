@@ -34,7 +34,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["wheat and tares", "harvest time", "reaping", "means of grace", "awful thought"],
+    "themes": [
+      "wheat and tares",
+      "harvest time",
+      "reaping",
+      "means of grace",
+      "awful thought"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -27,8 +27,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1870, by W. H. Doane",
-    "themes": ["prayer", "mercy", "calling", "healing", "grace", "throne", "relief"],
-    "scripture_references": ["Acts 3:19"],
+    "themes": [
+      "prayer",
+      "mercy",
+      "calling",
+      "healing",
+      "grace",
+      "throne",
+      "relief"
+    ],
+    "scripture_references": [
+      "Acts 3:19"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

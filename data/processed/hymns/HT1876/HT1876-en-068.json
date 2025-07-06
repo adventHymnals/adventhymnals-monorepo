@@ -4,17 +4,35 @@
   "title": "Blest hour, when mortal man retires",
   "language": "en",
   "verses": [
-    {"number": 1, "text": "Blest hour, when mortal man retires To hold communion with his God, To send to Heaven his warm desires, And listen to his sacred word."},
-    {"number": 2, "text": "Blest hour, when earthly cares resign Their empire o'er the anxious breast, While all around the calm divine Proclaims the holy day of rest."},
-    {"number": 3, "text": "Blest hour, when God himself draws nigh, Well pleased his people's vows to hear, To hush the penitential sigh, And wipe away the mourner's tear."},
-    {"number": 4, "text": "Blest hour! For, when the Lord resorts, Foretastes of future bliss are given; And mortal feel his earthly courts The house of God, the gate of heaven."}
+    {
+      "number": 1,
+      "text": "Blest hour, when mortal man retires To hold communion with his God, To send to Heaven his warm desires, And listen to his sacred word."
+    },
+    {
+      "number": 2,
+      "text": "Blest hour, when earthly cares resign Their empire o'er the anxious breast, While all around the calm divine Proclaims the holy day of rest."
+    },
+    {
+      "number": 3,
+      "text": "Blest hour, when God himself draws nigh, Well pleased his people's vows to hear, To hush the penitential sigh, And wipe away the mourner's tear."
+    },
+    {
+      "number": 4,
+      "text": "Blest hour! For, when the Lord resorts, Foretastes of future bliss are given; And mortal feel his earthly courts The house of God, the gate of heaven."
+    }
   ],
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["worship", "communion with God", "Sabbath", "prayer", "heaven"],
+    "themes": [
+      "worship",
+      "communion with God",
+      "Sabbath",
+      "prayer",
+      "heaven"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

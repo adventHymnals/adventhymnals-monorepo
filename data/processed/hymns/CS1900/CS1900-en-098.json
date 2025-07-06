@@ -31,7 +31,11 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["service", "gratitude", "sacrifice"],
+    "themes": [
+      "service",
+      "gratitude",
+      "sacrifice"
+    ],
     "scripture_references": [],
     "tune_source": "W. J. Kirkpatrick",
     "original_language": "en",

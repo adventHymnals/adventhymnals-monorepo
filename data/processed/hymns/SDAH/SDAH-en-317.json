@@ -29,8 +29,15 @@
     "text": "Lest I forget Gethsemane;\nLest I forget Thine agony;\nLest I forget Thy love for me,\nLead me to Calvary."
   },
   "metadata": {
-    "themes": ["crucifixion", "remembrance", "sacrifice"],
-    "scripture_references": ["Matthew 27:33", "Luke 23:33"],
+    "themes": [
+      "crucifixion",
+      "remembrance",
+      "sacrifice"
+    ],
+    "scripture_references": [
+      "Matthew 27:33",
+      "Luke 23:33"
+    ],
     "tune_source": "William J. Kirkpatrick",
     "original_language": "en"
   }

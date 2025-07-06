@@ -28,8 +28,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["salvation", "guidance", "star of Bethlehem", "Christ as light", "peace"],
-    "scripture_references": ["Matthew 2:1-10", "John 8:12"],
+    "themes": [
+      "salvation",
+      "guidance",
+      "star of Bethlehem",
+      "Christ as light",
+      "peace"
+    ],
+    "scripture_references": [
+      "Matthew 2:1-10",
+      "John 8:12"
+    ],
     "tune_source": null,
     "original_language": "en",
     "extraction_status": "ai_vision_extracted"

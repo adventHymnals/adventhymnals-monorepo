@@ -26,7 +26,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Sabbath", "sign", "seal", "protection", "deliverance", "judgment", "faithful"],
+    "themes": [
+      "Sabbath",
+      "sign",
+      "seal",
+      "protection",
+      "deliverance",
+      "judgment",
+      "faithful"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

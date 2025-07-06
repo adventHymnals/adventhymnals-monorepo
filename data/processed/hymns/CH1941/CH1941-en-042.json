@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1827,
     "copyright": "Public Domain",
-    "themes": ["morning", "God's mercies", "daily renewal", "prayer"],
-    "scripture_references": ["Lamentations 3:22-23", "Psalm 5:3"],
+    "themes": [
+      "morning",
+      "God's mercies",
+      "daily renewal",
+      "prayer"
+    ],
+    "scripture_references": [
+      "Lamentations 3:22-23",
+      "Psalm 5:3"
+    ],
     "tune_source": "Melcombe, Samuel Sebastian Wesley, 1864",
     "original_language": "en"
   }

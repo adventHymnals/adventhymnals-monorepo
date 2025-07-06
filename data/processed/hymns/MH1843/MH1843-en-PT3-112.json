@@ -31,7 +31,22 @@
   "composer": "",
   "author": "",
   "page": 255,
-  "themes": ["Cannot Tell", "Angels", "Worship", "Love", "Shepherd", "Wanderers", "Silently", "Suffered", "Peace", "Heritage", "Nations", "Bethlehem", "Nazareth", "Savior"],
+  "themes": [
+    "Cannot Tell",
+    "Angels",
+    "Worship",
+    "Love",
+    "Shepherd",
+    "Wanderers",
+    "Silently",
+    "Suffered",
+    "Peace",
+    "Heritage",
+    "Nations",
+    "Bethlehem",
+    "Nazareth",
+    "Savior"
+  ],
   "key_signature": "F",
   "time_signature": "4/4"
 }

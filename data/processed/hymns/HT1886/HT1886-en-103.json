@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["remembrance", "Jesus Christ", "eternal praise", "love of Christ", "worship"],
+    "themes": [
+      "remembrance",
+      "Jesus Christ",
+      "eternal praise",
+      "love of Christ",
+      "worship"
+    ],
     "scripture_references": [],
     "tune_source": "709, 704, 47",
     "original_language": "en"

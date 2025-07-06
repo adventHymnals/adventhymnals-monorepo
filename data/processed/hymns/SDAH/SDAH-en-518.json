@@ -27,8 +27,17 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["faith", "promises", "victory", "trust", "word of God"],
-    "scripture_references": ["2 Corinthians 1:20", "Hebrews 6:18"],
+    "themes": [
+      "faith",
+      "promises",
+      "victory",
+      "trust",
+      "word of God"
+    ],
+    "scripture_references": [
+      "2 Corinthians 1:20",
+      "Hebrews 6:18"
+    ],
     "tune_source": "Russell Kelso Carter",
     "original_language": "en"
   }

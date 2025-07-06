@@ -27,8 +27,17 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["christ", "veil", "revelation", "intercession", "conqueror"],
-    "scripture_references": ["Matthew 27:51", "Hebrews 10:19-20"],
+    "themes": [
+      "christ",
+      "veil",
+      "revelation",
+      "intercession",
+      "conqueror"
+    ],
+    "scripture_references": [
+      "Matthew 27:51",
+      "Hebrews 10:19-20"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

@@ -31,8 +31,16 @@
   "metadata": {
     "year": 1225,
     "copyright": "Public Domain",
-    "themes": ["creation", "praise", "worship", "nature"],
-    "scripture_references": ["Psalm 148", "Daniel 3:57-88"],
+    "themes": [
+      "creation",
+      "praise",
+      "worship",
+      "nature"
+    ],
+    "scripture_references": [
+      "Psalm 148",
+      "Daniel 3:57-88"
+    ],
     "tune_source": "Geistliche Kirchengesang, Cologne, 1623",
     "original_language": "it",
     "translator": "William H. Draper"

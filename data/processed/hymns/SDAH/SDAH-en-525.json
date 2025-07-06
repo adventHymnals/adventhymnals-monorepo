@@ -27,8 +27,17 @@
   "metadata": {
     "year": 1876,
     "copyright": "Public Domain",
-    "themes": ["refuge", "protection", "safety", "trials", "comfort"],
-    "scripture_references": ["Psalm 61:2", "Isaiah 32:2"],
+    "themes": [
+      "refuge",
+      "protection",
+      "safety",
+      "trials",
+      "comfort"
+    ],
+    "scripture_references": [
+      "Psalm 61:2",
+      "Isaiah 32:2"
+    ],
     "tune_source": "Ira D. Sankey",
     "original_language": "en"
   }

@@ -29,7 +29,13 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["praise", "worship", "jesus", "crown", "lord"],
+    "themes": [
+      "praise",
+      "worship",
+      "jesus",
+      "crown",
+      "lord"
+    ],
     "scripture_references": [],
     "tune_source": "OLIVER HOLDEN",
     "original_language": "en"

@@ -33,7 +33,13 @@
   "metadata": {
     "year": null,
     "copyright": "Words © 1971, Rev. 1995 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
-    "themes": ["Communion", "Joy", "Fellowship", "Jesus Christ", "Unity"],
+    "themes": [
+      "Communion",
+      "Joy",
+      "Fellowship",
+      "Jesus Christ",
+      "Unity"
+    ],
     "scripture_references": [],
     "tune_source": "American folk melody",
     "original_language": "en"

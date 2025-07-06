@@ -22,7 +22,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["children", "hope of Heaven", "judgment day", "Spirit", "holy law"],
+    "themes": [
+      "children",
+      "hope of Heaven",
+      "judgment day",
+      "Spirit",
+      "holy law"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "C. M."

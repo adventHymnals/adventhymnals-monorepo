@@ -28,8 +28,15 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["worship", "longing for God", "sanctuary", "presence of God"],
-    "scripture_references": ["Psalm 84"],
+    "themes": [
+      "worship",
+      "longing for God",
+      "sanctuary",
+      "presence of God"
+    ],
+    "scripture_references": [
+      "Psalm 84"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }

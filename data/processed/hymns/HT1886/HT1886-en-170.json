@@ -28,7 +28,13 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Jesus Christ", "salvation", "Scripture", "divine promises", "faith"],
+    "themes": [
+      "Jesus Christ",
+      "salvation",
+      "Scripture",
+      "divine promises",
+      "faith"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

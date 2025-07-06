@@ -28,8 +28,18 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["Holy Spirit", "ministry", "pastoral care", "righteousness", "spiritual gifts", "chief Shepherd"],
-    "scripture_references": ["1 Peter 5:4", "Acts 2:17"],
+    "themes": [
+      "Holy Spirit",
+      "ministry",
+      "pastoral care",
+      "righteousness",
+      "spiritual gifts",
+      "chief Shepherd"
+    ],
+    "scripture_references": [
+      "1 Peter 5:4",
+      "Acts 2:17"
+    ],
     "tune_source": "68, 740, 47",
     "original_language": "en"
   }

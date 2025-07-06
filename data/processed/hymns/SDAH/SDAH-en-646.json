@@ -22,8 +22,16 @@
     }
   ],
   "metadata": {
-    "themes": ["salvation", "name of Jesus", "worship", "adoration"],
-    "scripture_references": ["Philippians 2:9-11", "Acts 4:12"],
+    "themes": [
+      "salvation",
+      "name of Jesus",
+      "worship",
+      "adoration"
+    ],
+    "scripture_references": [
+      "Philippians 2:9-11",
+      "Acts 4:12"
+    ],
     "copyright": "Public Domain"
   }
 }

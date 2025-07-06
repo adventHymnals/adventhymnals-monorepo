@@ -26,8 +26,15 @@
     }
   ],
   "metadata": {
-    "themes": ["heart transformation", "sanctification", "love"],
-    "scripture_references": ["Ezekiel 36:26", "2 Corinthians 5:17"],
+    "themes": [
+      "heart transformation",
+      "sanctification",
+      "love"
+    ],
+    "scripture_references": [
+      "Ezekiel 36:26",
+      "2 Corinthians 5:17"
+    ],
     "tune_source": "Carl Gotthelf Gläser",
     "original_language": "en"
   }

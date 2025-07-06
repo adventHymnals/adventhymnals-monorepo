@@ -35,7 +35,12 @@
     "compiler": "P. A. Smith",
     "publisher": "W. H. Spencer",
     "location": "Rochester, N.Y.",
-    "themes": ["second advent", "hope", "Jesus' return", "heaven"],
+    "themes": [
+      "second advent",
+      "hope",
+      "Jesus' return",
+      "heaven"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

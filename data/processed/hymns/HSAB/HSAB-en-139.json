@@ -38,7 +38,15 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["humility", "Jesus", "foot washing", "example", "obedience", "service", "Last Supper"],
+    "themes": [
+      "humility",
+      "Jesus",
+      "foot washing",
+      "example",
+      "obedience",
+      "service",
+      "Last Supper"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Used by permission",
-    "themes": ["King", "coming", "kingdom", "glory", "throne", "victory", "friends"],
-    "scripture_references": ["Matt. 25:34"],
+    "themes": [
+      "King",
+      "coming",
+      "kingdom",
+      "glory",
+      "throne",
+      "victory",
+      "friends"
+    ],
+    "scripture_references": [
+      "Matt. 25:34"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

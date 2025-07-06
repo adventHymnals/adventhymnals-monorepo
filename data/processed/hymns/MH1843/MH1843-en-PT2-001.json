@@ -16,7 +16,13 @@
     "year": 1843,
     "compiler": "Joshua V. Himes",
     "publisher": "Published at 14 Devonshire Street, Boston",
-    "themes": ["Blissful Region", "Heaven", "Joys that Await", "Ocean of Pleasure", "Eden of Love"],
+    "themes": [
+      "Blissful Region",
+      "Heaven",
+      "Joys that Await",
+      "Ocean of Pleasure",
+      "Eden of Love"
+    ],
     "musical_notation": "Present with treble and bass clef",
     "tempo_marking": "mp (mezzo-piano)",
     "hymnal_context": "Millerite/Adventist movement hymnal",

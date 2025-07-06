@@ -37,7 +37,13 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["ship zion", "ark of god", "sacred word", "anchor hope", "celestial plain"],
+    "themes": [
+      "ship zion",
+      "ark of god",
+      "sacred word",
+      "anchor hope",
+      "celestial plain"
+    ],
     "original_language": "en",
     "has_chorus": true
   }

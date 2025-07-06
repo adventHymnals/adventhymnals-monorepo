@@ -36,8 +36,16 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["worship", "adoration of Christ", "Jesus Christ", "not ashamed", "praise"],
-    "scripture_references": ["Romans 1:16"],
+    "themes": [
+      "worship",
+      "adoration of Christ",
+      "Jesus Christ",
+      "not ashamed",
+      "praise"
+    ],
+    "scripture_references": [
+      "Romans 1:16"
+    ],
     "tune_source": "Henry Kemble Oliver",
     "original_language": "en"
   }

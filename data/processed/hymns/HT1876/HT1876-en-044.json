@@ -26,7 +26,13 @@
     "copyright": "Public Domain",
     "publisher": "Seventh-day Adventist Publishing Association",
     "location": "Battle Creek, Michigan",
-    "themes": ["refuge", "protection", "peace", "Zion", "God's strength"],
+    "themes": [
+      "refuge",
+      "protection",
+      "peace",
+      "Zion",
+      "God's strength"
+    ],
     "original_language": "en",
     "has_chorus": false,
     "meter": "L. M."

@@ -23,8 +23,18 @@
   "metadata": {
     "year": 1900,
     "copyright": "Copyright, 1885, by F. E. Belden. Used by permission of Harvey Booth, owner of copyright",
-    "themes": ["tenting", "highlands", "mountains", "Sodom", "judgment", "home", "life"],
-    "scripture_references": ["Gen. 19:17"],
+    "themes": [
+      "tenting",
+      "highlands",
+      "mountains",
+      "Sodom",
+      "judgment",
+      "home",
+      "life"
+    ],
+    "scripture_references": [
+      "Gen. 19:17"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

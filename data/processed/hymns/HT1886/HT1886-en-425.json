@@ -32,8 +32,15 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["heaven", "invitation", "Eden"],
-    "scripture_references": ["Revelation 21:4", "Isaiah 35:10"],
+    "themes": [
+      "heaven",
+      "invitation",
+      "Eden"
+    ],
+    "scripture_references": [
+      "Revelation 21:4",
+      "Isaiah 35:10"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

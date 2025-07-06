@@ -24,8 +24,18 @@
   "metadata": {
     "year": 1846,
     "copyright": "Public Domain",
-    "themes": ["invitation", "rest", "spiritual thirst", "light", "joy and peace"],
-    "scripture_references": ["Matthew 11:28", "John 4:14", "John 8:12"],
+    "themes": [
+      "invitation",
+      "rest",
+      "spiritual thirst",
+      "light",
+      "joy and peace"
+    ],
+    "scripture_references": [
+      "Matthew 11:28",
+      "John 4:14",
+      "John 8:12"
+    ],
     "tune_source": "English traditional melody, arranged by Ralph Vaughan Williams",
     "original_language": "en",
     "author_dates": "1808-1889",

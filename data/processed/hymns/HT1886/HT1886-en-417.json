@@ -28,8 +28,14 @@
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["warning", "invitation", "repentance"],
-    "scripture_references": ["Ezekiel 33:11"],
+    "themes": [
+      "warning",
+      "invitation",
+      "repentance"
+    ],
+    "scripture_references": [
+      "Ezekiel 33:11"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1900,
     "copyright": null,
-    "themes": ["salvation", "heaven", "book of life", "redemption"],
+    "themes": [
+      "salvation",
+      "heaven",
+      "book of life",
+      "redemption"
+    ],
     "scripture_references": [],
     "tune_source": "Frank M. Davis",
     "original_language": "en"

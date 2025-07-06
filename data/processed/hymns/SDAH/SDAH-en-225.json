@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1894,
     "copyright": "Public Domain",
-    "themes": ["God's Purpose", "Mission", "Gospel", "Glory of God"],
-    "scripture_references": ["Habakkuk 2:14", "Isaiah 11:9"],
+    "themes": [
+      "God's Purpose",
+      "Mission",
+      "Gospel",
+      "Glory of God"
+    ],
+    "scripture_references": [
+      "Habakkuk 2:14",
+      "Isaiah 11:9"
+    ],
     "tune_source": "Martin Shaw, 1915",
     "original_language": "en"
   }

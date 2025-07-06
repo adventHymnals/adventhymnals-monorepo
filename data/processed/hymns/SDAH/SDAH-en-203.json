@@ -27,7 +27,12 @@
   "metadata": {
     "year": 1980,
     "copyright": "Words © 1980 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission. Music © 1984 Allen W. Foster. All rights reserved. Used by permission.",
-    "themes": ["Faith", "Christ's Death", "Resurrection", "Second Coming"],
+    "themes": [
+      "Faith",
+      "Christ's Death",
+      "Resurrection",
+      "Second Coming"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

@@ -16,8 +16,18 @@
   "metadata": {
     "year": 1849,
     "copyright": "Public Domain",
-    "themes": ["doxology", "praise", "trinity", "blessings", "worship"],
-    "scripture_references": ["Ps 103:1-2", "Rev 5:13", "Eph 1:3"],
+    "themes": [
+      "doxology",
+      "praise",
+      "trinity",
+      "blessings",
+      "worship"
+    ],
+    "scripture_references": [
+      "Ps 103:1-2",
+      "Rev 5:13",
+      "Eph 1:3"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en",
     "hymnal_context": "Early Seventh-day Adventist movement"

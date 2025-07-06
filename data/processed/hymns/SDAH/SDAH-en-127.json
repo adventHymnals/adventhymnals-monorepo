@@ -21,8 +21,15 @@
   "metadata": {
     "year": 1200,
     "copyright": "Public Domain",
-    "themes": ["Christmas", "Christ's Birth", "Angels", "Shepherds"],
-    "scripture_references": ["Luke 2:8-20"],
+    "themes": [
+      "Christmas",
+      "Christ's Birth",
+      "Angels",
+      "Shepherds"
+    ],
+    "scripture_references": [
+      "Luke 2:8-20"
+    ],
     "tune_source": "Polish carol",
     "original_language": "pl"
   }

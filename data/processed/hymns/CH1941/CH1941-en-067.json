@@ -27,8 +27,16 @@
   "metadata": {
     "year": 1917,
     "copyright": "Public Domain",
-    "themes": ["God's love", "eternity", "immeasurable love", "praise"],
-    "scripture_references": ["Romans 8:38-39", "Ephesians 3:18-19"],
+    "themes": [
+      "God's love",
+      "eternity",
+      "immeasurable love",
+      "praise"
+    ],
+    "scripture_references": [
+      "Romans 8:38-39",
+      "Ephesians 3:18-19"
+    ],
     "tune_source": "O Love of God, Claudia Lehman Mays, 1917",
     "original_language": "en"
   }

@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1871,
     "copyright": "Public Domain",
-    "themes": ["Church", "Prayer for the Church", "Mission", "Guidance"],
-    "scripture_references": ["Matthew 16:18", "Ephesians 5:25"],
+    "themes": [
+      "Church",
+      "Prayer for the Church",
+      "Mission",
+      "Guidance"
+    ],
+    "scripture_references": [
+      "Matthew 16:18",
+      "Ephesians 5:25"
+    ],
     "tune_source": "Henry T. Smart, 1835",
     "original_language": "en"
   }

@@ -30,7 +30,16 @@
     "copyright": "Public Domain",
     "publisher": "James White",
     "location": "Rochester, N.Y.",
-    "themes": ["Jordan", "promised land", "home", "kingdom", "redemption", "glory", "tree of life", "repose"],
+    "themes": [
+      "Jordan",
+      "promised land",
+      "home",
+      "kingdom",
+      "redemption",
+      "glory",
+      "tree of life",
+      "repose"
+    ],
     "original_language": "en",
     "has_chorus": false
   }

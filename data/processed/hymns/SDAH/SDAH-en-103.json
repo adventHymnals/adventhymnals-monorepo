@@ -33,8 +33,15 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["praise", "eternal_god", "trust", "psalm_90"],
-    "scripture_references": ["Psalm 90"],
+    "themes": [
+      "praise",
+      "eternal_god",
+      "trust",
+      "psalm_90"
+    ],
+    "scripture_references": [
+      "Psalm 90"
+    ],
     "tune_source": null,
     "original_language": "en"
   }

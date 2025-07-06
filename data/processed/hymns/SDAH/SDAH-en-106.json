@@ -29,7 +29,12 @@
   "metadata": {
     "year": null,
     "copyright": null,
-    "themes": ["praise", "mercy", "eternal_love", "god_sovereignty"],
+    "themes": [
+      "praise",
+      "mercy",
+      "eternal_love",
+      "god_sovereignty"
+    ],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en"

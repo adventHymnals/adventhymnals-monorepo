@@ -28,8 +28,16 @@
   "metadata": {
     "year": 1719,
     "copyright": "Public Domain",
-    "themes": ["obedience", "walking with God", "purity", "trust"],
-    "scripture_references": ["Psalm 119:9", "Psalm 119:105"],
+    "themes": [
+      "obedience",
+      "walking with God",
+      "purity",
+      "trust"
+    ],
+    "scripture_references": [
+      "Psalm 119:9",
+      "Psalm 119:105"
+    ],
     "tune_source": "[needs verification]",
     "original_language": "en"
   }
