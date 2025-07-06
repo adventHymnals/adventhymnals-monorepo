@@ -89,6 +89,35 @@ export async function generateMetadata({ params }: HymnPageProps): Promise<Metad
   }
 }
 
+export async function generateStaticParams() {
+  try {
+    const hymnalReferences = await loadHymnalReferences();
+    const staticParams: { hymnal: string; slug: string }[] = [];
+
+    // Generate static params for all hymns in all hymnals
+    for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+      try {
+        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+        
+        for (const hymn of hymns) {
+          const slug = `hymn-${hymn.number}-${hymn.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')}`;
+          staticParams.push({
+            hymnal: hymnalRef.url_slug,
+            slug: slug
+          });
+        }
+      } catch (error) {
+        console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
+      }
+    }
+
+    return staticParams;
+  } catch (error) {
+    console.error('Error generating static params:', error);
+    return [];
+  }
+}
+
 export default async function HymnPage({ params }: HymnPageProps) {
   const hymnalReferences = await loadHymnalReferences();
   const hymnalRef = Object.values(hymnalReferences.hymnals).find(
