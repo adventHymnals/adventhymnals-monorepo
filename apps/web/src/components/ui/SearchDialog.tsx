@@ -5,14 +5,6 @@ import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
 import { MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline';
 
-// Helper function to normalize text for search
-function normalizeSearchText(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^\w\s]/g, '') // Remove all punctuation
-    .replace(/\s+/g, ' ') // Normalize whitespace
-    .trim();
-}
 
 interface SearchResult {
   id: string;
@@ -60,7 +52,20 @@ export default function SearchDialog({
       const searchResults = await response.json();
       
       // Transform the API response to match our SearchResult interface
-      const transformedResults: SearchResult[] = searchResults.map((result: any) => ({
+      const transformedResults: SearchResult[] = searchResults.map((result: { 
+        hymn: { 
+          id: string; 
+          number: number; 
+          title: string; 
+          author?: string; 
+          composer?: string; 
+          verses?: { text?: string }[] 
+        }; 
+        hymnal: { 
+          abbreviation: string; 
+          url_slug: string 
+        } 
+      }) => ({
         id: result.hymn.id,
         number: result.hymn.number,
         title: result.hymn.title,

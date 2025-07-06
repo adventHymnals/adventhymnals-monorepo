@@ -12,15 +12,12 @@ import {
   getSlideTitle,
   getProjectionThemeClasses,
   getFontSizeClasses,
-  getKeyboardShortcuts
 } from '@advent-hymnals/shared';
 import { loadHymn, loadHymnalReferences, loadHymnalHymns } from '@/lib/data';
 import { classNames } from '@/lib/utils';
 import { 
   ChevronLeftIcon, 
   ChevronRightIcon, 
-  HomeIcon, 
-  Cog6ToothIcon,
   QuestionMarkCircleIcon,
   XMarkIcon,
   ListBulletIcon,
@@ -53,9 +50,8 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
   const [showHelp, setShowHelp] = useState(false);
   const [showIndex, setShowIndex] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const [autoAdvanceTimer, setAutoAdvanceTimer] = useState<NodeJS.Timeout | null>(null);
-  const [hymnalData, setHymnalData] = useState<any>(null);
-  const [allHymns, setAllHymns] = useState<any[]>([]);
+  const [hymnalData, setHymnalData] = useState<unknown>(null);
+  const [allHymns, setAllHymns] = useState<unknown[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
 
   // Auto-enter fullscreen on mount

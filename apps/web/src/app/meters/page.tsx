@@ -28,7 +28,7 @@ export default function MetersPage() {
   const [filteredMeters, setFilteredMeters] = useState<MeterData[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
-  const [hymnalReferences, setHymnalReferences] = useState<any>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
   const [sortBy, setSortBy] = useState<'count' | 'alphabetical'>('count');
 
   useEffect(() => {

@@ -29,7 +29,7 @@ export default function ThemeDetailPage({ params }: ThemeDetailProps) {
   const [hymns, setHymns] = useState<HymnData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [hymnalReferences, setHymnalReferences] = useState<any>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
   
   const decodedTheme = decodeURIComponent(params.theme);
 
@@ -46,7 +46,7 @@ export default function ThemeDetailPage({ params }: ThemeDetailProps) {
         }
         
         const themesData = await themesResponse.json();
-        const themeData = themesData.find((t: any) => t.theme === decodedTheme);
+        const themeData = themesData.find((t: { theme: string }) => t.theme === decodedTheme);
         
         if (!themeData) {
           setError(`Theme "${decodedTheme}" not found`);

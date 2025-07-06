@@ -29,7 +29,7 @@ export default function ComposerDetailPage({ params }: ComposerDetailProps) {
   const [hymns, setHymns] = useState<HymnData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [hymnalReferences, setHymnalReferences] = useState<any>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
   
   const decodedComposer = decodeURIComponent(params.composer);
 
@@ -46,7 +46,7 @@ export default function ComposerDetailPage({ params }: ComposerDetailProps) {
         }
         
         const composersData = await composersResponse.json();
-        const composerData = composersData.find((c: any) => c.composer === decodedComposer);
+        const composerData = composersData.find((c: { composer: string }) => c.composer === decodedComposer);
         
         if (!composerData) {
           setError(`Composer "${decodedComposer}" not found`);

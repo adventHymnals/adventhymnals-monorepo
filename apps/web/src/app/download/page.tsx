@@ -234,7 +234,7 @@ export default async function DownloadPage() {
                   <ComputerDesktopIcon className="h-5 w-5 text-primary-600 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-medium text-gray-900">Custom Themes</h4>
-                    <p className="text-sm text-gray-600">Match your church's visual identity</p>
+                    <p className="text-sm text-gray-600">Match your church&apos;s visual identity</p>
                   </div>
                 </div>
               </div>

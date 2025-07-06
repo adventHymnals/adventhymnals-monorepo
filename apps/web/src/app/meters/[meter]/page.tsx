@@ -31,7 +31,7 @@ export default function MeterDetailPage({ params }: MeterDetailProps) {
   const [filteredHymns, setFilteredHymns] = useState<HymnData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [hymnalReferences, setHymnalReferences] = useState<any>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedHymnal, setSelectedHymnal] = useState('');
   const [sortBy, setSortBy] = useState<'title' | 'number'>('number');
@@ -51,7 +51,7 @@ export default function MeterDetailPage({ params }: MeterDetailProps) {
         }
         
         const metersData = await metersResponse.json();
-        const meterData = metersData.find((m: any) => m.meter === decodedMeter);
+        const meterData = metersData.find((m: { meter: string }) => m.meter === decodedMeter);
         
         if (!meterData) {
           setError(`Meter "${decodedMeter}" not found`);

@@ -28,7 +28,7 @@ export default function TunesPage() {
   const [filteredTunes, setFilteredTunes] = useState<TuneData[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
-  const [hymnalReferences, setHymnalReferences] = useState<any>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
   const [sortBy, setSortBy] = useState<'count' | 'alphabetical'>('count');
 
   useEffect(() => {

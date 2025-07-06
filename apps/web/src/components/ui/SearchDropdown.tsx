@@ -51,7 +51,17 @@ export default function SearchDropdown({
       const searchResults = await response.json();
       
       // Transform the API response to match our SearchResult interface
-      const transformedResults: SearchResult[] = searchResults.map((result: any) => ({
+      const transformedResults: SearchResult[] = searchResults.map((result: { 
+        hymn: { 
+          id: string; 
+          number: number; 
+          title: string 
+        }; 
+        hymnal: { 
+          abbreviation: string; 
+          url_slug: string 
+        } 
+      }) => ({
         id: result.hymn.id,
         title: result.hymn.title,
         hymnal: result.hymnal.abbreviation,

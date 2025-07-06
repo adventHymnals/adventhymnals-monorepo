@@ -28,7 +28,7 @@ export default function ThemesPage() {
   const [filteredThemes, setFilteredThemes] = useState<ThemeData[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
-  const [hymnalReferences, setHymnalReferences] = useState<any>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
 
   useEffect(() => {
     const loadData = async () => {
