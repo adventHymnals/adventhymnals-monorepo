@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-539",
+  "number": 539,
+  "title": "I Will Early Seek the Savior",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I will early seek the Savior,\nI will learn of Him each day;\nI will follow in his footsteps,\nI will walk the narrow way."
+    },
+    {
+      "number": 2,
+      "text": "I will hasten where He bids me,\nI am not too young to go\nIn the pathway where He leadeth,\nNot too young His will to know."
+    },
+    {
+      "number": 3,
+      "text": "He is standing at the doorway\nOf escape from every sin;\nI will knock, for He has promised\nHe will hear and let me in."
+    }
+  ],
+  "chorus": {
+    "text": "For He loves me, yes, He loves me,\nJesus loves me, this I know.\nJesus loves me, died to save me,\nThis is why I love Him so."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["seeking God", "following Jesus", "young faith", "devotion"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

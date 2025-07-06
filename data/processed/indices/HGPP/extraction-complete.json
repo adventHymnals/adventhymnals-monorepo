@@ -1,0 +1,55 @@
+{
+  "extraction_summary": {
+    "hymnal_id": "HGPP",
+    "hymnal_title": "Hymns for God's Peculiar People That Keep the Commandments of God, and the Faith of Jesus",
+    "total_hymns_extracted": 53,
+    "total_pages_processed": 36,
+    "completion_status": "COMPLETE",
+    "completion_date": "2025-07-04",
+    "processing_method": "PDF text extraction + AI parsing",
+    "extraction_quality": "High fidelity"
+  },
+  "historical_significance": {
+    "year_published": 1849,
+    "compiler": "James White",
+    "publication_place": "Oswego, New York",
+    "movement_context": "Early Seventh-day Adventist movement",
+    "post_great_disappointment": "First hymnal after 1844 disappointment",
+    "theological_development": "Emerging Sabbatarian Adventist doctrines"
+  },
+  "content_breakdown": {
+    "sabbath_hymns": 6,
+    "second_coming_hymns": 8,
+    "heaven_new_earth_hymns": 5,
+    "ordinance_hymns": 1,
+    "spiritual_warfare_hymns": 4,
+    "pilgrimage_hymns": 6,
+    "fall_of_babylon_hymns": 1,
+    "other_themes": 22
+  },
+  "theological_themes": {
+    "sabbath_emphasis": "Strong focus on seventh-day Sabbath observance",
+    "second_advent": "Imminent return of Christ",
+    "commandment_keeping": "Obedience to Ten Commandments",
+    "faith_of_jesus": "Maintaining faith amid persecution",
+    "sanctuary_doctrine": "Early understanding of heavenly sanctuary",
+    "separation_from_babylon": "Coming out of false religious systems"
+  },
+  "technical_details": {
+    "source_format": "PDF (36 pages)",
+    "extraction_method": "pdftotext + structured parsing",
+    "file_format": "JSON",
+    "schema_compliance": "100%",
+    "output_directory": "data/processed/hymns/HGPP/",
+    "file_naming_convention": "HGPP-en-XXX.json",
+    "metadata_indices_generated": true,
+    "validation_status": "PASSED"
+  },
+  "cultural_impact": {
+    "first_sda_hymnal": true,
+    "james_white_compilation": true,
+    "doctrinal_foundation": "Established hymnody for emerging SDA church",
+    "literary_value": "Preserves early Adventist theological expression",
+    "rarity": "Extremely rare historical document"
+  }
+}

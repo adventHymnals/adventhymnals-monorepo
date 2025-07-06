@@ -1,0 +1,23 @@
+{
+  "name": "@advent-hymnals/hymnal-processor",
+  "version": "1.0.0",
+  "description": "Core hymnal processing and data management utilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src/**/*.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@advent-hymnals/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "eslint": "^8.56.0"
+  },
+  "files": [
+    "dist"
+  ]
+}

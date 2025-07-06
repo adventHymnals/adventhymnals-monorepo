@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-016",
+  "number": 16,
+  "title": "Praise the Lord, His Glories Show",
+  "author": "Henry Francis Lyte",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "7.7.7.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise the Lord, His glories show,\nAlleluia!\nSaints within His courts below,\nAlleluia!\nAngels round His throne above,\nAlleluia!\nAll that see and share His love.\nAlleluia!"
+    },
+    {
+      "number": 2,
+      "text": "Earth to heaven exalt the strain,\nAlleluia!\nAll creation join to praise\nAlleluia!\nPraise the God of truth and grace,\nAlleluia!\nJustice, mercy, love, proclaim.\nAlleluia!"
+    },
+    {
+      "number": 3,
+      "text": "Praise the Lord, His mercies trace,\nAlleluia!\nPraise His providence and grace,\nAlleluia!\nAll that He for man has done,\nAlleluia!\nAll He sends us through His Son.\nAlleluia!"
+    }
+  ],
+  "metadata": {
+    "year": 1834,
+    "copyright": "Public Domain",
+    "themes": ["praise", "alleluia", "creation", "mercy"],
+    "scripture_references": ["Psalm 150"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

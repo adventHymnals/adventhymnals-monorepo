@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-467",
+  "number": 467,
+  "title": "Life Is Great! So Sing About It",
+  "author": "Brian Wren",
+  "composer": "Peter Cutts",
+  "tune": "LIFE IS GREAT",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Life is great! So sing about it,\nAs we should and as we can.\nShops and buses, towns and people,\nVillage, farmland, field and wood."
+    },
+    {
+      "number": 2,
+      "text": "Life is great! what ever happens,\nSnow or sunshine, joy or pain.\nHardship, grief or disillusion,\nSuffering that I can't explain"
+    },
+    {
+      "number": 3,
+      "text": "Love is great! the love of lovers,\nWhispered words and longing eyes;\nLove that gazes at the cradle\nWhere a child of loving lies;"
+    },
+    {
+      "number": 4,
+      "text": "Love is great! the love re-echoing\nBoy and girl, or friend with friend;\nLove that is bearing the great sorrow,\nAll the disciples turned and ran."
+    },
+    {
+      "number": 5,
+      "text": "God is great! in Christ He loved us,\nAs we should, but never can\nLove that suffered, hoped and trusted\nWhen disciples turned and ran."
+    }
+  ],
+  "metadata": {
+    "year": 1983,
+    "copyright": "Copyright 1983 Hope Publishing Co.",
+    "themes": ["celebration of life", "joy", "love", "God's love", "human experience"],
+    "scripture_references": ["Ecclesiastes 3:1-8", "1 John 4:16", "Romans 5:8"],
+    "tune_source": "Peter Cutts",
+    "original_language": "en"
+  }
+}

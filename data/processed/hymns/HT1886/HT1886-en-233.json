@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-233",
+  "number": 233,
+  "title": "Come, thou beloved Redeemer, come",
+  "author": "Anon",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, thou beloved Redeemer, come,\nThy waiting church to bless;\nShine forth upon this Sabbath-day,\nThou Sun of righteousness."
+    },
+    {
+      "number": 2,
+      "text": "Thou art our Maker, thou our God,\nAnd thy great name we own;\nAll praise and honor and renown\nWe yield to thee alone."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "Jesus", "Redeemer", "blessing"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

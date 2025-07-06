@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-171",
+  "number": 171,
+  "title": "I love the sacred book of God",
+  "author": "Anon",
+  "composer": "Gregorian, arr. by Lowell Mason",
+  "tune": "HAMBURG",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I love the sacred book of God,\nNo other can its place supply;\nIt points me to the saints' abode,\nAnd bids me from destruction fly."
+    },
+    {
+      "number": 2,
+      "text": "Sweet book! In thee my eyes discern\nThe image of my absent Lord;\nFrom thy instructive page I learn\nThe joys his presence will afford."
+    },
+    {
+      "number": 3,
+      "text": "But while I'm here, thou shalt supply\nHis place, and tell me of his love;\nI'll read with faith's discerning eye,\nAnd thus partake of joys above."
+    },
+    {
+      "number": 4,
+      "text": "Within thy sacred leaves I find\nA transcript of my Maker's will;\nTreasures of knowledge here abound,\nThe offspring infinite mind to fill."
+    },
+    {
+      "number": 5,
+      "text": "Light of the world, thy beams impart,\nTo lead my feet through life's dark way;\nO, shine in this benighted heart,\nNor let me from thy guidance stray."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Scriptures", "divine guidance", "God's word", "spiritual treasure", "faith"],
+    "scripture_references": [],
+    "tune_source": "169, 246, 443",
+    "original_language": "en"
+  }
+}

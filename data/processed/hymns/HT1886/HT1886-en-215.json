@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-215",
+  "number": 215,
+  "title": "At rest—oh, six days' work is done",
+  "author": "Lowell Mason",
+  "composer": null,
+  "tune": "Hebron. L. M.",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "At rest—oh, six days' work is done,\nAnother Sabbath is begun;\nReturn, my soul, enjoy thy rest,\nImprove the day that God has blessed."
+    },
+    {
+      "number": 2,
+      "text": "Come, bless the Lord, whose love assigns\nSo sweet a rest to weary minds;\nA blessed anticost below\nOn this day more than all the seven."
+    },
+    {
+      "number": 3,
+      "text": "O that our thoughts and thanks may rise\nAs grateful incense to his skies,\nAnd draw from Christ that sweet repose\nWhich none but he that feels it knows."
+    },
+    {
+      "number": 4,
+      "text": "This heavenly calm within the breast\nIs the best pledge of glorious rest,\nWhich for the church of God remains,\nThe end of cares, the end of pains."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath rest", "six days' work", "worship", "peace", "heavenly rest"],
+    "scripture_references": ["Hebrews 4:9"],
+    "tune_source": "Hebron. L. M.",
+    "original_language": "en"
+  }
+}

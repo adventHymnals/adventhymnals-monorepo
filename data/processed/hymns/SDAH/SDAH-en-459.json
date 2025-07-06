@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-459",
+  "number": 459,
+  "title": "As the Bridegroom to His Chosen",
+  "author": "John Tauler",
+  "composer": "Peter Cutts",
+  "tune": "BRIDEGROOM",
+  "meter": "8.7.8.7.8.8.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "As the bridegroom to his chosen,\nAs the king unto his realm,\nAs the keep unto the castle,\nAs the pilot to the helm,"
+    },
+    {
+      "number": 2,
+      "text": "As the fountain in the garden,\nAs the candle in the dark,\nAs the treasure in the coffer,\nAs the manna in the ark,"
+    },
+    {
+      "number": 3,
+      "text": "As the ruby in the setting,\nAs the honey in the comb,\nAs the light within the lantern,\nAs the father in the home,"
+    },
+    {
+      "number": 4,
+      "text": "As the sunshine in the heavens,\nAs the image in the glass,\nAs the fruit upon the fig tree,\nAs the dew upon the grass,"
+    }
+  ],
+  "metadata": {
+    "year": 1969,
+    "copyright": "Copyright 1969 Hope Publishing Co.",
+    "themes": ["Christ's love", "divine relationship", "spiritual intimacy", "bridegroom imagery"],
+    "scripture_references": ["Ephesians 5:25-27", "Revelation 19:7-9", "Song of Songs 2:16"],
+    "tune_source": "Peter Cutts",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-368",
+  "number": 368,
+  "title": "Watchman, Blow the Gospel Trumpet",
+  "author": "Levi Baxter",
+  "composer": "Traditional",
+  "tune": "WATCHMAN",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Watchman, blow the gospel trumpet, every soul a warning give;\nWhosoever hears the message may repent, and turn and live."
+    },
+    {
+      "number": 2,
+      "text": "Sound it loud o'er every hill-top, gloomy shade and sunny plain;\nOcean depths repeat the message, full salvation's glad refrain."
+    },
+    {
+      "number": 3,
+      "text": "Sound it in the hedge and highway, earth's dark spots where exiles roam;\nLet it tell all things are ready, sweetly saying, 'Come to me.'"
+    },
+    {
+      "number": 4,
+      "text": "Sound it for the heavy-laden, weary, longing to be free;\nSound a Savior's invitation, sweetly saying, 'Come to me.'"
+    }
+  ],
+  "chorus": {
+    "text": "Blow the trumpet, trusty watchman, blow it loud o'er land and sea;\nGod commissions, sound the message! Every captive may be free."
+  },
+  "metadata": {
+    "year": 1877,
+    "copyright": "Public Domain",
+    "themes": ["Evangelism", "Warning", "Salvation", "Great Commission"],
+    "scripture_references": ["Ezekiel 3:17", "Matthew 28:19"],
+    "tune_source": "Traditional American Melody",
+    "original_language": "en"
+  }
+}

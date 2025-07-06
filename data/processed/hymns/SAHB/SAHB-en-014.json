@@ -1,0 +1,37 @@
+{
+  "id": "SAHB-en-014",
+  "number": 14,
+  "title": "Angels from the realms of glory",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Angels from the realms of glory,\nWing your flight o'er all the earth;\nYe who sang creation's story,\nNow proclaim Messiah's birth:\nCome and worship, come and worship,\nWorship Christ, the new-born King."
+    },
+    {
+      "number": 2,
+      "text": "Shepherds in the field abiding,\nWatching o'er your flocks by night,\nGod with man is now residing,\nYonder shines the infant Light:\nCome and worship, come and worship,\nWorship Christ, the new-born King."
+    },
+    {
+      "number": 3,
+      "text": "Sages, leave your contemplations,\nBrighter visions beam afar;\nSeek the great Desire of nations,\nYe have seen his natal star:\nCome and worship, come and worship,\nWorship Christ, the new-born King."
+    },
+    {
+      "number": 4,
+      "text": "Saints before the altar bending,\nWatching long in hope and fear,\nSudenly the Lord, descending,\nIn his temple shall appear:\nCome and worship, come and worship,\nWorship Christ, the new-born King."
+    }
+  ],
+  "chorus": {
+    "text": "Come and worship, come and worship,\nWorship Christ, the new-born King."
+  },
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["Christmas", "worship", "angels", "nativity"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

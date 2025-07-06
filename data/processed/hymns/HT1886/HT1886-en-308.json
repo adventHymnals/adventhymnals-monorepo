@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-308",
+  "number": 308,
+  "title": "What grace, O Lord, and beauty shone",
+  "author": "Sir Edward Denny",
+  "composer": "William H. Havergal",
+  "tune": "Evan",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "What grace, O Lord, and beauty shone\nAround thy steps below;\nWhat patient love was seen in all\nThy life and death of woe."
+    },
+    {
+      "number": 2,
+      "text": "For, ever on thy burdened heart\nA weight of sorrow hung;\nYet no ungentle, murmuring word\nEscaped thy silent tongue."
+    },
+    {
+      "number": 3,
+      "text": "Thy foes might hate, despise, revile,\nThy friends unfaithful prove;\nUnwearied in forgiveness still,\nThy heart could only love."
+    },
+    {
+      "number": 4,
+      "text": "O, give us hearts to love like thee!\nLike thee, O Lord, to grieve\nFar more for others' sins, than all\nThe wrongs that we receive."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Life and Character", "grace", "patience", "love", "forgiveness"],
+    "scripture_references": [],
+    "tune_source": "Evan, William H. Havergal",
+    "original_language": "en"
+  }
+}

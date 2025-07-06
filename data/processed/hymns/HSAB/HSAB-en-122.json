@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-122",
+  "number": 122,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THY holy Sabbath, Lord,\nThy people hail with joy;\nAnd while we wait to hear thy word,\nLet praise our hearts employ."
+    },
+    {
+      "number": 2,
+      "text": "With sweet delight, the day\nThat thou hast called thine own,\nWe hail, and all our homage pay\nTo thy exalted throne."
+    },
+    {
+      "number": 3,
+      "text": "O, may thy saints be blest;\nAssist us while we pray;\nMay we enjoy a holy rest,\nAnd keep the sacred day."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "joy", "worship", "prayer", "holy rest", "sacred day"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

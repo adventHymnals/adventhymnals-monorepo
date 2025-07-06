@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-053",
+  "number": 53,
+  "title": "Lord! thou hast searched and seen me through",
+  "author": null,
+  "composer": "Isaac Watts",
+  "tune": "816, 843, 614",
+  "meter": "816, 843, 614",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord! thou hast searched and seen me through;\nThine eye commands with piercing view\nMy rising and my resting hours,\nMy heart and flesh, with all their powers."
+    },
+    {
+      "number": 2,
+      "text": "My thoughts, before they are my own,\nAre to my God distinctly known;\nHe knows the words I mean to speak\nEre from my opening lips they break."
+    },
+    {
+      "number": 3,
+      "text": "Within thy circling power I stand;\nOn every side I find thy hand;\nAwake, asleep, at home, abroad,\nI am surrounded still with God."
+    },
+    {
+      "number": 4,
+      "text": "Amazing knowledge, vast and great!\nWhat large extent! what lofty height!\nMy soul, with all the powers I boast,\nIs in the boundless prospect lost."
+    },
+    {
+      "number": 5,
+      "text": "O, may these thoughts possess my breast\nWhere'er I rove, where'er I rest;\nNor let my weaker passions dare\nConsent to sin, for God is there!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's omniscience", "divine knowledge", "God's presence", "reverence", "awe", "spiritual awareness"],
+    "scripture_references": [],
+    "tune_source": "Isaac Watts",
+    "original_language": "en"
+  }
+}

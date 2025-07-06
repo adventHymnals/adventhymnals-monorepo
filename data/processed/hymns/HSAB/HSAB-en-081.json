@@ -1,0 +1,37 @@
+{
+  "id": "HSAB-en-081",
+  "number": 81,
+  "title": "A True Witness",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "SHALL I, for fear of feeble man,\nThe Spirit's course in me restrain?\nOr, undismay'd in deed and word,\nBe a true witness of my Lord?"
+    },
+    {
+      "number": 2,
+      "text": "Aw'd by a mortal's frown, shall I\nConceal the word of God Most High?\nHow then before thee shall I dare\nTo stand, or how thine anger bear?"
+    },
+    {
+      "number": 3,
+      "text": "Shall I, to soothe the unholy throng,\nSoften thy truth, or smooth my tongue,\nTo gain earth's gilded toys, or flee\nThe cross endur'd, my Lord, by thee?"
+    },
+    {
+      "number": 4,
+      "text": "What then is he whose scorn I dread?\nWhose wrath or hate makes me afraid?\nA man! An heir of death! A slave\nTo sin! A bubble on the wave!"
+    },
+    {
+      "number": 5,
+      "text": "Yea, let men rage; since thou wilt spread\nThy shadowing wings around my head;\nSince in all pain thy tender love\nWill still my sure refreshment prove."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["true witness", "spirit's course", "word of god", "cross endured", "shadowing wings"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "HSAB-en-174",
+  "number": 38,
+  "title": "SLEEP NOW, DEAR BROTHER",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "SLEEP now, dear Brother, sweetly sleep,\nAnd from thy labors rest,\nWhere mortal care, nor trouble's sigh\nShall seize thy peaceful breast."
+    },
+    {
+      "number": 2,
+      "text": "Dear Brother, thou unconscious art,\nWhile mourners weep around;\nThou waitest in thy grave to hear,\nThe trumpet's joyful sound."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["death", "rest", "sleep", "comfort", "trumpet", "resurrection", "peace"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

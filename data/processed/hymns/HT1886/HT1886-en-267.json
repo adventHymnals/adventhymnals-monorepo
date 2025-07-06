@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-267",
+  "number": 267,
+  "title": "Lord, in this closing hour",
+  "author": "E. T. Fitch",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, in this closing hour\nEstablish every heart\nUpon thy word of truth and power,\nTo keep us when we part."
+    },
+    {
+      "number": 2,
+      "text": "Peace to our brethren give,\nFill all our hearts with love;\nIn faith and patience may we live,\nAnd seek our rest above."
+    },
+    {
+      "number": 3,
+      "text": "Through changes, bright or drear,\nWe know thy will pursue,\nAnd toil to spread thy kingdom here\nTill we its glory view."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["closing prayer", "divine truth", "peace", "love", "kingdom of God"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

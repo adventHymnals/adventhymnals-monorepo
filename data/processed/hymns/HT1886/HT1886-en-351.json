@@ -1,0 +1,34 @@
+{
+  "id": "HT1886-en-351",
+  "number": 351,
+  "title": "Come, Thou Almighty King",
+  "author": "Anonymous",
+  "composer": "Felice de Giardini",
+  "tune": "Italian Hymn",
+  "meter": "6.6.4.6.6.6.4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, thou almighty King,\nHelp us thy name to sing,\nHelp us to praise:\nFather all-glorious,\nO'er all victorious,\nCome, and reign over us,\nAncient of days."
+    },
+    {
+      "number": 2,
+      "text": "Come, thou incarnate Word,\nGird on thy mighty sword,\nOur prayer attend:\nCome, and thy people bless,\nAnd give thy word success:\nSpirit of holiness,\nOn us descend."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": [
+      "Trinity",
+      "praise",
+      "worship",
+      "God's majesty"
+    ],
+    "scripture_references": [],
+    "tune_source": "Italian Hymn, Felice de Giardini",
+    "original_language": "en",
+    "extraction_status": "ai_vision_extracted"
+  }
+}

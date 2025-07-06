@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-250",
+  "number": 250,
+  "title": "O for a Thousand Tongues to Sing",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O for a thousand tongues to sing\nMy great Redeemer's praise,\nThe glories of my God and King,\nThe triumphs of His grace!"
+    },
+    {
+      "number": 2,
+      "text": "My gracious Master and my God,\nAssist me to proclaim,\nTo spread thro' all the earth abroad\nThe honors of Thy name."
+    },
+    {
+      "number": 3,
+      "text": "Jesus! the name that charms our fears,\nThat bids our sorrows cease,\n'Tis music in the sinner's ears,\n'Tis life, and health, and peace."
+    },
+    {
+      "number": 4,
+      "text": "He breaks the power of canceled sin,\nHe sets the prisoner free;\nHis blood can make the foulest clean,\nHis blood availed for me."
+    },
+    {
+      "number": 5,
+      "text": "He speaks, and listening to His voice,\nNew life the dead receive;\nThe mournful, broken hearts rejoice,\nThe humble poor, believe."
+    },
+    {
+      "number": 6,
+      "text": "Hear Him, ye deaf; His praise, ye dumb,\nYour loosened tongues employ;\nYe blind, behold your Savior come;\nAnd leap, ye lame, for joy."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Praise", "Thousand Tongues", "Redeemer", "Glory", "Jesus Christ"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

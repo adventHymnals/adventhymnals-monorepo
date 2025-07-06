@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-127",
+  "number": 127,
+  "title": "BAPTISM",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "BURIED beneath the yielding wave\nThe great Redeemer lies;\nFaith views him in the watery grave,\nAnd thence beholds him rise."
+    },
+    {
+      "number": 2,
+      "text": "Thus do his willing saints to-day,\nTheir ardent zeal express,\nAnd in the Lord's appointed way,\nFulfill all righteousness."
+    },
+    {
+      "number": 3,
+      "text": "With joy we in his footstep tread,\nAnd would his cause maintain–\nLike him be numbered with the dead,\nAnd with him rise and reign."
+    },
+    {
+      "number": 4,
+      "text": "His presence oft revives our hearts,\nAnd drives our fears away;\nWhen he commands, and strength imparts,\nWe cheerfully obey."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["baptism", "burial", "resurrection", "Redeemer", "faith", "obedience", "righteousness"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-279",
+  "number": 279,
+  "title": "Only Trust Him",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, every soul by sin oppressed,\nThere's mercy with the Lord;\nAnd He will surely give you rest,\nBy trusting in His word."
+    },
+    {
+      "number": 2,
+      "text": "For Jesus shed His precious blood\nRich blessings to bestow;\nPlunge now into the crimson flood\nThat washes white as snow."
+    },
+    {
+      "number": 3,
+      "text": "Yes, Jesus is the truth, the way,\nThat leads you into rest;\nBelieve in Him without delay,\nAnd you are fully blest."
+    },
+    {
+      "number": 4,
+      "text": "Come, then, and join this holy band,\nAnd on to glory go,\nTo dwell in that celestial land,\nWhere joys immortal flow."
+    }
+  ],
+  "chorus": {
+    "text": "Only trust Him, only trust Him,\nOnly trust Him now;\nHe will save you, He will save you,\nHe will save you now."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Trust", "Salvation", "Jesus", "Mercy"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-057",
+  "number": 57,
+  "title": "Now All the Woods Are Sleeping",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Now all the woods are sleeping,\nAnd night and stillness creeping\nO'er city, man, and beast;\nBut thou, my heart, awake thee,\nTo prayer awhile betake thee,\nAnd praise thy Maker ere thou rest."
+    },
+    {
+      "number": 2,
+      "text": "My Jesus, stay Thou by me,\nAnd let no foe come nigh me,\nSafe sheltered by Thy wing;\nBut would the foe alarm me,\nO let him never harm me,\nBut still Thine angels round me sing."
+    },
+    {
+      "number": 3,
+      "text": "My loved ones, rest securely,\nFrom every peril surely\nOur God will guard your heads;\nAnd happy slumbers send you,\nAnd bid His hosts attend you,\nAnd golden-armed watch o'er your beds."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["evening", "rest", "protection", "Jesus", "angels"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

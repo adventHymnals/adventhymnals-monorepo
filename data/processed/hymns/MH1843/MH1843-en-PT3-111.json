@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-111",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "111",
+  "title": "The Great Physician Now Is Near",
+  "verses": [
+    {
+      "number": "1",
+      "text": "The Great Physician now is near, The sympathizing Jesus; He speaks, the drooping heart to cheer, O hear the voice of Jesus!"
+    },
+    {
+      "number": "2",
+      "text": "All glory to the dying Lamb! I now believe in Jesus; I love the blessed Savior's name, I love the name of Jesus!"
+    },
+    {
+      "number": "3",
+      "text": "His name dispels my guilt and fear, No other name but Jesus; O how my soul delights to hear The precious name of Jesus!"
+    },
+    {
+      "number": "4",
+      "text": "And when He comes to bring the crown The crown of life and glory, Then by His side we will sit down, And tell redemption's story."
+    }
+  ],
+  "refrain": {
+    "text": "Sweetest note in seraph song, Sweetest name on mortal tongue, Sweetest carol ever sung Jesus, blessed Jesus!"
+  },
+  "meter": "8.7.8.7. with Refrain",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 254,
+  "themes": ["Great Physician", "Jesus", "Sympathizing", "Drooping Heart", "Dying Lamb", "Blessed Savior", "Guilt", "Fear", "Crown", "Life", "Glory", "Redemption"],
+  "key_signature": "Db",
+  "time_signature": "6/8"
+}

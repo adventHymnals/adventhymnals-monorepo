@@ -1,0 +1,33 @@
+{
+  "id": "MH1843-en-PT3-051",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "051",
+  "title": "Jesus Loves Me",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Jesus loves me! this I know, For the Bible tells me so; Little ones to Him belong, They are weak, but He is strong."
+    },
+    {
+      "number": "2", 
+      "text": "Jesus loves me! He who died Heaven's gate to open wide; He will wash away my sin, Let His little child come in."
+    },
+    {
+      "number": "3",
+      "text": "Jesus, take this heart of mine, Make it pure and wholly Thine; On the cross You died for me, I will love and live for Thee."
+    }
+  ],
+  "refrain": {
+    "text": "Yes, Jesus loves me! Yes, Jesus loves me! Yes, Jesus loves me! The Bible tells me so."
+  },
+  "meter": "",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 190,
+  "themes": ["Jesus", "Love", "Children", "Bible", "Salvation"],
+  "key_signature": "C",
+  "time_signature": "4/4"
+}

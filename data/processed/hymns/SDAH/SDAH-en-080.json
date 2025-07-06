@@ -1,0 +1,30 @@
+{
+  "id": "SDAH-en-080",
+  "number": 80,
+  "title": "O World of God",
+  "author": "Maltbie Davenport Babcock",
+  "composer": "Franklin L. Sheppard",
+  "tune": "Terra Patris",
+  "meter": "10.10.10.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O world of God, so vast and strange,\nProfound and wonderful and fair;\nBeyond the utmost reach of thought,\nBut not beyond the reach of prayer."
+    },
+    {
+      "number": 2,
+      "text": "O world of man where life is lived,\nSo strangely mingling joy and pain;\nSo full of evil and of good,\nSo needful of the cross again."
+    },
+    {
+      "number": 3,
+      "text": "O world of time's far-stretching years!\nThere was a day when time stood still,\nA central moment when there rose\nA cross upon a lonely hill."
+    }
+  ],
+  "metadata": {
+    "themes": ["Creation", "God's World", "Cross", "Time"],
+    "scripture_references": [],
+    "tune_source": "Terra Patris",
+    "original_language": "en"
+  }
+}

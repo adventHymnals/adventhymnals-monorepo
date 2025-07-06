@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-113",
+  "number": 113,
+  "title": "Come, ye that love the Saviour's name",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, ye that love the Saviour's name,\nAnd joy to make it known,\nThe Sovereign of your hearts proclaim,\nAnd bow before his throne."
+    },
+    {
+      "number": 2,
+      "text": "Behold, your Lord, your Master, crowned\nWith glories all divine,\nAnd tell the wondering nations round\nHow bright those glories shine."
+    },
+    {
+      "number": 3,
+      "text": "When in his earthly courts we wait,\nThe glories of our King,\nWe long to love as angels do,\nAnd wish like them to sing."
+    },
+    {
+      "number": 4,
+      "text": "And shall we long and wish in vain?\nLord, teach our songs to rise:\nThy love can animate the strain,\nAnd bid it reach the skies."
+    },
+    {
+      "number": 5,
+      "text": "Since thou art ours, most gracious Lord,\nCan hope and comfort die?\nWe'll trust in thine almighty word,\nThat heals the earth and sky."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "worship", "Jesus Christ", "testimony", "singing", "trust"],
+    "scripture_references": [],
+    "tune_source": "436, 114, 227",
+    "original_language": "en"
+  }
+}

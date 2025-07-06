@@ -1,0 +1,25 @@
+{
+  "id": "SDAH-en-503",
+  "number": 503,
+  "title": "A Quiet Place",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is a quiet place, Far from the rapid pace where God can soothe my troubled mind.\nSheltered by tree and flow'r, There in my quiet hour with Him my cares are left behind.\nWhether a garden small, Or on a mountain tall, New strength and courage there I find;\nThen from this quiet place I go prepared to face a new day With love for all mankind."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["quiet time", "peace", "prayer", "renewal"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

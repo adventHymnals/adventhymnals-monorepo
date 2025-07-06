@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-129",
+  "number": 129,
+  "title": "Glory to God on high!",
+  "author": "James Allen",
+  "composer": null,
+  "tune": null,
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Glory to God on high!\nYe harpers of the sky,\nPraise ye his name.\nYe saints, his love adore,\nWho all your sorrows bore;\nSing joyful, evermore,\nWorthy the Lamb!"
+    },
+    {
+      "number": 2,
+      "text": "While they around the throne\nCheerfully join in one,\nPraising his name,\nYe who have felt his blood\nSealing your peace with God,\nSound his dear name abroad,\nWorthy the Lamb!"
+    },
+    {
+      "number": 3,
+      "text": "Join, all ye ransomed race,\nOur Lord and God to bless;\nPraise ye his name.\nIn him we will rejoice,\nAnd make a joyful noise,\nShouting with heart and voice,\nWorthy the Lamb!"
+    },
+    {
+      "number": 4,
+      "text": "Soon shall we see his face,\nAnd in that heavenly place\nWe'll praise his name.\nTo him our songs we'll bring,\nHail him our gracious King,\nAnd through the ages sing,\nWorthy the Lamb!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["glory to God", "praise", "worthy the Lamb", "heavenly worship", "ransomed race"],
+    "scripture_references": ["Luke 2:14", "Revelation 5:12"],
+    "tune_source": "84, 156",
+    "original_language": "en"
+  }
+}

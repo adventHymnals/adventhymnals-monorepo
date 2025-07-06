@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-624",
+  "number": 624,
+  "title": "I Want Jesus to Walk With Me",
+  "author": "Traditional African American Spiritual",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I want Jesus to walk with me.\nI want Jesus to walk with me.\nAll along my pilgrim journey,\nI want Jesus to walk with me."
+    },
+    {
+      "number": 2,
+      "text": "In my trials, Lord, walk with me.\nIn my trials, Lord, walk with me.\nWhen the shades of life are falling,\nI want Jesus to walk with me."
+    },
+    {
+      "number": 3,
+      "text": "In my sorrows, Lord, walk with me.\nIn my sorrows, Lord, walk with me.\nWhen my heart within is aching,\nI want Jesus to walk with me."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": ["companionship", "comfort", "trials", "spiritual journey"],
+    "scripture_references": ["Psalm 23:4", "Matthew 28:20"],
+    "tune_source": "Traditional African American Spiritual",
+    "original_language": "en"
+  }
+}

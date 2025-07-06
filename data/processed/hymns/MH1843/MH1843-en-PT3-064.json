@@ -1,0 +1,33 @@
+{
+  "id": "MH1843-en-PT3-064",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "064",
+  "title": "Daughter of Zion! awake from thy sadness",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Daughter of Zion! awake from thy sadness, Awake, for thy foes shall oppress thee no more; Bright o'er thy hills dawns the day-star of gladness; Arise, for the night of thy sorrows is o'er."
+    },
+    {
+      "number": "2",
+      "text": "Strong were thy foes; but the arm that subdued them, And scattered their legions, was mightier far: They fled like the chaff from the scourge that pursued them; How vain were their steeds and their chariots of war."
+    },
+    {
+      "number": "3",
+      "text": "Daughter of Zion! the power that hath saved thee, Extolled with the harp and the timbrel shall be; Shout! for the foe is destroyed that enslaved thee, The oppressor is vanquished, and Zion is free."
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "11s",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 203,
+  "themes": ["Zion", "Awakening", "Gladness", "Dawn", "Deliverance"],
+  "key_signature": "",
+  "time_signature": ""
+}

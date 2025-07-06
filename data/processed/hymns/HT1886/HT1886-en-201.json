@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-201",
+  "number": 201,
+  "title": "O that the Lord would guide my ways",
+  "author": "Isaac Watts",
+  "composer": "Lowell Mason",
+  "tune": "LITCHFIELD",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O that the Lord would guide my ways\nTo keep his statutes still!\nO that my God would grant me grace\nTo know and do his will!"
+    },
+    {
+      "number": 2,
+      "text": "O send thy Spirit down to write\nThy law upon my heart,\nNor let my tongue indulge deceit,\nNor act the liar's part."
+    },
+    {
+      "number": 3,
+      "text": "From vanity turn off my eyes,\nLet no corrupt design\nNor covetous desires arise\nWithin this soul of mine."
+    },
+    {
+      "number": 4,
+      "text": "Order my footsteps by thy word,\nAnd make my heart sincere;\nLet sin have no dominion, Lord,\nBut keep my conscience clear."
+    },
+    {
+      "number": 5,
+      "text": "Make me to walk in thy commands,\n'Tis a delightful road;\nNor let my head, nor heart, nor hands\nOffend against my God."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["divine guidance", "God's statutes", "obedience", "pure heart", "walking in God's commands"],
+    "scripture_references": [],
+    "tune_source": "27, 7, 204",
+    "original_language": "en"
+  }
+}

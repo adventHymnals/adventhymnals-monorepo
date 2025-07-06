@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-248",
+  "number": 248,
+  "title": "O, How I Love Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is a name I love to hear,\nI love to sing its worth;\nIt sounds like music in my ear,\nThe sweetest name on earth."
+    },
+    {
+      "number": 2,
+      "text": "It tells me of a Savior's love,\nWho died to set me free;\nIt tells me of His precious blood,\nThe sinner's perfect plea."
+    },
+    {
+      "number": 3,
+      "text": "It tells of One whose loving heart\nCan feel my deepest woe,\nWho in each sorrow bears a part\nThat none can bear below."
+    }
+  ],
+  "chorus": {
+    "text": "O, how I love Jesus,\nO, how I love Jesus,\nO, how I love Jesus\nBecause He first loved me!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus Christ", "Love", "Name", "Savior", "Music"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

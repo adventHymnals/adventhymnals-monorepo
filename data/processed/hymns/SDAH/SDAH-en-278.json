@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-278",
+  "number": 278,
+  "title": "Lord Jesus, Once You Spoke to Men",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord Jesus, once You spoke to men\nUpon the mountain and the plain,\nO help us listen now as then\nAnd wonder at Your words again."
+    },
+    {
+      "number": 2,
+      "text": "We all have secret fears to face,\nOur minds and motives to amend.\nWe seek Your truth, O help us listen\nAnd to Your present friend."
+    },
+    {
+      "number": 3,
+      "text": "The gospel speaks; and we receive\nYour light, Your love, Your own command.\nO help us live what we believe\nIn daily word of heart and hand."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus", "Word of God", "Teaching", "Discipleship"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

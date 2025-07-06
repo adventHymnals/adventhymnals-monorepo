@@ -1,0 +1,34 @@
+{
+  "authors": [
+    {
+      "id": "james-white",
+      "name": "James White",
+      "birth_year": 1821,
+      "death_year": 1881,
+      "nationality": "American",
+      "biography": "Seventh-day Adventist pioneer, minister, and publisher. Compiled this hymnal in 1849.",
+      "hymns": [],
+      "role": "Compiler"
+    },
+    {
+      "id": "anonymous-advent",
+      "name": "Anonymous Adventist Authors",
+      "birth_year": null,
+      "death_year": null,
+      "nationality": "American", 
+      "biography": "Various unknown authors from the early Seventh-day Adventist movement",
+      "hymns": ["HGPP-en-001", "HGPP-en-002", "HGPP-en-005", "HGPP-en-007", "HGPP-en-008"],
+      "role": "Authors"
+    },
+    {
+      "id": "traditional",
+      "name": "Traditional/Old Hymns",
+      "birth_year": null,
+      "death_year": null,
+      "nationality": "Various",
+      "biography": "Traditional hymns adapted for Adventist use",
+      "hymns": ["HGPP-en-004"],
+      "role": "Traditional Sources"
+    }
+  ]
+}

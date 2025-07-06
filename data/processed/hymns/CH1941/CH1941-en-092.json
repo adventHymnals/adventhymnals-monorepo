@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-092",
+  "number": 92,
+  "title": "There Is a Book",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is a book whose pages tell\nOf One who lived of old,\nWhose life and words and works reveal\nA love that can't be told."
+    },
+    {
+      "number": 2,
+      "text": "That book declares to all mankind\nThat God so loved the world,\nHe gave His Son, that whosoever\nBelieveth might be saved."
+    },
+    {
+      "number": 3,
+      "text": "O precious book! O glorious news!\nIt tells of Jesus' love,\nAnd points the weary, heavy-laden\nTo rest and peace above."
+    },
+    {
+      "number": 4,
+      "text": "Then let us read with earnest hearts\nThis blessed book each day,\nThat we may learn of Jesus' love\nAnd walk in wisdom's way."
+    }
+  ],
+  "metadata": {
+    "year": "[needs verification]",
+    "copyright": "Public Domain",
+    "themes": ["Scripture", "God's love", "salvation", "Jesus"],
+    "scripture_references": ["John 3:16", "2 Timothy 3:16"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

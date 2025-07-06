@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-384",
+  "number": 384,
+  "title": "Safely Through Another Week",
+  "author": "John Newton",
+  "composer": "Lowell Mason",
+  "tune": "SABBATH",
+  "meter": "7.7.7.7.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Safely through another week\nGod has brought us on our way;\nLet us now a blessing seek,\nWaiting in His courts today;\nDay of all the week the best,\nEmblem of eternal rest."
+    },
+    {
+      "number": 2,
+      "text": "While we seek supplies of grace\nThrough the dear Redeemer's name,\nShow Thy reconciling face,\nTake away our sin and shame;\nFrom our worldly cares set free,\nMay we rest this day in Thee."
+    },
+    {
+      "number": 3,
+      "text": "When the morn shall bid us rise,\nMay we feel Thy presence near;\nMay Thy glory meet our eyes\nWhen we in Thy house appear;\nThere afford us, Lord, a taste\nOf our everlasting feast."
+    },
+    {
+      "number": 4,
+      "text": "May the gospel's joyful sound\nConquer sinners, comfort saints;\nMake the fruits of grace abound,\nBring relief to all complaints;\nThus may all our Sabbaths be\nTill we rise to reign with Thee."
+    }
+  ],
+  "metadata": {
+    "year": 1774,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "Rest", "God's Care", "Worship"],
+    "scripture_references": ["Psalm 118:24", "Hebrews 4:9"],
+    "tune_source": "Lowell Mason, 1824",
+    "original_language": "en"
+  }
+}

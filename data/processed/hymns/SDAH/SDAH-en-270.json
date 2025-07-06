@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-270",
+  "number": 270,
+  "title": "O Holy Dove of God Descending",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O holy Dove of God descending,\nYou are the love that knows no ending.\nAll of our shattered dreams You're mending:\nSpirit, now live in me."
+    },
+    {
+      "number": 2,
+      "text": "O holy Wind of God now blowing,\nYou are the seed that God is sowing.\nYou are the life that starts us growing:\nSpirit, now live in me."
+    },
+    {
+      "number": 3,
+      "text": "O holy Rain of God now falling,\nYou make the Word of God enthralling.\nYou are that inner voice now calling:\nSpirit, now live in me."
+    },
+    {
+      "number": 4,
+      "text": "O holy Flame of God now burning,\nYou are the power of Christ returning.\nYou are the answer to our yearning:\nSpirit, now live in me."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Holy Spirit", "Dove", "Wind", "Rain", "Flame"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

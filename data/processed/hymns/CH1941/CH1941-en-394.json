@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-394",
+  "number": 394,
+  "title": "Savior, Like a Shepherd Lead Us",
+  "author": "Dorothy Ann Thrupp",
+  "composer": "William Batchelder Bradbury",
+  "tune": "Bradbury",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Savior, like a shepherd lead us,\nMuch we need Thy tender care;\nIn Thy pleasant pastures feed us,\nFor our use Thy folds prepare:\nBlessed Jesus, blessed Jesus,\nThou hast bought us, Thine we are;\nBlessed Jesus, blessed Jesus,\nThou hast bought us, Thine we are."
+    },
+    {
+      "number": 2,
+      "text": "We are Thine; do Thou befriend us,\nBe the guardian of our way;\nKeep Thy flock, from sin defend us,\nSeek us when we go astray:\nBlessed Jesus, blessed Jesus,\nHear, O hear us when we pray;\nBlessed Jesus, blessed Jesus,\nHear, O hear us when we pray."
+    },
+    {
+      "number": 3,
+      "text": "Thou hast promised to receive us,\nPoor and sinful though we be;\nThou hast mercy to relieve us,\nGrace to cleanse, and power to free:\nBlessed Jesus, blessed Jesus,\nLet us early turn to Thee;\nBlessed Jesus, blessed Jesus,\nLet us early turn to Thee."
+    },
+    {
+      "number": 4,
+      "text": "Early let us seek Thy favor,\nEarly let us do Thy will;\nBlessed Lord and only Savior,\nWith Thy love our bosoms fill:\nBlessed Jesus, blessed Jesus,\nThou hast loved us, love us still;\nBlessed Jesus, blessed Jesus,\nThou hast loved us, love us still."
+    }
+  ],
+  "metadata": {
+    "year": 1836,
+    "copyright": "Public Domain",
+    "themes": ["shepherd", "guidance", "protection", "care"],
+    "scripture_references": ["Psalm 23", "John 10:11"],
+    "tune_source": "Bradbury, William Batchelder Bradbury, 1859",
+    "original_language": "en"
+  }
+}

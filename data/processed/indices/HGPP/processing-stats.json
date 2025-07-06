@@ -1,0 +1,32 @@
+{
+  "extraction_progress": {
+    "total_pages": 36,
+    "pages_processed": 36,
+    "hymns_extracted": 53,
+    "completion_percentage": 100.0,
+    "source_format": "PDF",
+    "extraction_method": "pdftotext + AI parsing"
+  },
+  "quality_metrics": {
+    "successful_extractions": 53,
+    "partial_extractions": 0,
+    "failed_extractions": 0,
+    "unclear_metadata_fields": 159,
+    "confidence_score": "High"
+  },
+  "content_analysis": {
+    "hymns_per_page_average": 1.47,
+    "longest_hymn_verses": 8,
+    "shortest_hymn_verses": 2,
+    "theological_themes_identified": 8,
+    "historical_references": "1843-1844 Millerite movement"
+  },
+  "processing_timestamp": "2025-07-04",
+  "hymnal_info": {
+    "id": "HGPP",
+    "title": "Hymns for God's Peculiar People",
+    "compiler": "James White",
+    "year": 1849,
+    "historical_significance": "First Seventh-day Adventist hymnal"
+  }
+}

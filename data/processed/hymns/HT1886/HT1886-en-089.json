@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-089",
+  "number": 89,
+  "title": "How tender is my hand",
+  "author": "Thomas Hastings",
+  "composer": null,
+  "tune": "Dove",
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How tender is my hand,\nO thou most gracious God!\nAffections come at thy command,\nAnd leave us at thy word."
+    },
+    {
+      "number": 2,
+      "text": "How gentle is the rod\nThat chastens us for sin!\nHow soon we find a smiling God\nWhere deep distress has been!"
+    },
+    {
+      "number": 3,
+      "text": "A Father's hand we feel,\nA Father's love we know;\n'Mid tears of penitence we kneel,\nAnd find his promise true."
+    },
+    {
+      "number": 4,
+      "text": "We tell him all our grief,\nWe tell him all our care;\nA sense of pardon brings relief,\nAnd bids our sorrows cease."
+    },
+    {
+      "number": 5,
+      "text": "How will thy rod uphold,\nAnd in his strength confide;\nForever he his sheep will fold,\nFor there is none beside."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's tenderness", "God's chastening", "God as Father", "comfort", "God's care"],
+    "scripture_references": [],
+    "tune_source": "Dove",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-342",
+  "number": 342,
+  "title": "Christ is risen, our Lord and King",
+  "author": "Charles Wesley",
+  "composer": null,
+  "tune": "18, 281, 97.",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Christ is risen, our Lord and King, Let the whole creation sing;\nRaise your joys and triumphs high, Sing, ye heavens, let earth reply."
+    },
+    {
+      "number": 2,
+      "text": "Vain the stone, the watch, the seal, Christ the mighty, to conceal!\nDeath in vain forbids him rise, He hath opened paradise."
+    },
+    {
+      "number": 3,
+      "text": "Lead us, Lord, where thou hast led,— Thou, our Head; where thou, our Head?\nMade like thee, we too rise; Ours the cross, the grave, the skies."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Resurrection and Ascension", "creation", "triumph", "paradise", "victory"],
+    "scripture_references": [],
+    "tune_source": "18, 281, 97.",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-118",
+  "number": 118,
+  "title": "The First Noel",
+  "author": "English carol",
+  "composer": "English carol",
+  "tune": "The First Noel",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The first noel the angel did say\nWas to certain poor shepherds in fields as they lay;\nIn fields where they lay keeping their sheep,\nOn a cold winter's night that was so deep."
+    },
+    {
+      "number": 2,
+      "text": "They looked up and saw a star\nShining in the east, beyond them far;\nAnd to the earth it gave great light,\nAnd so it continued both day and night."
+    },
+    {
+      "number": 3,
+      "text": "And by the light of that same star,\nThree wise men came from country far;\nTo seek for a king was their intent,\nAnd to follow the star wherever it went."
+    },
+    {
+      "number": 4,
+      "text": "This star drew nigh to the northwest,\nO'er Bethlehem it took its rest;\nAnd there it did both stop and stay,\nRight over the place where Jesus lay."
+    },
+    {
+      "number": 5,
+      "text": "Then entered in those wise men three,\nFull reverently upon their knee;\nAnd offered there, in His presence,\nTheir gold, and myrrh, and frankincense."
+    }
+  ],
+  "chorus": {
+    "text": "Noel, Noel, Noel, Noel,\nBorn is the King of Israel."
+  },
+  "metadata": {
+    "year": 1200,
+    "copyright": "Public Domain",
+    "themes": ["Christmas", "Nativity", "Wise Men", "Star of Bethlehem"],
+    "scripture_references": ["Luke 2:8-20", "Matthew 2:1-12"],
+    "tune_source": "English carol",
+    "original_language": "en"
+  }
+}

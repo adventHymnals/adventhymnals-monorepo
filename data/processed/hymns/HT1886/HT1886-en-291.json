@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-291",
+  "number": 291,
+  "title": "It came upon the midnight clear",
+  "author": "Edmund H. Sears",
+  "composer": "Richard S. Willis",
+  "tune": "Carol",
+  "meter": "C. M. D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "It came upon the midnight clear,\nThat glorious song of old,\nFrom angels bending near the earth\nTo touch their harps of gold:\n\"Peace on the earth, good will to men,\nFrom heaven's all-gracious King.\"\nThe world in solemn stillness lay,\nTo hear the angels sing."
+    },
+    {
+      "number": 2,
+      "text": "Still through the cloven skies they come,\nWith peaceful wings unfurled;\nAnd still their heavenly music floats\nO'er all the weary world;\nAbove its sad and lowly plains\nThey bend on hovering wing,\nAnd ever o'er its Babel sounds\nThe blessed angels sing."
+    },
+    {
+      "number": 3,
+      "text": "But with the woes of sin and strife\nThe world has suffered long;\nBeneath the angel-strain have rolled\nTwo thousand years of wrong;\nAnd man, at war with man, hears not\nThe love song which they bring:\nO cease, ye mortals, cease your strife,\nAnd hear the angels sing!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "First Advent", "Christmas", "angels", "peace", "midnight"],
+    "scripture_references": [],
+    "tune_source": "Carol, C. M. D.",
+    "original_language": "en"
+  }
+}

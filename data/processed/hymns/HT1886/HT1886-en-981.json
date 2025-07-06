@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-981",
+  "number": 981,
+  "title": "Jerusalem, my happy home",
+  "author": null,
+  "composer": "Reinagle",
+  "tune": "St. Peter",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jerusalem, my happy home,\nO, how I long for thee!\nWhen will my sorrows have an end?\nThy joys when shall I see?"
+    },
+    {
+      "number": 2,
+      "text": "Thy walls are all of precious stone,\nMost glorious to behold;\nThy gates are richly set with pearl,\nThy streets are paved with gold."
+    },
+    {
+      "number": 3,
+      "text": "Thy garden and thy pleasant walks\nMy study long have been;\nSuch dazzling views, by human sight\nHave never yet been seen."
+    },
+    {
+      "number": 4,
+      "text": "Lord, help us by thy mighty grace\nTo view the prize\nTill thou dost come to take us home\nTo that blest paradise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "Jerusalem", "longing"],
+    "scripture_references": ["Revelation 21"],
+    "tune_source": "St. Peter, Reinagle",
+    "original_language": "en"
+  }
+}

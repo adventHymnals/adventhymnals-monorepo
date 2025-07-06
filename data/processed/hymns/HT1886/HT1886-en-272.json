@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-272",
+  "number": 272,
+  "title": "For a season called to part",
+  "author": "John Newton",
+  "composer": "Hart",
+  "tune": "Hart",
+  "meter": "7s.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "For a season called to part,\nLet us now ourselves commend\nTo the gracious eye and heart\nOf our ever-present Friend."
+    },
+    {
+      "number": 2,
+      "text": "Jesus, hear our humble prayer;\nTender Shepherd of thy sheep,\nLet thy mercy and thy care\nAll our souls in safety keep."
+    },
+    {
+      "number": 3,
+      "text": "In thy strength may we be strong\nSweeten every cross and pain,\nAnd our wasting lives prolong\nTill we meet on earth again."
+    },
+    {
+      "number": 4,
+      "text": "Then if thou thy help afford,\nJoyful songs to thee shall rise,\nAnd our souls shall praise the Lord,\nWho regards our humble cries."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "closing", "prayer", "farewell"],
+    "scripture_references": [],
+    "tune_source": "Hart, 7s.",
+    "original_language": "en"
+  }
+}

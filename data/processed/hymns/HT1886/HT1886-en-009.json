@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-009",
+  "number": 9,
+  "title": "COME, thou Desire of all thy saints",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "27, 396, 398",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "COME, thou Desire of all thy saints!\nOur humble strains attend,\nWhile with our praise and our complaints,\nLow at thy feet we bend."
+    },
+    {
+      "number": 2,
+      "text": "Dear Saviour, let thy glory shine,\nAnd fill thy dwellings here,\nTill life, and love, and joy divine\nA heaven on earth appear."
+    },
+    {
+      "number": 3,
+      "text": "Show us some token of thy love,\nOur fainting hopes to raise;\nAnd pour thy blessing from above,\nTo aid our feeble praise."
+    },
+    {
+      "number": 4,
+      "text": "Then shall our hearts enraptured say,\n'Come, great Redeemer! come,\nAnd bring the bright, the glorious day,\nThat calls thy children home.'"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus", "desire", "prayer", "blessing", "Second Coming"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

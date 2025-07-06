@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-067",
+  "number": 67,
+  "title": "With deepest reverence I would bow",
+  "author": null,
+  "composer": "Anne Steele",
+  "tune": "68, 68, 81",
+  "meter": "68, 68, 81",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "With deepest reverence I would bow\nJehovah, peerless and unknown\nOur feeble spirits strive in vain,\nA glimpse of thee, great God! to gain."
+    },
+    {
+      "number": 2,
+      "text": "Who, by the closest search, can find\nThe eternal, uncreated mind?\nNor men nor angels can explore\nThy heights of love, thy depths of power."
+    },
+    {
+      "number": 3,
+      "text": "That power we trace on every side;\nO may thy wisdom be our guide;\nAnd while we live, and when we die,\nMay thy almighty love be nigh."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["reverence", "God's mystery", "divine wisdom", "God's power", "God's love", "humility"],
+    "scripture_references": [],
+    "tune_source": "Anne Steele",
+    "original_language": "en"
+  }
+}

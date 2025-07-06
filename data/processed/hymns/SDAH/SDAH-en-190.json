@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-190",
+  "number": 190,
+  "title": "Jesus Loves Me",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus loves me! this I know,\nFor the Bible tells me so;\nLittle ones to Him belong,\nThey are weak, but He is strong."
+    },
+    {
+      "number": 2,
+      "text": "Jesus loves me! He who died\nHeaven's gate to open wide;\nHe will wash away my sin,\nLet His little child come in."
+    },
+    {
+      "number": 3,
+      "text": "Jesus, take this heart of mine,\nMake it pure and wholly Thine;\nOn the cross You died for me,\nI will love and live for Thee."
+    }
+  ],
+  "chorus": {
+    "text": "Yes, Jesus loves me!\nYes, Jesus loves me!\nYes, Jesus loves me!\nThe Bible tells me so."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["jesus_love", "children", "bible", "salvation", "devotion"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

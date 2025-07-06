@@ -1,0 +1,29 @@
+{
+  "id": "SDAH-en-646",
+  "number": 646,
+  "title": "To the Name That Brings Salvation",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "To the name that brings salvation\nLet the nations bow the head;\nLet them kneel in adoration\nWhen this name of names is said;"
+    },
+    {
+      "number": 2,
+      "text": "He through every generation\nRules in endless majesty;\nMay the kings of every nation\nFrom the vanity of power"
+    },
+    {
+      "number": 3,
+      "text": "Lord, we pray for upright rulers:\nGuard them surely in their need\nFrom the emptiness of greed;\nLet them see the restoration\nOf all things in Christ the head.\nIn the love of God agree;\nLet them feed."
+    }
+  ],
+  "metadata": {
+    "themes": ["salvation", "name of Jesus", "worship", "adoration"],
+    "scripture_references": ["Philippians 2:9-11", "Acts 4:12"],
+    "copyright": "Public Domain"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "HT1886-en-063",
+  "number": 63,
+  "title": "Praise ye the Lord!—'tis good to raise",
+  "author": null,
+  "composer": "Isaac Watts",
+  "tune": "5, 70, 66",
+  "meter": "5, 70, 66",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise ye the Lord!—'tis good to raise\nOur hearts and voices in his praise;\nHis nature and his works invite\nTo make this duty our delight."
+    },
+    {
+      "number": 2,
+      "text": "The Lord builds up Jerusalem,\nAnd gathers nations to his arm;\nHe heals the broken spirit sad,\nAnd makes the contrite heart glad."
+    },
+    {
+      "number": 3,
+      "text": "He formed the stars,—those heavenly flames,\nHe counts their numbers, calls their names;\nHis wisdom's vast, and knows no bound,\nA deep, whereof no fathom's found."
+    },
+    {
+      "number": 4,
+      "text": "Great is our Lord, and great his might,\nAnd all his glories infinite;\nHe crowns the meek, rewards the just,\nAnd treads the wicked in the dust."
+    },
+    {
+      "number": 5,
+      "text": "But saints are lovely in his sight,\nHe views his children with delight;\nHe sees their hope, he knows their fear,\nAnd looks, and loves his image there."
+    },
+    {
+      "number": 6,
+      "text": "Proclaim him King, pronounce him blest;\nHe's your defence, your joy, your rest;\nWhen terrors rise and nations faint,\nGod is the strength of every saint."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "worship", "God's power", "divine healing", "God's wisdom", "God's love for saints"],
+    "scripture_references": [],
+    "tune_source": "Isaac Watts",
+    "original_language": "en"
+  }
+}

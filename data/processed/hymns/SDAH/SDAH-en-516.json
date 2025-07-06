@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-516",
+  "number": 516,
+  "title": "All the Way",
+  "author": "Fanny J. Crosby",
+  "composer": "Robert Lowry",
+  "tune": "All the Way",
+  "meter": "8.7.8.7.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All the way my Savior leads me;\nWhat have I to ask beside?\nCan I doubt His tender mercy,\nWho through life has been my guide?\nHeavenly peace, divinest comfort,\nHere by faith in Him to dwell!\nFor I know, whate'er befall me,\nJesus doeth all things well."
+    },
+    {
+      "number": 2,
+      "text": "All the way my Savior leads me;\nCheers each winding path I tread,\nGives me grace for every trial,\nFeeds me with the living bread;\nThough my weary steps may falter,\nAnd my soul athirst may be,\nGushing from the Rock before me,\nLo! a spring of joy I see."
+    },
+    {
+      "number": 3,
+      "text": "All the way my Savior leads me;\nO the fullness of His love!\nPerfect rest to me is promised\nIn my Father's house above;\nWhen my spirit, clothed immortal,\nWings its flight to realms of day,\nThis my song through endless ages:\nJesus led me all the way."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1875,
+    "copyright": "Public Domain",
+    "themes": ["guidance", "trust", "providence", "eternal life", "praise"],
+    "scripture_references": ["Psalm 23", "Isaiah 55:10-11", "John 6:35"],
+    "tune_source": "Robert Lowry",
+    "original_language": "en"
+  }
+}

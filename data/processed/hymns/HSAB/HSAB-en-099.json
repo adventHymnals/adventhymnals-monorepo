@@ -1,0 +1,37 @@
+{
+  "id": "HSAB-en-099",
+  "number": 99,
+  "title": "Christian Warfare",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "MY Captain sounds the alarm of war,\nAwake! The powers of hell are near,\nTo arms! To arms! I hear him cry,\n'Tis yours to conquer, or to die."
+    },
+    {
+      "number": 2,
+      "text": "Roused by the animating sound,\nI cast my eager eyes around,\nMake haste to gird my armor on\nAnd bid each trembling fear be gone."
+    },
+    {
+      "number": 3,
+      "text": "Hope is my helmet, Faith my shield,\nThy Word, my God, the sword I wield;\nWith sacred truth my loins are girt,\nAnd holy zeal inspires my heart."
+    },
+    {
+      "number": 4,
+      "text": "Thus armed, I venture on the fight,\nResolved to put my foes to flight;\nWhile Jesus kindly deigns to spread\nHis conquering banner o'er my head."
+    },
+    {
+      "number": 5,
+      "text": "In him I hope, in him I trust;\nHis bleeding cross is all my boast;\nThrough troops of foes he'll lead me on\nTo victory, and the victor's crown."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["captain", "alarm of war", "powers of hell", "armor", "hope", "faith", "shield", "sword", "jesus", "victory"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-331",
+  "number": 331,
+  "title": "Gethsemane",
+  "author": "James Montgomery",
+  "composer": "Richard Redhead",
+  "tune": "7s. 6L.",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Go to dark Gethsemane, Ye that feel the tempter's power; Your Redeemer's conflict see, Watch with him one bitter hour; Turn not from his griefs away; Learn of Jesus how to pray."
+    },
+    {
+      "number": 2,
+      "text": "Follow to the judgment-hall; View the Lord of life arraigned; O, the wormwood and the gall! O, the pangs his soul sustained! Shun not suffering, shame, or loss; Learn of him to bear the cross."
+    },
+    {
+      "number": 3,
+      "text": "Calvary's mournful mountain climb; There, adoring at his feet, Mark that miracle of time, God's own sacrifice complete: \"It is finished!\" hear him cry; Learn of him how to die."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "Gethsemane", "Calvary", "prayer", "sacrifice"],
+    "scripture_references": [],
+    "tune_source": "174, 244, 296",
+    "original_language": "en"
+  }
+}

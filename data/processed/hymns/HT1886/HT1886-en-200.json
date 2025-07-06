@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-200",
+  "number": 200,
+  "title": "O perfect law of the Most High!",
+  "author": "R. F. Cottrell",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O perfect law of the Most High!\nLaw ever holy, just, and good!\nNo other code like thee can vie,\nFor it is plainly brought to view."
+    },
+    {
+      "number": 2,
+      "text": "Let thy ten words my soul convert\nFrom every false and sinful way;\nWrite thy pure precepts on my heart,\nThat from thy truth I may not stray."
+    },
+    {
+      "number": 3,
+      "text": "Then in the glorious world to come,\nFor all who reach that blissful home\nWill be in harmony with God."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's law", "Ten Commandments", "holiness", "divine truth", "eternal life"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

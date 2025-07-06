@@ -1,0 +1,39 @@
+{
+  "id": "CH1941-en-035",
+  "number": 35,
+  "title": "God Be With You",
+  "author": "Jeremiah Eames Rankin",
+  "composer": "William Gould Tomer",
+  "tune": "God Be With You",
+  "meter": "9.8.8.9",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God be with you till we meet again;\nBy His counsels guide, uphold you,\nWith His sheep securely fold you;\nGod be with you till we meet again."
+    },
+    {
+      "number": 2,
+      "text": "God be with you till we meet again;\n'Neath His wings protecting hide you,\nDaily manna still provide you;\nGod be with you till we meet again."
+    },
+    {
+      "number": 3,
+      "text": "God be with you till we meet again;\nWhen life's perils thick confound you,\nPut His arms unfailing round you;\nGod be with you till we meet again."
+    },
+    {
+      "number": 4,
+      "text": "God be with you till we meet again;\nKeep love's banner floating o'er you,\nSmite death's threatening wave before you;\nGod be with you till we meet again."
+    }
+  ],
+  "chorus": {
+    "text": "Till we meet, till we meet,\nTill we meet at Jesus' feet;\nTill we meet, till we meet,\nGod be with you till we meet again."
+  },
+  "metadata": {
+    "year": 1880,
+    "copyright": "Public Domain",
+    "themes": ["farewell", "protection", "God's presence", "reunion"],
+    "scripture_references": ["Ruth 1:16-17", "Matthew 28:20"],
+    "tune_source": "God Be With You, William Gould Tomer, 1880",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-409",
+  "number": 409,
+  "title": "Jesus Invites His Saints",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus invites His saints\nTo meet around His board;\nAnd sup in memory\nOf the death And sufferings of their Lord."
+    },
+    {
+      "number": 2,
+      "text": "We take the bread and wine\nAs emblems of Thy death;\nLord, raise our souls above\nTo feast on Thee by faith."
+    },
+    {
+      "number": 3,
+      "text": "Faith eats the bread of life,\nAnd drinks the living wine;\nIt looks beyond this scene\nUnites us to the Vine."
+    },
+    {
+      "number": 4,
+      "text": "Soon shall the night be gone,\nOur Lord will come again;\nThe marriage supper of the Lamb\nWill usher in His reign."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["communion", "invitation", "second_coming", "spiritual_nourishment"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

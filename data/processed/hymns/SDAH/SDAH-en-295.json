@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-295",
+  "number": 295,
+  "title": "Chief of Sinners",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Chief of sinners though I be,\nJesus shed His blood for me;\nDied that I might live on high,\nDied that I might never die;"
+    },
+    {
+      "number": 2,
+      "text": "O the height of Jesus' love!\nHigher than the heaven above,\nDeeper than the deepest sea,\nLasting as eternity;"
+    },
+    {
+      "number": 3,
+      "text": "Chief of sinners though I be,\nChrist is all in all to me;\nAll my wants to Him are known,\nAll my sorrows are His own;"
+    }
+  ],
+  "chorus": {
+    "text": "As the branch is to the vine,\nI am His, and He is mine.\nLove that found me—wondrous thought!\nFound me when I sought Him not;\nSafe with Him from earthly strife,\nHe sustains the hidden life."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Chief of Sinners", "Jesus' Love", "Salvation", "Eternal Life"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

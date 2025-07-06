@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-141",
+  "number": 141,
+  "title": "Come, Holy Spirit, heavenly guest",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, Holy Spirit, heavenly guest,\nAnd make thy mansion in my breast;\nDispel my doubts, my fears control,\nAnd heal the anguish of my soul."
+    },
+    {
+      "number": 2,
+      "text": "Then God of love and peace divine,\nO make thy light within me shine!\nForgive my sins, my guilt remove,\nAnd send the tokens of thy love."
+    },
+    {
+      "number": 3,
+      "text": "Come with thy healing from above,\nFill each void heart with thy love;\nO turn to flesh the flinty stone,\nAnd let thy glory fill thy throne."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "prayer", "healing"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

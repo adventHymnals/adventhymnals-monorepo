@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-196",
+  "number": 196,
+  "title": "The heavens declare his glory",
+  "author": "Sarah Corder",
+  "composer": "",
+  "tune": "",
+  "meter": "492, 671, 246",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The heavens declare his glory,\nTheir Maker's skill, the skies;\nEach day repeats the story,\nAnd night to night replies.\nTo silent proclamation,\nThroughout the earth is heard,—\nThe record of creation,\nThe page of nature's word."
+    },
+    {
+      "number": 2,
+      "text": "But there's a radiance streaming\nMore bright than that of day,\n'Tis God's own glory beaming\nIn truth's celestial ray;\nSo pure, so soul restoring,\nIt makes the simple wise;\nAnd, balm of comfort pouring,\nEach sinking heart supplies."
+    },
+    {
+      "number": 3,
+      "text": "Thy word is richer treasure\nThan lurks within the mine;\nAnd daintiest fare less pleasure\nYields than this food divine.\nHow wise each life's condition!\nLed by thy counsels, Lord,\nHow safe the saints' condition!\nHow great is their reward!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's glory in creation", "divine revelation", "spiritual treasure", "God's word", "wisdom"],
+    "scripture_references": ["Psalm 19"],
+    "tune_source": "492, 671, 246",
+    "original_language": "en"
+  }
+}

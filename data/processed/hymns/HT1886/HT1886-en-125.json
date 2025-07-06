@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-125",
+  "number": 125,
+  "title": "Crown him with many crowns, The Lamb upon his throne",
+  "author": "Matthew Bridges",
+  "composer": "George J. Elvey",
+  "tune": "Diademata",
+  "meter": "S.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Crown him with many crowns,\nThe Lamb upon his throne;\nHark! how the heavenly anthem drowns\nAll music but its own!\nAwake, my soul, and sing\nOf him who died for thee,\nAnd hail him as thy matchless King\nThrough all eternity."
+    },
+    {
+      "number": 2,
+      "text": "Crown him the Lord of love!\nBehold his hands and side,\nThose wounds, yet visible above,\nIn beauty glorified:\nNo angel in the sky\nCan fully bear that sight,\nBut downward bends his wondering eye\nAt mysteries so bright."
+    },
+    {
+      "number": 3,
+      "text": "Crown him the Lord of peace!\nWhose hand a scepter sways\nFrom pole to pole, that wars may cease,\nAnd all be prayer and praise:\nHis reign shall know no end,\nAnd round his pierced feet\nFair flowers of paradise extend,\nTheir fragrance ever sweet."
+    },
+    {
+      "number": 4,
+      "text": "Crown him the Lord of years,\nThe Potentate of time,\nCreator of the rolling spheres,\nIneffably sublime!\nAll hail! Redeemer, hail!\nFor thou hast died for me;\nThy praise shall never, never fail\nThroughout eternity."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus Christ", "coronation", "Lamb of God", "worship", "eternal praise", "Lord of peace"],
+    "scripture_references": ["Revelation 5:6", "Revelation 19:16"],
+    "tune_source": "George J. Elvey",
+    "original_language": "en"
+  }
+}

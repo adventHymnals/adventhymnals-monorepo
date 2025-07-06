@@ -1,0 +1,44 @@
+{
+  "id": "HT1886-en-288",
+  "number": 288,
+  "title": "While shepherds watched their flocks by night",
+  "author": "Tate and Brady",
+  "composer": "George F. Handel",
+  "tune": "Christmas",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "While shepherds watched their flocks by night,\nAll seated on the ground,\nThe angel of the Lord came down,\nAnd glory shone around,\nAnd glory shone around."
+    },
+    {
+      "number": 2,
+      "text": "\"Fear not,\" said he,—for mighty dread\nHad seized their troubled mind,—\n\"Glad tidings of great joy I bring\nTo you and all mankind."
+    },
+    {
+      "number": 3,
+      "text": "\"To you, in David's town this day\nIs born, of David's line,\nThe Saviour, who is Christ the Lord;\nAnd this shall be the sign:"
+    },
+    {
+      "number": 4,
+      "text": "\"The heavenly babe you there shall find\nTo human view displayed,\nAll humbly wrapped in swathing-bands,\nAnd in a manger laid.\""
+    },
+    {
+      "number": 5,
+      "text": "Thus spake the seraph; and forthwith\nAppeared a shining throng\nOf angels, praising God on high,\nWho thus addressed their song:"
+    },
+    {
+      "number": 6,
+      "text": "\"All glory be to God on high,\nAnd on the earth be peace,\nGood-will henceforth from heaven to men,\nBegin and never cease.\""
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "First Advent", "Christmas", "shepherds", "nativity", "angels"],
+    "scripture_references": ["Luke 2:8-14"],
+    "tune_source": "Christmas, C. M.",
+    "original_language": "en"
+  }
+}

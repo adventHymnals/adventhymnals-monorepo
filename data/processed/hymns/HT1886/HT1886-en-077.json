@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-077",
+  "number": 77,
+  "title": "When all thy mercies, O my God",
+  "author": "John Colk",
+  "composer": null,
+  "tune": "Geneva",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When all thy mercies, O my God!\nMy rising soul surveys,\nTransported with the view, I'm lost\nIn wonder, love, and praise."
+    },
+    {
+      "number": 2,
+      "text": "Unnumbered comforts to my soul\nThy tender care bestowed,\nBefore my infant heart discerned\nFrom whom those comforts flowed."
+    },
+    {
+      "number": 3,
+      "text": "Ten thousand thousand precious gifts\nMy daily thanks employ;\nNor is the least a cheerful heart,\nThat tastes those gifts with joy."
+    },
+    {
+      "number": 4,
+      "text": "O, how can words with equal warmth\nThe gratitude declare,\nThat glows within my raptured heart?—\nBut thou canst read it there."
+    },
+    {
+      "number": 5,
+      "text": "Through all eternity, to thee\nA joyful song I'll raise;\nBut, oh! eternity's too short\nTo utter all thy praise!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's mercy", "gratitude", "praise", "God's care", "thanksgiving"],
+    "scripture_references": [],
+    "tune_source": "Geneva",
+    "original_language": "en"
+  }
+}

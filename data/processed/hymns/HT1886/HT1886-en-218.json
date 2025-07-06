@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-218",
+  "number": 218,
+  "title": "Thus we're spared again to meet",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thus we're spared again to meet\nBefore Jehovah's mercy-seat,\nTo seek his face, to sing and pray,\nAnd hail another Sabbath-day."
+    },
+    {
+      "number": 2,
+      "text": "Now meet to praise his holy name,\nWhose mercies flow each day the same,\nWhose compassions never cease,\nWe seek instruction, pardon, peace."
+    },
+    {
+      "number": 3,
+      "text": "Let every tongue its silence break,\nLet every one his goodness speak,\nWho deigns his glory to display\nOn each returning Sabbath-day."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath gathering", "mercy", "praise", "worship", "divine goodness"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

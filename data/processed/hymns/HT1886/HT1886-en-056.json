@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-056",
+  "number": 56,
+  "title": "Ere mountains reared their forms sublime",
+  "author": null,
+  "composer": "Isaac Watts",
+  "tune": "10, 602, 705",
+  "meter": "10, 602, 705",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Ere mountains reared their forms sublime,\nOr heaven and earth in order stood,\nBefore the birth of ancient time,\nFrom everlasting thou art God."
+    },
+    {
+      "number": 2,
+      "text": "A thousand ages, in their flight,\nWith thee are as a fleeting day;\nPast, present, future, to thy sight\nAt once their various scenes display."
+    },
+    {
+      "number": 3,
+      "text": "But our brief life's a shadow dream,\nA passing thought, that soon is gone,\nThat fades with morning's earliest beam,\nAnd this his morning music long."
+    },
+    {
+      "number": 4,
+      "text": "To us, the wisdom thou dost give,\nThat we at length with thee may spend\nWhere life and death unite never end."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's eternity", "divine timelessness", "human mortality", "God's wisdom", "eternal life"],
+    "scripture_references": [],
+    "tune_source": "Isaac Watts",
+    "original_language": "en"
+  }
+}

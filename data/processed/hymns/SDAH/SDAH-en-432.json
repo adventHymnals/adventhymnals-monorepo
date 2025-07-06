@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-432",
+  "number": 432,
+  "title": "Shall We Gather at the River",
+  "author": "Robert Lowry",
+  "composer": "Robert Lowry",
+  "tune": "HANSON PLACE",
+  "meter": "8.7.8.7 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Shall we gather at the river\nWhere bright angel feet have trod,\nWith its crystal tide forever\nFlowing by the throne of God?"
+    },
+    {
+      "number": 2,
+      "text": "On the margin of the river,\nWashing up its silver spray,\nWe will walk and worship ever,\nAll the happy golden day."
+    },
+    {
+      "number": 3,
+      "text": "Ere we reach the shining river,\nLay we ev'ry burden down;\nGrace our spirits will deliver,\nAnd provide a robe and crown."
+    },
+    {
+      "number": 4,
+      "text": "Soon we'll reach the shining river,\nSoon our pilgrimage will cease;\nSoon our happy hearts will quiver\nWith the melody of peace."
+    }
+  ],
+  "chorus": {
+    "text": "Yes, we'll gather at the river,\nThe beautiful, the beautiful river;\nGather with the saints at the river\nThat flows by the throne of God."
+  },
+  "metadata": {
+    "year": 1864,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "river of life", "gathering", "eternal worship", "peace"],
+    "scripture_references": ["Revelation 22:1-2", "Psalm 46:4", "Ezekiel 47:1-12"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

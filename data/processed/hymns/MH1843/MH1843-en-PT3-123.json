@@ -1,0 +1,39 @@
+{
+  "id": "MH1843-en-PT3-123",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "123",
+  "title": "Spirit of God",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Spirit of God! descend upon my heart; Wean it from earth; through all its pulses move; Stoop to my weakness, And make me love Thee as I ought to love."
+    },
+    {
+      "number": "2",
+      "text": "I ask no dream, no prophet ecstasies; No sudden rending of the veil of clay; No angel visitings, no opening skies; But take the dimness of my soul away."
+    },
+    {
+      "number": "3",
+      "text": "Hast Thou not bid us love Thee, God and King? All, all Thine own, soul, heart, and strength, and mind; I see Thy cross; there teach my heart to cling: O let me seek Thee, and O let me find!"
+    },
+    {
+      "number": "4",
+      "text": "Teach me to feel that Thou art always nigh; Teach me the struggles of the soul to bear, To check the rising doubt, the rebel sigh; Teach me the patience of unanswered prayer."
+    },
+    {
+      "number": "5",
+      "text": "Teach me to love Thee as Thine angels love, One holy passion filling all my frame; The kindling of the heaven-descended dove, My heart an altar, and Thy love the flame."
+    }
+  ],
+  "refrain": {},
+  "meter": "10.10.10.10",
+  "tune": "MORECAMBE",
+  "composer": "Frederick C. Atkinson",
+  "author": "George Croly",
+  "page": 266,
+  "themes": ["Spirit of God", "Descend", "Heart", "Wean", "Earth", "Pulses", "Move", "Stoop", "Weakness", "Make", "Love", "Ought", "Dream", "Prophet", "Ecstasies", "Sudden", "Rending", "Veil", "Clay", "Angel", "Visitings", "Opening", "Skies", "Dimness", "Soul", "Away", "Bid", "King", "Own", "Strength", "Mind", "Cross", "Teach", "Cling", "Seek", "Find", "Feel", "Always", "Nigh", "Struggles", "Bear", "Check", "Rising", "Doubt", "Rebel", "Sigh", "Patience", "Unanswered", "Prayer", "Angels", "Holy", "Passion", "Filling", "Frame", "Kindling", "Heaven", "Descended", "Dove", "Altar", "Flame"],
+  "key_signature": "Bb",
+  "time_signature": "4/4"
+}

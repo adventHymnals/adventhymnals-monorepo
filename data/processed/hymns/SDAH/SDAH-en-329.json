@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-329",
+  "number": 329,
+  "title": "Take the World, but Give Me Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Take the world, but give me Jesus,\nAll its joys are but a name;\nBut His love abideth ever,\nThrough eternal years the same."
+    },
+    {
+      "number": 2,
+      "text": "Take the world, but give me Jesus,\nSweetest comfort of my soul;\nWith my Savior watching o'er me,\nI can sing, though billows roll."
+    },
+    {
+      "number": 3,
+      "text": "Take the world, but give me Jesus;\nLet me view His constant smile;\nThen through out my pilgrim journey\nLight will cheer me all the while."
+    },
+    {
+      "number": 4,
+      "text": "Take the world, but give me Jesus;\nIn His cross my trust shall be,\nTill, with clearer, brighter vision,\nFace to face my Lord I see."
+    }
+  ],
+  "chorus": {
+    "text": "Oh, the height and depth of mercy!\nOh, the length and breadth of love!\nOh, the fullness of redemption,\nPledge of endless life above."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus Christ", "Love", "Redemption", "Eternal Life", "Discipleship"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

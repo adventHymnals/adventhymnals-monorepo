@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-033",
+  "number": 33,
+  "title": "Sing a New Song to the Lord",
+  "author": "Timothy Dudley-Smith",
+  "composer": "David G. Wilson",
+  "tune": "[unclear]",
+  "meter": "6/8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sing a new song to the Lord,\nHe to whom wonders belong!\nRejoice in His triumph and tell of His power,\nO sing to the Lord a new song!"
+    },
+    {
+      "number": 2,
+      "text": "Now to the ends of the earth\nSee His salvation is shown;\nAnd still He remembers His mercy and truth,\nUnchanging in love to His own."
+    },
+    {
+      "number": 3,
+      "text": "Sing a new song and rejoice,\nPublish His praises abroad!\nLet voices in chorus, with trumpet and horn,\nResound for the joy of the Lord!"
+    },
+    {
+      "number": 4,
+      "text": "Join with the hills and the sea\nThunders of praise to prolong!\nIn judgment and justice He comes to the earth,\nO sing to the Lord a new song!"
+    }
+  ],
+  "metadata": {
+    "year": 1973,
+    "copyright": "Words © 1973 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission. Music © 1973 The Jubilate Group, Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission",
+    "themes": ["praise", "new song", "worship"],
+    "scripture_references": ["Psalm 96", "Psalm 98"],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

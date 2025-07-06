@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-104",
+  "number": 104,
+  "title": "Come, let us sing the song of songs",
+  "author": null,
+  "composer": null,
+  "tune": "Russia",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, let us sing the song of songs,—\nThe angels first began the strain,—\nThe homage which to Christ belongs:\n\"Worthy the Lamb, for he was slain!\""
+    },
+    {
+      "number": 2,
+      "text": "Slain to redeem us by his blood,\nTo cleanse from every sinful stain,\nAnd make us kings and priests to God:\n\"Worthy the Lamb, for he was slain!\""
+    },
+    {
+      "number": 3,
+      "text": "To him who suffered on the tree,\nOur souls, at his soul's price, to gain,\nBlessing, and praise, and glory be:\n\"Worthy the Lamb, for he was slain!\""
+    },
+    {
+      "number": 4,
+      "text": "To him enthroned by filial right,\nAll power in heaven and earth proclaim,\nHonor, and majesty, and might:\n\"Worthy the Lamb, for he was slain!\""
+    },
+    {
+      "number": 5,
+      "text": "Long as we live, and when we die,\nAnd while in heaven with him we reign,\nThis song our song of songs shall be:\n\"Worthy the Lamb, for he was slain!\""
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "adoration of Christ", "Jesus Christ", "worthy the Lamb", "praise", "redemption"],
+    "scripture_references": ["Revelation 5:12"],
+    "tune_source": "Russia",
+    "original_language": "en"
+  }
+}

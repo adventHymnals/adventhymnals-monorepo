@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-065",
+  "number": 65,
+  "title": "Morning Watch",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "YE who rose to meet the Lord–\nVentured on his faithful word,\nFaint not now, for your reward\nWill be quickly given.\nFaint not! Always watch and pray,\nJesus will no more delay,\nSoon it will be dawn of day–\nDay-Star beams from heaven."
+    },
+    {
+      "number": 2,
+      "text": "Would ye to the end endure?\nKeep the wedding garments pure\nClaim ye still the promise sure\nFaithful is the Lord!\nLet your lamps be burning bright,\nIn God's word is beaming light,\nLive by faith and not by sight–\nCrowns are your reward."
+    },
+    {
+      "number": 3,
+      "text": "Mid the darts of angry foe,\nOnward, fearless, onward go,\nThe good soldier's courage show.\nOn, to victory!\n\"Let thine eyes be turned to me,\"\nJesus says, \"I'll rescue thee,\nOvercome, and faithful be,\nThou shall; glory see!\""
+    },
+    {
+      "number": 4,
+      "text": "Tones of thunder through the sky–\nAngel voices sounding high,\nEcho still the mighty cry,\nJesus, quickly come!\nQuickly he'll return again,\nWith his saints will come to reign,\nWhile all heaven will shout \"Amen,\nWelcome to thy throne!\""
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["morning watch", "day-star", "wedding garments", "lamps burning", "victory"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

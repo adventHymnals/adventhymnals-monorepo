@@ -1,0 +1,32 @@
+{
+  "id": "SDAH-en-222",
+  "number": 222,
+  "title": "Hark! Ten Thousand Harps and Voices",
+  "author": "Thomas Kelly",
+  "composer": "Lowell Mason",
+  "tune": "HARWELL",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! ten thousand harps and voices\nSound the note of praise above;\nJesus reigns, and heaven rejoices,\nJesus reigns, the God of love:\nSee, He sits on yonder throne;\nJesus rules the world alone."
+    },
+    {
+      "number": 2,
+      "text": "King of glory, reign forever,\nThine an everlasting crown;\nNothing from Thy love shall sever\nThose whom Thou hast made Thine own:\nHappy objects of Thy grace,\nDestined to behold Thy face."
+    },
+    {
+      "number": 3,
+      "text": "Savior, hasten Thine appearing;\nBring, O bring the glorious day,\nWhen, the awful summons hearing,\nHeaven and earth shall pass away:\nThen with golden harps we'll sing,\n'Glory, glory to our King!'"
+    }
+  ],
+  "metadata": {
+    "year": 1806,
+    "copyright": "Public Domain",
+    "themes": ["Praise", "Kingship of Christ", "Heaven", "Glory"],
+    "scripture_references": ["Revelation 5:11-13", "Revelation 19:6"],
+    "tune_source": "Lowell Mason, 1832",
+    "original_language": "en"
+  }
+}

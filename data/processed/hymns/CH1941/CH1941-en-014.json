@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-014",
+  "number": 14,
+  "title": "Praise Ye the Lord",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise ye the Lord! 'tis good to raise\nYour hearts and voices in His praise;\nHis nature and His works invite\nTo make this duty our delight."
+    },
+    {
+      "number": 2,
+      "text": "Praise ye the Lord! for it is good\nTo sing praises unto our God;\nFor it is pleasant, and to praise\nIt is comely for such as we."
+    },
+    {
+      "number": 3,
+      "text": "He doth the broken heart upbind,\nAnd heal the wounds of troubled mind;\nUnto the meek His grace He shows,\nHis help He gives to all who call."
+    }
+  ],
+  "metadata": {
+    "year": "[needs verification]",
+    "copyright": "Public Domain",
+    "themes": ["praise", "worship", "healing", "comfort"],
+    "scripture_references": ["Psalm 147"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

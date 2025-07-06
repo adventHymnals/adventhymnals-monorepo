@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-180",
+  "number": 180,
+  "title": "A glory gilds the sacred page",
+  "author": "Wm. Cowper",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "A glory gilds the sacred page,\nMajestic like the sun;\nIt gives a light to every age,\nIt gives, but borrows none."
+    },
+    {
+      "number": 2,
+      "text": "The Spirit breathes upon the word,\nAnd brings the truth to sight;\nPrecepts and promises afford\nA sanctifying light."
+    },
+    {
+      "number": 3,
+      "text": "The hand that gave it still supplies\nThe gracious light and heat;\nHis truths upon the nations rise,\nThey rise, but never set."
+    },
+    {
+      "number": 4,
+      "text": "Let everlasting thanks be thine,\nFor such a bright display\nAs makes a world of darkness shine\nWith beams of heavenly day."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Scripture", "divine revelation", "spiritual light", "God's word", "truth"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

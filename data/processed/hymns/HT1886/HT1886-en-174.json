@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-174",
+  "number": 174,
+  "title": "The starry firmament on high",
+  "author": "Anon",
+  "composer": "",
+  "tune": "",
+  "meter": "169, 266, 56",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The starry firmament on high,\nAnd all the glories of the sky,\nYet shine not to thy praise, O Lord,\nSo brightly as thy written word."
+    },
+    {
+      "number": 2,
+      "text": "The hopes that holy word supplies,\nIts truths divine and precepts wise,\nIn each a heav'nly beam I see,\nAnd every beam conducts to thee."
+    },
+    {
+      "number": 3,
+      "text": "Almighty Lord, the sun shall fail,\nThe moon her borrowed glory veil,\nAnd deepest reverence hush on high\nThe joyful chorus of the sky."
+    },
+    {
+      "number": 4,
+      "text": "But fixed for everlasting years,\nUnmoved amid the wreck of spheres,\nThy word shall shine in cloudless day,\nWhen heav'n and earth have passed away."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's word", "creation", "eternal truth", "divine revelation", "praise"],
+    "scripture_references": [],
+    "tune_source": "169, 266, 56",
+    "original_language": "en"
+  }
+}

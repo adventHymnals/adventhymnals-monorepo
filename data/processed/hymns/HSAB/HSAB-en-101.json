@@ -1,0 +1,41 @@
+{
+  "id": "HSAB-en-101",
+  "number": 101,
+  "title": "Prayer",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WHAT various hindrances we meet,\nIn coming to the mercy seat;\nYet, who that knows the worth of prayer,\nBut wishes to be often there."
+    },
+    {
+      "number": 2,
+      "text": "Prayer makes the darkest cloud withdraw,\nPrayer climbs the ladder Jacob saw;\nGives exercise to faith and love,\nBrings ev'ry blessing from above."
+    },
+    {
+      "number": 3,
+      "text": "Restraining prayer, we cease to fight,\nPrayer makes the Christian's armor bright,\nAnd Satan trembles, when he sees\nThe weakest saint upon his knees."
+    },
+    {
+      "number": 4,
+      "text": "When Moses stood with arms spread wide,\nSuccess was found on Israel's side;\nBut when through weariness they fail'd.\nThat moment Amalek prevail'd."
+    },
+    {
+      "number": 5,
+      "text": "Have you no words? Ah, think again.\nWords flow apace when you complain,\nAnd fill your fellow-creatures' ears\nWith the sad tale of all your cares."
+    },
+    {
+      "number": 6,
+      "text": "Were half the breath thus vainly spent,\nTo heaven in supplication sent,\nYour cheerful song would oftener be,\nHear what the Lord hath done for me!"
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["prayer", "mercy seat", "darkest cloud", "jacob's ladder", "faith and love", "armor bright", "satan trembles", "moses"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

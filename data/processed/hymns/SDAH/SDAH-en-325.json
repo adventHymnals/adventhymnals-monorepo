@@ -1,0 +1,34 @@
+{
+  "id": "SDAH-en-325",
+  "number": 325,
+  "title": "Jesus, I My Cross Have Taken",
+  "author": "Henry Francis Lyte",
+  "composer": "Wolfgang Amadeus Mozart",
+  "tune": "ELLESDIE",
+  "meter": "8.7.8.7 D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, I my cross have taken,\nAll to leave and follow Thee;\nAll things else I have forsaken,\nThou from hence my all shall be.\nPerish every fond ambition,\nAll I've sought, or hoped, or known;\nYet how rich is my condition,\nGod and heaven are still my own."
+    },
+    {
+      "number": 2,
+      "text": "Let the world despise and leave me,\nThey have left my Savior, too;\nHuman hearts and looks deceive me,\nThou art not, like man, untrue.\nAnd while Thou shalt smile upon me,\nGod of wisdom, love, and might,\nFoes may hate and friends may shun me,\nShow Thy face, and all is bright."
+    },
+    {
+      "number": 3,
+      "text": "Soul, then know thy full salvation,\nRise o'er sin, and fear, and care;\nJoy to find in every station\nSomething still to do or bear.\nThink what Spirit dwells within thee,\nWhat a Father's smile is thine,\nWhat thy Savior died to win thee,\nChild of heaven, canst thou repine?"
+    },
+    {
+      "number": 4,
+      "text": "Haste thee on from grace to glory,\nArmed by faith and winged by prayer;\nHeaven's eternal day's before thee,\nGod's own hand shall guide thee there.\nSoon shall close thy earthly mission,\nSwift shall pass thy pilgrim days,\nHope shall change to glad fruition,\nFaith to sight, and prayer to praise."
+    }
+  ],
+  "metadata": {
+    "themes": ["cross bearing", "following Jesus", "sacrifice"],
+    "scripture_references": ["Matthew 16:24", "Luke 9:23"],
+    "tune_source": "Wolfgang Amadeus Mozart",
+    "original_language": "en"
+  }
+}

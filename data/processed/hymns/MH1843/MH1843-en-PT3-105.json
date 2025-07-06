@@ -1,0 +1,33 @@
+{
+  "id": "MH1843-en-PT3-105",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "105",
+  "title": "My Song Shall Be of Jesus",
+  "verses": [
+    {
+      "number": "1",
+      "text": "My song shall be of Jesus, His mercy crowns my days, He fills my cup with blessings, And tunes my heart to praise; My song shall be of Jesus, The precious Lamb of God, Who gave Himself my ransom, And bought me with His blood."
+    },
+    {
+      "number": "2",
+      "text": "My song shall be of Jesus, When sitting at His feet, I call to mind His goodness In fellowship so sweet; My song shall be of Jesus, Whatever ills befall, I'll sing the grace that saves me And triumphantly sing of Jesus, I'll sing for evermore."
+    },
+    {
+      "number": "3",
+      "text": "My song shall be of Jesus, While pressing on my way To where my home shines glorious In pure and perfect day; And when my soul shall enter The mansions fair, When the precious Lamb of God, Who first loved me."
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "C.M.D.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 244,
+  "themes": ["Jesus", "Song", "Mercy", "Blessings", "Heart", "Praise", "Lamb", "Blood"],
+  "key_signature": "",
+  "time_signature": ""
+}

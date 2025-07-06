@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-240",
+  "number": 240,
+  "title": "Welcome, welcome, day of rest",
+  "author": "Ignace Pleyel",
+  "composer": null,
+  "tune": "Pleyel",
+  "meter": "7s.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Welcome, welcome, day of rest,\nTo the world in kindness given;\nWelcome to this humble breast,\nAs the beaming light from heaven."
+    },
+    {
+      "number": 2,
+      "text": "Day of sweet and blest repose,\nGently now thy moments run;\nBalm to soothe our cares and woes,\nTill our earthly course is done."
+    },
+    {
+      "number": 3,
+      "text": "Holy day that most we prize,\nDay of solemn joy and prayer,\nDay to make the simple wise,\nO, how great thy blessings are!"
+    },
+    {
+      "number": 4,
+      "text": "Welcome, welcome, day of rest,\nWith thy influence all divine;\nMay thy hallowed hours be blessed\nTo this waiting heart of mine."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "rest", "blessing", "prayer"],
+    "scripture_references": [],
+    "tune_source": "Pleyel, 7s., Ignace Pleyel",
+    "original_language": "en"
+  }
+}

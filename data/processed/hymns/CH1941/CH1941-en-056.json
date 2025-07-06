@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-056",
+  "number": 56,
+  "title": "Again at Evening's Solemn Hour",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Again at evening's solemn hour\nWe bow before Thy throne,\nO God of mercy, love, and power,\nWe worship Thee alone."
+    },
+    {
+      "number": 2,
+      "text": "We thank Thee for the day now past,\nFor food and raiment given;\nFor rest and peace that cannot last\nSave in the home of heaven."
+    },
+    {
+      "number": 3,
+      "text": "Forgive the sins that we have done,\nThe words we should not say,\nThe thoughts that in our hearts have run\nThroughout this passing day."
+    },
+    {
+      "number": 4,
+      "text": "And now we lay us down to rest,\nOn Thee our hope we stay;\nBy guardian angels may we blessed\nTill dawns another day."
+    }
+  ],
+  "metadata": {
+    "year": "[needs verification]",
+    "copyright": "Public Domain",
+    "themes": ["evening", "worship", "forgiveness", "rest"],
+    "scripture_references": ["Psalm 4:8", "1 John 1:9"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-328",
+  "number": 328,
+  "title": "O Jesus, sweet the tears I shed",
+  "author": "Ray Palmer",
+  "composer": null,
+  "tune": "201, 204",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Jesus, sweet the tears I shed While at thy cross I kneel,\nGaze on thy wounded, fainting head, And all thy sorrows feel."
+    },
+    {
+      "number": 2,
+      "text": "My heart dissolves to see thee bleed, This heart so hard before;\nI hear thee for the guilty plead, And grief o'erflows the more."
+    },
+    {
+      "number": 3,
+      "text": "I know this cleansing blood of thine Was shed, dear Lord, for me;\nFor me, for all—O grace divine!— Who look by faith on thee."
+    },
+    {
+      "number": 4,
+      "text": "In patient hope the cross I'll bear, Thine arm shall be my stay;\nAnd thou, enthroned, my soul shalt spare On thy great Judgment-day."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "cross", "blood", "grief", "faith"],
+    "scripture_references": [],
+    "tune_source": "201, 204",
+    "original_language": "en"
+  }
+}

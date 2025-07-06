@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-146",
+  "number": 146,
+  "title": "THE PILGRIM",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I'M a pilgrim, and I'm a stranger;\nI can tarry, I can tarry, but a night;\nDo not detain me, for I am going\nTo where the fountains are ever flowing.\nI'm a pilgrim, and I'm a stranger, &c."
+    },
+    {
+      "number": 2,
+      "text": "There the glory is ever shining!\nO, my longing heart, my longing heart is there;\nHere in this country so dark and dreary,\nI long have wandered forlorn and weary.\nI'm a pilgrim, and I'm a stranger, &c."
+    },
+    {
+      "number": 3,
+      "text": "There's the City to which I journey;\nMy Redeemer, my Redeemer is its light!\nThere is no sorrow, nor any sighing,\nNor any tears there, nor any dying.\nI'm a pilgrim, and I'm a stranger, &c."
+    },
+    {
+      "number": 4,
+      "text": "Farewell, dreary earth, by sin so blighted,\nIn immortal beauty soon you'll be arrayed,\nHe who has form'd thee, will soon restore thee,\nAnd then thy dread curse shall never more be.\nI'm a pilgrim, and I'm a stranger,\nTill thy rest shall end the weary pilgrim's night."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["pilgrimage", "stranger", "journey", "heaven", "immortality", "restoration"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

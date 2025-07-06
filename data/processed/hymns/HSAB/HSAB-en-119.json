@@ -1,0 +1,25 @@
+{
+  "id": "HSAB-en-119",
+  "number": 119,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "SWEET is the last, the parting ray,\nThat ushers placid evening in;\nWhen with the still, expiring day,\nThe Sabbath's peaceful hours begin:\nHow grateful to the anxious breast,\nThe sacred hours of holy rest!"
+    },
+    {
+      "number": 2,
+      "text": "Hush'd is the tumult of the day,\nAnd worldly cares and labors cease;\nWhile soft the vesper breezes play,\nTo hymn the glad return of peace:\nDelightful season, kindly given\nTo turn the wand'ring thoughts to heav'n."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "evening", "peace", "rest", "vespers", "heaven"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

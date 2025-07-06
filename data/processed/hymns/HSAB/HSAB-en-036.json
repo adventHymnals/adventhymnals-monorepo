@@ -1,0 +1,25 @@
+{
+  "id": "HSAB-en-036",
+  "number": 36,
+  "title": "The Resurrection",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "AND when the last loud trumpet\nShall rend the vaulted skies,\nAnd bid the entomb'd millions\nFrom their cold beds arise,\nOur ransom'd dust revived,\nBright beauties shall put on,\nAnd soar to the blest mansions\nWhere our Redeemer's gone."
+    },
+    {
+      "number": 2,
+      "text": "Our eyes shall then, with rapture,\nThe Saviour's face behold;\nOur feet, no more diverted,\nShall walk the streets of gold;\nOur ears shall hear with transport\nThe hosts celestial sing;\nOur tongues shall chant the glory\nOf our Immortal King."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["resurrection", "trumpet", "glory", "heaven", "immortality"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

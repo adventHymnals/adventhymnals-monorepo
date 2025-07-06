@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-248",
+  "number": 248,
+  "title": "Hail, thou bright and sacred morn",
+  "author": "Julia A. Elliott",
+  "composer": null,
+  "tune": "7s. 6l.",
+  "meter": "7s. 6l.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hail, thou bright and sacred morn,\nRisen with gladness in thy beams!\nLight, which not of earth was born,\nFrom thy dawn in glory streams;\nAirs of heaven breathe around,\nAnd each place is holy ground."
+    },
+    {
+      "number": 2,
+      "text": "Great Creator! who this day\nFrom thy perfect work didst rest,\nBy the souls that own thy sway\nHallowed be its hours blest,\nCares of earth aside be thrown,\nThis day given to God alone."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["sacred morning", "Sabbath", "creation", "rest", "holiness"],
+    "scripture_references": ["Genesis 2:2-3"],
+    "tune_source": "7s. 6l.",
+    "original_language": "en"
+  }
+}

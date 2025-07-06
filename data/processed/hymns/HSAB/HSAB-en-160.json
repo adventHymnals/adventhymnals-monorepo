@@ -1,0 +1,32 @@
+{
+  "id": "HSAB-en-160",
+  "number": 24,
+  "title": "MY SAVIOUR'S COMING",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "MY Saviour's coming in the sky,\nTo take me up with him on high;\nA crown each faithful one shall wear,\nWhen he in glory shall appear."
+    },
+    {
+      "number": 2,
+      "text": "O blessed morning on us rise,\nAnd gladden our uplifted eyes,\nWhen the shall meet to part no more,\nAnd shout our toils and sufferings o'er."
+    },
+    {
+      "number": 3,
+      "text": "O, hasten, bright, immortal day!\nWhen Christ shall call us hence away,\nWhere, on fair Canaan's happy shore,\nWe'll praise the Lamb for evermore."
+    }
+  ],
+  "chorus": {
+    "text": "Roll round sweet moments, sweet moments roll round,\nAnd let these poor pilgrims go home, go home."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Second Coming", "glory", "crown", "pilgrimage", "home", "praise"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

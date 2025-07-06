@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-139",
+  "number": 139,
+  "title": "While Shepherds Watched Their Flocks",
+  "author": "Nahum Tate",
+  "composer": "George Frideric Handel",
+  "tune": "Christmas",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "While shepherds watched their flocks by night,\nAll seated on the ground,\nThe angel of the Lord came down,\nAnd glory shone around."
+    },
+    {
+      "number": 2,
+      "text": "\"Fear not!\" said he for mighty dread\nHad seized their troubled mind;\n\"Glad tidings of great joy I bring\nTo you and all mankind."
+    },
+    {
+      "number": 3,
+      "text": "\"To you, in David's town this day,\nIs born of David's line\nThe Savior who is Christ the Lord;\nAnd this shall be the sign:"
+    },
+    {
+      "number": 4,
+      "text": "\"The heavenly Babe you there shall find\nTo human view displayed,\nAll meanly wrapped in swathing bands,\nAnd in a manger laid.\""
+    },
+    {
+      "number": 5,
+      "text": "Thus spake the seraph; and forthwith\nAppeared a shining throng\nOf angels praising God, who thus\nAddressed their joyful song:"
+    },
+    {
+      "number": 6,
+      "text": "\"All glory be to God on high,\nAnd to the earth be peace;\nGood will henceforth from heaven to men\nBegin and never cease!\""
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1700,
+    "copyright": null,
+    "themes": ["christmas", "shepherds", "angels", "nativity", "peace", "good_will"],
+    "scripture_references": ["Luke 2:8-20"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

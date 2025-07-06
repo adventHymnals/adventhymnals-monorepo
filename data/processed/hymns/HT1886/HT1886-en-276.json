@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-276",
+  "number": 276,
+  "title": "'Tis sweet to mingle where",
+  "author": "Anon",
+  "composer": null,
+  "tune": "Tune, Rock of Ages, No. 1174",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'Tis sweet to mingle where\nChristians meet for social prayer;\nIf 'tis sweet with them to raise\nSongs of holy joy and praise,\nO, how sweet that state must be,\nWhere they meet eternally!"
+    },
+    {
+      "number": 2,
+      "text": "Saviour, may these meetings prove\nPreparations from above;\nAs we leave this sacred place,\nMay we go from grace to grace,\nTill we each, in his degree,\nFit for endless glory be."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "closing", "fellowship", "preparation", "glory"],
+    "scripture_references": [],
+    "tune_source": "Tune, Rock of Ages, No. 1174",
+    "original_language": "en"
+  }
+}

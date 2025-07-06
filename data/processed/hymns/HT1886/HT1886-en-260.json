@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-260",
+  "number": 260,
+  "title": "Thy presence, eve-present",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thy presence, eve-present, be with us to bless,\nWide through all nature spreads abroad;\nThy watchful eyes, which never sleep,\nIn every place their children keep."
+    },
+    {
+      "number": 2,
+      "text": "To thee we now commit our ways,\nAnd still implore thy heavenly grace;\nStill cause thy face on us to shine,\nAnd guard each wandering heart of thine."
+    },
+    {
+      "number": 3,
+      "text": "Give us a within thy house to raise\nAgain united songs of praise;\nOr if that joy no more be known,\nGive us to meet around thy throne."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["divine presence", "blessing", "protection", "worship"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

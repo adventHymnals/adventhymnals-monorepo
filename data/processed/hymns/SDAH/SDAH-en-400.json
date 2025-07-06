@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-400",
+  "number": 400,
+  "title": "I Come With Joy",
+  "author": "Brian Wren",
+  "composer": "[unclear]",
+  "tune": "American folk melody",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I come with joy to meet my Lord,\nForgiven, loved and free,\nIn awe and wonder to recall\nHis life laid down for me."
+    },
+    {
+      "number": 2,
+      "text": "I come with Christians far and near\nTo find, as all are fed,\nOur true community of love\nIn Christ's communion bread."
+    },
+    {
+      "number": 3,
+      "text": "As Christ breaks bread for us to share,\nEach proud division ends,\nThat love that made us makes us one,\nAnd strangers now are friends."
+    },
+    {
+      "number": 4,
+      "text": "And thus with joy we meet our Lord.\nHis presence, always near,\nIs in such friendship better known:\nWe see and praise Him here."
+    },
+    {
+      "number": 5,
+      "text": "Together met, together bound,\nWe'll go our different ways,\nAnd as His people in the world,\nWe'll live and speak His praise."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": "Words © 1971, Rev. 1995 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
+    "themes": ["Communion", "Joy", "Fellowship", "Jesus Christ", "Unity"],
+    "scripture_references": [],
+    "tune_source": "American folk melody",
+    "original_language": "en"
+  }
+}

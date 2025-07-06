@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-042",
+  "number": 42,
+  "title": "New Every Morning",
+  "author": "John Keble",
+  "composer": "Samuel Sebastian Wesley",
+  "tune": "Melcombe",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "New every morning is the love\nOur wakening and uprising prove;\nThrough sleep and darkness safely brought,\nRestored to life and power and thought."
+    },
+    {
+      "number": 2,
+      "text": "New mercies, each returning day,\nHover around us while we pray;\nNew perils past, new sins forgiven,\nNew thoughts of God, new hopes of heaven."
+    },
+    {
+      "number": 3,
+      "text": "If on our daily course our mind\nBe set to hallow all we find,\nNew treasures still, of countless price,\nGod will provide for sacrifice."
+    },
+    {
+      "number": 4,
+      "text": "Only, O Lord, in Thy dear love\nFit us for perfect rest above;\nAnd help us, this and every day,\nTo live more nearly as we pray."
+    }
+  ],
+  "metadata": {
+    "year": 1827,
+    "copyright": "Public Domain",
+    "themes": ["morning", "God's mercies", "daily renewal", "prayer"],
+    "scripture_references": ["Lamentations 3:22-23", "Psalm 5:3"],
+    "tune_source": "Melcombe, Samuel Sebastian Wesley, 1864",
+    "original_language": "en"
+  }
+}

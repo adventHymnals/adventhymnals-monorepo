@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-118",
+  "number": 118,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "AGAIN the day returns of holy rest,\nWhich, when He made the world, Jehovah blest;\nWhen like his own, he bade our labors cease,\nAnd all be piety, and all be peace."
+    },
+    {
+      "number": 2,
+      "text": "Let us devote this consecrated day\nTo learn his will, and all the learn obey;\nSo shall he hear when fervently we raise\nOur supplications, and our songs of praise."
+    },
+    {
+      "number": 3,
+      "text": "Father in heaven! In whom our hopes confide,\nWhose power defends us, and whose precepts guide;\nThrough life our surest guardian and friend,\nGlory supreme be thine till time shall end."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "holy rest", "Jehovah", "piety", "prayer", "praise", "heavenly Father"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

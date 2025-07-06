@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-190",
+  "number": 190,
+  "title": "Almighty God, thy word is cast",
+  "author": "John Cawood",
+  "composer": "",
+  "tune": "",
+  "meter": "669, 117, 175",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Almighty God, thy word is cast\nLike seed upon the ground;\nO let the dew of heaven descend,\nAnd righteous fruits abound."
+    },
+    {
+      "number": 2,
+      "text": "Let not the foe of Christ and man\nThis holy seed remove;\nMay it take root in every heart,\nAnd grow in faith and love."
+    },
+    {
+      "number": 3,
+      "text": "Let not the world's deceitful cares\nNor worldly wealth and joy,\nNor scorching beam, nor stormy blast,\nThe rising plant destroy."
+    },
+    {
+      "number": 4,
+      "text": "Where'er the word of life is sown,\nA large increase bestow,\nThat all who hear thy message, Lord,\nIts saving power may know."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's word as seed", "spiritual growth", "faith", "divine blessing", "salvation"],
+    "scripture_references": ["Matthew 13:3-9"],
+    "tune_source": "669, 117, 175",
+    "original_language": "en"
+  }
+}

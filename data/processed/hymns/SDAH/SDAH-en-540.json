@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-540",
+  "number": 540,
+  "title": "Gentle Jesus, Meek and Mild",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Gentle Jesus, meek and mild,\nLook upon a little child;\nPity my simplicity,\nSuffer me to come to Thee."
+    },
+    {
+      "number": 2,
+      "text": "Lamb of God, I look to Thee;\nThou shalt my example be;\nThou art gentle, meek, and mild,\nThou wast once a little child."
+    },
+    {
+      "number": 3,
+      "text": "Fain I would be as Thou art;\nGive me Thy obedient heart;\nThou art pitiful and kind,\nLet me have Thy loving mind."
+    },
+    {
+      "number": 4,
+      "text": "I shall then show forth Thy praise,\nServe Thee all my happy days;\nThen the world shall always see\nChrist, the Holy Child, in me."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus as child", "gentleness", "following Christ", "children"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-131",
+  "number": 131,
+  "title": "BAPTISM",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'TIS down into the water\nWhere we believers go,\nTo serve our Lord and Master\nIn righteous acts below;\nWe lay our mortal bodies\nBeneath the yielding wave,\nAn emblem of the Saviour,\nWhen he laid in the grave."
+    },
+    {
+      "number": 2,
+      "text": "The light of truth is spreading,\nAnd shining now for thee;\nAnd sweet its notes are sounding\nTo set the captive free.\nAnd while this glorious message\nIs circulating round,\nSome souls exposed to ruin,\nRedeeming grace have found."
+    },
+    {
+      "number": 3,
+      "text": "And of that happy number,\nI hope that I am one,\nAnd Jesus he will finish\nThe work he has begun;\nHe'll cut it short in righteousness\nAnd I'll for ever be\nA monument of mercy,\nTo all eternity."
+    },
+    {
+      "number": 4,
+      "text": "Come all ye elder brethren,\nWho 're soldiers of the cross,\nWho for the sake of Jesus\nHave counted all things dross,\nCome, let us take new courage,\nThat we may travel on,\nTill Jesus comes in glory,\nTo take his children home."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["baptism", "believers", "service", "salvation", "truth", "grace"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

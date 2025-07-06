@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-109",
+  "number": 109,
+  "title": "Marvelous Grace",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Marvelous grace of our loving Lord,\nGrace that exceeds our sin and our guilt!\nYonder on Calvary's mount outpoured,\nThere where the blood of the Lamb was spilt."
+    },
+    {
+      "number": 2,
+      "text": "Sin and despair, like the sea-waves cold,\nThreaten the soul with infinite loss;\nGrace that is greater, yes, grace untold,\nPoints to the Refuge, the mighty Cross."
+    },
+    {
+      "number": 3,
+      "text": "Marvelous, infinite, matchless grace,\nFreely bestowed on all who believe!\nYou that are longing to see His face,\nWill you this moment His grace receive?"
+    }
+  ],
+  "chorus": {
+    "text": "Grace, grace, God's grace,\nGrace that will pardon and cleanse within;\nGrace, grace, God's grace,\nGrace that is greater than all our sin!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["grace", "forgiveness", "cross", "calvary"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

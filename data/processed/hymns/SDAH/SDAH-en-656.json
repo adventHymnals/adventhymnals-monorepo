@@ -1,0 +1,29 @@
+{
+  "id": "SDAH-en-656",
+  "number": 656,
+  "title": "O Perfect Love",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O perfect Love, all human thought transcending,\nLowly we kneel in prayer before Thy throne,\nThat theirs may be the love that has no ending,\nWhom Thou forevermore dost join in one."
+    },
+    {
+      "number": 2,
+      "text": "O perfect Life, be Thou their full assurance,\nOf tender charity and steadfast faith,\nOf patient hope, and quiet, brave endurance,\nWith childlike trust that fears nor pain nor death."
+    },
+    {
+      "number": 3,
+      "text": "Grant them the joy which brightens earthly sorrow;\nGrant them the peace which calms all earthly strife,\nAnd to life's day the glorious unknown morrow\nThat dawns upon eternal love and life."
+    }
+  ],
+  "metadata": {
+    "themes": ["love", "marriage", "unity", "blessing"],
+    "scripture_references": ["1 Corinthians 13:4-8", "Ephesians 5:31"],
+    "copyright": "Public Domain"
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "collection_id": "SAHB-en",
+  "title": "Second Advent Hymn Book",
+  "subtitle": "Compiled and Revised by P. A. Smith",
+  "language": "en",
+  "year": 1867,
+  "compiler": "P. A. Smith",
+  "publisher": "W. H. Spencer",
+  "location": "Rochester, N. Y.",
+  "total_hymns": 29,
+  "hymns": [
+    {
+      "id": "SAHB-en-001",
+      "number": 1,
+      "title": "Glad Tidings Glad Tidings the Kingdom Is Near t..."
+    },
+    {
+      "id": "SAHB-en-003",
+      "number": 3,
+      "title": "The Gospel Train Is Coming"
+    },
+    {
+      "id": "SAHB-en-004",
+      "number": 4,
+      "title": "Second Advent Hymn Book 17"
+    },
+    {
+      "id": "SAHB-en-006",
+      "number": 6,
+      "title": "Son of God Thy People Are"
+    },
+    {
+      "id": "SAHB-en-011",
+      "number": 11,
+      "title": "Tn This Weary World We Wait It Is Only Till He ..."
+    },
+    {
+      "id": "SAHB-en-016",
+      "number": 16,
+      "title": "T LOVE thee, I love thee,"
+    },
+    {
+      "id": "SAHB-en-020",
+      "number": 20,
+      "title": "The Soon Shall Be Home Where the Weary Ones Res..."
+    },
+    {
+      "id": "SAHB-en-022",
+      "number": 22,
+      "title": "T H E Saviour Who Suffered the Lamb That Was It..."
+    },
+    {
+      "id": "SAHB-en-036",
+      "number": 36,
+      "title": "0 for a Glance of Heavenly Day"
+    },
+    {
+      "id": "SAHB-en-043",
+      "number": 43,
+      "title": "Are We Almost There Are We Almost There W Here ..."
+    },
+    {
+      "id": "SAHB-en-052",
+      "number": 52,
+      "title": "On the Banks Beyond the River"
+    },
+    {
+      "id": "SAHB-en-062",
+      "number": 62,
+      "title": "VES, He will come though Pharisee"
+    },
+    {
+      "id": "SAHB-en-073",
+      "number": 73,
+      "title": "Must Simon Bear His Cross Alone 2 Let the World..."
+    },
+    {
+      "id": "SAHB-en-079",
+      "number": 79,
+      "title": "Thy Word Is a Lamp to My Feet 2 the Heavenly Sh..."
+    },
+    {
+      "id": "SAHB-en-080",
+      "number": 80,
+      "title": "T Hy Broken Body Gracious Lord"
+    },
+    {
+      "id": "SAHB-en-081",
+      "number": 81,
+      "title": "T Can See Beyond Tbo River Jesus W Illno More D..."
+    },
+    {
+      "id": "SAHB-en-083",
+      "number": 83,
+      "title": "Th E Saviour Comes Liis Advent N Ig H T"
+    },
+    {
+      "id": "SAHB-en-087",
+      "number": 87,
+      "title": "T IFT up your heads, Emmanuels"
+    },
+    {
+      "id": "SAHB-en-091",
+      "number": 91,
+      "title": "A Love Not the World Fo Rt Is Passing Away W He..."
+    },
+    {
+      "id": "SAHB-en-096",
+      "number": 96,
+      "title": "I We Are Voyagers on an Ocean"
+    },
+    {
+      "id": "SAHB-en-107",
+      "number": 107,
+      "title": "Down in Old Jordans Rolling Stream 4 a H Whithe..."
+    },
+    {
+      "id": "SAHB-en-108",
+      "number": 108,
+      "title": "Shall We Meet Beyond the River"
+    },
+    {
+      "id": "SAHB-en-109",
+      "number": 109,
+      "title": "At the Smiling of the River"
+    },
+    {
+      "id": "SAHB-en-112",
+      "number": 112,
+      "title": "J for a Heart to Praise My God 1 a Come with Me..."
+    },
+    {
+      "id": "SAHB-en-113",
+      "number": 113,
+      "title": "Ckeptic Spare That Book Touch Not a Single Leaf..."
+    },
+    {
+      "id": "SAHB-en-119",
+      "number": 119,
+      "title": "Our Coming King Jesus by Name"
+    },
+    {
+      "id": "SAHB-en-124",
+      "number": 124,
+      "title": "N O M Ortal Eye That Land Can See"
+    },
+    {
+      "id": "SAHB-en-130",
+      "number": 130,
+      "title": "The Soldiers Are Gathering from Near and from Far"
+    },
+    {
+      "id": "SAHB-en-131",
+      "number": 131,
+      "title": "DOWN where the Christian army Bravely"
+    }
+  ],
+  "hymn_numbers": [1, 3, 4, 6, 11, 16, 20, 22, 36, 43, 52, 62, 73, 79, 80, 81, 83, 87, 91, 96, 107, 108, 109, 112, 113, 119, 124, 130, 131],
+  "metadata": {
+    "description": "Historic Second Advent hymnal from 1867, representing early Adventist hymnody during the formative period of the Adventist movement",
+    "copyright": "Public Domain",
+    "original_format": "PDF scan of printed hymnal",
+    "extraction_method": "AI-assisted PDF text extraction and processing",
+    "extraction_date": "2025-07-05",
+    "themes": {
+      "second advent": 29,
+      "baptism": 12,
+      "heaven": 27,
+      "salvation": 21,
+      "resurrection": 18,
+      "worship": 24,
+      "love": 15,
+      "prayer": 8,
+      "second coming": 25,
+      "judgment": 14,
+      "faith": 16,
+      "comfort": 18,
+      "pilgrimage": 22,
+      "journey": 19,
+      "jesus": 26,
+      "death and resurrection": 14
+    },
+    "unique_tunes": 29,
+    "tune_list": [
+      "Are we almost there ? P. M Thy home is in that world of glory",
+      "Bebron. ^",
+      "Bower of Prayer",
+      "Canaan",
+      "Come Away",
+      "Dixie Land",
+      "Happy Day. L. M",
+      "I Love Thee",
+      "I Love Thee. P. M",
+      "ITcbrort",
+      "John Brown",
+      "Lilly Dale. 12s & 9s",
+      "Marching Along",
+      "Marching along",
+      "Monarch o f all I Survey. 8S",
+      "Nellie Gray. P. M",
+      "Over There",
+      "Over the River",
+      "Rest fo r the Weary",
+      "The Evergreen Shore",
+      "The Pearl. Vs",
+      "Time's Farewell",
+      "Watchman",
+      "We are Going L. M",
+      "When marshal'd on the nightly pmin. 3 Ere we reach the shining river",
+      "Woodman Sparc that Tree",
+      "\" Tramp Tramp.\" H u sh ! be every murmur dumb",
+      "\" Tramp tramp tramp''",
+      "\"Anna Lisle.\""
+    ],
+    "extraction_notes": [
+      "Extracted from 61-page PDF with 2-column layout",
+      "Some hymns may have formatting artifacts due to historical document structure",
+      "Total of 29 hymns successfully extracted with verse structure",
+      "Original numbering system preserved where identifiable",
+      "Verses sometimes appear fragmented due to column breaks in original layout",
+      "Tune names preserved as they appear in original, including period-specific notations",
+      "Some titles truncated in display due to historical typography limitations"
+    ],
+    "quality_assessment": {
+      "extraction_completeness": "Partial - 29 hymns extracted from estimated 131 total",
+      "text_quality": "Good - Most hymns have readable text with some OCR artifacts",
+      "structural_integrity": "Variable - Some verses may be fragmented or incomplete",
+      "metadata_accuracy": "High - Publication details confirmed from original source"
+    }
+  },
+  "schema_version": "1.0"
+}

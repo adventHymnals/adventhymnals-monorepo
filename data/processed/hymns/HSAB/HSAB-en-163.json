@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-163",
+  "number": 27,
+  "title": "MY SOUL IS FULL OF GLORY",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "MY soul is full of glory,\nInspiring my tongue;\nCould I meet with angels,\nI would sing them a song;\nI would sing of my Jesus,\nAnd tell of his charms,\nAnd beg them to bear me\nTo his loving arms."
+    },
+    {
+      "number": 2,
+      "text": "Methinks they're descending\nTo hear what I sing;\nWell pleased to hear mortals\nPraising their King:\nO angels, O, angels!\nMy soul's in a flame,\nI faint in sweet raptures\nAt Jesus' name."
+    },
+    {
+      "number": 3,
+      "text": "O Jesus! O Jesus!\nThou balm of my soul,\n'Twas thou my dear Jesus,\nThat made my heart whole:\nO bring me to view thee,\nThou heavenly King,\nIn oceans of glory\nThy praises to sing."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["glory", "praise", "Jesus", "angels", "joy", "worship", "healing"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

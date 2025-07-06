@@ -1,0 +1,37 @@
+{
+  "id": "HSAB-en-121",
+  "number": 121,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "DEAR Lord, we would thy praises sing,\nOn this, thy holy day;\nWith grateful hearts our tribute bring,\nAnd to thee homage pay."
+    },
+    {
+      "number": 2,
+      "text": "This day, which thou for us hast blest,\nAnd set apart as thine;\nThis day, when God himself did rest,\nHath honors all divine."
+    },
+    {
+      "number": 3,
+      "text": "Lord, we would turn away our feet\nFrom this, thy holy day;\nAnd call its rest and worship sweet,\nNot doing our own way."
+    },
+    {
+      "number": 4,
+      "text": "That we may thus restore the breach,\nWhich in thy law is made;\nWe need thy grace our hearts to teach,\nWe need thy Spirit's aid."
+    },
+    {
+      "number": 5,
+      "text": "O give us wisdom from above,\nTo worship thee aright;\nTill we shall meet him whom we love,\nAnd faith is lost in sight."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "praise", "holy day", "worship", "divine law", "grace", "Spirit"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

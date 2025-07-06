@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-168",
+  "number": 168,
+  "title": "O holy book of truth divine",
+  "author": "L. O. Emerson",
+  "composer": null,
+  "tune": "Sessions",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O holy book of truth divine!\nEternal as thy Maker's name;\nThrough countless ages of decline\nThy glowing truths have stood the same."
+    },
+    {
+      "number": 2,
+      "text": "The dust of time is on thy page,\nYet time no power and hallowed thought;\nIn every clime, in every age,\nHave saints thy holy comfort sought."
+    },
+    {
+      "number": 3,
+      "text": "Thou art the life, the joy, the peace,\nThe hope of trailing thousands here,\nWhose faith shall never, never cease\nBeyond this dreary mortal sphere."
+    },
+    {
+      "number": 4,
+      "text": "No other rule by which to live,\nNo other hope such peace can give\nWhen days and years have ceased to roll."
+    },
+    {
+      "number": 5,
+      "text": "O wondrous lamp of promise sweet!\nThy light illumes the trusting soul\nWhen every hope that earth can meet\nWhen days and years have ceased to roll."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Scripture", "divine truth", "eternal word", "spiritual comfort", "hope"],
+    "scripture_references": [],
+    "tune_source": "Sessions, L. O. Emerson",
+    "original_language": "en"
+  }
+}

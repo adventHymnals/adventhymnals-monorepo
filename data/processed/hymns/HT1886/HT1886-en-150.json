@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-150",
+  "number": 150,
+  "title": "Great Spirit, by whose mighty power",
+  "author": "Thomas Haweis",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Great Spirit, by whose mighty power\nAll creatures live and move,\nOn us thy benediction shower;\nInspire our souls with love."
+    },
+    {
+      "number": 2,
+      "text": "Hail, Source of light! arise and shine;\nDarkness and doubt dispel;\nGive peace and joy, for we are thine;\nIn us forever dwell."
+    },
+    {
+      "number": 3,
+      "text": "From death to life our spirits raise,\nAnd full redemption bring;\nNew tongues impart to speak the praise\nOf Christ, our God and King."
+    },
+    {
+      "number": 4,
+      "text": "Thine inward witness bear, unknown\nTo all the world beside;\nExalting thee, we feel and own\nOur Saviour glorified."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "divine power", "spiritual light", "redemption", "praise"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

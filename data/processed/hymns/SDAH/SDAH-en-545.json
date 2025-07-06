@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-545",
+  "number": 545,
+  "title": "Savior, Like a Shepherd",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Savior, like a Shepherd lead us,\nMuch we need Thy tenderest care;\nIn Thy pleasant pastures feed us,\nFor our use Thy folds prepare."
+    },
+    {
+      "number": 2,
+      "text": "We are Thine; do Thou befriend us,\nBe the Guardian of our way;\nKeep Thy flock, from sin defend us,\nSeek us when we go astray."
+    },
+    {
+      "number": 3,
+      "text": "Thou hast promised to receive us,\nPoor and sinful though we be;\nThou hast mercy to relieve us,\nGrace to cleanse, and power to free."
+    }
+  ],
+  "chorus": {
+    "text": "Blessed Jesus, blessed Jesus,\nThou hast bought us, Thine we are;\nBlessed Jesus, blessed Jesus,\nHear, O hear us when we pray!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["shepherd", "guidance", "protection", "care"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

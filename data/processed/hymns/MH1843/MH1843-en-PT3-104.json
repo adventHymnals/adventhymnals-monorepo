@@ -1,0 +1,33 @@
+{
+  "id": "MH1843-en-PT3-104",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "104",
+  "title": "King of Glory, King of Peace",
+  "verses": [
+    {
+      "number": "1",
+      "text": "King of glory, King of peace, I will love Thee; And that love may never cease, I will move Thee."
+    },
+    {
+      "number": "2",
+      "text": "Wherefore with my utmost art I will sing Thee, And the cream of all my heart I will bring Thee."
+    },
+    {
+      "number": "3",
+      "text": "Seven whole days, not one in seven, I will praise Thee; In my heart, though not in heaven, I can raise Thee."
+    }
+  ],
+  "refrain": {
+    "text": "Thou hast granted my request, Thou hast heard me; Thou didst note my working breast, Thou hast spared me."
+  },
+  "meter": "7.7.7.7.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 243,
+  "themes": ["King", "Glory", "Peace", "Love", "Heart", "Praise", "Seven", "Days"],
+  "key_signature": "",
+  "time_signature": ""
+}

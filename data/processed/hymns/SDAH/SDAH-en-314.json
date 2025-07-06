@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-314",
+  "number": 314,
+  "title": "Just as I Am",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Just as I am, without one plea\nBut that Thy blood was shed for me,\nAnd that Thou bid'st me come to Thee,\nO Lamb of God, I come, I come."
+    },
+    {
+      "number": 2,
+      "text": "Just as I am, and waiting not\nTo rid my soul of one dark blot,\nTo Thee whose blood can cleanse each spot,\nO Lamb of God, I come, I come."
+    },
+    {
+      "number": 3,
+      "text": "Just as I am, though tossed about\nWith many a conflict, many a doubt,\nFightings with in, and fears without,\nO Lamb of God, I come, I come."
+    },
+    {
+      "number": 4,
+      "text": "Just as I am, poor, wretched, blind;\nSight, riches, healing of the mind,\nYea, all I need, in Thee I find,\nO Lamb of God, I come, I come."
+    },
+    {
+      "number": 5,
+      "text": "Just as I am, Thou wilt receive,\nWilt welcome, pardon, cleanse, relieve;\nBecause Thy promise I believe,\nO Lamb of God, I come, I come."
+    },
+    {
+      "number": 6,
+      "text": "Just as I am, Thy love unknown\nHas broken every barrier down;\nNow to be Thine, yea, Thine alone,\nO Lamb of God, I come, I come."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Invitation", "Salvation", "Acceptance", "Grace"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

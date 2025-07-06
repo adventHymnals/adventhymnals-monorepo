@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-022",
+  "number": 22,
+  "title": "My God, my King, thy various praise",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My God, my King, thy various praise\nShall fill the remnant of my days;\nThy love shall sound from shore to shore,\nWith humble prayer and grateful song."
+    },
+    {
+      "number": 2,
+      "text": "The wings of every hour shall bear\nSome thankful tribute to thine ear;\nAnd every setting sun shall see\nNew works of duty done for thee."
+    },
+    {
+      "number": 3,
+      "text": "Let distant climes and nations raise\nThe long succession of thy praise;\nAnd every kindred make thy song\nThe joy and triumph of their tongue."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "praise", "devotion"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

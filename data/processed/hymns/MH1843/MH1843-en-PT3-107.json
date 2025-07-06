@@ -1,0 +1,33 @@
+{
+  "id": "MH1843-en-PT3-107",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "107",
+  "title": "Worthy, Worthy Is the Lamb",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Worthy, worthy is the Lamb, Worthy, worthy is the Lamb That was slain."
+    },
+    {
+      "number": "2",
+      "text": "Savior, let Thy kingdom come! Now the power of sin consume, Bring Thy blest millennium, Holy Lamb."
+    },
+    {
+      "number": "3",
+      "text": "Thus may we each moment feel, Love Him, serve Him, praise Him still, Till we all on Zion's hill See the Lamb."
+    }
+  ],
+  "refrain": {
+    "text": "Glory, hallelujah! Praise Him, hallelujah! Glory, hallelujah! To the Lamb!"
+  },
+  "meter": "6.6.6.6. with Refrain",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 246,
+  "themes": ["Worthy", "Lamb", "Slain", "Savior", "Kingdom", "Power", "Glory", "Hallelujah"],
+  "key_signature": "",
+  "time_signature": ""
+}

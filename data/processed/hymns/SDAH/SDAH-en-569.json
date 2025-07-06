@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-569",
+  "number": 569,
+  "title": "Pass Me Not, O Gentle Savior",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Pass me not, O gentle Savior,\nHear my humble cry;\nWhile on others Thou art calling,\nDo not pass me by."
+    },
+    {
+      "number": 2,
+      "text": "Let me at Thy throne of mercy\nFind a sweet relief;\nKneeling there in deep contrition,\nHelp my unbelief."
+    },
+    {
+      "number": 3,
+      "text": "Trusting only in Thy merit,\nWould I seek Thy face;\nHeal my wounded, broken spirit,\nSave me by Thy grace."
+    },
+    {
+      "number": 4,
+      "text": "Thou the spring of all my comfort,\nMore than life for me;\nWhom have I on earth beside Thee?\nWhom in heaven but Thee?"
+    }
+  ],
+  "chorus": {
+    "text": "Savior, Savior, hear my humble cry,\nWhile on others Thou are calling,\nDo not pass me by."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["prayer", "mercy", "salvation", "humility"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

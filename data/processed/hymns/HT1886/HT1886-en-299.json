@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-299",
+  "number": 299,
+  "title": "As with glad-some men of old did the guiding star behold",
+  "author": "William H. Monk",
+  "composer": null,
+  "tune": "Dix",
+  "meter": "7s 6L",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "As with glad-some men of old did the guiding star behold;\nAs with joyful steps they sped to the lowly manger-bed,\nThere to bend the knee before Him whom heaven and earth adore;\nSo may we with willing feet Ever seek the mercy-seat."
+    },
+    {
+      "number": 2,
+      "text": "As with joyful steps they sped to the lowly manger-bed,\nThere to bend the knee before Him whom heaven and earth adore;\nSo may we with willing feet Ever seek the mercy-seat."
+    },
+    {
+      "number": 3,
+      "text": "As they offered gifts most rare at that manger rude and bare;\nSo may we with holy joy, Pure, and free from sin's alloy,\nAll our costliest treasures bring, Christ, to thee, our heavenly King."
+    },
+    {
+      "number": 4,
+      "text": "Blessed Saviour, every day Keep us in the narrow way;\nAnd, when earthly things are past, Bring our ransomed souls at last\nWhere they need no star to guide, Where no clouds thy glory hide."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Christmas", "wise men", "star", "worship", "salvation"],
+    "scripture_references": [],
+    "tune_source": "Dix, William H. Monk",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-241",
+  "number": 241,
+  "title": "Holy Sabbath, sacred rest",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy Sabbath, sacred rest,\nWelcome to each weary breast;\nCheering hour that points away\nTo eternity's bright day."
+    },
+    {
+      "number": 2,
+      "text": "Ever since creation's birth,\nThou hast been to cheer the earth;\nWhen the course of time began,\nThou wast made, and made for man."
+    },
+    {
+      "number": 3,
+      "text": "While thou bring'st peaceful rest,\nMan by thee is doubly blest;\nThou dost raise our thoughts to raise\nTo our great Creator's praise."
+    },
+    {
+      "number": 4,
+      "text": "Thus drawn nearer to our Lord,\nHearts attained to sweet accord,\nWe shall hail the glorious day\nWhen all flesh shall own his sway."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "rest", "creation", "praise"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

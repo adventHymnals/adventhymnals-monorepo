@@ -1,0 +1,56 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    // typedRoutes: true, // Disabled temporarily due to dynamic route issues
+  },
+  images: {
+    domains: ['raw.githubusercontent.com'],
+    formats: ['image/webp', 'image/avif'],
+    minimumCacheTTL: 31536000, // 1 year
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap.xml',
+        destination: '/api/sitemap',
+      },
+      {
+        source: '/robots.txt',
+        destination: '/api/robots',
+      },
+    ];
+  },
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+          {
+            key: 'Referrer-Policy',
+            value: 'strict-origin-when-cross-origin',
+          },
+        ],
+      },
+    ];
+  },
+  env: {
+    SITE_URL: process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : 'http://localhost:3000',
+  },
+  transpilePackages: [
+    '@advent-hymnals/shared',
+    '@advent-hymnals/hymnal-processor',
+    '@advent-hymnals/metadata-indexer',
+  ],
+};
+
+module.exports = nextConfig;

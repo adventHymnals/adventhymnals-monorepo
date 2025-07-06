@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-463",
+  "number": 463,
+  "title": "Peace, Perfect Peace",
+  "author": "Edward Henry Bickersteth",
+  "composer": "George Thomas Caldbeck",
+  "tune": "PAX TECUM",
+  "meter": "10.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Peace, perfect peace, in this dark world of sin?\nThe blood of Jesus whispers peace within."
+    },
+    {
+      "number": 2,
+      "text": "Peace, perfect peace, by thronging duties pressed?\nTo do the will of Jesus: this is rest."
+    },
+    {
+      "number": 3,
+      "text": "Peace, perfect peace, with loved ones far away?\nIn Jesus' keeping we are safe, and they."
+    },
+    {
+      "number": 4,
+      "text": "Peace, perfect peace, our future all unknown?\nJesus we know, and He is on the throne."
+    }
+  ],
+  "metadata": {
+    "year": 1875,
+    "copyright": "Public Domain",
+    "themes": ["peace", "comfort", "trust", "security in Christ", "divine assurance"],
+    "scripture_references": ["Isaiah 26:3", "John 14:27", "Philippians 4:7"],
+    "tune_source": "George Thomas Caldbeck",
+    "original_language": "en"
+  }
+}

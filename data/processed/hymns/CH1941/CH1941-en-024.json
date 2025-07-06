@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-024",
+  "number": 24,
+  "title": "How Pleasant, How Divinely Fair",
+  "author": "Isaac Watts",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How pleasant, how divinely fair,\nO Lord of hosts, Thy dwellings are!\nWith long desire my spirit faints\nTo meet the assemblies of Thy saints."
+    },
+    {
+      "number": 2,
+      "text": "My flesh would rest in Thine abode,\nMy panting heart cries out for God;\nMy God! my King! why should I be\nSo far from all my joys and Thee?"
+    },
+    {
+      "number": 3,
+      "text": "The sparrow builds herself a nest\nAnd suffers no remove;\nO make me, like the sparrows, blessed\nTo dwell but where I love."
+    },
+    {
+      "number": 4,
+      "text": "To spend one day with Thee on earth\nExceeds a thousand days\nOf sinful mirth;\nA day within Thy courts to be\nIs sweeter, Lord, than all the world to me."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": ["worship", "longing for God", "sanctuary", "presence of God"],
+    "scripture_references": ["Psalm 84"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

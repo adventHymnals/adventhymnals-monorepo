@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-036",
+  "number": 36,
+  "title": "Come, thou almighty King",
+  "author": "Charles Wesley",
+  "composer": null,
+  "tune": null,
+  "meter": "165, 127, 664",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, thou almighty King,\nHelp us thy name to sing,\nHelp us to praise.\nFather all-glorious,\nO'er all victorious,\nCome, and reign over us,\nAncient of Days."
+    },
+    {
+      "number": 2,
+      "text": "Come, thou incarnate Word,\nGird on thy mighty sword,\nOur prayer attend.\nCome and thy people bless,\nAnd give thy word success;\nSpirit of holiness,\nOn us descend."
+    },
+    {
+      "number": 3,
+      "text": "Come, holy Comforter,\nThy sacred witness bear\nIn this glad hour!\nThou who almighty art,\nRule now in every heart,\nAnd ne'er from us depart,\nSpirit of power."
+    },
+    {
+      "number": 4,
+      "text": "Thou art the mighty One,\nOn earth thy will be done,\nFrom shore to shore.\nThy sovereign majesty\nMay we in glory see,\nAnd through eternity\nLove and adore."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Trinity", "God's power", "Holy Spirit", "worship", "prayer"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

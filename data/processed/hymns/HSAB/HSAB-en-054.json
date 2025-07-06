@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-054",
+  "number": 54,
+  "title": "Unity",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WHEN shall we meet again?\nMeet ne'er to sever?\nWhen will peace wreath her chain,\nRound us for ever?\nOur hearts will ne'er repose,\nSafe from each blast that blows,\nIn this dark vale of woes,\nNever! No, never!"
+    },
+    {
+      "number": 2,
+      "text": "When shall love freely flow?\nPure as life's river?\nWhen shall sweet friendship glow,\nChangeless for ever?\nWhere joys celestial thrill,\nWhere bliss each heart shall fill,\nAnd tears of parting chill,\nNever! No, never!"
+    },
+    {
+      "number": 3,
+      "text": "There, to that world of light,\nTake us, dear Saviour;\nMay we all there unite,\nHappy, for ever;\nWhere kindred spirits dwell,\nThere may our music swell,\nAnd time our joys dispel,\nNever! No, never!"
+    },
+    {
+      "number": 4,
+      "text": "Soon shall we meet again,\nMeet ne'er to sever;\nThere will peace wreath her chain,\nRound us for ever;\nWeary saint, then repose,\nFree from all worldly woes,\nOur songs of praise shall close,\nNever! No, never!"
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["unity", "meeting", "peace", "love", "eternity"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

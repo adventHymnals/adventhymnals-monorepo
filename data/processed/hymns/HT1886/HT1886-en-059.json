@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-059",
+  "number": 59,
+  "title": "God is the name my soul adores",
+  "author": null,
+  "composer": "Isaac Watts",
+  "tune": "41, 634, 568",
+  "meter": "41, 634, 568",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God is the name my soul adores,\nAlmighty, high, Eternal One;\nBoth heaven and earth, with all their powers,\nConfess the Infinite Unknown."
+    },
+    {
+      "number": 2,
+      "text": "Thy voice ordained the rolling spheres,\nAnd bid the countless planets shine;\nBut nothing like thyself appears\nThrough all these spacious works of thine."
+    },
+    {
+      "number": 3,
+      "text": "Still restless nature dies and grows,\nFrom change to change thy creatures run;\nThy being no succession knows,\nAnd all thy vast designs are one."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's name", "divine majesty", "God's eternity", "creation", "God's unchanging nature", "worship"],
+    "scripture_references": [],
+    "tune_source": "Isaac Watts",
+    "original_language": "en"
+  }
+}

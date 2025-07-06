@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-234",
+  "number": 234,
+  "title": "Hail, peaceful day! let thy glorious world rejoice",
+  "author": "Lowell Mason",
+  "composer": null,
+  "tune": "Nashville",
+  "meter": "L. M. 6l.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hail, peaceful day! let thy glorious world rejoice,\nHail, memorial of that sacred rest\nOf what creation's mighty King\nThe hallowed time to men was given,\nA foretaste of the bliss of heaven."
+    },
+    {
+      "number": 2,
+      "text": "Hark! through the earth-encircling courts above\nWhat rapturous praises echo now!\nAround that holy law of love\nSeraphs in adoration bow;\nLet earth respond to the strain,\nExalt alone Jehovah's name."
+    },
+    {
+      "number": 3,
+      "text": "O come, thou bright, immortal day!\nWhen at his temple all adore,\nAnd own his universal sway\nThen Zion shall in triumph reign,\nAnd Eden bloom on earth again."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "peace", "creation", "heaven", "Zion"],
+    "scripture_references": [],
+    "tune_source": "Nashville, L. M. 6l., Lowell Mason",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-320",
+  "number": 320,
+  "title": "O Love divine, what hast thou done!",
+  "author": "Charles Wesley",
+  "composer": "Unknown",
+  "tune": "Stella",
+  "meter": "L. M. 6L.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Love divine, what hast thou done!\nThe incarnate God hath died for me!\nThe Father's well-beloved Son\nBore all my sins upon the tree!\nThe Son of God for me hath died,—\nMy Lord, my Love, is crucified."
+    },
+    {
+      "number": 2,
+      "text": "Behold him, all ye passers by—\nThe bleeding Prince of life and peace!\nCome, sinners, see your Saviour die,\nAnd say, was ever grief like his?\nCome, feel with me his blood applied,—\nMy Lord, my Love, is crucified:"
+    },
+    {
+      "number": 3,
+      "text": "Is crucified for me and you,\nTo bring us rebels back to God;\nBelieve, believe the record true,\nYe all are bought with Jesus' blood;\nPardon for all flows from his side,—\nMy Lord, my Love, is crucified."
+    },
+    {
+      "number": 4,
+      "text": "Then let us sit beneath his cross,\nAnd gladly catch the healing stream;\nAll things for him account but loss,\nAnd give up all our hearts to him!\nOf nothing think or speak beside,—\nMy Lord, my Love, is crucified."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "love", "crucifixion", "sacrifice", "salvation"],
+    "scripture_references": [],
+    "tune_source": "Stella, Unknown",
+    "original_language": "en"
+  }
+}

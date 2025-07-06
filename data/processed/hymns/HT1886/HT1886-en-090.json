@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-090",
+  "number": 90,
+  "title": "O, bless the Lord, my soul",
+  "author": null,
+  "composer": null,
+  "tune": "161, 238, 266",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O, bless the Lord, my soul!\nLet all within me join,\nAnd aid my tongue to bless his name,\nWhose favors are divine."
+    },
+    {
+      "number": 2,
+      "text": "O, bless the Lord, my soul!\nNor let his mercies lie\nForgotten in unthankfulness,\nAnd without praises die."
+    },
+    {
+      "number": 3,
+      "text": "'Tis he forgives thy sins,\n'Tis he relieves thy pain,\n'Tis he that heals thy sicknesses,\nAnd makes thee whole again."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["blessing God", "praise", "God's mercy", "forgiveness", "healing"],
+    "scripture_references": [],
+    "tune_source": "161, 238, 266",
+    "original_language": "en"
+  }
+}

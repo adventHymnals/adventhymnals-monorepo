@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-434",
+  "number": 434,
+  "title": "We Speak of the Realms",
+  "author": "Elizabeth Mills",
+  "composer": "Traditional",
+  "tune": "WE SPEAK OF THE REALMS",
+  "meter": "C.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We speak of the realms of the blest,\nThat country so bright and so fair,\nAnd oft are its glories confessed,\nBut what must it be to be there!"
+    },
+    {
+      "number": 2,
+      "text": "We speak of its freedom from sin,\nFrom sorrow, temptation and care,\nFrom trials without and within,\nBut what must it be to be there!"
+    },
+    {
+      "number": 3,
+      "text": "Our mourning is all at an end,\nWhen raised by the life-giving Lord,\nAnd shortly I also shall know\nAnd feel what it is to be there!"
+    },
+    {
+      "number": 4,
+      "text": "Do Thou, 'midst temptation and woe,\nFor heaven my spirit prepare;\nThen shortly I also shall know\nAnd feel what it is to be there!"
+    }
+  ],
+  "chorus": {
+    "text": "We speak of its pathway of gold,\nIts walls decked with jewels so rare,\nIts wonders and pleasures untold,\nBut what must it be to be there!\nWe speak of its service of love,\nOf the robes which the glorified wear,\nOf the church of the firstborn above,\nBut what must it be to be there!"
+  },
+  "metadata": {
+    "year": 1865,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "glory", "eternal life", "freedom from sin", "anticipation"],
+    "scripture_references": ["Revelation 21:21", "Hebrews 12:23", "1 Corinthians 2:9"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "SDAH-en-471",
+  "number": 471,
+  "title": "Grant Us Your Peace",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "DONA NOBIS PACEM",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Dona nobis pacem, pacem.\nDona nobis pacem.\nDona nobis pacem.\nDona nobis pacem.\nDona nobis pacem.\nGrant us Your peace."
+    }
+  ],
+  "metadata": {
+    "year": 1400,
+    "copyright": "Public Domain",
+    "themes": ["peace", "prayer", "Latin text", "divine petition", "worship"],
+    "scripture_references": ["John 14:27", "Numbers 6:26", "Philippians 4:7"],
+    "tune_source": "Traditional",
+    "original_language": "la"
+  }
+}

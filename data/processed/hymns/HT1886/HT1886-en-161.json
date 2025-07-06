@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-161",
+  "number": 161,
+  "title": "Holy Spirit, truth divine",
+  "author": "Samuel Longfellow",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy Spirit, truth divine,\nDawn upon this soul of mine;\nWord of God, and inward light,\nWake my spirit, clear my sight."
+    },
+    {
+      "number": 2,
+      "text": "Holy Spirit, love divine,\nGlow within this heart of mine;\nKindle every high desire,\nPerish self in thy pure fire."
+    },
+    {
+      "number": 3,
+      "text": "Holy Spirit, power divine!\nFill and nerve this will of mine;\nBy thy law, and I shall be\nFirmly bound, yet ever free."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "divine truth", "spiritual awakening", "love", "freedom"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

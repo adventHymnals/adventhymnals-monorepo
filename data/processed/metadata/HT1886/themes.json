@@ -1,0 +1,236 @@
+{
+  "themes": [
+    {
+      "theme": "worship",
+      "hymns": ["HT1886-en-015", "HT1886-en-016", "HT1886-en-017", "HT1886-en-018", "HT1886-en-019", "HT1886-en-020", "HT1886-en-021", "HT1886-en-022", "HT1886-en-023", "HT1886-en-024", "HT1886-en-025", "HT1886-en-026", "HT1886-en-984"]
+    },
+    {
+      "theme": "prayer",
+      "hymns": ["HT1886-en-015", "HT1886-en-018", "HT1886-en-141", "HT1886-en-983"]
+    },
+    {
+      "theme": "seeking God",
+      "hymns": ["HT1886-en-015"]
+    },
+    {
+      "theme": "Jesus",
+      "hymns": ["HT1886-en-016", "HT1886-en-771"]
+    },
+    {
+      "theme": "praise",
+      "hymns": ["HT1886-en-016", "HT1886-en-017", "HT1886-en-019", "HT1886-en-020", "HT1886-en-021", "HT1886-en-022", "HT1886-en-023", "HT1886-en-024", "HT1886-en-026", "HT1886-en-140"]
+    },
+    {
+      "theme": "heaven",
+      "hymns": ["HT1886-en-017", "HT1886-en-616", "HT1886-en-617", "HT1886-en-981", "HT1886-en-984"]
+    },
+    {
+      "theme": "God's house",
+      "hymns": ["HT1886-en-018", "HT1886-en-025"]
+    },
+    {
+      "theme": "God's sovereignty",
+      "hymns": ["HT1886-en-019"]
+    },
+    {
+      "theme": "God's condescending grace",
+      "hymns": ["HT1886-en-020"]
+    },
+    {
+      "theme": "creation",
+      "hymns": ["HT1886-en-021"]
+    },
+    {
+      "theme": "angels",
+      "hymns": ["HT1886-en-021"]
+    },
+    {
+      "theme": "devotion",
+      "hymns": ["HT1886-en-022"]
+    },
+    {
+      "theme": "universal praise",
+      "hymns": ["HT1886-en-023"]
+    },
+    {
+      "theme": "universal worship",
+      "hymns": ["HT1886-en-024"]
+    },
+    {
+      "theme": "protection",
+      "hymns": ["HT1886-en-025", "HT1886-en-770", "HT1886-en-771"]
+    },
+    {
+      "theme": "testimony",
+      "hymns": ["HT1886-en-026"]
+    },
+    {
+      "theme": "heart",
+      "hymns": ["HT1886-en-140", "HT1886-en-468"]
+    },
+    {
+      "theme": "Holy Spirit",
+      "hymns": ["HT1886-en-140", "HT1886-en-141", "HT1886-en-142", "HT1886-en-143"]
+    },
+    {
+      "theme": "healing",
+      "hymns": ["HT1886-en-141", "HT1886-en-305"]
+    },
+    {
+      "theme": "nature",
+      "hymns": ["HT1886-en-142"]
+    },
+    {
+      "theme": "blessing",
+      "hymns": ["HT1886-en-142"]
+    },
+    {
+      "theme": "comfort",
+      "hymns": ["HT1886-en-143"]
+    },
+    {
+      "theme": "grace",
+      "hymns": ["HT1886-en-143", "HT1886-en-770"]
+    },
+    {
+      "theme": "following Christ",
+      "hymns": ["HT1886-en-304"]
+    },
+    {
+      "theme": "sacrifice",
+      "hymns": ["HT1886-en-304"]
+    },
+    {
+      "theme": "sight",
+      "hymns": ["HT1886-en-305"]
+    },
+    {
+      "theme": "following Jesus",
+      "hymns": ["HT1886-en-305"]
+    },
+    {
+      "theme": "transfiguration",
+      "hymns": ["HT1886-en-306"]
+    },
+    {
+      "theme": "glory",
+      "hymns": ["HT1886-en-306", "HT1886-en-982"]
+    },
+    {
+      "theme": "vision",
+      "hymns": ["HT1886-en-306"]
+    },
+    {
+      "theme": "gospel",
+      "hymns": ["HT1886-en-307"]
+    },
+    {
+      "theme": "Jesus' teaching",
+      "hymns": ["HT1886-en-307"]
+    },
+    {
+      "theme": "rest",
+      "hymns": ["HT1886-en-307"]
+    },
+    {
+      "theme": "compassion",
+      "hymns": ["HT1886-en-466"]
+    },
+    {
+      "theme": "salvation",
+      "hymns": ["HT1886-en-466"]
+    },
+    {
+      "theme": "repentance",
+      "hymns": ["HT1886-en-466"]
+    },
+    {
+      "theme": "forgiveness",
+      "hymns": ["HT1886-en-467"]
+    },
+    {
+      "theme": "sanctification",
+      "hymns": ["HT1886-en-467"]
+    },
+    {
+      "theme": "promise",
+      "hymns": ["HT1886-en-467"]
+    },
+    {
+      "theme": "consecration",
+      "hymns": ["HT1886-en-468"]
+    },
+    {
+      "theme": "surrender",
+      "hymns": ["HT1886-en-468"]
+    },
+    {
+      "theme": "pilgrimage",
+      "hymns": ["HT1886-en-616", "HT1886-en-983"]
+    },
+    {
+      "theme": "journey",
+      "hymns": ["HT1886-en-616"]
+    },
+    {
+      "theme": "Christian warfare",
+      "hymns": ["HT1886-en-617"]
+    },
+    {
+      "theme": "perseverance",
+      "hymns": ["HT1886-en-617"]
+    },
+    {
+      "theme": "refuge",
+      "hymns": ["HT1886-en-770", "HT1886-en-771"]
+    },
+    {
+      "theme": "Second Advent",
+      "hymns": ["HT1886-en-899", "HT1886-en-900"]
+    },
+    {
+      "theme": "judgment",
+      "hymns": ["HT1886-en-899"]
+    },
+    {
+      "theme": "return of Christ",
+      "hymns": ["HT1886-en-899"]
+    },
+    {
+      "theme": "resurrection",
+      "hymns": ["HT1886-en-900"]
+    },
+    {
+      "theme": "hope",
+      "hymns": ["HT1886-en-900"]
+    },
+    {
+      "theme": "Jerusalem",
+      "hymns": ["HT1886-en-981"]
+    },
+    {
+      "theme": "longing",
+      "hymns": ["HT1886-en-981"]
+    },
+    {
+      "theme": "New Jerusalem",
+      "hymns": ["HT1886-en-982"]
+    },
+    {
+      "theme": "Second Coming",
+      "hymns": ["HT1886-en-982"]
+    },
+    {
+      "theme": "Zion",
+      "hymns": ["HT1886-en-983"]
+    },
+    {
+      "theme": "city of God",
+      "hymns": ["HT1886-en-983"]
+    },
+    {
+      "theme": "paradise",
+      "hymns": ["HT1886-en-984"]
+    }
+  ]
+}

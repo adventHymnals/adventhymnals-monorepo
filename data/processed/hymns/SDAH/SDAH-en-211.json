@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-211",
+  "number": 211,
+  "title": "Lo! He Comes",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lo! He comes, with clouds descending,\nOnce for favored sinners slain;\nCountless angels, Him attending,\nSwell the triumph of His train:"
+    },
+    {
+      "number": 2,
+      "text": "Every eye shall now behold Him\nRobed in dreadful majesty!\nThose who set at naught and sold Him,\nPierced, and nailed Him to the tree,"
+    },
+    {
+      "number": 3,
+      "text": "When the solemn trump has sounded,\nHeaven and earth shall flee away;\nAll who hate Him must, confounded,\nHear the summons of that day."
+    },
+    {
+      "number": 4,
+      "text": "Yea, amen! let all adore Thee,\nHigh on Thy eternal throne!\nSavior, take the power and glory,\nMake Thy righteous sentence known;"
+    }
+  ],
+  "chorus": {
+    "text": "Hallelujah! Hallelujah!\nDeep'ly wailing, Deep'ly wailing,\n'Come to judgment!' 'Come to judgment!'\nO come quickly, O come quickly,\nJesus comes, and comes to reign.\nShall the true Messiah see!\nCome to judgment!\nClaim the kingdom for Thine own!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Second Coming", "Judgment", "Clouds", "Majesty"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-290",
+  "number": 290,
+  "title": "To us a Child of hope is born",
+  "author": "John Morrison",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "To us a Child of hope is born;\nTo us a Son is given;\nHim shall the tribes of earth obey,\nHim all the hosts of heaven."
+    },
+    {
+      "number": 2,
+      "text": "His name shall be the Prince of peace,\nForevermore adored,\nThe Wonderful, the Counselor,\nThe great and mighty Lord!"
+    },
+    {
+      "number": 3,
+      "text": "His power increasing still shall spread,\nHis reign no end shall know;\nJustice shall guard his throne above,\nAnd peace abound below."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "First Advent", "Christmas", "hope", "Prince of Peace"],
+    "scripture_references": ["Isaiah 9:6"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

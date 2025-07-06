@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-021",
+  "number": 21,
+  "title": "Nature, with all her powers, shall sing",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Nature, with all her powers, shall sing\nHer great Creator and her King;\nNor air, nor earth, nor skies, nor seas,\nDeny the tribute of their praise."
+    },
+    {
+      "number": 2,
+      "text": "Ye seraphs who sit near his throne,\nBegin to make his glories known;\nTune high your harps, and spread his sound\nThrough all creation's utmost bound."
+    },
+    {
+      "number": 3,
+      "text": "O may our ardent zeal employ\nOur loftiest thoughts and loudest songs!\nLet there be sung, with warmest joy,\nHosanna from ten thousand tongues."
+    },
+    {
+      "number": 4,
+      "text": "Yet, mighty God, our feeble frame\nAttempts in vain to reach thy name;\nThe highest notes that angels raise\nFall far below thy glorious praise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "creation", "praise", "angels"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-064",
+  "number": 64,
+  "title": "Lord, how mysterious are thy ways",
+  "author": null,
+  "composer": "Lowell Mason",
+  "tune": "Hebron",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, how mysterious are thy ways! How blind are we, how mean our praise!\nThy steps no mortal eyes explore; 'Tis ours to wonder and adore."
+    },
+    {
+      "number": 2,
+      "text": "I do not ask that I may see\nWhat in the future waits for me;\nLet consciousness attend thy word,\nAnd thine shall be the humble praise."
+    },
+    {
+      "number": 3,
+      "text": "Are darkness and distress my share?\nGive me to trust thy guardian care;\nEnough for me, if love divine\nAt length through every trial shall shine."
+    },
+    {
+      "number": 4,
+      "text": "Yet may my soul desires to know,\nBe this my only wish below,\nThat Christ is mine—that great request,\nGrant, bounteous God, and I am blest."
+    },
+    {
+      "number": 5,
+      "text": "Be this my joy, that evermore\nThou rulest all things at thy will;\nThy sovereign wisdom I adore,\nAnd calmly, sweetly, trust thee still."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's mysterious ways", "trust", "divine wisdom", "humility", "faith", "surrender"],
+    "scripture_references": [],
+    "tune_source": "Hebron, Lowell Mason",
+    "original_language": "en"
+  }
+}

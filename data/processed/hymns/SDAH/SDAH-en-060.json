@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-060",
+  "number": 60,
+  "title": "Blessed Jesus, at Thy Word",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Blessed Jesus, at Thy word\nWe are gathered all to hear\nThee; Let our hearts and souls be stirred\nNow to seek and love and fear\nThee; By Thy teachings sweet and holy,\nDrawn from earth to love Thee solely."
+    },
+    {
+      "number": 2,
+      "text": "All our knowledge, sense, and sight\nLie in deepest darkness shrouded,\nTill Thy Spirit breaks our night\nWith the beams of truth unclouded;\nThou alone to God canst win us;\nThou must work all good within us."
+    },
+    {
+      "number": 3,
+      "text": "Glorious Lord, Thy self impart!\nLight of light, from God proceed\nWith the beams of Thy heart,\nHelp us by Thy Spirit's pleading;\nHear the cry Thy people raise us,\nThou must work all good within us."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus", "word", "teaching", "light", "spirit", "worship"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

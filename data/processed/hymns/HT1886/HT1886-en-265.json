@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-265",
+  "number": 265,
+  "title": "Now to the Lamb that once was slain",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Now to the Lamb that once was slain,\nBe endless blessings paid;\nSalvation, glory, joy, remain\nForever on thy head."
+    },
+    {
+      "number": 2,
+      "text": "Thou wilt redeem us by thy blood,\nAnd set the prisoners free,\nAnd make us kings and priests to God,\nAnd we shall reign with thee."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Lamb of God", "salvation", "redemption", "glory", "reign with Christ"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

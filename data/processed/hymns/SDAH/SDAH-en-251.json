@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-251",
+  "number": 251,
+  "title": "He Lives",
+  "author": "A. H. Ackley",
+  "composer": "A. H. Ackley",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I serve a risen Savior, He's in the world today;\nI know that He is living, whatever men may say;\nI see His hand of mercy, I hear His voice of cheer,\nAnd just the time I need Him He's always near."
+    },
+    {
+      "number": 2,
+      "text": "In all the world around me I see His loving care,\nAnd tho' my heart grows weary I never will despair;\nI know that He is leading thro' all the stormy blast,\nThe day of His appearing will come at last."
+    },
+    {
+      "number": 3,
+      "text": "Rejoice, rejoice, O Christian, lift up your voice and sing\nEternal hallelujahs to Jesus Christ the King!\nThe Hope of all who seek Him, the help of all who find,\nNone other is so loving, so good and kind."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1933,
+    "copyright": "© 1933 Word Music. All Rights Reserved. Used By Permission.",
+    "themes": ["Resurrection", "Living Savior", "Presence", "Hope", "Care"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

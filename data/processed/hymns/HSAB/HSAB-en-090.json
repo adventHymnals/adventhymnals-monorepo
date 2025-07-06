@@ -1,0 +1,37 @@
+{
+  "id": "HSAB-en-090",
+  "number": 90,
+  "title": "The Last Call",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'TIS the last call of mercy\nThat lingers for thee;\nOh! Will yo receive it;\nTo Jesus now flee!\nHe often has called thee,\nBut thou hast refus'd\nHis offered salvation,\nAnd love is abused."
+    },
+    {
+      "number": 2,
+      "text": "If thou slightest this warning\nNow offered at last,\nThine will be the sad mourning–\nThe harvest is past;\nSalvation I've slighted,\nThe summer is o'er,\nAnd now there is pardon,\nSweet pardon, no more."
+    },
+    {
+      "number": 3,
+      "text": "'Tis the last call of mercy,\nOh, turn not away,\nFor now swiftly hasteth\nThe dread vengeance day;\nThe Spirit invites you,\nAnd pleads with you, come!\nOh, come to Life's waters,\nNor thirstingly roam."
+    },
+    {
+      "number": 4,
+      "text": "'Tis the last call of mercy,\nOh, steel not thy heart,\nFor now she is rising\nFrom earth to depart;\nThe Bride is now calling–\n\"Ye thirsty souls, come!\"\nOh, come with the ransom'd,\nIn heaven there's room!"
+    },
+    {
+      "number": 5,
+      "text": "'Tis the last call of mercy\nThat lingers for thee,\nBreak away from thy bondage,\nOh, brother be free!\nBe not a sad mourner–\nThe harvest is past;\nThe summer is ended,\nAnd perish at last!"
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["last call", "mercy lingers", "harvest past", "spirit invites", "bride calling"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

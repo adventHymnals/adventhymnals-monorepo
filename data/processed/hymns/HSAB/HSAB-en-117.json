@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-117",
+  "number": 117,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "ANOTHER six days' work is done,\nAnother Sabbath is begun,\nReturn, my soul, enjoy thy rest,\nImprove the day that God has blest."
+    },
+    {
+      "number": 2,
+      "text": "Come, bless the Lord, whose love assigns\nSo sweet a rest to wearied minds;\nA blessed antepast is given,\nOn this day more than all the seven."
+    },
+    {
+      "number": 3,
+      "text": "O that our thoughts and thanks may rise\nAs grateful incense to the skies;\nAnd draw from Christ that sweet repose\nWhich none but he that feels it knows."
+    },
+    {
+      "number": 4,
+      "text": "This heavenly calm within the breast;\nIs the best pledge of glorious rest,\nWhich for the church of God remains,\nThe end of cares, the end of pains."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "rest", "worship", "Christ", "peace", "church"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

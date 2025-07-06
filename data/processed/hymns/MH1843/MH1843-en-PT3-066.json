@@ -1,0 +1,41 @@
+{
+  "id": "MH1843-en-PT3-066",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "066",
+  "title": "Awake, and sing the song",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Awake, and sing the song Of Moses and the Lamb; Wake, every heart and every tongue, To praise the Savior's name."
+    },
+    {
+      "number": "2",
+      "text": "Sing of his dying love, Sing of his rising power; Sing how he intercedes above For those whose sins he bore."
+    },
+    {
+      "number": "3",
+      "text": "Sing on your heavenly way, Ye ransomed sinners, sing; Sing on, rejoicing every day In Christ, the Eternal King."
+    },
+    {
+      "number": "4",
+      "text": "Soon shall we hear him say, \"Ye blessed children, come;\" Soon will he call us hence away, And take his wanderers home."
+    },
+    {
+      "number": "5",
+      "text": "Soon shall our raptured tongue His endless praise proclaim, And sweeter voices tune the song Of Moses and the Lamb."
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "S.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 205,
+  "themes": ["Awake", "Song", "Moses", "Lamb", "Praise", "Savior"],
+  "key_signature": "",
+  "time_signature": ""
+}

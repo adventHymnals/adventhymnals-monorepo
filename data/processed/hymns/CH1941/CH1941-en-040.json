@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-040",
+  "number": 40,
+  "title": "Sweetly the Holy Hymn",
+  "author": "Harriet Auber",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "7.7.7.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sweetly the holy hymn\nBreaks on the morning air;\nBefore the world with smoke is dim,\nWe meet to offer prayer."
+    },
+    {
+      "number": 2,
+      "text": "Holy, holy, holy,\nTo the great One in Three!\nHoly, holy, holy,\nMerciful and mighty,\nGod in three Persons,\nBlessed Trinity!"
+    },
+    {
+      "number": 3,
+      "text": "The gladsome songs we bring\nFrom hearts with love o'erflowing,\nTo Thee, our Savior King,\nOur grateful praise bestowing."
+    },
+    {
+      "number": 4,
+      "text": "So may our lives express\nThe beauty of Thy holiness,\nTill in the realms of endless day\nWe join the angel choir above."
+    }
+  ],
+  "metadata": {
+    "year": 1829,
+    "copyright": "Public Domain",
+    "themes": ["morning worship", "holiness", "Trinity", "praise"],
+    "scripture_references": ["Revelation 4:8", "Isaiah 6:3"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

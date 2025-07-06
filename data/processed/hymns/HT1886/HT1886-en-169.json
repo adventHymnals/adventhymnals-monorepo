@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-169",
+  "number": 169,
+  "title": "The heavens declare thy glory, Lord",
+  "author": "Anon",
+  "composer": "",
+  "tune": "",
+  "meter": "5, 101, 398",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The heavens declare thy glory, Lord;\nIn every star thy wisdom shines;\nBut when our eyes behold thy word,\nWe read thy name in fairer lines."
+    },
+    {
+      "number": 2,
+      "text": "The rolling sun, the changing light,\nAnd nights and days, thy power confess;\nBut the blest volume thou didst write,\nReveals thy justice and thy grace."
+    },
+    {
+      "number": 3,
+      "text": "Sun, moon, and stars convey thy praise\nRound the whole earth, and never stand;\nSo, when thy truth began its race,\nIt touched and lightened every land."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's glory", "nature", "Holy Scriptures", "divine revelation", "creation"],
+    "scripture_references": ["Psalm 19:1"],
+    "tune_source": "5, 101, 398",
+    "original_language": "en"
+  }
+}

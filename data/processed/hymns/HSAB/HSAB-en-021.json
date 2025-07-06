@@ -1,0 +1,40 @@
+{
+  "id": "HSAB-en-021",
+  "number": 21,
+  "title": "O Hail, Happy Day",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O HAIL, happy day, that speaks our trials ended;\nOur Lord has come to take us home;\nO hail, happy day;\nNo more by doubts or fears distress'd,\nWe now shall gain our promis'd rest\nAnd be for ever blest; O hail, happy day."
+    },
+    {
+      "number": 2,
+      "text": "Swell loud the glad note, our bondage now is over;\nThe jubilee proclaims us free;\nO hail, happy day;\nThe day that brings a sweet release,\nThat crowns our Jesus Prince of Peace,\nAnd bids our sorrows cease; O hail, happy day."
+    },
+    {
+      "number": 3,
+      "text": "O Hail, happy day, that ends our tears and sorrows,\nThat brings us joy without alloy;\nO hail, happy day;\nThere peace shall wave her sceptre high,\nAnd love's fair banner greet the eye,\nProclaiming victory; O hail, happy day."
+    },
+    {
+      "number": 4,
+      "text": "We hail thy bright beams, O morn of Zion's glory;\nThy blessed light breaks on our sight,\nO hail, happy day;\nFair Beulah's fields before us rise,\nAnd sweetly burst upon our eyes,\nThe joys of Paradise; O hail, happy day."
+    },
+    {
+      "number": 5,
+      "text": "Thrice hail, happy day, when earth shall smile in gladness;\nAnd Eden bloom o'er nature's tomb,\nO hail, happy day;\nWhere life's pellucid waters glide,\nSafe by the dear Redeemer's side,\nFor ever we'll abide; O hail, happy day"
+    }
+  ],
+  "chorus": {
+    "text": "O hail, happy day"
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["second advent", "happy day", "jubilee", "victory", "Eden restored"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

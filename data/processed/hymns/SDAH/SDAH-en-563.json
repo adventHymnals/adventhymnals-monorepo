@@ -1,0 +1,25 @@
+{
+  "id": "SDAH-en-563",
+  "number": 563,
+  "title": "Praise and Thanksgiving",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise and thanksgiving let everyone bring\nUnto our Father for every good thing.\nAll together joyfully sing!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "thanksgiving", "gratitude"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

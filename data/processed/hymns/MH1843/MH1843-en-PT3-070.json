@@ -1,0 +1,33 @@
+{
+  "id": "MH1843-en-PT3-070",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "070",
+  "title": "Speak often to each other",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Speak often to each other, To cheer the fainting mind; And often be your voices In pure devotion joined. Though trials may await you, The crown before you lies; Take courage, brother pilgrims, And soon you'll win the prize."
+    },
+    {
+      "number": "2",
+      "text": "Ye shall be mine, says Jesus, In that auspicious day When I make up my jewels, Released from cumbrous clay. He'll polish and refine you From worthless dross and tin, And to his heavenly kingdom Will bid you enter in."
+    },
+    {
+      "number": "3",
+      "text": "On that important morning, When bursting thunders sound, And nimble lightnings waving Shall wing the gloom profound; Lift up your heads rejoicing, And clap your joyful hands; Lo! you're redeemed forever From death's corrupted bands!"
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "P.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 209,
+  "themes": ["Fellowship", "Encouragement", "Devotion", "Trials", "Crown", "Jesus", "Redemption"],
+  "key_signature": "",
+  "time_signature": ""
+}

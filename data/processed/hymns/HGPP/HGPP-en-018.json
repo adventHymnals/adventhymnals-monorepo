@@ -1,0 +1,41 @@
+{
+  "id": "HGPP-en-018",
+  "number": 18,
+  "title": "The Bright Morning",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The last lovely morning\nAll blooming and fair,\nIs fast onward fleeting,\nAnd soon will appear!\nWhile the mighty, mighty, mighty, trump\nSounds \"Come, come away!\"\nO! let us be ready\nTo hail the glad day."
+    },
+    {
+      "number": 2,
+      "text": "And when that bright morning\nIn splendor shall dawn,\nOur tears will be ended,\nOur sorrows all gone.\nWhile the mighty, mighty, mighty, trump\nSounds \"Come, come away!\"\nO! let us be ready\nTo hail the glad day."
+    },
+    {
+      "number": 3,
+      "text": "The Bridegroom from glory\nTo earth shall descend ;\nTen thousand bright angels\nAround him attend.\nWhile the mighty, mighty, mighty, trump\nSounds \"Come, come away!\"\nO! let us be ready\nTo hail the glad day."
+    },
+    {
+      "number": 4,
+      "text": "The graves will be open'd,\nThe dead will arise,\nAnd with the Redeemer\nMount up to the skies.\nWhile the mighty, mighty, mighty, trump\nSounds \"Come, come away!\"\nO! let us be ready\nTo hail the glad day."
+    },
+    {
+      "number": 5,
+      "text": "The saints then immortal,\nIn glory shall reign!\nThe Bride with the Bridegroom\nForever remain.\nWhile the mighty, mighty, mighty, trump\nSounds \"Come, come away!\"\nO! let us be ready\nTo hail the glad day."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["second coming", "bright morning", "bridegroom", "resurrection", "trumpet"],
+    "scripture_references": ["1 Thess 4:16-17", "Rev 19:7-9", "Matt 25:1-13"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

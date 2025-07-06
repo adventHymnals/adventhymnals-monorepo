@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-092",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "092",
+  "title": "Blest Be the King",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Blest be the King whose coming Is in the name of God! For Him let doors be opened, No hearts against Him barred! Not robed in royal splendor, In power and pomp comes He; But clad as are the poorest, Such His humility."
+    },
+    {
+      "number": "2",
+      "text": "By those who truly listen His voice is truly heard; He only to the humble Reveals the face of God. The proud and haughty, Who have not learned to heed All things are in His hand, For He would have us free!"
+    },
+    {
+      "number": "3",
+      "text": "He offers to the burdened The rest and grace they need. All power is His, all glory! And light His yoke shall be, So He can still time make us free!"
+    },
+    {
+      "number": "4",
+      "text": "He comes to all who welcome, Till generations end. Such His humility, Such His time has come When He would have us free!"
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "8.8.8.8.8.8.8.8.",
+  "tune": "",
+  "composer": "Eric H. Thiman",
+  "author": "Fred Pratt Green",
+  "page": 231,
+  "themes": ["King", "Blest", "God", "Humble", "Grace", "Power", "Light", "Free"],
+  "key_signature": "",
+  "time_signature": ""
+}

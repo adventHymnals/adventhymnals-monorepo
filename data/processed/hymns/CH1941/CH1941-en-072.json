@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-072",
+  "number": 72,
+  "title": "Safely, My God, Without Delay",
+  "author": "Isaac Watts",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Safely, my God, without delay,\nLet me Thy goodness prove,\nAnd lose myself in boundless day\nOf everlasting love."
+    },
+    {
+      "number": 2,
+      "text": "Enlarged my heart, and make it free\nTo run where grace abounds;\nO let me taste and ever see\nThat love which grace surrounds."
+    },
+    {
+      "number": 3,
+      "text": "How precious, Lord, Thy sacred word!\nWhat light and joy those leaves afford\nTo souls benighted and distressed!\nThy precepts guide my doubtful way."
+    },
+    {
+      "number": 4,
+      "text": "Thy testimonies every one\nAre faithful, just, and true;\nEach of them makes Thy glory known,\nAnd shows what love can do."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": ["God's goodness", "grace", "Scripture", "divine love"],
+    "scripture_references": ["Psalm 119:32", "Psalm 119:105"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "HT1886-en-436",
+  "number": 436,
+  "title": "Hymn 436 (To be extracted)",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text to be extracted from image]"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": [],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en",
+    "extraction_status": "template_created"
+  }
+}

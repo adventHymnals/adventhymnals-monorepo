@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-283",
+  "number": 283,
+  "title": "Lord, dismiss us with thy blessing",
+  "author": "Fawcett & Kelly",
+  "composer": "Sicilian",
+  "tune": "Sicily",
+  "meter": "8s & 7s. 6L.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, dismiss us with thy blessing,\nFill our hearts with joy and peace;\nLet us each, thy love possessing,\nTriumph in redeeming grace;\nO refresh us,\nTraveling through this wilderness!"
+    },
+    {
+      "number": 2,
+      "text": "Thanks we give, and adoration,\nFor thy gospel's joyful sound;\nMay the fruits of thy salvation\nIn our hearts and lives abound;\nMay thy presence\nWith us evermore be found."
+    },
+    {
+      "number": 3,
+      "text": "While our days on earth are lengthened,\nMay we give them, Lord, to thee;\nCheered by hope, and daily strengthened,\nMay we run, nor weary be,\nTill thy glory\nWithout clouds in heaven we see."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "closing", "blessing", "joy", "peace", "gratitude"],
+    "scripture_references": [],
+    "tune_source": "Sicily, 8s & 7s. 6L.",
+    "original_language": "en"
+  }
+}

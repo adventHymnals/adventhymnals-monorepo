@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-325",
+  "number": 325,
+  "title": "There is a dear and hallowed spot",
+  "author": "Anon",
+  "composer": null,
+  "tune": "80, 183, 747",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is a dear and hallowed spot, Oft present to my eye;\nBy saints it ne'er can be forgot— That place is Calvary."
+    },
+    {
+      "number": 2,
+      "text": "O, what a scene was there displayed, Of love and agony,\nWhen our Redeemer bowed his head, And died on Calvary."
+    },
+    {
+      "number": 3,
+      "text": "When hanging under guilt's dread load, Unto the cross I'll fly,\nAnd find the merits of the blood That flowed at Calvary."
+    },
+    {
+      "number": 4,
+      "text": "Whene'er I feel temptation's power, On Jesus I'll rely;\nAnd in the sharp, conflicting hour, Repair to Calvary."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "Calvary", "cross", "blood", "refuge"],
+    "scripture_references": [],
+    "tune_source": "80, 183, 747",
+    "original_language": "en"
+  }
+}

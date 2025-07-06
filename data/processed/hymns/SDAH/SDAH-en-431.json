@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-431",
+  "number": 431,
+  "title": "Over Yonder",
+  "author": "D. W. Whittle",
+  "composer": "James McGranahan",
+  "tune": "OVER YONDER",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, let us sing of homeland,\nDown by the crystal sea;\nWonderful land where Jesus\nBuildeth a mansion for me."
+    },
+    {
+      "number": 2,
+      "text": "Water of life there floweth,\nFruit in abundant store;\nCity of years of that\nHunger and thirst nevermore."
+    },
+    {
+      "number": 3,
+      "text": "Come go with me to homeland,\nJesus invites you there;\nHelp spread the invitation,\nTell it to men everywhere."
+    }
+  ],
+  "chorus": {
+    "text": "Over yonder, down by the crystal sea,\nThere's where I long to be,\nNo more sorrow, toil, grief, nor care,\nIn the homeland bright and fair,\nOver, over there."
+  },
+  "metadata": {
+    "year": 1877,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "homeland", "eternal life", "invitation", "crystal sea"],
+    "scripture_references": ["Revelation 22:1", "John 14:2", "Revelation 21:4"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

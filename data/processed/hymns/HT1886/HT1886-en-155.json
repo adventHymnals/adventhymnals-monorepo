@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-155",
+  "number": 155,
+  "title": "Come, Holy Ghost, in love",
+  "author": "Robert II., King of France",
+  "composer": "Thomas Hastings",
+  "tune": "New Haven",
+  "meter": "6s & 4s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, Holy Ghost, in love,\nShed on us from above\nThine own bright ray;\nDivinely good thou art;\nThy sacred gifts impart\nTo gladden each sad heart;\nO, come to-day."
+    },
+    {
+      "number": 2,
+      "text": "Come, tenderest Friend, and best,\nOur most delightful Guest,\nWith soothing power;\nRest, which the weary know,\nShade, 'mid the noontide glow,\nPeace, when deep griefs overflow,\nCheer us, this hour."
+    },
+    {
+      "number": 3,
+      "text": "Come, Light serene, and still\nOur inmost bosoms fill;\nDwell in each breast;\nWe know no dawn but thine,\nSend forth thy beams divine\nOn our dark souls to shine,\nAnd make us blest."
+    },
+    {
+      "number": 4,
+      "text": "Exalt our low desires,\nExtinguish passion's fires,\nHeal every wound;\nOur stubborn spirits bend,\nOur icy coldness end,\nOur devious steps attend\nWhile heav'nward bound."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "divine love", "comfort", "spiritual healing", "guidance"],
+    "scripture_references": [],
+    "tune_source": "New Haven, Thomas Hastings",
+    "original_language": "en"
+  }
+}

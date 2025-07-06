@@ -1,0 +1,33 @@
+{
+  "id": "HGPP-en-010",
+  "number": 10,
+  "title": "Restitution",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Oh, spare Thy people, Lord,\nAnd bring them full salvation;\nFulfill Thy faithful Word,\nRescue the sleeping nation.\nThou voice of God shout from on high;\nThe signal give for reaping;\nCome Thou and reap the harvest dry;\nOh gather all the sleeping:\nSpare now the \"remnant\" Lord,\nThe foe doth yet persue them,\nOh for Thy blessed word,\nDo Thou with strength renew them."
+    },
+    {
+      "number": 2,
+      "text": "Oh, may thy kingdom come,\nAll power and dominion;\nBring now the faithful home,\nOn bright seraphic pinion\nWe're tried, 0, come and take us home,\nAnd give us crowns of glory,\nWe feel like those who weary roam\nAbout some ruin hoary\nOh, may thy will be done.\nOn earth as 'tis in heaven;\nMay now the glorious Sun\nOf righteousness be given."
+    },
+    {
+      "number": 3,
+      "text": "Oh! may the \"City\" come\nDown from the opening heaven\nThe New Jerusalem,\nOh, may it now be given!\nIts gates of pearl, its streets of gold,\nBlaze with Thy brightest glory\nThe holy seers have raptur'd told\nThe new Creation's story!\nOh, may it now descend,\nThe City of foundations,\nIn triumph ne'er to end;\nRule Thou the \"angry nations.\""
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["restitution", "kingdom of God", "new jerusalem", "harvest", "remnant"],
+    "scripture_references": ["Rev 21:1-4", "Matt 13:39-43", "Joel 3:13"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

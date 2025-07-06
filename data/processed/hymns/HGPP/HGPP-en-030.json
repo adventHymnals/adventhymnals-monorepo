@@ -1,0 +1,45 @@
+{
+  "id": "HGPP-en-030",
+  "number": 30,
+  "title": "The Little Flock",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How happy are the little flock,\nWho, safe beneath their guardian Rock,\nIn all commotions rest;\nWhen war's and tumult's waves run high,\nUnmov'd above the storm they lie,\nAnd lodge in Jesus' breast."
+    },
+    {
+      "number": 2,
+      "text": "Such happiness, 0 Lord, have we,\nBy mercy gather'd into thee,\nBefore the floods descend;\nAnd while the bursting cloud comes down,\nWe mark the vengeful day begun,\nAnd calmly wait the end."
+    },
+    {
+      "number": 3,
+      "text": "The plague, and dearth, and din of war,\nOur Saviour's swift approach declare,\nAnd bid our hearts arise;\nEarth's basis shook, confirms our hope;\nIts cities' fall but lifts us up,\nTo meet thee in the skies."
+    },
+    {
+      "number": 4,
+      "text": "Thy tokens we with joy confess;\nThe war proclaims thee Prince of Peace;\nThe earthquake speaks thy pow'r;\nThe famine all thy fulness brings;\nThe plague presents thy healing wings,\nAnd nature's final hour."
+    },
+    {
+      "number": 5,
+      "text": "Whatever ills the world befall,\nA pledge of endless good we call,\nA sign of Jesus near.\nHis chariot will not long delay;\nWe hear the rumbling wheels, and pray,\n\"Triumphant Lord, appear!\""
+    },
+    {
+      "number": 6,
+      "text": "Appear with clouds on Zion's hill,\nThy word and mystery to fulfil,\nThy children to approve;\nThy members on thy throne to place,\nAnd stamp thy name on every face,\nIn glorious, heavenly love."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["little flock", "remnant", "protection", "signs", "second coming"],
+    "scripture_references": ["Luke 12:32", "Matt 24:6-14", "Rev 1:7"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

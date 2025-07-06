@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-016",
+  "number": 16,
+  "title": "Lord Jesus, how lovely thou art",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord Jesus, how lovely thou art,\nE'en on thy temples are!\nHere thy waiting people see\nMuch of heaven and much of thee."
+    },
+    {
+      "number": 2,
+      "text": "From thy gracious presence flows\nBliss that softens all our woes;\nWhile thy Spirit's holy fire\nWarms our hearts with pure desire."
+    },
+    {
+      "number": 3,
+      "text": "Here we supplicate thy throne;\nHere thy pardoning grace is known;\nHere we learn thy righteous ways,\nTaste thy love, and sing thy praise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "Jesus", "praise"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "HGPP-en-034",
+  "number": 34,
+  "title": "Heavenly Music",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "What heavenly music steals over the sea,\nEntrancing the senses like sweet melody?\n'Tis the voice of the angels borne soft on the air;\n'Tis for me they are singing, their welcome I hear!"
+    },
+    {
+      "number": 2,
+      "text": "On the banks of old Jordan here gazing I stand,\nAnd earnestly longing I stretch forth my hand;\nSend a convoy of angels, dear Jesus, I pray\nLet me join that sweet music, come take me away."
+    },
+    {
+      "number": 3,
+      "text": "Though dark are the waters, and rough is the wave.\nIf Jesus permit, the wild surges I'll brave,\nFor that heavenly music hath ravish'd me so,\nI must join in the chorus, I'll go, let me go."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["heavenly music", "angels", "jordan river", "heavenly chorus", "longing for heaven"],
+    "scripture_references": ["Rev 5:8-12", "Josh 3:14-17", "Rev 14:2-3"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

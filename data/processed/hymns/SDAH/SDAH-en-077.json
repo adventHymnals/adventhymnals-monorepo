@@ -1,0 +1,34 @@
+{
+  "id": "SDAH-en-077",
+  "number": 77,
+  "title": "O Love of God Most Full",
+  "author": "Adam of Saint Victor",
+  "composer": "John Bacchus Dykes",
+  "tune": "St. Agnes",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O love of God most full,\nO love of God most free,\nCome warm my heart, come fill my soul,\nCome lead me unto Thee."
+    },
+    {
+      "number": 2,
+      "text": "Warm as the glowing sun,\nSo shines Thy love on me;\nIt wraps me 'round, it lifts me up,\nIt draws me unto Thee."
+    },
+    {
+      "number": 3,
+      "text": "The wildest sea is calm,\nThe tempest brings no fear;\nThe darkest night is full of light,\nIt warms my heart, it fills my soul."
+    },
+    {
+      "number": 4,
+      "text": "O love of God most free,\nIt warms my heart, it strengthens me unto Thee."
+    }
+  ],
+  "metadata": {
+    "themes": ["God's Love", "Divine Grace", "Spiritual Warmth"],
+    "scripture_references": [],
+    "tune_source": "St. Agnes",
+    "original_language": "la"
+  }
+}

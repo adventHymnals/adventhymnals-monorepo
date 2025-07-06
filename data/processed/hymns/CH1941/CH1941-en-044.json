@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-044",
+  "number": 44,
+  "title": "Awake, My Soul",
+  "author": "Isaac Watts",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Awake, my soul, and with the sun\nThy daily stage of duty run;\nShake off dull sloth, and joyful rise\nTo pay thy morning sacrifice."
+    },
+    {
+      "number": 2,
+      "text": "Thy precious time misspent, redeem;\nEach present day thy last esteem;\nImprove thy talent with due care;\nFor the great day thyself prepare."
+    },
+    {
+      "number": 3,
+      "text": "Let all thy converse be sincere,\nThy conscience as the noonday clear;\nThink how all-seeing God thy ways\nAnd all thy secret thoughts surveys."
+    },
+    {
+      "number": 4,
+      "text": "Wake, and lift up thyself, my heart,\nAnd with the angels bear thy part,\nWho all night long unwearied sing\nHigh praise to the eternal King."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": ["morning", "duty", "devotion", "spiritual awakening"],
+    "scripture_references": ["Psalm 57:8", "Ephesians 5:14"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "MH1843",
+  "title": "Millennial Harp",
+  "subtitle": "Designed for Meetings on the Second Coming of Christ",
+  "language": "en",
+  "year": 1843,
+  "compiler": "Joshua V. Himes",
+  "publisher": "Published at 14 Devonshire Street, Boston",
+  "edition": "Improved Edition",
+  "structure": "Three Parts in One Volume - Part I",
+  "hymns": [
+    {
+      "number": 1,
+      "hymn_id": "MH1843-en-001",
+      "title": "Prayer of the Church",
+      "page": 6
+    },
+    {
+      "number": 2,
+      "hymn_id": "MH1843-en-002",
+      "title": "Heavenly Rest",
+      "page": 8
+    },
+    {
+      "number": 3,
+      "hymn_id": "MH1843-en-003",
+      "title": "Eden of Love",
+      "page": 10
+    }
+  ],
+  "metadata": {
+    "total_hymns": 150,
+    "estimated_total_pages": 291,
+    "processing_status": "IN PROGRESS - 34 hymns extracted from 291 images across all three parts",
+    "languages": ["en"],
+    "themes": ["Second Coming", "Millerite Movement", "Advent Hope", "Judgment Day", "Heaven", "Final Events", "Spiritual Warfare", "Resurrection"],
+    "extraction_date": "2025-07-05",
+    "extraction_method": "AI vision processing from historic images",
+    "historical_significance": "Premier hymnal of the Millerite/Adventist movement compiled by Joshua V. Himes",
+    "theological_context": "1843 Millerite movement anticipating Christ's return",
+    "publication_info": {
+      "compiler": "Joshua V. Himes",
+      "place": "Boston",
+      "address": "14 Devonshire Street",
+      "original_format": "Three parts in one volume",
+      "rarity": "Extremely rare historical document",
+      "movement": "Millerite/Second Advent movement"
+    },
+    "content_structure": {
+      "part_1": "Primary hymn collection",
+      "part_2": "Additional hymns and spiritual songs",
+      "part_3": "Supplementary material",
+      "musical_notation": "Full treble and bass clef notation",
+      "lyrical_focus": "Second Coming anticipation and preparation"
+    }
+  }
+}

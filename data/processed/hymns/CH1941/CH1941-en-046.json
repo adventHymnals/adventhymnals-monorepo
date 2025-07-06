@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-046",
+  "number": 46,
+  "title": "Sweet Is the Work, My God",
+  "author": "Isaac Watts",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sweet is the work, my God, my King,\nTo praise Thy name, give thanks and sing,\nTo show Thy love by morning light,\nAnd talk of all Thy truth at night."
+    },
+    {
+      "number": 2,
+      "text": "My heart shall triumph in my Lord\nAnd bless His works and bless His word;\nThy works of grace, how bright they shine!\nHow deep Thy counsels, how divine!"
+    },
+    {
+      "number": 3,
+      "text": "Fools never raise their thoughts so high;\nLike brutes they live, like brutes they die;\nTheir name shall perish from the earth,\nWhile saints rejoice in nobler birth."
+    },
+    {
+      "number": 4,
+      "text": "Then shall I see, and hear, and know\nAll I desired or wished below;\nAnd every power find sweet employ\nIn that eternal world of joy."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "praise", "eternal joy"],
+    "scripture_references": ["Psalm 92", "Psalm 147:1"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

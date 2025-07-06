@@ -1,0 +1,44 @@
+{
+  "id": "HT1886-en-212",
+  "number": 212,
+  "title": "Lord of the Sabbath and its light",
+  "author": "Frederick M. A. Venua",
+  "composer": null,
+  "tune": "Park Street. L. M.",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord of the Sabbath and its light,\nI hail thy hallowed day of rest;\nIt is my weary soul's delight,\nThe solace of my care-worn breast."
+    },
+    {
+      "number": 2,
+      "text": "O sacred day of peace and joy,\nThy hours are ever dear to me;\nNe'er may a sinful thought destroy\nThe holy calm I find in thee."
+    },
+    {
+      "number": 3,
+      "text": "How sweetly now they glide along!\nHow hallowed is the psalm they yield!\nTransporting is their rapturous song,\nAnd heavenly visions seem revealed."
+    },
+    {
+      "number": 4,
+      "text": "O Jesus, let me ever hail\nThy presence with the day of rest;\nThen will thy servant never fail\nTo deem thy Sabbath doubly blest."
+    },
+    {
+      "number": 5,
+      "text": "By sin we are exposed to wrath;\nHe died for us, that he might draw\nOur wandering feet to virtue's path,\nWhere we may keep God's holy law."
+    },
+    {
+      "number": 6,
+      "text": "That law shall still be our delight,—\nThe holy Sabbath is a part,—\nAnd when we gain that world so bright,\nAll flesh shall keep it with one heart."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "rest", "peace", "holiness", "worship", "law of God"],
+    "scripture_references": ["Isaiah 58:13-14"],
+    "tune_source": "Park Street. L. M.",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-380",
+  "number": 380,
+  "title": "Welcome, Day of Sweet Repose",
+  "author": "John Newton",
+  "composer": "William B. Bradbury",
+  "tune": "SWEET REPOSE",
+  "meter": "8.7.8.7.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Welcome, day of sweet repose!\nBlessed be thy sacred hours!\nWe would trust the One who knows\nAll our weak and failing powers."
+    },
+    {
+      "number": 2,
+      "text": "Welcome, day in Eden born!\nHoly rest for sinless man!\nLike the dawning of fair morn\nCome thy hours to us again."
+    },
+    {
+      "number": 3,
+      "text": "Welcome, day blessed by our Lord!\nToil shall cease and anxious care.\nDay come, mind the word, O Lord,\nDay for song and praise and prayer."
+    },
+    {
+      "number": 4,
+      "text": "Welcome, day our Savior kept!\nKeeping, wrought our righteousness,\nDay God bids us ne'er forget,\nDay of days His name to bless."
+    }
+  ],
+  "metadata": {
+    "year": 1779,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "Rest", "Worship", "Sacred Time"],
+    "scripture_references": ["Exodus 20:8-11", "Isaiah 58:13-14"],
+    "tune_source": "William B. Bradbury, 1859",
+    "original_language": "en"
+  }
+}

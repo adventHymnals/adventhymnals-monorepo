@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-298",
+  "number": 298,
+  "title": "Brightest and best of the sons of the morning",
+  "author": null,
+  "composer": "Johann C. W. A. Mozart",
+  "tune": "Hanover",
+  "meter": "11s & 10s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Brightest and best of the sons of the morning,\nDawn on our darkness, and lend us thine aid;\nStar of the east, the horizon adorning,\nGuide where our infant Redeemer is laid."
+    },
+    {
+      "number": 2,
+      "text": "Cold on his cradle the dew-drops are shining,\nLow lies his head with the beasts of the stall;\nAngels adore him, in slumber reclining,\nMaker, and Monarch, and Saviour of all."
+    },
+    {
+      "number": 3,
+      "text": "Say, shall we yield him, in costly devotion,\nOdors of Edom and offering divine?\nGems of the mountain, and pearls of the ocean,\nMyrrh from the forest, and gold from the mine?"
+    },
+    {
+      "number": 4,
+      "text": "Vainly we offer each ample oblation,\nVainly with gifts would his favor secure;\nRicher by far is the heart's adoration,\nDearer to God are the prayers of the poor."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "First Advent", "Christmas", "star", "wise men", "worship"],
+    "scripture_references": [],
+    "tune_source": "Hanover, Johann C. W. A. Mozart",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-232",
+  "number": 232,
+  "title": "How bright a day was that which saw",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How bright a day was that which saw\nCreation's work completed!\nAll nature owned her Maker's law,\nAnd worship at his feet."
+    },
+    {
+      "number": 2,
+      "text": "The world, arranged by power divine,\nIn perfect order stood;\nAnd, resting from his great design,\nGod saw that all was good."
+    },
+    {
+      "number": 3,
+      "text": "Not such a Sabbath now appears,\nFor sin has ruined all;\nNo longer man with pleasure hears\nA gracious Maker's call."
+    },
+    {
+      "number": 4,
+      "text": "Yet, Lord, bring back the reign of peace,\nLet brighter days begin;\nAnd teach your creatures how to cease\nFrom folly and from sin."
+    },
+    {
+      "number": 5,
+      "text": "Let sinners be again made whole,\nThough once with vengeance cursed;\nAnd let the holy Sabbath roll\nAs glorious as at first."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "creation", "worship", "sin", "restoration"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

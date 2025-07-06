@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-066",
+  "number": 66,
+  "title": "Like as a Father",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Like as a father pitieth\nHis children in distress,\nSo does the Lord pity them\nThat fear His holiness."
+    },
+    {
+      "number": 2,
+      "text": "For He doth know whereof we're made,\nHe knows that we are dust;\nAnd like the flower of the field,\nSo shall our life be passed."
+    },
+    {
+      "number": 3,
+      "text": "The wind but over it doth pass,\nAnd it away is gone,\nAnd of the place where once it was\nIt shall no more be known."
+    },
+    {
+      "number": 4,
+      "text": "But yet the loving kindness of\nThe Lord forever stays\nOn them that fear Him and His truth\nFrom generation to generation stays."
+    }
+  ],
+  "metadata": {
+    "year": "[needs verification]",
+    "copyright": "Public Domain",
+    "themes": ["God's compassion", "human frailty", "God's eternal mercy", "generations"],
+    "scripture_references": ["Psalm 103:13-17"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

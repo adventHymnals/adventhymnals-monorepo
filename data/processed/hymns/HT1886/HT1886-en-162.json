@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-162",
+  "number": 162,
+  "title": "Let thy Spirit, blessed Saviour",
+  "author": "Anon",
+  "composer": "D. E. Jones",
+  "tune": "Stockwell",
+  "meter": "8s & 7s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Let thy Spirit, blessed Saviour,\nCome and bid our doubtings cease;\nCome, O, come with love and favor,\nFill us all with joy and peace."
+    },
+    {
+      "number": 2,
+      "text": "Fearful dangers are around us,\nSatan watches to destroy;\nLord, our foes would fain confound us;\nO, for thy might employ!"
+    },
+    {
+      "number": 3,
+      "text": "On thy word and souls subsisting,\nTaught by thee, thy name we love;\nSweet'st of all names is Jesus;\nHow it doth our spirits move!"
+    },
+    {
+      "number": 4,
+      "text": "Let us not, O Lord, be weary\nOf thy roughness of the way;\nThough the road be often dreary,\nThou shalt drive our fears away."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "divine favor", "peace", "protection", "Jesus' name"],
+    "scripture_references": [],
+    "tune_source": "Stockwell, D. E. Jones",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "SDAH-en-204",
+  "number": 204,
+  "title": "Come, Thou Long Expected Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, Thou long expected Jesus!\nBorn to set Thy people free,\nFrom our fears and sins release us,\nLet us find our rest in Thee."
+    },
+    {
+      "number": 2,
+      "text": "Born Thy people to deliver,\nBorn a child, and yet a King,\nBorn to reign in us forever,\nNow Thy gracious kingdom bring."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Advent", "Christ's Birth", "Deliverance", "Kingdom", "Rest"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "SDAH-en-585",
+  "number": 585,
+  "title": "When Christ Was Lifted From the Earth",
+  "author": "Brian Wren",
+  "composer": "Gordon Slater",
+  "tune": "St. Botolph",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When Christ was lifted from the earth,\nHis arms stretched out above\nThrough every culture, every birth,\nTo draw an answering love."
+    },
+    {
+      "number": 2,
+      "text": "Still east and west His love extends\nAnd always, near or far,\nHe calls and claims us as His friends\nAnd loves us as we are."
+    },
+    {
+      "number": 3,
+      "text": "Where generation, class, or race\nDivides us to our shame,\nHe sees not labels but a face,\nA person and a name."
+    },
+    {
+      "number": 4,
+      "text": "Thus freely loved, though fully known,\nMay I in Christ be free\nTo welcome and accept His own\nAs Christ accepted me."
+    }
+  ],
+  "metadata": {
+    "year": 1970,
+    "copyright": "© 1980 by Hope Publishing Co., Carol Stream, IL 60188",
+    "themes": ["unity", "love for one another", "acceptance", "cross"],
+    "scripture_references": ["John 12:32", "Romans 15:7"],
+    "tune_source": "Gordon Slater, 1896-1979",
+    "original_language": "en",
+    "author_dates": "1936-",
+    "composer_dates": "1896-1979"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-467",
+  "number": 467,
+  "title": "Ye who know your sins forgiven",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Ye who know your sins forgiven,\nAnd are happy in the Lord,\nHave you read that gracious promise\nWhich is left us in his word?"
+    },
+    {
+      "number": 2,
+      "text": "I will cleanse you from all sin,\nSanctify and make you holy,\nI will dwell and reign within."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["forgiveness", "sanctification", "promise"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

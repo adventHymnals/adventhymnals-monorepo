@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-074",
+  "number": 74,
+  "title": "God moves in a mysterious way",
+  "author": null,
+  "composer": "Guillaume Franc",
+  "tune": "Dundee",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God moves in a mysterious way,\nHis wonders to perform;\nHe plants his footsteps in the sea\nAnd rides upon the storm."
+    },
+    {
+      "number": 2,
+      "text": "Deep in unfathomable mines\nOf never-failing skill,\nHe treasures up his bright designs,\nAnd works his sovereign will."
+    },
+    {
+      "number": 3,
+      "text": "Ye fearful saints, fresh courage take;\nThe clouds ye so much dread\nAre big with mercy, and shall break\nIn blessings o'er your head."
+    },
+    {
+      "number": 4,
+      "text": "Judge not the Lord by feeble sense,\nBut trust him for his grace;\nBehind a frowning providence\nHe hides a smiling face."
+    },
+    {
+      "number": 5,
+      "text": "Blind unbelief is sure to err,\nAnd scan his work in vain;\nGod is his own interpreter,\nAnd he will make it plain."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's providence", "trust", "mystery", "faith", "divine will"],
+    "scripture_references": [],
+    "tune_source": "Dundee, Guillaume Franc",
+    "original_language": "en"
+  }
+}

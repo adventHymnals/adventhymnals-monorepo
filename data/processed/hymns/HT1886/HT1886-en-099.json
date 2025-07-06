@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-099",
+  "number": 99,
+  "title": "Holy, holy, holy, Lord God Almighty",
+  "author": "Jean de Druck",
+  "composer": null,
+  "tune": "Nicea",
+  "meter": "P.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy, holy, holy, Lord God Almighty!\nEarly in the morning our song shall rise to thee;\nHoly, holy, holy! merciful and mighty!\nGod over all, who rules in love and majesty."
+    },
+    {
+      "number": 2,
+      "text": "Holy, holy, holy! angels adore thee,\nCasting down their bright crowns around the glassy sea;\nThousands, and ten thousands worship low before thee,\nWhich wert and art and evermore shalt be."
+    },
+    {
+      "number": 3,
+      "text": "Holy, holy, holy! though darkness hide thee,\nThough the eye of man thy great glory may not see;\nOnly thou art holy; there is none beside thee,\nPerfect in power, in love and purity."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["holiness", "worship", "God's majesty", "angels", "God's perfection"],
+    "scripture_references": [],
+    "tune_source": "Nicea",
+    "original_language": "en"
+  }
+}

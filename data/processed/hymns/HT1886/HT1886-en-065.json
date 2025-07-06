@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-065",
+  "number": 65,
+  "title": "Lord, thy weak thought in vain would climb",
+  "author": null,
+  "composer": "Isaac Watts",
+  "tune": "801, 66, 894",
+  "meter": "801, 66, 894",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, thy weak thought in vain would climb\nTo search the starry vault profound;\nIn vain would wing her flight sublime\nTo find creation's utmost bound."
+    },
+    {
+      "number": 2,
+      "text": "But weaker yet that thought must prove\nTo search thy great eternal plan,\nThy sovereign counsels, born of love\nLong ages ere the world began."
+    },
+    {
+      "number": 3,
+      "text": "When my dim reason would demand\nWhy that or this thou dost ordain,\nBy some vast deep I seem to stand,\nWhose secrets I must ask in vain."
+    },
+    {
+      "number": 4,
+      "text": "When doubts disturb my troubled breast,\nHere, as on solid rock, I stand,\nThat so it seemeth good to thee."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["human limitations", "God's sovereignty", "divine mystery", "trust", "faith", "humility"],
+    "scripture_references": [],
+    "tune_source": "Isaac Watts",
+    "original_language": "en"
+  }
+}

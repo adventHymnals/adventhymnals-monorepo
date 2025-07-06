@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-158",
+  "number": 158,
+  "title": "Holy Spirit, light divine",
+  "author": "Andrew Reed",
+  "composer": "Louis M. Gottschalk, arr. by E. P. Parker",
+  "tune": "Mercy",
+  "meter": "7s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy Spirit, light divine,\nShine upon this heart of mine;\nChase the shades of night away,\nTurn my darkness into day."
+    },
+    {
+      "number": 2,
+      "text": "Holy Spirit, power divine,\nCleanse this guilty heart of mine;\nLong has sin, without control,\nHeld dominion o'er my soul."
+    },
+    {
+      "number": 3,
+      "text": "Holy Ghost, with joy divine,\nCheer this saddened heart of mine;\nBid my many woes depart,\nHeal my wounded, bleeding heart."
+    },
+    {
+      "number": 4,
+      "text": "Holy Spirit, all divine,\nDwell within this heart of mine;\nCast down every idol-throne,\nReign supreme, and reign alone."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "divine light", "spiritual cleansing", "joy", "divine presence"],
+    "scripture_references": [],
+    "tune_source": "Mercy, Louis M. Gottschalk, arr. by E. P. Parker",
+    "original_language": "en"
+  }
+}

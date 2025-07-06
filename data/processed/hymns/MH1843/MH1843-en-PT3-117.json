@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-117",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "117",
+  "title": "Hover O'er Me, Holy Spirit",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Hover o'er me, Holy Spirit, Bathe my trembling heart and brow; Fill me with Thy hallowed presence, Come, O come and fill me now."
+    },
+    {
+      "number": "2",
+      "text": "Thou canst fill me, gracious Spirit, Though I cannot tell Thee how; But I need Thee, greatly need Thee, Come, O come and fill me now."
+    },
+    {
+      "number": "3",
+      "text": "I am weakness, full of weakness, At Thy sacred feet I bow; Bless divine, the soul that trusteth, Fill with love, and fill me now."
+    },
+    {
+      "number": "4",
+      "text": "Cleanse and comfort, bless and save me, Bathe, O bathe my heart and brow; Thou art comforting and saving, Thou art sweetly filling now."
+    }
+  ],
+  "refrain": {
+    "text": "Fill me now, fill me now, Jesus, come and fill me now. Fill me with Thy hallowed presence, Come, O come and fill me now."
+  },
+  "meter": "8.7.8.7. with Refrain",
+  "tune": "FILL ME NOW",
+  "composer": "John R. Sweney",
+  "author": "Elwood H. Stokes",
+  "page": 260,
+  "themes": ["Hover", "Holy Spirit", "Bathe", "Trembling Heart", "Brow", "Hallowed Presence", "Fill", "Gracious Spirit", "Need", "Weakness", "Sacred Feet", "Bow", "Divine", "Soul", "Trust", "Love", "Cleanse", "Comfort", "Bless", "Save"],
+  "key_signature": "Bb",
+  "time_signature": "6/4"
+}

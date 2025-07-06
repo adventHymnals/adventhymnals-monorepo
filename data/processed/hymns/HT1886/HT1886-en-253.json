@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-253",
+  "number": 253,
+  "title": "Welcome, the Sabbath hour",
+  "author": "H. N. Smith",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Welcome, the Sabbath hour,\nThe holy and the blest!\nWith sweet, subduing power\nIt calms the soul to rest;\nAnd hope and love spring up anew,\nTo cheer us on our journey through."
+    },
+    {
+      "number": 2,
+      "text": "Our only care this day\nThroughout this hallowed day,\nTo glorify thy name,\nAnd grateful homage pay;\nAdvance the glory of thy cause,\nAnd vindicate thy righteous laws."
+    },
+    {
+      "number": 3,
+      "text": "Descend, celestial Dove!\nE'en while we wait and sing;\nCome from the throne of love,\nWith healing on thy wing;\nWith ardent zeal each heart inspire,\nAnd baptize us with holy fire."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath hour", "rest", "worship", "Holy Spirit", "divine blessing"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

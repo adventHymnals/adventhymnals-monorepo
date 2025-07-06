@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-345",
+  "number": 345,
+  "title": "There is a house in heaven built",
+  "author": "R. C. Cottrell",
+  "composer": null,
+  "tune": "89, 347, 25.",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is a house in heaven built, The temple of the living God,\nThe tabernacle true, more pure, Is washed away by precious blood."
+    },
+    {
+      "number": 2,
+      "text": "In love, one our High Priest entered there, Who knows the frailties of our frame;\nWho loves to hear his people's prayer, And offer to our God the same."
+    },
+    {
+      "number": 3,
+      "text": "The daily ministry he bore, Till sealed the prophetic hour;\nHe entered then the inner door, We trust the sacred place."
+    },
+    {
+      "number": 4,
+      "text": "Before the ark of the command, On which the mercy-seat is placed,\nPresenting his own blood he stands, Till Israel's sins are all erased."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Mediation and Atonement", "temple", "blood", "ministry", "mercy"],
+    "scripture_references": [],
+    "tune_source": "89, 347, 25.",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-030",
+  "number": 30,
+  "title": "Lord, We Come Before Thee Now",
+  "author": "William Hammond",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "7.7.7.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, we come before Thee now,\nAt Thy feet we humbly bow;\nOh, do not our suit disdain;\nShall we seek Thee, Lord, in vain?"
+    },
+    {
+      "number": 2,
+      "text": "Lord, on Thee our souls depend;\nIn compassion now descend;\nFill our hearts with Thy rich grace,\nTune our lips to sing Thy praise."
+    },
+    {
+      "number": 3,
+      "text": "In Thine own appointed way\nNow we seek Thee, here we stay;\nLord, we know not how to go\nTill a blessing Thou bestow."
+    },
+    {
+      "number": 4,
+      "text": "Send some message from Thy word\nThat may joy and peace afford;\nLet Thy Spirit now impart\nFull salvation to each heart."
+    }
+  ],
+  "metadata": {
+    "year": 1745,
+    "copyright": "Public Domain",
+    "themes": ["prayer", "worship", "seeking God", "blessing"],
+    "scripture_references": ["Jeremiah 29:13", "Matthew 7:7"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

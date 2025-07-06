@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-133",
+  "number": 133,
+  "title": "Praise to thee, O dear Redeemer",
+  "author": "F. E. Belden",
+  "composer": null,
+  "tune": null,
+  "meter": "8s & 7s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise to thee, O dear Redeemer,\nFor the riches of thy grace;\nBow, my soul, no idle dreamer,\nWorship him who saves the race;\nHe who reigns our God on high,\nHe who laid his glory by;\nSing his praises, sing his praises,\nSing of him who came to die."
+    },
+    {
+      "number": 2,
+      "text": "How shall mortal man alone sing\nThou the high, immortal One?\nSinful dust might oft before thee\nWhile the countless ages run;\nYet 'twere vain to worship thee\nGifeless love the motive be.\nO my Saviour! O my Saviour!\nGrant this gift of love to me."
+    },
+    {
+      "number": 3,
+      "text": "Vain are all the words I've spoken,\nLord, to show that love is mine;\nGodly life shall be the token\nOf my love for things divine.\nThis I covet, this bestow,—\nStrength to live as here below;\nThen how much thy child doth love thee,\nO my Saviour, thou shalt know."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "Redeemer", "worship", "love", "godly life", "devotion"],
+    "scripture_references": [],
+    "tune_source": "501, 496, 96",
+    "original_language": "en"
+  }
+}

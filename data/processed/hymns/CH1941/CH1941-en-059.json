@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-059",
+  "number": 59,
+  "title": "Through All the Long Dark Night",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Through all the long dark night of years\nThe people walked in flame;\nUnheeding voices, prophecies,\nAnd warnings as they came."
+    },
+    {
+      "number": 2,
+      "text": "But to an open ear and heart\nThe word of truth came down:\nA light to lighten Gentile lands,\nAnd lift the lowly crown."
+    },
+    {
+      "number": 3,
+      "text": "No earthly splendors herald\nThe coming of the King;\nNo sound of trumpet-call announced\nThe Lord of everything."
+    },
+    {
+      "number": 4,
+      "text": "A child upon his mother's breast,\nA tender flower of love;\nYet He the everlasting arms\nThat bear the worlds above."
+    }
+  ],
+  "metadata": {
+    "year": "[needs verification]",
+    "copyright": "Public Domain",
+    "themes": ["incarnation", "prophecy", "light", "humility"],
+    "scripture_references": ["Isaiah 9:2", "Luke 2:30-32"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

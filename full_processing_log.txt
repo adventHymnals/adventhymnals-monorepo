@@ -1,0 +1,1634 @@
+/home/brian/Code/AH/advent-hymnals-mono-repo/extract_hymns.py:13: SyntaxWarning: invalid escape sequence '\ '
+  '-c', 'tessedit_char_whitelist=0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,\\-\\(\\)\\:\\;\\"\ '
+
+=== Processing batch 51-150 ===
+Processing hymns 51-150
+Processing hymn 51: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/051.png
+Warning: Could not extract title or verses for hymn 51
+Failed to process hymn 51
+Processing hymn 52: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/052.png
+Warning: Could not extract title or verses for hymn 52
+Failed to process hymn 52
+Processing hymn 53: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/053.png
+Warning: Could not extract title or verses for hymn 53
+Failed to process hymn 53
+Processing hymn 54: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/054.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-054.json
+Processing hymn 55: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/055.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-055.json
+Processing hymn 56: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/056.png
+Warning: Could not extract title or verses for hymn 56
+Failed to process hymn 56
+Processing hymn 57: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/057.png
+Warning: Could not extract title or verses for hymn 57
+Failed to process hymn 57
+Processing hymn 58: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/058.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-058.json
+Processing hymn 59: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/059.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-059.json
+Processing hymn 60: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/060.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-060.json
+Processing hymn 61: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/061.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-061.json
+Processing hymn 62: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/062.png
+Warning: Could not extract title or verses for hymn 62
+Failed to process hymn 62
+Processing hymn 63: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/063.png
+Warning: Could not extract title or verses for hymn 63
+Failed to process hymn 63
+Processing hymn 64: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/064.png
+Warning: Could not extract title or verses for hymn 64
+Failed to process hymn 64
+Processing hymn 65: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/065.png
+Warning: Could not extract title or verses for hymn 65
+Failed to process hymn 65
+Processing hymn 66: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/066.png
+Warning: Could not extract title or verses for hymn 66
+Failed to process hymn 66
+Processing hymn 67: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/067.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-067.json
+Processing hymn 68: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/068.png
+Warning: Could not extract title or verses for hymn 68
+Failed to process hymn 68
+Processing hymn 69: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/069.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-069.json
+Processing hymn 70: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/070.png
+Warning: Could not extract title or verses for hymn 70
+Failed to process hymn 70
+Processing hymn 71: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/071.png
+Warning: Could not extract title or verses for hymn 71
+Failed to process hymn 71
+Processing hymn 72: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/072.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-072.json
+Processing hymn 73: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/073.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-073.json
+Processing hymn 74: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/074.png
+Warning: Could not extract title or verses for hymn 74
+Failed to process hymn 74
+Processing hymn 75: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/075.png
+Warning: Could not extract title or verses for hymn 75
+Failed to process hymn 75
+Processing hymn 76: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/076.png
+Warning: Could not extract title or verses for hymn 76
+Failed to process hymn 76
+Processing hymn 77: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/077.png
+Warning: Could not extract title or verses for hymn 77
+Failed to process hymn 77
+Processing hymn 78: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/078.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-078.json
+Processing hymn 79: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/079.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-079.json
+Processing hymn 80: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/080.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-080.json
+Processing hymn 81: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/081.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-081.json
+Processing hymn 82: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/082.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-082.json
+Processing hymn 83: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/083.png
+Warning: Could not extract title or verses for hymn 83
+Failed to process hymn 83
+Processing hymn 84: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/084.png
+Warning: Could not extract title or verses for hymn 84
+Failed to process hymn 84
+Processing hymn 85: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/085.png
+Warning: Could not extract title or verses for hymn 85
+Failed to process hymn 85
+Processing hymn 86: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/086.png
+Warning: Could not extract title or verses for hymn 86
+Failed to process hymn 86
+Processing hymn 87: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/087.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-087.json
+Processing hymn 88: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/088.png
+Warning: Could not extract title or verses for hymn 88
+Failed to process hymn 88
+Processing hymn 89: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/089.png
+Warning: Could not extract title or verses for hymn 89
+Failed to process hymn 89
+Processing hymn 90: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/090.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-090.json
+Processing hymn 91: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/091.png
+Warning: Could not extract title or verses for hymn 91
+Failed to process hymn 91
+Processing hymn 92: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/092.png
+Warning: Could not extract title or verses for hymn 92
+Failed to process hymn 92
+Processing hymn 93: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/093.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-093.json
+Processing hymn 94: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/094.png
+Warning: Could not extract title or verses for hymn 94
+Failed to process hymn 94
+Processing hymn 95: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/095.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-095.json
+Processing hymn 96: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/096.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-096.json
+Processing hymn 97: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/097.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-097.json
+Processing hymn 98: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/098.png
+Warning: Could not extract title or verses for hymn 98
+Failed to process hymn 98
+Processing hymn 99: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/099.png
+Warning: Could not extract title or verses for hymn 99
+Failed to process hymn 99
+Processing hymn 100: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/100.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-100.json
+Processing hymn 101: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/101.png
+Warning: Could not extract title or verses for hymn 101
+Failed to process hymn 101
+Processing hymn 102: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/102.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-102.json
+Processing hymn 103: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/103.png
+Warning: Could not extract title or verses for hymn 103
+Failed to process hymn 103
+Processing hymn 104: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/104.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-104.json
+Processing hymn 105: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/105.png
+Warning: Could not extract title or verses for hymn 105
+Failed to process hymn 105
+Processing hymn 106: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/106.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-106.json
+Processing hymn 107: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/107.png
+Warning: Could not extract title or verses for hymn 107
+Failed to process hymn 107
+Processing hymn 108: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/108.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-108.json
+Processing hymn 109: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/109.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-109.json
+Processing hymn 110: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/110.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-110.json
+Processing hymn 111: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/111.png
+Warning: Could not extract title or verses for hymn 111
+Failed to process hymn 111
+Processing hymn 112: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/112.png
+Warning: Could not extract title or verses for hymn 112
+Failed to process hymn 112
+Processing hymn 113: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/113.png
+Warning: Could not extract title or verses for hymn 113
+Failed to process hymn 113
+Processing hymn 114: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/114.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-114.json
+Processing hymn 115: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/115.png
+Warning: Could not extract title or verses for hymn 115
+Failed to process hymn 115
+Processing hymn 116: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/116.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-116.json
+Processing hymn 117: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/117.png
+Warning: Could not extract title or verses for hymn 117
+Failed to process hymn 117
+Processing hymn 118: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/118.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-118.json
+Processing hymn 119: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/119.png
+Warning: Could not extract title or verses for hymn 119
+Failed to process hymn 119
+Warning: Image not found: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/120.png
+Processing hymn 121: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/121.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-121.json
+Processing hymn 122: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/122.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-122.json
+Processing hymn 123: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/123.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-123.json
+Processing hymn 124: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/124.png
+Warning: Could not extract title or verses for hymn 124
+Failed to process hymn 124
+Processing hymn 125: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/125.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-125.json
+Processing hymn 126: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/126.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-126.json
+Processing hymn 127: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/127.png
+Failed to process hymn 127
+Processing hymn 128: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/128.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-128.json
+Processing hymn 129: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/129.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-129.json
+Processing hymn 130: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/130.png
+Warning: Could not extract title or verses for hymn 130
+Failed to process hymn 130
+Processing hymn 131: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/131.png
+Warning: Could not extract title or verses for hymn 131
+Failed to process hymn 131
+Processing hymn 132: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/132.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-132.json
+Processing hymn 133: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/133.png
+Warning: Could not extract title or verses for hymn 133
+Failed to process hymn 133
+Processing hymn 134: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/134.png
+Warning: Could not extract title or verses for hymn 134
+Failed to process hymn 134
+Processing hymn 135: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/135.png
+Warning: Could not extract title or verses for hymn 135
+Failed to process hymn 135
+Processing hymn 136: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/136.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-136.json
+Processing hymn 137: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/137.png
+Warning: Could not extract title or verses for hymn 137
+Failed to process hymn 137
+Processing hymn 138: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/138.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-138.json
+Processing hymn 139: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/139.png
+Warning: Could not extract title or verses for hymn 139
+Failed to process hymn 139
+Processing hymn 140: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/140.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-140.json
+Processing hymn 141: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/141.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-141.json
+Processing hymn 142: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/142.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-142.json
+Processing hymn 143: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/143.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-143.json
+Processing hymn 144: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/144.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-144.json
+Processing hymn 145: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/145.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-145.json
+Processing hymn 146: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/146.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-146.json
+Processing hymn 147: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/147.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-147.json
+Processing hymn 148: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/148.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-148.json
+Processing hymn 149: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/149.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-149.json
+Processing hymn 150: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/150.png
+Warning: Could not extract title or verses for hymn 150
+Failed to process hymn 150
+
+=== Processing batch 151-250 ===
+Processing hymns 151-250
+Processing hymn 151: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/151.png
+Warning: Could not extract title or verses for hymn 151
+Failed to process hymn 151
+Processing hymn 152: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/152.png
+Warning: Could not extract title or verses for hymn 152
+Failed to process hymn 152
+Processing hymn 153: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/153.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-153.json
+Processing hymn 154: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/154.png
+Warning: Could not extract title or verses for hymn 154
+Failed to process hymn 154
+Processing hymn 155: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/155.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-155.json
+Processing hymn 156: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/156.png
+Warning: Could not extract title or verses for hymn 156
+Failed to process hymn 156
+Processing hymn 157: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/157.png
+Warning: Could not extract title or verses for hymn 157
+Failed to process hymn 157
+Processing hymn 158: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/158.png
+Warning: Could not extract title or verses for hymn 158
+Failed to process hymn 158
+Processing hymn 159: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/159.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-159.json
+Processing hymn 160: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/160.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-160.json
+Processing hymn 161: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/161.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-161.json
+Processing hymn 162: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/162.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-162.json
+Processing hymn 163: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/163.png
+Warning: Could not extract title or verses for hymn 163
+Failed to process hymn 163
+Processing hymn 164: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/164.png
+Warning: Could not extract title or verses for hymn 164
+Failed to process hymn 164
+Processing hymn 165: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/165.png
+Warning: Could not extract title or verses for hymn 165
+Failed to process hymn 165
+Processing hymn 166: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/166.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-166.json
+Processing hymn 167: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/167.png
+Warning: Could not extract title or verses for hymn 167
+Failed to process hymn 167
+Processing hymn 168: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/168.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-168.json
+Processing hymn 169: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/169.png
+Warning: Could not extract title or verses for hymn 169
+Failed to process hymn 169
+Processing hymn 170: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/170.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-170.json
+Processing hymn 171: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/171.png
+Warning: Could not extract title or verses for hymn 171
+Failed to process hymn 171
+Processing hymn 172: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/172.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-172.json
+Processing hymn 173: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/173.png
+Warning: Could not extract title or verses for hymn 173
+Failed to process hymn 173
+Processing hymn 174: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/174.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-174.json
+Processing hymn 175: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/175.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-175.json
+Processing hymn 176: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/176.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-176.json
+Processing hymn 177: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/177.png
+Warning: Could not extract title or verses for hymn 177
+Failed to process hymn 177
+Processing hymn 178: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/178.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-178.json
+Processing hymn 179: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/179.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-179.json
+Processing hymn 180: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/180.png
+Warning: Could not extract title or verses for hymn 180
+Failed to process hymn 180
+Processing hymn 181: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/181.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-181.json
+Processing hymn 182: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/182.png
+Warning: Could not extract title or verses for hymn 182
+Failed to process hymn 182
+Processing hymn 183: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/183.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-183.json
+Processing hymn 184: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/184.png
+Warning: Could not extract title or verses for hymn 184
+Failed to process hymn 184
+Processing hymn 185: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/185.png
+Warning: Could not extract title or verses for hymn 185
+Failed to process hymn 185
+Processing hymn 186: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/186.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-186.json
+Processing hymn 187: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/187.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-187.json
+Processing hymn 188: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/188.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-188.json
+Processing hymn 189: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/189.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-189.json
+Processing hymn 190: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/190.png
+Warning: Could not extract title or verses for hymn 190
+Failed to process hymn 190
+Processing hymn 191: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/191.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-191.json
+Processing hymn 192: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/192.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-192.json
+Processing hymn 193: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/193.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-193.json
+Processing hymn 194: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/194.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-194.json
+Processing hymn 195: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/195.png
+Warning: Could not extract title or verses for hymn 195
+Failed to process hymn 195
+Processing hymn 196: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/196.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-196.json
+Processing hymn 197: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/197.png
+Warning: Could not extract title or verses for hymn 197
+Failed to process hymn 197
+Processing hymn 198: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/198.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-198.json
+Processing hymn 199: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/199.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-199.json
+Processing hymn 200: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/200.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-200.json
+Processing hymn 201: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/201.png
+Warning: Could not extract title or verses for hymn 201
+Failed to process hymn 201
+Processing hymn 202: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/202.png
+Warning: Could not extract title or verses for hymn 202
+Failed to process hymn 202
+Processing hymn 203: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/203.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-203.json
+Processing hymn 204: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/204.png
+Failed to process hymn 204
+Processing hymn 205: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/205.png
+Warning: Could not extract title or verses for hymn 205
+Failed to process hymn 205
+Processing hymn 206: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/206.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-206.json
+Processing hymn 207: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/207.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-207.json
+Processing hymn 208: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/208.png
+Warning: Could not extract title or verses for hymn 208
+Failed to process hymn 208
+Processing hymn 209: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/209.png
+Warning: Could not extract title or verses for hymn 209
+Failed to process hymn 209
+Processing hymn 210: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/210.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-210.json
+Processing hymn 211: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/211.png
+Warning: Could not extract title or verses for hymn 211
+Failed to process hymn 211
+Processing hymn 212: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/212.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-212.json
+Processing hymn 213: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/213.png
+Warning: Could not extract title or verses for hymn 213
+Failed to process hymn 213
+Processing hymn 214: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/214.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-214.json
+Processing hymn 215: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/215.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-215.json
+Processing hymn 216: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/216.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-216.json
+Processing hymn 217: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/217.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-217.json
+Processing hymn 218: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/218.png
+Warning: Could not extract title or verses for hymn 218
+Failed to process hymn 218
+Processing hymn 219: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/219.png
+Warning: Could not extract title or verses for hymn 219
+Failed to process hymn 219
+Processing hymn 220: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/220.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-220.json
+Processing hymn 221: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/221.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-221.json
+Processing hymn 222: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/222.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-222.json
+Processing hymn 223: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/223.png
+Warning: Could not extract title or verses for hymn 223
+Failed to process hymn 223
+Processing hymn 224: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/224.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-224.json
+Processing hymn 225: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/225.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-225.json
+Processing hymn 226: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/226.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-226.json
+Processing hymn 227: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/227.png
+Warning: Could not extract title or verses for hymn 227
+Failed to process hymn 227
+Processing hymn 228: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/228.png
+Warning: Could not extract title or verses for hymn 228
+Failed to process hymn 228
+Processing hymn 229: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/229.png
+Warning: Could not extract title or verses for hymn 229
+Failed to process hymn 229
+Processing hymn 230: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/230.png
+Warning: Could not extract title or verses for hymn 230
+Failed to process hymn 230
+Processing hymn 231: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/231.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-231.json
+Processing hymn 232: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/232.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-232.json
+Processing hymn 233: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/233.png
+Warning: Could not extract title or verses for hymn 233
+Failed to process hymn 233
+Processing hymn 234: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/234.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-234.json
+Processing hymn 235: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/235.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-235.json
+Processing hymn 236: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/236.png
+Warning: Could not extract title or verses for hymn 236
+Failed to process hymn 236
+Processing hymn 237: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/237.png
+Warning: Could not extract title or verses for hymn 237
+Failed to process hymn 237
+Processing hymn 238: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/238.png
+Warning: Could not extract title or verses for hymn 238
+Failed to process hymn 238
+Processing hymn 239: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/239.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-239.json
+Processing hymn 240: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/240.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-240.json
+Processing hymn 241: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/241.png
+Warning: Could not extract title or verses for hymn 241
+Failed to process hymn 241
+Processing hymn 242: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/242.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-242.json
+Processing hymn 243: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/243.png
+Warning: Could not extract title or verses for hymn 243
+Failed to process hymn 243
+Processing hymn 244: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/244.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-244.json
+Processing hymn 245: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/245.png
+Warning: Could not extract title or verses for hymn 245
+Failed to process hymn 245
+Processing hymn 246: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/246.png
+Warning: Could not extract title or verses for hymn 246
+Failed to process hymn 246
+Processing hymn 247: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/247.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-247.json
+Processing hymn 248: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/248.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-248.json
+Processing hymn 249: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/249.png
+Warning: Could not extract title or verses for hymn 249
+Failed to process hymn 249
+Processing hymn 250: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/250.png
+Warning: Could not extract title or verses for hymn 250
+Failed to process hymn 250
+
+=== Processing batch 251-350 ===
+Processing hymns 251-350
+Processing hymn 251: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/251.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-251.json
+Processing hymn 252: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/252.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-252.json
+Processing hymn 253: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/253.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-253.json
+Processing hymn 254: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/254.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-254.json
+Processing hymn 255: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/255.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-255.json
+Processing hymn 256: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/256.png
+Warning: Could not extract title or verses for hymn 256
+Failed to process hymn 256
+Processing hymn 257: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/257.png
+Warning: Could not extract title or verses for hymn 257
+Failed to process hymn 257
+Processing hymn 258: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/258.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-258.json
+Processing hymn 259: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/259.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-259.json
+Processing hymn 260: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/260.png
+Warning: Could not extract title or verses for hymn 260
+Failed to process hymn 260
+Processing hymn 261: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/261.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-261.json
+Processing hymn 262: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/262.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-262.json
+Processing hymn 263: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/263.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-263.json
+Processing hymn 264: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/264.png
+Warning: Could not extract title or verses for hymn 264
+Failed to process hymn 264
+Processing hymn 265: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/265.png
+Warning: Could not extract title or verses for hymn 265
+Failed to process hymn 265
+Processing hymn 266: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/266.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-266.json
+Processing hymn 267: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/267.png
+Warning: Could not extract title or verses for hymn 267
+Failed to process hymn 267
+Processing hymn 268: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/268.png
+Warning: Could not extract title or verses for hymn 268
+Failed to process hymn 268
+Processing hymn 269: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/269.png
+Warning: Could not extract title or verses for hymn 269
+Failed to process hymn 269
+Processing hymn 270: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/270.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-270.json
+Processing hymn 271: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/271.png
+Warning: Could not extract title or verses for hymn 271
+Failed to process hymn 271
+Processing hymn 272: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/272.png
+Warning: Could not extract title or verses for hymn 272
+Failed to process hymn 272
+Processing hymn 273: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/273.png
+Warning: Could not extract title or verses for hymn 273
+Failed to process hymn 273
+Processing hymn 274: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/274.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-274.json
+Processing hymn 275: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/275.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-275.json
+Processing hymn 276: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/276.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-276.json
+Processing hymn 277: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/277.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-277.json
+Processing hymn 278: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/278.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-278.json
+Processing hymn 279: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/279.png
+Warning: Could not extract title or verses for hymn 279
+Failed to process hymn 279
+Processing hymn 280: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/280.png
+Warning: Could not extract title or verses for hymn 280
+Failed to process hymn 280
+Processing hymn 281: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/281.png
+Warning: Could not extract title or verses for hymn 281
+Failed to process hymn 281
+Warning: Image not found: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/282.png
+Processing hymn 283: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/283.png
+Warning: Could not extract title or verses for hymn 283
+Failed to process hymn 283
+Processing hymn 284: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/284.png
+Warning: Could not extract title or verses for hymn 284
+Failed to process hymn 284
+Processing hymn 285: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/285.png
+Warning: Could not extract title or verses for hymn 285
+Failed to process hymn 285
+Processing hymn 286: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/286.png
+Warning: Could not extract title or verses for hymn 286
+Failed to process hymn 286
+Processing hymn 287: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/287.png
+Warning: Could not extract title or verses for hymn 287
+Failed to process hymn 287
+Processing hymn 288: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/288.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-288.json
+Processing hymn 289: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/289.png
+Warning: Could not extract title or verses for hymn 289
+Failed to process hymn 289
+Processing hymn 290: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/290.png
+Warning: Could not extract title or verses for hymn 290
+Failed to process hymn 290
+Processing hymn 291: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/291.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-291.json
+Processing hymn 292: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/292.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-292.json
+Processing hymn 293: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/293.png
+Warning: Could not extract title or verses for hymn 293
+Failed to process hymn 293
+Processing hymn 294: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/294.png
+Warning: Could not extract title or verses for hymn 294
+Failed to process hymn 294
+Processing hymn 295: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/295.png
+Warning: Could not extract title or verses for hymn 295
+Failed to process hymn 295
+Processing hymn 296: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/296.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-296.json
+Processing hymn 297: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/297.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-297.json
+Processing hymn 298: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/298.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-298.json
+Processing hymn 299: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/299.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-299.json
+Processing hymn 300: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/300.png
+Warning: Could not extract title or verses for hymn 300
+Failed to process hymn 300
+Processing hymn 301: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/301.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-301.json
+Processing hymn 302: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/302.png
+Warning: Could not extract title or verses for hymn 302
+Failed to process hymn 302
+Processing hymn 303: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/303.png
+Warning: Could not extract title or verses for hymn 303
+Failed to process hymn 303
+Processing hymn 304: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/304.png
+Warning: Could not extract title or verses for hymn 304
+Failed to process hymn 304
+Processing hymn 305: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/305.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-305.json
+Processing hymn 306: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/306.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-306.json
+Processing hymn 307: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/307.png
+Warning: Could not extract title or verses for hymn 307
+Failed to process hymn 307
+Processing hymn 308: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/308.png
+Warning: Could not extract title or verses for hymn 308
+Failed to process hymn 308
+Processing hymn 309: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/309.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-309.json
+Processing hymn 310: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/310.png
+Warning: Could not extract title or verses for hymn 310
+Failed to process hymn 310
+Processing hymn 311: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/311.png
+Warning: Could not extract title or verses for hymn 311
+Failed to process hymn 311
+Processing hymn 312: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/312.png
+Warning: Could not extract title or verses for hymn 312
+Failed to process hymn 312
+Warning: Image not found: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/313.png
+Processing hymn 314: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/314.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-314.json
+Processing hymn 315: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/315.png
+Warning: Could not extract title or verses for hymn 315
+Failed to process hymn 315
+Processing hymn 316: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/316.png
+Warning: Could not extract title or verses for hymn 316
+Failed to process hymn 316
+Processing hymn 317: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/317.png
+Warning: Could not extract title or verses for hymn 317
+Failed to process hymn 317
+Processing hymn 318: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/318.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-318.json
+Processing hymn 319: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/319.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-319.json
+Processing hymn 320: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/320.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-320.json
+Processing hymn 321: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/321.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-321.json
+Processing hymn 322: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/322.png
+Warning: Could not extract title or verses for hymn 322
+Failed to process hymn 322
+Processing hymn 323: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/323.png
+Warning: Could not extract title or verses for hymn 323
+Failed to process hymn 323
+Processing hymn 324: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/324.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-324.json
+Processing hymn 325: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/325.png
+Warning: Could not extract title or verses for hymn 325
+Failed to process hymn 325
+Processing hymn 326: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/326.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-326.json
+Warning: Image not found: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/327.png
+Processing hymn 328: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/328.png
+Warning: Could not extract title or verses for hymn 328
+Failed to process hymn 328
+Processing hymn 329: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/329.png
+Warning: Could not extract title or verses for hymn 329
+Failed to process hymn 329
+Processing hymn 330: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/330.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-330.json
+Processing hymn 331: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/331.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-331.json
+Processing hymn 332: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/332.png
+Warning: Could not extract title or verses for hymn 332
+Failed to process hymn 332
+Processing hymn 333: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/333.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-333.json
+Processing hymn 334: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/334.png
+Warning: Could not extract title or verses for hymn 334
+Failed to process hymn 334
+Processing hymn 335: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/335.png
+Warning: Could not extract title or verses for hymn 335
+Failed to process hymn 335
+Processing hymn 336: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/336.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-336.json
+Processing hymn 337: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/337.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-337.json
+Processing hymn 338: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/338.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-338.json
+Processing hymn 339: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/339.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-339.json
+Processing hymn 340: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/340.png
+Warning: Could not extract title or verses for hymn 340
+Failed to process hymn 340
+Processing hymn 341: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/341.png
+Warning: Could not extract title or verses for hymn 341
+Failed to process hymn 341
+Processing hymn 342: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/342.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-342.json
+Processing hymn 343: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/343.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-343.json
+Processing hymn 344: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/344.png
+Warning: Could not extract title or verses for hymn 344
+Failed to process hymn 344
+Processing hymn 345: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/345.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-345.json
+Processing hymn 346: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/346.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-346.json
+Processing hymn 347: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/347.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-347.json
+Processing hymn 348: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/348.png
+Warning: Could not extract title or verses for hymn 348
+Failed to process hymn 348
+Processing hymn 349: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/349.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-349.json
+Processing hymn 350: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/350.png
+Warning: Could not extract title or verses for hymn 350
+Failed to process hymn 350
+
+=== Processing batch 351-450 ===
+Processing hymns 351-450
+Processing hymn 351: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/351.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-351.json
+Processing hymn 352: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/352.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-352.json
+Processing hymn 353: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/353.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-353.json
+Processing hymn 354: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/354.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-354.json
+Warning: Image not found: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/355.png
+Warning: Image not found: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/356.png
+Processing hymn 357: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/357.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-357.json
+Processing hymn 358: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/358.png
+Warning: Could not extract title or verses for hymn 358
+Failed to process hymn 358
+Processing hymn 359: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/359.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-359.json
+Processing hymn 360: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/360.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-360.json
+Processing hymn 361: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/361.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-361.json
+Processing hymn 362: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/362.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-362.json
+Processing hymn 363: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/363.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-363.json
+Processing hymn 364: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/364.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-364.json
+Processing hymn 365: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/365.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-365.json
+Processing hymn 366: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/366.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-366.json
+Processing hymn 367: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/367.png
+Warning: Could not extract title or verses for hymn 367
+Failed to process hymn 367
+Processing hymn 368: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/368.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-368.json
+Processing hymn 369: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/369.png
+Warning: Could not extract title or verses for hymn 369
+Failed to process hymn 369
+Processing hymn 370: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/370.png
+Warning: Could not extract title or verses for hymn 370
+Failed to process hymn 370
+Processing hymn 371: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/371.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-371.json
+Processing hymn 372: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/372.png
+Warning: Could not extract title or verses for hymn 372
+Failed to process hymn 372
+Processing hymn 373: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/373.png
+Warning: Could not extract title or verses for hymn 373
+Failed to process hymn 373
+Processing hymn 374: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/374.png
+Warning: Could not extract title or verses for hymn 374
+Failed to process hymn 374
+Processing hymn 375: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/375.png
+Warning: Could not extract title or verses for hymn 375
+Failed to process hymn 375
+Processing hymn 376: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/376.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-376.json
+Processing hymn 377: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/377.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-377.json
+Processing hymn 378: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/378.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-378.json
+Processing hymn 379: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/379.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-379.json
+Processing hymn 380: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/380.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-380.json
+Processing hymn 381: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/381.png
+Warning: Could not extract title or verses for hymn 381
+Failed to process hymn 381
+Processing hymn 382: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/382.png
+Warning: Could not extract title or verses for hymn 382
+Failed to process hymn 382
+Processing hymn 383: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/383.png
+Warning: Could not extract title or verses for hymn 383
+Failed to process hymn 383
+Processing hymn 384: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/384.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-384.json
+Processing hymn 385: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/385.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-385.json
+Processing hymn 386: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/386.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-386.json
+Processing hymn 387: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/387.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-387.json
+Processing hymn 388: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/388.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-388.json
+Processing hymn 389: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/389.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-389.json
+Processing hymn 390: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/390.png
+Warning: Could not extract title or verses for hymn 390
+Failed to process hymn 390
+Processing hymn 391: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/391.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-391.json
+Processing hymn 392: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/392.png
+Warning: Could not extract title or verses for hymn 392
+Failed to process hymn 392
+Processing hymn 393: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/393.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-393.json
+Processing hymn 394: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/394.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-394.json
+Processing hymn 395: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/395.png
+Warning: Could not extract title or verses for hymn 395
+Failed to process hymn 395
+Processing hymn 396: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/396.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-396.json
+Processing hymn 397: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/397.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-397.json
+Processing hymn 398: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/398.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-398.json
+Processing hymn 399: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/399.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-399.json
+Processing hymn 400: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/400.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-400.json
+Processing hymn 401: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/401.png
+Warning: Could not extract title or verses for hymn 401
+Failed to process hymn 401
+Processing hymn 402: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/402.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-402.json
+Processing hymn 403: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/403.png
+Warning: Could not extract title or verses for hymn 403
+Failed to process hymn 403
+Processing hymn 404: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/404.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-404.json
+Processing hymn 405: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/405.png
+Warning: Could not extract title or verses for hymn 405
+Failed to process hymn 405
+Processing hymn 406: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/406.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-406.json
+Processing hymn 407: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/407.png
+Warning: Could not extract title or verses for hymn 407
+Failed to process hymn 407
+Processing hymn 408: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/408.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-408.json
+Processing hymn 409: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/409.png
+Warning: Could not extract title or verses for hymn 409
+Failed to process hymn 409
+Processing hymn 410: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/410.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-410.json
+Processing hymn 411: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/411.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-411.json
+Processing hymn 412: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/412.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-412.json
+Processing hymn 413: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/413.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-413.json
+Processing hymn 414: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/414.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-414.json
+Processing hymn 415: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/415.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-415.json
+Processing hymn 416: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/416.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-416.json
+Processing hymn 417: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/417.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-417.json
+Processing hymn 418: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/418.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-418.json
+Processing hymn 419: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/419.png
+Warning: Could not extract title or verses for hymn 419
+Failed to process hymn 419
+Processing hymn 420: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/420.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-420.json
+Processing hymn 421: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/421.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-421.json
+Processing hymn 422: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/422.png
+Warning: Could not extract title or verses for hymn 422
+Failed to process hymn 422
+Processing hymn 423: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/423.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-423.json
+Processing hymn 424: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/424.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-424.json
+Processing hymn 425: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/425.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-425.json
+Processing hymn 426: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/426.png
+Warning: Could not extract title or verses for hymn 426
+Failed to process hymn 426
+Processing hymn 427: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/427.png
+Warning: Could not extract title or verses for hymn 427
+Failed to process hymn 427
+Processing hymn 428: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/428.png
+Warning: Could not extract title or verses for hymn 428
+Failed to process hymn 428
+Processing hymn 429: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/429.png
+Warning: Could not extract title or verses for hymn 429
+Failed to process hymn 429
+Processing hymn 430: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/430.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-430.json
+Processing hymn 431: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/431.png
+Warning: Could not extract title or verses for hymn 431
+Failed to process hymn 431
+Processing hymn 432: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/432.png
+Warning: Could not extract title or verses for hymn 432
+Failed to process hymn 432
+Processing hymn 433: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/433.png
+Warning: Could not extract title or verses for hymn 433
+Failed to process hymn 433
+Processing hymn 434: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/434.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-434.json
+Processing hymn 435: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/435.png
+Warning: Could not extract title or verses for hymn 435
+Failed to process hymn 435
+Processing hymn 436: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/436.png
+Warning: Could not extract title or verses for hymn 436
+Failed to process hymn 436
+Processing hymn 437: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/437.png
+Warning: Could not extract title or verses for hymn 437
+Failed to process hymn 437
+Processing hymn 438: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/438.png
+Warning: Could not extract title or verses for hymn 438
+Failed to process hymn 438
+Processing hymn 439: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/439.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-439.json
+Processing hymn 440: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/440.png
+Warning: Could not extract title or verses for hymn 440
+Failed to process hymn 440
+Processing hymn 441: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/441.png
+Warning: Could not extract title or verses for hymn 441
+Failed to process hymn 441
+Processing hymn 442: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/442.png
+Warning: Could not extract title or verses for hymn 442
+Failed to process hymn 442
+Processing hymn 443: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/443.png
+Warning: Could not extract title or verses for hymn 443
+Failed to process hymn 443
+Processing hymn 444: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/444.png
+Warning: Could not extract title or verses for hymn 444
+Failed to process hymn 444
+Processing hymn 445: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/445.png
+Warning: Could not extract title or verses for hymn 445
+Failed to process hymn 445
+Processing hymn 446: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/446.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-446.json
+Processing hymn 447: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/447.png
+Warning: Could not extract title or verses for hymn 447
+Failed to process hymn 447
+Processing hymn 448: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/448.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-448.json
+Processing hymn 449: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/449.png
+Warning: Could not extract title or verses for hymn 449
+Failed to process hymn 449
+Processing hymn 450: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/450.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-450.json
+
+=== Processing batch 451-550 ===
+Processing hymns 451-550
+Processing hymn 451: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/451.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-451.json
+Processing hymn 452: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/452.png
+Warning: Could not extract title or verses for hymn 452
+Failed to process hymn 452
+Processing hymn 453: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/453.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-453.json
+Processing hymn 454: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/454.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-454.json
+Processing hymn 455: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/455.png
+Warning: Could not extract title or verses for hymn 455
+Failed to process hymn 455
+Processing hymn 456: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/456.png
+Warning: Could not extract title or verses for hymn 456
+Failed to process hymn 456
+Processing hymn 457: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/457.png
+Warning: Could not extract title or verses for hymn 457
+Failed to process hymn 457
+Processing hymn 458: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/458.png
+Warning: Could not extract title or verses for hymn 458
+Failed to process hymn 458
+Processing hymn 459: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/459.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-459.json
+Processing hymn 460: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/460.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-460.json
+Processing hymn 461: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/461.png
+Warning: Could not extract title or verses for hymn 461
+Failed to process hymn 461
+Processing hymn 462: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/462.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-462.json
+Processing hymn 463: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/463.png
+Warning: Could not extract title or verses for hymn 463
+Failed to process hymn 463
+Processing hymn 464: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/464.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-464.json
+Warning: Image not found: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/465.png
+Processing hymn 466: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/466.png
+Warning: Could not extract title or verses for hymn 466
+Failed to process hymn 466
+Processing hymn 467: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/467.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-467.json
+Processing hymn 468: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/468.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-468.json
+Processing hymn 469: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/469.png
+Warning: Could not extract title or verses for hymn 469
+Failed to process hymn 469
+Processing hymn 470: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/470.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-470.json
+Processing hymn 471: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/471.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-471.json
+Processing hymn 472: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/472.png
+Warning: Could not extract title or verses for hymn 472
+Failed to process hymn 472
+Processing hymn 473: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/473.png
+Warning: Could not extract title or verses for hymn 473
+Failed to process hymn 473
+Processing hymn 474: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/474.png
+Warning: Could not extract title or verses for hymn 474
+Failed to process hymn 474
+Processing hymn 475: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/475.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-475.json
+Processing hymn 476: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/476.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-476.json
+Processing hymn 477: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/477.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-477.json
+Processing hymn 478: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/478.png
+Warning: Could not extract title or verses for hymn 478
+Failed to process hymn 478
+Processing hymn 479: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/479.png
+Warning: Could not extract title or verses for hymn 479
+Failed to process hymn 479
+Processing hymn 480: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/480.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-480.json
+Processing hymn 481: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/481.png
+Warning: Could not extract title or verses for hymn 481
+Failed to process hymn 481
+Processing hymn 482: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/482.png
+Warning: Could not extract title or verses for hymn 482
+Failed to process hymn 482
+Processing hymn 483: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/483.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-483.json
+Processing hymn 484: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/484.png
+Warning: Could not extract title or verses for hymn 484
+Failed to process hymn 484
+Processing hymn 485: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/485.png
+Failed to process hymn 485
+Processing hymn 486: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/486.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-486.json
+Processing hymn 487: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/487.png
+Warning: Could not extract title or verses for hymn 487
+Failed to process hymn 487
+Processing hymn 488: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/488.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-488.json
+Processing hymn 489: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/489.png
+Warning: Could not extract title or verses for hymn 489
+Failed to process hymn 489
+Processing hymn 490: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/490.png
+Warning: Could not extract title or verses for hymn 490
+Failed to process hymn 490
+Processing hymn 491: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/491.png
+Warning: Could not extract title or verses for hymn 491
+Failed to process hymn 491
+Processing hymn 492: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/492.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-492.json
+Processing hymn 493: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/493.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-493.json
+Processing hymn 494: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/494.png
+Warning: Could not extract title or verses for hymn 494
+Failed to process hymn 494
+Processing hymn 495: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/495.png
+Warning: Could not extract title or verses for hymn 495
+Failed to process hymn 495
+Processing hymn 496: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/496.png
+Warning: Could not extract title or verses for hymn 496
+Failed to process hymn 496
+Processing hymn 497: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/497.png
+Warning: Could not extract title or verses for hymn 497
+Failed to process hymn 497
+Processing hymn 498: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/498.png
+Warning: Could not extract title or verses for hymn 498
+Failed to process hymn 498
+Processing hymn 499: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/499.png
+Warning: Could not extract title or verses for hymn 499
+Failed to process hymn 499
+Processing hymn 500: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/500.png
+Warning: Could not extract title or verses for hymn 500
+Failed to process hymn 500
+Processing hymn 501: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/501.png
+Warning: Could not extract title or verses for hymn 501
+Failed to process hymn 501
+Processing hymn 502: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/502.png
+Warning: Could not extract title or verses for hymn 502
+Failed to process hymn 502
+Processing hymn 503: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/503.png
+Warning: Could not extract title or verses for hymn 503
+Failed to process hymn 503
+Processing hymn 504: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/504.png
+Warning: Could not extract title or verses for hymn 504
+Failed to process hymn 504
+Processing hymn 505: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/505.png
+Warning: Could not extract title or verses for hymn 505
+Failed to process hymn 505
+Processing hymn 506: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/506.png
+Warning: Could not extract title or verses for hymn 506
+Failed to process hymn 506
+Processing hymn 507: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/507.png
+Warning: Could not extract title or verses for hymn 507
+Failed to process hymn 507
+Processing hymn 508: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/508.png
+Warning: Could not extract title or verses for hymn 508
+Failed to process hymn 508
+Processing hymn 509: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/509.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-509.json
+Processing hymn 510: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/510.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-510.json
+Processing hymn 511: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/511.png
+Warning: Could not extract title or verses for hymn 511
+Failed to process hymn 511
+Processing hymn 512: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/512.png
+Warning: Could not extract title or verses for hymn 512
+Failed to process hymn 512
+Processing hymn 513: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/513.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-513.json
+Processing hymn 514: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/514.png
+Warning: Could not extract title or verses for hymn 514
+Failed to process hymn 514
+Warning: Image not found: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/515.png
+Processing hymn 516: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/516.png
+Warning: Could not extract title or verses for hymn 516
+Failed to process hymn 516
+Processing hymn 517: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/517.png
+Warning: Could not extract title or verses for hymn 517
+Failed to process hymn 517
+Processing hymn 518: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/518.png
+Warning: Could not extract title or verses for hymn 518
+Failed to process hymn 518
+Processing hymn 519: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/519.png
+Warning: Could not extract title or verses for hymn 519
+Failed to process hymn 519
+Processing hymn 520: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/520.png
+Warning: Could not extract title or verses for hymn 520
+Failed to process hymn 520
+Processing hymn 521: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/521.png
+Warning: Could not extract title or verses for hymn 521
+Failed to process hymn 521
+Processing hymn 522: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/522.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-522.json
+Processing hymn 523: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/523.png
+Warning: Could not extract title or verses for hymn 523
+Failed to process hymn 523
+Processing hymn 524: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/524.png
+Warning: Could not extract title or verses for hymn 524
+Failed to process hymn 524
+Processing hymn 525: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/525.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-525.json
+Processing hymn 526: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/526.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-526.json
+Processing hymn 527: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/527.png
+Warning: Could not extract title or verses for hymn 527
+Failed to process hymn 527
+Processing hymn 528: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/528.png
+Warning: Could not extract title or verses for hymn 528
+Failed to process hymn 528
+Processing hymn 529: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/529.png
+Warning: Could not extract title or verses for hymn 529
+Failed to process hymn 529
+Processing hymn 530: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/530.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-530.json
+Processing hymn 531: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/531.png
+Warning: Could not extract title or verses for hymn 531
+Failed to process hymn 531
+Processing hymn 532: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/532.png
+Warning: Could not extract title or verses for hymn 532
+Failed to process hymn 532
+Processing hymn 533: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/533.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-533.json
+Processing hymn 534: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/534.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-534.json
+Processing hymn 535: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/535.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-535.json
+Processing hymn 536: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/536.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-536.json
+Processing hymn 537: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/537.png
+Warning: Could not extract title or verses for hymn 537
+Failed to process hymn 537
+Processing hymn 538: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/538.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-538.json
+Processing hymn 539: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/539.png
+Warning: Could not extract title or verses for hymn 539
+Failed to process hymn 539
+Processing hymn 540: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/540.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-540.json
+Processing hymn 541: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/541.png
+Warning: Could not extract title or verses for hymn 541
+Failed to process hymn 541
+Processing hymn 542: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/542.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-542.json
+Processing hymn 543: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/543.png
+Warning: Could not extract title or verses for hymn 543
+Failed to process hymn 543
+Processing hymn 544: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/544.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-544.json
+Processing hymn 545: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/545.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-545.json
+Processing hymn 546: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/546.png
+Warning: Could not extract title or verses for hymn 546
+Failed to process hymn 546
+Processing hymn 547: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/547.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-547.json
+Processing hymn 548: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/548.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-548.json
+Processing hymn 549: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/549.png
+Warning: Could not extract title or verses for hymn 549
+Failed to process hymn 549
+Processing hymn 550: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/550.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-550.json
+
+=== Processing batch 551-650 ===
+Processing hymns 551-650
+Processing hymn 551: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/551.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-551.json
+Processing hymn 552: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/552.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-552.json
+Processing hymn 553: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/553.png
+Warning: Could not extract title or verses for hymn 553
+Failed to process hymn 553
+Processing hymn 554: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/554.png
+Warning: Could not extract title or verses for hymn 554
+Failed to process hymn 554
+Processing hymn 555: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/555.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-555.json
+Processing hymn 556: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/556.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-556.json
+Processing hymn 557: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/557.png
+Warning: Could not extract title or verses for hymn 557
+Failed to process hymn 557
+Processing hymn 558: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/558.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-558.json
+Processing hymn 559: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/559.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-559.json
+Processing hymn 560: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/560.png
+Warning: Could not extract title or verses for hymn 560
+Failed to process hymn 560
+Processing hymn 561: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/561.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-561.json
+Processing hymn 562: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/562.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-562.json
+Processing hymn 563: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/563.png
+Warning: Could not extract title or verses for hymn 563
+Failed to process hymn 563
+Processing hymn 564: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/564.png
+Warning: Could not extract title or verses for hymn 564
+Failed to process hymn 564
+Processing hymn 565: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/565.png
+Warning: Could not extract title or verses for hymn 565
+Failed to process hymn 565
+Processing hymn 566: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/566.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-566.json
+Processing hymn 567: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/567.png
+Warning: Could not extract title or verses for hymn 567
+Failed to process hymn 567
+Processing hymn 568: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/568.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-568.json
+Processing hymn 569: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/569.png
+Warning: Could not extract title or verses for hymn 569
+Failed to process hymn 569
+Processing hymn 570: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/570.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-570.json
+Processing hymn 571: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/571.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-571.json
+Processing hymn 572: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/572.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-572.json
+Processing hymn 573: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/573.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-573.json
+Processing hymn 574: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/574.png
+Warning: Could not extract title or verses for hymn 574
+Failed to process hymn 574
+Processing hymn 575: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/575.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-575.json
+Processing hymn 576: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/576.png
+Warning: Could not extract title or verses for hymn 576
+Failed to process hymn 576
+Processing hymn 577: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/577.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-577.json
+Processing hymn 578: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/578.png
+Warning: Could not extract title or verses for hymn 578
+Failed to process hymn 578
+Processing hymn 579: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/579.png
+Warning: Could not extract title or verses for hymn 579
+Failed to process hymn 579
+Processing hymn 580: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/580.png
+Warning: Could not extract title or verses for hymn 580
+Failed to process hymn 580
+Processing hymn 581: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/581.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-581.json
+Processing hymn 582: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/582.png
+Warning: Could not extract title or verses for hymn 582
+Failed to process hymn 582
+Processing hymn 583: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/583.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-583.json
+Processing hymn 584: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/584.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-584.json
+Warning: Image not found: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/585.png
+Processing hymn 586: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/586.png
+Warning: Could not extract title or verses for hymn 586
+Failed to process hymn 586
+Processing hymn 587: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/587.png
+Warning: Could not extract title or verses for hymn 587
+Failed to process hymn 587
+Processing hymn 588: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/588.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-588.json
+Processing hymn 589: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/589.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-589.json
+Processing hymn 590: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/590.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-590.json
+Processing hymn 591: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/591.png
+Failed to process hymn 591
+Processing hymn 592: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/592.png
+Warning: Could not extract title or verses for hymn 592
+Failed to process hymn 592
+Processing hymn 593: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/593.png
+Warning: Could not extract title or verses for hymn 593
+Failed to process hymn 593
+Processing hymn 594: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/594.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-594.json
+Processing hymn 595: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/595.png
+Warning: Could not extract title or verses for hymn 595
+Failed to process hymn 595
+Processing hymn 596: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/596.png
+Warning: Could not extract title or verses for hymn 596
+Failed to process hymn 596
+Processing hymn 597: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/597.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-597.json
+Processing hymn 598: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/598.png
+Warning: Could not extract title or verses for hymn 598
+Failed to process hymn 598
+Processing hymn 599: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/599.png
+Warning: Could not extract title or verses for hymn 599
+Failed to process hymn 599
+Processing hymn 600: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/600.png
+Warning: Could not extract title or verses for hymn 600
+Failed to process hymn 600
+Processing hymn 601: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/601.png
+Warning: Could not extract title or verses for hymn 601
+Failed to process hymn 601
+Processing hymn 602: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/602.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-602.json
+Processing hymn 603: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/603.png
+Warning: Could not extract title or verses for hymn 603
+Failed to process hymn 603
+Processing hymn 604: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/604.png
+Warning: Could not extract title or verses for hymn 604
+Failed to process hymn 604
+Processing hymn 605: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/605.png
+Warning: Could not extract title or verses for hymn 605
+Failed to process hymn 605
+Processing hymn 606: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/606.png
+Warning: Could not extract title or verses for hymn 606
+Failed to process hymn 606
+Processing hymn 607: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/607.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-607.json
+Processing hymn 608: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/608.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-608.json
+Processing hymn 609: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/609.png
+Warning: Could not extract title or verses for hymn 609
+Failed to process hymn 609
+Processing hymn 610: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/610.png
+Warning: Could not extract title or verses for hymn 610
+Failed to process hymn 610
+Processing hymn 611: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/611.png
+Warning: Could not extract title or verses for hymn 611
+Failed to process hymn 611
+Processing hymn 612: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/612.png
+Warning: Could not extract title or verses for hymn 612
+Failed to process hymn 612
+Processing hymn 613: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/613.png
+Warning: Could not extract title or verses for hymn 613
+Failed to process hymn 613
+Processing hymn 614: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/614.png
+Warning: Could not extract title or verses for hymn 614
+Failed to process hymn 614
+Processing hymn 615: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/615.png
+Warning: Could not extract title or verses for hymn 615
+Failed to process hymn 615
+Processing hymn 616: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/616.png
+Warning: Could not extract title or verses for hymn 616
+Failed to process hymn 616
+Processing hymn 617: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/617.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-617.json
+Processing hymn 618: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/618.png
+Warning: Could not extract title or verses for hymn 618
+Failed to process hymn 618
+Processing hymn 619: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/619.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-619.json
+Processing hymn 620: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/620.png
+Warning: Could not extract title or verses for hymn 620
+Failed to process hymn 620
+Processing hymn 621: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/621.png
+Warning: Could not extract title or verses for hymn 621
+Failed to process hymn 621
+Processing hymn 622: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/622.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-622.json
+Processing hymn 623: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/623.png
+Warning: Could not extract title or verses for hymn 623
+Failed to process hymn 623
+Processing hymn 624: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/624.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-624.json
+Processing hymn 625: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/625.png
+Warning: Could not extract title or verses for hymn 625
+Failed to process hymn 625
+Processing hymn 626: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/626.png
+Warning: Could not extract title or verses for hymn 626
+Failed to process hymn 626
+Processing hymn 627: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/627.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-627.json
+Processing hymn 628: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/628.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-628.json
+Processing hymn 629: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/629.png
+Warning: Could not extract title or verses for hymn 629
+Failed to process hymn 629
+Processing hymn 630: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/630.png
+Warning: Could not extract title or verses for hymn 630
+Failed to process hymn 630
+Processing hymn 631: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/631.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-631.json
+Processing hymn 632: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/632.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-632.json
+Processing hymn 633: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/633.png
+Warning: Could not extract title or verses for hymn 633
+Failed to process hymn 633
+Processing hymn 634: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/634.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-634.json
+Processing hymn 635: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/635.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-635.json
+Processing hymn 636: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/636.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-636.json
+Processing hymn 637: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/637.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-637.json
+Processing hymn 638: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/638.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-638.json
+Processing hymn 639: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/639.png
+Warning: Could not extract title or verses for hymn 639
+Failed to process hymn 639
+Processing hymn 640: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/640.png
+Warning: Could not extract title or verses for hymn 640
+Failed to process hymn 640
+Processing hymn 641: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/641.png
+Warning: Could not extract title or verses for hymn 641
+Failed to process hymn 641
+Processing hymn 642: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/642.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-642.json
+Processing hymn 643: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/643.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-643.json
+Processing hymn 644: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/644.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-644.json
+Processing hymn 645: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/645.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-645.json
+Processing hymn 646: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/646.png
+Warning: Could not extract title or verses for hymn 646
+Failed to process hymn 646
+Processing hymn 647: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/647.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-647.json
+Processing hymn 648: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/648.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-648.json
+Processing hymn 649: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/649.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-649.json
+Processing hymn 650: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/650.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-650.json
+
+=== Processing batch 651-695 ===
+Processing hymns 651-695
+Warning: Image not found: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/651.png
+Processing hymn 652: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/652.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-652.json
+Processing hymn 653: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/653.png
+Warning: Could not extract title or verses for hymn 653
+Failed to process hymn 653
+Processing hymn 654: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/654.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-654.json
+Processing hymn 655: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/655.png
+Warning: Could not extract title or verses for hymn 655
+Failed to process hymn 655
+Processing hymn 656: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/656.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-656.json
+Processing hymn 657: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/657.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-657.json
+Processing hymn 658: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/658.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-658.json
+Processing hymn 659: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/659.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-659.json
+Processing hymn 660: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/660.png
+Warning: Could not extract title or verses for hymn 660
+Failed to process hymn 660
+Processing hymn 661: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/661.png
+Warning: Could not extract title or verses for hymn 661
+Failed to process hymn 661
+Processing hymn 662: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/662.png
+Warning: Could not extract title or verses for hymn 662
+Failed to process hymn 662
+Processing hymn 663: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/663.png
+Warning: Could not extract title or verses for hymn 663
+Failed to process hymn 663
+Processing hymn 664: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/664.png
+Warning: Could not extract title or verses for hymn 664
+Failed to process hymn 664
+Processing hymn 665: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/665.png
+Warning: Could not extract title or verses for hymn 665
+Failed to process hymn 665
+Processing hymn 666: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/666.png
+Warning: Could not extract title or verses for hymn 666
+Failed to process hymn 666
+Processing hymn 667: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/667.png
+Warning: Could not extract title or verses for hymn 667
+Failed to process hymn 667
+Processing hymn 668: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/668.png
+Warning: Could not extract title or verses for hymn 668
+Failed to process hymn 668
+Processing hymn 669: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/669.png
+Warning: Could not extract title or verses for hymn 669
+Failed to process hymn 669
+Processing hymn 670: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/670.png
+Warning: Could not extract title or verses for hymn 670
+Failed to process hymn 670
+Processing hymn 671: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/671.png
+Warning: Could not extract title or verses for hymn 671
+Failed to process hymn 671
+Processing hymn 672: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/672.png
+Warning: Could not extract title or verses for hymn 672
+Failed to process hymn 672
+Processing hymn 673: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/673.png
+Warning: Could not extract title or verses for hymn 673
+Failed to process hymn 673
+Processing hymn 674: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/674.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-674.json
+Processing hymn 675: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/675.png
+Warning: Could not extract title or verses for hymn 675
+Failed to process hymn 675
+Processing hymn 676: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/676.png
+Warning: Could not extract title or verses for hymn 676
+Failed to process hymn 676
+Processing hymn 677: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/677.png
+Warning: Could not extract title or verses for hymn 677
+Failed to process hymn 677
+Processing hymn 678: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/678.png
+Warning: Could not extract title or verses for hymn 678
+Failed to process hymn 678
+Processing hymn 679: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/679.png
+Warning: Could not extract title or verses for hymn 679
+Failed to process hymn 679
+Processing hymn 680: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/680.png
+Warning: Could not extract title or verses for hymn 680
+Failed to process hymn 680
+Processing hymn 681: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/681.png
+Warning: Could not extract title or verses for hymn 681
+Failed to process hymn 681
+Processing hymn 682: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/682.png
+Warning: Could not extract title or verses for hymn 682
+Failed to process hymn 682
+Processing hymn 683: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/683.png
+Warning: Could not extract title or verses for hymn 683
+Failed to process hymn 683
+Processing hymn 684: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/684.png
+Warning: Could not extract title or verses for hymn 684
+Failed to process hymn 684
+Processing hymn 685: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/685.png
+Warning: Could not extract title or verses for hymn 685
+Failed to process hymn 685
+Processing hymn 686: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/686.png
+Warning: Could not extract title or verses for hymn 686
+Failed to process hymn 686
+Processing hymn 687: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/687.png
+Saved: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/hymns/SDAH/SDAH-en-687.json
+Processing hymn 688: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/688.png
+Warning: Could not extract title or verses for hymn 688
+Failed to process hymn 688
+Processing hymn 689: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/689.png
+Warning: Could not extract title or verses for hymn 689
+Failed to process hymn 689
+Processing hymn 690: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/690.png
+Warning: Could not extract title or verses for hymn 690
+Failed to process hymn 690
+Processing hymn 691: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/691.png
+Warning: Could not extract title or verses for hymn 691
+Failed to process hymn 691
+Processing hymn 692: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/692.png
+Warning: Could not extract title or verses for hymn 692
+Failed to process hymn 692
+Processing hymn 693: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/693.png
+Warning: Could not extract title or verses for hymn 693
+Failed to process hymn 693
+Processing hymn 694: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/694.png
+Warning: Could not extract title or verses for hymn 694
+Failed to process hymn 694
+Processing hymn 695: /home/brian/Code/AH/advent-hymnals-mono-repo/data/sources/images/SDAH/695.png
+Warning: Could not extract title or verses for hymn 695
+Failed to process hymn 695
+
+=== Processing Statistics ===
+Expected hymns: 695
+Successfully processed: 334
+Success rate: 48.1%
+Statistics saved to: /home/brian/Code/AH/advent-hymnals-mono-repo/data/processed/indices/SDAH/processing-stats.json

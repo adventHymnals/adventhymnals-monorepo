@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-243",
+  "number": 243,
+  "title": "Welcome, sweet day of rest!",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Welcome, sweet day of rest!\nDay above all days the best,\nWhen our souls for heaven prepare."
+    },
+    {
+      "number": 2,
+      "text": "Gracious Lord, we love this day,\nWhen we hear thy holy word;\nWhen thy people praise, and pray;\nEarth can no such joys afford."
+    },
+    {
+      "number": 3,
+      "text": "But a better rest remains,—\nHeavenly Sabbaths, happy days,\nRest from sin, and rest from pains,\nEndless joys, and endless praise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "rest", "heaven", "praise"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

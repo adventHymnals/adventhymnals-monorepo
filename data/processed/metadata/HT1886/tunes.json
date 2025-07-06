@@ -1,0 +1,121 @@
+{
+  "tunes": [
+    {
+      "id": "hendon",
+      "name": "Hendon",
+      "composer_id": "ch-a-malan",
+      "meter": "7.7.7.7",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-015"]
+    },
+    {
+      "id": "duke-street",
+      "name": "Duke Street",
+      "composer_id": "john-hatton",
+      "meter": "L.M.",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-019"]
+    },
+    {
+      "id": "angels",
+      "name": "Angels",
+      "composer_id": "orlando-gibbons",
+      "meter": "L.M.",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-023"]
+    },
+    {
+      "id": "mendon",
+      "name": "Mendon",
+      "composer_id": "german",
+      "meter": "L.M.",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-140"]
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "composer_id": "ludwig-von-beethoven",
+      "meter": "L.M.",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-304"]
+    },
+    {
+      "id": "deerhurst",
+      "name": "Deerhurst",
+      "composer_id": "langran",
+      "meter": "8s & 7s, D.",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-466"]
+    },
+    {
+      "id": "im-a-traveler",
+      "name": "I'm a Traveler",
+      "composer_id": "n-billings",
+      "meter": "7s & 4s, D.",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-616"]
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "composer_id": "ernest-radford",
+      "meter": "10s & 11s.",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-617"]
+    },
+    {
+      "id": "wickham",
+      "name": "Wickham",
+      "composer_id": "morris",
+      "meter": "7s, D.",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-770"]
+    },
+    {
+      "id": "martyn",
+      "name": "Martyn",
+      "composer_id": "simeon-b-marsh",
+      "meter": "7s, D.",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-771"]
+    },
+    {
+      "id": "verdi",
+      "name": "Verdi",
+      "composer_id": "fe-belden",
+      "meter": "S.M.D.",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-899"]
+    },
+    {
+      "id": "advent",
+      "name": "Advent",
+      "composer_id": "edwin-barnes",
+      "meter": "7s & 6s, P.",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-900"]
+    },
+    {
+      "id": "st-peter",
+      "name": "St. Peter",
+      "composer_id": "reinagle",
+      "meter": "C.M.",
+      "year": null,
+      "source": "The Seventh-Day Adventist Hymn and Tune Book",
+      "hymns": ["HT1886-en-981"]
+    }
+  ]
+}

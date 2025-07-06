@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-295",
+  "number": 295,
+  "title": "From the lips of angels spoken",
+  "author": null,
+  "composer": "Henry Smart",
+  "tune": "Regent Square",
+  "meter": "8s & 7s. 6L.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "From the lips of angels spoken, Tell the song with falling dews;\nWas there ever silence broken\nWith such joyous welcome news?"
+    },
+    {
+      "number": 2,
+      "text": "Startled shepherds, all awaking,\nHear the long the angels sing;\nAnd their frightened flocks forsaking,\nGo to seek the Saviour-King."
+    },
+    {
+      "number": 3,
+      "text": "Son of God, in manger lowly,\nPrince of light and Lord of love;\nKing of heaven, high and holy,\nBoon on earth from courts above!"
+    },
+    {
+      "number": 4,
+      "text": "We exalt thee, we adore thee,\nWe rejoice, and praise thy name;\nEvery knee shall bend before thee,\nEvery tongue thy love proclaim."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "First Advent", "Christmas", "angels", "shepherds", "worship"],
+    "scripture_references": [],
+    "tune_source": "Regent Square, Henry Smart",
+    "original_language": "en"
+  }
+}

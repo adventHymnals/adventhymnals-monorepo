@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-105",
+  "number": 105,
+  "title": "What equal honors shall we bring",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "What equal honors shall we bring\nTo thee, O Lord our God, the Lamb,\nWhen all the notes that angels sing\nAre far inferior to thy name?"
+    },
+    {
+      "number": 2,
+      "text": "Worthy is he that once was slain,\nThe Prince of peace that groaned and died,\nWorthy to rise, and live, and reign,\nAt his almighty Father's side."
+    },
+    {
+      "number": 3,
+      "text": "Blessings forever on the Lamb,\nWho bore the curse for wretched men;\nLet angels sound his sacred name,\nLet every creature say, Amen!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "adoration of Christ", "Jesus Christ", "worthy the Lamb", "praise", "Prince of peace"],
+    "scripture_references": ["Revelation 5:12"],
+    "tune_source": "168, 101, 68",
+    "original_language": "en"
+  }
+}

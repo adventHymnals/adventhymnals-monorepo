@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-061",
+  "number": 61,
+  "title": "Come, O my soul, in sacred lays",
+  "author": null,
+  "composer": "George Burder",
+  "tune": "Luton",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, O my soul, in sacred lays, Attempt thy great Creator's praise;\nBut O what tongue can speak his fame! What mortal verse declare his name!"
+    },
+    {
+      "number": 2,
+      "text": "Enthroned amid the radiant spheres,\nHe glory like a garment wears;\nTo form a robe of light divine,\nTen thousand suns around him shine."
+    },
+    {
+      "number": 3,
+      "text": "In all our Maker's grand designs,\nOmnipotence with wisdom shines;\nHis works, through all this wondrous frame,\nDeclare the glory of his name."
+    },
+    {
+      "number": 4,
+      "text": "Raised on devotion's lofty wing,\nDo thou, my soul, his glories sing;\nAnd let his praise employ thy tongue\nTill listening worlds shall join the song."
+    },
+    {
+      "number": 5,
+      "text": "O when his wisdom can mistake,\nHis might decay, his love forsake,\nThen may his children cease to sing,\nThe Lord omnipotent is King!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "worship", "God's glory", "divine wisdom", "creation", "God's majesty"],
+    "scripture_references": [],
+    "tune_source": "Luton, George Burder",
+    "original_language": "en"
+  }
+}

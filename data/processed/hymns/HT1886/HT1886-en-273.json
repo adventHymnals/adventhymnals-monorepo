@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-273",
+  "number": 273,
+  "title": "For the mercies of the day",
+  "author": "James Montgomery",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "For the mercies of the day,\nFor this rest upon our way,\nThanks to thee along we give,\nLord of earth and King of heaven!"
+    },
+    {
+      "number": 2,
+      "text": "On our services have peace,\nMingled with the taint of sin;\nBut thou canst and wilt forgive;\nBy thy grace alone we live."
+    },
+    {
+      "number": 3,
+      "text": "While this thorny path we tread,\nMay thy love our footsteps lead;\nWhen our journey here is past,\nMay we rest with thee at last."
+    },
+    {
+      "number": 4,
+      "text": "Let these earthly Sabbaths prove\nForetastes of our joys above;\nWhile their steps thy children bend\nTo the rest that knows no end."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "closing", "gratitude", "rest"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

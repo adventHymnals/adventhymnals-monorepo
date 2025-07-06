@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-307",
+  "number": 307,
+  "title": "How sweetly flowed the gospel sound",
+  "author": "Sir John Bowring",
+  "composer": null,
+  "tune": "171, 194, 540",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How sweetly flowed the gospel sound\nFrom lips of gentleness and grace,\nWhen listening thousands gathered round,\nAnd joy and gladness filled the place!"
+    },
+    {
+      "number": 2,
+      "text": "From heaven he came, of heaven he spoke,\nTo heaven he led his followers' way;\nDark clouds of gloomy night he broke,\nUnveiling an immortal day."
+    },
+    {
+      "number": 3,
+      "text": "He points us to his Father's home,\n\"Come, all ye weary souls, and rest;\"\nYes, sacred Teacher, we will come,\nObey thee, love thee, and be blest."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Life and Character", "teaching", "gospel", "grace", "invitation"],
+    "scripture_references": [],
+    "tune_source": "171, 194, 540",
+    "original_language": "en"
+  }
+}

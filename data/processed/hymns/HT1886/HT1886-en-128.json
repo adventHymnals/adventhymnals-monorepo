@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-128",
+  "number": 128,
+  "title": "Sound, sound the truth abroad!",
+  "author": "Thomas Kelly",
+  "composer": null,
+  "tune": null,
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sound, sound the truth abroad!\nBear ye the word of God\nThrough the wide world;\nTell what our Lord has done,\nTell how the fight is won,\nAnd from his lofty throne\nSatan is hurled."
+    },
+    {
+      "number": 2,
+      "text": "Ye who, forsaking all\nAt your loved Master's call,\nComforts resign;\nSoon will your work be done,\nSoon will the prize be won;\nBrighter than yonder sun\nThen shall ye shine."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["evangelism", "testimony", "victory over Satan", "missionary work", "eternal reward"],
+    "scripture_references": ["Luke 10:18", "Revelation 12:9"],
+    "tune_source": "94, 156",
+    "original_language": "en"
+  }
+}

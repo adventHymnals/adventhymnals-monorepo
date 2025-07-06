@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-217",
+  "number": 217,
+  "title": "We've entered now on holy time",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We've entered now on holy time,\nGod's blessed rest-day all divine;\nThe labors of the week are past,\nNow let earth's cares aside be cast."
+    },
+    {
+      "number": 2,
+      "text": "O let us help repair the breach,\nAnd all of God's commandments teach,\nCalling back sacred joy delight,\nThus walking blameless in his sight."
+    },
+    {
+      "number": 3,
+      "text": "This holy rest, to us is given,\nTo call our minds from earth to heaven;\nThat we may not forget the Lord,\nAnd trample down his holy word."
+    },
+    {
+      "number": 4,
+      "text": "The faith of Jesus, too, we need;\nFor thus the flying angel said,\nCommands of God and Jesus' faith\nWill shield us in the day of wrath."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["holy time", "Sabbath", "commandments", "faith of Jesus", "divine rest"],
+    "scripture_references": ["Revelation 14:12"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

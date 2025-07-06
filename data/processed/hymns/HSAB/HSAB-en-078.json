@@ -1,0 +1,36 @@
+{
+  "id": "HSAB-en-078",
+  "number": 78,
+  "title": "Time's Farewell",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "IT is the hour of Time's farewell,\nAnd soon with Jesus we shall dwell;\nThe speeding moments hasten on,\nAnd quickly they will all be gone."
+    },
+    {
+      "number": 2,
+      "text": "Then will the sleeping martyrs rise,\nTo meet the Saviour in the skies–\nNo more will cry, \"How long O Lord!\"\nBut be aveng'd, and have reward."
+    },
+    {
+      "number": 3,
+      "text": "Then will the sleeping saints come forth,\nWho lie entomb'd in sea and earth.\nAnd rob'd in immortality,\nTheir Jesus face to face will see."
+    },
+    {
+      "number": 4,
+      "text": "The living saints–they too will be\nRemembered in the Jubilee;\nCaught up together in the air,\nTheir Saviour's triumph they will share."
+    }
+  ],
+  "chorus": {
+    "text": "I'm going, I'm going, I'm on my journey home;\nI'm traveling to a City just in sight !\nYes, I'm going, I'm going, I'm on my journey home;\nI'm traveling to the New Jerusalem."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["time's farewell", "sleeping martyrs", "sleeping saints", "jubilee", "new jerusalem"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

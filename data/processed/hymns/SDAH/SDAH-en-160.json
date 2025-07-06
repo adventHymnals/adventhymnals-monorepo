@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-160",
+  "number": 160,
+  "title": "Ride On in Majesty",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "6/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Ride on! ride on in majesty!\nHark, all the tribes hosanna cry;\nO Savior meek, pursue Thy road\nWith palms and scattered garments strowed."
+    },
+    {
+      "number": 2,
+      "text": "Ride on! ride on in majesty!\nIn lowly pomp ride on to die;\nO Christ, Thy triumphs now begin\nO'er captive death and conquered sin."
+    },
+    {
+      "number": 3,
+      "text": "Ride on! ride on in majesty!\nThe winged squadrons of the sky\nLook down with sad and wondering eyes\nTo see th' approaching sacrifice."
+    },
+    {
+      "number": 4,
+      "text": "Ride on! ride on in majesty!\nIn lowly pomp ride on to die;\nBow Thy meek head to mortal pain,\nThen take, O God, Thy power and reign."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Palm Sunday", "triumph", "majesty", "sacrifice"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

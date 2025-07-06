@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-051",
+  "number": 51,
+  "title": "God is the refuge of his saints",
+  "author": null,
+  "composer": "Lowell Mason",
+  "tune": "Miller",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God is the refuge of his saints When storms of sharp distress invade;\nEre we can offer our complaints, Behold him present with his aid."
+    },
+    {
+      "number": 2,
+      "text": "Loud may the troubled ocean roar;\nIn sacred peace our souls abide;\nWhile every nation, every shore,\nTrembles, and dreads the swelling tide."
+    },
+    {
+      "number": 3,
+      "text": "There is a stream whose gentle flow\nSupplies the city of our God,\nLife, love, and joy, still gliding through,\nAnd watering our divine abode."
+    },
+    {
+      "number": 4,
+      "text": "That sacred stream, thy holy word,\nOur grief relieves, our fear controls;\nSweet peace thy promises afford,\nAnd give new strength to fainting souls."
+    },
+    {
+      "number": 5,
+      "text": "Zion enjoys her Monarch's love,\nSecure against a threatening hour;\nNor can her firm foundations move,\nBuilt on his truth, and armed with power."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's refuge", "protection", "peace", "divine strength", "security", "God's word"],
+    "scripture_references": [],
+    "tune_source": "Miller, Lowell Mason",
+    "original_language": "en"
+  }
+}

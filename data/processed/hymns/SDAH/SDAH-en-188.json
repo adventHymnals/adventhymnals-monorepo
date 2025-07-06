@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-188",
+  "number": 188,
+  "title": "My Song Is Love Unknown",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My song is love unknown,\nMy Savior's love to me,\nLove to the loveless shown,\nThat they might lovely be.\nO who am I, that for my sake\nMy Lord should take frail flesh and die?"
+    },
+    {
+      "number": 2,
+      "text": "He came from His blest throne,\nSalvation to bestow,\nBut men made strange, and\nNone The longed-for Christ would know.\nBut O my Friend, my Friend indeed,\nWho at my need His life did spend."
+    },
+    {
+      "number": 3,
+      "text": "Sometimes they strew His way,\nAnd His sweet praises sing.\nResounding all the day\nHosannas to their King.\nThen 'Crucify!' is all their breath,\nAnd for His death they thirst and cry."
+    },
+    {
+      "number": 4,
+      "text": "Why, what hath my Lord done?\nWhat makes this rage and spite?\nHe made the lame to run,\nHe gave the blind their sight.\nSweet injuries! Yet they at these\nThemselves displease, and 'gainst Him rise."
+    },
+    {
+      "number": 5,
+      "text": "They rise, and needs will have\nMy dear Lord made away;\nA murderer they save,\nThe Prince of Life they slay.\nYet cheerful He to suffering goes,\nThat He His foes from thence might free."
+    },
+    {
+      "number": 6,
+      "text": "Here might I stay and sing,\nNo story so divine;\nNever was love, dear King,\nNever was grief like Thine!\nThis is my Friend, in whose sweet praise\nI all my days could gladly spend."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["jesus_love", "sacrifice", "crucifixion", "salvation", "devotion"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

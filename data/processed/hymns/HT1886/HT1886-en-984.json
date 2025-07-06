@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-984",
+  "number": 984,
+  "title": "O what hath Jesus bought for me",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O what hath Jesus bought for me!\nBefore my ravished eyes\nLife's river all divine I see,\nAnd trees of paradise."
+    },
+    {
+      "number": 2,
+      "text": "I see immortal saints in light,\nWho taste the pleasure there;\nThey all are robed in spotless white,\nAnd conquering palms they bear."
+    },
+    {
+      "number": 3,
+      "text": "O what are all my sufferings here,\nIf, Lord, thou count me meet\nWith that enraptured host to appear,\nAnd worship at thy feet?"
+    },
+    {
+      "number": 4,
+      "text": "Give joy or grief, give ease or pain,\nTake life or friends away;\nBut let me find them all again\nIn that eternal day!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "paradise", "worship"],
+    "scripture_references": ["Revelation 7:9"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

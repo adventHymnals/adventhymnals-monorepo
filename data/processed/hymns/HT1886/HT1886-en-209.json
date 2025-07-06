@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-209",
+  "number": 209,
+  "title": "Why all this fear? I've sought thy face",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Why all this fear? I've sought thy face,\nO let me never stray\nFrom thy commands, O God of grace!\nNor tread the sinner's way."
+    },
+    {
+      "number": 2,
+      "text": "Thy word I've hid within my heart\nTo keep my conscience clean,\nAnd be an everlasting guard\nFrom every rising sin."
+    },
+    {
+      "number": 3,
+      "text": "My soul with sacred reverence hears\nThe threatenings of thy word;\nMy flesh, with holy trembling, fears\nThe judgments of the Lord."
+    },
+    {
+      "number": 4,
+      "text": "My God! I long, I hope, I wait,\nFor thy salvation still;\nWhile thy whole law is my delight,\nAnd I obey thy will."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["seeking God", "obedience", "God's word", "reverence", "salvation"],
+    "scripture_references": ["Psalm 119:11"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-453",
+  "number": 453,
+  "title": "We Have Heard",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "WE HAVE HEARD",
+  "meter": "C.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We have heard from the bright, the holy, land;\nWe have heard, and our hearts are glad;\nFor we were a lonely pilgrim band,\nAnd weary, and worn, and sad."
+    },
+    {
+      "number": 2,
+      "text": "They say green fields are waving there,\nThat never a blight shall know;\nAnd the deserts wild are blooming fair,\nAnd the roses of Sharon grow."
+    },
+    {
+      "number": 3,
+      "text": "We have heard of the palms, the robes, the crowns,\nAnd the silvery band in white;\nOf the city fair, with pearly gates,\nAll radiant with light."
+    },
+    {
+      "number": 4,
+      "text": "The King of that country, He is fair,\nHe's the joy and light of the place;\nIn His beauty we shall behold Him there,\nAnd bask in His smiling face."
+    }
+  ],
+  "metadata": {
+    "year": 1800,
+    "copyright": "Public Domain",
+    "themes": ["heavenly home", "promised land", "pilgrimage", "eternal joy", "beautiful city"],
+    "scripture_references": ["Revelation 21:2-4", "Revelation 7:9-10", "Isaiah 35:1-2"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

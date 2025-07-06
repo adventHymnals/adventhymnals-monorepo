@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-159",
+  "number": 159,
+  "title": "Gracious Spirit, Love divine",
+  "author": "John Stocker",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Gracious Spirit, Love divine,\nLet thy light within me shine;\nAll my guilty fears remove,\nFill me with thy heavenly love."
+    },
+    {
+      "number": 2,
+      "text": "Speak thy pardoning grace to me,\nSet the burdened sinner free;\nLead me to the Lamb of God,\nWash me in his precious blood."
+    },
+    {
+      "number": 3,
+      "text": "Life and peace to me impart,\nSeal salvation on my heart;\nBreathe thyself into my breast,\nEarnest of immortal rest."
+    },
+    {
+      "number": 4,
+      "text": "Let me never from thee stray,\nKeep me in the narrow way;\nFill my soul with joy divine,\nKeep me, Lord, forever thine."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "divine love", "forgiveness", "salvation", "spiritual guidance"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

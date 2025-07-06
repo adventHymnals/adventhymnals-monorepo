@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-635",
+  "number": 635,
+  "title": "Lord of All Good",
+  "author": "Albert F. Bayly",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord of all good, our gifts we bring You now;\nUse them Your holy purpose to fulfill.\nTokens of love and pledges they shall be\nThat our whole life is offered to Your will."
+    },
+    {
+      "number": 2,
+      "text": "We give our minds to understand Your ways;\nHands, voices, eyes to serve Your great design;\nSpirit, from whom all life in fullness flows,\nTo You with grateful hearts our pow'rs combine."
+    },
+    {
+      "number": 3,
+      "text": "Father, whose bounty all creation shows;\nChrist, by whose willing sacrifice we live;\nSpirit, from whom all life in fullness flows:\nTo You with grateful hearts ourselves we give."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": ["stewardship", "dedication", "service", "gratitude"],
+    "scripture_references": ["Romans 12:1", "1 Chronicles 29:14"],
+    "tune_source": "",
+    "original_language": "en"
+  }
+}

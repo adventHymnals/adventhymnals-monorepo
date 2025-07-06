@@ -1,0 +1,29 @@
+{
+  "id": "SDAH-en-055",
+  "number": 55,
+  "title": "Jesus, Tender Shepherd, Hear Me",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, tender Shepherd, hear me;\nBless Thy little lamb tonight;\nThrough the darkness be Thou near me,\nWatch my sleep till morning light."
+    },
+    {
+      "number": 2,
+      "text": "All this day Thy hand has led me,\nAnd I thank Thee for Thy care;\nThou hast clothed me, warmed and fed me,\nListen to my evening prayer."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["evening", "Jesus", "shepherd", "children", "protection"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

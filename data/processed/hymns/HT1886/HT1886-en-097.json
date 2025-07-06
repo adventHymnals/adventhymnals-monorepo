@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-097",
+  "number": 97,
+  "title": "O worship the King, all-glorious above",
+  "author": "Robert Grant",
+  "composer": "Francis J. Haydn",
+  "tune": "Lyons",
+  "meter": "10s & 11s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O worship the King, all-glorious above,\nAnd gratefully sing his wonderful love;\nOur Shield and Defender, the Ancient of days,\nPavilioned in splendor, and girded with praise."
+    },
+    {
+      "number": 2,
+      "text": "O tell of his might, and sing of his grace,\nWhose robe is the light; whose canopy, space.\nHis chariots of wrath the deep thunder-clouds form,\nAnd dark is his path on the wings of the storm."
+    },
+    {
+      "number": 3,
+      "text": "Thy bountiful care, what tongue can recite?\nIt breathes in the air, it shines in the light;\nIt streams from the hills, it descends to the plain,\nAnd sweetly distils in the dew and the rain."
+    },
+    {
+      "number": 4,
+      "text": "Frail children of dust, and feeble as frail,\nIn thee do we trust, nor find thee to fail;\nThy mercies, how tender, how firm to the end,\nOur Maker, Defender, Redeemer, and Friend!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "God's glory", "God's might", "God's care", "God's mercy"],
+    "scripture_references": [],
+    "tune_source": "Lyons, Francis J. Haydn",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "HSAB-en-154",
+  "number": 18,
+  "title": "THE BLESSED TIDINGS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "HARK! hark! Hear the blest tidings;\nSoon, soon, Jesus will come,\nRobed, robed in honor and glory,\nTo gather his ransomed ones home.\nYes, yes, O yes,\nTo gather his ransomed ones home."
+    },
+    {
+      "number": 2,
+      "text": "Joy, joy, sound it more loudly,\nSing, sing glory, to God\nSoon, soon Jesus is coming,\nPublish the tidings abroad."
+    },
+    {
+      "number": 3,
+      "text": "Bright, bright, seraphs attending,\nShouts, shouts, filling the air;\nDown, down, swiftly from heaven,\nJesus our Lord will appear."
+    },
+    {
+      "number": 4,
+      "text": "Now, now, through a glass darkly,\nShine, shine, visions to come,\nSoon, soon, we shall behold them,\nCloudless and bright in our home."
+    },
+    {
+      "number": 5,
+      "text": "Long, long, we have been waiting,\nWho, who, love his blest name;\nNow, now, we are delighting,\nJesus is near to proclaim."
+    },
+    {
+      "number": 6,
+      "text": "Still, still, rest on the promise,\nCling, cling, fast to his word;\nWait, wait, if he should tarry,\nPatiently wait for the Lord."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Second Coming", "joy", "waiting", "promise", "patience", "glory", "heaven"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

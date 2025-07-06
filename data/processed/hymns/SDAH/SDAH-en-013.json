@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-013",
+  "number": 13,
+  "title": "New Songs of Celebration Render",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Now songs of celebration render\nTo Him who has great wonders done.\nLove sits enthroned in ageless splendor:\nCome, and adore the mighty One."
+    },
+    {
+      "number": 2,
+      "text": "Joyfully, heartily resounding,\nLet every instrument and voice\nPeal out the praise of grace abounding,\nCalling the whole world to rejoice."
+    },
+    {
+      "number": 3,
+      "text": "Rivers and seas and torrents roaring,\nHonor the Lord with wild acclaim;\nMountains and stones look up adoring,\nAnd find a voice to praise His name."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["celebration", "praise", "worship", "God's wonders"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

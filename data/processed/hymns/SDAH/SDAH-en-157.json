@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-157",
+  "number": 157,
+  "title": "Go to Dark Gethsemane",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Go to dark Gethsemane,\nYe that feel the tempter's power;\nYour Redeemer's conflict see,\nWatch with Him one bitter hour;\nTurn not from His griefs away,\nLearn of Jesus Christ to pray."
+    },
+    {
+      "number": 2,
+      "text": "See Him at the judgment hall,\nBeaten, bound, reviled, arraigned;\nSee Him meekly bearing all,\nLove to man His soul sustained;\nShun not suffering, shame, or loss,\nLearn of Him to bear the cross."
+    },
+    {
+      "number": 3,
+      "text": "Calvary's mournful mountain climb;\nThere, adoring at His feet,\nMark that miracle of time,\nGod's own sacrifice complete;\n'It is finished!' hear Him cry,\nLearn of Jesus Christ to die."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Gethsemane", "prayer", "suffering", "sacrifice"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

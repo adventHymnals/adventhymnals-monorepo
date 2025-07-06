@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-148",
+  "number": 148,
+  "title": "Spirit of light, and truth, and love",
+  "author": "Thomas Haweis",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Spirit of light, and truth, and love,\nThy heavenly influence give;\nQuicken our souls, our guilt remove,\nThat we in Christ may live."
+    },
+    {
+      "number": 2,
+      "text": "To our benighted minds reveal\nThe glories of his grace,\nAnd bring us where no clouds conceal\nThe brightness of his face."
+    },
+    {
+      "number": 3,
+      "text": "His love within us shed abroad,\nLife's ever-living well,\nTill God in us, and we in God,\nIn love eternal dwell."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "divine light", "truth", "love", "spiritual enlightenment"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

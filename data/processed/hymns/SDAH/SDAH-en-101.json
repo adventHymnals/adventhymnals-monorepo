@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-101",
+  "number": 101,
+  "title": "Children of the Heavenly Father",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "6.5.6.5.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Children of the heavenly Father\nSafely in His bosom gather;\nNestling bird nor star in heaven\nSuch a refuge e'er was given."
+    },
+    {
+      "number": 2,
+      "text": "God His own doth tend and nourish,\nIn His holy love they flourish;\nFrom all evil things He spares them,\nIn His mighty arms He bears them."
+    },
+    {
+      "number": 3,
+      "text": "Neither life nor death shall ever\nFrom the Lord His children sever;\nUnto them His grace He showeth,\nAnd their sorrows all He knoweth."
+    },
+    {
+      "number": 4,
+      "text": "Praise the Lord in joyful numbers,\nYour Protector never slumbers;\nAt the will of your Defender\nEvery foeman must surrender."
+    },
+    {
+      "number": 5,
+      "text": "Though He giveth or He taketh,\nGod His children ne'er forsaketh;\nHis the loving purpose solely\nTo preserve them pure and holy."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["protection", "trust", "divine_care", "children_of_god"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

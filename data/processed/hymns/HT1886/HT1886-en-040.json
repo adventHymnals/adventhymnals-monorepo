@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-040",
+  "number": 40,
+  "title": "ALL ye nations, praise the Lord",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "240, 272, 16",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "ALL ye nations, praise the Lord,\nAll ye lands, your voices raise;\nHeaven and earth, with loud accord,\nPraise the Lord, forever praise."
+    },
+    {
+      "number": 2,
+      "text": "For his truth and mercy stand,\nPast and present and to be,\nLike the years of his right hand,\nLike his own eternity."
+    },
+    {
+      "number": 3,
+      "text": "Praise him, ye who know his love;\nPraise him from the depths beneath;\nPraise him in the heights above;\nPraise your Maker, all that breathe."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["universal praise", "nations", "God's truth", "God's mercy", "eternity"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

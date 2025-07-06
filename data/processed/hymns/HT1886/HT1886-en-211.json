@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-211",
+  "number": 211,
+  "title": "O that thy statutes every hour",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O that thy statutes every hour\nMight dwell upon my mind!\nThence I derive a quickening power,\nAnd daily peace I find."
+    },
+    {
+      "number": 2,
+      "text": "To meditate thy precepts, Lord,\nShall be my sweet employ;\nMy soul shall ne'er forget thy word;\nThy word is all my joy."
+    },
+    {
+      "number": 3,
+      "text": "My lips with courage shall declare\nThy statutes and thy name;\nI'll speak thy word, though kings should hear,\nNor yield to sinful shame."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's statutes", "meditation", "divine word", "courage", "proclamation"],
+    "scripture_references": ["Psalm 119:23"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

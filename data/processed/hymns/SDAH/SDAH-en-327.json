@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-327",
+  "number": 327,
+  "title": "I'd Rather Have Jesus",
+  "author": "Rhea F. Miller",
+  "composer": "George Beverly Shea",
+  "tune": "I'd Rather Have Jesus",
+  "meter": "11.11.11.10 with refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I'd rather have Jesus than silver or gold,\nI'd rather be His than have riches untold;\nI'd rather have Jesus than houses or lands,\nI'd rather be led by His nail-pierced hand."
+    },
+    {
+      "number": 2,
+      "text": "I'd rather have Jesus than men's applause,\nI'd rather be faithful to His dear cause;\nI'd rather have Jesus than worldwide fame,\nI'd rather be true to His holy name."
+    },
+    {
+      "number": 3,
+      "text": "He's fairer than lilies of rarest bloom,\nHe's sweeter than honey from out the comb;\nHe's all that my hungering spirit needs,\nI'd rather have Jesus and let Him lead."
+    }
+  ],
+  "chorus": {
+    "text": "Than to be the king of a vast domain\nOr be held in sin's dread sway;"
+  },
+  "metadata": {
+    "year": 1922,
+    "copyright": "© 1922, 1950, renewed 1939, 1966 by Chancel Music, Inc.",
+    "themes": ["commitment", "discipleship", "devotion", "consecration"],
+    "scripture_references": ["Matthew 16:26", "Philippians 3:8"],
+    "tune_source": "George Beverly Shea, 1939",
+    "original_language": "en",
+    "composer_dates": "1894-1966"
+  }
+}

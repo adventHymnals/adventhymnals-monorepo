@@ -1,0 +1,34 @@
+{
+  "id": "SDAH-en-072",
+  "number": 72,
+  "title": "Creator of the Stars of Night",
+  "author": "Latin hymn, 9th century",
+  "composer": "Plainsong, Mode IV",
+  "tune": "Creator Alme Siderum",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Creator of the stars of night,\nThy people's everlasting light,\nO Christ, Thou Savior of us all,\nWe pray Thee, hear us when we call."
+    },
+    {
+      "number": 2,
+      "text": "At the great name of Jesus, now\nAll knees must bend, all hearts must bow;\nAnd things celestial Thee shall own,\nAnd things terrestrial, Lord alone."
+    },
+    {
+      "number": 3,
+      "text": "To God the Father, God the Son,\nAnd God the Spirit, Three in one,\nLaud, honor, might, and glory be\nFrom age to age eternally."
+    }
+  ],
+  "chorus": {
+    "text": "Amen."
+  },
+  "metadata": {
+    "year": 9,
+    "themes": ["Christ", "Creation", "Trinity"],
+    "scripture_references": [],
+    "tune_source": "Plainsong, Mode IV",
+    "original_language": "la"
+  }
+}

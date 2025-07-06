@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-171",
+  "number": 171,
+  "title": "Thine Is the Glory",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thine is the glory, Risen, conquering Son;\nEndless is the victory Thou o'er death hast won.\nAngels in bright raiment Rolled the stone away,\nKept the folded grave clothes Where Thy body lay."
+    },
+    {
+      "number": 2,
+      "text": "Lo! Jesus meets us, Risen from the tomb,\nLovingly He greets us, Scatters fear and gloom.\nLet His Church with gladness Hymns of triumph sing,\nFor her Lord now liveth; Death hath lost its sting."
+    },
+    {
+      "number": 3,
+      "text": "No more we doubt Thee, Glorious Prince of life!\nLife is naught without Thee; Aid us in our strife.\nMake us more than conquerors, Through Thy deathless love;\nBring us safe through Jordan To Thy home above."
+    }
+  ],
+  "chorus": {
+    "text": "Thine is the glory, Risen, conquering Son;\nEndless is the victory Thou o'er death hast won."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["resurrection", "victory", "triumph", "glory"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

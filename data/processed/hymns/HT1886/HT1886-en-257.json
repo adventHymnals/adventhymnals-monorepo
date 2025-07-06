@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-257",
+  "number": 257,
+  "title": "Bless us with thy blessing, Lord",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Bless us with thy blessing, Lord,\nHelp us to feed upon thy word;\nAll that has been amiss forgive,\nAnd let us to thy glory live."
+    },
+    {
+      "number": 2,
+      "text": "Though we are guilty, thou art good;\nCleanse us from guilt through Jesus' blood;\nGive every fettered soul release,\nAnd bid us all depart in peace."
+    },
+    {
+      "number": 3,
+      "text": "When the Chief Shepherd shall appear,\nAnd small and great before him stand,\nO may the flock assembled here\nBe with the saved at his right hand!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["blessing", "forgiveness", "worship", "salvation", "shepherd"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

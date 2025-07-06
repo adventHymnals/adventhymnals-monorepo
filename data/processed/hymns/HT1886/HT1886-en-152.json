@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-152",
+  "number": 152,
+  "title": "'Tis God's own Spirit leads",
+  "author": "James Montgomery",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'Tis God's own Spirit leads\nIn paths before unknown;\nThe work of grace upon it feeds,\nThe strength is all his own."
+    },
+    {
+      "number": 2,
+      "text": "Supported by his grace,\nWe still pursue our way;\nAnd hope at last to reach the prize,\nSecure in endless day."
+    },
+    {
+      "number": 3,
+      "text": "'Tis he that works to will,\nHe bids our works to do;\nHis is the power by which we act,\nHis be the glory too."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "divine guidance", "grace", "spiritual journey", "God's power"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

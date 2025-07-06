@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-209",
+  "number": 209,
+  "title": "That Glorious Day Is Coming",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "That glorious day is coming,\nThe hour is hastening on!\nIts radiant light is nearing,\nFar brighter than the sun;\nIn yonder clouds of heaven,\nThe Savior will appear,\nAnd gather all His chosen,\nTo meet Him in the air."
+    },
+    {
+      "number": 2,
+      "text": "The saints, then all victorious\nWill go to meet their Lord;\nAn earth both bright and glorious,\nWill then be their reward;\nAnd God's own self - there reigning,\nWill wipe all tears away;\nNor clouds nor night remaining,\nBut one eternal day."
+    },
+    {
+      "number": 3,
+      "text": "O Christian, keep from sleeping,\nAnd let your love abound;\nBe watchful, prayerful, faithful,\nThe trumpet soon will sound!\nO sinner, hear the warning!\nTo Jesus quickly fly!\nThen you, in that blest morning,\nMay meet Him in the sky!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Second Coming", "Glorious Day", "Preparation", "Warning"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

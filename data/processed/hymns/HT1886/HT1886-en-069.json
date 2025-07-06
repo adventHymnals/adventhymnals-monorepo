@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-069",
+  "number": 69,
+  "title": "Eternal source of every joy",
+  "author": null,
+  "composer": "Philip Doddridge",
+  "tune": "618, 367, 894",
+  "meter": "618, 367, 894",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Eternal source of every joy,\nWell may thy praise our lips employ\nWhile in thy temple we appear,\nTo hail the Sovereign of the year!"
+    },
+    {
+      "number": 2,
+      "text": "Wide as the wheels of nature roll,\nThy hand supports and guides the whole;\nThe sun is taught by thee to rise,\nAnd darkness when to veil the skies"
+    },
+    {
+      "number": 3,
+      "text": "The flowery spring, at thy command\nPerfumes the air, adorns the land;\nThe summer rays with vigor shine,\nTo raise the corn, to cheer the vine:"
+    },
+    {
+      "number": 4,
+      "text": "Seasons and months, and weeks and days,\nDemand successive songs of praise;\nAnd be the grateful homage paid,\nWith morning light and evening shade,\nHere in thy house let incense rise,\nAnd circling sabbaths bless our eyes,\nTill to those lofty heights we soar,\nWhere days and years revolve no more."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's providence", "seasons", "nature's cycles", "praise", "thanksgiving", "worship"],
+    "scripture_references": [],
+    "tune_source": "Philip Doddridge",
+    "original_language": "en"
+  }
+}

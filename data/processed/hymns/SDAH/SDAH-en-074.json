@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-074",
+  "number": 74,
+  "title": "Like a River Glorious",
+  "author": "Frances R. Havergal",
+  "composer": "James Mountain",
+  "tune": "Wye Valley",
+  "meter": "6.5.6.5.D with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Like a river glorious is God's perfect peace,\nOver all victorious in its bright increase;\nPerfect, yet it floweth fuller every day,\nPerfect, yet it groweth deeper all the way."
+    },
+    {
+      "number": 2,
+      "text": "Hidden in the hollow of His blessed hand,\nNever foe can follow, never traitor stand;\nNot a surge of worry, not a shade of care,\nNot a blast of hurry touch the spirit there."
+    },
+    {
+      "number": 3,
+      "text": "Every joy or testing comes from God above,\nGiven to His children, all for us to do.\nWe may trust Him fully all for us to do."
+    }
+  ],
+  "chorus": {
+    "text": "Trusting in Jehovah, hearts are fully blest.\nFinding, as He promised, perfect peace and rest."
+  },
+  "metadata": {
+    "themes": ["Peace", "Trust", "God's Care"],
+    "scripture_references": [],
+    "tune_source": "Wye Valley",
+    "original_language": "en"
+  }
+}

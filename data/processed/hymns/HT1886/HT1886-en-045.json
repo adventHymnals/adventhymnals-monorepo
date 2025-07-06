@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-045",
+  "number": 45,
+  "title": "O worship the Lord in the beauty of holiness",
+  "author": null,
+  "composer": "Edwin Barnes",
+  "tune": "Southampton",
+  "meter": "12s & 10s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O worship the Lord in the beauty of holiness, Bow down before him, his glory proclaim;\nWith gold of obedience, and incense of lowliness, Kneel and adore him, the Lord is his name!"
+    },
+    {
+      "number": 2,
+      "text": "Low at his feet lay thy burden of carefulness, Truth in its beauty, and love in its tenderness,\nComfort thy sorrows, and answer thy prayer- These are the offerings to lay on his shrine."
+    },
+    {
+      "number": 3,
+      "text": "These, though we bring them in trembling and fearfulness,\nHe will accept for the Name that is dear;\nMornings of joy give for evenings of tearfulness,\nTrust for our trembling, and hope for our fear."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "holiness", "beauty", "adoration", "devotion", "reverence"],
+    "scripture_references": [],
+    "tune_source": "Southampton, Edwin Barnes",
+    "original_language": "en"
+  }
+}

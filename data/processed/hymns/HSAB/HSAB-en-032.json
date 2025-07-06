@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-032",
+  "number": 32,
+  "title": "I Cannot Go Back",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "For Canaan I've started, and on I must go,\nTill all the bright glories of Eden I know;\nI've made no reserve, and I'm sure I'll not lack.\nWhile onward I journey and do not draw back."
+    },
+    {
+      "number": 2,
+      "text": "My soul is enkindled with rapture and love,\nI fain would ascend to my Jesus above;\nBut nay, I must follow in his humble track,\nAnd prove my obedience by not drawing back."
+    },
+    {
+      "number": 3,
+      "text": "Then on let us press, for Jesus is near,\nAnd strengthen each other with words of good cheer;\nWith zeal ever buoyant and courage ne'er slack,\nLet's be true to our King and never draw back."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["perseverance", "journey", "canaan", "obedience", "dedication"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

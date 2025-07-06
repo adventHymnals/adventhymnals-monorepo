@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-327",
+  "number": 327,
+  "title": "Jesus, thy love shall we forget",
+  "author": "Wm. Mitchell",
+  "composer": null,
+  "tune": "120, 845, 204",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, thy love shall we forget, And hadst thou died for us in vain?\nThe grace that paid our hopeless debt, And bade us live to God again?"
+    },
+    {
+      "number": 2,
+      "text": "Shall we the life of grief forget, Thy fasting and thy prayer,\nThy looks with mountain vapors wet, To save us from despair?"
+    },
+    {
+      "number": 3,
+      "text": "Gethsemane can we forget, That struggling agony?\nWhen night lay dark on Olivet, And none to watch with thee?"
+    },
+    {
+      "number": 4,
+      "text": "Our sorrows and our sins were laid On thee, alone to thee;\nThy precious blood our ransom paid— Thine all the glory be!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "love", "gratitude", "Gethsemane", "sacrifice"],
+    "scripture_references": [],
+    "tune_source": "120, 845, 204",
+    "original_language": "en"
+  }
+}

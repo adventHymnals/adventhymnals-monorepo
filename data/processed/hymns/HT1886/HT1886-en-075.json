@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-075",
+  "number": 75,
+  "title": "Jehovah, God, thy gracious power",
+  "author": "William Cowper",
+  "composer": null,
+  "tune": "76, 617, 126",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jehovah, God, thy gracious power\nOn every hand we see;\nO may the blessings of each hour\nLead all our thoughts to thee!"
+    },
+    {
+      "number": 2,
+      "text": "If on the wings of morn we speed\nTo earth's remotest bound,\nThy hand will there our footsteps lead,\nThy love our path surround."
+    },
+    {
+      "number": 3,
+      "text": "How good thou art! how large thy grace!\nHow ready to forgive!\nThy mercies crown our fleeting days,\nAnd by thy love we live."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's power", "God's grace", "mercy", "forgiveness", "God's love"],
+    "scripture_references": [],
+    "tune_source": "76, 617, 126",
+    "original_language": "en"
+  }
+}

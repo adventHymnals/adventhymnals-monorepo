@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-148",
+  "number": 148,
+  "title": "O Love, How Deep, How Broad",
+  "author": "Thomas à Kempis",
+  "composer": "English melody",
+  "tune": "Deus Tuorum Militum",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O love, how deep, how broad, how high,\nBeyond all thought and fantasy,\nThat God, the Son of God, should take\nOur mortal form for mortal's sake!"
+    },
+    {
+      "number": 2,
+      "text": "For us baptized, for us He bore\nHis holy fast and hungered sore;\nFor us temptation sharp He knew;\nFor us the tempter overthrew."
+    },
+    {
+      "number": 3,
+      "text": "For us He prayed, for us He taught,\nFor us His daily works He wrought,\nBy words and signs and actions thus\nStill seeking not Himself, but us."
+    },
+    {
+      "number": 4,
+      "text": "For us to wicked men betrayed,\nScourged, mocked, in purple robe arrayed,\nHe bore the shameful cross and death;\nFor us gave up His dying breath."
+    },
+    {
+      "number": 5,
+      "text": "All glory to our Lord and God\nFor love so deep, so high, so broad;\nThe Trinity whom we adore\nForever and forevermore."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["love_of_god", "incarnation", "christ_sacrifice", "devotion", "trinity"],
+    "scripture_references": ["John 3:16", "Philippians 2:5-11"],
+    "tune_source": "English",
+    "original_language": "la"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-111",
+  "number": 111,
+  "title": "It Took a Miracle",
+  "author": "John W. Peterson",
+  "composer": "John W. Peterson",
+  "tune": "It Took a Miracle",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My Father is omnipotent,\nAnd that you can't deny;\nA God of might and miracles,\n'Tis written in the sky."
+    },
+    {
+      "number": 2,
+      "text": "Though here His glory has been shown,\nWe still can't fully see\nThe wonders of His might,\nHis throne,\n'Twill take eternity."
+    },
+    {
+      "number": 3,
+      "text": "The Bible tells us of His power\nAnd wisdom all the way through,\nAnd every little bird and flower\nAre testimonies too."
+    }
+  ],
+  "chorus": {
+    "text": "It took a miracle to put the stars in place,\nIt took a miracle to hang the world in space;\nBut when He saved my soul,\nCleansed and made me whole,\nIt took a miracle of love and grace!"
+  },
+  "metadata": {
+    "year": 1948,
+    "copyright": "Copyright 1948 by John W. Peterson Music Company",
+    "themes": ["God's Power", "Miracles", "Salvation", "Grace"],
+    "scripture_references": ["Psalm 19:1", "Romans 1:20"],
+    "tune_source": "John W. Peterson",
+    "original_language": "en"
+  }
+}

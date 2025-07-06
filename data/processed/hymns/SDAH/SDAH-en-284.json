@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-284",
+  "number": 284,
+  "title": "For You I Am Praying",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I have a Savior, He's pleading in glory,\nA dear, loving Savior, though earth friends be few;\nAnd now He is watching in tenderness o'er me,\nBut oh, that my Savior were your Savior, too."
+    },
+    {
+      "number": 2,
+      "text": "I have a Father; to me He has given\nA hope for eternity, blessed and true;\nAnd soon He will call me to meet Him in heaven,\nBut oh, that He'd let me bring you with me, too!"
+    },
+    {
+      "number": 3,
+      "text": "I have a robe; 'tis resplendent in whiteness,\nAwaiting in glory my wondering view;\nOh, when I receive it, all shining in brightness,\nDear friend, could I see you receiving one, too!"
+    },
+    {
+      "number": 4,
+      "text": "When Jesus has found you, tell others the story,\nThat my loving Savior is your Savior, too;\nThen pray that your Savior will bring them to glory,\nAnd prayer will be answered—'twas answered for you!"
+    }
+  ],
+  "chorus": {
+    "text": "For you I am praying,\nFor you I am praying,\nFor you I am praying,\nI'm praying for you."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Prayer", "Intercession", "Salvation", "Sharing Faith"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "SAHB-en-004",
+  "number": 4,
+  "title": "Watchman, tell us of the night",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Watchman, tell us of the night,\nWhat its signs of promise are;\nTraveller, o'er yon mountain's height,\nSee that glory-beaming star!\nWatchman, does its beauteous ray\nAught of hope or joy foretell?\nTraveller, yes; it brings the day,\nPromised day of Israel."
+    },
+    {
+      "number": 2,
+      "text": "Watchman, tell us of the night;\nHigher yet that star ascends;\nTraveller, blessedness and light,\nPeace and truth its course portends;\nWatchman, will its beams alone\nGild the spot that gave them birth?\nTraveller, ages are thine own;\nSee, it bursts o'er all the earth!"
+    },
+    {
+      "number": 3,
+      "text": "Watchman, tell us of the night,\nFor the morning seems to dawn;\nTraveller, darkness takes its flight,\nDoubt and terror are withdrawn;\nWatchman, let thy wanderings cease;\nHie thee to thy quiet home;\nTraveller, lo! the Prince of Peace,\nLo! the Son of God is come!"
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["second advent", "watchfulness", "morning star", "Christ's coming"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

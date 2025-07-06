@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-103",
+  "number": 103,
+  "title": "O thou, my soul, forget no more",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O thou, my soul, forget no more\nThe Friend who all thy sorrows bore;\nLet every idol be forgot,\nBut, O my soul, forget him not."
+    },
+    {
+      "number": 2,
+      "text": "Eternal Truth and mercy shine\nIn him, and he himself is thine;\nAnd canst thou, then, with sin beset,\nSuch charms, such matchless charms, forget?"
+    },
+    {
+      "number": 3,
+      "text": "O no! till life itself depart,\nHis name shall cheer and warm my heart;\nAnd, lisping this, from earth I'll rise,\nAnd join the chorus of the skies."
+    },
+    {
+      "number": 4,
+      "text": "Then through eternity I'll sing\nThe matchless love of Christ, my King;\nAnd finding there no end of days,\nSo shall I find no end of praise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["remembrance", "Jesus Christ", "eternal praise", "love of Christ", "worship"],
+    "scripture_references": [],
+    "tune_source": "709, 704, 47",
+    "original_language": "en"
+  }
+}

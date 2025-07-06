@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-321",
+  "number": 321,
+  "title": "Would Jesus have the sinner die?",
+  "author": "Charles Wesley",
+  "composer": null,
+  "tune": "284, 689, 706",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Would Jesus have the sinner die?\nWhy hangs he then on yonder tree?\nWhat means that strange expiring cry?\nSinners, he prays for you and me:\n\"Forgive them, Father, O forgive!\nThey know not that by me they live.\""
+    },
+    {
+      "number": 2,
+      "text": "Jesus, descended from above,\nOur loss of Eden to retrieve;\nGreat God of universal love,\nIf all the world through thee may live\nIn us a quickening spirit be,\nAnd witness thou hast died for me."
+    },
+    {
+      "number": 3,
+      "text": "O, let thy love my heart constrain,—\nThy love, for every sinner free,—\nThat every fallen son of man\nMay taste the grace that rescued me,\nThat all mankind thy love may prove—\nThat sovereign, everlasting love."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "universal love", "forgiveness", "salvation", "grace"],
+    "scripture_references": [],
+    "tune_source": "284, 689, 706",
+    "original_language": "en"
+  }
+}

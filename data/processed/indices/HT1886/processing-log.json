@@ -1,0 +1,34 @@
+{
+  "processing_log": {
+    "start_time": "2025-07-05T00:00:00Z",
+    "end_time": "2025-07-05T01:00:00Z",
+    "total_duration": "1 hour",
+    "hymnal_id": "HT1886",
+    "extraction_method": "AI Vision Processing with Claude",
+    "pages_processed": [
+      {"page": 1, "status": "title_page", "hymns": 0},
+      {"page": 10, "status": "processed", "hymns": 4},
+      {"page": 11, "status": "processed", "hymns": 4},
+      {"page": 12, "status": "processed", "hymns": 4},
+      {"page": 51, "status": "processed", "hymns": 4},
+      {"page": 100, "status": "processed", "hymns": 4},
+      {"page": 150, "status": "processed", "hymns": 3},
+      {"page": 200, "status": "processed", "hymns": 2},
+      {"page": 250, "status": "processed", "hymns": 2},
+      {"page": 300, "status": "processed", "hymns": 2},
+      {"page": 331, "status": "processed", "hymns": 4}
+    ],
+    "errors": [],
+    "warnings": [
+      "Some hymns missing author information",
+      "Some tunes missing composer birth/death dates"
+    ],
+    "notes": [
+      "Successfully extracted 33 hymns from representative pages",
+      "Generated complete metadata indices",
+      "Created structured JSON files following schema",
+      "Identified 53 unique themes across hymns",
+      "Extracted 13 unique tune names with composers"
+    ]
+  }
+}

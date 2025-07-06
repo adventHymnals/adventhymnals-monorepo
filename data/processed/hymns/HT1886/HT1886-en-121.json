@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-121",
+  "number": 121,
+  "title": "The head that once was crowned with thorns",
+  "author": "Thomas Kelly",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The head that once was crowned with thorns\nIs crowned with glory now;\nA royal diadem adorns\nThe mighty Victor's brow."
+    },
+    {
+      "number": 2,
+      "text": "The highest place that heaven affords\nIs his by sovereign right;\nThe King of kings, and Lord of lords,\nHe reigns in glory bright."
+    },
+    {
+      "number": 3,
+      "text": "The joy of all who dwell above,\nThe joy of all below,\nTo whom he manifests his love,\nAnd grants his name to know."
+    },
+    {
+      "number": 4,
+      "text": "To them the cross, with all its shame,\nWith all its grace, is given;\nTheir name—an everlasting name,\nTheir joy—the joy of heaven."
+    },
+    {
+      "number": 5,
+      "text": "To them the cross is life and health,\nThough shame and death to him;\nHis people's hope, his people's wealth,\nTheir everlasting theme."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus Christ", "crown of thorns", "glory", "cross", "victory", "eternal joy"],
+    "scripture_references": ["Hebrews 2:9", "Philippians 2:9-11"],
+    "tune_source": "185, 227, 201",
+    "original_language": "en"
+  }
+}

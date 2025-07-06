@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-164",
+  "number": 164,
+  "title": "Holy Spirit, fount of blessing",
+  "author": "Anon",
+  "composer": "",
+  "tune": "",
+  "meter": "609, 100, 660",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy Spirit, fount of blessing,\nEver watchful, ever kind;\nThy celestial aid possessing,\nPrisoned souls deliverance find;"
+    },
+    {
+      "number": 2,
+      "text": "Seal of truth, and bond of union,\nSource of light, and fount of love,\nSymbol of divine communion,\nIn the olive-bearing dove."
+    },
+    {
+      "number": 3,
+      "text": "Heavenly guide from paths of error,\nComforter of minds distrest,\nWhen the billows swell with terror,\nPointing to an ark of rest;"
+    },
+    {
+      "number": 4,
+      "text": "Promised pledge! Eternal Spirit!\nGreater than all gifts below,\nMay our hearts thy grace inherit;\nMay our lips thy glories show."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "divine blessing", "guidance", "comfort", "spiritual union"],
+    "scripture_references": [],
+    "tune_source": "609, 100, 660",
+    "original_language": "en"
+  }
+}

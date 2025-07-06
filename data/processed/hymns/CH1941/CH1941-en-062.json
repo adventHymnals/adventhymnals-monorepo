@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-062",
+  "number": 62,
+  "title": "Eternal Depth of Love Divine",
+  "author": "Charles Wesley",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "8.8.8.8.8.8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Eternal depth of love divine,\nIn Jesus, God with us, displayed;\nHow bright Thy beaming glories shine!\nHow wide Thy healing streams are spread!"
+    },
+    {
+      "number": 2,
+      "text": "With whom do we sweet counsel take?\nTo whom for succor shall we flee?\nOur peace, our refuge whom but make,\nOur friend, our comforter, but Thee?"
+    },
+    {
+      "number": 3,
+      "text": "Thee will I love, my joy, my crown;\nThee will I love, my Lord, my God;\nThee will I love, beneath Thy frown\nOr smile, Thy scepter or Thy rod."
+    },
+    {
+      "number": 4,
+      "text": "What though my flesh and heart decay;\nThee shall I love in endless day;\nThen shall I see Thee as Thou art,\nAnd love Thee with unsinning heart."
+    }
+  ],
+  "metadata": {
+    "year": 1742,
+    "copyright": "Public Domain",
+    "themes": ["God's love", "Jesus", "devotion", "eternal love"],
+    "scripture_references": ["1 John 4:8", "John 1:14"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

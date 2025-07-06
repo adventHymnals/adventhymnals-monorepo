@@ -1,0 +1,46 @@
+{
+  "quality_report": {
+    "hymnal_id": "HT1886",
+    "assessment_date": "2025-07-05",
+    "overall_quality": "Good",
+    "completeness": {
+      "hymns_extracted": 33,
+      "complete_verses": 33,
+      "missing_verses": 0,
+      "incomplete_hymns": 0
+    },
+    "metadata_quality": {
+      "titles_complete": 33,
+      "composers_identified": 12,
+      "tunes_identified": 13,
+      "meters_identified": 9,
+      "themes_categorized": 53,
+      "authors_identified": 0
+    },
+    "text_quality": {
+      "clear_text": 33,
+      "unclear_instances": 0,
+      "damaged_pages": 0,
+      "text_corrections_needed": 0
+    },
+    "schema_compliance": {
+      "valid_json_files": 33,
+      "schema_errors": 0,
+      "required_fields_present": 33,
+      "optional_fields_populated": 28
+    },
+    "recommendations": [
+      "Consider extracting author information from hymnal prefaces or indices",
+      "Add birth/death dates for composers where available",
+      "Process additional pages to capture full hymnal content",
+      "Cross-reference with other hymnal databases for missing metadata"
+    ],
+    "validation_checks": {
+      "file_structure": "PASS",
+      "json_syntax": "PASS",
+      "schema_compliance": "PASS",
+      "metadata_consistency": "PASS",
+      "theme_categorization": "PASS"
+    }
+  }
+}

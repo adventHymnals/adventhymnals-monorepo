@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-001",
+  "number": 1,
+  "title": "O Thou who dwellest up on high",
+  "author": null,
+  "composer": "Guillaume Franc",
+  "tune": "Old Hundred",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Thou who dwellest up on high,\nTo whom our prayers and praises fly,\nOnce more our voices all unite\nIn song to thee, O God of light!"
+    },
+    {
+      "number": 2,
+      "text": "Our humble gratitude we speak,\nFor all the blessings of the week,\nAs at thy throne of grace we bow\nAnd ask thee for a blessing now."
+    },
+    {
+      "number": 3,
+      "text": "O bless us as we meet to-day,\nWhile unto thee we sing and pray;\nO bless the word of truth we hear,\nAnd to each heart thy voice draw near."
+    },
+    {
+      "number": 4,
+      "text": "'T is vain within these walls to kneel\nUnless our need of thee we feel;\n'T is vain to lift the voice in praise\nUnless devotion tunes our lays."
+    },
+    {
+      "number": 5,
+      "text": "Help us to worship thee aright;\nLet us be banished from our sight,\nUnless thy Spirit prompts the view\nTo search our motives through and through."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "prayer", "praise", "God's presence", "devotion"],
+    "scripture_references": [],
+    "tune_source": "Old Hundred, Guillaume Franc",
+    "original_language": "en"
+  }
+}

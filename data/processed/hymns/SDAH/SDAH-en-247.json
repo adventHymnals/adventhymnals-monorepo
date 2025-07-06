@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-247",
+  "number": 247,
+  "title": "Come, My Way",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, my Way, my Truth, my Life:\nSuch a Way, as gives us breath;\nSuch a Truth, as ends all strife;\nSuch a Life as killeth death."
+    },
+    {
+      "number": 2,
+      "text": "Come, my Light, my Feast, my Strength:\nSuch a Light, as shows a feast;\nSuch a Feast, as mends in length;\nSuch a Strength, as makes His guest."
+    },
+    {
+      "number": 3,
+      "text": "Come, my Joy, my Love, my Heart:\nSuch a Joy, as none can move;\nSuch a Love, as none can part;\nSuch a Heart, as joys in love."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Way", "Truth", "Life", "Light", "Joy"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

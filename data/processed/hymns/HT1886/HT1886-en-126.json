@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-126",
+  "number": 126,
+  "title": "Beyond the starry skies",
+  "author": "Daniel Turner",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Beyond the starry skies,\nFar as the eternal hills,\nThere in the boundless world of light\nOur great Redeemer dwells.\nAround him angels fair\nIn countless armies shine;\nAnd ever, in exalted lays,\nThey offer songs divine."
+    },
+    {
+      "number": 2,
+      "text": "\"Hail! Prince of life!\" they cry,\n\"Whose unexampled love\nMoved thee to quit those glorious realms\nAnd royalties above!\nAnd when he stooped to earth,\nAnd suffered man's disdain,\nThey cast their beams at his feet,\nAnd waited till again."
+    },
+    {
+      "number": 3,
+      "text": "They saw him on the cross,\nWhile darkness veiled the skies;\nAnd when he burst the gates of death,\nThey saw the Conqueror rise.\nThey through his chariot wheels,\nAnd bore him to his throne;\nThen swept their golden harps and sang,\n\"That glorious work is done.\""
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus Christ", "heaven", "angels", "Prince of life", "cross", "resurrection", "ascension"],
+    "scripture_references": ["Ephesians 1:20-21", "Acts 1:9-11"],
+    "tune_source": "899, 917",
+    "original_language": "en"
+  }
+}

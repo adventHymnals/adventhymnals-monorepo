@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-086",
+  "number": 86,
+  "title": "This awful God is ours",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": "71, 96, 191",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "This awful God is ours,\nOur Father and our love;\nHe will send down his heavenly powers\nTo carry us above."
+    },
+    {
+      "number": 2,
+      "text": "There we shall see his face,\nAnd never, never sin;\nThere from the rivers of his grace\nDrink endless pleasures in."
+    },
+    {
+      "number": 3,
+      "text": "Yes, and before we rise\nTo that immortal state,\nThe thoughts of such amazing bliss\nShould constant joys create."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's awesomeness", "God as Father", "heaven", "God's grace", "eternal joy"],
+    "scripture_references": [],
+    "tune_source": "71, 96, 191",
+    "original_language": "en"
+  }
+}

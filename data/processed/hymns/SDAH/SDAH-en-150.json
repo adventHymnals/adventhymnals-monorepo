@@ -1,0 +1,51 @@
+{
+  "id": "SDAH-en-150",
+  "number": 150,
+  "title": "Who Is He in Yonder Stall?",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Who is He in yonder stall,\nAt whose feet the shepherds fall?\n'Tis the Lord, O wondrous story,\n'Tis the Lord, the King of glory!"
+    },
+    {
+      "number": 2,
+      "text": "Who is He in deep distress,\nFasting in the wilderness?\n'Tis the Lord, O wondrous story,\n'Tis the Lord, the King of glory!"
+    },
+    {
+      "number": 3,
+      "text": "Who is He, the gathering throng\nGreet with loud triumphant song?\n'Tis the Lord, O wondrous story,\n'Tis the Lord, the King of glory!"
+    },
+    {
+      "number": 4,
+      "text": "Lo, at midnight, who is He\nPrays in dark Gethsemane?\n'Tis the Lord, O wondrous story,\n'Tis the Lord, the King of glory!"
+    },
+    {
+      "number": 5,
+      "text": "Who is He on yonder tree\nDies in shame and agony?\n'Tis the Lord, O wondrous story,\n'Tis the Lord, the King of glory!"
+    },
+    {
+      "number": 6,
+      "text": "Who is He that from the grave\nComes to heal and help and save?\n'Tis the Lord, O wondrous story,\n'Tis the Lord, the King of glory!"
+    },
+    {
+      "number": 7,
+      "text": "Who is He that from His throne\nRules through all the world alone?\n'Tis the Lord, O wondrous story,\n'Tis the Lord, the King of glory!"
+    }
+  ],
+  "chorus": {
+    "text": "At His feet we humbly fall,\nCrown Him, crown Him Lord of all.\nAt His feet we humbly fall the Lord of all.\nCrown Him, crown Him Jesus, Jesus,\nCrown Him Lord of all."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["life_of_christ", "kingship", "worship", "christmas"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

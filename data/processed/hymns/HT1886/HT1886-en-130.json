@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-130",
+  "number": 130,
+  "title": "In the cross of Christ I glory",
+  "author": "John Bowring",
+  "composer": "Edwin Barnes",
+  "tune": "Shirley",
+  "meter": "8s & 7s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In the cross of Christ I glory,\nTowering o'er the wrecks of time;\nAll the light of sacred story\nGathers round its head sublime."
+    },
+    {
+      "number": 2,
+      "text": "When the woes of life o'ertake me,\nHopes deceive, and fears annoy,\nNever shall the cross forsake me:\nLo! it glows with peace and joy."
+    },
+    {
+      "number": 3,
+      "text": "When the sun of bliss is beaming\nLight and love upon my way,\nFrom the cross the radiance streaming\nAdds new lustre to the day."
+    },
+    {
+      "number": 4,
+      "text": "Bane and blessing, pain and pleasure,\nBy the cross are sanctified;\nPeace is there, that knows no measure,\nJoys that through all time abide."
+    },
+    {
+      "number": 5,
+      "text": "In the cross of Christ I glory,\nTowering o'er the wrecks of time;\nAll the light of sacred story\nGathers round its head sublime."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["cross of Christ", "glory", "comfort", "peace", "joy", "sacred story"],
+    "scripture_references": ["Galatians 6:14"],
+    "tune_source": "Edwin Barnes",
+    "original_language": "en"
+  }
+}

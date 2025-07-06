@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-204",
+  "number": 204,
+  "title": "Lord, how secure my conscience was",
+  "author": null,
+  "composer": "Hugh Wilson",
+  "tune": "Avon. C. M.",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, how secure my conscience was,\nAnd felt no inward dread!\nI was alive without the law,\nAnd thought my sins were dead."
+    },
+    {
+      "number": 2,
+      "text": "My hopes of bliss were firm and bright;\nBut since the precept came\nWith a convincing power and light,\nI find how vile I am."
+    },
+    {
+      "number": 3,
+      "text": "My guilt appeared but small before,\nTill terribly I saw\nHow perfect, holy, just, and pure,\nWas thy eternal law."
+    },
+    {
+      "number": 4,
+      "text": "Then felt my soul the heavy load,—\nMy sins revived again;\nI had provoked a dreadful God,\nAnd all my hopes were slain."
+    },
+    {
+      "number": 5,
+      "text": "I'm sold under sin, and dead\nTo all that's good and just;\nTor some power to save,\nTo break the yoke of sin and death,\nAnd thus redeem the slave."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["law of God", "conscience", "sin", "conviction", "redemption"],
+    "scripture_references": ["Romans 7:9"],
+    "tune_source": "Avon. C. M., Hugh Wilson",
+    "original_language": "en"
+  }
+}

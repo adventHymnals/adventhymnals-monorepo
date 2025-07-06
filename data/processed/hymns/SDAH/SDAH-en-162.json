@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-162",
+  "number": 162,
+  "title": "Wondrous Love",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "What wondrous love is this, O my soul, O my soul?\nWhat wondrous love is this, O my soul?\nWhat wondrous love is this that caused the Lord of bliss\nTo bear the dreadful curse for my soul, for my soul,\nTo bear the dreadful curse for my soul?"
+    },
+    {
+      "number": 2,
+      "text": "To God and to the Lamb I will sing, I will sing;\nTo God and to the Lamb I will sing;\nTo God and to the Lamb, Who is the great I AM,\nWhile millions join the theme, I will sing, I will sing,\nWhile millions join the theme, I will sing."
+    },
+    {
+      "number": 3,
+      "text": "And when from death I'm free, I'll sing on, I'll sing on;\nAnd when from death I'm free, I'll sing on;\nAnd when from death I'm free, I'll sing and joyful be,\nAnd through eternity I'll sing on, I'll sing on,\nAnd through eternity I'll sing on."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["love", "salvation", "praise", "eternity"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

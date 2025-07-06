@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-230",
+  "number": 230,
+  "title": "How sweet upon this sacred day",
+  "author": "George Kingsley",
+  "composer": null,
+  "tune": "Elizabethtown",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How sweet upon this sacred day,\nThe best of all the seven,\nTo cast our earthly thoughts away,\nAnd think of God and heaven!"
+    },
+    {
+      "number": 2,
+      "text": "How sweet to be allowed to pray,\nOur sins may be forgiven\nWith filial confidence to say,\n'Father, who art in heaven!'"
+    },
+    {
+      "number": 3,
+      "text": "How sweet the words of peace to hear\nFrom him to whom 'tis given\nTo wake the penitential tear,\nAnd lead the way to heaven!"
+    },
+    {
+      "number": 4,
+      "text": "And if to make our sins depart,\nIn vain the will has striven,\nHe who regards the inmost heart\nWill send his grace from heaven."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "prayer", "forgiveness", "heaven"],
+    "scripture_references": [],
+    "tune_source": "Elizabethtown, C. M., George Kingsley",
+    "original_language": "en"
+  }
+}

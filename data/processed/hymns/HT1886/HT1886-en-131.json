@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-131",
+  "number": 131,
+  "title": "Sing of Jesus, sing forever",
+  "author": "Anon",
+  "composer": "F. E. Beldon",
+  "tune": "Sunshine",
+  "meter": "8s & 5s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sing of Jesus, sing forever\nOf the love that changes never;\nWho or what from him can sever\nThose he makes his own?"
+    },
+    {
+      "number": 2,
+      "text": "With his precious blood he bought us,\nWhen we knew him not he sought us,\nAnd from all our wanderings brought us;\nHis the praise shall be."
+    },
+    {
+      "number": 3,
+      "text": "Through the desert drear he leads us,\nWith the bread of heaven he feeds us,\nAnd through all the journey speeds us\nTo our home above."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus Christ", "unchanging love", "redemption", "seeking the lost", "heavenly journey"],
+    "scripture_references": ["Romans 8:38-39", "Luke 15:3-7"],
+    "tune_source": "F. E. Beldon",
+    "original_language": "en"
+  }
+}

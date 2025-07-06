@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-071",
+  "number": 71,
+  "title": "Sweet is the memory of thy grace",
+  "author": "C. Borden",
+  "composer": null,
+  "tune": "114, 147, 227",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sweet is the memory of thy grace,\nMy God, my heavenly King;\nLet age to age thy righteousness\nIn psalms of glory sing."
+    },
+    {
+      "number": 2,
+      "text": "God reigns on high, but not confines\nHis goodness to the skies;\nThrough earth his bounty shines,\nAnd every want supplies."
+    },
+    {
+      "number": 3,
+      "text": "With longing eyes thy creatures wait\nOn thee for daily food;\nThy liberal hand provides their meat,\nAnd fills their mouth with good."
+    },
+    {
+      "number": 4,
+      "text": "How kind are thy compassions, Lord;\nHow slow thine anger moves!\nBut soon he sends his pardoning word\nTo cheer the souls he loves."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's grace", "God's goodness", "providence", "compassion", "mercy"],
+    "scripture_references": [],
+    "tune_source": "114, 147, 227",
+    "original_language": "en"
+  }
+}

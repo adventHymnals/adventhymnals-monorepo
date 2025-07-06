@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-111",
+  "number": 111,
+  "title": "All hail the power of Jesus' name! Let angels prostrate fall",
+  "author": null,
+  "composer": "Oliver Holden",
+  "tune": "Coronation",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All hail the power of Jesus' name! Let angels prostrate fall;\nBring forth the royal diadem,\nAnd crown him Lord of all."
+    },
+    {
+      "number": 2,
+      "text": "Ye chosen seed of Israel's race,\nA remnant, weak and small,\nHail him who saves you by his grace,\nAnd crown him Lord of all."
+    },
+    {
+      "number": 3,
+      "text": "Sinners, whose love can ne'er forget\nThe wormwood and the gall;\nGo, spread your trophies at his feet,\nAnd crown him Lord of all."
+    },
+    {
+      "number": 4,
+      "text": "Let every kindred, every tribe,\nOn this terrestrial ball,\nTo him all majesty ascribe,\nAnd crown him Lord of all."
+    },
+    {
+      "number": 5,
+      "text": "O that, with yonder sacred throng,\nWe at his feet may fall!\nWe'll join the everlasting song,\nAnd crown him Lord of all."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "Jesus Christ", "coronation", "worship", "Jesus as Lord", "all nations praise"],
+    "scripture_references": ["Philippians 2:9-11", "Revelation 5:13"],
+    "tune_source": "Oliver Holden",
+    "original_language": "en"
+  }
+}

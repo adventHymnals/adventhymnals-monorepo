@@ -1,0 +1,41 @@
+{
+  "id": "HSAB-en-140",
+  "number": 140,
+  "title": "SABBATH HYMN",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "DELIGHTFUL day! First gift of Heaven\nTo man, of Eden then possessed,\nJehovah's Rest-day, kindly given,\nThat all his creatures might be blessed."
+    },
+    {
+      "number": 2,
+      "text": "Memorial of Creation's King,\nWe welcome now thy glad return;\nAnd While His praise we join to sing,\nOur hearts with love and rapture burn."
+    },
+    {
+      "number": 3,
+      "text": "We bless thy name Almighty Lord,\nWe love the keep-sake thou hast given;\nOur voices raise, with one accord,\nIn honor of the King of Heaven."
+    },
+    {
+      "number": 4,
+      "text": "All praise to Jesus, by whose blood\nWe are redeemed from sin and death,\nGive glory to the Son of God—\nPraise him all creatures that have breath."
+    },
+    {
+      "number": 5,
+      "text": "By sin, we were exposed to wrath—\nHe died for us, that he might draw\nOur wandering feet to virtue's path,\nWhere we may keep God's holy law."
+    },
+    {
+      "number": 6,
+      "text": "That law shall still be our delight,\nThe holy Sabbath is a part,\nAnd when we gain that world so bright,\nAll flesh will keep it with one heart."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "creation", "rest day", "God's law", "redemption", "Jesus"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-312",
+  "number": 312,
+  "title": "We may not climb the heavenly steeps",
+  "author": "John G. Whittier",
+  "composer": "William V. Wallace",
+  "tune": "Invitation",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We may not climb the heavenly steeps\nTo bring the Lord Christ down;\nIn vain we search the lowest deeps,\nFor him no depths can drown."
+    },
+    {
+      "number": 2,
+      "text": "But warm, sweet, tender, even yet\nA present help is he;\nAnd faith has yet its Olivet,\nAnd love its Galilee."
+    },
+    {
+      "number": 3,
+      "text": "The healing of the seamless dress\nIs by our beds of pain;\nWe touch him in life's throng and press,\nAnd we are whole again."
+    },
+    {
+      "number": 4,
+      "text": "Through him the first fond prayers are said\nOur lips of childhood frame;\nThe last low whispers of our dead\nAre burdened with his name."
+    },
+    {
+      "number": 5,
+      "text": "O Lord and Master of us all,\nWhate'er our name or sign,\nWe own thy sway, we hear thy call,\nWe test our lives by thine!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Life and Character", "invitation", "presence", "healing", "faith"],
+    "scripture_references": [],
+    "tune_source": "Invitation, William V. Wallace",
+    "original_language": "en"
+  }
+}

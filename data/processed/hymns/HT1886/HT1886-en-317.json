@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-317",
+  "number": 317,
+  "title": "He dies! the Friend of sinners dies!",
+  "author": "Isaac Watts",
+  "composer": "Charles Wesley",
+  "tune": "429, 64, 471",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "He dies! the Friend of sinners dies!\nLo, Salem's daughters weep around;\nA solemn darkness veils the skies,\nA sudden trembling shakes the ground."
+    },
+    {
+      "number": 2,
+      "text": "Come, saints, and shed your tears anew\nFor him who groaned beneath your load;\nHe shed his precious blood for you,\nThen freely be your tears bestowed."
+    },
+    {
+      "number": 3,
+      "text": "Here's love and grief beyond degree;\nThe Lord of glory dies for men!\nBut lo, what sudden joys we see!\nJesus the dead revives again!"
+    },
+    {
+      "number": 4,
+      "text": "He lives forever, wondrous King,\nBorn to redeem, and strong to save;\nThen ask, O death, where is thy sting?\nAnd where's thy victory, boasting grave?"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "crucifixion", "death", "resurrection", "salvation"],
+    "scripture_references": [],
+    "tune_source": "429, 64, 471",
+    "original_language": "en"
+  }
+}

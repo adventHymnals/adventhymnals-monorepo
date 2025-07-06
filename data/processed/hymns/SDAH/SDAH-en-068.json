@@ -1,0 +1,31 @@
+{
+  "id": "SDAH-en-068",
+  "number": 68,
+  "title": "On Our Way Rejoicing",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "8 5 8 5 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "On our way rejoicing\nGladly let us go;\nConqu'rd hath our Leader,\nVanquish'd is the foe."
+    },
+    {
+      "number": 2,
+      "text": "Unto God the Father\nJoyful songs we sing;\nUn-to God the Savior\nThankful hearts we bring."
+    }
+  ],
+  "chorus": {
+    "text": "On our way rejoicing\nAs we forward move,\nHearken to our praises,\nO blest God of love!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": ["rejoicing", "journey", "victory", "praise", "God's love"],
+    "scripture_references": [],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

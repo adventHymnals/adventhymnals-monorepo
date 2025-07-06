@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-337",
+  "number": 337,
+  "title": "I know that my Redeemer lives",
+  "author": "Samuel Medley",
+  "composer": null,
+  "tune": "223, 84, 59",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I know that my Redeemer lives— What joy the blest assurance gives!\nHe lives, he lives, who once was dead; He lives, my everlasting Head!"
+    },
+    {
+      "number": 2,
+      "text": "He lives to bless me with his love, He lives to plead for me above,\nHe lives my hungry soul to feed, He lives to help in time of need."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Resurrection and Ascension", "assurance", "eternal life", "blessing", "intercession"],
+    "scripture_references": [],
+    "tune_source": "223, 84, 59",
+    "original_language": "en"
+  }
+}

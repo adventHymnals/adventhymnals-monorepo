@@ -1,0 +1,44 @@
+{
+  "id": "HT1886-en-466",
+  "number": 466,
+  "title": "Jesus, full of all compassion",
+  "author": null,
+  "composer": "Langran",
+  "tune": "Deerhurst",
+  "meter": "8s & 7s, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, full of all compassion,\nHear thy humble suppliant's cry;\nLet me know thy great salvation;\nSee, I languish, faint, and die."
+    },
+    {
+      "number": 2,
+      "text": "Guilty, but with heart relenting,\nOverwhelmed with helpless grief,\nProstrate at thy feet repenting,\nSend, O send me (omit) quick relief!"
+    },
+    {
+      "number": 3,
+      "text": "Whither should a wretch be flying\nBut to him who comfort gives?\nWhither from the dread of dying\nBut to him who ever lives?"
+    },
+    {
+      "number": 4,
+      "text": "While I view thee, wounded, groaning,\nBreathless on the cursed tree,\nPain I'd feel my heart believing\nThou didst suffer this for me."
+    },
+    {
+      "number": 5,
+      "text": "With thy righteousness and Spirit\nI am more than angels blessed;\nHeir with thee, all things inherit,—\nPeace and joy, and endless rest."
+    },
+    {
+      "number": 6,
+      "text": "Saved! the deed shall spread new glory\nThrough the shining realms above;\nAngels sing the pleasing story,\nAll enraptured with thy love."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["compassion", "salvation", "repentance"],
+    "scripture_references": [],
+    "tune_source": "Deerhurst, Langran",
+    "original_language": "en"
+  }
+}

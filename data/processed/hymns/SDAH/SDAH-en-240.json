@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-240",
+  "number": 240,
+  "title": "Fairest Lord Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Fairest Lord Jesus,\nRuler of all nature,\nO Thou of God and man the Son!\nThee will I cherish,\nThee will I honor,\nThou art my glory, joy, and crown."
+    },
+    {
+      "number": 2,
+      "text": "Fair are the meadows,\nFairer still the woodlands,\nRobed in the blooming garb of spring:\nJesus is fairer,\nJesus is purer,\nWho makes the woeful heart to sing."
+    },
+    {
+      "number": 3,
+      "text": "Fair is the sunshine,\nFairer still the moonlight,\nAnd all the twinkling, starry host:\nJesus shines brighter,\nJesus shines purer\nThan all the angels heaven can boast."
+    },
+    {
+      "number": 4,
+      "text": "Beautiful Savior!\nLord of the nations!\nSon of God and Son of Man!\nGlory and honor,\nPraise, adoration,\nNow and forevermore be Thine!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus Christ", "Beauty", "Nature", "Praise", "Worship"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

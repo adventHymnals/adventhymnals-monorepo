@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-068",
+  "number": 68,
+  "title": "The spacious firmament on high",
+  "author": null,
+  "composer": "Francis J. Haydn",
+  "tune": "Creation",
+  "meter": "L.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The spacious firmament on high, With all the blue, ethereal sky,\nAnd spangled heavens, a shining frame, Their great Original proclaim;\nTh' unwearied sun, from day to day Does his Creator's power display,\nAnd publishes to every land The work of an almighty hand."
+    },
+    {
+      "number": 2,
+      "text": "Soon as the evening shades prevail, The moon takes up the wondrous tale;\nAnd nightly, to the listening earth Repeats the story of her birth;\nWhilst all the stars that round her burn, And all the planets in their turn,\nConfirm the tidings as they roll, And spread the truth from pole to pole."
+    },
+    {
+      "number": 3,
+      "text": "What though, in solemn silence, all Move round the dark terrestrial ball?\nWhat though no real voice nor sound Amid their radiant orbs be found?\nIn reason's ear they all rejoice, And utter forth a glorious voice,\nForever singing, as they shine, 'The hand that made us is divine.'"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["creation", "God's power", "nature's praise", "divine majesty", "celestial glory", "God's handiwork"],
+    "scripture_references": [],
+    "tune_source": "Creation, Francis J. Haydn",
+    "original_language": "en"
+  }
+}

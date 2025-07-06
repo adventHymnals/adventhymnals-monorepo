@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-036",
+  "number": 36,
+  "title": "O Thou in Whose Presence",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Thou in whose presence my soul takes delight,\nOn whom in affliction I call,\nMy comfort by day and my song in the night,\nMy hope, my salvation, my all!"
+    },
+    {
+      "number": 2,
+      "text": "His voice, as the sound of the dulcimer sweet,\nIs heard through the shadows of death;\nThe cedars of Lebanon bow at His feet,\nThe air is perfumed with His breath."
+    },
+    {
+      "number": 3,
+      "text": "His looks, as the fountain of righteousness,\nAnd ten thousands of angels rejoice;\nFirm is His promise, and His mercy sure,\nRejoice in His glorious word; He speaks, and eternity filled with His voice,\nRehopes, air is perfumed with His breath."
+    },
+    {
+      "number": 4,
+      "text": "He looks and ten thousands of angels rejoice,\nAnd myriads wait for His word;\nHe speaks, and eternity filled with His voice,\nRe-echoes the praise of the Lord."
+    }
+  ],
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["worship", "comfort", "presence of God"],
+    "scripture_references": [],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

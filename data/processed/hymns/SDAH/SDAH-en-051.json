@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-051",
+  "number": 51,
+  "title": "Day Is Dying in the West",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "6/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Day is dying in the west;\nHeaven is touching earth with rest;\nWait and worship while the night\nSets her evening lamps alight\nThrough all the sky."
+    },
+    {
+      "number": 2,
+      "text": "Lord of life, beneath the dome\nOf the universe, Thy home,\nGather us who seek Thy face\nTo the fold of Thy embrace,\nFor Thou art nigh."
+    },
+    {
+      "number": 3,
+      "text": "While the deepening shadows fall,\nHeart of love, enfolding all,\nThrough the glory and the grace\nOf the stars that veil Thy face,\nOur hearts ascend."
+    },
+    {
+      "number": 4,
+      "text": "When forever from our sight\nPass the stars, the day, the night,\nLord of angels, on our eyes\nLet eternal morning rise,\nAnd shadows end."
+    }
+  ],
+  "chorus": {
+    "text": "Holy, holy, holy, Lord God of hosts!\nHeaven and earth are full of Thee;\nHeaven and earth are praising Thee,\nO Lord most high!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["evening", "worship", "praise", "God's presence"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-030",
+  "number": 30,
+  "title": "Come, ye who love the Lord",
+  "author": null,
+  "composer": "Ralph Harrison",
+  "tune": "Warwick",
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, ye who love the Lord,\nAnd let your joys be known;\nJoin in a song of sweet accord,\nAnd thus surround the throne."
+    },
+    {
+      "number": 2,
+      "text": "Let those refuse to sing\nWho never knew our God;\nBut children of the heavenly King\nMay speak their joys abroad."
+    },
+    {
+      "number": 3,
+      "text": "The hill of Zion yields\nA thousand sacred sweets\nBefore we reach the heavenly fields,\nOr walk the golden streets."
+    },
+    {
+      "number": 4,
+      "text": "Then let our songs abound,\nAnd every tear be dry;\nWe're marching through Immanuel's ground\nTo fairer worlds on high."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["joy", "worship", "Zion", "heaven", "praise"],
+    "scripture_references": [],
+    "tune_source": "Warwick, Ralph Harrison",
+    "original_language": "en"
+  }
+}

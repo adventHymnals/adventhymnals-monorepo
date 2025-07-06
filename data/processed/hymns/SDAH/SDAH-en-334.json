@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-334",
+  "number": 334,
+  "title": "Come, Thou Fount of Every Blessing",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, Thou Fount of every blessing,\nTune my heart to sing Thy grace;\nStreams of mercy, never ceasing,\nCall for songs of loudest praise.\nTeach me some melodious sonnet,\nSung by flaming tongues above;\nPraise the mount! I'm fixed upon it,\nMount of Thy redeeming love."
+    },
+    {
+      "number": 2,
+      "text": "Here I raise my Ebenezer,\nHither by Thy help I've come;\nAnd I hope by Thy good pleasure\nSafely to arrive at home.\nJesus sought me when a stranger,\nWandering from the fold of God;\nHe, to rescue me from danger,\nInterposed His precious blood."
+    },
+    {
+      "number": 3,
+      "text": "O, to grace how great a debtor\nDaily I'm constrained to be!\nLet Thy goodness, like a fetter,\nBind me closer still to Thee.\nProne to wander, Lord, I feel it,\nProne to leave the God I love;\nHere's my heart, O take and seal it,\nSeal it for Thy courts above."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Blessing", "Grace", "Mercy", "Redemption", "Love"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

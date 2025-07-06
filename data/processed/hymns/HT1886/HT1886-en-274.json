@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-274",
+  "number": 274,
+  "title": "Christian brother, ere we part",
+  "author": "Terry White",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Christian brother, ere we part,\nEvery voice and every heart\nJoin, and to our Father raise\nOne last hymn of grateful praise."
+    },
+    {
+      "number": 2,
+      "text": "Though we here should meet no more,\nYet there is a brighter shore;\nThere released from toil and pain,\nSaints with joy shall meet again."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "closing", "brotherhood", "farewell", "heaven"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

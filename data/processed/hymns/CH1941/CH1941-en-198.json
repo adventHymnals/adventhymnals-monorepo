@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-198",
+  "number": 198,
+  "title": "O Lord of Life",
+  "author": "Frank Mason North",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Lord of life, where'er they be,\nSafe in Thine own eternity,\nOur dead are living unto Thee,\nAlleluia!"
+    },
+    {
+      "number": 2,
+      "text": "Released from earthly toil and strife,\nWith Thee is hidden still their life,\nSecure in everlasting life,\nAlleluia!"
+    },
+    {
+      "number": 3,
+      "text": "Thine are they, life, in death, in life,\nIn Thee they rest from earthly strife,\nWith Thee, through Thee, eternal life,\nAlleluia!"
+    },
+    {
+      "number": 4,
+      "text": "Thou gavest them, Thou tak'st away,\nBut love divine doth ever stay;\nThey live in Thee from day to day,\nAlleluia!"
+    }
+  ],
+  "metadata": {
+    "year": 1903,
+    "copyright": "Public Domain",
+    "themes": ["eternal life", "death", "comfort", "resurrection"],
+    "scripture_references": ["John 11:25-26", "Colossians 3:3"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

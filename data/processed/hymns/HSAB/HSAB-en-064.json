@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-064",
+  "number": 64,
+  "title": "Lord, In The Morning",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "LORD, in the morning thou shalt hear\nMy voice ascending high;\nTo thee will I direct my prayer,\nTo thee lift up mine eye."
+    },
+    {
+      "number": 2,
+      "text": "Up to the hills where Christ is gone\nTo plead for all his saints,\nPresenting at his Father's throne\nOur songs and our complaints."
+    },
+    {
+      "number": 3,
+      "text": "O, may thy Spirit guide my feet\nIn ways of righteousness!\nMake every path of duty straight\nAnd plain before my face."
+    },
+    {
+      "number": 4,
+      "text": "The men that love and fear thy name:\nShall see their hopes fulfilled;\nThe mighty God shall compass them\nWith favor as a shield."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["morning prayer", "christ pleading", "spirit guide", "righteousness", "favor"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

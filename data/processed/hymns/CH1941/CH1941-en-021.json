@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-021",
+  "number": 21,
+  "title": "My Gracious Lord, I Own Thy Right",
+  "author": "Philip Doddridge",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My gracious Lord, I own Thy right\nTo every service I can pay,\nAnd call it my supreme delight\nTo hear Thy dictates and obey."
+    },
+    {
+      "number": 2,
+      "text": "What is my being but for Thee,\nIts sure support, its noblest end?\nThy ever-smiling face to see,\nAnd serve the cause of such a Friend?"
+    },
+    {
+      "number": 3,
+      "text": "I would not breathe for worldly joy,\nOr to increase my worldly good,\nNor future days nor powers employ\nTo spread a sounding name abroad."
+    },
+    {
+      "number": 4,
+      "text": "'Tis to my Savior I would live,\nTo Him who for my ransom died;\nNor could all worldly honor give\nSuch bliss as crowns me at His side."
+    }
+  ],
+  "metadata": {
+    "year": 1755,
+    "copyright": "Public Domain",
+    "themes": ["consecration", "service", "devotion", "surrender"],
+    "scripture_references": ["Romans 12:1", "2 Corinthians 5:15"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

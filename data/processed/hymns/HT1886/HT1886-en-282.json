@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-282",
+  "number": 282,
+  "title": "Thy love some gracious token",
+  "author": "Unknown",
+  "composer": null,
+  "tune": "Gracious Token",
+  "meter": "P. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thy love some gracious token\nGive, Grant us, Lord, before we go;\nPlease the word which has been spoken,\nInto and pardon all bestow."
+    },
+    {
+      "number": 2,
+      "text": "Then, O Lord of mercy, hear us,\nGuard our souls from every foe;\nIn all peril be thou near us,\nIn our weakness, strength bestow.\nGod of Israel, be our stay\nWhile we tread life's rugged way;\nNor forsake us,\nTill thou take us,\nTo thyself to dwell with thee,\nThrough a bright eternity."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "closing", "love", "mercy", "protection"],
+    "scripture_references": [],
+    "tune_source": "Gracious Token, P. M.",
+    "original_language": "en"
+  }
+}

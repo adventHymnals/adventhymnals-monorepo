@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-067",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "067",
+  "title": "A charge to keep I have",
+  "verses": [
+    {
+      "number": "1",
+      "text": "A charge to keep I have, A God to glorify; A never-dying soul to save, And fit it for the sky."
+    },
+    {
+      "number": "2",
+      "text": "To serve the present age, My calling to fulfil; O may it all my powers engage To do my Master's will."
+    },
+    {
+      "number": "3",
+      "text": "Arm me with jealous care, As in thy sight to live; And O thy servant, Lord, prepare, A strict account to give."
+    },
+    {
+      "number": "4",
+      "text": "Help me to watch and pray, And on thyself rely, Assured if I my trust betray I shall forever die."
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "S.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 206,
+  "themes": ["Charge", "God", "Soul", "Service", "Calling", "Duty"],
+  "key_signature": "",
+  "time_signature": ""
+}

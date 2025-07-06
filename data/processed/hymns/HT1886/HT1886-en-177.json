@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-177",
+  "number": 177,
+  "title": "How blest the children of the Lord",
+  "author": "Harriet Auber",
+  "composer": "",
+  "tune": "",
+  "meter": "120, 114, 27",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How blest the children of the Lord,\nWho, walking in his sight,\nMake all the precepts of his word\nTheir study and delight!"
+    },
+    {
+      "number": 2,
+      "text": "That precious wealth shall be their dower,\nWhich cannot know decay;\nWhich moth and rust shall ne'er devour,\nOr spoilers take away."
+    },
+    {
+      "number": 3,
+      "text": "For them that heavenly light shall spread\nWhose cheering rays illume\nThe darkest hours of life, and shed\nA halo round the tomb."
+    },
+    {
+      "number": 4,
+      "text": "Their works of piety and love,\nPerformed through Christ, their Lord,\nForever gathered above,\nShall meet a sure reward."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["children of God", "God's word", "spiritual wealth", "divine light", "eternal reward"],
+    "scripture_references": [],
+    "tune_source": "120, 114, 27",
+    "original_language": "en"
+  }
+}

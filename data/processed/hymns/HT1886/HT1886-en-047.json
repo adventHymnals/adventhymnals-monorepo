@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-047",
+  "number": 47,
+  "title": "High in the heavens, eternal God",
+  "author": null,
+  "composer": "Sigismund Neukomm",
+  "tune": "Ames",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "High in the heavens, eternal God,\nThy goodness in full glory shines;\nThy truth shall break through every cloud\nThat vails thy just and wise designs."
+    },
+    {
+      "number": 2,
+      "text": "Forever firm thy justice stands,\nAs mountains their foundations keep;\nWise are thy counsels, and thy hands\nThy judgments are a mighty deep."
+    },
+    {
+      "number": 3,
+      "text": "O God, how excellent thy grace,\nWhence all our hope and comfort spring!\nThe sons of Adam, in distress,\nFly to the shadow of thy wing."
+    },
+    {
+      "number": 4,
+      "text": "In thy provisions of thy house\nWe shall find a continual feast;\nThere mercy like a river flows,\nAnd brings salvation to our taste."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's glory", "divine goodness", "God's truth", "justice", "grace", "mercy"],
+    "scripture_references": [],
+    "tune_source": "Ames, Sigismund Neukomm",
+    "original_language": "en"
+  }
+}

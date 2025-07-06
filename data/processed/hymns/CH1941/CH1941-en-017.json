@@ -1,0 +1,35 @@
+{
+  "id": "CH1941-en-017",
+  "number": 17,
+  "title": "Rejoice, Ye Pure in Heart",
+  "author": "Edward Hayes Plumptre",
+  "composer": "Arthur Henry Messiter",
+  "tune": "Marion",
+  "meter": "S.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Rejoice, ye pure in heart,\nRejoice, give thanks, and sing;\nYour festal banner wave on high,\nThe cross of Christ your King."
+    },
+    {
+      "number": 2,
+      "text": "With all the angel choirs,\nWith all the saints on earth,\nPour out the strains of joy and bliss,\nTrue rapture, noblest mirth."
+    },
+    {
+      "number": 3,
+      "text": "Your clear hosannas raise,\nAnd alleluias loud;\nWhilst answering echoes upward float,\nLike incense in the cloud."
+    }
+  ],
+  "chorus": {
+    "text": "Rejoice, rejoice,\nRejoice, give thanks, and sing!"
+  },
+  "metadata": {
+    "year": 1865,
+    "copyright": "Public Domain",
+    "themes": ["rejoicing", "purity", "worship", "celebration"],
+    "scripture_references": ["Psalm 32:11", "1 Peter 1:8"],
+    "tune_source": "Marion, Arthur Henry Messiter, 1883",
+    "original_language": "en"
+  }
+}

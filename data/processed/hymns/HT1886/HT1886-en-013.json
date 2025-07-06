@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-013",
+  "number": 13,
+  "title": "COME, ye that fear the Lord",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "85, 90, 659",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "COME, ye that fear the Lord,\nAnd love him while ye fear,\nCome, and with heart and hand record\nYour covenant with him here."
+    },
+    {
+      "number": 2,
+      "text": "Here to his altar brought,\nYour holy vows renew,\nTo be in deed, and word, and thought,\nFaithful to him, and true."
+    },
+    {
+      "number": 3,
+      "text": "And true the faithful he\nTo you, will ever prove,\nThough hills were swept into the sea,\nAnd mountains should remove."
+    },
+    {
+      "number": 4,
+      "text": "Then be his paths your choice,\nThe joy of young and old;\nAs sheep that hear their shepherd's voice,\nAnd follow to the fold."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["fear of God", "covenant", "faithfulness", "shepherd", "obedience"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "SDAH-en-650",
+  "number": 650,
+  "title": "Our Father, by Whose Name",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Our Father, by whose name\nAll fatherhood is known,\nWho dost in love proclaim\nEach family Thine own,\nBless Thou all parents, guarding well,\nWith constant love as sentinel,\nThe homes in which Thy people dwell."
+    },
+    {
+      "number": 2,
+      "text": "O Christ, Thyself a child\nWithin an earthly home,\nWith heart still undefiled,\nThou didst to manhood come;\nOur children bless, in every place,\nThat they may all behold Thy face,\nAnd knowing Thee may grow in grace."
+    },
+    {
+      "number": 3,
+      "text": "O Spirit, who dost bind\nOur hearts in unity,\nWho teachest us to find\nThe love from self set free,\nIn all our hearts such love increase,\nThat every home, by this release,\nMay be the dwelling place of peace."
+    }
+  ],
+  "metadata": {
+    "themes": ["family", "home", "parenthood", "children"],
+    "scripture_references": ["Ephesians 3:14-15", "Psalm 127:3"],
+    "copyright": "Public Domain"
+  }
+}

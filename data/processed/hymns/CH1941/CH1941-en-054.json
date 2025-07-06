@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-054",
+  "number": 54,
+  "title": "The Shadows of the Evening Hours",
+  "author": "Adelaide Anne Procter",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The shadows of the evening hours\nFall from the darkening sky;\nUpon the fragrance of the flowers\nThe dews of evening lie.\nBefore Thy throne, O Lord of heaven,\nWe kneel at close of day;\nLook on Thy children from on high,\nAnd hear us while we pray."
+    },
+    {
+      "number": 2,
+      "text": "The sorrows of Thy servants, Lord,\nO do not Thou despise,\nBut let the incense of our prayers\nBefore Thy mercy rise.\nThe brightness of the coming night\nUpon the darkness rolls;\nWith hopes of future glory chase\nThe shadows from our souls."
+    },
+    {
+      "number": 3,
+      "text": "Slowly the rays of daylight fade:\nSo fade within our heart\nThe hopes in earthly love and joy,\nThat one by one depart.\nSlowly the bright stars, one by one,\nWithin the heavens shine:\nGive us, O Lord, fresh hopes in heaven,\nAnd trust in things divine."
+    }
+  ],
+  "metadata": {
+    "year": 1858,
+    "copyright": "Public Domain",
+    "themes": ["evening", "prayer", "hope", "divine trust"],
+    "scripture_references": ["Psalm 141:2", "2 Corinthians 4:18"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

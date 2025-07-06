@@ -1,0 +1,30 @@
+{
+  "id": "SDAH-en-088",
+  "number": 88,
+  "title": "I Sing the Mighty Power of God",
+  "author": "Isaac Watts",
+  "composer": "Gesangbuch der H. W. k. Hofkapelle",
+  "tune": "Ellacombe",
+  "meter": "C.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I sing the mighty power of God,\nThat made the mountains rise;\nThat spread the flowing seas abroad,\nAnd built the lofty skies.\nI sing the wisdom that ordained\nThe sun to rule the day;\nThe moon shines full at His command,\nAnd all the stars obey."
+    },
+    {
+      "number": 2,
+      "text": "I sing the goodness of the Lord,\nThat filled the earth with food;\nHe formed the creatures with His word,\nAnd then pronounced them good.\nLord, how Thy wonders are displayed\nWhere'er I turn my eye;\nIf I survey the ground I tread,\nOr gaze upon the sky!"
+    },
+    {
+      "number": 3,
+      "text": "There's not a plant or flower below,\nBut makes Thy glories known;\nAnd clouds arise, and tempests blow,\nBy order from Thy throne.\nCreatures that borrow life from Thee\nAre subject to Thy care;\nThere's not a place where we can flee\nBut God is present there."
+    }
+  ],
+  "metadata": {
+    "themes": ["God's Power", "Creation", "God's Goodness", "Nature"],
+    "scripture_references": ["Genesis 1"],
+    "tune_source": "Ellacombe",
+    "original_language": "en"
+  }
+}

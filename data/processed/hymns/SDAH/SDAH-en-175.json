@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-175",
+  "number": 175,
+  "title": "Now the Green Blade Rises",
+  "author": "John Macleod Campbell Crum",
+  "composer": "Traditional French carol",
+  "tune": "Noël Nouvelet",
+  "meter": "11.10.11.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Now the green blade rises from the buried grain,\nWheat that in dark earth many days has lain;\nLove lives again, that with the dead has been:\nLove is come again like wheat arising green."
+    },
+    {
+      "number": 2,
+      "text": "In the grave they laid Him, love by hatred slain,\nThinking that He never would wake again;\nLaid in the earth like grain that sleeps unseen:\nLove is come again like wheat arising green."
+    },
+    {
+      "number": 3,
+      "text": "Forth He came at Easter, like the risen grain,\nHe that for three days in the grave had lain;\nRaised from the dead, my living Lord is seen:\nLove is come again like wheat arising green."
+    },
+    {
+      "number": 4,
+      "text": "When our hearts are wintry, grieving, or in pain,\nYour touch can call us back to life again;\nFields of our hearts that dead and bare have been:\nLove is come again like wheat arising green."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1928,
+    "copyright": null,
+    "themes": ["easter", "resurrection", "new_life", "love", "renewal"],
+    "scripture_references": ["John 12:24", "1 Corinthians 15:35-44"],
+    "tune_source": "French",
+    "original_language": "en"
+  }
+}

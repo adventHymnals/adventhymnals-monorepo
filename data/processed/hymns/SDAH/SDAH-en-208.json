@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-208",
+  "number": 208,
+  "title": "There'll Be No Dark Valley",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There'll be no dark valley when Jesus comes,\nThere'll be no dark valley when Jesus comes;\nThere'll be no dark valley when Jesus comes\nTo gather His loved ones home."
+    },
+    {
+      "number": 2,
+      "text": "There'll be no more sorrow when Jesus comes,\nThere'll be no more sorrow when Jesus comes;\nBut a glorious morrow when Jesus comes\nTo gather His loved ones home."
+    },
+    {
+      "number": 3,
+      "text": "There'll be songs of greeting when Jesus comes,\nThere'll be songs of greeting when Jesus comes;\nAnd a joyful meeting when Jesus comes\nTo gather His loved ones home."
+    }
+  ],
+  "chorus": {
+    "text": "To gather His loved ones home,\nsafe home, To gather His loved ones home;\nThere'll be no dark valley when Jesus comes\nTo gather His loved ones home."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Second Coming", "Home", "Comfort", "Reunion"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-077",
+  "number": 77,
+  "title": "True Joys",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O, TELL me no more\nOf this world's vain store,\nThe time for such trifles\nWith me now is o'er."
+    },
+    {
+      "number": 2,
+      "text": "A City I've found,\nWhere true joys abound;\nTo dwell I'm determin'd\nOn this happy ground."
+    },
+    {
+      "number": 3,
+      "text": "My soul, don't delay,\nHe calls thee away;\nRise, follow thy Saviour,\nAnd bless the glad day."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["world's vain store", "city found", "true joys", "follow saviour"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

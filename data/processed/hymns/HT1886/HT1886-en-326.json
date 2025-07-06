@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-326",
+  "number": 326,
+  "title": "China",
+  "author": "Timothy Swan",
+  "composer": null,
+  "tune": "C. M.",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Dark was the night, and cold the ground On which the Lord was laid;\nHis sweat like drops of blood ran down, In ag - o - ny he prayed:—"
+    },
+    {
+      "number": 2,
+      "text": "\"Father, remove this bitter cup, If such thy sacred will;\nIf not, content to drink it up, Thy pleasure I fulfil.\""
+    },
+    {
+      "number": 3,
+      "text": "Go to the garden, sinner, see Those precious drops that flow;\nThe heavy load he bore for thee, For thee he lies so low."
+    },
+    {
+      "number": 4,
+      "text": "Then learn of him the cross to bear, Thy Father's will obey;\nAnd, when temptations press thee near, Awake to watch and pray."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "Gethsemane", "prayer", "obedience", "temptation"],
+    "scripture_references": [],
+    "tune_source": "549, 720, 777",
+    "original_language": "en"
+  }
+}

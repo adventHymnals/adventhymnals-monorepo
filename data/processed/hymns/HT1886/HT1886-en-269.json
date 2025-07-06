@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-269",
+  "number": 269,
+  "title": "Still with thee, O my God!",
+  "author": "James Burns",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Still with thee, O my God!\nI would desire to be;\nBy day, by night, at home, abroad,\nI would be still with thee."
+    },
+    {
+      "number": 2,
+      "text": "With thee when dawn comes in,\nAnd calls me back to care,\nEach day returning to begin\nWith thee, my God, in prayer."
+    },
+    {
+      "number": 3,
+      "text": "With thee, when day is done,\nAnd evening calms the mind;\nThe setting, as the rising sun,\nWith thee my heart would find."
+    },
+    {
+      "number": 4,
+      "text": "With thee, in thee, by faith\nAbiding I would be;\nBy day, by night, in life, in death,\nI would be still with thee."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["constant communion with God", "prayer", "daily devotion", "divine presence"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

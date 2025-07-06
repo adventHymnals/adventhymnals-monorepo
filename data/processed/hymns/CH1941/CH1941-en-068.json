@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-068",
+  "number": 68,
+  "title": "Jesus, Lord, We Look to Thee",
+  "author": "Charles Wesley",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "7.7.7.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, Lord, we look to Thee;\nLet us in Thy name agree;\nShow Thyself the Prince of Peace;\nBid our jarring conflicts cease."
+    },
+    {
+      "number": 2,
+      "text": "By Thy reconciling love\nEvery stumbling block remove;\nEach to each unite, endear;\nCome, and spread Thy banner here."
+    },
+    {
+      "number": 3,
+      "text": "Make us of one heart and mind,\nCourteous, pitiful, and kind,\nLowly, meek, in thought and word,\nAltogether like our Lord."
+    },
+    {
+      "number": 4,
+      "text": "Let us for each other care,\nEach the other's burden bear;\nTo Thy church the pattern give,\nShow how true believers live."
+    }
+  ],
+  "metadata": {
+    "year": 1749,
+    "copyright": "Public Domain",
+    "themes": ["unity", "peace", "Christian fellowship", "love"],
+    "scripture_references": ["Ephesians 4:2-3", "Galatians 6:2"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

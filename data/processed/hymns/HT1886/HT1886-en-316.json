@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-316",
+  "number": 316,
+  "title": "'Tis finished! so the Saviour cried",
+  "author": "Samuel Stennett",
+  "composer": "Lowell Mason",
+  "tune": "Olden",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'Tis finished! so the Saviour cried,\nAnd meekly bowed his head, and died:\n'Tis finished! yes, the race is run;\nThe battle fought; the victory won."
+    },
+    {
+      "number": 2,
+      "text": "'Tis finished! all that heaven foretold\nBy prophets in the days of old;\nAnd truths are opened to our view\nThat kings and prophets never knew."
+    },
+    {
+      "number": 3,
+      "text": "'Tis finished! Son of God, thy power\nHath triumphed in this awful hour;\nAnd yet our eyes with sorrow see\nThat life to us was death to thee."
+    },
+    {
+      "number": 4,
+      "text": "'Tis finished! let the joyful sound\nBe heard through all the nations round;\n'Tis finished! let the triumph rise,\nAnd swell the chorus of the skies!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "crucifixion", "finished work", "victory", "triumph"],
+    "scripture_references": [],
+    "tune_source": "Olden, Lowell Mason",
+    "original_language": "en"
+  }
+}

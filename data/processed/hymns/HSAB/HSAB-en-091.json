@@ -1,0 +1,25 @@
+{
+  "id": "HSAB-en-091",
+  "number": 91,
+  "title": "Now We Have Met",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "NOW we have met in Jesus' name,\nTo glorify our Lord we aim:\nWe strive each duty to fulfill,\nWith anxious hearts to do his will."
+    },
+    {
+      "number": 2,
+      "text": "We've met in love and holy fear;\nTo hear the happy saints declare"
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["met in jesus' name", "glorify lord", "fulfill duty", "love and holy fear"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

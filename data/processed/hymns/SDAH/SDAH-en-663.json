@@ -1,0 +1,21 @@
+{
+  "id": "SDAH-en-663",
+  "number": 663,
+  "title": "Amens",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "A-men, A-------men."
+    }
+  ],
+  "metadata": {
+    "themes": ["amen", "conclusion", "affirmation"],
+    "scripture_references": ["1 Corinthians 14:16", "Revelation 22:20"],
+    "copyright": "Public Domain"
+  }
+}

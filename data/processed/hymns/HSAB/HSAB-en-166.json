@@ -1,0 +1,40 @@
+{
+  "id": "HSAB-en-166",
+  "number": 30,
+  "title": "I LOVE THIS PURE RELIGION",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I LOVE this pure religion,\nSoldiers of the jubilee;\nI love this pure religion,\nSoldiers of the cross."
+    },
+    {
+      "number": 2,
+      "text": "We'll preach a coming Saviour,\nSoldiers of the jubilee;\nWe'll preach a coming Saviour,\nSoldiers of the cross.\nRemember me, &c."
+    },
+    {
+      "number": 3,
+      "text": "We'll soon be in the kingdom,\nSoldiers of the Jubilee;\nWe'll soon be in the kingdom,\nSoldiers of the cross.\nRemember me, &c."
+    },
+    {
+      "number": 4,
+      "text": "Then sorrow will be ended,\nSoldiers of the jubilee;\nThen sorrow will be ended,\nSoldiers of the cross.\nRemember me, &c."
+    },
+    {
+      "number": 5,
+      "text": "We'll have a shout in glory,\nSoldiers of the jubilee;\nWe'll have a shout in glory,\nSoldiers of the cross.\nRemember me, &c."
+    }
+  ],
+  "chorus": {
+    "text": "Remember me while toiling here,\nSoldiers of the jubilee,\nRemember me while toiling here,\nSoldiers of the cross."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["religion", "soldiers", "jubilee", "cross", "kingdom", "preaching", "glory"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

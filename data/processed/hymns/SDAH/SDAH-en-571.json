@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-571",
+  "number": 571,
+  "title": "What Does the Lord Require?",
+  "author": "Albert Bayly",
+  "composer": "Erik Routley",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "What does the Lord require for praise and offering?\nWhat sacrifice, desire, or tribute bid you bring?\nDo justly; Love mercy; Walk humbly with your God."
+    },
+    {
+      "number": 2,
+      "text": "Rulers of men, give ear! Should you not justice show?\nWill God your pleading hear, while crime and cruelty grow?\nDo justly; Love mercy; Walk humbly with your God."
+    },
+    {
+      "number": 3,
+      "text": "How shall our life fulfill God's law so hard and high?\nLet Christ endue our will with grace to fortify.\nThen justly, in mercy, we'll humbly walk with God."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1969,
+    "copyright": "1969 Hope Publishing Co.",
+    "themes": ["justice", "mercy", "discipleship", "Micah 6:8"],
+    "scripture_references": ["Micah 6:8"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

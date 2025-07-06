@@ -1,0 +1,232 @@
+{
+  "id": "HT1886",
+  "title": "The Seventh-Day Adventist Hymn and Tune Book",
+  "language": "en",
+  "year": 1886,
+  "publisher": "The General Conference / Signs Publishing Company Limited",
+  "hymns": [
+    {
+      "number": 15,
+      "hymn_id": "HT1886-en-015",
+      "title": "Hendon",
+      "page": 10
+    },
+    {
+      "number": 16,
+      "hymn_id": "HT1886-en-016",
+      "title": "Lord Jesus, how lovely thou art",
+      "page": 10
+    },
+    {
+      "number": 17,
+      "hymn_id": "HT1886-en-017",
+      "title": "Gracious Father, lend thine ear",
+      "page": 10
+    },
+    {
+      "number": 18,
+      "hymn_id": "HT1886-en-018",
+      "title": "In thy house, while now we sing",
+      "page": 10
+    },
+    {
+      "number": 19,
+      "hymn_id": "HT1886-en-019",
+      "title": "Before Jehovah's awful throne",
+      "page": 11
+    },
+    {
+      "number": 20,
+      "hymn_id": "HT1886-en-020",
+      "title": "Servants of God, in joyful lays",
+      "page": 11
+    },
+    {
+      "number": 21,
+      "hymn_id": "HT1886-en-021",
+      "title": "Nature, with all her powers, shall sing",
+      "page": 11
+    },
+    {
+      "number": 22,
+      "hymn_id": "HT1886-en-022",
+      "title": "My God, my King, thy various praise",
+      "page": 11
+    },
+    {
+      "number": 23,
+      "hymn_id": "HT1886-en-023",
+      "title": "From all that dwell below the skies",
+      "page": 12
+    },
+    {
+      "number": 24,
+      "hymn_id": "HT1886-en-024",
+      "title": "Shout to Jehovah, in ancient time",
+      "page": 12
+    },
+    {
+      "number": 25,
+      "hymn_id": "HT1886-en-025",
+      "title": "Great God, attend while Zion sings",
+      "page": 12
+    },
+    {
+      "number": 26,
+      "hymn_id": "HT1886-en-026",
+      "title": "Eternal God, celestial King",
+      "page": 12
+    },
+    {
+      "number": 140,
+      "hymn_id": "HT1886-en-140",
+      "title": "O for a heart to praise my God",
+      "page": 51
+    },
+    {
+      "number": 141,
+      "hymn_id": "HT1886-en-141",
+      "title": "Come, Holy Spirit, heavenly guest",
+      "page": 51
+    },
+    {
+      "number": 142,
+      "hymn_id": "HT1886-en-142",
+      "title": "As when in silence vernal showers",
+      "page": 51
+    },
+    {
+      "number": 143,
+      "hymn_id": "HT1886-en-143",
+      "title": "O blessed Comforter, draw nigh",
+      "page": 51
+    },
+    {
+      "number": 304,
+      "hymn_id": "HT1886-en-304",
+      "title": "How can I forget-follow him",
+      "page": 100
+    },
+    {
+      "number": 305,
+      "hymn_id": "HT1886-en-305",
+      "title": "When the blind suppliant in the way",
+      "page": 100
+    },
+    {
+      "number": 306,
+      "hymn_id": "HT1886-en-306",
+      "title": "O wondrous type! O vision fair",
+      "page": 100
+    },
+    {
+      "number": 307,
+      "hymn_id": "HT1886-en-307",
+      "title": "How sweetly flowed the gospel sound",
+      "page": 100
+    },
+    {
+      "number": 466,
+      "hymn_id": "HT1886-en-466",
+      "title": "Jesus, full of all compassion",
+      "page": 150
+    },
+    {
+      "number": 467,
+      "hymn_id": "HT1886-en-467",
+      "title": "Ye who know your sins forgiven",
+      "page": 150
+    },
+    {
+      "number": 468,
+      "hymn_id": "HT1886-en-468",
+      "title": "Take my heart, O Father, take it",
+      "page": 150
+    },
+    {
+      "number": 616,
+      "hymn_id": "HT1886-en-616",
+      "title": "I'm a traveler here",
+      "page": 200
+    },
+    {
+      "number": 617,
+      "hymn_id": "HT1886-en-617",
+      "title": "Breast the wave, Christian",
+      "page": 200
+    },
+    {
+      "number": 770,
+      "hymn_id": "HT1886-en-770",
+      "title": "Keeper of my soul",
+      "page": 250
+    },
+    {
+      "number": 771,
+      "hymn_id": "HT1886-en-771",
+      "title": "Jesus, Lover of my soul",
+      "page": 250
+    },
+    {
+      "number": 899,
+      "hymn_id": "HT1886-en-899",
+      "title": "He's coming once again",
+      "page": 300
+    },
+    {
+      "number": 900,
+      "hymn_id": "HT1886-en-900",
+      "title": "Jesus, faithful to his word",
+      "page": 300
+    },
+    {
+      "number": 981,
+      "hymn_id": "HT1886-en-981",
+      "title": "Jerusalem, my happy home",
+      "page": 331
+    },
+    {
+      "number": 982,
+      "hymn_id": "HT1886-en-982",
+      "title": "Lo, what a glorious sight appears",
+      "page": 331
+    },
+    {
+      "number": 983,
+      "hymn_id": "HT1886-en-983",
+      "title": "Zion, the city of our God",
+      "page": 331
+    },
+    {
+      "number": 984,
+      "hymn_id": "HT1886-en-984",
+      "title": "O what hath Jesus bought for me",
+      "page": 331
+    }
+  ],
+  "metadata": {
+    "total_hymns": 33,
+    "languages": ["en"],
+    "themes": [
+      "worship", "prayer", "seeking God", "Jesus", "praise", "heaven",
+      "God's house", "God's sovereignty", "God's condescending grace",
+      "creation", "angels", "devotion", "universal praise",
+      "universal worship", "protection", "testimony", "heart",
+      "Holy Spirit", "healing", "nature", "blessing", "comfort",
+      "grace", "following Christ", "sacrifice", "sight",
+      "following Jesus", "transfiguration", "glory", "vision",
+      "gospel", "Jesus' teaching", "rest", "compassion", "salvation",
+      "repentance", "forgiveness", "sanctification", "promise",
+      "consecration", "surrender", "pilgrimage", "journey",
+      "Christian warfare", "perseverance", "refuge", "Second Advent",
+      "judgment", "return of Christ", "resurrection", "hope",
+      "Jerusalem", "longing", "New Jerusalem", "Second Coming",
+      "Zion", "city of God", "paradise"
+    ],
+    "publication_info": {
+      "publisher": "The General Conference / Signs Publishing Company Limited",
+      "place": "Melbourne, Victoria, Australia",
+      "isbn": null
+    }
+  }
+}

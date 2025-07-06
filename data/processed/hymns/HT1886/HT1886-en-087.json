@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-087",
+  "number": 87,
+  "title": "O Lamb, our heavenly King",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": "11, 236, 69",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Lamb, our heavenly King,\nThy name is all divine;\nThy glories round the earth are spread,\nAnd o'er the heavens they shine."
+    },
+    {
+      "number": 2,
+      "text": "Lord, what is worthless man,\nThat thou shouldst love him so?\nNext to thine angels he is placed,\nAnd lord of all below."
+    },
+    {
+      "number": 3,
+      "text": "How rich thy bounties are,\nAnd wondrous are thy ways!\nIn us let thy power frame\nA monument of praise!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ as Lamb", "God's name", "God's glory", "human dignity", "God's bounty"],
+    "scripture_references": [],
+    "tune_source": "11, 236, 69",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "HSAB-en-004",
+  "number": 4,
+  "title": "The Last Lovely Morning",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THE last lovely morning,\nAll blooming and fair,\nIs fast onward fleeting,\nAnd soon will appear,\nWhile the mighty, mighty, mighty, trump\nSounds \"Come, come away!\"\nO! let us be ready\nTo hail the glad day."
+    },
+    {
+      "number": 2,
+      "text": "And when that bright morning\nIn splendor shall dawn,\nOur tears will be ended,\nOur sorrows all gone.\nWhile the mighty, &c."
+    },
+    {
+      "number": 3,
+      "text": "The Bridegroom from glory\nTo earth shall descend;\nTen thousand bright angels\nAround him attend.\nWhile the mighty, &c."
+    },
+    {
+      "number": 4,
+      "text": "The graves will be open'd,\nThe dead will arise,\nAnd with the Redeemer\nMount up to the skies.\nWhile the mighty, &c."
+    },
+    {
+      "number": 5,
+      "text": "The saints then immortal,\nIn glory shall reign;\nThe Bride with the Bridegroom\nFor ever remain.\nWhile the mighty, &c."
+    }
+  ],
+  "chorus": {
+    "text": "While the mighty, mighty, mighty, trump\nSounds \"Come, come away!\"\nO! let us be ready\nTo hail the glad day."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["second advent", "trumpet", "resurrection", "morning", "glory"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

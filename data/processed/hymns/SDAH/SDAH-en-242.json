@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-242",
+  "number": 242,
+  "title": "Jesus, Thou Joy of Loving Hearts",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, Thou joy of loving hearts!\nThou fount of life! Thou light of men!\nFrom the best bliss that earth imparts,\nWe turn unfilled to Thee again."
+    },
+    {
+      "number": 2,
+      "text": "Thy truth unchanged has ever stood;\nThou savest those that on Thee call;\nTo them that seek Thee, Thou art good,\nTo them that find Thee, all in all."
+    },
+    {
+      "number": 3,
+      "text": "We taste Thee, O Thou living Bread,\nAnd long to feast upon Thee still;\nWe drink of Thee, the Fountain-head,\nAnd thirst our souls from Thee to fill."
+    },
+    {
+      "number": 4,
+      "text": "Our restless spirits yearn for Thee,\nWhere-e'er our changeful lot is cast;\nGlad, when Thy gracious smile we see,\nBlest, when our faith can hold Thee fast."
+    },
+    {
+      "number": 5,
+      "text": "O Jesus, ever with us stay;\nMake all our moments calm and bright;\nChase the dark night of sin away,\nShed o'er the world Thy holy light!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus Christ", "Joy", "Love", "Light", "Bread of Life"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

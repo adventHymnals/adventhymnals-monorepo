@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-063",
+  "number": 63,
+  "title": "O Come, Let Us Sing to the Lord",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "8 8 8 8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O come, let us sing to the Lord,\nCome let us every one\nA joyful noise make to the Rock\nOf our salvation."
+    },
+    {
+      "number": 2,
+      "text": "Let us before His presence come\nWith glad and thankful\nFor God, above all the gods,\nHe did make."
+    },
+    {
+      "number": 3,
+      "text": "For God, a great King,\nA bove all the sea\nTo Him, and kneel\nHe did make."
+    },
+    {
+      "number": 4,
+      "text": "To Him, for He\nFor He the sea\nAnd kneel\nMaker."
+    },
+    {
+      "number": 5,
+      "text": "O come, bow down and worship Him,\nHim, and\nto\nour"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": ["worship", "praise", "God as creator", "salvation"],
+    "scripture_references": ["Psalm 95"],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

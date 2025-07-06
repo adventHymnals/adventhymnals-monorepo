@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-361",
+  "number": 361,
+  "title": "Hark! 'Tis the Shepherd's Voice I Hear",
+  "author": "Benjamin R. Hanby",
+  "composer": "Benjamin R. Hanby",
+  "tune": "SHEPHERD'S VOICE",
+  "meter": "10.10.10.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! 'tis the Shepherd's voice I hear, out in the desert dark and drear,\nCalling the sheep who've gone astray, far from the Shepherd's fold away."
+    },
+    {
+      "number": 2,
+      "text": "Who'll go and help the Shepherd kind, help Him the wand'ring ones to find?\nWho'll bring them back into the fold, where they'll be sheltered from the cold?"
+    },
+    {
+      "number": 3,
+      "text": "Out in the desert hear their cry, out on the mountain wild and high;\nHark! 'tis the Master speaks to thee, \"Go, find My sheep wher-e'er they be.\""
+    }
+  ],
+  "chorus": {
+    "text": "Bring them in, bring them in, bring them in from the fields of sin;\nBring them in, bring them in, bring the wand'rers to Jesus."
+  },
+  "metadata": {
+    "year": 1866,
+    "copyright": "Public Domain",
+    "themes": ["Evangelism", "Lost Sheep", "Shepherd", "Mission"],
+    "scripture_references": ["Luke 15:3-7", "Matthew 18:12-14"],
+    "tune_source": "Benjamin R. Hanby, 1866",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-375",
+  "number": 375,
+  "title": "Work, for the Night Is Coming",
+  "author": "Anna L. Coghill",
+  "composer": "Lowell Mason",
+  "tune": "WORK SONG",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Work, for the night is coming, work through the morning hours;\nWork while the dew is sparkling, work 'mid springing flowers;
+Work while the day grows brighter, under the glowing sun;\nWork, for the night is coming, when man's work is done."
+    },
+    {
+      "number": 2,
+      "text": "Work, for the night is coming, work through the sunny noon;\nFill brightest hours with labor, rest comes sure and soon.
+Give every flying minute something to keep in store;\nWork, for the night is coming, when man works no more."
+    },
+    {
+      "number": 3,
+      "text": "Work, for the night is coming, under the sunset skies;\nWhile their bright tints are glowing, work, for daylight flies.
+Work till the last beam fadeth, fadeth to shine no more;\nWork, for the Lord is coming, when man's work is o'er."
+    }
+  ],
+  "metadata": {
+    "year": 1854,
+    "copyright": "Public Domain",
+    "themes": ["Work", "Diligence", "Time", "Opportunity"],
+    "scripture_references": ["John 9:4", "Ecclesiastes 9:10"],
+    "tune_source": "Lowell Mason, 1864",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "HT1886-en-118",
+  "number": 118,
+  "title": "How sweet the name of Jesus sounds",
+  "author": "John Newton",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How sweet the name of Jesus sounds\nIn a believer's ear!\nIt soothes his sorrows, heals his wounds,\nAnd drives away his fear."
+    },
+    {
+      "number": 2,
+      "text": "It makes the wounded spirit whole,\nAnd calms the troubled breast;\n'Tis manna to the hungry soul,\nAnd to the weary, rest."
+    },
+    {
+      "number": 3,
+      "text": "Dear name! the rock on which I build,\nMy shield and hiding-place!\nMy never-failing treasury, filled\nWith boundless stores of grace!"
+    },
+    {
+      "number": 4,
+      "text": "Jesus, my Shepherd, Guardian, Friend!\nMy Prophet, Priest, and King!\nFor all the blessings thou dost send,\nAccept the praise I bring."
+    },
+    {
+      "number": 5,
+      "text": "Weak is the effort of my heart,\nAnd cold my warmest thought;\nBut when I see thee as thou art,\nI'll praise thee as I ought."
+    },
+    {
+      "number": 6,
+      "text": "Till then I would thy love proclaim\nWith every fleeting breath;\nSo shall the music of thy name\nRefresh my soul in death."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus Christ", "name of Jesus", "comfort", "healing", "praise", "spiritual nourishment"],
+    "scripture_references": [],
+    "tune_source": "27, 187, 744",
+    "original_language": "en"
+  }
+}

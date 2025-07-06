@@ -1,0 +1,21 @@
+{
+  "id": "SDAH-en-664",
+  "number": 664,
+  "title": "Sevenfold Amen",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Amen, Amen, A-------men, A-------men, A-------men, A-------men, A-------men."
+    }
+  ],
+  "metadata": {
+    "themes": ["amen", "worship", "conclusion"],
+    "scripture_references": ["[to be determined]"],
+    "copyright": "Public Domain"
+  }
+}

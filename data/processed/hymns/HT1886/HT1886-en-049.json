@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-049",
+  "number": 49,
+  "title": "O thine, Lord, is wisdom, thine alone",
+  "author": null,
+  "composer": "Isaac Watts",
+  "tune": "707, 60, 57",
+  "meter": "707, 60, 57",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O thine, Lord, is wisdom, thine alone;\nJustice and truth before thee stand:\nYet, nearer to thy glorious throne\nMercy withholds thy lifted hand."
+    },
+    {
+      "number": 2,
+      "text": "Each evening shows thy tender love,\nEach rising morn thy plenteous grace;\nThy willing mercy flies above,\nThy willing mercy flies apace."
+    },
+    {
+      "number": 3,
+      "text": "To thy benign, indulgent care,\nFather, this light, this life, we owe;\nAnd all we have, and all we are,\nFrom thee, the Source of being, flow."
+    },
+    {
+      "number": 4,
+      "text": "Thrice holy! thine the kingdom is,\nThe power omnipotent is thine;\nAnd when created nature dies,\nThy never-ceasing glories shine."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's wisdom", "divine justice", "mercy", "God's love", "grace", "holiness"],
+    "scripture_references": [],
+    "tune_source": "Isaac Watts",
+    "original_language": "en"
+  }
+}

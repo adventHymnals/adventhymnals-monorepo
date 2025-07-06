@@ -1,0 +1,41 @@
+{
+  "id": "HSAB-en-114",
+  "number": 114,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THE God that made the earth,\nAnd all the worlds on high,\nWho gave all creatures birth,\nIn earth, and sea, and sky,\nAfter six days in work employed,\nUpon the seventh a rest enjoyed."
+    },
+    {
+      "number": 2,
+      "text": "The Sabbath day was blest,\nHallowed and sanctified;\nIt was Jehovah's rest,\nAnd so it must abide.\n'Twas set apart before the fall,\n'Twas made for man, 'twas made for all."
+    },
+    {
+      "number": 3,
+      "text": "And when from Sinai's mount,\nAmidst the fire and smoke,\nJehovah did recount,\nAnd all his precepts spoke,\nHe claimed the Rest-day as his own,\nAnd wrote it with his law, on stone."
+    },
+    {
+      "number": 4,
+      "text": "The Son of God appeared,\nWith tidings of great joy;\nGod's precepts he revered,\nHe came not to destroy;\nNone of the law was set aside,\nBut every tittle ratified."
+    },
+    {
+      "number": 5,
+      "text": "Our Saviour did not die\nTo render null and void,\nThe law of the Most High,\nWhich cannot be destroyed;\nBut bruised for us, our stripes he bore–\nWe'll go in peace and sin no more."
+    },
+    {
+      "number": 6,
+      "text": "Blessed are they that do\nThe Father's just commands;\nThey shall the City view,\nMade not by human hands;\nIts gates will open to the blest,\nAnd they will share that glorious rest."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "creation", "God's commandments", "Sinai", "divine law", "Jesus", "obedience"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

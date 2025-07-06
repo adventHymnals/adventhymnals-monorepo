@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-062",
+  "number": 62,
+  "title": "What Sound Is This",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WHAT sound is this salutes my ear?\n'Tis Gabriel's trump methinks I hear,\nThe expected day has come.\nBehold the heavens, the earth, the sea,\nProclaim the year of Jubilee,\nReturn, ye exiles, home."
+    },
+    {
+      "number": 2,
+      "text": "Behold; the fair Jerusalem,\nIlluminated by the Lamb;\nIn glory doth appear.\nFair Zion rising from the tombs,\nTo meet the Bridegroom, lo! He comes,\nAnd hails the festive year."
+    },
+    {
+      "number": 3,
+      "text": "My soul is striving to be there;\nI long to rise and wing the air,\nAnd trace the sacred road.\nAdieu, adieu, all earthly things;\nO, that I had an angel's wings.\nI'd quickly see my God."
+    },
+    {
+      "number": 4,
+      "text": "Fly, lingering moments, fly, O, fly!\nI thirst, I pant, I long to try,\nAngelic joys to prove!\nSoon shall I quit this house of clay,\nClap my glad wings and soar away,\nAnd shout redeeming love."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["gabriel's trump", "jubilee", "jerusalem", "zion", "bridegroom", "home"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

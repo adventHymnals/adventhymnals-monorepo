@@ -1,0 +1,33 @@
+{
+  "id": "HGPP-en-037",
+  "number": 37,
+  "title": "True Joys",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O tell me no more\nOf this world's vain store,\nThe time for such trifles\nWith me now is o'er."
+    },
+    {
+      "number": 2,
+      "text": "A city I've found\nWhere true joys abound;\nTo dwell I'm determin'd\nOn this happy ground."
+    },
+    {
+      "number": 3,
+      "text": "My soul, don't delay,\nHe calls thee away;\nRise, follow thy Saviour,\nAnd bless the glad day."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["true joy", "heavenly city", "forsaking worldly things", "following Jesus"],
+    "scripture_references": ["Matt 6:19-21", "Heb 11:16", "Luke 9:23"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

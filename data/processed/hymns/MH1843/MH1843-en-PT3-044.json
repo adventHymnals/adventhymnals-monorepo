@@ -1,0 +1,33 @@
+{
+  "id": "MH1843-en-PT3-044",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "044",
+  "title": "I Will Sing of Jesus' Love",
+  "verses": [
+    {
+      "number": "1",
+      "text": "I will sing (I will sing) of Jesus' love, Sing of Him (sing of Him) who first loved me; For He left (for He left) bright worlds above, And died on Calvary."
+    },
+    {
+      "number": "2", 
+      "text": "O the depths (O the depths) of love divine! Earth or heaven (earth or heaven) can never know How that sins (how that sins) as dark as mine Can be made as white as snow."
+    },
+    {
+      "number": "3",
+      "text": "Nothing good (nothing good) for Him I've done; How could He (how could He) such love bestow? Lord, I own (Lord, I own) my heart is won, Help me now my love to show."
+    }
+  ],
+  "refrain": {
+    "text": "I will sing of Jesus' love, Endless praise my heart shall give; He has died that I might live I will sing His love to me."
+  },
+  "meter": "",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 183,
+  "themes": ["Jesus", "Love", "Salvation", "Praise"],
+  "key_signature": "Bb",
+  "time_signature": "4/4"
+}

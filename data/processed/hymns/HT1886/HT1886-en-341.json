@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-341",
+  "number": 341,
+  "title": "Angels! roll the rock away",
+  "author": "Thomas Scott",
+  "composer": null,
+  "tune": "18, 97, 407.",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Angels! roll the rock away; Death! yield up thy mighty prey;\nSee! the Saviour leaves the tomb, Glowing with immortal bloom."
+    },
+    {
+      "number": 2,
+      "text": "Hark! the wondering angels raise Louder notes of joyful praise;\nLet the earth's remotest bound Echo with the blissful sound."
+    },
+    {
+      "number": 3,
+      "text": "Saints on earth lift up your eyes; Now to glory see him rise;\nIn long triumph through the sky, Up to waiting worlds on high."
+    },
+    {
+      "number": 4,
+      "text": "Heaven unfolds its portals wide! Mighty Conqueror! through them ride;\nKing of glory! mount thy throne, Boundless empire is thine own."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Resurrection and Ascension", "angels", "triumph", "glory", "victory"],
+    "scripture_references": [],
+    "tune_source": "18, 97, 407.",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-017",
+  "number": 17,
+  "title": "Gracious Father, lend thine ear",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Gracious Father, lend thine ear,\nDeign our humble songs to hear;\nPurer praise we hope to bring,\nWhen around thy throne we sing."
+    },
+    {
+      "number": 2,
+      "text": "While on earth ordained to stay,\nGuide our footsteps in thy way,\nTill we come to dwell with thee,\nTill we all thy glory see."
+    },
+    {
+      "number": 3,
+      "text": "Then, with angel-harps again,\nWe will wake a nobler strain;\nThere, in joyful songs of praise,\nOur triumphant voices raise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "praise", "heaven"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

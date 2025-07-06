@@ -1,0 +1,30 @@
+{
+  "id": "SAHB-en-011",
+  "number": 11,
+  "title": "Shout the glad tidings, exultingly sing",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Shout the glad tidings, exultingly sing,\nJerusalem triumphs, Messiah is King!\nZion, the marvelous story be telling,\nThe Son of the Highest, how lowly his birth;\nThe brightest archangel in glory excelling,\nHe stoops to redeem thee, he reigns upon earth."
+    },
+    {
+      "number": 2,
+      "text": "Tell how he cometh; from nation to nation,\nThe heart-cheering news let the earth echo round;\nHow free to the faithful he offers salvation,\nHis people with joy everlasting are crowned.\nShout the glad tidings, exultingly sing,\nJerusalem triumphs, Messiah is King!"
+    },
+    {
+      "number": 3,
+      "text": "Mortals, your homage be gratefully bringing,\nAnd sweet let the gladsome hosanna arise;\nYe angels, the full hallelujah be singing;\nOne chorus resound through the earth and the skies.\nShout the glad tidings, exultingly sing,\nJerusalem triumphs, Messiah is King!"
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["triumph", "Messiah", "Jerusalem", "glad tidings"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

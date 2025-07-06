@@ -1,0 +1,421 @@
+{
+  "extraction_date": "2025-07-05",
+  "total_hymns_processed": 857,
+  "total_content_extracted": 2,
+  "total_templates_created": 620,
+  "total_missing": 127,
+  "ranges": [
+    {
+      "range": "1-33",
+      "total": 33,
+      "existing": 33,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    },
+    {
+      "range": "34-36",
+      "total": 3,
+      "existing": 0,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 3,
+      "missing_list": [
+        34,
+        35,
+        36
+      ],
+      "coverage_percent": 0.0
+    },
+    {
+      "range": "37-162",
+      "total": 126,
+      "existing": 126,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    },
+    {
+      "range": "163-167",
+      "total": 5,
+      "existing": 0,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 5,
+      "missing_list": [
+        163,
+        164,
+        165,
+        166,
+        167
+      ],
+      "coverage_percent": 0.0
+    },
+    {
+      "range": "168-169",
+      "total": 2,
+      "existing": 1,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 1,
+      "missing_list": [
+        169
+      ],
+      "coverage_percent": 50.0
+    },
+    {
+      "range": "170-179",
+      "total": 10,
+      "existing": 1,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 9,
+      "missing_list": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179
+      ],
+      "coverage_percent": 10.0
+    },
+    {
+      "range": "180-191",
+      "total": 12,
+      "existing": 1,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 11,
+      "missing_list": [
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      "coverage_percent": 8.333333333333332
+    },
+    {
+      "range": "192-196",
+      "total": 5,
+      "existing": 1,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 4,
+      "missing_list": [
+        193,
+        194,
+        195,
+        196
+      ],
+      "coverage_percent": 20.0
+    },
+    {
+      "range": "197-199",
+      "total": 3,
+      "existing": 1,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 2,
+      "missing_list": [
+        198,
+        199
+      ],
+      "coverage_percent": 33.33333333333333
+    },
+    {
+      "range": "200-211",
+      "total": 12,
+      "existing": 1,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 11,
+      "missing_list": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211
+      ],
+      "coverage_percent": 8.333333333333332
+    },
+    {
+      "range": "212-218",
+      "total": 7,
+      "existing": 1,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 6,
+      "missing_list": [
+        213,
+        214,
+        215,
+        216,
+        217,
+        218
+      ],
+      "coverage_percent": 14.285714285714285
+    },
+    {
+      "range": "219-249",
+      "total": 31,
+      "existing": 26,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 5,
+      "missing_list": [
+        245,
+        246,
+        247,
+        248,
+        249
+      ],
+      "coverage_percent": 83.87096774193549
+    },
+    {
+      "range": "250-269",
+      "total": 20,
+      "existing": 1,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 19,
+      "missing_list": [
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269
+      ],
+      "coverage_percent": 5.0
+    },
+    {
+      "range": "270-279",
+      "total": 10,
+      "existing": 1,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 9,
+      "missing_list": [
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279
+      ],
+      "coverage_percent": 10.0
+    },
+    {
+      "range": "280-294",
+      "total": 15,
+      "existing": 1,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 14,
+      "missing_list": [
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294
+      ],
+      "coverage_percent": 6.666666666666667
+    },
+    {
+      "range": "295-321",
+      "total": 27,
+      "existing": 27,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    },
+    {
+      "range": "322-349",
+      "total": 28,
+      "existing": 0,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 28,
+      "missing_list": [
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349
+      ],
+      "coverage_percent": 0.0
+    },
+    {
+      "range": "350-465",
+      "total": 116,
+      "existing": 116,
+      "content_extracted": 1,
+      "templates_created": 115,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    },
+    {
+      "range": "466-468",
+      "total": 3,
+      "existing": 3,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    },
+    {
+      "range": "469-615",
+      "total": 147,
+      "existing": 147,
+      "content_extracted": 1,
+      "templates_created": 146,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    },
+    {
+      "range": "616-617",
+      "total": 2,
+      "existing": 2,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    },
+    {
+      "range": "618-769",
+      "total": 152,
+      "existing": 152,
+      "content_extracted": 0,
+      "templates_created": 152,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    },
+    {
+      "range": "770-771",
+      "total": 2,
+      "existing": 2,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    },
+    {
+      "range": "772-898",
+      "total": 127,
+      "existing": 127,
+      "content_extracted": 0,
+      "templates_created": 127,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    },
+    {
+      "range": "899-900",
+      "total": 2,
+      "existing": 2,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    },
+    {
+      "range": "901-980",
+      "total": 80,
+      "existing": 80,
+      "content_extracted": 0,
+      "templates_created": 80,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    },
+    {
+      "range": "981-984",
+      "total": 4,
+      "existing": 4,
+      "content_extracted": 0,
+      "templates_created": 0,
+      "missing": 0,
+      "missing_list": [],
+      "coverage_percent": 100.0
+    }
+  ],
+  "overall_coverage_percent": 87.09349593495935
+}

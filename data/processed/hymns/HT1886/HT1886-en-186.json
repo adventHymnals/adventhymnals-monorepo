@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-186",
+  "number": 186,
+  "title": "Hail, sacred truth! whose piercing rays",
+  "author": "John Bakewell",
+  "composer": "",
+  "tune": "",
+  "meter": "175, 120, 662",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hail, sacred truth! whose piercing rays\nDispel the shades of night;\nDiffusing o'er the mental world\nThe healing beams of light."
+    },
+    {
+      "number": 2,
+      "text": "Jesus, thy word, with friendly aid,\nRestores our wandering feet;\nConverts the sorrows of the mind\nTo joys divinely sweet.""
+    },
+    {
+      "number": 3,
+      "text": "O send thy light and truth abroad,\nIn all their glory bright;\nAnd bid the admiring world adore\nThe glories of thy grace."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["sacred truth", "divine light", "spiritual healing", "God's word", "restoration"],
+    "scripture_references": [],
+    "tune_source": "175, 120, 662",
+    "original_language": "en"
+  }
+}

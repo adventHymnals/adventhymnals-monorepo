@@ -1,0 +1,33 @@
+{
+  "id": "HGPP-en-035",
+  "number": 35,
+  "title": "Taking up the Cross",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, I my cross have taken,\nAll to leave and follow thee;\nAll things else I have forsaken;\nThou from hence my all shalt be.\nPerish every fond ambition,\nAll I've sought, or hop'd, or known;\nYet how rich is my condition,\nWhile I prove the Lord my own."
+    },
+    {
+      "number": 2,
+      "text": "Let the world despise and leave me,\nThey have left my Saviour too;\nHuman hearts and looks deceive me,\nThou art faithful, thou art true.\nO, 'tis not in grief to harm me,\nWhile thy love is left to me;\n0,'t were not in joy to charm me,\nIf that love be hid from me."
+    },
+    {
+      "number": 3,
+      "text": "Haste thee on from grace to glory,\nArm'd by faith, and wing'd by pray'r;\nHeaven's eternal day's before thee;\nGod's own hand shall guide thee there\nSoon shall close thy earthly mission,\nSoon shall pass thy pilgrim days;\nHope shall change to glad fruition,\nFaith to sight, and prayer to praise!"
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["cross bearing", "discipleship", "sacrifice", "faithful service", "eternal glory"],
+    "scripture_references": ["Matt 16:24", "Luke 9:23", "Gal 2:20"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

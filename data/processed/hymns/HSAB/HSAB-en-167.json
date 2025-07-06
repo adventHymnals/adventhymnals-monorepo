@@ -1,0 +1,40 @@
+{
+  "id": "HSAB-en-167",
+  "number": 31,
+  "title": "I WANT TO WEAR THE CROWN",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "ALTHOUGH I'm down in Egypt's land,\nI want to wear the crown;\nI hear about the promised land,\nI want to wear the crown."
+    },
+    {
+      "number": 2,
+      "text": "I know the time, I know the day,\nI want to wear the crown;\nWhen Jesus washed my sins away,\nI want to wear the crown, &c."
+    },
+    {
+      "number": 3,
+      "text": "I soon shall see him in the sky,\nI want to wear the crown;\nAnd then away to him I'll fly,\nI want to wear the crown, &c."
+    },
+    {
+      "number": 4,
+      "text": "If ever I reach the other shore,\nI want to wear the crown;\nI'll sing and shout for evermore,\nI want to wear the crown, &c."
+    },
+    {
+      "number": 5,
+      "text": "Our songs of praise shall fill the skies,\nI want to wear the crown;\nWhile higher still our joys they rise,\nI want to wear the crown, &c."
+    }
+  ],
+  "chorus": {
+    "text": "O my heart says, praise the Lord,\nMy heart says, praise the Lord,\nMy heart says, praise the Lord,\nI want to wear the crown."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["crown", "promised land", "Egypt", "salvation", "Second Coming", "praise", "joy"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

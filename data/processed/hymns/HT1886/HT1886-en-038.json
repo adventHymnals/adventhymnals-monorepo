@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-038",
+  "number": 38,
+  "title": "MAGNIFY Jehovah's name",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "240, 16, 273",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "MAGNIFY Jehovah's name;\nFor his mercies, ever the same,\nFrom eternity the same,\nTo eternity endure."
+    },
+    {
+      "number": 2,
+      "text": "Let his ransomed flock rejoice,\nGathered out of every land\nAs the people of his choice,\nPlucked from the destroyer's hand."
+    },
+    {
+      "number": 3,
+      "text": "To the Lord their cries they cry;\nHe inclines a gracious ear,\nSends deliverance from on high,\nRescues them from all their fear."
+    },
+    {
+      "number": 4,
+      "text": "O that men would praise the Lord\nFor his goodness to their race!\nFor the wonders of his word,\nAnd the riches of his grace!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "God's mercy", "deliverance", "God's goodness", "grace"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

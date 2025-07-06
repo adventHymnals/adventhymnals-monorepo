@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-327",
+  "number": 327,
+  "title": "In the Hour of Trial",
+  "author": "James Montgomery",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "8.5.8.3",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In the hour of trial,\nJesus, plead for me,\nLest by base denial\nI depart from Thee;\nWhen Thou seest me waver,\nWith a look recall,\nNor for fear or favor\nSuffer me to fall."
+    },
+    {
+      "number": 2,
+      "text": "With forbidden pleasures\nWould this vain world charm;\nOr its sordid treasures\nSpread to work me harm;\nBring to my remembrance\nSad Gethsemane,\nOr, in darker semblance,\nCross-crowned Calvary."
+    },
+    {
+      "number": 3,
+      "text": "Should Thy mercy send me\nSorrow, toil, and woe;\nOr should pain attend me\nOn my path below;\nGrant that I may never\nFail Thy hand to see;\nGrant that I may ever\nCast my care on Thee."
+    }
+  ],
+  "metadata": {
+    "year": 1834,
+    "copyright": "Public Domain",
+    "themes": ["trial", "temptation", "prayer", "dependence on God"],
+    "scripture_references": ["Luke 22:31-32", "1 Peter 5:7"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-462",
+  "number": 462,
+  "title": "Blessed Assurance, Jesus Is Mine!",
+  "author": "Fanny J. Crosby",
+  "composer": "Phoebe Palmer Knapp",
+  "tune": "ASSURANCE",
+  "meter": "9.10.9.9 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Blessed assurance, Jesus is mine!\nO what a foretaste of glory divine!\nHeir of salvation, purchase of God,\nBorn of His Spirit, washed in His blood."
+    },
+    {
+      "number": 2,
+      "text": "Perfect submission, perfect delight,\nVisions of rapture now burst on my sight;\nAngels descending bring from above\nEchoes of mercy, whispers of love."
+    },
+    {
+      "number": 3,
+      "text": "Perfect submission, all is at rest,\nI in my Savior am happy and blest,\nWatching and waiting, looking above,\nFilled with His goodness, lost in His love."
+    }
+  ],
+  "chorus": {
+    "text": "This is my story, this is my song,\nPraising my Savior all the day long;\nThis is my story, this is my song,\nPraising my Savior all the day long."
+  },
+  "metadata": {
+    "year": 1873,
+    "copyright": "Public Domain",
+    "themes": ["assurance", "salvation", "praise", "testimony", "joy"],
+    "scripture_references": ["Romans 8:16", "1 John 5:13", "Ephesians 1:14"],
+    "tune_source": "Phoebe Palmer Knapp",
+    "original_language": "en"
+  }
+}

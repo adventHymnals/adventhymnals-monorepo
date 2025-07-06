@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-074",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "074",
+  "title": "Welcome, sweet day of rest",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Welcome, sweet day of rest, That saw the Lord arise! Welcome to this reviving breast, And these rejoicing eyes!"
+    },
+    {
+      "number": "2",
+      "text": "The King himself comes near, And feasts his saints to-day; Here we may sit and see him here, And love, and praise, and pray."
+    },
+    {
+      "number": "3",
+      "text": "One day in such a place, Where thou, my God, art seen, Is sweeter than ten thousand days Of pleasurable sin."
+    },
+    {
+      "number": "4",
+      "text": "My willing soul would stay In such a frame as this, And sit and sing herself away To everlasting bliss."
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "S.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 213,
+  "themes": ["Rest", "Lord", "King", "Saints", "God", "Prayer", "Bliss"],
+  "key_signature": "",
+  "time_signature": ""
+}

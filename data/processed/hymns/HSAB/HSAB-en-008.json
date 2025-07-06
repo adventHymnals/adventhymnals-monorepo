@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-008",
+  "number": 8,
+  "title": "The Friend in Need",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THE friends that flee when trials come,\nAre not the friends for me;\nLike frighted birds, ah! see how soon\nTheir place will vacant be.\nBut there's a Friend I dearly love,\nWho for me left the realms above,\nAnd died upon the tree–\nOh! that's the Friend for me, &c."
+    },
+    {
+      "number": 2,
+      "text": "This world, with all its fleeting show,\nIs not the world for me;\n'Tis mix'd with many tears of woe,\nAnd scenes of misery.\nBut there's a world so pure and fair,\nAnd all the saints shall enter there,\nFrom sin and sorrow free–\nOh! I that's the world for me, &c."
+    },
+    {
+      "number": 3,
+      "text": "A City fair, for saints a home,\nFrom God is coming down;\nHis children rest, no more to roam,\nIn New Jerusalem.\nOh! Jesus come! come quickly! come!\nWe long to see our heavenly home\nOf immortality–\nOh! that's the home for me, &c."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["second advent", "friendship", "Jesus", "heavenly home", "New Jerusalem"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

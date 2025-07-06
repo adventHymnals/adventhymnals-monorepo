@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-041",
+  "number": 41,
+  "title": "O Splendor of God's Glory Bright",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O splendor of God's glory bright,\nFrom light eternal bringing light;\nO Light of life, light's living spring,\nTrue day, all days illumining."
+    },
+    {
+      "number": 2,
+      "text": "O Thou true Sun, on us Thy glance\nLet fall in royal radiance;\nThe Spirit's sanctifying beam\nUpon our earthly senses stream."
+    },
+    {
+      "number": 3,
+      "text": "O joyful be the passing day\nWith thoughts as clear as morning ray,\nWith faith like noontide shining bright,\nOur souls unshadowed by the night."
+    },
+    {
+      "number": 4,
+      "text": "Dawn's glory gilds the earth and skies;\nLet Him, our perfect morn, arise;\nThe Father's help His children claim,\nAnd sing the Father's glorious name."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["light", "glory", "morning", "praise"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

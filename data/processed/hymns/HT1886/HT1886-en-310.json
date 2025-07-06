@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-310",
+  "number": 310,
+  "title": "The chosen three, on mountain height",
+  "author": "David Hoskin",
+  "composer": null,
+  "tune": "686, 438, 446",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The chosen three, on mountain height,\nWhile Jesus bowed in prayer,\nBeheld his garments glow with light,\nHis face shine wondrous fair."
+    },
+    {
+      "number": 2,
+      "text": "And lo! with the transfigured Lord,\nLeader and guide they see;\nWith Carmel's fiery prophet stood\nThe giver of the law."
+    },
+    {
+      "number": 3,
+      "text": "From the low-bending cloud above,\nWhence radiant brightness shone,\nSpake out the Father's voice of love;\n\"Hear my beloved Son!\""
+    },
+    {
+      "number": 4,
+      "text": "Lord, lead us to the mountain height;\nTo prayer's transfiguring glow;\nAnd clothe us with the Spirit's might,\nFor grander work below."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Life and Character", "transfiguration", "prayer", "spiritual experience"],
+    "scripture_references": [],
+    "tune_source": "686, 438, 446",
+    "original_language": "en"
+  }
+}

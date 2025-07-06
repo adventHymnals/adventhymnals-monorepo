@@ -1,0 +1,33 @@
+{
+  "id": "HGPP-en-038",
+  "number": 38,
+  "title": "I Cannot Go Back",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "For Canaan I've started, and on I must go,\nTill all the bright glories of Eden I know;\nI've made no reserve, and I'm sure I'll not lack,\nWhile onward I journey and do not draw back."
+    },
+    {
+      "number": 2,
+      "text": "My soul is enkindled with rapture and love,\nI fain would ascend to my Jesus above;\nBut nay, I must follow in his humble track,\nAnd prove my obedience by not drawing back."
+    },
+    {
+      "number": 3,
+      "text": "Then on let us press, for Jesus is near,\nAnd strengthen each other with words of good cheer;\nWith zeal ever buoyant and courage ne'er slack,\nLet's be true to our King and never draw back."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["perseverance", "canaan", "commitment", "obedience", "not turning back"],
+    "scripture_references": ["Luke 9:62", "Phil 3:13-14", "Heb 10:38-39"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-132",
+  "number": 132,
+  "title": "Hark! ten thousand harps and voices",
+  "author": "Thomas Kelly",
+  "composer": "Lowell Mason",
+  "tune": "Harwell",
+  "meter": "8s & 7s D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! ten thousand harps and voices\nSound the note of praise above;\nJesus reigns, and heaven rejoices;\nJesus reigns, the God of love;\nSee, he sits on yonder throne;\nJesus rules the world alone.\nHallelujah! hallelujah!\nHallelujah! amen."
+    },
+    {
+      "number": 2,
+      "text": "Jesus, hail! whose glory brightens\nAll above, and gives it worth;\nLord of life, thy smile enlightens,\nCheers, and charms thy saints on earth.\nWhen we think of love like thine,\nLord, we own it love divine.\nHallelujah! hallelujah!\nHallelujah! amen."
+    },
+    {
+      "number": 3,
+      "text": "King of glory, reign forever,\nThine an everlasting crown;\nNothing from thy love shall sever\nThose whom thou hast call thine own;\nHappy objects of thy grace,\nDestined to behold thy face.\nHallelujah! hallelujah!\nHallelujah! amen."
+    },
+    {
+      "number": 4,
+      "text": "Saviour, hasten thine appearing;\nBring, O bring, the glorious day\nWhen, the awful summons hearing,\nHeaven and earth shall pass away!\nThen, with golden harps, we'll sing,\n\"Glory, glory to our King!\"\nHallelujah! hallelujah!\nHallelujah! amen."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "Jesus reigns", "heavenly worship", "King of glory", "second coming", "hallelujah"],
+    "scripture_references": ["Revelation 19:6", "1 Corinthians 15:25"],
+    "tune_source": "Lowell Mason",
+    "original_language": "en"
+  }
+}

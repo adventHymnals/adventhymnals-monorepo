@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-011",
+  "number": 11,
+  "title": "Jesus, we look to thee",
+  "author": null,
+  "composer": "George F. Handel",
+  "tune": "St. Thomas",
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, we look to thee,\nThy promised presence claim;\nThou in the midst of us shalt be,\nAssembled in thy name."
+    },
+    {
+      "number": 2,
+      "text": "Thy name salvation is,\nWhich here we come to prove;\nThy name is life, and health, and peace,\nAnd everlasting love."
+    },
+    {
+      "number": 3,
+      "text": "Not in the name of pride\nOr selfishness we meet;\nFrom nature's paths we turn aside,\nAnd worldly thoughts forget."
+    },
+    {
+      "number": 4,
+      "text": "We meet the grace to take\nWhich thou hast freely given;\nWe meet on earth for thy dear sake,\nThat we may meet in heaven."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus", "presence", "salvation", "grace", "heaven"],
+    "scripture_references": [],
+    "tune_source": "St. Thomas, George F. Handel",
+    "original_language": "en"
+  }
+}

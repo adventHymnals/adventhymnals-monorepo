@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-019",
+  "number": 19,
+  "title": "O Sing a New Song to the Lord",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O sing a new song to the Lord\nFor marvels He has done;\nHis right hand and His holy arm\nThe victory have won."
+    },
+    {
+      "number": 2,
+      "text": "With harp, with harp and voice of psalms\nUnto Jehovah sing;\nLet seas with all their creatures roar,\nThe world and dwellers there."
+    },
+    {
+      "number": 3,
+      "text": "Let all their hands, The world and all\nAnd let the rivers clap their hands,\nThe hills their joy declare."
+    },
+    {
+      "number": 4,
+      "text": "Before the Lord; because He comes,\nTo judge the earth comes He;\nHe'll judge the world with righteousness,\nHis folk with equity."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["new song", "victory", "judgment", "praise"],
+    "scripture_references": ["Psalm 98"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

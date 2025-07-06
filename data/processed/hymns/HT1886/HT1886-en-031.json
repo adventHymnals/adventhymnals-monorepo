@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-031",
+  "number": 31,
+  "title": "STAND up, and bless the Lord",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "60, 55, 691",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "STAND up, and bless the Lord,\nYe people of his choice;\nStand up, and bless the Lord your God,\nWith heart and soul and voice."
+    },
+    {
+      "number": 2,
+      "text": "Though high above all praise,\nAbove all blessing high,\nWho would not fear his holy name,\nAnd laud and magnify?"
+    },
+    {
+      "number": 3,
+      "text": "O for his love divine\nFrom his own altar brought,\nTo touch our lips, our souls inspire,\nAnd wing to heaven our thought!"
+    },
+    {
+      "number": 4,
+      "text": "God is our strength and song,\nAnd his salvation ours;\nThen be his love in Christ proclaimed\nWith all our ransomed powers."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "blessing", "worship", "salvation", "Christ"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

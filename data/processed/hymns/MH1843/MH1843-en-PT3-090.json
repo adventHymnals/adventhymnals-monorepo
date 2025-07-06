@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-090",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "090",
+  "title": "All Hail the Power of Jesus' Name",
+  "verses": [
+    {
+      "number": "1",
+      "text": "All hail the power of Jesus' name! Let angels prostrate fall; Bring forth the royal diadem, And crown Him Lord of all."
+    },
+    {
+      "number": "2",
+      "text": "Ye seed of Israel's chosen race, Ye ransomed of the fall, Hail Him who saves you by His grace, And crown Him Lord of all."
+    },
+    {
+      "number": "3",
+      "text": "Let every kindred, every tribe, On this terrestrial ball, To Him all majesty ascribe, And crown Him Lord of all."
+    },
+    {
+      "number": "4",
+      "text": "Oh, that with yonder sacred throng We at His feet may fall! We'll join the everlasting song, And crown Him Lord of all."
+    }
+  ],
+  "refrain": {
+    "text": "Bring forth the royal diadem, And crown Him Lord of all; Hail Him who saves you by His grace, And crown Him Lord of all; To Him all majesty ascribe, And crown Him Lord of all; We'll join the everlasting song, And crown Him Lord of all."
+  },
+  "meter": "C.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 229,
+  "themes": ["Jesus", "Name", "Power", "Angels", "Crown", "Lord", "King", "Grace"],
+  "key_signature": "",
+  "time_signature": ""
+}

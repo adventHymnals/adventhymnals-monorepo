@@ -1,0 +1,21 @@
+{
+  "hymnal_id": "SDAH",
+  "full_name": "Seventh-day Adventist Hymnal",
+  "language": "en",
+  "year": 1985,
+  "publisher": "Review and Herald Publishing Association",
+  "total_hymns": 695,
+  "total_images": 986,
+  "source_format": "png",
+  "image_quality": "high",
+  "source_location": "/home/brian/Code/AH/advent-hymnals-mono-repo/SDAHImages/docs/seventh-day-adventist-hymnal/",
+  "processing_status": {
+    "stage": "raw",
+    "imported_date": "2025-07-04",
+    "notes": "Images imported from SDAHImages directory - includes hymnal pages from 001-695 plus additional pages (indexes, covers, etc.)"
+  },
+  "file_naming_convention": {
+    "pattern": "XXX.png",
+    "description": "Three-digit hymn number with leading zeros, plus additional pages with various naming"
+  }
+}

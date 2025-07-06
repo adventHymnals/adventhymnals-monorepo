@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-229",
+  "number": 229,
+  "title": "All Hail the Power of Jesus' Name",
+  "author": "Edward Perronet",
+  "composer": "Oliver Holden",
+  "tune": "CORONATION",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All hail the power of Jesus' name!\nLet angels prostrate fall;\nBring forth the royal diadem,\nAnd crown Him Lord of all!"
+    },
+    {
+      "number": 2,
+      "text": "Ye seed of Israel's chosen race,\nYe ransomed of the fall,\nHail Him who saves you by His grace,\nAnd crown Him Lord of all!"
+    },
+    {
+      "number": 3,
+      "text": "Let every kindred, every tribe,\nOn this terrestrial ball,\nTo Him all majesty ascribe,\nAnd crown Him Lord of all!"
+    },
+    {
+      "number": 4,
+      "text": "Oh, that with yonder sacred throng\nWe at His feet may fall,\nJoin in the everlasting song,\nAnd crown Him Lord of all!"
+    }
+  ],
+  "metadata": {
+    "year": 1779,
+    "copyright": "Public Domain",
+    "themes": ["Kingship of Christ", "Crown", "Worship", "Universal Praise"],
+    "scripture_references": ["Philippians 2:9-11", "Revelation 19:16"],
+    "tune_source": "Oliver Holden, 1793",
+    "original_language": "en"
+  }
+}

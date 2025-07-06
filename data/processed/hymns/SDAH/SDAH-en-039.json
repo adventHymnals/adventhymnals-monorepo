@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-039",
+  "number": 39,
+  "title": "Lord, in the Morning",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "3/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, in the morning Thou shalt hear\nMy voice ascending high;\nTo Thee will I direct my prayer,\nTo Thee lift up mine eye."
+    },
+    {
+      "number": 2,
+      "text": "Up to the hills where Christ is gone\nTo plead for all His saints,\nPresenting at His Father's throne\nOur songs and our complaints."
+    },
+    {
+      "number": 3,
+      "text": "O may Thy Spirit guide my feet\nIn ways of righteousness,\nMake every path of duty straight\nAnd plain before my face."
+    },
+    {
+      "number": 4,
+      "text": "The men that love and fear Thy name\nShall see their hopes fulfilled;\nThe mighty God will compass them\nWith favor as a shield."
+    }
+  ],
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["morning prayer", "guidance", "trust", "protection"],
+    "scripture_references": ["Psalm 5"],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

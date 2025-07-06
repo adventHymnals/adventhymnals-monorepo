@@ -1,0 +1,33 @@
+{
+  "id": "CH1941-en-055",
+  "number": 55,
+  "title": "Now God Be With Us",
+  "author": "Petrus Herbert",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "8.8.8.8.8.8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Now God be with us, for the night is closing;\nThe light and darkness are of His disposing,\nAnd 'neath His shadow here to rest we yield us,\nFor He will shield us."
+    },
+    {
+      "number": 2,
+      "text": "Let evil thoughts and spirits flee before us;\nTill morning cometh, watch, O Master, o'er us;\nIn soul and body Thou from harm defend us,\nThine angels send us."
+    },
+    {
+      "number": 3,
+      "text": "Let holy thoughts be ours when sleep o'ertakes us;\nOur earliest thoughts be Thine when morning wakes us;\nAll day serve Thee, in work we do for others,\nAs sisters, brothers."
+    }
+  ],
+  "metadata": {
+    "year": 1566,
+    "copyright": "Public Domain",
+    "themes": ["evening", "protection", "service", "community"],
+    "scripture_references": ["Psalm 121:3-4", "Romans 12:10"],
+    "tune_source": "[needs verification]",
+    "original_language": "de",
+    "translator": "Frances Elizabeth Cox"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-297",
+  "number": 297,
+  "title": "Angels, from the realms of glory",
+  "author": null,
+  "composer": null,
+  "tune": "277, 92, 47",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Angels, from the realms of glory,\nWing your flight o'er all the earth;\nYe who sang creation's story,\nNow proclaim Messiah's birth."
+    },
+    {
+      "number": 2,
+      "text": "Shepherds in the field abiding,\nWatching o'er your flocks by night,\nGod with man is now residing,\nYonder shines the infant light."
+    },
+    {
+      "number": 3,
+      "text": "Sages, leave your contemplations,\nBrighter visions beam afar;\nSeek the great Desire of nations;\nYe have seen his natal star."
+    },
+    {
+      "number": 4,
+      "text": "Saints, before the altar bending,\nWatching long in hope and fear,\nSudenly the Lord, descending,\nIn his temple shall appear."
+    },
+    {
+      "number": 5,
+      "text": "Sinners, wrung with true repentance,\nCome with all your guilty stains;\nJustice now revokes the sentence,\nMercy calls you,—break your chains."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Christmas", "angels", "shepherds", "wise men", "salvation"],
+    "scripture_references": [],
+    "tune_source": "277, 92, 47",
+    "original_language": "en"
+  }
+}

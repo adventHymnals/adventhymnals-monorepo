@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-524",
+  "number": 524,
+  "title": "'Tis So Sweet to Trust in Jesus",
+  "author": "Louisa M. R. Stead",
+  "composer": "William J. Kirkpatrick",
+  "tune": "Trust in Jesus",
+  "meter": "8.7.8.7. with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'Tis so sweet to trust in Jesus,\nJust to take Him at His word;\nJust to rest upon His promise,\nJust to know, \"Thus saith the Lord.\""
+    },
+    {
+      "number": 2,
+      "text": "O how sweet to trust in Jesus,\nJust to trust His cleansing blood;\nJust in simple faith to plunge me\n'Neath the healing, cleansing flood."
+    },
+    {
+      "number": 3,
+      "text": "Yes, 'tis sweet to trust in Jesus,\nJust from sin and self to cease;\nJust from Jesus simply taking\nLife, and rest, and joy, and peace."
+    },
+    {
+      "number": 4,
+      "text": "I'm so glad I learned to trust Thee,\nPrecious Jesus, Savior, Friend;\nAnd I know that Thou art with me,\nWilt be with me till the end."
+    }
+  ],
+  "chorus": {
+    "text": "Jesus, Jesus, how I trust Him;\nHow I've proved Him o'er and o'er!\nJesus, Jesus, precious Jesus!\nO for grace to trust Him more!"
+  },
+  "metadata": {
+    "year": 1882,
+    "copyright": "Public Domain",
+    "themes": ["trust", "faith", "peace", "cleansing", "rest"],
+    "scripture_references": ["Psalm 37:3", "Proverbs 3:5-6"],
+    "tune_source": "William J. Kirkpatrick",
+    "original_language": "en"
+  }
+}

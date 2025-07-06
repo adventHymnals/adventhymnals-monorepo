@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-296",
+  "number": 296,
+  "title": "Hark! what mean those holy voices",
+  "author": null,
+  "composer": null,
+  "tune": "165, 584, 277",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! what mean those holy voices,\nSweetly warbling in the skies?\nAll the heavenly host rejoices,\nJesus' blessed hallelujahs rise."
+    },
+    {
+      "number": 2,
+      "text": "Listen to the wondrous story,\nWhich they chant in hymns of joy:\n\"Glory in the highest, glory;\nGlory be to God most high!\""
+    },
+    {
+      "number": 3,
+      "text": "Peace on earth, good-will from heaven,\nReaching by us may be found;\nSouls redeemed, and sins forgiven;\nLoud our golden harps shall sound."
+    },
+    {
+      "number": 4,
+      "text": "\"Christ is born, the great Anointed;\nHeaven and earth his glory sing;\nGlad receive whom God appointed,\nFor your Prophet, Priest, and King.\""
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Christmas", "angels", "glory", "peace", "salvation"],
+    "scripture_references": [],
+    "tune_source": "165, 584, 277",
+    "original_language": "en"
+  }
+}

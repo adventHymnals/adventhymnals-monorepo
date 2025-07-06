@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-007",
+  "number": 7,
+  "title": "The Lord in Zion Reigneth",
+  "author": "Michael Bruce",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The Lord in Zion reigneth,\nLet all the nations fear;\nHis justice and His mercy\nMake His dominion dear.\
+    },
+    {
+      "number": 2,
+      "text": "When He reveals His presence,\nThe mountains melt away,\nAnd justice, like a pillar,\nSupports His throne for aye."
+    },
+    {
+      "number": 3,
+      "text": "In Zion is His dwelling,\nHis rest for evermore;\nAnd there He sits in judgment\nAs He hath done before."
+    }
+  ],
+  "metadata": {
+    "year": 1781,
+    "copyright": "Public Domain",
+    "themes": ["God's reign", "justice", "Zion"],
+    "scripture_references": ["Psalm 97"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

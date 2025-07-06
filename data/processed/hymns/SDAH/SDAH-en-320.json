@@ -1,0 +1,34 @@
+{
+  "id": "SDAH-en-320",
+  "number": 320,
+  "title": "Lord of Creation",
+  "author": "Jack Copley Winslow",
+  "composer": "Cyril Vincent Taylor",
+  "tune": "SLANE",
+  "meter": "10.9.10.9",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord of creation, to You be all praise!\nMost mighty Your working, most wondrous Your ways!\nYour glory and might are beyond us to tell,\nAnd yet in the heart of the humble You dwell."
+    },
+    {
+      "number": 2,
+      "text": "Lord of all power, I give You my will,\nIn joyful obedience Your tasks to fulfill.\nYour bondage is freedom; Your service is song;\nAnd, held in Your keeping, my weakness is strong."
+    },
+    {
+      "number": 3,
+      "text": "Lord of all wisdom, I give You my mind,\nRich truth that surpasses man's knowledge to find;\nWhat eye has not seen and what ear has not heard\nIs taught by Your Spirit and shines from Your Word."
+    },
+    {
+      "number": 4,
+      "text": "Lord of all being, I give You my all;\nIf ever I disown You, I stumble and fall;\nBut led in Your service Your word to obey,\nI'll walk in Your freedom to the end of the way."
+    }
+  ],
+  "metadata": {
+    "themes": ["creation", "praise", "surrender"],
+    "scripture_references": ["Genesis 1:1", "Psalm 24:1"],
+    "tune_source": "Cyril Vincent Taylor",
+    "original_language": "en"
+  }
+}

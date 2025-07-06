@@ -1,0 +1,44 @@
+{
+  "id": "HSAB-en-067",
+  "number": 67,
+  "title": "I Long To See That Day",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O, HOW I long to see that day,\nWhen the redeemed shall come\nTo Zion clad in white array\nTheir blissful happy home."
+    },
+    {
+      "number": 2,
+      "text": "To hear the alleluias roll\nFrom the unnumbered throng;\nThe kingdom spread from pole to pole;\nAnd join redemption's song;"
+    },
+    {
+      "number": 3,
+      "text": "To see all Israel safe at home,\nSinging on Zion's height;\nAnd Jesus crowned upon his throne;\nCreation own his right."
+    },
+    {
+      "number": 4,
+      "text": "All hail! The morn of glory's nigh,\nThe pilgrim longs to see,\nThat dries the tear from every eye—\nCreation's Jubilee!"
+    },
+    {
+      "number": 5,
+      "text": "Jerusalem I long to see;\nBlest city of my King,\nAnd eat the fruit of Life's fair tree,\nAnd hear the blood-washed sing."
+    },
+    {
+      "number": 6,
+      "text": "My longing heart cries out, O, come!\nCreation groans for thee!\nThe weary pilgrim sighs, O, come!\nBring Immortality!"
+    }
+  ],
+  "chorus": {
+    "text": "O, bear me on, bear me on\nTo Mount Zion;\nThen bear me on to that City of love,\nWhere saints will ever dwell."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["redeemed", "zion", "alleluias", "israel safe", "jerusalem", "jubilee"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

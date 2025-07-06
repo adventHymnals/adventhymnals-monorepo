@@ -1,0 +1,40 @@
+{
+  "id": "CH1941-en-065",
+  "number": 65,
+  "title": "Prayer Is the Soul's Sincere Desire",
+  "author": "James Montgomery",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Prayer is the soul's sincere desire,\nUttered or unexpressed,\nThe motion of a hidden fire\nThat trembles in the breast."
+    },
+    {
+      "number": 2,
+      "text": "Prayer is the burden of a sigh,\nThe falling of a tear,\nThe upward glancing of an eye\nWhen none but God is near."
+    },
+    {
+      "number": 3,
+      "text": "Prayer is the simplest form of speech\nThat infant lips can try;\nPrayer, the sublimest strains that reach\nThe Majesty on high."
+    },
+    {
+      "number": 4,
+      "text": "Prayer is the Christian's vital breath,\nThe Christian's native air,\nHis watchword at the gates of death;\nHe enters heaven with prayer."
+    },
+    {
+      "number": 5,
+      "text": "O Thou by whom we come to God,\nThe Life, the Truth, the Way,\nThe path of prayer Thyself hast trod:\nLord, teach us how to pray."
+    }
+  ],
+  "metadata": {
+    "year": 1818,
+    "copyright": "Public Domain",
+    "themes": ["prayer", "communion with God", "Christian life", "devotion"],
+    "scripture_references": ["Romans 8:26", "Luke 11:1"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

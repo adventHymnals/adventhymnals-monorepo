@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-028",
+  "number": 28,
+  "title": "WHAT shall I render to my God",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "201, 7, 640",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WHAT shall I render to my God\nFor all his kindness shown?\nMy feet shall visit thine abode,\nMy vows shall be thy own."
+    },
+    {
+      "number": 2,
+      "text": "Among the saints who fill thy house\nMy offering shall be paid;\nThere shall my zeal perform the vows\nMy soul in anguish made."
+    },
+    {
+      "number": 3,
+      "text": "How much is mercy thy delight,\nThou ever-blessed God!\nHow dear thy servants in thy sight!\nHow precious is their blood!"
+    },
+    {
+      "number": 4,
+      "text": "How happy all thy servants are!\nHow great thy grace to me!\nMy life, which thou hast made thy care,\nLord, I devote to thee."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["gratitude", "devotion", "service", "God's mercy", "dedication"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

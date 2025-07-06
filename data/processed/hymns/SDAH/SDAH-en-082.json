@@ -1,0 +1,34 @@
+{
+  "id": "SDAH-en-082",
+  "number": 82,
+  "title": "Before Jehovah's Awful Throne",
+  "author": "Isaac Watts",
+  "composer": "William Croft",
+  "tune": "St. Anne",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Before Jehovah's awful throne,\nYe nations bow with sacred joy;\nKnow that the Lord is God alone,\nHe can create, and He destroy."
+    },
+    {
+      "number": 2,
+      "text": "His sovereign power, without our aid,\nMade us of clay, and formed us men;\nAnd when like wandering sheep we strayed,\nHe brought us to His fold again."
+    },
+    {
+      "number": 3,
+      "text": "We'll crowd His gates with thankful songs,\nHigh as the heavens our voices raise;\nAnd earth, with her ten thousand tongues,\nShall fill His courts with sounding praise."
+    },
+    {
+      "number": 4,
+      "text": "Wide as the world is Thy command,\nVast as eternity Thy love;\nFirm as a rock Thy truth shall stand,\nWhen rolling years shall cease to move."
+    }
+  ],
+  "metadata": {
+    "themes": ["Worship", "God's Sovereignty", "Creation", "Praise"],
+    "scripture_references": ["Psalm 100"],
+    "tune_source": "St. Anne",
+    "original_language": "en"
+  }
+}

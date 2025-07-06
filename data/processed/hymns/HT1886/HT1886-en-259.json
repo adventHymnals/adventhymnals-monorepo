@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-259",
+  "number": 259,
+  "title": "Now may the Lord, our Shepherd, lead",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Now may the Lord, our Shepherd, lead\nTo living streams his little flock;\nMay he in flowery pastures feed,\nAnd shade at noon beneath the rock."
+    },
+    {
+      "number": 2,
+      "text": "Now may we hear our Shepherd's voice,\nAnd gladly answer to his call;\nNow may our hearts in him rejoice\nWho knows, and names, and loves us all."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["shepherd", "guidance", "pastoral care", "divine love"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

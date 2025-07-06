@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-070",
+  "number": 70,
+  "title": "Holy Spirit, Faithful Guide",
+  "author": "Marcus Morris Wells",
+  "composer": "Marcus Morris Wells",
+  "tune": "Faithful Guide",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy Spirit, faithful Guide,\nEver near the Christian's side;\nGently lead us by the hand,\nPilgrims in a desert land;\nWeary souls fore'er rejoice,\nWhile they hear that sweetest voice,\nWhispering softly, 'Wanderer, come!\nFollow Me, I'll guide thee home.'"
+    },
+    {
+      "number": 2,
+      "text": "Ever present, truest Friend,\nEver near to help defend;\nLeave us not to doubt and fear,\nGroping on in darkness drear;\nWhen the storms are raging sore,\nHearts grow faint, and hopes give o'er,\nWhisper softly, 'Wanderer, come!\nFollow Me, I'll guide thee home.'"
+    },
+    {
+      "number": 3,
+      "text": "When our days of toil shall cease,\nWaiting still for sweet release,\nNothing left but heaven and prayer,\nWondering if our names are there;\nWading deep the dismal flood,\nPleading naught but Jesus' blood,\nWhisper softly, 'Wanderer, come!\nFollow Me, I'll guide thee home.'"
+    }
+  ],
+  "metadata": {
+    "year": 1858,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "guidance", "comfort", "pilgrimage"],
+    "scripture_references": ["John 16:13", "Romans 8:14"],
+    "tune_source": "Faithful Guide, Marcus Morris Wells, 1858",
+    "original_language": "en"
+  }
+}

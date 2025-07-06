@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-033",
+  "number": 33,
+  "title": "SING to the Lord, our Might",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "8, 538, 161",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "SING to the Lord, our Might,—\nWith holy fervor sing;\nLet hearts and instruments unite\nTo praise our heavenly King."
+    },
+    {
+      "number": 2,
+      "text": "As unto them of old,\nWho roamed this wilderness,\nOur God is still above his fold,\nTo pity and to bless."
+    },
+    {
+      "number": 3,
+      "text": "Then let us open wide\nOur hearts for that to shine;\nAnd he who Israel's steps did guide\nWill help his people shine."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "God's strength", "worship", "God's guidance", "blessing"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

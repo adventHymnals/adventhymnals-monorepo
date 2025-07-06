@@ -1,0 +1,36 @@
+{
+  "id": "HSAB-en-141",
+  "number": 141,
+  "title": "WAITING FOR JESUS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "LONG for my Saviour I've been waiting,\nLongtime have watched by night and day;\nFeared, lest my faith and hope abating,\nI should lose courage by the way."
+    },
+    {
+      "number": 2,
+      "text": "Here in this vale of sin and sorrow,\nI have been wandering many years;\nStill looking for that happy morrow,\nWhen God would wipe away my tears.\nJesus soon is coming, &c."
+    },
+    {
+      "number": 3,
+      "text": "Oft times the Tempter comes in power,\nFain then would lead my steps astray;\nBut when the clouds begin to lower,\nHope turns the darkness into day.\nJesus soon is coming, &c."
+    },
+    {
+      "number": 4,
+      "text": "O, it will be but little longer,\nI must these many woes endure;\nThen let my faith and hope grow stronger,\nMy Father's promise still is sure.\nJesus soon is coming, &c."
+    }
+  ],
+  "chorus": {
+    "text": "Jesus soon is coming;\nThis is my song—\nCheers the heart when joys depart,\nAnd foes are pressing strong."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["waiting", "Jesus", "Second Coming", "hope", "faith", "perseverance"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

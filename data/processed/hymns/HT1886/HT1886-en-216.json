@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-216",
+  "number": 216,
+  "title": "Blest hour, when mortal man retires",
+  "author": "Thomas Raffles",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Blest hour, when mortal man retires\nTo hold communion with his God,\nTo send to heaven his warm desires,\nAnd listen to the sacred word."
+    },
+    {
+      "number": 2,
+      "text": "Blest hour, when earthly cares resign\nTheir empire o'er the anxious breast;\nWhile all around, the calm divine\nProclaims the holy day of rest."
+    },
+    {
+      "number": 3,
+      "text": "Blest hour, when God himself draws nigh,\nWell pleased his people's voice to hear,\nTo hush the penitential sigh,\nAnd wipe away the mourner's tear."
+    },
+    {
+      "number": 4,
+      "text": "Blest hour! for, where the Lord resorts,\nForetastes of future bliss are given;\nAnd mortals find his earthly courts\nThe house of God, the gate of heaven."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "communion with God", "Sabbath rest", "divine presence", "heaven"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

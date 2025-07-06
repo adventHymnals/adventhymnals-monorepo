@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-092",
+  "number": 92,
+  "title": "HOLINESS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "SO let our lips and lives express\nThe holy gospel we profess;\nSo let our works and virtues shine,\nTo prove the doctrine all divine."
+    },
+    {
+      "number": 2,
+      "text": "Thus shall we best proclaim abroad\nThe honors of our gracious Lord,\nWhen the salvation reigns within,\nAnd grace subdues the power of sin."
+    },
+    {
+      "number": 3,
+      "text": "Our flesh and sense must be denied,\nPassion and envy, lust and pride;\nWhile justice, temperance, truth and love,\nOur inward piety approve."
+    },
+    {
+      "number": 4,
+      "text": "Religion bears our spirits up,\nWhile we expect that blessed hope,\nThe bright appearance of the Lord;\nAnd faith stands leaning on his Word."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["holiness", "Christian living", "doctrine", "salvation", "faith"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

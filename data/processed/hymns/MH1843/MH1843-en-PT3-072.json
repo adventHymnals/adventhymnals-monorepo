@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-072",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "072",
+  "title": "Sweet is the work, my God, my King",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Sweet is the work, my God, my King, To praise thy name, give thanks, and sing! To show thy love by morning light, And talk of all thy truth by night."
+    },
+    {
+      "number": "2",
+      "text": "Sweet is the day of sacred rest; No mortal cares shall seize my breast; O may my heart in tune be found, Like David's harp of solemn sound!"
+    },
+    {
+      "number": "3",
+      "text": "When grace has purified my heart, Then I shall share a glorious part; And fresh supplies of joy are shed, Like holy oil, to cheer my head."
+    },
+    {
+      "number": "4",
+      "text": "Then shall I see, and hear, and know, All I desired or wished below; And every hour find sweet employ, In that eternal world of joy."
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "L.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 212,
+  "themes": ["Work", "God", "King", "Praise", "Love", "Rest", "Grace", "Joy"],
+  "key_signature": "",
+  "time_signature": ""
+}

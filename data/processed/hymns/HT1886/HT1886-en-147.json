@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-147",
+  "number": 147,
+  "title": "Our blest Redeemer, ere he breathed",
+  "author": "Harriet Auber",
+  "composer": "Samuel Webbe",
+  "tune": "Belmont",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Our blest Redeemer, ere he breathed\nHis tender, last farewell,\nA guide, a Comforter, bequeathed,\nWith us on earth to dwell."
+    },
+    {
+      "number": 2,
+      "text": "He came in tongues of living flame,\nTo teach, convince, subdue;\nAll-powerful as the wind he came,\nAnd all as spotless, too."
+    },
+    {
+      "number": 3,
+      "text": "He comes sweet influence to impart,\nA gracious, willing guest,\nWhile he can find one humble heart\nWherein to fix his rest."
+    },
+    {
+      "number": 4,
+      "text": "And his that gentle voice we hear,\nSoft as the breath of even,\nThat checks each fault, calms every fear,\nAnd speaks of heaven."
+    },
+    {
+      "number": 5,
+      "text": "And every virtue we possess,\nAnd every conquest won,\nAnd every thought of holiness\nIs his, and his alone."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "Comforter", "divine guidance", "spiritual influence", "holiness"],
+    "scripture_references": [],
+    "tune_source": "Belmont, Samuel Webbe",
+    "original_language": "en"
+  }
+}

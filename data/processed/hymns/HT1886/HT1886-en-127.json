@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-127",
+  "number": 127,
+  "title": "Come, all ye saints of God, Wide thro' the earth abroad",
+  "author": "James Borden",
+  "composer": "Felice Giardini",
+  "tune": "Italy",
+  "meter": "6s & 4s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, all ye saints of God,\nWide thro' the earth abroad\nSpread Jesus' fame;\nTell what his love hath done,\nTrust in his name alone,\nHe is the lofty One,\nWorthy the Lamb!"
+    },
+    {
+      "number": 2,
+      "text": "Hence, gloomy doubts and fears!\nDry all your mournful tears,\nSwell the glad name;\nTo Christ, our gracious King,\nStrike each melodious string,\nJoin heart and voice to sing,\nWorthy the Lamb!"
+    },
+    {
+      "number": 3,
+      "text": "Hark! how the choirs above,\nFilled with the Saviour's love,\nDwell on his name.\nThere, too, may we be found,\nWith light and glory crowned,\nWhile all the heavens resound,\nWorthy the Lamb!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "praise", "Jesus Christ", "worthy the Lamb", "testimony", "heavenly choir"],
+    "scripture_references": ["Revelation 5:12"],
+    "tune_source": "Felice Giardini",
+    "original_language": "en"
+  }
+}

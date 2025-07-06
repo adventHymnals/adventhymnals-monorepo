@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-285",
+  "number": 285,
+  "title": "Wake! O my soul, and hail the morn",
+  "author": "Anon",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Wake! O my soul, and hail the morn;\nFor unto us a Saviour's born!\nSee how the angels wing their way\nTo usher in the glorious day!"
+    },
+    {
+      "number": 2,
+      "text": "Hark! what sweet music! what a song\nSounds from the bright, celestial throng!\nSweet song, whose melting strains impart\nJoy to each raptured, listening heart."
+    },
+    {
+      "number": 3,
+      "text": "Come, join the angels as they cry,\nGlory to God who reigns on high;\nLet peace and love on earth abound,\nWhile spheres revolve and years roll round!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "First Advent", "Christmas", "angels", "celebration"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

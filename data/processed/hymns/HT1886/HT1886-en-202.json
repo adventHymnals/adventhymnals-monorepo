@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-202",
+  "number": 202,
+  "title": "Thou art my portion, O my God",
+  "author": "Isaac Watts",
+  "composer": "",
+  "tune": "",
+  "meter": "114, 396, 70",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thou art my portion, O my God!\nSoon as I know thy way,\nMy heart makes haste to thy word,\nAnd suffers no delay."
+    },
+    {
+      "number": 2,
+      "text": "I choose the path of heavenly truth,\nAnd glory in my choice;\nNot all the riches of the earth\nCould make me so rejoice."
+    },
+    {
+      "number": 3,
+      "text": "The testimonies of thy grace\nI set before mine eyes;\nThence I derive my daily strength,\nAnd there my comfort lies."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God as portion", "choosing truth", "spiritual joy", "divine testimonies", "daily strength"],
+    "scripture_references": [],
+    "tune_source": "114, 396, 70",
+    "original_language": "en"
+  }
+}

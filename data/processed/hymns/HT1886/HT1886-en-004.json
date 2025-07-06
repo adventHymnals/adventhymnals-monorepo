@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-004",
+  "number": 4,
+  "title": "LORD, grant thy blessing here to-day",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "47, 64, 86",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "LORD, grant thy blessing here to-day;\nO give thy people joy and peace!\nThe tokens of thy love display,\nAnd favor that shall never cease."
+    },
+    {
+      "number": 2,
+      "text": "We seek the truth which Jesus brought;\nHis path of righteousness we long to tread;\nMay here his holy word be taught,\nAnd here the purest influence shed."
+    },
+    {
+      "number": 3,
+      "text": "May faith and hope and love abound,\nThat we may gladly cleave to thee;\nAnd we, from day to day, be found\nChildren of God and heirs of heaven."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["blessing", "peace", "Jesus", "righteousness", "faith"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

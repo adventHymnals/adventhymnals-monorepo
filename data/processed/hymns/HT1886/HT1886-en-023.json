@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-023",
+  "number": 23,
+  "title": "From all that dwell below the skies",
+  "author": null,
+  "composer": "Orlando Gibbons",
+  "tune": "Angels",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "From all that dwell below the skies\nLet the Creator's praise arise;\nLet his almighty name be sung,\nThrough every land, by every tongue."
+    },
+    {
+      "number": 2,
+      "text": "Eternal are thy mercies, Lord,\nEternal truth attends thy word;\nThy praise shall sound from shore to shore,\nTill suns shall rise and set no more."
+    },
+    {
+      "number": 3,
+      "text": "Your lofty themes, ye mortals, bring,\nIn songs of praise divinely sing;\nGod's great salvation loud proclaim,\nAnd shout for joy his glorious name."
+    },
+    {
+      "number": 4,
+      "text": "In every land begin the song,\nTo every land the strains belong;\nIn cheerful sounds all voices raise,\nAnd fill the world with loudest praise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "praise", "universal praise"],
+    "scripture_references": ["Psalm 117"],
+    "tune_source": "Angels, Orlando Gibbons",
+    "original_language": "en"
+  }
+}

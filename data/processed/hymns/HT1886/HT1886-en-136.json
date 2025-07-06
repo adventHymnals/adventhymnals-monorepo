@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-136",
+  "number": 136,
+  "title": "Come, gracious Spirit, heavenly Dove",
+  "author": "Simon Browne",
+  "composer": "George Kingsley",
+  "tune": "Ware",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, gracious Spirit, heavenly Dove,\nWith light and comfort from above;\nBe thou our guardian, thou our guide;\nO'er all our thoughts and steps preside."
+    },
+    {
+      "number": 2,
+      "text": "To us the light of truth display,\nAnd make us know and choose thy way;\nPlant holy fear in every heart,\nThat we from God may ne'er depart."
+    },
+    {
+      "number": 3,
+      "text": "Lead us to holiness,—the road\nThat we must take to dwell with God;\nLead us to Christ, the living way,\nNor let us from his precepts stray."
+    },
+    {
+      "number": 4,
+      "text": "Lead us to God, our final rest,\nTo be with him forever blest;\nLead us to heaven, its bliss to share—\nFullness of joy forever there."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "guidance", "truth", "holiness", "heaven", "divine light"],
+    "scripture_references": ["John 16:13", "John 14:6"],
+    "tune_source": "George Kingsley",
+    "original_language": "en"
+  }
+}

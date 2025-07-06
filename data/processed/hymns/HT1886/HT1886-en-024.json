@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-024",
+  "number": 24,
+  "title": "Shout to Jehovah, in ancient time",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Shout to Jehovah, in ancient time,\nThe psalmist's sacred harp was strung,\nWhose blessed sound in songs sublime,\nAnd prophets praised with glowing tongue."
+    },
+    {
+      "number": 2,
+      "text": "Not now on Zion's high alone\nThy favored worshipers may dwell,\nNor where, at sultry noon, thy Son\nSat weary by the patriarch's well."
+    },
+    {
+      "number": 3,
+      "text": "From every place below the skies,\nThe grateful song, the fervent prayer—\nThe incense of the heart—may rise\nTo heaven, and find acceptance there."
+    },
+    {
+      "number": 4,
+      "text": "To thee shall age, with snowy hair,\nAnd strength, and beauty, bend the knee,\nAnd childhood lisp with reverent air\nIts praises and its prayers to thee."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "praise", "universal worship"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

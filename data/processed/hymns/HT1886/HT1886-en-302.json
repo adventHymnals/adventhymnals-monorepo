@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-302",
+  "number": 302,
+  "title": "How wondrous were the marks divine",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": "168, 229, 542",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How wondrous were the marks divine\nThat in thy meekness used to shine,\nThat lit thy path, O Son of God!\nThe lonely path thy feet have trod."
+    },
+    {
+      "number": 2,
+      "text": "O Jesus, who like thee so meek, so mild,\nSo patient, pure, and undefiled?\nO Jesus, who like thee did ever go\nSo sinless through a world of woe?"
+    },
+    {
+      "number": 3,
+      "text": "Oh, who like thee so humbly bore\nThe scorn, the scoffs of men, before?\nSo meek, so lowly, yet so high,\nSo glorious in humility?"
+    },
+    {
+      "number": 4,
+      "text": "A suffering by thee was led;\nThou hadst not where to lay thy head;\nAnd since, O Lord, 't was all for me,\nShall I not gladly follow thee?"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Life and Character", "meekness", "humility", "following Christ"],
+    "scripture_references": [],
+    "tune_source": "168, 229, 542",
+    "original_language": "en"
+  }
+}

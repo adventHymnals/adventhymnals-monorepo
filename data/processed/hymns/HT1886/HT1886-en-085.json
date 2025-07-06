@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-085",
+  "number": 85,
+  "title": "My Maker and my King",
+  "author": "Anne Steele",
+  "composer": null,
+  "tune": "El Kader",
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My Maker and my King,\nTo thee my all I owe;\nThy sovereign bounty is the spring\nWhence all my blessings flow."
+    },
+    {
+      "number": 2,
+      "text": "The creature of thy hand,\nOn thee alone I live;\nMy God, thy benefits demand\nMore praise than I can give."
+    },
+    {
+      "number": 3,
+      "text": "Lord, what can I impart\nWhen all is thine before?\nThy love demands a thankful heart;\nThe gift, alas! how poor."
+    },
+    {
+      "number": 4,
+      "text": "O! let thy grace inspire\nMy soul with strength divine;\nLet every word and each desire\nAnd all my days be thine."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God as creator", "God's sovereignty", "gratitude", "God's grace", "dedication"],
+    "scripture_references": [],
+    "tune_source": "El Kader",
+    "original_language": "en"
+  }
+}

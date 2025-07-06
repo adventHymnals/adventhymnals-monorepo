@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-027",
+  "number": 27,
+  "title": "Farewell",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Be perfect—holiness persue;\nIn love be sure to dwell,\nAnd God through Christ will comfort you,\nSo brethren all farewell."
+    },
+    {
+      "number": 2,
+      "text": "Be of one mind—give God your hearts;\nAnd of his mercies tell,\nWhich he, through grace, to you imparts,\nSo brethren all farewell."
+    },
+    {
+      "number": 3,
+      "text": "Now live in peace and holy fear\nIn love strive to excel;\nFor Christ our King will soon appear,\nSo brethren all farewell."
+    },
+    {
+      "number": 4,
+      "text": "The God of love and peace adore,\nAnd on his mercy dwell,\nWe hope to meet on Canaan's shore,\nSo brethren all farewell."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["farewell", "holiness", "unity", "peace", "second coming"],
+    "scripture_references": ["2 Cor 13:11", "1 Pet 1:15-16", "Phil 2:2"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

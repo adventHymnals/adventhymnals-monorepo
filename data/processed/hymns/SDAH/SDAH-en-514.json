@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-514",
+  "number": 514,
+  "title": "Lord of Our Life",
+  "author": "Matthäus Apelles von Löwenstern",
+  "composer": "Johannes Brahms",
+  "tune": "Charterhouse",
+  "meter": "6.6.6.6.4.4.4.4.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord of our life, and God of our salvation,\nStar of our night, and hope of every nation,\nHear and receive Thy church's supplication,\nLord God Almighty."
+    },
+    {
+      "number": 2,
+      "text": "Lord, Thou canst help when earthly armor faileth,\nLord, Thou canst save when deadly sin assaileth,\nLord, o'er Thy rock nor death nor hell prevaileth,\nGrant us Thy peace, Lord."
+    },
+    {
+      "number": 3,
+      "text": "Peace in our hearts, our evil thoughts assuaging,\nPeace in Thy church, where brothers are engaging,\nPeace when the world its busy war is waging,\nSend us, O Savior."
+    },
+    {
+      "number": 4,
+      "text": "Grant us Thy help till backward they are driven,\nGrant them Thy truth that they may be forgiven,\nGrant peace on earth, and, after we have striven,\nPeace in Thy heaven."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1644,
+    "copyright": "Public Domain",
+    "themes": ["prayer", "protection", "church", "peace", "salvation"],
+    "scripture_references": ["Psalm 20", "Ephesians 6:10-18"],
+    "tune_source": "Johannes Brahms",
+    "original_language": "de"
+  }
+}

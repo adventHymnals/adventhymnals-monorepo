@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-031",
+  "number": 31,
+  "title": "Eternal Father, God of Love",
+  "author": "Ray Palmer",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Eternal Father, God of love,\nWhose power extends to all above,\nWhose love beyond all knowledge is,\nWhose truth shall make the bondsman free."
+    },
+    {
+      "number": 2,
+      "text": "We come before Thy throne of grace,\nIn Jesus' name we seek Thy face;\nWe plead the promise of Thy word,\nThat every prayer in faith is heard."
+    },
+    {
+      "number": 3,
+      "text": "For all the blessings of the light,\nFor rest and shelter of the night,\nFor health and food, for love and friends,\nFor everything Thy goodness sends."
+    },
+    {
+      "number": 4,
+      "text": "Forgive the sins we have confessed,\nOn Jesus cast our every care;\nWe ask not gold or worldly rest,\nBut let Thy love our spirits cheer."
+    }
+  ],
+  "metadata": {
+    "year": 1858,
+    "copyright": "Public Domain",
+    "themes": ["prayer", "God's love", "thanksgiving", "forgiveness"],
+    "scripture_references": ["1 John 4:8", "Ephesians 3:19"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

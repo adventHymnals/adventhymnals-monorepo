@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-076",
+  "number": 76,
+  "title": "The God of Abraham Praise",
+  "author": "Thomas Olivers",
+  "composer": "Meyer Lyon",
+  "tune": "Leoni",
+  "meter": "6.6.8.4.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The God of Abraham praise,\nWho reigns enthroned above;\nAncient of everlasting days,\nAnd God of love;\nJehovah, great I AM!\nBy earth and heaven confessed;\nI bow and bless the sacred name\nForever blessed."
+    },
+    {
+      "number": 2,
+      "text": "The God of Abraham praise,\nAt whose supreme command\nFrom earth I rise—and seek the joys\nAt His right hand;\nI all on earth forsake,\nIts wisdom, fame, and power;\nAnd Him my only portion make,\nMy shield and tower."
+    },
+    {
+      "number": 3,
+      "text": "He by Himself has sworn;\nI on His oath depend,\nI shall, on eagle wings upborne,\nTo heaven ascend.\nI shall behold His face;\nI shall His power adore,\nAnd sing the wonders of His grace\nForevermore."
+    },
+    {
+      "number": 4,
+      "text": "There dwells the Lord our King,\nThe Lord our righteousness,\nTriumphant o'er the world and sin,\nThe Prince of Peace;\nOn Sion's sacred height\nHis kingdom still maintains,\nAnd glorious with His saints in light\nForever reigns."
+    }
+  ],
+  "metadata": {
+    "year": 1770,
+    "copyright": "Public Domain",
+    "themes": ["Abraham", "covenant", "praise", "eternal reign"],
+    "scripture_references": ["Genesis 17:1", "Exodus 3:14"],
+    "tune_source": "Leoni, Meyer Lyon, 1770",
+    "original_language": "en"
+  }
+}

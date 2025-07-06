@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-253",
+  "number": 253,
+  "title": "There's No Other Name Like Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There's no other name like Jesus,\n'Tis the dearest name we know,\n'Tis the angel's joy in heaven,\n'Tis the Christian's joy below."
+    },
+    {
+      "number": 2,
+      "text": "There's no other name like Jesus\nWhen the heart with grief is sad,\nThere's no other name like Jesus\nWhen the heart is free and glad."
+    },
+    {
+      "number": 3,
+      "text": "'Tis the hope that I shall see Him\nWhen in glory He appears,\n'Tis the hope to hear His welcome\nThat my fainting spirit cheers."
+    },
+    {
+      "number": 4,
+      "text": "If He wills that I should labor\nIn His vineyard day by day,\nThen 'tis well if only Jesus\nBlesses all I do or say."
+    },
+    {
+      "number": 5,
+      "text": "If He wills that death's cold finger\nTouch my feeble, mortal clay,\nThen 'tis well if only Jesus\nIs my dying trust and stay."
+    }
+  ],
+  "chorus": {
+    "text": "Sweet name, dear name,\nThere's no other name like Jesus; Sweet name,\nDear name, There's no other name like Jesus."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Name of Jesus", "Sweet Name", "Joy", "Hope", "Trust"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

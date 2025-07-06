@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-512",
+  "number": 512,
+  "title": "Just When I Need Him Most",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Just when I need Him, Jesus is near, Just when I falter, just when I fear;\nReady to help me, ready to cheer, Just when I need Him most."
+    },
+    {
+      "number": 2,
+      "text": "Just when I need Him, Jesus is true, Never forsaking, all the way through;\nGiving for burdens pleasures anew, Just when I need Him most."
+    },
+    {
+      "number": 3,
+      "text": "Just when I need Him, Jesus is strong, Bearing my burdens all the day long;\nFor all my sorrow giving a song, Just when I need Him most."
+    },
+    {
+      "number": 4,
+      "text": "Just when I need Him, He is my all, Answering when upon Him I call;\nTenderly watching lest I should fall, Just when I need Him most."
+    }
+  ],
+  "chorus": {
+    "text": "Just when I need Him most, Just when I need Him most;\nJesus is near to comfort and cheer, Just when I need Him most."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus", "comfort", "timing", "faithfulness"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

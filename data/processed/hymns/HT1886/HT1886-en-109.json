@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-109",
+  "number": 109,
+  "title": "O that I could forever dwell",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O that I could forever dwell\nBehold at my Saviour's feet,\nLove so boundless, love so pure,\nAnd all his tender words repeat!"
+    },
+    {
+      "number": 2,
+      "text": "This world is not our home at all,\nAnd heaven brought it with all its bliss.\nO, is there aught, from pole to pole,\nOne moment to compare with this?"
+    },
+    {
+      "number": 3,
+      "text": "This is the hidden life I prize,—\nA life of penitential love;\nWhen most my follies I despise,\nAnd raise my highest thoughts above."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["devotion", "love of Christ", "penitential love", "spiritual life", "heavenly thoughts"],
+    "scripture_references": [],
+    "tune_source": "301, 288, 572",
+    "original_language": "en"
+  }
+}

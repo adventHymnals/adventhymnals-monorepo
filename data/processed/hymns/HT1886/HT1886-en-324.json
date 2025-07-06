@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-324",
+  "number": 324,
+  "title": "See! through his holy hands and feet",
+  "author": "V. Fortunatus",
+  "composer": null,
+  "tune": "846, 897, 703",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "See! through his holy hands and feet The cruel nails they drive:\nOur ransom thus is made complete, Our souls are saved alive."
+    },
+    {
+      "number": 2,
+      "text": "And see! the spear has pierced his side, And shed that sacred blood—\nThat holy, reconciling tide— The water and the blood."
+    },
+    {
+      "number": 3,
+      "text": "O holy cross! From thee we learn The only way to heaven;\nAnd O, to them may sinners turn, And look, and be forgiven."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "crucifixion", "ransom", "blood", "forgiveness"],
+    "scripture_references": [],
+    "tune_source": "846, 897, 703",
+    "original_language": "en"
+  }
+}

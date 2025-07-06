@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-048",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "048",
+  "title": "Jesus, What a Friend for Sinners",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Jesus! what a Friend for sinners! Jesus! Lover of my soul; Friends may fail me, foes assail me, He, my Savior, makes me whole."
+    },
+    {
+      "number": "2", 
+      "text": "Jesus! what a Strength for weakness! Let me hide myself in Him; Tempted, tried, and sometimes failing, He, my Strength, my victory wins."
+    },
+    {
+      "number": "3",
+      "text": "Jesus! what a Help in sorrow! While the billows o'er me roll, Even when my heart is breaking, He, my Comfort, helps my soul."
+    },
+    {
+      "number": "4",
+      "text": "Jesus! I do now receive Him, More than all in Him I find; He hath granted me forgiveness, I am His, and He is mine."
+    }
+  ],
+  "refrain": {
+    "text": "Hallelujah! what a Savior! Hallelujah! what a Friend! Saving, helping, keeping, loving, He is with me to the end."
+  },
+  "meter": "",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 187,
+  "themes": ["Jesus", "Friend", "Salvation", "Strength", "Comfort"],
+  "key_signature": "Bb",
+  "time_signature": "4/4"
+}

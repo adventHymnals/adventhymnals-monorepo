@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-029",
+  "number": 29,
+  "title": "Sing Praise to God",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sing praise to God who reigns above,\nThe God of all creation,\nThe God of power, the God of love,\nThe God of our salvation."
+    },
+    {
+      "number": 2,
+      "text": "What God's almighty power hath made\nHis gracious mercy keepeth;\nBy morning glow or evening shade\nHis watchful eye ne'er sleepeth."
+    },
+    {
+      "number": 3,
+      "text": "The Lord is never far away,\nThrough-out all grief distressing;\nAn ever-present help and stay,\nOur peace, and joy, and blessing."
+    },
+    {
+      "number": 4,
+      "text": "Then all my gladsome way along,\nI sing a-loud Thy praises,\nThat men may hear the grateful song\nMy voice un-wearied raises."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "God's power", "God's love", "salvation"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

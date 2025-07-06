@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-142",
+  "number": 142,
+  "title": "As when in silence vernal showers",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "As when in silence vernal showers\nDescend and cheer the fainting flowers,\nSo, in the secrecy of love,\nFalls the sweet influence from above."
+    },
+    {
+      "number": 2,
+      "text": "That heavenly influence let me find\nIn holy silence of the mind;\nWhile every grace maintains its bloom,\nDiffusing widely its perfume."
+    },
+    {
+      "number": 3,
+      "text": "Nor let those blessings be confined\nTo me, but poured on all mankind,\nTill earth's wild wastes in verdure rise,\nAnd blooming Eden cheer our eyes."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "nature", "blessing"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

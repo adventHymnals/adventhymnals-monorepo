@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-060",
+  "number": 60,
+  "title": "Holy as thou, O Lord, is none",
+  "author": null,
+  "composer": "Charles Wesley",
+  "tune": "291, 701, 212",
+  "meter": "291, 701, 212",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy as thou, O Lord, is none;\nThy holiness is all thine own;\nA drop of that unbounded sea\nIs ours,—a drop derived from thee."
+    },
+    {
+      "number": 2,
+      "text": "And when thy purity we share,\nThy brightest image we declare;\nAnd, humbled into nothing, own,\nHoly and pure is God alone."
+    },
+    {
+      "number": 3,
+      "text": "Sole, self-existing God and Lord,\nBy all thy heavenly hosts adored,\nLet all on earth bow down to thee,\nAnd own thy peerless majesty."
+    },
+    {
+      "number": 4,
+      "text": "Thy power unequalled we confess,\nEstablished on the rock of peace;\nThe rock that never shall remove,\nThe rock of pure, almighty love."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's holiness", "divine purity", "worship", "God's majesty", "divine love", "reverence"],
+    "scripture_references": [],
+    "tune_source": "Charles Wesley",
+    "original_language": "en"
+  }
+}

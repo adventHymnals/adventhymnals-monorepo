@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-206",
+  "number": 206,
+  "title": "Thy law is perfect, Lord of light",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thy law is perfect, Lord of light,\nThy testimonies sure;\nThe statutes of thy realm are right,\nAnd thy commands are pure."
+    },
+    {
+      "number": 2,
+      "text": "Let these, O God, my soul convert,\nAnd make thy servant wise;\nLet thee be gladness to my heart,\nThe dayspring to mine eyes."
+    },
+    {
+      "number": 3,
+      "text": "So may thy words my lips express,\nThe thoughts that throng my mind,\nO Lord, my strength and righteousness,\nWith thee acceptance find."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["law of God", "perfection", "conversion", "wisdom", "righteousness"],
+    "scripture_references": ["Psalm 19:7-8"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

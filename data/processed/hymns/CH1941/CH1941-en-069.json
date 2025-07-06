@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-069",
+  "number": 69,
+  "title": "High in the Heavens",
+  "author": "Isaac Watts",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "High in the heavens, eternal God,\nThy goodness in full glory shines;\nThy truth shall break through every cloud\nThat veils and darkens Thy designs."
+    },
+    {
+      "number": 2,
+      "text": "Forever firm Thy justice stands,\nAs mountains their foundations keep;\nWise are the wonders of Thy hands;\nThy judgments are a mighty deep."
+    },
+    {
+      "number": 3,
+      "text": "Thy providence is kind and large,\nBoth man and beast Thy bounty share;\nThe whole creation is Thy charge,\nBut saints are Thy peculiar care."
+    },
+    {
+      "number": 4,
+      "text": "My God, how excellent Thy grace,\nWhence all our hope and comfort springs!\nThe sons of Adam in distress\nFly to the shadow of Thy wings."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": ["God's goodness", "divine justice", "providence", "grace"],
+    "scripture_references": ["Psalm 36:5-7"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

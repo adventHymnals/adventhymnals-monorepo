@@ -1,0 +1,44 @@
+{
+  "id": "HSAB-en-074",
+  "number": 74,
+  "title": "Ship Zion",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WHAT vessel are you sailing in?\nDeclare to us the same.\nOur vessel is the Ark of God,\nAnd Christ our Captain's name."
+    },
+    {
+      "number": 2,
+      "text": "And are you not afraid some storm\nYour bark will overwhelm?\nNo, bless the Lord, we need not fear;\nOur Father's at the helm.\nHoist every sail; &c."
+    },
+    {
+      "number": 3,
+      "text": "Our compass is the sacred Word;\nOur anchor blooming hope;\nThe love of God our maintop sail,\nAnd faith our cable rope.\nHoist every sail; &c."
+    },
+    {
+      "number": 4,
+      "text": "We've look'd astern, and many toils\nThe Lord has brought us through;\nWe're looking now ahead, and lo!\nThe land appears in view.\nHoist every sail; &c."
+    },
+    {
+      "number": 5,
+      "text": "The sun is up, the clouds are gone.\nThe heavens above are clear;\nThe City bright appears in sight,\nWe're getting round the pier.\nHoist every sail; &c."
+    },
+    {
+      "number": 6,
+      "text": "And when we all are landed safe,\nOn the celestial plain,\nOur song shall be, worthy's the Lamb\nFor rebel sinners slain.\nHoist every sail; &c."
+    }
+  ],
+  "chorus": {
+    "text": "Hoist every sail to catch the gale,\nEach brother ply his oar;\nThe night begins to wear away,\nWe soon shall reach the shore."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["ship zion", "ark of god", "sacred word", "anchor hope", "celestial plain"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-018",
+  "number": 18,
+  "title": "In thy house, while now we sing",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In thy house, while now we sing,\nTune our hearts to heavenly King!\nThen our joyful souls shall bless\nThee, the Lord, our righteousness."
+    },
+    {
+      "number": 2,
+      "text": "While to thee our prayers ascend,\nLet thine ear in love attend;\nHear us, for thy Spirit pleads—\nHear, for Jesus intercedes."
+    },
+    {
+      "number": 3,
+      "text": "While we hear thy word with awe,\nWhile we tremble at thy law,\nLet thy gospel's wondrous love\nEvery doubt and fear remove."
+    },
+    {
+      "number": 4,
+      "text": "From thy house when we return,\nLet our hearts within us burn,\nThat at evening we may say,\n'We have walked with God today.'"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "prayer", "God's house"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

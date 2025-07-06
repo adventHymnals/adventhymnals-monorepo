@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-037",
+  "number": 37,
+  "title": "The Lord My Shepherd Is",
+  "author": "Isaac Watts",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The Lord my Shepherd is,\nI shall be well supplied;\nSince He is mine and I am His,\nWhat can I want beside?"
+    },
+    {
+      "number": 2,
+      "text": "He leads me to the place\nWhere heavenly pasture grows,\nWhere living waters gently pass,\nAnd full salvation flows."
+    },
+    {
+      "number": 3,
+      "text": "If e'er I go astray,\nHe doth my soul reclaim,\nAnd guides me in His own right way,\nFor His most holy name."
+    },
+    {
+      "number": 4,
+      "text": "While He affords His aid,\nI cannot yield to fear;\nThough I should walk through death's dark shade,\nMy Shepherd's with me there."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": ["shepherd", "guidance", "provision", "comfort"],
+    "scripture_references": ["Psalm 23"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

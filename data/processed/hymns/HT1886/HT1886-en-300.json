@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-300",
+  "number": 300,
+  "title": "Shout the glad tidings, exultingly sing",
+  "author": "William A. Muhlenberg",
+  "composer": "C. Avison",
+  "tune": "Avison",
+  "meter": "11s & 10s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Shout the glad tidings, exultingly sing,\nJerusalem triumphs, Messiah is King!\nZion, the marvelous story be telling,\nThe Son of the Highest, how lowly his birth!\nThe brightest of angels in glory excelling,\nHe stoops to redeem thee, is born upon earth!\nShout the glad tidings, exultingly sing,\nJerusalem triumphs, Messiah is King!"
+    },
+    {
+      "number": 2,
+      "text": "Tell how he cometh; from nation to nation,\nThe heart-cheering news let the earth echo round;\nHow free to the faithful he offers salvation!\nHis people with joy everlasting are crowned!\nShout the glad tidings, exultingly sing,\nJerusalem triumphs, Messiah is King!"
+    },
+    {
+      "number": 3,
+      "text": "Mortals, your homage be gratefully bringing,\nAnd sweet let the gladsome hosanna arise;\nYe angels, the full hallelujah be singing;\nOne chorus resound through the earth and the skies.\nShout the glad tidings, exultingly sing,\nJerusalem triumphs, Messiah is King!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Christmas", "Jerusalem", "triumph", "salvation", "joy"],
+    "scripture_references": [],
+    "tune_source": "Avison, C. Avison",
+    "original_language": "en"
+  }
+}

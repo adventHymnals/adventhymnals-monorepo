@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-020",
+  "number": 20,
+  "title": "O Praise Ye the Lord",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "3/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O praise ye the Lord!\nPraise Him in the height;\nRejoice in His word,\nYe angels of light;"
+    },
+    {
+      "number": 2,
+      "text": "O praise ye the Lord!\nPraise Him upon earth,\nIn tuneful accord,\nYe sons of new birth;"
+    },
+    {
+      "number": 3,
+      "text": "O praise ye the Lord,\nAll things that give sound;\nEach jubilant chord\nReecho around;"
+    },
+    {
+      "number": 4,
+      "text": "O praise ye the Lord!\nThanks-giving and song\nTo Him be outpoured\nAll ages along!"
+    }
+  ],
+  "chorus": {
+    "text": "Ye heavens, adore Him\nBy whom ye were made,\nAnd worship before Him,\nIn brightness arrayed."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "worship", "heavenly worship"],
+    "scripture_references": ["Psalm 148"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

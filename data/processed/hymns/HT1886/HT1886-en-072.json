@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-072",
+  "number": 72,
+  "title": "Try way, O Lord, is in the sea",
+  "author": null,
+  "composer": null,
+  "tune": "27, 168, 167",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thy way, O Lord, is in the sea;\nThy paths I cannot trace,\nNor comprehend the mystery\nOf thine unbounded grace."
+    },
+    {
+      "number": 2,
+      "text": "As through a glass I faintly see\nThe wonders of thy love,\nHow little do I know of thee,\nOr of the joys above."
+    },
+    {
+      "number": 3,
+      "text": "'Tis but in part I know thy will;\nI bless thee for the sight;\nWhen will thy love the rest reveal\nIn glory's clearer light?"
+    },
+    {
+      "number": 4,
+      "text": "With rapture shall I then survey\nThy providence and grace,\nAnd spend an everlasting day\nIn wonder, love, and praise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's ways", "mystery", "grace", "providence", "eternal praise"],
+    "scripture_references": [],
+    "tune_source": "27, 168, 167",
+    "original_language": "en"
+  }
+}

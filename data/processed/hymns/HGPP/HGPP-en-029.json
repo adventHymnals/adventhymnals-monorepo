@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-029",
+  "number": 29,
+  "title": "The Coming Events",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The coming events of the kingdom of God,\nCast in glory its shadows before;\nAnd my being would leap from its prison'd abode,\nAnd the King in his beauty adore."
+    },
+    {
+      "number": 2,
+      "text": "He comes, and the spirit that lingers below;\nIn the hearts of the chosen and tried,\nIs quicken'd, and tells, in its mystical flow,\nThe approach of the Bridegroom and Bride."
+    },
+    {
+      "number": 3,
+      "text": "The love, and the joy, and the peace of the blest,\nLike the day star, arise in the soul,\nAnd we taste the first fruits of the Eden of rest,\nAnd we hasten to enter the goal."
+    },
+    {
+      "number": 4,
+      "text": "All glory, all glory, to him that was slain,\nWho hath wash'd and redeem'd us to God ;\nFor he cometh with power in his kingdom to reign,\nAnd the earth to his sceptre is bow'd."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["second coming", "kingdom of God", "bridegroom", "glory", "redemption"],
+    "scripture_references": ["Rev 19:7-9", "Rev 5:9-10", "Dan 7:14"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "MH1843-en-PT3-025",
+  "number": 25,
+  "title": "The Pilgrim's Song",
+  "part": "Part III",
+  "verses": [
+    "I'm a pilgrim, and I'm a stranger,\nI can tarry, I can tarry but a night;\nDo not detain me, for I am going\nTo where the fountains are ever flowing.",
+    "There the glory is ever shining,\nO my longing heart, my longing heart is there;\nHere in this country so dark and dreary,\nI long have wandered forlorn and weary.",
+    "I'm a pilgrim, and I'm a stranger,\nI can tarry, I can tarry but a night."
+  ],
+  "metadata": {
+    "hymnal_id": "MH1843",
+    "hymnal_title": "Millennial Harp",
+    "language": "en",
+    "page": 285,
+    "year": 1843,
+    "compiler": "Joshua V. Himes",
+    "publisher": "Published at 14 Devonshire Street, Boston",
+    "themes": ["Pilgrimage", "Heavenly Home", "Longing", "Temporality", "Hope"],
+    "musical_notation": "Present with treble and bass clef",
+    "tempo_marking": "11.11.11.11 (Peculiar Meter)",
+    "hymnal_context": "Millerite/Adventist movement hymnal",
+    "part": "Part III",
+    "theological_significance": "Expression of the Christian journey as temporary pilgrimage toward eternal home"
+  }
+}

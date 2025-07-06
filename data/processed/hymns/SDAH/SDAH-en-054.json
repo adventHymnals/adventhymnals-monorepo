@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-054",
+  "number": 54,
+  "title": "O Gladsome Light",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "b",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O gladsome light, O grace\nOf God the Father's face,\nThe eternal splendor wearing;\nCelestial, holy, blest,\nOur Savior Jesus Christ,\nJoyful in Thine appearing."
+    },
+    {
+      "number": 2,
+      "text": "Now, ere day fadeth quite,\nWe see the evening light,\nOur wonted hymn outpouring;\nFather of might unknown,\nThee, His incarnate Son,\nAnd Holy Spirit adoring."
+    },
+    {
+      "number": 3,
+      "text": "To Thee of right belongs\nAll praise of holy songs,\nO Son of God, lifegiver;\nThee, therefore, O Most High,\nThe world doth glorify,\nAnd shall exalt forever."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["evening", "light", "Trinity", "praise", "incarnation"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

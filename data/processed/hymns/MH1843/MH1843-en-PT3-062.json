@@ -1,0 +1,45 @@
+{
+  "id": "MH1843-en-PT3-062",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "062",
+  "title": "Am I a soldier of the cross",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Am I a soldier of the cross, A follower of the Lamb? And shall I fear to own his cause, Or blush to speak his name?"
+    },
+    {
+      "number": "2",
+      "text": "Must I be carried to the skies On flowery beds of ease, Whilst others fought to win the prize, And sailed through bloody seas?"
+    },
+    {
+      "number": "3",
+      "text": "Are there no foes for me to face? Must I not stem the flood? Is this vile world a friend to grace, To help me on to God?"
+    },
+    {
+      "number": "4",
+      "text": "Sure I must fight if I would reign; Increase my courage, Lord; I'll bear the toil, endure the pain, Supported by thy word."
+    },
+    {
+      "number": "5",
+      "text": "Thy saints in all this glorious war Shall conquer, though they die; They see the triumph from afar, And seize it with their eye."
+    },
+    {
+      "number": "6",
+      "text": "When that illustrious day shall rise, And all thy armies shine In robes of victory through the skies, The glory shall be thine."
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "C.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 201,
+  "themes": ["Soldier", "Cross", "Lamb", "Courage", "Victory", "Triumph"],
+  "key_signature": "",
+  "time_signature": ""
+}

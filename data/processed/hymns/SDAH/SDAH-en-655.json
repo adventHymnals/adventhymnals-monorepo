@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-655",
+  "number": 655,
+  "title": "Happy the Home",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Happy the home when God is there,\nAnd love fills every breast;\nWhen one their wish, and one their prayer,\nAnd one their heavenly rest."
+    },
+    {
+      "number": 2,
+      "text": "Happy the home where Jesus' name\nIs sweet to every ear;\nWhere children early lisp His fame,\nAnd parents hold Him dear."
+    },
+    {
+      "number": 3,
+      "text": "Happy the home where prayer is heard,\nAnd praise is wont to rise;\nWhere parents love the sacred Word\nAnd all its wisdom prize."
+    },
+    {
+      "number": 4,
+      "text": "Lord, let us in our homes agree\nThis blessed peace to gain;\nUnite our hearts in love to Thee,\nAnd love to all will reign."
+    }
+  ],
+  "metadata": {
+    "themes": ["home", "family", "prayer", "happiness"],
+    "scripture_references": ["Psalm 127:1", "Joshua 24:15"],
+    "copyright": "Public Domain"
+  }
+}

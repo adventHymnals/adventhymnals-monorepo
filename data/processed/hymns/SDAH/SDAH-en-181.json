@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-181",
+  "number": 181,
+  "title": "Does Jesus Care?",
+  "author": "Frank E. Graeff",
+  "composer": "J. Lincoln Hall",
+  "tune": "Does Jesus Care",
+  "meter": "8.6.8.6 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Does Jesus care when my heart is pained\nToo deeply for mirth and song;\nAs the burdens press, and the cares distress,\nAnd the way grows weary and long?"
+    },
+    {
+      "number": 2,
+      "text": "Does Jesus care when my way is dark\nWith a nameless dread and fear?\nAs the daylight fades into deep night shades,\nDoes He care enough to be near?"
+    },
+    {
+      "number": 3,
+      "text": "Does Jesus care when I've said goodbye\nTo the dearest on earth to me,\nAnd my sad heart aches till it nearly breaks,\nIs it aught to Him? does He see?"
+    }
+  ],
+  "chorus": {
+    "text": "O yes, He cares I know He cares!\nHis heart is touched with my grief;\nWhen the days are weary, the long nights dreary,\nI know my Savior cares."
+  },
+  "metadata": {
+    "year": 1901,
+    "copyright": null,
+    "themes": ["comfort", "caring", "grief", "assurance", "jesus_care"],
+    "scripture_references": ["1 Peter 5:7", "Hebrews 4:15"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

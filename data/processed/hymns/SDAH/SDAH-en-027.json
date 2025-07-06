@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-027",
+  "number": 27,
+  "title": "Rejoice, Ye Pure in Heart",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Rejoice, ye pure in heart!\nRejoice, give thanks, and sing;\nYour festal banner wave on high,\nThe cross of Christ your King."
+    },
+    {
+      "number": 2,
+      "text": "With voice as full and strong\nAs ocean's surging praise,\nSend forth the sturdy hymns of old,\nThe psalms of ancient days."
+    },
+    {
+      "number": 3,
+      "text": "With all the angel choirs,\nWith all the saints on earth,\nPour out the strains of joy and bliss,\nTrue rapture, noblest mirth."
+    },
+    {
+      "number": 4,
+      "text": "Yes, on through life's long path,\nStill chanting as ye go;\nFrom youth to age, by night and day,\nIn gladness and in woe."
+    },
+    {
+      "number": 5,
+      "text": "Praise Him who reigns on high,\nThe Lord whom we adore,\nThe Father, Son, and Holy Ghost,\nOne God forevermore."
+    }
+  ],
+  "chorus": {
+    "text": "Rejoice! Rejoice!\nRejoice! Rejoice!\nRejoice, give thanks, and sing!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "rejoicing", "thanksgiving", "pure heart"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

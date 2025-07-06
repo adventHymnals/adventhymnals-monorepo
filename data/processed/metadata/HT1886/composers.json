@@ -1,0 +1,112 @@
+{
+  "composers": [
+    {
+      "id": "ch-a-malan",
+      "name": "C. H. A. Malan",
+      "birth_year": null,
+      "death_year": null,
+      "nationality": null,
+      "biography": "Composer of hymn tunes",
+      "tunes": ["Hendon"]
+    },
+    {
+      "id": "john-hatton",
+      "name": "John Hatton",
+      "birth_year": 1710,
+      "death_year": 1793,
+      "nationality": "English",
+      "biography": "Presbyterian minister and composer",
+      "tunes": ["Duke Street"]
+    },
+    {
+      "id": "orlando-gibbons",
+      "name": "Orlando Gibbons",
+      "birth_year": 1583,
+      "death_year": 1625,
+      "nationality": "English",
+      "biography": "English composer and organist",
+      "tunes": ["Angels"]
+    },
+    {
+      "id": "ludwig-von-beethoven",
+      "name": "Ludwig von Beethoven",
+      "birth_year": 1770,
+      "death_year": 1827,
+      "nationality": "German",
+      "biography": "German composer and pianist",
+      "tunes": ["Germany"]
+    },
+    {
+      "id": "langran",
+      "name": "Langran",
+      "birth_year": null,
+      "death_year": null,
+      "nationality": null,
+      "biography": "Composer of hymn tunes",
+      "tunes": ["Deerhurst"]
+    },
+    {
+      "id": "n-billings",
+      "name": "N. Billings",
+      "birth_year": null,
+      "death_year": null,
+      "nationality": null,
+      "biography": "Composer of hymn tunes",
+      "tunes": ["I'm a Traveler"]
+    },
+    {
+      "id": "ernest-radford",
+      "name": "Ernest Radford",
+      "birth_year": null,
+      "death_year": null,
+      "nationality": null,
+      "biography": "Composer of hymn tunes",
+      "tunes": ["London"]
+    },
+    {
+      "id": "morris",
+      "name": "Morris",
+      "birth_year": null,
+      "death_year": null,
+      "nationality": null,
+      "biography": "Composer of hymn tunes",
+      "tunes": ["Wickham"]
+    },
+    {
+      "id": "simeon-b-marsh",
+      "name": "Simeon B. Marsh",
+      "birth_year": 1798,
+      "death_year": 1875,
+      "nationality": "American",
+      "biography": "American composer and music educator",
+      "tunes": ["Martyn"]
+    },
+    {
+      "id": "fe-belden",
+      "name": "F. E. Belden",
+      "birth_year": null,
+      "death_year": null,
+      "nationality": null,
+      "biography": "Composer of hymn tunes",
+      "tunes": ["Verdi"]
+    },
+    {
+      "id": "edwin-barnes",
+      "name": "Edwin Barnes",
+      "birth_year": null,
+      "death_year": null,
+      "nationality": null,
+      "biography": "Composer of hymn tunes",
+      "tunes": ["Advent"]
+    },
+    {
+      "id": "reinagle",
+      "name": "Reinagle",
+      "birth_year": null,
+      "death_year": null,
+      "nationality": null,
+      "biography": "Composer of hymn tunes",
+      "tunes": ["St. Peter"]
+    }
+  ]
+}

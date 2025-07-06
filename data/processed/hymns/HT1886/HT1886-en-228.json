@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-228",
+  "number": 228,
+  "title": "Dear Lord, would thy praises sing",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Dear Lord, would thy praises sing\nOn this thy holy day;\nWith grateful hearts our tribute bring;\nTo thee our homage pay."
+    },
+    {
+      "number": 2,
+      "text": "This day, which thou for God hast blessed,\nAnd set apart as thine,—\nThis day, when God himself did rest,\nHath honors all divine."
+    },
+    {
+      "number": 3,
+      "text": "Lord, we would turn away our feet\nFrom this thy holy day,\nAnd call its rest and worship sweet,\nNot doing our own way."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "praise", "gratitude", "holy day"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

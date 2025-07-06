@@ -1,0 +1,33 @@
+{
+  "id": "HGPP-en-028",
+  "number": 28,
+  "title": "The Friend in Need",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The friends that flee when trials come,\nAre not the friends for me;\nLike frighted birds, ah! see how soon—\nTheir place will vacant be.\nBut there's a Friend I dearly love,\nWho for me left the realms above,\nAnd died upon the tree—\nOh! that's the Friend for me."
+    },
+    {
+      "number": 2,
+      "text": "This world, with all its fleeting show,\nIs not the world for me;\n'Tis mix'd with many tears of wo,\nAnd scenes of misery.\nBut there's a world so pure and fair,\nAnd all the saints shall enter there,\nFrom sin and sorrow free—\nOh! that's the world for me."
+    },
+    {
+      "number": 3,
+      "text": "A city fair, for saints a home,\nFrom God is coming down;\nHis children rest, no more to roam,\nIn New Jerusalem.\nOh! Jesus, come! come quickly! come,\nWe long to see our heavenly home\nOf Immortality—\nOh! that's the home for me."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["friendship", "jesus as friend", "new jerusalem", "heavenly home", "eternal life"],
+    "scripture_references": ["John 15:13-15", "Rev 21:1-4", "Heb 11:16"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

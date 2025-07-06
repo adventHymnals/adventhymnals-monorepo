@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-261",
+  "number": 261,
+  "title": "Be with us, Lord, where'er we go",
+  "author": "John Gennick",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Be with us, Lord, where'er we go;\nTeach us what thou wouldst have us do;\nSuggest whatever we think or say;\nDirect us in the narrow way."
+    },
+    {
+      "number": 2,
+      "text": "Prevent us, lest we harbor pride;\nLest we in our own strength confide;\nShow us our weakness, let us see\nWe have our power, our all, from thee."
+    },
+    {
+      "number": 3,
+      "text": "Enrich us always with thy love;\nOur kind Protector ever prove;\nThy signet put upon each breast,\nAnd let thy Spirit in us rest."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["divine guidance", "protection", "humility", "Holy Spirit"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

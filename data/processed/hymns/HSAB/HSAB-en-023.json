@@ -1,0 +1,32 @@
+{
+  "id": "HSAB-en-023",
+  "number": 23,
+  "title": "Have You Faith?",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "JESUS our Saviour says–I will appear!\nHave you faith?\nMy trumpet is sounding majestic and clear,\nHave you faith?\nThe faithful alone I come to see,\nAnd they shall live and reign with me,\nOnly have faith!"
+    },
+    {
+      "number": 2,
+      "text": "Prophets have spoken, their words are fulfill'd,\nHave you faith?\nMy word is establish'd, your anguish is still'd,\nHave you faith?\nThe plan of salvation the faith's eye will see,\nAnd live for ever and reign with me,\nOnly have faith!"
+    },
+    {
+      "number": 3,
+      "text": "Though I should tarry, be not dismay'd,\nHave you faith?\nThe judgment is coming o'er all I've said,\nHave you faith?\nThe doubt to the bondage, the faith to the free,\nTo live for ever and reign with me,\nOnly have faith!"
+    }
+  ],
+  "chorus": {
+    "text": "Have you faith?"
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["second advent", "faith", "trumpet", "judgment", "prophetic fulfillment"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

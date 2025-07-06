@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-374",
+  "number": 374,
+  "title": "Jesus, With Thy Church Abide",
+  "author": "Thomas B. Pollock",
+  "composer": "Henry T. Smart",
+  "tune": "LANCASHIRE",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, with Thy church abide; be her Savior, Lord, and Guide,\nWhile on earth her faith is tried: we beseech Thee, hear us."
+    },
+    {
+      "number": 2,
+      "text": "May her voice be ever clear, warning of a judgment near,\nTelling of a Savior dear: we beseech Thee, hear us."
+    },
+    {
+      "number": 3,
+      "text": "May she guide the poor and blind, seek the lost until she find,\nAnd the brokenhearted bind: we beseech Thee, hear us."
+    },
+    {
+      "number": 4,
+      "text": "May she holy triumphs win, overthrow the hosts of sin,\nGather all the nations in: we beseech Thee, hear us."
+    }
+  ],
+  "metadata": {
+    "year": 1871,
+    "copyright": "Public Domain",
+    "themes": ["Church", "Prayer for the Church", "Mission", "Guidance"],
+    "scripture_references": ["Matthew 16:18", "Ephesians 5:25"],
+    "tune_source": "Henry T. Smart, 1835",
+    "original_language": "en"
+  }
+}

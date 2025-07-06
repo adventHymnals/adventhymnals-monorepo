@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-044",
+  "number": 44,
+  "title": "Sabbath of Rest",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thine earthly Sabbath, Lord, we love,\nBut there's a nobler rest above;\nTo that our laboring souls aspire,\nWith ardent hope, and strong desire."
+    },
+    {
+      "number": 2,
+      "text": "No more fatigue, no more distress,\nNo sin nor death can reach that place,\nNo tears shall mingle with the songs\nThat warble from immortal tongues."
+    },
+    {
+      "number": 3,
+      "text": "No rude alarm of raging foes,\nNo cares to break their long repose,\nNo midnight shade, no clouded sun,\nBut sacred high eternal noon."
+    },
+    {
+      "number": 4,
+      "text": "0 long expected day begin,\nDawn on those realms of wo and sin;\nFain would I leave this weary road,\nAnd go to meet my blessed Lord."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["sabbath", "eternal rest", "heavenly sabbath", "no more sin", "eternal day"],
+    "scripture_references": ["Heb 4:9-11", "Rev 21:4", "Rev 22:5"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

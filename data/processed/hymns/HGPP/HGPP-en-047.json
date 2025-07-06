@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-047",
+  "number": 47,
+  "title": "Almost Home",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Bright crowns are just before us,\nThen onward let us sing,\nJerusalem's bright seraphs ,\nE'en now are on the wing."
+    },
+    {
+      "number": 2,
+      "text": "King Jesus and his angels,\nAre hasting on their way,\nTo gather all the weary\nWho faithful watch and pray."
+    },
+    {
+      "number": 3,
+      "text": "Toil on a little longer,\nStand stiffly for the word,\nOh ye, my fellow pilgrims,\nThe lov'd ones of my Lord."
+    },
+    {
+      "number": 4,
+      "text": "The kingdom, is the watchword,\nWe've almost reach'd our home,\nOh, glory hallelujah!\nThe Bride is saying Come."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["almost home", "bright crowns", "jerusalem", "faithful watching", "bride"],
+    "scripture_references": ["Rev 3:11", "Rev 22:17", "2 Tim 4:8"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

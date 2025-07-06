@@ -1,0 +1,32 @@
+{
+  "id": "SDAH-en-460",
+  "number": 460,
+  "title": "As Water to the Thirsty",
+  "author": "Timothy Dudley-Smith",
+  "composer": "T. Brian Coleman",
+  "tune": "WATER TO THE THIRSTY",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "As water to the thirsty, as beauty to the eyes,\nAs strength that follows weakness, as truth instead of lies,\nAs songtime and springtime and summertime to be,\nSo is my Lord, my living Lord, so is my Lord to me."
+    },
+    {
+      "number": 2,
+      "text": "Like calm in place of clamor, like peace that follows pain,\nLike meeting after parting, like sunshine after rain,\nLike moonlight and starlight and sunlight on the sea,\nSo is my Lord, my living Lord, so is my Lord to me."
+    },
+    {
+      "number": 3,
+      "text": "As sleep that follows fever, as gold instead of grey,\nAs freedom after bondage, as sunrise to the day,\nAs home to the traveler and all he longs to see,\nSo is my Lord, my living Lord, so is my Lord to me."
+    }
+  ],
+  "metadata": {
+    "year": 1979,
+    "copyright": "Copyright 1979 Hope Publishing Co.",
+    "themes": ["Christ's comfort", "spiritual refreshment", "divine provision", "metaphorical imagery"],
+    "scripture_references": ["John 7:37-38", "Isaiah 55:1", "Psalm 42:1-2"],
+    "tune_source": "T. Brian Coleman",
+    "original_language": "en"
+  }
+}

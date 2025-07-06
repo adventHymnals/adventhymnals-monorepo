@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-536",
+  "number": 536,
+  "title": "God, Who Stretched the Spangled Heavens",
+  "author": "Catherine Cameron",
+  "composer": "Eurydice Osterman",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God, who stretched the spangled heavens\nInfinite in time and place,\nFlung the suns in burning radiance\nThrough the silent fields of space;"
+    },
+    {
+      "number": 2,
+      "text": "We have ventured worlds undreamed of\nSince the childhood of our race;\nKnown the ecstasy of winging\nThrough untraveled realms of space;"
+    },
+    {
+      "number": 3,
+      "text": "As each far horizon beckons,\nMay it challenge us anew:\nChildren of creative purpose,\nServing others, honoring You."
+    }
+  ],
+  "chorus": {
+    "text": "We, Your children in Your likeness,\nShare inventive powers with You;\nGreat Creator, still creating,\nShow us what we yet may do.\nProud our skills and rich with promise,\nYielding uninspired power,\nFacing us with life's destruction\nOr our most triumphant hour.\nMay our dreams prove rich with promise;\nEach endeavor well begun;\nGreat Creator, give us guidance\nTill our goals and Yours are one."
+  },
+  "metadata": {
+    "year": 1967,
+    "copyright": "1967 Hope Publishing Co.",
+    "themes": ["creation", "science", "technology", "purpose"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

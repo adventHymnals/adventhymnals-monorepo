@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-012",
+  "number": 12,
+  "title": "Joyful, Joyful, We Adore Thee",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Joyful, joyful, we adore Thee,\nGod of glory, Lord of love;\nHearts unfold like flow'rs before Thee,\nHail Thee as the sun above."
+    },
+    {
+      "number": 2,
+      "text": "All Thy works with joy surround Thee,\nEarth and heav'n reflect Thy rays,\nStars and angels sing around Thee,\nCenter of unbroken praise."
+    },
+    {
+      "number": 3,
+      "text": "Thou art giving and forgiving,\nEver blessing, ever blest,\nWell-spring of the joy of living,\nOcean-depth of happy rest!"
+    }
+  ],
+  "chorus": {
+    "text": "Melt the clouds of sin and sadness,\nDrive the dark of doubt away;\nGiver of immortal gladness,\nFill us with the light of day!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["joy", "worship", "praise", "God's love"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

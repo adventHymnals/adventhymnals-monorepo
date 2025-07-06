@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-312",
+  "number": 312,
+  "title": "Near the Cross",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, keep me near the cross,\nThere a precious fountain\nFree to all, a healing stream,\nFlows from Calvary's mountain."
+    },
+    {
+      "number": 2,
+      "text": "Near the cross, a trembling soul,\nLove and mercy found me;\nThere the bright and Morning Star\nSheds its beams around me."
+    },
+    {
+      "number": 3,
+      "text": "Near the cross! O Lamb of God,\nBring its scenes before me;\nHelp me walk from day to day,\nWith its shadows o'er me."
+    },
+    {
+      "number": 4,
+      "text": "Near the cross I'll watch and wait,\nHoping, trusting ever,\nTill I reach the golden strand,\nJust beyond the river."
+    }
+  ],
+  "chorus": {
+    "text": "In the cross, in the cross,\nBe my glory ever,\nTill my raptured soul shall find\nRest beyond the river."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Cross", "Salvation", "Calvary", "Redemption", "Hope"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

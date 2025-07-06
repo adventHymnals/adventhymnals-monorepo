@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-080",
+  "number": 80,
+  "title": "There is a book that all may read",
+  "author": null,
+  "composer": "Nathaniel D. Gould",
+  "tune": "Woodland",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is a book that all may read,\nWhich heavenly truth imparts;\nAnd all the lore its scholars need,\nPure eyes and Christian hearts."
+    },
+    {
+      "number": 2,
+      "text": "The works of God above, below,\nWithin us, and around,\nAre pages in that book, to show\nHow God himself is found."
+    },
+    {
+      "number": 3,
+      "text": "The glorious sky, embracing all,\nIs like the Maker's love,\nWherewith encompassed, great and small\nIn peace and order move."
+    },
+    {
+      "number": 4,
+      "text": "The dew of heaven is like thy grace,\nIt steals in silence down;\nBut where it lights, the favored place\nBy richest fruits is known."
+    },
+    {
+      "number": 5,
+      "text": "Thou who hast given me eyes to see\nAnd love this sight so fair,\nGive me a heart to find out thee\nAnd read thee everywhere."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's revelation", "nature", "God's love", "God's grace", "creation"],
+    "scripture_references": [],
+    "tune_source": "Woodland, Nathaniel D. Gould",
+    "original_language": "en"
+  }
+}

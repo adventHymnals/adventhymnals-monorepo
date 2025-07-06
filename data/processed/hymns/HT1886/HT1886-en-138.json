@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-138",
+  "number": 138,
+  "title": "Come, blessed Spirit, source of light",
+  "author": "Benjamin Beddome",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, blessed Spirit, source of light,\nWhose power and grace are unconfined,\nDispel the gloomy shades of night,\nThe thicker darkness of the mind."
+    },
+    {
+      "number": 2,
+      "text": "To my enlightened eyes display\nThe glorious truth thy words reveal;\nCause me to run the heavenly way,\nMake me delight to do thy will."
+    },
+    {
+      "number": 3,
+      "text": "Thine inward teachings make me know,\nThe wonders of redeeming love;\nThe vanity of things below,\nAnd excellence of things above."
+    },
+    {
+      "number": 4,
+      "text": "While through those dubious paths I stray,\nSpread, like the sun, thy beams abroad;\nShow me the dangers of the way,\nAnd guide my feeble steps to God."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "source of light", "truth", "guidance", "redeeming love", "spiritual enlightenment"],
+    "scripture_references": ["John 16:13", "Ephesians 1:18"],
+    "tune_source": "168, 212, 215",
+    "original_language": "en"
+  }
+}

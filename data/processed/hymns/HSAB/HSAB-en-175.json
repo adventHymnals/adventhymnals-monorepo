@@ -1,0 +1,37 @@
+{
+  "id": "HSAB-en-175",
+  "number": 35,
+  "title": "O The Lord Has Passed By",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O THE Lord has passed by, and he's given me a blessing,\nAnd that's what the Lord has done for me.\nGlory, glory, glory,\nAnd that's what the Lord has done for me."
+    },
+    {
+      "number": 2,
+      "text": "Is there anybody here like weeping Mary?\nO call on my Jesus and he'll draw near.\nGlory, glory, &c."
+    },
+    {
+      "number": 3,
+      "text": "Is there anybody here like sinking Peter?\nO call on my Jesus and he'll draw near.\nGlory, glory, &c."
+    },
+    {
+      "number": 4,
+      "text": "Is there anybody here like doubting, Thomas?\nO call on my Jesus and he'll draw near.\nGlory, glory, &c."
+    },
+    {
+      "number": 5,
+      "text": "Is there anybody here that wants salvation?\nO call on my Jesus and he'll draw near.\nGlory, glory, &c."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["blessing", "Jesus", "salvation", "call on Jesus", "biblical characters", "glory"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

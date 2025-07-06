@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-120",
+  "number": 120,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "This is the day of sacred rest,\nWhich God has sanctified and blest,\nWhen on his throne the Almighty stood,\nAnd viewed his works, and called them good."
+    },
+    {
+      "number": 2,
+      "text": "The heavenly hosts their harps employ,\nThe sons of God gave shouts of joy;\nThro' heaven and earth his praises rang,\nThe morning stars together sang."
+    },
+    {
+      "number": 3,
+      "text": "Come, then, ye weary souls oppress'd,\nCome and enjoy this holy rest;\nLet humble songs like incense rise,\nAnd prayer and praise ascend the skies."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "sacred rest", "creation", "heavenly hosts", "praise", "prayer"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

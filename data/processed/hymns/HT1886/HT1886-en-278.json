@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-278",
+  "number": 278,
+  "title": "Praise the God of our salvation",
+  "author": "Judson Conde",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise the God of our salvation,\nPraise the Father's boundless love,\nPraise the Lamb's abundant merit,\nPriest and King, enthroned above."
+    },
+    {
+      "number": 2,
+      "text": "Praise him for his great salvation,\nHim in whom his people live;\nUndivided adoration\nTo the Lord Jehovah give."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "closing", "praise", "salvation", "adoration"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

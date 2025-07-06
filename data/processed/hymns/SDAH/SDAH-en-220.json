@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-220",
+  "number": 220,
+  "title": "When He Comes",
+  "author": "Timothy Dudley-Smith",
+  "composer": "Wayne Hooper",
+  "tune": "HOPE PUBLISHING",
+  "meter": "8.8.8.8 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When He comes, When He comes,\nWe shall see the Lord in glory when He comes!\nAs I read the gospel story, We shall see the Lord in glory."
+    },
+    {
+      "number": 2,
+      "text": "When He comes, When He comes,\nWe shall hear the trumpet sounded when He comes!\nWe shall hear the trumpet sounded, See the Lord His saints surrounded."
+    },
+    {
+      "number": 3,
+      "text": "When He comes, When He comes,\nWe shall all rise up to meet Him when He comes!\nWe shall all rise up to meet Him, When He calls His own to greet Him."
+    }
+  ],
+  "chorus": {
+    "text": "With the alleluias ringing to the sky,\nWith the alleluias ringing to the sky."
+  },
+  "metadata": {
+    "year": 1969,
+    "copyright": "© 1969 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
+    "themes": ["Second Coming", "Glory", "Resurrection", "Alleluia"],
+    "scripture_references": ["1 Thessalonians 4:16-17", "1 Corinthians 15:51-52"],
+    "tune_source": "Wayne Hooper, 1984",
+    "original_language": "en"
+  }
+}

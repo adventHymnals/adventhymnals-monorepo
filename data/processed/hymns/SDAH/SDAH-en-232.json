@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-232",
+  "number": 232,
+  "title": "At the Name of Jesus",
+  "author": "Caroline M. Noel",
+  "composer": "Ralph Vaughan Williams",
+  "tune": "KING'S WESTON",
+  "meter": "6.5.6.5.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "At the name of Jesus every knee shall bow,\nEvery tongue confess Him King of glory now;\n'Tis the Father's pleasure we should call Him Lord,\nWho from the beginning was the mighty Word."
+    },
+    {
+      "number": 2,
+      "text": "At His voice creation sprang at once to sight,\nAll the angel faces, all the hosts of light,\nThrones and dominions, stars upon their way,\nAll the heavenly orders, in their great array."
+    },
+    {
+      "number": 3,
+      "text": "Humbled for a season, to receive a name\nFrom the lips of sinners unto whom He came,\nFaithfully He bore it spotless to the last,\nBrought it back victorious, when from death He passed."
+    },
+    {
+      "number": 4,
+      "text": "In your hearts enthrone Him; there let Him subdue\nAll that is not holy, all that is not true:\nCrown Him as your Captain in temptation's hour;\nLet His will enfold you in its light and power."
+    },
+    {
+      "number": 5,
+      "text": "Surely, this Lord Jesus shall return again,\nWith His Father's glory, with His angel train;\nFor all wreaths of empire meet upon His brow,\nAnd our hearts confess Him King of glory now."
+    }
+  ],
+  "metadata": {
+    "year": 1870,
+    "copyright": "Public Domain",
+    "themes": ["Name of Jesus", "Lordship", "Worship", "Second Coming"],
+    "scripture_references": ["Philippians 2:9-11", "Revelation 19:16"],
+    "tune_source": "Ralph Vaughan Williams, 1925",
+    "original_language": "en"
+  }
+}

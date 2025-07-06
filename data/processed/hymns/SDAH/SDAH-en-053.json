@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-053",
+  "number": 53,
+  "title": "All Praise to Thee",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All praise to Thee, my God, this night,\nFor all the blessings of the light!\nKeep me, O keep me, King of kings,\nBeneath Thine own almighty wings."
+    },
+    {
+      "number": 2,
+      "text": "Forgive me, Lord, for Thy dear Son,\nThe ill that I this day have done,\nThat with the world, myself, and Thee,\nI, ere I sleep, at peace may be."
+    },
+    {
+      "number": 3,
+      "text": "O may my soul on Thee repose,\nAnd may sweet sleep mine eyelids close,\nSleep that may me more vigorous make\nTo serve my God when I awake."
+    },
+    {
+      "number": 4,
+      "text": "Praise God, from whom all blessings flow;\nPraise Him, all creatures here below;\nPraise Him above, ye heavenly host;\nPraise Father, Son, and Holy Ghost."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["evening", "praise", "forgiveness", "rest", "Trinity"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

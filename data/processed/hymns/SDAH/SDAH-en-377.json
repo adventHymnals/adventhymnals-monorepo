@@ -1,0 +1,32 @@
+{
+  "id": "SDAH-en-377",
+  "number": 377,
+  "title": "Go Forth, Go Forth With Christ",
+  "author": "Anonymous",
+  "composer": "Traditional",
+  "tune": "GO FORTH",
+  "meter": "8.7.8.7.8.7.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Go forth, go forth with Christ,\nWho called you to this day, He\nwho has led, will lead And keep you in His way:\nHis promise sure To all who serve Him and endure."
+    },
+    {
+      "number": 2,
+      "text": "Go forth, go forth with Christ,\nWith purpose not your own, Each\nvictory you shall gain Through Him your Lord alone:\nTo guard you His Spirit shall your strength be."
+    },
+    {
+      "number": 3,
+      "text": "Go forth, go forth with Christ,\nHis Priesthood you shall share, Who\nbought us by His blood To be His servants here:\nWalk in the way your Savior trod, Go forth with God."
+    }
+  ],
+  "metadata": {
+    "year": null,
+    "copyright": "Public Domain",
+    "themes": ["Commission", "Service", "Discipleship", "Mission"],
+    "scripture_references": ["Matthew 28:19-20", "Acts 1:8"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

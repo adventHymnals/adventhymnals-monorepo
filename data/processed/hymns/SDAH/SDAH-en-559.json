@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-559",
+  "number": 559,
+  "title": "Now Thank We All Our God",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Now thank we all our God\nWith heart and hands and voices,\nWho wondrous things hath done,\nIn whom His world rejoices;\nWho, from our mothers' arms\nHath blessed us on our way\nWith countless gifts of love,\nAnd still is ours today."
+    },
+    {
+      "number": 2,
+      "text": "O may this bounteous God\nThrough all our life be near us,\nWith ever-joyful hearts\nAnd blessed peace to cheer us;\nAnd keep us in His grace,\nAnd guide us when perplexed,\nAnd free us from all ills\nIn this world and the next."
+    },
+    {
+      "number": 3,
+      "text": "All praise and thanks to God\nThe Father now be given,\nThe Son, and Him who reigns\nWith them in highest heaven,\nThe one eternal God,\nWhom earth and heaven adore;\nFor thus it was, is now,\nAnd shall be evermore."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["thanksgiving", "praise", "blessing", "Trinity"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

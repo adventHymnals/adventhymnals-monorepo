@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-132",
+  "number": 132,
+  "title": "BAPTISM",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "DOWN to the sacred wave.\nThe Lord of life was led;\nAnd he who came our souls to save\nIn Jordan bowed his head."
+    },
+    {
+      "number": 2,
+      "text": "He taught the solemn way;\nHe fixed the holy rite;\nHe bade his ransomed ones obey,\nAnd keep the path of light."
+    },
+    {
+      "number": 3,
+      "text": "Blest Saviour, we will tread\nIn thy appointed way;\nLet glory oer these scenes be shed,\nAnd smile on us to-day."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["baptism", "Jesus", "Jordan", "salvation", "obedience", "holy rite"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

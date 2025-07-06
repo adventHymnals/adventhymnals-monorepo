@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-337",
+  "number": 337,
+  "title": "Redeemed!",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Redeemed! how I love to proclaim it!\nRedeemed by the blood of the Lamb;\nRedeemed through His infinite mercy,\nHis child, and forever, I am."
+    },
+    {
+      "number": 2,
+      "text": "Redeemed! and so happy in Jesus!\nNo language my rapture can tell;\nI know that the light of His presence\nWith me doth continually dwell."
+    },
+    {
+      "number": 3,
+      "text": "I know there's a crown that is waiting\nIn yonder bright mansion for me;\nAnd soon, with the saints made perfect,\nAt home with the Lord I shall be."
+    }
+  ],
+  "chorus": {
+    "text": "Redeemed, redeemed,\nRedeemed by the blood of the Lamb;\nRedeemed, redeemed,\nHis child, and forever, I am."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Redemption", "Blood of Christ", "Salvation", "Joy", "Eternal Life"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

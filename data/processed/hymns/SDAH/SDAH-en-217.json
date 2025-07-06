@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-217",
+  "number": 217,
+  "title": "The Church Has Waited Long",
+  "author": "Horatius Bonar",
+  "composer": "Joseph Barnby",
+  "tune": "LAUDES DOMINI",
+  "meter": "6.6.6.6.8.8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The church has waited long\nHer absent Lord to see;\nAnd still in loneliness she waits,\nA friendless stranger she."
+    },
+    {
+      "number": 2,
+      "text": "How long, O Lord our God,\nHoly and true and good,\nWilt Thou not judge Thy suffering church,\nHer sighs and tears and blood?"
+    },
+    {
+      "number": 3,
+      "text": "We long to hear Thy voice,\nTo see Thee face to face,\nTo share Thy crown and glory then,\nAs now we share Thy grace."
+    },
+    {
+      "number": 4,
+      "text": "Come, Lord, and wipe away\nThe curse, the sin, the stain,\nAnd make this blighted world of ours\nThine own fair world again."
+    }
+  ],
+  "metadata": {
+    "year": 1863,
+    "copyright": "Public Domain",
+    "themes": ["Second Coming", "Church", "Waiting", "Longing"],
+    "scripture_references": ["Revelation 22:20", "2 Peter 3:9"],
+    "tune_source": "Joseph Barnby, 1868",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-043",
+  "number": 43,
+  "title": "PRAISE to thee, thou great Creator",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "277, 162, 130",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "PRAISE to thee, thou great Creator!\nPraise to thee from every tongue!\nJoin, my soul, with every creature,\nJoin the universal song."
+    },
+    {
+      "number": 2,
+      "text": "Father, source of all compassion,\nPure, unbounded grace to thee;\nHail the God of our salvation,\nPraise the Holy Trinity."
+    },
+    {
+      "number": 3,
+      "text": "For thy countless blessing given,\nFor the hope of future joy,\nSound his name through earth and heaven,\nLet thy praise our tongues employ."
+    },
+    {
+      "number": 4,
+      "text": "Joyfully on earth adore him,\nTill in heaven your song you raise;\nThen, enraptured, fall before him,\nLost in wonder, love, and praise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "creation", "Trinity", "salvation", "heaven"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

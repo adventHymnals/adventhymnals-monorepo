@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-598",
+  "number": 598,
+  "title": "Watch, Ye Saints",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Watch, ye saints, with eyelids waking;\nLo! the powers of heaven are shaking;\nKeep your lamps all trimmed and burning,\nReady for your Lord's returning."
+    },
+    {
+      "number": 2,
+      "text": "Lo! the promise of your Savior,\nPardoned sin and purchased favor,\nBlood-washed robes and crowns of glory;\nHaste to tell the joyful story."
+    },
+    {
+      "number": 3,
+      "text": "Kingdoms at their base are crumbling,\nHark! His chariot wheels are rumbling;\nTell, O her latest pangs is summing;\nEarth her grace abound-ing."
+    },
+    {
+      "number": 4,
+      "text": "Nations wane, though proud and stately;\nChrist His kingdom has-tened greatly;\nWhile the sevenfold trump is sound-ing,\nShout, ye saints, your Lord is coming."
+    },
+    {
+      "number": 5,
+      "text": "Sinners come, while Christ is pleading;\nNow for you He's interceding;\nHaste, ere grace and time diminished\nShall proclaim the mystery finished."
+    }
+  ],
+  "chorus": {
+    "text": "Lo! He comes, lo! Jesus comes;\nLo! He comes, He comes all-glorious!\nJesus comes to reign victorious,\nLo! He comes, yes, Jesus comes."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Second Coming", "watchfulness", "readiness", "eschatology"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

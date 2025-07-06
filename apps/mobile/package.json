@@ -1,0 +1,30 @@
+{
+  "name": "@advent-hymnals/mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile application for Advent Hymnals",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "dev": "expo start",
+    "build": "expo build",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@advent-hymnals/shared": "workspace:*",
+    "@advent-hymnals/hymnal-processor": "workspace:*",
+    "expo": "~50.0.0",
+    "react": "18.2.0",
+    "react-native": "0.73.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@types/react": "~18.2.45",
+    "@types/react-native": "~0.73.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  }
+}

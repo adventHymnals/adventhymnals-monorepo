@@ -1,0 +1,29 @@
+{
+  "id": "HGPP-en-020",
+  "number": 20,
+  "title": "The Bible",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy Bible! Book divine!\nPrecious treasure, thou art mine\nMine, to tell me whence I came;\nMine, to teach one what I am;\nMine, to chide me when I rove;\nMine, to show a Saviour's love;\nMine, art thou, to guide my feet;\nMine to judge, condemn, acquit."
+    },
+    {
+      "number": 2,
+      "text": "Mine, to comfort in distress,\nIf the Holy Spirit bless;\nMine, to show, by living faith,\nMan can triumph over death;\nMine, to tell of joys to come,\nAnd the rebel sinner's doom;\n0, thou precious book divine!\nPrecious treasure, thou art mine."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["scripture", "bible", "divine revelation", "guidance", "salvation"],
+    "scripture_references": ["Ps 119:105", "2 Tim 3:16-17", "Heb 4:12"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

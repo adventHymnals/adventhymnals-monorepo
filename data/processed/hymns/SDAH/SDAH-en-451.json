@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-451",
+  "number": 451,
+  "title": "Together Let Us Sweetly Live",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "TOGETHER LET US SWEETLY LIVE",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Together let us sweetly live,\nTogether love to Jesus give;\nTogether let us sweetly live,\nI am bound for the land of Canaan."
+    },
+    {
+      "number": 2,
+      "text": "Together let us watch and pray,\nTogether wait redemption's day;\nTogether let us watch and pray,\nI am bound for the land of Canaan."
+    },
+    {
+      "number": 3,
+      "text": "Our songs of praise shall fill the skies,\nTogether still our joys shall rise;\nOur songs of praise shall fill the skies,\nI am bound for the land of Canaan."
+    },
+    {
+      "number": 4,
+      "text": "Then come with me, beloved friend,\nTogether to our joys to end;\nThen come with me, beloved friend,\nI am bound for the land of Canaan."
+    }
+  ],
+  "chorus": {
+    "text": "O Canaan, bright Canaan,\nI am bound for the land of Canaan.\nO Canaan, it is my happy home,\nI am bound for the land of Canaan."
+  },
+  "metadata": {
+    "year": 1800,
+    "copyright": "Public Domain",
+    "themes": ["unity", "Christian fellowship", "Canaan", "promised land", "spiritual journey"],
+    "scripture_references": ["Deuteronomy 8:7-10", "Hebrews 11:8-16", "Psalms 133:1"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

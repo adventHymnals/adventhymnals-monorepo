@@ -1,0 +1,35 @@
+{
+  "id": "MH1843-en-PT3-122",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "122",
+  "title": "Breathe on Me, Breath of God",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Breathe on me, Breath of God, Fill me with life anew, That I may love what Thou dost love, And do what Thou wouldst do."
+    },
+    {
+      "number": "2",
+      "text": "Breathe on me, Breath of God, Until my heart is pure, Until with Thee I will one will, To do and to endure."
+    },
+    {
+      "number": "3",
+      "text": "Breathe on me, Breath of God, Till I am wholly Thine, Until this earthly part of me Glows with Thy fire divine."
+    },
+    {
+      "number": "4",
+      "text": "Breathe on me, Breath of God, So shall I never die, But live with Thee the perfect life Of Thine eternity."
+    }
+  ],
+  "refrain": {},
+  "meter": "S.M.",
+  "tune": "TRENTHAM",
+  "composer": "Robert Jackson",
+  "author": "Edwin Hatch",
+  "page": 265,
+  "themes": ["Breathe", "Breath of God", "Fill", "Life Anew", "Love", "Pure", "Heart", "Will", "One Will", "Endure", "Wholly", "Thine", "Earthly", "Part", "Glows", "Fire", "Divine", "Never Die", "Live", "Perfect Life", "Eternity"],
+  "key_signature": "Db",
+  "time_signature": "3/4"
+}

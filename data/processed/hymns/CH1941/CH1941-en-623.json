@@ -1,0 +1,39 @@
+{
+  "id": "CH1941-en-623",
+  "number": 623,
+  "title": "Rescue the Perishing",
+  "author": "Fanny Jane Crosby",
+  "composer": "William Howard Doane",
+  "tune": "Rescue",
+  "meter": "11.11.11.11",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Rescue the perishing, care for the dying,\nSnatch them in pity from sin and the grave;\nWeep o'er the erring one, lift up the fallen,\nTell them of Jesus, the mighty to save."
+    },
+    {
+      "number": 2,
+      "text": "Though they are slighting Him, still He is waiting,\nWaiting the penitent child to receive;\nPlead with them earnestly, plead with them gently,\nHe will forgive if they only believe."
+    },
+    {
+      "number": 3,
+      "text": "Down in the human heart, crushed by the tempter,\nFeelings lie buried that grace can restore;\nTouched by a loving heart, wakened by kindness,\nChords that were broken will vibrate once more."
+    },
+    {
+      "number": 4,
+      "text": "Rescue the perishing, duty demands it;\nStrength for thy labor the Lord will provide;\nBack to the narrow way patiently win them,\nTell the poor wanderer a Savior has died."
+    }
+  ],
+  "chorus": {
+    "text": "Rescue the perishing,\nCare for the dying;\nJesus is merciful,\nJesus will save."
+  },
+  "metadata": {
+    "year": 1869,
+    "copyright": "Public Domain",
+    "themes": ["evangelism", "rescue", "mercy", "compassion"],
+    "scripture_references": ["Luke 19:10", "James 5:20"],
+    "tune_source": "Rescue, William Howard Doane, 1870",
+    "original_language": "en"
+  }
+}

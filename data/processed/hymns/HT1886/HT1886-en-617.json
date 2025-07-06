@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-617",
+  "number": 617,
+  "title": "Breast the wave, Christian",
+  "author": null,
+  "composer": "Ernest Radford",
+  "tune": "London",
+  "meter": "10s & 11s.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Breast the wave, Christian, when it is strongest;\nWatch for day, Christian, when night is longest;\nOnward and upward still be thine endeavor;\nThe rest that remaineth endureth forever."
+    },
+    {
+      "number": 2,
+      "text": "Fight the fight, Christian, Jesus is o'er thee;\nRun the race, Christian, heaven is before thee;\nHe who hath promised will falter, no, never;\nO trust in the love that endureth forever."
+    },
+    {
+      "number": 3,
+      "text": "Lift the eye, Christian, just as it closeth;\nRaise the heart, Christian, ere it reposeth;\nNothing thy soul from the Saviour can sever;\nAnd soon shalt thou see him and praise him forever."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christian warfare", "perseverance", "heaven"],
+    "scripture_references": [],
+    "tune_source": "London, Ernest Radford",
+    "original_language": "en"
+  }
+}

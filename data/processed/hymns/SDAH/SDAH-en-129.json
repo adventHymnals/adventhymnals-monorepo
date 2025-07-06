@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-129",
+  "number": 129,
+  "title": "As It Fell Upon a Night",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "6.6.6.6.6.6.6.6",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "As it fell upon a night\nIn the winter weather,\nAngels bright in starry height\nBegan to sing together:\nHeard the King of Love most\nEvery one to sing together."
+    },
+    {
+      "number": 2,
+      "text": "Shepherds sleep- ing on the plain\nWoke to see the glory;\nAll amazed they stood and gazed\nAnd heard the wondrous story."
+    },
+    {
+      "number": 3,
+      "text": "Unto you a child is born\nIn a manger lowly;\nHumble, yet born to be\nThe everlasting holy."
+    },
+    {
+      "number": 4,
+      "text": "Happy angels from afar,\nCease your singing never!\nIn ex- cel- sis glo- ri- a!\nFor- ever and forever."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["christmas", "nativity", "angels", "shepherds", "worship"],
+    "scripture_references": ["Luke 2:8-20"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

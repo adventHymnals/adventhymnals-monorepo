@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-216",
+  "number": 216,
+  "title": "When the Roll Is Called Up Yonder",
+  "author": "James M. Black",
+  "composer": "James M. Black",
+  "tune": "ROLL CALL",
+  "meter": "10.9.10.9 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When the trumpet of the Lord shall sound, and time shall be no more,\nAnd the morning breaks, eternal, bright and fair;\nWhen the saved of earth shall gather over on the other shore,\nAnd the roll is called up yonder, I'll be there."
+    },
+    {
+      "number": 2,
+      "text": "On that bright and cloudless morning, when the dead in Christ shall rise,\nAnd the glory of His resurrection share;\nWhen His chosen ones shall gather to their home beyond the skies,\nAnd the roll is called up yonder, I'll be there."
+    },
+    {
+      "number": 3,
+      "text": "Let us labor for the Master from the dawn till setting sun,\nLet us talk of all His wondrous love and care;\nThen, when all of life is over, and our work on earth is done,\nAnd the roll is called up yonder, I'll be there."
+    }
+  ],
+  "chorus": {
+    "text": "When the roll is called up yonder,\nWhen the roll is called up yonder,\nWhen the roll is called up yonder,\nWhen the roll is called up yonder, I'll be there."
+  },
+  "metadata": {
+    "year": 1893,
+    "copyright": "Public Domain",
+    "themes": ["Second Coming", "Heaven", "Judgment", "Readiness"],
+    "scripture_references": ["1 Corinthians 15:51-52", "1 Thessalonians 4:16-17"],
+    "tune_source": "James M. Black, 1893",
+    "original_language": "en"
+  }
+}

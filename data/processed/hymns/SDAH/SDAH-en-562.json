@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-562",
+  "number": 562,
+  "title": "Come, Sing a Song of Harvest",
+  "author": "Fred Pratt Green",
+  "composer": "Horst Gehann",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, sing a song of harvest,\nOf thanks for daily food!\nTo offer God the first-fruits\nIs old as gratitude."
+    },
+    {
+      "number": 2,
+      "text": "Long, long ago, the reapers,\nBefore they kept the feast,\nPut first-fruits in a basket\nAnd took it to the priest."
+    },
+    {
+      "number": 3,
+      "text": "Shall we, sometimes forgetful\nOf where creation starts,\nWith science in our pockets\nLose wonder from our hearts?"
+    },
+    {
+      "number": 4,
+      "text": "God, the great Creator,\nTo whom all life belongs,\nAccept these gifts we offer,\nAnd our songs."
+    },
+    {
+      "number": 5,
+      "text": "And lest the world go hungry\nWhile we ourselves are fed,\nMake each of us more ready\nTo share our daily bread."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1976,
+    "copyright": "1976 Hope Publishing Co.",
+    "themes": ["harvest", "thanksgiving", "sharing", "first fruits"],
+    "scripture_references": [],
+    "tune_source": "Horst Gehann",
+    "original_language": "en"
+  }
+}

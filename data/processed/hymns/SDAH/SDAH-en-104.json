@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-104",
+  "number": 104,
+  "title": "My Shepherd Will Supply My Need",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My Shepherd will supply my need;\nJehovah is His name.\nIn pastures fresh He makes me feed,\nBeside the living stream."
+    },
+    {
+      "number": 2,
+      "text": "When I walk through the shades of death,\nThy presence is my stay;\nA word of Thy supporting breath\nDrives all my fears away."
+    },
+    {
+      "number": 3,
+      "text": "The sure provisions of my God\nAttend me all my days;\nO may Thy house be mine abode,\nAnd all my work be praise."
+    }
+  ],
+  "chorus": {
+    "text": "He brings my wandering spirit back\nWhen I forsake His ways,\nAnd leads me for His mercy's sake\nIn paths of truth and grace."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["shepherd", "psalm_23", "trust", "guidance"],
+    "scripture_references": ["Psalm 23"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-417",
+  "number": 417,
+  "title": "O Solemn Thought",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O solemn thought and can it be\nThe hour of judgment now is come;\nWhich soon must fix our destiny,\nAnd seal the sinner's fearful doom?"
+    },
+    {
+      "number": 2,
+      "text": "He who came down to earth to die\nAn offering for the sins of men,\nAnd then ascended up on high,\nAnd will e'er long return again."
+    },
+    {
+      "number": 3,
+      "text": "The solemn moment is at hand\nWhen we who have His name confessed,\nEach in his lot must singly stand\nAnd pass the final, searching test."
+    },
+    {
+      "number": 4,
+      "text": "O blessed Savior! may we feel\nThe full importance of this hour.\nInspire our hearts with holy zeal,\nAnd aid us by Thy Spirit's power."
+    }
+  ],
+  "chorus": {
+    "text": "Yes, it is so; the judgment hour\nIs swiftly hastening to its close;\nAnd mercy now seat and power,\nIn mercy now up on us."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Judgment", "Second Coming", "Solemnity", "Salvation"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

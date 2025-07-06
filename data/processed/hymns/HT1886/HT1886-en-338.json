@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-338",
+  "number": 338,
+  "title": "The morning kindles all the sky",
+  "author": "Ambrosian",
+  "composer": null,
+  "tune": "108, 514, 562",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The morning kindles all the sky, The heavens resound with anthems high,\nThe shining angels, as they speed, Proclaim, \"The Lord is risen indeed!\""
+    },
+    {
+      "number": 2,
+      "text": "Vainly with rocks his tomb was barred, While Roman warriors stood on guard;\nMajestic from the spoiled tomb In pomp of triumph, he has come!"
+    },
+    {
+      "number": 3,
+      "text": "When the amazed disciples heard, Their hearts with speechless joy were stirred;\nTheir Lord's beloved face to see, Eager they haste to Galilee."
+    },
+    {
+      "number": 4,
+      "text": "His pierced hands to them he shows, His face with love's own radiance glows;\nThey with the angels' message speed, And shout, \"The Lord is risen indeed!\""
+    },
+    {
+      "number": 5,
+      "text": "O Christ, thou King compassionate! Our hearts possess, on thee we wait;\nHelp us to render praises due, To thee the endless ages through!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Resurrection and Ascension", "morning", "angels", "triumph", "joy"],
+    "scripture_references": [],
+    "tune_source": "108, 514, 562",
+    "original_language": "en"
+  }
+}

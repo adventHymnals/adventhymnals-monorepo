@@ -1,0 +1,45 @@
+{
+  "id": "MH1843-en-PT3-076",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "076",
+  "title": "How beauteous are their feet",
+  "verses": [
+    {
+      "number": "1",
+      "text": "How beauteous are their feet Who stand on Zion's hill! That bring salvation on their tongues, And words of peace reveal!"
+    },
+    {
+      "number": "2",
+      "text": "How charming is their voice, So sweet the tidings are; \"Zion, behold thy Savior, King; He reigns and triumphs here!\""
+    },
+    {
+      "number": "3",
+      "text": "How happy are our ears, That hear the joyful sound, Which kings and prophets waited for, And sought, but never found."
+    },
+    {
+      "number": "4",
+      "text": "How blessed are our eyes, That see this heavenly light; Prophets and kings desired it long, But died without the sight."
+    },
+    {
+      "number": "5",
+      "text": "The watchmen join their voice, And tuneful notes employ; Jerusalem breaks forth in songs, And deserts learn the joy."
+    },
+    {
+      "number": "6",
+      "text": "The Lord makes bare his arm Through all the earth abroad; Let every nation now behold Their Savior and their God."
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "S.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 215,
+  "themes": ["Feet", "Zion", "Salvation", "Peace", "Savior", "King", "Jerusalem"],
+  "key_signature": "",
+  "time_signature": ""
+}

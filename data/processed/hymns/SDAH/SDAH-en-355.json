@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-355",
+  "number": 355,
+  "title": "Where Cross the Crowded Ways of Life",
+  "author": "Frank Mason North",
+  "composer": "William Gardiner",
+  "tune": "Germany",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Where cross the crowded ways of life,\nWhere sound the cries of race and clan,\nAbove the noise of selfish strife,\nWe hear Your voice, O Son of Man."
+    },
+    {
+      "number": 2,
+      "text": "From tender childhood's helplessness,\nFrom human grief and burden toil,\nFrom famished souls, from sorrow's stress,\nYour heart has never known recoil."
+    },
+    {
+      "number": 3,
+      "text": "The cup of water given for You\nStill holds the freshness of Your grace;\nYet long these multitudes to view\nThe sweet compassion of Your face."
+    },
+    {
+      "number": 4,
+      "text": "O Master, from the mountainside,\nMake haste to heal these hearts of pain;\nAmong these restless throngs abide,\nO tread the city's streets again."
+    },
+    {
+      "number": 5,
+      "text": "Till all the world shall learn Your love,\nAnd follow where Your feet have trod;\nTill glorious from Your heaven above\nShall come the city of our God."
+    }
+  ],
+  "metadata": {
+    "year": 1903,
+    "copyright": "Public Domain",
+    "themes": ["mission", "urban ministry", "social concern", "compassion"],
+    "scripture_references": ["Matthew 9:36", "Matthew 25:31-46"],
+    "tune_source": "William Gardiner's Sacred Melodies, 1815",
+    "original_language": "en",
+    "author_dates": "1850-1935"
+  }
+}

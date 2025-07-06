@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-178",
+  "number": 178,
+  "title": "Great God, with wonder and with praise",
+  "author": "Isaac Watts",
+  "composer": "",
+  "tune": "",
+  "meter": "27, 74, 70",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Great God, with wonder and with praise\nOn all thy works I look;\nBut still thy wisdom, power, and grace\nShine brightest in thy book."
+    },
+    {
+      "number": 2,
+      "text": "Lord, make me understand thy law;\nShow me thy truth divine;\nAnd from thy gospel let me draw\nForgiveness for my sin."
+    },
+    {
+      "number": 3,
+      "text": "Here are my choicest treasures hid,\nHere my best comfort lies;\nHere my desires are satisfied,\nAnd here my hopes arise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's greatness", "divine wisdom", "God's law", "gospel truth", "spiritual treasures"],
+    "scripture_references": [],
+    "tune_source": "27, 74, 70",
+    "original_language": "en"
+  }
+}

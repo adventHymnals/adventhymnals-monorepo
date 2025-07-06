@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-537",
+  "number": 537,
+  "title": "He Leadeth Me",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "He leadeth me! O blessed thought!\nO words with heavenly comfort fraught!\nWhatever I do, wherever I be,\nStill 'tis God's hand that leadeth me."
+    },
+    {
+      "number": 2,
+      "text": "Sometimes 'mid scenes of deepest gloom,\nSometimes where Eden's bowers bloom,\nBy waters still, o'er troubled sea,\nStill 'tis His hand that leadeth me!"
+    },
+    {
+      "number": 3,
+      "text": "Lord, I would clasp my hand in Thine,\nNor ever murmur nor repine;\nContent, whatever lot I see,\nSince 'tis my God that leadeth me."
+    },
+    {
+      "number": 4,
+      "text": "And when my task on earth is done,\nWhen, by Thy grace, the victory's won,\nE'en death's cold wave I will not flee,\nSince God through Jordan leadeth me."
+    }
+  ],
+  "chorus": {
+    "text": "He leadeth me, He leadeth me,\nBy His own hand He leadeth me;\nHis faithful follower I would be,\nFor by His hand He leadeth me."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["guidance", "trust", "leadership", "God's care"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

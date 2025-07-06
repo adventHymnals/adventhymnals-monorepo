@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-177",
+  "number": 177,
+  "title": "Jesus, Your Blood and Righteousness",
+  "author": "Nicolaus Ludwig von Zinzendorf; tr. John Wesley",
+  "composer": "William Gardiner",
+  "tune": "Germany",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, Your blood and righteousness\nMy beauty are, my glorious dress;\nMidst flaming worlds, in these arrayed,\nWith joy shall I lift up my head."
+    },
+    {
+      "number": 2,
+      "text": "Bold shall I stand in that great day,\nCleansed and redeemed, no debt to pay;\nFor by Your cross absolved I am\nFrom sin and guilt, from fear and shame."
+    },
+    {
+      "number": 3,
+      "text": "Lord, I believe Your precious blood,\nWhich at the mercy seat of God\nForever does for sinners plead,\nFor me, even for my soul, was shed."
+    },
+    {
+      "number": 4,
+      "text": "When from the dust of death I rise\nTo claim my mansion in the skies,\nThen shall I be fulfilled in these,\nAnd sin and I will Jesus' be."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1739,
+    "copyright": null,
+    "themes": ["righteousness", "blood_of_christ", "redemption", "justification", "salvation"],
+    "scripture_references": ["Isaiah 61:10", "Romans 3:21-26"],
+    "tune_source": null,
+    "original_language": "de"
+  }
+}

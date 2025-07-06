@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-057",
+  "number": 57,
+  "title": "God is our refuge and defence",
+  "author": null,
+  "composer": "Isaac Watts",
+  "tune": "901, 856, 704",
+  "meter": "901, 856, 704",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God is our refuge and defence,\nIn trouble our unfailing aid;\nSecure in his omnipotence,\nWhat foe can make our souls afraid?"
+    },
+    {
+      "number": 2,
+      "text": "Yea, though the earth's foundations rock,\nAnd mountains down the gulf be hurled,\nHis people smile and the shock,\nThey look beyond this transient world."
+    },
+    {
+      "number": 3,
+      "text": "Built by the word of his command,\nTen thousand worlds on nothing rest;\nAnd living things are in his hand,\nAnd he who trusts his word is blest."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's refuge", "divine protection", "security", "God's omnipotence", "trust", "faith"],
+    "scripture_references": [],
+    "tune_source": "Isaac Watts",
+    "original_language": "en"
+  }
+}

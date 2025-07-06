@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-009",
+  "number": 9,
+  "title": "Praise Ye the Father",
+  "author": "Elizabeth Rundle Charles",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise ye the Father for His loving kindness,\nTenderly cares He for His erring children;\nPraise Him, ye angels, praise Him in the heavens,\nPraise ye Jehovah!"
+    },
+    {
+      "number": 2,
+      "text": "Praise ye the Savior, great is His compassion,\nGraciously cares He for His chosen people;\nYoung men and maidens, ye old men and children,\nPraise ye the Savior!"
+    },
+    {
+      "number": 3,
+      "text": "Praise ye the Spirit, Comforter of Israel,\nSent of the Father and the Son to bless us;\nPraise ye the Father, Son, and Holy Spirit,\nPraise ye the Triune God!"
+    }
+  ],
+  "metadata": {
+    "year": 1860,
+    "copyright": "Public Domain",
+    "themes": ["praise", "Trinity", "Father", "salvation"],
+    "scripture_references": ["Psalm 150"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

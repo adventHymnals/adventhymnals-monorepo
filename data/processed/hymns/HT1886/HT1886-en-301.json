@@ -1,0 +1,44 @@
+{
+  "id": "HT1886-en-301",
+  "number": 301,
+  "title": "My blest Redeemer and my Lord",
+  "author": "Lowell Mason",
+  "composer": null,
+  "tune": "Rockingham",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My blest Redeemer and my Lord,\nI read my duty in thy word;\nBut in thy life the law appears,\nDrawn out in living characters."
+    },
+    {
+      "number": 2,
+      "text": "What truth and love thy bosom fill!\nWhat zeal and joy thy fathers will!\nSuch zeal, and truth, and love divine,\nI would transcribe, and make them mine."
+    },
+    {
+      "number": 3,
+      "text": "Cold mountains and the midnight air\nWitnessed the fervor of thy prayer;\nThe desert thy temptations knew,\nThy conflict, and thy victory too."
+    },
+    {
+      "number": 4,
+      "text": "Be thou my pattern; make me bear\nMore of thy gracious image here;\nThen God, the Judge, shall own my name\nAmong the followers of the Lamb."
+    },
+    {
+      "number": 5,
+      "text": "And death, that sets the prisoner free,\nWas pang, and scoff, and scorn to thee;\nYet love through all thy fortune glowed,\nAnd mercy with thy life-blood flowed."
+    },
+    {
+      "number": 6,
+      "text": "O wondrous Lord, my soul would be\nStill more and more conformed to thee,\nAnd learn of thee, the lowly One,\nAnd like thee, all my journey run."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Life and Character", "discipleship", "imitation", "love", "devotion"],
+    "scripture_references": [],
+    "tune_source": "Rockingham, Lowell Mason",
+    "original_language": "en"
+  }
+}

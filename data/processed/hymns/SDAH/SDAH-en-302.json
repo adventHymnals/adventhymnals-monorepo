@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-302",
+  "number": 302,
+  "title": "Deeper Yet",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In the blood from the cross I have been washed from sin;\nBut to be free from dross, still I would enter in."
+    },
+    {
+      "number": 2,
+      "text": "Day by day, hour by hour, blessings are sent to me;\nBut for more of His power, ever my prayer shall be."
+    },
+    {
+      "number": 3,
+      "text": "Near to Christ I would live, following Him each day;\nWhat I ask He will give, so then with faith I pray."
+    },
+    {
+      "number": 4,
+      "text": "Now I have peace, sweet peace, while in this world of sin;\nBut to pray I'll not cease till I am pure within."
+    }
+  ],
+  "chorus": {
+    "text": "Deeper yet, deeper yet, into the crimson flood;\nDeeper yet, deeper yet, under the precious blood."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Sanctification", "Cleansing", "Blood of Jesus", "Prayer"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

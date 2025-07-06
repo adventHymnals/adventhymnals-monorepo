@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-330",
+  "number": 330,
+  "title": "Memorial",
+  "author": "Unknown",
+  "composer": null,
+  "tune": "7s & 6s. D.",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O sacred Head, once wounded, With grief and shame weighed down; Once scornfully surrounded With thorns, thine only crown;"
+    },
+    {
+      "number": 2,
+      "text": "What thou, my Lord, hast suffered, Was all for sinners' gain:\nMine, mine was the transgression, But thine the deadly pain.\nLo, here I fall, my Saviour!\n'Tis I deserve thy place;\nLook on me with thy favour, Vouchsafe to me thy grace."
+    },
+    {
+      "number": 3,
+      "text": "What language shall I borrow To thank thee, dearest Friend,\nFor this, thy dying sorrow, Thy pity without end?\nO, make me thine forever; Nor let me faithless prove;\nO, let me never, never Abuse such dying love!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "crucifixion", "gratitude", "love", "sacrifice"],
+    "scripture_references": [],
+    "tune_source": "492, 249, 415",
+    "original_language": "en"
+  }
+}

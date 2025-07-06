@@ -1,0 +1,34 @@
+{
+  "id": "HT1886-en-470",
+  "number": 470,
+  "title": "Rock of Ages",
+  "author": "Augustus M. Toplady",
+  "composer": "Thomas Hastings",
+  "tune": "Toplady",
+  "meter": "7.7.7.7.7.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Rock of ages, cleft for me,\nLet me hide myself in thee;\nLet the water and the blood,\nFrom thy wounded side which flowed,\nBe of sin the double cure,\nSave from wrath and make me pure."
+    },
+    {
+      "number": 2,
+      "text": "Could my tears forever flow,\nCould my zeal no langour know,\nThese for sin could not atone;\nThou must save, and thou alone:\nIn my hand no price I bring,\nSimply to thy cross I cling."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": [
+      "salvation",
+      "refuge",
+      "Jesus' sacrifice",
+      "grace"
+    ],
+    "scripture_references": [],
+    "tune_source": "Toplady, Thomas Hastings",
+    "original_language": "en",
+    "extraction_status": "ai_vision_extracted"
+  }
+}

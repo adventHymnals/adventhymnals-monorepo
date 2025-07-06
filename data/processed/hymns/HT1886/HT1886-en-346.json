@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-346",
+  "number": 346,
+  "title": "Jesus, thy blood and righteousness",
+  "author": "Nicolaus Zinzendorf",
+  "composer": null,
+  "tune": "167, 336, 562.",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, thy blood and righteousness My beauty are, my glorious dress;\nMid hosts of sins, in these arrayed, My soul shall never be afraid."
+    },
+    {
+      "number": 2,
+      "text": "Lord, I believe thy precious blood, Which, at the mercy-seat of God,\nForever doth for sinners plead, Can cleanse my guilty soul indeed."
+    },
+    {
+      "number": 3,
+      "text": "Lord, I believe were sinners more Than sands upon the ocean shore,\nThou hast for all a ransom paid, For all a full provision made."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Mediation and Atonement", "blood", "righteousness", "mercy", "provision"],
+    "scripture_references": [],
+    "tune_source": "167, 336, 562.",
+    "original_language": "en"
+  }
+}

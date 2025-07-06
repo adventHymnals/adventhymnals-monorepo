@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-043",
+  "number": 43,
+  "title": "The New Jerusalem",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lo, what a glorious sight appears,\nTo our believing eyes;\nThe earth and seas are pass'd away,\nAnd the old rolling skies."
+    },
+    {
+      "number": 2,
+      "text": "From the third heav'n where God resides,\nThat holy, happy place;\nThe New Jerusalem comes down,\nAdorn'd with shining grace."
+    },
+    {
+      "number": 3,
+      "text": "Attending angels shout for joy,\nAnd the bright armies sing,\n\"Mortals behold the sacred seat\nOf your eternal King!\""
+    },
+    {
+      "number": 4,
+      "text": "How long, dear Saviour, 0 how long\nShall this bright hour delay?\nFly swift around, ye wheels of time,\nAnd bring the welcome day."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["new jerusalem", "eternal city", "new heavens and earth", "angels", "eternal king"],
+    "scripture_references": ["Rev 21:1-4", "Rev 21:10-27", "2 Pet 3:13"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

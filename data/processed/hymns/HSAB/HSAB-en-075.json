@@ -1,0 +1,32 @@
+{
+  "id": "HSAB-en-075",
+  "number": 75,
+  "title": "Life At Home",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "A LIFE in the future world,\nA home that shall never cloy;\nA home where the saints shall sing,\nAnd swell the rapturous joy.\nHere, the whole creation groans,\nWith sighs and plaintive moans;\nLord let thy kingdom come,\nAnd gather the faithful home."
+    },
+    {
+      "number": 2,
+      "text": "Great God in mercy hear\nThe remnant, now they cry;\nCompassionate their tears,\nAnd save them, lest they die.\nO, let the trumpet sound,\nAnd all the saints awake,\nAnd with bright glory crown'd,\nThe new possession take.\nThe prophets sought, &c."
+    },
+    {
+      "number": 3,
+      "text": "O, let the North give up–\nThe East and West obey;\nThe South her daughters bring–\nThy sons from far away.\nLet the earth give up her slain,\nThe sea resign her dead,\nAnd all the saints appear,\nTriumphant with their Head.\nThe prophets sought, &c."
+    }
+  ],
+  "chorus": {
+    "text": "The prophets sought this home,\nBut died without the sight:\nAs pilgrims here they roam'd,\nAnd never saw the light.\nThe light, the light,\nThey never saw the light."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["future world", "creation groans", "trumpet sound", "prophets sought", "light"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

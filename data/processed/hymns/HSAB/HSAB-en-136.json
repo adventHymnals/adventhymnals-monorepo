@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-136",
+  "number": 136,
+  "title": "LORD'S SUPPER",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "COMING, Saviour, now in faith,\nWe remember still thy death,\nThou wast broken—thou hast died,\nFor us thou wast crucified."
+    },
+    {
+      "number": 2,
+      "text": "While in faith we drink the wine,\nOf thy blood we see the sign,\nWash us pure from every stain,\nThou that comest soon to reign."
+    },
+    {
+      "number": 3,
+      "text": "Lord, we thus remember thee;\nBut we long thy face to see—\nLong to reach our heav'nly home,\nCome, Lord Jesus, quickly come!"
+    },
+    {
+      "number": 4,
+      "text": "Quickly, thou thyself wilt come,\nThou wilt raise us to thy throne\nAnd thy glories here display\nTo a never ending day."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Lord's Supper", "communion", "death", "crucifixion", "faith", "blood", "Second Coming", "heavenly home"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

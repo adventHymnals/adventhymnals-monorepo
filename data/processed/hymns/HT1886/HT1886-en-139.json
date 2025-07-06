@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-139",
+  "number": 139,
+  "title": "Come, Holy Spirit, calm my mind",
+  "author": "Steenett",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, Holy Spirit, calm my mind,\nAnd fit me to approach my God;\nRemove each sinful, worldly thought,\nAnd lead me to thy blest abode."
+    },
+    {
+      "number": 2,
+      "text": "Hast thou imparted to my soul\nA living spark of holy fire?\nO, kindle now the sacred flame;\nMake me to burn with pure desire."
+    },
+    {
+      "number": 3,
+      "text": "A brighter faith and hope impart,\nAnd let me now my Saviour see;\nO, so-the sad and cheer my burdened heart,\nAnd bid my spirit rest in thee."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "prayer", "purification", "holy fire", "faith", "hope", "rest in God"],
+    "scripture_references": ["Acts 2:3", "1 Thessalonians 5:19"],
+    "tune_source": "216, 717, 215",
+    "original_language": "en"
+  }
+}

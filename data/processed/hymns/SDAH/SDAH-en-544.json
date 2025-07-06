@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-544",
+  "number": 544,
+  "title": "Jesus, Son of Blessed Mary",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, Son of blessed Mary,\nOnce on earth a little child,\nPattern fair of holy living,\nGracious, loving, undefiled;"
+    },
+    {
+      "number": 2,
+      "text": "Though Thy eager heart was yearning\nHeavy laden souls to free,\nYet Thou callest little children\nIn their happiness to Thee."
+    },
+    {
+      "number": 3,
+      "text": "Grant that we, like little children,\nFree from pride and guile may be;\nCheerful, trusting, safe, protected\nBy the blessed Trinity."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus as child", "childlike faith", "innocence", "Trinity"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

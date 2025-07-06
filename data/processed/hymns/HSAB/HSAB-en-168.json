@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-168",
+  "number": 32,
+  "title": "IN EXPECTATION SWEET",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "IN expectation sweet,\nWe'll wait, and sing, and pray,\nTill Christ's triumphal car we meet,\nAnd see an endless day."
+    },
+    {
+      "number": 2,
+      "text": "He comes! The Conqueror comes!\nDeath falls beneath his sword;\nThe joyful prisoners burst the tombs\nAnd rise to meet their Lord."
+    },
+    {
+      "number": 3,
+      "text": "The trumpet sounds, \"Awake!\nYe dead, to judgment come!\"\nThe pillars of creation shake,\nWhile man receives his doom."
+    },
+    {
+      "number": 4,
+      "text": "Thrice happy morn for those\nWho love the ways of peace;\nNo night of sorrow e'er shall close,\nOr shade their perfect bliss."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["expectation", "Second Coming", "resurrection", "judgment", "triumph", "peace", "bliss"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

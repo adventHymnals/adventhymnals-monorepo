@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-085",
+  "number": 85,
+  "title": "Eternal Light",
+  "author": "Thomas Binney",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "10.10.10.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Eternal Light! Eternal Light!\nHow pure the soul must be,\nWhen, placed within Thy searching sight,\nIt shrinks not, but with calm delight\nCan live, and look on Thee."
+    },
+    {
+      "number": 2,
+      "text": "The spirits that surround Thy throne\nMay bear the burning bliss;\nBut that is surely theirs alone,\nSince they have never, never known\nA fallen world like this."
+    },
+    {
+      "number": 3,
+      "text": "O how shall I, whose native sphere\nIs dark, whose mind is dim,\nBefore the Ineffable appear,\nAnd on my naked spirit bear\nThe uncreated beam?"
+    },
+    {
+      "number": 4,
+      "text": "There is a way for man to rise\nTo that sublime abode:\nAn offering and a sacrifice,\nA Holy Spirit's energies,\nAn Advocate with God."
+    }
+  ],
+  "metadata": {
+    "year": 1826,
+    "copyright": "Public Domain",
+    "themes": ["holiness", "purity", "God's light", "redemption"],
+    "scripture_references": ["1 John 1:5", "Hebrews 12:29"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

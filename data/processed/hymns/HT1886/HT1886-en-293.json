@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-293",
+  "number": 293,
+  "title": "Hark! the herald angels sing",
+  "author": "Charles Wesley",
+  "composer": "Felix Mendelssohn-Bartholdy",
+  "tune": "Herald Angels",
+  "meter": "7s. D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! the herald angels sing,\n\"Glory to the new-born King;\nPeace on earth, and mercy mild,\nGod and sinners reconciled!\"\nJoyful, all ye nations, rise,\nJoin the triumph of the skies;\nWith the angelic host proclaim,\n\"Christ is born in Bethlehem!\""
+    },
+    {
+      "number": 2,
+      "text": "Christ, by highest heaven adored,\nChrist the everlasting Lord;\nIn the manger born a king,\nWhile adoring angels sing,\n\"Peace on earth, to men good-will;\"\nBid the trembling soul be still.\nChrist on earth has come to dwell,\nJesus, our Emmanuel!"
+    },
+    {
+      "number": 3,
+      "text": "Hail! the heaven-born Prince of peace!\nHail! the Sun of righteousness!\nLife and light to all he brings,\nRisen with healing in his wings.\nMild he lays his glory by,\nBorn that man no more may die,\nBorn to raise the sons of earth,\nBorn to give them second birth."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "First Advent", "Christmas", "angels", "glory", "peace"],
+    "scripture_references": [],
+    "tune_source": "Herald Angels, 7s. D.",
+    "original_language": "en"
+  }
+}

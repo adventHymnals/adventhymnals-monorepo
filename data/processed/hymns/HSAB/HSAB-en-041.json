@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-041",
+  "number": 41,
+  "title": "Watchman, Tell Us of the Night",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WATCHMAN! Tell us of night,\nWhat its signs of promise are.\nTraveler! O'er yon mountain's height\nSee that glory-beaming star!\nWatchman, does its beauteous ray\nAught of hope or joy foretell?\nTraveler! Yes; it brings the day,\nPromised day of Israel."
+    },
+    {
+      "number": 2,
+      "text": "Watchman! Tell us of the night;\nHigher yet that star ascends.\nTraveler! Blessedness and light,\nPeace and truth its course portends.\nWatchman, will its beams alone\nGild the spot that gave them birth?\nTraveler! Ages are its own;\nSee! It bursts o'er all the earth!"
+    },
+    {
+      "number": 3,
+      "text": "Watchman! Tell us of the night,\nFor the morning seems to dawn.\nTraveler! Darkness takes its flight,\nDoubt and terror are withdrawn!\nWatchman! Let thy wandering cease,\nHie thee to thy quiet home.\nTraveler! Lo, the Prince of Peace,\nLo, the Son of God has come!"
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["watchman", "night", "dawn", "prince of peace", "hope"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

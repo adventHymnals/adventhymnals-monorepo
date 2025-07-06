@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-193",
+  "number": 193,
+  "title": "Savior, Teach Me",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Savior, teach me day by day,\nLove's sweet lesson to obey;\nSweeter lesson cannot be,\nLoving Him who first loved me."
+    },
+    {
+      "number": 2,
+      "text": "With a child's glad heart of love,\nAt Thy bidding may I move,\nPrompt to serve and follow Thee,\nLoving Him who first loved me."
+    },
+    {
+      "number": 3,
+      "text": "Teach me I am not my own,\nI am Thine, and Thine alone;\nTeach me to keep Thy rule,\nLoving Him who first loved me."
+    },
+    {
+      "number": 4,
+      "text": "Love in loving finds employ,\nIn obedience all her joy;\nEver new that joy will be,\nLoving Him who first loved me."
+    },
+    {
+      "number": 5,
+      "text": "Teach me thus Thy steps to trace,\nStrong to follow in Thy grace;\nLearning how to love from Thee,\nLoving Him who first loved me."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["teaching", "love", "obedience", "discipleship", "devotion"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

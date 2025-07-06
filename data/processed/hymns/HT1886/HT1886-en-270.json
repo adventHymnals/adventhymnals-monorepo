@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-270",
+  "number": 270,
+  "title": "When shall we meet again",
+  "author": null,
+  "composer": null,
+  "tune": "Unity",
+  "meter": "6s & 5s.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When shall we meet again,\nMeet ne'er to sever?\nWhen will peace\nwreathe her chain\nRound us forever?\nOur hearts will ne'er repose,\nSafe from each blast that blows,\nIn this dark vale of woes,\nNever,—no, never!"
+    },
+    {
+      "number": 2,
+      "text": "When shall love freely flow\nPure as life's river?\nWhen shall friendship glow,\nChangeless forever?\nThere bliss each heart shall fill,\nAnd tears of joy distil\nNever,—no, never!"
+    },
+    {
+      "number": 3,
+      "text": "Then to that world of light\nTake us, dear Saviour;\nMay we all there unite,\nBlessed forever;\nWhere friendship's endless dwell,\nThere may our music swell,\nAnd time our joys dispel\nNever,—no, never!"
+    },
+    {
+      "number": 4,
+      "text": "Soon shall we meet again,\nMeet ne'er to sever;\nSoon shall peace wreath her chain\nRound us forever;\nOur hearts shall then repose,\nSecure from worldly woes,\nOur songs of praise shall close\nNever,—no, never!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "reunion", "peace", "heaven"],
+    "scripture_references": [],
+    "tune_source": "Unity, 6s & 5s.",
+    "original_language": "en"
+  }
+}

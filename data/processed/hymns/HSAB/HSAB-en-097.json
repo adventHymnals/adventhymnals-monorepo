@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-097",
+  "number": 97,
+  "title": "HAIL TO THE BRIGHTNESS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "HAIL to the brightness of Zion's glad morning!\nJoy to the lands that in darkness have lain;\nHush'd be the accents of sorrow and mourning,\nZion in triumph begins her mild reign."
+    },
+    {
+      "number": 2,
+      "text": "Lo, in the desert rich flowers are springing,\nStreams ever copious are gliding along;\nLoud from the mountain-tops echoes are ringing,\nWastes rise in verdure, and mingle in song."
+    },
+    {
+      "number": 3,
+      "text": "See, the dead risen from land and from ocean,\nPraise to Jehovah, ascending on high;\nFall'n are the engines of war and commotion,\nShouts of salvation are rending the sky."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Zion", "triumph", "second advent", "resurrection", "salvation", "joy"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

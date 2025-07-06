@@ -1,0 +1,33 @@
+{
+  "id": "HGPP-en-003",
+  "number": 3,
+  "title": "Heaven",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We speak of the joys of the blest—\nOf that country so bright and so fair;\nAnd oft are its glories confest;\nBut what must it be to be there?\nWe speak of its pathway of gold;\nOf its walls deck'd with jewels so rare,\nOf its wonders and pleasures untold\nBut what must it be to be there?"
+    },
+    {
+      "number": 2,
+      "text": "We speak of its freedom from sin,\nFrom sorrow, temptation and care,\nFrom trials without and within\nBut what must it be to be there?\nWe speak of its service of love;\nOf the robes which the glorified wear;\nOf the Church of the first born above,\nBut what must it be to be there?"
+    },
+    {
+      "number": 3,
+      "text": "Do Thou 'midst temptation or wo,\nStill for heaven my Sprit prepare;\nAnd shortly I also shall know,\nAnd feel what it is to be there.\nThen o'er the bright fields we shall roam,\nIn glory celestial and fair,\nWith saints and with angels at home,\nAnd Jesus himself will be there."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "eternal life", "glory", "second coming", "celestial home"],
+    "scripture_references": ["Rev 21:1-4", "1 Cor 2:9", "Phil 3:20-21"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

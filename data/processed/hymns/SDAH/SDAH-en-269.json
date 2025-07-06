@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-269",
+  "number": 269,
+  "title": "Come, Holy Spirit",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, Holy Spirit, heavenly Dove,\nWith all Thy quickening powers;\nKindle a flame of sacred love\nIn these cold hearts of ours."
+    },
+    {
+      "number": 2,
+      "text": "O raise our thoughts from things below,\nFrom vanities and toys!\nTill praise employs our thankful tongues,\nTo reach eternal joys."
+    },
+    {
+      "number": 3,
+      "text": "Awake our souls to joyful songs,\nLet pure devotions rise;\nAnd doubt forevervanish\nAt this poor, dying rate."
+    },
+    {
+      "number": 4,
+      "text": "Father, we want a longing rate,\nAt this poor, dying rate;\nTo Thee our thankful love we give,\nFor Thine to us is great."
+    },
+    {
+      "number": 5,
+      "text": "Come, Holy Spirit, heavenly Dove,\nWith all Thy quickening powers;\nCome, shed abroad a Savior's love,\nAnd that shall kindle ours."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Holy Spirit", "Heavenly Dove", "Sacred Love", "Spiritual Power"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

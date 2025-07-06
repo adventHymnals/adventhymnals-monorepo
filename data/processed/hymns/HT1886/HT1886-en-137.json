@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-137",
+  "number": 137,
+  "title": "Pour out thy Spirit from on high",
+  "author": "James Montgomery",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Pour out thy Spirit from on high;\nLord, thine assembled servants bless;\nGraces and gifts to each supply,\nAnd clothe us all with righteousness."
+    },
+    {
+      "number": 2,
+      "text": "Wisdom, and zeal, and faith impart,\nFirmness, with meekness from above,\nTo bear thy people on our heart,\nAnd love the souls whom thou dost love;"
+    },
+    {
+      "number": 3,
+      "text": "To watch and pray, and never faint,\nBy day and night strict guard to keep;\nTo warn the sinner, cheer the saint,\nNourish thy lambs, and feed thy sheep."
+    },
+    {
+      "number": 4,
+      "text": "Then, when our work is finished here,\nIn humble hope our charge resign;\nWhen the chief Shepherd shall appear,\nO God! may they and we be thine!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "ministry", "pastoral care", "righteousness", "spiritual gifts", "chief Shepherd"],
+    "scripture_references": ["1 Peter 5:4", "Acts 2:17"],
+    "tune_source": "68, 740, 47",
+    "original_language": "en"
+  }
+}

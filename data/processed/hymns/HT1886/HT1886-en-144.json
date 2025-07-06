@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-144",
+  "number": 144,
+  "title": "Come, Holy Spirit, heav'nly Dove",
+  "author": "Isaac Watts",
+  "composer": "William Tansur",
+  "tune": "St. Martin's",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, Holy Spirit, heav'nly Dove,\nWith all thy quick'ning powers;\nKindle a flame of sacred love\nIn these cold hearts of ours."
+    },
+    {
+      "number": 2,
+      "text": "O raise our thoughts from things below,\nFrom vanities and toys;\nThen shall we with fresh courage go\nTo reach eternal joys."
+    },
+    {
+      "number": 3,
+      "text": "Awake our souls to joyful songs,\nAnd let pure devotion rise;\nTill praise employs our thankful tongues,\nAnd sound forever dies."
+    },
+    {
+      "number": 4,
+      "text": "Father, we wait to feel thee live\nAt this poor, dying rate,\nTo find our bliss from thee we give,\nFor thine to us is great."
+    },
+    {
+      "number": 5,
+      "text": "Come, Holy Spirit, heavenly Dove,\nWith all thy quick'ning powers;\nCome, shed abroad a Saviour's love,\nAnd feed all mortal hours."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "worship", "devotion", "spiritual awakening", "prayer"],
+    "scripture_references": [],
+    "tune_source": "St. Martin's, William Tansur",
+    "original_language": "en"
+  }
+}

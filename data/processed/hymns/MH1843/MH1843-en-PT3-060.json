@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-060",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "060",
+  "title": "Hark! 'tis the warlike clarion",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Hark! 'tis the warlike clarion; On, to the battle, heroes, on! To arms! to arms! resounds on high The voice of war and victory."
+    },
+    {
+      "number": "2",
+      "text": "Haste to the battle! See! the Lord Waves to the clouds his conquering sword. To arms! to arms! I hear the cry, On, on, to bloodless victory!"
+    },
+    {
+      "number": "3",
+      "text": "The fierce embattled hosts of hell Before the dreadful onset fell. To arms! to arms! was once the cry, But now the trump sounds victory!"
+    },
+    {
+      "number": "4",
+      "text": "Lo! the white war-horse treads them down, I know the rider by his crown. All hail! all hail! his legions cry; Jesus, be thine the victory!"
+    }
+  ],
+  "refrain": {
+    "text": "To arms! to arms! resounds on high The voice of war and victory."
+  },
+  "meter": "L.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 199,
+  "themes": ["Battle", "Victory", "Jesus", "Triumph", "Warfare"],
+  "key_signature": "",
+  "time_signature": ""
+}

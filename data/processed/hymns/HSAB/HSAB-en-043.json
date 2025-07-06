@@ -1,0 +1,41 @@
+{
+  "id": "HSAB-en-043",
+  "number": 43,
+  "title": "Despised Pilgrims",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WHAT poor despised company\nOf travelers are these,\nWho walk in yonder narrow way,\nAlong the rugged maze?"
+    },
+    {
+      "number": 2,
+      "text": "Ah, these are of a royal line,\nAll children of a King.\nHeirs of immortal crowns divine,\nAnd lo! For joy they sing."
+    },
+    {
+      "number": 3,
+      "text": "Why do they then appear so mean,\nAnd why so much despis'd?\nBecause of their rich robes unseen,\nThe world is not appriz'd."
+    },
+    {
+      "number": 4,
+      "text": "But why keep they that narrow road,\nThat rugged thorny maze?\nWhy, that's the way their Leader trod,–\nThey love and keep his ways."
+    },
+    {
+      "number": 5,
+      "text": "Why do they shun the pleasing path,\nThat worldlings love so well?\nBecause that is the road to death,\nThe open road to hell."
+    },
+    {
+      "number": 6,
+      "text": "What, is there then no other road\nTo Salem's happy ground?\nChrist is the only way to God,\nNo other can be found."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["pilgrims", "narrow way", "persecution", "royal heritage", "path to heaven"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

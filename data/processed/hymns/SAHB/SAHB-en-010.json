@@ -1,0 +1,38 @@
+{
+  "id": "SAHB-en-010",
+  "number": 10,
+  "title": "Hark! what mean those holy voices",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! what mean those holy voices,\nSweetly sounding through the skies?\nLo! th' angelic host rejoices;\nHeavenly hallelujahs rise."
+    },
+    {
+      "number": 2,
+      "text": "Listen to the wondrous story,\nWhich they chant in hymns of joy:\n'Glory in the highest, glory!\nGlory be to God most high!'"
+    },
+    {
+      "number": 3,
+      "text": "'Peace on earth, goodwill from heaven,\nReaching far as man is found;\nSouls redeemed, and sins forgiven,\nLoud our golden harps shall sound.'"
+    },
+    {
+      "number": 4,
+      "text": "'Christ is born, the great Anointed;\nHeaven and earth his praises sing;\nO receive whom God appointed,\nFor your Prophet, Priest, and King.'"
+    },
+    {
+      "number": 5,
+      "text": "Hasten, mortals, to adore him;\nLearn his name and taste his joy;\nTill in heaven ye sing before him,\n'Glory be to God most high!'"
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["Christmas", "angels", "peace", "Christ's birth"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

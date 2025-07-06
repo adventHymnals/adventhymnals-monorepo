@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-319",
+  "number": 319,
+  "title": "Lord Jesus, when we stand afar",
+  "author": "William W. How",
+  "composer": null,
+  "tune": "367, 914, 426",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord Jesus, when we stand afar,\nAnd gaze upon thy holy cross,\nIn love of thee and scorn of self,\nO, may we count the world as loss."
+    },
+    {
+      "number": 2,
+      "text": "When we behold thy bleeding wounds,\nAnd the rough way that thou hast trod,\nMake us to hate the load of sin\nThat lay so heavy on our God."
+    },
+    {
+      "number": 3,
+      "text": "O holy Lord! I pitied high\nWith outstretched arms, in mortal woe,\nEmbracing in thy wondrous love\nThe sinful world that lies below!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "cross", "sacrifice", "love", "sin"],
+    "scripture_references": [],
+    "tune_source": "367, 914, 426",
+    "original_language": "en"
+  }
+}

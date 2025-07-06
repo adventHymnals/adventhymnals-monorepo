@@ -1,0 +1,41 @@
+{
+  "id": "MH1843-en-PT3-110",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "110",
+  "title": "There's No Other Name Like Jesus",
+  "verses": [
+    {
+      "number": "1",
+      "text": "There's no other name like Jesus, 'Tis the dearest name we know, 'Tis the angel's joy in heaven, 'Tis the Christian's joy below."
+    },
+    {
+      "number": "2",
+      "text": "There's no other name like Jesus When the heart with grief is sad, There's no other name like Jesus When the heart is free and glad."
+    },
+    {
+      "number": "3",
+      "text": "'Tis the hope that I shall see Him When in glory He appears, 'Tis the hope to hear His welcome That my fainting spirit cheers."
+    },
+    {
+      "number": "4",
+      "text": "If He wills that I should labor In His vineyard day by day, Then 'tis well if only Jesus Blesses all I do or say."
+    },
+    {
+      "number": "5",
+      "text": "If He wills that death's cold finger Touch my feeble, mortal clay, Then 'tis well if only Jesus Is my dying trust and stay."
+    }
+  ],
+  "refrain": {
+    "text": "Sweet name, dear name, sweet name dear name, There's no other name like Jesus; Sweet name, dear name, There's no other name like Jesus."
+  },
+  "meter": "8.7.8.7. with Refrain",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 253,
+  "themes": ["Name", "Jesus", "Dearest", "Angels", "Joy", "Heaven", "Christian", "Hope", "Glory", "Labor", "Vineyard"],
+  "key_signature": "Bb",
+  "time_signature": "4/4"
+}

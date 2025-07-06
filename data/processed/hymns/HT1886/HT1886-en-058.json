@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-058",
+  "number": 58,
+  "title": "God of my life, whose gracious power",
+  "author": null,
+  "composer": "Lowell Mason",
+  "tune": "Uxbridge",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God of my life, whose gracious power Through varied scenes my soul hath led,\nOr turned aside the fatal hour, Or lifted up my sinking head."
+    },
+    {
+      "number": 2,
+      "text": "In all my ways thy hand I own,\nThy ruling providence I see;\nAssist me still my course to run,\nAnd all direct my paths to thee."
+    },
+    {
+      "number": 3,
+      "text": "How do thy mercies close me round!\nForever be thy name adored;\nI blush to think how little sound\nThe servant of a gracious Lord."
+    },
+    {
+      "number": 4,
+      "text": "I have no skill the snare to shun,\nBut thou, O God, my steps dost art;\nI ever into danger run,\nBut thou dost greater than my heart."
+    },
+    {
+      "number": 5,
+      "text": "I rest beneath thy kindly shade;\nMy griefs expire, my troubles cease;\nThou, Lord, hast made my soul to be stayed,\nWilt keep me still in perfect peace."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's grace", "divine providence", "God's guidance", "mercy", "peace", "trust"],
+    "scripture_references": [],
+    "tune_source": "Uxbridge, Lowell Mason",
+    "original_language": "en"
+  }
+}

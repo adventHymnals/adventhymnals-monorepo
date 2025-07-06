@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-213",
+  "number": 213,
+  "title": "Jesus Is Coming Again",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lift up the trumpet, and loud let it ring:\nJesus is coming again!\nCheer up, ye pilgrims, be joyful and sing;\nJesus is coming again!"
+    },
+    {
+      "number": 2,
+      "text": "Echo it, hilltops; proclaim it, ye plains:\nJesus is coming again!\nComing in glory, the Lamb that was slain;\nJesus is coming again!"
+    },
+    {
+      "number": 3,
+      "text": "Heavings of earth, tell the vast, wondering throng:\nJesus is coming again!\nTemple and palace and whirlwinds, the anthem prolong;\nJesus is coming again!"
+    },
+    {
+      "number": 4,
+      "text": "Nations are angry, by this we do know\nJesus is coming again!\nKnowledge increases; men run to and fro;\nJesus is coming again!"
+    }
+  ],
+  "chorus": {
+    "text": "Coming again, coming again,\nJesus is coming again!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Second Coming", "Proclamation", "Trumpet", "Glory"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

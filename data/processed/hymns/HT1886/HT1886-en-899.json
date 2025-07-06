@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-899",
+  "number": 899,
+  "title": "He's coming once again",
+  "author": null,
+  "composer": "F. E. Belden",
+  "tune": "Verdi",
+  "meter": "S.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "He's coming once again,\nTo set his people free;\nThat where he is, in glory bright,\nD.S.—He comes, in majesty sublime,\nHis saints may also be.\nThen lift the drooping head,\nLook up, rejoice and sing;\nSee yonder, Fount Glorious King!"
+    },
+    {
+      "number": 2,
+      "text": "The earth shall quake with fear,\nThe heavens shall flee away;\nAnd where shall guilty man appear\nIn that tremendous day?\nNo refuge then is left,\nNo shelter from the blast;\nThe meek of vengeance with the sky\nWhen mercy's day is past."
+    },
+    {
+      "number": 3,
+      "text": "His eyes of living flame,\nThe wicked shall devour;\nNo tongue will lightly speak the name\nOf Jesus in that hour.\nNo scorn, no words of hate\nFor his meek followers then;\nBut prayers and tears that come too late\nWill mark earth's mighty men."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Second Advent", "judgment", "return of Christ"],
+    "scripture_references": [],
+    "tune_source": "Verdi, F. E. Belden",
+    "original_language": "en"
+  }
+}

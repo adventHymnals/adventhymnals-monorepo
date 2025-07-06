@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-235",
+  "number": 235,
+  "title": "Hail, peaceful morn, thy dawning I hail",
+  "author": "Lowell Mason",
+  "composer": null,
+  "tune": "Chardon",
+  "meter": "C. P. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hail, peaceful morn, thy dawning I hail;\nHow do thy hours my mind regale\nWith floods of heavenly joy!\nNor can I hail thy blessings now,\nWhich kindle in my soul a flame,\nAnd all my powers employ."
+    },
+    {
+      "number": 2,
+      "text": "How shall I best improve thy hours?\nLord, on me shed thy gracious showers,\nThy Spirit and thy grace;\nThat when thy sacred courts I tread,\nMy soul may eat the heavenly bread,\nAnd sing triumphant praise."
+    },
+    {
+      "number": 3,
+      "text": "Thou hallowed season of repose,\nThou balm to soothe the throbbing woes\nOf this care-stricken breast;\nThy sacred hours I'll ever greet,\nAnd with the faithful will I meet,\nTo taste thy holy rest."
+    },
+    {
+      "number": 4,
+      "text": "Thus may the Sabbath pass away,\nMy best, my highest, happiest day,\nThe sweetest of the seven;\nBut yet a rest for some remains,\nThe Sabbath free from ills and pains,\nEternal, and in heaven."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "peace", "joy", "grace", "eternal rest"],
+    "scripture_references": [],
+    "tune_source": "Chardon, C. P. M., Lowell Mason",
+    "original_language": "en"
+  }
+}

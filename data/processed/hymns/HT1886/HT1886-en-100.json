@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-100",
+  "number": 100,
+  "title": "As pants the wearied hart for cooling springs",
+  "author": null,
+  "composer": "Felix Mendelssohn",
+  "tune": "Mendelssohn",
+  "meter": "10s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "As pants the wearied hart for cooling springs,\nThat sinks exhausted in the summer's chase,\nSo longs my soul for thee, great King of kings,\nSo thirsts to reach thy sacred dwelling-place."
+    },
+    {
+      "number": 2,
+      "text": "Lord thy sure mercies ever in my sight,\nMy heart shall gladden through the tedious day;\nAnd 'midst the dark and gloomy shades of night,\nTo thee, my God, I'll tune the grateful lay."
+    },
+    {
+      "number": 3,
+      "text": "Why faint, my soul? why doubt Jehovah's aid?\nThy God the God of mercy still shall prove;\nWithin his courts thy thanks shall yet be paid;\nUnquestioned be his faithfulness and love."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["longing for God", "spiritual thirst", "God's mercy", "faith", "God's faithfulness"],
+    "scripture_references": ["Psalm 42:1"],
+    "tune_source": "Mendelssohn, Felix Mendelssohn",
+    "original_language": "en"
+  }
+}

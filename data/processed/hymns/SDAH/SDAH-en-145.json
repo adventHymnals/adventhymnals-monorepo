@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-145",
+  "number": 145,
+  "title": "Songs of Thankfulness and Praise",
+  "author": "Christopher Wordsworth",
+  "composer": "Jakob Hintze",
+  "tune": "Salzburg",
+  "meter": "7.7.7.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Songs of thankfulness and praise,\nJesus, Lord, to You we raise,\nManifested by the star\nTo the sages from afar;\nBranch of royal David's stem\nIn Your birth at Bethlehem;\nAnthems be to You addressed,\nGod in man made manifest."
+    },
+    {
+      "number": 2,
+      "text": "Manifest at Jordan's stream,\nProphet, Priest, and King supreme;\nAnd at Cana, wedding guest,\nIn Your Godhead manifest;\nManifest in power divine,\nChanging water into wine;\nAnthems be to You addressed,\nGod in man made manifest."
+    },
+    {
+      "number": 3,
+      "text": "Manifest in making whole\nPalsied limbs and fainting soul;\nManifest in valiant fight,\nQuelling all the devil's might;\nManifest in gracious will,\nEver bringing good from ill;\nAnthems be to You addressed,\nGod in man made manifest."
+    },
+    {
+      "number": 4,
+      "text": "Grant us grace to see You, Lord,\nMirrored in Your holy Word;\nMay we imitate Your way,\nAnd be pure, as pure as we;\nThat we like You may be\nAt Your great epiphany;\nAnd may praise You, ever blest,\nGod in man made manifest."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1862,
+    "copyright": null,
+    "themes": ["epiphany", "manifestation", "jesus_ministry", "thanksgiving", "praise"],
+    "scripture_references": ["Matthew 2:1-12", "John 2:1-11"],
+    "tune_source": "German",
+    "original_language": "en"
+  }
+}

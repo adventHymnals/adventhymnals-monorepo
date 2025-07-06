@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-286",
+  "number": 286,
+  "title": "When Jordan hushed his waters still",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When Jordan hushed his waters still,\nAnd silence slept on Zion's hill;\nWhen Bethlehem's shepherds through the night\nWatched o'er their flocks by starry light;"
+    },
+    {
+      "number": 2,
+      "text": "Hark! from the midnight hills around,\nA voice of more than mortal sound\nIn distant hallelujahs stole,\nLike music o'er the raptured soul."
+    },
+    {
+      "number": 3,
+      "text": "On wheels of light, on wings of flame,\nThe glorious hosts of Zion came;\nHigh heaven with songs of triumph rung,\nWhile angels struck their harps and sung."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "First Advent", "Christmas", "nativity", "angels"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

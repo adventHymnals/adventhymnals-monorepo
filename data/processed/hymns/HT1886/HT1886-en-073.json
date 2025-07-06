@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-073",
+  "number": 73,
+  "title": "Lord, when my raptured thought surveys",
+  "author": "John Fawcett",
+  "composer": null,
+  "tune": "669, 500, 201",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, when my raptured thought surveys\nCreation's beauties o'er,\nAll nature joins to teach thy praise\nAnd bid my soul adore."
+    },
+    {
+      "number": 2,
+      "text": "Where'er I turn my gazing eyes,\nThy radiant footsteps shine;\nTen thousand pleasing wonders rise,\nAnd speak their source divine."
+    },
+    {
+      "number": 3,
+      "text": "On me thy providence has shone\nWith gentle, smiling rays;\nO let my lips and life make known\nThy goodness and thy praise!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["creation", "God's beauty", "nature", "providence", "praise"],
+    "scripture_references": [],
+    "tune_source": "669, 500, 201",
+    "original_language": "en"
+  }
+}

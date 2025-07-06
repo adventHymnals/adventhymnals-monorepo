@@ -1,0 +1,33 @@
+{
+  "id": "MH1843-en-PT3-068",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "068",
+  "title": "Come, brethren dear, and sisters",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Come, brethren dear, and sisters, Although a little band, The victory I'll assure you, Stand fast with sword in hand; Then wield your sword with pleasure, The battle goes aright; When Israel gained the victory, He fought with faith and might."
+    },
+    {
+      "number": "2",
+      "text": "How beautiful the garments The bride of Christ doth wear; He offers her rich presents, And crowns her as his heir. He decks her with rich jewels, And crowns her with his love, And by his mighty power Will carry her above."
+    },
+    {
+      "number": "3",
+      "text": "I'll bid farewell to sorrow, To sickness, care, and pain, And mount aloft to Jesus, Forever there to reign. I'll join to sing his praises Above th' ethereal blue; And then, poor careless sinner, What will become of you?"
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "7 & 6",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 207,
+  "themes": ["Brethren", "Sisters", "Victory", "Battle", "Sword", "Faith", "Bride"],
+  "key_signature": "",
+  "time_signature": ""
+}

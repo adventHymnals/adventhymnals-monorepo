@@ -1,0 +1,25 @@
+{
+  "id": "HSAB-en-133",
+  "number": 133,
+  "title": "BAPTISM",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "HERE, Saviour, we would come,\nIn thine appointed way;\nObedient to thy high commands,\nOur solemn vows we pay."
+    },
+    {
+      "number": 2,
+      "text": "O, bless this sacred rite,\nTo bring us near to thee;\nAnd may we find that as our day\nOur strength may also be."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["baptism", "obedience", "vows", "sacred rite", "strength"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

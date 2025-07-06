@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-558",
+  "number": 558,
+  "title": "For the Fruits of His Creation",
+  "author": "Fred Pratt Green",
+  "composer": "Francis Jackson",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "For the fruits of His creation,\nthanks be to God;\nFor the gifts to every nation,\nthanks be to God;\nFor the plowing, sowing, reaping,\nsilent growth while men are sleeping,\nFuture needs in earth's safekeeping,\nthanks be to God!"
+    },
+    {
+      "number": 2,
+      "text": "In the just reward of labor,\nGod's will is done;\nIn the help we give our neighbor,\nGod's will is done;\nIn our worldwide task of caring\nfor the hungry and despairing,\nIn the harvests men are sharing,\nGod's will is done."
+    },
+    {
+      "number": 3,
+      "text": "For the harvests of His Spirit,\nthanks be to God;\nFor the good men may inherit,\nthanks be to God;\nFor the wonders that astound us,\nfor the truths that still confound us,\nMost of all, that love has found us,\nthanks be to God!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1970,
+    "copyright": "1970 Hope Publishing Co.",
+    "themes": ["thanksgiving", "creation", "harvest", "service"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

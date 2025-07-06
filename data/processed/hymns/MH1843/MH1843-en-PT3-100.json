@@ -1,0 +1,33 @@
+{
+  "id": "MH1843-en-PT3-100",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "100",
+  "title": "Jesus, Priceless Treasure",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Jesus, priceless treasure, Source of purest pleasure, Truest Friend to me: Ah! how long I've panted, And my heart has fainted, Thirsting, Lord, for Thee."
+    },
+    {
+      "number": "2",
+      "text": "In Thine arm I rest me; Foes who would molest me Cannot reach me here; Though the earth be shaking, Every heart be quaking, Jesus calms my fear."
+    },
+    {
+      "number": "3",
+      "text": "Hence all fears and sadness! For the Lord of gladness, Jesus, enters in; Those who love the Father, Though the storms may gather, Still have peace within."
+    }
+  ],
+  "refrain": {
+    "text": "Thine I am, O spotless Lamb, I will suffer naught to hide Thee, Naught I ask beside Thee."
+  },
+  "meter": "6.6.5.6.6.5.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 239,
+  "themes": ["Jesus", "Treasure", "Friend", "Heart", "Foes", "Peace", "Father", "Lamb"],
+  "key_signature": "",
+  "time_signature": ""
+}

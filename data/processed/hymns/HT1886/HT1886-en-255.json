@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-255",
+  "number": 255,
+  "title": "Our Father in heaven, thy promise we claim",
+  "author": "D. S. Hakes",
+  "composer": null,
+  "tune": "Otto. 11s.",
+  "meter": "11s.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Our Father in heaven, thy promise we claim, To meet with a few who have met in thy name;\nWe thank thee today for this Sabbath of rest, Divine is its mission, divinely 'tis blest."
+    },
+    {
+      "number": 2,
+      "text": "We praise thee, our Maker, our God, and our King,\nExtolling thy goodness we joyfully sing;\nFor thou hast preserved us, and guarded our way,\nFrom hour unto hour, and from day unto day."
+    },
+    {
+      "number": 3,
+      "text": "O send us thy Spirit, and teach us thy word,\nNor let thy sweet blessings from us be deferred;\nO help us, our Father, thy will to discern,\nAnd ever to practice the truths that we learn."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["prayer", "Sabbath", "divine guidance", "worship", "blessing"],
+    "scripture_references": [],
+    "tune_source": "Otto. 11s.",
+    "original_language": "en"
+  }
+}

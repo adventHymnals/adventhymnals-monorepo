@@ -1,0 +1,44 @@
+{
+  "id": "HT1886-en-120",
+  "number": 120,
+  "title": "Majestic sweetness sits enthroned",
+  "author": "Thomas Hastings",
+  "composer": null,
+  "tune": "Ortonville",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Majestic sweetness sits enthroned\nUpon the Saviour's brow;\nHis head with radiant light is crowned,\nHis lips with grace o'erflow."
+    },
+    {
+      "number": 2,
+      "text": "No mortal can with him compare,\nAmong the sons of men;\nFairer is he than all the fair\nThat fill the heavenly train."
+    },
+    {
+      "number": 3,
+      "text": "He saw me plunged in deep distress,\nHe flew to my relief;\nFor me he bore the shameful cross,\nAnd carried all my grief."
+    },
+    {
+      "number": 4,
+      "text": "To him I owe my life and breath,\nAnd all the joys I have;\nHe makes me triumph over death,\nHe saves me from the grave."
+    },
+    {
+      "number": 5,
+      "text": "To heaven, the place of his abode,\nHe brings my weary feet;\nShows me the glories of my God,\nAnd makes my joy complete."
+    },
+    {
+      "number": 6,
+      "text": "Since from his bounty I receive\nSuch proofs of love divine,\nHad I a thousand hearts to give,\nLord, they should all be thine."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus Christ", "majesty", "beauty of Christ", "salvation", "gratitude", "love divine"],
+    "scripture_references": ["Song of Solomon 5:10"],
+    "tune_source": "Thomas Hastings",
+    "original_language": "en"
+  }
+}

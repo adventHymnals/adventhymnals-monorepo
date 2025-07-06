@@ -1,0 +1,58 @@
+{
+  "authors": [
+    {
+      "id": "isaac-watts",
+      "name": "Isaac Watts",
+      "birth_year": 1674,
+      "death_year": 1748,
+      "nationality": "English",
+      "biography": "English Christian minister, hymn writer, theologian, and logician. Known as the 'Father of English Hymnody'",
+      "hymns": ["CH1941-en-001", "CH1941-en-002", "CH1941-en-004"]
+    },
+    {
+      "id": "anonymous",
+      "name": "Anonymous",
+      "birth_year": null,
+      "death_year": null,
+      "nationality": "Unknown",
+      "biography": "Author unknown",
+      "hymns": ["CH1941-en-003"]
+    },
+    {
+      "id": "paul-gerhardt",
+      "name": "Paul Gerhardt",
+      "birth_year": 1607,
+      "death_year": 1676,
+      "nationality": "German",
+      "biography": "German theologian, Lutheran minister and hymn writer",
+      "hymns": ["CH1941-en-005"]
+    },
+    {
+      "id": "john-s-b-monsell",
+      "name": "John S. B. Monsell",
+      "birth_year": 1811,
+      "death_year": 1875,
+      "nationality": "Irish",
+      "biography": "Irish clergyman and hymn writer",
+      "hymns": ["CH1941-en-006"]
+    },
+    {
+      "id": "michael-bruce",
+      "name": "Michael Bruce",
+      "birth_year": 1746,
+      "death_year": 1767,
+      "nationality": "Scottish",
+      "biography": "Scottish poet and hymn writer",
+      "hymns": ["CH1941-en-007"]
+    },
+    {
+      "id": "thomas-olivers",
+      "name": "Thomas Olivers",
+      "birth_year": 1725,
+      "death_year": 1799,
+      "nationality": "Welsh",
+      "biography": "Welsh Methodist preacher and hymn writer",
+      "hymns": ["CH1941-en-008"]
+    }
+  ]
+}

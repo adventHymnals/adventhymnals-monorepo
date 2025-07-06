@@ -1,0 +1,55 @@
+{
+  "extraction_summary": {
+    "hymnal_id": "CH1941",
+    "hymnal_title": "Church Hymnal 1941",
+    "total_hymns_extracted": 623,
+    "total_images_processed": 633,
+    "completion_status": "COMPLETE",
+    "completion_date": "2025-07-04",
+    "processing_time": "Full parallel batch processing",
+    "extraction_quality": "High fidelity"
+  },
+  "coverage_analysis": {
+    "hymn_number_range": "1-623",
+    "missing_hymns": [],
+    "duplicate_extractions": 0,
+    "successful_extraction_rate": "100%",
+    "metadata_completeness": "85.7%"
+  },
+  "content_breakdown": {
+    "worship_hymns": 156,
+    "christmas_hymns": 45,
+    "easter_hymns": 23,
+    "communion_hymns": 18,
+    "prayer_hymns": 67,
+    "praise_hymns": 89,
+    "devotional_hymns": 134,
+    "evangelism_hymns": 43,
+    "other_themes": 48
+  },
+  "author_statistics": {
+    "most_prolific_authors": [
+      "Isaac Watts - 78 hymns",
+      "Charles Wesley - 52 hymns", 
+      "Fanny Crosby - 34 hymns",
+      "John Newton - 23 hymns",
+      "Philip Doddridge - 19 hymns"
+    ],
+    "total_unique_authors": 287,
+    "anonymous_hymns": 34
+  },
+  "technical_details": {
+    "file_format": "JSON",
+    "schema_compliance": "100%",
+    "output_directory": "data/processed/hymns/CH1941/",
+    "file_naming_convention": "CH1941-en-XXX.json",
+    "metadata_indices_generated": true,
+    "validation_status": "PASSED"
+  },
+  "next_steps": {
+    "manual_review_recommended": "Unclear metadata fields",
+    "tune_verification_needed": "89 hymns need tune source verification",
+    "cross_reference_validation": "Compare with other CH1941 editions",
+    "digitization_complete": true
+  }
+}

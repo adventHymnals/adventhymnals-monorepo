@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-106",
+  "number": 106,
+  "title": "When strangers stand and hear me tell",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When strangers stand and hear me tell\nWhat beauties in my Saviour dwell,\nWhere he is gone they fain would know,\nThat they may seek and love him too."
+    },
+    {
+      "number": 2,
+      "text": "O may my spirit daily rise\nOn wings of faith above the skies,\nTill I shall make my last remove,\nTo dwell forever with my love."
+    },
+    {
+      "number": 3,
+      "text": "In Paradise, within the gates,\nA higher entertainment waits,—\nFruits new and old laid up in store,\nThere we shall hunger nevermore."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["witness", "Jesus Christ", "Paradise", "eternal life", "love of Christ"],
+    "scripture_references": [],
+    "tune_source": "109, 101, 717",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-128",
+  "number": 128,
+  "title": "BAPTISM",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "HUMBLE souls that seek salvation,\nThrough the Lamb's redeeming blood,\nHear the voice of revelation,\nTread the path that Jesus trod."
+    },
+    {
+      "number": 2,
+      "text": "Hear the blest Redeemer call you,\nListen to his gracious voice;\nDread no ills that can befall you,\nWhile you make his ways your choice."
+    },
+    {
+      "number": 3,
+      "text": "Jesus says, let each believer\nBe baptized in my name;\nHe himself in Jordan's river\nWas immersed beneath the stream."
+    },
+    {
+      "number": 4,
+      "text": "Plainly here his footsteps tracing,\nFollow him without delay;\nGladly his command embracing;\nLo! Your Captain leads the way."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["baptism", "salvation", "Lamb", "redemption", "Jesus", "Jordan", "following Christ"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-137",
+  "number": 137,
+  "title": "LORD'S SUPPER",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THY broken body, gracious Lord!\nIs shadowed by this broken bread,\nThe wine which in this cup is pour'd,\nPoints to the blood which thou hast shed."
+    },
+    {
+      "number": 2,
+      "text": "And while we meet together thus,\nWe show that we are one in thee:\nThy precious blood was shed for us,\nThy death, O Lord, has set us free."
+    },
+    {
+      "number": 3,
+      "text": "We have one hope—that thou wilt come:\nThee in the air we wait to see:\nWhen thou wilt give thy saints a home,\nAnd we shall ever reign with thee."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Lord's Supper", "communion", "broken body", "blood", "unity", "hope", "Second Coming"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

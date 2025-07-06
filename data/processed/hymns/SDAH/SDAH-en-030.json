@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-030",
+  "number": 30,
+  "title": "Holy God, We Praise Your Name",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy God, we praise Your name;\nLord of all, we bow before You!\nAll on earth Your scepter claim,\nAll in heaven above adore You;"
+    },
+    {
+      "number": 2,
+      "text": "Hark! the loud celestial hymn\nAngel choirs above are raising,\nCherubim and seraphim,\nIn unceasing chorus praising;"
+    },
+    {
+      "number": 3,
+      "text": "Holy Father, Holy Son,\nHoly Spirit, three we name You;\nWhile in essence only one,\nUndivided God we claim You;"
+    }
+  ],
+  "chorus": {
+    "text": "Infinite Your vast domain,\nEverlasting is Your reign."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "worship", "Trinity", "holiness"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

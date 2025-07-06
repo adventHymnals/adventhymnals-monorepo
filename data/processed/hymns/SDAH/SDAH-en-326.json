@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-326",
+  "number": 326,
+  "title": "Open My Eyes That I May See",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Open my eyes, that I may see\nGlimpses of truth Thou hast for me;\nPlace in my hands the wonderful key\nThat shall unclasp and set me free."
+    },
+    {
+      "number": 2,
+      "text": "Open my ears, that I may hear\nVoices of truth Thou sendest clear;\nAnd while the wave-notes fall on my ears,\nEverything false will disappear."
+    },
+    {
+      "number": 3,
+      "text": "Open my mouth, and let me bear\nGladly the warm truth everywhere;\nOpen my heart, and let me prepare\nLove with Thy children thus to share."
+    }
+  ],
+  "chorus": {
+    "text": "Silently now I wait for Thee,\nReady, my God, Thy will to see;\nOpen my eyes, illumine me,\nSpirit divine!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Prayer", "Consecration", "Truth", "Spiritual Sight"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

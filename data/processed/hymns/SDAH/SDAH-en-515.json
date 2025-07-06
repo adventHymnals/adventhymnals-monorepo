@@ -1,0 +1,38 @@
+{
+  "id": "SDAH-en-515",
+  "number": 515,
+  "title": "The Lord Is My Light",
+  "author": "James Nicholson",
+  "composer": "Dr. J. W. Bischoff",
+  "tune": "The Lord Is My Light",
+  "meter": "10.10.11.11 with refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The Lord is my light; then why should I fear?\nBy day and by night His presence is near;\nHe is my salvation from sorrow and sin;\nThis blessed persuasion the Spirit brings in."
+    },
+    {
+      "number": 2,
+      "text": "The Lord is my light, though clouds may arise,\nFaith, stronger than sight, looks up to the skies;\nWhere Jesus forever in glory doth reign;\nThen how can I ever in darkness remain?"
+    },
+    {
+      "number": 3,
+      "text": "The Lord is my light, the Lord is my strength;\nI know in His might I'll conquer at length;\nMy weakness in mercy He covers with power,\nAnd walking by faith, He upholds me each hour."
+    },
+    {
+      "number": 4,
+      "text": "The Lord is my light, my all and in all;\nThere is in His sight no darkness at all;\nHe is my Savior and King;\nWith saints and with angels His praises I sing."
+    }
+  ],
+  "metadata": {
+    "year": 1875,
+    "copyright": "Public Domain",
+    "themes": ["light", "faith and trust", "salvation", "strength"],
+    "scripture_references": ["Psalm 27:1", "Psalm 18:2"],
+    "tune_source": "Dr. J. W. Bischoff",
+    "original_language": "en",
+    "author_dates": "1828-1876",
+    "composer_dates": "1849-1909"
+  }
+}

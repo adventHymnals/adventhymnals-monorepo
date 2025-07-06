@@ -1,0 +1,34 @@
+{
+  "id": "SAHB-en-019",
+  "number": 19,
+  "title": "I'm a Pilgrim, and I'm a Stranger",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I'm a pilgrim, and I'm a stranger,\nI can tarry, I can tarry but a night;\nDo not detain me, for I am going\nTo where the fountains are ever flowing."
+    },
+    {
+      "number": 2,
+      "text": "There the glory is ever shining!\nO my longing heart, my longing heart is there;\nHere in this country so dark and dreary,\nI long have wandered forlorn and weary."
+    },
+    {
+      "number": 3,
+      "text": "I'm a pilgrim, and I'm a stranger,\nI can tarry, I can tarry but a night;\nOf that city to which I journey,\nMy Redeemer, my Redeemer is the light."
+    },
+    {
+      "number": 4,
+      "text": "There is no sorrow, nor any sighing,\nNor any tears there, nor any dying;\nThey need no sunshine, nor lamp, nor candle,\nThat city is able the Lamb to handle."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["pilgrimage", "heavenly home", "longing", "New Jerusalem"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-116",
+  "number": 116,
+  "title": "To thee, my Shepherd and my Lord",
+  "author": "Ottiwell Heginbotham",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "To thee, my Shepherd and my Lord,\nA grateful song I'll raise;\nO, let the humblest of thy flock\nAttempt to speak thy praise."
+    },
+    {
+      "number": 2,
+      "text": "My life, my joy, my hope, I owe\nTo thine amazing love;\nTen thousand thousand comforts here,\nAnd nobler joys above."
+    },
+    {
+      "number": 3,
+      "text": "To thee my trembling spirit flies,\nWith sin and grief oppressed;\nThy gentle voice dispels my fears,\nAnd lulls my cares to rest."
+    },
+    {
+      "number": 4,
+      "text": "Lead on, dear Shepherd!—led by thee,\nNo evil shall I fear;\nSoon shall I reach thy fold above,\nAnd praise thee better there."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus as shepherd", "gratitude", "comfort", "guidance", "fear", "heavenly home"],
+    "scripture_references": ["Psalm 23"],
+    "tune_source": "546, 201, 227",
+    "original_language": "en"
+  }
+}

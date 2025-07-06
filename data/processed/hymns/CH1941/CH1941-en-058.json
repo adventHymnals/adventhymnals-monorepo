@@ -1,0 +1,40 @@
+{
+  "id": "CH1941-en-058",
+  "number": 58,
+  "title": "Our Day of Praise Is Done",
+  "author": "John Ellerton",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Our day of praise is done,\nThe evening shadows fall;\nBut pass not from us with the sun,\nTrue Light that lightenest all."
+    },
+    {
+      "number": 2,
+      "text": "Around the throne on high,\nWhere night can never be,\nThe white-robed harpers of the sky\nBring ceaseless hymns to Thee."
+    },
+    {
+      "number": 3,
+      "text": "Too faint our anthems here;\nToo soon of praise we tire;\nBut O, the strains how full and clear\nOf that eternal choir!"
+    },
+    {
+      "number": 4,
+      "text": "Yet, Lord, to Thy dear will\nIf Thou attune the heart,\nWe in Thine angels' music still\nMay bear our lower part."
+    },
+    {
+      "number": 5,
+      "text": "'Tis Thine each soul to calm,\nEach wayward thought reclaim,\nAnd make our broken songs of psalm\nOne seamless hymn of praise."
+    }
+  ],
+  "metadata": {
+    "year": 1870,
+    "copyright": "Public Domain",
+    "themes": ["evening", "heavenly worship", "continuous praise", "angels"],
+    "scripture_references": ["Revelation 4:8-11", "Isaiah 6:2-3"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

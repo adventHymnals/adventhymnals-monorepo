@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-390",
+  "number": 390,
+  "title": "We Love Thy Sabbath, Lord",
+  "author": "Isaac Watts",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We love Thy Sabbath, Lord, And worship at Thy will; Oh may these hours sweet peace afford And deeper faith instill."
+    },
+    {
+      "number": 2,
+      "text": "Thine angels sang for joy Creation's work to see; Oh We too, this day, that all may sanctify our song."
+    },
+    {
+      "number": 3,
+      "text": "Praise for Thy wondrous love, A sign that sealed this Sabbath day, unify our hearts in praise to Thee; Through Thy sovereignty."
+    },
+    {
+      "number": 4,
+      "text": "O great Creator King, That through Thy Mount Sinai deem Renew and joy, Through all eternity, Sabbath our song."
+    },
+    {
+      "number": 5,
+      "text": "And with the white-robed throne, Upon Thy grace be, And raise our hearts to see Thy face, Thy niqay."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Sabbath", "Worship", "Rest", "Creation", "Sanctification"],
+    "scripture_references": ["Genesis 2:2-3", "Exodus 20:8-11", "Isaiah 58:13-14"],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

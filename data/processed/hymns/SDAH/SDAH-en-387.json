@@ -1,0 +1,32 @@
+{
+  "id": "SDAH-en-387",
+  "number": 387,
+  "title": "Come, O Sabbath Day",
+  "author": "Gustav Gottheil",
+  "composer": "Traditional Hebrew",
+  "tune": "LEKHAH DODI",
+  "meter": "8.7.8.7.8.7.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, O Sabbath day, and bring\nPeace and healing on thy wing;\nAnd to every troubled breast\nSpeak of the divine behest:\nThou shalt rest,\nThou shalt rest!"
+    },
+    {
+      "number": 2,
+      "text": "Earthly longings bid retire,\nQuench the passions' hurtful fire;\nTo the wayward, sin oppressed,\nBring thou thy divine behest:\nThou shalt rest,\nThou shalt rest!"
+    },
+    {
+      "number": 3,
+      "text": "Wipe from every cheek the tear,\nBanish care and silence fear;\nAll things working for the best,\nTeach us the divine behest:\nThou shalt rest,\nThou shalt rest!"
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "Rest", "Peace", "Healing"],
+    "scripture_references": ["Exodus 20:8-11", "Matthew 11:28"],
+    "tune_source": "Traditional Hebrew melody",
+    "original_language": "en"
+  }
+}

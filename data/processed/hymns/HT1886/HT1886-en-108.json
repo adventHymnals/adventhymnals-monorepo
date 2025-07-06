@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-108",
+  "number": 108,
+  "title": "Jesus, thou joy of loving hearts",
+  "author": "Bernard of Clairvaux",
+  "composer": "Lowell Mason",
+  "tune": "Migdol",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, thou joy of loving hearts,\nThou fount of life, thou light of men,\nFrom the best bliss that earth imparts,\nWe turn unfilled to thee again."
+    },
+    {
+      "number": 2,
+      "text": "Thy truth unchanged has ever stood;\nThou savest those that on thee call;\nTo them that seek thee, thou art good,\nTo them that find thee, all in all."
+    },
+    {
+      "number": 3,
+      "text": "We taste thee, O thou Living Bread,\nAnd long to feast upon thee still;\nWe drink of thee, the Fountain-head,\nAnd thirst our souls from thee to fill."
+    },
+    {
+      "number": 4,
+      "text": "Our restless spirits yearn for thee,\nWhere'er our changeful lot is cast;\nGlad, when thy gracious smile we see,\nBlest, when our faith can hold thee fast."
+    },
+    {
+      "number": 5,
+      "text": "O Jesus, ever with us stay;\nMake all our moments calm and bright;\nChase the dark night of sin away,\nShed o'er thy world thy holy light!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus Christ", "joy", "loving hearts", "Living Bread", "light of the world", "spiritual nourishment"],
+    "scripture_references": ["John 6:35", "John 8:12"],
+    "tune_source": "Lowell Mason",
+    "original_language": "en"
+  }
+}

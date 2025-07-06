@@ -1,0 +1,30 @@
+{
+  "id": "SDAH-en-089",
+  "number": 89,
+  "title": "Let All on Earth Their Voices Raise",
+  "author": "Isaac Watts",
+  "composer": "[unclear]",
+  "tune": "Old 124th",
+  "meter": "10.10.10.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Let all on earth their voices raise,\nTo sing the great Jehovah's praise,\nAnd bless His holy name;\nHis glory let the people know,\nHis wonders to the nations show,\nHis saving grace proclaim."
+    },
+    {
+      "number": 2,
+      "text": "He framed the globe; He built the sky;\nHe made the shining worlds on high,\nAnd reigns in glory there;\nHis beams are majesty and light;\nHis beauties, how divinely bright!\nHis dwelling place, how fair!"
+    },
+    {
+      "number": 3,
+      "text": "Come, the great day, the glorious hour,\nWhen earth shall feel His saving power,\nAll nations fear His name;\nThen shall the race of men confess\nThe beauty of His holiness,\nHis saving grace proclaim."
+    }
+  ],
+  "metadata": {
+    "themes": ["Praise", "God's Glory", "Creation", "Salvation"],
+    "scripture_references": ["Psalm 96"],
+    "tune_source": "Old 124th",
+    "original_language": "en"
+  }
+}

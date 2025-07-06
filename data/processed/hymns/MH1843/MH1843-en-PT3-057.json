@@ -1,0 +1,33 @@
+{
+  "id": "MH1843-en-PT3-057",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "057",
+  "title": "Tell Me the Old, Old Story",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Tell me the old, old story, Of unseen things above, Of Jesus and His glory, Of Jesus and His love; Tell me the story simply, As to a little child, For I am weak and weary, And helpless and defiled."
+    },
+    {
+      "number": "2", 
+      "text": "Tell me the story softly, With earnest tones and grave; Remember I'm the sinner Whom Jesus came to save; Tell me the story always, If you would really be, In any time of trouble, A comforter to me."
+    },
+    {
+      "number": "3",
+      "text": "Tell me the same old story, When you have cause to fear That this world's empty glory Is costing me too dear; Yes, and when that world's glory Is dawning on my soul, Tell me the old, old story: 'Christ Jesus makes thee whole.'"
+    }
+  ],
+  "refrain": {
+    "text": "Tell me the old, old story, Tell me the old, old story, Tell me the old, old story, Of Jesus and His love."
+  },
+  "meter": "",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 196,
+  "themes": ["Gospel Story", "Jesus", "Love", "Salvation", "Comfort"],
+  "key_signature": "Bb",
+  "time_signature": "4/4"
+}

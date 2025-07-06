@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-012",
+  "number": 12,
+  "title": "WITH joy we lift up our eyes",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "639, 761, 406",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WITH joy we lift up our eyes\nTo those bright realms above,\nThat glorious temple in the skies,\nWhere dwells eternal love."
+    },
+    {
+      "number": 2,
+      "text": "Before thy throne we bow,\nO thou almighty King!\nHere we present our solemn vow,\nAnd hymns of praise we sing."
+    },
+    {
+      "number": 3,
+      "text": "While in thy house we kneel\nWith trust and holy fear,\nThy mercy and thy truth reveal,\nAnd lend a gracious ear."
+    },
+    {
+      "number": 4,
+      "text": "Lord, teach our hearts to pray,\nAnd tune our lips to sing;\nAnd from thy presence cast away\nThe sacrifice we bring."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "heaven", "praise", "prayer", "God's presence"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

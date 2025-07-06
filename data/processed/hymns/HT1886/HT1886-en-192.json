@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-192",
+  "number": 192,
+  "title": "Holy Bible! book divine!",
+  "author": "John Burton",
+  "composer": null,
+  "tune": null,
+  "meter": "7s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy Bible! book divine!\nPrecious treasure, thou art mine;\nMine to tell me whence I came;\nMine to teach me what I am;"
+    },
+    {
+      "number": 2,
+      "text": "Mine to chide me when I rove;\nMine to show a Saviour's love;\nMine to comfort in distress,\nIf the Holy Spirit bless;"
+    },
+    {
+      "number": 3,
+      "text": "Mine to comfort in distress,\nIf the Holy Spirit bless;\nMine to show by living faith,\nMan can triumph over death;"
+    },
+    {
+      "number": 4,
+      "text": "Mine to tell of joys to come,\nAnd the rebel sinner's doom;\nO thou holy book divine,\nPrecious treasure, thou art mine!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Scripture", "divine revelation", "spiritual treasure", "salvation", "eternal life"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

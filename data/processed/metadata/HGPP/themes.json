@@ -1,0 +1,60 @@
+{
+  "themes": [
+    {
+      "id": "sabbath",
+      "name": "Sabbath",
+      "description": "Hymns about the seventh-day Sabbath as God's holy day",
+      "hymns": ["HGPP-en-001", "HGPP-en-006", "HGPP-en-032", "HGPP-en-044", "HGPP-en-045", "HGPP-en-051"],
+      "theological_significance": "Central doctrine of early Seventh-day Adventists"
+    },
+    {
+      "id": "second-coming",
+      "name": "Second Coming",
+      "description": "Hymns about Christ's return and the end times",
+      "hymns": ["HGPP-en-002", "HGPP-en-012", "HGPP-en-013", "HGPP-en-017", "HGPP-en-048", "HGPP-en-049"],
+      "theological_significance": "Core Adventist belief in imminent Second Advent"
+    },
+    {
+      "id": "millerite-experience", 
+      "name": "Millerite Experience",
+      "description": "Hymns reflecting the 1843-1844 Adventist movement experience",
+      "hymns": ["HGPP-en-007"],
+      "theological_significance": "Historical documentation of early Advent movement"
+    },
+    {
+      "id": "heaven-new-earth",
+      "name": "Heaven/New Earth",
+      "description": "Hymns about eternal life and the restored Eden",
+      "hymns": ["HGPP-en-005", "HGPP-en-008", "HGPP-en-043"],
+      "theological_significance": "Adventist hope in earth made new"
+    },
+    {
+      "id": "humility-ordinances",
+      "name": "Humility/Ordinances", 
+      "description": "Hymns about Christian ordinances and humble service",
+      "hymns": ["HGPP-en-004"],
+      "theological_significance": "Emphasis on foot washing and Christian humility"
+    },
+    {
+      "id": "fall-of-babylon",
+      "name": "Fall of Babylon",
+      "description": "Hymns about separation from false religious systems",
+      "hymns": ["HGPP-en-046"],
+      "theological_significance": "Adventist understanding of religious apostasy"
+    },
+    {
+      "id": "spiritual-warfare",
+      "name": "Spiritual Warfare",
+      "description": "Hymns about Christian conflict and victory",
+      "hymns": ["HGPP-en-016", "HGPP-en-022", "HGPP-en-031"],
+      "theological_significance": "Great controversy theme"
+    },
+    {
+      "id": "pilgrimage",
+      "name": "Christian Pilgrimage",
+      "description": "Hymns about the Christian journey and perseverance",
+      "hymns": ["HGPP-en-015", "HGPP-en-019", "HGPP-en-036"],
+      "theological_significance": "Journey to the promised land theme"
+    }
+  ]
+}

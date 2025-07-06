@@ -1,0 +1,46 @@
+{
+  "themes": [
+    {
+      "id": "worship",
+      "name": "Worship",
+      "description": "Hymns focused on worship and adoration of God",
+      "hymns": ["CH1941-en-001", "CH1941-en-002", "CH1941-en-006"]
+    },
+    {
+      "id": "praise",
+      "name": "Praise",
+      "description": "Hymns of praise and thanksgiving",
+      "hymns": ["CH1941-en-001", "CH1941-en-002", "CH1941-en-003", "CH1941-en-008"]
+    },
+    {
+      "id": "sovereignty-of-god",
+      "name": "Sovereignty of God",
+      "description": "Hymns about God's sovereign power and rule",
+      "hymns": ["CH1941-en-001", "CH1941-en-007"]
+    },
+    {
+      "id": "trinity",
+      "name": "Trinity",
+      "description": "Hymns about the Trinity - Father, Son, and Holy Spirit",
+      "hymns": ["CH1941-en-003"]
+    },
+    {
+      "id": "mercy",
+      "name": "Mercy",
+      "description": "Hymns about God's mercy and compassion",
+      "hymns": ["CH1941-en-005"]
+    },
+    {
+      "id": "holiness",
+      "name": "Holiness",
+      "description": "Hymns about God's holiness and reverence",
+      "hymns": ["CH1941-en-004", "CH1941-en-006"]
+    },
+    {
+      "id": "covenant",
+      "name": "Covenant",
+      "description": "Hymns about God's covenant relationship",
+      "hymns": ["CH1941-en-008"]
+    }
+  ]
+}

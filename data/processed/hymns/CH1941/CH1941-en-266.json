@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-266",
+  "number": 266,
+  "title": "I Will Follow Thee",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I will follow Thee, my Savior,\nWhere Thou leadest I will go;\nBe the pathway bright or dreary,\nI will follow here below."
+    },
+    {
+      "number": 2,
+      "text": "Though the way be sometimes lonely,\nAnd my heart would cry for rest,\nIn Thy love I find my refuge,\nOn Thy promise I am blessed."
+    },
+    {
+      "number": 3,
+      "text": "I will follow Thee, dear Jesus,\nThrough the valley and the hill,\nWhere the cross of my salvation\nShines to guide me by Thy will."
+    },
+    {
+      "number": 4,
+      "text": "When the journey here is ended\nAnd I reach the promised land,\nI shall praise Thee, blessed Savior,\nWith the blood-washed, happy band."
+    }
+  ],
+  "metadata": {
+    "year": "[needs verification]",
+    "copyright": "Public Domain",
+    "themes": ["discipleship", "following Jesus", "consecration", "eternal life"],
+    "scripture_references": ["Matthew 16:24", "John 12:26"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-600",
+  "number": 600,
+  "title": "Hold Fast Till I Come",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sweet promise is given to all who believe\n'Behold I come quickly, Mine own to receive;\nHold fast till I come; the danger is great;\nSleep not as do others; be watchful, and wait.'"
+    },
+    {
+      "number": 2,
+      "text": "We'll 'watch unto prayer' with lamps burning bright;\nHe comes to all others a 'thief in the night.'\nWe know He is near, but know not the day\nAs spring shows that summer is not far away."
+    },
+    {
+      "number": 3,
+      "text": "Yes! this is our hope, 'tis built on His word\nThe glorious appearing of Jesus, our Lord;\nOf promises all, it stands as the sum:\n'Behold I come quickly, hold fast till I come.'"
+    }
+  ],
+  "chorus": {
+    "text": "'Hold fast till I come;' sweet promise of heaven\n'The kingdom restored, to you shall be given.'\n'Come, enter My joy, sit down on My throne;\nBright crowns are in waiting; hold fast till I come.'"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Second Coming", "perseverance", "watchfulness", "promise"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

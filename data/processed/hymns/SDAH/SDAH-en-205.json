@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-205",
+  "number": 205,
+  "title": "Gleams of the Golden Morning",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The golden morning is fast approaching;\nJesus soon will come\nTo take His faithful and happy children\nTo their promised home."
+    },
+    {
+      "number": 2,
+      "text": "The gospel summons will soon be carried\nTo the nations round;\nThe Bridegroom then will cease to tarry\nAnd the trumpet sound."
+    },
+    {
+      "number": 3,
+      "text": "Attended by all the shining angels,\nDown the flaming sky\nThe Judge will come, and will take His people\nWhere they will not die."
+    },
+    {
+      "number": 4,
+      "text": "There those loved ones who have long been parted\nWill all meet that day;\nThe tears of those who are brokenhearted\nWill be wiped away."
+    }
+  ],
+  "chorus": {
+    "text": "O, we see the gleams of the golden morning\nPiercing through this night of gloom! O, we\nsee the gleams of the golden morning\nThat will burst the tomb."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Second Coming", "Golden Morning", "Resurrection", "Reunion", "Hope"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

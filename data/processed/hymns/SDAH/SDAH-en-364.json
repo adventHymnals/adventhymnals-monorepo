@@ -1,0 +1,32 @@
+{
+  "id": "SDAH-en-364",
+  "number": 364,
+  "title": "O Jesus Christ, to You",
+  "author": "Bradford Gray Webster",
+  "composer": "Richard Terry",
+  "tune": "LOVE UNKNOWN",
+  "meter": "6.6.6.6.4.4.4.4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Jesus Christ, to You may hymns be rising,\nIn ev'ry city for Your love and care;\nInspire our worship, grant the glad surprising\nThat Your blest Spirit brings men ev'rywhere."
+    },
+    {
+      "number": 2,
+      "text": "Grant us new courage, sacrifice, and humble,\nStrong in Your strength to venture and to dare,\nTo lift the fallen, guide the glad feet stumbling,\nSeek out the lonely and God's mercy share."
+    },
+    {
+      "number": 3,
+      "text": "Show us Your Spirit brooding o'er each city,\nAs You did weep above Jerusalem,\nSeek-ing to gather all in love and pity,\nAnd heal-ing those who touch Your garment's hem."
+    }
+  ],
+  "metadata": {
+    "year": 1954,
+    "copyright": "© 1954 The Hymn Society",
+    "themes": ["Urban Ministry", "Compassion", "Spirit of Christ", "Service"],
+    "scripture_references": ["Matthew 23:37", "Luke 19:41"],
+    "tune_source": "Richard Terry, 1918",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-015",
+  "number": 15,
+  "title": "This World is Not My Home",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Farewell! farewell! to all below,\nMy Jesus calls and I must go:\nI'll launch my boat upon the sea,\nThis land is not the land for me.\nThis world is not my home;\nThis world is not my home;\nThis world is all a wilderness;\nThis world is not my home."
+    },
+    {
+      "number": 2,
+      "text": "I found the winding path of sin\nA rugged path to travel in;\nBeyond this fading world I see\nThe land the Saviour bought for me.\nThis world is not my home;\nThis world is not my home;\nThis world is all a wilderness;\nThis world is not my home."
+    },
+    {
+      "number": 3,
+      "text": "Farewell! my friends ! I'll not stay here—\nThe home I seek will soon appear;\nWhere Christ is not, I cannot be;\nThis land is not the land for me.\nThis world is not my home;\nThis world is not my home;\nThis world is all a wilderness;\nThis world is not my home."
+    },
+    {
+      "number": 4,
+      "text": "Praise be to God our hope's on high;\nThe angels sing and so do I\nWhere seraphs bow and bend the knee,\n0 that's the land—the land for me.\nThis world is not my home;\nThis world is not my home;\nThis world is all a wilderness;\nThis world is not my home."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["pilgrimage", "heavenly home", "detachment from world", "eternal life"],
+    "scripture_references": ["Heb 11:13-16", "Phil 3:20", "1 Pet 2:11"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

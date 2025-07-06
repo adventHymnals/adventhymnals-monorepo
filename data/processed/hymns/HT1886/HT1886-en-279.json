@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-279",
+  "number": 279,
+  "title": "May the grace of Christ, our Saviour",
+  "author": "John Newton",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "May the grace of Christ, our Saviour,\nAnd the Father's boundless love,\nWith the Holy Spirit's favor,\nRest upon us from above."
+    },
+    {
+      "number": 2,
+      "text": "Thus may we abide in union\nWith each other and the Lord,\nAnd possess, in sweet communion,\nJoys which earth cannot afford."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "closing", "grace", "communion", "blessing"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

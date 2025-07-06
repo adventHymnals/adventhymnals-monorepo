@@ -1,0 +1,34 @@
+{
+  "id": "SAHB-en-023",
+  "number": 23,
+  "title": "Hark! Ten Thousand Harps and Voices",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! ten thousand harps and voices\nSound the note of praise above;\nJesus reigns, and heaven rejoices,\nJesus reigns, the God of love;\nSee, he sits on yonder throne;\nJesus rules the world alone."
+    },
+    {
+      "number": 2,
+      "text": "Jesus, hail! whose glory brightens\nAll above and gives it worth;\nLord of life, thy smile enlightens,\nCheers and charms thy saints on earth;\nWhen we think of love like thine,\nLord, we own it love divine."
+    },
+    {
+      "number": 3,
+      "text": "King of glory, reign forever,\nThine an everlasting crown;\nNothing, from thy love shall sever\nThose whom thou hast made thine own;\nHappy objects of thy grace,\nDestined to behold thy face."
+    },
+    {
+      "number": 4,
+      "text": "Saviour, hasten thine appearing;\nBring, O bring the glorious day,\nWhen, the awful summons hearing,\nHeaven and earth shall pass away;\nThen, with golden harps, we'll sing,\nGlory, glory to our King!"
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["praise", "Jesus' reign", "eternal glory", "second advent"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

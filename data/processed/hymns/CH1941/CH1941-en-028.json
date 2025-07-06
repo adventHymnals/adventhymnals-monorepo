@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-028",
+  "number": 28,
+  "title": "Blest Hour When Mortal Man Retires",
+  "author": "John Pierpont",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Blest hour when mortal man retires\nTo hold communion with his God,\nWhen earth-born passion he suspires\nAnd leaves the world for prayer's abode."
+    },
+    {
+      "number": 2,
+      "text": "Blest hour when, weary of his load\nOf guilt and sorrow here below,\nThe Christian seeks his Father's abode,\nAnd finds relief from every woe."
+    },
+    {
+      "number": 3,
+      "text": "Blest hour when God inclines His ear\nTo mortal man's imploring cry,\nDispels the gloom of doubt and fear,\nAnd bids the mourning spirit fly."
+    },
+    {
+      "number": 4,
+      "text": "Then is the time the soul can feel\nIts God is ever drawing nigh,\nThen broken hearts begin to heal,\nAnd tears of sorrow cease to flow."
+    }
+  ],
+  "metadata": {
+    "year": 1825,
+    "copyright": "Public Domain",
+    "themes": ["prayer", "communion with God", "comfort", "devotion"],
+    "scripture_references": ["Matthew 6:6", "Psalm 55:17"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

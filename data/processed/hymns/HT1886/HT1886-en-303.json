@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-303",
+  "number": 303,
+  "title": "When, like a stranger on our sphere",
+  "author": "James Montgomery",
+  "composer": null,
+  "tune": "64, 542, 29",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When, like a stranger on our sphere,\nThe lowly Jesus wandered here,\nWhere'er he went, affliction fled,\nAnd sickness reared her fainting head."
+    },
+    {
+      "number": 2,
+      "text": "The eye that rolled in irksome night,\nBeheld the face—of God its light;\nThe opening ear, the loosened tongue,\nHis preacepts heard, his praises sung."
+    },
+    {
+      "number": 3,
+      "text": "With bounding step the halt and lame,\nTo their glad Deliverer came;\nO'er the dead grave his voice he raised,\nHe spake the word, and raised the dead."
+    },
+    {
+      "number": 4,
+      "text": "Despairing madness, dark and wild,\nIn his inspiring presence smiled;\nThe storm of horror ceased to roll,\nAnd reason lighted up the soul."
+    },
+    {
+      "number": 5,
+      "text": "Through paths of loving-kindness led,\nWhere Jesus triumphed, we would tread;\nTo all with willing hands dispense\nThe gifts of our benevolence."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Life and Character", "healing", "miracles", "compassion", "service"],
+    "scripture_references": [],
+    "tune_source": "64, 542, 29",
+    "original_language": "en"
+  }
+}

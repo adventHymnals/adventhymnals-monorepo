@@ -1,0 +1,41 @@
+{
+  "id": "HGPP-en-019",
+  "number": 19,
+  "title": "I'm a Traveller",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I'm a lonely trav'ller here,\nWeary, opprest;\nBut my journey's end is near,\nSoon I shall rest.\nDark and dreary is the way,\nToiling I've come—\nAsk me not with you to stay—\nYonder's my home."
+    },
+    {
+      "number": 2,
+      "text": "I'm a weary trav'ller here,\nI must go on,\nFor my journey's end is near—\nI must be gone.\nBrighter joys than earth can give;\nWin me away;\nPleasures, that for ever live—\nI cannot stay."
+    },
+    {
+      "number": 3,
+      "text": "I'm a trav'ller to a land\nWhere all is fair;\nWhere is seen no broken band—\nAll, all are there;\nWhere no tear shall ever fall,\nNor heart be sad;\nWhere the glory is for all,\nAnd all are glad."
+    },
+    {
+      "number": 4,
+      "text": "I'm a trav'ller, and I go\nWhere all is fair;\nFarewell all I've lov'd below—\nI must be there.\nWorldly honors, hopes and gain,\nAll I resign;\nWelcome sorrow, grief and pain.\nIf heav'n be mine."
+    },
+    {
+      "number": 5,
+      "text": "I'm a trav'ller—call me not—\nUpward's my way;\nYonder is my rest and lot,\nI cannot stay.\nFarewell earthly pleasures all,\nPilgrim I'll roam,\nHail me not—in vain you call—\nYonder's my home."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["pilgrimage", "traveller", "heavenly home", "detachment from world", "eternal rest"],
+    "scripture_references": ["Heb 11:13-16", "1 Pet 2:11", "Phil 3:20"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

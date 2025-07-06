@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-225",
+  "number": 225,
+  "title": "This day the Lord has called his own",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "This day the Lord has called his own;\nO, let us, then, his praise declare!\nFix our desires on him alone,\nAnd seek his face from fervent prayer."
+    },
+    {
+      "number": 2,
+      "text": "Lord, in thy love thy world rejoice\nWhich bids the burdened soul be free;\nAnd with united heart and voice\nDevote these sacred hours to thee."
+    },
+    {
+      "number": 3,
+      "text": "Now let the world's disturbing things\nNo more our grateful hearts employ,\nBut faith be taught to stretch its wings\nIn search of heavenly paradise."
+    },
+    {
+      "number": 4,
+      "text": "O, let these earthly Sabbaths, Lord,\nBe to our lasting welfare blessed!\nThe purest comfort here afford,\nAnd fit us for eternal rest."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "praise", "prayer", "eternal rest"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

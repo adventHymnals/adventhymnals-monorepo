@@ -1,0 +1,34 @@
+{
+  "id": "HT1886-en-619",
+  "number": 619,
+  "title": "What a Friend We Have in Jesus",
+  "author": "Joseph M. Scriven",
+  "composer": "Charles C. Converse",
+  "tune": "Converse",
+  "meter": "8.7.8.7 D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "What a friend we have in Jesus,\nAll our sins and griefs to bear!\nWhat a privilege to carry\nEverything to God in prayer!\nO what peace we often forfeit,\nO what needless pain we bear,\nAll because we do not carry\nEverything to God in prayer!"
+    },
+    {
+      "number": 2,
+      "text": "Have we trials and temptations?\nIs there trouble anywhere?\nWe should never be discouraged;\nTake it to the Lord in prayer.\nCan we find a friend so faithful\nWho will all our sorrows share?\nJesus knows our every weakness;\nTake it to the Lord in prayer."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": [
+      "friendship with Jesus",
+      "prayer",
+      "comfort",
+      "peace"
+    ],
+    "scripture_references": [],
+    "tune_source": "Converse, Charles C. Converse",
+    "original_language": "en",
+    "extraction_status": "ai_vision_extracted"
+  }
+}

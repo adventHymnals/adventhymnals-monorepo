@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-330",
+  "number": 330,
+  "title": "Take My Life and Let It Be",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Take my life, and let it be\nConsecrated, Lord, to Thee;\nTake my hands, and let them move\nAt the impulse of Thy love."
+    },
+    {
+      "number": 2,
+      "text": "Take my feet, and let them be\nSwift and beautiful for Thee;\nTake my voice, and let me sing\nAlways, only, for my King."
+    },
+    {
+      "number": 3,
+      "text": "Take my lips, and let them be\nFilled with messages from Thee;\nTake my silver and my gold,\nNot a mite would I withhold."
+    },
+    {
+      "number": 4,
+      "text": "Take my will, and make it Thine;\nIt shall be no longer mine;\nTake my heart, it is Thine own;\nIt shall be Thy royal throne."
+    },
+    {
+      "number": 5,
+      "text": "Take my love; my Lord, I pour\nAt Thy feet its treasure store;\nTake myself, and I will be\nEver, only, all for Thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Consecration", "Surrender", "Discipleship", "Service", "Love"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

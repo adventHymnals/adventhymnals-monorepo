@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-246",
+  "number": 246,
+  "title": "O day of rest and gladness",
+  "author": "Alex. Ewing",
+  "composer": null,
+  "tune": "Ewing. 7s & 6s. D.",
+  "meter": "7s & 6s. D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O day of rest and gladness,\nO day of joy and light,\nO balm of care and sadness,\nMost beautiful, most bright;\nOn thee, the high and lowly,\nWho bend before the throne,\nSing, Ho-ly, ho-ly, ho-ly,\nTo the Eternal One."
+    },
+    {
+      "number": 2,
+      "text": "Thou art a port protected\nFrom storms that round us rise,\nA garden intersected\nWith streams of paradise;\nThou art a cooling fountain\nIn life's dry, dreary sand;\nFrom thee, like Pisgah's mountain,\nWe view our promised land."
+    },
+    {
+      "number": 3,
+      "text": "A day of sweet reflection\nThou art, a day of love;\nA day to raise affection\nFrom earth to things above.\nNew graces ever gaining\nFrom this our day of rest,\nWe seek the rest remaining\nIn mansions of the blest."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath rest", "joy", "worship", "reflection", "heavenly rest"],
+    "scripture_references": ["Isaiah 4:6"],
+    "tune_source": "Ewing. 7s & 6s. D.",
+    "original_language": "en"
+  }
+}

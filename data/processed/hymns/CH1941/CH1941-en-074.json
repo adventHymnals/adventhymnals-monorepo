@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-074",
+  "number": 74,
+  "title": "Sound the Lord in Glory Seated",
+  "author": "John Keble",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sound the Lord in glory seated,\nCherubim and seraphim\nFilled His temple and repeated\nEach to each the alternate hymn:\n'Lord, Thy glory fills the heaven,\nEarth is with its fulness stored;\nUnto Thee be glory given,\nHoly, holy, holy Lord!'"
+    },
+    {
+      "number": 2,
+      "text": "Heaven is still with glory ringing,\nEarth takes up the angels' cry,\n'Holy, holy, holy,' singing,\n'Lord of hosts, the Lord most high.'\nWith His seraph train before Him,\nWith His holy church below,\nThus unite we to adore Him,\nBid we thus our anthem flow:"
+    },
+    {
+      "number": 3,
+      "text": "'Lord, Thy glory fills the heaven,\nEarth is with its fulness stored;\nUnto Thee be glory given,\nHoly, holy, holy Lord!'\nThus Thy glorious name confessing,\nWe adopt thine angels' cry,\n'Holy, holy, holy,' blessing\nThee, the Lord of hosts most high."
+    }
+  ],
+  "metadata": {
+    "year": 1827,
+    "copyright": "Public Domain",
+    "themes": ["holiness", "heavenly worship", "angels", "glory"],
+    "scripture_references": ["Isaiah 6:2-3", "Revelation 4:8"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

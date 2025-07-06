@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-654",
+  "number": 654,
+  "title": "Lord, Bless Our Homes",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, bless our homes with peace and love and laughter,\nWith understanding and with loyalty.\nMay we together follow Christ the Master,\nAnd know the blessing of His sovereignty."
+    },
+    {
+      "number": 2,
+      "text": "May every heart receive His loving spirit\nAnd know the truth that makes life truly free;\nOn whose we love and those who love us,\nWe open now our hearts to all mankind."
+    },
+    {
+      "number": 3,
+      "text": "Forgive the hurts our selfishness inflicted,\nChrist, heal the scars, and draw us all together.\nGrant us Your spirit love for one another,\nSo in Your peace may we our concord find."
+    },
+    {
+      "number": 4,
+      "text": "And know the blessing of His sovereignty.\nAnd find in Him whose will is our deep cure,\nIn Him whose peace may we and our concord find."
+    }
+  ],
+  "metadata": {
+    "themes": ["home", "blessing", "peace", "family unity"],
+    "scripture_references": ["Joshua 24:15", "Psalm 127:1"],
+    "copyright": "Public Domain"
+  }
+}

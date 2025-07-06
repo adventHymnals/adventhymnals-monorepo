@@ -1,0 +1,29 @@
+{
+  "id": "SDAH-en-075",
+  "number": 75,
+  "title": "The Wonder of It All",
+  "author": "George Beverly Shea",
+  "composer": "George Beverly Shea",
+  "tune": "The Wonder of It All",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There's the wonder of sunset at evening,\nThe wonder as sunrise I see;\nBut the wonder of wonders that thrills my soul\nIs the wonder that God loves me."
+    },
+    {
+      "number": 2,
+      "text": "There's the wonder of springtime and harvest,\nThe sky, the stars, the sun;\nBut the wonder of wonders that thrills my soul\nIs a wonder that's only begun."
+    }
+  ],
+  "chorus": {
+    "text": "O, the wonder of it all!\nThe wonder of it all!\nJust to think that God loves me.\nO, the wonder of it all!\nThe wonder of it all!\nJust to think that God loves me."
+  },
+  "metadata": {
+    "themes": ["God's Love", "Wonder", "Nature"],
+    "scripture_references": [],
+    "tune_source": "The Wonder of It All",
+    "original_language": "en"
+  }
+}

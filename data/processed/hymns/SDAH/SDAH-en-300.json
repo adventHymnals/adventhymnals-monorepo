@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-300",
+  "number": 300,
+  "title": "Rock of Ages",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Rock of Ages, cleft for me,\nLet me hide myself in Thee;\nLet the water and the blood,\nFrom Thy riven side which flowed,"
+    },
+    {
+      "number": 2,
+      "text": "Not the labors of my hands\nCan fulfill Thy law's demands;\nCould my zeal no respite know,\nCould my tears forever flow,"
+    },
+    {
+      "number": 3,
+      "text": "When my pilgrimage I close,\nVictor o'er the last of foes,\nWhen I soar to worlds unknown,\nAnd behold Thee on Thy throne,"
+    }
+  ],
+  "chorus": {
+    "text": "Be of sin the double cure;\nCleanse me from its guilt and power.\nAll for sin could not atone;\nThou must save, and Thou alone.\nRock of Ages, cleft for me,\nLet me hide myself in Thee."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Rock of Ages", "Refuge", "Cleansing", "Salvation"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

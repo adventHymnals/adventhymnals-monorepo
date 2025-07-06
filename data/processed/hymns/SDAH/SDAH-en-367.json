@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-367",
+  "number": 367,
+  "title": "Rescue the Perishing",
+  "author": "Fanny J. Crosby",
+  "composer": "William H. Doane",
+  "tune": "RESCUE",
+  "meter": "11.11.11.11",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Rescue the perishing, care for the dying, snatch them in pity from sin and the grave;\nWeep o'er the erring one, lift up the fallen, tell them of Jesus, the mighty to save."
+    },
+    {
+      "number": 2,
+      "text": "Though they are slighting Him, still He is waiting, waiting the penitent child to receive.\nPlead with them earnestly, plead with them gently; He will forgive if they only believe."
+    },
+    {
+      "number": 3,
+      "text": "Rescue the perishing, duty demands it; strength for thy labor the Lord will provide.\nBack to the narrow way patiently win them; tell the poor wanderer a Savior has died."
+    }
+  ],
+  "chorus": {
+    "text": "Rescue the perishing, care for the dying; Jesus is merciful, Jesus will save."
+  },
+  "metadata": {
+    "year": 1869,
+    "copyright": "Public Domain",
+    "themes": ["Evangelism", "Salvation", "Compassion", "Rescue"],
+    "scripture_references": ["Luke 19:10", "Jude 1:23"],
+    "tune_source": "William H. Doane, 1870",
+    "original_language": "en"
+  }
+}

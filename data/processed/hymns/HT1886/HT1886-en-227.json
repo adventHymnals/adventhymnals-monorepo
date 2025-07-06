@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-227",
+  "number": 227,
+  "title": "With joy we hail the sacred day",
+  "author": "Lowell Mason",
+  "composer": null,
+  "tune": "Herbert",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "With joy we hail the sacred day\nWhich God has called his own;\nWith joy the summons we obey,\nTo worship at his throne."
+    },
+    {
+      "number": 2,
+      "text": "Thy chosen temple, Lord, how fair!\nWhere willing votaries throng\nTo breathe the humble, fervent prayer,\nAnd pour the choral song."
+    },
+    {
+      "number": 3,
+      "text": "Spirit of grace, O deign to dwell\nWithin thy church below;\nMake her in holiness excel,\nWith pure devotion glow."
+    },
+    {
+      "number": 4,
+      "text": "Let peace within her walls be found;\nLet all her sons unite\nTo spread with holy zeal around\nHer clear and shining light."
+    },
+    {
+      "number": 5,
+      "text": "Then hail! thou sacred, blessed day,\nThe best of all the seven,\nWhen hearts unite their vows to pay\nOf gratitude to heaven."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "joy", "temple", "Spirit", "unity"],
+    "scripture_references": [],
+    "tune_source": "Herbert, C. M., Lowell Mason",
+    "original_language": "en"
+  }
+}

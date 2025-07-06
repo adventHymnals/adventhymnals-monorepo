@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-011",
+  "number": 11,
+  "title": "The Lord Jehovah Reigns",
+  "author": "Isaac Watts",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The Lord Jehovah reigns,\nHis throne is built on high;\nThe garments He assumes\nAre light and majesty."
+    },
+    {
+      "number": 2,
+      "text": "His glories shine with beams so bright,\nNo mortal eye can bear the sight.\nThe nations tremble at His voice,\nThe heavens and earth rejoice."
+    },
+    {
+      "number": 3,
+      "text": "In robes of judgment lo, He comes,\nShaking the wide earth like a drums.\nHow terrible is our God!\nAnd trembles at His nod."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": ["God's reign", "majesty", "judgment", "glory"],
+    "scripture_references": ["Psalm 93", "Psalm 97"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

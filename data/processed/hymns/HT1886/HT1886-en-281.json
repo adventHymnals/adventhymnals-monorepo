@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-281",
+  "number": 281,
+  "title": "God of our salvation, hear us",
+  "author": "P. K. Bellon",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God of our salvation, hear us;\nBless, O bless us, ere we go;\nWhen we leave this world to cheer us,\nLest we faint and careless grow."
+    },
+    {
+      "number": 2,
+      "text": "May we live in view of heaven,\nWhere we hope to see thy face;\nLet thy Spirit's light be given,\nAll our hidden paths to trace."
+    },
+    {
+      "number": 3,
+      "text": "As our steps are drawing nearer\nTo the place we call our home,\nMay our view of heaven grow clearer,\nHope more bright of joys to come."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "closing", "salvation", "blessing", "heaven", "hope"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

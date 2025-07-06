@@ -1,0 +1,29 @@
+{
+  "id": "SDAH-en-128",
+  "number": 128,
+  "title": "Break Forth, O Beauteous Heavenly Light",
+  "author": "Johann Rist; trans. John Troutbeck",
+  "composer": "Johann Schop",
+  "tune": "Ermuntre Dich",
+  "meter": "87.87.88.77",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Break forth, O beauteous heavenly light,\nAnd usher in the morning;\nYe shepherds, shrink not with affright,\nBut hear the angel's warning.\nThis Child, now weak in infancy,\nOur confidence and joy shall be,\nThe power of Satan breaking,\nOur peace eternal making."
+    },
+    {
+      "number": 2,
+      "text": "Break forth, O beauteous heavenly light,\nTo herald our salvation;\nHe stoops to earth with God of might,\nOur hope and expectation.\nHe comes in human flesh to dwell,\nOur God with us, Immanuel,\nThe night of darkness ending,\nOur fallen race befriending."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1641,
+    "copyright": "Public Domain",
+    "themes": ["Christmas", "Christ's Birth", "Light", "Salvation"],
+    "scripture_references": ["Luke 2:9-14", "Isaiah 9:2"],
+    "tune_source": "Johann Schop, 1641",
+    "original_language": "de"
+  }
+}

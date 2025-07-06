@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-160",
+  "number": 160,
+  "title": "Come, divine and peaceful Guest",
+  "author": "Charles Wesley",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, divine and peaceful Guest,\nEnter each devoted breast;\nHoly Ghost, our hearts inspire,\nKindle there the gospel fire."
+    },
+    {
+      "number": 2,
+      "text": "God, the everlasting God,\nMakes with mortals his abode;\nWhom the heavens cannot contain,\nHe vouchsafes to dwell in man."
+    },
+    {
+      "number": 3,
+      "text": "Never will he thence depart,\nInmate of a humble heart;\nCarrying on his work within,\nStriving till he cast out sin."
+    },
+    {
+      "number": 4,
+      "text": "Crown the amazing work of grace,\nPrincipal and Lord of life;\nLife divine in us renew,\nThou the Gift and Giver too!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "divine presence", "spiritual renewal", "grace", "God's dwelling"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

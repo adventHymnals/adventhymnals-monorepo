@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-028",
+  "number": 28,
+  "title": "Praise We the Lord",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise we the Lord, who made all beauty\nFor all our senses to enjoy;\nOwe we our humble thanks and duty\nThat simple pleasures never cloy."
+    },
+    {
+      "number": 2,
+      "text": "Praise Him who loves to see young lovers,\nFresh hearts that swell with pride;\nThank Him who sends the sun above,\nThank Him who gives to each one power."
+    },
+    {
+      "number": 3,
+      "text": "Praise Him who by a simple flower\nLifts up our hearts to youth-ful joy;\nThank Him who gives to each one power,\nThings above."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "creation", "beauty", "thanksgiving"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

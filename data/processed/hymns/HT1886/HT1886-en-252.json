@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-252",
+  "number": 252,
+  "title": "The God that made the earth",
+  "author": "Lewis Edson",
+  "composer": null,
+  "tune": "Lenox. H. M.",
+  "meter": "H. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The God that made the earth,\nAnd all the worlds on high,\nWho gave all creatures birth,\nIn earth, and sea, and sky,\nAfter six days in work employed,\nUpon the seventh a rest enjoyed."
+    },
+    {
+      "number": 2,
+      "text": "This Sabbath-day was blessed,\nHallowed, and sanctified;\nIt was Jehovah's rest,\nAnd so it must abide;\n'T was set apart before the fall,\n'T was made for man, 't was made for all."
+    },
+    {
+      "number": 3,
+      "text": "And when from Sinai's mount,\nAmidst the fire and smoke,\nJehovah did recount\nHis precepts, and all his precepts spoke,\nHe claimed the rest-day as his own,\nAnd wrote it with his law on stone."
+    },
+    {
+      "number": 4,
+      "text": "The Son of God appeared\nWith tidings of great joy;\nGod's people he revered,\nHe came not to destroy;\nNone of the law was set aside,\nBut every tittle ratified."
+    },
+    {
+      "number": 5,
+      "text": "Our Saviour did not die\nTo render null and void\nThe law of the Most High,\nWhich cannot be destroyed;"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["creation", "Sabbath", "God's law", "ten commandments", "sanctification"],
+    "scripture_references": ["Genesis 2:2-3", "Exodus 20:8-11"],
+    "tune_source": "Lenox. H. M.",
+    "original_language": "en"
+  }
+}

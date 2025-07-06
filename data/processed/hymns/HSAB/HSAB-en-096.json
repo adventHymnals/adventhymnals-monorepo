@@ -1,0 +1,37 @@
+{
+  "id": "HSAB-en-096",
+  "number": 96,
+  "title": "GOD'S WORD",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THY Word is a lamp to my foot,\nA glorious light to my path;\nIt furnishes spiritual meat,\nAnd saves me from error and wrath."
+    },
+    {
+      "number": 2,
+      "text": "It shows me the object of hope,\nThe heavens and earth all renew'd;\nMy pilgrimage never shall stop\nTill I reach that blessed abode."
+    },
+    {
+      "number": 3,
+      "text": "It's a chart in life's stormy way,\nPresenting the seasons and times,\nRegarding that glorious day;\nIt also presents me the signs."
+    },
+    {
+      "number": 4,
+      "text": "It's a deed of the saint's blessed lot,\nVouchsaf'd in the kingdom to come;\nWhether sceptics believe it or not,\nGod's people will soon be at home."
+    },
+    {
+      "number": 5,
+      "text": "It's a lamp, a light, and a chart,\nAnd a deed of my heavenly home;\nIt proves, to the joy of my heart,\nMy Saviour just ready to come."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["scripture", "word of God", "guidance", "hope", "second advent", "Bible"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

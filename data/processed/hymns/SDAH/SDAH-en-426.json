@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-426",
+  "number": 426,
+  "title": "I Shall See the King",
+  "author": "Charles H. Gabriel",
+  "composer": "Charles H. Gabriel",
+  "tune": "I SHALL SEE THE KING",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I shall see the King\nWhere the angels sing,\nI shall see the King some day,"
+    },
+    {
+      "number": 2,
+      "text": "In the land of song,\nIn the glory throng,\nWhere there never comes a night,"
+    },
+    {
+      "number": 3,
+      "text": "I shall see the King,\nAll my tributes bring,\nAnd shall look up on His face;"
+    }
+  ],
+  "chorus": {
+    "text": "In His glory, I shall see the King,\nAnd forever endless praises sing;\n'Twas on Calvary Jesus died for me,\nI shall see the King some day."
+  },
+  "metadata": {
+    "year": 1908,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "king", "glory", "salvation", "eternal life"],
+    "scripture_references": ["Revelation 22:4", "1 John 3:2", "Matthew 25:34"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

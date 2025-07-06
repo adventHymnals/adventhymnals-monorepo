@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-208",
+  "number": 208,
+  "title": "O how I love thy holy law!",
+  "author": "Isaac Watts",
+  "composer": "Thomas Firth",
+  "tune": "Winchester. C. M.",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O how I love thy holy law!\n'Tis daily my delight;\nAnd thence my meditations draw\nDivine advice by night."
+    },
+    {
+      "number": 2,
+      "text": "How doth thy word my heart engage!\nHow well employ my tongue!\nAnd in my tiresome pilgrimage\nYields me a heavenly song."
+    },
+    {
+      "number": 3,
+      "text": "No treasures so enrich the mind,\nNor shall thy word grow old;\nFor loads of silver well-refined,\nNor heaps of choicest gold."
+    },
+    {
+      "number": 4,
+      "text": "When all the powers of nature droop,\nThy promises of grace\nAre pillars to support the hope\nOf my abiding-place."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["love of God's law", "meditation", "divine word", "treasure", "promises"],
+    "scripture_references": ["Psalm 119:97"],
+    "tune_source": "Winchester. C. M., Thomas Firth",
+    "original_language": "en"
+  }
+}

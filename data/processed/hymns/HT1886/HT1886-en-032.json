@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-032",
+  "number": 32,
+  "title": "COME, sound his praise abroad",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "26, 71, 151",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "COME, sound his praise abroad,\nAnd hymns of glory sing;\nJehovah is the sovereign God,\nThe universal King."
+    },
+    {
+      "number": 2,
+      "text": "He formed the deeps unknown,\nHe gave the seas their bound;\nThe watery worlds are all his own,\nAnd all the solid ground."
+    },
+    {
+      "number": 3,
+      "text": "Come, worship at his throne,\nCome, bow before the Lord;\nWe are his work, and not our own,\nHe formed us by his word."
+    },
+    {
+      "number": 4,
+      "text": "To-day attend his voice,\nNor dare provoke his rod;\nCome, like the people of his choice,\nAnd own your gracious God."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "God's sovereignty", "creation", "worship", "obedience"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

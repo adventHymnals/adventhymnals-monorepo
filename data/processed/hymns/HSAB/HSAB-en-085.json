@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-085",
+  "number": 85,
+  "title": "Come Home",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "BRETHREN, while we sojourn here.\nFight we must, but should not fear;\nFoes we have; but we've a friend,\nOne who loves us to the end;\nForward then with courage go;\nLong we shall not dwell below;\nSoon the joyful news will come,\nChild, your Father calls—Come home."
+    },
+    {
+      "number": 2,
+      "text": "In the world a thousand snares\nLie to take us unawares;\nSatan with malicious art,\nWatches each unguarded heart;\nBut from Satan's malice free,\nSaints shall soon victorious be;\nSoon the joyful news will come,\nChild, your Father calls—Come home."
+    },
+    {
+      "number": 3,
+      "text": "But of all the foes we meet,\nNone so apt to turn our feet,\nNone betray us into sin,\nLike the foes we have within;\nYet, let nothing spoil your peace,\nChrist will also conquer these;\nThen the joyful news will come,\nChild, your Father calls—Come home."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["sojourn", "fight but not fear", "satan's malice", "foes within", "father calls"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

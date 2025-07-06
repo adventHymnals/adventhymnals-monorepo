@@ -1,0 +1,44 @@
+{
+  "id": "HT1886-en-101",
+  "number": 101,
+  "title": "Jesus, and shall it ever be",
+  "author": null,
+  "composer": "Henry Kemble Oliver",
+  "tune": "Federal Street",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, and shall it ever be,\nA mortal man ashamed of thee?\nAshamed of thee, whom angels praise,\nWhose glories shine through endless days?"
+    },
+    {
+      "number": 2,
+      "text": "Ashamed of Jesus! sooner far\nLet evening blush to own a star;\nHe sheds the beams of light divine\nO'er this benighted soul of mine."
+    },
+    {
+      "number": 3,
+      "text": "Ashamed of Jesus! just as soon\nLet midnight be ashamed of noon;\n'Twas midnight with my soul till he,\nBright Morning Star, bade darkness flee."
+    },
+    {
+      "number": 4,
+      "text": "Ashamed of Jesus! that dear Friend\nOn whom my hopes of heaven depend!\nNo; when I blush, be this my shame\nThat I no more revere his name."
+    },
+    {
+      "number": 5,
+      "text": "Ashamed of Jesus! yes, I may\nWhen I've no guilt to wash away,\nNo tear to wipe, no good to crave,\nNo fears to quell, no soul to save."
+    },
+    {
+      "number": 6,
+      "text": "Till then,—nor is my boasting vain,—\nTill then I boast a Saviour slain;\nAnd O, may this my glory be,\nThat Christ is not ashamed of me!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "adoration of Christ", "Jesus Christ", "not ashamed", "praise"],
+    "scripture_references": ["Romans 1:16"],
+    "tune_source": "Henry Kemble Oliver",
+    "original_language": "en"
+  }
+}

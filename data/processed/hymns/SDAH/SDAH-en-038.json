@@ -1,0 +1,31 @@
+{
+  "id": "SDAH-en-038",
+  "number": 38,
+  "title": "Arise, My Soul, Arise!",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Arise, my soul, arise! Stretch forth to things eternal\nAnd hasten to the feet of your Redeemer God.\nThough hid from mortal eyes, He dwells in light supernal;\nYet here He grants a foretaste of the feast to come!\nRejoice, my soul, rejoice, To Him be everlasting power and victory.\nAlleluia, alleluia, alleluia!"
+    },
+    {
+      "number": 2,
+      "text": "Now hear the harps of heaven! Oh, hear the song victorious,\nThe never-ending anthem sound through the sky!\nTo mortals is not given To join in strains so glorious;\nYet here on earth we too can sing our praises high!\nHe bought with His blood The ransomed of God;\nAnd let the great Amen Resound through heaven's lift up your voice:\nAlleluia, alleluia, alleluia!"
+    }
+  ],
+  "chorus": {
+    "text": "Alleluia, alleluia, alleluia!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "heaven", "eternal life", "victory"],
+    "scripture_references": [],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

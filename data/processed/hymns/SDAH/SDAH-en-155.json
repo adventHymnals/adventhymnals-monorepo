@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-155",
+  "number": 155,
+  "title": "When I Survey the Wondrous Cross",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "3/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When I survey the wondrous cross\nOn which the Prince of glory died,\nMy richest gain I count but loss,\nAnd pour contempt on all my pride."
+    },
+    {
+      "number": 2,
+      "text": "See, from His head, His hands, His feet,\nSorrow and love flow mingled down;\nDid e'er such love and sorrow meet,\nOr thorns compose so rich a crown?"
+    },
+    {
+      "number": 3,
+      "text": "Since I, who was undone and lost,\nHave pardon through His name and word;\nForbid it, Lord, that I should boast,\nSave in the cross of Christ, my Lord."
+    },
+    {
+      "number": 4,
+      "text": "Were the whole realm of nature mine,\nThat were a tribute far too small;\nLove so amazing, so divine,\nDemands my soul, my life, my all."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["cross", "sacrifice", "love", "surrender"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

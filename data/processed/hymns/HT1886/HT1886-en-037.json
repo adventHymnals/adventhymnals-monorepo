@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-037",
+  "number": 37,
+  "title": "Glory, honor, praise, and power",
+  "author": null,
+  "composer": "F. E. Belden",
+  "tune": "Root",
+  "meter": "7s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Glory, honor, praise, and power\nUnto God this very hour,\nFor the work of grace begun\nThrough his well-beloved Son."
+    },
+    {
+      "number": 2,
+      "text": "While our prayers and praises rise,\nLord, as incense to the skies,\nMay thy Spirit's quickening fire,\nEvery heart and soul inspire."
+    },
+    {
+      "number": 3,
+      "text": "Praised be thy love to man,\nFor redemption's wondrous plan,\nFor the life that thou didst give,\nLord, that we, thy foes, might live!"
+    },
+    {
+      "number": 4,
+      "text": "Daily gifts of love unfold;\nThine is more than earthly gold;\nO for hearts to praise thee more!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["glory", "praise", "grace", "redemption", "love"],
+    "scripture_references": [],
+    "tune_source": "Root, F. E. Belden",
+    "original_language": "en"
+  }
+}

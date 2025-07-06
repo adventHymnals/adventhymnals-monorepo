@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-220",
+  "number": 220,
+  "title": "This is the day of sacred rest",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "This is the day of sacred rest,\nWhich God hath sanctified and blessed,\nAnd hallowed by his majesty's design,\nAnd viewed his works, and called them good."
+    },
+    {
+      "number": 2,
+      "text": "The heavenly host their harps employ,\nThe sons of God give shouts of joy;\nThrough heaven and earth his praises ring,\nThe morning stars together sang."
+    },
+    {
+      "number": 3,
+      "text": "Come, then, ye weary souls oppressed,\nCome and enjoy this holy rest;\nLet humble songs like incense rise,\nAnd prayer and praise ascend the skies."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "praise", "sacred rest", "creation"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

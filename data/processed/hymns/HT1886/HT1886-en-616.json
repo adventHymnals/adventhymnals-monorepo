@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-616",
+  "number": 616,
+  "title": "I'm a traveler here",
+  "author": null,
+  "composer": "N. Billings",
+  "tune": "I'm a Traveler",
+  "meter": "7s & 4s, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I'm a lonely traveler here,\nWeary, oppressed; but my journey's end is near,\nSoon I shall rest.\nDark and dreary is the way,\nToil-ing I've come; Ask me not with you to stay,\nYonder's my home."
+    },
+    {
+      "number": 2,
+      "text": "I'm a traveler to a land\nWhere all is fair;\nWhere is seen no broken band—\nAll, all are there;\nWhere no tear shall ever fall,\nNor heart be sad;\nWhere the glory is for all,\nAnd all are glad."
+    },
+    {
+      "number": 3,
+      "text": "I'm a traveler—call me not—\nUpward's my way;\nYonder is my rest and lot,\nI cannot stay.\nFarewell, earthly pleasures all,\nPilgrim I'll roam;\nHail me not—in vain you call—\nYonder's my home."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["pilgrimage", "heaven", "journey"],
+    "scripture_references": [],
+    "tune_source": "I'm a Traveler, N. Billings",
+    "original_language": "en"
+  }
+}

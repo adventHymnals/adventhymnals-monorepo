@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-095",
+  "number": 95,
+  "title": "Lord, thy glory fills the heaven",
+  "author": "Richard Mant",
+  "composer": "John H. Wilcox",
+  "tune": "Faben",
+  "meter": "8s & 7s. D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, thy glory fills the heaven;\nEarth is with its fullness stored;\nUnto thee be glory given,\nHoly, holy, holy Lord!\nHeavens still with anthems ringing;\nEarth takes up the angels' cry,\nHoly, holy, holy, singing,\nLord of hosts, thou Lord most high."
+    },
+    {
+      "number": 2,
+      "text": "Ever thus in God's high praises,\nBrethren, let our tongues unite,\nWhile our thoughts his greatness raises,\nAnd our love his gifts excite:\nWith his seraph train before him,\nWith his holy church below,\nThus unite we to adore him,\nBid we thus our anthem flow."
+    },
+    {
+      "number": 3,
+      "text": "Lord, thy glory fills the heaven,\nEarth is with its fullness stored;\nUnto thee be glory given,\nHoly, holy, holy Lord!\nThus thy glorious name confessing,\nWe adopt the angels' cry,\nHoly, holy, holy! blessing\nThee, the Lord our God most high!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's glory", "worship", "holiness", "praise", "angels", "sanctification"],
+    "scripture_references": [],
+    "tune_source": "Faben, John H. Wilcox",
+    "original_language": "en"
+  }
+}

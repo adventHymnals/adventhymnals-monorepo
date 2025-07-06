@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-147",
+  "number": 147,
+  "title": "Christ Upon the Mountain Peak",
+  "author": "Brian Wren",
+  "composer": "Sydney H. Nicholson",
+  "tune": "Christus",
+  "meter": "8.7.8.7.8.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Christ upon the mountain peak\nStands alone in glory blazing;\nLet us, if we dare to speak,\nWith the saints and angels praise Him:\nAlleluia, alleluia,\nAlleluia."
+    },
+    {
+      "number": 2,
+      "text": "Trembling at His feet we saw\nMoses and Elijah speaking;\nAll the prophets and the law\nShout through them their joyful greeting:\nAlleluia, alleluia,\nAlleluia."
+    },
+    {
+      "number": 3,
+      "text": "Swift the cloud of glory came,\nGod proclaiming in the thunder\nJesus as His Son by name;\nNations cry aloud in wonder:\nAlleluia, alleluia,\nAlleluia."
+    },
+    {
+      "number": 4,
+      "text": "This is God's beloved Son!\nLaw and prophets fade before Him;\nFirst and last, the only One,\nLet creation now adore Him:\nAlleluia, alleluia,\nAlleluia."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1977,
+    "copyright": "Hope Publishing Co.",
+    "themes": ["transfiguration", "christ", "glory", "worship", "revelation"],
+    "scripture_references": ["Matthew 17:1-8", "Mark 9:2-8", "Luke 9:28-36"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

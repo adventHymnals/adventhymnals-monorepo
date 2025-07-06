@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-049",
+  "number": 49,
+  "title": "Savior, Breathe an Evening Blessing",
+  "author": "James Edmeston",
+  "composer": "George Coles Stebbins",
+  "tune": "Evening Prayer",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Savior, breathe an evening blessing\nEre repose our spirits seal;\nSin and want we come confessing;\nThou canst save and Thou canst heal."
+    },
+    {
+      "number": 2,
+      "text": "Though destruction walk around us,\nThough the arrow past us fly,\nAngel guards from Thee surround us;\nWe are safe if Thou art nigh."
+    },
+    {
+      "number": 3,
+      "text": "Though the night be dark and dreary,\nDarkness cannot hide from Thee;\nThou art He who, never weary,\nWatchest where Thy people be."
+    },
+    {
+      "number": 4,
+      "text": "Should swift death this night o'ertake us\nAnd our couch become our tomb,\nMay the morn in heaven wake us,\nClad in light and deathless bloom."
+    }
+  ],
+  "metadata": {
+    "year": 1820,
+    "copyright": "Public Domain",
+    "themes": ["evening", "protection", "trust", "eternal hope"],
+    "scripture_references": ["Psalm 91:5-6", "Psalm 121:3-4"],
+    "tune_source": "Evening Prayer, George Coles Stebbins, 1878",
+    "original_language": "en"
+  }
+}

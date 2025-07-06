@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-075",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "075",
+  "title": "Return, my soul, enjoy thy rest",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Return, my soul, enjoy thy rest, Improve the day thy God has blest; Another six days' work is done, Another Sabbath is begun."
+    },
+    {
+      "number": "2",
+      "text": "Come, bless the Lord, whose love assigns So sweet a rest to wearied minds; Provides a blest foretaste of heaven On this day more than all the seven."
+    },
+    {
+      "number": "3",
+      "text": "O that our thoughts and thanks may rise As grateful incense to the skies; And draw from Christ that sweet repose, Which none but he that feels it knows."
+    },
+    {
+      "number": "4",
+      "text": "This heavenly calm within the breast Is the blest pledge of glorious rest, Which for the church of God remains, The end of cares, the end of pains."
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "L.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 214,
+  "themes": ["Soul", "Rest", "God", "Sabbath", "Lord", "Heaven", "Christ"],
+  "key_signature": "",
+  "time_signature": ""
+}

@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-254",
+  "number": 254,
+  "title": "Welcome, delightful morn",
+  "author": null,
+  "composer": "F. Schneider",
+  "tune": "Lischer. H. M.",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Welcome, delightful morn, Thou day of sacred rest!\nI hail thy returning dawn with joy within my breast.\nFrom the low train of mortal toys\nI soar to reach immortal joys,\nI soar to reach\nImmoral joys."
+    },
+    {
+      "number": 2,
+      "text": "Now may the King descend,\nAnd fill his throne of grace;\nThy scepter, Lord, extend,\nWhile saints address thy face;\nLet sinners feel thy quickening word,\nAnd learn to know and fear the Lord."
+    },
+    {
+      "number": 3,
+      "text": "Descend, celestial Dove,\nWith all thy quickening powers;\nDisclose a Saviour's love,\nAnd bless these sacred hours;\nThen shall my soul new life obtain,\nNor Sabbath-days be passed in vain."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "sacred rest", "divine presence"],
+    "scripture_references": [],
+    "tune_source": "Lischer. H. M. - F. Schneider",
+    "original_language": "en"
+  }
+}

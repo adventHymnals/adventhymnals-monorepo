@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-629",
+  "number": 629,
+  "title": "O Happy Band of Pilgrims",
+  "author": "John Mason Neale",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O happy band of pilgrims,\nIf onward ye will tread\nWith Jesus as your fellow,\nTo Jesus as your Head!"
+    },
+    {
+      "number": 2,
+      "text": "O happy if ye labor\nAs Jesus did for men;\nO happy if ye hunger\nAs Jesus hungered then!"
+    },
+    {
+      "number": 3,
+      "text": "The trials that beset you,\nThe sorrows ye endure,\nThe man-i-fold temptations\nThat death alone can cure;"
+    },
+    {
+      "number": 4,
+      "text": "What are they but His jewels\nOf right celestial worth?\nWhat are they but the ladder\nSet up to heaven on earth?"
+    },
+    {
+      "number": 5,
+      "text": "O happy band of pilgrims,\nLook upward to the skies,\nWhere such a light affliction\nShall win you such a prize!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": ["pilgrimage", "discipleship", "trials", "heavenly reward"],
+    "scripture_references": ["Hebrews 11:13", "2 Corinthians 4:17"],
+    "tune_source": "",
+    "original_language": "en"
+  }
+}

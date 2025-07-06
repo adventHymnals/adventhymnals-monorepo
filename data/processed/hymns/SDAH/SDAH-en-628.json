@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-628",
+  "number": 628,
+  "title": "As Jacob With Travel Was Weary",
+  "author": "William Hunter",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "As Jacob with travel was weary one day,\nAt night on a stone for a pillow he lay;\nHe saw in a vision a ladder so high\nThat its foot was on earth and its top in the sky."
+    },
+    {
+      "number": 2,
+      "text": "Come let us ascend! all may climb it who will;\nFor the angels of Jacob are guarding it still;\nAnd remember, each step that by faith we pass o'er,\nSome prophet or martyr has trod it before."
+    },
+    {
+      "number": 3,
+      "text": "And when we arrive at the haven of rest\nWe shall hear the glad words, 'Come up hither, ye blest,\nHere are regions of light, here are mansions of bliss.'\nO who would not climb such a ladder as this?"
+    }
+  ],
+  "chorus": {
+    "text": "Alleluia to Jesus who died on the tree,\nAnd has raised up a ladder of mercy for me,\nAnd has raised up a ladder of mercy for me."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": ["Jacob's ladder", "spiritual ascent", "mercy", "heaven"],
+    "scripture_references": ["Genesis 28:10-22", "John 1:51"],
+    "tune_source": "",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-045",
+  "number": 45,
+  "title": "Christ's Triumph",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "HARK, ten thousand harps and voices,\nSound the note of praise above!\nJesus reigns, and heaven rejoices:\nJesus reigns, the God of love:\nSee, he sits on yonder throne;\nJesus rules the world alone.\nHallelujah, hallelujah, hallelujah, Amen."
+    },
+    {
+      "number": 2,
+      "text": "Jesus, hail! Whose glory brightens\nAll above, and gives it worth;\nLord of life, thy smile enlightens,\nCheers and charms thy saints on earth:\nWhen we think of love like thine,\nLord, we own it love divine.\nHallelujah, &c."
+    },
+    {
+      "number": 3,
+      "text": "King of glory, reign for ever,\nThine an everlasting crown:\nNothing from thy love shall sever\nThose whom thou shalt call thine own;\nHappy objects of thy grace,\nDestined to behold thy face.\nHallelujah, &c."
+    },
+    {
+      "number": 4,
+      "text": "Saviour, hasten thine appearing;\nBring, oh, bring the glorious day,\nWhen, the awful summons hearing,\nHeaven and earth shall pass away:\nThen with golden harps we'll sing,\n\"Glory, glory to our King.\"\nHallelujah, &c."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["triumph", "praise", "throne", "reign", "glory"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

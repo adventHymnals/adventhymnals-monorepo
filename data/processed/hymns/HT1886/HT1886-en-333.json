@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-333",
+  "number": 333,
+  "title": "Pievel",
+  "author": "F. E. Belden",
+  "composer": "Ignace Pleyel",
+  "tune": "7s.",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Wonder of the countless spheres! See the Son of God in tears! Holy whom the world were made, He on whom our sins were laid."
+    },
+    {
+      "number": 2,
+      "text": "See him bear the cross of shame; Hear the world revile his name:\nLo! he dies that we may live,— All who on his name believe."
+    },
+    {
+      "number": 3,
+      "text": "In the tomb behold him laid Whom the universe obeyed;\nSee him rise, ascend to God, There to plead his precious blood."
+    },
+    {
+      "number": 4,
+      "text": "Now he stands before the throne, Pleading for his loved, his own:\n\"Father, I my life-blood gave These to ransom, these to save.\""
+    },
+    {
+      "number": 5,
+      "text": "If I go I'll come again; Preach this gospel to all men;\nNow redemption's work goes on, Then redemption's work is done."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "cross", "resurrection", "intercession", "redemption"],
+    "scripture_references": [],
+    "tune_source": "681, 663, 467",
+    "original_language": "en"
+  }
+}

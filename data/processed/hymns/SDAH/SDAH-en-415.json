@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-415",
+  "number": 415,
+  "title": "Christ the Lord, All Power Possessing",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Christ, the Lord, all power possessing,\nParting, mounted heaven's height,\nGracious hands outstretched in blessing,\nClouds received Him from their sight."
+    },
+    {
+      "number": 2,
+      "text": "Daniel views earth's judgment hour,\nAngels gathering, open books.\nGod enthroned in flaming power\nFor His Son's arrival looks."
+    },
+    {
+      "number": 3,
+      "text": "Revelation's word fulfilling,\nTrumpet, voices pierce the air.\nSaint and sinner faint and thrilling,\nEvery eye behold Him there."
+    }
+  ],
+  "chorus": {
+    "text": "Christ ascending, Christ ascending on the clouds.\nChrist approaching, Christ approaching on the clouds.\nChrist is coming, Christ is coming on the clouds."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Second Coming", "Ascension", "Judgment", "Christ"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

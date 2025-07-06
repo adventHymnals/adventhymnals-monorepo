@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-404",
+  "number": 404,
+  "title": "Now Let Us From This Table Rise",
+  "author": "Fred Kaan",
+  "composer": "Grenoble Antiphoner",
+  "tune": "[unclear]",
+  "meter": "3/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Now let us from this table rise\nRenewed in body, mind, and soul;\nWith Christ we die and live again,\nHis selfless love has made us whole."
+    },
+    {
+      "number": 2,
+      "text": "With minds alert, upheld by grace,\nTo spread the word in speech and deed,\nWe follow in the steps of Christ,\nAt one with man in hope and need."
+    },
+    {
+      "number": 3,
+      "text": "To fill each human house with love,\nIt is the sacrament of care;\nThe work that Christ began to do\nWe humbly pledge ourselves to share."
+    },
+    {
+      "number": 4,
+      "text": "Then grant us courage, Father God,\nTo choose again the pilgrim way\nAnd help us to accept with joy\nThe challenge of tomorrow's day."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1968,
+    "copyright": "Words © 1968 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
+    "themes": ["communion", "service", "discipleship", "mission"],
+    "scripture_references": [],
+    "tune_source": "Grenoble Antiphoner",
+    "original_language": "en"
+  }
+}

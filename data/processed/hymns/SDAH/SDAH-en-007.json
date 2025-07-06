@@ -1,0 +1,32 @@
+{
+  "id": "SDAH-en-007",
+  "number": 7,
+  "title": "The Lord in Zion Reigneth",
+  "author": "Josiah Conder",
+  "composer": "John Hatton",
+  "tune": "Duke Street",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The Lord in Zion reigneth,\nLet all the world rejoice,\nAnd come before His throne of grace\nWith tuneful heart and voice;\nThe Lord in Zion reigneth,\nAnd there His praise shall ring,\nTill distant isles beyond the wave\nExalt the King of kings."
+    },
+    {
+      "number": 2,
+      "text": "The Lord in Zion reigneth,\nAnd who so great as He?\nThe depths of earth are in His hands;\nHe rules the mighty sea.\nO crown His name with honor,\nAnd let His standard wave,\nTill every creature owns His power\nTo conquer and to save."
+    },
+    {
+      "number": 3,
+      "text": "The Lord in Zion reigneth,\nThese hours to Him belong;\nEnter now His temple gates,\nAnd fill His courts with song;\nO Lord in Zion reigneth,\nBe-hold, the open door!\nTill He shall come, whose right it is\nTo rule forevermore."
+    }
+  ],
+  "metadata": {
+    "year": 1824,
+    "copyright": "Public Domain",
+    "themes": ["kingdom", "sovereignty", "worship", "praise"],
+    "scripture_references": ["Psalm 97:1", "Psalm 99:1-2"],
+    "tune_source": "John Hatton, c. 1793",
+    "original_language": "en"
+  }
+}

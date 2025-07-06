@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-078",
+  "number": 78,
+  "title": "For God So Loved Us",
+  "author": "Author Unknown",
+  "composer": "Philip Paul Bliss",
+  "tune": "For God So Loved Us",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "For God so loved us, He sent the Savior;\nFor God so loved us, and loves me too."
+    },
+    {
+      "number": 2,
+      "text": "He sent the Savior, the blest Redeemer;\nHe sent the Savior to set me free."
+    },
+    {
+      "number": 3,
+      "text": "He bade me welcome, O word of mercy;\nHe bade me welcome, O voice divine."
+    },
+    {
+      "number": 4,
+      "text": "Glory and honor, O Love eternal,\nTo Him be given while life shall last."
+    }
+  ],
+  "chorus": {
+    "text": "Love so unending! I'll sing His praises,\nGod loves His children, loves even me."
+  },
+  "metadata": {
+    "themes": ["God's Love", "Salvation", "John 3:16"],
+    "scripture_references": ["John 3:16"],
+    "tune_source": "For God So Loved Us",
+    "original_language": "en"
+  }
+}

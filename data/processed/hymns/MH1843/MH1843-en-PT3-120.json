@@ -1,0 +1,39 @@
+{
+  "id": "MH1843-en-PT3-120",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "120",
+  "title": "Fire of God, Thou Sacred Flame",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Fire of God, Thou sacred flame, Spirit who in splendor came, Let Thy heat my soul refine Till it glows with love divine."
+    },
+    {
+      "number": "2",
+      "text": "Breath of God, that swept in power In the pentecostal hour, Holy Breath, be Thou in me Source of vital energy."
+    },
+    {
+      "number": "3",
+      "text": "Strength of God, Thy might within Conquers sorrow, pain, and sin; Fortify from e'vil's art All the gateways of my heart."
+    },
+    {
+      "number": "4",
+      "text": "Truth of God, Thy piercing rays Penetrate my secret ways; May the light that shines my sin Guide me to holier paths to win."
+    },
+    {
+      "number": "5",
+      "text": "Love of God, Thy grace profound Know neither age nor bound: Come, my heart's own guest to be, Dwell forever more in me."
+    }
+  ],
+  "refrain": {},
+  "meter": "7.7.7.7",
+  "tune": "COMMANDMENTS",
+  "composer": "Louis Bourgeois",
+  "author": "Albert F. Bayly",
+  "page": 263,
+  "themes": ["Fire of God", "Sacred Flame", "Spirit", "Splendor", "Heat", "Soul", "Refine", "Glows", "Love Divine", "Breath of God", "Swept", "Power", "Pentecostal", "Hour", "Holy Breath", "Vital Energy", "Strength of God", "Might", "Conquers", "Sorrow", "Pain", "Sin", "Fortify", "Evil", "Art", "Gateways", "Heart", "Truth of God", "Piercing", "Rays", "Penetrate", "Secret Ways", "Light", "Shines", "Guide", "Holier Paths", "Win", "Love of God", "Grace", "Profound", "Age", "Bound", "Guest", "Dwell", "Forever"],
+  "key_signature": "A",
+  "time_signature": "4/4"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-020",
+  "number": 20,
+  "title": "Servants of God, in joyful lays",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Servants of God, in joyful lays\nSing ye the Lord Jehovah's praise;\nHis glorious name let all adore,\nFrom age to age, forevermore."
+    },
+    {
+      "number": 2,
+      "text": "Who is like God? so great, so high,\nHe bows himself to view the sky;\nAnd yet, with condescending grace,\nLooks down upon the human race."
+    },
+    {
+      "number": 3,
+      "text": "He hears the uncomplaining moan\nOf those who sit and weep alone;\nHe lifts the mourner from the dust;\nIn him the poor may safely trust."
+    },
+    {
+      "number": 4,
+      "text": "O then aloud, in joyful lays,\nSing ye the Lord Jehovah's praise;\nHis saving name let all adore,\nFrom age to age, forevermore."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "praise", "God's condescending grace"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

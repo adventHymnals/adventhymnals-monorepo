@@ -1,0 +1,32 @@
+{
+  "id": "SDAH-en-382",
+  "number": 382,
+  "title": "O Day of Rest and Gladness",
+  "author": "Christopher Wordsworth",
+  "composer": "German melody",
+  "tune": "MENDEBRAS",
+  "meter": "7.6.7.6.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O day of rest and gladness,\nO day of joy and light,\nO balm of care and sadness,\nMost beautiful, most bright;\nOn thee, the high and lowly,\nWho bend before the throne,\nSing, holy, holy, holy,\nTo the Eternal One."
+    },
+    {
+      "number": 2,
+      "text": "Thou art a port protected\nFrom storms that round us rise,\nA garden intersected\nWith streams of paradise;\nThou art a cooling fountain\nIn life's dry, dreary sand;\nFrom thee, like Pisgah's mountain,\nWe view our promised land."
+    },
+    {
+      "number": 3,
+      "text": "A day of sweet reflection,\nThou art, a day of love;\nA day to raise affection\nFrom earth to things above;\nNew graces ever gaining\nFrom this our day of rest,\nWe seek the rest remaining\nIn mansions of the blest."
+    }
+  ],
+  "metadata": {
+    "year": 1862,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "Rest", "Worship", "Joy"],
+    "scripture_references": ["Psalm 118:24", "Isaiah 58:13"],
+    "tune_source": "German melody, arr. Lowell Mason",
+    "original_language": "en"
+  }
+}

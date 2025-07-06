@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-036",
+  "number": 36,
+  "title": "A Pilgrim and a Stranger",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I'm a pilgrim and I'm a stranger;\nI can tarry, I can tarry, but a night;\nDo not detain me, for I am going\nTo where the fountains are ever flowing,\nI'm a pilgrim and I'm a stranger."
+    },
+    {
+      "number": 2,
+      "text": "There the glory is ever shining!\n0, my longing heart, my longing heart is there;\nHere in this country so dark and dreary,\nI long have wander'd forlorn and weary.\nI'm a pilgrim, and I'm a stranger."
+    },
+    {
+      "number": 3,
+      "text": "There's the city to which I journey;\nMy Redeemer, my Redeemer is its light!\nThere is no sorrow, nor any sighing,\nNor any tears there, nor any dying!\nI'm a pilgrim, and I'm a stranger."
+    },
+    {
+      "number": 4,
+      "text": "Farewell, dreary earth, by sin so blighted,\nIn immortal beauty soon you'll be arrayed!\nHe who has form'd thee, will soon restore thee!\nAnd then thy dread curse shall never more be\nI'm a pilgrim, and I'm a stranger,\nTill thy rest shall end the weary pilgrim's night."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["pilgrimage", "stranger", "heavenly city", "eternal light", "new earth"],
+    "scripture_references": ["Heb 11:13", "Rev 21:1-4", "Rev 21:23"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

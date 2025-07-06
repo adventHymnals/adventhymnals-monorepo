@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-076",
+  "number": 76,
+  "title": "Begin, my tongue, some heavenly theme",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": "120, 76, 305",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Begin, my tongue, some heavenly theme,\nAnd speak some boundless thing—\nThe mighty works or mightier name\nOf our eternal King."
+    },
+    {
+      "number": 2,
+      "text": "Tell of his wondrous faithfulness,\nAnd sound his power abroad;\nSing the sweet promise of his grace\nAnd the performing God."
+    },
+    {
+      "number": 3,
+      "text": "His every word of grace is strong\nAs that which built the skies;\nThe voice that rolls the stars along\nSpeaks all the promises."
+    },
+    {
+      "number": 4,
+      "text": "Let every tongue his goodness speak,\nThe sovereign Lord of all;\nWhose gracious hands uphold the weak,\nAnd raise the poor that fall."
+    },
+    {
+      "number": 5,
+      "text": "O, might I hear that heavenly tongue\nBut whisper, \"Thou art mine!\"\nThose gentle words should raise my song\nTo notes almost divine."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "God's faithfulness", "God's power", "God's grace", "worship"],
+    "scripture_references": [],
+    "tune_source": "120, 76, 305",
+    "original_language": "en"
+  }
+}

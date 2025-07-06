@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-135",
+  "number": 135,
+  "title": "Worthy, worthy is the Lamb",
+  "author": "Anon",
+  "composer": null,
+  "tune": "Worthy",
+  "meter": "P.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Worthy, worthy is the Lamb,\nWorthy, worthy is the Lamb;\nWorthy, worthy is the Lamb\nThat was slain.\nGlory, hallelujah!\nPraise him, hallelujah!\nGlory, hallelujah!\nTo the Lamb."
+    },
+    {
+      "number": 2,
+      "text": "Saviour, let thy kingdom come!\nNow the man of sin consume;\nBring thy blest millennium,\nHoly Lamb."
+    },
+    {
+      "number": 3,
+      "text": "Thus may we each moment feel,\nLove him, serve him, praise him still,\nTill we all on Zion's hill\nSee the Lamb."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worthy the Lamb", "praise", "glory", "hallelujah", "kingdom come", "millennium"],
+    "scripture_references": ["Revelation 5:12", "Revelation 20:4"],
+    "tune_source": "Unknown",
+    "original_language": "en"
+  }
+}

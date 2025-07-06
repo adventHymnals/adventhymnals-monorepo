@@ -1,0 +1,31 @@
+{
+  "id": "SDAH-en-014",
+  "number": 14,
+  "title": "Let Us Praise the Name of the Lord",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Let us praise the name of the Lord!\nGive Him glory, Amen."
+    },
+    {
+      "number": 2,
+      "text": "Go ye into all the world.\nAleluia, Amen."
+    }
+  ],
+  "chorus": {
+    "text": "Amen, amen, Amen, amen."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "worship", "amen"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

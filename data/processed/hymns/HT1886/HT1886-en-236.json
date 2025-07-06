@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-236",
+  "number": 236,
+  "title": "Thy holy Sabbath, Lord",
+  "author": "German",
+  "composer": null,
+  "tune": "Radea",
+  "meter": "S. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thy holy Sabbath, Lord,\nThy people hail with joy;\nAnd while we wait to hear thy word,\nLet praise our hearts employ."
+    },
+    {
+      "number": 2,
+      "text": "With sweet delight the day\nThat thou hast blest and thine own\nWe hail, and all our homage pay\nTo thine exalted throne."
+    },
+    {
+      "number": 3,
+      "text": "O may thy saints be blessed!\nAssist us while we pray;\nWe come to enjoy a holy rest,\nAnd keep the sacred day."
+    },
+    {
+      "number": 4,
+      "text": "When Sabbaths here shall end,\nAnd from these courts we move,\nMay we an endless Sabbath spend\nIn heavenly courts above."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "joy", "praise", "heaven"],
+    "scripture_references": [],
+    "tune_source": "Radea, S. M., German",
+    "original_language": "en"
+  }
+}

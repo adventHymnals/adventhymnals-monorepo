@@ -1,0 +1,32 @@
+{
+  "id": "SDAH-en-081",
+  "number": 81,
+  "title": "Though I Speak With Tongues",
+  "author": "Fred Pratt Green",
+  "composer": "James Bingham",
+  "tune": "Bingham",
+  "meter": "C.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Though I speak with tongues of men and angels,\nThough I have the prophet's gift;\nThough I hold the keys to hidden knowledge,\nLove is new and hope and faith can mountains shift;\nThough my faith can move the truth of\nAlways wants the greatest Love the three."
+    },
+    {
+      "number": 2,
+      "text": "Love is patient, knows no envy,\nNever gloats when others sin;\nVisions, raptures, prophecy;\nLove is glad to see justice,\nFaith and hope and love shall last forever,\nAlways wants the greatest Love the three."
+    },
+    {
+      "number": 3,
+      "text": "Though there'll be an end to hidden knowledge,\nVisions, raptures, prophecy;\nLove is glad to see justice,\nFaith and hope and love shall last forever,\nAlways wants the greatest Love the three."
+    }
+  ],
+  "metadata": {
+    "year": 1982,
+    "copyright": "© 1982 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission. Music © 1984 James Bingham. All rights reserved. Used by permission.",
+    "themes": ["Love", "Faith", "Hope", "Spiritual Gifts"],
+    "scripture_references": ["1 Corinthians 13"],
+    "tune_source": "Bingham",
+    "original_language": "en"
+  }
+}

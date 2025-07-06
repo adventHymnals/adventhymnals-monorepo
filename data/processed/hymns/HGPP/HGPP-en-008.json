@@ -1,0 +1,44 @@
+{
+  "id": "HGPP-en-008",
+  "number": 8,
+  "title": "O Hail, Happy Day",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O hail, happy day, that speaks our trials ended,\nOur Lord has come to take us home;\nO hail, happy day;\nNo more by doubts or fears distress'd,\nWe now shall gain our promis'd rest,\nAnd be for ever blest; O hail, happy day."
+    },
+    {
+      "number": 2,
+      "text": "Swell loud the glad note, our bondage now is over;\nThe jubilee proclaims us free;\nO hail, happy day;\nThe day that brings a sweet release,\nThat crowns our Jesus Prince\nAnd bids our sorrows cease;\nO hail, happy day."
+    },
+    {
+      "number": 3,
+      "text": "O hail, happy day, that ends our tears and sorrow,\nThat brings us joy without alloy,\nO hail, happy day\nThere peace shall wave her scepter high\nAnd love's fair banner greet the eye,\nProclaiming victory; O hail, happy day."
+    },
+    {
+      "number": 4,
+      "text": "We hail thy bright beams, O morn of Zion's glory,\nThy blessed light breaks on our sight,\nO hail, happy day;\nFair Beulah's fields before us rise,\nAnd sweetly burst upon our eyes,\nThe joys of Paradise; O hail happy day."
+    },
+    {
+      "number": 5,
+      "text": "Thrice hail, happy day, when earth shall smile in gladness,\nAnd Eden bloom o'er nature's tomb,\nO hail, happy day;\nWhere life's pellucid waters glide,\nSafe by the dear Redeemer's side,\nFor ever we'll abide; O hail, happy day."
+    }
+  ],
+  "chorus": {
+    "text": "O hail, happy day"
+  },
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["Second Coming", "deliverance", "joy", "eternal happiness"],
+    "scripture_references": ["Revelation 21:1-4", "Isaiah 35:10"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Anticipation of Christ's return and earth made new"
+  }
+}

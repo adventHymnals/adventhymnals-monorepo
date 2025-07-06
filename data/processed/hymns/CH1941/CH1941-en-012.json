@@ -1,0 +1,29 @@
+{
+  "id": "CH1941-en-012",
+  "number": 12,
+  "title": "Praise to the Lord",
+  "author": "Joachim Neander",
+  "composer": "[unclear]",
+  "tune": "Lobe den Herren",
+  "meter": "14.14.4.7.8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise to the Lord, the Almighty, the King of creation!\nO my soul, praise Him, for He is thy health and salvation!\nAll ye who hear,\nNow to His temple draw near;\nJoin ye in glad adoration!"
+    },
+    {
+      "number": 2,
+      "text": "Praise to the Lord, who o'er all things so wondrously reigneth,\nShieldeth thee under His wings, yea, so gently sustaineth!\nHast thou not seen\nHow thy desires e'er have been\nGranted in what He ordaineth?"
+    }
+  ],
+  "metadata": {
+    "year": 1680,
+    "copyright": "Public Domain",
+    "themes": ["praise", "creation", "providence", "worship"],
+    "scripture_references": ["Psalm 103:1-5", "Psalm 150"],
+    "tune_source": "Lobe den Herren, Stralsund Gesangbuch, 1665",
+    "original_language": "de",
+    "translator": "Catherine Winkworth"
+  }
+}

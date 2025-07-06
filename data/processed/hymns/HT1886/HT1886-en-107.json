@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-107",
+  "number": 107,
+  "title": "Nature with open volume stands",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Nature with open volume stands\nTo spread her Maker's praise abroad,\nAnd every labor of his hands\nShows something worthy of a God."
+    },
+    {
+      "number": 2,
+      "text": "But in the grace that rescues man\nHis brightest form of glory shines;\nHere on the cross 'tis fairest drawn\nIn precious blood and crimson lines."
+    },
+    {
+      "number": 3,
+      "text": "O, the sweet wonders of that cross,\nWhere Christ, the Saviour, loved and died!\nHer noblest life my spirit draws\nFrom his dear wounds and bleeding side."
+    },
+    {
+      "number": 4,
+      "text": "I would forever speak his name,\nIn tones to mortal ears unknown,\nWith angels join to praise the Lamb,\nAnd worship at his Father's throne."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["nature", "God's creation", "cross of Christ", "grace", "worship", "praise"],
+    "scripture_references": ["Psalm 19:1"],
+    "tune_source": "386, 212, 47",
+    "original_language": "en"
+  }
+}

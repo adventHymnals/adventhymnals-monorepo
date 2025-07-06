@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-284",
+  "number": 284,
+  "title": "All praise to thee, eternal Lord",
+  "author": "Martin Luther",
+  "composer": "Henry K. Oliver",
+  "tune": "Harmony Grove",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All praise to thee, eternal Lord,\nClothed in a garb of flesh and blood;\nChoosing a manger for thy throne,\nWhile worlds on worlds are thine alone!"
+    },
+    {
+      "number": 2,
+      "text": "Once did the skies before thee bow;\nA virgin's arms contain thee now:\nAngels, who did in thee rejoice,\nNow listen to thy infant voice."
+    },
+    {
+      "number": 3,
+      "text": "A little child, thou art our guest,\nThat weary ones in thee may rest;\nForlorn and lowly is thy birth,\nThat we may rise to heaven from earth."
+    },
+    {
+      "number": 4,
+      "text": "Thou comest in the darksome night,\nTo make us children of the light;\nTo make us, in the realms divine,\nLike thy own angels round thee shine."
+    },
+    {
+      "number": 5,
+      "text": "All this for us thy love hath done,\nBy this to thee our love is won;\nFor this we tune our cheerful lays,\nAnd tell our thanks in songs of praise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "First Advent", "Christmas", "incarnation", "praise"],
+    "scripture_references": [],
+    "tune_source": "Harmony Grove, L. M.",
+    "original_language": "en"
+  }
+}

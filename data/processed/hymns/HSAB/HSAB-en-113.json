@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-113",
+  "number": 113,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "SWEET is the work, my God, my King,\nTo praise thy name, give thanks, and sing,\nTo show thy love by morning light,\nAnd talk of all thy truth by night."
+    },
+    {
+      "number": 2,
+      "text": "Sweet is the day of sacred rest;\nNo mortal cares shall seize my breast;\nO, may my heart in tune be found,\nLike David's harp of solemn sound."
+    },
+    {
+      "number": 3,
+      "text": "When grace has purified my heart,\nThen I shall share a glorious part;\nAnd fresh supplies of joy are shed,\nLike holy oil, to cheer my head."
+    },
+    {
+      "number": 4,
+      "text": "Then shall I see, and hear, and know,\nAll I desir'd or wish'd below;\nAnd every hour find sweet employ,\nIn that eternal world of joy."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "worship", "praise", "sacred rest", "David's harp", "grace", "eternal joy"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-088",
+  "number": 88,
+  "title": "My soul, repeat His praise",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": "601, 660, 256",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My soul, repeat His praise,\nWhose mercies are so great;\nWhose anger is so slow to rise,\nSo ready to abate."
+    },
+    {
+      "number": 2,
+      "text": "High as the heavens are raised\nAbove the ground we tread,\nSo far the riches of his grace\nOur highest thoughts exceed."
+    },
+    {
+      "number": 3,
+      "text": "The pity of the Lord,\nTo those that fear his name,\nIs such as tender parents feel;\nHe knows our feeble frame."
+    },
+    {
+      "number": 4,
+      "text": "His power subdues our sins;\nAnd his forgiving love,\nFar as the east is from the west,\nDoth all our guilt remove."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "God's mercy", "God's grace", "God's pity", "forgiveness"],
+    "scripture_references": [],
+    "tune_source": "601, 660, 256",
+    "original_language": "en"
+  }
+}

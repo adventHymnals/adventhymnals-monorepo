@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-322",
+  "number": 322,
+  "title": "Nothing Between",
+  "author": "Charles A. Tindley",
+  "composer": "Charles A. Tindley",
+  "tune": "NOTHING BETWEEN",
+  "meter": "Irregular with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Nothing between my soul and the Savior,\nNaught of this world's delusive dream;\nI have renounced all sinful pleasure,\nJesus is mine! There's nothing between."
+    },
+    {
+      "number": 2,
+      "text": "Nothing between, like worldly pleasure,\nHabits of life, though harmless they seem,\nMust not my heart from Him ever sever,\nHe is my all! There's nothing between."
+    },
+    {
+      "number": 3,
+      "text": "Nothing between, e'en many hard trials,\nThough the whole world against me convene;\nWatching with prayer and much self-denial,\nTriumph at last, With nothing between!"
+    }
+  ],
+  "chorus": {
+    "text": "Nothing between my soul and the Savior,\nSo that His blessed face may be seen;\nNothing preventing the least of His favor;\nKeep the way clear! Let nothing between."
+  },
+  "metadata": {
+    "themes": ["consecration", "separation from world", "surrender"],
+    "scripture_references": ["James 4:4", "1 John 2:15-17"],
+    "tune_source": "Charles A. Tindley",
+    "original_language": "en"
+  }
+}

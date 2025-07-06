@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-321",
+  "number": 321,
+  "title": "My Jesus, I Love Thee",
+  "author": "William R. Featherstone",
+  "composer": "Adoniram J. Gordon",
+  "tune": "GORDON",
+  "meter": "11.11.11.11",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My Jesus, I love Thee, I know Thou art mine;\nFor Thee all the follies of sin I resign;\nMy gracious Redeemer, my Savior art Thou;\nIf ever I loved Thee, my Jesus, 'tis now."
+    },
+    {
+      "number": 2,
+      "text": "I love Thee because Thou hast first loved me,\nAnd purchased my pardon on Calvary's tree;\nI love Thee for wearing the thorns on Thy brow;\nIf ever I loved Thee, my Jesus, 'tis now."
+    },
+    {
+      "number": 3,
+      "text": "I'll love Thee in life, I will love Thee in death,\nAnd praise Thee as long as Thou lendest me breath;\nAnd say when the death dew lies cold on my brow,\nIf ever I loved Thee, my Jesus, 'tis now."
+    },
+    {
+      "number": 4,
+      "text": "In mansions of glory and endless delight,\nI'll ever adore Thee in heaven so bright;\nI'll sing with the glittering crown on my brow,\nIf ever I loved Thee, my Jesus, 'tis now."
+    }
+  ],
+  "chorus": {
+    "text": "If ever I loved Thee, my Jesus, 'tis now."
+  },
+  "metadata": {
+    "themes": ["love for Jesus", "devotion", "assurance"],
+    "scripture_references": ["1 John 4:19", "John 3:16"],
+    "tune_source": "Adoniram J. Gordon",
+    "original_language": "en"
+  }
+}

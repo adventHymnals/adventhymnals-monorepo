@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-277",
+  "number": 277,
+  "title": "Praise to Him by whose kind favor",
+  "author": "Carl M. Von Weber",
+  "composer": null,
+  "tune": "Wilmot",
+  "meter": "8s & 7s.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise to Him by whose kind favor\nHeavenly truth has reached our ears;\nMay its sweet reviving savor\nFill our hearts and calm our fears."
+    },
+    {
+      "number": 2,
+      "text": "Truth! how sacred is the treasure!\nTeach us, Lord, its worth to know;\nVain the hope and short the pleasure\nWhich from other sources flow."
+    },
+    {
+      "number": 3,
+      "text": "What of truth we have been hearing,\nFix, O Lord, within our heart;\nIn the day of thy appearing\nMay we have an humble part."
+    },
+    {
+      "number": 4,
+      "text": "Till we leave this world forever,\nMay we 'neath thine influence die;\nThis our aim, our sole endeavor,\nThine to live, for thine to die."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "closing", "truth", "praise", "heart"],
+    "scripture_references": [],
+    "tune_source": "Wilmot, 8s & 7s.",
+    "original_language": "en"
+  }
+}

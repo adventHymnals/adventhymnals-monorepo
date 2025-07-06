@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-018",
+  "number": 18,
+  "title": "O Morning Star, How Fair and Bright",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Morning Star, how fair and bright!\nYou shine with God's own truth and light,\nAglow with grace and mercy!\nOf Jacob's race, King David's Son,\nOur Lord and Master, You have won\nOur hearts to serve You only!"
+    },
+    {
+      "number": 2,
+      "text": "Lord, when You look on us in love,\nAt once there falls from God above\nA ray of purest pleasure.\nYour Word and Spirit, flesh and blood,\nRefresh our souls with heav'nly food.\nYou are our dearest treasure!"
+    },
+    {
+      "number": 3,
+      "text": "Almighty Father, in Your Son\nYou loved us, when not yet begun\nWas this old earth's foundation!\nYour Son has ransomed us in love\nTo live in Him here and above:\nThis is Your great salvation!"
+    },
+    {
+      "number": 4,
+      "text": "O let the harps break forth in sound!\nOur joy be all with music crowned,\nOur voices gaily blending!\nFor Christ goes with us all the way—\nToday, tomorrow, every day!\nHis love is never ending!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Christ", "morning star", "salvation", "joy"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

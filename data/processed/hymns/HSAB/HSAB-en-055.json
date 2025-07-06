@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-055",
+  "number": 55,
+  "title": "Weary Pilgrim",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WEARY pilgrim, why this sadness?\nWhy 'mid sorrow's scenes decline?\nThe trial strange brings joy and gladness,\nFor all things shall yet be thine!\nOh, yes, all things shall yet be thine!"
+    },
+    {
+      "number": 2,
+      "text": "Earth anew, with robe of glory,\nShall rejoice in hill and vale;\nAnd sweetest harpings tell the story\nOf the love that could not fail;\nOh, yes, the love that could not fail!"
+    },
+    {
+      "number": 3,
+      "text": "Thou shalt range the fields of pleasure,\nWhere joy's gushing songs arise;\nThou shalt have all thy well-stored treasure,\nIn the New Earth, Paradise:\nYes, in the New Earth, Paradise."
+    },
+    {
+      "number": 4,
+      "text": "Weary pilgrim, leave thy sadness,\nTo Mount Zion thou art Come!\nNow swell thy songs of joy and gladness,\nAnd rejoice in thy blest home;\nThine own, and Jesus' heavenly home."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["weary pilgrim", "comfort", "new earth", "paradise", "mount zion"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-083",
+  "number": 83,
+  "title": "I sing the mighty power of God",
+  "author": "Isaac Watts",
+  "composer": "George F. Root",
+  "tune": "Varina",
+  "meter": "C.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I sing the mighty power of God,\nThat made the mountains rise,\nThat spread the flowing seas abroad,\nAnd built the lofty skies;\nI sing the wisdom that ordained\nThe sun to rule the day;\nThe moon shines full at his command,\nAnd all the stars obey."
+    },
+    {
+      "number": 2,
+      "text": "I sing the goodness of the Lord,\nThat filled the earth with food;\nHe formed the creatures with his word,\nAnd then pronounced them good.\nLord, how thy wonders are displayed,\nWhere'er I turn my eye!\nIf I survey the ground I tread,\nOr gaze upon the sky!"
+    },
+    {
+      "number": 3,
+      "text": "There's not a plant or flower below\nBut makes thy glories known;\nAnd clouds arise, and tempests blow,\nBy order from thy throne.\nCreatures that borrow life from thee\nAre subject to thy care;\nThere's not a place where we can flee\nBut God is present there."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's power", "creation", "God's wisdom", "God's goodness", "God's presence"],
+    "scripture_references": [],
+    "tune_source": "Varina, George F. Root",
+    "original_language": "en"
+  }
+}

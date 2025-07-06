@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-335",
+  "number": 335,
+  "title": "There is a dear and hallowed spot",
+  "author": "Unknown",
+  "composer": null,
+  "tune": "Tune Morton, No. 464.",
+  "meter": "7s. D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is a dear and hallowed spot, Faint and bleeding, who is He?\nBy the eyes so pale and dim, Streaming blood, and writhing limb,\nBy the flesh with scourges torn, By the drooping, death-dewed brow;"
+    },
+    {
+      "number": 2,
+      "text": "Bound upon the accursed tree, Dread and awful, who is He?\nBy the fun at noonday pale, Shivering rocks, and rending vail,\nBy the earth enwrapt in gloom, By the saints who left their tomb,"
+    },
+    {
+      "number": 3,
+      "text": "Bound upon the accursed tree, Dread and awful, who is He?\nBy the prayer for them that slew,\n\"Lord! they know not what they do!\"\nBy the spoiled and empty grave, By the souls he died to save,\nBy the rainbow round his brow, Son of God! 'tis thou! 'tis thou!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "crucifixion", "forgiveness", "salvation", "recognition"],
+    "scripture_references": [],
+    "tune_source": "Tune Morton, No. 464",
+    "original_language": "en"
+  }
+}

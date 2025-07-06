@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-042",
+  "number": 42,
+  "title": "PRAISE the Lord! ye heavens, adore him",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "162, 277, 130",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "PRAISE the Lord! ye heavens, adore him;\nPraise him, angels in the light;\nSun and moon, rejoice before him;\nPraise him, all ye stars of night."
+    },
+    {
+      "number": 2,
+      "text": "Praise the Lord, for he hath spoken;\nWorlds his mighty voice obeyed;\nLaws which never shall be broken,\nFor their guidance he hath made."
+    },
+    {
+      "number": 3,
+      "text": "Praise the Lord, for he is glorious;\nNever shall his promise fail;\nGod hath made his saints victorious,\nSin and death shall not prevail."
+    },
+    {
+      "number": 4,
+      "text": "Praise the God of our salvation;\nHosts on high his power proclaim;\nHeaven and earth, and all creation,\nLaud and magnify his name."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "heaven", "creation", "God's glory", "salvation"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-210",
+  "number": 210,
+  "title": "How blest are they who always keep",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How blest are they who always keep\nThe pure and perfect way;\nWho never from the sacred paths\nOf God's commandments stray!"
+    },
+    {
+      "number": 2,
+      "text": "How blest, who to his righteous laws\nHave still obedient been,\nAnd have with fervent, humble zeal\nHis favor sought to win!"
+    },
+    {
+      "number": 3,
+      "text": "Thou strictly hast enjoined us, Lord,\nTo learn thy will divine,\nAnd all our diligence employ\nThy statutes to fulfill."
+    },
+    {
+      "number": 4,
+      "text": "O then that thy most holy will\nMight o'er my ways preside;\nAnd I the course of all my life\nBy thy direction guide!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["blessedness", "obedience", "God's commandments", "divine will", "guidance"],
+    "scripture_references": ["Psalm 119:1-5"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

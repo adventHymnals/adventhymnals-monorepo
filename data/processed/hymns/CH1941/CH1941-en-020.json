@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-020",
+  "number": 20,
+  "title": "Lord of All Being, Throned Afar",
+  "author": "Oliver Wendell Holmes",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord of all being, throned afar,\nThy glory flames from sun and star;\nCenter and soul of every sphere,\nYet to each loving heart how near!"
+    },
+    {
+      "number": 2,
+      "text": "Sun of our life, Thy quickening ray\nSheds on our path the glow of day;\nStar of our hope, Thy softened light\nCheers the long watches of the night."
+    },
+    {
+      "number": 3,
+      "text": "Our midnight is Thy smile withdrawn;\nOur noontide is Thy gracious dawn;\nOur rainbow arch, Thy mercy's sign;\nAll, save the clouds of sin, are Thine."
+    },
+    {
+      "number": 4,
+      "text": "Grant us Thy truth to make us free,\nAnd kindling hearts that burn for Thee,\nTill all Thy living altars claim\nOne holy light, one heavenly flame."
+    }
+  ],
+  "metadata": {
+    "year": 1848,
+    "copyright": "Public Domain",
+    "themes": ["God's presence", "creation", "light", "worship"],
+    "scripture_references": ["Psalm 139:7-12", "1 John 1:5"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

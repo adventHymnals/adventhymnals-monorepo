@@ -1,0 +1,32 @@
+{
+  "id": "SDAH-en-370",
+  "number": 370,
+  "title": "Christ for the World",
+  "author": "Samuel Wolcott",
+  "composer": "Felice de Giardini",
+  "tune": "MOSCOW",
+  "meter": "6.6.4.6.6.6.4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Christ for the world we sing; the world to Christ we bring\nWith loving zeal; the poor and them that mourn,\nThe faint and overborne, sin-sick and sorrow-worn,\nWhom Christ doth heal."
+    },
+    {
+      "number": 2,
+      "text": "Christ for the world we sing; the world to Christ we bring\nWith fervent prayer; the wayward and the lost,\nBy restless passions tossed, redeemed at countless cost\nFrom dark despair."
+    },
+    {
+      "number": 3,
+      "text": "Christ for the world we sing; the world to Christ we bring\nWith joyful song; the newborn souls, whose days,\nReclaimed from error's ways, inspired with hope and praise,\nTo Christ belong."
+    }
+  ],
+  "metadata": {
+    "year": 1869,
+    "copyright": "Public Domain",
+    "themes": ["Mission", "Evangelism", "Christ for the World", "Healing"],
+    "scripture_references": ["Matthew 28:19", "John 3:16"],
+    "tune_source": "Felice de Giardini, 1769",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-068",
+  "number": 68,
+  "title": "Jesus Is There",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "HASTE, my dull soul arise–\nShake off thy care;\nPress to thy native skies–\nMighty in prayer.\nChrist, he has gone before,\nCount all thy sufferings o'er;\nHe all thy burdens bore–\nJesus is there."
+    },
+    {
+      "number": 2,
+      "text": "Souls for the marriage feast,\nRobed and prepared;\nHoly must be such guests\nJesus is there!\nSaints, wear your victory palms,\nChant your celestial psalms:\nBride of the Lamb, thy charms,\nOh! Let me wear."
+    },
+    {
+      "number": 3,
+      "text": "Heaven's bliss is perfect, pure–\nJesus is there!\nHeaven's bliss is ever sure–\nThou art its heir.\nWhat makes its joys complete–\nWhat makes its hymns so sweet;\nThere we our friends will greet–\nJesus is there."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["jesus there", "marriage feast", "victory palms", "heaven's bliss", "bride of lamb"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

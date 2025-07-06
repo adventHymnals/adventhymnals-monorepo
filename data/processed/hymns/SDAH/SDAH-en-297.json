@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-297",
+  "number": 297,
+  "title": "God Be Merciful to Me",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God, be merciful to me,\nOn Thy grace I rest my plea;\nPlenteous in compassion Thou,\nBlot out my transgressions now;"
+    },
+    {
+      "number": 2,
+      "text": "I am evil, born in sin;\nThou desirest truth within.\nThou alone my Savior art,\nTeach Thy wisdom to my heart;"
+    },
+    {
+      "number": 3,
+      "text": "Gracious God, my heart renew,\nMake my spirit right and true.\nCast me not away from Thee,\nLet Thy Spirit dwell in me;"
+    },
+    {
+      "number": 4,
+      "text": "Sin shall learn from me\nAnd return,\nThou,\nAnd my tongue shall sing Thy love;"
+    }
+  ],
+  "chorus": {
+    "text": "Wash me, make me pure within,\nCleanse, O cleanse me from my sin.\nWash me, make me pure within,\nCleanse, O cleanse me from my sin.\nMake me pure, Thy grace bestow,\nWash me whiter than the snow.\nSteadfast make my will obey,\nAnd my mouth shall praise accord."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Mercy", "Cleansing", "Forgiveness", "Renewal"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-224",
+  "number": 224,
+  "title": "Lord, on this Sabbath-day of rest",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, on this Sabbath-day of rest\nWe lift to thee our earnest plea,\nObedient to the high behest\nWhich thou hast graciously guide our ways."
+    },
+    {
+      "number": 2,
+      "text": "We thank thee for the holy light\nThat from thy law shines full and clear,\nDirecting every weak steps aright\nThrough earth's low path of doubt and fear."
+    },
+    {
+      "number": 3,
+      "text": "For Jesus, too, whom thou didst send\nTo teach the way of grace and truth,\nWe bow before thy throne, and blend\nThe thanks of age, the love of youth."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "prayer", "guidance", "Jesus"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

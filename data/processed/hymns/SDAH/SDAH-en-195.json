@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-195",
+  "number": 195,
+  "title": "Showers of Blessing",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"There shall be showers of blessing:\"\nThis is the promise of love;\nThere shall be seasons refreshing,\nSent from the Savior above."
+    },
+    {
+      "number": 2,
+      "text": "\"There shall be showers of blessing\"\nPrecious reviving again;\nOver the hills and the valleys,\nSound of abundance of rain."
+    },
+    {
+      "number": 3,
+      "text": "\"There shall be showers of blessing;\"\nSend them upon us, O Lord;\nGrant to us now a refreshing,\nCome, and now honor Thy word."
+    },
+    {
+      "number": 4,
+      "text": "\"There shall be showers of blessing;\"\nO that today they might fall,\nNow as to God we're confessing,\nNow as on Jesus we call!"
+    }
+  ],
+  "chorus": {
+    "text": "Showers of blessing,\nShowers of blessing we need;\nMercy drops round us are falling,\nBut for the showers we plead."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["blessing", "revival", "rain", "mercy", "prayer"],
+    "scripture_references": ["Ezekiel 34:26"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

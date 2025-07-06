@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-423",
+  "number": 423,
+  "title": "Glorious Things of Thee Are Spoken",
+  "author": "John Newton",
+  "composer": "Franz Joseph Haydn",
+  "tune": "AUSTRIA",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Glorious things of thee are spoken,\nZion, city of our God;\nHe whose word cannot be broken\nFormed thee for His own abode;"
+    },
+    {
+      "number": 2,
+      "text": "See the streams of living waters\nSpringing from eternal love,\nWell supply thy sons and daughters,\nAnd all fear and want remove;"
+    },
+    {
+      "number": 3,
+      "text": "Round each habitation hovering,\nSee the cloud and fire appear\nFor a glory and a covering,\nShowing that the Lord is near;"
+    },
+    {
+      "number": 4,
+      "text": "Savior, if of Zion's city\nI, through grace, a member am,\nLet the world deride or pity,\nI will glory in Thy name;"
+    }
+  ],
+  "chorus": {
+    "text": "On the Rock of Ages founded,\nWhat can shake thy sure repose?\nWith salvation's wall surrounded,\nThou mayst smile at all thy foes."
+  },
+  "metadata": {
+    "year": 1779,
+    "copyright": "Public Domain",
+    "themes": ["Zion", "God's city", "salvation", "security", "praise"],
+    "scripture_references": ["Psalm 87:3", "Isaiah 33:20-21", "Revelation 21:2-3"],
+    "tune_source": "Austrian Hymn",
+    "original_language": "en"
+  }
+}

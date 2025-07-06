@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-034",
+  "number": 34,
+  "title": "Praise ye Je-ho-vah's name",
+  "author": null,
+  "composer": "Henry Carey",
+  "tune": "America",
+  "meter": "6s & 4s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise ye Je-ho-vah's name, Praise through his courts proclaim,\nRise and a-dore. High o'er the\nheavens a-bove, Sound his great acts of love,\nWhile his rich grace we prove\nFast as his power."
+    },
+    {
+      "number": 2,
+      "text": "Now let the trumpet raise\nSounds of triumphant praise,\nWide as his fame.\nThere let the harp be found;\nOrgans of solemn sound,\nRoll your deep notes around,\nFilled with his name."
+    },
+    {
+      "number": 3,
+      "text": "While his high praise you sing,\nShake every sounding string;\nSweet the accord!\nHe vital breath bestows;\nLet every breath that flows,\nHis noble fame disclose;\nPraise ye the Lord."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "worship", "God's name", "triumph", "adoration"],
+    "scripture_references": ["Psalm 150"],
+    "tune_source": "America, Henry Carey",
+    "original_language": "en"
+  }
+}

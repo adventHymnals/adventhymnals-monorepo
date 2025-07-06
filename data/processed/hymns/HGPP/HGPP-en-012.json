@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-012",
+  "number": 12,
+  "title": "Close of Time",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Time now is closing, Jesus will come;\nSigns are fulfilling, earth's pillars groan:\nHark! hear the trumpet calls come home—\nSee earth reeling to her final doom."
+    },
+    {
+      "number": 2,
+      "text": "See slumbering millions rise from the earth;\nChrist calls his people from south, from north—\nCome home, my people, time is no more,\nI've wash'd your robes white, your conflicts are o'er"
+    },
+    {
+      "number": 3,
+      "text": "Hastening to see Thee, my soul would rise\nTo meet my Saviour in yonder skies;\nWith all the ransom'd who've gone before,\nThere I shall hail Thee on that peaceful shore,"
+    },
+    {
+      "number": 4,
+      "text": "0, there'll be glory, joy, peace and love,\nNothing to harm thee in heaven above:\n0, let us be faithful, and we'll be blest,\nWhen Jesus leads us to eternal rest."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["second coming", "end times", "resurrection", "signs", "eternal rest"],
+    "scripture_references": ["Matt 24:29-31", "1 Thess 4:16-17", "Rev 1:7"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

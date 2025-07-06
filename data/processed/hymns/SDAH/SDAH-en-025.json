@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-025",
+  "number": 25,
+  "title": "Praise the Lord, His Glories Show",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise the Lord, His glories show,\nAlleluia!\nSaints within His courts below,\nAlleluia!"
+    },
+    {
+      "number": 2,
+      "text": "Earth to heaven and heaven to earth,\nAlleluia!\nTell His wonders, sing His worth,\nAlleluia!"
+    },
+    {
+      "number": 3,
+      "text": "Praise the Lord, His mercies trace,\nAlleluia!\nPraise His providence and grace,\nAlleluia!"
+    }
+  ],
+  "chorus": {
+    "text": "Angels 'round His throne above,\nAge to age His shore to shore,\nAll that He for man hath done,\nAlleluia!\nAlleluia!\nAlleluia!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "worship", "alleluia", "God's glory"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

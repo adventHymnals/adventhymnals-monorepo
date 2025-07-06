@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-023",
+  "number": 23,
+  "title": "Here is No Rest",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Here o'er the earth as a stranger I roam,\nHere is no rest—is no rest ;\nHere as a pilgrim I wander alone,\nYet I am blest—I am blest.\nFor I look forward to that glorious day,\nWhen sin and sorrow will vanish away,\nMy heart doth leap while I hear Jesus say,\nThere, there is rent—there is rest."
+    },
+    {
+      "number": 2,
+      "text": "Here fierce temptations beset me around;\nHere is no rest—is no rest;\nHere am I griev'd while my foes me surround;\nYet I am blest—I am blest.\nLet them revile me, and scoff at my name,\nLaugh at my weeping—endeavor to shame;\nI will go forward, for this is my theme;\nThere, there is rest—there is rest."
+    },
+    {
+      "number": 3,
+      "text": "Here are afflictions and trials severe;\nHere is no rest—is no rest;\nHere I must part with the friends I hold dear;\nYet I am blest—I am blest.\nSweet is the promise I read in his word;\nBlessed are they who have died in the Lord;\nThey will be call'd to receive their reward;—\nThen there is rest—there is rest."
+    },
+    {
+      "number": 4,
+      "text": "This world of cares is a wilderness state,\nHere is no rest—is no rest;\nHere I must bear from the world all its hate—\nYet I am blest—I am blest.\nSoon shall I be from the wicked released,\nSoon shall the weary for ever be blest,\nSoon shall I lean upon Jesus' breast—\nThen there is rest—there is rest."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["pilgrimage", "temptation", "trials", "eternal rest", "persecution"],
+    "scripture_references": ["Heb 4:9-11", "Rev 14:13", "Matt 11:28-30"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

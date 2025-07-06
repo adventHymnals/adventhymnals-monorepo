@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-105",
+  "number": 105,
+  "title": "Sing to the Great Jehovah's Praise",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sing to the great Jehovah's praise!\nAll praise to Him belongs;\nWho kindly lengthens out our days,\nInspires our choicest songs."
+    },
+    {
+      "number": 2,
+      "text": "His providence hath brought us through\nAnother various year;\nWe all, with vows and anthems new,\nBefore our God appear."
+    },
+    {
+      "number": 3,
+      "text": "O God, Thy mercies past we own,\nAnd Thy continued care;\nTo Thee presenting, through Thy Son,\nWhatever we have and are."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "jehovah", "thanksgiving", "providence"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

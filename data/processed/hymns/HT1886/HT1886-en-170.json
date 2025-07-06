@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-170",
+  "number": 170,
+  "title": "Let everlasting glories crown",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Let everlasting glories crown\nThy head, my Saviour and my Lord;\nThy hands have brought salvation down,\nAnd writ the blessings in thy word."
+    },
+    {
+      "number": 2,
+      "text": "In vain the trembling conscience seeks\nSome solid ground to rest upon;\nWith long despair the spirit breaks,\nTill we apply to Christ alone."
+    },
+    {
+      "number": 3,
+      "text": "How well thy blessed truths agree!\nHow wise and holy thy commands!\nThy promises, how firm they be!\nHow sure our hope and comfort stands!"
+    },
+    {
+      "number": 4,
+      "text": "Should all the forms that men devise\nAssault my faith with treacherous art,\nI'd call them vanity and lies,\nAnd bind the gospel to my heart."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus Christ", "salvation", "Scripture", "divine promises", "faith"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

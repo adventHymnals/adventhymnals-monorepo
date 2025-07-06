@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-110",
+  "number": 110,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "COME peaceful Day! Divinely blest!\nSweetly thy glories would we sing–\nMemorial of that Sacred Rest\nOf Creation's Mighty King.\nThis hallowed time to man was given–\nA foretaste of the bliss of heaven."
+    },
+    {
+      "number": 2,
+      "text": "Ye saints awake, with joyful lay,\nBehold its rising light, divine;\nTo God your grateful homage pay,\nIts radiant beams around us shine.\nWelcome the day he calls his own,\nAnd fervent worship at his throne."
+    },
+    {
+      "number": 3,
+      "text": "Hark ! Through the shining courts above,\nWhat rapturous praises echo now!\nAround that Holy Law of Love,\nSeraphs in adoration bow.\nLet earth, responsive to the strain;\nExalt alone Jehovah's name."
+    },
+    {
+      "number": 4,
+      "text": "All hail! Thou bright Immortal Day!\nWhen at His Temple all adore\nHis scepter's universal sway–\nObserved in glory evermore ;\nWhen Zion shall in triumph reign,\nAnd Eden bloom on earth again."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "creation", "rest", "worship", "sacred time", "heaven", "divine"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

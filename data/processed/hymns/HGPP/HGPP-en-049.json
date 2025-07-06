@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-049",
+  "number": 49,
+  "title": "Appearing of Christ",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The appearing of Christ is good,\nHow good it is to me,\n'Tis unlike the tyrant's rod,\nHis sceptre to see.\nLet thy kingdom come,\nHoly will on earth be done,\nSaints gather'd in one,\nWhen will it be?"
+    },
+    {
+      "number": 2,
+      "text": "Our journey is to Canaan,\nWe are almost there,\nThe scoffs of the wicked then\nWill be heard by none:\n0 how glorious\nAre the promises for us,\nJesus, Thee we'll trust,\nConduct us home."
+    },
+    {
+      "number": 3,
+      "text": "I will look for that City, Lord,\nI'll look and adore,\nMy longing eyes are turn'd toward.\nThat bright blissful shore,\nFruits immortal grow,\nTree of life is precious too,\nMy bark shall go through,\nI want no more."
+    },
+    {
+      "number": 4,
+      "text": "No eye hath ever seen the like,\nOf what we shall be,\nHe'll clothe us in garments bright,\nHow lovely to see.\nSpotless, white and pure,\nIn the kingdom ever sure,\nFoes cannot allure\nHow happy we."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["appearing of christ", "kingdom come", "canaan", "heavenly city", "tree of life"],
+    "scripture_references": ["2 Tim 4:8", "Matt 6:10", "Rev 22:1-5"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-549",
+  "number": 549,
+  "title": "Loving Shepherd of Thy Sheep",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Loving Shepherd of Thy sheep,\nKeep Thy lamb, in safety keep;\nNothing can Thy power withstand,\nNone can pluck me from Thy hand."
+    },
+    {
+      "number": 2,
+      "text": "Loving Shepherd, ever near,\nTeach Thy lamb Thy voice to hear;\nSuffer not my steps to stray\nFrom the straight and narrow way."
+    },
+    {
+      "number": 3,
+      "text": "Where Thou leadest I would go,\nWalking in Thy steps below,\nTill within the heavenly fold\nI my Shepherd shall behold."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["shepherd", "protection", "guidance", "following Christ"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

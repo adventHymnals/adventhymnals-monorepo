@@ -1,0 +1,41 @@
+{
+  "id": "HGPP-en-011",
+  "number": 11,
+  "title": "Lord's Prayer",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Our Father who in heaven art,\nHallowed be thy name;\nThy kingdom come, Thy will be done,\nIn heav'n and earth the same.\nCome, my Saviour, 0 my Saviour,\nCome and bless thy people now,\nWhile at thy feet we humbly bow,\n0 come and save us now.\nThen will we sing our suff'rings o'er,\nAnd praise thee evermore;\nThen will we sing our suff'rings o'er,\nAnd praise thee evermore."
+    },
+    {
+      "number": 2,
+      "text": "Give us this day our daily bread ;\nOur trespasses forgive;\nAs we forgive our fellow—men,\nMay we thy grace receive.\nCome, my Saviour, 0 my Saviour,\nCome and bless thy people now,\nWhile at thy feet we humbly bow,\n0 come and save us now.\nThen will we sing our suff'rings o'er,\nAnd praise thee evermore;\nThen will we sing our suff'rings o'er,\nAnd praise thee evermore."
+    },
+    {
+      "number": 3,
+      "text": "And in temptation leave us not;\nFrom evil us defend;\nFor Thine, 0 Lord, the kingdom is,\nFor ever, without end.\nCome, my Saviour, 0 my Saviour,\nCome and bless thy people now,\nWhile at thy feet we humbly bow,\n0 come and save us now.\nThen will we sing our suff'rings o'er,\nAnd praise thee evermore;\nThen will we sing our suff'rings o'er,\nAnd praise thee evermore."
+    },
+    {
+      "number": 4,
+      "text": "Thine is the power, 0 Lord, to bring\nThe kingdom down to men;\nThine is the glory evermore,\nAnd kingdom without end.\nCome, my Saviour, 0 my Saviour,\nCome and bless thy people now,\nWhile at thy feet we humbly bow,\n0 come and save us now.\nThen will we sing our suff'rings o'er,\nAnd praise thee evermore;\nThen will we sing our suff'rings o'er,\nAnd praise thee evermore."
+    },
+    {
+      "number": 5,
+      "text": "In that glad day shall all thy saints\nA joyful tribute bring,\nOf praise and power, of joy and song,\nTo their exalted King.\nCome, my Saviour, 0 my Saviour,\nCome and bless thy people now,\nWhile at thy feet we humbly bow,\n0 come and save us now.\nThen will we sing our suff'rings o'er,\nAnd praise thee evermore;\nThen will we sing our suff'rings o'er,\nAnd praise thee evermore."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["lord's prayer", "petition", "forgiveness", "kingdom of God", "second coming"],
+    "scripture_references": ["Matt 6:9-13", "Luke 11:2-4"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

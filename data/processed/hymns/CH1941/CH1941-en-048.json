@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-048",
+  "number": 48,
+  "title": "Softly Now the Light of Day",
+  "author": "George Washington Doane",
+  "composer": "Carl Maria von Weber",
+  "tune": "Seymour",
+  "meter": "7.7.7.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Softly now the light of day\nFades upon my sight away;\nFree from care, from labor free,\nLord, I would commune with Thee."
+    },
+    {
+      "number": 2,
+      "text": "Thou, whose all-pervading eye\nNaught escapes, without, within,\nPardon each infirmity,\nOpen fault and secret sin."
+    },
+    {
+      "number": 3,
+      "text": "Soon for me the light of day\nShall forever pass away;\nThen, from sin and sorrow free,\nTake me, Lord, to dwell with Thee."
+    },
+    {
+      "number": 4,
+      "text": "Thou who, sinless, yet hast known\nAll of man's infirmity;\nThen, from Thine eternal throne,\nJesus, look with pitying eye."
+    }
+  ],
+  "metadata": {
+    "year": 1824,
+    "copyright": "Public Domain",
+    "themes": ["evening", "prayer", "forgiveness", "eternal life"],
+    "scripture_references": ["Psalm 139:23-24", "1 John 1:9"],
+    "tune_source": "Seymour, Carl Maria von Weber, 1826",
+    "original_language": "en"
+  }
+}

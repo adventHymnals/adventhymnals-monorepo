@@ -1,0 +1,372 @@
+{
+  "id": "SDAH",
+  "title": "Seventh-day Adventist Hymnal",
+  "language": "en",
+  "year": 1985,
+  "publisher": "Review and Herald Publishing Association",
+  "hymns": [
+    {
+      "number": 1,
+      "hymn_id": "SDAH-en-001",
+      "title": "Praise to the Lord"
+    },
+    {
+      "number": 2,
+      "hymn_id": "SDAH-en-002",
+      "title": "All Creatures of Our God and King"
+    },
+    {
+      "number": 3,
+      "hymn_id": "SDAH-en-003",
+      "title": "God Himself Is With Us"
+    },
+    {
+      "number": 4,
+      "hymn_id": "SDAH-en-004",
+      "title": "Praise, My Soul, the King of Heaven"
+    },
+    {
+      "number": 5,
+      "hymn_id": "SDAH-en-005",
+      "title": "All My Hope on God Is Founded"
+    },
+    {
+      "number": 6,
+      "hymn_id": "SDAH-en-006",
+      "title": "O Worship the Lord"
+    },
+    {
+      "number": 8,
+      "hymn_id": "SDAH-en-008",
+      "title": "We Gather Together"
+    },
+    {
+      "number": 9,
+      "hymn_id": "SDAH-en-009",
+      "title": "Let All the World in Every Corner Sing"
+    },
+    {
+      "number": 13,
+      "hymn_id": "SDAH-en-013",
+      "title": "New Songs of Celebration Render"
+    },
+    {
+      "number": 14,
+      "hymn_id": "SDAH-en-014",
+      "title": "Let Us Praise the Name of the Lord"
+    },
+    {
+      "number": 17,
+      "hymn_id": "SDAH-en-017",
+      "title": "Lord of All Being, Throned Afar"
+    },
+    {
+      "number": 18,
+      "hymn_id": "SDAH-en-018",
+      "title": "O Morning Star, How Fair and Bright"
+    },
+    {
+      "number": 20,
+      "hymn_id": "SDAH-en-020",
+      "title": "height Re - joice in His word, Ye of Ye"
+    },
+    {
+      "number": 22,
+      "hymn_id": "SDAH-en-022",
+      "title": "Fred Pratt Green"
+    },
+    {
+      "number": 23,
+      "hymn_id": "SDAH-en-023",
+      "title": "Now the Joyful Bells A-Ringing"
+    },
+    {
+      "number": 24,
+      "hymn_id": "SDAH-en-024",
+      "title": "Every Star Shall Sing a Carol"
+    },
+    {
+      "number": 25,
+      "hymn_id": "SDAH-en-025",
+      "title": "Tell His"
+    },
+    {
+      "number": 27,
+      "hymn_id": "SDAH-en-027",
+      "title": "Rejoice, Ye Pure in Heart"
+    },
+    {
+      "number": 28,
+      "hymn_id": "SDAH-en-028",
+      "title": "Praise We the Lord"
+    },
+    {
+      "number": 29,
+      "hymn_id": "SDAH-en-029",
+      "title": "Sing Praise to God"
+    },
+    {
+      "number": 31,
+      "hymn_id": "SDAH-en-031",
+      "title": "Timothy Dudley-Smith"
+    },
+    {
+      "number": 32,
+      "hymn_id": "SDAH-en-032",
+      "title": "When in Our Music God Is Glorified"
+    },
+    {
+      "number": 33,
+      "hymn_id": "SDAH-en-033",
+      "title": "Sing a New Song to the Lord"
+    },
+    {
+      "number": 38,
+      "hymn_id": "SDAH-en-038",
+      "title": "Arise, My Soul, Arise"
+    },
+    {
+      "number": 41,
+      "hymn_id": "SDAH-en-041",
+      "title": "O Splendor of Gods Glory Bright"
+    },
+    {
+      "number": 42,
+      "hymn_id": "SDAH-en-042",
+      "title": "Now That the Daylight Fills the Sky"
+    },
+    {
+      "number": 43,
+      "hymn_id": "SDAH-en-043",
+      "title": "Be life can - ti - cle May"
+    },
+    {
+      "number": 44,
+      "hymn_id": "SDAH-en-044",
+      "title": "spo - ken Like the first bird Praise for the sing - ing Praise for the"
+    },
+    {
+      "number": 54,
+      "hymn_id": "SDAH-en-054",
+      "title": "O Gladsome Light"
+    },
+    {
+      "number": 55,
+      "hymn_id": "SDAH-en-055",
+      "title": "Jesus, Tender Shepherd, Hear Me"
+    },
+    {
+      "number": 58,
+      "hymn_id": "SDAH-en-058",
+      "title": "Hark, the Vesper Hymn Is Stealing"
+    },
+    {
+      "number": 59,
+      "hymn_id": "SDAH-en-059",
+      "title": "Great Our Joy as Now We Gather"
+    },
+    {
+      "number": 60,
+      "hymn_id": "SDAH-en-060",
+      "title": "from God"
+    },
+    {
+      "number": 61,
+      "hymn_id": "SDAH-en-061",
+      "title": "Fred Pratt Green"
+    },
+    {
+      "number": 67,
+      "hymn_id": "SDAH-en-067",
+      "title": "O Lord, Now Let Your Servant"
+    },
+    {
+      "number": 69,
+      "hymn_id": "SDAH-en-069",
+      "title": "Lord, Make Us More Holy"
+    },
+    {
+      "number": 72,
+      "hymn_id": "SDAH-en-072",
+      "title": "To God the Fa"
+    },
+    {
+      "number": 73,
+      "hymn_id": "SDAH-en-073",
+      "title": "Holy, Holy, Holy"
+    },
+    {
+      "number": 78,
+      "hymn_id": "SDAH-en-078",
+      "title": "For God so loved sent"
+    },
+    {
+      "number": 79,
+      "hymn_id": "SDAH-en-079",
+      "title": "O Love of God, How Strong and True"
+    },
+    {
+      "number": 80,
+      "hymn_id": "SDAH-en-080",
+      "title": "O World of God"
+    },
+    {
+      "number": 81,
+      "hymn_id": "SDAH-en-081",
+      "title": "Though I Speak With Tongues"
+    },
+    {
+      "number": 82,
+      "hymn_id": "SDAH-en-082",
+      "title": "Before Jehovahs Awful Throne"
+    },
+    {
+      "number": 87,
+      "hymn_id": "SDAH-en-087",
+      "title": "God Who Spoke in the Beginning"
+    },
+    {
+      "number": 90,
+      "hymn_id": "SDAH-en-090",
+      "title": "Eternal God,"
+    },
+    {
+      "number": 93,
+      "hymn_id": "SDAH-en-093",
+      "title": "All Things Bright and Beautiful"
+    },
+    {
+      "number": 95,
+      "hymn_id": "SDAH-en-095",
+      "title": ", Through each w of fair days God Him-self ex - press - es"
+    },
+    {
+      "number": 96,
+      "hymn_id": "SDAH-en-096",
+      "title": "The Qnacioncs"
+    },
+    {
+      "number": 97,
+      "hymn_id": "SDAH-en-097",
+      "title": "Lord of the Boundless Curves of Space"
+    },
+    {
+      "number": 100,
+      "hymn_id": "SDAH-en-100",
+      "title": "Thomas O, Chisholm"
+    },
+    {
+      "number": 102,
+      "hymn_id": "SDAH-en-102",
+      "title": "Unto the Hills"
+    },
+    {
+      "number": 104,
+      "hymn_id": "SDAH-en-104",
+      "title": "My Shepherd Will Supply My Need"
+    },
+    {
+      "number": 106,
+      "hymn_id": "SDAH-en-106",
+      "title": "Re - peat His mer - cies in your song"
+    },
+    {
+      "number": 108,
+      "hymn_id": "SDAH-en-108",
+      "title": "Gods praise"
+    },
+    {
+      "number": 109,
+      "hymn_id": "SDAH-en-109",
+      "title": "Mar-vel-ous, in - fi- grace, Free - ly be - stowed on all who be - lievel"
+    },
+    {
+      "number": 110,
+      "hymn_id": "SDAH-en-110",
+      "title": "For Thy lov - it kind"
+    },
+    {
+      "number": 114,
+      "hymn_id": "SDAH-en-114",
+      "title": "There is mer - cy with the Sav - ior is heal - ing in His blood"
+    },
+    {
+      "number": 116,
+      "hymn_id": "SDAH-en-116",
+      "title": "Of the Fathers Love Begotten"
+    },
+    {
+      "number": 118,
+      "hymn_id": "SDAH-en-118",
+      "title": "The First Noel"
+    },
+    {
+      "number": 121,
+      "hymn_id": "SDAH-en-121",
+      "title": "Go, Tell It on the Mountain"
+    },
+    {
+      "number": 122,
+      "hymn_id": "SDAH-en-122",
+      "title": "Hark the Herald Angels Sing"
+    },
+    {
+      "number": 123,
+      "hymn_id": "SDAH-en-123",
+      "title": "So, most gra Ev er - more be"
+    },
+    {
+      "number": 125,
+      "hymn_id": "SDAH-en-125",
+      "title": "Joy to the World"
+    },
+    {
+      "number": 126,
+      "hymn_id": "SDAH-en-126",
+      "title": "But His"
+    },
+    {
+      "number": 128,
+      "hymn_id": "SDAH-en-128",
+      "title": "Break Forth, O Beauteous Heavenly Light"
+    },
+    {
+      "number": 129,
+      "hymn_id": "SDAH-en-129",
+      "title": "As It Fell Upon a Night"
+    },
+    {
+      "number": 132,
+      "hymn_id": "SDAH-en-132",
+      "title": "O Come, All Ye Faithful"
+    }
+  ],
+  "metadata": {
+    "total_hymns": 67,
+    "languages": [
+      "en"
+    ],
+    "themes": [
+      "praise",
+      "jesus",
+      "love",
+      "service",
+      "god",
+      "guidance",
+      "creation",
+      "salvation",
+      "heaven",
+      "faith",
+      "hope",
+      "prayer",
+      "peace",
+      "christmas",
+      "easter"
+    ],
+    "publication_info": {
+      "publisher": "Review and Herald Publishing Association",
+      "place": "Hagerstown, MD",
+      "isbn": null
+    }
+  }
+}

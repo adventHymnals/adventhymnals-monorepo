@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-073",
+  "number": 73,
+  "title": "Holy, Holy, Holy",
+  "author": "Reginald Heber",
+  "composer": "John Bacchus Dykes",
+  "tune": "Nicaea",
+  "meter": "11.12.12.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy, holy, holy! Lord God Almighty!\nEarly in the morning our song shall rise to Thee;\nHoly, holy, holy! merciful and mighty!\nGod in three Persons, blessed Trinity!"
+    },
+    {
+      "number": 2,
+      "text": "Holy, holy, holy! all the saints adore Thee,\nCasting down their golden crowns around the glassy sea;\nCherubim and seraphim falling down before Thee,\nWhich wert, and art, and evermore shalt be."
+    },
+    {
+      "number": 3,
+      "text": "Holy, holy, holy! though the darkness hide Thee,\nThough the eye of sinful man Thy glory may not see;\nOnly Thou art holy; there is none beside Thee,\nPerfect in power, in love, and purity."
+    },
+    {
+      "number": 4,
+      "text": "Holy, holy, holy! Lord God Almighty!\nAll Thy works shall praise Thy name, in earth, and sky, and sea;\nHoly, holy, holy! merciful and mighty!\nGod in three Persons, blessed Trinity!"
+    }
+  ],
+  "metadata": {
+    "year": 1826,
+    "copyright": "Public Domain",
+    "themes": ["Trinity", "holiness", "worship", "adoration"],
+    "scripture_references": ["Revelation 4:8", "Isaiah 6:3"],
+    "tune_source": "Nicaea, John Bacchus Dykes, 1861",
+    "original_language": "en"
+  }
+}

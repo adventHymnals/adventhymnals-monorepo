@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-066",
+  "number": 66,
+  "title": "God of my life, to thee I call",
+  "author": null,
+  "composer": "Anne Steele",
+  "tune": "171, 219, 816",
+  "meter": "171, 219, 816",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God of my life, to thee I call;\nThe grateful heart, the joyful song;\nTouched by thy love, my soul would raise\nResounds the goodness of the Lord."
+    },
+    {
+      "number": 2,
+      "text": "Yet why, dear Lord, this tender care?\nWhy doth thy hand so kindly spare\nA useless cumberer of the ground,\nOn which so little fruit is found?"
+    },
+    {
+      "number": 3,
+      "text": "Still let the barren fig-tree stand,\nUphold and watered by thy hand;\nIts fruit and verdure yet shall be\nA grateful tribute, Lord, to thee."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's love", "gratitude", "divine care", "spiritual fruitfulness", "God's patience", "thanksgiving"],
+    "scripture_references": [],
+    "tune_source": "Anne Steele",
+    "original_language": "en"
+  }
+}

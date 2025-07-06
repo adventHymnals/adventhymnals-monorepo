@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-002",
+  "number": 2,
+  "title": "Jubilee Prayer",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "GRACIOUS Father, guard thy children\nFrom the foes' destructive pow'r;\nSave, O save them Lord, from falling\nIn this dark and trying hour.\nThou wilt surely prove thy people,\nAll our graces must be tried\nBut thy word illumes our pathway,\nAnd in God we still confide."
+    },
+    {
+      "number": 2,
+      "text": "We are in the time of waiting;\nSoon we shall behold our Lord,\nWafted far away from sorrow,\nTo receive our rich reward.\nKeep us, Lord, till thine appearing,\nPure, unspotted, from the world;\nLet thy Holy Spirit cheer us,\nTill thy banner is unfurl'd."
+    },
+    {
+      "number": 3,
+      "text": "With what joyful exultation\nShall the saints thy banner see,\nWhen the Lord for whom we've waited,\nShall proclaim the Jubilee:–\nFreedom from this world's pollutions;\nFreedom from all sin and pain;\nFreedom from the wiles of Satan,\nAnd from Death's destructive reign."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["second advent", "prayer", "protection", "waiting", "jubilee"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

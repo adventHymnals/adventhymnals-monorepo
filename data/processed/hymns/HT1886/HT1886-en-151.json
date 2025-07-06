@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-151",
+  "number": 151,
+  "title": "Come, Holy Spirit, come",
+  "author": "Joseph Hart",
+  "composer": "Lowell Mason",
+  "tune": "Boylston",
+  "meter": "S. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, Holy Spirit, come,\nLet thy bright beams arise;\nDispel the sorrow from our minds,\nThe darkness from our eyes."
+    },
+    {
+      "number": 2,
+      "text": "Convince us all of sin,\nThen lead to Jesus' blood,\nAnd to our wondering view reveal\nThe mercies of our God."
+    },
+    {
+      "number": 3,
+      "text": "Revive our drooping faith,\nOur doubts and fears remove,\nAnd kindle in our breasts the flame\nOf never-dying love."
+    },
+    {
+      "number": 4,
+      "text": "'Tis thine to cleanse the heart,\nTo sanctify the soul,\nTo pour fresh life in every part,\nAnd new-create the whole."
+    },
+    {
+      "number": 5,
+      "text": "Come, Holy Spirit, come,\nOur minds from bondage free;\nThen shall we know, and praise, and love,\nThe Father, Son, and thee."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "spiritual awakening", "divine light", "faith", "sanctification"],
+    "scripture_references": [],
+    "tune_source": "Boylston, Lowell Mason",
+    "original_language": "en"
+  }
+}

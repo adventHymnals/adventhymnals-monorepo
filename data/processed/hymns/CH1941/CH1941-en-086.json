@@ -1,0 +1,44 @@
+{
+  "id": "CH1941-en-086",
+  "number": 86,
+  "title": "The King of Love My Shepherd Is",
+  "author": "Henry Williams Baker",
+  "composer": "John Bacchus Dykes",
+  "tune": "Dominus regit me",
+  "meter": "8.7.8.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The King of love my Shepherd is,\nWhose goodness faileth never;\nI nothing lack if I am His\nAnd He is mine forever."
+    },
+    {
+      "number": 2,
+      "text": "Where streams of living water flow\nMy ransomed soul He leadeth,\nAnd where the verdant pastures grow\nWith food celestial feedeth."
+    },
+    {
+      "number": 3,
+      "text": "Perverse and foolish oft I strayed,\nBut yet in love He sought me,\nAnd on His shoulder gently laid,\nAnd home, rejoicing, brought me."
+    },
+    {
+      "number": 4,
+      "text": "In death's dark vale I fear no ill\nWith Thee, dear Lord, beside me;\nThy rod and staff my comfort still,\nThy cross before to guide me."
+    },
+    {
+      "number": 5,
+      "text": "Thou spread'st a table in my sight;\nThy unction grace bestoweth;\nAnd O what transport of delight\nFrom Thy pure chalice floweth!"
+    },
+    {
+      "number": 6,
+      "text": "And so through all the length of days\nThy goodness faileth never;\nGood Shepherd, may I sing Thy praise\nWithin Thy house forever."
+    }
+  ],
+  "metadata": {
+    "year": 1868,
+    "copyright": "Public Domain",
+    "themes": ["shepherd", "guidance", "comfort", "eternal life"],
+    "scripture_references": ["Psalm 23"],
+    "tune_source": "Dominus regit me, John Bacchus Dykes, 1868",
+    "original_language": "en"
+  }
+}

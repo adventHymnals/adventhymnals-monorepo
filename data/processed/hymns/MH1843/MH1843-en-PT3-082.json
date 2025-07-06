@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-082",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "082",
+  "title": "Rejoice, the Lord Is King",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Rejoice, the Lord is King! Your Lord and King adore! Rejoice, give thanks, and sing, And triumph evermore:"
+    },
+    {
+      "number": "2",
+      "text": "Jesus, the Savior, reigns, The God of truth and love; When He had purged our stains, He took His seat above:"
+    },
+    {
+      "number": "3",
+      "text": "His kingdom cannot fail, He rules o'er earth and heaven; The keys of death and hell Are to our Jesus given:"
+    },
+    {
+      "number": "4",
+      "text": "Rejoice, in glorious hope! Our Lord the judge shall come, And take His servants up To their eternal home:"
+    }
+  ],
+  "refrain": {
+    "text": "Lift up your heart, lift up your voice! Rejoice, again I say, rejoice!"
+  },
+  "meter": "S.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 221,
+  "themes": ["Jesus", "Lord", "King", "Rejoice", "Kingdom", "Triumph", "Savior", "Heaven"],
+  "key_signature": "",
+  "time_signature": ""
+}

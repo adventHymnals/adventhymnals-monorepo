@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-089",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "089",
+  "title": "A Hymn of Glory Let Us Sing",
+  "verses": [
+    {
+      "number": "1",
+      "text": "A hymn of glory let us sing; New hymns thro'out the world shall ring: Alleluia! Alleluia! Christ, by a road before untrod, Ascends unto the throne of God. Alleluia! Alleluia! Alleluia, alleluia, alleluia!"
+    },
+    {
+      "number": "2",
+      "text": "O Lord, our homeward pathway bend, That our unwearied hearts ascend. Alleluia! Alleluia! Where, seated on Your Father's throne, You reign as King of kings alone. Alleluia! Alleluia! Alleluia, alleluia, alleluia!"
+    },
+    {
+      "number": "3",
+      "text": "Give us Your joy on earth, O Lord, In heav'n to be our great reward. Alleluia! Alleluia! When throned with You forever, we Shall praise Your name eternally. Alleluia! Alleluia! Alleluia, alleluia, alleluia!"
+    },
+    {
+      "number": "4",
+      "text": "O risen Christ, ascended Lord, All praise to You let earth accord: Alleluia! Alleluia! You are, while endless ages run, With Father and with Spirit One. Alleluia! Alleluia! Alleluia, alleluia, alleluia!"
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "L.M. with Alleluias",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 228,
+  "themes": ["Glory", "Hymn", "Christ", "Ascension", "Throne", "King", "Lord", "Alleluia"],
+  "key_signature": "",
+  "time_signature": ""
+}

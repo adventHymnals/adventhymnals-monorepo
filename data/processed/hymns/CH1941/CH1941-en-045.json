@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-045",
+  "number": 45,
+  "title": "The Sun Is on the Land",
+  "author": "John Keble",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The sun is on the land and sea,\nThe day is everywhere;\nO Father, let the day we see\nBe radiant with Thy care."
+    },
+    {
+      "number": 2,
+      "text": "O make us glad with morning light,\nO make us pure and true;\nAs we have safely passed the night,\nHelp us to pass day through."
+    },
+    {
+      "number": 3,
+      "text": "Through all the hours of this bright day,\nIn all we do or say,\nThat we may not from Thee astray,\nO keep us in Thy way."
+    },
+    {
+      "number": 4,
+      "text": "And when the day is done, and night\nComes on with sweet release,\nGrant us the blessing of Thy sight\nAnd rest in perfect peace."
+    }
+  ],
+  "metadata": {
+    "year": 1827,
+    "copyright": "Public Domain",
+    "themes": ["morning", "God's care", "guidance", "daily prayer"],
+    "scripture_references": ["Psalm 118:24", "Psalm 139:9-10"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "MH1843-en-PT3-083",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "083",
+  "title": "Hark! Ten Thousand Harps and Voices",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Hark! ten thousand harps and voices Sound the note of praise above; Jesus reigns, and heaven rejoices, Jesus reigns, the God of love:"
+    },
+    {
+      "number": "2",
+      "text": "King of glory, reign forever, Thine an everlasting crown; Nothing from Thy love shall sever Those whom Thou hast made Thine own:"
+    },
+    {
+      "number": "3",
+      "text": "Savior, hasten Thine appearing; Bring, O bring the glorious day, When, the awful summons hearing, Heaven and earth shall pass away:"
+    }
+  ],
+  "refrain": {
+    "text": "See, He sits on yonder throne; Jesus rules the world alone. Happy objects of Thy grace, Destined to behold Thy face. Then with golden harps we'll sing, \"Glory, glory to our King!\" Alleluia! Alleluia! Alleluia! Amen."
+  },
+  "meter": "8.7.8.7.D.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 222,
+  "themes": ["Jesus", "Harps", "Voices", "Praise", "Heaven", "King", "Glory", "Savior"],
+  "key_signature": "",
+  "time_signature": ""
+}

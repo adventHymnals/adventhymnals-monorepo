@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-188",
+  "number": 188,
+  "title": "Jesus, thy word is my delight",
+  "author": "William Hammond",
+  "composer": "",
+  "tune": "",
+  "meter": "609, 237, 396",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, thy word is my delight,\nThere peace and refuge I have seen;\nO could I study day and night,\nAnd meditate on things divine!"
+    },
+    {
+      "number": 2,
+      "text": "O Lamb of God, the book unseal,\nAnd let thy hearts expand;\nLet all its life and spirit feel,\nAnd heavenly wisdom gain."
+    },
+    {
+      "number": 3,
+      "text": "That thou for us didst live and die,\nMake known to us, dear Lord;\nTo us the promises apply,\nRecorded in thy word."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus", "God's word", "spiritual study", "divine meditation", "heavenly wisdom"],
+    "scripture_references": [],
+    "tune_source": "609, 237, 396",
+    "original_language": "en"
+  }
+}

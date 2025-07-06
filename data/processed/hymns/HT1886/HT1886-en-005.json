@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-005",
+  "number": 5,
+  "title": "How sweet to leave the world awhile",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "516, 764, 23",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How sweet to leave the world awhile,\nAnd seek the presence of our Lord!\nDear Saviour, on thy people smile,\nAnd come according to thy word."
+    },
+    {
+      "number": 2,
+      "text": "From busy scenes we now retreat,\nThat we may here converse with thee;\nDear Lord, behold us at thy feet,\nLet this the gate of heaven be."
+    },
+    {
+      "number": 3,
+      "text": "Chief of ten thousand, now appear,\nThat we thy lovely face may see;\nO speak, that we thy voice may hear,\nAnd let thy presence fill this place."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["retreat", "prayer", "Jesus", "worship", "presence"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

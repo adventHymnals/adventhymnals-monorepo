@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-079",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "079",
+  "title": "Triumphant Zion! lift thy head",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Triumphant Zion! lift thy head From dust, from darkness, and the dead! Though humbled long—awake at length, And gird thee with thy Savior's strength!"
+    },
+    {
+      "number": "2",
+      "text": "Put all thy beauteous garments on, And let thy excellence be known; Decked in the robes of righteousness, Thy glories shall the world confess."
+    },
+    {
+      "number": "3",
+      "text": "No more shall foes unclean invade, And fill thy hallowed walls with dread; No more shall hell's insulting host Their victory and thy sorrows boast."
+    },
+    {
+      "number": "4",
+      "text": "God, from on high, has heard thy prayer, His hand thy ruin shall repair; Nor will thy watchful Monarch cease To guard thee in eternal peace."
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "L.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 218,
+  "themes": ["Triumphant", "Zion", "Savior", "Righteousness", "God", "Victory", "Peace"],
+  "key_signature": "",
+  "time_signature": ""
+}

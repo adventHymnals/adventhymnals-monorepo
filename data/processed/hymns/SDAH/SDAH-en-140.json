@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-140",
+  "number": 140,
+  "title": "Thou Didst Leave Thy Throne",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thou didst leave Thy throne\nAnd Thy kingly crown\nWhen Thou camest to earth for me;\nBut in Bethlehem's home\nWas there found no room\nFor Thy holy nativity."
+    },
+    {
+      "number": 2,
+      "text": "Heaven's arches rang\nWhen the angels sang\nProclaiming Thy royal degree;\nBut of lowly birth\nDidst Thou come to earth,\nAnd in great humility."
+    },
+    {
+      "number": 3,
+      "text": "The foxes found rest,\nAnd the birds their nest\nIn the shade of the forest tree;\nBut Thy couch was the sod,\nO Thou Son of God,\nIn the deserts of Galilee."
+    },
+    {
+      "number": 4,
+      "text": "Thou camest, O Lord,\nWith the living word\nThat should set Thy people free;\nBut with mocking scorn,\nAnd with crown of thorn,\nThey bore Thee to Calvary."
+    },
+    {
+      "number": 5,
+      "text": "When the heavens shall ring,\nAnd the angels sing,\nAt Thy coming to victory,\nLet Thy voice call me home,\nSaying, 'Yet there is room,\nThere is room at My side for thee.'"
+    }
+  ],
+  "chorus": {
+    "text": "O come to my heart, Lord Jesus,\nThere is room in my heart for Thee.\nMy heart shall rejoice, Lord Jesus,\nWhen Thou comest and callest for me."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["incarnation", "humility", "christmas", "invitation"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

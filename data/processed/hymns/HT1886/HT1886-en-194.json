@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-194",
+  "number": 194,
+  "title": "Blessed Bible, how I love it",
+  "author": "Anon",
+  "composer": "",
+  "tune": "",
+  "meter": "Tune, Stockwell, No. 162",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Blessed Bible, how I love it!\nHow it doth my bosom cheer!\nWhat hath earth like this to give me?\nO, what stores of wealth are here!"
+    },
+    {
+      "number": 2,
+      "text": "'T is a fountain ever springing,\nWhere the weary may obtain\nWater for the thirst of blessing,\nThat it may not thirst again."
+    },
+    {
+      "number": 3,
+      "text": "'T is a chart that never faileth,\nOne which God to us hath given;\nAnd though oft the storm assaileth,\nIt will guide you safe to heaven."
+    },
+    {
+      "number": 4,
+      "text": "'T is a pearl of price exceeding\nAll the gems in ocean found;\nAnd, like good precepts feeding,\nIn thy grace thou art abound."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["love for Bible", "spiritual treasure", "living water", "divine guidance", "precious truth"],
+    "scripture_references": [],
+    "tune_source": "Tune, Stockwell, No. 162",
+    "original_language": "en"
+  }
+}

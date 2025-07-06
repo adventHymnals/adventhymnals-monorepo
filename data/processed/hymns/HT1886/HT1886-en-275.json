@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-275",
+  "number": 275,
+  "title": "Thou, from whom we never part",
+  "author": "Anna",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thou, from whom we never part,\nThou, whose love is everywhere,\nThou, whose mercy fills the heart,\nListen to our closing prayer."
+    },
+    {
+      "number": 2,
+      "text": "Father, fill our hearts with love,\nLove unfailing, full and free,\nLove that no alarms can move,\nLove that ever rests on thee."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "closing", "love", "prayer"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

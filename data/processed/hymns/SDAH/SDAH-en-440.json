@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-440",
+  "number": 440,
+  "title": "How Cheering Is the Christian's Hope",
+  "author": "Anne Steele",
+  "composer": "Traditional",
+  "tune": "ROCKINGHAM",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How cheering is the Christian's hope,\nWhile toiling here below!\nIt buoys us up while passing through\nThis wilderness of woe."
+    },
+    {
+      "number": 2,
+      "text": "It points us to a land of rest,\nWhere saints with Christ will reign;\nFly, lingering moments, fly, O,\nWhere all will quickly come!"
+    },
+    {
+      "number": 3,
+      "text": "Fly, Dear Savior, here be low!\nWhere we shall meet the loved of earth,\nAnd never part again,\nWe long to see Thee as Thou art,\nAnd reach that blissful home."
+    }
+  ],
+  "chorus": {
+    "text": "It buoys us up while passing through\nThis wilderness of woe."
+  },
+  "metadata": {
+    "year": 1760,
+    "copyright": "Public Domain",
+    "themes": ["Christian hope", "encouragement", "heaven", "perseverance", "reunion"],
+    "scripture_references": ["1 Peter 1:3", "Romans 8:24-25", "Hebrews 6:19"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

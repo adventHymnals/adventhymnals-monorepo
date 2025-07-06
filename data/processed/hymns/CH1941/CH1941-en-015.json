@@ -1,0 +1,37 @@
+{
+  "id": "CH1941-en-015",
+  "number": 15,
+  "title": "All Glory, Laud, and Honor",
+  "author": "Theodulph of Orleans",
+  "composer": "Melchior Teschner",
+  "tune": "St. Theodulph",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All glory, laud, and honor\nTo Thee, Redeemer, King!\nTo whom the lips of children\nMade sweet hosannas ring."
+    },
+    {
+      "number": 2,
+      "text": "Thou art the King of Israel,\nThou David's royal Son,\nWho in the Lord's name comest,\nThe King and Blessed One."
+    },
+    {
+      "number": 3,
+      "text": "The company of angels\nAre praising Thee on high,\nAnd mortal men and all things\nCreated make reply."
+    },
+    {
+      "number": 4,
+      "text": "To Thee before Thy passion\nThey sang their hymns of praise;\nTo Thee now high exalted\nOur melody we raise."
+    }
+  ],
+  "metadata": {
+    "year": 820,
+    "copyright": "Public Domain",
+    "themes": ["Palm Sunday", "worship", "Christ the King", "praise"],
+    "scripture_references": ["Matthew 21:9", "Mark 11:9-10"],
+    "tune_source": "St. Theodulph, Melchior Teschner, 1615",
+    "original_language": "la",
+    "translator": "John Mason Neale"
+  }
+}

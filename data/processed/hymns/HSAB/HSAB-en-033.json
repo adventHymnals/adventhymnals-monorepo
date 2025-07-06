@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-033",
+  "number": 33,
+  "title": "Heavenly Music",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WHAT heavenly music steals over the sea,\nEntrancing the senses like sweet melody?\n'Tis the voice of the angels borne soft on the air;\n'Tis for me they are singing, their welcome I hear!"
+    },
+    {
+      "number": 2,
+      "text": "On the banks of old Jordan here gazing I stand,\nAnd earnestly longing I stretch forth my hand;\nSend a convoy of angels, dear Jesus, I pray–\nLet me join that sweet music, come take me away."
+    },
+    {
+      "number": 3,
+      "text": "Though dark are the waters, and rough is the wave,\nIf Jesus permit, the wild surges I'll brave;\nFor that heavenly music hath ravish'd me so,\nI must join in the chorus, I'll go, let me go."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["heavenly music", "angels", "jordan", "longing", "heaven"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-340",
+  "number": 340,
+  "title": "Hail! the day that sees him rise",
+  "author": "William Barclay",
+  "composer": null,
+  "tune": "330, 407, 75.",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hail! the day that sees him rise, And ascend his native skies!\nChrist, awhile to mortals given, Enters now the gates of heaven."
+    },
+    {
+      "number": 2,
+      "text": "There the glorious triumph waits; Lift your heads, eternal gates!\nChrist hath vanquished death and sin; Take the King of glory in."
+    },
+    {
+      "number": 3,
+      "text": "See, the heaven its Lord receives! Yet he loves the earth he leaves;\nThough returning to his throne, Still he calls mankind his own."
+    },
+    {
+      "number": 4,
+      "text": "See, he lifts his hands above! See, he shows the prints of love!\nHark! his gracious lips bestow Blessings on his church below."
+    },
+    {
+      "number": 5,
+      "text": "Saviour, parted from our sight, High above yon azure height,\nGrant our hearts may thither rise, Following thee beyond the skies."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Resurrection and Ascension", "ascension", "triumph", "blessing", "heaven"],
+    "scripture_references": [],
+    "tune_source": "330, 407, 75.",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-445",
+  "number": 445,
+  "title": "I'm But a Stranger Here",
+  "author": "Thomas R. Taylor",
+  "composer": "Arthur S. Sullivan",
+  "tune": "REMEMBER ME",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I'm but a stranger here,\nHeaven is my home;\nEarth is a desert drear,\nHeaven is my home;"
+    },
+    {
+      "number": 2,
+      "text": "What though the tempest rage,\nHeaven is my home;\nShort is my pilgrimage,\nHeaven is my home."
+    },
+    {
+      "number": 3,
+      "text": "There at my Savior's side,\nHeaven is my home;\nI shall be glorified,\nHeaven is my home."
+    }
+  ],
+  "chorus": {
+    "text": "Danger and sorrow stand\nRound me on every hand;\nHeaven is my fatherland,\nHeaven is my home."
+  },
+  "metadata": {
+    "year": 1836,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "stranger", "pilgrimage", "home", "comfort"],
+    "scripture_references": ["Hebrews 11:13-16", "2 Corinthians 5:1", "Philippians 3:20"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-352",
+  "number": 352,
+  "title": "This Is My Will",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "This is My will, My one command, That love should dwell among you all. This is My will, that you should love by Me; As I have shown that I love you."
+    },
+    {
+      "number": 2,
+      "text": "No greater love a man can have Than that he die to save his friends. You are My friends if you obey what I command; that you should do."
+    },
+    {
+      "number": 3,
+      "text": "You chose not Me, but I chose you That you should go and bear much fruit. I chose you out that you in Me, should bear much fruit in each, in all."
+    },
+    {
+      "number": 4,
+      "text": "All that I ask, My Father, For My name's sake you shall receive. This is My will, My one command, That love should dwell that will abide."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus Christ", "Love", "Commandment", "Friendship", "Obedience"],
+    "scripture_references": ["John 15:12", "John 15:13", "John 15:16", "John 15:17"],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

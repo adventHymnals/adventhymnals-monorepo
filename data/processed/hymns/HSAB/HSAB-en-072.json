@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-072",
+  "number": 72,
+  "title": "I Walk Alone",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I WALK a lonely pilgrim here\nO'er life's uneven way;\nBut my aching heart keeps hoping on\nFor the bright, the better day;\nA glorious home in the goodly land,\nThe blessed, heavenly rest;\nAnd well I know that land is near,\nThe home of the pure and blest."
+    },
+    {
+      "number": 2,
+      "text": "I walk alone, and oft am sad,\nAnd falls the briny tear:\nMy heart is grieved with trials sore,\nAnd pressed with many a care.\nBut the better land no sorrow knows–\nThere, hushed is every sigh;\nThe Saviour's hand in kindness wipes\nThe tear-drop from each eye."
+    },
+    {
+      "number": 3,
+      "text": "I walk alone, and yet am glad\nFor the blessed promise given,\nTo cheer the heart of the lowly one,\nIn the narrow way to heaven.\nThe humble path my Saviour walked,\nI scorn it not to tread;\nThough the frowns and scoffs my Saviour bore\nShall fall upon my head."
+    },
+    {
+      "number": 4,
+      "text": "For I stand upon his precious word,\nAnd my soul rejoiceth free,\nIn the glorious light the gospel gives,\nThe light that shines for me.\nThough I suffer now, I shall triumph then;\nThough I die for my Master here,\nIn that better world shall I live again,\nA conqueror's crown to wear."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["lonely pilgrim", "better day", "glorious home", "trials", "saviour's path"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

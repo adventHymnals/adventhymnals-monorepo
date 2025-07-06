@@ -1,0 +1,32 @@
+{
+  "id": "HSAB-en-162",
+  "number": 26,
+  "title": "WORTHY IS THE LAMB",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WORTHY, worthy is the Lamb,\nWorthy, worthy is the Lamb,\nWorthy, worthy is the Lamb\nThat was slain;"
+    },
+    {
+      "number": 2,
+      "text": "Saviour, let thy kingdom come!\nNow the Man of Sin consume—\nBring thy blest Millennium.\nHoly Lamb, &c."
+    },
+    {
+      "number": 3,
+      "text": "Thus may we each moment feel,\nLove him, serve him, praise him still,\nTill we all on Zion's hill\nSee the Lamb, &c."
+    }
+  ],
+  "chorus": {
+    "text": "Glory, hallelujah, praise him, hallelujah,\nGlory, hallelujah to the Lamb."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Lamb of God", "worship", "kingdom", "millennium", "service", "praise"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

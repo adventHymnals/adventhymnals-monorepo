@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-238",
+  "number": 238,
+  "title": "Welcome, sweet day of rest",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Welcome, sweet day of rest,\nThe day thou hast been,\nWelcome to this reviving breast,\nAnd these rejoicing eyes."
+    },
+    {
+      "number": 2,
+      "text": "The King himself comes near,\nAnd feasts his saints today;\nHere we may sit, and see him here,\nAnd love, and praise, and pray."
+    },
+    {
+      "number": 3,
+      "text": "One day within the place\nWhere Christ, my Lord, hath been,\nIs sweeter than ten thousand days\nOf folly and of sin."
+    },
+    {
+      "number": 4,
+      "text": "My willing soul would stay\nIn such a frame as this,\nTill called to rise and soar away\nTo everlasting bliss."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "rest", "Jesus", "blessing"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

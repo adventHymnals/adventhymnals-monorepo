@@ -1,0 +1,37 @@
+{
+  "id": "CH1941-en-043",
+  "number": 43,
+  "title": "When Morning Gilds the Skies",
+  "author": "Anonymous",
+  "composer": "Joseph Barnby",
+  "tune": "Laudes Domini",
+  "meter": "6.6.6.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When morning gilds the skies,\nMy heart awaking cries:\nMay Jesus Christ be praised!\nAlike at work and prayer\nTo Jesus I repair:\nMay Jesus Christ be praised!"
+    },
+    {
+      "number": 2,
+      "text": "When sleep her balm denies,\nMy silent spirit sighs:\nMay Jesus Christ be praised!\nWhen evil thoughts molest,\nWith this I shield my breast:\nMay Jesus Christ be praised!"
+    },
+    {
+      "number": 3,
+      "text": "Does sadness fill my mind?\nA solace here I find:\nMay Jesus Christ be praised!\nOr fades my earthly bliss?\nMy comfort still is this:\nMay Jesus Christ be praised!"
+    },
+    {
+      "number": 4,
+      "text": "The night becomes as day\nWhen from the heart we say:\nMay Jesus Christ be praised!\nThe powers of darkness fear\nWhen this sweet chant they hear:\nMay Jesus Christ be praised!"
+    }
+  ],
+  "metadata": {
+    "year": 1828,
+    "copyright": "Public Domain",
+    "themes": ["morning", "praise", "constant worship", "comfort"],
+    "scripture_references": ["Psalm 113:3", "1 Thessalonians 5:16-18"],
+    "tune_source": "Laudes Domini, Joseph Barnby, 1868",
+    "original_language": "de",
+    "translator": "Edward Caswall"
+  }
+}

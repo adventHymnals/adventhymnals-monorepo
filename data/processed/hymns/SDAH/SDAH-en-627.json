@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-627",
+  "number": 627,
+  "title": "Jacob's Ladder",
+  "author": "Traditional African American Spiritual",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We are climbing Jacob's ladder.\nWe are climbing Jacob's ladder.\nWe are climbing Jacob's ladder,\nSoldiers of the cross."
+    },
+    {
+      "number": 2,
+      "text": "Every round goes higher, higher.\nEvery round goes higher, higher.\nEvery round goes higher, higher,\nSoldiers of the cross."
+    },
+    {
+      "number": 3,
+      "text": "Sinner, do you love my Jesus?\nSinner, do you love my Jesus?\nSinner, do you love my Jesus?\nSoldiers of the cross."
+    },
+    {
+      "number": 4,
+      "text": "If you love Him, why not serve Him?\nIf you love Him, why not serve Him?\nIf you love Him, why not serve Him?\nSoldiers of the cross."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": ["spiritual ascent", "discipleship", "service", "love for Jesus"],
+    "scripture_references": ["Genesis 28:12", "John 1:51"],
+    "tune_source": "Traditional African American Spiritual",
+    "original_language": "en"
+  }
+}

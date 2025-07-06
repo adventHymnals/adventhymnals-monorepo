@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-038",
+  "number": 38,
+  "title": "God Bless and Keep Thee",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God bless and keep thee through the coming year,\nMay all thy pathway bright and peaceful be;\nThrough sunshine or through shadow, hope or fear,\nMay Jesus walk beside and comfort thee."
+    },
+    {
+      "number": 2,
+      "text": "God grant thee grace to meet each day's demand\nWith courage strong and purpose true and high;\nMay wisdom guide thee with her gentle hand,\nAnd mercy's arms be ever standing by."
+    },
+    {
+      "number": 3,
+      "text": "God grant thy heart may sing through all the days,\nThough clouds may gather and the way be long;\nTill thou shalt join the everlasting praise,\nAnd blend thy voice with heaven's triumphant song."
+    }
+  ],
+  "metadata": {
+    "year": "[needs verification]",
+    "copyright": "Public Domain",
+    "themes": ["blessing", "protection", "guidance", "comfort"],
+    "scripture_references": ["Numbers 6:24-26", "Psalm 121"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

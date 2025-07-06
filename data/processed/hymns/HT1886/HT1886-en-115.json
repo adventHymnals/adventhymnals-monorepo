@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-115",
+  "number": 115,
+  "title": "My Saviour, my almighty Friend",
+  "author": "Charles Wesley",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My Saviour, my almighty Friend,\nWhen I begin thy praise,\nWhere will the growing numbers end,\nThe numbers of thy grace?"
+    },
+    {
+      "number": 2,
+      "text": "Thou art my everlasting trust;\nThy goodness I adore;\nAnd, since I knew thy graces first,\nI speak thy glories more."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "Jesus Christ", "trust", "grace", "testimony"],
+    "scripture_references": [],
+    "tune_source": "227, 546, 747",
+    "original_language": "en"
+  }
+}

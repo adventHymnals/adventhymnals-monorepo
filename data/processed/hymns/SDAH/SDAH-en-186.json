@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-186",
+  "number": 186,
+  "title": "I've Found a Friend",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I've found a Friend; oh, such a Friend!\nHe loved me ere I knew Him;\nHe drew me with the cords of love,\nAnd thus He bound me to Him."
+    },
+    {
+      "number": 2,
+      "text": "I've found a Friend; oh, such a Friend!\nHe bled, He died to save me;\nAnd not alone the gift of life,\nBut His own self He gave me."
+    },
+    {
+      "number": 3,
+      "text": "I've found a Friend; oh, such a Friend!\nAll power to Him is given;\nTo guard me on my upward course,\nAnd bring me safe to heaven."
+    },
+    {
+      "number": 4,
+      "text": "I've found a Friend; oh, such a Friend!\nSo kind, and true, and tender;\nSo wise a Counselor and Guide,\nSo mighty a Defender."
+    }
+  ],
+  "chorus": {
+    "text": "Around my heart still closely twine\nThose ties which naught can sever,\nFor I am His, and He is mine,\nForever and forever."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["friendship", "jesus_love", "salvation", "devotion", "eternal_bond"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-126",
+  "number": 126,
+  "title": "In the Bleak Midwinter",
+  "author": "Christina Rossetti",
+  "composer": "Gustav Holst",
+  "tune": "Cranham",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In the bleak midwinter,\nFrosty wind made moan,\nEarth stood hard as iron,\nWater like a stone;\nSnow had fallen, snow on snow,\nSnow on snow,\nIn the bleak midwinter,\nLong ago."
+    },
+    {
+      "number": 2,
+      "text": "Angels and archangels\nMay have gathered there,\nCherubim and seraphim\nThronged the air:\nBut His mother only,\nIn her maiden bliss,\nWorshiped the beloved\nWith a kiss."
+    },
+    {
+      "number": 3,
+      "text": "What can I give Him,\nPoor as I am?\nIf I were a shepherd,\nI would bring a lamb;\nIf I were a wise man,\nI would do my part;\nYet what I can I give Him:\nGive my heart."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1872,
+    "copyright": "Public Domain",
+    "themes": ["Christmas", "Humility", "Gift of Heart", "Winter"],
+    "scripture_references": ["Luke 2:7"],
+    "tune_source": "Gustav Holst, 1906",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-287",
+  "number": 287,
+  "title": "Softly and Tenderly",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Softly and tenderly Jesus is calling,\nCalling for you and for me;\nAt the heart's portal He's waiting and watching,\nWatching for you and for me."
+    },
+    {
+      "number": 2,
+      "text": "Why should we tarry when Jesus is pleading,\nPleading for you and for me?\nWhy should we linger and heed not His mercies,\nMercies for you and for me?"
+    },
+    {
+      "number": 3,
+      "text": "Think of the wonderful love He has promised,\nPromised for you and for me;\nThough we have sinned, He has mercy and pardon,\nPardon for you and for me."
+    }
+  ],
+  "chorus": {
+    "text": "Come home, come home,\nYe who are weary, come home;\nEarnestly, tenderly, Jesus is calling,\nCalling, O sinner, come home!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Invitation", "Jesus Calling", "Come Home", "Mercy"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

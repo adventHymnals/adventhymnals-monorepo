@@ -1,0 +1,29 @@
+{
+  "id": "CH1941-en-005",
+  "number": 5,
+  "title": "God's Free Mercy Streameth",
+  "author": "Paul Gerhardt",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God's free mercy streameth\nOver all the world,\nAnd His banner gleameth\nEverywhere unfurled.\nBroad and deep and glorious,\nAs the heaven above,\nShines in might victorious\nHis eternal love."
+    },
+    {
+      "number": 2,
+      "text": "Lord, Thy love's dominion\nReaches near and far;\nIn Thy care, Thy children,\nGuarded from afar.\nWhen life's day is closing,\nAnd my lips are still,\nMay I then, reposing,\nRest beneath Thy will."
+    }
+  ],
+  "metadata": {
+    "year": 1653,
+    "copyright": "Public Domain",
+    "themes": ["mercy", "God's love", "providence"],
+    "scripture_references": ["Psalm 36:5-9"],
+    "tune_source": "[needs verification]",
+    "original_language": "de",
+    "translator": "[needs verification]"
+  }
+}

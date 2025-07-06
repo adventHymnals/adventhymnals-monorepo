@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-213",
+  "number": 213,
+  "title": "Delightful day, best gift of heaven",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Delightful day, best gift of heaven,\nBy man in Eden first possessed;\nJehovah's rest-day, kindly given\nThat all his creatures might be blessed."
+    },
+    {
+      "number": 2,
+      "text": "Memorial of creation's King,\nWe welcome now thy glad return;\nAnd while his praise we join to sing,\nOur hearts with love and rapture burn."
+    },
+    {
+      "number": 3,
+      "text": "We bless his name, almighty Lord,\nWe love the keepsake thou hast given;\nOur voice joins with one accord\nIn honor of the King of heaven."
+    },
+    {
+      "number": 4,
+      "text": "All praise to Jesus, by whose blood\nWe are redeemed from sin and death;\nGive glory to the Son of God,—\nPraise him all creatures that have breath."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "creation", "rest", "memorial", "praise", "redemption"],
+    "scripture_references": ["Genesis 2:2-3", "Exodus 20:8-11"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

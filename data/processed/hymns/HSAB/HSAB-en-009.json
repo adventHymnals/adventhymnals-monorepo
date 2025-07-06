@@ -1,0 +1,36 @@
+{
+  "id": "HSAB-en-009",
+  "number": 9,
+  "title": "This World is Not My Home",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "FAREWELL! farewell! to all below,\nMy Jesus calls and I must go:\nI'll launch my boat upon the sea,\nThis land is not the land for me.\nThis world is not. my home;\nThis world is not my home;\nThis world is all a wilderness;\nThis world is not my home."
+    },
+    {
+      "number": 2,
+      "text": "I found the winding path of sin\nA rugged path to travel in;\nBeyond this fading world I see\nThe land the Saviour bought for me.\nThis world is not my home, &c."
+    },
+    {
+      "number": 3,
+      "text": "Farewell! my friends! I'll not stay here–\nThe home I seek will soon appear;\nWhere Christ is not I cannot be;\nThis land is not the land for me.\nThis world is not my home, &c."
+    },
+    {
+      "number": 4,
+      "text": "Praise be to God, our hope's on high;\nThe angels sing and so do I:\nWhere seraphs bow and bend the knee,\nO that's the land–the land for me.\nThis world is not my home, &c."
+    }
+  ],
+  "chorus": {
+    "text": "This world is not my home;\nThis world is not my home;\nThis world is all a wilderness;\nThis world is not my home."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["second advent", "pilgrimage", "heavenly home", "separation from world"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

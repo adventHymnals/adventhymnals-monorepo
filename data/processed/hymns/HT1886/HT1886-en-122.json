@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-122",
+  "number": 122,
+  "title": "Thou dear Redeemer, dying Lamb",
+  "author": "J. Cennick",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thou dear Redeemer, dying Lamb,\nI love to hear of thee;\nNo music's like thy charming name,\nNor half so sweet can be."
+    },
+    {
+      "number": 2,
+      "text": "O let me ever hear thy voice\nIn mercy to me speak;\nIn thee, my Priest, will I rejoice,\nAnd thy salvation seek."
+    },
+    {
+      "number": 3,
+      "text": "My Jesus shall be still my theme,\nWhile in this world I stay;\nI'll sing my Jesus' lovely name\nWhile all things else decay."
+    },
+    {
+      "number": 4,
+      "text": "When I appear in yonder cloud,\nWith all thy favored throng,\nThen will I sing more sweet, more loud,\nAnd Christ shall be my song."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus Christ", "Redeemer", "dying Lamb", "salvation", "praise", "eternal song"],
+    "scripture_references": ["Revelation 5:6"],
+    "tune_source": "546, 369, 996",
+    "original_language": "en"
+  }
+}

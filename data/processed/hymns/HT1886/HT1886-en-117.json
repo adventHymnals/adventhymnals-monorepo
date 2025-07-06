@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-117",
+  "number": 117,
+  "title": "Jesus, the very thought of thee",
+  "author": "John B. Dykes",
+  "composer": null,
+  "tune": "St. Agnes",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, the very thought of thee,\nWith sweetness fills the breast;\nBut sweeter far thy face to see,\nAnd in thy presence rest."
+    },
+    {
+      "number": 2,
+      "text": "No voice can sing, no heart can frame,\nNor can the memory find\nA sweeter sound than Jesus' name,\nThe Saviour of mankind."
+    },
+    {
+      "number": 3,
+      "text": "O hope of every contrite heart!\nO joy of all the meek!\nTo those who fall, how kind thou art!\nHow good to those who seek!"
+    },
+    {
+      "number": 4,
+      "text": "But what to those who find? Ah! this\nNor tongue nor pen can show:\nThe love of Jesus,—what it is,\nNone but his loved ones know."
+    },
+    {
+      "number": 5,
+      "text": "Jesus, our only joy be thou,\nAs thou our prize wilt be;\nJesus, be thou our glory now,\nAnd through eternity."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus Christ", "devotion", "sweetness of Jesus", "hope", "love of Jesus"],
+    "scripture_references": [],
+    "tune_source": "John B. Dykes",
+    "original_language": "en"
+  }
+}

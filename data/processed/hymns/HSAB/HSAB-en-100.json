@@ -1,0 +1,37 @@
+{
+  "id": "HSAB-en-100",
+  "number": 100,
+  "title": "Harp Untuned",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "MY harp untuned and laid aside,\n(To cheerful hours the harp belongs,)\nMy cruel foes insulting cried:\n\"Come, sing us one of Zion's songs.\""
+    },
+    {
+      "number": 2,
+      "text": "Alas! When sinners, blindly bold,\nAt Zion scoff, and Zion's King;\nWhen zeal declines and love grows cold,\nIs it a day for one to sing?"
+    },
+    {
+      "number": 3,
+      "text": "Time was, whene'er the saints I met,\nWith joy and praise my bosom glowed;\nBut now, like Eli, sad I sit,\nAnd tremble for the Ark of God."
+    },
+    {
+      "number": 4,
+      "text": "While thus to grief my soul gave way,\nTo see the work of God decline,\nMethought I heard the Saviour say,\nDismiss thy fears, the Ark is mine."
+    },
+    {
+      "number": 5,
+      "text": "Though for a time I hide my face,\nRely upon my love and power;\nStill wrestle at the Throne of Grace,\nAnd wait for a reviving hour."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["harp untuned", "zion's songs", "sinners", "zeal declines", "love grows cold", "ark of god", "saviour", "throne of grace"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

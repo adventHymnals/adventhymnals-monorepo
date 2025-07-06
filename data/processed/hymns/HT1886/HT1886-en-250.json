@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-250",
+  "number": 250,
+  "title": "Hail, happy day! thou day of holy rest",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hail, happy day! thou day of holy rest;\nWhat heavenly peace doth transport fill\nour breast\nWhen Christ, the Lord of grace, in love\ndescends,\nAnd kindly holds communion with his\nfriends!"
+    },
+    {
+      "number": 2,
+      "text": "Let earth and all its vanities be gone,\nMove from my sight, and leave my soul\nalone;\nIn flattering, fading glories I despise,\nAnd to immortal beauties turn my eyes."
+    },
+    {
+      "number": 3,
+      "text": "Fair would I mount, and penetrate the\nskies,\nAnd on my Saviour's glories fix my eyes;"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "holy rest", "Jesus", "communion"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

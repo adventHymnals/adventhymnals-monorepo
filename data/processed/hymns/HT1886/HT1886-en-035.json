@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-035",
+  "number": 35,
+  "title": "God of the morning ray",
+  "author": "Thomas Hastings",
+  "composer": null,
+  "tune": null,
+  "meter": "127, 664, 166",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God of the morning ray,\nGod of the rising day,\nGlorious in power!\nTo thee we live and move,\nAnd thus we daily prove\nThy condescending love\nEach passing hour."
+    },
+    {
+      "number": 2,
+      "text": "God of our feeble race,\nGod of redeeming grace,\nSpirit all-blest!\nOur own eternal Friend,\nThy guardian influence lend,\nFrom every snare defend;\nIn thee we rest."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's power", "morning worship", "divine protection", "grace"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

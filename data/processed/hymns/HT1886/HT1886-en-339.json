@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-339",
+  "number": 339,
+  "title": "Morning breaks upon the tomb",
+  "author": "Charles Wesley",
+  "composer": null,
+  "tune": "Vienna. 7s.",
+  "meter": "7s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Morning breaks upon the tomb, Jesus scatters all its gloom;\nDay of triumph through the skies, See the glorious Saviour rise."
+    },
+    {
+      "number": 2,
+      "text": "Ye who are of death afraid, Triumph in the scattered shade;\nDrive your anxious cares away; See the place where Jesus lay."
+    },
+    {
+      "number": 3,
+      "text": "Christian, dry your flowing tears; Chase your unbelieving fears;\nLook on his deserted grave; Doubt no more his power to save."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Resurrection and Ascension", "morning", "triumph", "fear", "faith"],
+    "scripture_references": [],
+    "tune_source": "Vienna. 7s.",
+    "original_language": "en"
+  }
+}

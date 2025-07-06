@@ -1,0 +1,35 @@
+{
+  "id": "CH1941-en-067",
+  "number": 67,
+  "title": "O Love of God",
+  "author": "Frederick Martin Lehman",
+  "composer": "Claudia Lehman Mays",
+  "tune": "O Love of God",
+  "meter": "10.10.10.10.10.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O love of God, how rich and pure!\nHow measureless and strong!\nIt shall forevermore endure—\nThe saints' and angels' song."
+    },
+    {
+      "number": 2,
+      "text": "When hoary time shall pass away,\nAnd earthly thrones and kingdoms fall,\nWhen men who here refuse to pray,\nOn rocks and hills and mountains call,"
+    },
+    {
+      "number": 3,
+      "text": "Could we with ink the ocean fill,\nAnd were the skies of parchment made,\nWere every stalk on earth a quill,\nAnd every man a scribe by trade;"
+    }
+  ],
+  "chorus": {
+    "text": "O love of God, how rich and pure!\nHow measureless and strong!\nIt shall forevermore endure—\nThe saints' and angels' song."
+  },
+  "metadata": {
+    "year": 1917,
+    "copyright": "Public Domain",
+    "themes": ["God's love", "eternity", "immeasurable love", "praise"],
+    "scripture_references": ["Romans 8:38-39", "Ephesians 3:18-19"],
+    "tune_source": "O Love of God, Claudia Lehman Mays, 1917",
+    "original_language": "en"
+  }
+}

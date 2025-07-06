@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-366",
+  "number": 366,
+  "title": "O Where Are the Reapers?",
+  "author": "A. B. Simpson",
+  "composer": "J. H. Burke",
+  "tune": "REAPERS",
+  "meter": "11.10.11.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O where are the reapers that garner in the sheaves of the good from the fields of sin?\nWith sickles of truth must the work be done, and no one may rest till the 'harvest home.'"
+    },
+    {
+      "number": 2,
+      "text": "The fields all are ripening, and far and wide the world now is waiting the harvest tide;\nBut reapers are few, and the work is great, and much will be lost should the harvest wait."
+    },
+    {
+      "number": 3,
+      "text": "So come with your sickles, ye sons of men, and gather together the golden grain;\nToil on till the Lord of the harvest come, then share ye His joy in the 'harvest home.'"
+    }
+  ],
+  "chorus": {
+    "text": "Where are the reapers? O who will come and share in the glory of the 'harvest home?'\nO who will help us to garner in the sheaves of good from the fields of sin?"
+  },
+  "metadata": {
+    "year": 1890,
+    "copyright": "Public Domain",
+    "themes": ["Harvest", "Evangelism", "Work", "Mission"],
+    "scripture_references": ["Matthew 9:37-38", "John 4:35"],
+    "tune_source": "J. H. Burke, 1890",
+    "original_language": "en"
+  }
+}

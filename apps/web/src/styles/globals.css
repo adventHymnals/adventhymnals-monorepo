@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+  
+  .hymnal-serif {
+    font-family: 'Crimson Text', Georgia, serif;
+  }
+}
+
+@layer components {
+  .hymn-text {
+    @apply hymnal-serif text-hymn-text leading-relaxed;
+  }
+  
+  .hymn-title {
+    @apply hymnal-serif text-hymn-title font-semibold text-gray-900;
+  }
+  
+  .hymn-number {
+    @apply text-hymn-number font-medium text-gray-600;
+  }
+  
+  .verse-container {
+    @apply mb-verse space-y-1;
+  }
+  
+  .verse-number {
+    @apply text-sm font-medium text-gray-500 mb-1;
+  }
+  
+  .verse-text {
+    @apply hymn-text whitespace-pre-line;
+  }
+  
+  .hymnal-card {
+    @apply bg-white rounded-hymnal shadow-hymnal border border-gray-200 hover:shadow-hymnal-lg transition-shadow duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2;
+  }
+  
+  .search-input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all duration-200;
+  }
+  
+  .breadcrumb {
+    @apply flex items-center space-x-2 text-sm text-gray-600;
+  }
+  
+  .breadcrumb-item {
+    @apply hover:text-primary-600 transition-colors duration-200;
+  }
+  
+  .breadcrumb-separator {
+    @apply text-gray-400;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .prose-hymnal {
+    @apply prose prose-lg prose-gray max-w-none;
+  }
+  
+  .prose-hymnal h1 {
+    @apply hymnal-serif text-2xl font-semibold;
+  }
+  
+  .prose-hymnal h2 {
+    @apply hymnal-serif text-xl font-semibold;
+  }
+  
+  .prose-hymnal p {
+    @apply hymn-text;
+  }
+}
+
+/* Print styles for hymns */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-hymn {
+    @apply text-black bg-white;
+    font-size: 14pt;
+    line-height: 1.6;
+  }
+  
+  .print-hymn .hymn-title {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 12pt;
+  }
+  
+  .print-hymn .verse-container {
+    margin-bottom: 16pt;
+    page-break-inside: avoid;
+  }
+  
+  .print-hymn .verse-number {
+    font-weight: bold;
+    margin-bottom: 4pt;
+  }
+}

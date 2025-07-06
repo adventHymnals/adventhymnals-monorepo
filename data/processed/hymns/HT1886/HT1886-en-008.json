@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-008",
+  "number": 8,
+  "title": "JESUS, our Lord, make no delay",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "639, 76, 147",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "JESUS, our Lord, make no delay\nTo bless us with thy face;\nDrive interposing clouds away,\nAnd make our darkness chase."
+    },
+    {
+      "number": 2,
+      "text": "What do we here without thy grace,\nO blessed Lamb of God?\n'T will be a dark and tiresome place\nUnless we feel thy word."
+    },
+    {
+      "number": 3,
+      "text": "Come in with power to every soul,\nO thou immortal Dove;\nMake every wounded spirit whole\nWith thy redeeming love."
+    },
+    {
+      "number": 4,
+      "text": "We long to meet our God to-day,\nAnd feast on his grace divine;\nThat every soul with joy may say,\n'My Lord, my God, I'm thine.'"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus", "grace", "healing", "devotion", "worship"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

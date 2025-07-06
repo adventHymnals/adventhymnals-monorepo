@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-110",
+  "number": 110,
+  "title": "God's Free Mercy Streameth",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God's free mercy streameth\nOver all the world,\nAnd His banner gleameth,\nBy His church unfurled;\nBroad and deep and glorious,\nAs the heaven above,\nShines in might victorious\nHis eternal love."
+    },
+    {
+      "number": 2,
+      "text": "Summer suns are glowing\nOver land and sea,\nHappy light is flowing\nBountiful and free;\nEverything rejoices\nIn the mellow rays;\nAll earth's thousand voices\nSwell the psalm of praise."
+    },
+    {
+      "number": 3,
+      "text": "Lord, upon our blindness\nThy pure radiance pour;\nFor Thy loving-kindness\nMake us love Thee more;\nAnd when clouds are drifting\nDark across the sky,\nThen, the veil uplifting,\nFather, be Thou nigh."
+    },
+    {
+      "number": 4,
+      "text": "We will never doubt Thee,\nTho' Thou veil Thy light;\nLife is dark without Thee,\nDeath with Thee is bright;\nLight of light, shine o'er us\nOn our pilgrim way,\nGo Thou still before us\nTo the endless day."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["mercy", "love", "light", "praise"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

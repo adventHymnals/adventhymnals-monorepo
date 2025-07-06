@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-123",
+  "number": 123,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WELCOME, the Sabbath hour,\nThe holy and the blest!\nWith sweet, subduing power,\nIt calms the soul to rest;\nAnd hope and love spring up anew,\nTo cheer us on, our journey through."
+    },
+    {
+      "number": 2,
+      "text": "Our only care and aim\nThroughout this hallow'd day,\nTo glorify thy name,\nAnd grateful honors pay;\nAdvance the glory of thy cause,\nAnd vindicate thy righteous laws."
+    },
+    {
+      "number": 3,
+      "text": "Descend, Celestial Dove!\nE'en while we wait and sing!\nCome from the throne of love,\nWith healing on thy wing!\nWith ardent zeal each heart inspire,\nThe saints baptize with holy fire."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "welcome", "rest", "hope", "love", "glory", "Spirit", "holy fire"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

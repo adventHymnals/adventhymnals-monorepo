@@ -1,0 +1,32 @@
+{
+  "id": "HSAB-en-042",
+  "number": 42,
+  "title": "The Last Trump",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WHEN the last trumpet sounds,\nShakes the earth all around,\nAnd the dead shall arise\nAnd ascend to the skies,\nThere to meet him who died,\nWith his glorious Bride,\nAnd be seated for ever\nBy Immanuel's side."
+    },
+    {
+      "number": 2,
+      "text": "There the martyrs will stand\nIn the midst of the band,\nWith their bright shining face,\nPraising God for free grace;\nThere the saints will unite,\nWith the old Israelites,\nSinging glory to Jesus\nIn rapturous delight."
+    },
+    {
+      "number": 3,
+      "text": "Then redemption we'll sing\nTo our glorious King,\nThrough the blood of free grace,\nWhile the angels sing praise;\nHow it rolls o'er the plains,\nIn what rapturous strains,\nHallelujah, Hallelujah,\nFor ever he reigns."
+    }
+  ],
+  "chorus": {
+    "text": "Hallelujah to Jesus, again and again,\nWe will praise him for ever, amen and amen;\nTo the Lamb that was slain,\nYet he liveth again,\nHallelujah, hallelujah, amen and amen."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["last trump", "resurrection", "martyrs", "redemption", "praise"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

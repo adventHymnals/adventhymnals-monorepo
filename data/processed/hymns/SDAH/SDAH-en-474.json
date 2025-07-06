@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-474",
+  "number": 474,
+  "title": "Take the Name of Jesus With You",
+  "author": "Lydia Baxter",
+  "composer": "William H. Doane",
+  "tune": "PRECIOUS NAME",
+  "meter": "8.7.8.7 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Take the name of Jesus with you,\nChild of sorrow and of woe;\nIt will joy and comfort give you;\nTake it then, where'er you go."
+    },
+    {
+      "number": 2,
+      "text": "Take the name of Jesus ever,\nAs a shield from every snare;\nIf temptations round you gather,\nBreathe that holy name in prayer."
+    },
+    {
+      "number": 3,
+      "text": "O the precious name of Jesus!\nHow it thrills our souls with joy,\nWhen His loving arms receive us,\nAnd His songs our tongues employ!"
+    },
+    {
+      "number": 4,
+      "text": "At the name of Jesus bowing,\nFalling prostrate at His feet,\nKing of kings in heaven we'll crown Him,\nWhen our journey is complete."
+    }
+  ],
+  "chorus": {
+    "text": "Precious name, O how sweet!\nHope of earth and joy of heaven;\nPrecious name, O how sweet, how sweet!\nHope of earth and joy of heaven."
+  },
+  "metadata": {
+    "year": 1870,
+    "copyright": "Public Domain",
+    "themes": ["name of Jesus", "comfort", "protection", "prayer", "precious name"],
+    "scripture_references": ["Acts 4:12", "Philippians 2:9-11", "Colossians 3:17"],
+    "tune_source": "William H. Doane",
+    "original_language": "en"
+  }
+}

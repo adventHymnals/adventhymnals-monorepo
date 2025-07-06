@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-010",
+  "number": 10,
+  "title": "WHEN returns this solemn day",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "715, 227, 76",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WHEN returns this solemn day,\nMan comes to meet his God.\nWhat flesh, what honors shall we pay?\nHow spread his praise abroad?"
+    },
+    {
+      "number": 2,
+      "text": "From marble domes and gilded spires\nShall clouds of incense rise?\nAnd gems, and gold, and garlands deck\nThe costly sacrifice?"
+    },
+    {
+      "number": 3,
+      "text": "Vain, sinful man! creation's Lord\nThy offerings will not spare;\nBut give thy heart, and thou shalt find\nThy God will hear thy prayer."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "God's presence", "sacrifice", "heart", "prayer"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

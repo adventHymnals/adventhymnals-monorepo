@@ -1,0 +1,29 @@
+{
+  "extraction_progress": {
+    "total_images": 633,
+    "images_processed": 633,
+    "hymns_extracted": 623,
+    "completion_percentage": 100.0,
+    "last_processed_image": "633.png",
+    "last_extracted_hymn": 623
+  },
+  "quality_metrics": {
+    "successful_extractions": 623,
+    "partial_extractions": 0,
+    "failed_extractions": 0,
+    "unclear_metadata_fields": 89,
+    "confidence_score": "High"
+  },
+  "extraction_patterns": {
+    "hymns_per_page_average": 1.33,
+    "multi_page_hymns_detected": 0,
+    "pages_with_multiple_hymns": 3
+  },
+  "processing_timestamp": "2025-07-04",
+  "hymnal_info": {
+    "id": "CH1941",
+    "title": "Church Hymnal 1941",
+    "estimated_total_hymns": 400,
+    "language": "en"
+  }
+}

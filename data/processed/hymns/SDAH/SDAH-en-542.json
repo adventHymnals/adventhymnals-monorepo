@@ -1,0 +1,31 @@
+{
+  "id": "SDAH-en-542",
+  "number": 542,
+  "title": "Jesus, Friend So Kind",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, Friend, so kind and gentle,\nLittle ones we bring to Thee:\nGrant to them Thy dearest blessing,\nLet Thine arms around them be;"
+    },
+    {
+      "number": 2,
+      "text": "Thou who did receive the children\nTo Thyself so tenderly.\nGive to all who teach and guide them\nWisdom and humility."
+    }
+  ],
+  "chorus": {
+    "text": "Now enfold them in Thy goodness,\nFrom all danger keep them free."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["children", "blessing", "protection", "Jesus' love"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

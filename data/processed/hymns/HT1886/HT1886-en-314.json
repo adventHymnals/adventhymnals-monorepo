@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-314",
+  "number": 314,
+  "title": "'Tis midnight; and on Olives' brow",
+  "author": "William A. Tappan",
+  "composer": "William B. Bradbury",
+  "tune": "Olives' Brow",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'Tis midnight; and on Olives' brow\nThe star is dimmed that lately shone:\n'Tis midnight; in the garden, now,\nThe suffering Saviour prays alone."
+    },
+    {
+      "number": 2,
+      "text": "'Tis midnight; and from all removed,\nThe Saviour wrestles lone with fears;\nE'en that disciple whom he loved\nHeeds not his Master's grief and tears."
+    },
+    {
+      "number": 3,
+      "text": "'Tis midnight; and for others' guilt\nThe Man of sorrows weeps in blood;\nYet he who hath in anguish knelt,\nIs not forsaken by his God."
+    },
+    {
+      "number": 4,
+      "text": "'Tis midnight; and from ether plains\nIs borne the song that angels know;\nUnheard by mortals are the strains\nThat sweetly soothe the Saviour's woe."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "Gethsemane", "prayer", "anguish", "suffering"],
+    "scripture_references": [],
+    "tune_source": "Olives' Brow, William B. Bradbury",
+    "original_language": "en"
+  }
+}

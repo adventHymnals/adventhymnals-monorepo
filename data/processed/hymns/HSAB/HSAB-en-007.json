@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-007",
+  "number": 7,
+  "title": "The Bible",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "HOLY Bible! book divine!\nPrecious treasure, thou art mine!\nMine, to tell me whence I came;\nMine, to teach me what I am;"
+    },
+    {
+      "number": 2,
+      "text": "Mine, to chide me when I rove;\nMine, to show a Saviour's love;\nMine, art thou, to guide my feet;\nMine to judge, condemn, acquit."
+    },
+    {
+      "number": 3,
+      "text": "Mine, to comfort in distress,\nIf the Holy Spirit bless;\nMine, to show, by living faith,\nMan can triumph over death;"
+    },
+    {
+      "number": 4,
+      "text": "Mine, to tell of joys to come,\nAnd the rebel sinner's doom;\nO, thou holy book divine!\nPrecious treasure, thou art mine."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["bible", "scripture", "guidance", "comfort", "truth"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

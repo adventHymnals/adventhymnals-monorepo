@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-036",
+  "number": 36,
+  "title": "The Voice That Speaks",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The voice that speaks to earth and heaven,\nThat calls the dead to rise,\nShall to the faithful soul be given\nTo hear beyond the skies."
+    },
+    {
+      "number": 2,
+      "text": "O blessed hope! O glorious morn!\nWhen Jesus shall appear,\nAnd we, from earthly cares withdrawn,\nShall meet our Savior dear."
+    },
+    {
+      "number": 3,
+      "text": "Then shall we see Him as He is,\nAnd like Him we shall be;\nThe long-lost paradise\nRestored eternally."
+    }
+  ],
+  "metadata": {
+    "year": "[needs verification]",
+    "copyright": "Public Domain",
+    "themes": ["resurrection", "second coming", "hope", "eternal life"],
+    "scripture_references": ["1 John 3:2", "1 Thessalonians 4:16-17"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

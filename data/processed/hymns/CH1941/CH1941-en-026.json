@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-026",
+  "number": 26,
+  "title": "Again We Meet",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Again we meet around the board\nThe Lamb for sinners slain,\nAnd grateful memory thus records\nThe love that breaks the chain."
+    },
+    {
+      "number": 2,
+      "text": "The cup that tells of precious blood,\nThe bread His body torn,\nCall every soul to trust the good\nWhich makes our peace with God."
+    },
+    {
+      "number": 3,
+      "text": "O may this simple feast convey\nTo each expectant soul,\nThe virtue that can take away\nSin's burden from the whole!"
+    },
+    {
+      "number": 4,
+      "text": "And while we eat this bread of life\nAnd drink this holy wine,\nMay we enjoy sweet fellowship\nWith Jesus, Friend divine."
+    }
+  ],
+  "metadata": {
+    "year": "[needs verification]",
+    "copyright": "Public Domain",
+    "themes": ["communion", "Lord's Supper", "fellowship", "sacrifice"],
+    "scripture_references": ["1 Corinthians 11:23-26", "Luke 22:19-20"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

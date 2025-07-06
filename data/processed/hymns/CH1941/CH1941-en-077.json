@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-077",
+  "number": 77,
+  "title": "Ye Watchers and Ye Holy Ones",
+  "author": "Athelstan Riley",
+  "composer": "Ralph Vaughan Williams",
+  "tune": "Lasst uns erfreuen",
+  "meter": "8.8.4.4.8.8.8.4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Ye watchers and ye holy ones,\nBright seraphs, cherubim, and thrones,\nRaise the glad strain, Alleluia!\nCry out, dominions, princedoms, powers,\nVirtues, archangels, angels' choirs,\nAlleluia! Alleluia!\nAlleluia! Alleluia!\nAlleluia!"
+    },
+    {
+      "number": 2,
+      "text": "O higher than the cherubim,\nMore glorious than the seraphim,\nLead their praises, Alleluia!\nThou bearer of the eternal Word,\nMost gracious, magnify the Lord,\nAlleluia! Alleluia!\nAlleluia! Alleluia!\nAlleluia!"
+    },
+    {
+      "number": 3,
+      "text": "Respond, ye souls in endless rest,\nYe patriarchs and prophets blessed,\nAlleluia! Alleluia!\nYe holy twelve, ye martyrs strong,\nAll saints triumphant, raise the song\nAlleluia! Alleluia!\nAlleluia! Alleluia!\nAlleluia!"
+    }
+  ],
+  "metadata": {
+    "year": 1906,
+    "copyright": "Public Domain",
+    "themes": ["angels", "saints", "heavenly worship", "alleluia"],
+    "scripture_references": ["Revelation 4:6-8", "Luke 1:46-47"],
+    "tune_source": "Lasst uns erfreuen, Ralph Vaughan Williams, 1906",
+    "original_language": "en"
+  }
+}

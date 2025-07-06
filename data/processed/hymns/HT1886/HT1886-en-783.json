@@ -1,0 +1,25 @@
+{
+  "id": "HT1886-en-783",
+  "number": 783,
+  "title": "Hymn 783 (To be extracted)",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text to be extracted from image]"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": [],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en",
+    "extraction_status": "template_created"
+  }
+}

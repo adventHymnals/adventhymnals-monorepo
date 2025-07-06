@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-223",
+  "number": 223,
+  "title": "Lord of the Sabbath, hear us pray",
+  "author": "Isaac B. Woodbury",
+  "composer": null,
+  "tune": "Burton",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord of the Sabbath, hear us pray\nIn this thy house, on this thy day;\nAccept, as grateful sacrifice,\nThe songs which from thy temple rise."
+    },
+    {
+      "number": 2,
+      "text": "Thine earthly Sabbaths, Lord, we love,\nBut there's a nobler rest above;\nTo that our longing souls aspire,\nWith ardent hope and strong desire."
+    },
+    {
+      "number": 3,
+      "text": "No more fatigue, no more distress,\nNo sin afflicts or cares to place;\nNo tears shall mingle with the songs\nThat warble from immortal tongues."
+    },
+    {
+      "number": 4,
+      "text": "No rude alarms of raging foes,\nNo cares to break the long repose,\nNo midnight shade, no clouded sun,\nBut sacred, high, eternal noon."
+    },
+    {
+      "number": 5,
+      "text": "O long-expected day, begin!\nDawn on these realms of woe and sin;\nFain would I leave this weary road,\nAnd go to keep my Sabbath, Lord."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "prayer", "eternal rest", "heaven"],
+    "scripture_references": [],
+    "tune_source": "Burton, L. M., Isaac B. Woodbury",
+    "original_language": "en"
+  }
+}

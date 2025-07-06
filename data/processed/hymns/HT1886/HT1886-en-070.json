@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-070",
+  "number": 70,
+  "title": "Come, ye that know and fear the Lord",
+  "author": null,
+  "composer": "Guillaume Franc",
+  "tune": "Zorah",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, ye that know and fear the Lord,\nAnd raise your thoughts on high;\nLet every heart and voice accord\nTo sing that \"God is love.\""
+    },
+    {
+      "number": 2,
+      "text": "This precious truth his word declares,\nAnd all his mercies prove;\nJesus, the gift of gifts, appears,\nTo show that \"God is love.\""
+    },
+    {
+      "number": 3,
+      "text": "Behold his patience, bearing long\nWith those who from him rove,\nTill mighty grace their hearts subdues\nTo teach them \"God is love.\""
+    },
+    {
+      "number": 4,
+      "text": "O may we all, while here below,\nThis best of blessings prove,\nTill warmer hearts in brighter worlds\nProclaim that \"God is love.\""
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's love", "worship", "praise", "mercy", "grace"],
+    "scripture_references": [],
+    "tune_source": "Zorah, Guillaume Franc",
+    "original_language": "en"
+  }
+}

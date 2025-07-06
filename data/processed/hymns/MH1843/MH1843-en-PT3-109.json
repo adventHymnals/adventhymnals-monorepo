@@ -1,0 +1,39 @@
+{
+  "id": "MH1843-en-PT3-109",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "109",
+  "title": "Come, Let Us Sing",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Come, let us sing the song of songs The angels first began the strain The homage which to Christ belongs: \"Worthy the Lamb, for He was slain!\""
+    },
+    {
+      "number": "2",
+      "text": "Slain to redeem us by His blood, To cleanse from every stain, And make us kings and priests to God: \"Worthy the Lamb, for He was slain!\""
+    },
+    {
+      "number": "3",
+      "text": "To Him who suffered on the tree, Our souls, at His soul's price, Blessing, and honor, and majesty: \"Worthy the Lamb, for He was slain!\""
+    },
+    {
+      "number": "4",
+      "text": "To Him, enthroned by filial right All power in heaven and earth pro-claim, Honor, and glory, and might: \"Worthy the Lamb, for He was slain!\""
+    },
+    {
+      "number": "5",
+      "text": "Long as we live, and when we die, And while in heaven with Him we reign, This song of songs shall be: \"Worthy the Lamb, for He was slain!\""
+    }
+  ],
+  "refrain": {},
+  "meter": "8.8.8.8",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 252,
+  "themes": ["Song of Songs", "Angels", "Christ", "Worthy", "Lamb", "Slain", "Redeemed", "Blood", "Kings", "Priests"],
+  "key_signature": "F",
+  "time_signature": "3/4"
+}

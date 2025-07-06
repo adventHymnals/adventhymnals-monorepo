@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-329",
+  "number": 329,
+  "title": "O, loving wisdom of our God!",
+  "author": "John H. Newman",
+  "composer": null,
+  "tune": "175, 201, 474",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O, loving wisdom of our God! When all was sin and shame,\nA second Adam to the fight And to the rescue came."
+    },
+    {
+      "number": 2,
+      "text": "O, wisest love! that flesh and blood Which did in Adam fail,\nShould strive afresh against the foe, Should strive and should prevail!"
+    },
+    {
+      "number": 3,
+      "text": "O, generous love!—that he who smote In Man for man the foe,\nThe double agony in Man For man should undergo."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "wisdom", "love", "Adam", "redemption"],
+    "scripture_references": [],
+    "tune_source": "175, 201, 474",
+    "original_language": "en"
+  }
+}

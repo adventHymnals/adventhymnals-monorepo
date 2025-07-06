@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-307",
+  "number": 307,
+  "title": "I Am Coming to the Cross",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I am coming to the cross;\nI am poor, and weak, and blind;\nI am counting all but dross;\nI shall full salvation find."
+    },
+    {
+      "number": 2,
+      "text": "Long my heart has sighed for Thee;\nLong has evil reigned within;\nJesus sweetly speaks to me,\n\"I will cleanse you from all sin.\""
+    },
+    {
+      "number": 3,
+      "text": "Here I give my all to Thee;\nFriends, and time, and earthly store;\nSoul and body Thine to be,\nWholly Thine forevermore."
+    },
+    {
+      "number": 4,
+      "text": "Jesus comes! He fills my soul!\nPerfected in Him I am;\nI am every whit made whole;\nGlory, glory to the Lamb!"
+    }
+  ],
+  "chorus": {
+    "text": "I am trusting, Lord, in Thee,\nO Thou Lamb of Calvary;\nHumbly at Thy cross I bow,\nSave me, Jesus, save me now."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Salvation", "Cross", "Consecration", "Cleansing"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

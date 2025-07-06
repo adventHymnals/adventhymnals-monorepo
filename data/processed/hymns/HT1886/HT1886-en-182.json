@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-182",
+  "number": 182,
+  "title": "There is an ancient, blessed book",
+  "author": "Samuel Stennet",
+  "composer": "",
+  "tune": "",
+  "meter": "675, 448, 147",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is an ancient, blessed book,\nSent down from ages to age;\nAdmiring angels bend to look\nUpon its hallowed page."
+    },
+    {
+      "number": 2,
+      "text": "Preserved by wondrous care and skill,\nFor our instruction given;\nIt speaks of God, and shows his will,\nAnd points the way to heaven."
+    },
+    {
+      "number": 3,
+      "text": "O let us seek for heavenly grace\nTo hear and read aright;\nTill we behold the Saviour's face,\nAnd faith gives place to sight."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Scriptures", "angels", "divine preservation", "God's will", "faith and sight"],
+    "scripture_references": [],
+    "tune_source": "675, 448, 147",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "SAHB-en-001",
+  "number": 1,
+  "title": "I Have a Hope That Cheers My Heart",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I have a hope that cheers my heart,\nA hope divinely given,\nThat Jesus soon will reappear,\nAnd take his saints to heaven."
+    },
+    {
+      "number": 2,
+      "text": "I have a hope that Jesus lives,\nAnd that he'll come again,\nTo reign on earth a thousand years,\nWith all his holy train."
+    },
+    {
+      "number": 3,
+      "text": "I have a hope that I shall stand\nAmong that blessed throng,\nAnd with the ransom'd multitude,\nSing the triumphant song."
+    },
+    {
+      "number": 4,
+      "text": "I have a hope that I shall see\nThe New Jerusalem,\nAnd walk its streets of purest gold,\nWith Christ, the spotless Lamb."
+    },
+    {
+      "number": 5,
+      "text": "I have a hope that I shall dwell\nWhere tears shall never flow,\nWhere pain and sorrow, death and sin,\nThe heart shall never know."
+    },
+    {
+      "number": 6,
+      "text": "Then let this hope within me burn,\nAnd shed its cheering ray,\nTo guide my steps to that blest land,\nOf everlasting day."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["second advent", "hope", "Jesus' return", "heaven"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

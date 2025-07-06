@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-184",
+  "number": 184,
+  "title": "Light of the world, shine on our souls",
+  "author": "Anon",
+  "composer": "",
+  "tune": "",
+  "meter": "175, 395, 432",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Light of the world, shine on our souls;\nThy grace we ask to learn;\nAnd while we meet to learn thy truth,\nBe thou our hearts' concern."
+    },
+    {
+      "number": 2,
+      "text": "Its holiness discern;\nIts joyful news of saving grace\nBy blest experience learn."
+    },
+    {
+      "number": 3,
+      "text": "Its faithfulness, sweetness, power, and depth,\nIts holiness discern;\nIts joyful news of saving grace\nBy blest experience learn."
+    },
+    {
+      "number": 4,
+      "text": "Thus may thy word be dearer still,\nAnd richer more each day;\nAnd sanctify more each day;\nThyself in its display."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["light of world", "spiritual learning", "God's grace", "sanctification", "divine truth"],
+    "scripture_references": [],
+    "tune_source": "175, 395, 432",
+    "original_language": "en"
+  }
+}

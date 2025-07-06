@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-205",
+  "number": 205,
+  "title": "Blest are the undefiled in heart",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Blest are the undefiled in heart,\nWhose ways are right and clean;\nWho never from thy law depart,\nBut fly from every sin."
+    },
+    {
+      "number": 2,
+      "text": "Blest are the men who keep thy word,\nAnd practice thy commands;\nWith their whole heart they seek thee,Lord,\nAnd serve thee with their hands."
+    },
+    {
+      "number": 3,
+      "text": "Great is their peace who love thy law;\nHow firm their souls abide!\nNor can a bold temptation draw\nTheir steadfast feet aside."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["law of God", "righteousness", "obedience", "peace", "steadfastness"],
+    "scripture_references": ["Psalm 119:1"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

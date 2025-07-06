@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-437",
+  "number": 437,
+  "title": "I'm Going Home",
+  "author": "William Hunter",
+  "composer": "Traditional",
+  "tune": "I'M GOING HOME",
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My heav'nly home is bright and fair,\nNor pain nor death can enter there;\nIts glitt'ring tow'rs the sun outshine,\nThat heav'nly mansion shall be mine."
+    },
+    {
+      "number": 2,
+      "text": "My Father's house is built on high,\nFar, far above the starry sky;\nWhen from this earthly prison free,\nThat heav'nly mansion mine shall be."
+    },
+    {
+      "number": 3,
+      "text": "Let others seek a home below,\nWhich flames devour, or waves o'erflow;\nBe mine a happier lot to own\nA heav'nly mansion near the throne."
+    }
+  ],
+  "chorus": {
+    "text": "I'm going home, I'm going home,\nI'm going home to die no more;\nTo die no more, to die no more,\nI'm going home to die no more."
+  },
+  "metadata": {
+    "year": 1858,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "home", "eternal life", "no death", "Father's house"],
+    "scripture_references": ["John 14:2", "2 Corinthians 5:1", "Revelation 21:4"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

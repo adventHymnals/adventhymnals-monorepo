@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-029",
+  "number": 29,
+  "title": "HOLY and reverend is the name",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "227, 648, 396",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "HOLY and reverend is the name\nOf our eternal King;\nThrice holy Lord! the angels cry;\nThrice holy! let us sing."
+    },
+    {
+      "number": 2,
+      "text": "The deepest reverence of the mind,\nPay, O my soul! to God;\nLift with thy hands a holy heart\nTo his sublime abode."
+    },
+    {
+      "number": 3,
+      "text": "With sacred awe pronounce his name\nWhom words nor thoughts can reach;\nA broken heart shall please him more\nThan noblest forms of speech."
+    },
+    {
+      "number": 4,
+      "text": "Thou holy God, preserve our souls\nFrom all pollution free;\nThe pure in heart are thy delight,\nAnd they thy face shall see."
+    },
+    {
+      "number": 5,
+      "text": "Till then thy service shall be ours,\nThy praise our constant theme;\nWe'll worship thee with all our powers,\nWhose mercy doth redeem."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["holiness", "reverence", "worship", "God's name", "purity"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "MH1843-en-PT3-077",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "077",
+  "title": "Come, tune, ye saints, your noblest strains",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Come, tune, ye saints, your noblest strains, Your dying, rising Lord to sing; And echo, to the heavenly plains, The triumphs of your Savior King."
+    },
+    {
+      "number": "2",
+      "text": "In songs of grateful rapture tell How he subdued your potent foes, Subdued the powers of death and hell, And, dying, finished all your woes."
+    },
+    {
+      "number": "3",
+      "text": "Then to his glorious throne on high Returned, while hymning angels round, Through the bright arches of the sky, The Lord, the conquering Lord, resound."
+    },
+    {
+      "number": "4",
+      "text": "Almighty love! victorious power! Not angel tongues can e'er display The wonders of that dreadful hour— The joys of that illustrious day."
+    },
+    {
+      "number": "5",
+      "text": "Dear Savior, let thy wondrous grace Fill every heart, and every tongue; Till the full glories of thy face Inspire a sweeter, nobler song."
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "L.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 216,
+  "themes": ["Saints", "Lord", "Savior", "King", "Triumphs", "Death", "Angels"],
+  "key_signature": "",
+  "time_signature": ""
+}

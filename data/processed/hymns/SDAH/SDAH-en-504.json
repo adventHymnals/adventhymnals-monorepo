@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-504",
+  "number": 504,
+  "title": "Lord Jesus, Think on Me",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord Jesus, think on me, And purge away my sin;\nFrom earthborn passions set me free, And make me pure within."
+    },
+    {
+      "number": 2,
+      "text": "Lord Jesus, think on me, With care and woe oppressed;\nLet me Thy loving servant be, And taste Thy promised rest."
+    },
+    {
+      "number": 3,
+      "text": "Lord Jesus, think on me, Nor let me go astray;\nThrough darkness and perplexity Point Thou the heavenly way."
+    },
+    {
+      "number": 4,
+      "text": "Lord Jesus, think on me, That I may sing above\nTo Father, Spirit, and to Thee, The strains of praise and love."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus", "prayer", "purification", "guidance"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

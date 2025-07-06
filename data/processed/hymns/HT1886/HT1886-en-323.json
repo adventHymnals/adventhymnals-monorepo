@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-323",
+  "number": 323,
+  "title": "Behold the Saviour of mankind",
+  "author": "Samuel Wesley",
+  "composer": null,
+  "tune": "896, 179, 181",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Behold the Saviour of mankind Nailed to the shameful tree!\nHow vast the love that him inclined To die for you and me!"
+    },
+    {
+      "number": 2,
+      "text": "Hark! how he groans, while nature shakes, And earth's strong pillars bend;\nThe temple's vail in sunder breaks, The solid marbles rend."
+    },
+    {
+      "number": 3,
+      "text": "'Tis done! the precious ransom's paid! 'Receive my soul!' he cries;\nSee where he bows his sacred head; He bows his head, and dies."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "crucifixion", "sacrifice", "love", "salvation"],
+    "scripture_references": [],
+    "tune_source": "896, 179, 181",
+    "original_language": "en"
+  }
+}

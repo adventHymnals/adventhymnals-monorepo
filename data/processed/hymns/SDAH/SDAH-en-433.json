@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-433",
+  "number": 433,
+  "title": "Ten Thousand Times Ten Thousand",
+  "author": "Henry Alford",
+  "composer": "John B. Dykes",
+  "tune": "ALFORD",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Ten thousand times ten thousand,\nIn sparkling raiment bright,\nThe armies of the ransomed saints\nThrong up the steeps of light."
+    },
+    {
+      "number": 2,
+      "text": "What rush of hallelujahs\nFills all the earth and sky!\nWhat ringing of a thousand harps\nBespeaks the triumph high!"
+    },
+    {
+      "number": 3,
+      "text": "O then what raptured greetings\nOn Canaan's happy shore;\nWhat knitting of the severed friendships\nWhere partings are no more!"
+    },
+    {
+      "number": 4,
+      "text": "Bring near Thy great salvation,\nThou Lamb for sinners slain;\nFill up the roll of Thine elect,\nThen take Thy power and reign!"
+    }
+  ],
+  "chorus": {
+    "text": "'Tis finished, all is finished,\nTheir fight with death and sin;\nFling open wide the golden gates,\nAnd let the victors in."
+  },
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "multitude", "victory", "triumph", "reunion"],
+    "scripture_references": ["Revelation 7:9", "Revelation 19:1", "Revelation 5:11"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

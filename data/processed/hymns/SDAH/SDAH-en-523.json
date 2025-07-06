@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-523",
+  "number": 523,
+  "title": "My Faith Has Found a Resting Place",
+  "author": "Lidie H. Edmunds",
+  "composer": "Andre E. M. Grétry",
+  "tune": "Landas",
+  "meter": "8.8.8.8. with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My faith has found a resting place,\nNot in a man-made creed;\nI trust the ever-living One,\nThat He for me will plead."
+    },
+    {
+      "number": 2,
+      "text": "Enough for me that Jesus saves,\nThis ends my fear and doubt;\nA sinful soul I come to Him,\nHe will not cast me out."
+    },
+    {
+      "number": 3,
+      "text": "My soul is resting on the Word,\nThe living Word of God:\nSalvation through His precious blood,\nFor me His life He gave."
+    },
+    {
+      "number": 4,
+      "text": "The great Physician heals the sick,\nThe lost He came to save;\nFor me His precious blood He shed,\nFor me His life He gave."
+    }
+  ],
+  "chorus": {
+    "text": "I need no other evidence,\nI need no other plea;\nIt is enough that Jesus died\nAnd rose again for me."
+  },
+  "metadata": {
+    "year": 1891,
+    "copyright": "Public Domain",
+    "themes": ["faith", "rest", "salvation", "assurance", "trust"],
+    "scripture_references": ["Hebrews 4:9-10", "John 6:37"],
+    "tune_source": "Andre E. M. Grétry",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-015",
+  "number": 15,
+  "title": "Hendon",
+  "author": null,
+  "composer": "C. H. A. Malan",
+  "tune": "Hendon",
+  "meter": "7.7.7.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, we come before thee now,\nAt thy feet we humbly bow;\nO do not our suit disdain!\nShall we seek thee, Lord, in vain?\nShall we seek thee, Lord, in vain?"
+    },
+    {
+      "number": 2,
+      "text": "Lord, on thee our souls depend;\nIn compassion now descend,\nFill our hearts with thy rich grace,\nTune our lips to sing thy praise."
+    },
+    {
+      "number": 3,
+      "text": "Send some message from thy word\nThat may joy and peace afford;\nLet thy Spirit now impart\nFull salvation to each heart."
+    },
+    {
+      "number": 4,
+      "text": "Comfort those who weep and mourn,\nLet the time of joy return;\nThose that are cast down lift up,\nMake them strong in faith and hope."
+    },
+    {
+      "number": 5,
+      "text": "Grant that all may seek, and find\nThee a God supremely kind;\nHeal the sick, the captive free;\nLet us all rejoice in thee."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "prayer", "seeking God"],
+    "scripture_references": [],
+    "tune_source": "Hendon, C. H. A. Malan",
+    "original_language": "en"
+  }
+}

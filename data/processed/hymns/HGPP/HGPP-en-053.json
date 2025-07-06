@@ -1,0 +1,25 @@
+{
+  "id": "HGPP-en-053",
+  "number": 53,
+  "title": "Doxology",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise God from Whom all blessings flow;\nPraise Him all creatures here below;\nPraise Him, above, ye heavenly host;\nPraise Father, Son and Holy Ghost.\nAMEN!"
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["doxology", "praise", "trinity", "blessings", "worship"],
+    "scripture_references": ["Ps 103:1-2", "Rev 5:13", "Eph 1:3"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

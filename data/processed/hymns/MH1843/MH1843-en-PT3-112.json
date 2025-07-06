@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-112",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "112",
+  "title": "I Cannot Tell Why",
+  "verses": [
+    {
+      "number": "1",
+      "text": "I cannot tell why He whom angels worship, Should set His love upon the souls of men, Or why as Shepherd He should seek the wanderers, To bring them back, they know not how nor when."
+    },
+    {
+      "number": "2",
+      "text": "I cannot tell how silently He suffered, As with His peace He graced this place of tears, Or how He will claim His earthly heritage, How satisfied His followers through the years."
+    },
+    {
+      "number": "3",
+      "text": "I cannot tell how He will win the nations, How He will claim His earthly heritage, How satisfy the needs and aspirations Of east and west, of sinner and of sage."
+    },
+    {
+      "number": "4",
+      "text": "I cannot tell how all the lands shall worship, When at His bidding every storm is stilled, Or who can say how great the jubilation When all our hearts with love for Him are filled."
+    }
+  ],
+  "refrain": {
+    "text": "But this I know, that He was born of Mary When Bethlehem's manger was His only home, And that He lived at Nazareth and labored, And so the Savior, Savior of the world is come."
+  },
+  "meter": "11.10.11.10. with Refrain",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 255,
+  "themes": ["Cannot Tell", "Angels", "Worship", "Love", "Shepherd", "Wanderers", "Silently", "Suffered", "Peace", "Heritage", "Nations", "Bethlehem", "Nazareth", "Savior"],
+  "key_signature": "F",
+  "time_signature": "4/4"
+}

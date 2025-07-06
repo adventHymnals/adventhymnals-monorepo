@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-016",
+  "number": 16,
+  "title": "Christian Soldier",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "A soldier, Lord, thou hast me made\nThou art my Captain, Priest and Head;\nAnd under thee I sure will fight\nThe fight of faith with all my might.\nThe cross all stain'd with hallow'd blood,\nThe ensign of our conquering Lord,\nThe Christian soldier's standard is,\nAnd I will fight for King Jesus."
+    },
+    {
+      "number": 2,
+      "text": "Then, 0 my Lord, keep me, I pray',\nThat I may run the narrow way,\nAnd front my duty ne'er depart.\nBut live to Christ with all my heart;\nHelp me to walk in humbleness\nMarch in the way of holiness.\nOh, make me pure and spotless too,\nAnd fit to stand the grand review."
+    },
+    {
+      "number": 3,
+      "text": "That when our general shall come,\nWith sound of trumpet, not of drum,\n'Tis then our well dress'd ranks shall stand\nIn full review at God's right hand.\nAnd when our foes shall get the route,\nAnti Jesus wheels them left about,\nThen we'll march up the golden street,\nAnd ground our arms at Jesus' feet."
+    },
+    {
+      "number": 4,
+      "text": "The war is o'er, and we are free\nTo join the blood—wash'd company\nOur wages shall be harps of old,\nAnd songs of praise that can't be told.\nThere we shall drink rich drafts of wine\nThe band of music we shall join,\nAnd hallelujah's highest key\nShall be our theme eternally."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["spiritual warfare", "christian soldier", "cross", "holiness", "eternal victory"],
+    "scripture_references": ["Eph 6:10-17", "2 Tim 4:7", "1 Tim 6:12"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-222",
+  "number": 222,
+  "title": "The day of rest once more comes round",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The day of rest once more comes round,\nA day to all believers dear;\nThe silver trumpets seem to sound,\nThat call the tribes of Israel near."
+    },
+    {
+      "number": 2,
+      "text": "Oh, hasten, then, the day when those\nWho know thee here shall see thy face;\nWhen suffering shall forever close,\nAnd they shall reach their destined place."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "believers", "Israel", "eternal rest"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

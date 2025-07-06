@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-052",
+  "number": 52,
+  "title": "Lord of my life, thy quickening ray",
+  "author": null,
+  "composer": "Charles Wesley",
+  "tune": "80, 700, 777",
+  "meter": "80, 700, 777",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord of my life, thy quickening ray\nSheds on my path the glow of day;\nStar of my hope, thy softened light\nCheers the long watches of the night."
+    },
+    {
+      "number": 2,
+      "text": "Sun of my life, thy quickening ray\nSheds on my path the glow of day;\nStar of my hope, thy softened light\nCheers the long watches of the night."
+    },
+    {
+      "number": 3,
+      "text": "Our midnight is thy gracious dawn,\nOur rainbow arch thy mercy's sign;\nAll, save the clouds of sin, are thine!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's light", "divine guidance", "hope", "comfort", "God's mercy", "spiritual illumination"],
+    "scripture_references": [],
+    "tune_source": "Charles Wesley",
+    "original_language": "en"
+  }
+}

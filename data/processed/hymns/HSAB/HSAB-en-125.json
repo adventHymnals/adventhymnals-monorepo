@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-125",
+  "number": 125,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WELCOME, welcome, day of rest,\nTo the world in kindness given;\nWelcome to this humble breast,\nAs the beaming light from heaven."
+    },
+    {
+      "number": 2,
+      "text": "Day of calm and sweet repose,\nGently now thy moments run;\nBalm to soothe our cares and woes,\nTill our labor here is done."
+    },
+    {
+      "number": 3,
+      "text": "Holy day, that most we prize,\nDay of solemn praise and prayer;\nDay to make the simple wise,\nO, how great thy blessings are!"
+    },
+    {
+      "number": 4,
+      "text": "Welcome, welcome, day of rest,\nWith thy influence all divine;\nMay thy hallowed hours be blest,\nTo this feeble heart of mine."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "welcome", "rest", "heaven", "calm", "repose", "praise", "prayer", "blessings"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

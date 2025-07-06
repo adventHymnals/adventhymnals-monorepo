@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-439",
+  "number": 439,
+  "title": "How Far From Home?",
+  "author": "Mary A. Baker",
+  "composer": "Traditional",
+  "tune": "HOW FAR FROM HOME",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How far from home? I asked, as on I bent my steps the watchman spake:\n\"The long, dark night is almost gone, The morning soon will break.\""
+    },
+    {
+      "number": 2,
+      "text": "I asked the warrior on the field; This was his soul-inspiring song:\n\"With courage, bold, the sword I'll wield, The battle is not long.\""
+    },
+    {
+      "number": 3,
+      "text": "I asked again; earth, sea, and sun seemed, with one voice, to make me cheer:\n\"Which oft a healing balm has brought, And dried the mourner's tear.\""
+    },
+    {
+      "number": 4,
+      "text": "Not far from home! O blessed thought! The traveler's lonely break.\nThen weep no more, but speed thy flight, With Hope's bright star thy guiding ray.\nTill thou shalt reach the realms of light, In everlasting day.\""
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1851,
+    "copyright": "Public Domain",
+    "themes": ["pilgrimage", "hope", "home", "journey", "encouragement"],
+    "scripture_references": ["Hebrews 11:13-16", "2 Corinthians 5:6", "Philippians 3:20"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

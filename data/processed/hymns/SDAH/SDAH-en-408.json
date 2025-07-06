@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-408",
+  "number": 408,
+  "title": "Lord, Enthroned in Heavenly Splendor",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "Common",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, enthroned in heavenly splendor,\nFirst begotten from the dead,\nYou alone, our strong defender,\nLifting up Your people's head."
+    },
+    {
+      "number": 2,
+      "text": "Though the lowliest form now veil You\nAs of old in Bethlehem,\nHere as there Your angels hail You,\nBranch and flower of Jesse's stem."
+    },
+    {
+      "number": 3,
+      "text": "Paschal Lamb, Your offering finished,\nOnce for all when You were slain,\nIn its fullness undiminished\nShall forever more remain."
+    },
+    {
+      "number": 4,
+      "text": "Life-imparting heavenly manna,\nStricken rock with streaming side,\nHeaven and earth with loud hosanna\nWorship You, the Crucified."
+    }
+  ],
+  "chorus": {
+    "text": "Alleluia, Alleluia, Alleluia,\nJesus, true and living Bread!\nWe in worship, cleansing souls from\nRisen, ascended, glorified!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["communion", "worship", "resurrection", "praise"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

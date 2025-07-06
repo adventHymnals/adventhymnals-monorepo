@@ -1,0 +1,80 @@
+{
+  "structural_analysis": {
+    "hymnal_id": "MH1843",
+    "hymnal_title": "Millennial Harp",
+    "complete_title": "Millennial Harp: Designed for Meetings on the Second Coming of Christ",
+    "subtitle": "Improved Edition",
+    "structure": "Three Parts in One Volume - Part I",
+    "total_pages": 291,
+    "confirmed_hymn_count": 123
+  },
+  "content_organization": {
+    "part_1": {
+      "hymns": "1-60 (approximately)",
+      "themes": ["Second Coming", "Advent Hope", "Pilgrimage", "Heaven"],
+      "description": "Primary hymn collection with musical notation"
+    },
+    "part_2": {
+      "hymns": "61-100 (approximately)", 
+      "themes": ["Worship", "New Jerusalem", "Judgment", "Resurrection"],
+      "description": "Extended collection with thematic sections"
+    },
+    "part_3": {
+      "hymns": "101-123+",
+      "themes": ["Miscellaneous", "Fellowship", "Spiritual Warfare"],
+      "description": "Additional hymns and supplementary content"
+    },
+    "miscellaneous_section": {
+      "hymns": "118-123",
+      "content": "Christian fellowship, pastoral care, watchmen themes",
+      "format": "Text-only hymns with meter markings"
+    }
+  },
+  "thematic_sections_identified": [
+    "Prayer of the Church",
+    "Heavenly Rest",
+    "Eden of Love", 
+    "Joy in Hope",
+    "Gospel Trumpet",
+    "Luther's Hymn",
+    "Invitation",
+    "The Alarm",
+    "Advent",
+    "The Day of Judgment",
+    "The New Jerusalem",
+    "Worship",
+    "Resurrection",
+    "Kingdom of God",
+    "The Great Battle",
+    "The Jubilee",
+    "Miscellaneous"
+  ],
+  "musical_characteristics": {
+    "notation_style": "Treble and bass clef",
+    "meter_markings": ["C.M.", "P.M.", "L.M.", "S.M.", "10s & 11s"],
+    "tempo_markings": ["Andante", "Lively", "D.C."],
+    "format_mix": "Musical notation with text for earlier hymns, text-only for later sections"
+  },
+  "theological_themes": {
+    "primary_focus": "Second Coming of Christ",
+    "millerite_distinctives": ["Midnight Cry", "1843-1844 expectation", "Advent preparation"],
+    "biblical_foundations": ["Parable of Ten Virgins", "New Jerusalem", "Resurrection", "Judgment Day"],
+    "practical_themes": ["Christian fellowship", "Spiritual warfare", "Divine guidance", "Heavenly hope"]
+  },
+  "historical_context": {
+    "movement": "Millerite/Second Advent movement",
+    "year": 1843,
+    "compiler": "Joshua V. Himes",
+    "publication_place": "Boston, Massachusetts",
+    "address": "14 Devonshire Street",
+    "significance": "Premier hymnal of the Millerite movement",
+    "rarity": "Extremely rare historical document"
+  },
+  "processing_status": {
+    "hymns_extracted": 21,
+    "representative_coverage": "17.1% of total content",
+    "sections_sampled": ["Part I", "Part II", "Part III", "Miscellaneous"],
+    "quality": "High fidelity with complete metadata",
+    "validation": "Schema compliant JSON format"
+  }
+}

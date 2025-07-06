@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-143",
+  "number": 143,
+  "title": "Silent Night, Holy Night",
+  "author": "Joseph Mohr",
+  "composer": "Franz Gruber",
+  "tune": "Stille Nacht",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Silent night, holy night,\nAll is calm, all is bright;\nRound yon virgin mother and child!\nHoly Infant, so tender and mild,\nSleep in heavenly peace,\nSleep in heavenly peace."
+    },
+    {
+      "number": 2,
+      "text": "Silent night, holy night,\nDarkness flies, all is light;\nShepherds hear the angels sing,\n\"Alleluia! hail the King!\"\nChrist the Savior is born,\nChrist the Savior is born."
+    },
+    {
+      "number": 3,
+      "text": "Silent night, holy night,\nSon of God, love's pure light;\nRadiant beams from Thy holy face,\nWith the dawn of redeeming grace,\nJesus, Lord, at Thy birth,\nJesus, Lord, at Thy birth."
+    },
+    {
+      "number": 4,
+      "text": "Silent night, holy night,\nWondrous star, lend thy light;\nWith the angels let us sing,\nAlleluia to our King;\nChrist the Savior is born,\nChrist the Savior is born."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1818,
+    "copyright": null,
+    "themes": ["christmas", "peace", "nativity", "holy_night", "christ_child"],
+    "scripture_references": ["Luke 2:1-20"],
+    "tune_source": "Austrian",
+    "original_language": "de"
+  }
+}

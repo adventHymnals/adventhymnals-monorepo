@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-381",
+  "number": 381,
+  "title": "Holy Sabbath Day of Rest",
+  "author": "W. G. Blaikie",
+  "composer": "George C. Stebbins",
+  "tune": "SABBATH REST",
+  "meter": "8.7.8.7. with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy Sabbath day of rest,\nBy our Master richly blest,\nGod created and divine,\nSet aside for holy time."
+    },
+    {
+      "number": 2,
+      "text": "Seek not pleasures of this earth,\nWith its folly, noise, and mirth,\nThere are better things in store,\nO cover on the other shore."
+    },
+    {
+      "number": 3,
+      "text": "As the Sabbath draweth on\nFriday eve at set of sun,\nChristian household then should meet,\nSing and pray at Jesus' feet."
+    },
+    {
+      "number": 4,
+      "text": "Asking Him for saving grace,\nAlso victory in the race,\nAnd to help us by His pow'r,\nTo keep holy every hour."
+    }
+  ],
+  "refrain": {
+    "text": "Yes, the holy Sabbath rest,\nBy our God divinely blest,\nIt to us a sign shall be\nThroughout all eternity."
+  },
+  "metadata": {
+    "year": 1887,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "Rest", "Holiness", "Sacred Time"],
+    "scripture_references": ["Exodus 20:8-11", "Ezekiel 20:12"],
+    "tune_source": "George C. Stebbins, 1887",
+    "original_language": "en"
+  }
+}

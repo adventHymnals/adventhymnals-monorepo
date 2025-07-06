@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-050",
+  "number": 50,
+  "title": "Eternal Power, whose high abode",
+  "author": null,
+  "composer": "Isaac Watts",
+  "tune": "786, 64, 67",
+  "meter": "786, 64, 67",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Eternal Power, whose high abode\nBecomes the grandeur of a God,\nInfinite lengths beyond the bounds\nWhere stars revolve their little rounds!"
+    },
+    {
+      "number": 2,
+      "text": "Earth, from afar, hath heard thy fame,\nAnd worms have learned to lisp thy name;\nBut O! the glories of thy mind\nLeave all our soaring thoughts behind."
+    },
+    {
+      "number": 3,
+      "text": "God is in heaven, and men below;\nBe short our tunes, our words be few;\nA solemn reverence checks our songs,\nAnd praise sits silent on our tongues."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's power", "divine majesty", "God's glory", "reverence", "worship", "humility"],
+    "scripture_references": [],
+    "tune_source": "Isaac Watts",
+    "original_language": "en"
+  }
+}

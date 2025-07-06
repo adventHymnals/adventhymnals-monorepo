@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-034",
+  "number": 34,
+  "title": "Wake the Song",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Wake the song of joy and gladness; Hither bring your noblest lays;\nBanish every thought of sadness, Pouring forth your highest praise.\nSing to Him whose care has brought us Once again with friends to meet,\nAnd whose loving voice has taught us Of the way to Jesus' feet."
+    },
+    {
+      "number": 2,
+      "text": "Joyfully with songs and banners, We will greet the festal day;\nShout aloud our glad hosannas, And our grateful homage pay.\nWe will chant our Savior's glory While our thoughts we raise above,\nTelling still \"the old, old story,\" Precious Spirit, Sweetly draw us near to God."
+    },
+    {
+      "number": 3,
+      "text": "Thanks to Thee, O holy Father, For the mercies of the year;\nMay each heart, as here we gather, Sweet theme redeeming love!"
+    }
+  ],
+  "chorus": {
+    "text": "Wake the song, wake the song,\nthe song of joy and gladness,\nWake the song, wake the song,\nThe song of Jubilee."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["joy", "praise", "worship", "gathering"],
+    "scripture_references": [],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

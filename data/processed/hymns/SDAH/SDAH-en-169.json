@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-169",
+  "number": 169,
+  "title": "Come, You Faithful",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, you faithful, raise the strain\nOf triumphant gladness;\nGod has brought His people forth\nInto joy from sadness."
+    },
+    {
+      "number": 2,
+      "text": "'Tis the spring of souls today;\nChrist has burst His prison,\nFrom the frost and gloom of death\nLight and life have risen."
+    },
+    {
+      "number": 3,
+      "text": "\"Alleluia!\" now we cry\nTo our King immortal,\nWho, triumphant, burst the bars\nOf the tomb's dark portal."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["resurrection", "triumph", "joy", "Easter"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

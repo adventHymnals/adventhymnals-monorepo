@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-770",
+  "number": 770,
+  "title": "Keeper of my soul",
+  "author": null,
+  "composer": "Morris",
+  "tune": "Wickham",
+  "meter": "7s, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Keeper of my soul,\nLet me to thy bosom fly,\nWhile the billows near me roll,\nWhile the tempest still is high!\nHide me, O my Saviour, hide!\nTill the storm of life is past;\nSafe into the haven guide;\nO receive my (omit) soul at last!"
+    },
+    {
+      "number": 2,
+      "text": "Other refuge have I none,\nHangs my helpless soul on thee;\nLeave, O leave me not alone!\nStill support and comfort me.\nAll my trust on thee is stayed,\nAll my help from thee I bring;\nCover my defenseless head\nWith the shadow of thy wing."
+    },
+    {
+      "number": 3,
+      "text": "Thou, O Christ, art all I want,\nMore than all in thee I find;\nRaise the fallen, cheer the faint,\nHeal the sick, and lead the blind."
+    },
+    {
+      "number": 4,
+      "text": "Just and holy is thy name,\nI am all unrighteousness;\nVile and full of sin I am,\nThou art full of truth and grace.\nPlenteous grace with thee is found—\nGrace to pardon all my sin;\nLet the healing streams abound;\nMake and keep me pure within;\nThou of life the Fountain art,\nFreely let me take of thee;\nSpring thou up within my heart,\nRise to all eternity."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["refuge", "protection", "grace"],
+    "scripture_references": [],
+    "tune_source": "Wickham, Morris",
+    "original_language": "en"
+  }
+}

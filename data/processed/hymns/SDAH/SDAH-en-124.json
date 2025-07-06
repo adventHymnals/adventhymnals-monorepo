@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-124",
+  "number": 124,
+  "title": "Away in a Manger",
+  "author": "Anonymous",
+  "composer": "James R. Murray",
+  "tune": "Mueller",
+  "meter": "11.11.11.11",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Away in a manger, no crib for a bed,\nThe little Lord Jesus laid down His sweet head.\nThe stars in the bright sky looked down where He lay,\nThe little Lord Jesus asleep on the hay."
+    },
+    {
+      "number": 2,
+      "text": "The cattle are lowing, the baby awakes,\nBut little Lord Jesus no crying He makes.\nI love Thee, Lord Jesus! look down from the sky,\nAnd stay by my side till morning is nigh."
+    },
+    {
+      "number": 3,
+      "text": "Be near me, Lord Jesus; I ask Thee to stay\nClose by me forever, and love me, I pray.\nBless all the dear children in Thy tender care,\nAnd fit us for heaven to live with Thee there."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1885,
+    "copyright": "Public Domain",
+    "themes": ["Christmas", "Christ's Birth", "Children", "Prayer"],
+    "scripture_references": ["Luke 2:7"],
+    "tune_source": "James R. Murray, 1887",
+    "original_language": "en"
+  }
+}

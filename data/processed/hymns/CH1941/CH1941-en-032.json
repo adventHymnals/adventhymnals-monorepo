@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-032",
+  "number": 32,
+  "title": "Lord of the Harvest, Hear",
+  "author": "John Samuel Bewley Monsell",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "6.6.6.6.8.8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord of the harvest, hear\nOur supplication;\nWe would approach Thy throne\nWith adoration.\nLord, bless the seed now sown;\nMake it Thine own,\nO Lord of all creation."
+    },
+    {
+      "number": 2,
+      "text": "As rain and sunshine are\nBoth needful for us,\nSo do we need Thy care\nAnd grace before us.\nLet Thy rich blessing fall\nOn great and small,\nTill all the earth adore us."
+    },
+    {
+      "number": 3,
+      "text": "So shall our harvest be\nMore than we scattered,\nAll to Thy glory, we\nPray, be it gathered.\nThen joy shall fill each heart,\nAnd death shall part\nNo friends forever bettered."
+    }
+  ],
+  "metadata": {
+    "year": 1863,
+    "copyright": "Public Domain",
+    "themes": ["harvest", "blessing", "God's provision", "spiritual growth"],
+    "scripture_references": ["Matthew 9:37-38", "Luke 10:2"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-045",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "045",
+  "title": "Jesus Paid It All",
+  "verses": [
+    {
+      "number": "1",
+      "text": "I hear the Savior say, \"Thy strength indeed is small; Child of weakness, watch and pray, Find in Me thine all in all.\""
+    },
+    {
+      "number": "2", 
+      "text": "Lord, now indeed I find Thy power, and Thine alone, Can change the leper's spots, And melt the heart of stone."
+    },
+    {
+      "number": "3",
+      "text": "Since nothing good have I Whereby Thy grace to claim, I'll wash my garments white In the blood of Calvary's Lamb."
+    },
+    {
+      "number": "4",
+      "text": "And when before the throne I stand in Him complete, I'll lay my trophies down, All down at Jesus' feet."
+    }
+  ],
+  "refrain": {
+    "text": "Jesus paid it all, All to Him I owe; Sin had left a crimson stain, He washed it white as snow."
+  },
+  "meter": "",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 184,
+  "themes": ["Jesus", "Salvation", "Redemption", "Grace"],
+  "key_signature": "D",
+  "time_signature": "3/4"
+}

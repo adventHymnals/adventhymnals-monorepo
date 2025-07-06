@@ -1,0 +1,41 @@
+{
+  "id": "HGPP-en-017",
+  "number": 17,
+  "title": "The Chariot",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The chariot! The chariot! Its wheels roll in fire,\nAs the Lord cometh down in the pomp of His ire\nLo, self moving it drives on its pathway of cloud,\nAnd the heavens with the burden of Godhead are bow'd."
+    },
+    {
+      "number": 2,
+      "text": "The glory, the glory around him are pour'd,\nMighty hosts of the angels that wait on the Lord;\nAnd the glorified saints and the martyrs are there,\nAnd there all who the palm—wreaths of victory wear."
+    },
+    {
+      "number": 3,
+      "text": "The trumpet! The trumpet! The dead have all heard\nLo, the depths o1' the stone—cover'd charnel are stirr'd!\nFrom the sea, from the earth, from the south, from the north,\nAll the vast generations of men are cone forth."
+    },
+    {
+      "number": 4,
+      "text": "The judgement! The judgement! The thrones are all set,\nWhere the Lamb and the white vested elders are met;\nThere all flesh is at once in the sight of the Lord,\nAnd the doom of eternity hangs on his word."
+    },
+    {
+      "number": 5,
+      "text": "0 mercy! 0 mercy! Look down from above;\nGreat Creator, on us, thy sad children with love;\nWhen beneath to their darkness the wicked are driven,\nMay the justified saints find a ransom in heaven."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["second coming", "chariot of God", "judgment", "resurrection", "glory"],
+    "scripture_references": ["Ezek 1:4-28", "Rev 4:1-11", "Dan 7:9-14"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

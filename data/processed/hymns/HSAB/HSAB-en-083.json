@@ -1,0 +1,41 @@
+{
+  "id": "HSAB-en-083",
+  "number": 83,
+  "title": "Saints' Sweet Home",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "MID scenes of confusion and creature complaints,\nHow sweet to my soul is communion with saints;\nTo find at the banquet of mercy there's room,\nAnd feel in the presence of Jesus at home.\nHome, home, sweet, sweet home,\nPrepare me, dear Saviour, for glory, my home."
+    },
+    {
+      "number": 2,
+      "text": "Sweet bonds that unite all the children of peace!\nAnd thrice precious Jesus whose love cannot cease.\nThough oft from thy presence in sadness I roam,\nI long to behold thee, in glory at home."
+    },
+    {
+      "number": 3,
+      "text": "I sigh from this body of sin to be free,\nWhich hinders my joy and communion with thee;\nTho' now my temptations like billows may foam,\nAll, all will be peace, when I'm with thee at home."
+    },
+    {
+      "number": 4,
+      "text": "While here in the valley of conflict I stay,\nO, give me submission and strength as my day;\nIn all my afflictions to thee would I come,\nRejoicing in hope of my glorious home."
+    },
+    {
+      "number": 5,
+      "text": "The days of my exile are passing away;\nThe time is approaching when Jesus will say,\n\"Well done, faithful servant, sit down on my throne,\nAnd dwell in my presence, for ever at home.\""
+    },
+    {
+      "number": 6,
+      "text": "Affliction and sorrow and death shall be o'er;\nThe saints shall unite to be parted no more;\n'Their loud hallelujahs fill heaven's high dome,\n'They dwell with the Saviour, for ever at home."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["saints' home", "communion", "banquet of mercy", "valley of conflict", "hallelujahs"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

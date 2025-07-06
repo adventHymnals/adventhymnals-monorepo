@@ -1,0 +1,32 @@
+{
+  "id": "SDAH-en-379",
+  "number": 379,
+  "title": "We Give This Child to You",
+  "author": "Anonymous",
+  "composer": "Traditional",
+  "tune": "CHILD DEDICATION",
+  "meter": "6.6.6.6.8.8.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We give this child to You,\nOur precious gift of love.\nHelp us to lead each step aright\nWith guidance from above."
+    },
+    {
+      "number": 2,
+      "text": "O bless each child of Yours,\nAnd grant when they are grown,\nThey will have learned to choose it for their own."
+    },
+    {
+      "number": 3,
+      "text": "We give ourselves to You,\nAnd may Your Spirit fill\nOur hearts and home, that all we do\nBe subject to Your will."
+    }
+  ],
+  "metadata": {
+    "year": null,
+    "copyright": "Public Domain",
+    "themes": ["Child Dedication", "Parenting", "Family", "Commitment"],
+    "scripture_references": ["1 Samuel 1:27-28", "Proverbs 22:6"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

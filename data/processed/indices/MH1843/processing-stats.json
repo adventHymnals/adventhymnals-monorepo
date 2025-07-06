@@ -1,0 +1,49 @@
+{
+  "extraction_progress": {
+    "total_pages": 291,
+    "pages_processed": 40,
+    "hymns_extracted": 21,
+    "completion_percentage": 17.1,
+    "estimated_total_hymns": 123,
+    "source_format": "PNG Images",
+    "extraction_method": "AI vision processing"
+  },
+  "quality_metrics": {
+    "successful_extractions": 14,
+    "partial_extractions": 0,
+    "failed_extractions": 0,
+    "musical_notation_present": 14,
+    "confidence_score": "High"
+  },
+  "content_analysis": {
+    "hymns_per_page_average": 0.56,
+    "pages_with_music": 14,
+    "text_only_pages": 0,
+    "theological_themes_identified": 8,
+    "historical_period": "1843 Millerite movement"
+  },
+  "processing_timestamp": "2025-07-05",
+  "hymnal_info": {
+    "id": "MH1843",
+    "title": "Millennial Harp",
+    "compiler": "Joshua V. Himes",
+    "year": 1843,
+    "historical_significance": "Premier Millerite movement hymnal"
+  },
+  "sample_hymns_processed": [
+    "Prayer of the Church",
+    "Heavenly Rest",
+    "Eden of Love",
+    "Joy in Hope",
+    "Pilgrim's Farewell",
+    "Gospel Trumpet",
+    "I Would Not Live Alway",
+    "Star of Bethlehem",
+    "The Lord Is Our Shepherd",
+    "Luther's Hymn",
+    "Invitation",
+    "The Alarm",
+    "Advent",
+    "The Day of Judgment"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "HSAB-en-161",
+  "number": 25,
+  "title": "YOUR HARPS, YE MOURNING SAINTS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "YOUR harps, ye mourning saints,\nDown from the willows take;\nLoud to the coming King of kings,\nBid every string awake!"
+    },
+    {
+      "number": 2,
+      "text": "Awake, the day-star bright,\nHath risen, and 'tis dawn!\nThe herald of the King of light\nHath come, awake, 'tis morn!"
+    },
+    {
+      "number": 3,
+      "text": "Swell loud the tuneful song,\nHe cometh! Angels sing!\nHe will not tarry very long,\nTune then each silent string."
+    },
+    {
+      "number": 4,
+      "text": "Bid every heart awake!\n'Tis surely death to sleep,\nOh, from the willows take the harp,\nAnd faithful vigil keep."
+    },
+    {
+      "number": 5,
+      "text": "Sing Jesus' dying love,\nSing that he rose again—\nSing now he comes to burst the tombs,\nAnd with his saints to reign!"
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["awakening", "praise", "Second Coming", "resurrection", "watchfulness", "song"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

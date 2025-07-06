@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-023",
+  "number": 23,
+  "title": "Now the Joyful Bells A-Ringing",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Now the joyful bells a-ringing,\nAll ye mountains praise the Lord!\nLift our hearts like birds a-wing-ing,\nAll ye mountains, praise the Lord!"
+    },
+    {
+      "number": 2,
+      "text": "Dear our home as dear none other;\nWhere the mountains praise the Lord!\nGlad-ly here our care we smother,\nAll ye mountains, praise the Lord!"
+    },
+    {
+      "number": 3,
+      "text": "Cold the year, new white-ness wearing,\nAll ye mountains, praise the Lord!\nPeace, good will to us a-bearing,\nAll ye mountains, praise the Lord!"
+    }
+  ],
+  "chorus": {
+    "text": "Now our festal season bringing\nKinsmen all to bide and board,\nSets our cheery voices singing:\nAll ye mountains, praise the Lord!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "joy", "celebration", "mountains"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

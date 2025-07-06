@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-023",
+  "number": 23,
+  "title": "Lord, With Glowing Heart I'd Praise Thee",
+  "author": "Francis Scott Key",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, with glowing heart I'd praise Thee\nFor the bliss Thy love bestows,\nFor the pardoning grace that saves me,\nAnd the peace that from it flows.\nHelp, O God, my weak endeavor;\nThis dull soul to rapture raise:\nThou must light the flame, or never\nCan my love be warmed to praise."
+    },
+    {
+      "number": 2,
+      "text": "Praise, my soul, the God that sought thee,\nWretched wanderer, far astray;\nFound thee lost, and kindly brought thee\nFrom the paths of death away.\nPraise, with love's devoutest feeling,\nHim who saw thy guilt-born fear,\nAnd, the light of hope revealing,\nBade the blood-stained cross appear."
+    },
+    {
+      "number": 3,
+      "text": "Praise thy Savior God that drew thee\nTo that cross, new life to give,\nHeld a blood-sealed pardon to thee,\nBade thee look to Him and live.\nPraise the grace whose threats alarmed thee,\nRouused thee from thy fatal ease;\nPraise the grace whose promise warmed thee,\nPraise the grace that whispered peace."
+    }
+  ],
+  "metadata": {
+    "year": 1820,
+    "copyright": "Public Domain",
+    "themes": ["praise", "salvation", "grace", "redemption"],
+    "scripture_references": ["Ephesians 2:8-9", "1 Peter 2:9"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

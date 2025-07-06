@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-424",
+  "number": 424,
+  "title": "For Thee, O Dear, Dear Country",
+  "author": "Bernard of Cluny",
+  "composer": "Arthur H. Messiter",
+  "tune": "MARION",
+  "meter": "L.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "For thee, O dear, dear country,\nMine eyes their vigils keep;\nFor very love beholding\nThy holy name, they weep."
+    },
+    {
+      "number": 2,
+      "text": "O one, O only mansion!\nO Paradise of joy!\nWhere tears are ever banished\nAnd smiles have no alloy;"
+    },
+    {
+      "number": 3,
+      "text": "With jasper glow thy bulwarks,\nThy streets with emeralds blaze;\nThe sardius and the topaz\nUnite in thee their rays;"
+    },
+    {
+      "number": 4,
+      "text": "The cross is all thy splendor,\nThe Crucified thy praise;\nHis laud and benediction\nThy ransomed saints shall raise;"
+    },
+    {
+      "number": 5,
+      "text": "O sweet and blessed country,\nThe home of God's elect!\nO sweet and blessed country\nThat eager hearts expect!"
+    }
+  ],
+  "chorus": {
+    "text": "The mention of thy glory\nIs unction to the breast,\nAnd medicine in sickness,\nAnd love, and life, and rest."
+  },
+  "metadata": {
+    "year": 1858,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "homeland", "eternal life", "glory", "paradise"],
+    "scripture_references": ["Revelation 21:18-21", "Hebrews 11:16", "1 Peter 1:4"],
+    "tune_source": "Traditional",
+    "original_language": "la"
+  }
+}

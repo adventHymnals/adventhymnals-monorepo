@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-266",
+  "number": 266,
+  "title": "Once more before we part",
+  "author": "James Nares",
+  "composer": null,
+  "tune": "Nares. S. M.",
+  "meter": "S. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Once more before we part,\nWe'll bless the Saviour's name;\nRecord his mercies, every heart;\nSing, every tongue, the same."
+    },
+    {
+      "number": 2,
+      "text": "Lord, in thy name we came,\nThy blessing still impart;\nWe met in Jesus' sacred name,\nIn Jesus' name we part."
+    },
+    {
+      "number": 3,
+      "text": "May we receive his word,\nAnd feed thereon, and grow;\nGo on to seek and know the Lord,\nAnd practice what we know."
+    },
+    {
+      "number": 4,
+      "text": "Soon shall we hear him say,\n'Ye blessed children, come!'\nSoon will he call us hence away\nTo our eternal home."
+    },
+    {
+      "number": 5,
+      "text": "There shall each raptured tongue\nHis endless praise proclaim,\nAnd sweeter voices tune the song\nOf Moses and the Lamb."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["parting", "blessing", "Saviour's name", "eternal home", "praise"],
+    "scripture_references": [],
+    "tune_source": "Nares. S. M.",
+    "original_language": "en"
+  }
+}

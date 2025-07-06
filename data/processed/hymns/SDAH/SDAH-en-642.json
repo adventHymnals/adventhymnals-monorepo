@@ -1,0 +1,29 @@
+{
+  "id": "SDAH-en-642",
+  "number": 642,
+  "title": "We Praise Thee With Our Minds",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We praise Thee with our minds, O Lord.\nKept sharp to think Thy thought;\nCome, Holy Ghost with grace out-poured,\nTo teach what Christ hath taught.\nIn all our learning may we seek\nThat wisdom from above\nWhich comes to all: the brave, the meek\nWho ask in faith and love."
+    },
+    {
+      "number": 2,
+      "text": "We praise Thee thro' our bodies, Lord.\nKept strong to do Thy will;\nThy Spirit's temples, which afford\nA means to praise Thee still.\nWe give our energies, a sacrifice,\nTo live as unto Thee;\nThou alone hast paid the price\nTo bring salvation free."
+    },
+    {
+      "number": 3,
+      "text": "We praise Thee in our hearts, O King.\nKept pure to know Thy ways;\nAnd raise to Thee a hymn to sing\nEternal praise.\nAlto the adoring hearts will bow\nAs age on ages roll;\nWe praise Thee in our beings now,\nMind, body, heart, and soul."
+    }
+  ],
+  "metadata": {
+    "themes": ["praise", "worship", "mind", "body", "spirit", "holistic praise"],
+    "scripture_references": ["1 Corinthians 6:19-20", "Romans 12:1-2"],
+    "copyright": "Public Domain"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-235",
+  "number": 235,
+  "title": "Christ Is Made the Sure Foundation",
+  "author": "Latin, 7th century",
+  "composer": "Henry Purcell",
+  "tune": "WESTMINSTER ABBEY",
+  "meter": "8.7.8.7.8.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Christ is made the sure foundation,\nChrist our head and cornerstone,\nChosen of the Lord and precious,\nBinding all the Church in one;\nHoly Zion's help forever\nAnd our confidence alone."
+    },
+    {
+      "number": 2,
+      "text": "To this temple, where we call You,\nCome, O Lord of hosts, and stay;\nCome, with all Your loving-kindness,\nHear Your people as they pray;\nAnd Your fullest benediction\nShed within these walls today."
+    },
+    {
+      "number": 3,
+      "text": "Grant, we pray, to all Your faithful\nAll the gifts they ask to gain;\nWhat they gain from You, forever\nWith the blessed to retain;\nAnd hereafter in Your glory\nEvermore with You to reign."
+    },
+    {
+      "number": 4,
+      "text": "Praise and honor to the Father,\nPraise and honor to the Son,\nPraise and honor to the Spirit,\nEver three and ever one:\nOne in might and one in glory\nWhile unending ages run!"
+    }
+  ],
+  "metadata": {
+    "year": 7,
+    "copyright": "Public Domain",
+    "themes": ["Church Foundation", "Christ as Cornerstone", "Church Unity", "Trinity"],
+    "scripture_references": ["1 Peter 2:6-7", "Ephesians 2:20", "1 Corinthians 3:11"],
+    "tune_source": "Henry Purcell, 1695",
+    "original_language": "la"
+  }
+}

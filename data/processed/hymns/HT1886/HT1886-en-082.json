@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-082",
+  "number": 82,
+  "title": "Thy goodness, Lord, our souls confess",
+  "author": "Thomas Gibbons",
+  "composer": null,
+  "tune": "19, 190, 304",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thy goodness, Lord, our souls confess,\nThy goodness we adore;\nA spring whose blessings never fail,\nA sea without a shore."
+    },
+    {
+      "number": 2,
+      "text": "Sun, moon, and stars, thy love attest\nIn every cheerful ray;\nLove draws the curtain of the night,\nAnd love restores the day."
+    },
+    {
+      "number": 3,
+      "text": "Thy bounty every season crowns\nWith all the bliss it yields;\nWith joyful clusters bend the vines,\nWith harvests smile the fields."
+    },
+    {
+      "number": 4,
+      "text": "But chiefly thy compassions, Lord,\nAre in the gospel seen;\nThere like a sun they shine aloft,\nWithout a cloud between."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's goodness", "God's love", "creation", "harvest", "gospel"],
+    "scripture_references": [],
+    "tune_source": "19, 190, 304",
+    "original_language": "en"
+  }
+}

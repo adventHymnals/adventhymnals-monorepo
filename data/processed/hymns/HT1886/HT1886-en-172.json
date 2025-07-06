@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-172",
+  "number": 172,
+  "title": "I was by nature born the Lord",
+  "author": "Anon",
+  "composer": "",
+  "tune": "",
+  "meter": "229, 642, 692",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I was by nature born the Lord\nThe ancient prophets spoke his word;\nHis Spirit did their tongues inspire,\nAnd warmed their hearts with heavenly fire."
+    },
+    {
+      "number": 2,
+      "text": "Great God, mine eyes with pleasure look\nOn the dear volume of thy book;\nThere my Redeemer's face I see,\nAnd read his name who died for me."
+    },
+    {
+      "number": 3,
+      "text": "Let the false raptures of the mind\nBe lost, and vanish in the wind;\nHere I can fix my hope secure;\nThis is thy word, and must endure."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Scriptures", "prophets", "divine inspiration", "God's word", "redemption"],
+    "scripture_references": [],
+    "tune_source": "229, 642, 692",
+    "original_language": "en"
+  }
+}

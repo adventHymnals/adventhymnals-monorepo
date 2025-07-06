@@ -1,0 +1,37 @@
+{
+  "id": "CH1941-en-027",
+  "number": 27,
+  "title": "Eternal Jesus, at Thy Word",
+  "author": "Tobias Clausnitzer",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Eternal Jesus, at Thy word\nWe gather round this table, Lord;\nHere let Thy faithful people see\nThe tokens of Thy love to me."
+    },
+    {
+      "number": 2,
+      "text": "We eat this bread and drink this wine,\nBut oh, we think not on the sign,\nBut on the thing signified,\nThe body of our Savior Christ."
+    },
+    {
+      "number": 3,
+      "text": "Oh, may we ever bear in mind\nThe love of Christ for all mankind,\nWho gave His life upon the tree\nTo set the guilty sinner free."
+    },
+    {
+      "number": 4,
+      "text": "Help us, dear Savior, Thee to praise\nFor Thy great love through all our days,\nAnd when this life of ours shall end,\nMay we in glory meet our Friend."
+    }
+  ],
+  "metadata": {
+    "year": 1663,
+    "copyright": "Public Domain",
+    "themes": ["communion", "Lord's Supper", "love of Christ", "remembrance"],
+    "scripture_references": ["1 Corinthians 11:23-26"],
+    "tune_source": "[needs verification]",
+    "original_language": "de",
+    "translator": "[needs verification]"
+  }
+}

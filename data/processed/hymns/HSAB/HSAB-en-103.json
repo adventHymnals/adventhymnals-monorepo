@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-103",
+  "number": 103,
+  "title": "The Christian Warrior",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THE Christian warrior–see him stand,\nIn the whole armor of his God;\nThe Spirit's sword is in his hand;\nHis feet are with the gospel shod."
+    },
+    {
+      "number": 2,
+      "text": "In panoply of truth complete,\nSalvation's helmet on his head,\nWith righteousness, a breastplate meet,\nAnd faith's broad shield before him spread."
+    },
+    {
+      "number": 3,
+      "text": "With this omnipotence he moves,\nFrom this the alien armies flee;\nTill more than conqueror he proves;\nThro' Christ, who gives him victory."
+    },
+    {
+      "number": 4,
+      "text": "Thus strong in his Redeemer's strength,\nSin, death and hell he tramples down.\nFights the good fight, and wins at length,\nThrough mercy, an immortal crown."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["christian warrior", "whole armor of god", "spirit's sword", "gospel", "salvation's helmet", "righteousness", "faith's shield", "victory", "immortal crown"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

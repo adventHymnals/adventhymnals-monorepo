@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-178",
+  "number": 178,
+  "title": "The Unveiled Christ",
+  "author": "N. B. Herrell",
+  "composer": "N. B. Herrell",
+  "tune": "Unveiled Christ",
+  "meter": "10.10.10.10 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Once our blessed Christ of beauty\nWas veiled off from human views;\nBut through suffering, death, and sorrow\nHe has rent the veil in two."
+    },
+    {
+      "number": 2,
+      "text": "Yes, He is with God, the Father,\nInterceding there for you;\nFor He is the Well-beloved\nFor He is the mighty One."
+    },
+    {
+      "number": 3,
+      "text": "Holy angels bow before Him,\nMen of earth give praises due;\nFor He is the mighty Conqueror\nSince He rent the veil in two."
+    }
+  ],
+  "chorus": {
+    "text": "O behold the Man of Sorrows!\nO behold Him in plain view!\nLo! He is the mighty Conqueror\nSince He rent the veil in two."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["christ", "veil", "revelation", "intercession", "conqueror"],
+    "scripture_references": ["Matthew 27:51", "Hebrews 10:19-20"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

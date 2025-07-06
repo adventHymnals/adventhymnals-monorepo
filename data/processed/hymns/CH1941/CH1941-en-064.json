@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-064",
+  "number": 64,
+  "title": "How Gentle God's Commands",
+  "author": "Philip Doddridge",
+  "composer": "Hans Georg Nägeli",
+  "tune": "Dennis",
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How gentle God's commands,\nHow kind His precepts are!\nCome, cast your burdens on the Lord\nAnd trust His constant care."
+    },
+    {
+      "number": 2,
+      "text": "Beneath His watchful eye\nHis saints securely dwell;\nThat hand which bears all nature up\nShall guard His children well."
+    },
+    {
+      "number": 3,
+      "text": "Why should this anxious load\nPress down your weary mind?\nHaste to your heavenly Father's throne\nAnd sweet refreshment find."
+    },
+    {
+      "number": 4,
+      "text": "His goodness stands approved,\nDown to the present day;\nI'll drop my burden at His feet\nAnd bear a song away."
+    }
+  ],
+  "metadata": {
+    "year": 1755,
+    "copyright": "Public Domain",
+    "themes": ["God's gentleness", "trust", "care", "burden bearing"],
+    "scripture_references": ["Matthew 11:28-30", "1 Peter 5:7"],
+    "tune_source": "Dennis, Hans Georg Nägeli, 1845",
+    "original_language": "en"
+  }
+}

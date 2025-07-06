@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-554",
+  "number": 554,
+  "title": "O Let Me Walk With Thee",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O let me walk with Thee, my God,\nAs Enoch walked in days of old;\nPlace Thou my trembling hand in Thine,\nAnd sweet communion with me hold;\nE'en though the path I may not see,\nYet, Jesus, let me walk with Thee."
+    },
+    {
+      "number": 2,
+      "text": "I cannot, dare not, walk alone;\nThe tempest rages in the sky;\nA thousand snares beset my feet,\nA thousand foes are lurking nigh;\nStill Thou the raging of the sea,\nO Master, let me walk with Thee."
+    },
+    {
+      "number": 3,
+      "text": "If I may rest my hand in Thine,\nI'll count the joys of earth but loss,\nAnd firmly, bravely journey on;\nI'll bear the banner of the cross\nTill Zion's glorious gates I see;\nYet, Savior, let me walk with Thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["walking with God", "guidance", "communion", "discipleship"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

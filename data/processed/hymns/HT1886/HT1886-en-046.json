@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-046",
+  "number": 46,
+  "title": "Be joyful in God, all ye lands of the earth",
+  "author": null,
+  "composer": "F. E. Beldin",
+  "tune": "Thanksgiving",
+  "meter": "11s & 8s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Be joyful in God, all ye lands of the earth; O serve him with gladness and fear!\nExult in his presence with music and mirth, With love and devotion draw near."
+    },
+    {
+      "number": 2,
+      "text": "Jehovah is God, and Jehovah alone,\nCreator and ruler o'er all;\nAnd we are his people, his scepter we own,\nHis sheep, and we follow his call."
+    },
+    {
+      "number": 3,
+      "text": "O enter his gates with thanksgiving and song,\nYour vows in his temple proclaim;\nHis praise with melodious accordance prolong,\nAnd bless his adorable name."
+    },
+    {
+      "number": 4,
+      "text": "For good is the Lord, inexpressibly good,\nAnd we are the work of his hand;\nHis mercy and truth from eternity stood,\nAnd shall to eternity stand."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["joy", "thanksgiving", "worship", "praise", "God's goodness", "devotion"],
+    "scripture_references": [],
+    "tune_source": "Thanksgiving, F. E. Beldin",
+    "original_language": "en"
+  }
+}

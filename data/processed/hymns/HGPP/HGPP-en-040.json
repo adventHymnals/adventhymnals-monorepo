@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-040",
+  "number": 40,
+  "title": "Lo! He Comes",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lo! He comes, with clouds descending,\nOnce for favor'd sinners slain,\nThousand, thousand angels shouting\nSwell the triumph of His train;\nHallelujah! Jesus comes, and comes to reign;\nHallelujah! Jesus comes, and comes to reign."
+    },
+    {
+      "number": 2,
+      "text": "Every eye shall now behold Him,\nRob'd in dreadful majesty!\nThose who set at nought and sold Him,\nPierc'd, and nail'd Him to the tree,\nDeeply wailing,\nShall the true Messiah see!"
+    },
+    {
+      "number": 3,
+      "text": "When the solemn trump has sounded,\nHeaven and earth shall flee away;\nAll who hate Him must, confounded,\nHear the summons of that day—\nCome to judgement!\nCome to judgement! Come away!"
+    },
+    {
+      "number": 4,
+      "text": "Yea, amen! Let all adore Thee,\nHigh on Thy eternal throne!\nSaviour, take the power and glory,\nMake thy righteous sentence known,\nO come quickly—\nClaim the kingdom for thine own !"
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["second coming", "clouds", "judgment", "majesty", "kingdom"],
+    "scripture_references": ["Rev 1:7", "Matt 24:30", "Rev 19:11-16"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

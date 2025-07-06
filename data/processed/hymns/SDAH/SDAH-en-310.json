@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-310",
+  "number": 310,
+  "title": "I'd Rather Have Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I'd rather have Jesus than silver or gold,\nI'd rather be His than have riches untold;\nI'd rather have Jesus than houses or lands,\nI'd rather be led by His nail-pierced hand."
+    },
+    {
+      "number": 2,
+      "text": "I'd rather have Jesus than men's applause,\nI'd rather be faithful to His dear cause;\nI'd rather have Jesus than worldwide fame,\nI'd rather be true to His holy name."
+    },
+    {
+      "number": 3,
+      "text": "He's fairer than lilies of rarest bloom,\nHe's sweeter than honey from out the comb;\nHe's all that my hungering spirit needs,\nI'd rather have Jesus and let Him lead."
+    }
+  ],
+  "chorus": {
+    "text": "Than to be the king of a vast domain\nOr be held in sin's dread sway;\nI'd rather have Jesus than anything\nThis world affords today."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus Christ", "Priorities", "Worldly Values", "Devotion"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

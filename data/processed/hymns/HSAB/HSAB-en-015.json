@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-015",
+  "number": 15,
+  "title": "Farewell",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "BE perfect–holiness pursue;\nIn love be sure to dwell,\nAnd God through Christ will comfort you,\nSo brethren all farewell."
+    },
+    {
+      "number": 2,
+      "text": "Be of one mind–give God your hearts;\nAnd of his mercies tell,\nWhich he, through grace, to you imparts,\nSo brethren all farewell."
+    },
+    {
+      "number": 3,
+      "text": "Now live in peace and holy fear–\nIn love strive to excel;\nFor Christ our King will soon appear,\nSo brethren all farewell."
+    },
+    {
+      "number": 4,
+      "text": "The God of love and peace adore,\nAnd on his mercy dwell;\nWe hope to meet on Canaan's shore,\nSo brethren all farewell."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["second advent", "farewell", "holiness", "unity", "Canaan"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

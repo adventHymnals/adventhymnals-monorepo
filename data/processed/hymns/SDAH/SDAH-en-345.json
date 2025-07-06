@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-345",
+  "number": 345,
+  "title": "Christ Is the World's True Light",
+  "author": "George Wallace Briggs",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "10.4.10.4.10.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Christ is the world's true light, Its captain of salvation, The day-star clear and bright Of every man and nation; New life, new hope awakes Wher'er men own His sway; Freedom her bondage breaks, And night is turned to day."
+    },
+    {
+      "number": 2,
+      "text": "In Christ all races meet, Their ancient feuds forgetting, The whole round world complete, From sunrise to its setting: When Christ is throned as Lord, Men shall forsake their fear, To plow-share beat the sword, To pruning-hook the spear."
+    },
+    {
+      "number": 3,
+      "text": "One Lord, in one great name Unite us all who own Thee; Cast out our pride and shame That hinder to enthrone Thee; The world has waited long, Has travailed long in pain, To heal its ancient wrong, Come, Prince of Peace, and reign."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1931,
+    "copyright": null,
+    "themes": ["Christ", "Light", "Unity", "Peace", "Salvation"],
+    "scripture_references": ["John 8:12", "Isaiah 2:4", "Micah 4:3"],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

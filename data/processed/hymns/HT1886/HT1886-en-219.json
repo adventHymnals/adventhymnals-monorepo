@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-219",
+  "number": 219,
+  "title": "Sweet is the work, my God, my King",
+  "author": "Isaac B. Woodbury",
+  "composer": null,
+  "tune": "Alway",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sweet is the work, my God, my King,\nTo praise thy name, give thanks and sing;\nTo show thy love by morning light,\nAnd talk of all thy truth by night."
+    },
+    {
+      "number": 2,
+      "text": "Sweet is the day of sacred rest;\nNo mortal cares shall seize my breast;\nO, may my heart in tune be found,\nLike David's harp of solemn sound!"
+    },
+    {
+      "number": 3,
+      "text": "My heart shall triumph in the Lord\nAnd bless his works, and bless his word;\nThy works of grace how bright they shine!\nHow deep thy counsels, how divine!"
+    },
+    {
+      "number": 4,
+      "text": "When grace has purified my heart,\nThen I shall share a glorious part;\nAnd fresh supplies of joy be shed,\nLike holy oil, to cheer my head."
+    },
+    {
+      "number": 5,
+      "text": "Then shall I see and hear and know\nAll I desired or wished below;\nAnd every power find sweet employ\nIn that eternal world of joy."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "praise", "sacred rest", "eternal joy"],
+    "scripture_references": [],
+    "tune_source": "Alway, Isaac B. Woodbury",
+    "original_language": "en"
+  }
+}

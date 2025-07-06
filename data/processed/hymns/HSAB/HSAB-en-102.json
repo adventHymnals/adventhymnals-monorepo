@@ -1,0 +1,25 @@
+{
+  "id": "HSAB-en-102",
+  "number": 102,
+  "title": "The Valley of Repose",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "LOW down in this beautiful valley,\nWhere love crowns the meek and the lowly,\nWhere loud storms of envy and folly,\nMay roll on their billows in vain;\nThe low soul in humble subjection,\nShall here find unshaken protection,\nThe soft gales of cheering reflection,\nThe mind soothed from sorrow and pain."
+    },
+    {
+      "number": 2,
+      "text": "This low vale is far from contention,\nWhere no soul can dream of dissension,\nNo dark wiles of evil invention,\nCan find out this region of peace;\nO there, there, the Lord will deliver,\nAnd souls drink of this beautiful river,\nWhich flows peace for ever and ever,\nWhere love and joy trill ever increase."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["beautiful valley", "love crowns", "meek and lowly", "humble subjection", "unshaken protection", "peace", "lord will deliver", "beautiful river"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

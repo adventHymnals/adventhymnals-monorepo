@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-436",
+  "number": 436,
+  "title": "The Homeland",
+  "author": "Hugh Reginald Haweis",
+  "composer": "Traditional",
+  "tune": "THE HOMELAND",
+  "meter": "C.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The homeland! O the homeland!\nThe land of the freeborn!\nThere's no night in the homeland,\nBut aye the fadeless morn;"
+    },
+    {
+      "number": 2,
+      "text": "My Lord is in the homeland,\nWith angels bright and fair;\nThere's no sin in the homeland,\nAnd no temptation there;"
+    },
+    {
+      "number": 3,
+      "text": "The dwellers in the homeland\nAre beckoning me to come,\nWhen neither death nor sorrow\nInvades their holy home;"
+    }
+  ],
+  "chorus": {
+    "text": "I'm sighing for the homeland,\nMy heart is aching here;\nThere is no pain in the homeland\nTo which I'm drawing near."
+  },
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "homeland", "no night", "no sin", "longing"],
+    "scripture_references": ["Hebrews 11:16", "Revelation 21:25", "Revelation 21:4"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

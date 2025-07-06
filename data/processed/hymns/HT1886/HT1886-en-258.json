@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-258",
+  "number": 258,
+  "title": "Ere to the world again we go",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Ere to the world again we go,\nTo meet its cares and toil show,\nThy grace, once more, we crave;\nFrom folly and from sin to save."
+    },
+    {
+      "number": 2,
+      "text": "May the great truths we here have heard,\nThe lessons of thy holy word,\nDwell in our inmost bosoms deep,\nAnd all our souls from error keep."
+    },
+    {
+      "number": 3,
+      "text": "O may the influence of this day\nLong as our memory with us stay,\nAnd in our evening grateful prayer,\nTo guide us to our home above!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "daily life", "divine guidance", "prayer"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

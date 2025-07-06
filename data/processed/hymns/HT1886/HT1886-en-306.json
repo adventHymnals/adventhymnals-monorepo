@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-306",
+  "number": 306,
+  "title": "O wondrous type! O vision fair",
+  "author": "Sarum Breviary",
+  "composer": null,
+  "tune": "272, 66, 201",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O wondrous type! O vision fair\nOf glory that the church shall share,\nWhich Christ upon the mountain shows,\nWhere brighter than the sun he glows!"
+    },
+    {
+      "number": 2,
+      "text": "From age to age the tale declare,\nHow with the three disciples there,\nWhere Moses and Elias meet,\nThe Lord holds converse high and sweet."
+    },
+    {
+      "number": 3,
+      "text": "With shining face and bright array,\nChrist deigns to manifest to-day\nWhat glory shall be theirs above\nWho live below in perfect love."
+    },
+    {
+      "number": 4,
+      "text": "And faithful hearts are raised on high\nBy this great vision's mystery;\nFor which in joyful strains we raise\nThe voice of prayer, the hymn of praise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Life and Character", "transfiguration", "glory", "vision"],
+    "scripture_references": [],
+    "tune_source": "272, 66, 201",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "MH1843-en-PT3-116",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "116",
+  "title": "Draw Us in the Spirit's Tether",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Draw us in the Spirit's tether, For when humbly in Thy name, Two or three are met together, Thou art in the midst of them: Alleluia! Alleluia! Touch we now Thy garment's hem."
+    },
+    {
+      "number": "2",
+      "text": "As the brethren used to gather In the name of Christ to sup, Then with thanks to God the Father Break the bread and bless the cup, Alleluia! Alleluia! So knit Thou our friendship up."
+    },
+    {
+      "number": "3",
+      "text": "All our meals and all our living Make as sacramental, Lord, And dispose our faith, delivering Thou art Break the bread and bless the cup, Alleluia! Alleluia! We will serve Thee faithfully."
+    }
+  ],
+  "refrain": {},
+  "meter": "8.7.8.7.4.7",
+  "tune": "UNION SEMINARY",
+  "composer": "Harold Friedell",
+  "author": "Percy Dearmer",
+  "page": 259,
+  "themes": ["Spirit", "Tether", "Humbly", "Name", "Met Together", "Midst", "Alleluia", "Garment", "Hem", "Brethren", "Gather", "Christ", "Thanks", "Father", "Break", "Bread", "Bless", "Cup"],
+  "key_signature": "G",
+  "time_signature": "4/4"
+}

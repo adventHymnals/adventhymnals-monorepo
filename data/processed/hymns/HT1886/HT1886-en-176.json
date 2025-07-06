@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-176",
+  "number": 176,
+  "title": "How precious is the book divine",
+  "author": "John Fawcett",
+  "composer": "",
+  "tune": "",
+  "meter": "179, 227, 147",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How precious is the book divine\nBy inspiration given!\nBright as a lamp its doctrines shine,\nTo guide our souls to heaven."
+    },
+    {
+      "number": 2,
+      "text": "It sweetly cheers our drooping hearts\nIn this dark vale of tears;\nAnd life and light and joy imparts,\nTo banish all our fears."
+    },
+    {
+      "number": 3,
+      "text": "This lamp, through all the tedious night\nOf life, shall guide our way,\nTill we behold the clearer light\nOf an eternal day."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Scriptures", "divine inspiration", "spiritual guidance", "eternal light", "comfort"],
+    "scripture_references": [],
+    "tune_source": "179, 227, 147",
+    "original_language": "en"
+  }
+}

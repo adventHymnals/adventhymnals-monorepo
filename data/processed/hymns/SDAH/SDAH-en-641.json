@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-641",
+  "number": 641,
+  "title": "God in His Love for Us",
+  "author": "Fred Pratt Green",
+  "composer": "H. Walford Davies",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God in His love for us lent us this planet,\nGave it a purpose in time and in space:\nSmall as a spark from the fire of creation,\nCradle of life and the home of our race."
+    },
+    {
+      "number": 2,
+      "text": "Thanks be to God for its bounty and beauty,\nLife that sustains us in body and mind:\nPlenty for all, if we learn how to share it,\nRiches undreamed of to fathom and find."
+    },
+    {
+      "number": 3,
+      "text": "Long have our human wars ruined its harvest;\nLong has earth bowed to the terror of force;\nLong have we wasted what others have need of,\nPoison the fountain, pollute its source."
+    },
+    {
+      "number": 4,
+      "text": "Earth is the Lord's: it is ours to enjoy it,\nOurs, as His stewards, to farm and defend.\nFrom its pollution, misuse, and destruction,\nGood Lord, deliver us, world without end!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1973,
+    "copyright": "1973 The Hymn Society (Admin. Hope Publishing Co., Carol Stream, IL 60188). All rights reserved. Used by permission.",
+    "themes": ["creation", "stewardship", "environment", "responsibility"],
+    "scripture_references": ["Genesis 1:28", "Psalm 24:1"],
+    "tune_source": "H. Walford Davies",
+    "original_language": "en"
+  }
+}

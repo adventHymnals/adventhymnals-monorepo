@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-116",
+  "number": 116,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "HAIL, peaceful morn, thy dawn I hail,\nHow do thy hours my mind regale\nWith feasts of heavenly joy;\nNor can I half thy blessings name,\nWhich kindle in my soul a flame,\nAnd all my powers employ."
+    },
+    {
+      "number": 2,
+      "text": "How shall I best improve thy hours?\nLord on me shed in copious showers\nThy Spirit, and thy grace;\nThat when thy sacred courts I tread,\nMy soul may eat the heavenly bread,\nAnd sing Jehovah's praise."
+    },
+    {
+      "number": 3,
+      "text": "Thou hallow'd season of repose,\nThou balm to soothe the throbbing woes,\nOf this care-stricken breast;\nThy sacred hours I'll ever greet,\nAnd with the faithful will I meet,\nTo taste thy holy rest."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "peaceful morning", "worship", "holy rest", "spiritual nourishment", "praise"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "CH1941",
+  "title": "Church Hymnal 1941",
+  "language": "en",
+  "year": 1941,
+  "publisher": "[needs verification]",
+  "hymns": [
+    {
+      "number": 1,
+      "hymn_id": "CH1941-en-001",
+      "title": "Before Jehovah's Awful Throne",
+      "page": 1
+    },
+    {
+      "number": 2,
+      "hymn_id": "CH1941-en-002",
+      "title": "From All That Dwell Below the Skies",
+      "page": 2
+    },
+    {
+      "number": 3,
+      "hymn_id": "CH1941-en-003",
+      "title": "Come, Thou Almighty King",
+      "page": 2
+    },
+    {
+      "number": 4,
+      "hymn_id": "CH1941-en-004",
+      "title": "With Reverence Let the Saints Appear",
+      "page": 3
+    },
+    {
+      "number": 5,
+      "hymn_id": "CH1941-en-005",
+      "title": "God's Free Mercy Streameth",
+      "page": 4
+    },
+    {
+      "number": 6,
+      "hymn_id": "CH1941-en-006",
+      "title": "O Worship the Lord",
+      "page": 5
+    },
+    {
+      "number": 7,
+      "hymn_id": "CH1941-en-007",
+      "title": "The Lord in Zion Reigneth",
+      "page": 6
+    },
+    {
+      "number": 8,
+      "hymn_id": "CH1941-en-008",
+      "title": "The God of Abraham Praise",
+      "page": 7
+    }
+  ],
+  "metadata": {
+    "total_hymns": 623,
+    "total_images": 633,
+    "processing_status": "COMPLETED - 623 hymns extracted from 633 images",
+    "languages": ["en"],
+    "themes": ["worship", "praise", "Trinity", "sovereignty", "mercy", "holiness", "communion", "prayer", "Christmas", "blessing", "guidance", "evangelism", "salvation", "eternal life", "discipleship", "comfort", "protection"],
+    "extraction_date": "2025-07-04",
+    "completion_date": "2025-07-04",
+    "extraction_quality": "High fidelity digital preservation complete"
+  }
+}

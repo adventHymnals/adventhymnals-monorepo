@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-020",
+  "number": 20,
+  "title": "The Three Messages",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "LO! An angel loud proclaiming,\nWith the gospel of good news,\nTo every kindred, tongue and people,\nFear the Lord, give glory due!\nProclamation\nOf the hour of judgment near."
+    },
+    {
+      "number": 2,
+      "text": "Lo! Another angel follows,\nWith another solemn cry,\nBabylon the great is fallen!\nPeals like thunder through the sky,\nLet thy people\nNow forsake her poisonous creeds."
+    },
+    {
+      "number": 3,
+      "text": "Yet, a third and solemn message\nNow proclaims a final doom,\nAll who worship beast or image\nSoon shall drink the wrath of God,\nWithout mixture–\nMercy now no longer pleads."
+    },
+    {
+      "number": 4,
+      "text": "Here are they who now are waiting,\nAnd have patience to endure;\nWhile the dragon's hosts are raging,\nThese confide in God, secure;\nFaith of Jesus\nAnd commandments, keep them pure."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["second advent", "three angels' messages", "judgment", "Babylon", "commandments"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

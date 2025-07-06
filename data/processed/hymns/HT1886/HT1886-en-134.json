@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-134",
+  "number": 134,
+  "title": "O Thou in whose presence my soul takes delight",
+  "author": "Joseph Swain",
+  "composer": "Freeman Lewis",
+  "tune": "Beloved",
+  "meter": "11s & 8s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Thou in whose presence my soul takes delight,\nOn whom in affliction I call,\nMy comfort by day and my song in the night,\nMy hope, my salvation, my all!"
+    },
+    {
+      "number": 2,
+      "text": "Ye daughters of Zion, declare, have you seen\nThe star that on Israel shone?\nSay if in your tents my Beloved has been,\nAnd where with his flock he has gone."
+    },
+    {
+      "number": 3,
+      "text": "His voice, as the sound of the dulcimer sweet,\nIs heard through the shadows of death;\nThe cedars of Lebanon bow at his feet,\nThe air is perfumed with his breath."
+    },
+    {
+      "number": 4,
+      "text": "His lips, as a fountain of righteousness flow,\nTo water the gardens of grace;\nFrom which their salvation the Gentiles shall know,\nAnd bask in the smiles of his face."
+    },
+    {
+      "number": 5,
+      "text": "He looks, and ten thousands of angels rejoice,\nAnd myriads wait for his word;\nHe speaks, and eternity, filled with his voice,\nRe-echoes the praise of the Lord."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["presence of God", "comfort", "Beloved", "voice of God", "praise", "salvation"],
+    "scripture_references": ["Song of Solomon 3:3", "Psalm 42:8"],
+    "tune_source": "Freeman Lewis",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-123",
+  "number": 123,
+  "title": "O could I speak the matchless worth",
+  "author": "Samuel Medley",
+  "composer": "Lowell Mason",
+  "tune": "Ariel",
+  "meter": "C.P.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O could I speak the matchless worth,\nO could I sound the glories forth,\nWhich in my Saviour shine!\nI'd soar and touch the heavenly strings,\nAnd vie with Gabriel while he sings\nIn notes almost divine."
+    },
+    {
+      "number": 2,
+      "text": "I'd sing the precious blood he spilt,\nMy ransom from the dreadful guilt\nOf sin and wrath divine!\nI'd sing his glorious righteousness,\nIn which all-perfect heavenly dress\nMy soul shall ever shine."
+    },
+    {
+      "number": 3,
+      "text": "I'd sing the character he bears,\nAnd all the forms of love he wears,\nExalted on his throne;\nIn loftiest songs of sweetest praise,\nI would to everlasting days\nMake all his glories known."
+    },
+    {
+      "number": 4,
+      "text": "Well, the delightful day will come,\nWhen my dear Lord will take me home,\nAnd I shall see his face;\nThen, with my Saviour, Brother, Friend,\nA blest eternity I'll spend,\nTriumphant in his grace."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "Jesus Christ", "matchless worth", "salvation", "righteousness", "eternal praise"],
+    "scripture_references": [],
+    "tune_source": "Lowell Mason",
+    "original_language": "en"
+  }
+}

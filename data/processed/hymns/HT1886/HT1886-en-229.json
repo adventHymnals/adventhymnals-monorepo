@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-229",
+  "number": 229,
+  "title": "Come, dearest Lord, and feed thy sheep",
+  "author": "William Mason",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, dearest Lord, and feed thy sheep,\nOn this sweet day of rest;\nO bless this flock, and make this fold\nEnjoy a heavenly rest."
+    },
+    {
+      "number": 2,
+      "text": "Welcome and precious to my soul\nAre these sweet days of love,\nBut what a Sabbath shall I keep\nWhen I shall rest above!"
+    },
+    {
+      "number": 3,
+      "text": "I come, I wait, I hear, I pray;\nThy footsteps, Lord, I trace:\nHere, in thine own appointed way,\nI wait to see thy face."
+    },
+    {
+      "number": 4,
+      "text": "These are the sweet and precious days\nOn which my Lord I've seen;\nAnd oft, when feasting on his word,\nIn raptures I have been."
+    },
+    {
+      "number": 5,
+      "text": "O, if my soul, when Christ appears,\nIn this sweet frame be found,\nI'll clasp my Saviour in my arms,\nAnd leave this earthly ground!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "Jesus", "shepherd", "rest", "heaven"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

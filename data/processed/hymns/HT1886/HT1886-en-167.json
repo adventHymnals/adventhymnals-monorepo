@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-167",
+  "number": 167,
+  "title": "O thou that hearest prayer",
+  "author": "Lowell Mason",
+  "composer": "",
+  "tune": "Zebulon",
+  "meter": "H. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O thou that hearest prayer,\nAttend our humble cry,\nAnd let thy servants share\nThy blessing from on high:\nWe plead the promise of thy word;\nGrant us thy Holy Spirit, Lord."
+    },
+    {
+      "number": 2,
+      "text": "If earthly parents hear\nTheir children when they cry,\nIf they, with love sincere,\nTheir varied wants supply,\nMuch more wilt thou thy love display,\nAnd answer when thy children pray."
+    },
+    {
+      "number": 3,
+      "text": "Our heavenly Father, thou\nWe children of thy grace\nO, let thy Spirit now\nDescend and fill the place!\nSo shall we feel the heavenly flame,\nAnd all unite to praise thy name."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["prayer", "Holy Spirit", "heavenly Father", "divine grace", "blessing", "praise"],
+    "scripture_references": [],
+    "tune_source": "Zebulon, H. M., Lowell Mason",
+    "original_language": "en"
+  }
+}

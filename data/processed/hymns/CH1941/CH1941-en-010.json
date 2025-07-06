@@ -1,0 +1,32 @@
+{
+  "id": "CH1941-en-010",
+  "number": 10,
+  "title": "Praise, O Praise Our God and King",
+  "author": "Henry Williams Baker",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise, O praise our God and King,\nHymns of adoration sing;\nFor His mercies still endure,\nEver faithful, ever sure."
+    },
+    {
+      "number": 2,
+      "text": "Praise Him that He made the sun\nDay by day his course to run;\nFor His mercies still endure,\nEver faithful, ever sure."
+    },
+    {
+      "number": 3,
+      "text": "And the silver moon by night,\nShining with her gentle light;\nFor His mercies still endure,\nEver faithful, ever sure."
+    }
+  ],
+  "metadata": {
+    "year": 1875,
+    "copyright": "Public Domain",
+    "themes": ["praise", "creation", "mercy", "faithfulness"],
+    "scripture_references": ["Psalm 136"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

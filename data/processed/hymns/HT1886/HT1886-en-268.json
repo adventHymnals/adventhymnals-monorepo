@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-268",
+  "number": 268,
+  "title": "To God, the only wise",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "To God, the only wise,\nWho keeps us by his word,\nBe glory now and evermore,\nThrough Jesus Christ our Lord."
+    },
+    {
+      "number": 2,
+      "text": "Hosanna to the Word,\nWho from the Father came;\nAscribe salvation to the Lord,\nAnd ever bless his name."
+    },
+    {
+      "number": 3,
+      "text": "The Spirit of Christ our Lord,\nThe Father's boundless love,\nThe Spirit's blest communion, too,\nBe with us all above."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's wisdom", "glory", "salvation", "Trinity", "communion"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

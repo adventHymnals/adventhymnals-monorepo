@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-002",
+  "number": 2,
+  "title": "All Creatures of Our God and King",
+  "author": "Francis of Assisi",
+  "composer": "Geistliche Kirchengesang",
+  "tune": "Lasst uns erfreuen",
+  "meter": "L.M. with Alleluias",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All creatures of our God and King,\nLift up your voice with us and sing:\nAlleluia! Alleluia!\nO burning sun with golden beam,\nO silver moon with softer gleam:"
+    },
+    {
+      "number": 2,
+      "text": "O rushing wind and breezes soft,\nO clouds that ride the winds aloft:\nAlleluia! Alleluia!\nO rising morn, in praise rejoice,\nO lights of evening, find a voice:"
+    },
+    {
+      "number": 3,
+      "text": "O flowing waters, pure and clear,\nMake music for your Lord to hear:\nAlleluia! Alleluia!\nO fire so masterful and bright,\nProviding us with warmth and light:"
+    },
+    {
+      "number": 4,
+      "text": "Let all things their Creator bless,\nAnd worship Him in humbleness:\nAlleluia! Alleluia!\nO praise the Father, praise the Son,\nAnd praise the Spirit, three in One:"
+    }
+  ],
+  "chorus": {
+    "text": "Oh, praise Him! Oh, praise Him!\nAlleluia! Alleluia! Alleluia!"
+  },
+  "metadata": {
+    "year": 1225,
+    "copyright": "Public Domain",
+    "themes": ["creation", "praise", "worship", "nature"],
+    "scripture_references": ["Psalm 148", "Daniel 3:57-88"],
+    "tune_source": "Geistliche Kirchengesang, Cologne, 1623",
+    "original_language": "it",
+    "translator": "William H. Draper"
+  }
+}

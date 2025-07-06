@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-003",
+  "number": 3,
+  "title": "How pleasant, how divinely fair",
+  "author": null,
+  "composer": "Isaac B. Woodbury",
+  "tune": "Burford",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How pleasant, how divinely fair,\nO Lord of hosts, thy dwellings are!\nWith long desire my spirit faints\nTo meet th' assemblies of thy saints."
+    },
+    {
+      "number": 2,
+      "text": "I long to rest in thine abode,\nMy panting heart cries out for God;\nMy God, my King, why should I be\nSo far from all my joys and thee?"
+    },
+    {
+      "number": 3,
+      "text": "Blest are the souls that find a place\nWithin the temple of thy grace;\nThere they behold thy gentle rays,\nAnd seek thy face and learn thy praise."
+    },
+    {
+      "number": 4,
+      "text": "Blest are the men whose hearts are set\nTo find the way to Zion's gate;\nThey walk from strength to strength, till all\nShall on thy name in Zion call."
+    },
+    {
+      "number": 5,
+      "text": "Cheerful they walk with growing strength,\nTill all shall meet in heaven at length;\nTill all before thy face appear,\nAnd join in nobler worship there."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "longing for God", "temple", "Zion", "fellowship"],
+    "scripture_references": [],
+    "tune_source": "Burford, Isaac B. Woodbury",
+    "original_language": "en"
+  }
+}

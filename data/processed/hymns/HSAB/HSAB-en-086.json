@@ -1,0 +1,37 @@
+{
+  "id": "HSAB-en-086",
+  "number": 86,
+  "title": "Jesus My All",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "JESUS, my all, to heaven is gone:\nHe whom I fix my hopes upon;\nHis track I see, and I'll pursue\nThe narrow way, till him I view."
+    },
+    {
+      "number": 2,
+      "text": "The way the holy prophets went,\nThe road that leads from banishment,\nThe King's highway of holiness\nI'll go, for all his paths are peace."
+    },
+    {
+      "number": 3,
+      "text": "This is the way I long have sought,\nAnd mourn'd because I found it not;\nMy grief, a burden long has been,\nBecause I was not saved from sin."
+    },
+    {
+      "number": 4,
+      "text": "Lo! Glad I come, and thou, blest Lamb,\nShalt take me to thee whose I am;\nNothing but sin I thee can give,\nNothing but love shall I receive."
+    },
+    {
+      "number": 5,
+      "text": "Then will I tell to all around,\nWhat a dear Saviour I have found;\nI'll point to thy redeeming blood,\nAnd say, \"Behold the way to God.\""
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["jesus my all", "holy prophets", "king's highway", "redeeming blood", "way to god"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

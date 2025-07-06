@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-173",
+  "number": 173,
+  "title": "Good Christian Friends, Rejoice!",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "Gelobt Sei Gott",
+  "meter": "8.8.8 with Alleluias",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Good Christian friends, rejoice and sing!\nNow is the triumph of our King!\nTo all the world glad news we bring:"
+    },
+    {
+      "number": 2,
+      "text": "The Lord of life is risen for aye;\nBring flowers of song to strew His way;\nLet all mankind rejoice and say:"
+    },
+    {
+      "number": 3,
+      "text": "Praise we in songs of victory\nThat love, that life which cannot die,\nAnd sing with hearts uplifted high:"
+    },
+    {
+      "number": 4,
+      "text": "Thy name we bless, O risen Lord,\nAnd sing today with one accord\nThe life laid down, the life restored:"
+    }
+  ],
+  "chorus": {
+    "text": "Alleluia, alleluia, alleluia!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["easter", "resurrection", "triumph", "victory", "celebration"],
+    "scripture_references": ["Luke 24:1-12"],
+    "tune_source": "German",
+    "original_language": "en"
+  }
+}

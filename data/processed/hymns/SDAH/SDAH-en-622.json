@@ -1,0 +1,29 @@
+{
+  "id": "SDAH-en-622",
+  "number": 622,
+  "title": "Come, Come, Ye Saints",
+  "author": "William Clayton",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, come, ye saints, no toil nor labor fear;\nBut with joy wend your way.\nThough hard to you the journey may appear,\nGrace shall be as your day.\nWe have a living Lord to guide,\nAnd we can trust Him to provide;\nDo this, and joy your hearts will swell:\nAll is well! All is well!"
+    },
+    {
+      "number": 2,
+      "text": "We'll find the rest which God for us prepared,\nWhen at last He will call:\nWhere none will come to hurt or make afraid,\nHe will reign over all.\nWe will make the air with music ring,\nShout praise to God our Lord and King;\nO how we'll make the chorus swell:\nAll is well! All is well!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": ["pilgrimage", "trust", "perseverance", "hope"],
+    "scripture_references": ["Psalm 23:4", "Isaiah 40:31"],
+    "tune_source": "",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "CH1941-en-051",
+  "number": 51,
+  "title": "Day Is Dying in the West",
+  "author": "Mary Artemisia Lathbury",
+  "composer": "William Fisk Sherwin",
+  "tune": "Chautauqua",
+  "meter": "7.7.7.7.7.7.7.5",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Day is dying in the west;\nHeaven is touching earth with rest;\nWait and worship while the night\nSets her evening lamps alight\nThrough all the sky."
+    },
+    {
+      "number": 2,
+      "text": "Lord of life, beneath the dome\nOf the universe, Thy home,\nGather us who seek Thy face\nTo the fold of Thy embrace,\nFor Thou art nigh."
+    },
+    {
+      "number": 3,
+      "text": "While the deepening shadows fall,\nHeart of Love, enfolding all,\nThrough the glory and the grace\nOf the stars that veil Thy face,\nOur hearts ascend."
+    }
+  ],
+  "chorus": {
+    "text": "Holy, holy, holy, Lord God of Hosts!\nHeaven and earth are full of Thee!\nHeaven and earth are praising Thee,\nO Lord most high!"
+  },
+  "metadata": {
+    "year": 1877,
+    "copyright": "Public Domain",
+    "themes": ["evening", "worship", "creation", "holiness"],
+    "scripture_references": ["Isaiah 6:3", "Revelation 4:8"],
+    "tune_source": "Chautauqua, William Fisk Sherwin, 1877",
+    "original_language": "en"
+  }
+}

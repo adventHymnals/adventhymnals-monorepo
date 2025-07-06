@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-026",
+  "number": 26,
+  "title": "Eternal God, celestial King",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Eternal God, celestial King,\nExalted be thy glorious name;\nLet hosts in heaven thy praises sing,\nAnd saints on earth thy love proclaim."
+    },
+    {
+      "number": 2,
+      "text": "My heart is fixed on thee, my God,\nI rest my hope on thee alone;\nI'll spread thy sacred truths abroad,\nTo all mankind thy love make known."
+    },
+    {
+      "number": 3,
+      "text": "With those who in thy grace abound,\nTo thee I'll raise my thankful voice,\nTill every land, the earth around,\nShall hear, and in thy name rejoice."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "praise", "testimony"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

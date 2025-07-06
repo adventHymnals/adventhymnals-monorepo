@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-237",
+  "number": 237,
+  "title": "Six days of toil and care",
+  "author": "Anon",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Six days of toil and care,\nI bid adieu to all;\nAnd now, O peaceful Sabbath hours,\nI gladly welcome you."
+    },
+    {
+      "number": 2,
+      "text": "My heart with rapture turns\nTo Eden's vale so fair;\nThen forward to the heavenly world,\nAnd views the Sabbath there."
+    },
+    {
+      "number": 3,
+      "text": "Sweet day of rest, through thee\nShall memory faithful prove\nTo him who made the earth and sea,\nAnd starry worlds above."
+    },
+    {
+      "number": 4,
+      "text": "In each Sabbath spent aright\nShall bring us nearer thee,\nTill in that glorious land of light\nWe more forever free."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "rest", "Eden", "heaven"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

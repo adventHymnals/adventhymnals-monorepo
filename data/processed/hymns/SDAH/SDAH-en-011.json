@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-011",
+  "number": 11,
+  "title": "The God of Abraham Praise",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The God of Abraham praise,\nWho reigns enthroned above;\nAncient of everlasting days,\nAnd God of love;\nJehovah! Great I AM!\nBy earth and heaven confessed;\nI bow and bless the sacred name,\nForever blest."
+    },
+    {
+      "number": 2,
+      "text": "The God of Abraham praise,\nAt whose supreme command\nFrom earth I rise, and seek the joys\nAt His right hand;\nI all on earth forsake,\nIts wisdom, fame, and power;\nAnd Him my only portion make,\nMy shield and tower."
+    },
+    {
+      "number": 3,
+      "text": "The whole triumphant host\nGive thanks to God on high;\n\"Hail, Father, Son, and Holy Ghost!\"\nThey ever cry;\nHail, Abraham's God and mine!\nI join the heavenly lays;\nAll might and majesty are Thine,\nAnd endless praise."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "worship", "God's sovereignty"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

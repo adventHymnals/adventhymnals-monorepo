@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-092",
+  "number": 92,
+  "title": "God is love; his mercy brightens",
+  "author": "Lizzie S. Tourjee",
+  "composer": null,
+  "tune": "Wellesley",
+  "meter": "8s & 7s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God is love; his mercy brightens\nAll the path in which we rove;\nBliss he wakes, and woe he lightens:\nGod is wisdom, God is love."
+    },
+    {
+      "number": 2,
+      "text": "Chance and change are busy ever;\nMan decays, and ages move;\nBut his mercy waneth never:\nGod is wisdom, God is love."
+    },
+    {
+      "number": 3,
+      "text": "E'en the hour that darkest seemeth\nWill his changeless goodness prove;\nFrom the gloom his brightness streameth:\nGod is wisdom, God is love."
+    },
+    {
+      "number": 4,
+      "text": "He with earthly cares entwineth\nHope and comfort from above;\nEverywhere his glory shineth:\nGod is wisdom, God is love."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's love", "God's mercy", "God's wisdom", "comfort", "hope"],
+    "scripture_references": [],
+    "tune_source": "Wellesley",
+    "original_language": "en"
+  }
+}

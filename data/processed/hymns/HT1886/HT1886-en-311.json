@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-311",
+  "number": 311,
+  "title": "A pilgrim through this lonely world",
+  "author": "Sir Edward Denny",
+  "composer": null,
+  "tune": "120, 227, 204",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "A pilgrim through this lonely world,\nThe blessed Saviour passed;\nA mourner all his life he was,\nA dying Lamb at last."
+    },
+    {
+      "number": 2,
+      "text": "That tender heart that felt for all,\nFor all its life-blood gave;\nIt found on earth no resting-place,\nSave only in the grave."
+    },
+    {
+      "number": 3,
+      "text": "Such was our Lord; and shall we fear\nThe cross, with all its scorn?\nOr love a faithless, evil world,\nThat wreathed his brow with thorn?"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Life and Character", "pilgrimage", "suffering", "cross", "sacrifice"],
+    "scripture_references": [],
+    "tune_source": "120, 227, 204",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-185",
+  "number": 185,
+  "title": "Jesus Is All the World to Me",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus is all the world to me,\nMy life, my joy, my all;\nHe is my strength from day to day,\nWithout Him I would fall."
+    },
+    {
+      "number": 2,
+      "text": "Jesus is all the world to me,\nMy Friend in trials sore;\nI go to Him for blessings, and\nHe gives them o'er and o'er."
+    },
+    {
+      "number": 3,
+      "text": "Jesus is all the world to me,\nAnd true to Him I'll be;\nO how could I this Friend deny,\nWhen He's so true to me?"
+    },
+    {
+      "number": 4,
+      "text": "Jesus is all the world to me,\nI want no better friend;\nI trust Him now, I'll trust Him when\nLife's fleeting days shall end."
+    }
+  ],
+  "chorus": {
+    "text": "When I am sad to Him I go,\nNo other one can cheer me so;\nWhen I am sad He makes me glad,\nHe's my Friend."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["jesus_friendship", "devotion", "trust", "comfort", "loyalty"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

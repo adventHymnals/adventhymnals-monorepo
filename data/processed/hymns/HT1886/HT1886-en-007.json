@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-007",
+  "number": 7,
+  "title": "Again our earthly cares we leave",
+  "author": null,
+  "composer": "Francis J. Haydn",
+  "tune": "Manoah",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Again our earthly cares we leave,\nAnd to Thy courts repair;\nAgain with joyful feet we haste,\nTo meet our Saviour there."
+    },
+    {
+      "number": 2,
+      "text": "Great Shepherd of thy people, here\nThy presence we implore;\nWe bow within thy house of prayer;\nO give thy blessing more."
+    },
+    {
+      "number": 3,
+      "text": "The clouds which veil thee from our sight,\nIn pity, Lord, remove;\nDispose our minds to hear aright\nThe message of thy love."
+    },
+    {
+      "number": 4,
+      "text": "The feeling heart, the melting eye,\nThe humble mind, bestow;\nAnd shine upon us from above,\nTo make our graces grow."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "prayer", "presence", "blessing", "grace"],
+    "scripture_references": [],
+    "tune_source": "Manoah, Francis J. Haydn",
+    "original_language": "en"
+  }
+}

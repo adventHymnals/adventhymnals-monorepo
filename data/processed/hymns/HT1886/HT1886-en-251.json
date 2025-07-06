@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-251",
+  "number": 251,
+  "title": "As comes on amid earth's gloom profound",
+  "author": "R. F. Cottrell",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "As comes on amid earth's gloom profound,\nAnd wearing toil presents a ceaseless round,\n'T is good to have some way-marks on our road,\nTo cheer our hearts, and lift our thoughts to God."
+    },
+    {
+      "number": 2,
+      "text": "The Sabbath to this end divinely blest,\nNot only gives the body timely rest,\nBut by its influence helps our minds to raise\nAnd tune our hearts to our Creator's praise."
+    },
+    {
+      "number": 3,
+      "text": "Then hail the glad memorial of our King!\nLet us give thanks, and join his praise to sing;\nAnd learning now to celebrate his praise,\nSo shall we sing of him through endless days."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "divine rest", "waymarks", "praise", "memorial"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

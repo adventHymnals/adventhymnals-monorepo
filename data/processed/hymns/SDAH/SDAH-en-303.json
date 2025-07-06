@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-303",
+  "number": 303,
+  "title": "Beneath the Cross of Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Beneath the cross of Jesus I fain would take my stand,\nThe shadow of a mighty rock within a weary land;\nA home within the wilderness, a rest upon the way,\nFrom the burning of the noonday heat, and the burden of the day."
+    },
+    {
+      "number": 2,
+      "text": "Upon that cross of Jesus mine eye at times can see\nThe very dying form of One who suffered there for me;\nAnd from my smitten heart with tears two wonders I confess:\nThe wonders of redeeming love and my unworthiness."
+    },
+    {
+      "number": 3,
+      "text": "I take, O cross, thy shadow for my abiding place;\nI ask no other sunshine than the sunshine of His face;\nContent to let the world go by, to know no gain nor loss,\nMy sinful self my only shame, my glory all the cross."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Cross", "Jesus Christ", "Redemption", "Rest", "Refuge"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

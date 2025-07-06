@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-014",
+  "number": 14,
+  "title": "How charming is the place",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "191, 526, 206",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How charming is the place\nWhere my Redeemer, God,\nUnveils the beauty of his face,\nAnd sheds his love abroad!"
+    },
+    {
+      "number": 2,
+      "text": "Not earth's fair palaces,\nTo which the great resort,\nAre once to be compared with this,\nWhere Jesus holds his court."
+    },
+    {
+      "number": 3,
+      "text": "Give me, O Lord, a place\nWithin thy blest abode,\nAmong the children of thy grace,\nThe servants of my God."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "Jesus", "God's presence", "beauty", "grace"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-015",
+  "number": 15,
+  "title": "My Maker and My King",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My Maker and my King,\nTo Thee my all I owe;\nThy sovereign bounty is the spring\nWhence all my blessings flow;"
+    },
+    {
+      "number": 2,
+      "text": "The creature of Thy hand,\nOn Thee alone I live;\nMy God, Thy benefits demand\nMore praise than I can give."
+    },
+    {
+      "number": 3,
+      "text": "Lord, what can I impart\nWhen all is Thine before?\nThy love demands a thankful heart—\nThe gift, alas! how poor."
+    },
+    {
+      "number": 4,
+      "text": "O! let Thy grace inspire\nMy soul with strength divine;\nLet every word and each desire\nAnd all my days be Thine."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["thanksgiving", "dedication", "God's sovereignty"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "HGPP-en-039",
+  "number": 39,
+  "title": "Sound the Jubilee",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "While I was down in Egypt's land,\nI heard my Saviour was at hand;\nAnd the midnight cry was sounding,\nAnd I wanted to be free;\nSo I left my former brethren,\nTo sound the Jubilee."
+    },
+    {
+      "number": 2,
+      "text": "Though opposition waxes strong,\nYet still the battle won't be long,\nFor our blessed Lord is coming;\nHe will set the captives free;\nStill keep up good courage, brethren,\nAnd sound the Jubilee."
+    },
+    {
+      "number": 3,
+      "text": "The battle is not to the strong,\nThe weak may sing the conqueror's song;\nThen lift lip your heads rejoicing,\nWho are glad our Lord to see;\nBless the Lord, our souls are happy,\nWhile we sound the Jubilee."
+    },
+    {
+      "number": 4,
+      "text": "A little longer here below,\nThen home to glory we shall go, I believe it, I believe it.\nHallelujah now I see,\nThat we soon shall be with Jesus;\nIn the glorious Jubilee."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["jubilee", "freedom", "midnight cry", "egypt", "liberation"],
+    "scripture_references": ["Lev 25:8-13", "Matt 25:6", "Gal 5:1"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Early Seventh-day Adventist movement"
+  }
+}

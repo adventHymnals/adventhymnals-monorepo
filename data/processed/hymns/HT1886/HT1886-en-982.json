@@ -1,0 +1,44 @@
+{
+  "id": "HT1886-en-982",
+  "number": 982,
+  "title": "Lo, what a glorious sight appears",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lo, what a glorious sight appears\nTo our believing eyes!\nThe earth and seas are passed away,\nAnd the old rolling skies."
+    },
+    {
+      "number": 2,
+      "text": "From the third heaven, where God resides,\nThat holy, happy place,\nThe New Jerusalem comes down,\nAdorned with shining grace."
+    },
+    {
+      "number": 3,
+      "text": "Attending angels shout for joy,\nAnd the bright armies sing;\nYea, sinners, behold the sacred seat\nOf your descending King!"
+    },
+    {
+      "number": 4,
+      "text": "The God of glory down to men\nRemoves his blest abode;\nMen are the objects of his love,\nAnd he their precious God."
+    },
+    {
+      "number": 5,
+      "text": "His own soft hand shall wipe the tears\nFrom every weeping eye;\nAnd pains, and groans, and griefs, and fears,\nAnd death itself, shall die."
+    },
+    {
+      "number": 6,
+      "text": "How bright the vision! O, how long\nShall this glad hour delay?\nFly swifter round, ye wheels of time,\nAnd bring the welcome day!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["New Jerusalem", "Second Coming", "glory"],
+    "scripture_references": ["Revelation 21"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

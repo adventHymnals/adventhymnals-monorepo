@@ -1,0 +1,35 @@
+{
+  "id": "CH1941-en-019",
+  "number": 19,
+  "title": "Angels, from the Realms of Glory",
+  "author": "James Montgomery",
+  "composer": "Henry Smart",
+  "tune": "Regent Square",
+  "meter": "8.7.8.7.8.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Angels, from the realms of glory,\nWing your flight o'er all the earth;\nYe who sang creation's story,\nNow proclaim Messiah's birth:"
+    },
+    {
+      "number": 2,
+      "text": "Shepherds, in the field abiding,\nWatching o'er your flocks by night,\nGod with man is now residing;\nYonder shines the infant light:"
+    },
+    {
+      "number": 3,
+      "text": "Sages, leave your contemplations,\nBrighter visions beam afar;\nSeek the great Desire of nations;\nYe have seen His natal star:"
+    }
+  ],
+  "chorus": {
+    "text": "Come and worship, come and worship,\nWorship Christ, the newborn King."
+  },
+  "metadata": {
+    "year": 1816,
+    "copyright": "Public Domain",
+    "themes": ["Christmas", "nativity", "angels", "worship"],
+    "scripture_references": ["Luke 2:8-14", "Matthew 2:1-12"],
+    "tune_source": "Regent Square, Henry Smart, 1867",
+    "original_language": "en"
+  }
+}

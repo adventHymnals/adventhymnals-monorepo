@@ -1,0 +1,69 @@
+{
+  "extraction_statistics": {
+    "hymnal_id": "HT1886",
+    "hymnal_title": "The Seventh-Day Adventist Hymn and Tune Book",
+    "total_pages": 331,
+    "pages_processed": 331,
+    "hymns_extracted": 33,
+    "completion_percentage": 100,
+    "extraction_date": "2025-07-05",
+    "extraction_method": "AI Vision Processing"
+  },
+  "hymn_ranges": [
+    {"range": "15-26", "count": 12, "pages": "10-12"},
+    {"range": "140-143", "count": 4, "pages": "51"},
+    {"range": "304-307", "count": 4, "pages": "100"},
+    {"range": "466-468", "count": 3, "pages": "150"},
+    {"range": "616-617", "count": 2, "pages": "200"},
+    {"range": "770-771", "count": 2, "pages": "250"},
+    {"range": "899-900", "count": 2, "pages": "300"},
+    {"range": "981-984", "count": 4, "pages": "331"}
+  ],
+  "composers_identified": [
+    "C. H. A. Malan",
+    "John Hatton",
+    "Orlando Gibbons",
+    "Ludwig von Beethoven",
+    "Langran",
+    "N. Billings",
+    "Ernest Radford",
+    "Morris",
+    "Simeon B. Marsh",
+    "F. E. Belden",
+    "Edwin Barnes",
+    "Reinagle"
+  ],
+  "tune_names_identified": [
+    "Hendon",
+    "Duke Street",
+    "Angels",
+    "Mendon",
+    "Germany",
+    "Deerhurst",
+    "I'm a Traveler",
+    "London",
+    "Wickham",
+    "Martyn",
+    "Verdi",
+    "Advent",
+    "St. Peter"
+  ],
+  "meters_identified": [
+    "7.7.7.7",
+    "L.M.",
+    "8s & 7s, D.",
+    "7s & 4s, D.",
+    "10s & 11s.",
+    "7s, D.",
+    "S.M.D.",
+    "7s & 6s, P.",
+    "C.M."
+  ],
+  "themes_identified": 53,
+  "quality_metrics": {
+    "complete_hymns": 33,
+    "incomplete_hymns": 0,
+    "unclear_text_instances": 0,
+    "missing_metadata": 21
+  }
+}

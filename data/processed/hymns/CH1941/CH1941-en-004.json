@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-004",
+  "number": 4,
+  "title": "With Reverence Let the Saints Appear",
+  "author": "Isaac Watts",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "With reverence let the saints appear\nAnd bow before the Lord;\nHis high commands with reverence hear,\nAnd tremble at His word."
+    },
+    {
+      "number": 2,
+      "text": "How terrible Thy glories be!\nHow bright Thine armies shine!\nWhere is the power that vies with Thee,\nOr truth compared with Thine?"
+    },
+    {
+      "number": 3,
+      "text": "The northern pole and southern rest\nOn Thy supporting hand;\nDarkness and day, from east to west,\nMove round at Thy command."
+    },
+    {
+      "number": 4,
+      "text": "Thy words the raging winds control,\nAnd rule the boisterous deep;\nThou mak'st the sleeping billows roll,\nThe rolling billows sleep."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": ["reverence", "worship", "God's power", "nature"],
+    "scripture_references": ["Psalm 89"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

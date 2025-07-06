@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-044",
+  "number": 44,
+  "title": "Morning Has Broken",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Morning has broken\nLike the first morning,\nBlackbird has spoken\nLike the first bird.\nPraise for the singing!\nPraise for the morning!\nPraise for them springing\nFresh from the Word!"
+    },
+    {
+      "number": 2,
+      "text": "Sweet the rain's new fall\nSunlit from heaven,\nLike the first dewfall\nOn the first grass.\nPraise for the sweetness\nOf the wet garden,\nSprung in completeness\nWhere His feet pass."
+    },
+    {
+      "number": 3,
+      "text": "Mine is the sunlight!\nMine is the morning\nBorn of the one light\nEden saw play!\nPraise with elation,\nPraise every morning,\nGod's re-creation\nOf the new day!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["morning", "creation", "praise", "nature"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

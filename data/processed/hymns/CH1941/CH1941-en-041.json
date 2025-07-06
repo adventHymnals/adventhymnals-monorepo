@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-041",
+  "number": 41,
+  "title": "O Christ, With Each Returning Morn",
+  "author": "John Keble",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Christ, with each returning morn,\nThine image to our hearts is borne;\nO may we ever clearly see\nOur God and Savior, Lord, in Thee!"
+    },
+    {
+      "number": 2,
+      "text": "O Christ, our true and only Light,\nIllume our souls with heavenly sight;\nAnd may our lives, like mirrors bright,\nReflect Thine image, pure and right."
+    },
+    {
+      "number": 3,
+      "text": "O Christ, our Life, our Hope, our King,\nTo Thee our grateful hearts we bring;\nO let Thy love within us dwell,\nAnd all our souls with rapture swell."
+    },
+    {
+      "number": 4,
+      "text": "O Christ, when earthly life is done,\nAnd we have fought and victory won,\nMay we behold Thee face to face,\nCrowned with Thy glory and Thy grace."
+    }
+  ],
+  "metadata": {
+    "year": 1827,
+    "copyright": "Public Domain",
+    "themes": ["morning", "Christ's presence", "reflection", "eternal life"],
+    "scripture_references": ["2 Corinthians 3:18", "1 John 3:2"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

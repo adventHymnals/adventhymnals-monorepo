@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-541",
+  "number": 541,
+  "title": "Lord, Speak to Me",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, speak to me, that I may speak\nIn living echoes of Thy tone;\nAs Thou hast sought, so let me seek\nThy erring children lost and lone."
+    },
+    {
+      "number": 2,
+      "text": "O lead me, Lord that I may lead\nThy wandering and the wavering feet;\nO feed me, Lord, that I may feed\nThy hungering ones with manna sweet."
+    },
+    {
+      "number": 3,
+      "text": "O strengthen me, that while I stand\nFirm on the Rock, and strong in Thee,\nI may stretch out a loving hand\nTo wrestlers with the troubled sea."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["service", "ministry", "witnessing", "helping others"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

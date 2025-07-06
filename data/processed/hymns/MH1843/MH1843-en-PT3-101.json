@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-101",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "101",
+  "title": "Fairest Lord Jesus",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Fairest Lord Jesus, Ruler of all nature, O Thou of God and man the Son! Thee will I cherish, Thee will I honor, Thou, my soul's glory, joy, and crown."
+    },
+    {
+      "number": "2",
+      "text": "Fair are the meadows, Fairer still the woodlands, Robed in the blooming garb of spring; Jesus is fairer, Jesus is purer, Who makes the woeful heart to sing."
+    },
+    {
+      "number": "3",
+      "text": "Fair is the sunshine, Fairer still the moonlight, And all the twinkling, starry host; Jesus shines brighter, Jesus shines purer Than all the angels heaven can boast."
+    },
+    {
+      "number": "4",
+      "text": "Beautiful Savior! Lord of the nations! Son of God and Son of Man! Glory and honor, Praise, adoration, Now and forevermore be Thine!"
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "5.6.8.5.5.8.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 240,
+  "themes": ["Jesus", "Fairest", "Lord", "Nature", "Beauty", "Glory", "Honor", "Savior"],
+  "key_signature": "",
+  "time_signature": ""
+}

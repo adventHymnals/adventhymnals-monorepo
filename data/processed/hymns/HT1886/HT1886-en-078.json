@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-078",
+  "number": 78,
+  "title": "Great, great God, how infinite thou art",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": "27, 76, 174",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Great, great God, how infinite thou art!\nWhat worthless worms are we!\nLet the whole race of creatures bow,\nAnd pay their praise to thee."
+    },
+    {
+      "number": 2,
+      "text": "Thy throne eternal ages stood,\nEre seas or stars were made;\nThou art the ever-living God,\nWere all the nations dead."
+    },
+    {
+      "number": 3,
+      "text": "Eternity, with all its years,\nStands present in thy view;\nTo thee there's nothing old appears,\nNor ought is new."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's greatness", "God's infinity", "eternity", "worship", "humility"],
+    "scripture_references": [],
+    "tune_source": "27, 76, 174",
+    "original_language": "en"
+  }
+}

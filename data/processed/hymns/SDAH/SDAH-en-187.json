@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-187",
+  "number": 187,
+  "title": "Jesus, What a Friend for Sinners",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus! what a Friend for sinners!\nJesus! Lover of my soul;\nFriends may fail me, foes assail me,\nHe, my Savior, makes me whole."
+    },
+    {
+      "number": 2,
+      "text": "Jesus! what a Strength for weakness!\nLet me hide myself in Him;\nTempted, tried, and sometimes failing,\nHe, my Strength, my victory wins."
+    },
+    {
+      "number": 3,
+      "text": "Jesus! what a Help in sorrow!\nWhile the billows o'er me roll,\nEven when my heart is breaking,\nHe, my Comfort, helps my soul."
+    },
+    {
+      "number": 4,
+      "text": "Jesus! I do now receive Him,\nMore than all in Him I find;\nHe hath granted me forgiveness,\nI am His, and He is mine."
+    }
+  ],
+  "chorus": {
+    "text": "Hallelujah! what a Savior!\nHallelujah! what a Friend!\nSaving, helping, keeping, loving,\nHe is with me to the end."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["jesus_friendship", "comfort", "strength", "salvation", "help"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-119",
+  "number": 119,
+  "title": "Angels From the Realms of Glory",
+  "author": "James Montgomery",
+  "composer": "Henry T. Smart",
+  "tune": "Regent Square",
+  "meter": "87.87.87",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Angels from the realms of glory,\nWing your flight o'er all the earth;\nYe, who sang creation's story,\nNow proclaim Messiah's birth."
+    },
+    {
+      "number": 2,
+      "text": "Shepherds, in the field abiding,\nWatching o'er your flocks by night,\nGod with man is now residing,\nYonder shines the infant Light."
+    },
+    {
+      "number": 3,
+      "text": "Sages, leave your contemplations,\nBrighter visions beam afar;\nSeek the great Desire of nations,\nYe have seen His natal star."
+    },
+    {
+      "number": 4,
+      "text": "Saints, before the altar bending,\nWatching long in hope and fear,\nSuddenly the Lord, descending,\nIn His temple shall appear."
+    }
+  ],
+  "chorus": {
+    "text": "Come and worship, Come and worship,\nWorship Christ, the newborn King."
+  },
+  "metadata": {
+    "year": 1816,
+    "copyright": "Public Domain",
+    "themes": ["Christmas", "Angels", "Worship", "Christ's Birth"],
+    "scripture_references": ["Luke 2:13-14", "Matthew 2:1-2"],
+    "tune_source": "Henry T. Smart, 1867",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-102",
+  "number": 102,
+  "title": "Jesus, my love, my chief delight",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, my love, my chief delight,\nFor thee I long, for thee I pray,\nAmid the shadows of the night,\nAmid the business of the day."
+    },
+    {
+      "number": 2,
+      "text": "When shall I see thy smiling face,\nThat face which I have often seen?\nArise, thou Sun of Righteousness,\nScatter the clouds that intervene."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus Christ", "love of Christ", "longing for Christ", "prayer"],
+    "scripture_references": ["Malachi 4:2"],
+    "tune_source": "744",
+    "original_language": "en"
+  }
+}

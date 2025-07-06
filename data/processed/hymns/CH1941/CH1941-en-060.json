@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-060",
+  "number": 60,
+  "title": "O Blessed Hour",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O blessed hour, when mortal man\nRetires to seek his God,\nWhen earth-born cares he banishes\nAnd treads the heavenly road."
+    },
+    {
+      "number": 2,
+      "text": "O blessed hour, when weary souls\nFind sweet and soft repose,\nWhen burdened hearts lay down their load\nAnd taste a sweet compose."
+    },
+    {
+      "number": 3,
+      "text": "O blessed hour, when God inclines\nHis ear to mortal prayer,\nWhen mercy's streams flow freely down\nTo wash away our care."
+    },
+    {
+      "number": 4,
+      "text": "Then to that sacred hour of prayer\nWith grateful hearts we'll flee,\nAnd find in communion sweet\nOur rest and peace in Thee."
+    }
+  ],
+  "metadata": {
+    "year": "[needs verification]",
+    "copyright": "Public Domain",
+    "themes": ["prayer", "communion with God", "rest", "peace"],
+    "scripture_references": ["Matthew 6:6", "Psalm 55:17"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

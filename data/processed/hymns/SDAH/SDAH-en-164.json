@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-164",
+  "number": 164,
+  "title": "There Is a Green Hill Far Away",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is a green hill far away, Without a city wall,\nWhere the dear Lord was crucified, Who died to save us all."
+    },
+    {
+      "number": 2,
+      "text": "We may not know, we cannot tell, What pains He had to bear,\nBut we believe it was for us He hung and suffered there."
+    },
+    {
+      "number": 3,
+      "text": "He died that we might be forgiven, He died to make us good,\nThat we might go at last to heaven, Saved by His precious blood."
+    },
+    {
+      "number": 4,
+      "text": "There was no other good enough To pay the price of sin;\nHe only could unlock the gate Of heaven, and let us in."
+    },
+    {
+      "number": 5,
+      "text": "O dearly, dearly has He loved! And we must love Him too,\nAnd trust in His redeeming blood, And try His works to do."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["crucifixion", "salvation", "love", "redemption"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "HGPP-en-001",
+  "number": 1,
+  "title": "Holy Sabbath",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The pure, unfailing Word of God\nFoundation ever sure\nIts statutes, precepts and its laws,\nAre written for the pure."
+    },
+    {
+      "number": 2,
+      "text": "In paradise where man was led,\nThe word will safely guide;\nAnd if he should this law evade,\nHis steps would surely slide."
+    },
+    {
+      "number": 3,
+      "text": "The Holy Sabbath here was made,\nWhich God did sanctify;\nAnd if we would our God obey,\nWe must with this comply."
+    },
+    {
+      "number": 4,
+      "text": "In after times, when Moses liv'd,\nThis law was ratified\nAnd all who keep this holy word,\nMay know they're sanctified."
+    },
+    {
+      "number": 5,
+      "text": "Still farther down the stream of time,\nWe hear the prophet say\nHearken, fear not reproach nor shame,\nWho keep the seventh day."
+    },
+    {
+      "number": 6,
+      "text": "For thus the Mighty God hath said\nTo those who truly rest,\nThou shalt on the high places ride,\nAnd feed among the blest."
+    },
+    {
+      "number": 7,
+      "text": "Here too are they who patient are,\nAnd keep commandments pure,\nThey'll in the Holy City share,\nIf to the end endure."
+    },
+    {
+      "number": 8,
+      "text": "Then let us still pursue this road,\nTill we fair Canaan gain,\nThen we shall walk the street of gold,\nAnd in that rest remain."
+    }
+  ],
+  "metadata": {
+    "year": 1849,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "Ten Commandments", "sanctification", "obedience"],
+    "scripture_references": ["Exodus 20:8-11", "Isaiah 58:13-14"],
+    "tune_source": "[needs verification]",
+    "original_language": "en",
+    "hymnal_context": "Seventh-day Advent movement, 1849"
+  }
+}

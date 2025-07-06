@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-446",
+  "number": 446,
+  "title": "Lo, What a Glorious Sight Appears",
+  "author": "Isaac Watts",
+  "composer": "Traditional",
+  "tune": "ARLINGTON",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lo, what a glorious sight appears\nTo our believing eyes!\nThe earth and seas are passed away,\nAnd the old rolling skies."
+    },
+    {
+      "number": 2,
+      "text": "Attending angels shout for joy,\nAnd the bright armies sing\nMortals! behold the sacred seat\nOf your descending King."
+    },
+    {
+      "number": 3,
+      "text": "His own soft hand shall wipe the tears\nFrom every weeping eye;\nAnd pains, and groans, and griefs, and fears,\nAnd death itself shall die."
+    },
+    {
+      "number": 4,
+      "text": "How long, dear Savior! O, how long\nShall this bright hour delay?\nFly swifter round, ye wheels of time!\nAnd bring the welcome day."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1707,
+    "copyright": "Public Domain",
+    "themes": ["second coming", "new heaven and earth", "glory", "comfort", "eternal life"],
+    "scripture_references": ["Revelation 21:1-4", "2 Peter 3:13", "Isaiah 25:8"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

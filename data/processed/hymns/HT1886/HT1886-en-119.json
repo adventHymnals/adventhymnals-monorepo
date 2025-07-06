@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-119",
+  "number": 119,
+  "title": "The Saviour! O what endless charms",
+  "author": "Anne Steele",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The Saviour! O what endless charms\nDwell in the blissful sound!\nIts influence every fear disarms,\nAnd spreads sweet comfort round."
+    },
+    {
+      "number": 2,
+      "text": "The mighty Former of the skies\nStooped to our vile abode,\nWhile angels viewed with wondering eyes,\nAnd hailed the incarnate God."
+    },
+    {
+      "number": 3,
+      "text": "O the rich depths of love divine!\nOf bliss, a boundless store!\nDear Saviour, let me call thee mine,\nI cannot wish for more."
+    },
+    {
+      "number": 4,
+      "text": "On thee alone my hope relies,\nBeneath thy cross I fall;\nMy Lord, my Life, my Sacrifice,\nMy Saviour, and my All!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus Christ", "Saviour", "incarnation", "love divine", "comfort", "hope"],
+    "scripture_references": [],
+    "tune_source": "150, 747, 227",
+    "original_language": "en"
+  }
+}

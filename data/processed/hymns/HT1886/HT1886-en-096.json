@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-096",
+  "number": 96,
+  "title": "Help, O God, my weak endeavor",
+  "author": "Francis Scott Key",
+  "composer": null,
+  "tune": "503, 499, 406",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Help, O God, my weak endeavor;\nThis dull soul to rapture raise;\nThou must light the flame, or never\nCan my love be warmed to praise."
+    },
+    {
+      "number": 2,
+      "text": "Praise, my soul, the God that sought thee,\nWretched wanderer, far astray;\nFound thee lost, and kindly brought thee\nFrom the paths of death away."
+    },
+    {
+      "number": 3,
+      "text": "Praise the grace whose threats alarmed thee,\nRoussed thee from thy fatal ease;\nPraise the grace whose promise warmed thee,\nPraise the grace that whispers peace."
+    },
+    {
+      "number": 4,
+      "text": "Lord, this bosom's ardent feeling\nVainly would my lips express;\nLow before thy footstool kneeling,\nDeign thy suppliant's prayer to bless."
+    },
+    {
+      "number": 5,
+      "text": "Let thy grace, my soul's chief treasure,\nLove's pure flame within me raise;\nAnd, since words can never measure,\nLet my life show forth thy praise."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["seeking God's help", "God's grace", "salvation", "praise", "dedication"],
+    "scripture_references": [],
+    "tune_source": "503, 499, 406",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "HSAB-en-112",
+  "number": 112,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THINE Holy day's returning,\nOur hearts exult to see,\nAnd, with devotion burning,\nAscend, Great God, to thee.\nTo day with purest pleasure,\nOur thoughts from earth withdraw;\nWe search for heavenly treasure,\nWe learn thy holy law."
+    },
+    {
+      "number": 2,
+      "text": "We join to sing thy praises,\nO, God, of Sabbath day!\nEach voice in gladness raises\nIts loudest, sweetest lay.\nThy richest mercies sharing–\nInspire us with thy love;\nBy grace our souls preparing\nFor nobler praise above."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "holy day", "devotion", "worship", "praise", "divine law", "preparation"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

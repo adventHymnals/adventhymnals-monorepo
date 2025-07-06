@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-112",
+  "number": 112,
+  "title": "Come, let us join our cheerful songs",
+  "author": "Isaac Watts",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, let us join our cheerful songs\nWith angels round the throne;\nTen thousand thousand are their tongues,\nBut all their joys are one."
+    },
+    {
+      "number": 2,
+      "text": "Worthy the Lamb who died, they cry,\nTo be exalted thus;\nWorthy the Lamb, our hearts reply,\nFor he was slain for us."
+    },
+    {
+      "number": 3,
+      "text": "Jesus is worthy to receive\nHonor and power divine;\nAnd blessings more than we can give,\nBe, Lord, forever thine."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["praise", "worship", "worthy the Lamb", "angels", "Jesus Christ", "heaven"],
+    "scripture_references": ["Revelation 5:11-12"],
+    "tune_source": "57, 438, 254",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-165",
+  "number": 165,
+  "title": "Love divine, all love excelling",
+  "author": "Charles Wesley",
+  "composer": "",
+  "tune": "",
+  "meter": "577, 41, 62",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Love divine, all love excelling,\nJoy of heaven, to earth come down:\nFix in us thy humble dwelling,\nAll thy faithful mercies crown."
+    },
+    {
+      "number": 2,
+      "text": "Jesus, thou art all compassion,\nPure, unbounded love thou art;\nVisit us with thy salvation,\nEnter every trembling heart."
+    },
+    {
+      "number": 3,
+      "text": "Breathe, O breathe thy loving Spirit\nInto every troubled breast!\nLet us all thy grace inherit,\nLet us find thy promised rest."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["divine love", "Jesus", "salvation", "Holy Spirit", "grace", "peace"],
+    "scripture_references": [],
+    "tune_source": "577, 41, 62",
+    "original_language": "en"
+  }
+}

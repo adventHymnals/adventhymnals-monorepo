@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-156",
+  "number": 156,
+  "title": "O Sacred Head Now Wounded",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O sacred head, now wounded,\nWith grief and shame weighed down,\nNow scornfully surrounded\nWith thorns, Thine only crown;\nO sacred head, what glory,\nWhat bliss till now was Thine!\nYet, though despised and gory,\nI joy to call Thee mine."
+    },
+    {
+      "number": 2,
+      "text": "What Thou, my Lord, hast suffered\nWas all for sinners' gain;\nMine, mine was the transgression,\nBut Thine the deadly pain.\nLo, here I fall, my Savior!\n'Tis I deserve Thy place;\nLook on me with Thy favor,\nVouchsafe to me Thy grace."
+    },
+    {
+      "number": 3,
+      "text": "What language shall I borrow\nTo thank Thee, dearest Friend,\nFor this Thy dying sorrow,\nThy pity without end?\nO make me Thine forever,\nAnd should I fainting be,\nLord, let me never, never\nOutlive my love to Thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Jesus", "suffering", "crucifixion", "gratitude"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

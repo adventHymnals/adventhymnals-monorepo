@@ -1,0 +1,44 @@
+{
+  "id": "HT1886-en-294",
+  "number": 294,
+  "title": "He has come! the Christ of God",
+  "author": "Horatius Bonar",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "He has come! the Christ of God\nLeft lofty his glorious throne,\nStooping from his throne of bliss\nTo this darksome wilderness."
+    },
+    {
+      "number": 2,
+      "text": "He has come! the Prince of peace;\nCome to bid our sorrows cease,\nCome to scatter with his light\nAll the shadows of our night."
+    },
+    {
+      "number": 3,
+      "text": "He, the mighty King, has come!\nMaking this poor earth his home;\nCome to bear our sin's sad load;\nSon of David, Son of God!"
+    },
+    {
+      "number": 4,
+      "text": "He has come, whose name of grace\nSpeaks deliverance to our race,\nLeft his Father's throne above,\nSon of Mary, Son of God!"
+    },
+    {
+      "number": 5,
+      "text": "Unto us a child is born!\nNe'er has earth beheld a morn,\nAmong all the morns of time,\nHalf so glorious in its prime."
+    },
+    {
+      "number": 6,
+      "text": "He has come from God's own heaven,\nBringing us from him from above,\nHoly peace and holy love."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "First Advent", "Christmas", "Prince of Peace", "incarnation"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

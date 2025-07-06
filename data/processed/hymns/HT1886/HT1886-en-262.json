@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-262",
+  "number": 262,
+  "title": "Eternal Father, God of love",
+  "author": "F. E. Belden",
+  "composer": null,
+  "tune": "Mason. L. M.",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Eternal Father, God of love, Creator of the universe,\nPour out thy Spirit from above As from thy temple we disperse."
+    },
+    {
+      "number": 2,
+      "text": "Keep thou our souls, till all we say\nMay honor thee, our God and King;\nThat our example day by day\nMay teach the sacred truths we sing."
+    },
+    {
+      "number": 3,
+      "text": "Direct our wayward steps aright,\nOur Guide and our deliverer be;\nIn vain eternal arms of might\nUnfold and draw us nearer thee."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["eternal Father", "divine love", "Holy Spirit", "guidance"],
+    "scripture_references": [],
+    "tune_source": "Mason. L. M.",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "CH1941-en-057",
+  "number": 57,
+  "title": "The Day Thou Gavest",
+  "author": "John Ellerton",
+  "composer": "Clement Cotterill Scholefield",
+  "tune": "St. Clement",
+  "meter": "9.8.9.8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The day Thou gavest, Lord, is ended,\nThe darkness falls at Thy behest;\nTo Thee our morning hymns ascended,\nThy praise shall sanctify our rest."
+    },
+    {
+      "number": 2,
+      "text": "We thank Thee that Thy church, unsleeping,\nWhile earth rolls onward into light,\nThrough all the world her watch is keeping,\nAnd rests not now by day or night."
+    },
+    {
+      "number": 3,
+      "text": "As o'er each continent and island\nThe dawn leads on another day,\nThe voice of prayer is never silent,\nNor dies the strain of praise away."
+    },
+    {
+      "number": 4,
+      "text": "The sun that bids us rest is waking\nOur brethren 'neath the western sky,\nAnd hour by hour fresh lips are making\nThy wondrous doings heard on high."
+    },
+    {
+      "number": 5,
+      "text": "So be it, Lord; Thy throne shall never,\nLike earth's proud empires, pass away:\nThy kingdom stands, and grows forever,\nTill all Thy creatures own Thy sway."
+    }
+  ],
+  "metadata": {
+    "year": 1870,
+    "copyright": "Public Domain",
+    "themes": ["evening", "global church", "continuous worship", "God's kingdom"],
+    "scripture_references": ["Psalm 113:3", "Malachi 1:11"],
+    "tune_source": "St. Clement, Clement Cotterill Scholefield, 1874",
+    "original_language": "en"
+  }
+}

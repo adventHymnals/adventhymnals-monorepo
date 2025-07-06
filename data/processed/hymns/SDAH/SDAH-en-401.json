@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-401",
+  "number": 401,
+  "title": "In Imitation, Lord of Thee",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "3/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In imitation, Lord, of Thee,\nThis solemn service we repeat:\nFor Thine example, full of grace,\nHas made this humble duty sweet."
+    },
+    {
+      "number": 2,
+      "text": "Renew each sacred spark of love,\nAnd vitalize the holy feet;\nMay un-ion strong as we follow\nWhile this we do in Jesus' name."
+    },
+    {
+      "number": 3,
+      "text": "Our great example Thou shalt be,\nIn washing Thy disciples' feet;\nMake Thou our fellowship complete."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["discipleship", "humility", "service", "communion"],
+    "scripture_references": ["John 13"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

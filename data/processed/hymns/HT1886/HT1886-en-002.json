@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-002",
+  "number": 2,
+  "title": "Father supreme, whose wondrous love",
+  "author": null,
+  "composer": null,
+  "tune": "Father",
+  "meter": "47, 64, 165",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Father supreme, whose wondrous love\nOur utmost thought so far exceeds,\nWe seek thy blessing from above,\nA rich supply for all our needs."
+    },
+    {
+      "number": 2,
+      "text": "On thee alone our hopes we rest,\nTo thee alone we lift our eyes;\nRegard our prayer, though unexpressed,\nAccept our spirit's sacrifice."
+    },
+    {
+      "number": 3,
+      "text": "'T is not for present power or wealth,\nOr worldly fame, we look to thee;\nWe ask thy gift of heavenly health,\nThe gift of immortality."
+    },
+    {
+      "number": 4,
+      "text": "Fulfill in us thy faithful word,\nThrough Jesus Christ our Saviour,—\nOur Mercy-seat, our Righteousness,\nWho lives again to die no more."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["prayer", "God's love", "blessing", "salvation", "Jesus"],
+    "scripture_references": [],
+    "tune_source": "Father",
+    "original_language": "en"
+  }
+}

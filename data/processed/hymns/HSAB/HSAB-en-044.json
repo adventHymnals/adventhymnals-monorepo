@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-044",
+  "number": 44,
+  "title": "Victory",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WHEN I can read my title clear,\nTo mansions in the skies,\nI bid farewell to every fear,\nAnd wipe my weeping eyes."
+    },
+    {
+      "number": 2,
+      "text": "Should earth against my soul engage,\nAnd fiery darts be hurled,\nThen I can smile at Satan's rage,\nAnd face a frowning world."
+    },
+    {
+      "number": 3,
+      "text": "Let cares like a wild deluge come,\nAnd storms of sorrow fall;\nMay I but safely reach my home,\nMy God, my heaven, my all."
+    },
+    {
+      "number": 4,
+      "text": "There shall I bathe my weary soul\nIn seas of heavenly rest,\nAnd not a wave of trouble roll\nAcross my peaceful breast."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["victory", "title", "heaven", "peace", "overcoming"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-200",
+  "number": 200,
+  "title": "The Lord Is Coming",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The Lord is coming, let this be\nThe herald note of jubilee;\nAnd when we meet and when we part\nThe salutation from the heart."
+    },
+    {
+      "number": 2,
+      "text": "The Lord is coming! sound it forth\nFrom east to west, from south to north;\nSpeed on! speed on the tidings glad,\nThat none who love Him may be sad."
+    },
+    {
+      "number": 3,
+      "text": "The Lord is coming, swift and sure\nAnd none can hope to escape His wrath,\nWho walk not in the narrow path,\nWith all His judgments shall endure."
+    },
+    {
+      "number": 4,
+      "text": "This earth, with her ten thousand wrongs\nWill soon be tuned to nobler songs;\nOur praise shall then, in realms of light,\nWith all His universe unite."
+    }
+  ],
+  "chorus": {
+    "text": "The Lord is coming, let this be\nThe herald note of jubilee,\nThe herald note of jubilee."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["second_coming", "herald", "jubilee", "preparation", "hope"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-566",
+  "number": 566,
+  "title": "Father, We Thank You",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Father, we thank You for the light\nthat shines all the day;\nFor the bright sky You have given\nMost like Your heaven;\nFather, we thank You."
+    },
+    {
+      "number": 2,
+      "text": "Father, we thank You for the lamps\nthat light en the way;\nFor human skill's exploration\nOf Your creation;\nFather, we thank You."
+    },
+    {
+      "number": 3,
+      "text": "Father, we thank You for the friends\nwho brighten our play;\nFor Your command to call others\nSisters and brothers;\nFather, we thank You."
+    },
+    {
+      "number": 4,
+      "text": "Father, we thank You for Your love\nin Jesus today.\nGiving us hope for tomorrow\nThrough joy and sorrow;\nFather, we thank You."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["thanksgiving", "gratitude", "children", "family"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

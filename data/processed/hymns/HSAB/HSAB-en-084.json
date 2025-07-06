@@ -1,0 +1,37 @@
+{
+  "id": "HSAB-en-084",
+  "number": 84,
+  "title": "Jubilee",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I NEVER shall forget the day,\nWhen Jesus wash'd my sins away.\nNow my soul is very happy,\nWill you go along with me?\nNow my soul is very happy,\nGo sound the Jubilee."
+    },
+    {
+      "number": 2,
+      "text": "I am happy in this house of clay,\nBut what is this to perfect day?\nThere's a better day a coming;\nWill you go along with me?"
+    },
+    {
+      "number": 3,
+      "text": "Though sinners persecute me here,\nThrough Jesus Christ I'll persevere;\nChrist will ruin Satan's kingdom–\nWill you go along with me?"
+    },
+    {
+      "number": 4,
+      "text": "A little longer here below,\nThen home to glory we shall go–\nI am on my way to glory–\nWill you go along with me?"
+    },
+    {
+      "number": 5,
+      "text": "Come on, come on, my brethren dear,\nWe soon shall meet together there;\nWhen we'll join the saints in glory—\nWill you go along with me?"
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["jubilee", "sins washed", "perfect day", "satan's kingdom", "saints in glory"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

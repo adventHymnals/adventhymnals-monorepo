@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-055",
+  "number": 55,
+  "title": "O God, how great thy glory is",
+  "author": null,
+  "composer": "Isaac Watts",
+  "tune": "60, 632, 706",
+  "meter": "60, 632, 706",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O God, how great thy glory is!\nThy wondrous ways, O who can know?\nO higher thoughts than thankless are!\nThy countless attributes to show?"
+    },
+    {
+      "number": 2,
+      "text": "Greatness unspeakable is thine,—\nGreatness where all is darkness, shall\nshine,\nWhen short-lived worlds are fled away."
+    },
+    {
+      "number": 3,
+      "text": "Unchangeable, all-perfect Lord,\nEssential life's unbounded sea,\nWhat lives and moves, and is, from thee."
+    },
+    {
+      "number": 4,
+      "text": "High is thy power above all Rest,\nWhatever thy will decrees, is done;\nThy wisdom, equal to thy might,\nOnly to thee, O God, is known!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's glory", "divine greatness", "God's power", "divine wisdom", "God's unchanging nature"],
+    "scripture_references": [],
+    "tune_source": "Isaac Watts",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CH1941-en-071",
+  "number": 71,
+  "title": "My Maker and My King",
+  "author": "Isaac Watts",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "S.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My Maker and my King,\nTo Thee I lift mine eyes;\nO let me ne'er to folly turn,\nNor from Thy precepts stray."
+    },
+    {
+      "number": 2,
+      "text": "Make me to walk in Thy commands,\n'Tis a delightful road;\nNor let my head or heart or hands\nOffend against my God."
+    },
+    {
+      "number": 3,
+      "text": "How shall a young man cleanse his way?\nBy walking in Thy word;\nThy commandments and Thy fear\nShall keep my conscience pure."
+    },
+    {
+      "number": 4,
+      "text": "When nature sinks in death,\nWhen speech can be no more,\nThen in my last expiring breath\nMy soul shall trust Thy power."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": ["obedience", "walking with God", "purity", "trust"],
+    "scripture_references": ["Psalm 119:9", "Psalm 119:105"],
+    "tune_source": "[needs verification]",
+    "original_language": "en"
+  }
+}

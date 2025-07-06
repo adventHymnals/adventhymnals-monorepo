@@ -1,0 +1,40 @@
+{
+  "id": "HSAB-en-150",
+  "number": 150,
+  "title": "RESURRECTION MORNING",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I'M glad I ever heard the cry,\nWe'll all rise together in the morning;\nMy Saviour's coming from the sky,\nWe'll all rise together in the morning."
+    },
+    {
+      "number": 2,
+      "text": "A righteous crown we soon shall wear,\nWe'll all rise together in the morning;\nIt will outshine the morning star,\nWe'll all rise together in the morning."
+    },
+    {
+      "number": 3,
+      "text": "The blessed Saviour then will come,\nWe'll all rise together in the morning;\nTo take his holy people home,\nWe'll all rise together in the morning."
+    },
+    {
+      "number": 4,
+      "text": "You'll see him coming in a cloud,\nWe'll all rise together in the morning;\nThen all the saints will shout aloud,\nWe'll all rise together in the morning."
+    },
+    {
+      "number": 5,
+      "text": "O, glorious hope—O, blest abode,\nWe'll all rise together in the morning;\nI shall be there, and like my Lord,\nWe'll all rise together in the morning."
+    }
+  ],
+  "chorus": {
+    "text": "In the morning, resurrection morning,\nWe'll all rise together in the morning."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["resurrection", "Second Coming", "righteous crown", "saints", "glorious hope"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

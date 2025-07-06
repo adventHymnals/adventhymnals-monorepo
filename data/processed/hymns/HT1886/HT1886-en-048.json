@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-048",
+  "number": 48,
+  "title": "I am, O my soul, thy Maker's will",
+  "author": null,
+  "composer": "Isaac Watts",
+  "tune": "64, 64, 664",
+  "meter": "64, 64, 664",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I am, O my soul, thy Maker's will,\nTremendous passion all the rest,\nNor let a murmuring thought arise;\nTis reason of all conflicts wise."
+    },
+    {
+      "number": 2,
+      "text": "The reasons of his conduct tells,\nPerforms his work, the cause conceals;\nAnd though his Footsteps are unknown,\nJudgment and truth support his throne."
+    },
+    {
+      "number": 3,
+      "text": "In heaven and earth and air and seas\nHe warms his firm decrees;\nAnd by his infinite express\nThat what he does is ever best."
+    },
+    {
+      "number": 4,
+      "text": "Wait, then, my soul, submissive wait,\nWith reverence bow before his seat,\nAnd 'mid the terrors of his rod\nTrust in a wise and gracious God."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["submission", "God's will", "trust", "divine wisdom", "patience", "faith"],
+    "scripture_references": [],
+    "tune_source": "Isaac Watts",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "MH1843-en-PT3-108",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "108",
+  "title": "He Lives",
+  "verses": [
+    {
+      "number": "1",
+      "text": "I serve a risen Savior, He's in the world today; I know that He is living, whatever men may say; I see His hand of mercy, I hear His voice of cheer, And just the time I need Him He's always near."
+    },
+    {
+      "number": "2",
+      "text": "In all the world around me I see His loving care, And tho' my heart grows weary I never will despair; I know that He is leading thru all the stormy blast, The day of His appearing will come at last."
+    },
+    {
+      "number": "3",
+      "text": "Rejoice, rejoice, O Christian, lift up your voice and sing Eternal hallelujahs to Jesus Christ the King! The hope of all who seek Him, the help of all who find, None other is so loving, so good and kind."
+    }
+  ],
+  "refrain": {
+    "text": "He lives, He lives, Christ Jesus lives today! He walks with me and talks with me along life's narrow way. He lives, He lives, salvation to impart! You ask me how I know He lives? He lives within my heart."
+  },
+  "meter": "10.9.10.9. with Refrain",
+  "tune": "ACKLEY",
+  "composer": "A. H. Ackley",
+  "author": "A. H. Ackley",
+  "page": 251,
+  "themes": ["Risen Savior", "Living", "Mercy", "Cheer", "Leading", "Hope", "Lives", "Christ Jesus", "Salvation"],
+  "key_signature": "Bb",
+  "time_signature": "6/8"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "SDAH-en-614",
+  "number": 614,
+  "title": "Sound the Battle Cry",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sound the battle cry!\nSee! the foe is nigh;\nRaise the standard high\nFor the Lord;\nGird your armor on,\nStand firm, every one,\nRest your cause upon\nHis holy word."
+    },
+    {
+      "number": 2,
+      "text": "Strong to meet the foe,\nMarching on we go,\nWhile our cause we know\nMust prevail;\nShield and banner bright,\nGleaming in the light,\nBattling for the right,\nWe ne'er can fail."
+    },
+    {
+      "number": 3,
+      "text": "O Thou God of all,\nHear us when we call,\nHelp us, one and all,\nBy Thy grace;\nWhen the battle's done,\nAnd the victory won,\nMay we wear the crown\nBefore Thy face."
+    }
+  ],
+  "chorus": {
+    "text": "Rouse, then, soldiers!\nRally round the banner!\nReady, steady,\nPass the word along;\nOnward, forward,\nShout aloud hosanna!\nChrist is Captain of the mighty throng."
+  },
+  "metadata": {
+    "themes": ["spiritual warfare", "victory", "battle", "service"],
+    "scripture_references": ["2 Timothy 2:3", "Ephesians 6:11-17", "1 Corinthians 15:57"],
+    "copyright": "Public Domain"
+  }
+}

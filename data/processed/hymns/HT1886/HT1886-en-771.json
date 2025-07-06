@@ -1,0 +1,28 @@
+{
+  "id": "HT1886-en-771",
+  "number": 771,
+  "title": "Jesus, Lover of my soul",
+  "author": null,
+  "composer": "Simeon B. Marsh",
+  "tune": "Martyn",
+  "meter": "7s, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, Lover of my soul,\nWhile the billows near me roll,\nWhile the tempest still is high!\nO receive my soul at last!"
+    },
+    {
+      "number": 2,
+      "text": "Hide me, O my Saviour, hide!\nTill the storm of life is past;"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Jesus", "protection", "refuge"],
+    "scripture_references": [],
+    "tune_source": "Martyn, Simeon B. Marsh",
+    "original_language": "en"
+  }
+}

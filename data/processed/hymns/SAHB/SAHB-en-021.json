@@ -1,0 +1,33 @@
+{
+  "id": "SAHB-en-021",
+  "number": 21,
+  "title": "Sweet By and By",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There's a land that is fairer than day,\nAnd by faith we can see it afar;\nFor the Father waits over the way,\nTo prepare us a dwelling place there."
+    },
+    {
+      "number": 2,
+      "text": "We shall sing on that beautiful shore\nThe melodious songs of the blessed;\nAnd our spirits shall sorrow no more,\nNot a sigh for the blessing of rest."
+    },
+    {
+      "number": 3,
+      "text": "To our bountiful Father above,\nWe will offer our tribute of praise,\nFor the glorious gift of his love,\nAnd the blessings that hallow our days."
+    }
+  ],
+  "chorus": {
+    "text": "In the sweet by and by,\nWe shall meet on that beautiful shore;\nIn the sweet by and by,\nWe shall meet on that beautiful shore."
+  },
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["heaven", "blessed hope", "eternal rest", "praise"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

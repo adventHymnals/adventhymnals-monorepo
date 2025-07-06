@@ -1,0 +1,30 @@
+{
+  "id": "SAHB-en-012",
+  "number": 12,
+  "title": "Hark! the herald angels sing",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! the herald angels sing,\n'Glory to the new-born King!\nPeace on earth, and mercy mild,\nGod and sinners reconciled.'\nJoyful, all ye nations rise,\nJoin the triumph of the skies,\nWith th' angelic host proclaim,\n'Christ is born in Bethlehem.'"
+    },
+    {
+      "number": 2,
+      "text": "Christ, by highest heaven adored,\nChrist, the everlasting Lord,\nLate in time behold him come,\nOffspring of the virgin's womb.\nVeiled in flesh the Godhead see,\nHail th' incarnate Deity,\nPleased as man with man to dwell,\nJesus, our Emmanuel."
+    },
+    {
+      "number": 3,
+      "text": "Hail the heaven-born Prince of Peace!\nHail the Sun of Righteousness!\nLight and life to all he brings,\nRisen with healing in his wings.\nMild he lays his glory by,\nBorn that man no more may die,\nBorn to raise the sons of earth,\nBorn to give them second birth."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["Christmas", "incarnation", "peace", "new birth"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

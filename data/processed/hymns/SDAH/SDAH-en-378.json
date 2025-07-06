@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-378",
+  "number": 378,
+  "title": "Go, Preach My Gospel",
+  "author": "Joseph Smith Jr.",
+  "composer": "John Tullidge",
+  "tune": "MISSIONARY",
+  "meter": "L.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Go, preach My gospel,\" saith the Lord;\n\"Bid the whole world My grace receive;\nHe shall be saved who trusts My word,\nAnd they condemned who won't believe."
+    },
+    {
+      "number": 2,
+      "text": "\"I'll make your great commission known,\nAnd ye shall prove My gospel true\nBy all the works that I have done,\nBy all the wonders ye shall do."
+    },
+    {
+      "number": 3,
+      "text": "\"Teach all the nations My commands;\nI'm with you till the world shall end;\nAll power is given to My hands;\nI can destroy, and I defend.\""
+    },
+    {
+      "number": 4,
+      "text": "He spake, and light shone round His head;\nOn a bright cloud to heaven He rode;\nThey to the farthest nations spread\nThe grace of their ascended Lord."
+    }
+  ],
+  "metadata": {
+    "year": 1835,
+    "copyright": "Public Domain",
+    "themes": ["Great Commission", "Evangelism", "Mission", "Gospel"],
+    "scripture_references": ["Matthew 28:19-20", "Mark 16:15-16"],
+    "tune_source": "John Tullidge, 1871",
+    "original_language": "en"
+  }
+}

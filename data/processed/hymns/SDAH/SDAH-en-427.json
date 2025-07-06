@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-427",
+  "number": 427,
+  "title": "No Night There",
+  "author": "John R. Clements",
+  "composer": "H. P. Danks",
+  "tune": "NO NIGHT THERE",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In the land of fadeless day\nLies \"the city foursquare;\"\nIt shall never pass away,\nAnd there is \"no night there.\""
+    },
+    {
+      "number": 2,
+      "text": "All the gates of pearl are made,\nIn \"the city foursquare;\"\nAll the streets with gold are laid,\nAnd there is \"no night there.\""
+    },
+    {
+      "number": 3,
+      "text": "And the gates shall never close\nTo \"the city foursquare;\"\nThere life's crystal river flows,\nAnd there is \"no night there.\""
+    },
+    {
+      "number": 4,
+      "text": "There they need no sunshine bright,\nIn \"that city foursquare;\"\nFor the Lamb is all the light,\nAnd there is \"no night there.\""
+    }
+  ],
+  "chorus": {
+    "text": "God shall \"wipe away all tears;\"\nThere's no death, no pain, nor fears;\nAnd they count not time by years,\nFor there is \"no night there.\""
+  },
+  "metadata": {
+    "year": 1874,
+    "copyright": "Public Domain",
+    "themes": ["heaven", "eternal life", "New Jerusalem", "no night", "glory"],
+    "scripture_references": ["Revelation 21:25", "Revelation 22:5", "Revelation 21:4"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

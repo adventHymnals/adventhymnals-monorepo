@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-081",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "081",
+  "title": "All hail the power of Jesus' name",
+  "verses": [
+    {
+      "number": "1",
+      "text": "All hail the power of Jesus' name, Let angels prostrate fall; Bring forth the royal diadem, To crown him Lord of all."
+    },
+    {
+      "number": "2",
+      "text": "Let high-born seraphs tune the lyre, And, as they tune it, fall Before his face who tunes their choir, And crown him Lord of all."
+    },
+    {
+      "number": "3",
+      "text": "Crown him, ye morning stars of light, He fixed this floating ball; Now hail the strength of Israel's might, And crown him Lord of all."
+    },
+    {
+      "number": "4",
+      "text": "Crown him, ye martyrs of your God, Who from his altar call;"
+    }
+  ],
+  "refrain": {
+    "text": ""
+  },
+  "meter": "C.M.",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 220,
+  "themes": ["Jesus", "Name", "Angels", "Crown", "Lord", "Seraphs", "Israel"],
+  "key_signature": "",
+  "time_signature": ""
+}

@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-172",
+  "number": 172,
+  "title": "The Strife Is O'er",
+  "author": "Latin, 1695; tr. Francis Pott",
+  "composer": "Giovanni Pierluigi da Palestrina",
+  "tune": "Victory",
+  "meter": "8.8.8 with Alleluias",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The strife is o'er, the battle done;\nNow is the victor's triumph won!\nNow be the song of praise begun."
+    },
+    {
+      "number": 2,
+      "text": "The powers of death have done their worst,\nBut Christ their legions has dispersed.\nLet shouts of holy joy outburst."
+    },
+    {
+      "number": 3,
+      "text": "The three sad days have quickly sped,\nHe rises glorious from the dead.\nAll glory to our risen Head!"
+    },
+    {
+      "number": 4,
+      "text": "Lord, by the stripes which wounded You,\nFrom death's sting free Your servants too,\nThat we may live and sing to You."
+    }
+  ],
+  "chorus": {
+    "text": "Alleluia, alleluia, alleluia!"
+  },
+  "metadata": {
+    "year": 1695,
+    "copyright": null,
+    "themes": ["easter", "resurrection", "victory", "triumph", "praise"],
+    "scripture_references": ["1 Corinthians 15:54-57"],
+    "tune_source": "Italian",
+    "original_language": "la"
+  }
+}

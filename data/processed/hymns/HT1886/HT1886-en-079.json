@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-079",
+  "number": 79,
+  "title": "My God, how wonderful thou art",
+  "author": "Frederick W. Faber",
+  "composer": null,
+  "tune": "540, 129, 114",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My God, how wonderful thou art!\nThy majesty how bright!\nHow beautiful thy mercy-seat,\nIn depths of burning light!"
+    },
+    {
+      "number": 2,
+      "text": "How dread are thine eternal years,\nO everlasting Lord!\nBy prostrate spirits day and night\nIncessantly adored!"
+    },
+    {
+      "number": 3,
+      "text": "How beautiful, how beautiful,\nThe sight of thee must be—\nThine endless wisdom, boundless power,\nAnd awful purity!"
+    },
+    {
+      "number": 4,
+      "text": "O how I fear thee, living God!\nWith deepest, tenderest fears;\nAnd worship thee with trembling hope\nAnd penitential tears."
+    },
+    {
+      "number": 5,
+      "text": "Yet I may love thee too, O Lord!\nAlmighty as thou art;\nFor thou hast stooped to ask of me\nThe love of my poor heart."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["God's majesty", "God's beauty", "reverence", "worship", "God's love"],
+    "scripture_references": [],
+    "tune_source": "540, 129, 114",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-025",
+  "number": 25,
+  "title": "Great God, attend while Zion sings",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Great God, attend while Zion sings\nThe joy that from thy presence springs;\nTo spend one day with thee on earth\nExceeds a thousand days of mirth."
+    },
+    {
+      "number": 2,
+      "text": "Might I enjoy the humblest place\nWithin thy house, O God of grace!\nNot tents of ease, nor thrones of power,\nShould tempt my feet to leave thy door."
+    },
+    {
+      "number": 3,
+      "text": "God is our sun, he makes our day;\nGod is our shield, he guards our way\nFrom all assaults of hell and sin,\nFrom foes without and foes within."
+    },
+    {
+      "number": 4,
+      "text": "All needful grace will God bestow,\nAnd crown that grace with glory, too;\nHe gives us all things, and withholds\nNo needed good from upright souls."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "God's house", "protection"],
+    "scripture_references": ["Psalm 84"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

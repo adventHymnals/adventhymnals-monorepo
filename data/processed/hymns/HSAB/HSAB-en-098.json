@@ -1,0 +1,37 @@
+{
+  "id": "HSAB-en-098",
+  "number": 98,
+  "title": "ENCOURAGEMENT",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "REJOICE, believer, in the Lord,\nWho makes your cause his own;\nThe hope that's built upon his Word\nShall ne'er be overthrown."
+    },
+    {
+      "number": 2,
+      "text": "Though many foes beset your road,\nAnd feeble is your arm,\nYour life is hid with Christ in God\nBeyond the reach of harm."
+    },
+    {
+      "number": 3,
+      "text": "Weak as you are, you shall not faint,\nOr, fainting, shall not die;\nJesus, the strength of every saint,\nWill aid you from on high."
+    },
+    {
+      "number": 4,
+      "text": "Though now unseen by outward sense,\nFaith sees him always near,\nA guide, a glory, a defense;\nWhat, then, have we to fear?"
+    },
+    {
+      "number": 5,
+      "text": "As surely as he overcame;\nAnd triumphed once for you;\nSo surely you that love his name\nShall triumph in him too."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["encouragement", "faith", "perseverance", "Christ", "hope", "victory"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

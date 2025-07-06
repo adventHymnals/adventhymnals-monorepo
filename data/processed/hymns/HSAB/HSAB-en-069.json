@@ -1,0 +1,40 @@
+{
+  "id": "HSAB-en-069",
+  "number": 69,
+  "title": "Jerusalem",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "JERUSALEM, my happy home,\nO, how I long for thee!\nWhen will my sorrows have an end,\nThy joys when shall I see?"
+    },
+    {
+      "number": 2,
+      "text": "Thy walls are all of precious stone,\nMost glorious to behold;\nThy gates are richly set with pearl,\nThy streets are paved with gold."
+    },
+    {
+      "number": 3,
+      "text": "Thy garden and thy pleasant walks\nMy study long have been;\nSuch dazzling views by human sight\nHave never yet been seen."
+    },
+    {
+      "number": 4,
+      "text": "Lord, help us by thy mighty grace;\nTo keep in view the prize,\nTill thou dost come to take us home\nTo that blest paradise."
+    },
+    {
+      "number": 5,
+      "text": "When we've been there ten thousand years,\nBright shining as the sun,\nWe've no less days to sing God's praise\nThan when we first begun."
+    }
+  ],
+  "chorus": {
+    "text": "We're marching to Immanuel's ground,\nWe soon shall hear the trumpet sound,\nAnd then we shall our Jesus meet,\nAnd never, never part again, &c."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["jerusalem", "precious stone", "pearl gates", "golden streets", "ten thousand years"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

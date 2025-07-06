@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-124",
+  "number": 124,
+  "title": "Come join, ye saints, with heart and voice",
+  "author": "Anon",
+  "composer": null,
+  "tune": null,
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come join, ye saints, with heart and voice,\nAlone in Jesus to rejoice,\nAnd worship at his feet;\nCome, take his praises on your tongues,\nAnd raise to him your thankful songs;\nIn him ye are complete!"
+    },
+    {
+      "number": 2,
+      "text": "In him, who all our praise excels,\nThe fulness of the Godhead dwells,\nAnd all perfections meet;\nThe head of all celestial powers,\nDivinely yours, divinely ours,\nIn him ye are complete."
+    },
+    {
+      "number": 3,
+      "text": "Still onward urge your heavenly way,\nDependent on him day by day,\nHis presence still entreat;\nHis precious name forever bless,\nYour glory, strength, and righteousness:\nIn him ye are complete!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "praise", "Jesus Christ", "completeness in Christ", "fulness of Godhead"],
+    "scripture_references": ["Colossians 2:9-10"],
+    "tune_source": "259, 604",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-304",
+  "number": 304,
+  "title": "Faith of Our Fathers",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Faith of our fathers! living still\nIn spite of dungeon, fire, and sword;\nO how our hearts beat high with joy\nWhen'er we hear that glorious word."
+    },
+    {
+      "number": 2,
+      "text": "Our fathers, chained in prisons dark,\nWere still in heart and conscience free;\nHow sweet would be their children's fate,\nIf they, like them, could die for thee!"
+    },
+    {
+      "number": 3,
+      "text": "Faith of our fathers! we will love\nBoth friend and foe in all our strife,\nAnd preach thee, too, as love knows how,\nBy kindly words and virtuous life."
+    }
+  ],
+  "chorus": {
+    "text": "Faith of our fathers! holy faith!\nWe will be true to thee till death."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Faith", "Heritage", "Martyrs", "Persecution", "Loyalty"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

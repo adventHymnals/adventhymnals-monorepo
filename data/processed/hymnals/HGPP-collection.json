@@ -1,0 +1,35 @@
+{
+  "id": "HGPP",
+  "title": "Hymns for God's Peculiar People That Keep the Commandments of God, and the Faith of Jesus",
+  "language": "en",
+  "year": 1849,
+  "compiler": "James White",
+  "publisher": "James White",
+  "publication_place": "Oswego, New York",
+  "hymns": [
+    {
+      "number": 1,
+      "hymn_id": "HGPP-en-001",
+      "title": "Holy Sabbath",
+      "page": 1
+    }
+  ],
+  "metadata": {
+    "total_hymns": 53,
+    "total_pages": 36,
+    "processing_status": "COMPLETED - 53 hymns extracted from PDF",
+    "languages": ["en"],
+    "themes": ["Sabbath", "Second Coming", "Millerite Experience", "Heaven/New Earth", "Ordinances", "Fall of Babylon", "Spiritual Warfare", "Pilgrimage"],
+    "extraction_date": "2025-07-04",
+    "completion_date": "2025-07-04",
+    "extraction_quality": "High fidelity digital preservation complete",
+    "historical_significance": "First hymnal compiled by James White for early Seventh-day Adventists",
+    "theological_context": "Post-1844 Great Disappointment, early Sabbatarian Adventist movement",
+    "publication_info": {
+      "compiler": "James White",
+      "place": "Oswego, New York", 
+      "original_format": "Small pamphlet",
+      "rarity": "Extremely rare historical document"
+    }
+  }
+}

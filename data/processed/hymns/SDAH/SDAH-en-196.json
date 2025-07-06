@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-196",
+  "number": 196,
+  "title": "Tell Me the Old, Old Story",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Tell me the old, old story\nOf unseen things above,\nOf Jesus and His glory,\nOf Jesus and His love.\nTell me the story simply,\nAs to a little child,\nFor I am weak and weary,\nAnd helpless and defiled."
+    },
+    {
+      "number": 2,
+      "text": "Tell me the story softly,\nWith earnest tones and grave;\nRemember I'm the sinner\nWhom Jesus came to save.\nTell me the story always,\nIf you would really be,\nIn any time of trouble,\nA comforter to me."
+    },
+    {
+      "number": 3,
+      "text": "Tell me the same old story\nWhen you have cause to fear\nThat this world's empty glory\nIs costing me too dear.\nYes, and when that world's glory\nIs dawning on my soul,\nTell me the old, old story:\n'Christ Jesus makes thee whole.'"
+    }
+  ],
+  "chorus": {
+    "text": "Tell me the old, old story,\nTell me the old, old story,\nTell me the old, old story,\nOf Jesus and His love."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["gospel_story", "jesus_love", "salvation", "comfort", "testimony"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

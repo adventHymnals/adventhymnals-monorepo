@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-616",
+  "number": 616,
+  "title": "Soldiers of Christ, Arise",
+  "author": "Charles Wesley",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Soldiers of Christ, arise,\nAnd put your armor on,\nStrong in the strength which God supplies\nThrough His eternal Son;\nStrong in the Lord of hosts,\nAnd in His mighty power,\nWho in the strength of Jesus trusts\nIs more than conqueror."
+    },
+    {
+      "number": 2,
+      "text": "Stand, then, in His great might,\nWith all His strength endued;\nBut take, to arm you for the fight,\nThe panoply of God;\nThat having all things done,\nAnd all your conflicts passed,\nYou may o'ercome thro' Christ alone,\nAnd stand entire at last."
+    },
+    {
+      "number": 3,
+      "text": "From strength to strength go on;\nWrestle, and fight, and pray;\nTread all the powers of darkness down,\nAnd win the well-fought day;\nStill let the Spirit cry,\nIn all His soldiers, \"Come!\"\nTill Christ the Lord who reigns on high\nShall take the conquerors home."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": ["spiritual warfare", "Christian soldier", "strength", "victory"],
+    "scripture_references": ["Ephesians 6:10-18"],
+    "tune_source": "",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-223",
+  "number": 223,
+  "title": "Crown Him With Many Crowns",
+  "author": "Matthew Bridges",
+  "composer": "George J. Elvey",
+  "tune": "DIADEMATA",
+  "meter": "S.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Crown Him with many crowns,\nThe Lamb upon His throne;\nHark! how the heavenly anthem drowns\nAll music but its own!\nAwake, my soul, and sing\nOf Him who died for thee,\nAnd hail Him as thy matchless King\nThrough all eternity."
+    },
+    {
+      "number": 2,
+      "text": "Crown Him the Lord of love!\nBehold His hands and side,\nThose wounds, yet visible above,\nIn beauty glorified:\nNo angel in the sky\nCan fully bear that sight,\nBut downward bends his burning eye\nAt mysteries so bright."
+    },
+    {
+      "number": 3,
+      "text": "Crown Him the Lord of peace!\nWhose hand a scepter sways\nFrom pole to pole, that wars may cease,\nAnd all be prayer and praise:\nHis reign shall know no end,\nAnd round His pierced feet\nFair flowers of paradise extend\nTheir fragrance ever sweet."
+    },
+    {
+      "number": 4,
+      "text": "Crown Him the Lord of years,\nThe Potentate of time,\nCreator of the rolling spheres,\nIneffably sublime!\nAll hail, Redeemer, hail!\nFor Thou hast died for me;\nThy praise shall never, never fail\nThroughout eternity."
+    }
+  ],
+  "metadata": {
+    "year": 1851,
+    "copyright": "Public Domain",
+    "themes": ["Kingship of Christ", "Love", "Peace", "Eternity"],
+    "scripture_references": ["Revelation 19:12", "1 Timothy 6:15"],
+    "tune_source": "George J. Elvey, 1868",
+    "original_language": "en"
+  }
+}

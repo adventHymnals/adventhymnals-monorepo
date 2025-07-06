@@ -1,0 +1,28 @@
+{
+  "id": "CH1941-en-002",
+  "number": 2,
+  "title": "From All That Dwell Below the Skies",
+  "author": "Isaac Watts",
+  "composer": "[unclear]",
+  "tune": "Old Hundredth",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "From all that dwell below the skies\nLet the Creator's praise arise;\nLet the Redeemer's name be sung\nThrough every land, by every tongue."
+    },
+    {
+      "number": 2,
+      "text": "Eternal are Thy mercies, Lord,\nEternal truth attends Thy word;\nThy praise shall sound from shore to shore,\nTill suns shall rise and set no more."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": ["praise", "worship", "universal praise"],
+    "scripture_references": ["Psalm 117"],
+    "tune_source": "Old Hundredth",
+    "original_language": "en"
+  }
+}

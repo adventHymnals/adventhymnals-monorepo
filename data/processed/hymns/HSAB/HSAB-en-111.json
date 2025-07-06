@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-111",
+  "number": 111,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THINE earthly Sabbath, Lord, we love,\nBut there's a nobler rest above;\nTo that our laboring souls aspire,\nWith ardent hope, and strong desire."
+    },
+    {
+      "number": 2,
+      "text": "No more fatigue, no more distress,\nNo sin nor death can reach that place,\nNo tears shall mingle with the songs\nThat warble from immortal tongues."
+    },
+    {
+      "number": 3,
+      "text": "No rude alarm of raging foes,\nNo cares to break their long repose,\nNo midnight shade, no clouded sun,\nBut sacred, high, eternal noon."
+    },
+    {
+      "number": 4,
+      "text": "O, long expected day begin,\nDawn on these realms of woe and sin;\nFain would I leave this weary road,\nAnd go to meet my blessed Lord."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "eternal rest", "heaven", "immortality", "peace", "blessed hope"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

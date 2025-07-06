@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-348",
+  "number": 348,
+  "title": "Though I should seek to wash me clean",
+  "author": "Anon.",
+  "composer": null,
+  "tune": "391, 64, 701.",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Though I should seek to wash me clean In waters of the driven snow,\nMy soul would yet its spots retain, And foul as black and putrid grow."
+    },
+    {
+      "number": 2,
+      "text": "God's law in all its power divine Condemns my erring soul to death;\nDeclares its vileness of the line, And shows the vileness of its worth."
+    },
+    {
+      "number": 3,
+      "text": "There must a Mediator plead Whom God and man each may embrace,\nWith God for man to intercede, And offer in the purchased grace."
+    },
+    {
+      "number": 4,
+      "text": "And thus the Son of God is slain To be this Mediator crowned;\nIn him, my soul, be cleansed from stain, In him, my righteousness be found."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Mediation and Atonement", "cleansing", "sin", "law", "righteousness"],
+    "scripture_references": [],
+    "tune_source": "391, 64, 701.",
+    "original_language": "en"
+  }
+}

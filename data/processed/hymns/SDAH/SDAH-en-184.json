@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-184",
+  "number": 184,
+  "title": "Jesus Paid It All",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I hear the Savior say,\n\"Thy strength indeed is small;\nChild of weakness, watch and pray,\nFind in Me thine all in all.\""
+    },
+    {
+      "number": 2,
+      "text": "Lord, now indeed I find\nThy power, and Thine alone,\nCan change the leper's spots,\nAnd melt the heart of stone."
+    },
+    {
+      "number": 3,
+      "text": "Since nothing good have I\nWhereby Thy grace to claim,\nI'll wash my garments white\nIn the blood of Calvary's Lamb."
+    },
+    {
+      "number": 4,
+      "text": "And when before the throne\nI stand in Him complete,\nI'll lay my trophies down,\nAll down at Jesus' feet."
+    }
+  ],
+  "chorus": {
+    "text": "Jesus paid it all, All to Him I owe;\nSin had left a crimson stain, He washed it white as snow."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["salvation", "redemption", "cleansing", "jesus_payment", "grace"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

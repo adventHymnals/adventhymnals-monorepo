@@ -1,0 +1,36 @@
+{
+  "id": "HSAB-en-149",
+  "number": 149,
+  "title": "MARCHING TO JERUSALEM",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THERE is a holy city,\nA happy place above,\nAmong the starry regions,\nBuilt by the God of love."
+    },
+    {
+      "number": 2,
+      "text": "There Jesus sits exalted,\nIn God-like majesty;\nThe angels bow before him,\nThe elders bend the knee.\nWhile we'll march around Jerusalem, &c."
+    },
+    {
+      "number": 3,
+      "text": "Is this the man of sorrows\nWho stood at Pilate's bar—\nCondemned by haughty Herod,\nAnd by his men of war?\nYes we'll march around Jerusalem, &c."
+    },
+    {
+      "number": 4,
+      "text": "He seems a mighty conqueror,\nWho spoiled the powers below,\nAnd ransomed many captives\nFrom sin, from want and woe.\nWe'll shout around Jerusalem, &c."
+    }
+  ],
+  "chorus": {
+    "text": "Yes, we'll march around Jerusalem,\nWe'll march around Jerusalem,\nWe'll march around Jerusalem,\nWhen we arrive at home."
+  },
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Jerusalem", "holy city", "Jesus exalted", "angels", "conqueror", "heavenly home"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

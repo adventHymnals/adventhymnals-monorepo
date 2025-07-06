@@ -1,0 +1,29 @@
+{
+  "id": "SDAH-en-214",
+  "number": 214,
+  "title": "We Have This Hope",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We have this hope that burns within our hearts,\nHope in the coming of the Lord.\nWe have this faith that Christ alone imparts,\nFaith in the promise of His Word."
+    },
+    {
+      "number": 2,
+      "text": "We are united in Jesus Christ our Lord,\nWe are united in His love.\nLove for the waiting people of the world,\nPeople who need our Savior's love."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Hope", "Faith", "Unity", "Love", "Promise"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

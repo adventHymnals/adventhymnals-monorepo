@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-179",
+  "number": 179,
+  "title": "The Wonders of Redeeming Love",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "8.6.8.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The wonders of redeeming love\nOur highest thoughts exceed;\nThe Son of God comes from above\nAbove for sinful man to bleed."
+    },
+    {
+      "number": 2,
+      "text": "He gives Himself, His life,\nHis all, a face frame,\nHe now before His Father's\nA His Father's throne Till"
+    },
+    {
+      "number": 3,
+      "text": "And now be-fore the frail\nHis precious blood\nFor those who seek the\nPrecious blood He plea,\nFor great ones\nThe faith-ful once for"
+    },
+    {
+      "number": 4,
+      "text": "He knows His fra-il ties\nHe has in glory\nOur great High Priest,\nThe faith-ful one for"
+    },
+    {
+      "number": 5,
+      "text": "His love will not be satisfied\nTill He is our till He can send relief,\nFrom whom a-the vic-tim intercedes,\nFrom whom for-ev-er free."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["redeeming_love", "sacrifice", "intercession", "priest", "salvation"],
+    "scripture_references": ["Hebrews 4:14-16", "1 John 2:1-2"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

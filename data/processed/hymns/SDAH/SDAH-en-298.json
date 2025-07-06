@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-298",
+  "number": 298,
+  "title": "I Lay My Sins on Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I lay my sins on Jesus,\nThe spotless Lamb of God;\nHe bears them all, and frees us\nFrom the accursed load."
+    },
+    {
+      "number": 2,
+      "text": "I bring my guilt to Jesus,\nTo wash my crimson stains\nWhite in His blood most precious,\nTill not a stain remains."
+    },
+    {
+      "number": 3,
+      "text": "I lay my wants on Jesus;\nAll fullness dwells in Him;\nHe heals all my diseases,\nHe doth my soul redeem."
+    },
+    {
+      "number": 4,
+      "text": "I long to be like Jesus,\nWeek, loving, lowly, mild;\nI long to be with Jesus,\nThe Father's holy child."
+    },
+    {
+      "number": 5,
+      "text": "I long to be with Jesus,\nAmid the heavenly throng,\nTo sing with them His praises,\nTo learn the angels' song."
+    }
+  ],
+  "chorus": {
+    "text": "From the accursed load.\nTill not a stain remains.\nHe doth my soul redeem.\nThe Father's holy child.\nAnd learn the angels' song."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Laying Sins on Jesus", "Lamb of God", "Cleansing", "Being Like Jesus"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

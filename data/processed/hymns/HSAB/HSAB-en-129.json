@@ -1,0 +1,25 @@
+{
+  "id": "HSAB-en-129",
+  "number": 129,
+  "title": "BAPTISM",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "BURIED with Christ! Yes, thus we lie\nImmers'd beneath the wave;\nSo he, the Saviour from on high,\nFound on this earth, his grave."
+    },
+    {
+      "number": 2,
+      "text": "We rise with him! To live anew\nA holy life of faith;\nBelieving what this brings to view,\nAnd what the scripture saith."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["baptism", "buried with Christ", "resurrection", "new life", "faith", "scripture"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

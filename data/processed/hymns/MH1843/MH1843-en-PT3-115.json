@@ -1,0 +1,37 @@
+{
+  "id": "MH1843-en-PT3-115",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "115",
+  "title": "Baptize Us Anew",
+  "verses": [
+    {
+      "number": "1",
+      "text": "Baptize us anew With power from on high, With love, O refresh us! Dear Savior, draw nigh."
+    },
+    {
+      "number": "2",
+      "text": "Unworthy we cry, Unholy, uncleansed from sin's stain, O wash us and make us clean, We plead Thy rich blessing; In mercy draw nigh."
+    },
+    {
+      "number": "3",
+      "text": "O heavenly Dove, Descend from on high! We plead Thy rich blessing; In mercy draw nigh."
+    },
+    {
+      "number": "4",
+      "text": "O list the glad voice! Thou art My beloved, From heaven it came: Well pleased I am."
+    }
+  ],
+  "refrain": {
+    "text": "We humbly beseech Thee, Lord Jesus, we pray, (Last vs.) We praise Thee, we bless Thee, dear Lamb that was slain, With love and the Spirit baptize us today. We laud and adore Thee, Amen and Amen."
+  },
+  "meter": "7.6.7.6. with Refrain",
+  "tune": "",
+  "composer": "",
+  "author": "",
+  "page": 258,
+  "themes": ["Baptize", "Anew", "Power", "Love", "Refresh", "Savior", "Unworthy", "Unholy", "Cleansed", "Sin", "Wash", "Clean", "Heavenly Dove", "Beloved", "Spirit"],
+  "key_signature": "G",
+  "time_signature": "3/4"
+}

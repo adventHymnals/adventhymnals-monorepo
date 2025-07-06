@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-137",
+  "number": 137,
+  "title": "We Three Kings",
+  "author": "John H. Hopkins Jr.",
+  "composer": "John H. Hopkins Jr.",
+  "tune": "Kings of Orient",
+  "meter": "8.8.4.4.6 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We three kings of Orient are;\nBearing gifts we traverse afar,\nField and fountain, moor and mountain,\nFollowing yonder star."
+    },
+    {
+      "number": 2,
+      "text": "Born a King on Bethlehem's plain,\nGold I bring to crown Him again,\nKing forever, ceasing never,\nOver us all to reign."
+    },
+    {
+      "number": 3,
+      "text": "Frankincense to offer have I;\nIncense owns a Deity nigh:\nPrayer and praising, all men raising,\nWorship Him, God on high."
+    },
+    {
+      "number": 4,
+      "text": "Myrrh is mine; its bitter perfume\nBreathes a life of gathering gloom:\nSorrowing, sighing, bleeding, dying,\nSealed in the stone-cold tomb."
+    },
+    {
+      "number": 5,
+      "text": "Glorious now behold Him arise,\nKing and God and Sacrifice:\nAlleluia, alleluia!\nSounds through the earth and skies."
+    }
+  ],
+  "chorus": {
+    "text": "O star of wonder, star of night,\nStar with royal beauty bright,\nWestward leading, still proceeding,\nGuide us to Thy perfect light."
+  },
+  "metadata": {
+    "year": 1857,
+    "copyright": null,
+    "themes": ["christmas", "wise_men", "gifts", "star", "worship", "epiphany"],
+    "scripture_references": ["Matthew 2:1-12"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

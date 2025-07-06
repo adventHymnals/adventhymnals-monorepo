@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-535",
+  "number": 535,
+  "title": "I Am Trusting Thee, Lord Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I am trusting Thee, Lord Jesus,\nTrusting only Thee;\nTrusting Thee for full salvation,\nGreat and free."
+    },
+    {
+      "number": 2,
+      "text": "I am trusting Thee for pardon;\nAt Thy feet I bow;\nFor Thy grace and tender mercy,\nTrusting now."
+    },
+    {
+      "number": 3,
+      "text": "I am trusting Thee to guide me;\nThou alone shalt lead,\nEvery day and hour supplying\nAll my need."
+    },
+    {
+      "number": 4,
+      "text": "I am trusting Thee, Lord Jesus;\nNever let me fall;\nI am trusting Thee forever,\nAnd for all."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["trust", "salvation", "guidance", "faith"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-070",
+  "number": 70,
+  "title": "Sonnet",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WHEN for the eternal world we steer,\nAnd seas are calm, and skies are clear,\nAnd faith in lively exercise,\nAnd distant hills of Canaan rise.\nMy soul for joy she claps her wings,\nAnd loud her lovely sonnet sings,\nVain world adieu, vain world adieu, &c."
+    },
+    {
+      "number": 2,
+      "text": "With cheerful hopes her eyes explore\nEach landmark on the distant shore,\nThe tree of life, the pastures green,\nThe golden streets, the crystal stream;\nAgain for joy she claps her wings, &c."
+    },
+    {
+      "number": 3,
+      "text": "When nearer still she draws to land,\nMore eager all her powers expand,\nWith steady helm and free-bent sail,\nHer anchor drops within the vail.\nAgain for joy she claps her wings,\nAnd her celestial sonnet sings,\nOn Canaan's shore, &c."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["eternal world", "canaan", "tree of life", "golden streets", "crystal stream"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "CH1941-en-052",
+  "number": 52,
+  "title": "Now the Day Is Over",
+  "author": "Sabine Baring-Gould",
+  "composer": "Joseph Barnby",
+  "tune": "Eudoxia",
+  "meter": "6.5.6.5",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Now the day is over,\nNight is drawing nigh,\nShadows of the evening\nSteal across the sky."
+    },
+    {
+      "number": 2,
+      "text": "Jesus, give the weary\nCalm and sweet repose;\nWith Thy tender blessing\nMay our eyelids close."
+    },
+    {
+      "number": 3,
+      "text": "Grant to little children\nVisions bright of Thee;\nGuard the sailors tossing\nOn the deep blue sea."
+    },
+    {
+      "number": 4,
+      "text": "Comfort every sufferer\nWatching late in pain;\nThose who plan some evil\nFrom their sin restrain."
+    },
+    {
+      "number": 5,
+      "text": "Through the long night watches\nMay Thine angels spread\nTheir white wings above me,\nWatching round my bed."
+    },
+    {
+      "number": 6,
+      "text": "When the morning wakens,\nThen may I arise\nPure and fresh and sinless\nIn Thy holy eyes."
+    }
+  ],
+  "metadata": {
+    "year": 1865,
+    "copyright": "Public Domain",
+    "themes": ["evening", "rest", "protection", "children"],
+    "scripture_references": ["Psalm 4:8", "Psalm 91:11"],
+    "tune_source": "Eudoxia, Joseph Barnby, 1868",
+    "original_language": "en"
+  }
+}

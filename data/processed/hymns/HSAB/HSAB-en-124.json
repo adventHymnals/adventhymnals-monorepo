@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-124",
+  "number": 124,
+  "title": "SABBATH HYMNS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THE light of Sabbath eve\nIs fading fast away;\nWhat record will it for us leave,\nTo crown the closing day."
+    },
+    {
+      "number": 2,
+      "text": "Is it a Sabbath spent,\nOf fruitless time destroyed?\nOr have these moments to us lent,\nBeen sacredly employed."
+    },
+    {
+      "number": 3,
+      "text": "To waste these Sabbath hours,\nO may we never dare;\nNor desecrate with words of ours\nThese sacred days of prayer."
+    },
+    {
+      "number": 4,
+      "text": "But may our Sabbaths here\nInspire our hearts with love;\nAnd prove a blessed foretaste clear,\nOf that sweet rest above."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Sabbath", "evening", "reflection", "sacred time", "prayer", "love", "heaven"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

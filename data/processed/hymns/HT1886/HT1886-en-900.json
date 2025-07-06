@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-900",
+  "number": 900,
+  "title": "Jesus, faithful to his word",
+  "author": null,
+  "composer": "Edwin Barnes",
+  "tune": "Advent",
+  "meter": "7s & 6s, P.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, faithful to his word,\nShall with a shout descend;\nAll heaven's host their glorious Lord\nShall joyfully attend."
+    },
+    {
+      "number": 2,
+      "text": "Christ shall come, ye saints, rejoice!\nHe'll come with bounding joy;\nWith the Archangel's mighty voice,\nAnd with the trump of God."
+    },
+    {
+      "number": 3,
+      "text": "First, the dead in Christ shall rise;\nThen we that yet remain\nShall be caught up into the skies,\nAnd see our Lord again."
+    },
+    {
+      "number": 4,
+      "text": "We shall meet him in the air,\nAnd all his glory see;\nWe'll know, and love, and praise him there,\nFrom death forever free."
+    },
+    {
+      "number": 5,
+      "text": "Who can tell the blissful hour?\nThis glorious hope affords?\nUnuttered pleasure we possess\nIn these reviving words."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Second Advent", "resurrection", "hope"],
+    "scripture_references": ["1 Thessalonians 4:16-17"],
+    "tune_source": "Advent, Edwin Barnes",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-089",
+  "number": 89,
+  "title": "The Happy Land",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I HAVE heard of a land that is ever bright,\nWhere friends never change, nor fade from our sight;\nI have seen gentle spirits who thither have gone,\nTo meet them again my spirit doth long."
+    },
+    {
+      "number": 2,
+      "text": "I have heard that there flowers are ever in bloom,\nAnd always send forth the richest perfume;\nI've heard that no sickness or death will be there,\nNo sin to molest, or fill with despair."
+    },
+    {
+      "number": 3,
+      "text": "I've heard that the blest on that happy shore,\nWill never be hungry or thirst any more;\nThe light of the City which sweetly hath shone,\nProceeds from the Lamb, who sits on the Throne."
+    },
+    {
+      "number": 4,
+      "text": "I've heard there are pleasures unspeakably sweet,\nAnd tones of affection both holy and deep;\nI've heard that all tears will be wiped from the eye,\nFor that happy land my spirit doth sigh."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["happy land", "ever bright", "flowers bloom", "blest shore", "lamb on throne"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

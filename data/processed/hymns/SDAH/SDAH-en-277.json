@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-277",
+  "number": 277,
+  "title": "For Your Holy Book We Thank You",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "For Your holy book we thank You,\nAnd for all who served You well,\nWriting, guarding, and translating,\nThat its pages might forth tell"
+    },
+    {
+      "number": 2,
+      "text": "For Your holy book we thank You,\nAnd for those who work today,\nThat the people of all nations,\nReading it and following may"
+    },
+    {
+      "number": 3,
+      "text": "For Your holy book we thank You,\nMay its message be our guide,\nMay we understand the wisdom\nOf the laws it will provide:"
+    },
+    {
+      "number": 4,
+      "text": "For Your holy book we thank You,\nMay its message in our hearts\nLead us now to see in Jesus\nAll the grace Your word imparts:"
+    }
+  ],
+  "chorus": {
+    "text": "Your strong love and tender care\nKnow Your love and tender care\nAnd Your love and tender care\nAll Your love and tender care\nFor Your people everywhere.\nFor Your people everywhere.\nFor Your people everywhere.\nFor Your people everywhere."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["Holy Book", "Scripture", "Gratitude", "God's Love"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

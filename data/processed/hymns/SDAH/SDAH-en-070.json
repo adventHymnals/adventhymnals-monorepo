@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-070",
+  "number": 70,
+  "title": "Praise Ye the Father",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "8 8 8 8 8 8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise ye the Father for His loving kindness,\nTenderly cares He for His erring children;\nPraise Him, ye angels, praise Him in the heavens,\nPraise ye Jehovah!"
+    },
+    {
+      "number": 2,
+      "text": "Praise ye the Savior, great is His compassion,\nGraciously cares He for His chosen people;\nYoung men and maidens, ye old men and children,\nPraise ye the Savior!"
+    },
+    {
+      "number": 3,
+      "text": "Praise ye the Spirit, Comforter of Israel,\nSent of the Father and the Son to bless us;\nPraise ye the Father, Son, and Holy Spirit,\nPraise ye the Eternal Three!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": ["praise", "Trinity", "Father", "Son", "Holy Spirit", "love", "compassion"],
+    "scripture_references": [],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

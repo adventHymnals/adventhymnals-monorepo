@@ -1,0 +1,40 @@
+{
+  "id": "HT1886-en-166",
+  "number": 166,
+  "title": "Holy Spirit, lamp of light",
+  "author": "Edwin Barnes",
+  "composer": "",
+  "tune": "Salisbury",
+  "meter": "7s & 5",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy Spirit, lamp of light,\nShine upon our nature's night;\nGive thy blessed inward sight,\nComforter divine!"
+    },
+    {
+      "number": 2,
+      "text": "We are sinful; cleanse us, Lord;\nWe are faint; thy strength afford:\nLost,—until by thee restored,\nComforter divine!"
+    },
+    {
+      "number": 3,
+      "text": "Like the dew, thy peace distil;\nGuide, subdue our wayward will;\nThings of Christ unfolding still,\nComforter divine!"
+    },
+    {
+      "number": 4,
+      "text": "In us 'Abba Father,' cry;\nEarnest of our rest on high,\nHope of immortality,\nComforter divine!"
+    },
+    {
+      "number": 5,
+      "text": "Search for us the depths of God;\nBear us up the starry road\nTo the light of thine abode,\nComforter divine!"
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Holy Spirit", "divine light", "comfort", "guidance", "cleansing", "hope"],
+    "scripture_references": [],
+    "tune_source": "Salisbury, 7s & 5",
+    "original_language": "en"
+  }
+}

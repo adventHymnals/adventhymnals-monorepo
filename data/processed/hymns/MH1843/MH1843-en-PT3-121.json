@@ -1,0 +1,39 @@
+{
+  "id": "MH1843-en-PT3-121",
+  "collection": "MH1843",
+  "language": "en",
+  "part": "PT3",
+  "number": "121",
+  "title": "O for That Flame of Living Fire",
+  "verses": [
+    {
+      "number": "1",
+      "text": "O for that flame of living fire Which shone so bright in saints of old; Which bade their souls to heaven aspire, Calm in distress, in danger bold!"
+    },
+    {
+      "number": "2",
+      "text": "Where is that spirit, Lord, which dwelt In Abraham's breast, and sealed him Thine? Which made Paul's heart with sorrow melt, And glow with energy divine?"
+    },
+    {
+      "number": "3",
+      "text": "That spirit which from age to age Proclaimed Thy love, and taught Thy ways? Brightened Isaiah's vivid page, And breathed in David's hallowed lays?"
+    },
+    {
+      "number": "4",
+      "text": "Is not Thy grace as mighty now As when Elijah felt its power? When glory beamed from Moses' brow, Or Job endured the trying hour?"
+    },
+    {
+      "number": "5",
+      "text": "Remember, Lord, the ancient days; Renew Thy work, Thy grace restore; And while to Thee our hearts we raise, On us Thy Holy Spirit pour."
+    }
+  ],
+  "refrain": {},
+  "meter": "8.8.8.8",
+  "tune": "AZMON",
+  "composer": "Carl G. Gläser",
+  "author": "Albert Midlane",
+  "page": 264,
+  "themes": ["Flame", "Living Fire", "Saints", "Old", "Souls", "Heaven", "Aspire", "Calm", "Distress", "Danger", "Bold", "Spirit", "Lord", "Dwelt", "Abraham", "Breast", "Sealed", "Paul", "Heart", "Sorrow", "Melt", "Glow", "Energy", "Divine", "Age", "Proclaimed", "Love", "Taught", "Ways", "Brightened", "Isaiah", "Vivid", "Page", "Breathed", "David", "Hallowed", "Lays", "Grace", "Mighty", "Elijah", "Felt", "Power", "Glory", "Beamed", "Moses", "Brow", "Job", "Endured", "Trying", "Hour", "Remember", "Ancient", "Days", "Renew", "Work", "Restore", "Hearts", "Raise", "Holy Spirit", "Pour"],
+  "key_signature": "Db",
+  "time_signature": "3/4"
+}

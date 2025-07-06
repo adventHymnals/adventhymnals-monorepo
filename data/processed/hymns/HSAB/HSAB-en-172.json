@@ -1,0 +1,29 @@
+{
+  "id": "HSAB-en-172",
+  "number": 36,
+  "title": "HEAR WHAT THE VOICE FROM HEAVEN PROCLAIMS",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "HEAR what the voice from heaven proclaims,\nFor all the pious dead:\nSweet is the savor of their names,\nAnd soft their sleeping bed."
+    },
+    {
+      "number": 2,
+      "text": "They die in Jesus, and are blessed;\nHow kind their slumbers are!\nFrom suffering and from sin released,\nAnd freed from every snare."
+    },
+    {
+      "number": 3,
+      "text": "Freed from this world of toil and strife,\nThey're sleeping in the Lord.\nFreed from the ills of mortal life,\nThey wait a rich reward."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["death", "blessed dead", "rest", "reward", "heaven", "Jesus", "sleep in death"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

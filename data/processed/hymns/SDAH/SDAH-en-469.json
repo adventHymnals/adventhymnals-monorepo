@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-469",
+  "number": 469,
+  "title": "Leaning on the Everlasting Arms",
+  "author": "Elisha A. Hoffman",
+  "composer": "Anthony J. Showalter",
+  "tune": "SHOWALTER",
+  "meter": "12.9.12.9 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "What a fellowship, what a joy divine,\nLeaning on the everlasting arms;\nWhat a blessedness, what a peace is mine,\nLeaning on the everlasting arms."
+    },
+    {
+      "number": 2,
+      "text": "O how sweet to walk in this pilgrim way,\nLeaning on the everlasting arms;\nO how bright the path grows from day to day,\nLeaning on the everlasting arms."
+    },
+    {
+      "number": 3,
+      "text": "What have I to dread, what have I to fear,\nLeaning on the everlasting arms?\nI have blessed peace with my Lord so near,\nLeaning on the everlasting arms."
+    }
+  ],
+  "chorus": {
+    "text": "Leaning, leaning, safe and secure from all alarms;\nLeaning, leaning, leaning on the everlasting arms."
+  },
+  "metadata": {
+    "year": 1887,
+    "copyright": "Public Domain",
+    "themes": ["trust", "divine support", "peace", "fellowship with God", "security"],
+    "scripture_references": ["Deuteronomy 33:27", "Psalm 91:1-2", "Isaiah 40:11"],
+    "tune_source": "Anthony J. Showalter",
+    "original_language": "en"
+  }
+}

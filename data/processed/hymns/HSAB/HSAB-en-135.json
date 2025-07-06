@@ -1,0 +1,37 @@
+{
+  "id": "HSAB-en-135",
+  "number": 135,
+  "title": "LORD'S SUPPER",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THE blest memorials of thy grief,\nThy suff'rings and thy death,\nWe come, dear Saviour, to receive;\nBut would receive with faith."
+    },
+    {
+      "number": 2,
+      "text": "The tokens sent us to relieve\nOur spirits when they droop,\nWe come, dear Saviour, to receive;\nBut would receive with hope."
+    },
+    {
+      "number": 3,
+      "text": "The pledges thou wast pleased to leave,\nOur mournful minds to move,\nWe come, dear Saviour, to receive,\nBut would receive with love."
+    },
+    {
+      "number": 4,
+      "text": "Here, in obedience to thy word,\nWe take the bread and wine:\nThe utmost we can do, dear Lord,\nFor all beyond is thine."
+    },
+    {
+      "number": 5,
+      "text": "Increase our faith and hope, and love;\nLord, give us every good:\nWe would thy salvation prove,\nAnd share thy flesh and blood."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["Lord's Supper", "communion", "grief", "suffering", "faith", "hope", "love", "obedience"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

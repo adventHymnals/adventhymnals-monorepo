@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-318",
+  "number": 318,
+  "title": "'Tis finished! the Messiah dies",
+  "author": null,
+  "composer": null,
+  "tune": "301, 567, 68",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'Tis finished! the Messiah dies,—\nCut off for sins, but not his own;\nAccomplished is the sacrifice,\nNow his incarnate work is done."
+    },
+    {
+      "number": 2,
+      "text": "'Tis finished! all the debt is paid;\nJustice divine is satisfied;\nThe grand and full provision made:\nChrist for a guilty world hath died."
+    },
+    {
+      "number": 3,
+      "text": "The veil is rent in him alone\nThe living way to heaven is seen;\nThe middle wall is broken down,\nAnd all mankind may enter in."
+    },
+    {
+      "number": 4,
+      "text": "The types and figures are fulfilled;\nExacted is the legal pain:\nThe precious promises are sealed:\nThe spotless Lamb of God is slain."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Christ", "Sufferings and Death", "finished work", "sacrifice", "atonement", "salvation"],
+    "scripture_references": [],
+    "tune_source": "301, 567, 68",
+    "original_language": "en"
+  }
+}

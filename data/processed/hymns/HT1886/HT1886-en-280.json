@@ -1,0 +1,36 @@
+{
+  "id": "HT1886-en-280",
+  "number": 280,
+  "title": "Go and guard us, O our Father",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Go and guard us, O our Father,\nTill another Sabbath day;\nShield us with thy holy presence,\nLead us in thy righteous way."
+    },
+    {
+      "number": 2,
+      "text": "Now we thank thee for thy blessing\nOn this sacred day of rest,\nAnd for truths which thou hast shown us\nIn thy word divinely blest."
+    },
+    {
+      "number": 3,
+      "text": "Bless the day when we assemble,\nWe are safe if thou art near;\nFrom all danger thou canst rescue,\nIn our sorrows thou canst cheer."
+    },
+    {
+      "number": 4,
+      "text": "We will trust thy constant watch-care,\nFor thou knowest what is best;\nO, forever guide and guard us,\nTill we reach thy final rest."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["worship", "closing", "protection", "blessing", "Sabbath"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

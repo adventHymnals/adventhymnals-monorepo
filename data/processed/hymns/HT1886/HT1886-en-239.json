@@ -1,0 +1,32 @@
+{
+  "id": "HT1886-en-239",
+  "number": 239,
+  "title": "Sweet is the work, O Lord",
+  "author": "Harriet Auber",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sweet is the work, O Lord,\nThy glorious name to sing,\nTo praise and pray, to hear thy word,\nAnd grateful offering bring."
+    },
+    {
+      "number": 2,
+      "text": "Sweet, on this day of rest,\nTo join in heart and voice\nWith those who love and serve thee best,\nAnd in thy name rejoice."
+    },
+    {
+      "number": 3,
+      "text": "To songs of praise and joy\nBe every Sabbath given,\nThat such may be our blest employ\nEternally in heaven."
+    }
+  ],
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": ["Sabbath", "worship", "praise", "prayer", "heaven"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "HSAB-en-071",
+  "number": 71,
+  "title": "The Exile",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "THERE is a land, a better land than this–\nThere's my home, there's my home!\nA land of pure, unbounded, perfect bliss–\nThere's my home, there's my home;\nA captive on this desert shore,\nI long to count my exile o'er,\nAnd be where sorrows come no more:\nThere's my home, there's my home."
+    },
+    {
+      "number": 2,
+      "text": "Far, far I am from my own happy shore–\nI would go, I would go.\nBut yet my days of exile are not o'er–\nI would go, I would go.\nI would not stay though earth were mine;\nThough all its treasures for me shine,\nA captive here I still should pine–\nI would go, I would go!"
+    },
+    {
+      "number": 3,
+      "text": "Bright visions of that blissful land appear–\nThere's my home, there's my home;\nHow long a pilgrim must I wander here?\nThere's my home, there's my home.\nO, tell me that I soon shall be,\nWith all the ransomed exiles, free,\nThere in that land I long to see:\nThere's my home, there's my home."
+    },
+    {
+      "number": 4,
+      "text": "There is a land; a brighter land than this;\nJoys are there, joys are there;\nNo pain or sorrow, sickness or distress,\nReaches there, reaches there.\nBright fields of pleasure greet the eye,\nAnd crystal streams that never dry;\nO, give me wings, I now would fly,\nAnd be there, and be there."
+    }
+  ],
+  "metadata": {
+    "year": 1852,
+    "copyright": "Public Domain",
+    "publisher": "James White",
+    "location": "Rochester, N.Y.",
+    "themes": ["exile", "better land", "captive", "pilgrim", "brighter land", "crystal streams"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

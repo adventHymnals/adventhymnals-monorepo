@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-447",
+  "number": 447,
+  "title": "Long Upon the Mountains",
+  "author": "Charles E. Mudie",
+  "composer": "Traditional",
+  "tune": "LONG UPON THE MOUNTAINS",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Long upon the mountains weary,\nHave the scattered flock been torn;\nDark the desert paths, and dreary;\nGrievous trials have they borne."
+    },
+    {
+      "number": 2,
+      "text": "Now the light of truth they're seeking,\nIn its onward track pursue;\nAll the ten commandments keeping,\nThey are holy, just, and true."
+    },
+    {
+      "number": 3,
+      "text": "In that light of light and beauty,\nIn that golden city fair,\nSoon His people, by duty,\nShall their victory banners bear."
+    },
+    {
+      "number": 4,
+      "text": "Soon He comes! with clouds descending;\nAll His saints, entombed arise;\nThe redeemed, in anthems blending,\nShout their victory through the skies."
+    }
+  ],
+  "chorus": {
+    "text": "Now the gathering call is sounding,\nSolemn in its warning voice;\nUnion, faith, and love, abounding,\nBid the little flock rejoice."
+  },
+  "metadata": {
+    "year": 1863,
+    "copyright": "Public Domain",
+    "themes": ["gathering", "scattered flock", "truth", "second coming", "commandments"],
+    "scripture_references": ["Ezekiel 34:11-16", "John 10:16", "Revelation 14:12"],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

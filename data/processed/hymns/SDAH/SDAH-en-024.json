@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-024",
+  "number": 24,
+  "title": "Every Star Shall Sing a Carol",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Every star shall sing a carol;\nEvery creature, high or low,\nCome and praise the King of heaven\nBy whatever name you know."
+    },
+    {
+      "number": 2,
+      "text": "When the King of all creation\nHad a cradle on the earth,\nHoly was the human body,\nHoly was the human birth."
+    },
+    {
+      "number": 3,
+      "text": "Every star and every planet,\nEvery creature, high or low,\nCome and praise the King of heaven\nBy whatever name you know."
+    }
+  ],
+  "chorus": {
+    "text": "God above, Man below,\nHoly is the name I know."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": ["praise", "creation", "incarnation", "Christmas"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}
