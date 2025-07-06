@@ -123,7 +123,7 @@ export default function AuthorsPage() {
               {searchTerm ? `Found ${filteredAuthors.length} authors` : `${authors.length} Hymn Authors`}
             </h2>
             {searchTerm && (
-              <p className="mt-2 text-gray-600">Results for "{searchTerm}"</p>
+              <p className="mt-2 text-gray-600">Results for &quot;{searchTerm}&quot;</p>
             )}
           </div>
 

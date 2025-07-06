@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { MusicalNoteIcon, ArrowLeftIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
@@ -31,7 +30,6 @@ export default function ComposerDetailPage({ params }: ComposerDetailProps) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [hymnalReferences, setHymnalReferences] = useState<any>(null);
-  const router = useRouter();
   
   const decodedComposer = decodeURIComponent(params.composer);
 

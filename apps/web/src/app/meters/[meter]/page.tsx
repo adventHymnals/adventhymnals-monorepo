@@ -1,10 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { MusicalNoteIcon, ArrowLeftIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
+import HymnFilters from '@/components/search/HymnFilters';
 import { loadHymnalReferences } from '@/lib/data';
 
 interface HymnData {
@@ -28,10 +28,13 @@ interface MeterDetailProps {
 
 export default function MeterDetailPage({ params }: MeterDetailProps) {
   const [hymns, setHymns] = useState<HymnData[]>([]);
+  const [filteredHymns, setFilteredHymns] = useState<HymnData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [hymnalReferences, setHymnalReferences] = useState<any>(null);
-  const router = useRouter();
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedHymnal, setSelectedHymnal] = useState('');
+  const [sortBy, setSortBy] = useState<'title' | 'number'>('number');
   
   const decodedMeter = decodeURIComponent(params.meter);
 
@@ -56,6 +59,7 @@ export default function MeterDetailPage({ params }: MeterDetailProps) {
         }
         
         setHymns(meterData.hymns);
+        setFilteredHymns(meterData.hymns);
         setHymnalReferences(references);
       } catch (error) {
         console.error('Failed to load meter data:', error);
@@ -67,6 +71,42 @@ export default function MeterDetailPage({ params }: MeterDetailProps) {
 
     loadData();
   }, [decodedMeter]);
+
+  // Filter and sort hymns
+  useEffect(() => {
+    let filtered = hymns;
+
+    // Filter by search term
+    if (searchTerm.trim()) {
+      const normalizedSearch = searchTerm.toLowerCase();
+      filtered = filtered.filter(hymn =>
+        hymn.title.toLowerCase().includes(normalizedSearch) ||
+        hymn.author?.toLowerCase().includes(normalizedSearch) ||
+        hymn.hymnal.abbreviation.toLowerCase().includes(normalizedSearch) ||
+        hymn.number.toString().includes(normalizedSearch)
+      );
+    }
+
+    // Filter by hymnal
+    if (selectedHymnal) {
+      filtered = filtered.filter(hymn => hymn.hymnal.id === selectedHymnal);
+    }
+
+    // Sort
+    filtered.sort((a, b) => {
+      if (sortBy === 'title') {
+        return a.title.localeCompare(b.title);
+      } else {
+        // Sort by number, but group by hymnal first
+        if (a.hymnal.id !== b.hymnal.id) {
+          return a.hymnal.abbreviation.localeCompare(b.hymnal.abbreviation);
+        }
+        return a.number - b.number;
+      }
+    });
+
+    setFilteredHymns(filtered);
+  }, [hymns, searchTerm, selectedHymnal, sortBy]);
 
   if (loading) {
     return (
@@ -120,7 +160,7 @@ export default function MeterDetailPage({ params }: MeterDetailProps) {
                 {decodedMeter}
               </h1>
               <p className="mt-6 text-lg leading-8 text-primary-100">
-                {hymns.length} hymn{hymns.length !== 1 ? 's' : ''} in this metrical pattern
+                {filteredHymns.length} of {hymns.length} hymn{hymns.length !== 1 ? 's' : ''} in this metrical pattern
               </p>
             </div>
           </div>
@@ -128,8 +168,18 @@ export default function MeterDetailPage({ params }: MeterDetailProps) {
 
         {/* Content */}
         <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
+          <HymnFilters
+            searchTerm={searchTerm}
+            onSearchChange={setSearchTerm}
+            selectedHymnal={selectedHymnal}
+            onHymnalChange={setSelectedHymnal}
+            sortBy={sortBy}
+            onSortChange={setSortBy}
+            hymnalReferences={hymnalReferences}
+          />
+
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {hymns.map((hymn) => (
+            {filteredHymns.map((hymn) => (
               <Link
                 key={hymn.id}
                 href={`/${hymn.hymnal.url_slug}/hymn-${hymn.number}-${hymn.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')}`}
@@ -153,6 +203,14 @@ export default function MeterDetailPage({ params }: MeterDetailProps) {
               </Link>
             ))}
           </div>
+
+          {filteredHymns.length === 0 && hymns.length > 0 && (
+            <div className="text-center py-12 col-span-full">
+              <MusicalNoteIcon className="mx-auto h-12 w-12 text-gray-400 mb-4" />
+              <h3 className="text-lg font-medium text-gray-900 mb-2">No hymns match your filters</h3>
+              <p className="text-gray-600">Try adjusting your search terms or filters.</p>
+            </div>
+          )}
 
           {hymns.length === 0 && (
             <div className="text-center py-12">

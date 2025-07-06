@@ -8,7 +8,6 @@ import {
   MusicalNoteIcon,
   HomeIcon,
   ChevronRightIcon,
-  ArrowDownTrayIcon
 } from '@heroicons/react/24/outline';
 
 import Layout from '@/components/layout/Layout';

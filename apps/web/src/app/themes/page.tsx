@@ -123,7 +123,7 @@ export default function ThemesPage() {
               {searchTerm ? `Found ${filteredThemes.length} themes` : `${themes.length} Hymn Themes`}
             </h2>
             {searchTerm && (
-              <p className="mt-2 text-gray-600">Results for "{searchTerm}"</p>
+              <p className="mt-2 text-gray-600">Results for &quot;{searchTerm}&quot;</p>
             )}
           </div>
 

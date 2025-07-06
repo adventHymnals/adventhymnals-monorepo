@@ -102,11 +102,23 @@ export default function TopicsSearchPage() {
     if (selectedThemes.length === 0) return;
     
     const params = new URLSearchParams();
-    params.set('themes', selectedThemes.join(','));
     if (searchTerm) params.set('q', searchTerm);
+    params.set('themes', selectedThemes.join(','));
     
     router.push(`/search?${params.toString()}`);
   };
+
+  // Handle initial theme selection from URL
+  useEffect(() => {
+    const urlThemes = searchParams.get('themes');
+    if (urlThemes && themes.length > 0) {
+      const themeList = urlThemes.split(',').filter(Boolean);
+      const validThemes = themeList.filter(theme => 
+        themes.some(t => t.theme === theme)
+      );
+      setSelectedThemes(validThemes);
+    }
+  }, [themes, searchParams]);
 
   if (loading) {
     return (
