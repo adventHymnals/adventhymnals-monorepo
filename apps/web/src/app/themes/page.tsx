@@ -2,12 +2,12 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { MagnifyingGlassIcon, MusicalNoteIcon } from '@heroicons/react/24/outline';
+import { MagnifyingGlassIcon, TagIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import { loadHymnalReferences } from '@/lib/data';
 
-interface TuneData {
-  tune: string;
+interface ThemeData {
+  theme: string;
   count: number;
   hymns: Array<{
     id: string;
@@ -23,9 +23,9 @@ interface TuneData {
   }>;
 }
 
-export default function TunesPage() {
-  const [tunes, setTunes] = useState<TuneData[]>([]);
-  const [filteredTunes, setFilteredTunes] = useState<TuneData[]>([]);
+export default function ThemesPage() {
+  const [themes, setThemes] = useState<ThemeData[]>([]);
+  const [filteredThemes, setFilteredThemes] = useState<ThemeData[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
   const [hymnalReferences, setHymnalReferences] = useState<any>(null);
@@ -33,21 +33,21 @@ export default function TunesPage() {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const [tunesResponse, references] = await Promise.all([
-          fetch('/api/tunes'),
+        const [themesResponse, references] = await Promise.all([
+          fetch('/api/themes'),
           loadHymnalReferences()
         ]);
         
-        if (!tunesResponse.ok) {
-          throw new Error('Failed to fetch tunes');
+        if (!themesResponse.ok) {
+          throw new Error('Failed to fetch themes');
         }
         
-        const tunesData = await tunesResponse.json();
-        setTunes(tunesData);
-        setFilteredTunes(tunesData);
+        const themesData = await themesResponse.json();
+        setThemes(themesData);
+        setFilteredThemes(themesData);
         setHymnalReferences(references);
       } catch (error) {
-        console.error('Failed to load tunes:', error);
+        console.error('Failed to load themes:', error);
       } finally {
         setLoading(false);
       }
@@ -58,15 +58,15 @@ export default function TunesPage() {
 
   useEffect(() => {
     if (!searchTerm.trim()) {
-      setFilteredTunes(tunes);
+      setFilteredThemes(themes);
       return;
     }
 
-    const filtered = tunes.filter(tuneData =>
-      tuneData.tune.toLowerCase().includes(searchTerm.toLowerCase())
+    const filtered = themes.filter(themeData =>
+      themeData.theme.toLowerCase().includes(searchTerm.toLowerCase())
     );
-    setFilteredTunes(filtered);
-  }, [searchTerm, tunes]);
+    setFilteredThemes(filtered);
+  }, [searchTerm, themes]);
 
   if (loading) {
     return (
@@ -74,7 +74,7 @@ export default function TunesPage() {
         <div className="min-h-screen bg-gray-50 flex items-center justify-center">
           <div className="text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"></div>
-            <p className="text-gray-600">Loading tunes...</p>
+            <p className="text-gray-600">Loading themes...</p>
           </div>
         </div>
       </Layout>
@@ -88,12 +88,12 @@ export default function TunesPage() {
         <div className="bg-gradient-to-r from-primary-600 to-primary-700">
           <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
             <div className="text-center">
-              <MusicalNoteIcon className="mx-auto h-12 w-12 text-white mb-4" />
+              <TagIcon className="mx-auto h-12 w-12 text-white mb-4" />
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-                Hymn Tunes
+                Hymn Themes
               </h1>
               <p className="mt-6 text-lg leading-8 text-primary-100">
-                Explore hymns organized by their musical tunes and melodies
+                Explore hymns organized by their spiritual themes and topics
               </p>
             </div>
           </div>
@@ -109,7 +109,7 @@ export default function TunesPage() {
                 type="text"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                placeholder="Search hymn tunes..."
+                placeholder="Search themes..."
                 className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent text-gray-900 bg-white"
               />
             </div>
@@ -118,39 +118,39 @@ export default function TunesPage() {
           {/* Results Summary */}
           <div className="mb-8 text-center">
             <h2 className="text-2xl font-bold text-gray-900">
-              {searchTerm ? `Found ${filteredTunes.length} tunes` : `${tunes.length} Hymn Tunes`}
+              {searchTerm ? `Found ${filteredThemes.length} themes` : `${themes.length} Hymn Themes`}
             </h2>
             {searchTerm && (
               <p className="mt-2 text-gray-600">Results for "{searchTerm}"</p>
             )}
           </div>
 
-          {/* Tunes Grid */}
-          {filteredTunes.length === 0 ? (
+          {/* Themes Grid */}
+          {filteredThemes.length === 0 ? (
             <div className="text-center py-12">
-              <MusicalNoteIcon className="mx-auto h-12 w-12 text-gray-400 mb-4" />
-              <h3 className="text-lg font-medium text-gray-900 mb-2">No tunes found</h3>
+              <TagIcon className="mx-auto h-12 w-12 text-gray-400 mb-4" />
+              <h3 className="text-lg font-medium text-gray-900 mb-2">No themes found</h3>
               <p className="text-gray-600">Try adjusting your search terms.</p>
             </div>
           ) : (
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {filteredTunes.map((tuneData) => (
+              {filteredThemes.map((themeData) => (
                 <Link
-                  key={tuneData.tune}
-                  href={`/tunes/${encodeURIComponent(tuneData.tune)}`}
+                  key={themeData.theme}
+                  href={`/themes/${encodeURIComponent(themeData.theme)}`}
                   className="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-primary-300"
                 >
                   <div className="text-center">
                     <div className="text-lg font-bold text-primary-600 mb-2">
-                      {tuneData.tune}
+                      {themeData.theme}
                     </div>
                     <div className="text-sm text-gray-600 mb-4">
-                      {tuneData.count} hymn{tuneData.count !== 1 ? 's' : ''}
+                      {themeData.count} hymn{themeData.count !== 1 ? 's' : ''}
                     </div>
                     
                     {/* Sample hymns */}
                     <div className="space-y-1">
-                      {tuneData.hymns.slice(0, 3).map((hymn) => (
+                      {themeData.hymns.slice(0, 3).map((hymn) => (
                         <div key={hymn.id} className="text-xs text-gray-500">
                           <span className="font-medium text-primary-600">
                             {hymn.hymnal.abbreviation} #{hymn.number}
@@ -158,9 +158,9 @@ export default function TunesPage() {
                           {hymn.title}
                         </div>
                       ))}
-                      {tuneData.count > 3 && (
+                      {themeData.count > 3 && (
                         <div className="text-xs text-gray-400">
-                          +{tuneData.count - 3} more
+                          +{themeData.count - 3} more
                         </div>
                       )}
                     </div>

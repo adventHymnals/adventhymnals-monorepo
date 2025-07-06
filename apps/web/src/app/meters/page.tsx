@@ -1,25 +1,85 @@
-import { Metadata } from 'next';
+'use client';
+
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { MagnifyingGlassIcon, MusicalNoteIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
-import { loadHymnalReferences } from '@/lib/data-server';
+import { loadHymnalReferences } from '@/lib/data';
 
-export const metadata: Metadata = {
-  title: 'Metrical Index - Advent Hymnals',
-  description: 'Browse hymns by meter patterns. Find hymns with matching rhythmic structures across all hymnal collections.',
-  keywords: ['hymn meters', 'metrical index', 'hymn patterns', 'musical meter'],
-};
+interface MeterData {
+  meter: string;
+  count: number;
+  hymns: Array<{
+    id: string;
+    number: number;
+    title: string;
+    author?: string;
+    hymnal: {
+      id: string;
+      name: string;
+      url_slug: string;
+      abbreviation: string;
+    };
+  }>;
+}
 
-// Common hymn meters
-const commonMeters = [
-  { name: 'Common Meter (C.M.)', pattern: '8.6.8.6', description: 'Most frequently used meter in hymnody' },
-  { name: 'Long Meter (L.M.)', pattern: '8.8.8.8', description: 'Four lines of eight syllables each' },
-  { name: 'Short Meter (S.M.)', pattern: '6.6.8.6', description: 'Shorter first and third lines' },
-  { name: '8.7.8.7', pattern: '8.7.8.7', description: 'Popular modern hymn meter' },
-  { name: '7.6.7.6', pattern: '7.6.7.6', description: 'Trochaic meter, often used for gentle hymns' },
-  { name: '10.10.10.10', pattern: '10.10.10.10', description: 'Extended meter for longer texts' },
-];
+export default function MetersPage() {
+  const [meters, setMeters] = useState<MeterData[]>([]);
+  const [filteredMeters, setFilteredMeters] = useState<MeterData[]>([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [loading, setLoading] = useState(true);
+  const [hymnalReferences, setHymnalReferences] = useState<any>(null);
 
-export default async function MetersPage() {
-  const hymnalReferences = await loadHymnalReferences();
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const [metersResponse, references] = await Promise.all([
+          fetch('/api/meters'),
+          loadHymnalReferences()
+        ]);
+        
+        if (!metersResponse.ok) {
+          throw new Error('Failed to fetch meters');
+        }
+        
+        const metersData = await metersResponse.json();
+        setMeters(metersData);
+        setFilteredMeters(metersData);
+        setHymnalReferences(references);
+      } catch (error) {
+        console.error('Failed to load meters:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadData();
+  }, []);
+
+  useEffect(() => {
+    if (!searchTerm.trim()) {
+      setFilteredMeters(meters);
+      return;
+    }
+
+    const filtered = meters.filter(meterData =>
+      meterData.meter.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setFilteredMeters(filtered);
+  }, [searchTerm, meters]);
+
+  if (loading) {
+    return (
+      <Layout hymnalReferences={hymnalReferences}>
+        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"></div>
+            <p className="text-gray-600">Loading meters...</p>
+          </div>
+        </div>
+      </Layout>
+    );
+  }
 
   return (
     <Layout hymnalReferences={hymnalReferences}>
@@ -28,8 +88,9 @@ export default async function MetersPage() {
         <div className="bg-gradient-to-r from-primary-600 to-primary-700">
           <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
             <div className="text-center">
+              <MusicalNoteIcon className="mx-auto h-12 w-12 text-white mb-4" />
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-                Metrical Index
+                Metrical Patterns
               </h1>
               <p className="mt-6 text-lg leading-8 text-primary-100">
                 Explore hymns organized by their metrical patterns and rhythmic structures
@@ -40,77 +101,74 @@ export default async function MetersPage() {
 
         {/* Content */}
         <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <div className="bg-white rounded-xl shadow-sm border p-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-6">Common Hymn Meters</h2>
-                
-                <div className="space-y-6">
-                  {commonMeters.map((meter) => (
-                    <div key={meter.name} className="border-l-4 border-primary-500 pl-6 py-4">
-                      <h3 className="text-lg font-semibold text-gray-900">{meter.name}</h3>
-                      <p className="text-primary-600 font-mono text-lg mt-1">{meter.pattern}</p>
-                      <p className="text-gray-600 mt-2">{meter.description}</p>
-                      <button className="mt-3 text-sm text-primary-600 hover:text-primary-700 font-medium">
-                        View hymns in this meter →
-                      </button>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Coming Soon */}
-              <div className="mt-8 bg-yellow-50 border border-yellow-200 rounded-xl p-6">
-                <h3 className="text-lg font-semibold text-yellow-800 mb-2">🚧 Under Development</h3>
-                <p className="text-yellow-700">
-                  We're currently building a comprehensive metrical index that will allow you to:
-                </p>
-                <ul className="mt-3 space-y-1 text-yellow-700">
-                  <li>• Browse hymns by specific meter patterns</li>
-                  <li>• Find hymns with matching rhythmic structures</li>
-                  <li>• Discover tune alternatives for your favorite texts</li>
-                  <li>• Search across all hymnal collections by meter</li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Sidebar */}
-            <div className="lg:col-span-1">
-              <div className="bg-white rounded-xl shadow-sm border p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">About Metrical Patterns</h3>
-                <div className="space-y-4 text-sm text-gray-600">
-                  <p>
-                    Metrical patterns in hymnody describe the syllable count and rhythmic structure 
-                    of each line in a hymn stanza.
-                  </p>
-                  <p>
-                    Understanding meter helps musicians find alternative tunes for hymn texts 
-                    and assists in hymn selection for worship services.
-                  </p>
-                  <p>
-                    The notation "8.6.8.6" means the first line has 8 syllables, 
-                    the second has 6, the third has 8, and the fourth has 6.
-                  </p>
-                </div>
-              </div>
-
-              <div className="mt-6 bg-white rounded-xl shadow-sm border p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">Quick Links</h3>
-                <div className="space-y-2">
-                  <a href="/search" className="block text-sm text-primary-600 hover:text-primary-700">
-                    Search Hymns →
-                  </a>
-                  <a href="/composers" className="block text-sm text-primary-600 hover:text-primary-700">
-                    Composers Index →
-                  </a>
-                  <a href="/topics" className="block text-sm text-primary-600 hover:text-primary-700">
-                    Browse by Topic →
-                  </a>
-                </div>
-              </div>
+          {/* Search */}
+          <div className="mb-8">
+            <div className="relative max-w-md mx-auto">
+              <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
+              <input
+                type="text"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                placeholder="Search metrical patterns..."
+                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent text-gray-900 bg-white"
+              />
             </div>
           </div>
+
+          {/* Results Summary */}
+          <div className="mb-8 text-center">
+            <h2 className="text-2xl font-bold text-gray-900">
+              {searchTerm ? `Found ${filteredMeters.length} patterns` : `${meters.length} Metrical Patterns`}
+            </h2>
+            {searchTerm && (
+              <p className="mt-2 text-gray-600">Results for "{searchTerm}"</p>
+            )}
+          </div>
+
+          {/* Meters Grid */}
+          {filteredMeters.length === 0 ? (
+            <div className="text-center py-12">
+              <MusicalNoteIcon className="mx-auto h-12 w-12 text-gray-400 mb-4" />
+              <h3 className="text-lg font-medium text-gray-900 mb-2">No metrical patterns found</h3>
+              <p className="text-gray-600">Try adjusting your search terms.</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {filteredMeters.map((meterData) => (
+                <Link
+                  key={meterData.meter}
+                  href={`/meters/${encodeURIComponent(meterData.meter)}`}
+                  className="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow border border-gray-200 hover:border-primary-300"
+                >
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-primary-600 mb-2">
+                      {meterData.meter}
+                    </div>
+                    <div className="text-sm text-gray-600 mb-4">
+                      {meterData.count} hymn{meterData.count !== 1 ? 's' : ''}
+                    </div>
+                    
+                    {/* Sample hymns */}
+                    <div className="space-y-1">
+                      {meterData.hymns.slice(0, 3).map((hymn) => (
+                        <div key={hymn.id} className="text-xs text-gray-500">
+                          <span className="font-medium text-primary-600">
+                            {hymn.hymnal.abbreviation} #{hymn.number}
+                          </span>{' '}
+                          {hymn.title}
+                        </div>
+                      ))}
+                      {meterData.count > 3 && (
+                        <div className="text-xs text-gray-400">
+                          +{meterData.count - 3} more
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </Layout>

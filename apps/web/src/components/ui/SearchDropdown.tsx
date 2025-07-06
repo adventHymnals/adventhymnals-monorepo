@@ -33,7 +33,7 @@ export default function SearchDropdown({
   const [loading, setLoading] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  // Mock search function - replace with actual API call
+  // Real search function using the search API
   const performSearch = async (query: string) => {
     if (!query.trim()) {
       setResults([]);
@@ -42,39 +42,30 @@ export default function SearchDropdown({
 
     setLoading(true);
     
-    // Simulate API delay
-    await new Promise(resolve => setTimeout(resolve, 300));
-    
-    // Mock search results
-    const mockResults: SearchResult[] = [
-      {
-        id: '1',
-        title: 'Amazing Grace',
-        hymnal: 'SDAH',
-        number: 108,
-        url: '/seventh-day-adventist-hymnal/hymn-108-amazing-grace'
-      },
-      {
-        id: '2',
-        title: 'How Great Thou Art',
-        hymnal: 'SDAH',
-        number: 86,
-        url: '/seventh-day-adventist-hymnal/hymn-86-how-great-thou-art'
-      },
-      {
-        id: '3',
-        title: 'Great Is Thy Faithfulness',
-        hymnal: 'SDAH',
-        number: 100,
-        url: '/seventh-day-adventist-hymnal/hymn-100-great-is-thy-faithfulness'
+    try {
+      const response = await fetch(`/api/search?q=${encodeURIComponent(query)}&limit=5`);
+      if (!response.ok) {
+        throw new Error('Search failed');
       }
-    ].filter(result => 
-      result.title.toLowerCase().includes(query.toLowerCase()) ||
-      result.number.toString().includes(query)
-    );
-
-    setResults(mockResults);
-    setLoading(false);
+      
+      const searchResults = await response.json();
+      
+      // Transform the API response to match our SearchResult interface
+      const transformedResults: SearchResult[] = searchResults.map((result: any) => ({
+        id: result.hymn.id,
+        title: result.hymn.title,
+        hymnal: result.hymnal.abbreviation,
+        number: result.hymn.number,
+        url: `/${result.hymnal.url_slug}/hymn-${result.hymn.number}-${result.hymn.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')}`
+      }));
+      
+      setResults(transformedResults);
+    } catch (error) {
+      console.error('Search error:', error);
+      setResults([]);
+    } finally {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {
@@ -156,13 +147,11 @@ export default function SearchDropdown({
               >
                 <div className="flex items-center justify-between">
                   <div className="flex-1 min-w-0">
-                    <div className="flex items-center space-x-2">
-                      <span className="text-xs font-medium text-primary-600 bg-primary-50 px-1.5 py-0.5 rounded">
-                        {result.hymnal} #{result.number}
-                      </span>
-                      <h4 className="text-sm font-medium text-gray-900 truncate">
-                        {result.title}
-                      </h4>
+                    <h4 className="text-sm font-medium text-gray-900 truncate">
+                      {result.title}
+                    </h4>
+                    <div className="text-xs text-gray-500 mt-0.5">
+                      {result.hymnal} #{result.number}
                     </div>
                   </div>
                   <MagnifyingGlassIcon className="h-4 w-4 text-gray-400 ml-2 flex-shrink-0" />
