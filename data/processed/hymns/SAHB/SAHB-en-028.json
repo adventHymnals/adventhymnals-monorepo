@@ -1,0 +1,30 @@
+{
+  "id": "SAHB-en-028",
+  "number": 28,
+  "title": "Hark! the Voice of Jesus Calling",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! the voice of Jesus calling,\n'Who will go and work to-day?\nFields are white, and harvests waiting,\nWho will bear the sheaves away?'\nLoud and long the Master calleth,\nRich reward he offers free;\nWho will answer, gladly saying,\n'Here am I, send me, send me?'"
+    },
+    {
+      "number": 2,
+      "text": "If you cannot cross the ocean,\nAnd the heathen lands explore,\nYou can find the heathen nearer,\nYou can help them at your door.\nIf you cannot give your thousands,\nYou can give the widow's mite,\nAnd the least you give for Jesus\nWill be precious in his sight."
+    },
+    {
+      "number": 3,
+      "text": "If you cannot be a watchman,\nStanding high on Zion's wall,\nPointing out the path to heaven,\nOffering life and peace to all,\nWith your prayers and with your bounties\nYou can do what God demands;\nYou can be like faithful Aaron,\nHolding up the prophet's hands."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["mission", "calling", "harvest", "service"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

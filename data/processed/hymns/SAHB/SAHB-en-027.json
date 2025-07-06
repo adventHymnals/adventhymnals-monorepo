@@ -1,0 +1,30 @@
+{
+  "id": "SAHB-en-027",
+  "number": 27,
+  "title": "The Morning Light is Breaking",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The morning light is breaking,\nThe darkness disappears,\nThe sons of earth are waking\nTo penitential tears.\nEach breeze that sweeps the ocean\nBrings tidings from afar,\nOf nations in commotion,\nPrepared for Zion's war."
+    },
+    {
+      "number": 2,
+      "text": "See heathen nations bending\nBefore the God we love,\nAnd thousand hearts ascending\nIn gratitude above.\nWhile sinners, now confessing,\nThe gospel call obey,\nAnd seek the Saviour's blessing,\nA nation in a day."
+    },
+    {
+      "number": 3,
+      "text": "Blest river of salvation,\nPursue thy onward way,\nFlow thou to every nation,\nNor in thy richness stay.\nStay not till all the lowly\nTriumphant reach their home,\nStay not till all the holy\nProclaim, 'The Lord is come.'"
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["morning light", "awakening", "salvation", "nations"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

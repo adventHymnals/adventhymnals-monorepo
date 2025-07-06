@@ -1,0 +1,30 @@
+{
+  "id": "SAHB-en-031",
+  "number": 31,
+  "title": "Come, Ye Disconsolate",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, ye disconsolate, where'er ye languish,\nCome to the mercy-seat, fervently kneel;\nHere bring your wounded hearts, here tell your anguish,\nEarth has no sorrow that heaven cannot heal."
+    },
+    {
+      "number": 2,
+      "text": "Joy of the desolate, light of the straying,\nHope of the penitent, fadeless and pure,\nHere speaks the Comforter, tenderly saying,\n'Earth has no sorrow that heaven cannot cure.'"
+    },
+    {
+      "number": 3,
+      "text": "Here see the bread of life; see waters flowing\nForth from the throne of God, pure from above;\nCome to the feast of love; come, ever knowing\nEarth has no sorrow but heaven can remove."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["comfort", "mercy", "healing", "sorrow"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

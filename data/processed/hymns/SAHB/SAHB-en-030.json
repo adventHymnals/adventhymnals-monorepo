@@ -1,0 +1,34 @@
+{
+  "id": "SAHB-en-030",
+  "number": 30,
+  "title": "Awake, My Soul, Stretch Every Nerve",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Awake, my soul, stretch every nerve,\nAnd press with vigor on;\nA heavenly race demands thy zeal,\nAnd an immortal crown."
+    },
+    {
+      "number": 2,
+      "text": "A cloud of witnesses around\nHold thee in full survey;\nForget the steps already trod,\nAnd onward urge thy way."
+    },
+    {
+      "number": 3,
+      "text": "'Tis God's all-animating voice\nThat calls thee from on high;\n'Tis his own hand presents the prize\nTo thine aspiring eye."
+    },
+    {
+      "number": 4,
+      "text": "Blest Saviour, introduced by thee,\nHave I my race begun;\nAnd, crowned with victory, at thy feet\nI'll lay my honors down."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["spiritual race", "perseverance", "crown", "victory"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}
