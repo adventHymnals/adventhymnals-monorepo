@@ -13,7 +13,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 import Layout from '@/components/layout/Layout';
-import Breadcrumbs, { generateHymnalBreadcrumbs } from '@/components/ui/Breadcrumbs';
+import { generateHymnalBreadcrumbs } from '@/components/ui/Breadcrumbs';
 import HymnActionButtons from '@/components/ui/HymnActionButtons';
 import HymnDisplaySection from '@/components/hymn/HymnDisplaySection';
 import { loadHymnalReferences, loadHymn, loadHymnalHymns, getRelatedHymns } from '@/lib/data-server';
