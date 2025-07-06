@@ -40,6 +40,12 @@ export async function generateMetadata({ params }: ProjectionPageProps): Promise
   try {
     const { loadHymn } = await import('@/lib/data-server');
     const hymn = await loadHymn(params.hymnId);
+    if (!hymn) {
+      return {
+        title: 'Hymn Projection',
+        description: 'Full-screen hymn presentation for worship services.'
+      };
+    }
     return {
       title: `${hymn.title} - Projection`,
       description: `Projection view for the hymn "${hymn.title}". Full-screen hymn presentation for worship services.`
@@ -56,6 +62,10 @@ export default async function ProjectionPage({ params }: ProjectionPageProps) {
   try {
     const { loadHymn } = await import('@/lib/data-server');
     const hymn = await loadHymn(params.hymnId);
+    
+    if (!hymn) {
+      notFound();
+    }
     
     return (
       <ProjectionClient hymnId={params.hymnId} hymn={hymn} />

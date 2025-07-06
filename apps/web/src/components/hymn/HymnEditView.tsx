@@ -119,7 +119,7 @@ export default function HymnEditView({ hymn, hymnalRef, allHymns, params }: Hymn
   };
 
   const handleImageError = (imageNum: number) => {
-    setImageError(prev => new Set([...prev, imageNum]));
+    setImageError(prev => new Set([...Array.from(prev), imageNum]));
   };
 
   const currentImageSrc = getCurrentImage();
