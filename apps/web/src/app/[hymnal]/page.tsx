@@ -7,11 +7,13 @@ import {
   UserIcon, 
   MusicalNoteIcon,
   HomeIcon,
-  ChevronRightIcon
+  ChevronRightIcon,
+  ArrowDownTrayIcon
 } from '@heroicons/react/24/outline';
 
 import Layout from '@/components/layout/Layout';
 import HymnalSearchClient from '@/components/hymnal/HymnalSearchClient';
+import PDFDownloadButton from '@/components/hymnal/PDFDownloadButton';
 import { loadHymnalReferences, loadHymnalHymns } from '@/lib/data-server';
 import { formatNumber } from '@advent-hymnals/shared';
 
@@ -164,6 +166,18 @@ export default async function HymnalPage({ params }: HymnalPageProps) {
                       {hymnalRef.compiler}
                     </div>
                   )}
+                </div>
+
+                {/* Download Button */}
+                <div className="mt-8">
+                  <PDFDownloadButton
+                    hymnalId={hymnalRef.id}
+                    hymnalName={hymnalRef.site_name}
+                    totalHymns={hymnalRef.total_songs}
+                    size="lg"
+                    variant="secondary"
+                    className="shadow-lg"
+                  />
                 </div>
 
                 </div>

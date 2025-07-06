@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { BookOpenIcon, UserIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import { HymnalReference } from '@advent-hymnals/shared';
+import PDFDownloadButton from '@/components/hymnal/PDFDownloadButton';
 
 interface HymnalsFilterProps {
   hymnals: HymnalReference[];
@@ -102,9 +103,8 @@ export default function HymnalsFilter({ hymnals }: HymnalsFilterProps) {
       {/* Hymnal Grid */}
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 xl:grid-cols-3">
         {filteredHymnals.map((hymnal) => (
-          <Link
+          <div
             key={hymnal.id}
-            href={`/${hymnal.url_slug}`}
             className="group relative overflow-hidden rounded-xl bg-white p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:scale-105 flex flex-col h-full"
           >
             {/* Header */}
@@ -122,9 +122,11 @@ export default function HymnalsFilter({ hymnals }: HymnalsFilterProps) {
 
             {/* Content */}
             <div className="mb-4 flex-grow">
-              <h3 className="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">
-                {hymnal.name}
-              </h3>
+              <Link href={`/${hymnal.url_slug}`}>
+                <h3 className="text-lg font-semibold text-gray-900 hover:text-primary-600 transition-colors cursor-pointer">
+                  {hymnal.name}
+                </h3>
+              </Link>
               <p className="text-sm text-gray-600 mt-1">{hymnal.abbreviation}</p>
               
               {/* Metadata */}
@@ -143,8 +145,25 @@ export default function HymnalsFilter({ hymnals }: HymnalsFilterProps) {
               </div>
             </div>
 
-            {/* Footer - Bottom aligned tags */}
-            <div className="mt-auto pt-4">
+            {/* Action Buttons */}
+            <div className="mt-auto pt-4 space-y-3">
+              <div className="flex gap-2">
+                <Link
+                  href={`/${hymnal.url_slug}`}
+                  className="flex-1 inline-flex items-center justify-center px-3 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors"
+                >
+                  Browse Hymns
+                </Link>
+                <PDFDownloadButton
+                  hymnalId={hymnal.id}
+                  hymnalName={hymnal.name}
+                  totalHymns={hymnal.total_songs}
+                  size="sm"
+                  variant="primary"
+                />
+              </div>
+              
+              {/* Tags */}
               <div className="flex items-center justify-between">
                 <div className="flex flex-wrap gap-2">
                   {hymnal.total_songs > 600 && (
@@ -165,8 +184,8 @@ export default function HymnalsFilter({ hymnals }: HymnalsFilterProps) {
             </div>
 
             {/* Hover overlay */}
-            <div className="absolute inset-0 bg-primary-50 opacity-0 group-hover:opacity-20 transition-opacity" />
-          </Link>
+            <div className="absolute inset-0 bg-primary-50 opacity-0 group-hover:opacity-20 transition-opacity pointer-events-none" />
+          </div>
         ))}
       </div>
 
