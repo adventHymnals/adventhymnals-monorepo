@@ -1,35 +1,31 @@
 {
-  "id": "CS1900-en-410",
+  "id": "CS1900-en-410", 
   "number": 410,
   "title": "We'll Live in Tents",
-  "author": null,
-  "composer": "H. R. Palmer",
+  "author": "H. S. Case",
+  "composer": "H. S. Case",
   "tune": null,
   "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "Let him his people on the earth, declare plainly that they seek a country.\nLet him his people on the earth, declare plainly that they seek a country.\nLet them who here do dwell, say unto all the strangers, say unto all the strangers, From whence they come."
+      "text": "Let him his peo-ple on the earth, Be-fore he comes and calls them home To live un-salt in home and\nIn the wild wood as of tent-ing, In the land where stran-gers, say take and a home Far from the dust and smoke;;\nHe chose us year no state-ly tow-ers, Sink no foun-da-tion walls of stone, But crimp each night a few short\nO broth-er, when on a day, then think on it, And our tent be gone, But yet and still to rove."
     },
     {
       "number": 2,
-      "text": "He shows us year by stately towers, Sink up from dark tom walls of stone, But crisp each night a few short hours, And rise beneath the golden moon. But ere the sun hath set, The golden gates are open wide, And through the blessed way we set, With Him to ever more abide."
-    },
-    {
-      "number": 3,
-      "text": "O brother, where to ye dwell, Our Father built for us a home, Where nought his blessed ones befell, Where want and woe can never come."
+      "text": "The world is not our hab-i-ta-tion, We are trav-el-ing to a bet-ter land;\nA home in the skies is our des-ti-na-tion, We are march-ing to the prom-ised land;\nWe are march-ing to the prom-ised land, We are march-ing to the prom-ised land."
     }
   ],
   "chorus": {
-    "text": "Bright-ly, Like far-bound trav-el-ers on light, We'll live in tents, we'll live in tents, Shall reach the land, This crown shall bless us in the tent, we'll live in tents."
+    "text": "We'll live in tents on our jour-ney, We'll live in tents, We'll live in tents on our jour-ney, We'll live in tents.\nBrief-ly, Like for-bound trav-el-ers we jour-ney, We'll live in tents, un-til our rest. Shall reach the\nman That earth-ly home re-quires. We'll live in tents, we'll live in tents, shall\nheav-en, And are the mor-row's dawn move on. We'll live in tents, we'll live in tents,\nsome, And live, home-seek-ing, for the pil-grim life. We'll live in tents, we'll live in tents."
   },
   "metadata": {
     "year": 1900,
-    "copyright": "Copyright, 1896, by H. R. Palmer. Used by permission.",
-    "themes": ["pilgrimage", "heaven", "temporary earthly dwelling"],
-    "scripture_references": ["Hebrews 11:13-14"],
-    "tune_source": "H. R. Palmer",
+    "copyright": "Copyright 1900 by F. E. Belden. Used by permission.",
+    "themes": ["pilgrimage", "heaven", "temporary dwelling"],
+    "scripture_references": [],
+    "tune_source": "H. S. Case",
     "original_language": "en"
   }
 }

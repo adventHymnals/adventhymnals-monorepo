@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-246",
+  "number": 246,
+  "title": "The Lily of the Valley",
+  "author": "C. W. Fry",
+  "composer": "Arr. from English Melody",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I have found a friend in Je-sus, He's ev-'ry thing to me, He's the fair-est of ten thou-sand to my soul;\nThe Lil-y of the Val-ley, in Him a-lone I see All I need to cleanse and make me ful-ly whole.\nIn sor-row He's my com-fort, in trou-ble He's my stay, He tells me ev-'ry care on Him to roll."
+    },
+    {
+      "number": 2,
+      "text": "He all my grief has tak-en, and all my sor-rows borne; In temp-ta-tion He's my strong and might-y tow'r; I've\nAll my griefs; nev-er have such a friend be-fore, That will hunt me now by His re-deem-ing pow'r,\nHe will nev-er, nev-er leave me, nor yet for-sake me here, While I live by faith and do His bless-ed will."
+    },
+    {
+      "number": 3,
+      "text": "He will nev-er, nev-er leave me, nor yet for-sake me here, While I live by faith and do His bless-ed will;\nA wall of fire a-bout me, I've noth-ing now to fear, With His man-na He my hun-gry soul doth fill."
+    }
+  ],
+  "chorus": {
+    "text": "He's the Lil-y of the Val-ley, the Bright and Morn-ing Star, He's the fair-est of ten thou-sand to my soul."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Jesus as friend", "comfort", "salvation", "lily of the valley"],
+    "scripture_references": [],
+    "tune_source": "Arr. from English Melody",
+    "original_language": "en"
+  }
+}

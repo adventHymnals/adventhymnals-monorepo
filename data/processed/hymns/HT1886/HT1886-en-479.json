@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-479",
   "number": 479,
-  "title": "Hymn 479 (To be extracted)",
-  "author": null,
+  "title": "We all are yet alive",
+  "author": "Charles Wesley",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,27 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "We all are yet alive,\nAnd see each other's face;\nGlory and praise to Jesus give\nFor his redeeming grace."
+    },
+    {
+      "number": 2,
+      "text": "What troubles have we seen,\nWhat conflicts have we passed,—\nFightings without, and fears within,\nSince we assembled last!"
+    },
+    {
+      "number": 3,
+      "text": "But out of all, the Lord\nHath brought us by his love;\nAnd still he helps his people afford,\nAnd hides our life above."
+    },
+    {
+      "number": 4,
+      "text": "Let us take up the cross\nTill we the crown obtain;\nAnd gladly reckon all things loss,\nSo we may Jesus gain."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["fellowship", "perseverance", "grace"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "Charles Wesley",
     "original_language": "en",
-    "extraction_status": "template_created"
   }
 }

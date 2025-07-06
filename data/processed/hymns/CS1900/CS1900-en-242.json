@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-242",
+  "number": 242,
+  "title": "Standing on the Promises",
+  "author": "R. K. Carter",
+  "composer": "R. K. Carter",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Stand-ing on the prom-is-es of Christ my King, Thru e-ter-nal a-ges let His prais-es ring,\nGlo-ry in the high-est, I will shout and sing, Stand-ing on the prom-is-es of God."
+    },
+    {
+      "number": 2,
+      "text": "Stand-ing on the prom-is-es that can-not fail, When the howl-ing storms of doubt and fear as-sail,\nBy the liv-ing word of God I shall pre-vail, Stand-ing on the prom-is-es of God."
+    },
+    {
+      "number": 3,
+      "text": "Stand-ing on the prom-is-es of Christ the Lord, Bound to Him e-ter-nal-ly by love's strong cord,\nO-ver-com-ing dai-ly with the Spir-it's sword, Stand-ing on the prom-is-es of God."
+    },
+    {
+      "number": 4,
+      "text": "Stand-ing on the prom-is-es I can-not fall, Lis-t'ning ev-ery mo-ment to the Spir-it's call,\nRest-ing in my Sav-ior as my all in all, Stand-ing on the prom-is-es of God."
+    }
+  ],
+  "chorus": {
+    "text": "Stand-ing, stand-ing, Stand-ing on the prom-is-es of God my Sav-ior;\nStand-ing, stand-ing, I'm stand-ing on the prom-is-es of God."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright owned by Jno. J. Hood. Used by permission.",
+    "themes": ["promises", "faith", "trust", "God's word"],
+    "scripture_references": [],
+    "tune_source": "R. K. Carter",
+    "original_language": "en"
+  }
+}

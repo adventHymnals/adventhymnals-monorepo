@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-251",
+  "number": 251,
+  "title": "He Loves Me, Too",
+  "author": "A. H. Ackley",
+  "composer": "J. B. Sumner",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God loves the lit-tle spar-rows, I'll gone His ten-der care; If God so loves the lit-tle birds, I know He loves me, too.\nHe paints the lil-y so fair, He feeds the rav-en on the tree, I know He loves me, too."
+    },
+    {
+      "number": 2,
+      "text": "God made the lit-tle chil-dren, And lit-tle lambs He guards and small; He'll not forget His lit-tle ones, I know He loves them all."
+    }
+  ],
+  "chorus": {
+    "text": "He loves me, too, he loves me, too, I know he loves me, too; Be-cause he loves the lit-tle-ones, I know he loves me, too."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of J. B. Sumner.",
+    "themes": ["God's love", "children", "care", "sparrows"],
+    "scripture_references": ["Matthew 10:29-31"],
+    "tune_source": "J. B. Sumner",
+    "original_language": "en"
+  }
+}

@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-476",
   "number": 476,
-  "title": "Hymn 476 (To be extracted)",
-  "author": null,
+  "title": "Early, my God, without delay",
+  "author": "Isaac Watts",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "LAUREL HILL",
+  "meter": "C. M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Early, my God, without delay,\nI haste to seek thy face,\nMy thirsty spirit faints away\nWithout thy cheering grace."
+    },
+    {
+      "number": 2,
+      "text": "So pilgrims on the scorching sand,\nBeneath a burning sky,\nLong for a cooling stream at hand,\nAnd they must drink or die."
+    },
+    {
+      "number": 3,
+      "text": "I've seen thy glory and thy power\nThrough all thy temple shine;\nMy God, repeat that heavenly hour,\nThat vision so divine."
+    },
+    {
+      "number": 4,
+      "text": "Not life itself, with all its joys,\nCan my best passions move,\nOr raise so high my cheerful voice\nAs thy forgiving love."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["prayer", "devotion", "longing"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "Isaac Watts",
     "original_language": "en",
-    "extraction_status": "template_created"
   }
 }

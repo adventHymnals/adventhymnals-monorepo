@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-250",
+  "number": 250,
+  "title": "Two Little Hands",
+  "author": "Moderate",
+  "composer": "Wm. A. Dressler",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Two lit-tle hands to work for Je-sus, Our lit-tle tongues His praise to tell, Two lit-tle ears to hear His mes-sage,\nTwo lit-tle lips to do His will, Two lit-tle eyes to read His sto-ry, Two lit-tle hearts to love Him best."
+    },
+    {
+      "number": 2,
+      "text": "Two lit-tle feet to walk His path-way, Two lit-tle minds to think His will,\nTwo lit-tle souls to give Him glo-ry, Two lit-tle hearts to love Him still."
+    }
+  ],
+  "chorus": {
+    "text": "Work-ing for Je-sus, work-ing for Je-sus, Lord, we come, Lord, we come, In our child-hood's ear-ly morning;\nWork-ing for Je-sus, work-ing for Je-sus, God will bless, Lord, we come.\nJust as we are, just as we are, God is love."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of Lorenz & Cook, publisher.",
+    "themes": ["children", "service", "dedication", "working for Jesus"],
+    "scripture_references": [],
+    "tune_source": "Wm. A. Dressler",
+    "original_language": "en"
+  }
+}

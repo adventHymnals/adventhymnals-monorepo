@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-253",
+  "number": 253,
+  "title": "O Come, Let Us Sing",
+  "author": "Anon",
+  "composer": "Dr. Mason",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O come, let us sing un-to the Lord; Let us heart-i-ly re-joice in the Strength of our Sal-va-tion.\nFor the Lord is a great God, And a great King a-bove all gods."
+    },
+    {
+      "number": 2,
+      "text": "The sea is His, and He made it! And His hands pre-pared the dry land."
+    },
+    {
+      "number": 3,
+      "text": "Let us come be-fore His pres-ence with thanks-giv-ing, And show our-selves glad in Him with psalms.\nIn His hand are all the cor-ners of the earth, And the strength of the hills is His."
+    }
+  ],
+  "chorus": {
+    "text": "O come, let us wor-ship and fall down, Let us kneel be-fore the Lord, our Mak-er."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["worship", "praise", "God's greatness", "thanksgiving"],
+    "scripture_references": ["Psalm 95:1-6"],
+    "tune_source": "Dr. Mason",
+    "original_language": "en"
+  }
+}

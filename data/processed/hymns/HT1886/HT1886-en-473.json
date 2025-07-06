@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-473",
   "number": 473,
-  "title": "Hymn 473 (To be extracted)",
-  "author": null,
+  "title": "Where two or three, with sweet accord",
+  "author": "Isaac Watts",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,19 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Where two or three, with sweet accord,\nObedient to their sovereign Lord,\nMeet to recount his acts of grace,\nAnd offer solemn prayer and praise."
+    },
+    {
+      "number": 2,
+      "text": "There, says the Saviour, will I be,\nAmid that little company;\nTo them unveil my smiling face,\nAnd shed my glories round the place."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["fellowship", "worship", "prayer"],
+    "scripture_references": ["Matthew 18:20"],
+    "tune_source": "Isaac Watts",
+    "original_language": "en"
   }
 }

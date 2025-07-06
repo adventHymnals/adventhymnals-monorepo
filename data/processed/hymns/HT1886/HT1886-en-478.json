@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-478",
   "number": 478,
-  "title": "Hymn 478 (To be extracted)",
-  "author": null,
+  "title": "Whenever two or three may meet",
+  "author": "Thomas Hastings",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Whenever two or three may meet\nTo worship in thy name,\nAs they approach thy mercy-seat,\nThy promise they may claim."
+    },
+    {
+      "number": 2,
+      "text": "Jesus in love will condescend\nTo bless the hallowed place;\nThe Saviour will himself attend,\nAnd show his smiling face."
+    },
+    {
+      "number": 3,
+      "text": "O blest assurance! gracious Lord,\nThou Fountain of peace and love!\nFulfil to us thy precious word,\nThy loving-kindness prove."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "themes": ["fellowship", "worship", "promise"],
+    "scripture_references": ["Matthew 18:20"],
+    "tune_source": "Thomas Hastings",
     "original_language": "en",
-    "extraction_status": "template_created"
   }
 }

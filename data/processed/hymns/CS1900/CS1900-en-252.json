@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-252",
+  "number": 252,
+  "title": "How I Wish I Knew",
+  "author": "Grace Curto",
+  "composer": "J. H. Fillmore",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Let me learn that I can do to make your dear Jesus glad; It may seem that I'm too small,\nDid you see the colt lv preach-ing they had to it? Did you see the sis-ter they in won-der ex-plained?"
+    },
+    {
+      "number": 2,
+      "text": "Did you hear the moth-er tell-ing her hun-gry to go? Did you hear the fa-ther that they end asked, the corn-ing safe;\nDid you hear the dear ones call-ing Christ when they had pray? Did you hear the Lord so gent-ly said?"
+    },
+    {
+      "number": 3,
+      "text": "How I wish I knew some-thing to do that might be done; How I wish I knew some-thing to do that might be done;\nHow I wish I knew some-thing wise and good from the East, the mound, may be both s' far from\nLet me ask you, tell me what I know? Let me ask you, tell me what I know?"
+    }
+  ],
+  "chorus": {
+    "text": "Tell me, tell me, tell me, tell me what to do that I may please Je-sus, tell me what to do;\nLet me ask, that I might be in the heav-en's blest King, All you ask of Je-sus how I wish I knew."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of Fillmore Bros.",
+    "themes": ["children", "desire to serve", "learning", "pleasing Jesus"],
+    "scripture_references": [],
+    "tune_source": "J. H. Fillmore",
+    "original_language": "en"
+  }
+}

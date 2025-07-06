@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-477",
   "number": 477,
-  "title": "Hymn 477 (To be extracted)",
-  "author": null,
+  "title": "Grant me within thy courts a place",
+  "author": "James Montgomery",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,27 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Grant me within thy courts a place,\nAmong thy saints a seat,\nForever to behold thy face,\nAnd worship at thy feet."
+    },
+    {
+      "number": 2,
+      "text": "Here in my earthly temple dwelling,\nWhen storms of trouble blow,\nAnd in thy tabernacle hide,\nSecure from every foe."
+    },
+    {
+      "number": 3,
+      "text": "Here will I offer sacrifice,\nWhen thus I hear thee speak,\nMy heart would leap for joy, and say,\n'Thy face, Lord, will I seek.'"
+    },
+    {
+      "number": 4,
+      "text": "Then leave me not when grief assail,\nAnd earthly comforts flee;\nWhen father, mother, kindred fail,\nMy God, remember me."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["worship", "sanctuary", "prayer"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "James Montgomery",
     "original_language": "en",
-    "extraction_status": "template_created"
   }
 }

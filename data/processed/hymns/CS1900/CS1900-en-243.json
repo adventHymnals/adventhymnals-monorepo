@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-243",
+  "number": 243,
+  "title": "More of Jesus",
+  "author": "E. E. Hewitt",
+  "composer": "Jno. R. Sweney",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "More of Je-sus would I know, More of His grace to oth-ers show;\nMore of His sav-ing full-ness see, More of His love who died for me."
+    },
+    {
+      "number": 2,
+      "text": "More of Je-sus let me learn, More of His ho-ly will dis-cern;\nSpir-it of God, my teach-er be, Show-ing the things of Christ to me."
+    },
+    {
+      "number": 3,
+      "text": "More of His sav-ing word of truth, More of His love that guards my youth;\nMore of His bless-ed pres-ence bright, More of His king-dom's ho-ly light."
+    },
+    {
+      "number": 4,
+      "text": "More of His com-ing in the skies, More hope when earth-ly com-fort dies;\nMore of His soon ap-pear-ing here, More of His glo-ry shall ap-pear."
+    }
+  ],
+  "chorus": {
+    "text": "More, more of Je-sus, More, more of Je-sus;\nMore of His sav-ing full-ness see, More of His love who died for me."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright owned by Jno. J. Hood. Used by permission.",
+    "themes": ["Jesus", "spiritual growth", "sanctification"],
+    "scripture_references": [],
+    "tune_source": "Jno. R. Sweney",
+    "original_language": "en"
+  }
+}

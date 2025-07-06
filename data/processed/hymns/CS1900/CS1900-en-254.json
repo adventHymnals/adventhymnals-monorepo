@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-254",
+  "number": 254,
+  "title": "Sweetly Sing",
+  "author": "Emily H. Woodman",
+  "composer": "Emily H. Woodman",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sweet-ly sing, sweet-ly sing, Praise to our dear Sav-ior King; Let us praise, let us raise High our voice in grat-i-\nAnge-ls bright, an-gels bright, Wor-ship'd Him in heav-en's light and when Christ was born, Christ was born, they told praise, told praise, in the morn-"
+    },
+    {
+      "number": 2,
+      "text": "Far a-way, far a-way, We too dai-ly, dai-ly pray; They sang, they sang, Sweet-ly by His name.\nBright-er than the morn-ing star, Bright-er than the morn-ing star, They sang, they sang, they sang, Bright-er than the morn-ing star."
+    },
+    {
+      "number": 3,
+      "text": "Praise to Him whose sweet are! Lev-y, Praise to Him who reigns above! Raise your songs, raise your songs, Now we thank His love, so!\nBut from Sol-diers Light and Joy, Come and sing; Come and sing, The Child the an-gels Joy, come and sing,\nHe re-joiced as by His grace, This prepare to have a place In the sky, in the sky, He will al-ways with us stay."
+    }
+  ],
+  "chorus": {
+    "text": "Sweet-ly sing, sweet-ly sing, Praise to our dear Sav-ior King,\nSweet-ly sing, sweet-ly sing, Praise to our dear Sav-ior King."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Song shall be taught to the Lord, praise ye the Lord.--Psa 149:1",
+    "themes": ["praise", "worship", "children", "Jesus as King"],
+    "scripture_references": ["Psalm 149:1"],
+    "tune_source": "Emily H. Woodman",
+    "original_language": "en"
+  }
+}

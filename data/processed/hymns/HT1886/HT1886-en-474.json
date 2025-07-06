@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-474",
   "number": 474,
-  "title": "Hymn 474 (To be extracted)",
-  "author": null,
+  "title": "Now we have met in Jesus' name",
+  "author": "William Cowper",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Now we have met in Jesus' name,\nTo glorify our Lord we aim;\nWe serve each other in his will,\nWith anxious thoughts to do his will."
+    },
+    {
+      "number": 2,
+      "text": "We've met in love and holy fear,\nTo hear the happy sound declare\nThe rich compassion of a God—\nThe virtues of a Saviour's blood."
+    },
+    {
+      "number": 3,
+      "text": "O Saviour, help them to express\nThe wonders of triumphant grace,\nWhile to the mourner they freely own\nWhat for their souls the Lord hath done."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["fellowship", "worship", "grace"],
     "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "tune_source": "William Cowper",
+    "original_language": "en"
   }
 }

@@ -1,25 +1,40 @@
 {
   "id": "HT1886-en-480",
   "number": 480,
-  "title": "Hymn 480 (To be extracted)",
-  "author": null,
+  "title": "Sweet the time, exceeding sweet!",
+  "author": "George Barbur",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "DURHAM",
+  "meter": "7s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Sweet the time, exceeding sweet!\nWhen the saints together meet,\nWhen the Saviour is the theme,\nWhen they join to sing of him."
+    },
+    {
+      "number": 2,
+      "text": "Sing we then eternal love,\nSuch as did the Father prove:\nHe beheld the world undone,\nLoved the world and gave his Son."
+    },
+    {
+      "number": 3,
+      "text": "Sing the Son's amazing love;\nHow he left the realms above,\nTook our nature and our place,\nLived and died to save our race."
+    },
+    {
+      "number": 4,
+      "text": "Sing we, too, the Spirit's love,\nWith our stubborn hearts to strive,\nFilled our minds with grief and fear,\nBrought the precious Saviour near."
+    },
+    {
+      "number": 5,
+      "text": "Sweet the time, exceeding sweet,\nWhen the saints in heaven shall meet;\nJesus still will be the theme,\nThey shall always sing of him."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["fellowship", "worship", "Trinity"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "George Barbur",
     "original_language": "en",
-    "extraction_status": "template_created"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-245",
+  "number": 245,
+  "title": "Don't Forget the Sabbath",
+  "author": "Fanny Crosby",
+  "composer": "Wm. B. Bradbury",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Don't for-get the Sab-bath, The Lord your God hath blest, Of all the week the bright-est, Of all the week the\nKeep the Sab-bath ho-ly, And wor-ship Him in-day, Who said to His dis-ci-ples, \"I am the Liv-ing\nDay of sa-cred pleas-ure, The hol-i-est and best, In thank-ful-ness re-mem-ber The day the Lord has blest."
+    },
+    {
+      "number": 2,
+      "text": "It brings re-pose from la-bor, It tells of joy di-vine, Its beams of light de-scend-ing, With\nWhat! e'er need for His mer-cy, Our Sav-ior bore the cross, For giv-ing us the Found-ains Where\nLet us, O gen-tle lov-ing Sav-ior, How you and hear Him call, How pre-cious is Thy prom-ise To"
+    },
+    {
+      "number": 3,
+      "text": "Come to the house of wor-ship, Come with the young and old;\nCome, hear the sweet sto-ry That nev-er will grow old;\nCome, learn of Je-sus' love, Come, feel His bless-ed power."
+    }
+  ],
+  "chorus": {
+    "text": "Wel-come, wel-come, ev-er wel-come, Bless-ed Sab-bath day!\nWel-come, wel-come, ev-er wel-come, (Omit.) Bless-ed Sab-bath day!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by perm. The Biglow & Main Co. Copyright.",
+    "themes": ["Sabbath", "worship", "rest", "holiness"],
+    "scripture_references": [],
+    "tune_source": "Wm. B. Bradbury",
+    "original_language": "en"
+  }
+}

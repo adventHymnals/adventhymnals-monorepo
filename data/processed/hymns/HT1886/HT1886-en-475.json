@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-475",
   "number": 475,
-  "title": "Hymn 475 (To be extracted)",
-  "author": null,
+  "title": "Command thy blessing from above",
+  "author": "James Montgomery",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Command thy blessing from above,\nO God, on all assembled here;\nBehold us with a Father's love,\nWhile we look up with filial fear."
+    },
+    {
+      "number": 2,
+      "text": "Command thy blessing, Jesus, Lord!\nMay we thy true disciples be;\nSpeak to each heart the mighty word,—\nSay to the weakest, 'Follow me.'"
+    },
+    {
+      "number": 3,
+      "text": "Command thy blessing in this hour,\nSpirit of truth! and fill the place\nWith wounding and with healing power,\nWith quickening and confirming grace."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["blessing", "discipleship", "worship"],
     "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "tune_source": "James Montgomery",
+    "original_language": "en"
   }
 }

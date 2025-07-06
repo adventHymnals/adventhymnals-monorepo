@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-481",
   "number": 481,
-  "title": "Hymn 481 (To be extracted)",
-  "author": null,
+  "title": "As the hart, with eager looks",
+  "author": "James Montgomery",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "As the hart, with eager looks,\nPanteth for the water-brooks,\nSo my soul, athirst for thee,\nPants the living God to see."
+    },
+    {
+      "number": 2,
+      "text": "Why art thou cast down, my soul?\nGod, thy God, shall make thee whole;\nWhy art thou disquieted?\nGod shall lift thy fallen head."
+    },
+    {
+      "number": 3,
+      "text": "When, O when, with filial fear,\nLord, to thee my soul draws near,\nLet thy countenance benign\nBe the saving health of mine."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "themes": ["longing", "devotion", "psalm"],
+    "scripture_references": ["Psalm 42:1"],
+    "tune_source": "James Montgomery",
     "original_language": "en",
-    "extraction_status": "template_created"
   }
 }

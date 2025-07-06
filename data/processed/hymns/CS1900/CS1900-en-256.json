@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-256",
+  "number": 256,
+  "title": "Crown Him Lord of All",
+  "author": "Edward Perronet",
+  "composer": "Coronation. C. M. Oliver Holden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All hail the pow'r of Je-sus' name! Let an-gels pros-trate fall;\nBring forth the roy-al di-a-dem, And crown Him Lord of all."
+    },
+    {
+      "number": 2,
+      "text": "Crown Him, ye morn-ing stars of light, Who fixed this float-ing ball;\nNow hail the strength of Is-rael's might, And crown Him Lord of all."
+    },
+    {
+      "number": 3,
+      "text": "Crown Him, ye mar-tyrs of your God, Who from His al-tar call;\nEx-tol the Stem of Jes-se's rod, And crown Him Lord of all."
+    },
+    {
+      "number": 4,
+      "text": "Let ev-'ry tribe and ev-'ry tongue Be-fore Him pros-trate fall,\nAnd shout in u-ni-ver-sal song, The crown-ed Lord of all."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Jesus as King", "coronation", "worship", "praise"],
+    "scripture_references": [],
+    "tune_source": "Oliver Holden",
+    "original_language": "en"
+  }
+}
