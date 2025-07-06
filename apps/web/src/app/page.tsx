@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { BookOpenIcon, GlobeAltIcon, MusicalNoteIcon, AcademicCapIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import HymnalCarousel from '@/components/ui/HymnalCarousel';
-import { loadHymnalReferences } from '@/lib/data';
+import { loadHymnalReferences } from '@/lib/data-server';
 
 export const metadata: Metadata = {
   title: 'Advent Hymnals - Digital Collection of Adventist Hymnody',

@@ -11,7 +11,7 @@ import {
   AcademicCapIcon
 } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
-import { loadHymnalReferences } from '@/lib/data';
+import { loadHymnalReferences } from '@/lib/data-server';
 
 export const metadata: Metadata = {
   title: 'Contribute - Advent Hymnals',

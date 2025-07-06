@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { MagnifyingGlassIcon, FunnelIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import Breadcrumbs, { generateSearchBreadcrumbs } from '@/components/ui/Breadcrumbs';
-import { loadHymnalReferences } from '@/lib/data';
+import { loadHymnalReferences } from '@/lib/data-server';
 
 export const metadata: Metadata = {
   title: 'Search Hymns - Advent Hymnals',

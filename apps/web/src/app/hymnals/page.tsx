@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { CalendarIcon, BookOpenIcon, GlobeAltIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import HymnalsFilter from '@/components/hymnals/HymnalsFilter';
-import { loadHymnalReferences } from '@/lib/data';
+import { loadHymnalReferences } from '@/lib/data-server';
 
 export const metadata: Metadata = {
   title: 'Hymnal Collections - Advent Hymnals',

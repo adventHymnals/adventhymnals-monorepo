@@ -1,0 +1,894 @@
+{
+  "id": "HSAB",
+  "title": "Hymns for Second Advent Believers who Observe the Sabbath of the Lord",
+  "language": "en",
+  "year": 1852,
+  "publisher": "James White",
+  "hymns": [
+    {
+      "number": 1,
+      "hymn_id": "HSAB-en-001",
+      "title": "Come to Reign"
+    },
+    {
+      "number": 2,
+      "hymn_id": "HSAB-en-002",
+      "title": "Jubilee Prayer"
+    },
+    {
+      "number": 3,
+      "hymn_id": "HSAB-en-003",
+      "title": "Bright Scenes of Glory"
+    },
+    {
+      "number": 4,
+      "hymn_id": "HSAB-en-004",
+      "title": "The Last Lovely Morning"
+    },
+    {
+      "number": 5,
+      "hymn_id": "HSAB-en-005",
+      "title": "I'm A Traveler"
+    },
+    {
+      "number": 6,
+      "hymn_id": "HSAB-en-006",
+      "title": "The Restitution"
+    },
+    {
+      "number": 7,
+      "hymn_id": "HSAB-en-007",
+      "title": "The Bible"
+    },
+    {
+      "number": 8,
+      "hymn_id": "HSAB-en-008",
+      "title": "The Friend in Need"
+    },
+    {
+      "number": 9,
+      "hymn_id": "HSAB-en-009",
+      "title": "This World is Not My Home"
+    },
+    {
+      "number": 10,
+      "hymn_id": "HSAB-en-010",
+      "title": "The Little Flock"
+    },
+    {
+      "number": 11,
+      "hymn_id": "HSAB-en-011",
+      "title": "Consecration"
+    },
+    {
+      "number": 12,
+      "hymn_id": "HSAB-en-012",
+      "title": "The Precious Boon"
+    },
+    {
+      "number": 13,
+      "hymn_id": "HSAB-en-013",
+      "title": "The Scattered Flock"
+    },
+    {
+      "number": 14,
+      "hymn_id": "HSAB-en-014",
+      "title": "Heaven"
+    },
+    {
+      "number": 15,
+      "hymn_id": "HSAB-en-015",
+      "title": "Farewell"
+    },
+    {
+      "number": 16,
+      "hymn_id": "HSAB-en-016",
+      "title": "Lo! He Comes"
+    },
+    {
+      "number": 17,
+      "hymn_id": "HSAB-en-017",
+      "title": "New Jerusalem"
+    },
+    {
+      "number": 18,
+      "hymn_id": "HSAB-en-018",
+      "title": "The Better Land"
+    },
+    {
+      "number": 19,
+      "hymn_id": "HSAB-en-019",
+      "title": "Close of Time"
+    },
+    {
+      "number": 20,
+      "hymn_id": "HSAB-en-020",
+      "title": "The Three Messages"
+    },
+    {
+      "number": 21,
+      "hymn_id": "HSAB-en-021",
+      "title": "O Hail, Happy Day"
+    },
+    {
+      "number": 22,
+      "hymn_id": "HSAB-en-022",
+      "title": "The Joys of Eden"
+    },
+    {
+      "number": 23,
+      "hymn_id": "HSAB-en-023",
+      "title": "Have You Faith?"
+    },
+    {
+      "number": 24,
+      "hymn_id": "HSAB-en-024",
+      "title": "Be Patient"
+    },
+    {
+      "number": 25,
+      "hymn_id": "HSAB-en-025",
+      "title": "Armageddon"
+    },
+    {
+      "number": 26,
+      "hymn_id": "HSAB-en-026",
+      "title": "The Chariot"
+    },
+    {
+      "number": 27,
+      "hymn_id": "HSAB-en-027",
+      "title": "Be of Good Cheer"
+    },
+    {
+      "number": 28,
+      "hymn_id": "HSAB-en-028",
+      "title": "Here is No Rest"
+    },
+    {
+      "number": 29,
+      "hymn_id": "HSAB-en-029",
+      "title": "The Pure Testimony"
+    },
+    {
+      "number": 30,
+      "hymn_id": "HSAB-en-030",
+      "title": "Fall of Babylon"
+    },
+    {
+      "number": 31,
+      "hymn_id": "HSAB-en-031",
+      "title": "The Coming Events"
+    },
+    {
+      "number": 32,
+      "hymn_id": "HSAB-en-032",
+      "title": "I Cannot Go Back"
+    },
+    {
+      "number": 33,
+      "hymn_id": "HSAB-en-033",
+      "title": "Heavenly Music"
+    },
+    {
+      "number": 34,
+      "hymn_id": "HSAB-en-034",
+      "title": "The Coming of the Lord"
+    },
+    {
+      "number": 35,
+      "hymn_id": "HSAB-en-035",
+      "title": "What is Truth?"
+    },
+    {
+      "number": 36,
+      "hymn_id": "HSAB-en-036",
+      "title": "The Resurrection"
+    },
+    {
+      "number": 37,
+      "hymn_id": "HSAB-en-037",
+      "title": "Rejoice! Rejoice!"
+    },
+    {
+      "number": 38,
+      "hymn_id": "HSAB-en-038",
+      "title": "Come Let Us Anew"
+    },
+    {
+      "number": 39,
+      "hymn_id": "HSAB-en-039",
+      "title": "The Coming Glory"
+    },
+    {
+      "number": 40,
+      "hymn_id": "HSAB-en-040",
+      "title": "Are, We Almost There?"
+    },
+    {
+      "number": 41,
+      "hymn_id": "HSAB-en-041",
+      "title": "Watchman, Tell Us of the Night"
+    },
+    {
+      "number": 42,
+      "hymn_id": "HSAB-en-042",
+      "title": "The Last Trump"
+    },
+    {
+      "number": 43,
+      "hymn_id": "HSAB-en-043",
+      "title": "Despised Pilgrims"
+    },
+    {
+      "number": 44,
+      "hymn_id": "HSAB-en-044",
+      "title": "Victory"
+    },
+    {
+      "number": 45,
+      "hymn_id": "HSAB-en-045",
+      "title": "Christ's Triumph"
+    },
+    {
+      "number": 46,
+      "hymn_id": "HSAB-en-046",
+      "title": "The Ark"
+    },
+    {
+      "number": 47,
+      "hymn_id": "HSAB-en-047",
+      "title": "I Would Not Live Alway"
+    },
+    {
+      "number": 48,
+      "hymn_id": "HSAB-en-048",
+      "title": "The Saviour Nigh"
+    },
+    {
+      "number": 49,
+      "hymn_id": "HSAB-en-049",
+      "title": "The Mercy Seat"
+    },
+    {
+      "number": 50,
+      "hymn_id": "HSAB-en-050",
+      "title": "The Law of God"
+    },
+    {
+      "number": 51,
+      "hymn_id": "HSAB-en-051",
+      "title": "I Long to Be There"
+    },
+    {
+      "number": 52,
+      "hymn_id": "HSAB-en-052",
+      "title": "Morn Sweetly Breaking"
+    },
+    {
+      "number": 53,
+      "hymn_id": "HSAB-en-053",
+      "title": "Thou Coming One"
+    },
+    {
+      "number": 54,
+      "hymn_id": "HSAB-en-054",
+      "title": "Unity"
+    },
+    {
+      "number": 55,
+      "hymn_id": "HSAB-en-055",
+      "title": "Weary Pilgrim"
+    },
+    {
+      "number": 56,
+      "hymn_id": "HSAB-en-056",
+      "title": "The Midnight Cry"
+    },
+    {
+      "number": 57,
+      "hymn_id": "HSAB-en-057",
+      "title": "The Beautiful Home"
+    },
+    {
+      "number": 58,
+      "hymn_id": "HSAB-en-058",
+      "title": "The Jewels of the Lord"
+    },
+    {
+      "number": 59,
+      "hymn_id": "HSAB-en-059",
+      "title": "Prospect of Heaven"
+    },
+    {
+      "number": 60,
+      "hymn_id": "HSAB-en-060",
+      "title": "The Cross and Crown"
+    },
+    {
+      "number": 61,
+      "hymn_id": "HSAB-en-061",
+      "title": "Lift Your Heads"
+    },
+    {
+      "number": 62,
+      "hymn_id": "HSAB-en-062",
+      "title": "What Sound Is This"
+    },
+    {
+      "number": 63,
+      "hymn_id": "HSAB-en-063",
+      "title": "Righteous Judge"
+    },
+    {
+      "number": 64,
+      "hymn_id": "HSAB-en-064",
+      "title": "Lord, In The Morning"
+    },
+    {
+      "number": 65,
+      "hymn_id": "HSAB-en-065",
+      "title": "Morning Watch"
+    },
+    {
+      "number": 66,
+      "hymn_id": "HSAB-en-066",
+      "title": "We Long To Be There"
+    },
+    {
+      "number": 67,
+      "hymn_id": "HSAB-en-067",
+      "title": "I Long To See That Day"
+    },
+    {
+      "number": 68,
+      "hymn_id": "HSAB-en-068",
+      "title": "Jesus Is There"
+    },
+    {
+      "number": 69,
+      "hymn_id": "HSAB-en-069",
+      "title": "Jerusalem"
+    },
+    {
+      "number": 70,
+      "hymn_id": "HSAB-en-070",
+      "title": "Sonnet"
+    },
+    {
+      "number": 71,
+      "hymn_id": "HSAB-en-071",
+      "title": "The Exile"
+    },
+    {
+      "number": 72,
+      "hymn_id": "HSAB-en-072",
+      "title": "I Walk Alone"
+    },
+    {
+      "number": 73,
+      "hymn_id": "HSAB-en-073",
+      "title": "The Christian Uniform"
+    },
+    {
+      "number": 74,
+      "hymn_id": "HSAB-en-074",
+      "title": "Ship Zion"
+    },
+    {
+      "number": 75,
+      "hymn_id": "HSAB-en-075",
+      "title": "Life At Home"
+    },
+    {
+      "number": 76,
+      "hymn_id": "HSAB-en-076",
+      "title": "The Lord Is Coming"
+    },
+    {
+      "number": 77,
+      "hymn_id": "HSAB-en-077",
+      "title": "True Joys"
+    },
+    {
+      "number": 78,
+      "hymn_id": "HSAB-en-078",
+      "title": "Time's Farewell"
+    },
+    {
+      "number": 79,
+      "hymn_id": "HSAB-en-079",
+      "title": "Jesus, At Thy Command"
+    },
+    {
+      "number": 80,
+      "hymn_id": "HSAB-en-080",
+      "title": "Harvest Home"
+    },
+    {
+      "number": 81,
+      "hymn_id": "HSAB-en-081",
+      "title": "A True Witness"
+    },
+    {
+      "number": 82,
+      "hymn_id": "HSAB-en-082",
+      "title": "I Will Return"
+    },
+    {
+      "number": 83,
+      "hymn_id": "HSAB-en-083",
+      "title": "Saints' Sweet Home"
+    },
+    {
+      "number": 84,
+      "hymn_id": "HSAB-en-084",
+      "title": "Jubilee"
+    },
+    {
+      "number": 85,
+      "hymn_id": "HSAB-en-085",
+      "title": "Come Home"
+    },
+    {
+      "number": 86,
+      "hymn_id": "HSAB-en-086",
+      "title": "Jesus My All"
+    },
+    {
+      "number": 87,
+      "hymn_id": "HSAB-en-087",
+      "title": "There Is A King Of Glory"
+    },
+    {
+      "number": 88,
+      "hymn_id": "HSAB-en-088",
+      "title": "Firm Foundation"
+    },
+    {
+      "number": 89,
+      "hymn_id": "HSAB-en-089",
+      "title": "The Happy Land"
+    },
+    {
+      "number": 90,
+      "hymn_id": "HSAB-en-090",
+      "title": "The Last Call"
+    },
+    {
+      "number": 91,
+      "hymn_id": "HSAB-en-091",
+      "title": "Now We Have Met"
+    },
+    {
+      "number": 92,
+      "hymn_id": "HSAB-en-092",
+      "title": "HOLINESS"
+    },
+    {
+      "number": 93,
+      "hymn_id": "HSAB-en-093",
+      "title": "STAR OF OUR HOPE"
+    },
+    {
+      "number": 94,
+      "hymn_id": "HSAB-en-094",
+      "title": "WILL YOU GO?"
+    },
+    {
+      "number": 95,
+      "hymn_id": "HSAB-en-095",
+      "title": "STAR OF BETHLEHEM"
+    },
+    {
+      "number": 96,
+      "hymn_id": "HSAB-en-096",
+      "title": "GOD'S WORD"
+    },
+    {
+      "number": 97,
+      "hymn_id": "HSAB-en-097",
+      "title": "HAIL TO THE BRIGHTNESS"
+    },
+    {
+      "number": 98,
+      "hymn_id": "HSAB-en-098",
+      "title": "ENCOURAGEMENT"
+    },
+    {
+      "number": 99,
+      "hymn_id": "HSAB-en-099",
+      "title": "Christian Warfare"
+    },
+    {
+      "number": 100,
+      "hymn_id": "HSAB-en-100",
+      "title": "Harp Untuned"
+    },
+    {
+      "number": 101,
+      "hymn_id": "HSAB-en-101",
+      "title": "Prayer"
+    },
+    {
+      "number": 102,
+      "hymn_id": "HSAB-en-102",
+      "title": "The Valley of Repose"
+    },
+    {
+      "number": 103,
+      "hymn_id": "HSAB-en-103",
+      "title": "The Christian Warrior"
+    },
+    {
+      "number": 104,
+      "hymn_id": "HSAB-en-104",
+      "title": "Lord's Prayer"
+    },
+    {
+      "number": 105,
+      "hymn_id": "HSAB-en-105",
+      "title": "WHEN STRANGERS STAND"
+    },
+    {
+      "number": 106,
+      "hymn_id": "HSAB-en-106",
+      "title": "COME ALL YE SONS OF ZION"
+    },
+    {
+      "number": 107,
+      "hymn_id": "HSAB-en-107",
+      "title": "WHY SLEEP YE!"
+    },
+    {
+      "number": 108,
+      "hymn_id": "HSAB-en-108",
+      "title": "THE JUDGMENT"
+    },
+    {
+      "number": 109,
+      "hymn_id": "HSAB-en-109",
+      "title": "MY BIBLE"
+    },
+    {
+      "number": 110,
+      "hymn_id": "HSAB-en-110",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 111,
+      "hymn_id": "HSAB-en-111",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 112,
+      "hymn_id": "HSAB-en-112",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 113,
+      "hymn_id": "HSAB-en-113",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 114,
+      "hymn_id": "HSAB-en-114",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 115,
+      "hymn_id": "HSAB-en-115",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 116,
+      "hymn_id": "HSAB-en-116",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 117,
+      "hymn_id": "HSAB-en-117",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 118,
+      "hymn_id": "HSAB-en-118",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 119,
+      "hymn_id": "HSAB-en-119",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 120,
+      "hymn_id": "HSAB-en-120",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 121,
+      "hymn_id": "HSAB-en-121",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 122,
+      "hymn_id": "HSAB-en-122",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 123,
+      "hymn_id": "HSAB-en-123",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 124,
+      "hymn_id": "HSAB-en-124",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 125,
+      "hymn_id": "HSAB-en-125",
+      "title": "SABBATH HYMNS"
+    },
+    {
+      "number": 126,
+      "hymn_id": "HSAB-en-126",
+      "title": "BAPTISM"
+    },
+    {
+      "number": 127,
+      "hymn_id": "HSAB-en-127",
+      "title": "BAPTISM"
+    },
+    {
+      "number": 128,
+      "hymn_id": "HSAB-en-128",
+      "title": "BAPTISM"
+    },
+    {
+      "number": 129,
+      "hymn_id": "HSAB-en-129",
+      "title": "BAPTISM"
+    },
+    {
+      "number": 130,
+      "hymn_id": "HSAB-en-130",
+      "title": "SALEM'S BRIGHT KING"
+    },
+    {
+      "number": 131,
+      "hymn_id": "HSAB-en-131",
+      "title": "BAPTISM"
+    },
+    {
+      "number": 132,
+      "hymn_id": "HSAB-en-132",
+      "title": "BAPTISM"
+    },
+    {
+      "number": 133,
+      "hymn_id": "HSAB-en-133",
+      "title": "BAPTISM"
+    },
+    {
+      "number": 134,
+      "hymn_id": "HSAB-en-134",
+      "title": "LORD'S SUPPER"
+    },
+    {
+      "number": 135,
+      "hymn_id": "HSAB-en-135",
+      "title": "LORD'S SUPPER"
+    },
+    {
+      "number": 136,
+      "hymn_id": "HSAB-en-136",
+      "title": "LORD'S SUPPER"
+    },
+    {
+      "number": 137,
+      "hymn_id": "HSAB-en-137",
+      "title": "LORD'S SUPPER"
+    },
+    {
+      "number": 138,
+      "hymn_id": "HSAB-en-138",
+      "title": "THE SANCTUARY"
+    },
+    {
+      "number": 139,
+      "hymn_id": "HSAB-en-139",
+      "title": "HUMILITY"
+    },
+    {
+      "number": 140,
+      "hymn_id": "HSAB-en-140",
+      "title": "SABBATH HYMN"
+    },
+    {
+      "number": 141,
+      "hymn_id": "HSAB-en-141",
+      "title": "WAITING FOR JESUS"
+    },
+    {
+      "number": 142,
+      "hymn_id": "HSAB-en-142",
+      "title": "CHRISTIAN SOLDIER"
+    },
+    {
+      "number": 143,
+      "hymn_id": "HSAB-en-143",
+      "title": "CHRISTIAN WARFARE"
+    },
+    {
+      "number": 144,
+      "hymn_id": "HSAB-en-144",
+      "title": "THE BLESSED WORLD"
+    },
+    {
+      "number": 145,
+      "hymn_id": "HSAB-en-145",
+      "title": "THE CITY OF GOD"
+    },
+    {
+      "number": 146,
+      "hymn_id": "HSAB-en-146",
+      "title": "THE PILGRIM"
+    },
+    {
+      "number": 147,
+      "hymn_id": "HSAB-en-147",
+      "title": "FREEDOM FROM BONDAGE"
+    },
+    {
+      "number": 148,
+      "hymn_id": "HSAB-en-148",
+      "title": "THE ISRAELITES' JOURNEY"
+    },
+    {
+      "number": 149,
+      "hymn_id": "HSAB-en-149",
+      "title": "MARCHING TO JERUSALEM"
+    },
+    {
+      "number": 150,
+      "hymn_id": "HSAB-en-150",
+      "title": "RESURRECTION MORNING"
+    },
+    {
+      "number": 151,
+      "hymn_id": "HSAB-en-151",
+      "title": "MOURNING IN BABYLON"
+    },
+    {
+      "number": 152,
+      "hymn_id": "HSAB-en-152",
+      "title": "THE BLESSED HOPE"
+    },
+    {
+      "number": 153,
+      "hymn_id": "HSAB-en-153",
+      "title": "THE CHRISTIAN'S DAILY WALK"
+    },
+    {
+      "number": 18,
+      "hymn_id": "HSAB-en-154",
+      "title": "THE BLESSED TIDINGS"
+    },
+    {
+      "number": 19,
+      "hymn_id": "HSAB-en-155",
+      "title": "BE FAITHFUL, BROTHER"
+    },
+    {
+      "number": 20,
+      "hymn_id": "HSAB-en-156",
+      "title": "ROCK OF SALVATION"
+    },
+    {
+      "number": 21,
+      "hymn_id": "HSAB-en-157",
+      "title": "WE'RE LOOKING FOR A CITY"
+    },
+    {
+      "number": 22,
+      "hymn_id": "HSAB-en-158",
+      "title": "JESUS DIED ON CALVARY"
+    },
+    {
+      "number": 23,
+      "hymn_id": "HSAB-en-159",
+      "title": "THE VISION OF THE CROSS"
+    },
+    {
+      "number": 24,
+      "hymn_id": "HSAB-en-160",
+      "title": "MY SAVIOUR'S COMING"
+    },
+    {
+      "number": 25,
+      "hymn_id": "HSAB-en-161",
+      "title": "YOUR HARPS, YE MOURNING SAINTS"
+    },
+    {
+      "number": 26,
+      "hymn_id": "HSAB-en-162",
+      "title": "WORTHY IS THE LAMB"
+    },
+    {
+      "number": 27,
+      "hymn_id": "HSAB-en-163",
+      "title": "MY SOUL IS FULL OF GLORY"
+    },
+    {
+      "number": 28,
+      "hymn_id": "HSAB-en-164",
+      "title": "I'LL TRY TO PROVE FAITHFUL"
+    },
+    {
+      "number": 29,
+      "hymn_id": "HSAB-en-165",
+      "title": "SEE, BRETHREN, SEE"
+    },
+    {
+      "number": 30,
+      "hymn_id": "HSAB-en-166",
+      "title": "I LOVE THIS PURE RELIGION"
+    },
+    {
+      "number": 31,
+      "hymn_id": "HSAB-en-167",
+      "title": "I WANT TO WEAR THE CROWN"
+    },
+    {
+      "number": 32,
+      "hymn_id": "HSAB-en-168",
+      "title": "IN EXPECTATION SWEET"
+    },
+    {
+      "number": 33,
+      "hymn_id": "HSAB-en-169",
+      "title": "ALMIGHTY LOVE INSPIRE"
+    },
+    {
+      "number": 34,
+      "hymn_id": "HSAB-en-170",
+      "title": "ON THE HIGH CLIFFS OF JORDAN"
+    },
+    {
+      "number": 35,
+      "hymn_id": "HSAB-en-171",
+      "title": "THE LORD HAS PASSED BY"
+    },
+    {
+      "number": 36,
+      "hymn_id": "HSAB-en-172",
+      "title": "HEAR WHAT THE VOICE FROM HEAVEN PROCLAIMS"
+    },
+    {
+      "number": 37,
+      "hymn_id": "HSAB-en-173",
+      "title": "ASLEEP IN JESUS"
+    },
+    {
+      "number": 38,
+      "hymn_id": "HSAB-en-174",
+      "title": "SLEEP NOW, DEAR BROTHER"
+    },
+    {
+      "number": 35,
+      "hymn_id": "HSAB-en-175",
+      "title": "O The Lord Has Passed By"
+    },
+    {
+      "number": 37,
+      "hymn_id": "HSAB-en-176",
+      "title": "Asleep in Jesus"
+    },
+    {
+      "number": 38,
+      "hymn_id": "HSAB-en-177",
+      "title": "Sleep Now, Dear Brother"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Layout from '@/components/layout/Layout';
-import { loadHymnalReferences } from '@/lib/data';
+import { loadHymnalReferences } from '@/lib/data-server';
 
 export const metadata: Metadata = {
   title: 'Metrical Index - Advent Hymnals',

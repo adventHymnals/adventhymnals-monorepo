@@ -33,7 +33,7 @@ export default function SearchDialog({
   const [results, setResults] = useState<SearchResult[]>([]);
   const [loading, setLoading] = useState(false);
 
-  // Mock search function - in real implementation, this would call your search API
+  // Real search function using the search API
   const performSearch = useCallback(async (searchQuery: string) => {
     if (!searchQuery.trim()) {
       setResults([]);
@@ -42,43 +42,31 @@ export default function SearchDialog({
 
     setLoading(true);
     
-    // Simulate API delay
-    await new Promise(resolve => setTimeout(resolve, 300));
-    
-    // Mock search results - replace with actual API call
-    const mockResults: SearchResult[] = [
-      {
-        id: `${hymnalId}-001`,
-        number: 1,
-        title: 'Holy, Holy, Holy',
-        author: 'Reginald Heber',
-        composer: 'John B. Dykes',
-        firstLine: 'Holy, holy, holy! Lord God Almighty!'
-      },
-      {
-        id: `${hymnalId}-002`,
-        number: 2,
-        title: 'Come, Thou Almighty King',
-        author: 'Charles Wesley',
-        composer: 'Felice de Giardini',
-        firstLine: 'Come, Thou Almighty King, help us Thy name to sing'
-      },
-      {
-        id: `${hymnalId}-003`,
-        number: 3,
-        title: 'Praise to the Lord, the Almighty',
-        author: 'Joachim Neander',
-        composer: 'Unknown',
-        firstLine: 'Praise to the Lord, the Almighty, the King of creation!'
+    try {
+      const response = await fetch(`/api/search?q=${encodeURIComponent(searchQuery)}&hymnal=${hymnalId}&limit=10`);
+      if (!response.ok) {
+        throw new Error('Search failed');
       }
-    ].filter(result => 
-      result.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      result.author?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      result.number.toString().includes(searchQuery)
-    );
-
-    setResults(mockResults);
-    setLoading(false);
+      
+      const searchResults = await response.json();
+      
+      // Transform the API response to match our SearchResult interface
+      const transformedResults: SearchResult[] = searchResults.map((result: any) => ({
+        id: result.hymn.id,
+        number: result.hymn.number,
+        title: result.hymn.title,
+        author: result.hymn.author,
+        composer: result.hymn.composer,
+        firstLine: result.hymn.verses?.[0]?.text?.split('\n')[0] || result.hymn.verses?.[0]?.text || ''
+      }));
+      
+      setResults(transformedResults);
+    } catch (error) {
+      console.error('Search error:', error);
+      setResults([]);
+    } finally {
+      setLoading(false);
+    }
   }, [hymnalId]);
 
   useEffect(() => {

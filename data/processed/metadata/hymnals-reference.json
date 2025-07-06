@@ -65,10 +65,10 @@
       "github_link": "GospelSounders/adventhymnals/master/content/06.millenial-harp",
       "url_slug": "millenial-harp"
     },
-    "HGPP1849": {
-      "id": "HGPP1849",
+    "HGPP": {
+      "id": "HGPP",
       "name": "Hymns for God's Peculiar People, That Keep the Commandments of God, and the faith of Jesus",
-      "abbreviation": "HGPP1849",
+      "abbreviation": "HGPP",
       "year": 1849,
       "total_songs": 53,
       "language": "en",
@@ -76,18 +76,19 @@
       "compiler": "James White",
       "site_name": "Hymns for God's Peculiar People",
       "github_link": "GospelSounders/adventhymnals/master/content/07.Hymns-for-God's-Peculiar-People",
-      "url_slug": "Hymns-for-God's-Peculiar-People"
+      "url_slug": "hymns-for-gods-peculiar-people"
     },
-    "HSAB1852": {
-      "id": "HSAB1852",
+    "HSAB": {
+      "id": "HSAB",
       "name": "Hymns for Second Advent Believers who Observe the Sabbath of the Lord",
-      "abbreviation": "HSAB1852",
+      "abbreviation": "HSAB",
       "year": 1852,
       "total_songs": 177,
       "language": "en",
       "language_name": "English",
       "compiler": "James White",
       "site_name": "Hymns for Second Advent Believers",
+      "url_slug": "hymns-for-second-advent-believers",
       "note": "Asterisk indicates approximate count"
     },
     "HT1869": {
@@ -123,19 +124,21 @@
       "language": "en",
       "language_name": "English",
       "compiler": "",
-      "site_name": "Hymns and Tunes 1886"
+      "site_name": "Hymns and Tunes 1886",
+      "url_slug": "hymns-and-tunes-1886"
     },
-    "CS1908": {
-      "id": "CS1908",
+    "CS1900": {
+      "id": "CS1900",
       "name": "Christ in Song",
-      "abbreviation": "CS1908",
-      "year": 1908,
+      "abbreviation": "CS1900",
+      "year": 1900,
       "total_songs": 949,
       "language": "en",
       "language_name": "English",
       "compiler": "Belden, F. E. (Franklin Edson)",
       "site_name": "Christ in Song",
       "github_link": "GospelSounders/adventhymnals/master/content/02.christ-in-song",
+      "url_slug": "christ-in-song",
       "resources": {
         "pdf": "https://raw.githubusercontent.com/GospelSounders/christ-in-song-pdfs/master/splitFiles"
       }
@@ -151,6 +154,7 @@
       "compiler": "The General Conference Committee",
       "site_name": "Church Hymnal",
       "github_link": "GospelSounders/adventhymnals/master/content/03.church-hymnal",
+      "url_slug": "church-hymnal",
       "resources": {
         "html": "https://raw.githubusercontent.com/GospelSounders/ch1941.adh/master/splitOriginalFiles"
       },
@@ -170,6 +174,7 @@
       "compiler": "The Hymnal Committee",
       "site_name": "Seventh-day Adventist Hymnal",
       "github_link": "GospelSounders/adventhymnals/master/content/04.seventh-day-adventist-hymnal",
+      "url_slug": "seventh-day-adventist-hymnal",
       "resources": {
         "images": "https://raw.githubusercontent.com/GospelSounders/SDAHData/master/SDAHymnalsPhotos"
       },
@@ -188,6 +193,7 @@
       "compiler": "Anonymous",
       "site_name": "Nyimbo za Kristo",
       "github_link": "GospelSounders/adventhymnals/master/content/05.nyimbo-za-kristo",
+      "url_slug": "nyimbo-za-kristo",
       "note": "Asterisk indicates compiler is anonymous or unknown"
     },
     "WN": {
@@ -200,7 +206,8 @@
       "language_name": "Dholuo",
       "compiler": "The Seventh-day Adventist Mission, South Kavirondo, Kenya Colony",
       "site_name": "Wende Nyasaye",
-      "github_link": "GospelSounders/adventhymnals/master/content/05.wende-nyasaye"
+      "github_link": "GospelSounders/adventhymnals/master/content/05.wende-nyasaye",
+      "url_slug": "wende-nyasaye"
     }
   },
   "languages": {

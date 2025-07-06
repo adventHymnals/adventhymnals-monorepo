@@ -15,8 +15,10 @@ import {
 import Layout from '@/components/layout/Layout';
 import Breadcrumbs, { generateHymnalBreadcrumbs } from '@/components/ui/Breadcrumbs';
 import HymnActionButtons from '@/components/ui/HymnActionButtons';
-import { loadHymnalReferences, loadHymn, loadHymnalHymns, getRelatedHymns } from '@/lib/data';
+import HymnDisplaySection from '@/components/hymn/HymnDisplaySection';
+import { loadHymnalReferences, loadHymn, loadHymnalHymns, getRelatedHymns } from '@/lib/data-server';
 import { generateHymnMetadata, generateHymnStructuredData } from '@/lib/seo';
+import { NotationFormat } from '@advent-hymnals/shared';
 
 interface HymnPageProps {
   params: {
@@ -166,51 +168,10 @@ export default async function HymnPage({ params }: HymnPageProps) {
           <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
             <div className="mx-auto max-w-4xl">
               {/* Breadcrumbs */}
-              <div className="mb-6">
-                <nav className="flex" aria-label="Breadcrumb">
-                  <ol role="list" className="flex items-center space-x-2">
-                    {/* Home icon */}
-                    <li>
-                      <div>
-                        <Link
-                          href="/"
-                          className="text-primary-200 hover:text-white transition-colors duration-200"
-                        >
-                          <HomeIcon className="h-4 w-4 flex-shrink-0" aria-hidden="true" />
-                          <span className="sr-only">Home</span>
-                        </Link>
-                      </div>
-                    </li>
-
-                    {/* Breadcrumb items */}
-                    {breadcrumbs.map((item) => (
-                      <li key={item.label}>
-                        <div className="flex items-center">
-                          <ChevronRightIcon
-                            className="h-4 w-4 flex-shrink-0 text-primary-200"
-                            aria-hidden="true"
-                          />
-                          {item.href && !item.current ? (
-                            <Link
-                              href={item.href}
-                              className="ml-2 text-sm font-medium text-primary-100 hover:text-white transition-colors duration-200"
-                            >
-                              {item.label}
-                            </Link>
-                          ) : (
-                            <span
-                              className="ml-2 text-sm font-medium text-white"
-                              aria-current={item.current ? 'page' : undefined}
-                            >
-                              {item.label}
-                            </span>
-                          )}
-                        </div>
-                      </li>
-                    ))}
-                  </ol>
-                </nav>
-              </div>
+              <Breadcrumbs 
+                items={breadcrumbs} 
+                className="mb-6 text-primary-100" 
+              />
 
 
               {/* Hymn Header */}
@@ -260,46 +221,12 @@ export default async function HymnPage({ params }: HymnPageProps) {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             {/* Main Content */}
             <div className="lg:col-span-2">
-              {/* Hymn Text */}
-              <div className="bg-white rounded-xl shadow-sm border p-8 mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-6">Hymn Text</h2>
-                
-                <div className="space-y-6">
-                  {hymn.verses.map((verse) => (
-                    <div key={verse.number} className="relative">
-                      <div className="absolute left-0 top-0 w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center">
-                        <span className="text-sm font-bold text-primary-600">
-                          {verse.number}
-                        </span>
-                      </div>
-                      <div className="ml-12">
-                        <div className="text-lg leading-relaxed text-gray-800 whitespace-pre-line">
-                          {verse.text}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-
-                  {/* Chorus */}
-                  {hymn.chorus && (
-                    <div className="relative mt-8 p-6 bg-primary-50 border-l-4 border-primary-500 rounded-r-lg">
-                      <div className="absolute left-0 top-0 w-8 h-8 bg-primary-500 rounded-full flex items-center justify-center -ml-6 mt-2">
-                        <span className="text-sm font-bold text-white">C</span>
-                      </div>
-                      <div className="ml-6">
-                        <h3 className="text-lg font-semibold text-primary-900 mb-2">Chorus</h3>
-                        <div className="text-lg leading-relaxed text-primary-800 whitespace-pre-line">
-                          {hymn.chorus.text}
-                        </div>
-                      </div>
-                    </div>
-                  )}
-                </div>
-              </div>
+              {/* Multi-Format Hymn Display */}
+              <HymnDisplaySection hymn={hymn} />
 
               {/* Additional Info */}
               {hymn.metadata && (
-                <div className="bg-gray-50 rounded-xl p-6">
+                <div className="bg-gray-50 rounded-xl p-6 mt-8">
                   <h3 className="text-lg font-semibold text-gray-900 mb-4">Additional Information</h3>
                   
                   {hymn.metadata.themes && hymn.metadata.themes.length > 0 && (

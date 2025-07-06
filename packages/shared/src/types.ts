@@ -17,6 +17,13 @@ export interface HymnMetadata {
   translator?: string;
 }
 
+export interface HymnNotation {
+  format: 'lyrics' | 'solfa' | 'staff' | 'chord';
+  content: string;
+  source?: string;
+  quality?: 'high' | 'medium' | 'low';
+}
+
 export interface Hymn {
   id: string;
   number: number;
@@ -29,6 +36,7 @@ export interface Hymn {
   verses: HymnVerse[];
   chorus?: HymnChorus;
   metadata?: HymnMetadata;
+  notations?: HymnNotation[];
 }
 
 export interface HymnalEntry {
@@ -320,6 +328,47 @@ export interface ErrorBoundaryState {
   hasError: boolean;
   error?: Error;
   errorInfo?: Record<string, any>;
+}
+
+// Projection and display types
+
+export interface ProjectionSlide {
+  id: string;
+  type: 'verse' | 'chorus' | 'title' | 'metadata';
+  content: string;
+  number?: number;
+  metadata?: {
+    verseNumber?: number;
+    isChorus?: boolean;
+    title?: string;
+    author?: string;
+  };
+}
+
+export interface ProjectionSession {
+  hymn: Hymn;
+  slides: ProjectionSlide[];
+  currentSlide: number;
+  settings: ProjectionSettings;
+}
+
+export interface ProjectionSettings {
+  showVerseNumbers: boolean;
+  showChorusAfterEachVerse: boolean;
+  fontSize: 'small' | 'medium' | 'large' | 'extra-large';
+  theme: 'light' | 'dark' | 'high-contrast';
+  showMetadata: boolean;
+  autoAdvance: boolean;
+  autoAdvanceDelay?: number;
+}
+
+export type NotationFormat = 'lyrics' | 'solfa' | 'staff' | 'chord';
+
+export interface NotationDisplayProps {
+  hymn: Hymn;
+  format: NotationFormat;
+  isProjection?: boolean;
+  settings?: ProjectionSettings;
 }
 
 // Utility types for React components

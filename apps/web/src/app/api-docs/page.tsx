@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Layout from '@/components/layout/Layout';
-import { loadHymnalReferences } from '@/lib/data';
+import { loadHymnalReferences } from '@/lib/data-server';
 import { CodeBracketIcon, DocumentTextIcon, GlobeAltIcon, KeyIcon } from '@heroicons/react/24/outline';
 
 export const metadata: Metadata = {
