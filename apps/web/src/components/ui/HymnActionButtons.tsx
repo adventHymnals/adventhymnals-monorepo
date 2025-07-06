@@ -1,15 +1,17 @@
 'use client';
 
-import { PlayIcon, PrinterIcon, ShareIcon } from '@heroicons/react/24/outline';
+import { PlayIcon, PrinterIcon, ShareIcon, PencilIcon } from '@heroicons/react/24/outline';
 
 interface HymnActionButtonsProps {
   hymn: {
     title: string;
     number: number;
   };
+  hymnalSlug: string;
+  hymnSlug: string;
 }
 
-export default function HymnActionButtons({ hymn }: HymnActionButtonsProps) {
+export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug }: HymnActionButtonsProps) {
   const handlePlayAudio = () => {
     // Mock audio play functionality
     alert('Audio playback feature coming soon!');
@@ -90,6 +92,13 @@ export default function HymnActionButtons({ hymn }: HymnActionButtonsProps) {
         <PrinterIcon className="h-4 w-4 mr-2" />
         Print
       </button>
+      <a
+        href={`/${hymnalSlug}/${hymnSlug}/edit`}
+        className="inline-flex items-center px-4 py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200"
+      >
+        <PencilIcon className="h-4 w-4 mr-2" />
+        Edit
+      </a>
       <button 
         onClick={handleShare}
         className="inline-flex items-center px-4 py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200"

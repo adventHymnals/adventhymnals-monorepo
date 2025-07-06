@@ -244,7 +244,7 @@ export default async function HymnPage({ params }: HymnPageProps) {
                 </div>
 
                 {/* Action Buttons */}
-                <HymnActionButtons hymn={hymn} />
+                <HymnActionButtons hymn={hymn} hymnalSlug={params.hymnal} hymnSlug={params.slug} />
               </div>
             </div>
           </div>

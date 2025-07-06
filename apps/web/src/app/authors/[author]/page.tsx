@@ -1,11 +1,9 @@
-'use client';
-
-import { useState, useEffect } from 'react';
+import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { UserIcon, ArrowLeftIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
-import { loadHymnalReferences } from '@/lib/data';
-import { HymnalCollection } from '@advent-hymnals/shared';
+import { loadHymnalReferences } from '@/lib/data-server';
 
 interface HymnData {
   id: string;
@@ -26,78 +24,54 @@ interface AuthorDetailProps {
   };
 }
 
-export default function AuthorDetailPage({ params }: AuthorDetailProps) {
-  const [hymns, setHymns] = useState<HymnData[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [hymnalReferences, setHymnalReferences] = useState<HymnalCollection | undefined>(undefined);
-  
+export async function generateStaticParams() {
+  try {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/authors`);
+    if (!response.ok) return [];
+    
+    const authors = await response.json();
+    return authors.map((author: { author: string }) => ({
+      author: encodeURIComponent(author.author)
+    }));
+  } catch (error) {
+    console.error('Error generating static params for authors:', error);
+    return [];
+  }
+}
+
+export async function generateMetadata({ params }: AuthorDetailProps): Promise<Metadata> {
   const decodedAuthor = decodeURIComponent(params.author);
+  return {
+    title: `${decodedAuthor} - Hymn Author`,
+    description: `Browse hymns written by ${decodedAuthor}. Explore Adventist hymnody with full text, themes, and musical information.`
+  };
+}
 
-  useEffect(() => {
-    const loadData = async () => {
-      try {
-        const [authorsResponse, references] = await Promise.all([
-          fetch('/api/authors'),
-          loadHymnalReferences()
-        ]);
-        
-        if (!authorsResponse.ok) {
-          throw new Error('Failed to fetch authors');
-        }
-        
-        const authorsData = await authorsResponse.json();
-        const authorData = authorsData.find((a: { author: string }) => a.author === decodedAuthor);
-        
-        if (!authorData) {
-          setError(`Author "${decodedAuthor}" not found`);
-          return;
-        }
-        
-        setHymns(authorData.hymns);
-        setHymnalReferences(references);
-      } catch (error) {
-        console.error('Failed to load author data:', error);
-        setError('Failed to load author information');
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadData();
-  }, [decodedAuthor]);
-
-  if (loading) {
-    return (
-      <Layout hymnalReferences={hymnalReferences}>
-        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-          <div className="text-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"></div>
-            <p className="text-gray-600">Loading author information...</p>
-          </div>
-        </div>
-      </Layout>
-    );
+export default async function AuthorDetailPage({ params }: AuthorDetailProps) {
+  const decodedAuthor = decodeURIComponent(params.author);
+  const hymnalReferences = await loadHymnalReferences();
+  
+  let authorsData;
+  try {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/authors`, {
+      cache: 'force-cache'
+    });
+    if (!response.ok) {
+      throw new Error('Failed to fetch authors');
+    }
+    authorsData = await response.json();
+  } catch (error) {
+    console.error('Failed to load author data:', error);
+    notFound();
   }
-
-  if (error) {
-    return (
-      <Layout hymnalReferences={hymnalReferences}>
-        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-          <div className="text-center">
-            <UserIcon className="mx-auto h-12 w-12 text-gray-400 mb-4" />
-            <h3 className="text-lg font-medium text-gray-900 mb-2">{error}</h3>
-            <Link
-              href="/authors"
-              className="text-primary-600 hover:text-primary-700 font-medium"
-            >
-              ← Back to Authors
-            </Link>
-          </div>
-        </div>
-      </Layout>
-    );
+  
+  const authorData = authorsData.find((a: { author: string }) => a.author === decodedAuthor);
+  
+  if (!authorData) {
+    notFound();
   }
+  
+  const hymns: HymnData[] = authorData.hymns;
 
   return (
     <Layout hymnalReferences={hymnalReferences}>

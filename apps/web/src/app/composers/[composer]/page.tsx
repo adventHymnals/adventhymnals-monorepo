@@ -1,11 +1,9 @@
-'use client';
-
-import { useState, useEffect } from 'react';
+import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { MusicalNoteIcon, ArrowLeftIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
-import { loadHymnalReferences } from '@/lib/data';
-import { HymnalCollection } from '@advent-hymnals/shared';
+import { loadHymnalReferences } from '@/lib/data-server';
 
 interface HymnData {
   id: string;
@@ -26,78 +24,54 @@ interface ComposerDetailProps {
   };
 }
 
-export default function ComposerDetailPage({ params }: ComposerDetailProps) {
-  const [hymns, setHymns] = useState<HymnData[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [hymnalReferences, setHymnalReferences] = useState<HymnalCollection | undefined>(undefined);
-  
+export async function generateStaticParams() {
+  try {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/composers`);
+    if (!response.ok) return [];
+    
+    const composers = await response.json();
+    return composers.map((composer: { composer: string }) => ({
+      composer: encodeURIComponent(composer.composer)
+    }));
+  } catch (error) {
+    console.error('Error generating static params for composers:', error);
+    return [];
+  }
+}
+
+export async function generateMetadata({ params }: ComposerDetailProps): Promise<Metadata> {
   const decodedComposer = decodeURIComponent(params.composer);
+  return {
+    title: `${decodedComposer} - Hymn Composer`,
+    description: `Browse hymns composed by ${decodedComposer}. Explore Adventist hymnody with full text, themes, and musical information.`
+  };
+}
 
-  useEffect(() => {
-    const loadData = async () => {
-      try {
-        const [composersResponse, references] = await Promise.all([
-          fetch('/api/composers'),
-          loadHymnalReferences()
-        ]);
-        
-        if (!composersResponse.ok) {
-          throw new Error('Failed to fetch composers');
-        }
-        
-        const composersData = await composersResponse.json();
-        const composerData = composersData.find((c: { composer: string }) => c.composer === decodedComposer);
-        
-        if (!composerData) {
-          setError(`Composer "${decodedComposer}" not found`);
-          return;
-        }
-        
-        setHymns(composerData.hymns);
-        setHymnalReferences(references);
-      } catch (error) {
-        console.error('Failed to load composer data:', error);
-        setError('Failed to load composer information');
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadData();
-  }, [decodedComposer]);
-
-  if (loading) {
-    return (
-      <Layout hymnalReferences={hymnalReferences}>
-        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-          <div className="text-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"></div>
-            <p className="text-gray-600">Loading composer information...</p>
-          </div>
-        </div>
-      </Layout>
-    );
+export default async function ComposerDetailPage({ params }: ComposerDetailProps) {
+  const decodedComposer = decodeURIComponent(params.composer);
+  const hymnalReferences = await loadHymnalReferences();
+  
+  let composersData;
+  try {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/composers`, {
+      cache: 'force-cache'
+    });
+    if (!response.ok) {
+      throw new Error('Failed to fetch composers');
+    }
+    composersData = await response.json();
+  } catch (error) {
+    console.error('Failed to load composer data:', error);
+    notFound();
   }
-
-  if (error) {
-    return (
-      <Layout hymnalReferences={hymnalReferences}>
-        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-          <div className="text-center">
-            <MusicalNoteIcon className="mx-auto h-12 w-12 text-gray-400 mb-4" />
-            <h3 className="text-lg font-medium text-gray-900 mb-2">{error}</h3>
-            <Link
-              href="/composers"
-              className="text-primary-600 hover:text-primary-700 font-medium"
-            >
-              ← Back to Composers
-            </Link>
-          </div>
-        </div>
-      </Layout>
-    );
+  
+  const composerData = composersData.find((c: { composer: string }) => c.composer === decodedComposer);
+  
+  if (!composerData) {
+    notFound();
   }
+  
+  const hymns: HymnData[] = composerData.hymns;
 
   return (
     <Layout hymnalReferences={hymnalReferences}>
