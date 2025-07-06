@@ -62,9 +62,11 @@ export default function MetersPage() {
       return;
     }
 
-    const filtered = meters.filter(meterData =>
-      meterData.meter.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    const filtered = meters.filter(meterData => {
+      const normalizedMeter = meterData.meter.replace(/[.,\s\-']+/g, '').toLowerCase();
+      const normalizedSearch = searchTerm.replace(/[.,\s\-']+/g, '').toLowerCase();
+      return normalizedMeter.includes(normalizedSearch);
+    });
     setFilteredMeters(filtered);
   }, [searchTerm, meters]);
 

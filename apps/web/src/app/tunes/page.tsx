@@ -62,9 +62,11 @@ export default function TunesPage() {
       return;
     }
 
-    const filtered = tunes.filter(tuneData =>
-      tuneData.tune.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    const filtered = tunes.filter(tuneData => {
+      const normalizedTune = tuneData.tune.replace(/[.,\s\-']+/g, '').toLowerCase();
+      const normalizedSearch = searchTerm.replace(/[.,\s\-']+/g, '').toLowerCase();
+      return normalizedTune.includes(normalizedSearch);
+    });
     setFilteredTunes(filtered);
   }, [searchTerm, tunes]);
 

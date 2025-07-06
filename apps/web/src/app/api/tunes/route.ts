@@ -13,11 +13,25 @@ export async function GET() {
         
         for (const hymn of hymns) {
           if (hymn.tune) {
-            const tune = hymn.tune.trim();
-            if (!tuneMap.has(tune)) {
-              tuneMap.set(tune, { count: 0, hymns: [] });
+            const originalTune = hymn.tune.trim();
+            // Normalize tune by removing punctuation and extra spaces
+            const normalizedTune = originalTune.replace(/[.,\s\-']+/g, '').toUpperCase();
+            
+            // Find existing tune with same normalized form or create new entry
+            let existingTune = null;
+            for (const [existingKey] of tuneMap.entries()) {
+              const existingNormalized = existingKey.replace(/[.,\s\-']+/g, '').toUpperCase();
+              if (existingNormalized === normalizedTune) {
+                existingTune = existingKey;
+                break;
+              }
             }
-            const tuneData = tuneMap.get(tune)!;
+            
+            const tuneKey = existingTune || originalTune;
+            if (!tuneMap.has(tuneKey)) {
+              tuneMap.set(tuneKey, { count: 0, hymns: [] });
+            }
+            const tuneData = tuneMap.get(tuneKey)!;
             tuneData.count++;
             tuneData.hymns.push({
               ...hymn,

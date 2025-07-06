@@ -13,11 +13,25 @@ export async function GET() {
         
         for (const hymn of hymns) {
           if (hymn.author) {
-            const author = hymn.author.trim();
-            if (!authorMap.has(author)) {
-              authorMap.set(author, { count: 0, hymns: [] });
+            const originalAuthor = hymn.author.trim();
+            // Normalize author by removing punctuation and extra spaces
+            const normalizedAuthor = originalAuthor.replace(/[.,\s\-']+/g, '').toUpperCase();
+            
+            // Find existing author with same normalized form or create new entry
+            let existingAuthor = null;
+            for (const [existingKey] of authorMap.entries()) {
+              const existingNormalized = existingKey.replace(/[.,\s\-']+/g, '').toUpperCase();
+              if (existingNormalized === normalizedAuthor) {
+                existingAuthor = existingKey;
+                break;
+              }
             }
-            const authorData = authorMap.get(author)!;
+            
+            const authorKey = existingAuthor || originalAuthor;
+            if (!authorMap.has(authorKey)) {
+              authorMap.set(authorKey, { count: 0, hymns: [] });
+            }
+            const authorData = authorMap.get(authorKey)!;
             authorData.count++;
             authorData.hymns.push({
               ...hymn,

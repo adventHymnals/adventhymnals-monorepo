@@ -62,9 +62,11 @@ export default function AuthorsPage() {
       return;
     }
 
-    const filtered = authors.filter(authorData =>
-      authorData.author.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    const filtered = authors.filter(authorData => {
+      const normalizedAuthor = authorData.author.replace(/[.,\s\-']+/g, '').toLowerCase();
+      const normalizedSearch = searchTerm.replace(/[.,\s\-']+/g, '').toLowerCase();
+      return normalizedAuthor.includes(normalizedSearch);
+    });
     setFilteredAuthors(filtered);
   }, [searchTerm, authors]);
 

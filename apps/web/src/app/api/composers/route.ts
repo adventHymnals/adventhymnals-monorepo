@@ -13,11 +13,25 @@ export async function GET() {
         
         for (const hymn of hymns) {
           if (hymn.composer) {
-            const composer = hymn.composer.trim();
-            if (!composerMap.has(composer)) {
-              composerMap.set(composer, { count: 0, hymns: [] });
+            const originalComposer = hymn.composer.trim();
+            // Normalize composer by removing punctuation and extra spaces
+            const normalizedComposer = originalComposer.replace(/[.,\s\-']+/g, '').toUpperCase();
+            
+            // Find existing composer with same normalized form or create new entry
+            let existingComposer = null;
+            for (const [existingKey] of composerMap.entries()) {
+              const existingNormalized = existingKey.replace(/[.,\s\-']+/g, '').toUpperCase();
+              if (existingNormalized === normalizedComposer) {
+                existingComposer = existingKey;
+                break;
+              }
             }
-            const composerData = composerMap.get(composer)!;
+            
+            const composerKey = existingComposer || originalComposer;
+            if (!composerMap.has(composerKey)) {
+              composerMap.set(composerKey, { count: 0, hymns: [] });
+            }
+            const composerData = composerMap.get(composerKey)!;
             composerData.count++;
             composerData.hymns.push({
               ...hymn,

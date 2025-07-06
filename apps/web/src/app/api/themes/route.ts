@@ -14,11 +14,25 @@ export async function GET() {
         for (const hymn of hymns) {
           if (hymn.metadata?.themes) {
             for (const theme of hymn.metadata.themes) {
-              const normalizedTheme = theme.trim();
-              if (!themeMap.has(normalizedTheme)) {
-                themeMap.set(normalizedTheme, { count: 0, hymns: [] });
+              const originalTheme = theme.trim();
+              // Normalize theme by removing punctuation and extra spaces
+              const normalizedTheme = originalTheme.replace(/[.,\s\-'&]+/g, '').toUpperCase();
+              
+              // Find existing theme with same normalized form or create new entry
+              let existingTheme = null;
+              for (const [existingKey] of themeMap.entries()) {
+                const existingNormalized = existingKey.replace(/[.,\s\-'&]+/g, '').toUpperCase();
+                if (existingNormalized === normalizedTheme) {
+                  existingTheme = existingKey;
+                  break;
+                }
               }
-              const themeData = themeMap.get(normalizedTheme)!;
+              
+              const themeKey = existingTheme || originalTheme;
+              if (!themeMap.has(themeKey)) {
+                themeMap.set(themeKey, { count: 0, hymns: [] });
+              }
+              const themeData = themeMap.get(themeKey)!;
               themeData.count++;
               themeData.hymns.push({
                 ...hymn,

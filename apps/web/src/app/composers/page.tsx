@@ -62,9 +62,11 @@ export default function ComposersPage() {
       return;
     }
 
-    const filtered = composers.filter(composerData =>
-      composerData.composer.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    const filtered = composers.filter(composerData => {
+      const normalizedComposer = composerData.composer.replace(/[.,\s\-']+/g, '').toLowerCase();
+      const normalizedSearch = searchTerm.replace(/[.,\s\-']+/g, '').toLowerCase();
+      return normalizedComposer.includes(normalizedSearch);
+    });
     setFilteredComposers(filtered);
   }, [searchTerm, composers]);
 

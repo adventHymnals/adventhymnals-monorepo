@@ -62,9 +62,11 @@ export default function ThemesPage() {
       return;
     }
 
-    const filtered = themes.filter(themeData =>
-      themeData.theme.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    const filtered = themes.filter(themeData => {
+      const normalizedTheme = themeData.theme.replace(/[.,\s\-'&]+/g, '').toLowerCase();
+      const normalizedSearch = searchTerm.replace(/[.,\s\-'&]+/g, '').toLowerCase();
+      return normalizedTheme.includes(normalizedSearch);
+    });
     setFilteredThemes(filtered);
   }, [searchTerm, themes]);
 
