@@ -1,25 +1,32 @@
 {
   "id": "HT1886-en-484",
   "number": 484,
-  "title": "Hymn 484 (To be extracted)",
-  "author": null,
+  "title": "Thou comforting One, our wants relieve",
+  "author": "John Fawcett",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "PERSEVERANCE",
+  "meter": "C. M. D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Thou comforting One, our wants relieve\nIn this our evil day;\nTo all thy tempted followers give\nThe power to watch and pray.\nLong as our day-\ntrial lasts, Long as the cross we bear,\nO let our souls on thee be cast\nIn all-prevailing prayer."
+    },
+    {
+      "number": 2,
+      "text": "The power of interceding grace\nGive us in faith to claim;\nTo wrestle till we see thy face,\nAnd know thy hidden name.\nTill thou appear below\nBe this the cry of every heart,—\n'I will not let thee go.'"
+    },
+    {
+      "number": 3,
+      "text": "I will not let thee go, unless\nThou tell thy name to me;\nWith all thy great salvation bless,\nAnd make me all like thee.\nThen let me on thy mountain sleep\nBehold thy open face,\nWhere faith in sight is swallowed up,\nAnd prayer in joyful praise."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["prayer", "perseverance", "spiritual warfare"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "John Fawcett",
     "original_language": "en",
-    "extraction_status": "template_created"
   }
 }

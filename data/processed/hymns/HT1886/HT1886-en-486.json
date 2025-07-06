@@ -1,25 +1,32 @@
 {
   "id": "HT1886-en-486",
   "number": 486,
-  "title": "Hymn 486 (To be extracted)",
-  "author": null,
+  "title": "I want a principle within",
+  "author": "Charles Wesley",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "MOUNT BETHEL",
+  "meter": "C. M. D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "I want a principle within\nOf jealous, godly fear;\nI want the first approach to feel,\nOf pride or fond desire;\nTo catch the wandering of my will,\nAnd quench the kindling fire."
+    },
+    {
+      "number": 2,
+      "text": "From thee that I no more may part,\nNo more thy goodness grieve,\nThe filial awe, the fleshly heart,\nThe tender conscience, give.\nQuick as the apple of an eye,\nO God, my conscience make;\nAwake my soul when sin is nigh,\nAnd keep it still awake."
+    },
+    {
+      "number": 3,
+      "text": "If to the right or left I stray,\nThat moment, Lord, reprove;\nAnd let me weep my life away\nFor having grieved thy love.\nO may the least omission pain\nMy well-instructed soul!\nAnd drive me to the blood again\nWhich makes the wounded whole."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["holiness", "conscience", "prayer"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "Charles Wesley",
     "original_language": "en",
-    "extraction_status": "template_created"
   }
 }

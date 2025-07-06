@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-268",
+  "number": 268,
+  "title": "Blessed Quietness",
+  "author": "M. J. Ferguson",
+  "composer": "W. S. Marshall",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Joys are flow-ing like a riv-er, Since the Com-fort-er has come;\nHe a-bides with us for-ev-er, Makes the trust-ing heart His home."
+    },
+    {
+      "number": 2,
+      "text": "Bring-ing life and health and glad-ness, All a-round this heav'n-ly guest,\nBan-ished un-be-lief and sad-ness, Changed our wea-ri-ness to rest."
+    },
+    {
+      "number": 3,
+      "text": "Like the rain that falls from heav-en, Like the sun-light from the sky,\nSo the Ho-ly Ghost is giv-en, Com-ing on us from on high."
+    }
+  ],
+  "chorus": {
+    "text": "Bless-ed qui-et-ness, ho-ly qui-et-ness, What as-sur-ance in my soul!\nOn the storm-y sea He speaks peace to me, How the bil-lows cease to roll!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by W. S. Marshall. Used by permission.",
+    "themes": ["Holy Spirit", "peace", "quietness", "comfort"],
+    "scripture_references": [],
+    "tune_source": "W. S. Marshall",
+    "original_language": "en"
+  }
+}

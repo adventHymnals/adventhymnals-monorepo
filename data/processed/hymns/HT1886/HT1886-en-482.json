@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-482",
   "number": 482,
-  "title": "Hymn 482 (To be extracted)",
-  "author": null,
+  "title": "Children of the heavenly King",
+  "author": "John Cennick",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,27 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Children of the heavenly King,\nAs we journey, sweetly sing;\nSing your Saviour's worthy praise,\nGlorious in his works and ways."
+    },
+    {
+      "number": 2,
+      "text": "We are traveling home to God,\nIn the way the fathers trod;\nAnd when Jordan's Lord shall come,\nWe shall all be gathered home."
+    },
+    {
+      "number": 3,
+      "text": "Shout, ye little flock, and blest,\nYou near Jesus' throne shall rest;\nThere your seats are now prepared,\nThere your kingdom and reward."
+    },
+    {
+      "number": 4,
+      "text": "Fear not, brethren, joyful stand\nOn the borders of your land;\nJesus Christ, your Father's Son,\nBids you undismayed go on."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["pilgrimage", "heaven", "children"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "John Cennick",
     "original_language": "en",
-    "extraction_status": "template_created"
   }
 }

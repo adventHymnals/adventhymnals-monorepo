@@ -14,7 +14,7 @@ import {
 
 import Layout from '@/components/layout/Layout';
 import Breadcrumbs, { generateHymnalBreadcrumbs } from '@/components/ui/Breadcrumbs';
-import { loadHymnalReferences, loadHymnal, loadHymn, getRelatedHymns } from '@/lib/data';
+import { loadHymnalReferences, loadHymn, getRelatedHymns } from '@/lib/data';
 import { generateHymnMetadata, generateHymnStructuredData } from '@/lib/seo';
 
 interface HymnPageProps {

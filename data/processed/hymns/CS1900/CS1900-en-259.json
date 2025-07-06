@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-259",
+  "number": 259,
+  "title": "Our Surest Stay",
+  "author": "Anon",
+  "composer": "J. B. Herbert",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "What will ye do with-out Him? light-en your fear, and\nHe will stand and shield you, a pres-ent help al-way; What will ye do with-out Him?"
+    },
+    {
+      "number": 2,
+      "text": "He will not leave nor for-sake you, when cares and sor-rows fall,\nAnd when you meet, when think of care, The sure one you will call."
+    },
+    {
+      "number": 3,
+      "text": "He was your heav-enly Guard, O! our trust be in the\nword of care and toil, to share's the voice of prayer;"
+    }
+  ],
+  "chorus": {
+    "text": "Our sure-est stay, our sure-est stay, He sure-est stay, our sure-est stay!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["trust", "God's faithfulness", "refuge", "prayer"],
+    "scripture_references": [],
+    "tune_source": "J. B. Herbert",
+    "original_language": "en"
+  }
+}

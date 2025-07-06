@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-483",
   "number": 483,
-  "title": "Hymn 483 (To be extracted)",
-  "author": null,
+  "title": "Jesus, we thy promise claim",
+  "author": "Anon",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Jesus, we thy promise claim,\nWe are gathered in thy name;\nIn the midst of us appear,\nManifest thy presence here."
+    },
+    {
+      "number": 2,
+      "text": "Sanctify us, Lord, and bless;\nBreathe thy Spirit, give us peace;\nCome with each expecting heart,\nLight, and life, and joy impart."
+    },
+    {
+      "number": 3,
+      "text": "Make us all in thee complete;\nMake us all for glory meet;\nMeet to stand before thy sight,\nPartners with the saints in light."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "themes": ["fellowship", "worship", "sanctification"],
+    "scripture_references": ["Matthew 18:20"],
+    "tune_source": "Anon",
     "original_language": "en",
-    "extraction_status": "template_created"
   }
 }
