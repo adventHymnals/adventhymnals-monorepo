@@ -64,6 +64,20 @@ export async function generateMetadata({ params }: HymnalPageProps): Promise<Met
   }
 }
 
+export async function generateStaticParams() {
+  try {
+    const hymnalReferences = await loadHymnalReferences();
+    
+    // Generate static params for all hymnals
+    return Object.values(hymnalReferences.hymnals).map((hymnal) => ({
+      hymnal: hymnal.url_slug
+    }));
+  } catch (error) {
+    console.error('Error generating static params for hymnals:', error);
+    return [];
+  }
+}
+
 export default async function HymnalPage({ params }: HymnalPageProps) {
   const hymnalReferences = await loadHymnalReferences();
   
