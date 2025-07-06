@@ -4,7 +4,7 @@ import { loadHymnalReferences, loadHymnalHymns } from '@/lib/data-server';
 export async function GET() {
   try {
     const hymnalReferences = await loadHymnalReferences();
-    const composerMap = new Map<string, { count: number; hymns: any[] }>();
+    const composerMap = new Map<string, { count: number; hymns: unknown[] }>();
 
     // Load hymns from all hymnals
     for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {

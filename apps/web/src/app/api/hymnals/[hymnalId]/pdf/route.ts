@@ -21,7 +21,7 @@ export async function GET(
     }
 
     // Load all hymns for this hymnal
-    const { hymns, totalHymns } = await loadHymnalHymns(hymnalId, 1, hymnal.total_songs || 1000);
+    const { hymns } = await loadHymnalHymns(hymnalId, 1, hymnal.total_songs || 1000);
     
     if (hymns.length === 0) {
       return NextResponse.json(

@@ -28,7 +28,7 @@ export default function AuthorsPage() {
   const [filteredAuthors, setFilteredAuthors] = useState<AuthorData[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
-  const [hymnalReferences, setHymnalReferences] = useState<any>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
 
   useEffect(() => {
     const loadData = async () => {

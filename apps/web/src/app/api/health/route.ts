@@ -8,7 +8,7 @@ export async function GET() {
       timestamp: new Date().toISOString(),
       service: 'advent-hymnals-web'
     });
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       { status: 'error', error: 'Health check failed' },
       { status: 500 }

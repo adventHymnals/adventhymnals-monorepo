@@ -29,7 +29,7 @@ export default function AuthorDetailPage({ params }: AuthorDetailProps) {
   const [hymns, setHymns] = useState<HymnData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [hymnalReferences, setHymnalReferences] = useState<any>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
   
   const decodedAuthor = decodeURIComponent(params.author);
 
@@ -46,7 +46,7 @@ export default function AuthorDetailPage({ params }: AuthorDetailProps) {
         }
         
         const authorsData = await authorsResponse.json();
-        const authorData = authorsData.find((a: any) => a.author === decodedAuthor);
+        const authorData = authorsData.find((a: { author: string }) => a.author === decodedAuthor);
         
         if (!authorData) {
           setError(`Author "${decodedAuthor}" not found`);
