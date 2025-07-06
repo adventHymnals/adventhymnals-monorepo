@@ -71,7 +71,11 @@ jobs:
             echo "Build failed - no output directory found"
             exit 1
           fi
-          echo "Build output verified - found $(find apps/web/out -name "*.html" | wc -l) HTML files"
+          html_count=$(find apps/web/out -name "*.html" | wc -l)
+          echo "Build output verified - found $html_count HTML files"
+          if [ "$html_count" -lt 1000 ]; then
+            echo "Warning: Less than expected HTML files generated, but continuing..."
+          fi
 
       # Deploy to GitHub Pages (only on master push)
       - name: Deploy to GitHub Pages
@@ -84,7 +88,26 @@ jobs:
           publish_branch: master
           cname: adventhymnals.org
 
+      # Clean up static export files to free disk space for Docker build
+      - name: Clean up static export files
+        run: |
+          echo "Disk usage before cleanup:"
+          df -h
+          rm -rf apps/web/out
+          rm -rf apps/web/.next
+          echo "Disk usage after cleanup:"
+          df -h
+
       # Docker setup and build
+      - name: Check available disk space
+        run: |
+          echo "=== Disk Usage Before Docker Build ==="
+          df -h
+          echo "=== Available Space ==="
+          df -h / | awk 'NR==2{printf "%.1f%% used (%s available)\n", $5, $4}'
+          echo "=== Memory Usage ==="
+          free -h
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
@@ -116,8 +139,10 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
-          cache-to: type=gha,mode=max
-          platforms: linux/amd64,linux/arm64
+          cache-to: type=gha,mode=min
+          platforms: linux/amd64
+          build-args: |
+            BUILDKIT_INLINE_CACHE=1
 
   # Deploy Docker container to server
   deploy-docker:

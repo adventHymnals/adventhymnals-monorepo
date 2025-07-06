@@ -64,8 +64,9 @@ COPY --from=builder /app/apps/web/public ./public
 COPY --from=builder /app/apps/web/.next/standalone ./
 COPY --from=builder /app/apps/web/.next/static ./.next/static
 
-# Create data directory for hymnal files
-RUN mkdir -p ./data && chown nextjs:nodejs ./data
+# Copy hymnal data files
+COPY --from=builder /app/data ./data
+RUN chown -R nextjs:nodejs ./data
 
 USER nextjs
 
