@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
+import { Suspense } from 'react';
 import { loadHymnalReferences } from '@/lib/data-server';
 import ProjectionClient from './ProjectionClient';
 
@@ -67,7 +68,9 @@ export default async function ProjectionPage({ params }: ProjectionPageProps) {
     }
     
     return (
-      <ProjectionClient hymnId={params.hymnId} hymn={hymn} />
+      <Suspense fallback={<div className="flex items-center justify-center min-h-screen bg-black text-white">Loading projection...</div>}>
+        <ProjectionClient hymnId={params.hymnId} hymn={hymn} />
+      </Suspense>
     );
   } catch (error) {
     console.error('Failed to load hymn:', error);
