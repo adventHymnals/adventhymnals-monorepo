@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-440",
   "number": 440,
-  "title": "Hymn 440 (To be extracted)",
-  "author": null,
+  "title": "Joy in Heaven",
+  "author": "John Newton",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "O, sweet divine, how sweet the joy,\nWhen but one sinner turns,\nAnd, with an humble, broken heart,\nHis sins and errors mourns!"
+    },
+    {
+      "number": 2,
+      "text": "Pleased with the news, the saints below\nIn songs their tongues employ;\nBeyond the skies the tidings go,\nAnd heaven is filled with joy."
+    },
+    {
+      "number": 3,
+      "text": "Well pleased the Father sees and hears\nThe conscious sinner's moan;\nJesus receives him in his arms,\nAnd claims him as his own."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["repentance", "joy", "salvation", "heaven", "mercy"],
+    "scripture_references": ["Luke 15:7"],
+    "tune_source": "354, 359, 635",
+    "original_language": "en"
   }
 }

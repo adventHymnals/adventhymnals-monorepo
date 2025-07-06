@@ -1,0 +1,30 @@
+{
+  "id": "HT1876-en-034",
+  "number": 34,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "GLORY to God on high !\nYe harpers of the sky,\nPraise ye his name !\nYe saints his love adore,\nWho all your sorrows bore,\nSing joyful, evermore,\nWorthy the Lamb."
+    },
+    {
+      "number": 2,
+      "text": "While they around the throne\nCheerfully join in one,\nPraising his name,—\nYe who have felt his blood\nSealing your peace with God,\nSound his dear name abroad,\nWorthy the Lamb !"
+    },
+    {
+      "number": 3,
+      "text": "Join, all ye ransomed race,\nOur Lord and God to bless :"
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["glory", "praise", "Lamb", "salvation", "worship"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "6s & 4s"
+  }
+}

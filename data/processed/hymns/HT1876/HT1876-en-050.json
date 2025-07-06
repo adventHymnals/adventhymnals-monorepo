@@ -1,0 +1,30 @@
+{
+  "id": "HT1876-en-050",
+  "number": 50,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "GOD, in the gospel of his Son,\nMakes his eternal counsels known ;\nTis here his richest mercy shines,\nAnd truth is drawn in fairest lines."
+    },
+    {
+      "number": 2,
+      "text": "Wisdom its dictates here imparts,\nTo form our minds, to cheer our hearts ;\nIts influence makes the sinner live ;\nIt bids the drooping saint revive."
+    },
+    {
+      "number": 3,
+      "text": "Our raging passions it controls,\nAnd comfort yields to contrite souls ;\nIt brings a better world in view,\nAnd guides us all our journey through."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["gospel", "mercy", "wisdom", "comfort", "guidance"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "L. M."
+  }
+}

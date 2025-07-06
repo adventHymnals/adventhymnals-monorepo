@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-453",
+  "number": 453,
+  "title": "Watch and Pray",
+  "author": null,
+  "composer": "E. Lorenz",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Watch for the time is short; Watch while the trial to-day; Watch lest ye stand pre-test; Watch Christian, watch and pray;\nChrist himself has the word, That comings not in haste; That if He is not prepared, For Christ's return, The harvest now is past;"
+    },
+    {
+      "number": 2,
+      "text": "Take Je-sus for thy trust; Watch while the foe is near; Gird with the ar-mor on; Watch till thy Lord appear.\nWatch, for the flesh is weak; Watch, for the foe is strong; Watch lest the bride-groom-cry; Watch, for it tar-ry long;\nWatch thou-man, watch and pray; 'Tis not me-it-ed for thee 'Till from this low-ly ground God slopes of glo-ry be;\nNow when thy sun is up; Make thou no more de-lay; In His a-cept-ed time, Watch, Chris-tian, watch and pray."
+    }
+  ],
+  "chorus": {
+    "text": "O watch and pray, O watch and pray; O watch in fast-ing, and watch in the day; Chris-tian, watch and pray;\nO watch and pray, O watch and pray, O watch and pray, O watch and pray."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of E. Lorenz",
+    "themes": ["watchfulness", "prayer", "vigilance", "second coming"],
+    "scripture_references": ["Matthew 26:41", "Mark 13:37"],
+    "tune_source": "E. Lorenz",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "HT1876-en-037",
+  "number": 37,
+  "title": "Greenville",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "FAR from mortal cares retreating,\nSordid hopes and vain desires,\nHere, our willing footsteps meeting,\nEvery heart to Heaven aspires.\nFrom the found of glory beaming\nLight celestial cheers our eyes,\nMercy from above proclaiming\nPeace and pardon from the skies."
+    },
+    {
+      "number": 2,
+      "text": "Who may share this great salvation ?\nEvery pure and humble mind,\nEvery kindred, tongue, and nation,\nFrom the stains of guilt refined.\nBlessed are the souls believing\nIn our great Redeemer's love,\nGrace and mercy ever flowing\nFrom the fountain of his throne."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["salvation", "glory", "mercy", "peace", "worship"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "8s & 7s, Double",
+    "tune": "Greenville"
+  }
+}

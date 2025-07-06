@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-574",
+  "number": 574,
+  "title": "BEAUTIFUL VALLEY OF EDEN",
+  "author": "Rev. W. O. Cushing",
+  "composer": "W. F. Sherwin",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"He will still those who hunger and thirst, and will satisfy them like the portion of the Lord.\" - Isa. 55:1.\nI Rest-u-al-ly can out - the walk, Sweet is thy boon-ti-ful grace, O we're found a land;\nO at the heart of the moun-tain, Shin-ing so gold-en glo-ry, Wait-ing the quest of the\nHun-gry of souls, my Saviour, Then will thy bless-ed smil-ing, When in thy land."
+    },
+    {
+      "number": 2,
+      "text": "O rest-ing, con-tent-ed with na-ture, Beau-ti-ful val-ley of E-den, Home of the\nRest-ing the great new home."
+    }
+  ],
+  "chorus": {
+    "text": "REFRAIN:\nRest-ing, rest-ing, Sweet is thy boon-ti-ful grace,\nRest-ing, rest-ing, Wait-ing the quest of the\npure and bless-ed, Rest-ing of Em-a-nu-el thou wilt bel-low'd, I dream of thy crest to-w'rd."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1900, by The Biglow & Main Co., owners of copyright",
+    "themes": ["rest", "Eden", "valley", "beautiful", "home"],
+    "scripture_references": ["Isa. 55:1"],
+    "tune_source": "W. F. Sherwin",
+    "original_language": "en"
+  }
+}

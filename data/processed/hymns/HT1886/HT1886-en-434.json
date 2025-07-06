@@ -1,25 +1,39 @@
 {
   "id": "HT1886-en-434",
   "number": 434,
-  "title": "Hymn 434 (To be extracted)",
-  "author": null,
-  "composer": null,
+  "title": "Sunlight in the Heart",
+  "author": "Mrs. M. T. Haughery",
+  "composer": "M. T. Haughery",
   "tune": null,
   "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "There is sunlight on the hilltop, There is sunlight on the sea;\nIn the dust I leave my sadness, At the gate of other days;\nO loving Saviour, thou hast bought me, And my life, my all, is thine."
+    },
+    {
+      "number": 2,
+      "text": "And the golden beams are sleeping, On the soft and verdant lea;\nFor thou dost see me with gladness, And thou fillest all my praise;\nLet the lamp thy love hath lighted To thy praise and glory shine."
+    },
+    {
+      "number": 3,
+      "text": "But a richer light is filling All the chambers of my heart;\nAnd to that bright home of glory Which thy love hath won for me,\nAnd to that bright home of glory Which thy love hath won for me."
+    },
+    {
+      "number": 4,
+      "text": "For thou dwell'st there, my Saviour, And 'tis sunlight where thou art;\nIn my heart and mind ascending, My glad spirit follows thee,\nIn my heart and mind ascending, My glad spirit follows thee."
     }
   ],
+  "chorus": {
+    "text": "O the sunlight! beautiful sunlight! O the sunlight in the heart!"
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["joy", "salvation", "God's presence", "light", "heart"],
     "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "tune_source": "M. T. Haughery, Arranged",
+    "original_language": "en"
   }
 }

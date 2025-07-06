@@ -30,7 +30,7 @@ Extract hymns and metadata from scanned hymnal images using AI vision capabiliti
    - Extract hymn metadata (title, author, composer, tune name, meter)
    - Handle multi-page hymns by combining text from consecutive images
    - Process multiple hymns per page when detected
-   - Apply intelligent text recognition and cleanup
+   - Apply OCR error correction and text cleanup
    - Validate extracted hymn structure and completeness
 
 4. **Structure Hymn Data**
@@ -254,9 +254,10 @@ data/processed/indices/{hymnal-id}/
 8. **Note any continuation** - if hymn continues on next page
 
 ### Quality Guidelines:
-- Preserve original text formatting and punctuation
-- Maintain consistent verse numbering
-- Handle special characters and diacritical marks
+- Correct common OCR errors (0→O, 1→I, rn→m, etc.)
+- Fix obvious scanning artifacts and noise
+- Maintain consistent verse numbering and formatting
+- Handle special characters and diacritical marks correctly
 - Identify incomplete hymns that span multiple pages
 - Flag unclear or damaged text for manual review
 

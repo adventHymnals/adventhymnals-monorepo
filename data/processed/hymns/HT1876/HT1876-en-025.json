@@ -1,0 +1,39 @@
+{
+  "id": "HT1876-en-025",
+  "number": 25,
+  "title": "Dove",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "STAND up, and bless the Lord,\nYe people of his choice ;\nStand up, and bless the Lord your God,\nWith heart, and soul, and voice."
+    },
+    {
+      "number": 2,
+      "text": "Though high above all praise,\nAbove all blessing high,\nWho would not fear his holy name,\nAnd laud and magnify ?"
+    },
+    {
+      "number": 3,
+      "text": "O for the living flame\nFrom his own altar brought,\nTo touch our lips, our souls inspire,\nAnd wing to Heaven our thought !"
+    },
+    {
+      "number": 4,
+      "text": "God is our strength and song,\nAnd his salvation ours ;\nThen be his love in Christ proclaimed\nWith all our ransomed powers."
+    },
+    {
+      "number": 5,
+      "text": "Stand up, and bless the Lord ;\nThe Lord your God adore ;\nStand up, and bless his glorious name,\nHenceforth, for evermore."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["worship", "praise", "blessing", "salvation"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "S. M.",
+    "tune": "Dove"
+  }
+}

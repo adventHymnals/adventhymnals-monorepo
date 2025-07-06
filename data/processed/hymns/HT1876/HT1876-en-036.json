@@ -1,0 +1,35 @@
+{
+  "id": "HT1876-en-036",
+  "number": 36,
+  "title": "Bonar, Double",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "A FEW more years shall roll,\nA few more seasons come ;\nAnd we shall be with those that rest\nAsleep within the tomb ;\nThen, O my Lord, prepare\nMy soul for that great day ;\nOh, wash me in thy precious blood,\nAnd take my sins away !"
+    },
+    {
+      "number": 2,
+      "text": "A few more storms shall beat\nOn this wild, rocky shore ;\nAnd we shall be where tempests cease,\nAnd surges swell no more ;\nThen, O my Lord, prepare\nMy soul for that calm day ;\nOh, wash me in thy precious blood,\nAnd take my sins away !"
+    },
+    {
+      "number": 3,
+      "text": "A few more struggles here,\nA few more partings sore,\nA few more toils, a few more tears,\nAnd we shall weep no more ;\nThen, O my Lord, prepare\nMy soul for that blest day ;\nOh, wash me in thy precious blood,\nAnd take my sins away !"
+    },
+    {
+      "number": 4,
+      "text": "'Tis but a little while,\nAnd he shall come again,\nWho died, that we might live, who lives\nThat we may with him reign ;\nThen, O my Lord, prepare\nMy soul for that glad day ;\nOh, wash me in thy precious blood,\nAnd take my sins away !"
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["death", "preparation", "salvation", "second coming"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "S. M. Double",
+    "tune": "Bonar"
+  }
+}

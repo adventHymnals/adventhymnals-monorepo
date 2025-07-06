@@ -1,0 +1,27 @@
+{
+  "id": "CS1900-en-577",
+  "number": 577,
+  "title": "JEWELS",
+  "author": "Rev. W. O. Cushing",
+  "composer": "Geo. F. Root",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"And they shall be mine, saith the Lord of hosts, in that day when I make up my jewels.\" - Mal. 3:17.\nWhen He cometh, when He cometh To make up his jew-els, All his precious ones up-on that loved and his own,\nHe will gath-er, He will gath-er The gems for his king-dom; All the pure ones, all the bright ones, His loved and his own."
+    }
+  ],
+  "chorus": {
+    "text": "CHORUS:\nLit-tle ones to him belong, They are weak, but he is strong; They shall stand a-mong his jew-els, Bright gems for his crown."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "By permission of the John Church Co., owners of copyright",
+    "themes": ["jewels", "precious ones", "kingdom", "crown", "gathering"],
+    "scripture_references": ["Mal. 3:17"],
+    "tune_source": "Geo. F. Root",
+    "original_language": "en"
+  }
+}

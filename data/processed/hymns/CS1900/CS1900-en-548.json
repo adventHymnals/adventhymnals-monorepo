@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-548",
+  "number": 548,
+  "title": "Holy Spirit, Faithful Guide",
+  "author": "M. M. Wells",
+  "composer": "M. M. Wells",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy Spirit, faithful Guide, Ever near the Christian's side,\nGently lead us by the hand, Pilgrims in a desert land;\nWeary souls fore'er rejoice, While they hear that sweetest voice,\nWhispering softly, 'Wanderer, come! Follow me, I'll guide thee home.'"
+    },
+    {
+      "number": 2,
+      "text": "Ever present, truest Friend, Ever near thine aid to lend,\nLeave us not to doubt and fear, Groping on in darkness drear;\nWhen the storms are raging sore, Hearts grow faint, and hopes give o'er,\nWhisper softly, 'Wanderer, come! Follow me, I'll guide thee home.'"
+    },
+    {
+      "number": 3,
+      "text": "When our days of toil shall cease, Waiting still for sweet release,\nNothing left but heaven and prayer, Wondering if our names are there;\nWading deep the dismal flood, Pleading nought but Jesus' blood,\nWhisper softly, 'Wanderer, come! Follow me, I'll guide thee home.'"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["holy spirit", "guidance", "comfort", "pilgrimage"],
+    "scripture_references": [],
+    "tune_source": "M. M. Wells",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-550",
+  "number": 550,
+  "title": "He Will Keep Us",
+  "author": "P. P. Bliss",
+  "composer": "P. P. Bliss",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O what a Saviour, that he died for me! From condemnation he hath made me free;\n'He that believeth on the Son,' saith he, 'Hath everlasting life.'"
+    },
+    {
+      "number": 2,
+      "text": "All my iniquities on him were laid, He nailed them to the cross;\nThen full atonement he for all has made, And I am saved from loss."
+    },
+    {
+      "number": 3,
+      "text": "Though Satan should buffet, though trials should come, Let this blest assurance control,\nThat Christ has regarded my helpless estate, And hath shed his own blood for my soul."
+    }
+  ],
+  "chorus": {
+    "text": "'Hallelujah! what a Saviour!' 'Hallelujah! what a Friend!'\nSaving, helping, keeping, loving, He is with me to the end."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["salvation", "assurance", "Jesus", "atonement"],
+    "scripture_references": [],
+    "tune_source": "P. P. Bliss",
+    "original_language": "en"
+  }
+}

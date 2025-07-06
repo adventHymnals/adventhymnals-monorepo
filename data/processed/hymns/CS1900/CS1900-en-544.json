@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-544",
+  "number": 544,
+  "title": "The Pure in Heart",
+  "author": "H. R. Palmer",
+  "composer": "H. R. Palmer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I will be pure in heart, Who can de- scend to me,\nAll will be pure in heart, who loves and serves Thee;\nI will be pure in heart, who walks with Thee above,\nAnd keep still pure in heart, in Jesus' wondrous love."
+    },
+    {
+      "number": 2,
+      "text": "And from temptations free, and from all sin re- leased,\nAnd keep still pure in heart, in Jesus' wondrous love;\nThey walk with Christ above, where saints and angels are,\nAnd keep still pure in heart, in Jesus' wondrous love."
+    }
+  ],
+  "chorus": {
+    "text": "The pure in heart shall see God, shall see God,\nShall see God in His beauty;\nThe pure in heart shall see God, shall see God,\nAnd dwell with Him eternally."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["purity", "holiness", "beatitudes", "heaven"],
+    "scripture_references": ["Matthew 5:8"],
+    "tune_source": "H. R. Palmer",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-552",
+  "number": 552,
+  "title": "One Living Faith",
+  "author": "C. Wesley",
+  "composer": "J. H. Knecht",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "One there is, above all others, Well deserves the name of Friend;\nHis is love beyond a brother's, Costly, free, and knows no end."
+    },
+    {
+      "number": 2,
+      "text": "Which of all our friends to save us, Could or would have shed his blood?\nBut our Jesus died to have us Reconciled, in him, to God."
+    },
+    {
+      "number": 3,
+      "text": "When he lived on earth abased, Friend of sinners was his name;\nNow, above all glory raised, He rejoices in the same."
+    },
+    {
+      "number": 4,
+      "text": "O for grace our hearts to soften! Teach us, Lord, at length to love;\nWe, alas! forget too often What a Friend we have above."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["friendship", "Jesus", "love", "sacrifice"],
+    "scripture_references": [],
+    "tune_source": "J. H. Knecht",
+    "original_language": "en"
+  }
+}

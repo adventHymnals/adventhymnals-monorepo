@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-543",
+  "number": 543,
+  "title": "Control My Will",
+  "author": "A. P. J. Cruzer",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Dear Lord, teach me so to trust Thee, teach me so to pray,\nThat trust my heart will fill, and prayer will be my stay;\nMy spirit unto Thee, dear Lord, I give into Thy care,\nO keep my soul in readiness for Thy returning here."
+    },
+    {
+      "number": 2,
+      "text": "Ah, my Jesus, thou dost know me; thou canst read my heart,\nAnd know the earnest longing that I may ne'er depart\nFrom Thee, beloved One for me, who on the cross hast hung,\nGive Thee subdued each thought, dear Lord, and each idle tongue."
+    },
+    {
+      "number": 3,
+      "text": "And keep all evil out of me, and sinner that I am,\nThou art my strength and purity, my good and loving Friend;\nThou wilt continue unto me Thy love and pardoning grace,\nUntil I reach the Golden City, see Thee face to face."
+    }
+  ],
+  "chorus": {
+    "text": "Control my will, control my will,\nO let Thy will be mine;\nControl my will, control my will,\nFor I am wholly Thine."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["surrender", "consecration", "prayer", "discipleship"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "HT1876-en-033",
+  "number": 33,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "PRAISE to thee, thou great Creator !\nPraise to thee from every tongue ;\nJoin, my soul, with every creature,\nJoin the universal song."
+    },
+    {
+      "number": 2,
+      "text": "Father of all compassion,\nPure, unbounded grace is thine ;\nHail the God of our salvation !\nPraise him for his love divine !"
+    },
+    {
+      "number": 3,
+      "text": "For the grandeur of thy heaven,\nFor the hope of future joy ;\nSound his name through earth and Heaven,\nLet his praise your tongues employ."
+    },
+    {
+      "number": 4,
+      "text": "Joyfully on earth adore him,\nTill in Heaven our song we raise ;\nThen enraptured fall before him,\nLost in wonder, love, and praise !"
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["Creator", "praise", "grace", "joy", "heaven"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "8s & 7s"
+  }
+}

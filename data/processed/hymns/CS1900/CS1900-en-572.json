@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-572",
+  "number": 572,
+  "title": "THE BRIGHT FOREVER",
+  "author": "J. A. Closson",
+  "composer": "Herbert R. Main",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"In thy right hand there are pleasures for evermore.\" - Ps. 16:11.\nBreaking thro' the clouds that gather O'er the Christian's ru-ral sleep, Did not leave him, but behold a glo-ry;\nShining on the hills of life e-ter-nal! O the King un-bro-ken rest! let the gold-en fields of pleas-ure,"
+    },
+    {
+      "number": 2,
+      "text": "Fill the soul with glad sur-prise; And we al-most hear the ech-o Of the pure and ho-ly throng,\nFor the glo-ries thick descend-ing, We shall try as those to slumber, But the right with sub-lime song."
+    }
+  ],
+  "chorus": {
+    "text": "Then the bright,the bright for-ev-er, In the bright, the bright for-ev-er, Near the sum-mer-land of song,\nIn the bright, the bright for-ev-er, We shall wake, to weep no more, On the banks beyond the riv-er\nThere to hear his God-ous wel-come, To the sweet, to the sweet, all."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1900, by Herbert R. Main. Used by permission",
+    "themes": ["glory", "eternal life", "pleasures", "bright forever", "summer land"],
+    "scripture_references": ["Ps. 16:11"],
+    "tune_source": "Herbert R. Main",
+    "original_language": "en"
+  }
+}

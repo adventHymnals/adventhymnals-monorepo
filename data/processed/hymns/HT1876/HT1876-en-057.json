@@ -1,0 +1,34 @@
+{
+  "id": "HT1876-en-057",
+  "number": 57,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "BLESSED Bible, how I love it !\nHow it doth my bosom cheer !\nWhat hath earth like this to covet ?\nOh ! what stores of wealth are here."
+    },
+    {
+      "number": 2,
+      "text": "'Tis a fountain ever bursting,\nWhence the weary soul obtain\nWater for the soul's thirsting,\nAnd shall never thirst again."
+    },
+    {
+      "number": 3,
+      "text": "'Tis a chart that never fails you,\nAs which God to man has given ;\nWhen the rudest storm assails you,\nIt will guide you safe to Heaven."
+    },
+    {
+      "number": 4,
+      "text": "'Tis a pearl of price, exceeding\nAll the gems in ocean found ;\nTo its truths may you be heeding\nIn its truths may you abound."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["Bible", "treasure", "fountain", "guide", "pearl"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "8s & 7s"
+  }
+}

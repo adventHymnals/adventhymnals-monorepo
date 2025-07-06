@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-551",
+  "number": 551,
+  "title": "Firm as a Rock",
+  "author": "W. Hunter",
+  "composer": "G. J. Elvey",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Firm as a rock thy truth shall stand, When rolling years shall cease to move;\nWhen elements shall melt away, Thy truth and mercy shall not move."
+    },
+    {
+      "number": 2,
+      "text": "Firm as a rock thy truth remains, To guard thy children's happy souls;\nWhen tyrants rage, and hell assails, Thy truth the raging foe controls."
+    },
+    {
+      "number": 3,
+      "text": "Firm as a rock thy promise stands, Though heaven and earth away should flee;\nThy promise all support demands, And finds support, O Lord, in thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["faithfulness", "truth", "promise", "steadfastness"],
+    "scripture_references": [],
+    "tune_source": "G. J. Elvey",
+    "original_language": "en"
+  }
+}

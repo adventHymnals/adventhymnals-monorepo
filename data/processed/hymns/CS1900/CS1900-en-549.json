@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-549",
+  "number": 549,
+  "title": "Stretch Every Nerve",
+  "author": "P. Doddridge",
+  "composer": "Arr. from J. Abel",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Awake, my soul, stretch every nerve, And press with vigor on;\nA heavenly race demands thy zeal, And an immortal crown."
+    },
+    {
+      "number": 2,
+      "text": "A cloud of witnesses around Hold thee in full survey;\nForget the steps already trod, And onward urge thy way."
+    },
+    {
+      "number": 3,
+      "text": "'Tis God's all-animating voice That calls thee from on high;\n'Tis his own hand presents the prize To thine aspiring eye."
+    },
+    {
+      "number": 4,
+      "text": "Blest Saviour, introduced by thee, Have I my race begun;\nAnd, crowned with victory, at thy feet I'll lay my honors down."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["perseverance", "race", "victory", "zeal"],
+    "scripture_references": [],
+    "tune_source": "Arr. from J. Abel",
+    "original_language": "en"
+  }
+}

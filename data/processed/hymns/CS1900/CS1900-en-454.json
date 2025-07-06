@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-454",
+  "number": 454,
+  "title": "Strike for Victory",
+  "author": "Mrs. M. A. Kidder",
+  "composer": "W. H. Doane",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Strike! O strike for vic-to-ry, Sol-diers of the Lord, Hop-ing in His mer-cy, Trust-ing in His word;\nWhat to you the night has been, let now the day be; En-e-mies are march-ing, Foe-men gather strong,\nGird! O gird for bat-tle, Haste to the field, Trust-ing in His pow-er, Je-sus is your shield;\nLong to fight a good fight, Hearb to heart is won, Let us still keep press-ing Till our journey's done."
+    },
+    {
+      "number": 2,
+      "text": "Lift the gos-pel ban-ner High a-bove the world, Let its folds of beau-ty Ev-er be un-furled;\nDo not fear the march-ing on-ward, though the fight Till we reach the Jor-dan With our ban-ners bright;\nSee the cross of Cal-v'ry Gleam-ing in the light, With the shin-ing gar-ments And the vic-tor's crown,\nTill we see the ar-gels Come in glo-ry down."
+    }
+  ],
+  "chorus": {
+    "text": "Strike! strike for vic-to-ry, He can hold; Strike! till the vic-t'ry You be-hold;\nFight! fight the good fight, the good fight of faith, Meet them in glo-ry Ev-er-more."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1891, by W. H. Doane. Used by permission",
+    "themes": ["victory", "spiritual warfare", "battle", "faith"],
+    "scripture_references": ["1 Timothy 6:12", "2 Timothy 4:7"],
+    "tune_source": "W. H. Doane",
+    "original_language": "en"
+  }
+}

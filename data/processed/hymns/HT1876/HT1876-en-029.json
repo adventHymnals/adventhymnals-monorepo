@@ -1,0 +1,38 @@
+{
+  "id": "HT1876-en-029",
+  "number": 29,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "HOW beauteous are their feet,\nWho stand on Zion's hill ;\nWho bring salvation on their tongues,\nAnd words of peace reveal !"
+    },
+    {
+      "number": 2,
+      "text": "How charming is their voice,\nHow sweet the tidings are ;\n\"Zion, behold thy Saviour King ;\nHe reigns and triumphs here !\""
+    },
+    {
+      "number": 3,
+      "text": "How happy are our ears,\nThat hear this joyful sound,\nWhich kings and prophets waited for,\nAnd sought, but never found !"
+    },
+    {
+      "number": 4,
+      "text": "How blessed are our eyes,\nThat see this heavenly light !\nProphets and kings desired it long,\nBut died without the sight !"
+    },
+    {
+      "number": 5,
+      "text": "The watchmen join their voice,\nAnd tuneful notes employ ;\nJerusalem breaks forth in songs,\nAnd deserts learn the joy."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["salvation", "Zion", "gospel", "joy", "prophecy"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "S. M."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-557",
+  "number": 557,
+  "title": "Evening Blessing",
+  "author": "T. Ken",
+  "composer": "T. Tallis",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Glory to thee, my God, this night, For all the blessings of the light;\nKeep me, O keep me, King of kings, Beneath thy own almighty wings."
+    },
+    {
+      "number": 2,
+      "text": "Forgive me, Lord, for thy dear Son, The ill that I this day have done;\nThat with the world, myself, and thee, I, ere I sleep, at peace may be."
+    },
+    {
+      "number": 3,
+      "text": "Teach me to live, that I may dread The grave as little as my bed;\nTo die, that this vile body may Rise glorious at the judgment day."
+    },
+    {
+      "number": 4,
+      "text": "O may my soul on thee repose, And may sweet sleep mine eyelids close;\nSleep that may me more vigorous make To serve my God when I awake."
+    },
+    {
+      "number": 5,
+      "text": "Praise God, from whom all blessings flow; Praise him, all creatures here below;\nPraise him above, ye heavenly host; Praise Father, Son, and Holy Ghost."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["evening", "blessing", "prayer", "doxology"],
+    "scripture_references": [],
+    "tune_source": "T. Tallis",
+    "original_language": "en"
+  }
+}

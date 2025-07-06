@@ -1,0 +1,31 @@
+{
+  "id": "HT1876-en-051",
+  "number": 51,
+  "title": "Notting Hill",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "OH ! could I find, from day to day,\nA nearness to my God,\nThen would my hours glide sweet away,\nWhile leaning on thy word."
+    },
+    {
+      "number": 2,
+      "text": "Lord, I desire with thee to live\nAnew from day to day,\nIn joys the world can never give,\nNor ever take away."
+    },
+    {
+      "number": 3,
+      "text": "Blest Jesus, come and rule my heart,\nAnd make me wholly thine,\nThat I may never more depart,\nNor grieve thy love divine."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["nearness to God", "daily life", "joy", "Jesus", "divine love"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "C. M.",
+    "tune": "Notting Hill"
+  }
+}

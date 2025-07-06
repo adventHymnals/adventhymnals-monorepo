@@ -1,0 +1,27 @@
+{
+  "id": "HT1876-en-530",
+  "number": 530,
+  "title": "Old Hundred",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "DISMISS us with thy blessing, Lord;\nHelp us to feed upon thy word;\nAll that has been amiss forgive,\nAnd let thy truth within us live."
+    },
+    {
+      "number": 2,
+      "text": "Though we are guilty, thou art good;\nCleanse us from sin through Jesus' blood;\nAnd every fathered soul prepare\nAnd bid us all depart in peace."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["dismissal", "blessing", "forgiveness", "peace", "truth"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "L. M.",
+    "tune": "Old Hundred"
+  }
+}

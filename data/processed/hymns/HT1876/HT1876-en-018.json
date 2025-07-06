@@ -1,0 +1,35 @@
+{
+  "id": "HT1876-en-018",
+  "number": 18,
+  "title": "Harvey's Chant",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "WITH our ears we this night appear,\nAnd bow before the Lord ;\nHis high commands with reverence hear,\nAnd tremble at his word."
+    },
+    {
+      "number": 2,
+      "text": "How terrible thy glories are !\nHow bright thy beauties shine !\nWe are too foul for thee so fair,\nOr truth compared with thine !"
+    },
+    {
+      "number": 3,
+      "text": "Still, all ye ransomed of the Lord,\nYour great Deliverer sing ;\nYea, let his praise fill every word,\nBe joyful in your King."
+    },
+    {
+      "number": 4,
+      "text": "O Jesus, Lord of earth and heaven,\nOur life and joy, to thee\nDo we lift up our souls, by grace given\nThrough all eternity."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["worship", "reverence", "praise", "salvation"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "C. M.",
+    "tune": "Harvey's Chant"
+  }
+}

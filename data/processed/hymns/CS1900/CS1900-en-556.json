@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-556",
+  "number": 556,
+  "title": "Cast Thy Burden on the Lord",
+  "author": "F. J. Van Alstyne",
+  "composer": "H. R. Palmer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Cast thy burden on the Lord, And he shall sustain thee;\nHe will make the promise good, He will sustain thee."
+    },
+    {
+      "number": 2,
+      "text": "Cast thy burden on the Lord, Though thy heart be breaking;\nTrust in him, he will sustain, He will sustain thee."
+    },
+    {
+      "number": 3,
+      "text": "Cast thy burden on the Lord, He will not forsake thee;\nHe will make the promise good, He will sustain thee."
+    },
+    {
+      "number": 4,
+      "text": "Cast thy burden on the Lord, God thy burden shall bear;\nHe will make the promise good, He will sustain thee."
+    }
+  ],
+  "chorus": {
+    "text": "He will sustain thee, He will sustain thee;\nHe never will permit the righteous to be moved."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["burden", "trust", "sustenance", "promise"],
+    "scripture_references": ["Psalm 55:22"],
+    "tune_source": "H. R. Palmer",
+    "original_language": "en"
+  }
+}

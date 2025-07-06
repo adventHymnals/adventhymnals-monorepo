@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-442",
   "number": 442,
-  "title": "Hymn 442 (To be extracted)",
-  "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "title": "Jesus, to Thee I Now Can Fly",
+  "author": "Charles Wesley",
+  "composer": "Lowell Mason",
+  "tune": "Downs",
+  "meter": "C. M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Jesus, to thee I now can fly,\nOn whom my help is laid;\nOppressed by sins, I lift mine eye,\nAnd see the shadows fade."
+    },
+    {
+      "number": 2,
+      "text": "Believing on my Lord, I find\nA sure and present aid;\nOn thee alone my constant mind\nBe every moment stayed."
+    },
+    {
+      "number": 3,
+      "text": "Whate'er in me seems wise, or good,\nOr strong, I here disclaim;\nI wash my garments in the blood\nOf the atoning Lamb."
+    },
+    {
+      "number": 4,
+      "text": "Jesus, my strength, my life, my rest,\nOn thee will I depend,\nTill summoned to the marriage-feast,\nWhen faith in sight shall end."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["faith", "Jesus", "dependence on God", "salvation", "atonement"],
     "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "tune_source": "Downs, Lowell Mason",
+    "original_language": "en"
   }
 }

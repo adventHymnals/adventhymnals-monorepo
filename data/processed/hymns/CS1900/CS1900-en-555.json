@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-555",
+  "number": 555,
+  "title": "Be on Thy Guard",
+  "author": "G. J. Webb",
+  "composer": "G. J. Webb",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Be on thy guard, be watchful still, Be on thy guard, be watchful still;\nAnd be on thy guard, though thousand foes Assail thee on thy way, be on thy guard."
+    },
+    {
+      "number": 2,
+      "text": "Be on thy guard, be watchful still, Be on thy guard, be watchful still;\nThough none can harm thee, yet beware, Be on thy guard, though none can harm thee."
+    },
+    {
+      "number": 3,
+      "text": "Be on thy guard, be watchful still, Be on thy guard, be watchful still;\nThy vigilance can never cease, Be on thy guard, thy vigilance can never cease."
+    },
+    {
+      "number": 4,
+      "text": "Be on thy guard, be watchful still, Be on thy guard, be watchful still;\nThy armor never lay aside, Be on thy guard, thy armor never lay aside."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["vigilance", "warfare", "watchfulness", "spiritual discipline"],
+    "scripture_references": [],
+    "tune_source": "G. J. Webb",
+    "original_language": "en"
+  }
+}

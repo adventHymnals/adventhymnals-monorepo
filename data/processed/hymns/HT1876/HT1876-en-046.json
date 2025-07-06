@@ -1,0 +1,34 @@
+{
+  "id": "HT1876-en-046",
+  "number": 46,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "PRAISE the Lord ! ye heavens adore him ;\nPraise him, angels in the height ;\nSun and moon rejoice before him ;\nPraise him, all ye stars of light !"
+    },
+    {
+      "number": 2,
+      "text": "Praise the Lord ! for he hath spoken ;\nWorlds his mighty voice obeyed ;\nLaws which never shall be broken\nFor their guidance he hath made."
+    },
+    {
+      "number": 3,
+      "text": "Praise the Lord, for he is glorious ;\nNever shall his promise fail ;\nGod hath made his saints victorious ;\nSin and death shall not prevail."
+    },
+    {
+      "number": 4,
+      "text": "Praise the God of our salvation ;\nHosts on high his power proclaim ;\nHeaven and earth, and all creation,\nLaud and magnify his name."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["praise", "creation", "glory", "salvation", "victory"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "8s & 7s"
+  }
+}

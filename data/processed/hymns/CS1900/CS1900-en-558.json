@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-558",
+  "number": 558,
+  "title": "He Will Not Let Thy Foot Be Moved",
+  "author": "I. Watts",
+  "composer": "Arr. from Mornington",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "He will not let thy foot be moved, Thy guardian never sleeps;\nHis eye, which never slumbers, proved A watch o'er Israel keeps."
+    },
+    {
+      "number": 2,
+      "text": "No burning heats by day, nor blasts Of evening air shall harm;\nHe guards thy life, he guards thy rest, Return, O Lord, with thy salvation."
+    },
+    {
+      "number": 3,
+      "text": "Thy God shall bless thy going out, Thy coming in shall bless;\nFrom this time forth, and evermore, Thy God shall give thee rest."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["protection", "guardian", "trust", "psalm"],
+    "scripture_references": ["Psalm 121"],
+    "tune_source": "Arr. from Mornington",
+    "original_language": "en"
+  }
+}

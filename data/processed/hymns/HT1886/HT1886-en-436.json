@@ -1,25 +1,40 @@
 {
   "id": "HT1886-en-436",
   "number": 436,
-  "title": "Hymn 436 (To be extracted)",
-  "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "title": "Guide Me, O Thou Great Jehovah",
+  "author": "Rev. Wm. Williams",
+  "composer": "T. C. O'Kane",
+  "tune": "Cwm Rhondda",
+  "meter": "8.7.8.7.8.7.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Guide me, O thou great Jehovah! Pilgrim thro' this barren land;
+O ye pen new by thy fountain Whence the healing wa-ters flow;
+When I tread the verge of Jordan, Bid my anx-ious fears sub-side;"
+    },
+    {
+      "number": 2,
+      "text": "I am weak, but thou art mighty, Hold me with thy pow'r-ful hand.
+Lead me to thy cloudy pil-lar, Lead me all my jour-ney through.
+Bear me thro' the swelling cur-rent, Land me safe on Ca-naan's side."
     }
   ],
+  "chorus": {
+    "text": "Bread of heav-en, bread of heav-en, Feed me till I want no more,
+Strong De-liv-'rer, strong De-liv-'rer, Be thou still my strength and shield,
+Songs of prais-es, songs of prais-es, I will ev-er give to thee,
+Feed me till I want no more, want no more; Feed me till I want no more.
+Be thou still my strength and shield,strength and shield; Be thou still my strength and shield.
+I will ev-er give to thee, give to thee; I will ev-er give to thee."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["guidance", "pilgrimage", "strength", "provision", "journey"],
     "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "tune_source": "T. C. O'Kane",
+    "original_language": "en"
   }
 }

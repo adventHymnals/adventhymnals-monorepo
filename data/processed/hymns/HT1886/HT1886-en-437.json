@@ -1,25 +1,35 @@
 {
   "id": "HT1886-en-437",
   "number": 437,
-  "title": "Hymn 437 (To be extracted)",
-  "author": null,
-  "composer": null,
+  "title": "Pillar of Fire",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
   "tune": null,
   "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "The angel of the Lord encampeth Round about us, round about us;
+When dangers hover o'er our pathway, He will hide us, he will hide us,
+We'll trust Jesus on our journey, God of Israel, God of Israel,"
     }
   ],
+  "chorus": {
+    "text": "Round about the souls that fear him, Night and day. O pillar of
+Round with in the mighty shadow Of his wing.
+Till we reach the land of promise Just before. O fiery, cloudy
+fire, pillar of cloud, Lead me, lead me every day! O
+pillar, fiery, cloudy pillar,
+pillar of fire, pillar of cloud, Lead me on my heavenly way!
+fiery, cloudy pillar, O cloudy pillar,"
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["guidance", "protection", "God's presence", "pillar of fire", "journey"],
+    "scripture_references": ["Psalm 34:7"],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
   }
 }

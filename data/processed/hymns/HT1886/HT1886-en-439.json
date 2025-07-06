@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-439",
   "number": 439,
-  "title": "Hymn 439 (To be extracted)",
-  "author": null,
+  "title": "Salvation",
+  "author": "Isaac Watts",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Salvation!—O, the joyful sound!\nThat charms our ears;\nA sovereign balm for every wound,\nA cordial for our fears."
+    },
+    {
+      "number": 2,
+      "text": "Buried in sorrow and in sin,\nAt hell's dark door we lay;\nBut we arise by grace divine,\nTo see a heavenly day."
+    },
+    {
+      "number": 3,
+      "text": "Salvation!—let the echo fly\nThe spacious earth around,\nWhile all the armies of the sky\nConspire to raise the sound."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["salvation", "grace", "joy", "heaven"],
     "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "tune_source": "305, 366, 635",
+    "original_language": "en"
   }
 }

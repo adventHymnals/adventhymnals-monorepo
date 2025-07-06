@@ -14,7 +14,7 @@ import {
 
 import Layout from '@/components/layout/Layout';
 import Breadcrumbs, { generateHymnalBreadcrumbs } from '@/components/ui/Breadcrumbs';
-import { loadHymnalReferences, loadHymn, getRelatedHymns } from '@/lib/data';
+import { loadHymnalReferences, loadHymn, loadHymnalHymns, getRelatedHymns } from '@/lib/data';
 import { generateHymnMetadata, generateHymnStructuredData } from '@/lib/seo';
 
 interface HymnPageProps {
@@ -28,6 +28,52 @@ interface HymnPageProps {
 function extractHymnNumber(slug: string): number | null {
   const match = slug.match(/^hymn-(\d+)-/);
   return match ? parseInt(match[1], 10) : null;
+}
+
+// Generate slug from hymn title
+function generateHymnSlug(number: number, title: string): string {
+  const cleanTitle = title
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .trim();
+  return `hymn-${number}-${cleanTitle}`;
+}
+
+// Generate static params for all hymns
+export async function generateStaticParams(): Promise<Array<{ hymnal: string; slug: string }>> {
+  try {
+    // Only include hymnals that have actual collection files
+    const availableHymnals = ['CH1941', 'HGPP', 'HT1886', 'MH1843', 'SDAH'];
+    const hymnalReferences = await loadHymnalReferences();
+    const params: Array<{ hymnal: string; slug: string }> = [];
+
+    for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+      if (!hymnalRef.url_slug || !availableHymnals.includes(hymnalRef.id)) continue;
+      
+      try {
+        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000); // Load up to 1000 hymns
+        
+        for (const hymn of hymns) {
+          const slug = generateHymnSlug(hymn.number, hymn.title);
+          params.push({
+            hymnal: hymnalRef.url_slug,
+            slug: slug
+          });
+        }
+      } catch (error) {
+        console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
+        continue;
+      }
+    }
+
+    console.log(`Generated ${params.length} static params for hymn pages`);
+    return params;
+  } catch (error) {
+    console.error('Failed to generate static params:', error);
+    return [];
+  }
 }
 
 export async function generateMetadata({ params }: HymnPageProps): Promise<Metadata> {

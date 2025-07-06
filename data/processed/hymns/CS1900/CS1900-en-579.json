@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-579",
+  "number": 579,
+  "title": "WE KNOW NOT THE HOUR",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"But of that day and hour knoweth no man, no, not the angels of heaven, but my Father only.\" - Matt. 24:36.\nWe know not the hour when the Lord shall ap-pear, Yet oft-en the mo-ment seems draw-ing near;\nThey're look-ing for one who afar seek-ing all of us here, There's faith in the Book of Di-vine lov-ing grace;\nWe walk and we toil in the way he has trod, But we know not the hour when we'll walk with our God."
+    },
+    {
+      "number": 2,
+      "text": "They say he shall re-turn—tis a prom-ise most clear they give,\nBut here they've been told, Yet still wait and still hope, ev-er-y day we will come near."
+    }
+  ],
+  "chorus": {
+    "text": "CHORUS:\nWe know not the hour, Let us watch and be ready; He will come, let us be pre-pared; He will come,\nIn an hour when we think not, that is what the Sav-iour said, we know not the hour; he will come."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1900, by F. E. Belden",
+    "themes": ["second coming", "watching", "readiness", "hour unknown", "preparation"],
+    "scripture_references": ["Matt. 24:36"],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

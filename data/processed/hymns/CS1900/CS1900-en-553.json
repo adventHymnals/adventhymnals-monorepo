@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-553",
+  "number": 553,
+  "title": "A Soldier of the Cross",
+  "author": "I. Watts",
+  "composer": "T. A. Arne",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Am I a soldier of the cross, A follower of the Lamb?\nAnd shall I fear to own his cause, Or blush to speak his name?"
+    },
+    {
+      "number": 2,
+      "text": "Must I be carried to the skies On flowery beds of ease,\nWhile others fought to win the prize, And sailed through bloody seas?"
+    },
+    {
+      "number": 3,
+      "text": "Are there no foes for me to face? Must I not stem the flood?\nIs this vile world a friend to grace, To help me on to God?"
+    },
+    {
+      "number": 4,
+      "text": "Sure I must fight, if I would reign; Increase my courage, Lord;\nI'll bear the toil, endure the pain, Supported by thy word."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["warfare", "discipleship", "courage", "cross"],
+    "scripture_references": [],
+    "tune_source": "T. A. Arne",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "HT1876-en-035",
+  "number": 35,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "COME, all ye saints of God,\nWide through the earth abroad\nSpread Jesus' fame.\nTo Christ, our living Lord,\nTrust in his name alone ;\nHe is the lofty One,—\nWorthy the Lamb !"
+    },
+    {
+      "number": 2,
+      "text": "Come, gloom from off your brows !\nDry up your mournful tears !\nSwell the glad theme !\nTo Christ, our gracious King,\nStrike each melodious string ;\nWith heart and voice to sing,\nWorthy the Lamb !"
+    },
+    {
+      "number": 3,
+      "text": "Hark ! how the choirs above,\nFilled with the Saviour's love,\nResound his name !\nThere, too, may we be found,\nWith light and glory crowned,\nWhile all the heavens resound,\nWorthy the Lamb !"
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["Jesus", "fame", "worship", "Lamb", "glory"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "6s & 4s"
+  }
+}

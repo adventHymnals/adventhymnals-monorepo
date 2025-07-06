@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-565",
+  "number": 565,
+  "title": "IS MY NAME WRITTEN THERE?",
+  "author": "M. A. Kidder",
+  "composer": "Frank M. Davis",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, I care not for riches, Neither silver nor gold,\nI would make sure of heaven, I would enter the fold.\nIn the book of thy kingdom, With its pages so fair,\nTell me, Jesus, my Saviour, Is my name written there?"
+    },
+    {
+      "number": 2,
+      "text": "Lord, my sins they are many, Like the sands of the sea,\nBut thy blood, O my Saviour, Is sufficient for me;\nFor thy promise is written, In bright letters that glow,\n'Though your sins be as scarlet, I will make them like snow.'"
+    },
+    {
+      "number": 3,
+      "text": "O that beautiful city, With its mansions of light,\nWith its glorified beings, In pure garments of white;\nWhere no evil thing cometh To despoil what is fair;\nWhere the angels are waiting, Is my name written there?"
+    }
+  ],
+  "chorus": {
+    "text": "Is my name written there,\nOn the page white and fair?\nIn the book of thy kingdom,\nIs my name written there?"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["salvation", "heaven", "book of life", "redemption"],
+    "scripture_references": [],
+    "tune_source": "Frank M. Davis",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-457",
+  "number": 457,
+  "title": "A Child of the King",
+  "author": "Hattie E. Buell",
+  "composer": "Rev. John B. Sumner",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My Fa-ther is rich in hous-es and lands, He hold-eth the wealth of the world in his hands!\nMy Fa-ther's own Son, the Sav-ior of men, Once wan-dered on earth as the poor-est of them;\nI once was an out-cast, a strang-er on earth, A sin-ner by choice, and an al-ien by birth!\nA tent or a cot-tage, why should I care? They're build-ing a pal-ace for me o-ver there!"
+    },
+    {
+      "number": 2,
+      "text": "Of rich-es and dia-monds, of sil-ver and gold, His cof-fers are full— He has rich-es un-told.\nHis robe is no peas-ant's cot-ton so blue, And will give me a crown; He has rich-es and hon-or,\nBut I've been a-dopt-ed, my name's writ-ten down, An heir to a man-sion, a robe, and a crown;\nTho' ex-iled from home, yet still I may sing: \"All glo-ry to God, I'm a child of the King!\""
+    }
+  ],
+  "chorus": {
+    "text": "I'm a child of the King, a child of the King! With Je-sus my Sav-ior, I'm a child of the King!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["adoption", "inheritance", "children of God", "identity"],
+    "scripture_references": ["Romans 8:17", "Galatians 4:7", "1 John 3:1"],
+    "tune_source": "Rev. John B. Sumner",
+    "original_language": "en"
+  }
+}

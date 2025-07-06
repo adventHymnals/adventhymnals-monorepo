@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-689",
+  "number": 689,
+  "title": "We Shall Meet By and By",
+  "author": "J. Sweney",
+  "composer": "Hubert P. Main",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We shall meet beyond the river, By and by, by and by;\nWe shall meet beyond the river, By and by, by and by;\nWe shall meet beyond the river, By and by, by and by;\nThere our hearts shall rest forever, By and by."
+    },
+    {
+      "number": 2,
+      "text": "We shall meet beyond the river, By and by, by and by;\nWe shall meet beyond the river, By and by, by and by;\nWe shall meet beyond the river, By and by, by and by;\nWith our loved ones gone before us, By and by."
+    },
+    {
+      "number": 3,
+      "text": "We shall meet beyond the river, By and by, by and by;\nWe shall meet beyond the river, By and by, by and by;\nWe shall meet beyond the river, By and by, by and by;\nAnd the storms of life are over, By and by."
+    },
+    {
+      "number": 4,
+      "text": "We shall meet beyond the river, By and by, by and by;\nWe shall meet beyond the river, By and by, by and by;\nWe shall meet beyond the river, By and by, by and by;\nWhere the light of love is streaming, By and by."
+    }
+  ],
+  "chorus": {
+    "text": "By and by, by and by, We shall meet on that beautiful shore;\nBy and by, by and by, We shall meet on that beautiful shore."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["heaven", "reunion", "eternal life", "hope"],
+    "scripture_references": [],
+    "tune_source": "Hubert P. Main",
+    "original_language": "en"
+  }
+}

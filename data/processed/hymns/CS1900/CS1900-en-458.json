@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-458",
+  "number": 458,
+  "title": "Pray for the Erring",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Pray for the er-ring, and lead them in prayer; Doubt not the pow-er of God to re-store;\nPray for them ten-der-ly, point them to Je-sus; They just ly are row-ing, do not de-spair;\nLet God-ly love win them, lift them up to Je-sus; The lost ones are wait-ing, be-side the door;\nWalk with His Per-fect One, close by His side;"
+    },
+    {
+      "number": 2,
+      "text": "Kneel in the dark and hour, firmly be-liev-ing, On Christ the vic-to-ry led aid all your care;\nThous-ands now pray by His love of a Sav-ior; Shine forth the won-der-ous love of His pow-er;\nSo shall the er-ring-es know that you love them, So shall the night sur-of prayer."
+    }
+  ],
+  "chorus": {
+    "text": "Pray for, pray for, la-er-ring! Pray for, faith, la-sus will hear, Pray for, pray for, la-er-ring! Hope bright la-will you-sun."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1897, by F. E. Belden.",
+    "themes": ["prayer", "intercession", "restoration", "erring souls"],
+    "scripture_references": ["James 5:16", "Galatians 6:1"],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

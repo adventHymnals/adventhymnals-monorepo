@@ -1,25 +1,31 @@
 {
   "id": "HT1886-en-435",
   "number": 435,
-  "title": "Hymn 435 (To be extracted)",
-  "author": null,
-  "composer": null,
+  "title": "There's Life in a Look",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
   "tune": null,
   "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "There's life in a look at the sacred cross, Jesus has said, \"Look unto me;\"\nI'll look to the cross ev'ry day and hour, Trusting the promise God has given;\nO When first to the Saviour I raised my eyes, Sweet was the smile that fell on me."
+    },
+    {
+      "number": 2,
+      "text": "Earth with its riches is poor to the cross, Brightness beyond through the open veil,\nNone ever shall reach the tempter's pow'r! Blue was on a pearl, all else seemed a hazem,\nOf as the clouds of temp'ration rise, A look at the cross still my pardon tell."
     }
   ],
+  "chorus": {
+    "text": "In a look... there's life for thee, In a look at Calvary;\nIn a look there's life for thee, In a look at Calvary;\nBlessed thought, salvation free, By a look... at Calvary (at Calvary).\nBlessed thought, salvation free, By a look"
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["salvation", "cross", "Jesus", "faith", "Calvary"],
+    "scripture_references": ["Isaiah 45:22"],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
   }
 }

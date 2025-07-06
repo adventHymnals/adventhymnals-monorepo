@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-441",
   "number": 441,
-  "title": "Hymn 441 (To be extracted)",
-  "author": null,
+  "title": "Amazing Grace",
+  "author": "John Newton",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,27 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Amazing grace! how sweet the sound\nThat saved a wretch like me!\nI once was lost, but now am found;\nWas blind, but now I see."
+    },
+    {
+      "number": 2,
+      "text": "'Twas grace that taught my heart to fear,\nAnd grace my fears relieved;\nHow precious did that grace appear\nThe hour I first believed!"
+    },
+    {
+      "number": 3,
+      "text": "Through many dangers, toils, and snares,\nI have already come;\n'Tis grace hath brought me safe thus far,\nAnd grace will lead me home."
+    },
+    {
+      "number": 4,
+      "text": "The earth shall soon dissolve like snow,\nThe sun forbear to shine;\nBut God, who called me here below,\nWill be forever mine."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["grace", "salvation", "faith", "conversion", "God's faithfulness"],
+    "scripture_references": ["1 Chronicles 17:16-17", "Ephesians 2:8"],
+    "tune_source": "354, 449, 147",
+    "original_language": "en"
   }
 }

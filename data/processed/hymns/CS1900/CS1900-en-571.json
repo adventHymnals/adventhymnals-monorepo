@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-571",
+  "number": 571,
+  "title": "ONE SWEETLY SOLEMN THOUGHT",
+  "author": "Phoebe Cary",
+  "composer": "Philip Phillips",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Now when Jesus was come into the parts of Caesarea Philippi, he asked his disciples, saying, Who do men say that I the Son of man am?\" - Matt. 16:13.\nOne sweetly solemn thought Comes to me o'er and o'er; I am nearer to my home to-day, Than I've been be-fore;\nNearer my Father's house, Where many mansions be; Nearer the throne where Jesus sits, Nearer the crys-tal sea."
+    },
+    {
+      "number": 2,
+      "text": "Nearer my cross, where Jesus died, Nearer to Calvary's hill;\nThere Jesus bled and died for me, Still nearer to his will."
+    }
+  ],
+  "chorus": {
+    "text": "Near-er my home, Near-er my home, Near-er my home am I,\nUsed by per-mission of Messrs. Firth & Pond for vocal purposes of worshipping."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["nearness to home", "heaven", "mansions", "Jesus", "cross"],
+    "scripture_references": ["Matt. 16:13"],
+    "tune_source": "Philip Phillips",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-545",
+  "number": 545,
+  "title": "Pilgrims, On!",
+  "author": "F. E. Belden",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Pilgrims and strangers here below, walk pressing on, and forward bound,\nPilgrims and strangers here below, press on to your eternal home;\nA resting place for weary souls, a home where partings are no more,\nCitizens of the world above, lift up your heads, your joys explore."
+    },
+    {
+      "number": 2,
+      "text": "Gird up your loins, and onward press; the prize before you gleaming bright,\nGird up your loins, and onward press; soon it will dawn, Sweet Gospel light;\nLet not your faith and courage fail, Soon the redeemed shall triumph stand,\nLet not your faith and courage fail, Soon you shall reach the promised land."
+    },
+    {
+      "number": 3,
+      "text": "Pilgrims and strangers here below, to God's true worship be, of right,\nPilgrims and strangers here below, what if you sin, in faith to live.\nWild the tempests about you be, still by faith hold fast to God,\nWild the tempests about you be, still in the land of promise trod."
+    },
+    {
+      "number": 4,
+      "text": "Pilgrims and strangers here below, heed not the world's alluring voice,\nPilgrims and strangers here below, make heaven your eternal choice;\nWatch and be ready, faithful ones, With watchfulness the Holy Spirit,\nWatch and be ready, faithful ones, Who worketh all for the glory."
+    }
+  ],
+  "chorus": {
+    "text": "Pilgrims, on! pilgrims, on!\nbe of good courage, press along,\nPilgrims, on! pilgrims, on!\nSoon you shall join the victor's song."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["pilgrimage", "perseverance", "heaven", "journey"],
+    "scripture_references": [],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

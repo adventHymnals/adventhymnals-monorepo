@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-455",
+  "number": 455,
+  "title": "I'll Be a Sunbeam",
+  "author": "J. E. Hall",
+  "composer": "E. O. Excell",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "If I live up-on the high-way, This is what I'll do, I'll aid the wear-y trav-'lers, Who for-get through;\nBut if I dwell in the cit-y, Where the splen-dor's bright, I'll be a sun-beam al-ways, Shin-ing day and night;\nIf we are like Je-sus—Son of Right-eous-ness—Who set the bright ex-am-ple, Love-ly live to bless."
+    },
+    {
+      "number": 2,
+      "text": "I ought to live this, no long-er, Teach-ing by ex-am-ple, Tell each thir-sty heart That Christ is fair and sweet;\nTill the sweet-est pleas-ure Of His love to tell, Shin-ing on His glad-ness, Where the sad ones dwell."
+    }
+  ],
+  "chorus": {
+    "text": "Beau-ti-ful Sun-beam! God sent you here, I'll be a sun-beam, *Love-ly heart to cheer."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["witness", "light", "service", "Christian living"],
+    "scripture_references": ["Matthew 5:16", "John 8:12"],
+    "tune_source": "E. O. Excell",
+    "original_language": "en"
+  }
+}
