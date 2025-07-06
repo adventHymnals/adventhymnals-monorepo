@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import { MagnifyingGlassIcon, FunnelIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import Breadcrumbs, { generateSearchBreadcrumbs } from '@/components/ui/Breadcrumbs';
@@ -72,16 +73,18 @@ export default async function SearchPage() {
                   <option value="dholuo">Dholuo</option>
                 </select>
 
-                <select className="rounded-md border-gray-300 text-sm">
-                  <option value="">All Themes</option>
-                  <option value="worship">Worship</option>
-                  <option value="praise">Praise</option>
-                  <option value="christmas">Christmas</option>
-                  <option value="easter">Easter</option>
-                  <option value="communion">Communion</option>
-                  <option value="baptism">Baptism</option>
-                  <option value="second-coming">Second Coming</option>
-                </select>
+                <div className="flex items-center gap-2">
+                  <select className="rounded-md border-gray-300 text-sm">
+                    <option value="">All Themes</option>
+                    <option value="worship">Loading themes...</option>
+                  </select>
+                  <Link
+                    href="/search/topics"
+                    className="text-sm text-primary-600 hover:text-primary-700 font-medium whitespace-nowrap"
+                  >
+                    Browse Topics →
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -104,6 +107,55 @@ export default async function SearchPage() {
                     <li>• &quot;praise&quot; - Find by theme</li>
                   </ul>
                 </div>
+              </div>
+            </div>
+
+            {/* Browse Categories */}
+            <div className="mb-8">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Browse by Category</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <Link
+                  href="/search/topics"
+                  className="p-4 bg-white rounded-lg shadow-sm border border-gray-200 hover:border-primary-300 hover:shadow-md transition-all"
+                >
+                  <h4 className="font-medium text-gray-900 mb-2">Topics & Themes</h4>
+                  <p className="text-sm text-gray-600">Browse hymns by spiritual themes and topics</p>
+                </Link>
+                <Link
+                  href="/authors"
+                  className="p-4 bg-white rounded-lg shadow-sm border border-gray-200 hover:border-primary-300 hover:shadow-md transition-all"
+                >
+                  <h4 className="font-medium text-gray-900 mb-2">Authors</h4>
+                  <p className="text-sm text-gray-600">Find hymns by their writers and poets</p>
+                </Link>
+                <Link
+                  href="/composers"
+                  className="p-4 bg-white rounded-lg shadow-sm border border-gray-200 hover:border-primary-300 hover:shadow-md transition-all"
+                >
+                  <h4 className="font-medium text-gray-900 mb-2">Composers</h4>
+                  <p className="text-sm text-gray-600">Discover hymns by musical composers</p>
+                </Link>
+                <Link
+                  href="/tunes"
+                  className="p-4 bg-white rounded-lg shadow-sm border border-gray-200 hover:border-primary-300 hover:shadow-md transition-all"
+                >
+                  <h4 className="font-medium text-gray-900 mb-2">Tunes</h4>
+                  <p className="text-sm text-gray-600">Browse by hymn tune names</p>
+                </Link>
+                <Link
+                  href="/meters"
+                  className="p-4 bg-white rounded-lg shadow-sm border border-gray-200 hover:border-primary-300 hover:shadow-md transition-all"
+                >
+                  <h4 className="font-medium text-gray-900 mb-2">Meters</h4>
+                  <p className="text-sm text-gray-600">Explore metrical patterns and rhythms</p>
+                </Link>
+                <Link
+                  href="/hymnals"
+                  className="p-4 bg-white rounded-lg shadow-sm border border-gray-200 hover:border-primary-300 hover:shadow-md transition-all"
+                >
+                  <h4 className="font-medium text-gray-900 mb-2">Hymnals</h4>
+                  <p className="text-sm text-gray-600">Browse complete hymnal collections</p>
+                </Link>
               </div>
             </div>
 
