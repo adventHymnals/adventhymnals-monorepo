@@ -42,7 +42,7 @@ const defaultSettings: ProjectionSettings = {
 export default function ProjectionPage({ params }: ProjectionPageProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const [hymn, setHymn] = useState<any>(null);
+  const [hymn, setHymn] = useState<unknown>(null);
   const [slides, setSlides] = useState<ProjectionSlide[]>([]);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [settings, setSettings] = useState<ProjectionSettings>(defaultSettings);
@@ -66,7 +66,7 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
         console.warn('Could not enter fullscreen:', error);
         // Try alternative method for older browsers
         try {
-          const elem = document.documentElement as any;
+          const elem = document.documentElement as unknown;
           if (elem.webkitRequestFullscreen) {
             await elem.webkitRequestFullscreen();
             setIsFullscreen(true);
@@ -166,13 +166,11 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
         nextSlide();
       }, settings.autoAdvanceDelay * 1000);
       
-      setAutoAdvanceTimer(timer);
-      
       return () => {
         if (timer) clearTimeout(timer);
       };
     }
-  }, [currentSlide, settings.autoAdvance, settings.autoAdvanceDelay]);
+  }, [currentSlide, settings.autoAdvance, settings.autoAdvanceDelay, nextSlide]);
 
   // Navigation functions
   const nextSlide = useCallback(() => {
@@ -215,10 +213,11 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
   }, [router, settings]);
 
   // Filter hymns for search
-  const filteredHymns = allHymns.filter(h => 
-    h.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    h.id.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredHymns = allHymns.filter((h: unknown) => {
+    const hymn = h as { title: string; id: string };
+    return hymn.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      hymn.id.toLowerCase().includes(searchTerm.toLowerCase());
+  });
 
   // Keyboard shortcuts
   useEffect(() => {

@@ -17,7 +17,7 @@ interface NotationSelectorProps {
   className?: string;
 }
 
-const formatIcons: Record<NotationFormat, React.ComponentType<any>> = {
+const formatIcons: Record<NotationFormat, React.ComponentType<{ className?: string }>> = {
   lyrics: DocumentTextIcon,
   solfa: MusicalNoteIcon,
   staff: Bars3Icon,

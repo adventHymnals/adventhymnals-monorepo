@@ -15,7 +15,7 @@ function normalizeSearchText(text: string): string {
 }
 
 interface HymnalSearchClientProps {
-  hymns: any[];
+  hymns: unknown[];
   hymnalSlug: string;
   hymnalName: string;
   total: number;
@@ -38,13 +38,14 @@ export default function HymnalSearchClient({
     
     const normalizedSearchTerm = normalizeSearchText(searchTerm);
     
-    const filtered = hymns.filter((hymn: any) => {
+    const filtered = hymns.filter((hymn: unknown) => {
+      const h = hymn as { title?: string; author?: string; number?: number; composer?: string; verses?: { text?: string }[] };
       // Normalize all searchable text
-      const normalizedTitle = normalizeSearchText(hymn.title || '');
-      const normalizedAuthor = normalizeSearchText(hymn.author || '');
-      const normalizedComposer = normalizeSearchText(hymn.composer || '');
-      const normalizedFirstVerse = normalizeSearchText(hymn.verses?.[0]?.text || '');
-      const hymnNumber = hymn.number.toString();
+      const normalizedTitle = normalizeSearchText(h.title || '');
+      const normalizedAuthor = normalizeSearchText(h.author || '');
+      const normalizedComposer = normalizeSearchText(h.composer || '');
+      const normalizedFirstVerse = normalizeSearchText(h.verses?.[0]?.text || '');
+      const hymnNumber = h.number?.toString() || '';
       
       // Check if search term matches any field
       return normalizedTitle.includes(normalizedSearchTerm) ||

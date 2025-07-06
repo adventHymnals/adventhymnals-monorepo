@@ -19,7 +19,7 @@ export async function GET() {
             
             // Find existing tune with same normalized form or create new entry
             let existingTune = null;
-            for (const [existingKey] of tuneMap.entries()) {
+            for (const [existingKey] of Array.from(tuneMap.entries())) {
               const existingNormalized = existingKey.replace(/[.,\s\-']+/g, '').toUpperCase();
               if (existingNormalized === normalizedTune) {
                 existingTune = existingKey;

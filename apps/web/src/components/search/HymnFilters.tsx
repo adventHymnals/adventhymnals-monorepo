@@ -1,6 +1,7 @@
 'use client';
 
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { HymnalCollection } from '@advent-hymnals/shared';
 
 interface HymnFiltersProps {
   searchTerm: string;
@@ -9,7 +10,7 @@ interface HymnFiltersProps {
   onHymnalChange: (value: string) => void;
   sortBy: 'title' | 'number';
   onSortChange: (value: 'title' | 'number') => void;
-  hymnalReferences?: any;
+  hymnalReferences?: HymnalCollection;
 }
 
 export default function HymnFilters({
@@ -43,7 +44,7 @@ export default function HymnFilters({
           className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent text-sm"
         >
           <option value="">All Hymnals</option>
-          {hymnalReferences && Object.values(hymnalReferences.hymnals).map((hymnal: any) => (
+          {hymnalReferences && Object.values(hymnalReferences.hymnals).map((hymnal) => (
             <option key={hymnal.id} value={hymnal.id}>
               {hymnal.abbreviation}
             </option>

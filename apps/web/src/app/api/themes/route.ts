@@ -20,7 +20,7 @@ export async function GET() {
               
               // Find existing theme with same normalized form or create new entry
               let existingTheme = null;
-              for (const [existingKey] of themeMap.entries()) {
+              for (const [existingKey] of Array.from(themeMap.entries())) {
                 const existingNormalized = existingKey.replace(/[.,\s\-'&]+/g, '').toUpperCase();
                 if (existingNormalized === normalizedTheme) {
                   existingTheme = existingKey;

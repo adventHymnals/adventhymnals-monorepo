@@ -19,7 +19,7 @@ export async function GET() {
             
             // Find existing composer with same normalized form or create new entry
             let existingComposer = null;
-            for (const [existingKey] of composerMap.entries()) {
+            for (const [existingKey] of Array.from(composerMap.entries())) {
               const existingNormalized = existingKey.replace(/[.,\s\-']+/g, '').toUpperCase();
               if (existingNormalized === normalizedComposer) {
                 existingComposer = existingKey;

@@ -45,7 +45,7 @@ function LyricsDisplay({ hymn, className }: { hymn: Hymn; className?: string }) 
   );
 }
 
-function SolfaDisplay({ hymn, notation, className }: { hymn: Hymn; notation?: HymnNotation; className?: string }) {
+function SolfaDisplay({ notation, className }: { hymn: Hymn; notation?: HymnNotation; className?: string }) {
   if (!notation) {
     return (
       <div className={classNames('text-center py-12', className)}>
@@ -54,7 +54,7 @@ function SolfaDisplay({ hymn, notation, className }: { hymn: Hymn; notation?: Hy
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
           </svg>
           <p className="text-lg font-medium">Sol-fa notation not available</p>
-          <p className="text-sm mt-2">This hymn doesn't have sol-fa notation in our database yet.</p>
+          <p className="text-sm mt-2">This hymn doesn&apos;t have sol-fa notation in our database yet.</p>
         </div>
       </div>
     );
@@ -80,14 +80,14 @@ function SolfaDisplay({ hymn, notation, className }: { hymn: Hymn; notation?: Hy
           <div><strong>sol</strong> - 5th degree</div>
           <div><strong>la</strong> - 6th degree</div>
           <div><strong>ti</strong> - 7th degree</div>
-          <div><strong>do'</strong> - 8th degree (octave)</div>
+          <div><strong>do&apos;</strong> - 8th degree (octave)</div>
         </div>
       </div>
     </div>
   );
 }
 
-function StaffDisplay({ hymn, notation, className }: { hymn: Hymn; notation?: HymnNotation; className?: string }) {
+function StaffDisplay({ notation, className }: { hymn: Hymn; notation?: HymnNotation; className?: string }) {
   if (!notation) {
     return (
       <div className={classNames('text-center py-12', className)}>
@@ -120,7 +120,7 @@ function StaffDisplay({ hymn, notation, className }: { hymn: Hymn; notation?: Hy
   );
 }
 
-function ChordDisplay({ hymn, notation, className }: { hymn: Hymn; notation?: HymnNotation; className?: string }) {
+function ChordDisplay({ notation, className }: { hymn: Hymn; notation?: HymnNotation; className?: string }) {
   if (!notation) {
     return (
       <div className={classNames('text-center py-12', className)}>
@@ -154,11 +154,11 @@ export default function NotationDisplay({ hymn, format, className }: NotationDis
     case 'lyrics':
       return <LyricsDisplay hymn={hymn} className={className} />;
     case 'solfa':
-      return <SolfaDisplay hymn={hymn} notation={notation} className={className} />;
+      return <SolfaDisplay notation={notation} className={className} />;
     case 'staff':
-      return <StaffDisplay hymn={hymn} notation={notation} className={className} />;
+      return <StaffDisplay notation={notation} className={className} />;
     case 'chord':
-      return <ChordDisplay hymn={hymn} notation={notation} className={className} />;
+      return <ChordDisplay notation={notation} className={className} />;
     default:
       return <LyricsDisplay hymn={hymn} className={className} />;
   }

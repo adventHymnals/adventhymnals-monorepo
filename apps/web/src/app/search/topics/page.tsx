@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import Link from 'next/link';
 import { TagIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import { loadHymnalReferences } from '@/lib/data';
@@ -29,7 +28,7 @@ export default function TopicsSearchPage() {
   const [filteredThemes, setFilteredThemes] = useState<ThemeData[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(true);
-  const [hymnalReferences, setHymnalReferences] = useState<any>(null);
+  const [hymnalReferences, setHymnalReferences] = useState<unknown>(null);
   const [selectedThemes, setSelectedThemes] = useState<string[]>([]);
   
   const router = useRouter();
@@ -201,7 +200,7 @@ export default function TopicsSearchPage() {
               {searchTerm ? `Found ${filteredThemes.length} topics` : `${themes.length} Available Topics`}
             </h2>
             {searchTerm && (
-              <p className="mt-2 text-gray-600">Results for "{searchTerm}"</p>
+              <p className="mt-2 text-gray-600">Results for &quot;{searchTerm}&quot;</p>
             )}
           </div>
 

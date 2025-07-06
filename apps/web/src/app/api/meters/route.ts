@@ -19,7 +19,7 @@ export async function GET() {
             
             // Find existing meter with same normalized form or create new entry
             let existingMeter = null;
-            for (const [existingKey] of meterMap.entries()) {
+            for (const [existingKey] of Array.from(meterMap.entries())) {
               const existingNormalized = existingKey.replace(/[.,\s]+/g, '').toUpperCase();
               if (existingNormalized === normalizedMeter) {
                 existingMeter = existingKey;

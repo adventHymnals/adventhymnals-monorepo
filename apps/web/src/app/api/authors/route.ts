@@ -19,7 +19,7 @@ export async function GET() {
             
             // Find existing author with same normalized form or create new entry
             let existingAuthor = null;
-            for (const [existingKey] of authorMap.entries()) {
+            for (const [existingKey] of Array.from(authorMap.entries())) {
               const existingNormalized = existingKey.replace(/[.,\s\-']+/g, '').toUpperCase();
               if (existingNormalized === normalizedAuthor) {
                 existingAuthor = existingKey;
