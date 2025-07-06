@@ -1,7 +1,5 @@
-'use client';
-
-import { useState, useEffect } from 'react';
-import { notFound, useParams } from 'next/navigation';
+import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { 
   BookOpenIcon, 
@@ -13,85 +11,70 @@ import {
 } from '@heroicons/react/24/outline';
 
 import Layout from '@/components/layout/Layout';
-import Breadcrumbs, { generateHymnalBreadcrumbs } from '@/components/ui/Breadcrumbs';
-import HymnalSearch from '@/components/hymnal/HymnalSearch';
-import { loadHymnalReferences, loadHymnal, loadHymnalHymns } from '@/lib/data';
+import HymnalSearchClient from '@/components/hymnal/HymnalSearchClient';
+import { loadHymnalReferences, loadHymnalHymns } from '@/lib/data-server';
 import { formatNumber } from '@advent-hymnals/shared';
-import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 
-export default function HymnalPage() {
-  const params = useParams();
-  const [hymnalReferences, setHymnalReferences] = useState<any>(null);
-  const [hymnalRef, setHymnalRef] = useState<any>(null);
-  const [hymnsData, setHymnsData] = useState<any>(null);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [filteredHymns, setFilteredHymns] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
+interface HymnalPageProps {
+  params: {
+    hymnal: string;
+  };
+}
 
-  useEffect(() => {
-    const loadData = async () => {
-      try {
-        const references = await loadHymnalReferences();
-        setHymnalReferences(references);
-        
-        const hymnalReference = Object.values(references.hymnals).find(
-          (h: any) => h.url_slug === params.hymnal
-        );
-        
-        if (!hymnalReference) {
-          notFound();
-          return;
-        }
-        
-        setHymnalRef(hymnalReference);
-        
-        const hymns = await loadHymnalHymns(hymnalReference.id, 1, 1000);
-        setHymnsData(hymns);
-        setFilteredHymns(hymns.hymns);
-      } catch (error) {
-        console.error('Failed to load hymnal data:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
+export async function generateMetadata({ params }: HymnalPageProps): Promise<Metadata> {
+  try {
+    const hymnalReferences = await loadHymnalReferences();
+    const hymnalRef = Object.values(hymnalReferences.hymnals).find(
+      (h) => h.url_slug === params.hymnal
+    );
     
-    loadData();
-  }, [params.hymnal]);
-
-  useEffect(() => {
-    if (!hymnsData?.hymns) return;
-    
-    if (!searchTerm.trim()) {
-      setFilteredHymns(hymnsData.hymns);
-      return;
+    if (!hymnalRef) {
+      return {
+        title: 'Hymnal Not Found',
+      };
     }
-    
-    const filtered = hymnsData.hymns.filter((hymn: any) =>
-      hymn.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      hymn.author?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      hymn.composer?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      hymn.number.toString().includes(searchTerm) ||
-      hymn.verses?.[0]?.text?.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    
-    setFilteredHymns(filtered);
-  }, [searchTerm, hymnsData]);
 
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading hymnal...</p>
-        </div>
-      </div>
-    );
+    const title = `${hymnalRef.site_name} - Browse ${hymnalRef.total_songs} Hymns`;
+    const description = `Browse ${hymnalRef.total_songs} hymns from ${hymnalRef.site_name} (${hymnalRef.year}). Search and explore Adventist hymnody with full text, themes, and musical information.`;
+
+    return {
+      title,
+      description,
+      keywords: [
+        hymnalRef.site_name,
+        hymnalRef.name,
+        'hymnal',
+        'Adventist hymns',
+        'worship music',
+        'Christian music',
+        hymnalRef.language_name,
+        hymnalRef.year.toString()
+      ],
+      openGraph: {
+        title,
+        description,
+        type: 'website',
+      },
+    };
+  } catch {
+    return {
+      title: 'Hymnal Not Found',
+    };
   }
+}
 
-  if (!hymnalRef || !hymnsData) {
+export default async function HymnalPage({ params }: HymnalPageProps) {
+  const hymnalReferences = await loadHymnalReferences();
+  
+  const hymnalRef = Object.values(hymnalReferences.hymnals).find(
+    (h) => h.url_slug === params.hymnal
+  );
+  
+  if (!hymnalRef) {
     notFound();
-    return null;
   }
+  
+  const hymnsData = await loadHymnalHymns(hymnalRef.id, 1, 1000);
 
   const breadcrumbs = [{
     label: 'Hymnals',
@@ -183,90 +166,18 @@ export default function HymnalPage() {
                   )}
                 </div>
 
-                {/* Search */}
-                <div className="mt-8 mx-auto max-w-md">
-                  <div className="relative">
-                    <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
-                    <input
-                      type="text"
-                      value={searchTerm}
-                      onChange={(e) => setSearchTerm(e.target.value)}
-                      placeholder={`Search ${hymnalRef.site_name}...`}
-                      className="w-full pl-10 pr-4 py-3 text-lg border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent shadow-sm"
-                    />
-                  </div>
                 </div>
-              </div>
             </div>
           </div>
         </div>
 
-        {/* Content Section */}
-        <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
-          {/* Controls */}
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-8">
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900">
-                {searchTerm ? (
-                  <>Showing {formatNumber(filteredHymns.length)} of {formatNumber(hymnsData.total)} hymns</>
-                ) : (
-                  <>Hymns ({formatNumber(hymnsData.total)})</>
-                )}
-              </h2>
-              <p className="mt-1 text-gray-600">
-                {searchTerm ? `Results for "${searchTerm}"` : 'All hymns in this collection'}
-              </p>
-            </div>
-          </div>
-
-          {/* Hymns Grid */}
-          {filteredHymns.length === 0 && searchTerm ? (
-            <div className="text-center py-12">
-              <MagnifyingGlassIcon className="mx-auto h-12 w-12 text-gray-400 mb-4" />
-              <h3 className="text-lg font-medium text-gray-900 mb-2">No hymns found</h3>
-              <p className="text-gray-600">Try adjusting your search terms.</p>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {filteredHymns.map((hymn) => (
-              <Link
-                key={hymn.id}
-                href={`/${params.hymnal}/hymn-${hymn.number}-${hymn.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')}`}
-                className="hymnal-card p-6 hover:scale-105 transform transition-all duration-200"
-              >
-                <div className="flex items-center justify-between mb-4">
-                  <span className="hymn-number">
-                    #{hymn.number}
-                  </span>
-                  {hymn.metadata?.themes && hymn.metadata.themes.length > 0 && (
-                    <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary-100 text-primary-800">
-                      {hymn.metadata.themes[0]}
-                    </span>
-                  )}
-                </div>
-                
-                <h3 className="hymn-title mb-2">
-                  {hymn.title}
-                </h3>
-                
-                {(hymn.author || hymn.composer) && (
-                  <div className="text-sm text-gray-600 mb-3">
-                    {hymn.author && <div>By {hymn.author}</div>}
-                    {hymn.composer && <div>Music: {hymn.composer}</div>}
-                  </div>
-                )}
-                
-                {hymn.verses[0] && hymn.verses[0].text && (
-                  <p className="text-sm text-gray-700 line-clamp-2">
-                    {hymn.verses[0].text.split('\n')[0]}
-                  </p>
-                )}
-              </Link>
-            ))}
-            </div>
-          )}
-
-        </div>
+        {/* Client-side Search and Content */}
+        <HymnalSearchClient 
+          hymns={hymnsData.hymns}
+          hymnalSlug={params.hymnal}
+          hymnalName={hymnalRef.site_name}
+          total={hymnsData.total}
+        />
       </div>
     </Layout>
   );

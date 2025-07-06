@@ -1,5 +1,5 @@
-import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { 
   BookOpenIcon, 
@@ -17,8 +17,6 @@ import Breadcrumbs, { generateHymnalBreadcrumbs } from '@/components/ui/Breadcru
 import HymnActionButtons from '@/components/ui/HymnActionButtons';
 import HymnDisplaySection from '@/components/hymn/HymnDisplaySection';
 import { loadHymnalReferences, loadHymn, loadHymnalHymns, getRelatedHymns } from '@/lib/data-server';
-import { generateHymnMetadata, generateHymnStructuredData } from '@/lib/seo';
-import { NotationFormat } from '@advent-hymnals/shared';
 
 interface HymnPageProps {
   params: {
@@ -33,91 +31,68 @@ function extractHymnNumber(slug: string): number | null {
   return match ? parseInt(match[1], 10) : null;
 }
 
-// Generate slug from hymn title
-function generateHymnSlug(number: number, title: string): string {
-  const cleanTitle = title
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .trim();
-  return `hymn-${number}-${cleanTitle}`;
-}
-
-// Generate static params for all hymns
-export async function generateStaticParams(): Promise<Array<{ hymnal: string; slug: string }>> {
+export async function generateMetadata({ params }: HymnPageProps): Promise<Metadata> {
   try {
-    // Only include hymnals that have actual collection files
-    const availableHymnals = ['CH1941', 'HGPP', 'HT1886', 'MH1843', 'SDAH'];
     const hymnalReferences = await loadHymnalReferences();
-    const params: Array<{ hymnal: string; slug: string }> = [];
-
-    for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
-      if (!hymnalRef.url_slug || !availableHymnals.includes(hymnalRef.id)) continue;
-      
-      try {
-        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000); // Load up to 1000 hymns
-        
-        for (const hymn of hymns) {
-          const slug = generateHymnSlug(hymn.number, hymn.title);
-          params.push({
-            hymnal: hymnalRef.url_slug,
-            slug: slug
-          });
-        }
-      } catch (error) {
-        console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
-        continue;
-      }
+    const hymnalRef = Object.values(hymnalReferences.hymnals).find(
+      (h) => h.url_slug === params.hymnal
+    );
+    
+    if (!hymnalRef) {
+      return {
+        title: 'Hymn Not Found',
+      };
+    }
+    
+    const hymnNumber = extractHymnNumber(params.slug);
+    if (!hymnNumber) {
+      return {
+        title: 'Hymn Not Found',
+      };
+    }
+    
+    const hymnId = `${hymnalRef.id}-${hymnalRef.language}-${hymnNumber.toString().padStart(3, '0')}`;
+    const hymn = await loadHymn(hymnId);
+    
+    if (!hymn) {
+      return {
+        title: 'Hymn Not Found',
+      };
     }
 
-    console.log(`Generated ${params.length} static params for hymn pages`);
-    return params;
-  } catch (error) {
-    console.error('Failed to generate static params:', error);
-    return [];
-  }
-}
+    const title = `${hymn.title} - ${hymnalRef.site_name} #${hymn.number}`;
+    const description = `${hymn.title} from ${hymnalRef.site_name} hymnal. ${hymn.author ? `Words by ${hymn.author}. ` : ''}${hymn.composer ? `Music by ${hymn.composer}. ` : ''}${hymn.verses[0]?.text?.split('\n')[0] || ''}`;
 
-export async function generateMetadata({ params }: HymnPageProps): Promise<Metadata> {
-  const hymnalReferences = await loadHymnalReferences();
-  const hymnalRef = Object.values(hymnalReferences.hymnals).find(
-    h => h.url_slug === params.hymnal
-  );
-
-  if (!hymnalRef) {
+    return {
+      title,
+      description,
+      keywords: [
+        hymn.title,
+        hymnalRef.site_name,
+        hymn.author,
+        hymn.composer,
+        ...(hymn.metadata?.themes || []),
+        'hymn',
+        'worship music',
+        'Christian music'
+      ].filter(Boolean) as string[],
+      openGraph: {
+        title,
+        description,
+        type: 'article',
+      },
+    };
+  } catch {
     return {
       title: 'Hymn Not Found',
-      description: 'The requested hymn could not be found.',
     };
   }
-
-  const hymnNumber = extractHymnNumber(params.slug);
-  if (!hymnNumber) {
-    return {
-      title: 'Invalid Hymn',
-      description: 'Invalid hymn URL format.',
-    };
-  }
-
-  // Try to load the hymn for metadata
-  const hymnId = `${hymnalRef.id}-${hymnalRef.language}-${hymnNumber.toString().padStart(3, '0')}`;
-  const hymn = await loadHymn(hymnId);
-  
-  if (!hymn) {
-    return {
-      title: 'Hymn Not Found',
-      description: 'The requested hymn could not be found.',
-    };
-  }
-
-  return generateHymnMetadata(hymn, hymnalRef, params.hymnal);
 }
 
 export default async function HymnPage({ params }: HymnPageProps) {
   const hymnalReferences = await loadHymnalReferences();
   const hymnalRef = Object.values(hymnalReferences.hymnals).find(
-    h => h.url_slug === params.hymnal
+    (h) => h.url_slug === params.hymnal
   );
 
   if (!hymnalRef) {
@@ -150,29 +125,59 @@ export default async function HymnPage({ params }: HymnPageProps) {
     hymn.number
   );
 
-  const structuredData = generateHymnStructuredData(hymn, hymnalRef, params.hymnal);
-
   return (
     <Layout hymnalReferences={hymnalReferences}>
-      {/* Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(structuredData),
-        }}
-      />
-
       <div className="min-h-screen bg-white">
         {/* Header */}
         <div className="bg-gradient-to-r from-primary-600 to-primary-700 hymn-header no-print">
           <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
             <div className="mx-auto max-w-4xl">
-              {/* Breadcrumbs */}
-              <Breadcrumbs 
-                items={breadcrumbs} 
-                className="mb-6 text-primary-100" 
-              />
+              {/* Breadcrumbs with custom colors for visibility */}
+              <div className="mb-6">
+                <nav className="flex" aria-label="Breadcrumb">
+                  <ol role="list" className="flex items-center space-x-2">
+                    {/* Home icon */}
+                    <li>
+                      <div>
+                        <Link
+                          href="/"
+                          className="text-primary-200 hover:text-white transition-colors duration-200"
+                        >
+                          <HomeIcon className="h-4 w-4 flex-shrink-0" aria-hidden="true" />
+                          <span className="sr-only">Home</span>
+                        </Link>
+                      </div>
+                    </li>
 
+                    {/* Breadcrumb items */}
+                    {breadcrumbs.map((item) => (
+                      <li key={item.label}>
+                        <div className="flex items-center">
+                          <ChevronRightIcon
+                            className="h-4 w-4 flex-shrink-0 text-primary-200"
+                            aria-hidden="true"
+                          />
+                          {item.href && !item.current ? (
+                            <Link
+                              href={item.href}
+                              className="ml-2 text-sm font-medium text-primary-100 hover:text-white transition-colors duration-200"
+                            >
+                              {item.label}
+                            </Link>
+                          ) : (
+                            <span
+                              className="ml-2 text-sm font-medium text-white"
+                              aria-current={item.current ? 'page' : undefined}
+                            >
+                              {item.label}
+                            </span>
+                          )}
+                        </div>
+                      </li>
+                    ))}
+                  </ol>
+                </nav>
+              </div>
 
               {/* Hymn Header */}
               <div className="text-center text-white">

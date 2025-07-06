@@ -390,6 +390,8 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
                   {hymn.author && <div>Words: {hymn.author}</div>}
                   {hymn.composer && <div>Music: {hymn.composer}</div>}
                   {hymn.tune && <div>Tune: {hymn.tune}</div>}
+                  {hymn.key && <div>Key: {hymn.key}</div>}
+                  {hymn.meter && <div>Meter: {hymn.meter}</div>}
                 </div>
               )}
             </>
@@ -416,11 +418,28 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
               )}
               
               <div className={classNames(
-                'leading-relaxed whitespace-pre-line',
-                fontSizeClasses,
+                'leading-relaxed whitespace-pre-line w-full flex items-center justify-center',
                 themeClasses.text
-              )}>
-                {slideContent}
+              )}
+              style={{ 
+                minHeight: '60vh',
+                maxHeight: '70vh'
+              }}>
+                <div 
+                  className={classNames(
+                    'text-center w-full overflow-hidden',
+                    fontSizeClasses
+                  )}
+                  style={{
+                    fontSize: settings.fontSize === 'small' ? 'clamp(1.25rem, 3vw, 2.5rem)' :
+                             settings.fontSize === 'medium' ? 'clamp(1.5rem, 4vw, 3.5rem)' :
+                             settings.fontSize === 'large' ? 'clamp(1.75rem, 5vw, 4.5rem)' :
+                             'clamp(2rem, 6vw, 5.5rem)', // x-large
+                    lineHeight: '1.3'
+                  }}
+                >
+                  {slideContent}
+                </div>
               </div>
             </>
           )}
@@ -591,6 +610,7 @@ export default function ProjectionPage({ params }: ProjectionPageProps) {
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                     className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    autoFocus
                   />
                 </div>
               </div>

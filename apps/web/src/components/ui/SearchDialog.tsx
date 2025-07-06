@@ -5,6 +5,15 @@ import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
 import { MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline';
 
+// Helper function to normalize text for search
+function normalizeSearchText(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\s]/g, '') // Remove all punctuation
+    .replace(/\s+/g, ' ') // Normalize whitespace
+    .trim();
+}
+
 interface SearchResult {
   id: string;
   number: number;

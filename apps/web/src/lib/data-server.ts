@@ -232,6 +232,15 @@ export async function getRelatedHymns(
   return results;
 }
 
+// Helper function to normalize text for search
+function normalizeSearchText(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\s]/g, '') // Remove all punctuation
+    .replace(/\s+/g, ' ') // Normalize whitespace
+    .trim();
+}
+
 /**
  * Search hymns across all hymnals or within a specific hymnal (Server-side only)
  */
@@ -242,7 +251,8 @@ export async function searchHymns(
 ): Promise<Array<{ hymn: Hymn; hymnal: HymnalReference; score: number }>> {
   const references = await loadHymnalReferences();
   const results: Array<{ hymn: Hymn; hymnal: HymnalReference; score: number }> = [];
-  const searchTerms = query.toLowerCase().split(' ').filter(term => term.length > 0);
+  const normalizedQuery = normalizeSearchText(query);
+  const searchTerms = normalizedQuery.split(' ').filter(term => term.length > 0);
 
   const hymnalsToSearch = hymnalId 
     ? [references.hymnals[hymnalId]].filter(Boolean)
@@ -257,23 +267,36 @@ export async function searchHymns(
       if (!hymn) continue;
 
       let score = 0;
-      const searchableText = [
-        hymn.title,
-        hymn.author,
-        hymn.composer,
-        hymn.tune,
-        hymn.notation?.lyrics?.content || '',
-        ...(hymn.metadata?.themes || []),
-        ...(hymn.metadata?.topics || [])
-      ].join(' ').toLowerCase();
+      
+      // Normalize all searchable text
+      const normalizedTitle = normalizeSearchText(hymn.title || '');
+      const normalizedAuthor = normalizeSearchText(hymn.author || '');
+      const normalizedComposer = normalizeSearchText(hymn.composer || '');
+      const normalizedTune = normalizeSearchText(hymn.tune || '');
+      const normalizedLyrics = normalizeSearchText(hymn.notations?.[0]?.content || '');
+      const normalizedThemes = hymn.metadata?.themes?.map(t => normalizeSearchText(t)).join(' ') || '';
+      const normalizedTopics = '';
+      
+      const normalizedSearchableText = [
+        normalizedTitle,
+        normalizedAuthor,
+        normalizedComposer,
+        normalizedTune,
+        normalizedLyrics,
+        normalizedThemes,
+        normalizedTopics
+      ].join(' ');
 
-      // Calculate relevance score
+      // Calculate relevance score with normalized text
       for (const term of searchTerms) {
-        if (hymn.title.toLowerCase().includes(term)) score += 10;
-        if (hymn.author?.toLowerCase().includes(term)) score += 5;
-        if (hymn.composer?.toLowerCase().includes(term)) score += 5;
-        if (hymn.tune?.toLowerCase().includes(term)) score += 5;
-        if (searchableText.includes(term)) score += 1;
+        if (normalizedTitle.includes(term)) score += 10;
+        if (normalizedAuthor.includes(term)) score += 5;
+        if (normalizedComposer.includes(term)) score += 5;
+        if (normalizedTune.includes(term)) score += 5;
+        if (normalizedSearchableText.includes(term)) score += 1;
+        
+        // Also check hymn number
+        if (hymn.number?.toString().includes(term)) score += 8;
       }
 
       if (score > 0) {
