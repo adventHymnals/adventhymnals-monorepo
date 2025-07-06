@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, Crimson_Text } from 'next/font/google';
+import GoogleAnalytics from '@/components/analytics/GoogleAnalytics';
 import '../styles/globals.css';
 
 const inter = Inter({
@@ -119,6 +120,7 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#1e40af" />
       </head>
       <body className="font-sans antialiased bg-gray-50">
+        <GoogleAnalytics />
         {children}
       </body>
     </html>

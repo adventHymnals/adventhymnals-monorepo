@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: process.env.NEXT_OUTPUT === 'export' ? 'export' : undefined,
+  output: process.env.NEXT_OUTPUT === 'export' ? 'export' : 'standalone',
   distDir: process.env.NEXT_DISTDIR || '.next',
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
