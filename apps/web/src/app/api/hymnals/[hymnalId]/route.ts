@@ -1,5 +1,17 @@
 import { NextResponse } from 'next/server';
-import { loadHymnal } from '@/lib/data-server';
+import { loadHymnal, loadHymnalReferences } from '@/lib/data-server';
+
+export async function generateStaticParams() {
+  try {
+    const references = await loadHymnalReferences();
+    return Object.keys(references.hymnals).map((hymnalId) => ({
+      hymnalId,
+    }));
+  } catch (error) {
+    console.error('Error generating static params for hymnals:', error);
+    return [];
+  }
+}
 
 export async function GET(
   request: Request,

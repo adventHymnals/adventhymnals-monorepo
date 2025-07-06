@@ -3,10 +3,19 @@ import { searchHymns } from '@/lib/data-server';
 
 export async function GET(request: Request) {
   try {
-    const { searchParams } = new URL(request.url);
-    const query = searchParams.get('q');
-    const hymnalId = searchParams.get('hymnal') || undefined;
-    const limit = parseInt(searchParams.get('limit') || '20', 10);
+    let query = null;
+    let hymnalId = undefined;
+    let limit = 20;
+    
+    try {
+      const { searchParams } = new URL(request.url);
+      query = searchParams.get('q');
+      hymnalId = searchParams.get('hymnal') || undefined;
+      limit = parseInt(searchParams.get('limit') || '20', 10);
+    } catch (urlError) {
+      // For static export, return empty results
+      return NextResponse.json({ hymns: [], total: 0 });
+    }
     
     if (!query) {
       return NextResponse.json(
