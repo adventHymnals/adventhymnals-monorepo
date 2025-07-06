@@ -64,27 +64,38 @@ export default async function MeterDetailPage({ params }: MeterDetailProps) {
   const decodedMeter = decodeURIComponent(params.meter);
   const hymnalReferences = await loadHymnalReferences();
   
-  let metersData;
-  try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/meters`, {
-      cache: 'force-cache'
-    });
-    if (!response.ok) {
-      throw new Error('Failed to fetch meters');
+  // Use server-side data loading directly instead of API fetch
+  const { loadHymnalHymns } = await import('@/lib/data-server');
+  const hymns: HymnData[] = [];
+  
+  // Load hymns from all hymnals to find hymns with this meter
+  for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+    try {
+      const { hymns: hymnalHymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+      hymnalHymns.forEach((hymn: any) => {
+        if (hymn.meter === decodedMeter) {
+          hymns.push({
+            id: hymn.id,
+            number: hymn.number,
+            title: hymn.title,
+            author: hymn.author,
+            hymnal: {
+              id: hymnalRef.id,
+              name: hymnalRef.name,
+              url_slug: hymnalRef.url_slug,
+              abbreviation: hymnalRef.abbreviation
+            }
+          });
+        }
+      });
+    } catch (error) {
+      console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
     }
-    metersData = await response.json();
-  } catch (error) {
-    console.error('Failed to load meter data:', error);
-    notFound();
   }
   
-  const meterData = metersData.find((m: { meter: string }) => m.meter === decodedMeter);
-  
-  if (!meterData) {
+  if (hymns.length === 0) {
     notFound();
   }
-  
-  const hymns: HymnData[] = meterData.hymns;
 
   return (
     <MeterDetailClient 

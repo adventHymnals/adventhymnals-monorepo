@@ -66,27 +66,38 @@ export default async function AuthorDetailPage({ params }: AuthorDetailProps) {
   const decodedAuthor = decodeURIComponent(params.author);
   const hymnalReferences = await loadHymnalReferences();
   
-  let authorsData;
-  try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/authors`, {
-      cache: 'force-cache'
-    });
-    if (!response.ok) {
-      throw new Error('Failed to fetch authors');
+  // Use server-side data loading directly instead of API fetch
+  const { loadHymnalHymns } = await import('@/lib/data-server');
+  const hymns: HymnData[] = [];
+  
+  // Load hymns from all hymnals to find author's hymns
+  for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+    try {
+      const { hymns: hymnalHymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+      hymnalHymns.forEach((hymn: any) => {
+        if (hymn.author === decodedAuthor) {
+          hymns.push({
+            id: hymn.id,
+            number: hymn.number,
+            title: hymn.title,
+            author: hymn.author,
+            hymnal: {
+              id: hymnalRef.id,
+              name: hymnalRef.name,
+              url_slug: hymnalRef.url_slug,
+              abbreviation: hymnalRef.abbreviation
+            }
+          });
+        }
+      });
+    } catch (error) {
+      console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
     }
-    authorsData = await response.json();
-  } catch (error) {
-    console.error('Failed to load author data:', error);
-    notFound();
   }
   
-  const authorData = authorsData.find((a: { author: string }) => a.author === decodedAuthor);
-  
-  if (!authorData) {
+  if (hymns.length === 0) {
     notFound();
   }
-  
-  const hymns: HymnData[] = authorData.hymns;
 
   return (
     <Layout hymnalReferences={hymnalReferences}>

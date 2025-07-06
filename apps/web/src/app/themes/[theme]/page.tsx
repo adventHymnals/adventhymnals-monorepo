@@ -66,27 +66,38 @@ export default async function ThemeDetailPage({ params }: ThemeDetailProps) {
   const decodedTheme = decodeURIComponent(params.theme);
   const hymnalReferences = await loadHymnalReferences();
   
-  let themesData;
-  try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/themes`, {
-      cache: 'force-cache'
-    });
-    if (!response.ok) {
-      throw new Error('Failed to fetch themes');
+  // Use server-side data loading directly instead of API fetch
+  const { loadHymnalHymns } = await import('@/lib/data-server');
+  const hymns: HymnData[] = [];
+  
+  // Load hymns from all hymnals to find hymns with this theme
+  for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+    try {
+      const { hymns: hymnalHymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+      hymnalHymns.forEach((hymn: any) => {
+        if (hymn.metadata?.themes?.includes(decodedTheme)) {
+          hymns.push({
+            id: hymn.id,
+            number: hymn.number,
+            title: hymn.title,
+            author: hymn.author,
+            hymnal: {
+              id: hymnalRef.id,
+              name: hymnalRef.name,
+              url_slug: hymnalRef.url_slug,
+              abbreviation: hymnalRef.abbreviation
+            }
+          });
+        }
+      });
+    } catch (error) {
+      console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
     }
-    themesData = await response.json();
-  } catch (error) {
-    console.error('Failed to load theme data:', error);
-    notFound();
   }
   
-  const themeData = themesData.find((t: { theme: string }) => t.theme === decodedTheme);
-  
-  if (!themeData) {
+  if (hymns.length === 0) {
     notFound();
   }
-  
-  const hymns: HymnData[] = themeData.hymns;
 
   return (
     <Layout hymnalReferences={hymnalReferences}>

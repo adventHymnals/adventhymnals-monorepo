@@ -64,27 +64,38 @@ export default async function TuneDetailPage({ params }: TuneDetailProps) {
   const decodedTune = decodeURIComponent(params.tune);
   const hymnalReferences = await loadHymnalReferences();
   
-  let tunesData;
-  try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/tunes`, {
-      cache: 'force-cache'
-    });
-    if (!response.ok) {
-      throw new Error('Failed to fetch tunes');
+  // Use server-side data loading directly instead of API fetch
+  const { loadHymnalHymns } = await import('@/lib/data-server');
+  const hymns: HymnData[] = [];
+  
+  // Load hymns from all hymnals to find hymns with this tune
+  for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+    try {
+      const { hymns: hymnalHymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+      hymnalHymns.forEach((hymn: any) => {
+        if (hymn.tune === decodedTune) {
+          hymns.push({
+            id: hymn.id,
+            number: hymn.number,
+            title: hymn.title,
+            author: hymn.author,
+            hymnal: {
+              id: hymnalRef.id,
+              name: hymnalRef.name,
+              url_slug: hymnalRef.url_slug,
+              abbreviation: hymnalRef.abbreviation
+            }
+          });
+        }
+      });
+    } catch (error) {
+      console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
     }
-    tunesData = await response.json();
-  } catch (error) {
-    console.error('Failed to load tune data:', error);
-    notFound();
   }
   
-  const tuneData = tunesData.find((t: { tune: string }) => t.tune === decodedTune);
-  
-  if (!tuneData) {
+  if (hymns.length === 0) {
     notFound();
   }
-  
-  const hymns: HymnData[] = tuneData.hymns;
 
   return (
     <TuneDetailClient 
