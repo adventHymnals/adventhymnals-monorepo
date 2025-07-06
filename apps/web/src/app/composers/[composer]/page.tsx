@@ -26,12 +26,27 @@ interface ComposerDetailProps {
 
 export async function generateStaticParams() {
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/composers`);
-    if (!response.ok) return [];
-    
-    const composers = await response.json();
-    return composers.map((composer: { composer: string }) => ({
-      composer: encodeURIComponent(composer.composer)
+    // Use server-side functions directly instead of API fetch during build
+    const { loadHymnalReferences, loadHymnalHymns } = await import('@/lib/data-server');
+    const hymnalReferences = await loadHymnalReferences();
+    const composerSet = new Set<string>();
+
+    // Load hymns from all hymnals to get unique composers
+    for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+      try {
+        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+        hymns.forEach((hymn: { composer?: string }) => {
+          if (hymn.composer) {
+            composerSet.add(hymn.composer);
+          }
+        });
+      } catch (error) {
+        console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
+      }
+    }
+
+    return Array.from(composerSet).map((composer: string) => ({
+      composer: encodeURIComponent(composer)
     }));
   } catch (error) {
     console.error('Error generating static params for composers:', error);

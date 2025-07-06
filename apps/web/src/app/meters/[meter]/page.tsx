@@ -24,12 +24,27 @@ interface MeterDetailProps {
 
 export async function generateStaticParams() {
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/meters`);
-    if (!response.ok) return [];
-    
-    const meters = await response.json();
-    return meters.map((meter: { meter: string }) => ({
-      meter: encodeURIComponent(meter.meter)
+    // Use server-side functions directly instead of API fetch during build
+    const { loadHymnalReferences, loadHymnalHymns } = await import('@/lib/data-server');
+    const hymnalReferences = await loadHymnalReferences();
+    const meterSet = new Set<string>();
+
+    // Load hymns from all hymnals to get unique meters
+    for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+      try {
+        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+        hymns.forEach((hymn: { meter?: string }) => {
+          if (hymn.meter) {
+            meterSet.add(hymn.meter);
+          }
+        });
+      } catch (error) {
+        console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
+      }
+    }
+
+    return Array.from(meterSet).map((meter: string) => ({
+      meter: encodeURIComponent(meter)
     }));
   } catch (error) {
     console.error('Error generating static params for meters:', error);

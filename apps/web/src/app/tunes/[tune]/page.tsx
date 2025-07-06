@@ -24,12 +24,27 @@ interface TuneDetailProps {
 
 export async function generateStaticParams() {
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/tunes`);
-    if (!response.ok) return [];
-    
-    const tunes = await response.json();
-    return tunes.map((tune: { tune: string }) => ({
-      tune: encodeURIComponent(tune.tune)
+    // Use server-side functions directly instead of API fetch during build
+    const { loadHymnalReferences, loadHymnalHymns } = await import('@/lib/data-server');
+    const hymnalReferences = await loadHymnalReferences();
+    const tuneSet = new Set<string>();
+
+    // Load hymns from all hymnals to get unique tunes
+    for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+      try {
+        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+        hymns.forEach((hymn: { tune?: string }) => {
+          if (hymn.tune) {
+            tuneSet.add(hymn.tune);
+          }
+        });
+      } catch (error) {
+        console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
+      }
+    }
+
+    return Array.from(tuneSet).map((tune: string) => ({
+      tune: encodeURIComponent(tune)
     }));
   } catch (error) {
     console.error('Error generating static params for tunes:', error);

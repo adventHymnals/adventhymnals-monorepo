@@ -11,17 +11,16 @@ interface ProjectionPageProps {
 
 export async function generateStaticParams() {
   try {
+    // Use server-side functions directly instead of API fetch during build
+    const { loadHymnalHymns } = await import('@/lib/data-server');
     const hymnalReferences = await loadHymnalReferences();
     const allHymnIds: string[] = [];
     
     // Load hymns from all hymnals
     for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/hymnals/${hymnalRef.id}/hymns?limit=1000`);
-        if (response.ok) {
-          const { hymns } = await response.json();
-          allHymnIds.push(...hymns.map((hymn: { id: string }) => hymn.id));
-        }
+        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+        allHymnIds.push(...hymns.map((hymn: { id: string }) => hymn.id));
       } catch (error) {
         console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
       }

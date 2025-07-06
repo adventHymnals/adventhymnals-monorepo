@@ -26,12 +26,27 @@ interface AuthorDetailProps {
 
 export async function generateStaticParams() {
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/authors`);
-    if (!response.ok) return [];
-    
-    const authors = await response.json();
-    return authors.map((author: { author: string }) => ({
-      author: encodeURIComponent(author.author)
+    // Use server-side functions directly instead of API fetch during build
+    const { loadHymnalReferences, loadHymnalHymns } = await import('@/lib/data-server');
+    const hymnalReferences = await loadHymnalReferences();
+    const authorSet = new Set<string>();
+
+    // Load hymns from all hymnals to get unique authors
+    for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+      try {
+        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+        hymns.forEach((hymn: { author?: string }) => {
+          if (hymn.author) {
+            authorSet.add(hymn.author);
+          }
+        });
+      } catch (error) {
+        console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
+      }
+    }
+
+    return Array.from(authorSet).map((author: string) => ({
+      author: encodeURIComponent(author)
     }));
   } catch (error) {
     console.error('Error generating static params for authors:', error);
