@@ -1,40 +1,31 @@
 {
   "id": "HT1886-en-469",
   "number": 469,
-  "title": "O, how happy are they",
-  "author": "Charles Wesley",
-  "composer": "Unknown",
-  "tune": "CONVERT",
-  "meter": "P.M.",
+  "title": "Work, Watch, Pray",
+  "author": "Grace Glenn",
+  "composer": "A. B. Fillmore",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Work when the morning shineth, Work when the noon-day gleams, Work with a heart rejoicing, Work with a need to mind, Work till the sun goeth down, Work with the hosts at rest;"
     },
     {
       "number": 2,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    },
-    {
-      "number": 3,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    },
-    {
-      "number": 4,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    },
-    {
-      "number": 5,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Work when the day declined, Work with the last sweet beams, Work for the pure and holy, Work for the true and grand, So shall thy nights be blessed."
     }
   ],
+  "chorus": {
+    "text": "Work (and) watch (and) pray, Work for the day will soon be gone; Work (and) watch (and) pray, Soon will the Master come."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["happiness in obeying Savior", "divine comfort", "praising Jesus", "redemption from sin"],
-    "scripture_references": [],
-    "tune_source": "Unknown",
+    "themes": ["work", "watchfulness", "prayer", "diligence"],
+    "scripture_references": ["1 Thess. 5:6"],
+    "tune_source": "A. B. Fillmore",
     "original_language": "en",
     "extraction_status": "completed"
   }

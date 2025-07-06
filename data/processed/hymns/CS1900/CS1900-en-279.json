@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-279",
+  "number": 279,
+  "title": "With Thee",
+  "author": "Anon",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "With thee, O Master, let me walk\nIn lowly paths of service free;\nTell me thy secret; help me bear\nThe strain of toil, the fret of care."
+    },
+    {
+      "number": 2,
+      "text": "Help me the slow of heart to move\nBy some clear, winning word of love;\nTeach me the wayward feet to stay,\nAnd guide them in the homeward way."
+    },
+    {
+      "number": 3,
+      "text": "Teach me thy patience; still with thee\nIn closer, dearer company,\nIn work that keeps faith sweet and strong,\nIn trust that triumphs over wrong."
+    },
+    {
+      "number": 4,
+      "text": "In hope that sends a shining ray\nFar down the future's broad'ning way,\nIn peace that only thou canst give,\nWith thee, O Master, let me live."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["discipleship", "service", "walking with Jesus", "faith"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

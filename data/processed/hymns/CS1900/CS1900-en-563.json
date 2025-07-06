@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-563",
+  "number": 563,
+  "title": "IN LOWLY PATHS",
+  "author": "John E. Gould",
+  "composer": "John E. Gould",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In lowly paths of service free,\nTell me not a greater story;\nWalk me to that shore of light,\nWhere the ransomed robes grow bright."
+    },
+    {
+      "number": 2,
+      "text": "To labor here from day to day\nWith the grateful heart that sees\nIn the vernal turf the clay,\nAnd guilt that is the seasoned way."
+    },
+    {
+      "number": 3,
+      "text": "But is the vernal turf the clay,\nAnd guilt that is the seasoned way?\nThen lead me where I ought to go,\nAnd learn how to submit below."
+    },
+    {
+      "number": 4,
+      "text": "May I learn to know thy will,\nAnd lean upon thy arm of love,\nIn quiet rest and trustful still,\nTill called to that home above."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["humility", "service", "obedience"],
+    "scripture_references": [],
+    "tune_source": "John E. Gould",
+    "original_language": "en"
+  }
+}

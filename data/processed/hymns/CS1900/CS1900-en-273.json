@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-273",
+  "number": 273,
+  "title": "Joy of Loving Hearts",
+  "author": "Anon",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, thou joy of loving hearts,\nThou fount of life, thou light of men,\nFrom the best bliss that earth imparts,\nWe turn unfilled to thee again."
+    },
+    {
+      "number": 2,
+      "text": "Thy truth unchanged hath ever stood;\nThou savest those that on thee call;\nTo them that seek thee, thou art good,\nTo them that find thee, all in all."
+    },
+    {
+      "number": 3,
+      "text": "We taste thee, O thou living bread,\nAnd long to feast upon thee still;\nWe drink of thee, the fountain-head,\nAnd thirst our souls from thee to fill."
+    },
+    {
+      "number": 4,
+      "text": "Our restless spirits yearn for thee,\nWhere'er our changeful lot is cast;\nGlad when thy gracious smile we see,\nBlest when our faith can hold thee fast."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["joy", "Jesus as joy", "spiritual satisfaction", "devotion"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

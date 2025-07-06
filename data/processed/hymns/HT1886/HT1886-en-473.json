@@ -1,28 +1,36 @@
 {
   "id": "HT1886-en-473",
   "number": 473,
-  "title": "Where two or three, with sweet accord",
-  "author": "Isaac Watts",
-  "composer": null,
+  "title": "Watch and Pray",
+  "author": "Fanny J. Crosby",
+  "composer": "W. J. Kirkpatrick",
   "tune": null,
   "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "Where two or three, with sweet accord,\nObedient to their sovereign Lord,\nMeet to recount his acts of grace,\nAnd offer solemn prayer and praise."
+      "text": "Watch and pray, when the Master cometh, If at morn, at noon, or night; Watch and pray; the tempter may be near us; Keep the heart with jealous care."
     },
     {
       "number": 2,
-      "text": "There, says the Saviour, will I be,\nAmid that little company;\nTo them unveil my smiling face,\nAnd shed my glories round the place."
+      "text": "Watch and pray, nor leave our post of duty, Till we hear the Bridegroom's voice; He may and lamp in every window, Trimmed and burning, clear and bright."
+    },
+    {
+      "number": 3,
+      "text": "Watch and pray, for we know not the midnight, His appointed par-ta-king, We shall ever see more da-lious."
     }
   ],
+  "chorus": {
+    "text": "Watch and pray, the Lord commandeth; Watch and pray, the Lord commandeth; Watch and pray, the Lord commandeth; Watch and pray! 'Twill not be long; Soon he'll gather home his loved ones To the happy vale of song."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["fellowship", "worship", "prayer"],
-    "scripture_references": ["Matthew 18:20"],
-    "tune_source": "Isaac Watts",
-    "original_language": "en"
+    "themes": ["watchfulness", "prayer", "readiness", "second coming"],
+    "scripture_references": ["Luke 21:36"],
+    "tune_source": "W. J. Kirkpatrick",
+    "original_language": "en",
+    "extraction_status": "completed"
   }
 }

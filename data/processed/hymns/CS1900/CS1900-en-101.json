@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-101",
+  "number": 101,
+  "title": "I Bring My Sins To Thee",
+  "author": "Mrs. J. J. Halderman",
+  "composer": "W. J. Kirkpatrick",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I bring my sins to Thee, The sins I cannot count, That all may cleansed be In the atoning fount;\nI bring them all to Thee, The burthen is too great for me;\nI bring my sins to Thee, I bring my sins to Thee."
+    },
+    {
+      "number": 2,
+      "text": "I bring my griefs to Thee, The griefs I cannot tell;\nNo words can picture what the heart knows so well;\nI bring them all to Thee, Come, I will give thee rest;\nI bring my griefs to Thee, I bring my griefs to Thee."
+    },
+    {
+      "number": 3,
+      "text": "I bring my joys to Thee, The joys thy love hath given, That earth may brighter be,\nAnd more like heaven; I bring them all to Thee, Who art the fount of joy;\nI bring my joys to Thee, I bring my joys to Thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["confession", "cleansing", "surrender"],
+    "scripture_references": [],
+    "tune_source": "W. J. Kirkpatrick",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses, no chorus",
+    "first_line": "I bring my sins to Thee"
+  }
+}

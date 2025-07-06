@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-113",
+  "number": 113,
+  "title": "Baptize Us Anew",
+  "author": "A. J. Gordon",
+  "composer": "A. J. Gordon",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy Spirit, faithful guide, Ever near the Christian's side;\nGently lead us by the hand, Pilgrims in a desert land;\nWeary souls fore'er rejoice, While they hear that sweetest voice,\nWhispering softly, 'Wander not, Fear not, I am with you, fear not!'"
+    },
+    {
+      "number": 2,
+      "text": "Ever present, truest friend, Ever near to help and tend;\nLeave us not to doubt and fear, Groping on in darkness drear;\nWhen the storms are raging sore, Hearts grow faint and hope no more,\nWhisper softly, 'Wander not, Fear not, I am with you, fear not!'"
+    },
+    {
+      "number": 3,
+      "text": "When our days of toil shall cease, Waiting still for sweet release,\nNothing left but heaven and prayer, Wond'ring if our names are there;\nWading deep the dismal flood, Pleading naught but Jesus' blood,\nWhisper softly, 'Wander not, Fear not, I am with you, fear not!'"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Holy Spirit", "guidance", "comfort"],
+    "scripture_references": [],
+    "tune_source": "A. J. Gordon",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses, no chorus",
+    "first_line": "Holy Spirit, faithful guide"
+  }
+}

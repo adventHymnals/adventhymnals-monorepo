@@ -10,15 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Depth of mercy! can there be\nMercy still reserved for me?\nCan my God his wrath forbear?\nMe, the chief of sinners, spare?"
     },
     {
       "number": 2,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "I have long withstood his grace,\nLong provoked him to his face,\nWould not hearken to his calls,\nGrieved him by a thousand falls."
     },
     {
       "number": 3,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Now incline me to repent;\nLet me now my sins lament;\nNow my foul revolt deplore,\nWeep, believe, and sin no more."
+    },
+    {
+      "number": 4,
+      "text": "There for me the Saviour stands,\nShows his wounds and spreads his hands;\nGod is love! I know, I feel;\nJesus weeps, and loves me still."
+    },
+    {
+      "number": 5,
+      "text": "In the ark the weary dove\nFound a welcome resting place;\nThus my spirit longs to prove\nRest in Christ, the Ark of grace."
     }
   ],
   "metadata": {

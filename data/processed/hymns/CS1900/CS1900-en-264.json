@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-264",
+  "number": 264,
+  "title": "How Sweet the Name",
+  "author": "Newton",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How sweet the name of Jesus sounds\nIn a believer's ear!\nIt soothes his sorrows, heals his wounds,\nAnd drives away his fear."
+    },
+    {
+      "number": 2,
+      "text": "It makes the wounded spirit whole,\nAnd calms the troubled breast;\n'Tis manna to the hungry soul,\nAnd to the weary rest."
+    },
+    {
+      "number": 3,
+      "text": "Dear name! the rock on which I build,\nMy shield and hiding place;\nMy never-failing treasury, filled\nWith boundless stores of grace."
+    },
+    {
+      "number": 4,
+      "text": "Jesus, my Shepherd, Brother, Friend,\nMy Prophet, Priest, and King;\nMy Lord, my Life, my Way, my End,\nAccept the praise I bring."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["name of Jesus", "comfort", "healing", "refuge"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

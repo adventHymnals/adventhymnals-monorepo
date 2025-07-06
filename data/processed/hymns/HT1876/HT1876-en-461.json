@@ -1,0 +1,30 @@
+{
+  "id": "HT1876-en-461",
+  "number": 461,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "MY hope is built on nothing less\nThan Jesus' blood and righteousness ;\nI dare not trust the sweetest frame,\nBut wholly lean on Jesus' name."
+    },
+    {
+      "number": 2,
+      "text": "When darkness seems to veil his face,\nI rest on his unchanging grace ;\nIn every high and stormy gale,\nMy anchor holds within the veil."
+    },
+    {
+      "number": 3,
+      "text": "His promise, covenant, and blood,\nSupport me in the whelming flood ;\nWhen all around my soul gives way,\nHe then is all my hope and stay."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["hope", "Jesus' blood", "righteousness", "grace", "covenant"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "L. M."
+  }
+}

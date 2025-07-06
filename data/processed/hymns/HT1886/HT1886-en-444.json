@@ -1,7 +1,7 @@
 {
   "id": "HT1886-en-444",
   "number": 444,
-  "title": "Hymn 444 (To be extracted)",
+  "title": "Great God, When I Approach Thy Throne",
   "author": null,
   "composer": null,
   "tune": null,
@@ -10,16 +10,27 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Great God, when I approach thy throne,\nAnd all thy glory see,\nThis is my stay, and this alone,\nThat Jesus died for me."
+    },
+    {
+      "number": 2,
+      "text": "How can a soul condemned to die,\nEscape the just decree?\nHelpless, and full of sin am I,\nBut Jesus died for me."
+    },
+    {
+      "number": 3,
+      "text": "Burdened with sin's oppressive chain,\nO, how can I get free?\nNo peace can all my efforts gain,\nBut Jesus died for me."
+    },
+    {
+      "number": 4,
+      "text": "And, Lord, when I behold thy face,\nThis must be all my plea;\nSave me by thy almighty grace,\nFor Jesus died for me."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["salvation", "Jesus' death", "grace", "sin", "redemption"],
     "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "tune_source": "399, 396, 644",
+    "original_language": "en"
   }
 }

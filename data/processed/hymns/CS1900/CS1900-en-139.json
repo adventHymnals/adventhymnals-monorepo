@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-139",
+  "number": 139,
+  "title": "In Him",
+  "author": "E. M. G.",
+  "composer": "F. J. Haydn",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In Him: O life of glo - ry! in Him: O life of love! In Him: this is my sto - ry, in Him: a - bove"
+    },
+    {
+      "number": 2,
+      "text": "In Him: born back to glo - ry, in Him: o - ver-come sin; In Him: ask'd ere for glo - ry, in Him: shall not be vain"
+    },
+    {
+      "number": 3,
+      "text": "In Him: no love of stream - er, in Him: raised from care; In Him: Christ rules su - preme, Walk not - ing down"
+    },
+    {
+      "number": 4,
+      "text": "In Him: with just hope for - ev - er, in Him: truth he comes; In Him: O - ver eth - er, in Him: at home."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["glory", "love", "overcoming", "hope"],
+    "scripture_references": [],
+    "tune_source": "F. J. Haydn",
+    "original_language": "en"
+  }
+}

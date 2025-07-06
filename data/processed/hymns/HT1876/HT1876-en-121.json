@@ -1,0 +1,30 @@
+{
+  "id": "HT1876-en-121",
+  "number": 121,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "NOW is th' accepted time,\nNow is the day of grace ;\nNow, sinners come without delay,\nAnd seek the Saviour's face."
+    },
+    {
+      "number": 2,
+      "text": "Now is th' accepted time,\nThe Saviour calls to-day ;\nTo-morrow it may be too late—\nThen why should you delay ?"
+    },
+    {
+      "number": 3,
+      "text": "Now is th' accepted time,\nThe gospel bids you come ;\nAnd every promise in his word\nDeclares there yet is room."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["accepted time", "day of grace", "Saviour calls", "gospel", "delay"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "S. M."
+  }
+}

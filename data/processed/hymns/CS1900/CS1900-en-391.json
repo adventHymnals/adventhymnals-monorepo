@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-391",
+  "number": 391,
+  "title": "TIS LOVE THAT MAKES US HAPPY",
+  "author": "S. E. B.",
+  "composer": "F. C. Pickens",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'Tis love that makes us hap-py, 'Tis love that smooths the way;\nThis world is full of sor-row, Of sick-ness, death and sin;\nBut love will drive out trou-ble, And peace will en-ter in."
+    },
+    {
+      "number": 2,
+      "text": "And then our hearts are hap-py, And life seems all too brief;\nAnd joy comes to our spir-its, God is love; were his lit-tle chil-dren,\nOf Je-sus and his love. God is love; we should be like him."
+    }
+  ],
+  "chorus": {
+    "text": "'Tis love that makes us hap-py, 'Tis love that makes us sing;\nIt helps us 'round, it makes us kind."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["love", "happiness", "joy", "peace"],
+    "scripture_references": [],
+    "tune_source": "F. C. Pickens",
+    "original_language": "en"
+  }
+}

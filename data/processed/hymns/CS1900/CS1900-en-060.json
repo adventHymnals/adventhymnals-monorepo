@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-060",
+  "number": 60,
+  "title": "Calvary",
+  "author": "William R. Newell",
+  "composer": "D. B. Towner",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Years I spent in van i ty and pride,\nCar ing not my Lord was cru ci fied,\nKnow ing not it was for me he died\nOn Cal va ry."
+    },
+    {
+      "number": 2,
+      "text": "By God's word at last my sin I learned;\nThen I trem bled at the law I'd spurned,\nTill my guilt y soul im plor ing turned\nTo Cal va ry."
+    },
+    {
+      "number": 3,
+      "text": "Now I've giv'n to Je sus ev'ry thing,\nNow I glad ly own him as my King,\nNow my rapt ur ous soul can on ly sing\nOf Cal va ry."
+    },
+    {
+      "number": 4,
+      "text": "O the love that drew sal va tion's plan!\nO the grace that bro't it down to man!\nO the might y gulf that God did span\nAt Cal va ry!"
+    }
+  ],
+  "chorus": {
+    "text": "Mer cy there was great, and grace was free;\nPar don there was mul ti plied to me;\nThere my bur dened soul found lib er ty,\nAt Cal va ry."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Calvary", "salvation", "grace", "redemption", "cross"],
+    "scripture_references": [],
+    "tune_source": "D. B. Towner",
+    "original_language": "en"
+  }
+}

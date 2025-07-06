@@ -1,0 +1,30 @@
+{
+  "id": "HT1876-en-117",
+  "number": 117,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "SAY, burdened soul, whose numerous sins\nIn dark array arise,\nWhat canst thou find to suffocate\nThe terrors of thy debt ?"
+    },
+    {
+      "number": 2,
+      "text": "Canst thou not love the Friend who died\nTo quit thy burden of shame ?\nLook to the cross that precious blood,\nThe scourge, the cross, the tomb !"
+    },
+    {
+      "number": 3,
+      "text": "If heavy is thy weight of guilt,\nThy love must greater be ;\nThat very sin which was his spilt,\nWill shed his peace on thee."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["burdened soul", "sins", "Friend who died", "cross", "peace"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "C. M."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-315",
+  "number": 315,
+  "title": "Our Song of Praise",
+  "author": "E. S. Lorenz",
+  "composer": "J. H. Fillmore",
+  "tune": "Praise",
+  "meter": "10, 10, 10, 10.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Far away the noise of strife upon my ear is falling, Then I know the sin and sorrow of the sons of men; But when I catch the music of the triumphal calling, Then I know the soul of the people shall win."
+    },
+    {
+      "number": 2,
+      "text": "For too long, and too long, And too long, I have waited, But thy hope shall not deceive me; For the hoped-for day at last, And the ransomed of the Lord to their home have come."
+    },
+    {
+      "number": 3,
+      "text": "From the earth the risen and the freed ones sing rejoicing, Of the Lamb's great love that brought us from our sins; And our hearts as true respond; For with us he is dwelling, Lord of all to those who trust; Song of gratefulness and praise."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["praise", "victory", "redemption", "hope"],
+    "scripture_references": ["Revelation 5:9"],
+    "tune_source": "J. H. Fillmore",
+    "original_language": "en"
+  }
+}

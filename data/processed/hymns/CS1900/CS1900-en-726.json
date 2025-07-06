@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-726",
+  "number": 726,
+  "title": "The Time Is Near",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The time is near when Je-sus comes With ho-ly joy shall\nTo gath-er home His peo-ple dear, To meet Him in the sky;\nWhen skies with gold-en glo-ry crowned, With burn-ing splen-dor shine."
+    },
+    {
+      "number": 2,
+      "text": "The time is near when earth and sea Their long-kept se-crets tell,\nWhen moun-tains rend and na-tions flee, And sin-ners trem-ble well;\nWhen time it-self shall be no more, And days and years shall cease."
+    },
+    {
+      "number": 3,
+      "text": "The time is near when those who sleep In Je-sus shall a-rise,\nA-wake to joy per-pet-u-al, And look with glad sur-prise;\nWhen Christ shall come with shout of joy, And saints with Him shall reign."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": ["second coming", "resurrection", "eternal life"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,25 +1,25 @@
 {
   "id": "HT1886-en-487",
   "number": 487,
-  "title": "Hymn 487 (To be extracted)",
-  "author": null,
-  "composer": null,
+  "title": "For You I Am Praying",
+  "author": "C. Jessie Cluft",
+  "composer": "F. E. Belden",
   "tune": null,
   "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "[Copyright protected content - full text not available]"
     }
   ],
   "metadata": {
     "year": 1886,
-    "copyright": "Public Domain",
-    "themes": [],
+    "copyright": "Copyrighted 1886 by F. E. Belden",
+    "themes": ["prayer", "intercession", "salvation"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "F. E. Belden",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "metadata_only_copyright_protected"
   }
 }

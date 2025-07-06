@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-118",
+  "number": 118,
+  "title": "Write Thy Law",
+  "author": "E. E. Hewitt",
+  "composer": "Lowell Mason",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, I have made thy word my choice, My hope, my chief delight;\nFrom read thy law from day to day, Let not my heart depart;\nFrom read thy law from day to day, Let not my heart depart."
+    },
+    {
+      "number": 2,
+      "text": "I'll meditate thine in-tent law, Before the early dawn;\nAnd when the labor of the day Is o'er, I'll read thy word;\nAnd when the labor of the day Is o'er, I'll read thy word."
+    },
+    {
+      "number": 3,
+      "text": "The mercy they'll be lifted, That sat me right heart above;\nTill mortal life shall close in death, And I shall see my God;\nTill mortal life shall close in death, And I shall see my God."
+    }
+  ],
+  "chorus": {
+    "text": "Come and fill my heart, my Savior, is a mercy seek;\nCome and fill my heart, my Savior, is a mercy seek."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["God's word", "meditation", "law"],
+    "scripture_references": ["Psalm 119"],
+    "tune_source": "Lowell Mason",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "Lord, I have made thy word my choice"
+  }
+}

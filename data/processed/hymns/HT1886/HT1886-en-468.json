@@ -1,29 +1,36 @@
 {
   "id": "HT1886-en-468",
   "number": 468,
-  "title": "Take my heart, O Father, take it",
-  "author": null,
-  "composer": "James Langran",
-  "tune": "DEERHURST",
-  "meter": "8s & 7s, D",
+  "title": "What Shall the Harvest Be?",
+  "author": "Emily S. Oakey",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "Take my heart, O Father, take it;\nMake and keep it all thine own;\nLet thy Spirit so awake it,\nThis proud heart be made meek.\nFather, make it pure and lowly,\nFond of peace and scorning strife,\nTurning from the paths unholy,\nOf this vain and sinful life."
+      "text": "Sowing the seed by the daylight fair, Sowing the seed by the noontide glare, Sowing the seed by the fading light, Sowing the seed in the solemn night; Oh, what shall the harvest be?"
     },
     {
       "number": 2,
-      "text": "Ever let thy grace surround it,\nStrengthen it with power divine;\nTill thy cords of love have bound it,\nMake it to be wholly thine.\nMay the blood of Jesus heal it,\nAnd its sins be all forgiven;\nHoly Spirit, take and seal it,\nGuide it in the path to heaven."
+      "text": "Sowing the seed by the falling light, Sowing the seed in the solemn night, Sowing the seed of a tarnished name, Sowing the seed of eternal shame; Oh, what shall the harvest be?"
+    },
+    {
+      "number": 3,
+      "text": "Sowing the seed with an aching heart, Sowing the seed while the tear-drops start, Sowing in hope till the reapers come, Gladly to gather the harvest home; Oh, what shall the harvest be?"
     }
   ],
+  "chorus": {
+    "text": "Sown in the darkness or sown in the light, Sown in our weakness or sown in our might; Gathered in time or eternity, Sure, ah! sure will the harvest be."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["consecration", "heart", "surrender"],
-    "scripture_references": [],
-    "tune_source": "James Langran",
-    "extraction_status": "completed",
-    "original_language": "en"
+    "themes": ["sowing and reaping", "harvest", "consequences", "eternal destiny"],
+    "scripture_references": ["Gal. 6:7"],
+    "tune_source": "F. E. Belden",
+    "original_language": "en",
+    "extraction_status": "completed"
   }
 }

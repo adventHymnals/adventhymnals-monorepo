@@ -1,40 +1,39 @@
 {
   "id": "HT1886-en-458",
   "number": 458,
-  "title": "Does the gospel word proclaim",
-  "author": "John Newton",
-  "composer": "William B. Bradbury",
-  "tune": "ALLETTA",
-  "meter": "7s",
+  "title": "O Christian, Awake!",
+  "author": "Fanny J. Crosby",
+  "composer": "Philip Phillips",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "O Christian, awake! 'tis the Master's command; With helmet and shield, and a sword in thy hand, To meet the bold tempter, go, fearlessly go, And stand like the brave, with thy face to the foe."
     },
     {
       "number": 2,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "What tho' like a lion he seeketh his prey; Take heed and beware of his cunning today; The cause of thy Master with vigor defend; Be watchful, be sober, on Christ still depend."
     },
     {
       "number": 3,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Press on, never doubting, thy Captain is near, With grace to supply, and with comfort to cheer; His love, like a stream in the desert, will flow, And stand like the brave, with thy face to the foe."
     },
     {
       "number": 4,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Press on, never doubting, thy Captain is near, With grace to supply, and with comfort to cheer; His love, like a stream in the desert, will flow, And stand like the brave, with thy face to the foe."
     },
-    {
-      "number": 5,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    }
   ],
+  "chorus": {
+    "text": "And stand like the brave, with thy face to the foe, Then stand like the brave, with thy face to the foe. And stand like the brave, with thy face to the foe, Then stand like the brave, with thy face to the foe."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["spiritual weariness", "seeking rest", "comfort in Christ", "repentance"],
+    "themes": ["spiritual warfare", "Christian courage", "faith", "perseverance"],
     "scripture_references": [],
-    "tune_source": "William B. Bradbury",
+    "tune_source": "Philip Phillips",
     "original_language": "en",
     "extraction_status": "completed"
   }

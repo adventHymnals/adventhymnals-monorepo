@@ -1,34 +1,34 @@
 {
   "id": "HT1886-en-454",
   "number": 454,
-  "title": "In mercy, not in wrath",
-  "author": "Anonymous",
+  "title": "In Mercy, Not in Wrath",
+  "author": null,
   "composer": "Edwin Barnes",
-  "tune": "CONTRITION",
-  "meter": "S.M.",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "In mercy, not in wrath,\nRebuke thy gracious God!\nLest, if thy whole displeasure rise,\nI sink beneath thy rod."
     },
     {
       "number": 2,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Touched by thy quickening power,\nMy load of guilt I feel;\nThe wounds thy Spirit hath unclosed\nO let that Spirit heal!"
     },
     {
       "number": 3,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "In trouble and in gloom,\nMust I forever mourn?\nAnd wilt thou not at length, O God,\nIn pitying love return?"
     },
     {
       "number": 4,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "O come; ere life expire,\nSend down thy grace to save;\nFor what shall sing thy name in death,\nOr praise thee in the grave?"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["mercy", "repentance", "divine compassion", "redemption"],
+    "themes": ["mercy", "repentance", "guilt", "divine grace", "salvation"],
     "scripture_references": [],
     "tune_source": "Edwin Barnes",
     "original_language": "en",

@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-109",
+  "number": 109,
+  "title": "The Sprinkled Blood",
+  "author": "J. H. Stockton",
+  "composer": "J. H. Stockton",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The blood has been sprinkled, The price has been paid;\nThe sprinkled blood speaks peace, Forgiveness it hath made;\nThe sprinkled blood speaks peace, In Jesus' name I stand;\nThe sprinkled blood speaks peace, For me it cleanses me."
+    },
+    {
+      "number": 2,
+      "text": "The sprinkled blood gives me boldness, To come to the throne;\nThe sprinkled blood gives me boldness, To call Jesus my own;\nThe sprinkled blood gives me boldness, To trust in his word;\nThe sprinkled blood gives me boldness, To come to my Lord."
+    },
+    {
+      "number": 3,
+      "text": "The sprinkled blood speaks better things, Than that of Abel's blood;\nThe sprinkled blood speaks better things, It speaks of Jesus' blood;\nThe sprinkled blood speaks better things, It speaks of perfect peace;\nThe sprinkled blood speaks better things, From sin it brings release."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["blood of Christ", "atonement", "peace"],
+    "scripture_references": ["Hebrews 12:24"],
+    "tune_source": "J. H. Stockton",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses, no chorus",
+    "first_line": "The blood has been sprinkled"
+  }
+}

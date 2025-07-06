@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-333",
+  "number": 333,
+  "title": "Stand Up, and Bless the Lord",
+  "author": "J. Montgomery",
+  "composer": "Samuel J. Potter",
+  "tune": "Beatitudo",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Stand up, and bless the Lord, Ye people of his choice; Stand up, and bless the Lord your God With heart and soul and voice."
+    },
+    {
+      "number": 2,
+      "text": "Though high above all praise, Above all blessing high, Who would not fear his holy name, And laud and magnify?"
+    },
+    {
+      "number": 3,
+      "text": "O for the living flame From his own altar brought, To touch our lips, our minds inspire, And wing to heaven our thought!"
+    },
+    {
+      "number": 4,
+      "text": "God is our strength and song, And his salvation ours; Then be his love in Christ proclaimed With all our ransomed powers."
+    },
+    {
+      "number": 5,
+      "text": "Stand up, and bless the Lord, The Lord your God adore; Stand up, and bless his glorious name Henceforth and evermore."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["worship", "praise", "blessing", "adoration"],
+    "scripture_references": ["Nehemiah 9:5"],
+    "tune_source": "Samuel J. Potter",
+    "original_language": "en"
+  }
+}

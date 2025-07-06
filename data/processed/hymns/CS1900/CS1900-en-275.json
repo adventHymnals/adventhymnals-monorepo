@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-275",
+  "number": 275,
+  "title": "Before Jehovah's Throne",
+  "author": "Watts",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Before Jehovah's awful throne,\nYe nations, bow with sacred joy;\nKnow that the Lord is God alone,\nHe can create and he destroy."
+    },
+    {
+      "number": 2,
+      "text": "His sovereign power without our aid\nMade us of clay and formed us men;\nAnd when like wandering sheep we strayed,\nHe brought us to his fold again."
+    },
+    {
+      "number": 3,
+      "text": "We'll crowd thy gates with thankful songs,\nHigh as the heavens our voices raise;\nAnd earth with her ten thousand tongues\nShall fill thy courts with sounding praise."
+    },
+    {
+      "number": 4,
+      "text": "Wide as the world is thy command,\nVast as eternity thy love;\nFirm as a rock thy truth shall stand,\nWhen rolling years shall cease to move."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["worship", "God's sovereignty", "praise", "thanksgiving"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

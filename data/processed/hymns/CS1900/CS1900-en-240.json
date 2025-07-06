@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-240",
+  "number": 240,
+  "title": "Not a Wasted Moment",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Not a wasted moment in the morning fair, Not an idle thought in the stranger's prayer; Where the home is cheerless and the heart is bare, Where the children gather at the voice of prayer."
+    },
+    {
+      "number": 2,
+      "text": "Not a useless spirit among the lost, Not a vain or fruitless prayer; Not a Christ rejected, not a soul wave-tossed, With my Saviour I must live then there."
+    },
+    {
+      "number": 3,
+      "text": "Not a wasted moment all the way, Not a passing hour forgotten; Where the weak are weary through the field of strife, Where the loving heart keeps bright moments all the way."
+    }
+  ],
+  "chorus": {
+    "text": "Gathering golden sheaves for the Master, Sowing life and hope not they flow! Sowing life and hope not they flow!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["time", "moments", "wasted", "prayer", "Master", "sheaves", "sowing", "life", "hope"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

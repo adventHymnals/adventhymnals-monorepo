@@ -1,25 +1,25 @@
 {
   "id": "HT1886-en-488",
   "number": 488,
-  "title": "Hymn 488 (To be extracted)",
-  "author": null,
-  "composer": null,
+  "title": "Take Me as I Am",
+  "author": "E. H. H.",
+  "composer": "George C. Stebbins",
   "tune": null,
   "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "[Copyright protected content - used by permission]"
     }
   ],
   "metadata": {
     "year": 1886,
-    "copyright": "Public Domain",
-    "themes": [],
+    "copyright": "Used by permission",
+    "themes": ["salvation", "acceptance", "grace"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "George C. Stebbins",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "metadata_only_copyright_protected"
   }
 }

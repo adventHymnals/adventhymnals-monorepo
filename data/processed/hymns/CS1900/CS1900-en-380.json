@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-380",
+  "number": 380,
+  "title": "I LOVE TO TELL THE STORY",
+  "author": "Miss Kate Hankey",
+  "composer": "Wm. G. Fischer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I love to tell the sto-ry Of un-seen things a-bove,\nOf Je-sus and his glo-ry, Of Je-sus and his love.\nI love to tell the sto-ry, Be-cause I know 'tis true;\nIt sat-is-fies my long-ings As noth-ing else can do."
+    },
+    {
+      "number": 2,
+      "text": "I love to tell the sto-ry; More won-der-ful it seems\nThan all the gold-en fan-cies Of all our gold-en dreams.\nI love to tell the sto-ry, It did so much for me;\nAnd that is just the rea-son I tell it now to thee."
+    },
+    {
+      "number": 3,
+      "text": "I love to tell the sto-ry; 'Tis pleas-ant to re-peat\nWhat seems, each time I tell it, More won-der-ful-ly sweet.\nI love to tell the sto-ry, For some have nev-er heard\nThe mes-sage of sal-va-tion From God's own ho-ly Word."
+    },
+    {
+      "number": 4,
+      "text": "I love to tell the sto-ry, For those who know it best\nSeem hun-ger-ing and thirst-ing To hear it like the rest.\nAnd when, in scenes of glo-ry, I sing the new, new song,\n'Twill be the old, old sto-ry That I have loved so long."
+    }
+  ],
+  "chorus": {
+    "text": "I love to tell the sto-ry, 'Twill be my theme in glo-ry,\nTo tell the old, old sto-ry Of Je-sus and his love."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["testimony", "evangelism", "story of Jesus", "witness"],
+    "scripture_references": [],
+    "tune_source": "Wm. G. Fischer",
+    "original_language": "en"
+  }
+}

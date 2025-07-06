@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-303",
+  "number": 303,
+  "title": "Call My Name",
+  "author": "J. Osborne",
+  "composer": "A. Williams",
+  "tune": "Gethsemane",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I love to tell the story of unseen things above, Of Jesus and his glory, of Jesus and his love; I love to tell the story, because I know 'tis true; It satisfies my longings as nothing else can do."
+    },
+    {
+      "number": 2,
+      "text": "I love to tell the story; more wonderful it seems Than all the golden fancies of all our golden dreams; I love to tell the story, it did so much for me; And that is just the reason I tell it now to thee."
+    },
+    {
+      "number": 3,
+      "text": "I love to tell the story; 'tis pleasant to repeat What seems each time I tell it, more wonderfully sweet; I love to tell the story, for some have never heard The message of salvation from God's own holy word."
+    },
+    {
+      "number": 4,
+      "text": "I love to tell the story, for those who know it best Seem hungering and thirsting to hear it like the rest; And when, in scenes of glory, I sing the new, new song, 'Twill be the old, old story that I have loved so long."
+    }
+  ],
+  "chorus": {
+    "text": "I love to tell the story, 'twill be my theme in glory To tell the old, old story of Jesus and his love."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["testimony", "Jesus", "evangelism", "gospel"],
+    "scripture_references": ["Mark 16:15"],
+    "tune_source": "A. Williams",
+    "original_language": "en"
+  }
+}

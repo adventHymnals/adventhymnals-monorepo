@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-112",
+  "number": 112,
+  "title": "Jubilee",
+  "author": "H. J. Zelley",
+  "composer": "H. J. Zelley",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The good news is sounding, The trumpet is blowing,\nThe year of jubilee, The year of jubilee;\nFree grace is flowing, Free grace is flowing,\nThe year of jubilee, The year of jubilee."
+    },
+    {
+      "number": 2,
+      "text": "A day when Jesus' song, A day when Jesus' song,\nIs flowing sweet and clear, Is flowing sweet and clear;\nWhen grace shall ring and loud, When grace shall ring and loud,\nThe year of jubilee, The year of jubilee."
+    },
+    {
+      "number": 3,
+      "text": "And now the Savior calls, And now the Savior calls,\nThe time is drawing near, The time is drawing near;\nJust washed of guilty, Just washed of guilty,\nThe year of jubilee, The year of jubilee."
+    }
+  ],
+  "chorus": {
+    "text": "Jubilee, jubilee,\nThe year of jubilee;\nJubilee, jubilee,\nThe year of jubilee."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["jubilee", "freedom", "grace"],
+    "scripture_references": ["Leviticus 25:10"],
+    "tune_source": "H. J. Zelley",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "The good news is sounding"
+  }
+}

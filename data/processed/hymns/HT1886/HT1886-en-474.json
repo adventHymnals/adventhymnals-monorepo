@@ -1,32 +1,36 @@
 {
   "id": "HT1886-en-474",
   "number": 474,
-  "title": "Now we have met in Jesus' name",
-  "author": "William Cowper",
-  "composer": null,
+  "title": "Harvest Time",
+  "author": "Thomas Hastings",
+  "composer": "C. S. Carle",
   "tune": null,
   "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "Now we have met in Jesus' name,\nTo glorify our Lord we aim;\nWe serve each other in his will,\nWith anxious thoughts to do his will."
+      "text": "He that goeth forth with weeping, Bearing precious seed in love, Nev-er tir-ing, nev-er sleep-ing, Find-eth mercy from above."
     },
     {
       "number": 2,
-      "text": "We've met in love and holy fear,\nTo hear the happy sound declare\nThe rich compassion of a God—\nThe virtues of a Saviour's blood."
+      "text": "Soft descend the dews of heaven, Bright the rays celestial shine; Precious fruits will thus be given, Thro' an influence all divine."
     },
     {
       "number": 3,
-      "text": "O Saviour, help them to express\nThe wonders of triumphant grace,\nWhile to the mourner they freely own\nWhat for their souls the Lord hath done."
+      "text": "Sow thy seed, be nev-er wea-ry, Let no fears thy soul annoy; Be the prospect nev-er dreary, Thou shalt reap the fruits of joy."
     }
   ],
+  "chorus": {
+    "text": "Lo, the scene of verdure brightening! See the rising grain appear; Look! the waving fields are whitening, For the harvest time is near."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["fellowship", "worship", "grace"],
-    "scripture_references": [],
-    "tune_source": "William Cowper",
-    "original_language": "en"
+    "themes": ["sowing", "harvest", "perseverance", "reaping"],
+    "scripture_references": ["Ps. 126:6"],
+    "tune_source": "C. S. Carle",
+    "original_language": "en",
+    "extraction_status": "completed"
   }
 }

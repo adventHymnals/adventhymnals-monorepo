@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-727",
+  "number": 727,
+  "title": "No Abiding City Here",
+  "author": "J. Anstice",
+  "composer": "J. B. Dykes",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We have no a-bid-ing ci-ty here, Sad truth, were this\nOur rest; But for-ward still we press, through good and ill,\nSe-cure of rest A-bove; For we have Christ for all."
+    },
+    {
+      "number": 2,
+      "text": "Here faith and pa-tience we may learn, And they shall\nOur home; But let us not think to find our rest down here,\nFor the Lord's good Will we bow, With love to Him, and trust to His."
+    },
+    {
+      "number": 3,
+      "text": "And now we go for-ward on our way, With songs in-stead of tears,\nTo en-ter in at the e-ter-nal gates, That stand al-ways\nA-jar; For the Lord's good Will we bow, With love to Him, and trust to His."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": ["pilgrimage", "heaven", "journey", "faith"],
+    "scripture_references": [],
+    "tune_source": "J. B. Dykes",
+    "original_language": "en"
+  }
+}

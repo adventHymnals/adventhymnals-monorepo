@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-445",
   "number": 445,
-  "title": "Hymn 445 (To be extracted)",
-  "author": null,
+  "title": "Lord! at Thy Feet We Humbly Lie",
+  "author": "Simon Browne",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Lord! at thy feet we humbly lie,\nAnd knock at mercy's door;\nWith heavy heart and downcast eye\nThy favor we implore."
+    },
+    {
+      "number": 2,
+      "text": "'Tis mercy, mercy, we implore;\nWe have thy mercy:\nThy grace is an exhaustless store,\nAnd thou thyself art love."
+    },
+    {
+      "number": 3,
+      "text": "O, for the year, for Jesus sake\nOur numerous sins forgive!\nThy grace our stony hearts can break:\nHeal us, and bid us live."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["prayer", "mercy", "forgiveness", "humility", "grace"],
     "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "tune_source": "179, 596, 147",
+    "original_language": "en"
   }
 }

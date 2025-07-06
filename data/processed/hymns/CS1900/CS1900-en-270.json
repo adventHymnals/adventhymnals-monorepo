@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-270",
+  "number": 270,
+  "title": "I'll Praise",
+  "author": "Anon",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I'll praise thee, Lord, with all my heart,\nBefore thy people will I sing;\nI'll worship toward thy holy place,\nAnd to thy name thanksgiving bring."
+    },
+    {
+      "number": 2,
+      "text": "I'll praise thee for thy truthfulness,\nAnd for thy loving kindness free;\nFor thou hast magnified thy word\nAbove all thy great name to me."
+    },
+    {
+      "number": 3,
+      "text": "When I cried thou didst answer me,\nAnd with strength my soul inspire;\nAll the kings of earth shall praise thee,\nWhen they hear of thy desire."
+    },
+    {
+      "number": 4,
+      "text": "Yea, they shall sing of thy ways,\nFor great is thy glory, Lord;\nThough the Lord be high, yet hath he\nRespect unto the lowly word."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["praise", "worship", "thanksgiving", "God's glory"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

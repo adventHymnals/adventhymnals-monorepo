@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-716",
+  "number": 716,
+  "title": "Daughter of Zion",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Daugh-ter of Zi-on, from the dust Ex-alt thy fall-en head;\nA-gain in thy Re-deem-er trust, He calls thee from the dead."
+    },
+    {
+      "number": 2,
+      "text": "A-wake, a-wake, for thy light is come, The shad-ows flee a-way;\nRise up like the morn-ing sun, Thou cit-y of our joy."
+    },
+    {
+      "number": 3,
+      "text": "Rebuild thy walls, thy bounds en-large, And send thy her-alds forth;\nSay to the South, Give up thy charge, And keep not back, O North."
+    },
+    {
+      "number": 4,
+      "text": "Bring all thy sons from dis-tant lands, Thy daugh-ters from a-far;\nThey come like clouds, they come like doves, To their win-dows they re-pair."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": ["zion", "restoration", "awakening", "gathering"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

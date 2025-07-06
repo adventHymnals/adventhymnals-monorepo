@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-562",
+  "number": 562,
+  "title": "GENTLY THINK AND SPEAK",
+  "author": "John S. Norris",
+  "composer": "John S. Norris",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Gently think and gently speak\nOf the erring and the weak;\nStill their hearts are very tender,\nStill their hopes are very low."
+    },
+    {
+      "number": 2,
+      "text": "Do not break the bruised reed,\nDo not let the smoking flax\nBe extinguished by thy deed,\nStill their hearts are very tender."
+    },
+    {
+      "number": 3,
+      "text": "Gently judge and gently speak\nOf the failing and the weak;\nStill their hearts are very tender,\nStill their hopes are very low."
+    },
+    {
+      "number": 4,
+      "text": "Let love What thou canst not undo,\nGently think and gently speak,\nBut let narrow hearts grow deep,\nBut let narrow hearts grow deep."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["gentleness", "compassion", "kindness"],
+    "scripture_references": ["Isaiah 42:3"],
+    "tune_source": "John S. Norris",
+    "original_language": "en"
+  }
+}

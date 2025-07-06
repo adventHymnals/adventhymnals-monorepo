@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-265",
+  "number": 265,
+  "title": "The Very Thought of Thee",
+  "author": "Bernard",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The very thought of thee\nWith sweetness fills my breast;\nBut sweeter far thy face to see,\nAnd in thy presence rest."
+    },
+    {
+      "number": 2,
+      "text": "Nor voice can sing, nor heart can frame,\nNor can the memory find\nA sweeter sound than thy blest name,\nO Saviour of mankind!"
+    },
+    {
+      "number": 3,
+      "text": "O hope of every contrite heart,\nO joy of all the meek,\nTo those who fall, how kind thou art!\nHow good to those who seek!"
+    },
+    {
+      "number": 4,
+      "text": "But what to those who find? Ah! this\nNor tongue nor pen can show;\nThe love of Jesus, what it is,\nNone but his loved ones know."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["devotion", "Jesus' love", "divine presence", "contemplation"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

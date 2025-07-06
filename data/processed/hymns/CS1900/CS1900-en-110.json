@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-110",
+  "number": 110,
+  "title": "On Jesus",
+  "author": "E. A. Hoffman",
+  "composer": "J. H. Stockton",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I find the precious Jesus, I find the present Jesus,\nI find the precious Jesus, That Jesus is all to me;\nI find the precious Jesus, I find the present Jesus,\nI find the precious Jesus, And safe to all eternity."
+    },
+    {
+      "number": 2,
+      "text": "My hopes are all in Jesus, My hopes are all in Jesus,\nMy hopes are all in Jesus, He saved me from my sin;\nMy hopes are all in Jesus, My hopes are all in Jesus,\nMy hopes are all in Jesus, And lives and reigns within."
+    },
+    {
+      "number": 3,
+      "text": "My all is found in Jesus, My all is found in Jesus,\nMy all is found in Jesus, He's all the world to me;\nMy all is found in Jesus, My all is found in Jesus,\nMy all is found in Jesus, And Jesus is all to me."
+    }
+  ],
+  "chorus": {
+    "text": "Jesus is all to me,\nJesus is all to me;\nJesus is all to me,\nJesus is all to me."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Jesus Christ", "devotion", "complete dependence"],
+    "scripture_references": [],
+    "tune_source": "J. H. Stockton",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "I find the precious Jesus"
+  }
+}

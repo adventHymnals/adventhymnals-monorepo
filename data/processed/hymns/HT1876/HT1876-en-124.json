@@ -1,0 +1,30 @@
+{
+  "id": "HT1876-en-124",
+  "number": 124,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "DID Christ o'er sinners weep ?\nAnd shall our cheeks be dry ?\nLet floods of penitential grief\nBurst forth from every eye."
+    },
+    {
+      "number": 2,
+      "text": "The Son of God in tears\nThe wondering angels see ;\nBe thou astonished, O my soul !\nHe shed those tears for thee."
+    },
+    {
+      "number": 3,
+      "text": "He wept that we might weep ;\nEach sin demands a tear ;\nIn Heaven alone no sin is found,\nAnd there's no weeping there."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["Christ weep", "penitential grief", "Son of God", "tears", "Heaven"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "S. M."
+  }
+}

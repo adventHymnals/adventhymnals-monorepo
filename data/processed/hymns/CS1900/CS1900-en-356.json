@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-356",
+  "number": 356,
+  "title": "PRAISE THE LORD",
+  "author": "Montgomery",
+  "composer": "F. J. Haydn",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise the Lord! ye heavens adore him,\nPraise him, angels in the height;\nSun and moon, rejoice before him,\nPraise him, all ye stars of light."
+    },
+    {
+      "number": 2,
+      "text": "Praise the Lord! for he hath spoken,\nWorlds his mighty voice obeyed;\nLaws which never shall be broken\nFor their guidance he hath made."
+    },
+    {
+      "number": 3,
+      "text": "Praise the Lord! for he is glorious,\nNever shall his promise fail;\nGod hath made his saints victorious,\nSin and death shall not prevail."
+    },
+    {
+      "number": 4,
+      "text": "Praise the God of our salvation,\nHosts on high, his power proclaim;\nHeaven and earth and all creation\nLaud and magnify his name."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["praise", "worship", "creation"],
+    "scripture_references": [],
+    "tune_source": "F. J. Haydn",
+    "original_language": "en"
+  }
+}

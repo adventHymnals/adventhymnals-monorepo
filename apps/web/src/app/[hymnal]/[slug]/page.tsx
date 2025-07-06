@@ -9,7 +9,9 @@ import {
   ArrowLeftIcon,
   PlayIcon,
   PrinterIcon,
-  ShareIcon
+  ShareIcon,
+  MagnifyingGlassIcon,
+  ListBulletIcon
 } from '@heroicons/react/24/outline';
 
 import Layout from '@/components/layout/Layout';
@@ -136,6 +138,9 @@ export default async function HymnPage({ params }: HymnPageProps) {
 
   // Load related hymns
   const relatedHymns = await getRelatedHymns(hymnId, 6);
+  
+  // Load all hymns for the hymnal index
+  const { hymns: allHymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
 
   const breadcrumbs = generateHymnalBreadcrumbs(
     hymnalRef.name, 
@@ -180,12 +185,8 @@ export default async function HymnPage({ params }: HymnPageProps) {
 
               {/* Hymn Header */}
               <div className="text-center text-white">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full mb-4">
-                  <span className="text-2xl font-bold text-white">
-                    {hymn.number}
-                  </span>
-                </div>
-                <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl mb-4">
+                <h1 className="text-2xl font-bold tracking-tight sm:text-3xl lg:text-4xl mb-4">
+                  <span className="text-primary-200 mr-3">#{hymn.number}</span>
                   {hymn.title}
                 </h1>
                 
@@ -344,6 +345,62 @@ export default async function HymnPage({ params }: HymnPageProps) {
                     </div>
                   )}
                 </dl>
+              </div>
+
+              {/* Hymnal Index */}
+              <div className="bg-white rounded-xl shadow-sm border p-6 mb-6">
+                <div className="flex items-center mb-4">
+                  <ListBulletIcon className="h-5 w-5 text-primary-600 mr-2" />
+                  <h3 className="text-lg font-semibold text-gray-900">Hymnal Index</h3>
+                </div>
+                
+                {/* Search Input */}
+                <div className="relative mb-4">
+                  <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  <input
+                    type="text"
+                    placeholder="Search hymns..."
+                    className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none"
+                  />
+                </div>
+
+                {/* Hymn List */}
+                <div className="max-h-64 overflow-y-auto custom-scrollbar space-y-1">
+                  {allHymns.slice(0, 20).map((indexHymn) => (
+                    <Link
+                      key={indexHymn.id}
+                      href={`/${params.hymnal}/hymn-${indexHymn.number}-${indexHymn.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')}`}
+                      className={`block p-2 rounded-lg hover:bg-gray-50 transition-colors ${
+                        indexHymn.number === hymn.number ? 'bg-primary-50 border border-primary-200' : ''
+                      }`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <div className="flex-1 min-w-0">
+                          <div className="text-sm font-medium text-gray-900 truncate">
+                            <span className="text-primary-600 mr-2">#{indexHymn.number}</span>
+                            {indexHymn.title}
+                          </div>
+                          {indexHymn.author && (
+                            <div className="text-xs text-gray-500 truncate">
+                              by {indexHymn.author}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                  
+                  {allHymns.length > 20 && (
+                    <div className="text-center pt-2">
+                      <Link
+                        href={`/${params.hymnal}`}
+                        className="text-sm text-primary-600 hover:text-primary-700 font-medium"
+                      >
+                        View all {allHymns.length} hymns →
+                      </Link>
+                    </div>
+                  )}
+                </div>
               </div>
 
               {/* Related Hymns */}

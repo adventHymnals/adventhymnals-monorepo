@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-401",
+  "number": 401,
+  "title": "THE FAITHFUL THREE",
+  "author": "F. E. B.",
+  "composer": "F. F. Fleming",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Look up to the glo-ri-ous sun, Hear the king's de-cree,\nSee the form-ing giv-en ban-ners, And the faith-ful three;\n'Tows the ban-ner of our coun-try, Free now and for-est brave,\nAnd what-e'er be-tide the brave ones, Far-thers, free and bold."
+    },
+    {
+      "number": 2,
+      "text": "To the fur-nace let them has-ten, Cour-age in each breast;\nBut to serve a lie to do in er in days of old,\nAll who walk the path of du-ty, Fear-less, firm and bold."
+    }
+  ],
+  "chorus": {
+    "text": "Stand by the word, come good or ill,\nTruth is the Lord, O let us trust in the Lord."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["faithfulness", "courage", "standing firm", "truth"],
+    "scripture_references": [],
+    "tune_source": "F. F. Fleming",
+    "original_language": "en"
+  }
+}

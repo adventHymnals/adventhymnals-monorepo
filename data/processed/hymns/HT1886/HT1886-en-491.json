@@ -1,25 +1,25 @@
 {
   "id": "HT1886-en-491",
   "number": 491,
-  "title": "Hymn 491 (To be extracted)",
-  "author": null,
-  "composer": null,
+  "title": "Pass Me Not",
+  "author": "Fanny J. Crosby",
+  "composer": "W. H. Doane",
   "tune": null,
   "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "[Copyright protected content - used by permission]"
     }
   ],
   "metadata": {
     "year": 1886,
-    "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "copyright": "From 'Songs of Devotion,' by pem. Biglow & Main",
+    "themes": ["prayer", "mercy", "salvation"],
+    "scripture_references": ["Acts 2:17"],
+    "tune_source": "W. H. Doane",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "metadata_only_copyright_protected"
   }
 }

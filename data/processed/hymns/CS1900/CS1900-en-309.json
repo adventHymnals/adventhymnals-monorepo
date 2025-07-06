@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-309",
+  "number": 309,
+  "title": "O Worship the King!",
+  "author": "Robert Grant",
+  "composer": "J. M. Haydn",
+  "tune": "Lyons",
+  "meter": "10, 10, 11, 11.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O worship the King, all glorious above, O gratefully sing his power and his love; Our shield and defender, the Ancient of Days, Pavilioned in splendor, and girded with praise."
+    },
+    {
+      "number": 2,
+      "text": "O tell of his might, O sing of his grace, Whose robe is the light, whose canopy space, His chariots of wrath the deep thunderclouds form, And dark is his path on the wings of the storm."
+    },
+    {
+      "number": 3,
+      "text": "The earth with its store of wonders untold, Almighty, thy power hath founded of old; Hath stablished it fast by a changeless decree, And round it hath cast, like a mantle, the sea."
+    },
+    {
+      "number": 4,
+      "text": "Thy bountiful care, what tongue can recite? It breathes in the air, it shines in the light; It streams from the hills, it descends to the plain, And sweetly distills in the dew and the rain."
+    },
+    {
+      "number": 5,
+      "text": "Frail children of dust, and feeble as frail, In thee do we trust, nor find thee to fail; Thy mercies how tender, how firm to the end, Our Maker, Defender, Redeemer, and Friend."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["worship", "God's majesty", "creation", "divine power"],
+    "scripture_references": ["Psalm 104:1"],
+    "tune_source": "J. M. Haydn",
+    "original_language": "en"
+  }
+}

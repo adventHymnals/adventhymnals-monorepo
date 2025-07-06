@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-061",
+  "number": 61,
+  "title": "The Passover",
+  "author": "P. P. Bliss",
+  "composer": "P. P. Bliss",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When I see the blood, When I see the blood,\nWhen I see the blood, I will pass, I will pass o ver you."
+    },
+    {
+      "number": 2,
+      "text": "Chief est of sin ners though you be,\nSink not in de spair;\nThere's a foun tain filled for you,\nWash and en ter there."
+    },
+    {
+      "number": 3,
+      "text": "Judg ment can not reach you there,\nGuilt y though you be;\nPar don, peace, and life are yours,\nJe sus died for thee."
+    },
+    {
+      "number": 4,
+      "text": "\"When I see the blood,\" \"When I see the blood,\"\nWhen he sees the blood of his Son up on the heart,\nWhen he sees the blood, Sin ner, thou art free;\nWhen he sees the blood, He will pass, will pass o ver thee."
+    }
+  ],
+  "chorus": {
+    "text": "When I see the blood, When I see the blood,\nWhen I see the blood, I will pass, will pass o ver you."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1876, by P. P. Bliss.",
+    "themes": ["Passover", "blood", "salvation", "protection", "redemption"],
+    "scripture_references": ["Exodus 12:13"],
+    "tune_source": "P. P. Bliss",
+    "original_language": "en"
+  }
+}

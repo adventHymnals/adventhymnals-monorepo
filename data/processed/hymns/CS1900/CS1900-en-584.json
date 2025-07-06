@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-584",
+  "number": 584,
+  "title": "Ye Christian Heralds!",
+  "author": "Samuel F. Smith",
+  "composer": "Lowell Mason",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Ye Christian heralds! go, proclaim Salvation through Emmanuel's name; To distant climes the tidings bear, And plant the Rose of Sharon there."
+    },
+    {
+      "number": 2,
+      "text": "God shield you with a wall of fire, With flaming zeal your hearts inspire, Bid raging winds their fury cease, And hush the tempest into peace."
+    },
+    {
+      "number": 3,
+      "text": "And when our labors all are o'er, Then may we meet to part no more; Meet, with the blood-bought throng to fall, And crown our Jesus Lord of all."
+    }
+  ],
+  "refrain": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["evangelism", "missions", "salvation", "Emmanuel", "proclamation", "divine protection"],
+    "scripture_references": ["Matthew 28:19", "Mark 16:15"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

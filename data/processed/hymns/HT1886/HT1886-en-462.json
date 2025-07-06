@@ -1,44 +1,43 @@
 {
   "id": "HT1886-en-462",
   "number": 462,
-  "title": "I need thee, precious Jesus",
-  "author": "Frederick Whitefield",
-  "composer": "J. E. White",
-  "tune": "MARIETTA",
-  "meter": "7s & 6s",
+  "title": "Is Your Lamp Burning?",
+  "author": "Priscilla J. Owens",
+  "composer": "I. Baltzell",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Are you Christ's light-bearer? Of his joy a sharer? Is this dark world fair, or For your cheering ray? Is your beacon lighting, More and more each day?"
     },
     {
       "number": 2,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Is your heart warm, glowing, With his love overflowing, And his goodness showing More and more each day? Are you pressing onward With his radiance resplendent?"
     },
     {
       "number": 3,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Keep your altar burning, Wait your Lord's returning, With your love-light burning, Drawshim ever near; With his radiance resplendent Shall your soul be brightened."
     },
     {
       "number": 4,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Are you watching, watching For your souls benighted To the land of perfect day? Faith that ne'er shall wane, Light be blended When his glory shall appear."
     },
     {
       "number": 5,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "In the safe and narrow-way? O brother! is your lamp trimmed and burning? Is the world made brighter by Its cheering ray?"
     },
-    {
-      "number": 6,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    }
   ],
+  "chorus": {
+    "text": "Are you watching day by day? Lord's returning! Are you watching day by day?"
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["spiritual dependency", "need for Jesus", "guidance", "comfort", "hope"],
+    "themes": ["spiritual light", "Christian witness", "preparation", "watchfulness"],
     "scripture_references": [],
-    "tune_source": "J. E. White",
+    "tune_source": "I. Baltzell",
     "original_language": "en",
     "extraction_status": "completed"
   }

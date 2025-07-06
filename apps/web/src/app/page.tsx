@@ -117,13 +117,21 @@ export default async function HomePage() {
             <p className="mt-4 text-lg text-blue-200">
               Explore 13 complete hymnal collections with over 5,000 hymns from 1838 to 2000
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Link
-                href="/search"
-                className="btn-primary bg-white text-primary-600 hover:bg-gray-50 shadow-lg"
-              >
-                Start Searching
-              </Link>
+            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-x-6">
+              <div className="flex items-center gap-x-4">
+                <Link
+                  href="/search"
+                  className="btn-primary bg-white text-primary-600 hover:bg-gray-50 shadow-lg"
+                >
+                  Start Searching
+                </Link>
+                <Link
+                  href="/download"
+                  className="btn-primary bg-primary-500 text-white hover:bg-primary-400 shadow-lg border border-primary-400"
+                >
+                  Download App
+                </Link>
+              </div>
               <Link
                 href="/hymnals"
                 className="text-sm font-semibold leading-6 text-white hover:text-blue-200 transition-colors"

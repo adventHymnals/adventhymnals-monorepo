@@ -1,0 +1,31 @@
+{
+  "id": "HT1876-en-414",
+  "number": 414,
+  "title": "Bethany",
+  "language": "en",
+  "verses": [
+    {
+      "number": 2,
+      "text": "Though like a wanderer,\nDaylight all gone,\nDarkness be over me,\nMy rest a stone ;\nYet in my dreams I'd be\nNearer, my God, to thee,\nNearer, my God, to thee,\nNearer to thee."
+    },
+    {
+      "number": 3,
+      "text": "There let the way appear,\nSteps up to Heaven ;\nAll that thou sendest me,\nIn mercy given ;\nAngels to beckon me\nNearer, my God, to thee,\nNearer, my God, to thee,\nNearer to thee."
+    },
+    {
+      "number": 4,
+      "text": "Then, with my waking thoughts\nBright with thy praise,\nOut of my stony griefs\nBethel I'll raise ;\nSo by my woes to be\nNearer, my God, to thee,\nNearer, my God, to thee,\nNearer to thee."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["wanderer", "nearer to God", "dreams", "Bethel", "Jacob's ladder"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "6s & 4s",
+    "tune": "Bethany"
+  }
+}

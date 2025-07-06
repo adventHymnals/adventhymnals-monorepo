@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-348",
+  "number": 348,
+  "title": "COME, HOLY SPIRIT",
+  "author": "George Hews",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, Holy Spirit, come,\nWith energy divine,\nAnd on this earthly temple shine,\nTill its frail walls declare\nThe brightness of thy dwelling there."
+    },
+    {
+      "number": 2,
+      "text": "Come, Holy Spirit, come,\nWith sanctifying power,\nAnd bless this consecrated hour;\nThou who dost like the wind\nIn thine appearing, unconfined."
+    },
+    {
+      "number": 3,
+      "text": "Come, Holy Spirit, come,\nWith thy celestial fire,\nKindle in every heart desire\nThat it may worthily show\nThe sacred pledge we here bestow."
+    },
+    {
+      "number": 4,
+      "text": "Come, Holy Spirit, come,\nDwell in this temple here,\nMake it thy home from year to year,\nThy presence may each stone\nThroughout its frame make known."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Holy Spirit", "consecration", "divine presence"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

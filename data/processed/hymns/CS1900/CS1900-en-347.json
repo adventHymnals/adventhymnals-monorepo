@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-347",
+  "number": 347,
+  "title": "WE DEDICATE TO THEE",
+  "author": "A. P. Brown",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We are of thee and all we have;\nThe hands that builded the whole;\nThy will was in the builder's thought;\nThy hand unseen amidst us wrought."
+    },
+    {
+      "number": 2,
+      "text": "Through mortal motive, scheme, and plan,\nThy wise eternal purpose ran;\nIn our endeavor, work, and strife,\nInspire us with the higher life."
+    },
+    {
+      "number": 3,
+      "text": "And when these failing lips grow dumb,\nAnd when the heart shall cease to beat,\nAnd when these feet and hands grow numb,\nGranted that our work is done, complete."
+    },
+    {
+      "number": 4,
+      "text": "Apart from thee we have no good,\nApart from thee we nothing are;\nThy Spirit moves us where we would,\nThy love is round us everywhere."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["dedication", "consecration", "divine purpose"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

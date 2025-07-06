@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-394",
+  "number": 394,
+  "title": "ONE MORE NEW DAY",
+  "author": "E. E. Hewitt",
+  "composer": "E. E. Excell",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "One more new day for Je-sus, One more day to praise his name;\nOne more new day for Je-sus, One more day to praise his name;\nOne more new day for Je-sus, One more day to praise his name."
+    },
+    {
+      "number": 2,
+      "text": "One more new day for Je-sus, Too man-y days have passed me on - ly self-ish-ly pleas-ant, With bit-ter-ness at last, —while\nOne more new day for Je-sus, Try to live for Je-sus al-ways, and one day see me home."
+    }
+  ],
+  "chorus": {
+    "text": "One more new day, God's gift, God's way; One more, and all for Je-sus; he gives us more new day."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["new day", "opportunities", "service", "gratitude"],
+    "scripture_references": [],
+    "tune_source": "E. E. Excell",
+    "original_language": "en"
+  }
+}

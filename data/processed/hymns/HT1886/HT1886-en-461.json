@@ -1,36 +1,39 @@
 {
   "id": "HT1886-en-461",
   "number": 461,
-  "title": "I lay my sins on Jesus",
-  "author": "Horatius Bonar",
-  "composer": "J. E. White",
-  "tune": "MARIETTA",
-  "meter": "7s & 6s",
+  "title": "Ask Not to Be Excused",
+  "author": "F. E. Belden",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Ask not to be excused, There's earnest work to do; Stand ready to be used, Ask not to be excused, The Master calls today; Too long hast thou re-fused, Ask not to be excused, There's danger in delay; That wondrous love a-bused."
     },
     {
       "number": 2,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Where God may station you. His invitation kind To thee has oft been giv'n; Now hast-en to be true, The harvest fields are white, The laborers are few; For-ev-er turns a-way. While Mercy gently pleads And points the way to heav'n."
     },
     {
       "number": 3,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Accept, and thou shalt find 'Tis sweet to work for Heav'n, Come, O come, Jesus the joy de-lights, The Master's work to do. to-day, While Jesus in-ter-cedes, O come and be for-giv'n."
     },
     {
       "number": 4,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Ask not to be excused, Come, O come today, Stand ready to be used."
     }
   ],
+  "chorus": {
+    "text": "Come, O come, The Master's work to do, to-day, While Jesus in-ter-cedes, O come and be for-giv'n."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["laying sins on Jesus", "spiritual burdens", "seeking like-mindedness with Christ", "repentance"],
+    "themes": ["call to service", "urgency", "God's work", "no excuses"],
     "scripture_references": [],
-    "tune_source": "J. E. White",
+    "tune_source": "F. E. Belden",
     "original_language": "en",
     "extraction_status": "completed"
   }

@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-384",
+  "number": 384,
+  "title": "HOLD ON",
+  "author": "Rev. F. J. Sull",
+  "composer": "Robert Lowry",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "If your hand's on the plow, hold on, If the way to the soil may be ster-ile and hard, The plow-man will make his\nIf your heart's in the work, hold on, hold on; The tim-ber may be splin-tery and sad, A fight will up-pear, but"
+    },
+    {
+      "number": 2,
+      "text": "Hold on, keep your hand on the plow, hold on; Though the field be rough and the task be hard, The plow-man will get his re-ward,\nHold on, hold on, keep your hand on the plow, hold on; Though the field be rough and the task be hard, The plow-man will get his re-ward."
+    }
+  ],
+  "chorus": {
+    "text": "Hold on, hold on, hold on, hold on, Hold on, hold on, hold on, hold on, Though the field be rough and the task be hard, The plow-man will get his re-ward."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["perseverance", "faithfulness", "working", "endurance"],
+    "scripture_references": [],
+    "tune_source": "Robert Lowry",
+    "original_language": "en"
+  }
+}

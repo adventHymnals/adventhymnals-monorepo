@@ -1,32 +1,35 @@
 {
   "id": "HT1886-en-471",
   "number": 471,
-  "title": "Jesus, where'er thy people meet",
-  "author": "William Cowper",
-  "composer": "Lowell Mason",
-  "tune": "MALVERN",
-  "meter": "L.M.",
+  "title": "Work and Wait",
+  "author": "F. E. Belden",
+  "composer": "J. H. Tenney",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "Jesus, where'er thy people meet, There they behold thy mercy seat; Where'er they seek thee, thou art found, And every place is hallowed ground;"
+      "text": "O Christian, I-idle all the day! 'Tis not enough to wait and pray; O stand for duty, work for When sounds abroad the last great cry!"
     },
     {
       "number": 2,
-      "text": "For thou, within no walls confined, Dost dwell with those of humble mind; Such ever bring thee where they come, And, going, take thee to their home."
+      "text": "O work in earnest for the Lord And trust him for the great reward; Truth to thy task in-gathering lay! Lost, oh! so near thy sheltering ray!"
     },
     {
       "number": 3,
-      "text": "Great Shepherd of thy chosen few, Thy former mercies now renew; And to our waiting hearts proclaim The sweetness of thy saving name."
+      "text": "The time is short, the labor great, O work for Jesus while you wait. And there for God the sick stand. And there for God the sick stand; 'Tis he who labors wins the prize, No idler ear gains the skies. The crown of life that was for thee."
     }
   ],
+  "chorus": {
+    "text": "Work and wait, work and wait, Eternity of rest is near. Work and wait, The time is short, the labor great; O work and wait till Christ appear. Work and wait till Christ appear."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["divine presence", "mercy seat", "humble worship", "social worship"],
-    "scripture_references": [],
-    "tune_source": "Lowell Mason",
+    "themes": ["work", "waiting", "service", "diligence"],
+    "scripture_references": ["John 9:4"],
+    "tune_source": "J. H. Tenney",
     "original_language": "en",
     "extraction_status": "completed"
   }

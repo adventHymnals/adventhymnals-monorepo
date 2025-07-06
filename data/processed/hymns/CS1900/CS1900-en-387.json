@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-387",
+  "number": 387,
+  "title": "LET THE LOWER LIGHTS BE BURNING",
+  "author": "P. P. Bliss",
+  "composer": "P. P. Bliss",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Bright-ly beams our Fa-ther's mer-cy From his light-house ev-er-more,\nBut to us he gives the keep-ing Of the lights a-long the shore."
+    },
+    {
+      "number": 2,
+      "text": "Dark the night of sin has set-tled, Loud the an-gry bil-lows roar;\nEa-ger eyes are watch-ing, long-ing, For the lights a-long the shore."
+    },
+    {
+      "number": 3,
+      "text": "Trim your fee-ble lamp, my broth-er; Some poor sail-or, tem-pest-tossed,\nTry-ing now to make the har-bor, In the dark-ness may be lost."
+    }
+  ],
+  "chorus": {
+    "text": "Let the low-er lights be burn-ing! Send a gleam a-cross the wave!\nSome poor faint-ing, strug-gling sea-man You may res-cue, you may save."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["lighthouse", "guidance", "helping others", "witness"],
+    "scripture_references": [],
+    "tune_source": "P. P. Bliss",
+    "original_language": "en"
+  }
+}

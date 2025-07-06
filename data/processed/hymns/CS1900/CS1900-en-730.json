@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-730",
+  "number": 730,
+  "title": "We'll Stand the Storm",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Oh, stand the storm, it won't be long, We'll an-chor by and by;\nOh, stand the storm, it won't be long, We'll an-chor by and by."
+    },
+    {
+      "number": 2,
+      "text": "I have a moth-er in the prom-ised land, We'll an-chor by and by;\nI have a moth-er in the prom-ised land, We'll an-chor by and by."
+    },
+    {
+      "number": 3,
+      "text": "Oh, stand the storm, it won't be long, We'll an-chor by and by;\nOh, stand the storm, it won't be long, We'll an-chor by and by."
+    },
+    {
+      "number": 4,
+      "text": "I have a fa-ther in the prom-ised land, We'll an-chor by and by;\nI have a fa-ther in the prom-ised land, We'll an-chor by and by."
+    }
+  ],
+  "chorus": {
+    "text": "We'll an-chor by and by, We'll an-chor by and by;\nOh, stand the storm, it won't be long, We'll an-chor by and by."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": ["perseverance", "heaven", "family", "spiritual journey"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

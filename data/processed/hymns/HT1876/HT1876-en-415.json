@@ -1,0 +1,30 @@
+{
+  "id": "HT1876-en-415",
+  "number": 415,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "JESUS, we thy promise claim ;\nWe are gathered in thy name ;\nIn the midst do thou appear ;\nManifest thy presence here."
+    },
+    {
+      "number": 2,
+      "text": "Sanctify us, Lord, and bless ;\nBreathe thy Spirit, give thy peace ;\nCome and dwell within each heart,\nLight, and life, and joy impart."
+    },
+    {
+      "number": 3,
+      "text": "Make us all in thee complete ;\nMake us all for glory meet ;\nPartners of thy Spirit make,\nPartners of the saints in light."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["Jesus", "promise", "gathered", "presence", "Spirit"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "7s"
+  }
+}

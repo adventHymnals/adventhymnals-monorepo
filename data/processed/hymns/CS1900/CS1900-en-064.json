@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-064",
+  "number": 64,
+  "title": "There's Room for You to Anchor",
+  "author": "P. P. Bliss",
+  "composer": "P. P. Bliss",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There's room for you to an chor In the har bor of the Lord;\nThe ship is wait ing now, — The ship of God's pre cious word;\nThere's room for you to an chor That we have loved so long— That we have loved so long;\nThere's room for you to an chor In the har bor of the Lord."
+    },
+    {
+      "number": 2,
+      "text": "There's room for you to an chor In the har bor of the Lord;\nThe same old friend that brought That we have loved so long;\nThere's room for you to an chor In the har bor of the Lord,\nAnd since all more of ter, But we must sail a way— We must sail a way;\nThere's room for you to an chor In the har bor of the Lord."
+    },
+    {
+      "number": 3,
+      "text": "There's room for you to an chor In the har bor of the Lord;\nNow we are near the shore, But we must sail a way— We must sail a way;\nThere's room for you to an chor In the har bor of the Lord,\nCome then and ship with us, Ye lone— Ye lone— Ye lone— Ye lone peas, cease to blow!\nThere's room for you to an chor In the har bor of the Lord."
+    }
+  ],
+  "chorus": {
+    "text": "There's room for you to an chor Safe in har bor;\nThere's room for you to an chor Safe in har bor;\nThere's room for you to an chor Safe in har bor;\nThere's room (for you), there's room (for you), there's room for you."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of P. P. Bliss.",
+    "themes": ["anchor", "harbor", "safety", "refuge", "invitation"],
+    "scripture_references": ["Hebrews 6:19"],
+    "tune_source": "P. P. Bliss",
+    "original_language": "en"
+  }
+}

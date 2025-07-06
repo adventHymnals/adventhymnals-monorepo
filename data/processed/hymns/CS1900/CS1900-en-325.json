@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-325",
+  "number": 325,
+  "title": "The Only Lord",
+  "author": "R. Carmichael",
+  "composer": "J. Sweet",
+  "tune": "Sweet Home",
+  "meter": "L. M. D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Mid scenes of confusion and creature complaints, How sweet to the soul is communion with saints; To find at the banquet of mercy there's room, And feel in the presence of Jesus at home."
+    },
+    {
+      "number": 2,
+      "text": "Home, home, sweet, sweet home, Prepare me, dear Savior, for glory, my home. Sweet prospects, sweet birds, and sweet flowers, Are waiting for me in my home in the sky."
+    },
+    {
+      "number": 3,
+      "text": "While here in the valley of conflict I stay, O give me submission and strength as my day; In all my afflictions to thee would I come, Rejoicing in hope of my glorious home."
+    },
+    {
+      "number": 4,
+      "text": "Whate'er thou deniest, O give me thy grace, The spirit of supplication and prayer; That I may live as one who is wholly thine, And be thy name throughout all time."
+    }
+  ],
+  "chorus": {
+    "text": "Home, home, sweet, sweet home, Prepare me, dear Savior, for glory, my home."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["heaven", "home", "communion", "comfort"],
+    "scripture_references": ["John 14:2"],
+    "tune_source": "J. Sweet",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-283",
+  "number": 283,
+  "title": "How Happy Are They!",
+  "author": "Charles Wesley",
+  "composer": "Arranged",
+  "tune": "Complur",
+  "meter": "S. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How happy are they who their Savior obey, And have laid up their treasure above! Tongue cannot express the sweet comfort and peace Of a soul in its earliest love."
+    },
+    {
+      "number": 2,
+      "text": "That comfort was mine when the favor divine I first found in the blood of the Lamb; When my heart first believed, what a joy I received, What a heaven in Jesus's name!"
+    },
+    {
+      "number": 3,
+      "text": "O the rapturous height of that holy delight Which I felt in the life-giving blood! Of my Savior possessed, I was perfectly blessed, As if filled with the fullness of God."
+    },
+    {
+      "number": 4,
+      "text": "'Twas a heaven below my Redeemer to know, And the angels could do nothing more, Than to fall at his feet, and the story repeat, And the lover of sinners adore."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["salvation", "joy", "faith", "redemption"],
+    "scripture_references": ["John 3:16"],
+    "tune_source": "Arranged",
+    "original_language": "en"
+  }
+}

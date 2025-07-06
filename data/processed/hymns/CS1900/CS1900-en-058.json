@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-058",
+  "number": 58,
+  "title": "Memories of Galilee",
+  "author": "Robert Morris",
+  "composer": "H. R. Palmer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Each cool ing breeze that sweeps the sea And stirs the Gal i lee,\nWakes in my heart a song of joy, A song of love to thee;\nThat tells what thou hast done for me, How thou hast set me free,\nAnd filled my soul with per fect rest, Sweet mem o ries of Gal i lee."
+    },
+    {
+      "number": 2,
+      "text": "Each peb ble on the shin ing shore Tells of thy love to me;\nAnd when the lit tle wave lets dance Be neath the olive tree,\nThey whis per of the bless ed One Who gave his life for me,\nAnd filled my soul with per fect rest, Sweet mem o ries of Gal i lee."
+    },
+    {
+      "number": 3,
+      "text": "Each ray of light that gilds the hills Where Je sus lov'd to be,\nEach star that shines in east ern skies A bove the Gal i lee,\nRe minds me of my Sav iour's love, His ten der care for me,\nAnd fills my soul with per fect rest, Sweet mem o ries of Gal i lee."
+    }
+  ],
+  "chorus": {
+    "text": "Sweet mem o ries of Gal i lee, Sweet mem o ries of Gal i lee,\nIn Je sus found sweet rest for me, Sweet mem o ries of Gal i lee."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "By permission of Dr. H. R. Palmer.",
+    "themes": ["Galilee", "memories", "Jesus", "rest", "peace"],
+    "scripture_references": [],
+    "tune_source": "H. R. Palmer",
+    "original_language": "en"
+  }
+}

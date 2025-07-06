@@ -1,32 +1,32 @@
 {
   "id": "HT1886-en-472",
   "number": 472,
-  "title": "Far from my thoughts, vain world, begone!",
-  "author": "Isaac Watts",
-  "composer": null,
-  "tune": "MALVERN",
-  "meter": "L. M.",
+  "title": "Watch and Pray",
+  "author": "Anon",
+  "composer": "R. Lowry",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "Far from my thoughts, vain world, begone!\nLet my religious hours alone;\nFain would mine eyes my Saviour see;\nI wait a visit, Lord, from thee."
+      "text": "Watch, the time is short; Watch while 'tis day; Watch, for the night Watch, for the flesh is weak; Chase slumber from thine eyes, Chase doubting from thy breast; Take up thy cross for thy Master's sake, the Lord is near; Gird well the armor."
     },
     {
       "number": 2,
-      "text": "My heart grows warm with holy fire,\nAnd kindles with a pure desire;\nCome, my dear Jesus! from above,\nAnd feed my soul with heavenly love."
-    },
-    {
-      "number": 3,
-      "text": "Blest Saviour, what delicious fare!\nHow sweet thine entertainments are!\nNever did angels taste, above,\nRedeeming grace and dying love."
+      "text": "Watch, for the foe is near; Watch, lest the Bridegroom come; Watch, though he tarry long. Our Saviour warns us well to watch; there poured Great-heart-ed, O watch and pray; Make thou no more delay, In this adopted time Watch thou, and pray."
     }
   ],
+  "chorus": {
+    "text": "O watch and pray, O watch and pray, O watch and pray, O watch and pray; O watch and pray! O watch in the darkness, and watch in the day; Christian, watch and pray."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["prayer", "devotion", "communion"],
-    "scripture_references": [],
-    "tune_source": "Isaac Watts",
-    "original_language": "en"
+    "themes": ["watchfulness", "prayer", "vigilance", "spiritual warfare"],
+    "scripture_references": ["1 Cor. 16:13"],
+    "tune_source": "R. Lowry",
+    "original_language": "en",
+    "extraction_status": "completed"
   }
 }

@@ -1,0 +1,38 @@
+{
+  "id": "HT1876-en-123",
+  "number": 123,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "BESIDE the gospel pool,\nAppointed for the poor,\nFrom day to day my heal soul\nDoes for a cure endure."
+    },
+    {
+      "number": 2,
+      "text": "How often have I thought,\nWhy should I longer lie ?\nSurely the mercy I have sought\nIs flowing freely by."
+    },
+    {
+      "number": 3,
+      "text": "But whither can I go ?\nThere is no other way\nWhere streams of sovereign mercy flow,\nTo make a sinner whole."
+    },
+    {
+      "number": 4,
+      "text": "Still, then, from day to day,\nI'll wait, and not despair ;\nCan Jesus hear a sinner pray,\nYet suffer him to die ?"
+    },
+    {
+      "number": 5,
+      "text": "No ; he is full of grace,\nAnd never will permit\nA soul that fain would see his face\nTo perish at his feet."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["gospel pool", "poor", "mercy", "sinner", "grace"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "S. M."
+  }
+}

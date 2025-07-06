@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-111",
+  "number": 111,
+  "title": "I Need Thee",
+  "author": "Annie S. Hawks",
+  "composer": "Robert Lowry",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I need thee every hour, Most gracious Lord;\nNo tender voice like thine Can peace afford;\nI need thee, O I need thee, Every hour I need thee;\nO bless me now, my Savior, I come to thee!"
+    },
+    {
+      "number": 2,
+      "text": "I need thee every hour, Stay thou near by;\nTemptations lose their power When thou art nigh;\nI need thee, O I need thee, Every hour I need thee;\nO bless me now, my Savior, I come to thee!"
+    },
+    {
+      "number": 3,
+      "text": "I need thee every hour, In joy or pain;\nCome quickly and abide, Or life is vain;\nI need thee, O I need thee, Every hour I need thee;\nO bless me now, my Savior, I come to thee!"
+    },
+    {
+      "number": 4,
+      "text": "I need thee every hour, Most holy One;\nO make me thine indeed, Thou blessed Son;\nI need thee, O I need thee, Every hour I need thee;\nO bless me now, my Savior, I come to thee!"
+    }
+  ],
+  "chorus": {
+    "text": "I need thee, O I need thee,\nEvery hour I need thee;\nO bless me now, my Savior,\nI come to thee!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["dependence on Christ", "prayer", "communion"],
+    "scripture_references": [],
+    "tune_source": "Robert Lowry",
+    "original_language": "en",
+    "verse_count": 4,
+    "structure": "4 verses with chorus",
+    "first_line": "I need thee every hour"
+  }
+}

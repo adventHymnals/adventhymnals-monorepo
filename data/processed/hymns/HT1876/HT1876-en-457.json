@@ -1,0 +1,35 @@
+{
+  "id": "HT1876-en-457",
+  "number": 457,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "LET me go where saints are going,\nTo the mansions of the blest ;\nLet me go where none are going\nThat keep not the Sabbath rest ;\nI would gain the realms of brightness,\nWhere they dwell for evermore ;\nI would share the joys that wait me,\nOver on the other shore."
+    }
+  ],
+  "chorus": {
+    "text": "Let me gain the realms of glory ;\nLet me gain the realms of day ;\nBear me over, angel pinions,\nLoose my soul to be away."
+  },
+  "additional_verses": [
+    {
+      "number": 2,
+      "text": "Let me go where none are weary,\nWhere is raised no note of woe ;\nLet me go and bethink me merely\nOf the bliss I'm going to ;\nLet me go, for bliss eternal\nLures my soul away, away,\nAnd the voice a song triumphant\nThrills my heart, I cannot stay.\nCho.—Let me go, &c."
+    },
+    {
+      "number": 3,
+      "text": "Let me go, why should I tarry ?\nWhat has earth to bind me here ?\nNot what each does so clearly\nOthers will cling to so dear ;\nLet me go, for hopes most cherished,\nBlasted round me often lie ;\nOh ! The grief too brightest flowers,\nBut to wither and to die.\nCho.—Let me go, &c."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["saints", "mansions", "Sabbath rest", "realms of brightness", "glory"],
+    "original_language": "en",
+    "has_chorus": true,
+    "meter": "8s & 7s. Double."
+  }
+}

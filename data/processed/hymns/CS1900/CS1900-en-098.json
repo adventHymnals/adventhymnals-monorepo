@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-098",
+  "number": 98,
+  "title": "Nothing For Jesus",
+  "author": "Mrs. M. B. Jones",
+  "composer": "W. J. Kirkpatrick",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Nothing for Jesus! O fearful thought it;\nGrateful to you you never seem to be;\nNothing for Jesus, when he has given All;\nNothing for Jesus, when you are rich and free."
+    },
+    {
+      "number": 2,
+      "text": "Nothing for Jesus! O you youth and maiden, Have you no music for the ear?\nNothing for Jesus, you who own his riches;\nNothing for Jesus in your youth so dear."
+    },
+    {
+      "number": 3,
+      "text": "Nothing for Jesus! Let not standing, it would be\nSomething yet to repent, an aid to all; in vain;\nNothing for Jesus, when he gave all that he had;\nNothing for Jesus, when you know you're saved."
+    },
+    {
+      "number": 4,
+      "text": "Something for Jesus, Something for Jesus;\nLet not another day pass by;\nSomething for Jesus, Something for Jesus;\nHe gave his all for you and I."
+    }
+  ],
+  "chorus": {
+    "text": "Nothing for Jesus! yet he died for you;\nNothing for Jesus! can this be true?\nNothing for Jesus, who gave all for thee!\nNothing for Jesus! O tell me say."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["service", "gratitude", "sacrifice"],
+    "scripture_references": [],
+    "tune_source": "W. J. Kirkpatrick",
+    "original_language": "en",
+    "verse_count": 4,
+    "structure": "4 verses with chorus",
+    "first_line": "Nothing for Jesus! O fearful thought it"
+  }
+}

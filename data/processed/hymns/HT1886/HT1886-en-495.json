@@ -1,25 +1,25 @@
 {
   "id": "HT1886-en-495",
   "number": 495,
-  "title": "Hymn 495 (To be extracted)",
-  "author": null,
-  "composer": null,
+  "title": "Jesus Is Passing",
+  "author": "J. E. White",
+  "composer": "J. E. White",
   "tune": null,
   "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "[Copyright protected content - full text not available]"
     }
   ],
   "metadata": {
     "year": 1886,
-    "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "copyright": "Copyrighted 1886 by J. E. White",
+    "themes": ["salvation", "healing", "opportunity"],
+    "scripture_references": ["Matthew 20:30"],
+    "tune_source": "J. E. White",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "metadata_only_copyright_protected"
   }
 }

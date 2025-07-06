@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-407",
+  "number": 407,
+  "title": "FREELY GIVE",
+  "author": "Fanny J. Crosby",
+  "composer": "Thos. E. Perkins",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Would you win a Savior's blessing? Freely, freely give;\nWould you win a cheerful heart and willing hands? Freely, freely give;\nLive to point the poor to glory, freely, freely give."
+    },
+    {
+      "number": 2,
+      "text": "Would you have the sweetest flowers blooming in your way?\nHave you hills? Give your sunshine\nWould you gain a friend in Jesus? Freely, freely give."
+    },
+    {
+      "number": 3,
+      "text": "Would you have a song of gladness echoing all the day?\nHave you hills? Give your sunshine\nO how precious is the sight! If your offering will be blessed;\nIn the harvest of the Lord! Freely, freely give."
+    }
+  ],
+  "chorus": {
+    "text": "Freely, freely give;\nFreely, freely give;\nThere is the deed to the word;\nFreely, freely give."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["generosity", "stewardship", "giving"],
+    "scripture_references": ["Matthew 10:8"],
+    "tune_source": "Thos. E. Perkins",
+    "original_language": "en"
+  }
+}

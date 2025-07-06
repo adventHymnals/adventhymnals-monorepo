@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-316",
+  "number": 316,
+  "title": "Power to Open",
+  "author": "J. M. H.",
+  "composer": "Spanish Hymn",
+  "tune": "Madrid",
+  "meter": "6, 6, 6, 6, 8, 8.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, thou almighty King, Help us thy name to sing, Help us to praise; Father all-glorious, O'er all victorious, Come and reign over us, Ancient of Days."
+    },
+    {
+      "number": 2,
+      "text": "Come, thou incarnate Word, Gird on thy mighty sword, Our prayer attend; Come and thy people bless, And give thy word success, Spirit of holiness, On us descend."
+    },
+    {
+      "number": 3,
+      "text": "Come, holy Comforter, Thy sacred witness bear In this glad hour; Thou who almighty art, Now rule in every heart, And ne'er from us depart, Spirit of power."
+    },
+    {
+      "number": 4,
+      "text": "To thee, great One in Three, Eternal praises be Hence evermore; Thy sovereign majesty May we in glory see, And to eternity Love and adore."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Trinity", "worship", "praise", "divine power"],
+    "scripture_references": ["Revelation 4:8"],
+    "tune_source": "Spanish Hymn",
+    "original_language": "en"
+  }
+}

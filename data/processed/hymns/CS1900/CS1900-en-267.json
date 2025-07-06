@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-267",
+  "number": 267,
+  "title": "I Will Follow Thee",
+  "author": "Lathbury",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I will follow thee, my Saviour,\nWherever thou dost go;\nI will learn of thee, my Master,\nAll I ought to know."
+    },
+    {
+      "number": 2,
+      "text": "Thou didst call me to thy service,\nAnd I answered, 'Here am I!'\nSend me where thou wilt, my Master,\nI will follow thee on high."
+    },
+    {
+      "number": 3,
+      "text": "I will join the mighty chorus\nOf thy servants round thy throne;\nI will be thy faithful follower,\nThine, and thine alone."
+    },
+    {
+      "number": 4,
+      "text": "I will follow thee, my Saviour,\nThrough the darkest, deepest night;\nI will trust in thee, my Master,\nTill the day breaks bright."
+    }
+  ],
+  "chorus": {
+    "text": "I will follow thee, my Saviour,\nWherever thou dost lead;\nI will trust in thee, my Master,\nThou wilt supply my need."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["discipleship", "following Jesus", "service", "trust"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

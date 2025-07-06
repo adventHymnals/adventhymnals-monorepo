@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-300",
+  "number": 300,
+  "title": "I'll Live for Him",
+  "author": "R. E. Hudson",
+  "composer": "C. R. Dunbar",
+  "tune": null,
+  "meter": "8, 7, 8, 7, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My life, my love, I give to thee, Thou Lamb of God who died for me; O may I ever faithful be, My Savior and my God!"
+    },
+    {
+      "number": 2,
+      "text": "I now believe thou dost receive, For thou hast died that I might live; And now henceforth I'll trust in thee, My Savior and my God!"
+    },
+    {
+      "number": 3,
+      "text": "O thou who died on Calvary, To rid my soul of one dark blot, And to fulfill thy law in me, My Savior and my God!"
+    }
+  ],
+  "chorus": {
+    "text": "I'll live for him who died for me, How happy then my life shall be! I'll live for him who died for me, My Savior and my God!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["dedication", "life commitment", "salvation", "devotion"],
+    "scripture_references": ["2 Corinthians 5:15"],
+    "tune_source": "C. R. Dunbar",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-104",
+  "number": 104,
+  "title": "Fill Me Now",
+  "author": "E. R. Stokes",
+  "composer": "J. H. Stockton",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hover o'er me, Holy Spirit, Bathe my trembling heart and brow;\nFill me with thy hallowed presence, Come, O come and fill me now."
+    },
+    {
+      "number": 2,
+      "text": "I am weakness, full of weakness, At thy sacred feet I bow;\nBlest divine, eternal Spirit, Fill with power and fill me now."
+    },
+    {
+      "number": 3,
+      "text": "Cleanse and comfort, bless and save me, Bathe, O bathe my heart and brow;\nThou art comforting and saving, Thou art sweetly filling now."
+    }
+  ],
+  "chorus": {
+    "text": "Fill me now, fill me now,\nJesus, come and fill me now;\nFill me with thy hallowed presence,\nCome, O come and fill me now."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Holy Spirit", "filling", "sanctification"],
+    "scripture_references": ["Ephesians 5:18"],
+    "tune_source": "J. H. Stockton",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "Hover o'er me, Holy Spirit"
+  }
+}

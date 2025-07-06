@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-057",
+  "number": 57,
+  "title": "The Lost Sheep",
+  "author": "Ira D. Sankey",
+  "composer": "P. P. Bliss",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There were nine ty and nine that safe ly lay In the shel ter of the fold,\nBut one was out on the hills a way, Far off from the gates of gold,\nA way on the moun tains wild and bare, A way from the ten der Shep herd's care."
+    },
+    {
+      "number": 2,
+      "text": "\"Lord, thou hast here thy nine ty and nine; Are they not e nough for thee?\"\nBut the Shep herd made an swer: \"This of mine Has wan der'd a way from me,\nAnd al though the road be rough and steep, I go to the des ert to find my sheep.\""
+    },
+    {
+      "number": 3,
+      "text": "But none of the ran somed ev er knew How deep were the wa ters crossed;\nNor how dark was the night that the Lord pass'd through Ere he found his sheep that was lost.\nOut in the des ert he heard its cry — Sick and help less, and rea dy to die."
+    },
+    {
+      "number": 4,
+      "text": "\"Lord, whence are those blood drops all the way That mark out the moun tain's track?\"\n\"They were shed for one who had gone a stray Ere the Shep herd could bring him back.\"\n\"Lord, whence are thy hands so rent and torn?\" \"They are pierced to night by man y a thorn.\""
+    },
+    {
+      "number": 5,
+      "text": "But all through the moun tains, thun der riv'n, And up from the rock y steep,\nThere a rose a cry to the gate of heav'n, \"Re joice! I have found my sheep!\"\nAnd the an gels ech oed a round the throne, \"Re joice! for the Lord brings back his own!\""
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright by Ira D. Sankey.",
+    "themes": ["lost sheep", "redemption", "Christ's love", "salvation"],
+    "scripture_references": ["Luke 15:3-7"],
+    "tune_source": "P. P. Bliss",
+    "original_language": "en"
+  }
+}

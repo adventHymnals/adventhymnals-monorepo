@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-063",
+  "number": 63,
+  "title": "The Handwriting on the Wall",
+  "author": "Belshazzar",
+  "composer": "P. P. Bliss",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "At the feast of Bel shaz zar and a thous and of his lords,\nWhile they drank from gold en ves sels, as the Book of Truth re cords,\nIn the night as they re vel'd in the roy al pal ace hall,\nThey were seized with con ster na tion — 'twas the Hand up on the wall."
+    },
+    {
+      "number": 2,
+      "text": "See the brave cap tains and war riors, how they fal ter at the sight,\nSee the might y men of val or, and the no ble men of might;\nAll their cour age had de part ed, for no war rior, brave and tall,\nDared to face the fright ful mes sage — 'twas the Hand up on the wall."
+    },
+    {
+      "number": 3,
+      "text": "On the wall the fin gers wrote it, in the pres ence of them all;\nSoon the right eous God will smite us, is the warn ing on the wall."
+    }
+  ],
+  "chorus": {
+    "text": "'Tis the hand of God on the wall! 'Tis the hand of God on the wall!\nShall the rec ord be 'Found want ing,' or shall it be 'Found trust ing,'\nWhile that hand is on the wall?"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Belshazzar", "judgment", "warning", "handwriting on wall", "accountability"],
+    "scripture_references": ["Daniel 5:1-31"],
+    "tune_source": "P. P. Bliss",
+    "original_language": "en"
+  }
+}

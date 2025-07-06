@@ -1,32 +1,31 @@
 {
   "id": "HT1886-en-465",
   "number": 465,
-  "title": "Jesus, merciful and mild",
-  "author": "Thomas Hastings",
-  "composer": "Simeon B. Marsh",
-  "tune": "MARTYN",
-  "meter": "7s, D",
+  "title": "Tidings from the Battle",
+  "author": "F. E. B.",
+  "composer": "F. C. Belden",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Words of cheer unto the battle-field of life, Welcome tidings from the war; Fierce and long has the struggle been with sin, Still the church moves on before; Stand like men! there's a battle to be fought! Per-se-cu-tion's pow'r will rage; Who so strong to trust in self a-lone? 'Gainst a foe so swift and sure?"
     },
     {
       "number": 2,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    },
-    {
-      "number": 3,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Glorious news from the grand and holy strife, Soon the conflict will be o'er; War with-out, and temp-ta-tion from with-in, Vainly seek her o-ver-throw; Trust in God! he is mightier than man! For his saints in jeopardy; Who so weak that he cannot grasp the throne And the promised help se-cure?"
     }
   ],
+  "chorus": {
+    "text": "Words of battle cheer! tidings from the war! How the good the conflict! Victory's near; Words of battle cheer! tidings from the war! Glorious news of victory! Words of cheer."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["seeking God's guidance", "divine love", "spiritual transformation", "mercy"],
+    "themes": ["spiritual warfare", "victory", "encouragement", "battle"],
     "scripture_references": [],
-    "tune_source": "Simeon B. Marsh",
+    "tune_source": "F. C. Belden",
     "original_language": "en",
     "extraction_status": "completed"
   }

@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-120",
+  "number": 120,
+  "title": "That Dreadful Day",
+  "author": "Robert Lowry",
+  "composer": "Robert Lowry",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "What a day of trial shall be, When the Lord shall try;\nWhen that day of trial shall be, When the saints shall fly;\nWhen that day of trial shall be, When the Lord shall come;\nWhen that day of trial shall be, He shall judge each one."
+    },
+    {
+      "number": 2,
+      "text": "What a day of trial shall be, When the Lord shall try;\nWhen that day of trial shall be, We shall hear the cry;\nWhen that day of trial shall be, When the Lord shall come;\nWhen that day of trial shall be, He shall judge each one."
+    },
+    {
+      "number": 3,
+      "text": "What a day of trial shall be, When the Lord shall try;\nWhen that day of trial shall be, When the saints shall fly;\nWhen that day of trial shall be, When the Lord shall come;\nWhen that day of trial shall be, He shall judge each one."
+    }
+  ],
+  "chorus": {
+    "text": "What a day, what a day,\nWhen the Lord shall come;\nWhat a day, what a day,\nHe shall judge each one."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["judgment", "second coming", "trial"],
+    "scripture_references": [],
+    "tune_source": "Robert Lowry",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "What a day of trial shall be"
+  }
+}

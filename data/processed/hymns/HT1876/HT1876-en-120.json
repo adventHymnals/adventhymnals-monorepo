@@ -1,0 +1,39 @@
+{
+  "id": "HT1876-en-120",
+  "number": 120,
+  "title": "Olmitz",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I SEEK the mercy-seat,\nWhere thou dost answer prayer ;\nThere humbly fall before thy feet,\nFor none can perish there."
+    },
+    {
+      "number": 2,
+      "text": "Thy promise is my plea ;\nWith this I venture nigh ;\nThou callest burdened souls to thee,\nAnd such, O Lord, am I."
+    },
+    {
+      "number": 3,
+      "text": "Bowed down beneath a load of sin,\nBy Satan sorely pressed ;\nBy wars without and fears within,\nI come to thee for rest."
+    },
+    {
+      "number": 4,
+      "text": "Be thou my hiding-place ;\nThat, sheltered near thy side,\nI may rejoice to Jesus' grace,\nIn Jesus crucified."
+    },
+    {
+      "number": 5,
+      "text": "Oh, wondrous love ! to die,\nTo bear the cross and shame,\nThat guilty sinners, such as I,\nMight plead thy gracious name."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["mercy-seat", "prayer", "burden", "hiding-place", "cross"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "S. M.",
+    "tune": "Olmitz"
+  }
+}

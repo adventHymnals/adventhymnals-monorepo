@@ -303,12 +303,21 @@ Hymnal extraction is complete when:
 - Verse numbering consistency
 - Cross-reference accuracy
 - JSON schema compliance
+- OCR error correction applied
 
 ### Processing Statistics:
 - Total images processed
 - Successful extractions
 - Partial/incomplete hymns
-- Quality confidence scores
-- Error/unclear text instances
+- OCR errors detected and corrected
+- Unclear text instances flagged
 
-This command leverages AI vision capabilities to intelligently extract and structure hymnal data, providing comprehensive digitization of traditional hymnals with high accuracy and detailed metadata preservation.
+### OCR Error Correction Focus:
+The primary goal is to clean up scanning/OCR artifacts and errors, including:
+- Character recognition errors (0→O, 1→I, rn→m, cl→d, etc.)
+- Word spacing and line break issues
+- Punctuation and formatting corrections
+- Missing or extra characters from poor scanning
+- Garbled text from low image quality
+
+This command leverages AI vision capabilities to intelligently extract and clean hymnal data, focusing specifically on correcting OCR errors while maintaining the original text content and structure.

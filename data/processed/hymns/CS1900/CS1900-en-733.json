@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-733",
+  "number": 733,
+  "title": "Patience, Bids Us Wait",
+  "author": "Johnson",
+  "composer": "Johnson",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Pa-tience, bids us wait, Till the prom-ise of the Lord is ful-filled;\nTrust and not be a-fraid, For the word of the Lord shall be ful-filled.\nThou hast fought the good fight, Hold fast that thou hast till He come."
+    },
+    {
+      "number": 2,
+      "text": "Wait on the Lord, be of good cour-age, He will strength-en thy heart;\nWait, I say, on the Lord, And He will give thee thy heart's de-sire.\nThou hast fought the good fight, Hold fast that thou hast till He come."
+    },
+    {
+      "number": 3,
+      "text": "They that wait up-on the Lord shall re-new their strength; they shall mount up with wings as ea-gles;\nThey shall run and not be wea-ry, and they shall walk and not faint.\nThou hast fought the good fight, Hold fast that thou hast till He come."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": ["patience", "waiting", "perseverance", "strength"],
+    "scripture_references": [],
+    "tune_source": "Johnson",
+    "original_language": "en"
+  }
+}

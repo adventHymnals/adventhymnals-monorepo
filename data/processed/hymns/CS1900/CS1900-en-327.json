@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-327",
+  "number": 327,
+  "title": "Will You Come?",
+  "author": "Mrs. C. H. Morris",
+  "composer": "Charles H. Gabriel",
+  "tune": "Morris",
+  "meter": "P. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Will you come to the fountain free? Will you come? Will you come? Will you come to the fountain free? Will you come?"
+    },
+    {
+      "number": 2,
+      "text": "O the cleansing stream flows free, Will you come? Will you come? Jesus calls so tenderly, Will you come?"
+    },
+    {
+      "number": 3,
+      "text": "At the cross there's room for all, Will you come? Will you come? Hear the Savior's loving call, Will you come?"
+    },
+    {
+      "number": 4,
+      "text": "In this blessed day of grace, Will you come? Will you come? Jesus offers you a place, Will you come?"
+    }
+  ],
+  "chorus": {
+    "text": "Will you come? Will you come? Jesus is calling today; Will you come? Will you come? Come to him without delay."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["invitation", "salvation", "cleansing", "grace"],
+    "scripture_references": ["Isaiah 55:1"],
+    "tune_source": "Charles H. Gabriel",
+    "original_language": "en"
+  }
+}

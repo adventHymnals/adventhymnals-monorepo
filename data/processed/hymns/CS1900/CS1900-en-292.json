@@ -1,0 +1,45 @@
+{
+  "id": "CS1900-en-292",
+  "number": 292,
+  "title": "I My Cross Have Taken",
+  "author": "Henry F. Lyte",
+  "composer": "Mozart",
+  "tune": "Ellerslie",
+  "meter": "8, 7, 8, 7, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, I my cross have taken, All to leave and follow thee; Destitute, despised, forsaken, Thou from hence my all shalt be."
+    },
+    {
+      "number": 2,
+      "text": "Perish every fond ambition, All I've sought or hoped or known; Yet how rich is my condition! God and heaven are still my own."
+    },
+    {
+      "number": 3,
+      "text": "Let the world despise and leave me, They have left my Savior, too; Human hearts and looks deceive me; Thou art not, like them, untrue."
+    },
+    {
+      "number": 4,
+      "text": "O 'tis not in grief to harm me, While thy love is left to me; O 'twere not in joy to charm me, Were that joy unmixed with thee."
+    },
+    {
+      "number": 5,
+      "text": "Go, then, earthly fame and treasure! Come, disaster, scorn, and pain! In thy service, pain is pleasure; With thy favor, loss is gain."
+    },
+    {
+      "number": 6,
+      "text": "So while here the cross I'm bearing, Meet to suffer, live, or die, I will go to Jesus, sharing All his sorrows from on high."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["discipleship", "sacrifice", "following Jesus", "devotion"],
+    "scripture_references": ["Matthew 16:24"],
+    "tune_source": "Mozart",
+    "original_language": "en"
+  }
+}

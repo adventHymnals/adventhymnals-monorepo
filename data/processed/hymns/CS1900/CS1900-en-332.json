@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-332",
+  "number": 332,
+  "title": "More Love to Thee",
+  "author": "Mrs. E. Prentiss",
+  "composer": "W. H. Doane",
+  "tune": "More Love",
+  "meter": "6, 4, 6, 4, 6, 6, 4.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "More love to thee, O Christ! More love to thee! Hear thou the prayer I make On bended knee; This is my earnest plea, More love, O Christ, to thee, More love to thee!"
+    },
+    {
+      "number": 2,
+      "text": "Once earthly joy I craved, Sought peace and rest; Now thee alone I seek, Give what is best; This all my prayer shall be, More love, O Christ, to thee, More love to thee!"
+    },
+    {
+      "number": 3,
+      "text": "Let sorrow do its work, Send grief and pain; Sweet are thy messengers, Sweet their refrain, When they can sing with me, More love, O Christ, to thee, More love to thee!"
+    },
+    {
+      "number": 4,
+      "text": "Then shall my latest breath Whisper thy praise; This be the parting cry My heart shall raise, This still its prayer shall be, More love, O Christ, to thee, More love to thee!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["love for Christ", "devotion", "surrender", "prayer"],
+    "scripture_references": ["1 Corinthians 16:22"],
+    "tune_source": "W. H. Doane",
+    "original_language": "en"
+  }
+}

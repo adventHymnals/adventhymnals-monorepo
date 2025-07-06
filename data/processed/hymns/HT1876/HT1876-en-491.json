@@ -1,0 +1,35 @@
+{
+  "id": "HT1876-en-491",
+  "number": 491,
+  "title": "Woodland",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I LOVE to steal awhile away\nFrom every cumbering care,\nAnd spend the hours of closing day\nIn humble, grateful prayer."
+    },
+    {
+      "number": 2,
+      "text": "I love, in solitude, to shed\nThe penitential tear,\nAnd all His promises to plead\nWhere none but God can hear."
+    },
+    {
+      "number": 3,
+      "text": "I love to think of mercies past,\nAnd future good implore,\nAnd all my cares and sorrows cast\nOn Him whom I adore."
+    },
+    {
+      "number": 4,
+      "text": "I love, by faith, to take a view\nOf brighter scenes to come ;\nThe prospect doth my strength renew\nWhile here away from home."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["steal away", "prayer", "solitude", "mercies", "faith"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "C. M.",
+    "tune": "Woodland"
+  }
+}

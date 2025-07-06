@@ -1,0 +1,38 @@
+{
+  "id": "HT1876-en-128",
+  "number": 128,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "HEAVY clouds are gathering fast,\nTokens of destruction sure ;\nSinner, how before the blast\nSeek a shelter to endure."
+    },
+    {
+      "number": 2,
+      "text": "Hear you not the distant sound\nOf the thunder murmuring low ?\nLittle time, are the lightenings around\nShall fall to strike the blow."
+    },
+    {
+      "number": 3,
+      "text": "Thousand voices from afar,\nTell of coming swift destruction ;\nCareless sinner, now beware,\nHaste thee, e'er it be too late."
+    },
+    {
+      "number": 4,
+      "text": "Omens in every shape increase ;\nJudgments thicken round the land ;\nSigns are borne on every breeze ;\nThat destruction is at hand."
+    },
+    {
+      "number": 5,
+      "text": "Darker clouds will soon arise,\nLouder still the thunders roar ;\nFiercer lightnings pierce the skies—\nBut the sinner's day is o'er."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["heavy clouds", "destruction", "sinner", "thunder", "judgments"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "7s."
+  }
+}

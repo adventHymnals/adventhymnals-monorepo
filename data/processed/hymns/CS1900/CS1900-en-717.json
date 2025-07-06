@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-717",
+  "number": 717,
+  "title": "Trust in the Lord",
+  "author": "J. H. Sammis",
+  "composer": "D. B. Towner",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Trust in the Lord with all thine heart, And lean not to thine own;\nIn all thy ways ac-knowl-edge Him, And He shall guide thee on."
+    },
+    {
+      "number": 2,
+      "text": "Trust in the Lord, though dark thy way, And though thy heart may bleed;\nHe knows the path that leads to day, He knows thy ev-ery need."
+    },
+    {
+      "number": 3,
+      "text": "Trust in the Lord, His love is sure, His prom-is-es are true;\nHis mer-cies ev-er-more en-dure, What more can He do?"
+    }
+  ],
+  "chorus": {
+    "text": "Trust in the Lord, trust in the Lord, And lean not to thine own;\nTrust in the Lord, trust in the Lord, And He shall guide thee on."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": ["trust", "guidance", "faith", "dependence"],
+    "scripture_references": [],
+    "tune_source": "D. B. Towner",
+    "original_language": "en"
+  }
+}

@@ -70,6 +70,34 @@
   .breadcrumb-separator {
     @apply text-gray-400;
   }
+  
+  /* Custom ultra-thin scrollbar with dark blue primary color */
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(29 78 216) transparent;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgb(29 78 216);
+    border-radius: 1px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgb(30 64 175);
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-button {
+    display: none;
+  }
+
 }
 
 @layer utilities {

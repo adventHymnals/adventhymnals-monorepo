@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-305",
+  "number": 305,
+  "title": "Prayer",
+  "author": "J. Montgomery",
+  "composer": "Henry J. Gauntlett",
+  "tune": "Olmutz",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Prayer is the soul's sincere desire, Uttered or unexpressed, The motion of a hidden fire That trembles in the breast."
+    },
+    {
+      "number": 2,
+      "text": "Prayer is the burden of a sigh, The falling of a tear, The upward glancing of an eye When none but God is near."
+    },
+    {
+      "number": 3,
+      "text": "Prayer is the simplest form of speech That infant lips can try; Prayer, the sublimest strains that reach The Majesty on high."
+    },
+    {
+      "number": 4,
+      "text": "Prayer is the Christian's vital breath, The Christian's native air, His watchword at the gates of death; He enters heaven with prayer."
+    },
+    {
+      "number": 5,
+      "text": "O thou by whom we come to God, The Life, the Truth, the Way, The path of prayer thyself hast trod: Lord, teach us how to pray."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["prayer", "worship", "communion with God", "devotion"],
+    "scripture_references": ["Matthew 6:9"],
+    "tune_source": "Henry J. Gauntlett",
+    "original_language": "en"
+  }
+}

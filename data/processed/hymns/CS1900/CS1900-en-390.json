@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-390",
+  "number": 390,
+  "title": "I'LL GO WHERE YOU WANT ME TO GO",
+  "author": "Mary Brown",
+  "composer": "Charles E. Rounsefell",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "It may not be on the moun-tain height, Or o-ver the storm-y sea;\nIt may not be at the bat-tle's front My Lord will have need of me;\nBut if by a still small voice he calls To paths I do not know,\nI'll an-swer, dear Lord, with my hand in thine, I'll go where you want me to go."
+    },
+    {
+      "number": 2,
+      "text": "Per-haps to-day there are lov-ing words Which Je-sus would have me speak;\nThere may be now in the paths of sin Some wan-d'rer whom I should seek;\nO Sav-ior, if thou wilt be my guide, Tho' dark and rug-ged the way,\nMy voice shall ech-o the mes-sage sweet, I'll say what you want me to say."
+    }
+  ],
+  "chorus": {
+    "text": "I'll go where you want me to go, dear Lord, O'er moun-tain, or plain, or sea;\nI'll say what you want me to say, dear Lord, I'll be what you want me to be."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["surrender", "willingness", "obedience", "service"],
+    "scripture_references": [],
+    "tune_source": "Charles E. Rounsefell",
+    "original_language": "en"
+  }
+}

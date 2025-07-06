@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-317",
+  "number": 317,
+  "title": "Fount of Every Blessing",
+  "author": "Robert Robinson",
+  "composer": "Arranged",
+  "tune": "Nettleton",
+  "meter": "8, 7, 8, 7, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, thou fount of every blessing, Tune my heart to sing thy grace; Streams of mercy, never ceasing, Call for songs of loudest praise."
+    },
+    {
+      "number": 2,
+      "text": "Here I raise my Ebenezer, Hither by thy help I'm come; And I hope, by thy good pleasure, Safely to arrive at home."
+    },
+    {
+      "number": 3,
+      "text": "Jesus sought me when a stranger, Wandering from the fold of God; He, to rescue me from danger, Interposed his precious blood."
+    },
+    {
+      "number": 4,
+      "text": "O to grace how great a debtor Daily I'm constrained to be! Let that grace now, like a fetter, Bind my wandering heart to thee."
+    },
+    {
+      "number": 5,
+      "text": "Prone to wander, Lord, I feel it, Prone to leave the God I love; Here's my heart, O take and seal it, Seal it for thy courts above."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["grace", "gratitude", "salvation", "commitment"],
+    "scripture_references": ["1 Samuel 7:12"],
+    "tune_source": "Arranged",
+    "original_language": "en"
+  }
+}

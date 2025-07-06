@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-062",
+  "number": 62,
+  "title": "In the Silent Midnight Watches",
+  "author": "William O. Cushing",
+  "composer": "Geo. F. Root",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In the si lent mid night watch es, List! thy bro ther calls to thee;\nThous and souls are sad ly drift ing On the dark tem pes tuous sea."
+    },
+    {
+      "number": 2,
+      "text": "Thou hast heard the Mas ter's prom ise: \"If ye fol low I will make\nYou to be come fish ers of men;\" For the wand'ring soul's dear sake."
+    },
+    {
+      "number": 3,
+      "text": "Cast out now your heav'n ly net work At the Mas ter's gra cious word;\nSoon the night will all be end ed, And we'll go to meet the Lord."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["midnight", "calling", "evangelism", "fishing for men", "souls"],
+    "scripture_references": ["Matthew 4:19"],
+    "tune_source": "Geo. F. Root",
+    "original_language": "en"
+  }
+}

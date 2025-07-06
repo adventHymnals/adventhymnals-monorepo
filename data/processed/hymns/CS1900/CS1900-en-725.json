@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-725",
+  "number": 725,
+  "title": "A Few More Years",
+  "author": "H. Bonar",
+  "composer": "L. Mason",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "A few more years shall roll, A few more sea-sons come,\nAnd we shall be with those that rest A-sleep with-in the tomb;\nA few more suns shall set O'er these dark hills of time,\nAnd we shall be where suns are not, A far se-ren-er clime."
+    },
+    {
+      "number": 2,
+      "text": "A few more storms shall beat On this wild rock-y shore,\nAnd we shall be where tem-pests cease, And surg-es swell no more;\nA few more strug-gles here, A few more part-ings o'er,\nA few more toils, a few more tears, And we shall weep no more."
+    },
+    {
+      "number": 3,
+      "text": "'Tis but a lit-tle while, And He shall come a-gain,\nWho died that we might live, who lives That we with Him might reign;\nThen, O my Lord, pre-pare My soul for that great day;\nO wash me in Thy pre-cious blood, And take my sins a-way."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": ["eternal life", "death", "heaven", "second coming"],
+    "scripture_references": [],
+    "tune_source": "L. Mason",
+    "original_language": "en"
+  }
+}

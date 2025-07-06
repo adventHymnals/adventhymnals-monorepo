@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-732",
+  "number": 732,
+  "title": "Hark! That Shout!",
+  "author": "J. Lux",
+  "composer": "J. Lux",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! that shout of rap-ture! burst-ing forth from myr-iad heart and tongue;\n'Tis the ran-somed church of Je-sus, this the tri-umph-ant song:\nO what hush-ing still the storm; There is rest for all the hope-ful, There is rest for all the hope-ful."
+    },
+    {
+      "number": 2,
+      "text": "Rise, oh sleep-ing dust of A-dam! Rise, oh daugh-ters of the sod!\nCome, ye heirs of life and glo-ry, Come, ye chil-dren of our God!\nO what hush-ing still the storm; There is rest for all the hope-ful, There is rest for all the hope-ful."
+    },
+    {
+      "number": 3,
+      "text": "O what joys a-wait the faith-ful! O what rest for wea-ry hands!\nO what songs the ran-somed sing-ing! O what glo-ry in the land!\nO what hush-ing still the storm; There is rest for all the hope-ful, There is rest for all the hope-ful."
+    }
+  ],
+  "chorus": {
+    "text": "Hark! that shout! Hark! that shout!\nJe-sus comes with joy and pow-er;\nHark! that shout! Hark! that shout!\nCome, ye ran-somed, this the hour!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": ["triumph", "resurrection", "second coming", "joy"],
+    "scripture_references": [],
+    "tune_source": "J. Lux",
+    "original_language": "en"
+  }
+}

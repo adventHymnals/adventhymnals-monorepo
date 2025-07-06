@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-310",
+  "number": 310,
+  "title": "My Salvation, My All",
+  "author": "Joseph Grigg",
+  "composer": "E. Lewis",
+  "tune": "Beulah",
+  "meter": "8, 8, 8, 8, 8, 8.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thou, the true and living Way, All who come to God by thee, Are securely happy; they Have what others cannot see."
+    },
+    {
+      "number": 2,
+      "text": "Hidden manna they receive, They the living water taste; In thy life, as thou dost live, They are rooted, built, and placed."
+    },
+    {
+      "number": 3,
+      "text": "When at first thou dost appear, They their comfort in thy grace; Found before, when thou wast there, Now they know their dwelling place."
+    },
+    {
+      "number": 4,
+      "text": "Closer still to thee they move, Through thy Spirit they are led; And still more by faith they prove All that thou hast suffered."
+    },
+    {
+      "number": 5,
+      "text": "Comfort still their hearts possess, God shall all their wants supply; And still more they shall express Christ with them shall never die."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["salvation", "spiritual life", "faith", "comfort"],
+    "scripture_references": ["John 14:6"],
+    "tune_source": "E. Lewis",
+    "original_language": "en"
+  }
+}

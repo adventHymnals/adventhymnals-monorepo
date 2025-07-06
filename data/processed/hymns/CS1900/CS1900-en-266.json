@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-266",
+  "number": 266,
+  "title": "O Holy Book",
+  "author": "Mason",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O holy Book of truth divine,\nSafe-set on thy Maker's name;\nThe word of God as by thy shrine\nShall ever be the same."
+    },
+    {
+      "number": 2,
+      "text": "Thy sacred page with interest deep,\nWe'll join our youth to read;\nThy saving truth shall be our guide,\nOur comfort in our need."
+    },
+    {
+      "number": 3,
+      "text": "Thy faithful words shall be our light,\nTo guide us on our way;\nThy wisdom like the morning bright\nShall brighten all our day."
+    },
+    {
+      "number": 4,
+      "text": "We love thy truth, we love thy word,\nWe'll hide it in our heart;\nThy precepts keep us near our Lord,\nAnd never from him part."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Scripture", "divine word", "guidance", "truth"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

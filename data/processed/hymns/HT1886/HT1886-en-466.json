@@ -1,44 +1,40 @@
 {
   "id": "HT1886-en-466",
   "number": 466,
-  "title": "Jesus, full of all compassion",
-  "author": null,
-  "composer": "Langran",
-  "tune": "Deerhurst",
-  "meter": "8s & 7s, D.",
+  "title": "O Where Are the Reapers?",
+  "author": "Eliza R. Rasford",
+  "composer": "Geo. F. Root",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "Jesus, full of all compassion,\nHear thy humble suppliant's cry;\nLet me know thy great salvation;\nSee, I languish, faint, and die."
+      "text": "O where are the reapers that garner in The sheaves of the good from the fields of sin? With sickles of truth must the work be done, And no one may rest till the harvest's won."
     },
     {
       "number": 2,
-      "text": "Guilty, but with heart relenting,\nOverwhelmed with helpless grief,\nProstrate at thy feet repenting,\nSend, O send me (omit) quick relief!"
+      "text": "Go out in the byways and search them all; The wheat may be there, though the weeds grow tall; Then search in the highway, and pass none by; But gather from all for the home on high."
     },
     {
       "number": 3,
-      "text": "Whither should a wretch be flying\nBut to him who comfort gives?\nWhither from the dread of dying\nBut to him who ever lives?"
+      "text": "The fields all are ripening and far and wide The wave now is swelling, the harvest tide; But reapers are few, and the work is great, And much will be lost should the harvest wait."
     },
     {
       "number": 4,
-      "text": "While I view thee, wounded, groaning,\nBreathless on the cursed tree,\nPain I'd feel my heart believing\nThou didst suffer this for me."
-    },
-    {
-      "number": 5,
-      "text": "With thy righteousness and Spirit\nI am more than angels blessed;\nHeir with thee, all things inherit,—\nPeace and joy, and endless rest."
-    },
-    {
-      "number": 6,
-      "text": "Saved! the deed shall spread new glory\nThrough the shining realms above;\nAngels sing the pleasing story,\nAll enraptured with thy love."
+      "text": "So come with your sickles, ye sons of men, And gather together the golden grain; Toil on till the Lord of the harvest come, Then share ye his joy in the harvest home."
     }
   ],
+  "chorus": {
+    "text": "And no one may rest till the harvest's home. The call of the Lord of the harvest; O where are the reapers? O who will come And share in the glory of the harvest home? O who will help us to garner in The sheaves of good from the fields of sin?"
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["compassion", "salvation", "repentance"],
-    "scripture_references": [],
-    "tune_source": "Deerhurst, Langran",
-    "original_language": "en"
+    "themes": ["harvest", "evangelism", "ministry", "call to service"],
+    "scripture_references": ["Joel 3:13"],
+    "tune_source": "Geo. F. Root",
+    "original_language": "en",
+    "extraction_status": "completed"
   }
 }

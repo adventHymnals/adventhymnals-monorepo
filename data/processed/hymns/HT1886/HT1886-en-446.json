@@ -1,25 +1,40 @@
 {
   "id": "HT1886-en-446",
   "number": 446,
-  "title": "Hymn 446 (To be extracted)",
-  "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "title": "All That I Was My Sin, My Guilt",
+  "author": "Horatius Bonar",
+  "composer": "E. Hamilton",
+  "tune": "Denton",
+  "meter": "C. M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "All that I was my sin, my guilt,\nMy death, was all my own;\nAll that I am I owe to thee,\nMy gracious God, alone."
+    },
+    {
+      "number": 2,
+      "text": "The evil of my former state\nWas mine, and only mine;\nThe good in which I now rejoice\nIs thine, and wholly thine."
+    },
+    {
+      "number": 3,
+      "text": "The darkness of my former state,\nThe bondage, all was mine;\nThe light of life in which I walk,\nThe liberty, is thine."
+    },
+    {
+      "number": 4,
+      "text": "Thy grace first made me feel my sin;\nIt taught me to believe;\nThen, in believing, peace I found,\nAnd now I live, I live."
+    },
+    {
+      "number": 5,
+      "text": "All that I am, even here on earth,\nAll that I hope to be,\nWhen Jesus comes and glory dawns,\nI owe it, Lord, to thee."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["grace", "salvation", "gratitude", "sin", "transformation"],
     "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "tune_source": "Denton, E. Hamilton",
+    "original_language": "en"
   }
 }

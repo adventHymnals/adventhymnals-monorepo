@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-306",
+  "number": 306,
+  "title": "God of My Life",
+  "author": "P. Doddridge",
+  "composer": "J. Langran",
+  "tune": "Contemplation",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God of my life, whose gracious power Through varied deaths my soul has led, Or turned aside death's threatening hour, Or lifted up my sinking head;"
+    },
+    {
+      "number": 2,
+      "text": "In all my ways thy hand I own, Thy ruling providence I see; Assist me still my course to run, And still direct my paths to thee."
+    },
+    {
+      "number": 3,
+      "text": "Thy love for me, the love I owe Returns with interest to thy throne; Ten thousand precious gifts bestow, Here love divine and love are one."
+    },
+    {
+      "number": 4,
+      "text": "Through every period of my life Thy goodness I'll pursue; And after death in distant worlds, The pleasing theme renew."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["providence", "gratitude", "God's care", "life journey"],
+    "scripture_references": ["Psalm 23:6"],
+    "tune_source": "J. Langran",
+    "original_language": "en"
+  }
+}

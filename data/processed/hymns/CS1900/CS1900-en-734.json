@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-734",
+  "number": 734,
+  "title": "Redemption Nigh",
+  "author": "Dora T. Peixoto",
+  "composer": "Dora T. Peixoto",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In the east and west and north and south won-ders have ap-peared;\nIn the heav-ens and earth the signs are plain that the time is neared;\nLift your heads, be-hold your re-demp-tion draw-eth nigh,\nBe-hold, from the earth-ly shad-ows that dark-en and sub-due."
+    },
+    {
+      "number": 2,
+      "text": "There's dis-tress a-mong the na-tions, and the sea and waves shall roar;\nThere's per-plex-i-ty and trou-ble, and the hearts of men give way;\nLift your heads, be-hold your re-demp-tion draw-eth nigh,\nFor not all the earth-ly shad-ows Your re-demp-tion can de-lay."
+    },
+    {
+      "number": 3,
+      "text": "Soon shall come the glo-ri-ous morn-ing, when the shad-ows flee a-way;\nSoon shall dawn the glo-ri-ous morn-ing of e-ter-ni-ty's bright day;\nLift your heads, be-hold your re-demp-tion draw-eth nigh,\nFor not all the earth-ly shad-ows Your re-demp-tion can de-lay."
+    }
+  ],
+  "chorus": {
+    "text": "Re-demp-tion nigh, re-demp-tion nigh,\nBe-hold, your re-demp-tion draw-eth nigh;\nRe-demp-tion nigh, re-demp-tion nigh,\nBe-hold, your re-demp-tion draw-eth nigh."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": ["redemption", "second coming", "signs of the times", "hope"],
+    "scripture_references": [],
+    "tune_source": "Dora T. Peixoto",
+    "original_language": "en"
+  }
+}

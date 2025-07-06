@@ -1,25 +1,25 @@
 {
   "id": "HT1886-en-492",
   "number": 492,
-  "title": "Hymn 492 (To be extracted)",
+  "title": "Nothing for Jesus",
   "author": null,
-  "composer": null,
+  "composer": "W. J. Kirkpatrick",
   "tune": null,
   "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "[Copyright protected content - used by permission]"
     }
   ],
   "metadata": {
     "year": 1886,
-    "copyright": "Public Domain",
-    "themes": [],
+    "copyright": "From 'Songs of Triumph,' by per.",
+    "themes": ["service", "devotion", "discipleship"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "W. J. Kirkpatrick",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "metadata_only_copyright_protected"
   }
 }

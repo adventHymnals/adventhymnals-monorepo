@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-329",
+  "number": 329,
+  "title": "What a Friend",
+  "author": "Joseph Scriven",
+  "composer": "C. C. Converse",
+  "tune": "Erie",
+  "meter": "8, 7, 8, 7, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "What a friend we have in Jesus, All our sins and griefs to bear! What a privilege to carry Everything to God in prayer!"
+    },
+    {
+      "number": 2,
+      "text": "Have we trials and temptations? Is there trouble anywhere? We should never be discouraged, Take it to the Lord in prayer."
+    },
+    {
+      "number": 3,
+      "text": "Are we weak and heavy-laden, Cumbered with a load of care? Precious Savior, still our refuge, Take it to the Lord in prayer."
+    },
+    {
+      "number": 4,
+      "text": "Do thy friends despise, forsake thee? Take it to the Lord in prayer; In his arms he'll take and shield thee, Thou wilt find a solace there."
+    }
+  ],
+  "chorus": {
+    "text": "O what peace we often forfeit, O what needless pain we bear, All because we do not carry Everything to God in prayer!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["friendship", "prayer", "comfort", "peace"],
+    "scripture_references": ["Philippians 4:6-7"],
+    "tune_source": "C. C. Converse",
+    "original_language": "en"
+  }
+}

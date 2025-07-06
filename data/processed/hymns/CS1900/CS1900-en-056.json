@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-056",
+  "number": 56,
+  "title": "Showers of Blessing",
+  "author": "El Nathan",
+  "composer": "James McGranahan",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"There shall be show ers of bless ing:\" This is the prom ise of love;\nThere shall be sea sons re fresh ing, Sent from the Sav iour a bove."
+    },
+    {
+      "number": 2,
+      "text": "\"There shall be show ers of bless ing\" — Pre cious re viv ing a gain;\nO ver the hills and the val leys, Sound of a bun dance of rain."
+    },
+    {
+      "number": 3,
+      "text": "\"There shall be show ers of bless ing;\" Send them up on us, O Lord;\nGrant to us now a re fresh ing, Come, and now hon or Thy word."
+    },
+    {
+      "number": 4,
+      "text": "\"There shall be show ers of bless ing;\" O that to day they might fall,\nNow as to God we're con fess ing, Now as on Je sus we call!"
+    }
+  ],
+  "chorus": {
+    "text": "Show ers of bless ing, Show ers of bless ing we need:\nMer cy drops round us are fall ing, But for the show ers we plead."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["blessing", "revival", "prayer", "spiritual renewal"],
+    "scripture_references": ["Ezekiel 34:26"],
+    "tune_source": "James McGranahan",
+    "original_language": "en"
+  }
+}

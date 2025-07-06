@@ -1,36 +1,31 @@
 {
   "id": "HT1886-en-470",
   "number": 470,
-  "title": "O Thou that hearest the prayer of faith",
-  "author": "Augustus M. Toplady",
-  "composer": "Unknown",
-  "tune": "CONVERT",
-  "meter": "P.M.",
+  "title": "Lift Him Up",
+  "author": "Mae E. Warren",
+  "composer": "D. S. Hakes",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Lift him up, 'tis he that bids you, Let the dying look and live; To all sin let him descend, Let the multitude behold him with weary thirsting sinners, Living waters will he give; And allegiance so meek and lowly, Yet the Prince of heaven was he; And the blind, who grope in darkness, Through the blood of Christ shall see."
     },
     {
       "number": 2,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    },
-    {
-      "number": 3,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    },
-    {
-      "number": 4,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Lift him up, in all his glory, 'Tis the Son of God on high; Lift him up, lift him up, in prayer; Lift him up, their savior, High amid the waiting throng; Lift him up, 'tis he that speaketh, Now he bids you flee from wrong."
     }
   ],
+  "chorus": {
+    "text": "Lift him up, the risen Savior, High amid the waiting throng; Lift him up, 'tis he that speaketh, Now he bids you flee from wrong."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["faith", "redemption", "surrender to God", "salvation"],
-    "scripture_references": [],
-    "tune_source": "Unknown",
+    "themes": ["lifting up Jesus", "salvation", "proclamation", "evangelism"],
+    "scripture_references": ["John 3:14-15"],
+    "tune_source": "D. S. Hakes",
     "original_language": "en",
     "extraction_status": "completed"
   }

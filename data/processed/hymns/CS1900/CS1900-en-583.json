@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-583",
+  "number": 583,
+  "title": "God, Our Refuge",
+  "author": "Isaac Watts",
+  "composer": "Lowell Mason",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God is the refuge of His saints, When storms of sharp distress invade; Ere we can offer our complaints, Behold Him present with His aid."
+    },
+    {
+      "number": 2,
+      "text": "Let mountains from their seats be hurled Down to the deep, and buried there; Convulsions shake the solid world, Our faith shall never yield to fear."
+    },
+    {
+      "number": 3,
+      "text": "Loud may the troubled ocean roar; In sacred peace our souls abide; While every nation, every shore, Trembles, and dreads the swelling tide."
+    }
+  ],
+  "refrain": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["refuge", "protection", "storms", "faith", "divine aid", "peace"],
+    "scripture_references": ["Psalm 46:1-3", "Psalm 91:1-2"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

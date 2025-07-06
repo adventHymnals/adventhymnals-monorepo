@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-359",
+  "number": 359,
+  "title": "WELCOME, WELCOME",
+  "author": "Unknown",
+  "composer": "Unknown",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Welcome times of holy con-vo-ca-tion, Wel-come hours of praise and pray-er,\nWel-come sea-son of the Lord's own cho-sen, Wel-come all who gather there;\nWel-come, yes, wel-come, Wel-come, yes, wel-come, Wel-come, wel-come, praise and pray-er,\nWel-come, yes, wel-come, Wel-come, yes, wel-come, Wel-come all who gather there."
+    },
+    {
+      "number": 2,
+      "text": "Welcome voices raised in songs of Zi-on, Wel-come notes of praise so sweet,\nWelcome hearts that beat with love and grat-i-tude, Wel-come souls that find re-treat;\nWel-come, yes, wel-come, Wel-come, yes, wel-come, Wel-come notes of praise so sweet,\nWel-come, yes, wel-come, Wel-come, yes, wel-come, Wel-come souls that find re-treat."
+    },
+    {
+      "number": 3,
+      "text": "Welcome mes-sage from the courts of glo-ry, Wel-come words of peace and rest,\nWelcome hope that lifts the soul to heav-en, Wel-come faith that makes us blest;\nWel-come, yes, wel-come, Wel-come, yes, wel-come, Wel-come words of peace and rest,\nWel-come, yes, wel-come, Wel-come, yes, wel-come, Wel-come faith that makes us blest."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["welcome", "worship", "praise", "prayer"],
+    "scripture_references": [],
+    "tune_source": "Unknown",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-354",
+  "number": 354,
+  "title": "LORD, DISMISS US",
+  "author": "John Fawcett",
+  "composer": "Sicilian",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, dismiss us with thy blessing,\nFill our hearts with joy and peace;\nLet us each, thy love possessing,\nTriumph in redeeming grace."
+    },
+    {
+      "number": 2,
+      "text": "Thanks we give and adoration\nFor thy Gospel's joyful sound;\nMay the fruits of thy salvation\nIn our hearts and lives abound."
+    },
+    {
+      "number": 3,
+      "text": "So that when thy love shall call us,\nSavior, from the world away,\nFear of death shall not appall us,\nGlad thy summons to obey."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["blessing", "dismissal", "joy", "peace"],
+    "scripture_references": [],
+    "tune_source": "Sicilian",
+    "original_language": "en"
+  }
+}

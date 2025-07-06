@@ -1,0 +1,47 @@
+{
+  "id": "CS1900-en-288",
+  "number": 288,
+  "title": "God Made Them",
+  "author": "C. F. Alexander",
+  "composer": "Dr. Gauntlett",
+  "tune": "Irby",
+  "meter": "8, 7, 8, 7, 7, 7.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All things bright and beautiful, All creatures great and small, All things wise and wonderful, The Lord God made them all."
+    },
+    {
+      "number": 2,
+      "text": "Each little flower that opens, Each little bird that sings, He made their glowing colors, He made their tiny wings."
+    },
+    {
+      "number": 3,
+      "text": "The purple-headed mountain, The river running by, The sunset, and the morning, That brightens up the sky."
+    },
+    {
+      "number": 4,
+      "text": "The cold wind in the winter, The pleasant summer sun, The ripe fruits in the garden, He made them every one."
+    },
+    {
+      "number": 5,
+      "text": "The tall trees in the green-wood, The meadows where we play, The rushes by the water, We gather every day."
+    },
+    {
+      "number": 6,
+      "text": "He gave us eyes to see them, And lips that we might tell How great is God Almighty, Who has made all things well."
+    }
+  ],
+  "chorus": {
+    "text": "All things bright and beautiful, All creatures great and small, All things wise and wonderful, The Lord God made them all."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["creation", "nature", "God's works", "children"],
+    "scripture_references": ["Genesis 1:31"],
+    "tune_source": "Dr. Gauntlett",
+    "original_language": "en"
+  }
+}

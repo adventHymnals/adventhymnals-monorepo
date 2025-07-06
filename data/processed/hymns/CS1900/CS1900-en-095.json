@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-095",
+  "number": 95,
+  "title": "Thou Art The Way",
+  "author": "G. W. Doane",
+  "composer": "Lowell Mason",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thou art the Way, to Thee alone\nFrom sin and death we flee;\nAnd he who would the Father seek\nMust seek Him, Lord, by Thee."
+    },
+    {
+      "number": 2,
+      "text": "Thou art the Truth, Thy word alone\nTrue wisdom can impart;\nThou only canst inform the mind\nAnd purify the heart."
+    },
+    {
+      "number": 3,
+      "text": "Thou art the Life, the rending tomb\nProclaims Thy conquering arm;\nAnd those who put their trust in Thee\nNor death nor hell shall harm."
+    },
+    {
+      "number": 4,
+      "text": "Thou art the Way, the Truth, the Life,\nGrant us that way to know,\nThat truth to keep, that life to win,\nWhose joys eternal flow."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["way", "truth", "life", "Jesus Christ"],
+    "scripture_references": ["John 14:6"],
+    "tune_source": "Lowell Mason",
+    "original_language": "en",
+    "verse_count": 4,
+    "structure": "4 verses, no chorus",
+    "first_line": "Thou art the Way, to Thee alone"
+  }
+}

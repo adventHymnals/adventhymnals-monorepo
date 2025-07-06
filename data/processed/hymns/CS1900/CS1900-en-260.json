@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-260",
+  "number": 260,
+  "title": "How Pleasant",
+  "author": "Woodbury",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How pleasant, how divine it is\nTo see brethren dwell in love;\nThe eye of God with pleasure sees,\nWhat angels praise above."
+    },
+    {
+      "number": 2,
+      "text": "It is like precious balm poured forth\nOn Aaron's sacred head;\nThat ran down his beard and clothes,\nWith fragrant odors spread."
+    },
+    {
+      "number": 3,
+      "text": "It is like Hermon's pearly dew\nThat gently falls at night;\nOn Zion's hill, where God bestows\nHis blessings and delight."
+    },
+    {
+      "number": 4,
+      "text": "For there the Lord has promised life,\nEternal life to give;\nO happy people, happy land,\nWhere saints in union live."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["brotherhood", "unity", "divine blessing", "peace"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

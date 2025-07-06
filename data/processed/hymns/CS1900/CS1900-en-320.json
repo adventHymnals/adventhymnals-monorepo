@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-320",
+  "number": 320,
+  "title": "Majestic Sweetness",
+  "author": "S. Stennett",
+  "composer": "T. Hastings",
+  "tune": "Ortonville",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Majestic sweetness sits enthroned Upon the Savior's brow; His head with radiant glories crowned, His lips with grace o'erflow."
+    },
+    {
+      "number": 2,
+      "text": "No mortal can with him compare, Among the sons of men; Fairer is he than all the fair Who fill the heavenly train."
+    },
+    {
+      "number": 3,
+      "text": "He saw me plunged in deep distress, And flew to my relief; For me he bore the shameful cross, And carried all my grief."
+    },
+    {
+      "number": 4,
+      "text": "To him I owe my life and breath, And all the joys I have; He makes me triumph over death, And saves me from the grave."
+    },
+    {
+      "number": 5,
+      "text": "To heaven, the place of his abode, He brings my weary feet; Shows me the glories of my God, And makes my joy complete."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Jesus beauty", "salvation", "grace", "victory"],
+    "scripture_references": ["Song of Solomon 5:16"],
+    "tune_source": "T. Hastings",
+    "original_language": "en"
+  }
+}

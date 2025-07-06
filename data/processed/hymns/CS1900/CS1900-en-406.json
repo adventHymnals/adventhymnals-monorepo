@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-406",
+  "number": 406,
+  "title": "SEEKING THE LOST",
+  "author": "W. A. O.",
+  "composer": "W. A. Ogden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Seeking the lost, yes, kindly entreating\nWanderers on the mountains astray;\n'Come unto me,' his message repeating,\nWords of the Master speaking today."
+    },
+    {
+      "number": 2,
+      "text": "Seeking the lost, and pointing to Jesus,\nSouls that are weak and hearts that are sore;\nLeading them forth from sorrow and sadness,\nThus would I go for Jesus calls me."
+    },
+    {
+      "number": 3,
+      "text": "Thus would I go for Jesus calls me,\nHim would I follow day by day;\nCare for the dying, raise up the fallen,\nThis is my work while others play."
+    }
+  ],
+  "chorus": {
+    "text": "Going afar upon the mountain,\nBringing the wanderers back again,\nInto the fold of my Redeemer,\nJesus the Lamb for sinners slain."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["evangelism", "seeking lost souls", "missions"],
+    "scripture_references": ["Luke 15:4"],
+    "tune_source": "W. A. Ogden",
+    "original_language": "en"
+  }
+}

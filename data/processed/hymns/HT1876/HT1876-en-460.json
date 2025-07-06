@@ -1,0 +1,30 @@
+{
+  "id": "HT1876-en-460",
+  "number": 460,
+  "title": "I Will Follow Thee",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I will follow thee, my Saviour, wheresoever thou dost go;"
+    },
+    {
+      "number": 2,
+      "text": "Where thou dost not dwell, blest Jesus, do not let thy servant go."
+    }
+  ],
+  "chorus": {
+    "text": "I will follow thee, my Saviour, Thou didst shed thy blood for me;"
+  },
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["follow", "Saviour", "wheresoever", "blood"],
+    "original_language": "en",
+    "has_chorus": true,
+    "meter": "8s & 7s.",
+    "tune": "I Will Follow Thee"
+  }
+}

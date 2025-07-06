@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-353",
+  "number": 353,
+  "title": "GOD'S REST",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Up, O friends! and let us rise\nTo God who made the earth;\nLet us lift our voices high\nAnd let us rest in him."
+    },
+    {
+      "number": 2,
+      "text": "We have had our toil and care,\nAnd our work and our rest;\nNow let us seek him who is there,\nThe everlasting rest."
+    },
+    {
+      "number": 3,
+      "text": "Rest from earthly trouble here,\nRest from sin and care,\nRest from all that we hold dear,\nSince God himself is there."
+    },
+    {
+      "number": 4,
+      "text": "Rest from all our earthly ways,\nRest in God's eternal love,\nRest through all our numbered days,\nRest in the home above."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["rest", "peace", "eternal life"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

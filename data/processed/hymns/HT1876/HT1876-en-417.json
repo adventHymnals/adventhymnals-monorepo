@@ -1,0 +1,30 @@
+{
+  "id": "HT1876-en-417",
+  "number": 417,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "FOR a season called to part,\nLet us now ourselves commend\nTo the gracious eye and heart\nOf our ever-present Friend."
+    },
+    {
+      "number": 2,
+      "text": "Jesus, hear our humble prayer ;\nTender Shepherd of thy sheep,\nLet thy mercy and thy care\nAll our souls in safety keep."
+    },
+    {
+      "number": 3,
+      "text": "In the strength we may be strong ;\nSweeten every cross and pain ;\nAnd our waiting lives prolong\nTill we meet on earth again."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["parting", "commend", "Jesus", "shepherd", "safety"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "7s"
+  }
+}

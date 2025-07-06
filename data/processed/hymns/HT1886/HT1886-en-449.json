@@ -1,7 +1,7 @@
 {
   "id": "HT1886-en-449",
   "number": 449,
-  "title": "Hymn 449 (To be extracted)",
+  "title": "Be Merciful to Me, O God!",
   "author": null,
   "composer": null,
   "tune": null,
@@ -10,16 +10,27 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Be merciful to me, O God!\nBe merciful to me;\nFor though I sink beneath thy rod,\nYet do I trust in thee."
+    },
+    {
+      "number": 2,
+      "text": "That my sin should not know\nMy burden thou dost bear;\nAnd I would seek, where'er I go,\nTo cast on thee my care."
+    },
+    {
+      "number": 3,
+      "text": "Thou knowest, Lord, my flesh how frail,\nStrong though my spirit be;\nO, then assist, when foes assail,\nThe soul that clings to thee!"
+    },
+    {
+      "number": 4,
+      "text": "And, gracious Lord, whate'er befall,\nA thankful heart be mine,—\nA heart that answers to thy call,—\nOne that is wholly thine."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["mercy", "trust", "burden bearing", "weakness", "faith"],
+    "scripture_references": ["Psalm 51"],
+    "tune_source": "179, 354, 714",
+    "original_language": "en"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-718",
+  "number": 718,
+  "title": "Trusting in the Lord",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Trust-ing in the Lord my God, Trust-ing in His ho-ly Word,\nTrust-ing in re-deem-ing grace, Trust-ing in His love al-ways."
+    },
+    {
+      "number": 2,
+      "text": "Trust-ing when the way seems long, Trust-ing when I can-not see,\nTrust-ing Je-sus all the way, Trust-ing Him from day to day."
+    },
+    {
+      "number": 3,
+      "text": "Trust-ing in the blood that saves, Trust-ing in the power that heals,\nTrust-ing in the love that keeps, Trust-ing in the grace that seals."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": ["trust", "faith", "grace", "salvation"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

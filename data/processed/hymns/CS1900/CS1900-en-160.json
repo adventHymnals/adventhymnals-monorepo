@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-160",
+  "number": 160,
+  "title": "A New Song",
+  "author": "F. M. L.",
+  "composer": "E. E. Hewitt",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O sing un - to the Lord a new song; sing un - to the Lord; Sing un - to the Lord, all ye lands, with joy, praise the Lord; Make a joy - ful noise un - to the Lord, all ye earth; and re - joice and sing ... praise."
+    },
+    {
+      "number": 2,
+      "text": "With harp and with voice of mel - o - dy un - to our God, Sing un - to the Lord; and bless be our God, Let the sea roar, and the ful - ness there - of; the world, and they that dwell there - in."
+    },
+    {
+      "number": 3,
+      "text": "Sing un - to the Lord, and bless be our God, with thank - ful - ness and joy; Let the floods clap their hands to - ge - ther, and let the hills be joy - ful; sing in the pres - ence of the Lord; our God shall make us free."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["praise", "joy", "new song", "worship"],
+    "scripture_references": ["Psalm 98"],
+    "tune_source": "E. E. Hewitt",
+    "original_language": "en"
+  }
+}

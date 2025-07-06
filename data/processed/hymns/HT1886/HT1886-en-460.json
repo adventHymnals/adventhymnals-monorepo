@@ -1,32 +1,35 @@
 {
   "id": "HT1886-en-460",
   "number": 460,
-  "title": "Lord, forgive me, day by day",
-  "author": "Josiah Conder",
-  "composer": "William B. Bradbury",
-  "tune": "ALLETTA",
-  "meter": "7s",
+  "title": "Pray for Reapers",
+  "author": "Amos",
+  "composer": "D. S. Hakes",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Saints of God, the dawn is brightening, Tokens of the coming Lord; Feeble now they toil in sadness, Weeping o'er the waste around, O'er the earth the fields are whitening, Louder rings the Master's word."
     },
     {
       "number": 2,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Lo, Now, O Lord, in thy pleasure, Breathing on thy chosen ground, Slowly gath'ring grains of gladness, While their echo-ing cries resound; And with you of our mess-ure, Send forth reap-ers in our need."
     },
     {
       "number": 3,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Soon shall end the time of weeping, Soon the reaping time will come, Heaven and earth together keeping God's eternal harvest-home; Pray for reapers, Pray for reapers, In the harvest of the Lord."
     }
   ],
+  "chorus": {
+    "text": "Pray for reapers, Pray for reapers, In the harvest of the Lord. Pray that reapers, Pray that reapers, In God's harvest may abound. Faithful reapers, Faithful reapers, Gath'ring sheaves for thy right hand. Saints and angels, Saints and angels, Shout the world's great harvest-home."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["forgiveness", "daily repentance", "seeking pardon", "spiritual shortcomings"],
+    "themes": ["harvest", "evangelism", "workers", "prayer"],
     "scripture_references": [],
-    "tune_source": "William B. Bradbury",
+    "tune_source": "D. S. Hakes",
     "original_language": "en",
     "extraction_status": "completed"
   }

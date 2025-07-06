@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-448",
   "number": 448,
-  "title": "Hymn 448 (To be extracted)",
-  "author": null,
+  "title": "O for That Tenderness of Heart",
+  "author": "Charles Wesley",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "O for that tenderness of heart,\nThat bows before the Lord!\nThat owns how just and good thou art,\nAnd trembles at thy word!"
+    },
+    {
+      "number": 2,
+      "text": "O for those humble, contrite tears\nWhich from repentance flow;\nThat sense of guilt which, trembling, fears\nThe long-suspended blow!"
+    },
+    {
+      "number": 3,
+      "text": "O, fill my soul with faith and love,\nAnd strength to do thy will;\nRaise my desires and hopes above,—\nThyself to reveal."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["repentance", "humility", "reverence", "contrition", "spiritual desire"],
     "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "tune_source": "179, 201, 306",
+    "original_language": "en"
   }
 }

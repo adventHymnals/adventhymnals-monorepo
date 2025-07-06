@@ -1,0 +1,30 @@
+{
+  "id": "HT1876-en-129",
+  "number": 129,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "SINNER, art thou still secure ?\nWilt thou still refuse to pray ?\nCan thy heart or hope endure\nIn the Lord's avenging day ?"
+    },
+    {
+      "number": 2,
+      "text": "At his presence nature shakes,\nEarth affrighted hastes to flee ;\nSolid mountains melt like dew ;\nWhat will then become of thee ?"
+    },
+    {
+      "number": 3,
+      "text": "Who his advent may abide ?\nYou that glory in your shame,\nWill you find a place to hide,\nWhen the world is wrapt in flame ?"
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["sinner", "secure", "pray", "Lord's avenging", "advent"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "7s."
+  }
+}

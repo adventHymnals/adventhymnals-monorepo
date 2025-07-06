@@ -1,0 +1,34 @@
+{
+  "id": "HT1876-en-490",
+  "number": 490,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "MY LORD, breathe an evening blessing\nEre repose our spirits seal ;\nSin and want we come confessing,\nThou canst save, and thou canst heal."
+    },
+    {
+      "number": 2,
+      "text": "Though destruction walk around us,\nThough the arrows past us fly,\nAngel guards from thee surround us ;\nWe are safe if thou art nigh."
+    },
+    {
+      "number": 3,
+      "text": "Though the night be dark and dreary,\nDarkness cannot hide from thee ;\nThou art he, who, never weary,\nWatchest where thy people be."
+    },
+    {
+      "number": 4,
+      "text": "Should swift death this night o'ertake us,\nAnd command us to the tomb,\nMay the morn of glory wake us,\nClad in bright, eternal bloom."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["evening blessing", "protection", "angel guards", "eternal bloom"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "8s & 7s"
+  }
+}

@@ -1,40 +1,31 @@
 {
   "id": "HT1886-en-464",
   "number": 464,
-  "title": "Jesus, Saviour of our race",
-  "author": "W. H. Littlejohn",
-  "composer": "Simeon B. Marsh",
-  "tune": "MARTYN",
-  "meter": "7s, D",
+  "title": "Hear the Call",
+  "author": "W. F. S.",
+  "composer": "Wm. F. Sherwin",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Lo! the day of God is breaking; See the gleaming from afar! True at last in Man the Son of God; Captain; Let no heart in fear or doubt; Onward marching, firm and steady, Faint not, fear not Satan's frown; Conquering hosts with ban-ners wav-ing, Sweep-ing on o'er hill and plain."
     },
     {
       "number": 2,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    },
-    {
-      "number": 3,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    },
-    {
-      "number": 4,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    },
-    {
-      "number": 5,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Sons of earth, from slumber waking, Hail the bright and Morning Star; Jesus leads the gathering legions, In his name we shall prevail; Trust the Lord in with all ways, Till you wear the victor's crown; Ne'er shall halt till swells the anthem, 'Christ o'er all the world outright!'"
     }
   ],
+  "chorus": {
+    "text": "Hear the call! O gird your armor on; Grasp the Spirit's mighty Sword; Take the helmet of salvation, Pressing on to battle for the Lord."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["salvation", "redemption", "gratitude to Jesus", "spiritual journey"],
+    "themes": ["spiritual warfare", "victory", "preparation for battle", "Christian soldiers"],
     "scripture_references": [],
-    "tune_source": "Simeon B. Marsh",
+    "tune_source": "Wm. F. Sherwin",
     "original_language": "en",
     "extraction_status": "completed"
   }

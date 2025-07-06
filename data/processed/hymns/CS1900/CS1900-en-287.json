@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-287",
+  "number": 287,
+  "title": "Benediction",
+  "author": "Bowring",
+  "composer": "Weber",
+  "tune": null,
+  "meter": "7s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God be with you till we meet again, By his counsels guide, uphold you, With his sheep securely fold you, God be with you till we meet again."
+    },
+    {
+      "number": 2,
+      "text": "God be with you till we meet again, 'Neath his wings protecting hide you, Daily manna still provide you, God be with you till we meet again."
+    },
+    {
+      "number": 3,
+      "text": "God be with you till we meet again, When life's perils thick confound you, Put his arms unfailing round you, God be with you till we meet again."
+    },
+    {
+      "number": 4,
+      "text": "God be with you till we meet again, Keep love's banner floating o'er you, Smite death's threatening wave before you, God be with you till we meet again."
+    }
+  ],
+  "chorus": {
+    "text": "Till we meet, till we meet, Till we meet at Jesus' feet, Till we meet, till we meet, God be with you till we meet again."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["blessing", "parting", "protection", "farewell"],
+    "scripture_references": ["Numbers 6:24-26"],
+    "tune_source": "Weber",
+    "original_language": "en"
+  }
+}

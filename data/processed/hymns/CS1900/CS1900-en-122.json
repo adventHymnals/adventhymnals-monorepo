@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-122",
+  "number": 122,
+  "title": "Shall Our Cheeks Be Dry?",
+  "author": "Josiah Conder",
+  "composer": "Lowell Mason",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Shall our cheeks be dry when we think of pain, That Jesus bore for us?\nShall our hearts be cold when we think of love, That Jesus shows to us?\nShall our lips be mute when we think of grace, That Jesus gives to us?\nShall our lives be still when we think of hope, That Jesus brings to us?"
+    },
+    {
+      "number": 2,
+      "text": "Shall our cheeks be dry when we think of pain, That Jesus bore for us?\nShall our hearts be cold when we think of love, That Jesus shows to us?\nShall our lips be mute when we think of grace, That Jesus gives to us?\nShall our lives be still when we think of hope, That Jesus brings to us?"
+    },
+    {
+      "number": 3,
+      "text": "Let each of your hearts be good and clear, And give him praise and glory;\nLet each of your hearts be good and clear, And give him praise and glory;\nFor now shall we sing—there's hope, there's hope, there's hope;\nFor now shall we sing—there's hope, there's hope, there's hope."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["gratitude", "emotion", "response to Christ"],
+    "scripture_references": [],
+    "tune_source": "Lowell Mason",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses, no chorus",
+    "first_line": "Shall our cheeks be dry when we think of pain"
+  }
+}

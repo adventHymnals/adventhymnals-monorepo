@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-059",
+  "number": 59,
+  "title": "Gethsemane",
+  "author": "William B. Tappan",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'Tis mid night; and on Ol ive's brow\nThe star is dimm'd that late ly shone;\n'Tis mid night; in the gar den now\nThe suff'ring Sav iour prays a lone."
+    },
+    {
+      "number": 2,
+      "text": "'Tis mid night; and from all re moved,\nThe Sav iour wrest les lone with fears;\nE'en that dis ci ple whom he loved\nHeeds not his Mas ter's grief and tears."
+    },
+    {
+      "number": 3,
+      "text": "'Tis mid night; and for oth ers' guilt\nThe Man of Sor rows weeps in blood;\nYet he who hath in an guish knelt\nIs not for sak en by his God."
+    },
+    {
+      "number": 4,
+      "text": "'Tis mid night; and from eth er plains\nIs borne the song that an gels know;\nUn heard by mor tals are the strains\nThat sweet ly soothe the Sav iour's woe."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Gethsemane", "suffering", "prayer", "Jesus Christ", "passion"],
+    "scripture_references": ["Matthew 26:36-46", "Mark 14:32-42", "Luke 22:39-46"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

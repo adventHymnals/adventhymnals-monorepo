@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-314",
+  "number": 314,
+  "title": "The Day Awakes",
+  "author": "Anna Shipton",
+  "composer": "Henry Smart",
+  "tune": "Regent Square",
+  "meter": "8, 7, 8, 7, 8, 7.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "A voice from the midnight cries, Wakening beauty, And all the earth from its peaceful rest takes its flight; The hosts of stars are shining bright, Behold, the Bridegroom cometh!"
+    },
+    {
+      "number": 2,
+      "text": "At midnight there's a cry, Behold the Bridegroom cometh! Go forth to meet him! The chosen company must arise, And greet him with their burning light."
+    },
+    {
+      "number": 3,
+      "text": "O happy ye, and blest, All ye who hear the summons! Go forth to meet your Bridegroom! Hallelujah! With joyful heart and ready hands, Ye watch and wait his coming!"
+    },
+    {
+      "number": 4,
+      "text": "The marriage of the Lamb has come, And ready is the bride! She has made herself ready, And in her beauty all may see The glory of her Lord."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["second coming", "readiness", "bride of Christ", "watchfulness"],
+    "scripture_references": ["Matthew 25:6"],
+    "tune_source": "Henry Smart",
+    "original_language": "en"
+  }
+}

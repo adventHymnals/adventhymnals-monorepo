@@ -1,40 +1,35 @@
 {
   "id": "HT1886-en-463",
   "number": 463,
-  "title": "We stand in deep repentance",
-  "author": "Ray Palmer",
-  "composer": "J. E. White",
-  "tune": "MARIETTA",
-  "meter": "7s & 6s",
+  "title": "Blow the Trumpet",
+  "author": "Dr. J. L. Gilmore",
+  "composer": "Wm. J. Kirkpatrick",
+  "tune": null,
+  "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Watchman, blow the gospel trumpet, Every soul a warning give; Sound it loud o'er every hill-top, Gloomy shade and sunny plain; Sound it in the hedge and high-way, In the dark spots where men roam; Sound it for the heavy-laden, Weary, longing to be free."
     },
     {
       "number": 2,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Who the gracious message May repeat, and turn and live. Ocean depths resound the message, Full salvation's glad refrain; Let it tell all things are ready, Father waits to welcome home; Sound salvation in salvation, Sweetly say sing, 'Come to me.'"
     },
     {
       "number": 3,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+      "text": "Blow the trumpet trusty watchman, Blow it loud o'er land and sea; God commissions, sound the message! Every captive may be free."
     },
-    {
-      "number": 4,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    },
-    {
-      "number": 5,
-      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
-    }
   ],
+  "chorus": {
+    "text": "Blow the trumpet, trusty watchman, Blow it loud o'er land and sea; God commissions, sound the message! Every captive may be free."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": ["deep repentance", "seeking forgiveness", "God's guiding grace", "spiritual refuge"],
+    "themes": ["evangelism", "proclamation", "gospel trumpet", "warning"],
     "scripture_references": [],
-    "tune_source": "J. E. White",
+    "tune_source": "Wm. J. Kirkpatrick",
     "original_language": "en",
     "extraction_status": "completed"
   }

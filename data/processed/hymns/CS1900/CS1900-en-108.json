@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-108",
+  "number": 108,
+  "title": "Coming",
+  "author": "F. J. Van Alstyne",
+  "composer": "Geo. C. Stebbins",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I hear the Savior say, \"Come to me, come to me,\nAnd I will give thee rest, And I will give thee rest;\"\nI hear the Savior say, \"Come to me, come to me,\nAnd I will give thee rest."
+    },
+    {
+      "number": 2,
+      "text": "I come to thee, O Lord, I come to thee, O Lord,\nThou wilt receive me now, Thou wilt receive me now;\nI come to thee, O Lord, I come to thee, O Lord,\nThou wilt receive me now."
+    },
+    {
+      "number": 3,
+      "text": "My guilty conscience feels, My guilty conscience feels,\nThat thou dost pardon me, That thou dost pardon me;\nMy guilty conscience feels, My guilty conscience feels,\nThat thou dost pardon me."
+    }
+  ],
+  "chorus": {
+    "text": "He speaks and makes me whole;\nHe speaks and makes me whole;\nHe speaks and makes me whole,\nHe speaks and makes me whole."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["coming to Christ", "rest", "pardon"],
+    "scripture_references": ["Matthew 11:28"],
+    "tune_source": "Geo. C. Stebbins",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "I hear the Savior say"
+  }
+}

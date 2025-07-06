@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-055",
+  "number": 55,
+  "title": "Yield Not to Temptation",
+  "author": "H. R. Palmer",
+  "composer": "H. R. Palmer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Yield not to temp ta tion, For yielding is sin,\nEach vic t'ry will help you, Some other to win;\nFight man fully on-ward, Dark pas sions sub-due,\nLook ev er to Je sus, He'll car ry you through."
+    },
+    {
+      "number": 2,
+      "text": "Shun e vil com pan ions, Bad lan guage dis dain,\nGod's name hold in rev'rence, Nor take it in vain;\nBe thought ful and ear nest, Kind heart ed and true,\nLook ev er to Je sus, He'll car ry you through."
+    },
+    {
+      "number": 3,
+      "text": "To him that o'er com eth, God giv eth a crown,\nThro' faith we shall con quer, Tho' oft en cast down;\nHe who is our Sav iour, Our strength will re new,\nLook ev er to Je sus, He'll car ry you through."
+    }
+  ],
+  "chorus": {
+    "text": "Ask the Sav iour to help you, Com fort, strengthen, and keep you;\nHe is will ing to aid you, He will car ry you through."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "By permission of Prof. H. R. Palmer.",
+    "themes": ["temptation", "perseverance", "faith", "victory"],
+    "scripture_references": [],
+    "tune_source": "H. R. Palmer",
+    "original_language": "en"
+  }
+}

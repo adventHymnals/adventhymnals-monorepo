@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-121",
+  "number": 121,
+  "title": "All Have Gone Astray",
+  "author": "J. H. Stockton",
+  "composer": "J. H. Stockton",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All we like sheep have gone astray, have gone astray, have gone astray;\nAll we like sheep have gone astray, turned every one to his own way;\nAnd the Lord hath laid on him the iniquity of us all,\nAnd the Lord hath laid on him the iniquity of us all."
+    },
+    {
+      "number": 2,
+      "text": "We have all gone astray from the path of the right, the path of the right;\nWe have all gone astray from the path of the right, turned every one to his own way;\nAnd the Lord hath laid on him the iniquity of us all,\nAnd the Lord hath laid on him the iniquity of us all."
+    },
+    {
+      "number": 3,
+      "text": "But Christ the Lord died for us all, died for us all, died for us all;\nBut Christ the Lord died for us all, turned every one to his own way;\nAnd the Lord hath laid on him the iniquity of us all,\nAnd the Lord hath laid on him the iniquity of us all."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["sin", "atonement", "substitution"],
+    "scripture_references": ["Isaiah 53:6"],
+    "tune_source": "J. H. Stockton",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses, no chorus",
+    "first_line": "All we like sheep have gone astray"
+  }
+}

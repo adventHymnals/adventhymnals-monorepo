@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-400",
+  "number": 400,
+  "title": "LIFT HIM UP",
+  "author": "Johnson Oatman Jr.",
+  "composer": "H. L. Gilmour",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How to reach the mass-es, men of ev-'ry birth, For an an-swer Je-sus gave the key;\nAnd I, if I be lift-ed up from the earth, Will draw all men un-to me."
+    },
+    {
+      "number": 2,
+      "text": "Lift him up, 'tis he that bids you, Lift the dy-ing, look and live;\nLift him up, the pre-cious Sav-ior, Bear the mes-sage God doth give;\nLift him up by liv-ing for him, Lift the Sav-ior up in prayer;\nLift him up by walk-ing with him, Show his love and ten-der care."
+    },
+    {
+      "number": 3,
+      "text": "Lift him up, for sin has taint-ed All the hearts of men that live;\nLift him up by sin-ners need-ed, He a-lone can save for-give;\nLift him up, the pre-cious Sav-ior, Bear the mes-sage God doth give."
+    }
+  ],
+  "chorus": {
+    "text": "Lift him up, lift him up, Still he speaks from e-ter-ni-ty;\nLift him up, lift him up, And I'll draw all men to me."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["lifting up Jesus", "evangelism", "drawing all men", "salvation"],
+    "scripture_references": [],
+    "tune_source": "H. L. Gilmour",
+    "original_language": "en"
+  }
+}

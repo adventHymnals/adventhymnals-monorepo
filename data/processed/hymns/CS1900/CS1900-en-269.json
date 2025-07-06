@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-269",
+  "number": 269,
+  "title": "His Loving Kindness",
+  "author": "Medley",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Awake, my soul, to joyful lays,\nAnd sing thy great Redeemer's praise;\nHe justly claims a song from me,\nHis loving kindness, O how free!"
+    },
+    {
+      "number": 2,
+      "text": "He saw me ruined in the fall,\nYet loved me notwithstanding all;\nHe saved me from my lost estate,\nHis loving kindness, O how great!"
+    },
+    {
+      "number": 3,
+      "text": "Through trouble he has been my stay,\nHe has not left me to this day;\nI never shall forgotten be,\nHis loving kindness, O how free!"
+    },
+    {
+      "number": 4,
+      "text": "When trouble, like a gloomy cloud,\nHas gathered thick and thundered loud,\nHe near my soul has always stood,\nHis loving kindness, O how good!"
+    }
+  ],
+  "chorus": {
+    "text": "His loving kindness, loving kindness,\nHis loving kindness, O how free!\nHis loving kindness, loving kindness,\nHis loving kindness, O how free!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["God's love", "kindness", "redemption", "faithfulness"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

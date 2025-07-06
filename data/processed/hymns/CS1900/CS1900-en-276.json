@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-276",
+  "number": 276,
+  "title": "Thou Art Near",
+  "author": "Anon",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O my God, thou blessed Saviour,\nThou art near when hope seems far;\nThou dost answer when I call thee,\nIn the night thou art my star."
+    },
+    {
+      "number": 2,
+      "text": "When the sorrows overtake me,\nAnd the waves of grief roll high,\nThou dost speak in tones of comfort,\nAnd my fears before thee fly."
+    },
+    {
+      "number": 3,
+      "text": "Blessed Jesus, I will trust thee,\nFor I know that thou art near;\nIn the darkness thou dost guide me,\nAnd thy voice I always hear."
+    },
+    {
+      "number": 4,
+      "text": "When at last life's journey's ended,\nAnd I cross the narrow sea,\nThou wilt be my faithful pilot,\nAnd will bring me safe to thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["God's nearness", "comfort", "trust", "guidance"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

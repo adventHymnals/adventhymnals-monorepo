@@ -1,7 +1,7 @@
 {
   "id": "HT1886-en-443",
   "number": 443,
-  "title": "Hymn 443 (To be extracted)",
+  "title": "Jesus My Grief and Woe",
   "author": null,
   "composer": null,
   "tune": null,
@@ -10,16 +10,27 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Jesus—and didst thou leave the sky,\nTo bear our griefs and woe?\nAnd didst thou bleed, and groan, and die,\nFor rebellious foes?"
+    },
+    {
+      "number": 2,
+      "text": "Well might the heavens with wonder view\nA love so strange as thine!\nNo thoughts of angels ever knew\nCompassion so divine."
+    },
+    {
+      "number": 3,
+      "text": "Is there a heart that will not bend\nTo thy divine control?\nDescend, O sovereign love, descend,\nAnd melt that stubborn soul!"
+    },
+    {
+      "number": 4,
+      "text": "O, may our willing hearts confess\nThy sweet, thy gentle sway!\nGive us the blessing of thy grace,\nThy righteous rule obey."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["Jesus' sacrifice", "divine love", "redemption", "surrender", "compassion"],
     "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "tune_source": "545, 117, 591",
+    "original_language": "en"
   }
 }

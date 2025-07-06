@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-324",
+  "number": 324,
+  "title": "Perfect",
+  "author": "M. R. Whittle",
+  "composer": "James McGranahan",
+  "tune": "Perfect",
+  "meter": "P. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There's not a friend like the lowly Jesus, No, not one! No, not one! None else could heal all our soul's diseases, No, not one! No, not one!"
+    },
+    {
+      "number": 2,
+      "text": "No friend like him is so high and holy, No, not one! No, not one! And yet no friend is so meek and lowly, No, not one! No, not one!"
+    },
+    {
+      "number": 3,
+      "text": "There's not an hour that he is not near us, No, not one! No, not one! No night so dark but his love can cheer us, No, not one! No, not one!"
+    },
+    {
+      "number": 4,
+      "text": "Was e'er a gift like the Savior given? No, not one! No, not one! Will he refuse us a home in heaven? No, not one! No, not one!"
+    }
+  ],
+  "chorus": {
+    "text": "Jesus knows all about our struggles, He will guide till the day is done; There's not a friend like the lowly Jesus, No, not one! No, not one!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Jesus friendship", "comfort", "uniqueness", "faithfulness"],
+    "scripture_references": ["John 15:13"],
+    "tune_source": "James McGranahan",
+    "original_language": "en"
+  }
+}

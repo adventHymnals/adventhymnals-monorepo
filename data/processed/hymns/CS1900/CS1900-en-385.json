@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-385",
+  "number": 385,
+  "title": "MASTER, HAST THOU WORK FOR ME",
+  "author": "Unknown",
+  "composer": "Unknown",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Mas-ter, hast thou work for me? I would glad-ly toil for thee;\nI have nei-ther strength nor skill, Yet in ways that seem most right,\nI would glad-ly do thy will, I would glad-ly do thy will."
+    },
+    {
+      "number": 2,
+      "text": "Let me learn what thou wilt teach, Let me go where thou dost call;\nLet me speak, if thou dost bid, If thou bid me here to stay,\nLet me go if thou dost call, Let me go if thou dost call."
+    },
+    {
+      "number": 3,
+      "text": "Mas-ter, I would glad-ly bring All my life, my all to thee;\nThou hast giv-en all for me, I would glad-ly give to thee,\nAll my life, my all to thee, All my life, my all to thee."
+    }
+  ],
+  "chorus": {
+    "text": "Yes, some place I long to fill, That my hands are small and weak, I look\nKnow that with-out thee, my ways I ne-ver serve thee, no. I'm kind!\nHeart and hands to thee I bring, Let me serve thee, no, I'm kind!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["service", "dedication", "willingness", "surrender"],
+    "scripture_references": [],
+    "tune_source": "Unknown",
+    "original_language": "en"
+  }
+}

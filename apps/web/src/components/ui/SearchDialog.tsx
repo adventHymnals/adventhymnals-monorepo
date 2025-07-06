@@ -100,9 +100,26 @@ export default function SearchDialog({
   };
 
   const handleResultClick = (result: SearchResult) => {
-    // Navigate to hymn page
-    const slug = result.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
-    window.location.href = `/${hymnalId.toLowerCase()}/hymn-${result.number}-${slug}`;
+    // Generate proper hymnal URL slug from hymnalId
+    const hymnalSlugMap: { [key: string]: string } = {
+      'SDAH': 'seventh-day-adventist-hymnal',
+      'CIS': 'christ-in-song',
+      'CH1941': 'church-hymnal',
+      'HT1886': 'the-seventh-day-adventist-hymn-and-tune-book-hymns-and-tunes',
+      'MH1843': 'millenial-harp',
+      'HGPP': 'hymns-for-god-s-peculiar-people',
+      'HSAB': 'hymns-for-second-advent-believers-who-observe-the-sabbath-of-the-lord',
+      'HT1869': 'hymns-and-tunes-1869',
+      'HT1876': 'hymns-and-tunes-1876',
+      'NZK': 'nyimbo-za-kristo',
+      'WDL': 'wende-duto-luo',
+      'CM': 'campus-melodies',
+      'HPF': 'hymns-for-the-poor-of-the-flock'
+    };
+    
+    const hymnalSlug = hymnalSlugMap[hymnalId] || hymnalId.toLowerCase();
+    const titleSlug = result.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
+    window.location.href = `/${hymnalSlug}/hymn-${result.number}-${titleSlug}`;
   };
 
   return (
@@ -224,7 +241,23 @@ export default function SearchDialog({
                 <div className="mt-4 pt-4 border-t border-gray-200 text-center">
                   <button
                     onClick={() => {
-                      window.location.href = `/${hymnalId.toLowerCase()}/search${query ? `?q=${encodeURIComponent(query)}` : ''}`;
+                      const hymnalSlugMap: { [key: string]: string } = {
+                        'SDAH': 'seventh-day-adventist-hymnal',
+                        'CIS': 'christ-in-song',
+                        'CH1941': 'church-hymnal',
+                        'HT1886': 'the-seventh-day-adventist-hymn-and-tune-book-hymns-and-tunes',
+                        'MH1843': 'millenial-harp',
+                        'HGPP': 'hymns-for-god-s-peculiar-people',
+                        'HSAB': 'hymns-for-second-advent-believers-who-observe-the-sabbath-of-the-lord',
+                        'HT1869': 'hymns-and-tunes-1869',
+                        'HT1876': 'hymns-and-tunes-1876',
+                        'NZK': 'nyimbo-za-kristo',
+                        'WDL': 'wende-duto-luo',
+                        'CM': 'campus-melodies',
+                        'HPF': 'hymns-for-the-poor-of-the-flock'
+                      };
+                      const hymnalSlug = hymnalSlugMap[hymnalId] || hymnalId.toLowerCase();
+                      window.location.href = `/${hymnalSlug}/search${query ? `?q=${encodeURIComponent(query)}` : ''}`;
                     }}
                     className="text-sm text-primary-600 hover:text-primary-700"
                   >

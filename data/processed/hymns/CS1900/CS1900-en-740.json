@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-740",
+  "number": 740,
+  "title": "Gone to Rest",
+  "author": "E. J. Cawston",
+  "composer": "E. J. Cawston",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Yes, they've passed sweet-ly, still-ing, fol-low, And peace is their 'tis rest;\nWhen the morn shall dawn, they'll rise a-gain, And be for-ev-er blessed.\nIn the vale of qui-et sleep-ing, No sor-row can mo-lest."
+    },
+    {
+      "number": 2,
+      "text": "Je-sus calls His faithful ones to sleep, They need not watch or weep;\nIn the morn-ing of the res-ur-rec-tion, They'll wake from slum-ber deep.\nIn the vale of qui-et sleep-ing, No sor-row can mo-lest."
+    },
+    {
+      "number": 3,
+      "text": "Rest, sweet souls! Let no pil-grim-age done; no bless-ed;\nBask in the new heav-en-ly Je-ru-sa-lem, Rest from toil and strife and care.\nIn the vale of qui-et sleep-ing, No sor-row can mo-lest."
+    }
+  ],
+  "chorus": {
+    "text": "Gone to rest, gone to rest, Gone to rest in the val-ley;\nGone to rest, gone to rest, They are rest-ing in the val-ley."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": ["rest", "death", "resurrection", "peace"],
+    "scripture_references": [],
+    "tune_source": "E. J. Cawston",
+    "original_language": "en"
+  }
+}

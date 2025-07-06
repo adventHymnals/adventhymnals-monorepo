@@ -1,0 +1,30 @@
+{
+  "id": "HT1876-en-118",
+  "number": 118,
+  "title": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "MY Lord, my Life, what shall I cry ;\nThy mercy would I know ;\nThy purifying blood apply,\nAnd wash me white as snow."
+    },
+    {
+      "number": 2,
+      "text": "Touch me, and make the leper clean ;\nPurge my iniquity ;\nUnless thou wash my soul from sin,\nI have no part in thee."
+    },
+    {
+      "number": 3,
+      "text": "But art thou not already mine ?\nAnswer, if mine thou art ;\nWhisper within, thou Lord divine,\nAnd cheer my drooping heart."
+    }
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["My Lord", "mercy", "purifying blood", "leper", "Lord divine"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "C. M."
+  }
+}

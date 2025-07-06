@@ -1,25 +1,25 @@
 {
   "id": "HT1886-en-494",
   "number": 494,
-  "title": "Hymn 494 (To be extracted)",
-  "author": null,
-  "composer": null,
+  "title": "Come into the Ark",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
   "tune": null,
   "meter": null,
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "[Copyright protected content - full text not available]"
     }
   ],
   "metadata": {
     "year": 1886,
-    "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "copyright": "Copyrighted 1886 by The J. E. White Pub. Co.",
+    "themes": ["salvation", "refuge", "ark"],
+    "scripture_references": ["Genesis 7:1"],
+    "tune_source": "F. E. Belden",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "metadata_only_copyright_protected"
   }
 }

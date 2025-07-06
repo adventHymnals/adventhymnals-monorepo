@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-297",
+  "number": 297,
+  "title": "Praise the Lord",
+  "author": "New Version",
+  "composer": "Arranged",
+  "tune": "Adeste Fideles",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise the Lord, ye heavens, adore him, Praise him, angels in the height; Sun and moon, rejoice before him, Praise him, all ye stars of light."
+    },
+    {
+      "number": 2,
+      "text": "Praise the Lord, for he hath spoken, Worlds his mighty voice obeyed; Laws which never shall be broken For their guidance he hath made."
+    },
+    {
+      "number": 3,
+      "text": "Praise the Lord, for he is glorious, Never shall his promise fail; God hath made his saints victorious, Sin and death shall not prevail."
+    },
+    {
+      "number": 4,
+      "text": "Praise the God of our salvation, Hosts on high his power proclaim; Heaven and earth and all creation, Laud and magnify his name."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["praise", "creation", "worship", "God's power"],
+    "scripture_references": ["Psalm 148:1"],
+    "tune_source": "Arranged",
+    "original_language": "en"
+  }
+}

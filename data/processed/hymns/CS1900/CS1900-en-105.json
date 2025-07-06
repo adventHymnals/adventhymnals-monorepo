@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-105",
+  "number": 105,
+  "title": "Thy Work Alone",
+  "author": "J. H. Stockton",
+  "composer": "J. H. Stockton",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Not what these hands have done Can save this guilty soul;\nNot what this toiling flesh has borne Can make my spirit whole;\nNot what I feel or do Can give me peace with God;\nNot all my prayers and signs and tears Can bear sin's awful load."
+    },
+    {
+      "number": 2,
+      "text": "Thy work alone, O Christ, Can ease this weight of sin;\nThy blood alone, O Lamb of God, Can give me peace within;\nThy love to me, O God, Not mine, O Lord, to thee,\nCan rid me of this dark unrest, And set my spirit free."
+    },
+    {
+      "number": 3,
+      "text": "I bless the Christ of God, I rest on love divine,\nAnd with unfaltering lip and heart I call this Savior mine;\nHis cross dispels each doubt, I bury in his tomb\nEach thought of unbelief and fear, Each lingering shade of gloom."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["salvation", "grace", "Christ's work"],
+    "scripture_references": [],
+    "tune_source": "J. H. Stockton",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses, no chorus",
+    "first_line": "Not what these hands have done"
+  }
+}

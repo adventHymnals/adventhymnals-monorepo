@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-722",
+  "number": 722,
+  "title": "The Evergreen Shore",
+  "author": "Fauquette",
+  "composer": "Fauquette",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We are go-ing o-ver the riv-er, We are go-ing o-ver the tide;\nWe have wait-ing on the far-ther side at once and lit-tle we know; Go-ing\nBut we see and feel the ev-er-green shore, The blessed ev-er-green shore."
+    },
+    {
+      "number": 2,
+      "text": "We are go-ing where the grass grows green, Where the birds sing sweet-ly\nWhere the ev-er-green shore, Where the faith-ful nev-er of\nThe dis-cour-ag-ing way, They the light of His coun-te-nance,\nAnd the beat-i-fic day, The won-der-ful day."
+    },
+    {
+      "number": 3,
+      "text": "Un-known com-plete, Are riv-ers and fields at Je-\nSus-pense and hope, For Je-sus waits for us on the\nOur re-ward with Him; un-der His king-dom great he will\nBright-en the way, With love that lasts for-ev-er and ev-er and"
+    }
+  ],
+  "chorus": {
+    "text": "Go-ing to the ev-er-green shore, Go-ing to the ev-er-green shore,\nWe are go-ing to the ev-er-green shore, The blessed ev-er-green shore."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": ["heaven", "eternal life", "journey", "promise"],
+    "scripture_references": [],
+    "tune_source": "Fauquette",
+    "original_language": "en"
+  }
+}
