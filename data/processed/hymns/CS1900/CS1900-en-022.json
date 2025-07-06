@@ -10,21 +10,34 @@
   "verses": [
     {
       "number": 1,
-      "text": "\"I will pray the Father, and he shall give you another Comforter, that he may abide with you forever.\"—John 14: 16. O spread the ti - dings 'round, wher - ev - er man is found, Wher - ev - er hu - man hearts And hu-man woes a-bound; Let ev - 'ry Christ-ian tongue Pro - claim the joy - ful sound: The Com-fort-er has come!\"\n    },
+      "text": "\"I will pray the Father, and he shall give you another Comforter, that he may abide with you forever.\" — John 14:16.\nO spread the tidings 'round, wherever man is found,\nWherever human hearts and human woes abound;\nLet every Christian tongue proclaim the joyful sound:\nThe Comforter has come!"
+    },
     {
       "number": 2,
-      "text": "The long, long night is past, The morn - ing breaks at last; And hushed the dreadful wail Of cap-tives held so fast! He lives who once was dead, The o - pen foun-tain flows From Cal - v'ry's sacred head; And all the saints of love And all thy saints of love.\"\n    },
+      "text": "The long, long night is past, the morning breaks at last;\nAnd hushed the dreadful wail of captives held so fast!\nHe lives who once was dead, the open fountain flows\nFrom Calv’ry’s sacred head; oh, bless His name!"
+    },
     {
       "number": 3,
-      "text": "The Com - fort - er has come, The Com - fort - er has come! The Ho - ly Ghost from heav'n, The Father's promise giv'n; O spread the ti - dings 'round, wher - ev - er man is found—The Com-fort-er has come!\"\n    }
+      "text": "The Comforter has come, the Comforter has come!\nThe Holy Ghost from Heav’n, the Father’s promise giv’n;\nO spread the tidings ’round, wherever man is found—\nThe Comforter has come!"
+    }
   ],
   "chorus": {
-    "text": "The Com - fort - er has come! The Com - fort - er has come! The Ho - ly Ghost from heav'n, The Father's promise giv'n; O spread the ti - dings 'round, wher - ev - er man is found—The Com-fort-er has come!"\n  },
+    "text": "The Comforter has come! The Comforter has come!\nThe Holy Ghost from Heav’n, the Father’s promise giv’n;\nO spread the tidings ’round, wherever man is found—\nThe Comforter has come!"
+  },
   "metadata": {
     "year": 1900,
     "copyright": "Copyright by W. J. Kirkpatrick",
-    "themes": ["Comforter", "Holy Ghost", "promise", "Father", "tidings", "joy"],
-    "scripture_references": ["John 14:16"],
+    "themes": [
+      "Comforter",
+      "Holy Ghost",
+      "Promise",
+      "Father",
+      "Tidings",
+      "Joy"
+    ],
+    "scripture_references": [
+      "John 14:16"
+    ],
     "tune_source": null,
     "original_language": "en"
   }
