@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-002",
+  "number": 2,
+  "title": "Tell Me the Old, Old Story",
+  "author": "Miss Kate Hankey",
+  "composer": "W. H. Doane",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Tell me the old, old sto - ry, Of unseen things a - bove, Of Je - sus and his glo - ry, Of Je - sus and his love; Tell me the sto - ry slow - ly, That I may take it in— That won - der - ful re - demp-tion, God's rem - e - dy for sin."
+    },
+    {
+      "number": 2,
+      "text": "Tell me the sto - ry soft - ly, With ear - nest tones and grave; Re - mem - ber I'm the sin - ner Whom Je - sus came to save; Tell me the sto - ry al - ways, If you would real - ly be, In an - y time of trou - ble, A com - fort - er to me."
+    },
+    {
+      "number": 3,
+      "text": "Tell me the same old sto - ry, When you have cause to fear That this world's emp - ty glo - ry Is cost - ing me too dear; Yes, and when that world's glo - ry Is dawn - ing on my soul, Tell me the old, old sto - ry: 'Christ Je - sus makes thee whole.'"
+    }
+  ],
+  "chorus": {
+    "text": "Tell me the old, old sto - ry, Tell me the old, old sto - ry, Tell me the old, old sto - ry Of Je - sus and his love."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission",
+    "themes": ["story", "Jesus", "love", "glory", "redemption", "sin", "salvation"],
+    "scripture_references": ["Mark 5:19"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

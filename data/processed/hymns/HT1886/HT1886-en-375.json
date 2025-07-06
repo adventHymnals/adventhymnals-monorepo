@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-375",
   "number": 375,
-  "title": "Hymn 375 (To be extracted)",
-  "author": null,
+  "title": "Plunged in a Gulf of Dark Despair",
+  "author": null
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": null
+  "meter": "8s, 6s, & 4s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Plunged in a gulf of dark despair,\nWe wretched sinners lay,\nWithout one cheering beam of hope,\nOr spark of glimmering day."
+    },
+    {
+      "number": 2,
+      "text": "With pitying eyes the Prince of grace\nBeheld our helpless grief;\nHe saw, and O amazing love!\nHe came to our relief."
+    },
+    {
+      "number": 3,
+      "text": "Down from the shining courts above,\nWith joyful haste he sped,\nEntered the grave in mortal flesh,\nAnd dwelt among the dead."
+    },
+    {
+      "number": 4,
+      "text": "O for this love let rocks and hills\nTheir lasting silence break,\nAnd all harmonious human tongues\nThe Saviour's praises speak."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["despair and hopelessness", "Christ's compassion", "incarnation", "salvation", "praise to Christ"],
+    "scripture_references": ["Ephesians 2:1-5", "John 1:14", "1 Peter 3:18-19"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

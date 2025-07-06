@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-044",
+  "number": 44,
+  "title": "Calling",
+  "author": "W. L. T.",
+  "composer": "H. R. Thompson, by per.",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Incline your ear and come unto me: hear, and your souls shall live.\"—Isa. 55: 3. Why should we tar - ry when Je - sus is plead - ing, Plead - ing for you and for me? Why should we tar - ry when Je - sus is call - ing, Call - ing, O sin - ner, come home!"
+    },
+    {
+      "number": 2,
+      "text": "Come, come to - day, Come, come to - day, Why tar - ry a - way; Come while he's near you, Call - ing so ten - der - ly, Je - sus is calling, Watch-ing for you and for me?"
+    }
+  ],
+  "chorus": {
+    "text": "Come, come to - day, Come, come to - day, Je - sus is wait - ing, Come home, Come home."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1885, by Wm. A. Thompson & Co. Not copyrighted",
+    "themes": ["calling", "pleading", "tarry", "Jesus", "come", "home", "waiting"],
+    "scripture_references": ["Isa. 55:3"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

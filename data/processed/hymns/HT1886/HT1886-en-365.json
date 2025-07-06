@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-365",
   "number": 365,
-  "title": "Hymn 365 (To be extracted)",
+  "title": "The Sinner—Christ the Way of Life",
   "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "composer": "Heinrich C. Zeuner",
+  "tune": "Missionary Chant",
+  "meter": "L. M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "When, marshaled on the nightly plain,\nThe glittering host bestud the sky,\nOne star alone of all the train\nCan fix the sinner's wandering eye."
+    },
+    {
+      "number": 2,
+      "text": "Once on the raging seas I rode;\nThe storm was loud, the night was dark,\nThe ocean yawned, and rudely blowed\nThe wind that tossed my foundering bark."
+    },
+    {
+      "number": 3,
+      "text": "Deep horror then my vitals froze;\nDeath-struck, I ceased the tide to stem;\nWhen suddenly a star arose,—\nIt was the Star of Bethlehem."
+    },
+    {
+      "number": 4,
+      "text": "It was my guide, my light, my all;\nIt bade my dark forebodings cease;\nAnd through the storm and danger's thrall\nIt led me to the port of peace."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["salvation", "guidance", "star of Bethlehem", "Christ as light", "peace"],
+    "scripture_references": ["Matthew 2:1-10", "John 8:12"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "id": "SAHB-en-068",
+  "number": 68,
+  "title": "Come, Thou Fount",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, thou fount of every blessing,\nTune my heart to sing thy grace;\nStreams of mercy, never ceasing,\nCall for songs of loudest praise.\nTeach me some melodious sonnet,\nSung by flaming tongues above;\nPraise the mount! I'm fixed upon it,\nMount of God's unchanging love."
+    },
+    {
+      "number": 2,
+      "text": "Here I raise my Ebenezer,\nHither by thy help I'm come;\nAnd I hope, by thy good pleasure,\nSafely to arrive at home.\nJesus sought me when a stranger\nWandering from the fold of God;\nHe, to rescue me from danger,\nInterposed his precious blood."
+    },
+    {
+      "number": 3,
+      "text": "O to grace how great a debtor\nDaily I'm constrained to be!\nLet that grace now like a fetter\nBind my wandering heart to thee.\nProne to wander, Lord, I feel it,\nProne to leave the God I love;\nHere's my heart, O take and seal it,\nSeal it for thy courts above."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["God's grace", "thanksgiving", "spiritual journey", "dedication"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

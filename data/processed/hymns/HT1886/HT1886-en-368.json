@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-368",
   "number": 368,
-  "title": "Hymn 368 (To be extracted)",
-  "author": null,
+  "title": "Against the God That Rules the Sky",
+  "author": "Jerusha Brewer",
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "8s, 7s, & 3s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Against the God that rules the sky\nI fought, with weapons lifted high;\nI madly ran the sinful race,\nRegardless of a hiding-place."
+    },
+    {
+      "number": 2,
+      "text": "But a celestial voice I heard,\nA bleeding Saviour then appeared;\nLed by the Spirit of his grace,\nI found in him a hiding-place."
+    },
+    {
+      "number": 3,
+      "text": "On him the weight of vengeance fell\nThat else had sunk my soul to hell;\nThen, O my soul, forever praise\nThy Saviour, God thy hiding-place!"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["rebellion against God", "salvation", "Christ as refuge", "divine grace", "redemption"],
+    "scripture_references": ["Psalm 32:7", "Isaiah 32:2", "Romans 5:8"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

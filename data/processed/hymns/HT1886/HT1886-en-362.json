@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-362",
   "number": 362,
-  "title": "Hymn 362 (To be extracted)",
+  "title": "Lord, we are vile, and full of sin",
   "author": null,
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "774, 28, 374",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Lord, we are vile, and full of sin,\nWe're born unholy and unclean;\nSprung from the man whose guilty fall\nCorrupts his race and taints us all."
+    },
+    {
+      "number": 2,
+      "text": "Soon as we draw our infant breath\nThe seeds of sin grow up for death;\nThy law demands a perfect heart,\nBut we're defiled in every part."
+    },
+    {
+      "number": 3,
+      "text": "Behold, we fall before thy face;\nOur only refuge is thy grace:\nNo outward forms can make us clean;\nThe leprosy lies deep within."
+    },
+    {
+      "number": 4,
+      "text": "Nor bleeding bird, nor bleeding beast,\nNor hyssop branch, nor sprinkled priest,\nNor running brook, nor flood, nor sea,\nCan wash the dismal stain away."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["human sinfulness", "original sin", "need for grace", "cleansing"],
+    "scripture_references": ["Psalm 51:5", "Romans 3:23"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

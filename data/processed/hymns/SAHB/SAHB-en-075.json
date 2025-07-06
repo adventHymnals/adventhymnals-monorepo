@@ -1,0 +1,38 @@
+{
+  "id": "SAHB-en-075",
+  "number": 75,
+  "title": "O Worship the King",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O worship the King, all glorious above,\nO gratefully sing his power and his love;\nOur Shield and Defender, the Ancient of Days,\nPavilioned in splendor, and girded with praise."
+    },
+    {
+      "number": 2,
+      "text": "O tell of his might, O sing of his grace,\nWhose robe is the light, whose canopy space;\nHis chariots of wrath the deep thunderclouds form,\nAnd dark is his path on the wings of the storm."
+    },
+    {
+      "number": 3,
+      "text": "The earth with its store of wonders untold,\nAlmighty, thy power hath founded of old;\nHath stablished it fast by a changeless decree,\nAnd round it hath cast, like a mantle, the sea."
+    },
+    {
+      "number": 4,
+      "text": "Thy bountiful care what tongue can recite?\nIt breathes in the air, it shines in the light;\nIt streams from the hills, it descends to the plain,\nAnd sweetly distills in the dew and the rain."
+    },
+    {
+      "number": 5,
+      "text": "Frail children of dust, and feeble as frail,\nIn thee do we trust, nor find thee to fail;\nThy mercies how tender, how firm to the end,\nOur Maker, Defender, Redeemer, and Friend."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["worship", "God's majesty", "creation", "divine care"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

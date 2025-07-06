@@ -1,0 +1,28 @@
+{
+  "id": "CS1900-en-009",
+  "number": 9,
+  "title": "Like as a Father",
+  "author": "F. E. Belden",
+  "composer": "D. S. Hakes",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Like as a father pit - ies his child, So the Lord pit - ies those who fear him; Like as a mother com - forts her child, So the Lord a - lways with his children; Like as a father pit - ies his child, He doth compass us and know our frame; God, the Father, compassion ate to us, He remembers that we are but dust."
+    },
+    {
+      "number": 2,
+      "text": "Like as a father hear - er his child, Bless - er to clear up, Fill - ing with mercy; Like an - to hear us, Like an to cheer us; Watching o'er the straying, Guard-ing the pray-er, God on his heart in love - ing ten-der - ness; O trust in him thou sad and weeping child, in his tender or grace; The Lord is merci-ful and gracious"
+    }
+  ],
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1884, by F. E. Belden. Used by permission",
+    "themes": ["father", "compassion", "comfort", "children", "mercy", "grace", "tenderness"],
+    "scripture_references": ["Ps. 103:13"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

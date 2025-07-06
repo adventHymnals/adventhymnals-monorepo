@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-352",
   "number": 352,
-  "title": "Hymn 352 (To be extracted)",
+  "title": "Before the throne of God above",
   "author": null,
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "364, 767",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Before the throne of God above\nOur Intercessor stands,\nPleads for his own with deathless love,\nWith pierced and bleeding hands."
+    },
+    {
+      "number": 2,
+      "text": "The herren rocks of Calvary\nEchoed his dying cries,\nWhen Christ became, and sin for me,\nA wondrous Sacrifice."
+    },
+    {
+      "number": 3,
+      "text": "Not yet may victors' songs be sung\nIn realms of endless light,\nNot yet the notes of triumph rung\nBy saints all robed in white."
+    },
+    {
+      "number": 4,
+      "text": "Not yet do pilgrims' weary feet\nFind sweet abiding rest;\nBut when redemption is complete,\nWe'll dwell among the blest."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["intercession", "Christ's sacrifice", "Calvary", "redemption", "heaven"],
+    "scripture_references": ["Hebrews 7:25", "1 John 2:1"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

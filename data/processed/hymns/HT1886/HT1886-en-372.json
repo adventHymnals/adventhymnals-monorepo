@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-372",
   "number": 372,
-  "title": "Hymn 372 (To be extracted)",
-  "author": null,
+  "title": "Strait Is the Way",
+  "author": "Isaac Watts",
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "6s, 8s & 6s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Strait is the way, the door is strait,\nThat leads to joys on high;\n'Tis but a few that find the gate,\nWhile thousands pass it by."
+    },
+    {
+      "number": 2,
+      "text": "Beloved self must be denied,\nThe mind and will renewed,\nPassion suppressed, and patience tried,\nAnd vain desires subdued."
+    },
+    {
+      "number": 3,
+      "text": "Lord! can a feeble, helpless worm\nFulfil a task so hard?\nThy grace must all my work perform,\nAnd give the free reward."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["narrow way", "self-denial", "spiritual discipline", "divine grace", "heavenly reward"],
+    "scripture_references": ["Matthew 7:13-14", "Luke 13:24"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "id": "HT1876-en-024",
+  "number": 24,
+  "title": "Awake, ye saints, and raise your eyes",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "Awake, ye saints, and raise your eyes, And raise your voices high; Awake, and praise that sovereign love That shows salvation nigh."},
+    {"number": 2, "text": "On all the wings of time it flies, Each moment brings it near; Then welcome each declining day, Welcome each closing year."},
+    {"number": 3, "text": "Not many years their round shall run, Not many mornings rise, Ere all its glories stand revealed To our admiring eyes."}
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["awakening", "salvation", "time", "glory"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "C. M."
+  }
+}

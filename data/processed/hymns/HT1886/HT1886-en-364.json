@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-364",
   "number": 364,
-  "title": "Hymn 364 (To be extracted)",
+  "title": "Shall this vile heart of flesh and blood",
   "author": null,
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "777, 63, 676",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Shall this vile heart of flesh and blood\nContend with their Creator, God?\nShall mortal worms presume to be\nMore holy, wise, or just, than he?"
+    },
+    {
+      "number": 2,
+      "text": "From night to day, from day to night,\nWe stain thy thousands in thy sight;\nBuried in dust while nations lie,\nLike a forgotten vanity."
+    },
+    {
+      "number": 3,
+      "text": "Almighty Power, to thee we bow;\nHow frail are we! how glorious thou!\nNo more the sons of earth shall dare\nWith an eternal God compare."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["human frailty", "God's majesty", "humility", "mortality"],
+    "scripture_references": ["Job 4:17", "Isaiah 40:15"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

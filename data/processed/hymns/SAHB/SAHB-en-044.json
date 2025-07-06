@@ -1,0 +1,42 @@
+{
+  "id": "SAHB-en-044",
+  "number": 44,
+  "title": "Amazing Grace",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Amazing grace! how sweet the sound,\nThat saved a wretch like me!\nI once was lost, but now am found,\nWas blind, but now I see."
+    },
+    {
+      "number": 2,
+      "text": "'Twas grace that taught my heart to fear,\nAnd grace my fears relieved;\nHow precious did that grace appear\nThe hour I first believed!"
+    },
+    {
+      "number": 3,
+      "text": "Through many dangers, toils, and snares,\nI have already come;\n'Tis grace hath brought me safe thus far,\nAnd grace will lead me home."
+    },
+    {
+      "number": 4,
+      "text": "The Lord has promised good to me,\nHis word my hope secures;\nHe will my shield and portion be\nAs long as life endures."
+    },
+    {
+      "number": 5,
+      "text": "Yes, when this flesh and heart shall fail,\nAnd mortal life shall cease,\nI shall possess within the veil\nA life of joy and peace."
+    },
+    {
+      "number": 6,
+      "text": "When we've been there ten thousand years,\nBright shining as the sun,\nWe've no less days to sing God's praise\nThan when we first begun."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["grace", "salvation", "redemption", "eternity"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

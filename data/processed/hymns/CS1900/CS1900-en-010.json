@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-010",
+  "number": 10,
+  "title": "Only One Step",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Only one step to Jesus from the dark-ness in-to light; Only one step to Jesus from the wrong un-to the right; Only one step to Jesus, from death in-to life; Only one step to Jesus from the storm un-to the light."
+    },
+    {
+      "number": 2,
+      "text": "Only one step from sad-ness, from guilt with all its dread; Only one step from mad-ness, from Self unto its head; Only one step from anguish, from pain un-to the light; Only one step to flourish, On - ly one step to light."
+    }
+  ],
+  "refrain": {
+    "text": "Only one step, only one step; That is not far to go: Only one step, only one step, From Jesus we may know Why not take it now?"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1895, by F. E. Belden",
+    "themes": ["salvation", "decision", "step", "light", "darkness", "Jesus"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

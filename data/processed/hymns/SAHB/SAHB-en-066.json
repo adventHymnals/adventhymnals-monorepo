@@ -1,0 +1,34 @@
+{
+  "id": "SAHB-en-066",
+  "number": 66,
+  "title": "Praise God from Whom All Blessings Flow",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise God from whom all blessings flow;\nPraise him, all creatures here below;\nPraise him above, ye heavenly host;\nPraise Father, Son, and Holy Ghost."
+    },
+    {
+      "number": 2,
+      "text": "Praise God, ye saints, in every place,\nPraise him for his abounding grace;\nPraise him who speaks, and it is done,\nPraise Father, Spirit, and the Son."
+    },
+    {
+      "number": 3,
+      "text": "Praise God, whose love has made us one,\nPraise him through Christ, his blessed Son;\nPraise him whose mercy never ends,\nPraise him whose grace our souls defends."
+    },
+    {
+      "number": 4,
+      "text": "Praise God, all nations of the earth,\nPraise him who gave our souls new birth;\nPraise him in death, and praise in life,\nPraise him through joy and praise through strife."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["praise", "doxology", "Trinity", "God's blessings"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

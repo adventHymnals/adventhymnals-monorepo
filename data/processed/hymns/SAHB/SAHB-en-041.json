@@ -1,0 +1,38 @@
+{
+  "id": "SAHB-en-041",
+  "number": 41,
+  "title": "Father, I Stretch My Hands to Thee",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Father, I stretch my hands to thee,\nNo other help I know;\nIf thou withdraw thyself from me,\nAh! whither shall I go?"
+    },
+    {
+      "number": 2,
+      "text": "What did thine only Son endure,\nBefore I drew my breath?\nWhat pain, what labor, to secure\nMy soul from endless death?"
+    },
+    {
+      "number": 3,
+      "text": "O Jesus, could I this believe,\nI now should feel thy power,\nAnd all my wants thou wouldst relieve\nIn this accepted hour."
+    },
+    {
+      "number": 4,
+      "text": "Author of faith, to thee I lift\nMy weary, longing eyes;\nO let me now receive that gift;\nMy soul without it dies."
+    },
+    {
+      "number": 5,
+      "text": "Surely thou canst not let me die,\nO speak, and I shall live;\nAnd here I will unwearied lie,\nTill thou thy Spirit give."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["prayer", "seeking", "faith", "dependence"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

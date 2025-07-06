@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-379",
   "number": 379,
-  "title": "Hymn 379 (To be extracted)",
-  "author": null,
+  "title": "How Great the Wisdom, Power, and Grace",
+  "author": "Benjamin Beddome",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": null
+  "meter": "8s, 7s, & 8s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "How great the wisdom, power, and grace,\nWhich in redemption shine!\nThe heavenly host with joy confess\nThe work is all divine."
+    },
+    {
+      "number": 2,
+      "text": "Before His feet they cast their crowns,—\nThose crowns which Jesus gave,\nAnd with ten thousand thousand tongues\nProclaim his power to save."
+    },
+    {
+      "number": 3,
+      "text": "They tell the triumphs of his cross,\nThe suffering which he bore;\nHow low he stooped, how high he rose,\nAnd rose to stoop no more."
+    },
+    {
+      "number": 4,
+      "text": "With cheerful notes let us voices raise,\nAnd still the song renew;\nSalvation well deserves the praise\nOf men and angels too."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["divine wisdom", "redemption", "heavenly worship", "Christ's triumph", "salvation praise"],
+    "scripture_references": ["Revelation 5:11-13", "Philippians 2:6-11", "Ephesians 3:10"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

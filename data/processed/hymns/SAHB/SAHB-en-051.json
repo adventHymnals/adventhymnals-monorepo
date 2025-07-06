@@ -1,0 +1,37 @@
+{
+  "id": "SAHB-en-051",
+  "number": 51,
+  "title": "Safe in the Arms of Jesus",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Safe in the arms of Jesus,\nSafe on his gentle breast,\nThere by his love o'ershaded,\nSweetly my soul shall rest."
+    },
+    {
+      "number": 2,
+      "text": "Safe in the arms of Jesus,\nSafe from corroding care,\nSafe from the world's temptations,\nSin cannot harm me there."
+    },
+    {
+      "number": 3,
+      "text": "Free from the blight of sorrow,\nFree from my doubts and fears;\nOnly a few more trials,\nOnly a few more tears!"
+    },
+    {
+      "number": 4,
+      "text": "Jesus, my heart's dear refuge,\nJesus has died for me;\nFirm on the Rock of Ages,\nEver my trust shall be."
+    }
+  ],
+  "chorus": {
+    "text": "Safe in the arms of Jesus,\nSafe on his gentle breast,\nThere by his love o'ershaded,\nSweetly my soul shall rest."
+  },
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["safety", "Jesus", "protection", "rest"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

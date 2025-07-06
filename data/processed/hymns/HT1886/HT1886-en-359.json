@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-359",
   "number": 359,
-  "title": "Hymn 359 (To be extracted)",
+  "title": "Arise, my soul, arise",
   "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "composer": "German",
+  "tune": "Murray",
+  "meter": "H.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Arise, my soul, a-rise,\nShake off thy guilt-y fears;\nThe bleeding Sac-ri-fice\nIn my behalf appears:"
+    },
+    {
+      "number": 2,
+      "text": "Before the throne my Saviour stands;\nMy name is written on his hands.\nHe ever lives above,\nFor me to intercede;\nHis all-redeeming love,\nHis precious blood, to plead;\nHis blood atoned for all our race,\nAnd sprinkles now the throne of grace."
+    },
+    {
+      "number": 3,
+      "text": "Five bleeding wounds he bears,\nReceived on Calvary;\nThey pour effectual prayers,\nThey strongly speak for me:\nForgive him, O, forgive they cry,\nNor let the contrite sinner die!"
+    },
+    {
+      "number": 4,
+      "text": "The Father hears him pray,\nHis dear anointed One;\nHe cannot turn away\nThe presence of his Son;\nHis Spirit answers to the blood,\nAnd tells me I'm a child of God."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "themes": ["prayer", "intercession", "Christ's sacrifice", "assurance", "blood of Christ"],
+    "scripture_references": ["Hebrews 7:25", "1 John 2:1"],
+    "tune_source": "Murray, German",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-018",
+  "number": 18,
+  "title": "Lovingly, Tenderly Calling",
+  "author": "W. A. O.",
+  "composer": "W. A. Ogden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I am the good Shepherd, the good Shepherd giveth his life for the sheep.—John 10: 11. Softly and ten - der - ly Je - sus is call - ing, Call - ing for you and for me; See, on the por - tals he's wait - ing and watching, Watch-ing for you and for me. Come to his strength-ened of man - hood, Come in the morn - of a youth, Come to the Shep-herd so ten - der and true, Call - ing, call - ing for you."
+    },
+    {
+      "number": 2,
+      "text": "Why should we tar - ry when Je - sus is plead - ing, Plead - ing for you and for me? Why should we lin - ger and heed not his mer - cies, Mer - cies for you and for me? Come home, come home, Ye who are wea - ry, come home; Ear - nest - ly, ten - der - ly, Je - sus is call - ing, Call - ing, O sin - ner, come home!"
+    },
+    {
+      "number": 3,
+      "text": "Time is now fleet - ing, the mo - ments are pass - ing, Pass - ing from you and from me; Shad - ows are gath - er - ing, death - beds are com - ing, Com - ing for you and for me. Come home, come home, Ye who are wea - ry, come home; Ear - nest - ly, ten - der - ly, Je - sus is call - ing, Call - ing, O sin - ner, come home!"
+    }
+  ],
+  "chorus": {
+    "text": "Come home, come home, Ye who are wea - ry, come home; Ear - nest - ly, ten - der - ly, Je - sus is call - ing, Call - ing, O sin - ner, come home!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1876, by W. A. Ogden",
+    "themes": ["calling", "shepherd", "tenderness", "home", "mercy", "pleading", "weary"],
+    "scripture_references": ["John 10:11"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

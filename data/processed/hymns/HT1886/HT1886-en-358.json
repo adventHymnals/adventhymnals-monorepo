@@ -1,25 +1,41 @@
 {
   "id": "HT1886-en-358",
   "number": 358,
-  "title": "Hymn 358 (To be extracted)",
+  "title": "Hail, thou once despised Jesus!",
   "author": null,
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Autumn, No. 557",
+  "meter": "8s & 7s. D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Hail, thou once despised Jesus!\nCrowned in mockery a king!\nThou didst suffer to release us;\nThou didst free salvation bring."
+    },
+    {
+      "number": 2,
+      "text": "Hail, thou agonizing Saviour!\nBearer of our sin and shame!\nBy thy merits we find favor,\nLife is given through thy name."
+    },
+    {
+      "number": 3,
+      "text": "Paschal Lamb, by God appointed,\nAll our sins on thee were laid;\nBy Almighty Love anointed,\nThou hast full atonement made:\nAll thy people are forgiven\nThrough the virtue of thy blood;\nOpened is the gate of heaven,\nPeace is made 'twixt man and God."
+    },
+    {
+      "number": 4,
+      "text": "Jesus, hail! enthroned in glory,\nThere forever to abide!\nAll the heavenly hosts adore thee,\nSeated at thy Father's side:\nThere for sinners thou art pleading,\nThere thou dost our place prepare;\nEver for us interceding,\nTill in glory we appear."
+    },
+    {
+      "number": 5,
+      "text": "Worship, honor, power, and blessing,\nThou art worthy to receive;\nLoudest praises, without ceasing,\nMeet it is for us to give:\nHelp, ye bright angelic spirits!\nBring your sweetest, noblest lays;\nHelp to sing our Saviour's merits,\nHelp to chant Immanuel's praise!"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "themes": ["Jesus Christ", "crucifixion", "atonement", "salvation", "glory", "praise"],
+    "scripture_references": ["Philippians 2:9-11", "Revelation 5:12"],
+    "tune_source": "Autumn, No. 557",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

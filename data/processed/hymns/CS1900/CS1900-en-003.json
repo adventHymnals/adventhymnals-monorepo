@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-003",
+  "number": 3,
+  "title": "Jesus Loves Me",
+  "author": "Anna Warner",
+  "composer": "Wm. B. Bradbury",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus loves me! this I know, For the Bible tells me so; Little ones to him belong, They are weak but he is strong. Yes, Jesus loves me, The Bible tells me so."
+    },
+    {
+      "number": 2,
+      "text": "Jesus loves me! he who died, Heaven's gate to open wide; He will wash away my sin, Let his little child come in. Yes, Jesus loves me, The Bible tells me so."
+    },
+    {
+      "number": 3,
+      "text": "Jesus loves me! he will stay, Close beside me all the way; If I love him, he will take Me at last to heaven's sake. Yes, Jesus loves me, The Bible tells me so."
+    }
+  ],
+  "chorus": {
+    "text": "Yes, Jesus loves me, Yes, Jesus loves me, Yes, Jesus loves me, The Bible tells me so."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by arr. with The Biglow & Main Co'y owners of copyright",
+    "themes": ["Jesus", "love", "children", "Bible", "assurance", "salvation"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

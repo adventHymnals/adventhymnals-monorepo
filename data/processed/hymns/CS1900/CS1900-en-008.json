@@ -1,0 +1,32 @@
+{
+  "id": "CS1900-en-008",
+  "number": 8,
+  "title": "Whiter Than Snow",
+  "subtitle": "Blessed Be the Fountain",
+  "author": "E. R. Latta",
+  "composer": "H. S. Perkins",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Blessed be the fountain of blood, To a world of sinners revealed; Blessed be the dear Son of God; Only by his stripes we are healed. Though I've wandered far from his fold, Bringing to my heart pain and woe, By his stripes the crown that he wore, And the cross his body o'er came, Grievous were the sorrows he bore, But he suffered thus for my shame."
+    },
+    {
+      "number": 2,
+      "text": "Thorough me the blood may now flow, Though like scarlet they be and red; They've wandered far from his fold, Bringing to my heart pain and woe, But he suffered thus for my shame, Water cannot wash them away; Jesus, to that Fountain of thine, Leaning on thy promise I go."
+    }
+  ],
+  "chorus": {
+    "text": "Wash me in the blood of the Lamb, And I shall be whiter than snow, Whiter than snow, yes, whiter than snow; Wash me in the blood of the Lamb, And I shall be whiter than snow."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of Oliver Ditson & Co., owners of the copyright",
+    "themes": ["cleansing", "blood", "fountain", "Lamb", "snow", "purity", "forgiveness"],
+    "scripture_references": ["Isa. 1:18"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "SAHB-en-034",
+  "number": 34,
+  "title": "Guide Me, O Thou Great Jehovah",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Guide me, O thou great Jehovah,\nPilgrim through this barren land;\nI am weak, but thou art mighty,\nHold me with thy powerful hand.\nBread of heaven, bread of heaven,\nFeed me till I want no more."
+    },
+    {
+      "number": 2,
+      "text": "Open now the crystal fountain,\nWhence the healing stream doth flow;\nLet the fire and cloudy pillar\nLead me all my journey through.\nStrong deliverer, strong deliverer,\nBe thou still my strength and shield."
+    },
+    {
+      "number": 3,
+      "text": "When I tread the verge of Jordan,\nBid my anxious fears subside;\nBear me through the swelling current,\nLand me safe on Canaan's side.\nSongs of praises, songs of praises,\nI will ever give to thee."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["guidance", "pilgrimage", "strength", "deliverance"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

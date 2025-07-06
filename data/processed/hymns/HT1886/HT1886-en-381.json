@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-381",
   "number": 381,
-  "title": "Hymn 381 (To be extracted)",
-  "author": null,
+  "title": "God's Holy Law, Transgressed",
+  "author": "Benjamin Beddome",
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "8s, 6s, & 8s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "God's holy law, transgressed,\nSpeaks nothing but despair;\nBurdened with guilt, with grief oppressed,\nNo refuge can I bear."
+    },
+    {
+      "number": 2,
+      "text": "Not all our groans and tears,\nNor works which we have done,\nNor vows, nor promises, nor prayers,\nCan for our sin atone."
+    },
+    {
+      "number": 3,
+      "text": "Relief alone is found\nIn Jesus' precious blood;\n'Tis this that heals the mortal wound,\nAnd reconciles to God."
+    },
+    {
+      "number": 4,
+      "text": "High lifted on the cross,\nThe spotless Victim dies;\nThis is salvation's only source,\nWhence all our hopes arise."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["God's law", "human transgression", "guilt and despair", "Christ's blood", "salvation through the cross"],
+    "scripture_references": ["Romans 3:20", "1 John 1:7", "John 3:14-15"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

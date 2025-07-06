@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-032",
+  "number": 32,
+  "title": "Who Is on the Lord's Side?",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Turn Moses stood in the gate of the camp, and said, Who is on the Lord's side?\"—Ex. 32: 26. Who is on the Lord's side? There is right and wrong up - on! Where shalt thou way? Thou-sands on the wrong side Chose to stand; Still 'tis not the strong side, True and stand; Come and join the Lord's side, 'T is the on - ly safe side; By and by."
+    },
+    {
+      "number": 2,
+      "text": "Choose now, Choose now, Who is on the Lord's side? Who is on the Lord's side? On the right or wrong side? Fight or from? Choose now, Choose now, Who is on the Lord's side? Who is on the Lord's side? On the right or wrong side? When shall you?"
+    }
+  ],
+  "chorus": {
+    "text": "Choose now, Choose now, Who is on the Lord's side? Who is on the Lord's side? On the right or wrong side? When shall you?"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1895. Used by permission",
+    "themes": ["choice", "Lords side", "right", "wrong", "Moses", "camp", "stand"],
+    "scripture_references": ["Ex. 32:26"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

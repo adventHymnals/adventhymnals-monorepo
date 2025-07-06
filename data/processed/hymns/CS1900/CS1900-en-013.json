@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-013",
+  "number": 13,
+  "title": "Pass Me Not",
+  "author": "Fanny J. Crosby",
+  "composer": "W. H. Doane, by per.",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Pass me not, O gentle Saviour, Hear my humble cry; While on others thou art calling, Do not pass me by. Let me at thy throne of mercy Find a sweet relief; Kneeling there in deep contrition, Help my unbelief."
+    },
+    {
+      "number": 2,
+      "text": "Let me at thy throne of mercy Find a sweet relief; Kneeling there in deep contrition, Help my unbelief. Trusting on - ly in thy mer - it, Would I seek thy face; But my wounded, brok - en spir - it, Save and heal by grace."
+    },
+    {
+      "number": 3,
+      "text": "Thou the spring of all my comfort, More than life to me; Whom have I on earth beside thee? Whom in heav'n but thee? Trusting on - ly in thy mer - it, Would I seek thy face; But my wounded, brok - en spir - it, Save and heal by grace."
+    }
+  ],
+  "chorus": {
+    "text": "Saviour, Saviour, hear my humble cry; While on others thou art calling, Do not pass me by."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1870, by W. H. Doane",
+    "themes": ["prayer", "mercy", "calling", "healing", "grace", "throne", "relief"],
+    "scripture_references": ["Acts 3:19"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

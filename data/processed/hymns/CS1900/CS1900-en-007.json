@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-007",
+  "number": 7,
+  "title": "Let Him In",
+  "author": "Rev. J. B. Atchison",
+  "composer": "E. O. Excell",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There's a Stranger at the door, Let him in; He has been there oft before, Let him in; Let him in, ere he is gone, Let him in, the Holy One, Jesus Christ, the Father's Son, Let him in."
+    },
+    {
+      "number": 2,
+      "text": "Open now to him your heart, Let him in; If you wait he will depart, Let him in; Let him in, he is your Friend, He your soul will sure defend, He will keep you to the end, Let him in."
+    },
+    {
+      "number": 3,
+      "text": "Hear you now his loving voice? Let him in; Now, O now make him your choice, Let him in; He is standing at your door, Joy to you he will restore, And his name you will adore, Let him in."
+    },
+    {
+      "number": 4,
+      "text": "Now admit the heavenly Guest, Let him in; He will make for you a feast, Let him in; He will speak your sins forgiv'n, And when earth ties all are riv'n, He will take you home to heav'n, Let him in."
+    }
+  ],
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1878, by John J. Hood. Used by permission of E. O. Excell, owner",
+    "themes": ["invitation", "stranger", "door", "heart", "Jesus", "welcome"],
+    "scripture_references": ["Rev. 3:20"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

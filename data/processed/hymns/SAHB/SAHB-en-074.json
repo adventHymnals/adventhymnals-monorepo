@@ -1,0 +1,42 @@
+{
+  "id": "SAHB-en-074",
+  "number": 74,
+  "title": "O for a Thousand Tongues",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O for a thousand tongues to sing\nMy great Redeemer's praise,\nThe glories of my God and King,\nThe triumphs of his grace."
+    },
+    {
+      "number": 2,
+      "text": "My gracious Master and my God,\nAssist me to proclaim,\nTo spread through all the earth abroad\nThe honors of thy name."
+    },
+    {
+      "number": 3,
+      "text": "Jesus! the name that charms our fears,\nThat bids our sorrows cease;\n'Tis music in the sinner's ears,\n'Tis life, and health, and peace."
+    },
+    {
+      "number": 4,
+      "text": "He breaks the power of canceled sin,\nHe sets the prisoner free;\nHis blood can make the foulest clean;\nHis blood availed for me."
+    },
+    {
+      "number": 5,
+      "text": "He speaks, and listening to his voice,\nNew life the dead receive;\nThe mournful, broken hearts rejoice;\nThe humble poor believe."
+    },
+    {
+      "number": 6,
+      "text": "Hear him, ye deaf; his praise, ye dumb,\nYour loosened tongues employ;\nYe blind, behold your Saviour come;\nAnd leap, ye lame, for joy."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["praise", "redemption", "Jesus' name", "transformation"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

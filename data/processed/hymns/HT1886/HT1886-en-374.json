@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-374",
   "number": 374,
-  "title": "Hymn 374 (To be extracted)",
-  "author": null,
+  "title": "In Vain We Seek for Peace with God",
+  "author": "Isaac Watts",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": null
+  "meter": "8s, 6s, & 4s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "In vain we seek for peace with God\nBy methods of our own;\nNo outward forms can cleanse the blood\nCan bring us near the throne."
+    },
+    {
+      "number": 2,
+      "text": "The threatenings of the broken law\nNor flesh nor soul can ward;\nIf God his sword of vengeance draw,\nIt strikes the spirit dead."
+    },
+    {
+      "number": 3,
+      "text": "But thine illustrious sacrifice\nHath answered these demands,\nAnd peace and pardon from the skies\nAre offered by thy hands."
+    },
+    {
+      "number": 4,
+      "text": "'Tis by thy death we live, O Lord!\n'Tis on thy cross we rest,\nForever be thy love adored,\nThy name forever blessed."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["peace with God", "human inability", "Christ's sacrifice", "salvation by grace", "divine forgiveness"],
+    "scripture_references": ["Romans 5:1", "Ephesians 2:13-16", "Colossians 1:20"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

@@ -1,25 +1,45 @@
 {
   "id": "HT1886-en-377",
   "number": 377,
-  "title": "Hymn 377 (To be extracted)",
-  "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "title": "The Sinner—Christ the Way of Life",
+  "author": "F. R. Havergal",
+  "composer": "Felix Mendelssohn-Bartholdy",
+  "tune": "Holy Cross",
+  "meter": "C. M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Thou Saviour of the sin-sick soul,\nThou Refuge in distress,\nWhen doubt's dark billows near me roll,\nClose to thy side I press."
+    },
+    {
+      "number": 2,
+      "text": "The burdened heart must seek in vain\nFor merit of its own;\nThere's freedom from each crimson stain\nIn thee, and thee alone."
+    },
+    {
+      "number": 3,
+      "text": "Let him who feels his load of guilt\nStrive not its weight to bear;\nThe hopes that man or self hath built\nAre doomed to dark despair."
+    },
+    {
+      "number": 4,
+      "text": "But thou, O Christ, whose blood was shed\nFor sinful men like me,\nWilt heal the load that bows the head\nIn deep contrition's hour!"
+    },
+    {
+      "number": 5,
+      "text": "Thy tender heart has felt the weight\nOf sins that were not thine,\nAnd lo! within that conflict great\nI view these sins of mine."
+    },
+    {
+      "number": 6,
+      "text": "'Tis faith that points them out to me\nWhen, fainting 'neath the load,\nI turn my longing eyes to thee,\nFar up the narrow road."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["Christ as Savior", "refuge in distress", "freedom from sin", "guilt and burden", "substitutionary atonement"],
+    "scripture_references": ["Matthew 11:28", "1 Peter 2:24", "Isaiah 53:4-6"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

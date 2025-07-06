@@ -1,0 +1,38 @@
+{
+  "id": "SAHB-en-071",
+  "number": 71,
+  "title": "Abide with Me",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Abide with me; fast falls the eventide;\nThe darkness deepens; Lord, with me abide;\nWhen other helpers fail and comforts flee,\nHelp of the helpless, O abide with me."
+    },
+    {
+      "number": 2,
+      "text": "Swift to its close ebbs out life's little day;\nEarth's joys grow dim, its glories pass away;\nChange and decay in all around I see;\nO thou who changest not, abide with me."
+    },
+    {
+      "number": 3,
+      "text": "I need thy presence every passing hour;\nWhat but thy grace can foil the tempter's power?\nWho like thyself my guide and stay can be?\nThrough cloud and sunshine, O abide with me."
+    },
+    {
+      "number": 4,
+      "text": "I fear no foe with thee at hand to bless;\nIlls have no weight, and tears no bitterness;\nWhere is death's sting? where, grave, thy victory?\nI triumph still, if thou abide with me."
+    },
+    {
+      "number": 5,
+      "text": "Hold thou thy cross before my closing eyes;\nShine through the gloom, and point me to the skies;\nHeaven's morning breaks, and earth's vain shadows flee;\nIn life, in death, O Lord, abide with me."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["God's presence", "comfort", "death", "eternal hope"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

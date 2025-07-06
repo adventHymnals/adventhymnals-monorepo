@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-373",
   "number": 373,
-  "title": "Hymn 373 (To be extracted)",
-  "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "title": "The Sinner—Christ the Way of Life",
+  "author": "Anne Steele",
+  "composer": "S. R. Brown",
+  "tune": "Monson",
+  "meter": "C. M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "How help - less guilt - y na - ture lies,\nUn - con - scious of its load!\nThe heart, unchanged, can nev - er rise\nTo hap - pi - ness and God."
+    },
+    {
+      "number": 2,
+      "text": "Can aught, beneath a power divine,\nThe stubborn will subdue?\n'Tis thine, almighty Spirit! thine,\nTo form the heart anew."
+    },
+    {
+      "number": 3,
+      "text": "'Tis thine, the passions to recall,\nAnd upward bid them rise;\nTo make the scales of error fall\nFrom reason's darkened eyes."
+    },
+    {
+      "number": 4,
+      "text": "Oh change these wretched hearts of ours,\nAnd give them life divine;\nThen shall our passions and our powers,\nAlmighty Lord! be thine."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["human helplessness", "spiritual transformation", "Holy Spirit", "divine power", "heart renewal"],
+    "scripture_references": ["Ezekiel 36:26", "2 Corinthians 3:18", "John 3:5-8"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

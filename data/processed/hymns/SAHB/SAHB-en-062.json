@@ -1,0 +1,37 @@
+{
+  "id": "SAHB-en-062",
+  "number": 62,
+  "title": "Jesus Loves Me",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus loves me, this I know,\nFor the Bible tells me so;\nLittle ones to him belong,\nThey are weak, but he is strong."
+    },
+    {
+      "number": 2,
+      "text": "Jesus loves me, he who died\nHeaven's gate to open wide;\nHe will wash away my sin,\nLet his little child come in."
+    },
+    {
+      "number": 3,
+      "text": "Jesus loves me, loves me still,\nThough I'm very weak and ill;\nFrom his shining throne on high,\nComes to watch me where I lie."
+    },
+    {
+      "number": 4,
+      "text": "Jesus loves me, he will stay\nClose beside me all the way;\nThen his little child will take\nUp to heaven, for his sake."
+    }
+  ],
+  "chorus": {
+    "text": "Yes, Jesus loves me;\nYes, Jesus loves me;\nYes, Jesus loves me;\nThe Bible tells me so."
+  },
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["Jesus' love", "children", "salvation", "comfort"],
+    "original_language": "en",
+    "has_chorus": true
+  }
+}

@@ -1,25 +1,29 @@
 {
   "id": "HT1886-en-378",
   "number": 378,
-  "title": "Hymn 378 (To be extracted)",
-  "author": null,
+  "title": "When Wounded Sore, the Stricken Soul",
+  "author": "F. R. Havergal",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": null
+  "meter": "8s, 7s, & 6s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "When wounded sore, the stricken soul\nLies bleeding and unbound,\nOne only hand—a pierced hand—\nCan heal the sinner's wound."
+    },
+    {
+      "number": 2,
+      "text": "When sorrow swells the laden breast,\nAnd tears in anguish flow,\nOne only heart—a broken heart—\nCan feel the sinner's woe."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["spiritual wounds", "Christ's healing touch", "sorrow and comfort", "Christ's empathy", "divine compassion"],
+    "scripture_references": ["Isaiah 53:3-5", "Hebrews 4:15", "1 Peter 2:24"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

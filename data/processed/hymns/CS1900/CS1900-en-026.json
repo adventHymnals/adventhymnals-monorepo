@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-026",
+  "number": 26,
+  "title": "Cover with His Life",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Blessed is he whose transgression is forgiven, whose sin is covered.\"—Ps. 32: 1. Look up - on of - tis - sus tied as to his tree; Ex - tend my pride un - to the tri - umphs free; Look-ing His life I want to run to know, Je - sus that holds out - y robes while in snow; Look up - on to search me up they in such rose, Cov - er with his life, sor - row than I know."
+    },
+    {
+      "number": 2,
+      "text": "By his life of love that he is now shall, rose, Cov - er with his life, Glad - ly I wear the pure silk - a - lone; To his love that he is turn - eth by Lord \"Lord, I ac - cept it!\" leaving my own, Same to - find thy shall - I love tet thee."
+    }
+  ],
+  "refrain": {
+    "text": "Cov - er with his life, wont at them good, Full - ness of his life then shall I know;"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1895, by F. E. Belden",
+    "themes": ["covering", "life", "forgiveness", "transgression", "snow", "robes", "love"],
+    "scripture_references": ["Ps. 32:1"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

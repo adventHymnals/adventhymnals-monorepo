@@ -1,0 +1,28 @@
+{
+  "id": "CS1900-en-039",
+  "number": 39,
+  "title": "What Hast Thou Done for Me?",
+  "author": "Rev. E. A. Hoffman",
+  "composer": "J. H. Tenney",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"That I may know him, and the power of his resurrection.\"—Phil. 3: 10. I gave my life for thee, my precious blood I shed, That thou might'st ransom be, And quickened from the dead; I suffered much for thee, More than thy tongue can tell; O all that I have done for thee, What hast thou done for me?"
+    },
+    {
+      "number": 2,
+      "text": "My Fa - ther's house of light, My glory - circled throne I left, for earth - ly night, For wand'rings sad and lone; I left, I left it all for thee, Hast thou left ought for me?"
+    }
+  ],
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1885. Used by permission",
+    "themes": ["sacrifice", "life", "blood", "ransom", "resurrection", "Father", "throne"],
+    "scripture_references": ["Phil. 3:10"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

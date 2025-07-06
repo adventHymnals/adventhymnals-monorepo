@@ -1,0 +1,28 @@
+{
+  "id": "CS1900-en-043",
+  "number": 43,
+  "title": "Let the Little Ones Come",
+  "author": "M. L. McPhail",
+  "composer": "Arranged by F. E. B.",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Let the lit - tle ones come to me, For When Jesus walks along the way, That sweet voice call - ing Ten - der - ly; 'Tis still - to us the Saviour in say? I may to: And ask for a share in his love, And if I then se - cert - ly"
+    },
+    {
+      "number": 2,
+      "text": "I want to be like Je - sus, should that be tune when his love, I welt that his hands have been placed on my head, That his love to me is what to him who hath this way to me pre - pare fer: 'Let the lit - tle ones come to me:' so:"
+    }
+  ],
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["children", "little ones", "Jesus", "come", "love", "hands", "blessing"],
+    "scripture_references": ["Matt. 19:14"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

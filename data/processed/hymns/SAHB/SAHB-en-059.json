@@ -1,0 +1,42 @@
+{
+  "id": "SAHB-en-059",
+  "number": 59,
+  "title": "While Shepherds Watched",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "While shepherds watched their flocks by night,\nAll seated on the ground,\nThe angel of the Lord came down,\nAnd glory shone around."
+    },
+    {
+      "number": 2,
+      "text": "\"Fear not,\" said he; for mighty dread\nHad seized their troubled mind;\n\"Glad tidings of great joy I bring\nTo you and all mankind.\""
+    },
+    {
+      "number": 3,
+      "text": "\"To you, in David's town, this day\nIs born of David's line,\nThe Saviour, who is Christ the Lord;\nAnd this shall be the sign:\""
+    },
+    {
+      "number": 4,
+      "text": "\"The heavenly babe you there shall find\nTo human view displayed,\nAll meanly wrapped in swaddling bands,\nAnd in a manger laid.\""
+    },
+    {
+      "number": 5,
+      "text": "Thus spake the seraph, and forthwith\nAppeared a shining throng\nOf angels, praising God, who thus\nAddressed their joyful song:"
+    },
+    {
+      "number": 6,
+      "text": "\"All glory be to God on high,\nAnd to the earth be peace;\nGood will henceforth from heaven to men\nBegin and never cease.\""
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["nativity", "shepherds", "angels", "Christ's birth"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

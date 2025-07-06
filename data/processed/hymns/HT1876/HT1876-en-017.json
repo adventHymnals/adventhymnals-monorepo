@@ -1,0 +1,20 @@
+{
+  "id": "HT1876-en-017",
+  "number": 17,
+  "title": "Behold the Lamb of God",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "Behold the Lamb of God, Who, walking in his sight, Make all the precepts of his word Their study and delight."},
+    {"number": 2, "text": "Their works of piety and love Performed through Christ, their Lord, Forever registered above, Shall meet a sure reward."}
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["Lamb of God", "obedience", "reward"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "C. M."
+  }
+}

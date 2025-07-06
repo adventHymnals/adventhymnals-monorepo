@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-019",
+  "number": 19,
+  "title": "Not in the Hour of Death",
+  "author": "F. E. Belden",
+  "composer": "F. E. B.",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "But in death there is to remembrance of thee; in the grave who shall give thee thanks?—Ps. 6: 5. Come to him now, now while the heart is beating, Now in the morning, now when you feel so young; Not when the hour of time has hushed to stillness, Come in the noon-time, Come in the young and strong."
+    },
+    {
+      "number": 2,
+      "text": "Not when the hour of time has hushed his gold-en cry; Come in the golden prim-i-ty of mind; Not when the mem-ory of summer is fast fading, Come in the sum-mer, Come in the song so young."
+    }
+  ],
+  "refrain": {
+    "text": "Come to him now, now, Come to him now, Jesus can save, O trust in his love, Jesus will save, O come to him now."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Words and arrangement copyright",
+    "themes": ["timing", "now", "death", "remembrance", "youth", "heart", "salvation"],
+    "scripture_references": ["Ps. 6:5"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

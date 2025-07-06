@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-371",
   "number": 371,
-  "title": "Hymn 371 (To be extracted)",
-  "author": null,
+  "title": "How Sad Our State by Nature Is",
+  "author": "Isaac Watts",
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "8s, 6s, & 4s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "How sad our state by nature is!\nOur sin—how deep it stains!\nAnd Satan binds our captive minds\nFast in his slavish chains."
+    },
+    {
+      "number": 2,
+      "text": "But there's a voice of sovereign grace\nSounds from the sacred word:\n'Ho! ye despairing sinners, come!\nAnd trust a pardoning Lord.'"
+    },
+    {
+      "number": 3,
+      "text": "My soul obeys the almighty call,\nAnd runs to this relief;\nI would believe thy promise, Lord;\nO help my unbelief!"
+    },
+    {
+      "number": 4,
+      "text": "A guilty, weak, and helpless worm,\nIn thy kind arms I fall;\nBe thou my Strength and Righteousness,\nMy Saviour and my All."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["human sinfulness", "spiritual bondage", "divine grace", "salvation", "trust in Christ"],
+    "scripture_references": ["Romans 3:23", "Ephesians 2:1-5", "Mark 9:24"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

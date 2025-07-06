@@ -1,0 +1,123 @@
+{
+  "hymnal_id": "HT1886",
+  "hymnal_title": "The Seventh-Day Adventist Hymn and Tune Book",
+  "extraction_status": "INCOMPLETE - PARTIAL EXTRACTION",
+  "completion_date": "2025-07-05",
+  "extraction_methodology": "Partial systematic extraction - 617 hymns remain as templates",
+  "total_pages_available": 640,
+  "total_hymns_identified": 984,
+  
+  "current_extraction_status": {
+    "total_hymns": 984,
+    "fully_extracted": 367,
+    "template_placeholders": 617,
+    "completion_percentage": "37%",
+    "extraction_method": "Partial systematic extraction with template creation",
+    "file_naming": "HT1886-en-001.json through HT1886-en-984.json"
+  },
+
+  "hymnal_information": {
+    "full_title": "The Seventh-Day Adventist Hymn and Tune Book for use in Divine Worship",
+    "year": 1886,
+    "publisher": "The General Conference / Signs Publishing Company Limited",
+    "publication_place": "Melbourne, Victoria, Australia",
+    "pages": 640,
+    "historical_significance": "Major early Seventh-day Adventist hymnal with comprehensive musical notation",
+    "scope": "Complete liturgical resource for early SDA worship"
+  },
+
+  "extraction_quality_assessment": {
+    "fully_extracted_hymns": {
+      "count": 367,
+      "quality": "High - complete verses, metadata, tune information",
+      "examples": [
+        "HT1886-en-001: O Thou who dwellest up on high (5 verses)",
+        "HT1886-en-100: As pants the wearied hart (3 verses)",
+        "HT1886-en-300: Shout the glad tidings (3 verses with refrain)",
+        "HT1886-en-984: O what hath Jesus bought for me (4 verses)"
+      ]
+    },
+    "template_hymns": {
+      "count": 617,
+      "status": "Template structure created but content not extracted",
+      "note": "All contain placeholder text 'To be extracted' with proper JSON schema"
+    }
+  },
+
+  "comparison_with_completed_hymnals": {
+    "mh1843": {
+      "status": "100% COMPLETE",
+      "hymns": 230,
+      "standard": "Complete systematic extraction of all hymns and verses"
+    },
+    "hgpp": {
+      "status": "100% COMPLETE", 
+      "hymns": 53,
+      "standard": "Complete systematic extraction with verification"
+    },
+    "ht1886": {
+      "status": "37% INCOMPLETE",
+      "hymns_extracted": 367,
+      "hymns_remaining": 617,
+      "standard_gap": "Does not meet complete extraction standard"
+    }
+  },
+
+  "metadata_discrepancies": {
+    "collection_file_claims": 33,
+    "actual_hymn_count": 984,
+    "discrepancy": "Collection metadata severely underestimates hymnal scope",
+    "correction_needed": "Update collection.json to reflect true scale of 984 hymns"
+  },
+
+  "source_material_assessment": {
+    "page_quality": "High quality scanned images with clear text and musical notation",
+    "page_structure": "3-4 hymns per page with full musical scores",
+    "extraction_feasibility": "Excellent - all content clearly readable",
+    "pages_per_hymn_ratio": "~0.65 pages per hymn (984 hymns / 640 pages)"
+  },
+
+  "recommendations": {
+    "immediate_actions": [
+      "Update collection metadata to reflect 984 hymns",
+      "Mark extraction status as 'IN PROGRESS' like other partial extractions",
+      "Complete extraction of remaining 617 hymns",
+      "Verify accuracy of existing 367 extracted hymns"
+    ],
+    "completion_strategy": [
+      "Systematic page-by-page extraction following MH1843/HGPP methodology",
+      "Batch processing of template hymns to full extraction",
+      "Quality verification against source pages",
+      "Generate comprehensive completion report when finished"
+    ]
+  },
+
+  "theological_themes_in_extracted_hymns": [
+    "Worship and Divine Service",
+    "God's Presence and Majesty", 
+    "Prayer and Devotion",
+    "Jesus Christ and Salvation",
+    "Heaven and Eternal Life",
+    "Sabbath and Divine Law",
+    "Second Coming and Prophecy",
+    "Christian Life and Discipleship",
+    "Holy Spirit and Sanctification",
+    "Church and Community Worship"
+  ],
+
+  "historical_context": {
+    "significance": "Major comprehensive hymnal for early Seventh-day Adventist church",
+    "era": "Late 19th century Adventist liturgical development",
+    "geographic_scope": "International (Australian publication for global SDA church)",
+    "musical_tradition": "Traditional Protestant hymnody adapted for Adventist theology"
+  },
+
+  "completion_requirements": {
+    "remaining_work": "Extract 617 additional hymns from pages containing templates",
+    "time_estimate": "Substantial systematic extraction project",
+    "quality_standard": "Match MH1843/HGPP complete extraction methodology",
+    "verification_needed": "Page-by-page comparison of extracted content"
+  },
+
+  "current_status_summary": "HT1886 represents a partially completed extraction project with excellent foundation (367 hymns) but significant remaining work (617 hymns) to achieve the complete extraction standard established by MH1843 and HGPP."
+}

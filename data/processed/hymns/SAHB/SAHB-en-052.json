@@ -1,0 +1,42 @@
+{
+  "id": "SAHB-en-052",
+  "number": 52,
+  "title": "Zion's Hill",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "On Zion's hill I stand,\nAnd view the promised land;\nThe milk and honey flow,\nAnd grapes of Eshcol grow."
+    },
+    {
+      "number": 2,
+      "text": "There Abraham, Isaac, Jacob stand,\nWith harps within their hand;\nThey strike the strings with skill,\nOn Zion's holy hill."
+    },
+    {
+      "number": 3,
+      "text": "King David with his harp,\nDoth make the music sharp;\nWith his ten thousand voices,\nThe heavenly host rejoices."
+    },
+    {
+      "number": 4,
+      "text": "The angels do appear,\nWith crowns upon their heads;\nThe elders too are there,\nWith golden harps in hand."
+    },
+    {
+      "number": 5,
+      "text": "And round about the throne,\nThe ransomed ones are come;\nWith palms within their hands,\nBefore the Lamb they stand."
+    },
+    {
+      "number": 6,
+      "text": "O may I with them stand,\nA harp within my hand;\nAnd there with them combine,\nTo sing the song divine."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["Zion", "promised land", "patriarchs", "heavenly worship"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

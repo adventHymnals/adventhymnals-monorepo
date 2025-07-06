@@ -1,0 +1,38 @@
+{
+  "id": "SAHB-en-033",
+  "number": 33,
+  "title": "Jesus Shall Reign",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus shall reign where'er the sun\nDoes his successive journeys run;\nHis kingdom stretch from shore to shore,\nTill moons shall wax and wane no more."
+    },
+    {
+      "number": 2,
+      "text": "For him shall endless prayer be made,\nAnd praises throng to crown his head;\nHis name, like sweet perfume, shall rise\nWith every morning sacrifice."
+    },
+    {
+      "number": 3,
+      "text": "People and realms of every tongue\nDwell on his love with sweetest song;\nAnd infant voices shall proclaim\nTheir early blessings on his name."
+    },
+    {
+      "number": 4,
+      "text": "Blessings abound where'er he reigns;\nThe prisoner leaps to lose his chains,\nThe weary find eternal rest,\nAnd all the sons of want are blest."
+    },
+    {
+      "number": 5,
+      "text": "Let every creature rise and bring\nPeculiar honors to our King;\nAngels descend with songs again,\nAnd earth repeat the loud Amen."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["Jesus' reign", "kingdom", "universal worship", "blessings"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

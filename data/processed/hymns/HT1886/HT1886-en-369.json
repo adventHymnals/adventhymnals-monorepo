@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-369",
   "number": 369,
-  "title": "Hymn 369 (To be extracted)",
-  "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "title": "The Sinner—Christ the Way of Life",
+  "author": "Isaac Watts",
+  "composer": "I. P. Cole",
+  "tune": "Melody",
+  "meter": "C. M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Not all the outward forms on earth,\nNor rites that God has given,\nNor will of man, nor blood, nor birth,\nCan raise a soul to heaven."
+    },
+    {
+      "number": 2,
+      "text": "The sovereign will of God alone\nCreates us heirs of grace;\nBorn in the image of his Son,\nA new, peculiar race."
+    },
+    {
+      "number": 3,
+      "text": "The Spirit, like some heavenly wind,\nBreathes on the sons of flesh,\nNew-moulds all the carnal mind,\nAnd forms the man afresh."
+    },
+    {
+      "number": 4,
+      "text": "Our quickened souls awake and rise\nFrom the long sleep of death;\nOn heavenly things we fix our eyes,\nAnd praise employs our breath."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["salvation by grace", "spiritual rebirth", "Holy Spirit", "new creation", "divine sovereignty"],
+    "scripture_references": ["John 3:5-8", "2 Corinthians 5:17", "Ephesians 2:8-9"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

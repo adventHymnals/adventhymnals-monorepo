@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-361",
   "number": 361,
-  "title": "Hymn 361 (To be extracted)",
+  "title": "Broad is the road that leads to death",
   "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "composer": "Daniel Read",
+  "tune": "Windham",
+  "meter": "L.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Broad is the road that leads to death,\nAnd thousands walk to-geth-er there;\nBut wisdom shows a narrow path,\nWith here and there a trav-el-er."
+    },
+    {
+      "number": 2,
+      "text": "Deny thyself, and take thy cross,\nIs the Redeemer's great command;\nNature must count her gold but dross,\nIf she would reach that heavenly land."
+    },
+    {
+      "number": 3,
+      "text": "The fearful soul that tires and faints,\nAnd walks the ways of God no more,\nIs but esteemed almost a saint,\nAnd makes his own destruction sure."
+    },
+    {
+      "number": 4,
+      "text": "Lord, let not all my hopes be vain,\nCreate my heart entirely new;\nLet thy sweet Spirit me sustain,\nO guide me all life's journey through."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "themes": ["narrow way", "discipleship", "self-denial", "Christian journey"],
+    "scripture_references": ["Matthew 7:13-14", "Luke 9:23"],
+    "tune_source": "Windham, Daniel Read",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

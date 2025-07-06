@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-363",
   "number": 363,
-  "title": "Hymn 363 (To be extracted)",
+  "title": "Deep are the wounds which sin has made",
   "author": null,
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "771, 68, 365",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Deep are the wounds which sin has made;\nWhere shall the sinner find a cure?\nIn vain, alas! is nature's aid;\nThe work exceeds her utmost power."
+    },
+    {
+      "number": 2,
+      "text": "But can no sovereign balm be found,\nAnd is no kind physician near,\nTo ease the pain and heal the wound,\nEre life and hope forever fly?"
+    },
+    {
+      "number": 3,
+      "text": "There is a great Physician near;\nLook up, O fainting soul, and live;\nSee, in his heavenly smiles appear\nSuch aid as nature cannot give."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["sin's wounds", "spiritual healing", "Christ as physician", "hope"],
+    "scripture_references": ["Jeremiah 8:22", "Luke 4:18"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

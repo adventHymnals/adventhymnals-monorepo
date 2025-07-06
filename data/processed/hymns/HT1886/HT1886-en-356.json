@@ -1,25 +1,41 @@
 {
   "id": "HT1886-en-356",
   "number": 356,
-  "title": "Hymn 356 (To be extracted)",
+  "title": "Come, let us join our songs of praise",
   "author": null,
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "714, 681, 636",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Come, let us join our songs of praise\nTo our ascended Prince;\nHe entered heaven with all our names\nEngraven on his breast."
+    },
+    {
+      "number": 2,
+      "text": "He died to wash our guilt away,\nBy his atoning blood,\nWhich now he freely pleads before the throne,\nAnd brings us near to God."
+    },
+    {
+      "number": 3,
+      "text": "Clothed with our nature still, he knows\nThe weakness of our frame;\nAnd how to shield us from the foes\nWhich he himself o'ercame."
+    },
+    {
+      "number": 4,
+      "text": "Nor time, nor distance, e'er shall quench\nThe fervor of his love;\nFor us he died in kindness here,\nFor us he lives above."
+    },
+    {
+      "number": 5,
+      "text": "O, may we ne'er forget his grace,\nNor blush to speak his name!\nStill may our hearts hold fast his faith,—\nOur lips his praise proclaim."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["praise", "ascension", "intercession", "atonement", "Christ's love"],
+    "scripture_references": ["Hebrews 7:25", "Romans 8:34"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

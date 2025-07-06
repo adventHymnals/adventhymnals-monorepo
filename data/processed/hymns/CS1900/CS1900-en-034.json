@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-034",
+  "number": 34,
+  "title": "Never Be Afraid",
+  "author": "Anon.",
+  "composer": "Wm. B. Bradbury",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"There is no fear in love.\"—I John 4: 18. Nev - er be a - fraid to trust an un - known fu - ture To an all-know-ing Sav-iour, Nev - er be a - fraid to work for Je - sus, In his vine-yard day by day; La - bor with a kind and Nev - er be a - fraid to bear for Je - sus All of bur-dens he may lend. Be faithful, for your-self day; Nev - er be a - fraid."
+    },
+    {
+      "number": 2,
+      "text": "Nev - er be a - fraid to speak for Je - sus When his name is lightly used; In thy dai - ly conver-sa - tion, Use thy tal - ents as thou should; Nev - er be a - fraid to own them all, Nev - er fear thy tongue with - in."
+    }
+  ],
+  "chorus": {
+    "text": "Nev - er be a - fraid, nev - er be a - fraid, There-fore nev - er be a - fraid."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of Biglow & Main, owners of the copyright",
+    "themes": ["fear", "afraid", "trust", "future", "Saviour", "work", "Jesus"],
+    "scripture_references": ["1 John 4:18"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "SAHB-en-063",
+  "number": 63,
+  "title": "Nearer, My God, to Thee",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Nearer, my God, to thee, nearer to thee;\nE'en though it be a cross that raiseth me;\nStill all my song shall be, nearer, my God, to thee,\nNearer, my God, to thee, nearer to thee."
+    },
+    {
+      "number": 2,
+      "text": "Though like the wanderer, the sun gone down,\nDarkness be over me, my rest a stone;\nYet in my dreams I'd be nearer, my God, to thee,\nNearer, my God, to thee, nearer to thee."
+    },
+    {
+      "number": 3,
+      "text": "There let the way appear steps unto heaven;\nAll that thou sendest me in mercy given;\nAngels to beckon me nearer, my God, to thee,\nNearer, my God, to thee, nearer to thee."
+    },
+    {
+      "number": 4,
+      "text": "Then with my waking thoughts bright with thy praise,\nOut of my stony griefs Bethel I'll raise;\nSo by my woes to be nearer, my God, to thee,\nNearer, my God, to thee, nearer to thee."
+    },
+    {
+      "number": 5,
+      "text": "Or if on joyful wing cleaving the sky,\nSun, moon, and stars forgot, upward I fly;\nStill all my song shall be, nearer, my God, to thee,\nNearer, my God, to thee, nearer to thee."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["closeness to God", "trials", "spiritual growth", "heaven"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

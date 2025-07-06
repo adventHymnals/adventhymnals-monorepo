@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-357",
   "number": 357,
-  "title": "Hymn 357 (To be extracted)",
+  "title": "The sprinkled blood is speaking",
   "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "composer": "Felix Mendelssohn-Bartholdy",
+  "tune": "Munich",
+  "meter": "7s & 6s. D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "The sprinkled blood is speaking\nBe—fore the Father's throne,\nThe Spir—it's power seek—ing\nTo make its virtues known;\nThe sprinkled blood is telling\nJehovah's love to man,\nWhile heavenly harps are swelling\nSweet notes to mercy's plan."
+    },
+    {
+      "number": 2,
+      "text": "The sprinkled blood is speaking\nForgiveness full and free,\nIts wondrous power breaking\nEach bond of guilt for me;\nThe sprinkled blood's revealing\nA Father's smiling face,\nThe Saviour's love unsealing\nEach monument of grace."
+    },
+    {
+      "number": 3,
+      "text": "The sprinkled blood is pleading\nIts virtue at my sin,\nAnd there my soul is reading\nHer title to \"Come in;\"\nThe sprinkled blood is owning\nThe weak one as his own;\n'Mid sighs, and tears, and groaning,\nIt pleads, O Lord, with thee."
+    },
+    {
+      "number": 4,
+      "text": "O wondrous power, that speaketh\nFrom sin to set me free!\nO precious blood, that breaketh\nShould I not value thee?\nThe sprinkled blood is speaking,\nIts fragrance all around,\nIt gilds the path we're treading,\nIt makes our joy abound."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "themes": ["blood of Christ", "atonement", "forgiveness", "intercession", "mercy"],
+    "scripture_references": ["Hebrews 12:24", "1 Peter 1:2"],
+    "tune_source": "Munich, Felix Mendelssohn-Bartholdy",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

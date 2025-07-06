@@ -1,0 +1,30 @@
+{
+  "id": "SAHB-en-061",
+  "number": 61,
+  "title": "Sweet Hour of Prayer",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sweet hour of prayer, sweet hour of prayer,\nThat calls me from a world of care,\nAnd bids me at my Father's throne\nMake all my wants and wishes known:\nIn seasons of distress and grief,\nMy soul has often found relief,\nAnd oft escaped the tempter's snare\nBy thy return, sweet hour of prayer."
+    },
+    {
+      "number": 2,
+      "text": "Sweet hour of prayer, sweet hour of prayer,\nThy wings shall my petition bear\nTo him whose truth and faithfulness\nEngage the waiting soul to bless:\nAnd since he bids me seek his face,\nBelieve his word, and trust his grace,\nI'll cast on him my every care,\nAnd wait for thee, sweet hour of prayer."
+    },
+    {
+      "number": 3,
+      "text": "Sweet hour of prayer, sweet hour of prayer,\nMay I thy consolation share,\nTill from Mount Pisgah's lofty height\nI view my home and take my flight:\nThis robe of flesh I'll drop, and rise\nTo seize the everlasting prize,\nAnd shout while passing through the air,\nFarewell, farewell, sweet hour of prayer."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["prayer", "communion with God", "spiritual comfort", "heaven"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

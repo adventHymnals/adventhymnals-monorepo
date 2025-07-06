@@ -1,25 +1,41 @@
 {
   "id": "HT1886-en-354",
   "number": 354,
-  "title": "Hymn 354 (To be extracted)",
+  "title": "The wonders of redeeming love",
   "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "composer": "Nathaniel D. Gould",
+  "tune": "Woodland",
+  "meter": "C.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "The wonders of redeeming love\nOur highest thoughts exceed;\nThe Son of God comes\nfrom above,\nThe Son of God comes from above\nFor sinful man to bleed."
+    },
+    {
+      "number": 2,
+      "text": "He gives himself, his life, his all,\nA sinless Sacrifice;\nFor man he drains the cup of gall,\nFor man the victim dies."
+    },
+    {
+      "number": 3,
+      "text": "And now before his Father's face\nHis precious blood he pleads;\nFor those who seek the throne of grace\nHis love still intercedes."
+    },
+    {
+      "number": 4,
+      "text": "He knows the frailties of our frame,\nFor he has borne our grief;\nOur great High Priest once felt the same,\nAnd he can send relief."
+    },
+    {
+      "number": 5,
+      "text": "His love will not be satisfied,\nTill he is glorified\nThe faithful ones for whom he died\nFrom him shall never flee."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "themes": ["redeeming love", "Christ's sacrifice", "intercession", "atonement"],
+    "scripture_references": ["Hebrews 4:15", "1 John 2:1"],
+    "tune_source": "Woodland, Nathaniel D. Gould",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

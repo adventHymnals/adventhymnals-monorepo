@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-380",
   "number": 380,
-  "title": "Hymn 380 (To be extracted)",
-  "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "title": "The Sinner—Christ the Way of Life",
+  "author": "James Montgomery",
+  "composer": "Arr. by Lowell Mason",
+  "tune": "Shawmut",
+  "meter": "S. M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "O, where shall rest be found—\nRest for the weary soul?\n'Twere vain the ocean depths to sound,\nOr pierce to either pole."
+    },
+    {
+      "number": 2,
+      "text": "This world can never give\nThe bliss for which we sigh;\nIts fairest glories shortly live\nAnd all its pleasures die."
+    },
+    {
+      "number": 3,
+      "text": "Beyond this vale of tears\nThere is a life above,\nUnmeasured by the flight of years,\nAnd all that life is love."
+    },
+    {
+      "number": 4,
+      "text": "Through Christ, the Life, the Way,\nMay we that life obtain;\nAnd through the merits of his blood\nThat endless glory gain."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["spiritual rest", "worldly vanity", "eternal life", "heaven", "Christ as the Way"],
+    "scripture_references": ["Matthew 11:28", "John 14:6", "1 John 5:11-12"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-360",
   "number": 360,
-  "title": "Hymn 360 (To be extracted)",
+  "title": "His earthly work is done",
   "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "composer": "L.A. Logan",
+  "tune": "Logan",
+  "meter": "H.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "His earth-ly work is done,\nThe Vic-tim's blood is shed,\nAnd Je-sus now is gone\nHis peo-ple's cause to plead:\nHe stands in heaven, their great High Priest,\nIn bears their names up-on his breast."
+    },
+    {
+      "number": 2,
+      "text": "He sprinkles with his blood\nThe mercy-seat above;\nHe seals our brotherhood\nWith his atoning love;\nAnd justice threatens us no more,\nBut smiles as she has smiled before."
+    },
+    {
+      "number": 3,
+      "text": "No temple made with hands\nHis place of service is;\nIn heaven itself he stands,\nA heavenly priesthood his:\nIn him the shadows of the law\nAre all fulfilled, and now withdraw."
+    },
+    {
+      "number": 4,
+      "text": "And though awhile he be\nHid from the eyes of men,\nHis people look to see\nTheir great High Priest again;\nIn brightest glory he will come,\nAnd take his waiting people home."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "themes": ["Christ's priesthood", "heavenly service", "atonement", "Second Coming"],
+    "scripture_references": ["Hebrews 9:11-12", "Hebrews 8:1"],
+    "tune_source": "Logan, L.A. Logan",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

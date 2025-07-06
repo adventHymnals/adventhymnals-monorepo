@@ -54,3 +54,4 @@ data/processing/
 # OCR temporary files
 *.ocr.tmp
 *.processing.tmp
+tmp/

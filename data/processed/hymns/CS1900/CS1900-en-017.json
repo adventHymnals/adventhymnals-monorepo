@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-017",
+  "number": 17,
+  "title": "Though Your Sins Be as Scarlet",
+  "author": "F. J. Crosby",
+  "composer": "W. H. Doane, by per.",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Though your sins be as scar - let, They shall be as white as snow; as white as snow, as white as the glo - ry, They be; Though they be red like crim - son, They shall be as wool! Hear the voice that en-treats you, O re - turn ye un - to God! He'll for-give your transgressions, And re-member them no more."
+    },
+    {
+      "number": 2,
+      "text": "He'll for-give your trans-gres-sions, And for - get your in - i - qui-ty; Your sins shall be a-way from you As far as east from west can be. Though they be as scar - let, They shall be as white as snow, He'll for-give your transgressions, And re-member them no more."
+    }
+  ],
+  "chorus": {
+    "text": "Though your sins be as scar - let, they shall be as white as snow; They shall be as white as snow, as white as snow; Though your sins be as scar - let, they shall be as white as snow, They shall be as white as snow."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["sin", "scarlet", "snow", "cleansing", "forgiveness", "crimson", "wool"],
+    "scripture_references": ["Isa. 1:18"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-382",
   "number": 382,
-  "title": "Hymn 382 (To be extracted)",
-  "author": null,
+  "title": "Like Sheep We Went Astray",
+  "author": "Isaac Watts",
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "8s, 6s, & 4s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Like sheep we went astray,\nAnd broke the fold of God,—\nEach wandering in a different way,\nBut all the downward road."
+    },
+    {
+      "number": 2,
+      "text": "How dreadful was the hour,\nWhen God our wanderings laid,\nAnd did at once his vengeance pour\nUpon the Shepherd's head!"
+    },
+    {
+      "number": 3,
+      "text": "How glorious was the grace,\nWhen Christ sustained the stroke!\nHis life and blood the shepherd pays,\nA ransom for the flock."
+    },
+    {
+      "number": 4,
+      "text": "But God shall raise his head\nO'er all the sons of men,\nAnd make him see a numerous seed,\nTo recompense his pain."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["sheep going astray", "human wandering", "Christ as substitute", "divine grace", "the Good Shepherd"],
+    "scripture_references": ["Isaiah 53:6", "1 Peter 2:25", "John 10:11"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

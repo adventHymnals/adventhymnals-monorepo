@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-020",
+  "number": 20,
+  "title": "Over the Line",
+  "author": "Mrs. N. G. Shepherd",
+  "composer": "F. L. Eiland",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"But they should seek the Lord, if haply they might feel after him, though he be not far from every one of us.\"—Acts 17: 27. What my sins are so numer-ous, my faith so small?—Lost! the answer came quick and clear, \"Thou need-est not fear thy doubt or thy call, \"should the path seem dark and dear."
+    },
+    {
+      "number": 2,
+      "text": "\"But my flesh is so weak-y, my cross is so heavy!\" \"Are't he not said—I will nev-er fail nor for-sake?\" \"But I fear I shall not be ready when Jesus shall come in his pow-er and glory, to take his faithful children home.\""
+    },
+    {
+      "number": 3,
+      "text": "Hav-en is nearer today, I think than my child, let thy heart Trust in thy Sav-iour, all, Step over the line, I am here, Over the line, hear the sweet re-frain, Yes, sus will come, we meet in his home, Je-sus the Lord, is he near, is he near."
+    }
+  ],
+  "chorus": {
+    "text": "\"O-ver the line,\" hear the sweet re-frain, An-gels are chant-ing the heav-en-ly strain; \"O-ver the line\"—why should I re-main With a step be-tween me and heav-en?"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1878, by N. G. Shepherd. Used by permission of the author. The publishers of Christ in Song desire to call attention to the text and thought of this hymn, which aim to lead souls nearer Christ, and encourage backsliders in the work that lends with Christ, that belong to God, In the moments of the revival these lines may be helpful.",
+    "themes": ["crossing", "line", "heaven", "faith", "doubt", "readiness", "angels"],
+    "scripture_references": ["Acts 17:27"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

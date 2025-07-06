@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-366",
   "number": 366,
-  "title": "Hymn 366 (To be extracted)",
-  "author": null,
+  "title": "Jesus, Engrave It on My Heart",
+  "author": "Samuel Medley",
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "8s, 7s, & 4s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Jesus, engrave it on my heart\nThat thou hast died for me,\nA deed from all things parted be,\nBut never, never, Lord, from thee."
+    },
+    {
+      "number": 2,
+      "text": "Needful is thy chastening rod,\nTo reconcile my soul to God;\nNeedful is the fiery trial,\nNeedful thy all-prevailing prayer."
+    },
+    {
+      "number": 3,
+      "text": "Needful thy presence, dearest Lord,\nThy peace and comfort to afford;\nNeedful thy promise, to impart\nFresh life and vigor to my heart."
+    },
+    {
+      "number": 4,
+      "text": "Needful art thou, my Guide, my Stay,\nThrough all life's dark and weary way;\nNor will at last less needful be,\nTo bring me home to heaven and thee."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["Jesus' sacrifice", "spiritual growth", "divine guidance", "perseverance", "heaven"],
+    "scripture_references": ["1 Peter 1:6-7", "Hebrews 12:5-11"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

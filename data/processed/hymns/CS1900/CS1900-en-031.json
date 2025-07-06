@@ -1,0 +1,29 @@
+{
+  "id": "CS1900-en-031",
+  "number": 31,
+  "title": "Knocking, Knocking",
+  "subtitle": "For Male or Mixed Voices",
+  "author": "Rev. H. B. Stowe, M.D.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Knocking, knocking, who is there? Wait - ing, wait - ing, O how fair! 'T is a Pil - grim, strange and king - ly, Nev - er such was seen be - fore; Ah, sweet soul, now I en - treat thee, Knocking, knocking, who will hear? Wait - ing, wait - ing, oh so long! For thy wood-ed land and hill con-nect thy."
+    },
+    {
+      "number": 2,
+      "text": "Knocking, knocking—what still harp? Wait - ing, wait - ing, proud and fair; For thy door shall not no - o the door? Will thou not do the door? Will thou not un - do the door? For so men hear the heart beat free. And the heart-beat faint and true."
+    }
+  ],
+  "metadata": {
+    "year": 1900,
+    "copyright": "Music copyright, 1895, by F. E. Belden",
+    "themes": ["knocking", "waiting", "pilgrim", "door", "heart", "soul", "king"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

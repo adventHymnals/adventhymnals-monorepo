@@ -1,0 +1,34 @@
+{
+  "id": "SAHB-en-036",
+  "number": 36,
+  "title": "Come, Ye Sinners, Poor and Needy",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, ye sinners, poor and needy,\nWeak and wounded, sick and sore;\nJesus ready stands to save you,\nFull of pity, love, and power.\nHe is able, he is able,\nHe is willing; doubt no more."
+    },
+    {
+      "number": 2,
+      "text": "Come, ye thirsty, come and welcome,\nGod's free bounty glorify;\nTrue belief and true repentance,\nEvery grace that brings you nigh.\nWithout money, without money,\nCome to Jesus Christ and buy."
+    },
+    {
+      "number": 3,
+      "text": "Come, ye weary, heavy-laden,\nLost and ruined by the fall;\nIf you tarry till you're better,\nYou will never come at all.\nNot the righteous, not the righteous,\nSinners Jesus came to call."
+    },
+    {
+      "number": 4,
+      "text": "Let not conscience make you linger,\nNor of fitness fondly dream;\nAll the fitness he requireth\nIs to feel your need of him.\nThis he gives you, this he gives you,\n'Tis the Spirit's rising beam."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["invitation", "salvation", "grace", "come as you are"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

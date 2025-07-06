@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-367",
   "number": 367,
-  "title": "Hymn 367 (To be extracted)",
+  "title": "Infinite Love! What Precious Stores",
   "author": null,
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "7s, 6s, & 3s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Infinite Love! what precious stores\nThy mercy has opened for us!\nThe costliest gems, the richest ores,\nCould never have endowed us thus."
+    },
+    {
+      "number": 2,
+      "text": "But thy soft hand, O gracious Lord,\nCan draw from poverty the spring;\nAnd thy rich bounty to our board\nCan bread for hungering sinners bring."
+    },
+    {
+      "number": 3,
+      "text": "How rich the grace! the gift how free!\n'Tis only 'ask,'—it shall be given;\n'Tis only 'knock,' and thou shalt see\nThe open door that leads to heaven."
+    },
+    {
+      "number": 4,
+      "text": "O then arise, and take the good,\nSo full and freely proffered thee,\nRemembering that it cost the blood\nOf Him who died on Calvary."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["God's love", "divine mercy", "grace", "salvation freely given", "Calvary"],
+    "scripture_references": ["Romans 8:32", "Matthew 7:7-8", "Ephesians 2:8-9"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

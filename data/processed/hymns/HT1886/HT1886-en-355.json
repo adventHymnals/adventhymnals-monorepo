@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-355",
   "number": 355,
-  "title": "Hymn 355 (To be extracted)",
+  "title": "Erected high in heaven stands",
   "author": null,
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "660, 27, 774",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Erected high in heaven stands\nThe tabernacle true;\nAnd Jesus there in mercy pleads\nFor all the faithful few."
+    },
+    {
+      "number": 2,
+      "text": "His blood he offers freely now\nFor all who will receive,\nFor all who to his truth will bow,\nAnd in his word believe."
+    },
+    {
+      "number": 3,
+      "text": "The Jewish priesthood shadowed forth\nHis ministration there,\nThe cleansing of the inner court,\nHis coming to prepare."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["heavenly tabernacle", "Christ's priesthood", "intercession", "Jewish priesthood"],
+    "scripture_references": ["Hebrews 8:1-2", "Hebrews 9:11"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

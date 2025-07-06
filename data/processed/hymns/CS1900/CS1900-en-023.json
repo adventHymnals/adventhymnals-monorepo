@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-023",
+  "number": 23,
+  "title": "Able to Save and Keep",
+  "author": "C. F. G.",
+  "composer": "P. Phillips, by per.",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Now unto him that is able to keep you from falling, and to present you faultless before the presence of his glory with exceeding joy.\"—Jude 24. He's a - ble to keep you from falling, He's a - ble all things to sub - due, To build up the tem - ple with - in you, Our bless - ed and glo - ri - ous King. God's throne his chil - dren are precious, All this and much more will he save, They faith in the blood."
+    },
+    {
+      "number": 2,
+      "text": "He is a - ble to save to the ut - ter-most, too, And keep us from sin - ning, And keep us from run - ning a - way from him; Yes, when we were sin And a - ble, will he a - ble, will ing, Je - sus is a - ble to save."
+    }
+  ],
+  "chorus": {
+    "text": "A - ble, will - ing, A - ble to save, A - ble to keep, A - ble and will - ing to save, A - ble, will - ing, Je - sus is a - ble to save."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1873, by P. Phillips",
+    "themes": ["ability", "save", "keep", "falling", "faultless", "glory", "throne"],
+    "scripture_references": ["Jude 24"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

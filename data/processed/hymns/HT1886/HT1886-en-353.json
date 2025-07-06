@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-353",
   "number": 353,
-  "title": "Hymn 353 (To be extracted)",
+  "title": "Jesus, Lord of glory, died",
   "author": null,
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "227, 564",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Jesus, Lord of glory, died\nThat we might never die;\nAnd now sits everyone, to guide\nHis people to the sky."
+    },
+    {
+      "number": 2,
+      "text": "Weak though we are, he still is near,\nTo lead, console, defend;\nIn all our sorrow, all our fear,\nOur all-sufficient Friend."
+    },
+    {
+      "number": 3,
+      "text": "From his high throne of grace he deigns\nOur every prayer to heed;\nBears with our folly, soothes our pains,\nSupplies our every need."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["Jesus", "glory", "death", "guidance", "comfort", "grace"],
+    "scripture_references": ["Romans 8:34", "Hebrews 4:16"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

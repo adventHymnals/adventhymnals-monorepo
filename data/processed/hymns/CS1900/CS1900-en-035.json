@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-035",
+  "number": 35,
+  "title": "Bravely Say No!",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"And Jesus answered and said unto him, 'Get thee behind me, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve.'\"—Luke 4: 8. Brave - ly say No! firm-ly say No! Lot - to the temp - tation ye - si stare-ly; brave, Stand like a rock a - gainst the foe, But if the temp - ter comes with a song, Strew-ing with flow'rs the path-way of wrong; Stare - more or - a - mid it all and re - ply, Brave - ly say no!"
+    },
+    {
+      "number": 2,
+      "text": "Je - sus will help you con-quer the show; Turn from the temp - ting and brave - ly say No! Watch and be read - y al - ways to go, Nev - er to the voice that calls you a - way; We have too mov - y to keep him with - in, He who will say to the fear-fully No!"
+    }
+  ],
+  "chorus": {
+    "text": "Brave - ly say No! Al - ways say No! Je - sus will help you, Brave-ly say No!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1885, by F. E. Belden, in Bible Object Lessons; and Copyright, 1886, Same, on behalf of Christ in Song. Used by permission of the Intl. Kindergarten and Home-Sch. College",
+    "themes": ["bravery", "saying no", "temptation", "Satan", "Jesus", "strength", "worship"],
+    "scripture_references": ["Luke 4:8"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

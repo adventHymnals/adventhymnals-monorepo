@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-376",
   "number": 376,
-  "title": "Hymn 376 (To be extracted)",
-  "author": null,
+  "title": "Vain Are the Hopes the Sons of Men",
+  "author": "Isaac Watts",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": null
+  "meter": "8s, 6s, & 4s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Vain are the hopes the sons of men\nOn their own works have built;\nTheir hearts, by nature, all unclean,\nAnd all their actions guilt."
+    },
+    {
+      "number": 2,
+      "text": "Let Jew and Gentile cease their stand,\nWithout a murmuring word;\nAnd the whole race of Adam own\nTheir guilt before the Lord."
+    },
+    {
+      "number": 3,
+      "text": "Jesus, how glorious is thy grace,\nWhen in thy name we trust,\nOur faith receives a righteousness\nThat makes the sinner just."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["human futility", "universal guilt", "righteousness by faith", "justification", "Christ's grace"],
+    "scripture_references": ["Romans 3:19-24", "Galatians 2:16", "Philippians 3:9"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

@@ -1,0 +1,42 @@
+{
+  "id": "SAHB-en-060",
+  "number": 60,
+  "title": "Holy Spirit",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy Spirit, faithful Guide,\nEver near the Christian's side;\nGently lead us by the hand,\nPilgrims in a desert land."
+    },
+    {
+      "number": 2,
+      "text": "Weary souls fore'er rejoice,\nWhile they hear that sweetest voice\nWhispering softly, \"Wanderer, come!\nFollow me, I'll guide thee home.\""
+    },
+    {
+      "number": 3,
+      "text": "When our days of toil shall cease,\nWaiting still for sweet release,\nNothing left but heaven and prayer,\nWondering if our names are there."
+    },
+    {
+      "number": 4,
+      "text": "Wading deep the dismal flood,\nPleading naught but Jesus' blood;\nWhispering softly, \"Wanderer, come!\nFollow me, I'll guide thee home.\""
+    },
+    {
+      "number": 5,
+      "text": "When the storms are raging sore,\nHearts are sinking more and more;\nCloudy skies and raging sea,\nNothing as it used to be."
+    },
+    {
+      "number": 6,
+      "text": "Whispers softly, \"Wanderer, come!\nFollow me, I'll guide thee home.\"\nBut will guide the trembling feet\nSafe to glory's golden street."
+    }
+  ],
+  "metadata": {
+    "year": 1867,
+    "copyright": "Public Domain",
+    "compiler": "P. A. Smith",
+    "publisher": "W. H. Spencer",
+    "location": "Rochester, N.Y.",
+    "themes": ["Holy Spirit", "guidance", "pilgrimage", "home"],
+    "original_language": "en",
+    "has_chorus": false
+  }
+}

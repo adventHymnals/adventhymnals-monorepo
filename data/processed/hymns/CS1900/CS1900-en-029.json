@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-029",
+  "number": 29,
+  "title": "I'm So Glad!",
+  "author": "Anonymous",
+  "composer": "Anonymous",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"But Jesus called them unto him, and said, Suffer little children to come unto me, and forbid them not: for of such is the kingdom of God.\"—Luke 18: 16. I am so glad that our Fa - ther in heav'n Tells of his love in the Book he has giv'n; Won - der - ful things in the Bi - ble I see, This is the dear - est, that Je - sus loves me."
+    },
+    {
+      "number": 2,
+      "text": "He's the same as long a - go, Those can hav - er change his love; Like a stream from ev - er flow When he speaks the tur - tle dove oh round."
+    }
+  ],
+  "refrain": {
+    "text": "I'm so glad that Je - sus loves me, Je - sus loves me, Je - sus loves me; I'm so glad that Je - sus loves me, Je - sus loves even me. Of such shall the kingdom of heav - en be! Glad - ly we will come, glad - ly we will come, Joy - ful - ly we cross."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1897, by P. P. Bilhorn. In \"Songs of Love and Praise No. 5.\" Used by permission of Biglow & Main Co., owners of copyright",
+    "themes": ["glad", "Jesus", "love", "children", "Father", "kingdom", "Book"],
+    "scripture_references": ["Luke 18:16"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}
