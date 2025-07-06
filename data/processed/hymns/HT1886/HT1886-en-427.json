@@ -1,25 +1,43 @@
 {
   "id": "HT1886-en-427",
   "number": 427,
-  "title": "Hymn 427 (To be extracted)",
+  "title": "Earnest",
   "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "composer": "William B. Bradbury",
+  "tune": "Earnest",
+  "meter": "12s & 11s, P.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Hark, sin-ner, while God from on high doth en-treat thee, And warnings with accents of mer-cy doth breathe;\nGive ear to his voice, tell no lon-ger to greet thee, \"The har-vest is pass-ing, the sum-mer will end.\""
+    },
+    {
+      "number": 2,
+      "text": "How oft of thy danger and guilt he hath told thee!\nHow oft still the message of mercy doth come!\nHaste, haste, while he waits in his arms to enfold thee;\n\"The harvest is passing, the summer will end.\""
+    },
+    {
+      "number": 3,
+      "text": "Despised and rejected, at length he may leave thee!\nWhat anguish and horror thy bosom will rend!\nThen haste, thee, O sinner, while he will receive thee;\n\"The harvest is passing, the summer will end.\""
+    },
+    {
+      "number": 4,
+      "text": "Ere long, and Jehovah will come in his power;\nOur God will arise, with his foes to contend;\nHaste, haste thee, O sinner! prepare for that hour;\n\"The harvest is passing, the summer will end.\""
+    },
+    {
+      "number": 5,
+      "text": "The Saviour will call thee in judgment before him;\nO, how to his scepter, and make him thy friend!"
     }
   ],
+  "refrain": {
+    "text": "The har-vest is pass-ing, the sum-mer will end;\nThe har-vest is pass-ing, the sum-mer will end."
+  },
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["warning", "invitation", "harvest", "judgment", "mercy"],
+    "scripture_references": ["Jeremiah 8:20"],
+    "tune_source": "William B. Bradbury",
+    "original_language": "en"
   }
 }

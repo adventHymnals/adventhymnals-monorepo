@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-126",
+  "number": 126,
+  "title": "At the Cross",
+  "author": "I. E. Watts",
+  "composer": "R. E. Hudson",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "A - las! and did my Saviour bleed, And did my Sov'reign die?\nWould he devote that sacred head For such a worm as I?"
+    },
+    {
+      "number": 2,
+      "text": "Was it for crimes that I have done, He groaned upon the tree?\nA - mazing pity! grace unknown! And love beyond degree!"
+    },
+    {
+      "number": 3,
+      "text": "The drops of grief can ne'er repay The debt of love I owe;\nHere, Lord, I give myself away, 'Tis all that I can do."
+    }
+  ],
+  "chorus": {
+    "text": "At the cross, at the cross, where I first saw the light,\nAnd the bur - den of my heart rolled away;\nIt was there by faith I received my sight,\nAnd now I am happy all the day."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1885, by R. E. Hudson. Used by permission.",
+    "themes": ["salvation", "cross", "redemption"],
+    "scripture_references": [],
+    "tune_source": "R. E. Hudson",
+    "original_language": "en"
+  }
+}

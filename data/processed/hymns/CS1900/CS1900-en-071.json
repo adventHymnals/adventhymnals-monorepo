@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-071",
+  "number": 71,
+  "title": "The Passover",
+  "author": "F. E. Belden",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When I see the blood, I will pass over you,\nSaith the Lord, and the plague shall not be on you;\nWhen I see the blood, I will pass over you,\nChrist our passover is sacrificed for us."
+    },
+    {
+      "number": 2,
+      "text": "The Lamb is slain, the Sin - of - fer - ing died,\nAnd the door - posts of the heart are sprinkled o'er;\nWith the blood of the Lamb that was crucified,\nChrist our passover is sacrificed for us."
+    },
+    {
+      "number": 3,
+      "text": "The world sleeps on, but morning light burns on,\nHis blood is shed - that is, it on the por - tal!\nGive great heed lest you be in your sins o'er - come,\nChrist our passover is sacrificed for us."
+    }
+  ],
+  "chorus": {
+    "text": "I will pass o - ver you, when I see the blood,\nI will pass o - ver you, 'tis a sav - ing flood."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1893, by F. E. Belden",
+    "themes": ["passover", "blood", "sacrifice", "lamb"],
+    "scripture_references": ["Exodus 12:13", "1 Corinthians 5:7"],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

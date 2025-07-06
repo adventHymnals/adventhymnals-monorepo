@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-237",
+  "number": 237,
+  "title": "THE LORD IN ZION REIGNETH",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The Lord in Zi - on reigneth, Let all the earth rejoice; Let distant shores be glad, And islands of the sea."
+    },
+    {
+      "number": 2,
+      "text": "Dark clouds and thick darkness Are round about his throne; Justice and judgment Are the habitation of his throne."
+    },
+    {
+      "number": 3,
+      "text": "The lightnings light the world, The earth beholds and trembles; The mountains melt like wax At the presence of the Lord."
+    },
+    {
+      "number": 4,
+      "text": "The heavens declare his righteousness, All people see his glory; For thou, Lord, art most high Above all the earth."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["lord", "zion", "reign", "glory"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

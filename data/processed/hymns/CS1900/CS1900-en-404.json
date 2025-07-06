@@ -1,0 +1,29 @@
+{
+  "id": "CS1900-en-404",
+  "number": 404,
+  "title": "ANOTHER SIX DAYS' WORK",
+  "author": "Unknown",
+  "composer": "Unknown",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Another six days' work is done,\nAnother Sabbath is begun;\nReturn, my soul, enjoy thy rest,\nImprove the day thy God has blessed."
+    },
+    {
+      "number": 2,
+      "text": "Come, bless the Lord, whose love assigned\nThis day of rest for all mankind;\nThrough Christian lands from shore to shore,\nCome, help us praise Him more and more."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["Sabbath", "rest", "work"],
+    "scripture_references": [],
+    "tune_source": "Unknown",
+    "original_language": "en"
+  }
+}

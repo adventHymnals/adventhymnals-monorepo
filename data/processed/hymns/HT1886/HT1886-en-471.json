@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-471",
   "number": 471,
-  "title": "Hymn 471 (To be extracted)",
-  "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "title": "Jesus, where'er thy people meet",
+  "author": "William Cowper",
+  "composer": "Lowell Mason",
+  "tune": "MALVERN",
+  "meter": "L.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Jesus, where'er thy people meet, There they behold thy mercy seat; Where'er they seek thee, thou art found, And every place is hallowed ground;"
+    },
+    {
+      "number": 2,
+      "text": "For thou, within no walls confined, Dost dwell with those of humble mind; Such ever bring thee where they come, And, going, take thee to their home."
+    },
+    {
+      "number": 3,
+      "text": "Great Shepherd of thy chosen few, Thy former mercies now renew; And to our waiting hearts proclaim The sweetness of thy saving name."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["divine presence", "mercy seat", "humble worship", "social worship"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "Lowell Mason",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

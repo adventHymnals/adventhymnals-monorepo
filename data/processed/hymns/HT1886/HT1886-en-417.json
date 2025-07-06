@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-417",
   "number": 417,
-  "title": "Hymn 417 (To be extracted)",
-  "author": null,
+  "title": "O turn ye, O turn ye",
+  "author": "Josiah Hopkins",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Expostulation",
+  "meter": "11s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "O turn ye, O turn ye; for why will ye die,\nWhen God in great mercy is coming so nigh?\nNow Jesus invites you, the Spirit says, Come,\nAnd angels are waiting to welcome you home."
+    },
+    {
+      "number": 2,
+      "text": "And now Christ is ready your souls to receive;\nO, how can you question when you may believe?\nIf sin is your burden, why will you not come?\n'Tis you he bids welcome; he bids you come home."
+    },
+    {
+      "number": 3,
+      "text": "Delay not, delay not, the Spirit of grace\nLong grieved and resisted may take his sad flight,\nAnd leave thee in darkness to finish thy race,\nTo sink in the gloom of eternity's night."
+    },
+    {
+      "number": 4,
+      "text": "Delay not, delay not, the hour is at hand,\nThe earth shall dissolve, and the heavens shall fade,\nThe dead, small and great, in the Judgment shall stand;\nWhat power then, O sinner! will lend thee its aid?"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["warning", "invitation", "repentance"],
+    "scripture_references": ["Ezekiel 33:11"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "id": "HT1876-en-383",
+  "number": 383,
+  "title": "Melita",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "When pain and grief a mortal frame Rachel me with a gentle, loving slum, to call - the mourner leaps."},
+    {"number": 2, "text": "So when in silence nature sleeps, And lonely watch the mourner keeps, One thought shall cheer the heart dismay'd, Trust, feeble man, thy Maker's love."},
+    {"number": 3, "text": "And when the last, dread hour shall come, And this frail dust waits for doom, This voice shall wake the righteous dead, Lo, it is I, be not afraid."}
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["pain", "grief", "nature", "mourner", "trust", "maker", "righteous dead"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "L. M."
+  }
+}

@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-400",
   "number": 400,
-  "title": "Hymn 400 (To be extracted)",
-  "author": null,
+  "title": "The Old Rugged Cross",
+  "author": "George Bennard",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Old Rugged Cross",
+  "meter": "Irregular with Refrain",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "On a hill far away stood an old rugged cross,\nThe emblem of suffering and shame;\nAnd I love that old cross where the dearest and best\nFor a world of lost sinners was slain.\nSo I'll cherish the old rugged cross,\nTill my trophies at last I lay down;\nI will cling to the old rugged cross,\nAnd exchange it someday for a crown."
+    },
+    {
+      "number": 2,
+      "text": "O that old rugged cross, so despised by the world,\nHas a wondrous attraction for me;\nFor the dear Lamb of God left his glory above\nTo bear it to dark Calvary.\nSo I'll cherish the old rugged cross,\nTill my trophies at last I lay down;\nI will cling to the old rugged cross,\nAnd exchange it someday for a crown."
+    },
+    {
+      "number": 3,
+      "text": "In that old rugged cross, stained with blood so divine,\nA wondrous beauty I see,\nFor 'twas on that old cross Jesus suffered and died,\nTo pardon and sanctify me.\nSo I'll cherish the old rugged cross,\nTill my trophies at last I lay down;\nI will cling to the old rugged cross,\nAnd exchange it someday for a crown."
+    },
+    {
+      "number": 4,
+      "text": "To the old rugged cross I will ever be true;\nIts shame and reproach gladly bear;\nThen he'll call me some day to my home far away,\nWhere his glory forever I'll share.\nSo I'll cherish the old rugged cross,\nTill my trophies at last I lay down;\nI will cling to the old rugged cross,\nAnd exchange it someday for a crown."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["cross", "sacrifice", "salvation", "glory"],
+    "scripture_references": ["Galatians 6:14", "1 Corinthians 1:18"],
+    "tune_source": "George Bennard",
+    "original_language": "en"
   }
 }

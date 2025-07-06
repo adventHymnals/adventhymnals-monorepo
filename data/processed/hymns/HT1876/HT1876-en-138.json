@@ -1,0 +1,21 @@
+{
+  "id": "HT1876-en-138",
+  "number": 138,
+  "title": "'Tis faith that purifies the heart",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "'Tis faith that purifies the heart, 'Tis faith that works by love; That bids all sinful joys depart, And lifts the thoughts above."},
+    {"number": 2, "text": "Faith shows the promise fully sealed With our Redeemer's blood; It helps our feeble hope to rest Upon a faithful God."},
+    {"number": 3, "text": "This faith shall every fear control, By its celestial power; With holy triumph fill the soul In death's important hour."}
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["faith", "purification", "love", "hope", "triumph"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "C. M."
+  }
+}

@@ -1,25 +1,28 @@
 {
   "id": "HT1886-en-426",
   "number": 426,
-  "title": "Hymn 426 (To be extracted)",
+  "title": "All you that are weary and sad, come",
   "author": null,
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Fountain of Life",
+  "meter": "P. M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "All you that are weary and sad, come,\nAnd you that are cheerful and glad, come;\nIn robes of humility clad, come;\nThe Saviour invites you to-day.\nIn robes of humility, come to-day."
+    },
+    {
+      "number": 2,
+      "text": "Acquaint thyself quickly, O sinner, with God;\nAnd joy, like the sunshine, shall beam on thy road;\nAnd peace, like the dewdrop, shall fall on thy head;\nAnd sleep, like an angel, shall visit thy bed."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["invitation", "comfort", "humility"],
+    "scripture_references": ["Matthew 11:28", "Job 22:21"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

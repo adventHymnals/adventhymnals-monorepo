@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-503",
   "number": 503,
-  "title": "Hymn 503 (To be extracted)",
-  "author": null,
+  "title": "Come, thou Fount of every blessing",
+  "author": "Dr. Nettleton",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "NETTLETON",
+  "meter": "8s & 7s. D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Come, thou Fount of every blessing, Tune my heart to sing thy grace;\nStreams of mercy, never ceasing, Call for songs of loudest praise.\nTeach me ever to adore thee, May I still thy goodness prove,\nWhile the hope of endless glory Fills my heart with joy and love."
+    },
+    {
+      "number": 2,
+      "text": "Here I raise my Ebenezer,\nHither by thy help I'm come,\nAnd I hope, by thy good pleasure,\nSafely to arrive at home.\nJesus sought me when a stranger\nWandering from the fold of God;\nHe, to rescue me from danger,\nInterposed his precious blood."
+    },
+    {
+      "number": 3,
+      "text": "O, to grace how great a debtor\nDaily I'm constrained to be!\nLet thy goodness, like a fetter,\nBind me closer still to thee.\nProne to wander, Lord, I feel it,\nProne to leave the God I love;\nHere's my heart—O take and seal it;\nSeal it for thy courts above."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["grace", "mercy", "wandering heart", "dedication"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "NETTLETON",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

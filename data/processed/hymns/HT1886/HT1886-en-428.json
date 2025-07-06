@@ -1,25 +1,44 @@
 {
   "id": "HT1886-en-428",
   "number": 428,
-  "title": "Hymn 428 (To be extracted)",
+  "title": "Woodworth",
   "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "composer": "William B. Bradbury",
+  "tune": "Woodworth",
+  "meter": "L.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Just as I am, with-out one plea But that thy blood was shed for me,\nAnd that thou bid'st me come to thee, O Lamb of God, I come, I come."
+    },
+    {
+      "number": 2,
+      "text": "Just as I am, and waiting not To rid my soul of one dark blot,\nTo thee, whose blood can cleanse each spot, O Lamb of God, I come, I come."
+    },
+    {
+      "number": 3,
+      "text": "Just as I am, though tossed about With many a conflict, many a doubt,\nFightings within, and fears without, O Lamb of God, I come, I come."
+    },
+    {
+      "number": 4,
+      "text": "Just as I am, poor, wretched, blind,— Sight, riches, healing of the mind,\nYea, all I need, in thee to find, O Lamb of God, I come, I come."
+    },
+    {
+      "number": 5,
+      "text": "Just as I am, thou wilt receive, Wilt welcome, pardon, cleanse, relieve;\nBecause thy promise I believe, O Lamb of God, I come, I come."
+    },
+    {
+      "number": 6,
+      "text": "Just as I am, thy love unknown Has broken every barrier down;\nNow to be thine, and thine alone, O Lamb of God, I come, I come."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["invitation", "repentance", "acceptance", "salvation", "Jesus Christ"],
+    "scripture_references": ["John 6:37"],
+    "tune_source": "William B. Bradbury",
+    "original_language": "en"
   }
 }

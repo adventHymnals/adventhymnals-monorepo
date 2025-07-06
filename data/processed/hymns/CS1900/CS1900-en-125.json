@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-125",
+  "number": 125,
+  "title": "I Will Follow Thee",
+  "author": "A. H. Ackley",
+  "composer": "A. H. Ackley",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I re - mem - ber I was lost and be - fore thee,\nNow I fol - low thee, and I near thee, call - ing me;\nLord and will pray at my knees, Follow him my way of peace, Full of cour - age."
+    },
+    {
+      "number": 2,
+      "text": "I re - mem - ber I was lost and be - fore thee,\nNow I fol - low thee, and I near thee, call - ing me;\nLord and will pray at my knees, Follow him my way of peace, Full of cour - age."
+    },
+    {
+      "number": 3,
+      "text": "I re - mem - ber I was lost and be - fore thee,\nNow I fol - low thee, and I near thee, call - ing me;\nLord and will pray at my knees, Follow him my way of peace, Full of cour - age."
+    }
+  ],
+  "chorus": {
+    "text": "I will follow thee, I will follow thee, To - day I come, To - day I come;\nI will follow thee, I will follow thee, I will follow thee, I will follow thee, I will."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "By permission. Copyright, 1895, by Fillmore Bros.",
+    "themes": ["discipleship", "commitment", "following Jesus"],
+    "scripture_references": [],
+    "tune_source": "A. H. Ackley",
+    "original_language": "en"
+  }
+}

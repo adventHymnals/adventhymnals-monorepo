@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-502",
   "number": 502,
-  "title": "Hymn 502 (To be extracted)",
+  "title": "Vain are all terrestrial pleasures",
   "author": null,
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "408, 844",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Vain are all terrestrial pleasures,\nMixed with dross the purest gold;\nSeek we then for heavenly treasures—\nTreasures never waxing old.\nLet our best affections center\nOn the things around the throne:\nThere no thief can ever enter;\nMoth and rust are there unknown."
+    },
+    {
+      "number": 2,
+      "text": "Earthly joys no longer please us;\nHere we would recognize them all;\nSeek our only rest in Jesus—\nHim our Lord and Master call.\nFaith, our languid spirits cheering,\nPoints to brighter worlds above;\nBids us look for his appearing,\nBids us triumph in his love."
+    },
+    {
+      "number": 3,
+      "text": "May our light be always burning,\nAnd our loins be girded round,\nWaiting for our Lord's returning—\nLonging for the welcome sound.\nThus the Christian life adorning,\nNever need we be afraid,\nShould he come at night or morning,\nEarly dawn or evening shade."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["heavenly treasures", "spiritual focus", "Christian living", "second coming"],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

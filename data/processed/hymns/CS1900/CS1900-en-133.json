@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-133",
+  "number": 133,
+  "title": "The Dove of Peace",
+  "author": "M. H. Huntington",
+  "composer": "Francis L. Huntington",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The dove of peace bath spread her wings,\nAnd light and melody she brings;\nThe dove of peace hath radiant wings,\nAnd light and mel - o - dy she brings; be - hold! of her room - er-coming King;\nThe dove of peace, of peace, of peace,\nBehold her in her glo - ry bright."
+    },
+    {
+      "number": 2,
+      "text": "The dove of peace, of peace, of peace,\nHath come to earth her flight;\nO within their heart the dove will light,\nFor Jesus came to bring us light, from sin's great darkness into light,\nO love!"
+    }
+  ],
+  "chorus": {
+    "text": "It is the achoor Love's sweet song,\nOf peace, of truth that we so long to;\nThe dove of peace sings in my soul,\n'The Saviour's Blood doth make me whole.'"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["peace", "dove", "Jesus", "salvation"],
+    "scripture_references": [],
+    "tune_source": "Francis L. Huntington",
+    "original_language": "en"
+  }
+}

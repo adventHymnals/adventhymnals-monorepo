@@ -1,25 +1,32 @@
 {
   "id": "HT1886-en-397",
   "number": 397,
-  "title": "Hymn 397 (To be extracted)",
-  "author": null,
+  "title": "Blessed Assurance",
+  "author": "Fanny Crosby",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Assurance",
+  "meter": "9.10.9.9. with Refrain",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Blessed assurance, Jesus is mine!\nO what a foretaste of glory divine!\nHeir of salvation, purchase of God,\nBorn of his Spirit, washed in his blood.\nThis is my story, this is my song,\nPraising my Savior all the day long;\nThis is my story, this is my song,\nPraising my Savior all the day long."
+    },
+    {
+      "number": 2,
+      "text": "Perfect submission, perfect delight,\nVisions of rapture now burst on my sight;\nAngels descending bring from above\nEchoes of mercy, whispers of love.\nThis is my story, this is my song,\nPraising my Savior all the day long;\nThis is my story, this is my song,\nPraising my Savior all the day long."
+    },
+    {
+      "number": 3,
+      "text": "Perfect submission, all is at rest,\nI in my Savior am happy and blest;\nWatching and waiting, looking above,\nFilled with his goodness, lost in his love.\nThis is my story, this is my song,\nPraising my Savior all the day long;\nThis is my story, this is my song,\nPraising my Savior all the day long."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["assurance", "salvation", "testimony", "praise"],
+    "scripture_references": ["Romans 8:16", "1 John 5:13"],
+    "tune_source": "Phoebe Knapp",
+    "original_language": "en"
   }
 }

@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-389",
   "number": 389,
-  "title": "Hymn 389 (To be extracted)",
-  "author": null,
+  "title": "Rock of Ages",
+  "author": "Augustus Toplady",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Toplady",
+  "meter": "7.7.7.7.7.7.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Rock of ages, cleft for me,\nLet me hide myself in thee;\nLet the water and the blood,\nFrom thy wounded side which flowed,\nBe of sin the double cure,\nSave from wrath and make me pure."
+    },
+    {
+      "number": 2,
+      "text": "Not the labors of my hands\nCan fulfill thy law's demands;\nCould my zeal no respite know,\nCould my tears forever flow,\nAll for sin could not atone;\nThou must save, and thou alone."
+    },
+    {
+      "number": 3,
+      "text": "Nothing in my hand I bring,\nSimply to thy cross I cling;\nNaked, come to thee for dress;\nHelpless, look to thee for grace;\nFoul, I to the fountain fly;\nWash me, Savior, or I die."
+    },
+    {
+      "number": 4,
+      "text": "While I draw this fleeting breath,\nWhen my eyes shall close in death,\nWhen I rise to worlds unknown,\nAnd behold thee on thy throne,\nRock of ages, cleft for me,\nLet me hide myself in thee."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["salvation", "atonement", "refuge", "grace"],
+    "scripture_references": ["1 Corinthians 10:4", "John 19:34"],
+    "tune_source": "Thomas Hastings",
+    "original_language": "en"
   }
 }

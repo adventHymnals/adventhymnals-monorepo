@@ -1,0 +1,25 @@
+{
+  "id": "HT1876-en-289",
+  "number": 289,
+  "title": "Long for my Saviour I've been waiting",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "Long for my Saviour I've been waiting, Long time have watched by night and day; Feared, lost my faith and hope debating, I shall never see the way."},
+    {"number": 2, "text": "Here in this vale of sin and sorrow, I have been wandering many years; Still looking for that happy morrow, When God would wipe away my tears."},
+    {"number": 3, "text": "Sometimes I fear my faith is failing, Pain then would lead my steps astray; But when the clouds begin to lower, Hope turns the darkness into day."},
+    {"number": 4, "text": "Oh! it will be but little longer, I must keep my courage still; Then let my faith and hope grow stronger, My Father's promise still is sure."}
+  ],
+  "chorus": {
+    "text": "Jesus soon is coming; This is my song; Cheers the heart when joys depart, And foes are pressing strong."
+  },
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["waiting", "hope", "faith", "perseverance", "second coming", "comfort"],
+    "original_language": "en",
+    "has_chorus": true,
+    "meter": "P. M."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-046",
+  "number": 46,
+  "title": "Jesus Saves",
+  "author": "Priscilla J. Owens",
+  "composer": "Wm. J. Kirkpatrick",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Whosoever shall call upon the name of the Lord, shall be saved.\"—Rom. 10: 13. We have heard the joy - ful sound: Je - sus saves! Je - sus saves! Spread the ti - dings all a - round: Je - sus saves! Je - sus saves!"
+    },
+    {
+      "number": 2,
+      "text": "Wait it on the roll - ing tide: Je - sus saves! Je - sus saves! Tell to sin - ners, far and wide, Je - sus saves! Je - sus saves! Sing, ye is - lands of the sea, Ech - o back, ye o - cean caves, Earth shall keep her ju - bi - lee: Je - sus saves! Je - sus saves!"
+    },
+    {
+      "number": 3,
+      "text": "Sing a - bove the bat - tle strife, Je - sus saves! Je - sus saves! By his death and end - less life, Je - sus saves! Je - sus saves! Sing it soft - ly thro' the gloom, When the heart for mer - cy craves; Sing in tri - umph o'er the tomb, Je - sus saves! Je - sus saves!"
+    }
+  ],
+  "chorus": {
+    "text": "Give the winds a might - y voice, Je - sus saves! Je - sus saves! Let the na - tions now re - joice, Je - sus saves! Je - sus saves! Shout sal - va - tion full and free, High - est hills and deep - est caves, This our song of vic - to - ry, Je - sus saves! Je - sus saves!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by arr. of Jno. J. Hood, owner of copyright",
+    "themes": ["Jesus", "saves", "salvation", "joyful sound", "tidings", "victory", "triumph"],
+    "scripture_references": ["Rom. 10:13"],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

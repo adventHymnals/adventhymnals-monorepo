@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-077",
+  "number": 77,
+  "title": "I Will Early Seek the Saviour",
+  "author": "F. E. Belden",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I will early seek the Saviour,\nI will learn of Him each day;\nI will follow in His footsteps,\nI will walk the narrow way."
+    },
+    {
+      "number": 2,
+      "text": "I will learn to love my Saviour,\nI will learn to love His word;\nI will learn to do His bidding,\nI will learn to trust my Lord."
+    },
+    {
+      "number": 3,
+      "text": "I will early seek the Saviour,\nIn the morning of my days;\nI will early seek the Saviour,\nI will learn to speak His praise."
+    }
+  ],
+  "chorus": {
+    "text": "I will early seek that true way,\nEarly will I seek the Lord;\nFor He loves me, yes, He loves me,\nThis is why I love Him so."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1893, by F. E. Belden",
+    "themes": ["seeking", "early devotion", "learning", "following"],
+    "scripture_references": ["Proverbs 8:17"],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

@@ -1,25 +1,31 @@
 {
   "id": "HT1886-en-429",
   "number": 429,
-  "title": "Hymn 429 (To be extracted)",
+  "title": "With broken heart and contrite sigh",
   "author": null,
-  "composer": null,
+  "composer": "Charlotte Elliott",
   "tune": null,
-  "meter": null,
+  "meter": "S.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "With broken heart and contrite sigh, A trembling sinner, Lord, I cry;
+Thy pardoning grace is rich and free: O God, be merciful to me!"
+    },
+    {
+      "number": 2,
+      "text": "I smite upon my troubled breast With deep and conscious guilt oppressed;
+Christ and his cross my only plea: O God, be merciful to me!"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["repentance", "mercy", "forgiveness", "contrition"],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

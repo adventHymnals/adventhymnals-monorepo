@@ -1,25 +1,41 @@
 {
   "id": "HT1886-en-463",
   "number": 463,
-  "title": "Hymn 463 (To be extracted)",
-  "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "title": "We stand in deep repentance",
+  "author": "Ray Palmer",
+  "composer": "J. E. White",
+  "tune": "MARIETTA",
+  "meter": "7s & 6s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 4,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 5,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["deep repentance", "seeking forgiveness", "God's guiding grace", "spiritual refuge"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "J. E. White",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

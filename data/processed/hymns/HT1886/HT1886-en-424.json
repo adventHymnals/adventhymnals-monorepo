@@ -1,7 +1,7 @@
 {
   "id": "HT1886-en-424",
   "number": 424,
-  "title": "Hymn 424 (To be extracted)",
+  "title": "The last call of mercy now lingers for thee",
   "author": null,
   "composer": null,
   "tune": null,
@@ -10,16 +10,27 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "The last call of mercy now lingers for thee;\nO sinner, receive it; O Jesus is near;\nHe often has called thee—but thou hast refused;\nHis offered salvation and love are abused."
+    },
+    {
+      "number": 2,
+      "text": "O slight not the warning now offered at last,\nTill summer is ended and harvest is passed;\nTill mercy, long slighted, has left thy heart's door,\nAnd pardon, sweet pardon, is offered no more."
+    },
+    {
+      "number": 3,
+      "text": "While Jesus is calling, O turn not away;\nFor swiftly approacheth the dread judgment day;\nThe Spirit invites you, O why will you roam?\nCome now to life's waters, ye thirsty ones, come."
+    },
+    {
+      "number": 4,
+      "text": "The last call of mercy now lingers for thee;\nO, break the strong fetters of sin, and be free!\nThe Bride is now calling, ye wanderers, come;\nAccept of salvation, in heaven there's room."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["warning", "mercy", "last call"],
+    "scripture_references": ["Jeremiah 8:20", "Revelation 22:17"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

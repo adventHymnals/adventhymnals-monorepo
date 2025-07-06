@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-084",
+  "number": 84,
+  "title": "Come Ye Disconsolate",
+  "author": "Thomas Moore",
+  "composer": "Samuel Webbe",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text available in source hymnal]"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["comfort", "invitation", "healing"],
+    "scripture_references": [],
+    "tune_source": "Samuel Webbe",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses, no chorus",
+    "first_line": "Come, ye disconsolate, wherever ye languish"
+  }
+}

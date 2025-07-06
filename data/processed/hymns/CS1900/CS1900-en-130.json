@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-130",
+  "number": 130,
+  "title": "A New Song",
+  "author": "Avis B. Christiansen",
+  "composer": "J. H. Stockton",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O sing un - to the Lord a new song;\nDa Lord hath made sal - va - tion known;\nMake a joyful noise unto the Lord, all the earth, make a loud noise and rejoice, and sing praise.\nWith harps and the voice of a psalm, with trumpets and the sound of cornet make a joy - ful noise."
+    },
+    {
+      "number": 2,
+      "text": "Sing un - to the Lord, and bless his name;\nA - ll shall praised him all the re - all the earth;\nLet the sea roar, and the fullness thereof;\nThe world, and they that dwell there - in."
+    },
+    {
+      "number": 3,
+      "text": "Sing un - to the Lord, and bless his name;\nLet the floods clap their hands;\nLet the hills be joy - ful to - geth - er;\nBe - fore the Lord; for he com - eth to judge the earth."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["praise", "new song", "worship"],
+    "scripture_references": ["Psalm 98"],
+    "tune_source": "J. H. Stockton",
+    "original_language": "en"
+  }
+}

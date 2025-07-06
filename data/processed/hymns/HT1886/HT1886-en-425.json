@@ -1,25 +1,40 @@
 {
   "id": "HT1886-en-425",
   "number": 425,
-  "title": "Hymn 425 (To be extracted)",
+  "title": "Will you go?",
   "author": null,
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Will you go?",
+  "meter": "12s & 11s, P.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "If in bondage for the land of the pure and the holy,\nThe home of the happy, the kingdom of love;\nThere wanderers from God, in the broad road of folly,\nO say, will you go to the Eden above?"
+    },
+    {
+      "number": 2,
+      "text": "In that blessed land, neither sighing nor anguish\nCan breathe in the fields where the glorified rove;\nYe heart-burdened ones, who in misery languish,\nO say, will you go to the Eden above?"
+    },
+    {
+      "number": 3,
+      "text": "Nor fraud, nor deceit, nor the hand of oppression\nCan injure the dwellers in that holy grove;\nNo wickedness there, not a shade of transgression;\nO say, will you go to the Eden above?"
+    },
+    {
+      "number": 4,
+      "text": "No poverty there, no, the saints are all wealthy,\nThe heirs of His glory whose nature is love;\nNo sickness can reach them, that country is healthy;\nO say, will you go to the Eden above?"
+    },
+    {
+      "number": 5,
+      "text": "And guilty sinner, we would not forsake thee,\nWe halt yet a moment as onward we move;\nO, come to the Fountain, and bear thee along to the Eden above."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["heaven", "invitation", "Eden"],
+    "scripture_references": ["Revelation 21:4", "Isaiah 35:10"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

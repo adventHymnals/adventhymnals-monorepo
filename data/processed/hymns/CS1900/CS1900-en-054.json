@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-054",
+  "number": 54,
+  "title": "Dare To Do Right",
+  "author": "G. Lansing Taylor",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Dare to do right, dare to be true! You have a work that no oth-er can do; Dare to do right, dare to be true! God who ere-a-ted you, cares for you, too. Dare to do right, dare to be true! You'll find earth's treasures, al-ways com-pare."
+    },
+    {
+      "number": 2,
+      "text": "Stand by your con-vict-ions,the right and the wrong; Men of con-vic-tion the no-ble and strong; Trea-sured the tears that his striv-ing cost shed, Counts and pro-tects ev-'ry hair of your head; Look at your work as it worth-less it seems, And then be thank-ful for no-ble themes."
+    }
+  ],
+  "chorus": {
+    "text": "An-gels will has-ten to help you a-long; Dare to do right; Dare to be true; Dare to be true, Dare to be true."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyrighted, 1900, by F. E. Belden",
+    "themes": ["courage", "righteousness", "truth", "conviction", "divine help"],
+    "scripture_references": [],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

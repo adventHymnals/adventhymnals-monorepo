@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-504",
   "number": 504,
-  "title": "Hymn 504 (To be extracted)",
-  "author": null,
+  "title": "Let me go where'er she be",
+  "author": "Unknown",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "LET ME GO",
+  "meter": "8s & 7s. P.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Let me go where'er the going, To the mansions of the blest;\nLet me join the people's rest; I would gain the realms of light,\nLet me go, 'tis Jesus calls me, Let me go to the rest of day; I want to be away."
+    },
+    {
+      "number": 2,
+      "text": "Let me go where none are weary,\nWhere is raised no note of woe;\nLet me go and back not tarry;\nLet the rough angels know;\nLet me go where Jesus beckons,\nLures my soul away, away,\nAnd the Victor's song triumphant\nThrills my heart, I cannot stay."
+    },
+    {
+      "number": 3,
+      "text": "Let me go, why should I tarry?\nWhat has earth to bind me here?\nWhy should aught my spirit carry?\nWhat but death and pain and fear?\nLet me go, for hopes most cherished\nBlasted now often lie;\nHere I've gathered brightest flowers\nBut to see them fade and die."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["heavenly longing", "earthly weariness", "eternal rest", "death"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "LET ME GO",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

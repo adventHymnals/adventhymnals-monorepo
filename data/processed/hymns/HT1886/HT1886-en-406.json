@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-406",
   "number": 406,
-  "title": "Hymn 406 (To be extracted)",
-  "author": null,
+  "title": "Have Thine Own Way, Lord",
+  "author": "Adelaide Pollard",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Adelaide",
+  "meter": "5.4.8.5.4.8.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Have thine own way, Lord!\nHave thine own way!\nThou art the potter, I am the clay.\nMold me and make me\nAfter thy will,\nWhile I am waiting, yielded and still."
+    },
+    {
+      "number": 2,
+      "text": "Have thine own way, Lord!\nHave thine own way!\nSearch me and try me, Master, today!\nWhiter than snow, Lord,\nWash me just now,\nAs in thy presence humbly I bow."
+    },
+    {
+      "number": 3,
+      "text": "Have thine own way, Lord!\nHave thine own way!\nWounded and weary, help me, I pray!\nPower, all power,\nSurely is thine!\nTouch me and heal me, Savior divine!"
+    },
+    {
+      "number": 4,
+      "text": "Have thine own way, Lord!\nHave thine own way!\nHold o'er my being absolute sway!\nFill with thy Spirit\nTill all shall see\nChrist only, always, living in me!"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["surrender", "submission", "sanctification", "yielding"],
+    "scripture_references": ["Jeremiah 18:6", "Galatians 2:20"],
+    "tune_source": "George Stebbins",
+    "original_language": "en"
   }
 }

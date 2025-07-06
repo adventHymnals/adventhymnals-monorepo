@@ -1,0 +1,20 @@
+{
+  "id": "HT1876-en-293",
+  "number": 293,
+  "title": "Hark the glad sound! the Saviour comes",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "Hark the glad sound! the Saviour comes, The Saviour promised long; He comes to reign upon his throne; Lift up your joyful song."},
+    {"number": 2, "text": "Our glad Hosanna, Prince of Peace, Thine advent shall proclaim; And Heaven's eternal arches ring With thy beloved name."}
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["second coming", "joy", "praise", "triumph", "peace"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "C. M."
+  }
+}

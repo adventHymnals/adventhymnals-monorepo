@@ -1,25 +1,32 @@
 {
   "id": "HT1886-en-398",
   "number": 398,
-  "title": "Hymn 398 (To be extracted)",
-  "author": null,
+  "title": "Be Still, My Soul",
+  "author": "Katharina von Schlegel",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Finlandia",
+  "meter": "10.10.10.10.10.10.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Be still, my soul: the Lord is on thy side;\nBear patiently the cross of grief or pain;\nLeave to thy God to order and provide;\nIn every change he faithful will remain.\nBe still, my soul: thy best, thy heavenly Friend\nThrough thorny ways leads to a joyful end."
+    },
+    {
+      "number": 2,
+      "text": "Be still, my soul: thy God doth undertake\nTo guide the future as he has the past.\nThy hope, thy confidence let nothing shake;\nAll now mysterious shall be bright at last.\nBe still, my soul: the waves and winds still know\nHis voice who ruled them while he dwelt below."
+    },
+    {
+      "number": 3,
+      "text": "Be still, my soul: when dearest friends depart,\nAnd all is darkened in the vale of tears,\nThen shalt thou better know his love, his heart,\nWho comes to soothe thy sorrow and thy fears.\nBe still, my soul: thy Jesus can repay\nFrom his own fullness all he takes away."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["trust", "patience", "comfort", "God's faithfulness"],
+    "scripture_references": ["Psalm 46:10", "Romans 8:28"],
+    "tune_source": "Jean Sibelius",
+    "original_language": "de"
   }
 }

@@ -1,7 +1,7 @@
 {
   "id": "HT1886-en-416",
   "number": 416,
-  "title": "Hymn 416 (To be extracted)",
+  "title": "O Jesus! thou art standing",
   "author": null,
   "composer": null,
   "tune": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "O Jesus! thou art standing Outside the fast-closed door,\nIn lowly patience waiting To pass the threshold o'er:\nWe bear the name of Christians, Thy name and sign we bear;\nO, shame, thrice shame upon us! To keep thee standing there."
+    },
+    {
+      "number": 2,
+      "text": "O Jesus! thou art knocking; And lo! that hand is scarred,\nAnd thorns thy brow encircle, And tears thy face have marred:\nO, love that passeth knowledge, So patiently to wait!\nO, sin that hath no equal, So fast to bar the gate!"
+    },
+    {
+      "number": 3,
+      "text": "O Jesus! thou art pleading In accents meek and low,—\n\"I died for you, my children, And will ye treat me so?\"\nO Lord, with shame and sorrow We open now the door;\nDear Saviour, enter, enter, And leave us nevermore!"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["invitation", "Jesus knocking", "repentance"],
+    "scripture_references": ["Revelation 3:20"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

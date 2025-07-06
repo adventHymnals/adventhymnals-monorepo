@@ -1,7 +1,7 @@
 {
   "id": "HT1886-en-419",
   "number": 419,
-  "title": "Hymn 419 (To be extracted)",
+  "title": "Acquaint thyself quickly, O sinner, with God",
   "author": null,
   "composer": null,
   "tune": null,
@@ -10,16 +10,19 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Acquaint thyself quickly, O sinner, with God;\nAnd joy, like the sunshine, shall beam on thy road;\nAnd peace, like the dewdrop, shall fall on thy head;\nAnd sleep, like an angel, shall visit thy bed."
+    },
+    {
+      "number": 2,
+      "text": "Acquaint thyself quickly, O sinner, with God;\nAnd he shall be with thee when fears are abroad;\nThy Safeguard in danger that threatens thy path,\nThy joy in the valley and shadow of death."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["invitation", "peace", "God's protection"],
+    "scripture_references": ["Job 22:21"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

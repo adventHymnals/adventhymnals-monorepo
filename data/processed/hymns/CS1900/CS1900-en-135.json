@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-135",
+  "number": 135,
+  "title": "None of Self and All of Thee",
+  "author": "Rev. Theo. Monod",
+  "composer": "J. H. Fillmore",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O, the bit - ter pain and sor - row That a time could ev - er be,\nWhen I proud - ly said to Jesus, 'All of self, and none of thee;'\nAnd I grok - en, spit - it - ed, 'None of self and all of thee.'"
+    },
+    {
+      "number": 2,
+      "text": "Yet he found me; I beheld him Bleeding on th' accursed tree;\nAnd my wist - ful heart said faint - ly, 'Some of self and some of thee.'"
+    },
+    {
+      "number": 3,
+      "text": "Day by day his tender mercy, Healing, help - ing, full and free,\nSweet and strong, and ah! so patient, Brought me low - er while it whispered, 'Less of self and more of thee.'"
+    },
+    {
+      "number": 4,
+      "text": "High - er than the high - est heavens, Deep - er than the deep - est sea,\nLord, thy love at last has conquered: 'None of self and all of thee.'"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1874, by J. H. Fillmore.",
+    "themes": ["surrender", "self-denial", "Jesus", "spiritual growth"],
+    "scripture_references": [],
+    "tune_source": "J. H. Fillmore",
+    "original_language": "en"
+  }
+}

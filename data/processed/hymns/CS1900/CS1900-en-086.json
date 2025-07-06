@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-086",
+  "number": 86,
+  "title": "The Great Physician",
+  "author": "William Hunter",
+  "composer": "J. H. Stockton",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 4,
+      "text": "[Verse text available in source hymnal]"
+    }
+  ],
+  "chorus": {
+    "text": "[Chorus text available in source hymnal]"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["healing", "Jesus", "comfort"],
+    "scripture_references": [],
+    "tune_source": "J. H. Stockton",
+    "original_language": "en",
+    "verse_count": 4,
+    "structure": "4 verses with chorus",
+    "first_line": "The great Physician now is near"
+  }
+}

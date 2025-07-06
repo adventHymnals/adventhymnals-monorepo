@@ -1,0 +1,21 @@
+{
+  "id": "HT1876-en-227",
+  "number": 227,
+  "title": "The Lord is our Shepherd",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "The Lord is our Shepherd, our guardian and guide; Whatever we want, he will kindly provide; By th' streams of true pasture we sweetly reposed; His care and protection no harm shall disclose."},
+    {"number": 2, "text": "The Lord is our Shepherd; what then shall we fear? What evil can trouble us while he is near? Not if we are surrounded by wolves and by bears, His arms are almighty, our hearts never fail."},
+    {"number": 3, "text": "The Lord is become our salvation and song; His blessings have followed us all our life long; His mercy will ne'er again forsake our hearts; His Spirit and graces will never depart."}
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["shepherd", "guidance", "protection", "provision", "salvation", "mercy", "God's care"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "11s."
+  }
+}

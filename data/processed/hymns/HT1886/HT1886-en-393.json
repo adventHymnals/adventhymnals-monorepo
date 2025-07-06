@@ -1,25 +1,32 @@
 {
   "id": "HT1886-en-393",
   "number": 393,
-  "title": "Hymn 393 (To be extracted)",
-  "author": null,
+  "title": "What a Friend We Have in Jesus",
+  "author": "Joseph Scriven",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Converse",
+  "meter": "8.7.8.7.D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "What a friend we have in Jesus,\nAll our sins and griefs to bear!\nWhat a privilege to carry\nEverything to God in prayer!\nO what peace we often forfeit,\nO what needless pain we bear,\nAll because we do not carry\nEverything to God in prayer."
+    },
+    {
+      "number": 2,
+      "text": "Have we trials and temptations?\nIs there trouble anywhere?\nWe should never be discouraged;\nTake it to the Lord in prayer.\nCan we find a friend so faithful\nWho will all our sorrows share?\nJesus knows our every weakness;\nTake it to the Lord in prayer."
+    },
+    {
+      "number": 3,
+      "text": "Are we weak and heavy-laden,\nCumbered with a load of care?\nPrecious Savior, still our refuge,\nTake it to the Lord in prayer.\nDo thy friends despise, forsake thee?\nTake it to the Lord in prayer!\nIn his arms he'll take and shield thee;\nThou wilt find a solace there."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["friendship", "prayer", "comfort", "trust"],
+    "scripture_references": ["1 Peter 5:7", "Philippians 4:6-7"],
+    "tune_source": "Charles Converse",
+    "original_language": "en"
   }
 }

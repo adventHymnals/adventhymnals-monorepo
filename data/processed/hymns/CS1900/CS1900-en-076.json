@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-076",
+  "number": 76,
+  "title": "Almost Persuaded",
+  "author": "P. P. Bliss",
+  "composer": "P. P. Bliss",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Almost persuaded\" now to believe;\n\"Almost persuaded\" Christ to receive;\nSeems now some soul to say,\n\"Go, Spirit, go Thy way,\nSome more convenient day\nOn Thee I'll call.\""
+    },
+    {
+      "number": 2,
+      "text": "\"Almost persuaded,\" come, come today;\n\"Almost persuaded,\" turn not away;\nJesus invites you here,\nAngels are lingering near,\nPrayers rise from hearts so dear;\nO wanderer, come!"
+    },
+    {
+      "number": 3,
+      "text": "\"Almost persuaded,\" harvest is past!\n\"Almost persuaded,\" doom comes at last!\n\"Almost\" cannot avail;\n\"Almost\" is but to fail!\nSad, sad, that bitter wail—\n\"Almost—but lost!\""
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1893, by P. P. Bliss",
+    "themes": ["persuasion", "salvation", "urgency", "decision"],
+    "scripture_references": ["Acts 26:28"],
+    "tune_source": "P. P. Bliss",
+    "original_language": "en"
+  }
+}

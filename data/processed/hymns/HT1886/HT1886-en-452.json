@@ -1,25 +1,29 @@
 {
   "id": "HT1886-en-452",
   "number": 452,
-  "title": "Hymn 452 (To be extracted)",
-  "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "title": "My God, my God, to thee I cry",
+  "author": "Charles Wesley",
+  "composer": "Louis Spohr",
+  "tune": "JERUSALEM",
+  "meter": "C.M.D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "My God, my God, to thee I cry; Thee only would I know: Thy purifying blood apply, And wash me white as snow. Touch me, and make the leper clean; Purge mine iniquity: Unless thou wash my soul from sin, I have no part in thee."
+    },
+    {
+      "number": 2,
+      "text": "But art thou not already mine? Answer, if mine thou art; Whisper within, thou Love divine, And cheer my drooping heart. Behold for me the Victim bleeds, His wounds are open wide; For me the blood of sprinkling pleads, And speaks me justified."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["repentance", "acceptance", "purification", "justification", "Jesus Christ"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "Louis Spohr",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

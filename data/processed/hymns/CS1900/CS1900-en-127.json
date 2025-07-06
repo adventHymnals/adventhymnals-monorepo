@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-127",
+  "number": 127,
+  "title": "Safe in the Arms of Jesus",
+  "author": "Fanny J. Crosby",
+  "composer": "W. H. Doane",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Safe in the arms of Jesus, Safe on his gentle breast,\nThere by his love o'er-shaded, Sweet - ly my soul shall rest.\nHark! 'tis the voice of angels, Borne in a song to me,\nO - ver the fields of glory, O - ver the jasper sea."
+    },
+    {
+      "number": 2,
+      "text": "Safe in the arms of Jesus, Safe from corroding care,\nSafe from the world's temptations, Sin cannot harm me there.\nFree from the blight of sorrow, Free from my doubts and fears;\nOn - ly a few more trials, On - ly a few more tears."
+    },
+    {
+      "number": 3,
+      "text": "Je - sus, my heart's dear refuge, Jesus has died for me;\nFirm on the Rock of A - ges, Ev - er my trust shall be.\nHere let me wait with patience, Wait till the night is o'er,\nWait till I see the morning Break on the golden shore."
+    }
+  ],
+  "chorus": {
+    "text": "Safe in the arms of Jesus, Safe on his gentle breast,\nThere by his love o'er-shaded, Sweet - ly my soul shall rest."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1869, by W. H. Doane.",
+    "themes": ["safety", "comfort", "Jesus", "peace"],
+    "scripture_references": [],
+    "tune_source": "W. H. Doane",
+    "original_language": "en"
+  }
+}

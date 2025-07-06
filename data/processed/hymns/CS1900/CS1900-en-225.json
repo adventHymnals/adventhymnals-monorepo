@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-225",
+  "number": 225,
+  "title": "OUR KING",
+  "author": null,
+  "composer": "GEO. H. GABRIEL",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "OUR peerless king of glory, On his triumphant throne; We bring our songs before thee, We're by thy mercy known."
+    },
+    {
+      "number": 2,
+      "text": "We love to sing his praises And tell the stories bold, Of him who from dwelling In God's own fold."
+    },
+    {
+      "number": 3,
+      "text": "O Saviour blessed Saviour, Whose love is thy crown; We worship now before thee, While hosts thy feet bow down."
+    }
+  ],
+  "chorus": {
+    "text": "We sing, we sing The praise of our king; We sing, we sing The glo-ry of our king."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1900, by GEO. H. GABRIEL. Used by permission.",
+    "themes": ["praise", "worship", "king", "glory"],
+    "scripture_references": [],
+    "tune_source": "GEO. H. GABRIEL",
+    "original_language": "en"
+  }
+}

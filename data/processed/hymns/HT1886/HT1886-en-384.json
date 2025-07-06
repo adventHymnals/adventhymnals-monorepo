@@ -1,25 +1,40 @@
 {
   "id": "HT1886-en-384",
   "number": 384,
-  "title": "Hymn 384 (To be extracted)",
-  "author": null,
+  "title": "There Is a Fountain",
+  "author": "William Cowper",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Cowper",
+  "meter": "C.M.D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "There is a fountain filled with blood\nDrawn from Emmanuel's veins;\nAnd sinners, plunged beneath that flood,\nLose all their guilty stains.\nLose all their guilty stains,\nLose all their guilty stains;\nAnd sinners, plunged beneath that flood,\nLose all their guilty stains."
+    },
+    {
+      "number": 2,
+      "text": "The dying thief rejoiced to see\nThat fountain in his day;\nAnd there may I, though vile as he,\nWash all my sins away.\nWash all my sins away,\nWash all my sins away;\nAnd there may I, though vile as he,\nWash all my sins away."
+    },
+    {
+      "number": 3,
+      "text": "Dear dying Lamb, thy precious blood\nShall never lose its power,\nTill all the ransomed church of God\nBe saved, to sin no more.\nBe saved, to sin no more,\nBe saved, to sin no more;\nTill all the ransomed church of God\nBe saved, to sin no more."
+    },
+    {
+      "number": 4,
+      "text": "E'er since by faith I saw the stream\nThy flowing wounds supply,\nRedeeming love has been my theme,\nAnd shall be till I die.\nAnd shall be till I die,\nAnd shall be till I die;\nRedeeming love has been my theme,\nAnd shall be till I die."
+    },
+    {
+      "number": 5,
+      "text": "Then in a nobler, sweeter song\nI'll sing thy power to save,\nWhen this poor lisping, stammering tongue\nLies silent in the grave.\nLies silent in the grave,\nLies silent in the grave;\nWhen this poor lisping, stammering tongue\nLies silent in the grave."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["atonement", "salvation", "blood of Christ", "redemption"],
+    "scripture_references": ["Zechariah 13:1", "Luke 23:39-43"],
+    "tune_source": "Traditional",
+    "original_language": "en"
   }
 }

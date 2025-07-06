@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-085",
+  "number": 85,
+  "title": "Come Unto Me",
+  "author": null,
+  "composer": "Ira D. Sankey",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text available in source hymnal]"
+    }
+  ],
+  "chorus": {
+    "text": "[Chorus text available in source hymnal]"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["invitation", "rest", "comfort"],
+    "scripture_references": [],
+    "tune_source": "Ira D. Sankey",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "Come unto me, all ye who labor"
+  }
+}

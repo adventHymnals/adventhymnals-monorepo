@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { BookOpenIcon, GlobeAltIcon, MusicalNoteIcon, AcademicCapIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
+import HymnalCarousel from '@/components/ui/HymnalCarousel';
 import { loadHymnalReferences } from '@/lib/data';
 
 export const metadata: Metadata = {
@@ -40,6 +41,65 @@ const features = [
 
 export default async function HomePage() {
   const hymnalReferences = await loadHymnalReferences();
+
+  // Convert hymnal references to carousel format - get all hymnals from actual data
+  const allHymnals = Object.values(hymnalReferences.hymnals);
+  
+  // Create featured hymnals with colors
+  const featuredHymnals = allHymnals.map((hymnal, index) => {
+    const colorSchemes = [
+      {
+        gradient: 'from-blue-600 to-indigo-700',
+        text: 'text-blue-50',
+        button: 'bg-blue-500 hover:bg-blue-600 text-white',
+        searchBg: 'bg-blue-50 border-blue-200 focus:border-blue-400',
+      },
+      {
+        gradient: 'from-emerald-600 to-teal-700',
+        text: 'text-emerald-50',
+        button: 'bg-emerald-500 hover:bg-emerald-600 text-white',
+        searchBg: 'bg-emerald-50 border-emerald-200 focus:border-emerald-400',
+      },
+      {
+        gradient: 'from-orange-600 to-red-700',
+        text: 'text-orange-50',
+        button: 'bg-orange-500 hover:bg-orange-600 text-white',
+        searchBg: 'bg-orange-50 border-orange-200 focus:border-orange-400',
+      },
+      {
+        gradient: 'from-purple-600 to-violet-700',
+        text: 'text-purple-50',
+        button: 'bg-purple-500 hover:bg-purple-600 text-white',
+        searchBg: 'bg-purple-50 border-purple-200 focus:border-purple-400',
+      },
+      {
+        gradient: 'from-pink-600 to-rose-700',
+        text: 'text-pink-50',
+        button: 'bg-pink-500 hover:bg-pink-600 text-white',
+        searchBg: 'bg-pink-50 border-pink-200 focus:border-pink-400',
+      },
+      {
+        gradient: 'from-cyan-600 to-blue-700',
+        text: 'text-cyan-50',
+        button: 'bg-cyan-500 hover:bg-cyan-600 text-white',
+        searchBg: 'bg-cyan-50 border-cyan-200 focus:border-cyan-400',
+      },
+    ];
+
+    const colorScheme = colorSchemes[index % colorSchemes.length];
+
+    return {
+      id: hymnal.id,
+      name: hymnal.site_name || hymnal.name,
+      year: hymnal.year,
+      songs: hymnal.total_songs,
+      language: hymnal.language_name,
+      description: `A collection of ${hymnal.total_songs} hymns from ${hymnal.year}`,
+      href: `/${hymnal.url_slug}`,
+      featured: true,
+      colors: colorScheme,
+    };
+  });
 
   return (
     <Layout hymnalReferences={hymnalReferences}>
@@ -86,106 +146,8 @@ export default async function HomePage() {
               Discover our most popular and historically significant hymnal collections
             </p>
           </div>
-          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {/* Static featured hymnals for now */}
-            <div className="relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-blue-600 to-indigo-700">
-              <div className="relative p-8 h-full flex flex-col">
-                <div className="flex items-center justify-between mb-6">
-                  <div className="text-2xl font-bold text-blue-50 bg-white/20 rounded-lg px-3 py-1">
-                    1985
-                  </div>
-                  <div className="text-sm text-blue-50 bg-white/20 rounded-lg px-3 py-1">
-                    695 hymns
-                  </div>
-                </div>
-                <div className="flex-grow">
-                  <h3 className="text-xl font-bold text-blue-50 mb-2">
-                    Seventh-day Adventist Hymnal
-                  </h3>
-                  <p className="text-sm text-blue-50 mb-4 opacity-90">
-                    English
-                  </p>
-                  <p className="text-blue-50 opacity-80 mb-6">
-                    The current official hymnal of the Seventh-day Adventist Church
-                  </p>
-                </div>
-                <div className="mt-auto">
-                  <Link
-                    href="/seventh-day-adventist-hymnal"
-                    className="inline-flex items-center justify-center w-full px-6 py-3 rounded-lg font-medium bg-blue-500 hover:bg-blue-600 text-white transition-colors duration-200"
-                  >
-                    <BookOpenIcon className="h-5 w-5 mr-2" />
-                    Explore Collection
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-emerald-600 to-teal-700">
-              <div className="relative p-8 h-full flex flex-col">
-                <div className="flex items-center justify-between mb-6">
-                  <div className="text-2xl font-bold text-emerald-50 bg-white/20 rounded-lg px-3 py-1">
-                    1908
-                  </div>
-                  <div className="text-sm text-emerald-50 bg-white/20 rounded-lg px-3 py-1">
-                    949 hymns
-                  </div>
-                </div>
-                <div className="flex-grow">
-                  <h3 className="text-xl font-bold text-emerald-50 mb-2">
-                    Christ in Song
-                  </h3>
-                  <p className="text-sm text-emerald-50 mb-4 opacity-90">
-                    English
-                  </p>
-                  <p className="text-emerald-50 opacity-80 mb-6">
-                    F.E. Belden&apos;s comprehensive collection of early Adventist hymns
-                  </p>
-                </div>
-                <div className="mt-auto">
-                  <Link
-                    href="/christ-in-song"
-                    className="inline-flex items-center justify-center w-full px-6 py-3 rounded-lg font-medium bg-emerald-500 hover:bg-emerald-600 text-white transition-colors duration-200"
-                  >
-                    <BookOpenIcon className="h-5 w-5 mr-2" />
-                    Explore Collection
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-orange-600 to-red-700">
-              <div className="relative p-8 h-full flex flex-col">
-                <div className="flex items-center justify-between mb-6">
-                  <div className="text-2xl font-bold text-orange-50 bg-white/20 rounded-lg px-3 py-1">
-                    1944
-                  </div>
-                  <div className="text-sm text-orange-50 bg-white/20 rounded-lg px-3 py-1">
-                    220 hymns
-                  </div>
-                </div>
-                <div className="flex-grow">
-                  <h3 className="text-xl font-bold text-orange-50 mb-2">
-                    Nyimbo za Kristo
-                  </h3>
-                  <p className="text-sm text-orange-50 mb-4 opacity-90">
-                    Kiswahili
-                  </p>
-                  <p className="text-orange-50 opacity-80 mb-6">
-                    The Kiswahili hymnal for East African Adventist congregations
-                  </p>
-                </div>
-                <div className="mt-auto">
-                  <Link
-                    href="/nyimbo-za-kristo"
-                    className="inline-flex items-center justify-center w-full px-6 py-3 rounded-lg font-medium bg-orange-500 hover:bg-orange-600 text-white transition-colors duration-200"
-                  >
-                    <BookOpenIcon className="h-5 w-5 mr-2" />
-                    Explore Collection
-                  </Link>
-                </div>
-              </div>
-            </div>
+          <div className="mx-auto mt-16 sm:mt-20">
+            <HymnalCarousel hymnals={featuredHymnals} />
           </div>
         </div>
       </div>

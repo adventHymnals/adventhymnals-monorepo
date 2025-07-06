@@ -1,0 +1,24 @@
+{
+  "id": "HT1876-en-132",
+  "number": 132,
+  "title": "Faith",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "By faith I see the day, That ends my woe, When I shall yield my gain O'er all my loss."},
+    {"number": 2, "text": "In the thick clouds of light, By faith I see A crown of glory bright, Prepared for me."},
+    {"number": 3, "text": "Oh! let me now behold That happy day, When sorrow, sin, and pain Shall flee away!"},
+    {"number": 4, "text": "Oh! let me now behold The prize in view! And through the storms of life My way pursue."},
+    {"number": 5, "text": "Jesus, thou art my guide; Oh! steps attend, And keep me near thy side, Be thou my friend."},
+    {"number": 6, "text": "Be thou my shield and sun, Be thou my guard! And, when my work is done, My great reward."}
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["faith", "hope", "Jesus", "eternal life", "perseverance"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "6s & 4s"
+  }
+}

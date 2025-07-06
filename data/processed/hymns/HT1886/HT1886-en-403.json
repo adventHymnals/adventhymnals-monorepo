@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-403",
   "number": 403,
-  "title": "Hymn 403 (To be extracted)",
-  "author": null,
+  "title": "Holy, Holy, Holy",
+  "author": "Reginald Heber",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Nicaea",
+  "meter": "11.12.12.10.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Holy, holy, holy! Lord God Almighty!\nEarly in the morning our song shall rise to thee;\nHoly, holy, holy! merciful and mighty!\nGod in three persons, blessed Trinity!"
+    },
+    {
+      "number": 2,
+      "text": "Holy, holy, holy! all the saints adore thee,\nCasting down their golden crowns around the glassy sea;\nCherubim and seraphim falling down before thee,\nWho wert, and art, and evermore shalt be."
+    },
+    {
+      "number": 3,
+      "text": "Holy, holy, holy! though the darkness hide thee,\nThough the eye of sinful man thy glory may not see,\nOnly thou art holy; there is none beside thee\nPerfect in power, in love, and purity."
+    },
+    {
+      "number": 4,
+      "text": "Holy, holy, holy! Lord God Almighty!\nAll thy works shall praise thy name in earth and sky and sea;\nHoly, holy, holy! merciful and mighty!\nGod in three persons, blessed Trinity!"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["holiness", "Trinity", "worship", "adoration"],
+    "scripture_references": ["Revelation 4:8", "Isaiah 6:3"],
+    "tune_source": "John Dykes",
+    "original_language": "en"
   }
 }

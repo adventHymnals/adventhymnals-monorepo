@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-089",
+  "number": 89,
+  "title": "Only Trust Him",
+  "author": "J. H. Stockton",
+  "composer": "J. H. Stockton",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 4,
+      "text": "[Verse text available in source hymnal]"
+    }
+  ],
+  "chorus": {
+    "text": "[Chorus text available in source hymnal]"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "By permission of John J. Hood",
+    "themes": ["trust", "salvation", "faith"],
+    "scripture_references": [],
+    "tune_source": "J. H. Stockton",
+    "original_language": "en",
+    "verse_count": 4,
+    "structure": "4 verses with chorus",
+    "first_line": "Come, every soul by sin oppressed"
+  }
+}

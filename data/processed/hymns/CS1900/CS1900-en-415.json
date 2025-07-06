@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-415",
+  "number": 415,
+  "title": "Moment by Moment",
+  "author": null,
+  "composer": "J. R. Sartain",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Moment by moment, I'm kept in His love; Moment by moment, I've life from above, Looking to Jesus till glory doth shine; Moment by moment, O Lord, I am thine."
+    },
+    {
+      "number": 2,
+      "text": "Why for the bless-ing as-sus-ing thou? Answer ye at - so, sweet is thy toil; Why should his pre-sence so strangely con-found? What is the ask-ing, the fire? Why shall thy pre-sence so strangely con-found? What is the ask-ing, the fire?"
+    },
+    {
+      "number": 3,
+      "text": "Why should his pre-sence so strangely con-found? What is the ask-ing, the fire, Why shall thy pre-sence so strangely con-found? What is the ask-ing, the fire?"
+    }
+  ],
+  "chorus": {
+    "text": "Moment by moment, I'm kept in His love; Moment by moment, Helper is He; Moment by moment, I'm kept in His love; Moment by moment, I'm kept in His love."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1896, by J. R. Sartain.",
+    "themes": ["constant care", "God's love", "moment by moment"],
+    "scripture_references": [],
+    "tune_source": "J. R. Sartain",
+    "original_language": "en"
+  }
+}

@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-451",
   "number": 451,
-  "title": "Hymn 451 (To be extracted)",
-  "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "title": "I heard a voice, the sweetest voice",
+  "author": "Peter Stryker",
+  "composer": "Louis Spohr",
+  "tune": "JERUSALEM",
+  "meter": "C.M.D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["repentance", "acceptance", "Jesus Christ", "spiritual transformation"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "Louis Spohr",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

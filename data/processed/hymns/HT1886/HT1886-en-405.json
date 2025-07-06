@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-405",
   "number": 405,
-  "title": "Hymn 405 (To be extracted)",
-  "author": null,
+  "title": "Trust and Obey",
+  "author": "John Sammis",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Trust and Obey",
+  "meter": "6.6.9.D. with Refrain",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "When we walk with the Lord\nIn the light of his word,\nWhat a glory he sheds on our way!\nWhile we do his good will,\nHe abides with us still,\nAnd with all who will trust and obey.\nTrust and obey,\nFor there's no other way\nTo be happy in Jesus,\nBut to trust and obey."
+    },
+    {
+      "number": 2,
+      "text": "Not a shadow can rise,\nNot a cloud in the skies,\nBut his smile quickly drives it away;\nNot a doubt or a fear,\nNot a sigh or a tear,\nCan abide while we trust and obey.\nTrust and obey,\nFor there's no other way\nTo be happy in Jesus,\nBut to trust and obey."
+    },
+    {
+      "number": 3,
+      "text": "Not a burden we bear,\nNot a sorrow we share,\nBut our toil he doth richly repay;\nNot a grief or a loss,\nNot a frown or a cross,\nBut is blest if we trust and obey.\nTrust and obey,\nFor there's no other way\nTo be happy in Jesus,\nBut to trust and obey."
+    },
+    {
+      "number": 4,
+      "text": "But we never can prove\nThe delights of his love\nUntil all on the altar we lay;\nFor the favor he shows,\nAnd the joy he bestows,\nAre for them who will trust and obey.\nTrust and obey,\nFor there's no other way\nTo be happy in Jesus,\nBut to trust and obey."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["trust", "obedience", "discipleship", "happiness"],
+    "scripture_references": ["John 14:15", "1 Samuel 15:22"],
+    "tune_source": "Daniel Towner",
+    "original_language": "en"
   }
 }

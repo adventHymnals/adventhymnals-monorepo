@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-229",
+  "number": 229,
+  "title": "OUR SUREST STAY",
+  "author": "I. WATTS",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How soft - ly falls the twi - light hour, Our rest, and peace, and love; When earth - ly cares and toils are done, And hearts to heav - en move."
+    },
+    {
+      "number": 2,
+      "text": "We think of God at such an hour, With feel - ings pure and true; And sleep with rest - wing blest of heart, That love so warm and true."
+    },
+    {
+      "number": 3,
+      "text": "The heart that once was hard with sin, Is changed to love and joy; How sweet to know that up - ward is our blessed portion."
+    },
+    {
+      "number": 4,
+      "text": "A few more days of sin and woe, Are numbered for us here; But joy awaits us in the day When Jesus shall appear."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["rest", "peace", "prayer", "evening"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

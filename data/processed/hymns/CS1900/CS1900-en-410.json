@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-410",
+  "number": 410,
+  "title": "We'll Live in Tents",
+  "author": null,
+  "composer": "H. R. Palmer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Let him his people on the earth, declare plainly that they seek a country.\nLet him his people on the earth, declare plainly that they seek a country.\nLet them who here do dwell, say unto all the strangers, say unto all the strangers, From whence they come."
+    },
+    {
+      "number": 2,
+      "text": "He shows us year by stately towers, Sink up from dark tom walls of stone, But crisp each night a few short hours, And rise beneath the golden moon. But ere the sun hath set, The golden gates are open wide, And through the blessed way we set, With Him to ever more abide."
+    },
+    {
+      "number": 3,
+      "text": "O brother, where to ye dwell, Our Father built for us a home, Where nought his blessed ones befell, Where want and woe can never come."
+    }
+  ],
+  "chorus": {
+    "text": "Bright-ly, Like far-bound trav-el-ers on light, We'll live in tents, we'll live in tents, Shall reach the land, This crown shall bless us in the tent, we'll live in tents."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1896, by H. R. Palmer. Used by permission.",
+    "themes": ["pilgrimage", "heaven", "temporary earthly dwelling"],
+    "scripture_references": ["Hebrews 11:13-14"],
+    "tune_source": "H. R. Palmer",
+    "original_language": "en"
+  }
+}

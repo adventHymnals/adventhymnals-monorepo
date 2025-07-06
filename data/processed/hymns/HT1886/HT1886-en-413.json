@@ -1,7 +1,7 @@
 {
   "id": "HT1886-en-413",
   "number": 413,
-  "title": "Hymn 413 (To be extracted)",
+  "title": "Come, ye souls by sin afflicted",
   "author": null,
   "composer": null,
   "tune": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Come, ye souls by sin afflicted,\nBowed with fruitless sorrow down;\nBy the broken law convicted,\nThrough the cross behold the crown;\nLook to Jesus;\nMercy flows through him alone."
+    },
+    {
+      "number": 2,
+      "text": "Take his easy yoke and wear it;\nLove will make obedience sweet;\nChrist will give you strength to bear it,\nWhile his wisdom guides your feet\nSafe to glory,\nWhere his ransomed captives meet."
+    },
+    {
+      "number": 3,
+      "text": "Sweet as home to pilgrims weary,\nLight to newly opened eyes,\nOr full spring in deserts dreary,\nIs the rest the cross supplies;\nAll who taste it\nShall to rest immortal rise."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["invitation", "salvation", "cross"],
+    "scripture_references": ["Matthew 11:28-30"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

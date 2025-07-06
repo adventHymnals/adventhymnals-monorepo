@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-236",
+  "number": 236,
+  "title": "JESUS, LOVER OF MY SOUL",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, lover of my soul, Let me to thy bosom fly, While the nearer waters roll, While the tempest still is high."
+    },
+    {
+      "number": 2,
+      "text": "Other refuge have I none, Hangs my helpless soul on thee; Leave, ah! leave me not alone, Still support and comfort me."
+    },
+    {
+      "number": 3,
+      "text": "Thou, O Christ, art all I want, More than all in thee I find: Raise the fallen, cheer the faint, Heal the sick, and lead the blind."
+    },
+    {
+      "number": 4,
+      "text": "Plenteous grace with thee is found, Grace to cover all my sin; Let the healing streams abound, Make and keep me pure within."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["jesus", "refuge", "soul", "grace"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

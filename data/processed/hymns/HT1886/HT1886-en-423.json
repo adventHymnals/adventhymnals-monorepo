@@ -1,25 +1,40 @@
 {
   "id": "HT1886-en-423",
   "number": 423,
-  "title": "Hymn 423 (To be extracted)",
+  "title": "Ah! guilty sinner, ruined by transgression",
   "author": null,
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Warning",
+  "meter": "P. M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Ah! guilty sinner, ruined by transgression, What will thy doom be when arrayed in terror\nGod shall command thee, covered with pollution, \"Up to the judgment, up to the judgment!\""
+    },
+    {
+      "number": 2,
+      "text": "Oft he has called thee, but thou wouldst not hear him;\nMercies and judgments have alike been slighted;\nYet with arms unfolded Waits to embrace you."
+    },
+    {
+      "number": 3,
+      "text": "But if you trifle with his gracious message, Cleave to the world, and live for guilty pleasures,\nMercy, grown weary, will in righteous judgment Leave you forever."
+    },
+    {
+      "number": 4,
+      "text": "Then you shall call, but he will not regard you;\nSeek for his favor, yet will never find it;\nCry to the rocks to hide you from his presence Deep in their caverns."
+    },
+    {
+      "number": 5,
+      "text": "O! guilty sinner, hear the voice of warning;\nFly to the Saviour, and embrace thy pardon;\nSo shall you meet him, and with joy triumphant, Coming to judgment."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["warning", "judgment", "repentance"],
+    "scripture_references": ["Proverbs 1:24-28", "Luke 13:25"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

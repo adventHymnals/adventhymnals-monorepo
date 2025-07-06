@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-092",
+  "number": 92,
+  "title": "Weary Of Earth",
+  "author": "Samuel Francis Smith",
+  "composer": "John Larkin",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 4,
+      "text": "[Verse text available in source hymnal]"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["weariness", "longing", "heaven"],
+    "scripture_references": [],
+    "tune_source": "John Larkin",
+    "original_language": "en",
+    "verse_count": 4,
+    "structure": "4 verses, no chorus",
+    "first_line": "Weary of earth, and laden with my sin"
+  }
+}

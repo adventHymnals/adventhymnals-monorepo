@@ -1,7 +1,7 @@
 {
   "id": "HT1886-en-433",
   "number": 433,
-  "title": "Hymn 433 (To be extracted)",
+  "title": "Awaked from sin's delusive sleep",
   "author": null,
   "composer": null,
   "tune": null,
@@ -10,16 +10,24 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Awaked from sin's delusive sleep, My heavy guilt I feel, and cry; Beneath a weight of woes oppressed, I come to Jesus, Lord, for ease."
+    },
+    {
+      "number": 2,
+      "text": "Now, from my throne of grace above, Look down upon my soul in love; That smile shall sweeten all my pain, And make my soul rejoice again."
+    },
+    {
+      "number": 3,
+      "text": "Be it a divine, transforming power, My ruined nature to restore; And let my life and temper shine, In blest resemblance, Lord, to thine."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["awakening", "guilt", "grace", "transformation", "restoration"],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

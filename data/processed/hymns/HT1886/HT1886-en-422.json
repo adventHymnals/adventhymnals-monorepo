@@ -1,8 +1,8 @@
 {
   "id": "HT1886-en-422",
   "number": 422,
-  "title": "Hymn 422 (To be extracted)",
-  "author": null,
+  "title": "Child of sin and sorrow",
+  "author": "Thomas Hastings",
   "composer": null,
   "tune": null,
   "meter": null,
@@ -10,16 +10,15 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Child of sin and sorrow, Where wilt thou flee\nThrough the long to-morrow,—Eternity?"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["warning", "eternity", "repentance"],
+    "scripture_references": ["Hebrews 2:3"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

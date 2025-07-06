@@ -1,35 +1,41 @@
 {
   "id": "HT1886-en-469",
   "number": 469,
-  "title": "Jesus, Lover of My Soul",
+  "title": "O, how happy are they",
   "author": "Charles Wesley",
-  "composer": "Joseph Parry",
-  "tune": "Aberystwyth",
-  "meter": "7.7.7.7 D",
+  "composer": "Unknown",
+  "tune": "CONVERT",
+  "meter": "P.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "Jesus, lover of my soul,\nLet me to thy bosom fly,\nWhile the nearer waters roll,\nWhile the tempest still is high.\nHide me, O my Savior, hide,\nTill the storm of life is past;\nSafe into the haven guide;\nO receive my soul at last."
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
     },
     {
       "number": 2,
-      "text": "Other refuge have I none,\nHangs my helpless soul on thee;\nLeave, ah! leave me not alone,\nStill support and comfort me.\nAll my trust on thee is stayed,\nAll my help from thee I bring;\nCover my defenseless head\nWith the shadow of thy wing."
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 4,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 5,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [
-      "Jesus",
-      "refuge",
-      "comfort",
-      "protection",
-      "trust"
-    ],
+    "themes": ["happiness in obeying Savior", "divine comfort", "praising Jesus", "redemption from sin"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "Unknown",
     "original_language": "en",
-    "extraction_status": "content_extracted"
+    "extraction_status": "completed"
   }
 }

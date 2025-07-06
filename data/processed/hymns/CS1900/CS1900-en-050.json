@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-050",
+  "number": 50,
+  "title": "There's Room for You to Anchor",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I hear the gentle Saviour's call: Come weary pilgrim, hither: The ship is waiting now,—the ship of God's great love,— Enter and take shelter."
+    },
+    {
+      "number": 2,
+      "text": "There's room for you to anchor In the same quiet haven. That ship of God's great love will Never drift a-way. Come and be forgiven."
+    },
+    {
+      "number": 3,
+      "text": "And when the morning breaketh And the stars shall vanish away; The pre-cious promise still, Yet His love shall come to bless! Ye lone-ly, come to Jesus; For rest shall come."
+    }
+  ],
+  "chorus": {
+    "text": "There's room for you to anchor Safe in harbor; There's room (there's room for you), there's room for you: Safe and low, Safe and true."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1900, by F. E. Belden",
+    "themes": ["salvation", "refuge", "haven", "rest", "God's love", "shelter"],
+    "scripture_references": [],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

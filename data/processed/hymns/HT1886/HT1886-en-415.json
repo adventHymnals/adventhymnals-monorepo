@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-415",
   "number": 415,
-  "title": "Hymn 415 (To be extracted)",
-  "author": null,
+  "title": "O, Comfort to the deary!",
+  "author": "Samuel S. Wesley",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Aurelia",
+  "meter": "7s & 6s, D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "O, Comfort to the deary! O, Joy to the oppressed!\n\"Come unto Me, ye weary, And I will give you rest.\"\nO, come with all your weakness, Come with your load of woe;\nAnd learn of him with meekness All righteousness to know."
+    },
+    {
+      "number": 2,
+      "text": "Enslaved of foolish error, Worn out by doubt and pain,\nReapers of doubt and terror, Come, cast away your chains!\nRepentance the superstition And turn from vain tradition\nTo His redeeming word."
+    },
+    {
+      "number": 3,
+      "text": "Ye who the world have courted, And suffered from its spite;\nYe who with sin have sported, And felt its serpent bite;\nCome, learn, your follies quitting, That souls self-gain is loss;\nTo Christ's light yoke submitting, Come, and take up the cross."
+    },
+    {
+      "number": 4,
+      "text": "O come, and make the trial; Christ's service is release;\nIf hard the self-denial, Its fruit is joy and peace.\nHis word your faith defending, Shall nerve you for the strife;\nPeace all your steps attending; The prize,—eternal life!"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["comfort", "invitation", "rest"],
+    "scripture_references": ["Matthew 11:28"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

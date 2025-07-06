@@ -3,9 +3,9 @@
   "number": 468,
   "title": "Take my heart, O Father, take it",
   "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "composer": "James Langran",
+  "tune": "DEERHURST",
+  "meter": "8s & 7s, D",
   "language": "en",
   "verses": [
     {
@@ -22,7 +22,8 @@
     "copyright": "Public Domain",
     "themes": ["consecration", "heart", "surrender"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "James Langran",
+    "extraction_status": "completed",
     "original_language": "en"
   }
 }

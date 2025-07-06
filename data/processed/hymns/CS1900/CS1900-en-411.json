@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-411",
+  "number": 411,
+  "title": "O Where Are the Reapers?",
+  "author": "Eliza E. Hewitt",
+  "composer": "John R. Sweney",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O where are the reapers that garner in, The sheaves of the good from the fields of sin? With sickles of truth must the work be done, And no one may rest till the 'harvest home.'"
+    },
+    {
+      "number": 2,
+      "text": "Go out in the highways and search them all, The wheat may be there though the weeds are tall; Then search in the hedges, and pass none by, But gather from all for the home on high."
+    },
+    {
+      "number": 3,
+      "text": "The fields all are rip'ning, and far and wide The world now is wait-ing the har-vest-tide, But reap-ers are few and the work is great, And much will be lost should the harvest wait."
+    }
+  ],
+  "chorus": {
+    "text": "Where are the reapers? O who will come And share in the glory of the 'har-vest home'? O who will help us to gar-ner in The sheaves of good from the fields of sin?"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright property of John R. Sweney.",
+    "themes": ["harvest", "evangelism", "missions", "workers needed"],
+    "scripture_references": ["Matthew 9:37-38", "Luke 10:2"],
+    "tune_source": "John R. Sweney",
+    "original_language": "en"
+  }
+}

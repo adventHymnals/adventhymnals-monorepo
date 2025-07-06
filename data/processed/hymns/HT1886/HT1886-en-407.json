@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-407",
   "number": 407,
-  "title": "Hymn 407 (To be extracted)",
-  "author": null,
+  "title": "Softly and Tenderly",
+  "author": "Will Thompson",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Thompson",
+  "meter": "11.7.11.7. with Refrain",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Softly and tenderly Jesus is calling,\nCalling for you and for me;\nSee, on the portals he's waiting and watching,\nWatching for you and for me.\nCome home, come home,\nYe who are weary, come home;\nEarnestly, tenderly, Jesus is calling,\nCalling, O sinner, come home!"
+    },
+    {
+      "number": 2,
+      "text": "Why should we tarry when Jesus is pleading,\nPleading for you and for me?\nWhy should we linger and heed not his mercies,\nMercies for you and for me?\nCome home, come home,\nYe who are weary, come home;\nEarnestly, tenderly, Jesus is calling,\nCalling, O sinner, come home!"
+    },
+    {
+      "number": 3,
+      "text": "Time is now fleeting, the moments are passing,\nPassing from you and from me;\nShadows are gathering, deathbeds are coming,\nComing for you and for me.\nCome home, come home,\nYe who are weary, come home;\nEarnestly, tenderly, Jesus is calling,\nCalling, O sinner, come home!"
+    },
+    {
+      "number": 4,
+      "text": "O for the wonderful love he has promised,\nPromised for you and for me!\nThough we have sinned, he has mercy and pardon,\nPardon for you and for me.\nCome home, come home,\nYe who are weary, come home;\nEarnestly, tenderly, Jesus is calling,\nCalling, O sinner, come home!"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["invitation", "calling", "mercy", "homecoming"],
+    "scripture_references": ["Matthew 11:28", "Luke 15:20"],
+    "tune_source": "Will Thompson",
+    "original_language": "en"
   }
 }

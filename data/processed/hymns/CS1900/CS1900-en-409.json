@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-409",
+  "number": 409,
+  "title": "Silent Messengers",
+  "author": "Thomas Hastings",
+  "composer": "J. P. Holbrook",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Go ye into the world, and preach the gospel to every creature.\nGo! bid the world in sin and shame, That blind world wake up and see!\nBid them the word of God regard; What form and beauty from its face! Bid them the word of God regard."
+    },
+    {
+      "number": 2,
+      "text": "Go bid the world in sin and shame, That blind world wake up and see!\nBid them the word of God regard; What form and beauty from its face!\nBid them the word of God regard."
+    },
+    {
+      "number": 3,
+      "text": "Go bid the world in sin and shame, That blind world wake up and see!\nBid them the word of God regard; What form and beauty from its face!\nBid them the word of God regard."
+    }
+  ],
+  "chorus": {
+    "text": "Si- lent mes- sen- gers, on ye forth,\nSilent mes- sen- gers, on ye forth;\nFrom o- cean to o- cean, from South to North, Send of the Word, O hath not return- ed vain."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1896, by J. P. Holbrook",
+    "themes": ["evangelism", "missions", "spreading the gospel"],
+    "scripture_references": ["Mark 16:15"],
+    "tune_source": "J. P. Holbrook",
+    "original_language": "en"
+  }
+}

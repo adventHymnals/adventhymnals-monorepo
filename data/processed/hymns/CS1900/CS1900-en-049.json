@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-049",
+  "number": 49,
+  "title": "Take Me As I Am",
+  "author": "Eliza H. Hamilton",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "He took my Lord, to thee I cry,— In darkness, help me, I must die; O blessed One who for the lost and found me, Saviour, at thy feet. Thy grace my soul, my heart has bound; Thy work be-gun, thy Thou canst reach with all that will make me clean."
+    },
+    {
+      "number": 2,
+      "text": "Thou only, and thou only, canst heal my sin-sick, my soul save; Yet come complete, and take me as I am; Take me as I am; Just as I am; And take me as I am; Lord, take me as I am."
+    }
+  ],
+  "chorus": {
+    "text": "Take me as I am, Lord, Take me as I am. Just as I am."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1900, by F. E. Belden",
+    "themes": ["salvation", "surrender", "grace", "Saviour", "healing"],
+    "scripture_references": [],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-401",
   "number": 401,
-  "title": "Hymn 401 (To be extracted)",
-  "author": null,
+  "title": "Love Divine, All Loves Excelling",
+  "author": "Charles Wesley",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Beecher",
+  "meter": "8.7.8.7.D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Love divine, all loves excelling,\nJoy of heaven, to earth come down;\nFix in us thy humble dwelling,\nAll thy faithful mercies crown.\nJesus, thou art all compassion,\nPure, unbounded love thou art;\nVisit us with thy salvation,\nEnter every trembling heart."
+    },
+    {
+      "number": 2,
+      "text": "Breathe, O breathe thy loving Spirit\nInto every troubled breast;\nLet us all in thee inherit,\nLet us find the promised rest.\nTake away the love of sinning,\nAlpha and Omega be;\nEnd of faith, as its beginning,\nSet our hearts at liberty."
+    },
+    {
+      "number": 3,
+      "text": "Come, Almighty to deliver,\nLet us all thy life receive;\nSudden return, and never,\nNever more thy temples leave.\nThee we would be always blessing,\nServe thee as thy hosts above,\nPray, and praise thee without ceasing,\nGlory in thy perfect love."
+    },
+    {
+      "number": 4,
+      "text": "Finish then thy new creation,\nPure and spotless let us be;\nLet us see thy great salvation\nPerfectly restored in thee.\nChanged from glory into glory,\nTill in heaven we take our place,\nTill we cast our crowns before thee,\nLost in wonder, love, and praise."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["love", "sanctification", "worship", "glory"],
+    "scripture_references": ["1 John 4:19", "2 Corinthians 3:18"],
+    "tune_source": "John Zundel",
+    "original_language": "en"
   }
 }

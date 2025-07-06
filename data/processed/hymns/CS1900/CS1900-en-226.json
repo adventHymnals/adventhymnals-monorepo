@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-226",
+  "number": 226,
+  "title": "CROWN HIM LORD OF ALL",
+  "author": "EDWARD PERRONET",
+  "composer": "OLIVER HOLDEN",
+  "tune": "CORONATION",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All hail the pow'r of Jesus' name! Let angels prostrate fall; Bring forth the royal diadem, And crown him Lord of all."
+    },
+    {
+      "number": 2,
+      "text": "Crown him, ye morning stars of light, Who fixed this floating ball; King from his roy - al di - a - dem, And crown him Lord of all."
+    },
+    {
+      "number": 3,
+      "text": "Crown him, ye martyrs of your God, Who from his altar call; Extol the stem of Jesse's rod, And crown him Lord of all."
+    },
+    {
+      "number": 4,
+      "text": "Let every kindred, every tribe, On this terrestrial ball, To him all majesty ascribe, And crown him Lord of all."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["praise", "worship", "jesus", "crown", "lord"],
+    "scripture_references": [],
+    "tune_source": "OLIVER HOLDEN",
+    "original_language": "en"
+  }
+}

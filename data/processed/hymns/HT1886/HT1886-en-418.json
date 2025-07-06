@@ -1,7 +1,7 @@
 {
   "id": "HT1886-en-418",
   "number": 418,
-  "title": "Hymn 418 (To be extracted)",
+  "title": "Delay not, delay not, O sinner, draw near",
   "author": null,
   "composer": null,
   "tune": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Delay not, delay not, O sinner, draw near,\nThe waters of life are now flowing for thee;\nNo price is demanded, the Saviour is here,\nRedemption is purchased, salvation is free."
+    },
+    {
+      "number": 2,
+      "text": "Delay not, delay not, why longer abuse\nThe love and compassion of Jesus, thy God?\nA fountain is open; how canst thou refuse\nTo wash and be cleansed in his pardoning blood?"
+    },
+    {
+      "number": 3,
+      "text": "Delay not, delay not, O sinner, to come;\nFor Mercy still lingers, and calls thee to-day:\nHer voice is not heard in the vale of the tomb;\nHer message unheeded will soon pass away."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["warning", "invitation", "salvation"],
+    "scripture_references": ["2 Corinthians 6:2"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

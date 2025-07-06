@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-501",
   "number": 501,
-  "title": "Hymn 501 (To be extracted)",
-  "author": null,
+  "title": "Blest of Jesus, meek and lowly",
+  "author": "Spanish, from Markisch",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "AUTUMN",
+  "meter": "8s & 7s. D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Blest of Jesus, meek and lowly, With us here take thine abode;\nWe would fain like thee be holy,\nHum-bly walk-ing with our God. We would thy sweet Spir-it cher-ish, Welcome is our hearts thy stay;\nO, abide with us, we pray!"
+    },
+    {
+      "number": 2,
+      "text": "Guide us in the path to heaven,\nRugged though that path may be;\nLet each bitter cup be given,\nServe to draw us nearer thee.\nIn thy footsteps traced before us,\nThere we see earth's scorn and frown;\nThere is suffering ere the glory,\nThere's a cross before the crown."
+    },
+    {
+      "number": 3,
+      "text": "In thy vineyard let us labor,\nOf thy goodness let us tell;\nAll is ill without thy favor,\nWith thy presence all is well.\nWhile the evening shadows gather,\nThrough this dreary night of tears,\nTarry with us, O our Saviour,\nTill the morning light appears."
+    },
+    {
+      "number": 4,
+      "text": "Then with thee may we forever\nReign with all the good and blest,\nWhere no sin from thee can sever,\nWhere the weary are at rest;\nThere to praise the matchless Giver,\nThere with angels to adore\nHim who did through grace deliver\nUs from death forevermore."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["humility", "devotion", "spiritual walk", "eternal life"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "AUTUMN",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-124",
+  "number": 124,
+  "title": "My Sins Are All Taken Away",
+  "author": "J. B. Pounds",
+  "composer": "J. B. Pounds",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I was sad and death my soul of its sorrows,\nMy sins are all taken away;\nThere will be no more sorrow for me,\nMy sins are all taken away."
+    },
+    {
+      "number": 2,
+      "text": "At the foot of the cross they're lying,\nMy sins are all taken away;\nOnce they wor - ried and made me sad,\nMy sins are all taken away."
+    },
+    {
+      "number": 3,
+      "text": "From the pow - er of sin and self set free,\nMy sins are all taken away;\nNow the sweet and good of God I see,\nMy sins are all taken away."
+    },
+    {
+      "number": 4,
+      "text": "For the pow - er of grace in Jesus my pow - er,\nMy sins are all taken away;\nI will walk in the light of God's love,\nMy sins are all taken away."
+    }
+  ],
+  "chorus": {
+    "text": "They are all taken away,\nI They are all taken away,\nThey are all taken away,\nI am resting in the cross."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1895, by Thos. J. Kirkpatrick. Used by permission.",
+    "themes": ["salvation", "forgiveness", "redemption"],
+    "scripture_references": [],
+    "tune_source": "J. B. Pounds",
+    "original_language": "en"
+  }
+}

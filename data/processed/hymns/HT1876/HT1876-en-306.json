@@ -1,0 +1,25 @@
+{
+  "id": "HT1876-en-306",
+  "number": 306,
+  "title": "O happy day! that bursts the tomb",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "O happy day! that bursts the tomb, And sets the joyful pris'ners free; That lifts the saints from death and gloom, To light and immortality."},
+    {"number": 2, "text": "O happy day! when Jesus comes, The righteous foes shall bloom again; The desert closes shall surrender, Nor death e'er fread their wide domain."},
+    {"number": 3, "text": "O happy day! when far around, Through all this universal frame, One glorious anthem shall resound, Of blessing to Jehovah's name."},
+    {"number": 4, "text": "O happy day! that knows no night; Nor sorrow with thy joy shall blend; No clouds shall mar its sacred light, Thy scenes of glory ne'er shall end."}
+  ],
+  "chorus": {
+    "text": "Happy day! happy day! For thee we'll watch and pray; We bid thy hours no more delay; Oh! chase the shadows all away, Happy day! happy day! For thee we'll watch and pray."
+  },
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["resurrection", "freedom", "joy", "light", "immortality", "glory"],
+    "original_language": "en",
+    "has_chorus": true,
+    "meter": "L. M."
+  }
+}

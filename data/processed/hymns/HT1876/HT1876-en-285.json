@@ -1,0 +1,24 @@
+{
+  "id": "HT1876-en-285",
+  "number": 285,
+  "title": "Hark! I hear the blest tidings",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "Hark! I hear the blest tidings; Soon, soon, Jesus will come, Robed, robed in honor and glory, To gather his ransomed ones home. Yes, yes, oh! yes, To gather his ransomed ones home."},
+    {"number": 2, "text": "Joy, joy, sound it more loudly; Sing, sing, Glory to God! Soon, soon Jesus is coming, Publish the tidings abroad. Yes, yes, oh! yes, Publish the tidings abroad."},
+    {"number": 3, "text": "Bright, bright seraph's attending, Shouts, shouts, clothe the air; Oh, prepare, prepare to meet him; Jesus our Lord will appear. Yes, yes, oh! yes, Jesus our Lord will appear."},
+    {"number": 4, "text": "Now, now through a glass darkly, Shine, shine visions to come; Soon, soon we shall behold them, Cloudless and bright in our home. Yes, yes, oh! yes, Cloudless and bright in our home."},
+    {"number": 5, "text": "Long, long have we been waiting, Who, who love his blest name; Now, now we are delighting, Jesus is near to proclaim. Yes, yes, oh! yes, Jesus is near to proclaim."},
+    {"number": 6, "text": "Still, still rest on the promise, Cling, cling fast to his word; What, what though the vision tarries? Patiently wait for the Lord. Yes, yes, oh! yes, Patiently wait for the Lord."}
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["second coming", "joy", "anticipation", "waiting", "promise", "hope"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "7s, 6s & 4s"
+  }
+}

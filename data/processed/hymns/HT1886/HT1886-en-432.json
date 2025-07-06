@@ -1,7 +1,7 @@
 {
   "id": "HT1886-en-432",
   "number": 432,
-  "title": "Hymn 432 (To be extracted)",
+  "title": "Forgive us, Lord! to thee we cry",
   "author": null,
   "composer": null,
   "tune": null,
@@ -10,16 +10,24 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Forgive us, Lord! to thee we cry; Forgive us thy matchless grace; On thee alone our souls rely: Be thou our strength and righteousness."
+    },
+    {
+      "number": 2,
+      "text": "Forgive thou us, as we forgive; The ills we suffer from our foes; Restore us, Lord! and bid us live; O! let us not in arms repose."
+    },
+    {
+      "number": 3,
+      "text": "Forgive us, for our guilt is great! Our wretched souls in merit boast; For foreign mercy still we wait, And ask but in the Saviour's name."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["forgiveness", "mercy", "grace", "repentance"],
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

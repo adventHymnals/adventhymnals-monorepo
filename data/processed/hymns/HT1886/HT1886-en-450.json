@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-450",
   "number": 450,
-  "title": "Hymn 450 (To be extracted)",
+  "title": "Jerusalem",
   "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "composer": "Louis Spohr",
+  "tune": "Jerusalem",
+  "meter": "C.M.D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "I heard the voice of Jesus say, 'Come unto me and rest; Lay down, thou weary one, lay down Thy head upon my breast.' I came to Jesus as I was— Weary, and worn, and sad; I found in him a resting-place, And he has made me glad."
+    },
+    {
+      "number": 2,
+      "text": "I heard the voice of Jesus say, 'Behold, I freely give The living water; thirsty one, Stoop down, and drink, and live.' I came to Jesus, and I drank Of that life-giving stream; My thirst was quenched, my soul revived, And now I live in him."
+    },
+    {
+      "number": 3,
+      "text": "I heard the voice of Jesus say, 'I am this dark world's light; Look unto me, thy morn shall rise, And all thy day be bright.' I looked to Jesus, and I found In him my star, my sun; And in that light of life I'll walk, Till travelling days are done."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
+    "themes": ["Jesus Christ", "invitation", "rest", "thirst", "light", "comfort"],
+    "scripture_references": ["Matthew 11:28"],
+    "tune_source": "Louis Spohr",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-136",
+  "number": 136,
+  "title": "Wonderful Love of Jesus",
+  "author": "E. H. Miner",
+  "composer": "E. S. Lorenz",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In joy - ful high and ho - ly lays, My soul her grateful voice would raise;\nBut when can song, the weakness might, In the won - der - ful love of light;\nIn pain I sing and praise today, The wonderful love of Jesus."
+    },
+    {
+      "number": 2,
+      "text": "A joy - by day - a peace by night, My Saviour makes my darkness bright;\nWith love my heart is fully blessed, And I can find in Jesus rest."
+    },
+    {
+      "number": 3,
+      "text": "I joy - ful feel and ho - ly keep, My soul can feel his presence deep;\nIn joy - ful - or - der - ful love, Won - der - ful love of Jesus."
+    }
+  ],
+  "chorus": {
+    "text": "Won - der - ful love! won - der - ful love!\nWon - der - ful love! won - der - ful love!\nWon - der - ful love of Jesus!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of E. S. Lorenz.",
+    "themes": ["love of Jesus", "joy", "praise", "wonderful"],
+    "scripture_references": [],
+    "tune_source": "E. S. Lorenz",
+    "original_language": "en"
+  }
+}

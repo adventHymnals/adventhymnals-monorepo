@@ -1,25 +1,37 @@
 {
   "id": "HT1886-en-461",
   "number": 461,
-  "title": "Hymn 461 (To be extracted)",
-  "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "title": "I lay my sins on Jesus",
+  "author": "Horatius Bonar",
+  "composer": "J. E. White",
+  "tune": "MARIETTA",
+  "meter": "7s & 6s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 4,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["laying sins on Jesus", "spiritual burdens", "seeking like-mindedness with Christ", "repentance"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "J. E. White",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

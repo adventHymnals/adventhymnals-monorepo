@@ -1,25 +1,40 @@
 {
   "id": "HT1886-en-390",
   "number": 390,
-  "title": "Hymn 390 (To be extracted)",
-  "author": null,
+  "title": "Just as I Am",
+  "author": "Charlotte Elliott",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Woodworth",
+  "meter": "8.8.8.8.8.8.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Just as I am, without one plea,\nBut that thy blood was shed for me,\nAnd that thou bidd'st me come to thee,\nO Lamb of God, I come, I come."
+    },
+    {
+      "number": 2,
+      "text": "Just as I am, and waiting not\nTo rid my soul of one dark blot,\nTo thee whose blood can cleanse each spot,\nO Lamb of God, I come, I come."
+    },
+    {
+      "number": 3,
+      "text": "Just as I am, though tossed about\nWith many a conflict, many a doubt,\nFightings and fears within, without,\nO Lamb of God, I come, I come."
+    },
+    {
+      "number": 4,
+      "text": "Just as I am, poor, wretched, blind;\nSight, riches, healing of the mind,\nYea, all I need, in thee to find,\nO Lamb of God, I come, I come."
+    },
+    {
+      "number": 5,
+      "text": "Just as I am, thou wilt receive,\nWilt welcome, pardon, cleanse, relieve;\nBecause thy promise I believe,\nO Lamb of God, I come, I come."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["invitation", "salvation", "acceptance", "cleansing"],
+    "scripture_references": ["John 6:37", "1 John 1:7"],
+    "tune_source": "William Bradbury",
+    "original_language": "en"
   }
 }

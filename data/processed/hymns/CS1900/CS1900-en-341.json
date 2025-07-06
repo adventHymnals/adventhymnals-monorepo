@@ -1,0 +1,29 @@
+{
+  "id": "CS1900-en-341",
+  "number": 341,
+  "title": "WITH WILLING HEARTS",
+  "author": "Jno. R. Clements",
+  "composer": "Jno. R. Clements",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O thou, so thou we long, O thou for help and hope we cry;\nWe need thy joy – of thou, thy perfect love draw nigh;\nThou hast love is our salvation, thou hast love is our defence,\nThou hast love is our salvation, thou hast love is our defence."
+    },
+    {
+      "number": 2,
+      "text": "Thy love is enough, O our Lord, thy perfect heart of God;\nO thou who will be with us thou, when shall thy love be;\nO may we be in thy favour, may we be in thy love,\nO may we be in thy favour, may we be in thy love."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["willingness", "love", "salvation"],
+    "scripture_references": [],
+    "tune_source": "Jno. R. Clements",
+    "original_language": "en"
+  }
+}

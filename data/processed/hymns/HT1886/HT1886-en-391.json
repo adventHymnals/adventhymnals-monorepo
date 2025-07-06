@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-391",
   "number": 391,
-  "title": "Hymn 391 (To be extracted)",
-  "author": null,
+  "title": "When I Survey the Wondrous Cross",
+  "author": "Isaac Watts",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Hamburg",
+  "meter": "L.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "When I survey the wondrous cross\nOn which the Prince of glory died,\nMy richest gain I count but loss,\nAnd pour contempt on all my pride."
+    },
+    {
+      "number": 2,
+      "text": "Forbid it, Lord, that I should boast,\nSave in the death of Christ my God;\nAll the vain things that charm me most,\nI sacrifice them to his blood."
+    },
+    {
+      "number": 3,
+      "text": "See from his head, his hands, his feet,\nSorrow and love flow mingled down;\nDid e'er such love and sorrow meet,\nOr thorns compose so rich a crown?"
+    },
+    {
+      "number": 4,
+      "text": "Were the whole realm of nature mine,\nThat were a present far too small;\nLove so amazing, so divine,\nDemands my soul, my life, my all."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["cross", "sacrifice", "love", "devotion"],
+    "scripture_references": ["Galatians 6:14", "Philippians 3:7-8"],
+    "tune_source": "Gregorian",
+    "original_language": "en"
   }
 }

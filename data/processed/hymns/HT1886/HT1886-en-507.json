@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-507",
   "number": 507,
-  "title": "Hymn 507 (To be extracted)",
-  "author": null,
+  "title": "Homeward Bound",
+  "author": "Unknown",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "HOMEWARD BOUND",
+  "meter": "10s & 7s. P.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Out on an ocean all boundless we ride, We're homeward bound, homeward bound;\nTossed on the waves of a rough, restless tide, We're homeward bound, homeward bound."
+    },
+    {
+      "number": 2,
+      "text": "Wildly the storm sweeps us on as it roars, We're homeward bound, homeward bound!\nLook! yonder lie the bright heavenly shores, We're homeward bound, homeward bound."
+    },
+    {
+      "number": 3,
+      "text": "Into the harbor of heaven now we glide, We're home at last, home at last;\nSoftly we drift on its bright silver tide, We're home at last, home at last."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["pilgrimage", "homecoming", "heaven", "spiritual journey"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "HOMEWARD BOUND",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

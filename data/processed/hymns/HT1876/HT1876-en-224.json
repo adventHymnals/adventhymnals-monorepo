@@ -1,0 +1,20 @@
+{
+  "id": "HT1876-en-224",
+  "number": 224,
+  "title": "'Tis my happiness below",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "'Tis my happiness below Not to live without the cross; But the Saviour's power to know, Sanctifying every loss."},
+    {"number": 2, "text": "Trials must and will befall; But with humble faith to see Love inscribed upon them all,— This is happiness to me."}
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["happiness", "cross", "trials", "sanctification", "faith", "love", "God's power"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "7s."
+  }
+}

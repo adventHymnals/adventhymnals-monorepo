@@ -1,0 +1,27 @@
+{
+  "id": "HT1876-en-281",
+  "number": 281,
+  "title": "Oh! how I long to see that day",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "Oh! how I long to see that day When the redeemed shall come To Zion, clad in white array, Their blissful, happy home."},
+    {"number": 2, "text": "To hear the allelu-ia roll In cadence sweet and strong, And with a Heaven-enraptured soul To join redemption's song."},
+    {"number": 3, "text": "To see all Israel safe at home, Singing on Zion's light; And Christ the Lord upon his throne, Creation own its right."},
+    {"number": 4, "text": "All hail! the morn of glory's high, When Jesus shall we see; That dress the tear from every eye— Creation's jubilee."},
+    {"number": 5, "text": "Jerusalem I long to see, Blest city of my King; Oh, when shall I transported be, And hear the blood-washed sing."},
+    {"number": 6, "text": "My longing heart cries out, Oh, come! Come, Lord Jesus, come to thee; The weary pilgrim sights, Oh, come! Bring immortality."}
+  ],
+  "chorus": {
+    "text": "Oh! bear me on, bear me on To Mount Zion; Oh! bear me on to that city of love, Where Jesus is gone."
+  },
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["heaven", "Zion", "longing", "redemption", "Jerusalem", "second coming"],
+    "original_language": "en",
+    "has_chorus": true,
+    "meter": "C. M."
+  }
+}

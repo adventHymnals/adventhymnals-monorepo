@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-093",
+  "number": 93,
+  "title": "Untitled",
+  "author": null,
+  "composer": null,
+  "tune": "Tune: Portuguese, No. 1",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 4,
+      "text": "[Verse text available in source hymnal]"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["God", "faith", "trust"],
+    "scripture_references": [],
+    "tune_source": "Portuguese, No. 1",
+    "original_language": "en",
+    "verse_count": 4,
+    "structure": "4 verses, no chorus",
+    "first_line": "To God let prayer ascend on high"
+  }
+}

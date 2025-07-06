@@ -1,0 +1,21 @@
+{
+  "id": "HT1876-en-220",
+  "number": 220,
+  "title": "When, my Saviour, shall I be",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "When, my Saviour, shall I be Perfectly restored in thee? Poor and vile in my own eyes, Only in thy wisdom wise?"},
+    {"number": 2, "text": "Only thee content to know, Ignorant of all below? Only guided by thy light? Only mighty in thy might?"},
+    {"number": 3, "text": "Fully in my life express All the heights of holiness; Sweetly let my spirit prove All the depths of perfect love."}
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["restoration", "humility", "wisdom", "guidance", "holiness", "perfect love", "spiritual maturity"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "7s."
+  }
+}

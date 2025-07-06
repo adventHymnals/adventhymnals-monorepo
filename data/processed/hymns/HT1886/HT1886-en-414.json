@@ -1,25 +1,40 @@
 {
   "id": "HT1886-en-414",
   "number": 414,
-  "title": "Hymn 414 (To be extracted)",
+  "title": "To-day",
   "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "composer": "Lowell Mason",
+  "tune": "To-day",
+  "meter": "6s & 4s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "To-day the Saviour calls;\nYe wanderers, come;\nO ye benighted souls,\nWhy longer roam?"
+    },
+    {
+      "number": 2,
+      "text": "To-day the Saviour calls!\nO listen now;\nWithin these sacred walls,\nTo Jesus bow."
+    },
+    {
+      "number": 3,
+      "text": "To-day the Saviour calls!\nFor refuge fly;\nThe storm of vengeance falls,\nAnd death is nigh."
+    },
+    {
+      "number": 4,
+      "text": "To-day the Saviour calls!\nFor refuge fly;\nThe storm of vengeance falls;\nRuin is nigh."
+    },
+    {
+      "number": 5,
+      "text": "The Spirit calls to-day!\nYield to his power;\nO grieve it not away,\n'Tis mercy's hour."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["invitation", "today", "salvation"],
+    "scripture_references": ["2 Corinthians 6:2"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

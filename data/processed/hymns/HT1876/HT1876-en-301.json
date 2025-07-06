@@ -1,0 +1,27 @@
+{
+  "id": "HT1876-en-301",
+  "number": 301,
+  "title": "Twas a doleful night on Calvary's height",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "Twas a doleful night on Calvary's height, When the Lamb of God was slain; But there's a morning coming bright, When the just shall rise again. For the day O Jesus, my Saviour! dear Saviour, come!"},
+    {"number": 2, "text": "I go, he said, to prepare a place, Blest mansions in glory's domain; And the promise sure, sweetly fell from his lips, For you I'll return again."},
+    {"number": 3, "text": "How long, O Lord, shall thy saints sad weep, For the rightful heir to reign? And the royal saints in silence sleep, Who wait thy return again?"},
+    {"number": 4, "text": "I see the signs fulfilled of his advent near! Soon he comes in his kingdom to reign! Not long will the wheels of his chariot stay, That brings him once again."},
+    {"number": 5, "text": "The royal blue robe bedecked with its border of woe, Shall rejoice o'er the flowery plain, And a diadem crown deck the sovereign brow, When the King in his beauty shall reign!"},
+    {"number": 6, "text": "No tears nor death shall await them more, Who the better land obtain; Oh! we long to hail, with rapturous joy, Thy glorious return again."}
+  ],
+  "chorus": {
+    "text": "Our hearts weary grow of thy longer delay— Oh! hasten to gather us home."
+  },
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["crucifixion", "second coming", "longing", "hope", "resurrection", "kingdom"],
+    "original_language": "en",
+    "has_chorus": true,
+    "meter": "P. M."
+  }
+}

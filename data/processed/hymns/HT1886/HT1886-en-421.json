@@ -1,25 +1,32 @@
 {
   "id": "HT1886-en-421",
   "number": 421,
-  "title": "Hymn 421 (To be extracted)",
-  "author": null,
+  "title": "Child of sin and sorrow",
+  "author": "Thomas Hastings",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Ava",
+  "meter": "P. M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Child of sin and sorrow, Filled with dismay,\nWait not for to-morrow, Yield thee to-day;\nHeaven bids thee come While yet there's room.\nChild of sin and sorrow, Where wilt thou flee?"
+    },
+    {
+      "number": 2,
+      "text": "Child of sin and sorrow, Why wilt thou die?\nCome while thou canst borrow Help from on high;\nGrieve not that love Which calls above,\nChild of sin and sorrow, Would bring thee nigh."
+    },
+    {
+      "number": 3,
+      "text": "Exiled from home, Sadly to roam,\nChild of sin and sorrow, Where wilt thou flee?\nChild of sin and sorrow, Lift up thine eye;\nHe-sha-na then cast now In worlds on light;\nBright mansions fair Are waiting there;\nChild of sin and sorrow, Now homeward fly."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["invitation", "salvation", "repentance"],
+    "scripture_references": ["Isaiah 55:6"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

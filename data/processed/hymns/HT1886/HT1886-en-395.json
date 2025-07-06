@@ -1,25 +1,40 @@
 {
   "id": "HT1886-en-395",
   "number": 395,
-  "title": "Hymn 395 (To be extracted)",
-  "author": null,
+  "title": "Abide with Me",
+  "author": "Henry Lyte",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Eventide",
+  "meter": "10.10.10.10.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Abide with me; fast falls the eventide;\nThe darkness deepens; Lord, with me abide;\nWhen other helpers fail and comforts flee,\nHelp of the helpless, O abide with me."
+    },
+    {
+      "number": 2,
+      "text": "Swift to its close ebbs out life's little day;\nEarth's joys grow dim, its glories pass away;\nChange and decay in all around I see;\nO thou who changest not, abide with me."
+    },
+    {
+      "number": 3,
+      "text": "I need thy presence every passing hour;\nWhat but thy grace can foil the tempter's power?\nWho like thyself my guide and stay can be?\nThrough cloud and sunshine, O abide with me."
+    },
+    {
+      "number": 4,
+      "text": "I fear no foe with thee at hand to bless;\nIlls have no weight, and tears no bitterness;\nWhere is death's sting? where, grave, thy victory?\nI triumph still, if thou abide with me."
+    },
+    {
+      "number": 5,
+      "text": "Hold thou thy cross before my closing eyes;\nShine through the gloom, and point me to the skies;\nHeaven's morning breaks, and earth's vain shadows flee;\nIn life, in death, O Lord, abide with me."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["presence of God", "evening", "death", "comfort"],
+    "scripture_references": ["Luke 24:29", "1 Corinthians 15:55"],
+    "tune_source": "William Monk",
+    "original_language": "en"
   }
 }

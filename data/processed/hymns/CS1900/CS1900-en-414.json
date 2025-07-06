@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-414",
+  "number": 414,
+  "title": "On Time",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "He stands first in time, He stands first in time, He stands first in time; Be there on time, be there on time, Be there on time."
+    },
+    {
+      "number": 2,
+      "text": "The planets in their course, One moment tarry not, All things that ever were to run, Are into order brought, Seem lost to haste! have you-all, The broad and meadow wander?"
+    },
+    {
+      "number": 3,
+      "text": "Shall man alone of all The vast creation round, All things that ever were to run, Are into order brought, Seem lost to haste! have you-all, The broad and meadow wander?"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["punctuality", "order", "time"],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

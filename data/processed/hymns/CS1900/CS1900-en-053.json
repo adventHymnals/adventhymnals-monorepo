@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-053",
+  "number": 53,
+  "title": "Come Out In The Sunshine",
+  "author": "Jessie E. Strout",
+  "composer": "Jessie E. Strout",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come out in the sunshine! O path-way awaits There's joy in the sunshine, And heav'n-ly and beaut'ful Why stay in the gloom When you can rejoice? The dark-est is o-ver, Come, trust in his voice. When he calls you softly, to shine! Till you re-spond to His love. Come, trust in his love O let the sunshine, Then trust in his love di-vine, O trust and rejoice!"
+    },
+    {
+      "number": 2,
+      "text": "Shad-ow, Why peo-ple in gloom? Come out in the sunshine, And let your soul bless-o'n, O dear friend the gloom shall not in this sunshine By His dear name; We wait, Why re-use will re-tus; Until God! yes tell oth-ers the way out of wo-ey promised; When some-soul are sung; So-joic-ing the heart shall un-wrap. Come, the heart bless-o Beautiful, Beautiful, Beautiful."
+    }
+  ],
+  "chorus": {
+    "text": "Come out in the sunshine! Beautiful, Beautiful! The sunshine is Beautiful, Beautiful, Beautiful!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1900, by Jessie E. Strout",
+    "themes": ["sunshine", "joy", "light", "beautiful", "trust", "divine love"],
+    "scripture_references": [],
+    "tune_source": "Jessie E. Strout",
+    "original_language": "en"
+  }
+}

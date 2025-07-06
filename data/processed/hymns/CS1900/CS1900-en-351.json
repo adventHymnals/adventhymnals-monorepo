@@ -1,0 +1,29 @@
+{
+  "id": "CS1900-en-351",
+  "number": 351,
+  "title": "ARISE, MY SOUL, ARISE!",
+  "author": "Charles Wesley",
+  "composer": "Lewis Edson",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Arise, my soul, arise! shake off thy guilty fears;\nThe bleeding sacrifice in my behalf appears;\nBefore the throne my surety stands,\nBefore the throne my surety stands,\nMy name is written on His hands."
+    },
+    {
+      "number": 2,
+      "text": "He ever lives above, for me to intercede;\nHis all-redeeming love, His precious blood to plead;\nHis blood atoned for all our race,\nHis blood atoned for all our race,\nAnd sprinkles now the throne of grace."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": ["resurrection", "intercession", "redemption"],
+    "scripture_references": [],
+    "tune_source": "Lewis Edson",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "HT1876-en-223",
+  "number": 223,
+  "title": "Hark, my soul, it is the Lord",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "Hark, my soul, it is the Lord; 'Tis the Saviour; hear his word; Jesus speaks, and speaks to thee; Say, poor sinner, lov'st thou me?"},
+    {"number": 2, "text": "I delivered thee when bound, And when wounded, healed thy wound; Sought thee wandering, set thee right, Turned thy darkness into light."},
+    {"number": 3, "text": "Can a mother's tender care Cease toward the child she bare? Yes, she may forgetful be, Yet will I remember thee."},
+    {"number": 4, "text": "Mine is an unchanging love, Higher than the heights above, Deeper than the depths beneath, Free and faithful, strong as death."},
+    {"number": 5, "text": "Thou shalt see my glory soon, When the work of grace is done; Partner of my throne shalt be; Say, poor sinner, lov'st thou me?"},
+    {"number": 6, "text": "Lord, it is my chief complaint, That my love is weak and faint; Yet I love thee, and adore; Oh, for grace to love thee more!"}
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["God's love", "Jesus speaking", "salvation", "remembrance", "unchanging love", "mother's love", "glory"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "7s."
+  }
+}

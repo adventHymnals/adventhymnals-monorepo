@@ -1,7 +1,7 @@
 {
   "id": "HT1886-en-411",
   "number": 411,
-  "title": "Hymn 411 (To be extracted)",
+  "title": "Sinner, art thou still secure?",
   "author": null,
   "composer": null,
   "tune": null,
@@ -10,16 +10,23 @@
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Sinner, art thou still secure?\nWilt thou still refuse to pray?\nCan thy heart or hands endure\nIn the Lord's avenging day?"
+    },
+    {
+      "number": 2,
+      "text": "At his presence nature shakes;\nEarth affrighted hastes to flee;\nSolid mountains melt like wax;\nWhat will then become of thee?"
+    },
+    {
+      "number": 3,
+      "text": "Who his advent may abide?\nYou that glory in your shame,\nWill you find a place to hide,\nWhen the world is wrapped in flame?"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["warning", "judgment", "repentance"],
+    "scripture_references": ["Malachi 3:2"],
     "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "original_language": "en"
   }
 }

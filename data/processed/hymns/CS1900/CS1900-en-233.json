@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-233",
+  "number": 233,
+  "title": "PURE IN HEART",
+  "author": "J. H. B.",
+  "composer": "J. P. HOLBROOK",
+  "tune": "CHATHAM",
+  "meter": "S. M. s.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Saviour, keep me pure in heart, By thy grace so free; Help me, that I may impart Light and joy to thee."
+    },
+    {
+      "number": 2,
+      "text": "Give me love that would not live, But would bear the cross; Give me love that will not grieve, Though it count all loss."
+    },
+    {
+      "number": 3,
+      "text": "Give me faith that shall not fail, Faith that cannot die; Make me pure, that I may tell Others of thy love."
+    },
+    {
+      "number": 4,
+      "text": "Seal my life of thine I pray, Here and there forever; Let no earthly love decay God's eternal love."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1900, by J. P. HOLBROOK.",
+    "themes": ["purity", "heart", "sanctification", "love"],
+    "scripture_references": [],
+    "tune_source": "J. P. HOLBROOK",
+    "original_language": "en"
+  }
+}

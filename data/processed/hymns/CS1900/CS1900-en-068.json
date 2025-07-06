@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-068",
+  "number": 68,
+  "title": "Memories of Galilee",
+  "author": "Robert Morris",
+  "composer": "H. P. Danks",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Each cooing dove and sighing bough, that makes the eve so blest,\nTo me now speaks of one whose love can give the spirit rest;\nBut most of all, when dawn the east tells earth that day is born,\nIt speaks of one whose love divine makes glad the soul forlorn."
+    },
+    {
+      "number": 2,
+      "text": "When falls the soft twilight hour, when day is almost done,\nInto my heart there comes a power that makes my spirit strong;\nAnd at the hour when dawn appears, they vanish one by one,\nUp on the hills of Galilee, where sets the morning sun."
+    }
+  ],
+  "chorus": {
+    "text": "O memories of Galilee, of Him who blessed the ways,\nOf sights and sounds of hopes and fears, in Galilee, sweet Galilee,\nMy heart hath gone to Galilee, its blessed hopes aways."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "By permission of Jno. J. Hood & Co.",
+    "themes": ["Galilee", "Jesus", "memories", "love"],
+    "scripture_references": [],
+    "tune_source": "H. P. Danks",
+    "original_language": "en"
+  }
+}

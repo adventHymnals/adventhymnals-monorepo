@@ -1,25 +1,40 @@
 {
   "id": "HT1886-en-410",
   "number": 410,
-  "title": "Hymn 410 (To be extracted)",
-  "author": null,
+  "title": "Blessed Be the Tie That Binds",
+  "author": "John Fawcett",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Boylston",
+  "meter": "S.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Blessed be the tie that binds\nOur hearts in Christian love;\nThe fellowship of kindred minds\nIs like to that above."
+    },
+    {
+      "number": 2,
+      "text": "Before our Father's throne\nWe pour our ardent prayers;\nOur fears, our hopes, our aims are one,\nOur comforts and our cares."
+    },
+    {
+      "number": 3,
+      "text": "We share our mutual woes,\nOur mutual burdens bear,\nAnd often for each other flows\nThe sympathizing tear."
+    },
+    {
+      "number": 4,
+      "text": "When we asunder part,\nIt gives us inward pain;\nBut we shall still be joined in heart,\nAnd hope to meet again."
+    },
+    {
+      "number": 5,
+      "text": "This glorious hope revives\nOur courage by the way,\nWhile each in expectation lives\nAnd longs to see the day."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["fellowship", "unity", "Christian love", "community"],
+    "scripture_references": ["Ephesians 4:3", "1 John 1:7"],
+    "tune_source": "Lowell Mason",
+    "original_language": "en"
   }
 }

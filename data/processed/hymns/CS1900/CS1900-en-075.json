@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-075",
+  "number": 75,
+  "title": "The Love of Jesus",
+  "author": "F. E. Belden",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is no love like the love of Jesus,\nNever to fade or fall,\nTill into the fold of the peace of God,\nHe has gathered us all."
+    },
+    {
+      "number": 2,
+      "text": "There is no eye like the eye of Jesus,\nPiercing so deep and true,\nOh, there is none in the voice of Jesus,\nSo tender and sweet to you."
+    }
+  ],
+  "chorus": {
+    "text": "O love of God, how rich and pure!\nHow measureless and strong!\nIt shall for evermore endure,\nJesus' love, precious love, Boundless and pure and free!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1893, by F. E. Belden",
+    "themes": ["love", "Jesus", "divine love", "peace"],
+    "scripture_references": [],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

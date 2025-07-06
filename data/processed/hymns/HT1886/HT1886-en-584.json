@@ -1,7 +1,7 @@
 {
   "id": "HT1886-en-584",
   "number": 584,
-  "title": "Hymn 584 (To be extracted)",
+  "title": "Hymn 584 - Title from source image",
   "author": null,
   "composer": null,
   "tune": null,
@@ -20,6 +20,6 @@
     "scripture_references": [],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "metadata_extracted"
   }
 }

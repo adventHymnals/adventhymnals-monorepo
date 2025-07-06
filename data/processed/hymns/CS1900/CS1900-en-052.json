@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-052",
+  "number": 52,
+  "title": "Pure Gold",
+  "author": "Fanny J. Crosby",
+  "composer": "Robert Lowry",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Why labor for treasures that rust and de-cay, That perish a mo-ment then vanish a-way? Each promise sweet! is in the Book he has giv'n, Do not the soul in its path-way to heav'n, The gift of the Spir-it will fall as the dew, O love let the Saviour thy heart re-new."
+    },
+    {
+      "number": 2,
+      "text": "Go forth on thy Je-sus, with earnest de-sire, And buy of him 'gold that is tried in the fire;' At an-swer to pray'r when the heart is op-press'd— The gems of a crown, and a trea-sure of rest!"
+    }
+  ],
+  "chorus": {
+    "text": "Salva-tion's a treasure of val-ue un-told! Be wise to ob-tain it, for this is Pure Gold. Gold's worth-less dress we will not be-hold when All-wise are trea-sures of val-ue un-told! Mark haste to se-cure them for they are Pure Gold!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright by permission of Robert Lowry",
+    "themes": ["treasures", "salvation", "pure gold", "spiritual wealth", "eternal value"],
+    "scripture_references": ["Rev 3:18"],
+    "tune_source": "Robert Lowry",
+    "original_language": "en"
+  }
+}

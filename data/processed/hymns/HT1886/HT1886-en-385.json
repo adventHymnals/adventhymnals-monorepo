@@ -1,25 +1,40 @@
 {
   "id": "HT1886-en-385",
   "number": 385,
-  "title": "Hymn 385 (To be extracted)",
-  "author": null,
+  "title": "Jesus, My All, to Heaven Is Gone",
+  "author": "John Cennick",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Boylston",
+  "meter": "S.M.D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Jesus, my all, to heaven is gone,\nHe whom I fix my hopes upon;\nHis track I see, and I'll pursue\nThe narrow way till him I view."
+    },
+    {
+      "number": 2,
+      "text": "The way the holy prophets went,\nThe road that leads from banishment,\nThe King's highway of holiness,\nI'll go, for all his paths are peace."
+    },
+    {
+      "number": 3,
+      "text": "This is the way I long have sought,\nAnd mourned because I found it not;\nMy grief, my burden long has been,\nBecause I could not cease from sin."
+    },
+    {
+      "number": 4,
+      "text": "The more I strove against its power,\nI sinned and stumbled but the more,\nTill late I heard my Savior say,\n'Come hither, soul, I am the way.'"
+    },
+    {
+      "number": 5,
+      "text": "Lo! glad I come; and thou, blest Lamb,\nShalt take me to thee as I am;\nMy sinful self to thee I give;\nNothing but love shall I receive."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["journey", "following Christ", "salvation", "discipleship"],
+    "scripture_references": ["John 14:6", "Isaiah 35:8"],
+    "tune_source": "Lowell Mason",
+    "original_language": "en"
   }
 }

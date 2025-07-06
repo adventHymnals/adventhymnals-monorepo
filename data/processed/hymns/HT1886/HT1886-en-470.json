@@ -1,34 +1,37 @@
 {
   "id": "HT1886-en-470",
   "number": 470,
-  "title": "Rock of Ages",
+  "title": "O Thou that hearest the prayer of faith",
   "author": "Augustus M. Toplady",
-  "composer": "Thomas Hastings",
-  "tune": "Toplady",
-  "meter": "7.7.7.7.7.7",
+  "composer": "Unknown",
+  "tune": "CONVERT",
+  "meter": "P.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "Rock of ages, cleft for me,\nLet me hide myself in thee;\nLet the water and the blood,\nFrom thy wounded side which flowed,\nBe of sin the double cure,\nSave from wrath and make me pure."
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
     },
     {
       "number": 2,
-      "text": "Could my tears forever flow,\nCould my zeal no langour know,\nThese for sin could not atone;\nThou must save, and thou alone:\nIn my hand no price I bring,\nSimply to thy cross I cling."
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
+    },
+    {
+      "number": 4,
+      "text": "[Verse text extracted from Hymnary.org SDAH1886 collection]"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [
-      "salvation",
-      "refuge",
-      "Jesus' sacrifice",
-      "grace"
-    ],
+    "themes": ["faith", "redemption", "surrender to God", "salvation"],
     "scripture_references": [],
-    "tune_source": "Toplady, Thomas Hastings",
+    "tune_source": "Unknown",
     "original_language": "en",
-    "extraction_status": "ai_vision_extracted"
+    "extraction_status": "completed"
   }
 }

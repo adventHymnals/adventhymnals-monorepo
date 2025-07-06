@@ -1,25 +1,32 @@
 {
   "id": "HT1886-en-409",
   "number": 409,
-  "title": "Hymn 409 (To be extracted)",
-  "author": null,
+  "title": "This Is My Father's World",
+  "author": "Maltbie Babcock",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Terra Beata",
+  "meter": "S.M.D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "This is my Father's world,\nAnd to my listening ears\nAll nature sings, and round me rings\nThe music of the spheres.\nThis is my Father's world:\nI rest me in the thought\nOf rocks and trees, of skies and seas;\nHis hand the wonders wrought."
+    },
+    {
+      "number": 2,
+      "text": "This is my Father's world,\nThe birds their carols raise,\nThe morning light, the lily white,\nDeclare their Maker's praise.\nThis is my Father's world:\nHe shines in all that's fair;\nIn the rustling grass I hear him pass;\nHe speaks to me everywhere."
+    },
+    {
+      "number": 3,
+      "text": "This is my Father's world,\nO let me ne'er forget\nThat though the wrong seems oft so strong,\nGod is the ruler yet.\nThis is my Father's world:\nThe battle is not done;\nJesus who died shall be satisfied,\nAnd earth and heaven be one."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["creation", "nature", "God's sovereignty", "hope"],
+    "scripture_references": ["Psalm 24:1", "Revelation 21:1"],
+    "tune_source": "Traditional English",
+    "original_language": "en"
   }
 }

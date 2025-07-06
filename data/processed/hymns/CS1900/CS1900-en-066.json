@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-066",
+  "number": 66,
+  "title": "Showers of Blessing",
+  "author": "El Nathan",
+  "composer": "James McGranahan",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"There shall be showers of blessing:\" This is the promise of love;\nThere shall be seasons refreshing, Sent from the Saviour above."
+    },
+    {
+      "number": 2,
+      "text": "\"There shall be showers of blessing\"— Precious reviving again;\nOver the hills and the valleys, Sound of abundance of rain."
+    },
+    {
+      "number": 3,
+      "text": "\"There shall be showers of blessing:\" Send them upon us, O Lord;\nGrant to us now a refreshing, Come, and now honor Thy Word."
+    },
+    {
+      "number": 4,
+      "text": "\"There shall be showers of blessing:\" Oh, that today they might fall,\nNow as to God we're confessing, Now as on Jesus we call!"
+    }
+  ],
+  "chorus": {
+    "text": "Showers of blessing, Showers of blessing we need:\nMercy-drops round us are falling, But for the showers we plead."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1883, by James McGranahan.",
+    "themes": ["blessing", "revival", "rain", "mercy"],
+    "scripture_references": ["Ezekiel 34:26"],
+    "tune_source": "James McGranahan",
+    "original_language": "en"
+  }
+}

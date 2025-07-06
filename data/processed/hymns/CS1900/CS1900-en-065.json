@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-065",
+  "number": 65,
+  "title": "Yield Not to Temptation",
+  "author": "H.R. Palmer",
+  "composer": "H.R. Palmer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Yield not to temptation, For yielding is sin,\nEach vict'ry will help you Some other to win;\nFight manfully onward, Dark passions subdue,\nLook ever to Jesus, He will carry you through."
+    },
+    {
+      "number": 2,
+      "text": "Shun evil companions, Bad language disdain,\nGod's name hold in rev'rence, Nor take it in vain;\nBe thoughtful and earnest, Kind-hearted and true,\nLook ever to Jesus, He will carry you through."
+    },
+    {
+      "number": 3,
+      "text": "To him that o'ercometh, God giveth a crown,\nThrough faith we shall conquer, Tho' often cast down;\nHe who is our Saviour, Our strength will renew,\nLook ever to Jesus, He will carry you through."
+    }
+  ],
+  "chorus": {
+    "text": "Ask the Saviour to help you, Comfort, strengthen, and keep you;\nHe is willing to aid you, He will carry you through."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "By permission of Jno. J. Hood & Co.",
+    "themes": ["temptation", "victory", "faith", "strength"],
+    "scripture_references": [],
+    "tune_source": "H.R. Palmer",
+    "original_language": "en"
+  }
+}

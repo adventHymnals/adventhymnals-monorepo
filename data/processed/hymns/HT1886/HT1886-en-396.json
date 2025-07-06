@@ -1,25 +1,32 @@
 {
   "id": "HT1886-en-396",
   "number": 396,
-  "title": "Hymn 396 (To be extracted)",
-  "author": null,
+  "title": "Sweet Hour of Prayer",
+  "author": "William Walford",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Sweet Hour",
+  "meter": "L.M.D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Sweet hour of prayer, sweet hour of prayer,\nThat calls me from a world of care\nAnd bids me at my Father's throne\nMake all my wants and wishes known!\nIn seasons of distress and grief\nMy soul has often found relief,\nAnd oft escaped the tempter's snare\nBy thy return, sweet hour of prayer."
+    },
+    {
+      "number": 2,
+      "text": "Sweet hour of prayer, sweet hour of prayer,\nThy wings shall my petition bear\nTo him whose truth and faithfulness\nEngage the waiting soul to bless;\nAnd since he bids me seek his face,\nBelieve his word, and trust his grace,\nI'll cast on him my every care,\nAnd wait for thee, sweet hour of prayer."
+    },
+    {
+      "number": 3,
+      "text": "Sweet hour of prayer, sweet hour of prayer,\nMay I thy consolation share\nTill from Mount Pisgah's lofty height\nI view my home and take my flight.\nThis robe of flesh I'll drop and rise\nTo seize the everlasting prize,\nAnd shout while passing through the air,\nFarewell, farewell, sweet hour of prayer!"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["prayer", "communion with God", "comfort", "heaven"],
+    "scripture_references": ["Matthew 6:6", "1 Peter 5:7"],
+    "tune_source": "William Bradbury",
+    "original_language": "en"
   }
 }

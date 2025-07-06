@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-418",
+  "number": 418,
+  "title": "All My Class",
+  "author": "J. E. R.",
+  "composer": "J. P. Holbrook",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All my class! how dear to me, As I see you safe-ly, In the glo-rious gath-'ring day, How shall I ac-count for you? All my class! I see you here, So-to-day, before me stand-ing, Fill-ed with glo-ry, shin-ing clear."
+    },
+    {
+      "number": 2,
+      "text": "All my class! some may be miss-ing, In the glo-rious gath-'ring day, How shall I ac-count for you? All my class! I see you here, So-to-day, before me stand-ing, Fill-ed with glo-ry, shin-ing clear."
+    },
+    {
+      "number": 3,
+      "text": "All my class! each one pre-cious, So-to-day, before me stand-ing, Fill-ed with glo-ry, shin-ing clear."
+    }
+  ],
+  "chorus": {
+    "text": "What shall I say? What shall I with weep-ing say? Are you, O bless-ed thoughts! Not a How can I, how can I give the and lead? Are you, O bless-ed thoughts! Not a."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1896, by J. P. Holbrook.",
+    "themes": ["Sunday school", "teaching", "accountability"],
+    "scripture_references": [],
+    "tune_source": "J. P. Holbrook",
+    "original_language": "en"
+  }
+}

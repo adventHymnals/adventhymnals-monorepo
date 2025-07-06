@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-404",
   "number": 404,
-  "title": "Hymn 404 (To be extracted)",
-  "author": null,
+  "title": "I Need Thee Every Hour",
+  "author": "Annie Hawks",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Need",
+  "meter": "6.4.6.4. with Refrain",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "I need thee every hour,\nMost gracious Lord;\nNo tender voice like thine\nCan peace afford.\nI need thee, O I need thee;\nEvery hour I need thee;\nO bless me now, my Savior,\nI come to thee."
+    },
+    {
+      "number": 2,
+      "text": "I need thee every hour,\nStay thou nearby;\nTemptations lose their power\nWhen thou art nigh.\nI need thee, O I need thee;\nEvery hour I need thee;\nO bless me now, my Savior,\nI come to thee."
+    },
+    {
+      "number": 3,
+      "text": "I need thee every hour,\nIn joy or pain;\nCome quickly and abide,\nOr life is vain.\nI need thee, O I need thee;\nEvery hour I need thee;\nO bless me now, my Savior,\nI come to thee."
+    },
+    {
+      "number": 4,
+      "text": "I need thee every hour,\nMost Holy One;\nO make me thine indeed,\nThou blessed Son.\nI need thee, O I need thee;\nEvery hour I need thee;\nO bless me now, my Savior,\nI come to thee."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["dependence", "prayer", "comfort", "spiritual need"],
+    "scripture_references": ["John 15:5", "Philippians 4:19"],
+    "tune_source": "Robert Lowry",
+    "original_language": "en"
   }
 }

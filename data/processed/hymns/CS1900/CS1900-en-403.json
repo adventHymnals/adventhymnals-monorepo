@@ -1,0 +1,31 @@
+{
+  "id": "CS1900-en-403",
+  "number": 403,
+  "title": "NEVER TURN BACK",
+  "author": "F. E. Belden",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Fleeing from the gloom there's where I would so safely dwell,\nDesigning the path between not where we dwell the Cross;\nChoosing the darkest way, for that way leads to hell,\nWith a distance here's a message from the Lord to loss."
+    },
+    {
+      "number": 2,
+      "text": "Why should I turn back, give up the Crown,\nCast, Climbing worn and weary, till He - fore - tell try Hill;\nHey! Fighting the dread way, trust my God to own,\nHey! Looking for the blood-stained footprints on the way."
+    }
+  ],
+  "chorus": {
+    "text": "Never turn back, never turn back, never turn back,\nNever turn back, never turn back, never turn back,\nNever turn back, never turn back, trust God ev - er ry..."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of Review & Herald Pub. Co.",
+    "themes": ["perseverance", "faith", "cross"],
+    "scripture_references": [],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

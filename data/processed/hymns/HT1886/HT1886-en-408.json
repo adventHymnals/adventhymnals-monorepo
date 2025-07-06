@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-408",
   "number": 408,
-  "title": "Hymn 408 (To be extracted)",
-  "author": null,
+  "title": "Jesus Loves Me",
+  "author": "Anna Warner",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Jesus Loves Me",
+  "meter": "7.7.7.7. with Refrain",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Jesus loves me! this I know,\nFor the Bible tells me so;\nLittle ones to him belong,\nThey are weak, but he is strong.\nYes, Jesus loves me!\nYes, Jesus loves me!\nYes, Jesus loves me!\nThe Bible tells me so."
+    },
+    {
+      "number": 2,
+      "text": "Jesus loves me! he who died\nHeaven's gate to open wide;\nHe will wash away my sin,\nLet his little child come in.\nYes, Jesus loves me!\nYes, Jesus loves me!\nYes, Jesus loves me!\nThe Bible tells me so."
+    },
+    {
+      "number": 3,
+      "text": "Jesus loves me! loves me still,\nThough I'm very weak and ill;\nFrom his shining throne on high\nComes to watch me where I lie.\nYes, Jesus loves me!\nYes, Jesus loves me!\nYes, Jesus loves me!\nThe Bible tells me so."
+    },
+    {
+      "number": 4,
+      "text": "Jesus loves me! he will stay\nClose beside me all the way;\nIf I love him when I die,\nHe will take me home on high.\nYes, Jesus loves me!\nYes, Jesus loves me!\nYes, Jesus loves me!\nThe Bible tells me so."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["love", "children", "assurance", "salvation"],
+    "scripture_references": ["Mark 10:14", "1 John 4:19"],
+    "tune_source": "William Bradbury",
+    "original_language": "en"
   }
 }

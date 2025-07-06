@@ -1,25 +1,32 @@
 {
   "id": "HT1886-en-386",
   "number": 386,
-  "title": "Hymn 386 (To be extracted)",
-  "author": null,
+  "title": "Come, Thou Fount of Every Blessing",
+  "author": "Robert Robinson",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Nettleton",
+  "meter": "8.7.8.7.D.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Come, thou fount of every blessing,\nTune my heart to sing thy grace;\nStreams of mercy, never ceasing,\nCall for songs of loudest praise.\nTeach me some melodious sonnet,\nSung by flaming tongues above;\nPraise the mount—I'm fixed upon it—\nMount of thy redeeming love."
+    },
+    {
+      "number": 2,
+      "text": "Here I raise mine Ebenezer;\nHither by thy help I'm come;\nAnd I hope, by thy good pleasure,\nSafely to arrive at home.\nJesus sought me when a stranger,\nWandering from the fold of God;\nHe, to rescue me from danger,\nInterposed his precious blood."
+    },
+    {
+      "number": 3,
+      "text": "O to grace how great a debtor\nDaily I'm constrained to be!\nLet thy goodness, like a fetter,\nBind my wandering heart to thee.\nProne to wander, Lord, I feel it,\nProne to leave the God I love;\nHere's my heart, O take and seal it,\nSeal it for thy courts above."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["thanksgiving", "grace", "redemption", "dedication"],
+    "scripture_references": ["1 Samuel 7:12", "Luke 15:3-7"],
+    "tune_source": "Traditional American",
+    "original_language": "en"
   }
 }

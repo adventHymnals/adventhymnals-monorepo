@@ -1,0 +1,21 @@
+{
+  "id": "HT1876-en-284",
+  "number": 284,
+  "title": "Behold! I come! the Saviour cries",
+  "language": "en",
+  "verses": [
+    {"number": 1, "text": "Behold! I come! the Saviour cries, On wings of love I fly; So come, dear Lord, my soul replies, And bring salvation nigh."},
+    {"number": 2, "text": "Come, plead thy truth's much-injured cause, And make thy glory shine; Come, vindicate thy righteous laws, And show thy power divine."},
+    {"number": 3, "text": "With winged speed, Redeemer, dear, Bring on th' illustrious day; Let not our hopes give way to fear Beneath the long delay."}
+  ],
+  "metadata": {
+    "year": 1876,
+    "copyright": "Public Domain",
+    "publisher": "Seventh-day Adventist Publishing Association",
+    "location": "Battle Creek, Michigan",
+    "themes": ["second coming", "salvation", "hope", "glory", "divine power"],
+    "original_language": "en",
+    "has_chorus": false,
+    "meter": "S. M."
+  }
+}

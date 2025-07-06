@@ -1,25 +1,41 @@
 {
   "id": "HT1886-en-431",
   "number": 431,
-  "title": "Hymn 431 (To be extracted)",
+  "title": "Hamburg",
   "author": null,
-  "composer": null,
-  "tune": null,
-  "meter": null,
+  "composer": "Gregorian, arr. by Lowell Mason",
+  "tune": "Hamburg",
+  "meter": "L.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "O that my load of sin were gone! O that I could at last submit At Jesus' feet to lay it down— To lay my all at Jesus' feet!"
+    },
+    {
+      "number": 2,
+      "text": "Rest for my soul I long to find; Saviour of all, if mine thou art, Give me thy meek and lowly mind, And stamp thine image on my heart."
+    },
+    {
+      "number": 3,
+      "text": "Break off the yoke of inbred sin, And fully set my spirit free; I cannot rest till pure within, Till I am wholly lost in thee."
+    },
+    {
+      "number": 4,
+      "text": "Fain would I learn of thee, my God; Thy fight and easy burden prove, The cross, all stained with hallowed blood, The labour of thy dying love."
+    },
+    {
+      "number": 5,
+      "text": "I would, but thou must give the power; My heart from every sin release; Bring near, bring near the joyful hour, And fill me with thy perfect peace."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
+    "themes": ["repentance", "sin", "surrender", "peace", "salvation"],
     "scripture_references": [],
-    "tune_source": null,
+    "tune_source": "Gregorian, arranged by Lowell Mason",
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "completed"
   }
 }

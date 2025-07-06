@@ -1,25 +1,33 @@
 {
   "id": "HT1886-en-383",
   "number": 383,
-  "title": "Hymn 383 (To be extracted)",
-  "author": null,
+  "title": "Not What These Hands Have Done",
+  "author": "Horatius Bonar",
   "composer": null,
   "tune": null,
-  "meter": null,
+  "meter": "8s, 6s, & 7s",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Not what these hands have done\nCan save this guilty soul;\nNot what this toiling flesh has borne\nCan make my spirit whole."
+    },
+    {
+      "number": 2,
+      "text": "Not what I feel or do\nCan give me peace with God;\nNot all my prayers, and sighs, and tears,\nCan bear my awful load."
+    },
+    {
+      "number": 3,
+      "text": "Thy work alone, O Christ,\nCan ease this weight of sin;\nThy blood alone, O Lamb of God,\nCan give me peace within."
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
+    "themes": ["human inability", "futility of works", "Christ's work alone", "salvation by grace", "peace through Christ"],
+    "scripture_references": ["Ephesians 2:8-9", "Titus 3:5", "Romans 3:20"],
     "tune_source": null,
     "original_language": "en",
-    "extraction_status": "template_created"
+    "extraction_status": "ai_vision_extracted"
   }
 }

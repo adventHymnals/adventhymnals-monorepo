@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-394",
   "number": 394,
-  "title": "Hymn 394 (To be extracted)",
-  "author": null,
+  "title": "Nearer, My God, to Thee",
+  "author": "Sarah Adams",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Bethany",
+  "meter": "6.4.6.4.6.6.6.4.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "Nearer, my God, to thee,\nNearer to thee!\nE'en though it be a cross\nThat raiseth me;\nStill all my song shall be,\nNearer, my God, to thee,\nNearer, my God, to thee,\nNearer to thee!"
+    },
+    {
+      "number": 2,
+      "text": "Though like the wanderer,\nThe sun gone down,\nDarkness be over me,\nMy rest a stone;\nYet in my dreams I'd be\nNearer, my God, to thee,\nNearer, my God, to thee,\nNearer to thee!"
+    },
+    {
+      "number": 3,
+      "text": "There let the way appear\nSteps unto heaven;\nAll that thou sendest me\nIn mercy given;\nAngels to beckon me\nNearer, my God, to thee,\nNearer, my God, to thee,\nNearer to thee!"
+    },
+    {
+      "number": 4,
+      "text": "Then, with my waking thoughts\nBright with thy praise,\nOut of my stony griefs\nBethel I'll raise;\nSo by my woes to be\nNearer, my God, to thee,\nNearer, my God, to thee,\nNearer to thee!"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["aspiration", "trials", "spiritual growth", "trust"],
+    "scripture_references": ["Genesis 28:10-22", "Romans 8:28"],
+    "tune_source": "Lowell Mason",
+    "original_language": "en"
   }
 }

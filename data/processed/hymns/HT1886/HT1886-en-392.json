@@ -1,25 +1,36 @@
 {
   "id": "HT1886-en-392",
   "number": 392,
-  "title": "Hymn 392 (To be extracted)",
-  "author": null,
+  "title": "My Faith Looks Up to Thee",
+  "author": "Ray Palmer",
   "composer": null,
-  "tune": null,
-  "meter": null,
+  "tune": "Olivet",
+  "meter": "6.6.4.6.6.6.4.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[Verse text to be extracted from image]"
+      "text": "My faith looks up to thee,\nThou Lamb of Calvary,\nSavior divine!\nNow hear me while I pray,\nTake all my guilt away,\nO let me from this day\nBe wholly thine!"
+    },
+    {
+      "number": 2,
+      "text": "May thy rich grace impart\nStrength to my fainting heart,\nMy zeal inspire;\nAs thou hast died for me,\nO may my love to thee\nPure, warm, and changeless be,\nA living fire!"
+    },
+    {
+      "number": 3,
+      "text": "While life's dark maze I tread,\nAnd griefs around me spread,\nBe thou my guide;\nBid darkness turn to day,\nWipe sorrow's tears away,\nNor let me ever stray\nFrom thee aside."
+    },
+    {
+      "number": 4,
+      "text": "When ends life's transient dream,\nWhen death's cold, sullen stream\nShall o'er me roll;\nBlest Savior, then, in love,\nFear and distrust remove;\nO bear me safe above,\nA ransomed soul!"
     }
   ],
   "metadata": {
     "year": 1886,
     "copyright": "Public Domain",
-    "themes": [],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en",
-    "extraction_status": "template_created"
+    "themes": ["faith", "guidance", "devotion", "eternal life"],
+    "scripture_references": ["Hebrews 12:2", "Psalm 23:4"],
+    "tune_source": "Lowell Mason",
+    "original_language": "en"
   }
 }
