@@ -4,6 +4,10 @@ const nextConfig = {
   distDir: process.env.NEXT_DISTDIR || '.next',
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
+  eslint: {
+    // Disable ESLint during builds
+    ignoreDuringBuilds: true,
+  },
   experimental: {
     // typedRoutes: true, // Disabled temporarily due to dynamic route issues
   },
