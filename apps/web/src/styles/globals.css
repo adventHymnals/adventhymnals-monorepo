@@ -128,6 +128,18 @@
     display: none !important;
   }
   
+  /* Hide navigation and non-essential elements */
+  header, nav, .sidebar, footer, .action-buttons {
+    display: none !important;
+  }
+  
+  /* Make main content full width */
+  .print-content {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 20pt !important;
+  }
+  
   .print-hymn {
     @apply text-black bg-white;
     font-size: 14pt;
@@ -148,5 +160,23 @@
   .print-hymn .verse-number {
     font-weight: bold;
     margin-bottom: 4pt;
+  }
+  
+  /* Hymn page specific styles */
+  .hymn-header {
+    background: none !important;
+    color: black !important;
+    padding: 0 !important;
+    margin-bottom: 20pt;
+  }
+  
+  .hymn-metadata {
+    font-size: 10pt;
+    margin-bottom: 16pt;
+  }
+  
+  .hymn-content {
+    font-size: 12pt;
+    line-height: 1.8;
   }
 }

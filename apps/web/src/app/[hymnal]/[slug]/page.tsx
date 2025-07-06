@@ -6,16 +6,15 @@ import {
   CalendarIcon, 
   UserIcon, 
   MusicalNoteIcon,
-  ArrowLeftIcon,
-  PlayIcon,
-  PrinterIcon,
-  ShareIcon,
   MagnifyingGlassIcon,
-  ListBulletIcon
+  ListBulletIcon,
+  HomeIcon,
+  ChevronRightIcon
 } from '@heroicons/react/24/outline';
 
 import Layout from '@/components/layout/Layout';
 import Breadcrumbs, { generateHymnalBreadcrumbs } from '@/components/ui/Breadcrumbs';
+import HymnActionButtons from '@/components/ui/HymnActionButtons';
 import { loadHymnalReferences, loadHymn, loadHymnalHymns, getRelatedHymns } from '@/lib/data';
 import { generateHymnMetadata, generateHymnStructuredData } from '@/lib/seo';
 
@@ -163,25 +162,56 @@ export default async function HymnPage({ params }: HymnPageProps) {
 
       <div className="min-h-screen bg-white">
         {/* Header */}
-        <div className="bg-gradient-to-r from-primary-600 to-primary-700">
+        <div className="bg-gradient-to-r from-primary-600 to-primary-700 hymn-header no-print">
           <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
             <div className="mx-auto max-w-4xl">
               {/* Breadcrumbs */}
-              <Breadcrumbs 
-                items={breadcrumbs} 
-                className="mb-6 text-primary-100" 
-              />
-
-              {/* Back Button */}
               <div className="mb-6">
-                <Link
-                  href={`/${params.hymnal}`}
-                  className="inline-flex items-center text-primary-100 hover:text-white transition-colors"
-                >
-                  <ArrowLeftIcon className="h-4 w-4 mr-2" />
-                  Back to {hymnalRef.site_name || hymnalRef.name}
-                </Link>
+                <nav className="flex" aria-label="Breadcrumb">
+                  <ol role="list" className="flex items-center space-x-2">
+                    {/* Home icon */}
+                    <li>
+                      <div>
+                        <Link
+                          href="/"
+                          className="text-primary-200 hover:text-white transition-colors duration-200"
+                        >
+                          <HomeIcon className="h-4 w-4 flex-shrink-0" aria-hidden="true" />
+                          <span className="sr-only">Home</span>
+                        </Link>
+                      </div>
+                    </li>
+
+                    {/* Breadcrumb items */}
+                    {breadcrumbs.map((item) => (
+                      <li key={item.label}>
+                        <div className="flex items-center">
+                          <ChevronRightIcon
+                            className="h-4 w-4 flex-shrink-0 text-primary-200"
+                            aria-hidden="true"
+                          />
+                          {item.href && !item.current ? (
+                            <Link
+                              href={item.href}
+                              className="ml-2 text-sm font-medium text-primary-100 hover:text-white transition-colors duration-200"
+                            >
+                              {item.label}
+                            </Link>
+                          ) : (
+                            <span
+                              className="ml-2 text-sm font-medium text-white"
+                              aria-current={item.current ? 'page' : undefined}
+                            >
+                              {item.label}
+                            </span>
+                          )}
+                        </div>
+                      </li>
+                    ))}
+                  </ol>
+                </nav>
               </div>
+
 
               {/* Hymn Header */}
               <div className="text-center text-white">
@@ -195,44 +225,31 @@ export default async function HymnPage({ params }: HymnPageProps) {
                   {hymn.author && (
                     <div className="flex items-center">
                       <UserIcon className="mr-2 h-4 w-4" />
-                      Words: {hymn.author}
+                      Words: <Link href={`/authors?search=${encodeURIComponent(hymn.author)}`} className="ml-1 text-primary-100 hover:text-white underline transition-colors">{hymn.author}</Link>
                     </div>
                   )}
                   {hymn.composer && (
                     <div className="flex items-center">
                       <MusicalNoteIcon className="mr-2 h-4 w-4" />
-                      Music: {hymn.composer}
+                      Music: <Link href={`/composers?search=${encodeURIComponent(hymn.composer)}`} className="ml-1 text-primary-100 hover:text-white underline transition-colors">{hymn.composer}</Link>
                     </div>
                   )}
                   {hymn.tune && (
                     <div className="flex items-center">
                       <BookOpenIcon className="mr-2 h-4 w-4" />
-                      Tune: {hymn.tune}
+                      Tune: <Link href={`/tunes?search=${encodeURIComponent(hymn.tune)}`} className="ml-1 text-primary-100 hover:text-white underline transition-colors">{hymn.tune}</Link>
                     </div>
                   )}
                   {hymn.meter && (
                     <div className="flex items-center">
                       <CalendarIcon className="mr-2 h-4 w-4" />
-                      Meter: {hymn.meter}
+                      Meter: <Link href={`/meters?search=${encodeURIComponent(hymn.meter)}`} className="ml-1 text-primary-100 hover:text-white underline transition-colors">{hymn.meter}</Link>
                     </div>
                   )}
                 </div>
 
                 {/* Action Buttons */}
-                <div className="mt-8 flex flex-wrap justify-center gap-4">
-                  <button className="btn-secondary bg-white/10 text-white border-white/20 hover:bg-white/20">
-                    <PlayIcon className="h-4 w-4 mr-2" />
-                    Play Audio
-                  </button>
-                  <button className="btn-secondary bg-white/10 text-white border-white/20 hover:bg-white/20">
-                    <PrinterIcon className="h-4 w-4 mr-2" />
-                    Print
-                  </button>
-                  <button className="btn-secondary bg-white/10 text-white border-white/20 hover:bg-white/20">
-                    <ShareIcon className="h-4 w-4 mr-2" />
-                    Share
-                  </button>
-                </div>
+                <HymnActionButtons hymn={hymn} />
               </div>
             </div>
           </div>
