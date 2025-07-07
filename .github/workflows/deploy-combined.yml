@@ -197,35 +197,47 @@ jobs:
           
           # Update .env file with secrets
           cat > .env << EOF
-          NEXT_PUBLIC_GA_ID=${{ secrets.NEXT_PUBLIC_GA_ID }}
+          # Production Environment Variables for Advent Hymnals
           SITE_URL=https://adventhymnals.org
           NEXT_PUBLIC_SITE_URL=https://adventhymnals.org
+          NODE_ENV=production
+          
+          # Analytics and Verification
+          NEXT_PUBLIC_GA_ID=${{ secrets.NEXT_PUBLIC_GA_ID }}
           GOOGLE_VERIFICATION=${{ secrets.GOOGLE_VERIFICATION }}
           YANDEX_VERIFICATION=${{ secrets.YANDEX_VERIFICATION }}
           EOF
           
+          # Ensure directories exist
+          mkdir -p logs nginx/ssl data backups
+          
           # Login to GitHub Container Registry
           echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
           
-          # Pull latest image
-          docker pull ghcr.io/adventhymnals/advent-hymnals-web:latest
-          
-          # Stop and remove old containers
-          docker compose down || true
-          
-          # Start new containers
-          docker compose up -d
-          
-          # Wait for health check
-          sleep 10
-          
-          # Verify deployment
-          if docker compose ps | grep -q "healthy"; then
-            echo "✅ Deployment successful! Advent Hymnals is running."
+          # Use the robust deployment script
+          if [[ -f "./scripts/deploy.sh" ]]; then
+            echo "🚀 Using comprehensive deployment script..."
+            ./scripts/deploy.sh update
           else
-            echo "⚠️ Warning: Container may not be fully healthy yet."
-            docker compose logs --tail=20
+            echo "📦 Using fallback deployment method..."
+            # Fallback deployment
+            docker pull ghcr.io/adventhymnals/advent-hymnals-web:latest
+            docker compose down || true
+            docker compose up -d
+            
+            # Wait for health check
+            sleep 15
+            
+            # Verify deployment
+            if curl -sf http://localhost/api/health > /dev/null 2>&1; then
+              echo "✅ Deployment successful! Advent Hymnals is running."
+            else
+              echo "⚠️ Warning: Health check failed. Checking logs..."
+              docker compose logs --tail=20
+            fi
+            
+            # Clean up old images
+            docker image prune -f
           fi
           
-          # Clean up old images
-          docker image prune -f
+          echo "🌐 Advent Hymnals is available at http://adventhymnals.org"
