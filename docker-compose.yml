@@ -62,8 +62,7 @@ services:
       nginx -g 'daemon off;'
       "
     depends_on:
-      advent-hymnals-web:
-        condition: service_started
+      - advent-hymnals-web
     restart: unless-stopped
     networks:
       - web-network
