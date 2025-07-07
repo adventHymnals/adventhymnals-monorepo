@@ -212,7 +212,7 @@ export default function Footer() {
         <div className="mt-16 border-t border-gray-700 pt-8 sm:mt-20 lg:mt-24">
           <div className="flex flex-col items-center justify-between lg:flex-row">
             <div className="flex items-center space-x-4 text-xs text-gray-400">
-              <p>&copy; 2024 Advent Hymnals Project. Content used under fair use for educational purposes.</p>
+              <p>&copy; 2018-{new Date().getFullYear()} Advent Hymnals Project. Content used under fair use for educational purposes.</p>
             </div>
             <div className="mt-4 flex items-center space-x-2 lg:mt-0">
               <HeartIcon className="h-4 w-4 text-red-500" />

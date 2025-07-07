@@ -83,7 +83,7 @@ export default function HymnalCarousel({ hymnals }: HymnalCarouselProps) {
         {/* Navigation arrows - mobile at page border, desktop after last card */}
         <button
           onClick={prevSlide}
-          className="absolute left-0 lg:left-0 top-1/2 transform -translate-y-1/2 z-10 w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-full shadow-lg transition-all duration-200 flex items-center justify-center text-white"
+          className="absolute -left-3 lg:left-0 top-1/2 transform -translate-y-1/2 z-10 w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-full shadow-lg transition-all duration-200 flex items-center justify-center text-white"
           aria-label="Previous hymnal"
         >
           <ChevronLeftIcon className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6" />
@@ -91,7 +91,7 @@ export default function HymnalCarousel({ hymnals }: HymnalCarouselProps) {
         
         <button
           onClick={nextSlide}
-          className="absolute right-0 lg:right-0 top-1/2 transform -translate-y-1/2 z-10 w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-full shadow-lg transition-all duration-200 flex items-center justify-center text-white"
+          className="absolute -right-3 lg:right-0 top-1/2 transform -translate-y-1/2 z-10 w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-full shadow-lg transition-all duration-200 flex items-center justify-center text-white"
           aria-label="Next hymnal"
         >
           <ChevronRightIcon className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6" />

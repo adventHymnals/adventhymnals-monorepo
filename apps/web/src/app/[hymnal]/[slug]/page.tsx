@@ -151,7 +151,8 @@ export default async function HymnPage({ params }: HymnPageProps) {
     hymnalRef.name, 
     params.hymnal, 
     hymn.title, 
-    hymn.number
+    hymn.number,
+    hymnalRef.abbreviation
   );
 
   return (

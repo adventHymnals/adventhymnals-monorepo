@@ -19,7 +19,7 @@ export default function Breadcrumbs({ items, className }: BreadcrumbsProps) {
           <div>
             <Link
               href="/"
-              className="text-gray-400 hover:text-gray-500 transition-colors duration-200"
+              className="text-primary-200 hover:text-white transition-colors duration-200"
             >
               <HomeIcon className="h-4 w-4 flex-shrink-0" aria-hidden="true" />
               <span className="sr-only">Home</span>
@@ -32,27 +32,29 @@ export default function Breadcrumbs({ items, className }: BreadcrumbsProps) {
           <li key={item.label}>
             <div className="flex items-center">
               <ChevronRightIcon
-                className="h-4 w-4 flex-shrink-0 text-gray-400"
+                className="h-4 w-4 flex-shrink-0 text-primary-200"
                 aria-hidden="true"
               />
               {item.href && !item.current ? (
                 <Link
                   href={item.href}
-                  className="ml-2 text-sm font-medium text-gray-500 hover:text-gray-700 transition-colors duration-200"
+                  className="ml-2 text-sm font-medium text-primary-100 hover:text-white transition-colors duration-200"
                 >
-                  {item.label}
+                  <span className="hidden sm:inline">{item.label}</span>
+                  <span className="sm:hidden">{item.mobileLabel || item.label}...</span>
                 </Link>
               ) : (
                 <span
                   className={classNames(
                     'ml-2 text-sm font-medium',
                     item.current
-                      ? 'text-gray-900'
-                      : 'text-gray-500'
+                      ? 'text-white'
+                      : 'text-primary-100'
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >
-                  {item.label}
+                  <span className="hidden sm:inline">{item.label}</span>
+                  <span className="sm:hidden">{item.mobileLabel || item.label}...</span>
                 </span>
               )}
             </div>
@@ -68,7 +70,8 @@ export function generateHymnalBreadcrumbs(
   hymnalName: string,
   hymnalSlug: string,
   hymnTitle?: string,
-  hymnNumber?: number
+  hymnNumber?: number,
+  hymnalAbbreviation?: string
 ): BreadcrumbItem[] {
   const breadcrumbs: BreadcrumbItem[] = [
     {
@@ -77,7 +80,8 @@ export function generateHymnalBreadcrumbs(
     },
     {
       label: hymnalName,
-      href: `/${hymnalSlug}`
+      href: `/${hymnalSlug}`,
+      mobileLabel: hymnalAbbreviation || hymnalName // Use abbreviation on mobile
     }
   ];
 

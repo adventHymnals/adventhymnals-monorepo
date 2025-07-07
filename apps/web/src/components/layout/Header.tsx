@@ -23,6 +23,7 @@ export default function Header({ hymnalReferences }: HeaderProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [hymnalsDropdownOpen, setHymnalsDropdownOpen] = useState(false);
   const [searchDropdownOpen, setSearchDropdownOpen] = useState(false);
+  const [mobileSearchDropdownOpen, setMobileSearchDropdownOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [hymnalSearchQuery, setHymnalSearchQuery] = useState('');
   const pathname = usePathname();
@@ -32,8 +33,23 @@ export default function Header({ hymnalReferences }: HeaderProps) {
     setMobileMenuOpen(false);
     setHymnalsDropdownOpen(false);
     setSearchDropdownOpen(false);
+    setMobileSearchDropdownOpen(false);
     setHymnalSearchQuery('');
   }, [pathname]);
+
+  // Prevent background scroll when mobile menu is open
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    
+    // Cleanup on unmount
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [mobileMenuOpen]);
 
   // Close dropdowns when clicking outside
   useEffect(() => {
@@ -252,21 +268,30 @@ export default function Header({ hymnalReferences }: HeaderProps) {
 
         {/* Mobile menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden border-t border-gray-200 bg-white">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+          <div className="lg:hidden border-t border-gray-200 bg-white fixed inset-x-0 top-16 bottom-0 z-40 overflow-y-auto">
+            <div className="space-y-1 px-2 pb-3 pt-2 min-h-full bg-white">
               {/* Mobile Search */}
-              <form onSubmit={handleSearchSubmit} className="mb-4">
-                <div className="relative">
-                  <input
-                    type="text"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="Search hymns..."
-                    className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none"
-                  />
-                  <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
-                </div>
-              </form>
+              <div className="mb-4 relative">
+                <form onSubmit={handleSearchSubmit}>
+                  <div className="relative">
+                    <input
+                      type="text"
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      onFocus={() => setMobileSearchDropdownOpen(true)}
+                      placeholder="Search hymns..."
+                      className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none"
+                    />
+                    <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  </div>
+                </form>
+                <SearchDropdown
+                  isOpen={mobileSearchDropdownOpen}
+                  onClose={() => setMobileSearchDropdownOpen(false)}
+                  searchQuery={searchQuery}
+                  onQueryChange={setSearchQuery}
+                />
+              </div>
 
               {/* Mobile Navigation */}
               {navigation.map((item) => (

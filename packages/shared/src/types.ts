@@ -235,6 +235,7 @@ export interface BreadcrumbItem {
   label: string;
   href?: string;
   current?: boolean;
+  mobileLabel?: string; // Optional shorter label for mobile displays
 }
 
 // Search and filtering types

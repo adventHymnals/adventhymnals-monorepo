@@ -41,12 +41,12 @@ export default function HymnFilters({
         <select
           value={selectedHymnal}
           onChange={(e) => onHymnalChange(e.target.value)}
-          className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent text-sm"
+          className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent text-sm min-w-0 max-w-[200px] truncate"
         >
           <option value="">All Hymnals</option>
           {hymnalReferences && Object.values(hymnalReferences.hymnals).map((hymnal) => (
-            <option key={hymnal.id} value={hymnal.id}>
-              {hymnal.abbreviation}
+            <option key={hymnal.id} value={hymnal.id} title={hymnal.abbreviation}>
+              {hymnal.abbreviation.length > 20 ? `${hymnal.abbreviation.substring(0, 20)}...` : hymnal.abbreviation}
             </option>
           ))}
         </select>

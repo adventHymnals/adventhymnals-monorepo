@@ -29,7 +29,7 @@ export default function HymnDisplaySection({ hymn }: HymnDisplaySectionProps) {
       {/* Header with Format Selector and Projection Button */}
       <div className="flex items-center justify-between p-6 border-b border-gray-200">
         <div className="flex items-center space-x-4">
-          <h2 className="text-2xl font-bold text-gray-900">Hymn Display</h2>
+          <h2 className="hidden sm:block text-2xl font-bold text-gray-900">Hymn Display</h2>
           <NotationSelector
             currentFormat={currentFormat}
             availableFormats={availableFormats}
