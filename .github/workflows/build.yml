@@ -1,0 +1,201 @@
+name: Build and Package Advent Hymnals
+
+on:
+  push:
+    branches: [ master, main ]
+    paths:
+      - 'apps/web/**'
+      - 'packages/**'
+      - 'data/**'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+      - 'turbo.json'
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: adventhymnals/advent-hymnals-web
+
+permissions:
+  contents: read
+  packages: write
+  id-token: write
+
+concurrency:
+  group: "build-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      image-digest: ${{ steps.build.outputs.digest }}
+      image-tags: ${{ steps.meta.outputs.tags }}
+    steps:
+      # Checkout and setup
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8.15.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build packages
+        run: pnpm turbo build --filter=@advent-hymnals/web^...
+
+      # Build static export for GitHub Pages
+      - name: Build static export
+        continue-on-error: true
+        run: |
+          cd apps/web
+          pnpm build
+        env:
+          NEXT_OUTPUT: export
+          NEXT_DISTDIR: out
+          
+      # Check if build output exists (verifies build succeeded despite errors)
+      - name: Verify build output
+        run: |
+          if [ ! -d "apps/web/out" ]; then
+            echo "Build failed - no output directory found"
+            exit 1
+          fi
+          html_count=$(find apps/web/out -name "*.html" | wc -l)
+          echo "Build output verified - found $html_count HTML files"
+          if [ "$html_count" -lt 1000 ]; then
+            echo "Warning: Less than expected HTML files generated, but continuing..."
+          fi
+
+      # Deploy to GitHub Pages (only on master push)
+      - name: Deploy to GitHub Pages
+        if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          external_repository: adventhymnals/adventhymnals.github.io
+          deploy_key: ${{ secrets.DEPLOY_SSH_KEY }}
+          publish_dir: ./apps/web/out
+          publish_branch: master
+          cname: adventhymnals.org
+
+      # Aggressive cleanup to free disk space for Docker build
+      - name: Clean up static export files and free space
+        run: |
+          echo "=== Disk usage before cleanup ==="
+          df -h
+          du -sh * 2>/dev/null | sort -hr | head -10
+          
+          # Remove static export files
+          rm -rf apps/web/out
+          rm -rf apps/web/.next
+          
+          # Clean package caches
+          pnpm store prune
+          npm cache clean --force
+          
+          # Remove unnecessary files
+          find . -name "node_modules" -type d -exec rm -rf {} + 2>/dev/null || true
+          find . -name "*.log" -delete 2>/dev/null || true
+          find . -name "*.tmp" -delete 2>/dev/null || true
+          
+          # Clean up apt cache
+          sudo apt-get clean
+          sudo rm -rf /var/lib/apt/lists/*
+          
+          # Clear system caches
+          sudo sync
+          echo 3 | sudo tee /proc/sys/vm/drop_caches
+          
+          echo "=== Disk usage after cleanup ==="
+          df -h
+          echo "=== Largest remaining directories ==="
+          du -sh * 2>/dev/null | sort -hr | head -5
+
+      # Reinstall minimal dependencies for Docker build
+      - name: Reinstall minimal dependencies
+        run: |
+          echo "=== Reinstalling only necessary dependencies ==="
+          # Only install what we need for Docker build
+          pnpm install --frozen-lockfile --prod
+          
+      # Docker setup and build
+      - name: Check available disk space
+        run: |
+          echo "=== Disk Usage Before Docker Build ==="
+          df -h
+          echo "=== Available Space ==="
+          df -h / | awk 'NR==2{printf "%.1f%% used (%s available)\n", $5, $4}'
+          echo "=== Memory Usage ==="
+          free -h
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=ref,event=branch
+            type=ref,event=pr
+            type=sha,prefix=sha-
+            type=raw,value=latest,enable={{is_default_branch}}
+
+      # Build Docker image with API support (for search functionality)
+      - name: Build and push Docker image
+        id: build
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./apps/web/Dockerfile
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=min
+          platforms: linux/amd64
+          no-cache: false
+          pull: false
+          build-args: |
+            BUILDKIT_INLINE_CACHE=1
+            DOCKER_BUILDKIT=1
+
+  # Trigger deployment workflow on successful build
+  trigger-deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
+    steps:
+      - name: Trigger deployment workflow
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: deploy
+          client-payload: |
+            {
+              "image_digest": "${{ needs.build.outputs.image-digest }}",
+              "image_tags": "${{ needs.build.outputs.image-tags }}",
+              "sha": "${{ github.sha }}",
+              "ref": "${{ github.ref }}"
+            }

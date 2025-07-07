@@ -1,0 +1,161 @@
+name: Deploy to Server
+
+on:
+  repository_dispatch:
+    types: [deploy]
+  workflow_dispatch:
+    inputs:
+      image_tag:
+        description: 'Docker image tag to deploy'
+        required: false
+        default: 'latest'
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: adventhymnals/advent-hymnals-web
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "deploy-production"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Extract deployment info
+        id: info
+        run: |
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo "image_tag=latest" >> $GITHUB_OUTPUT
+            echo "triggered_by=build" >> $GITHUB_OUTPUT
+            echo "sha=${{ github.event.client_payload.sha }}" >> $GITHUB_OUTPUT
+          else
+            echo "image_tag=${{ github.event.inputs.image_tag || 'latest' }}" >> $GITHUB_OUTPUT
+            echo "triggered_by=manual" >> $GITHUB_OUTPUT
+            echo "sha=${{ github.sha }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Deploy to server
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          port: ${{ secrets.DEPLOY_PORT || 22 }}
+          script: |
+            # Change to deployment directory
+            cd /opt/advent-hymnals
+            
+            echo "🚀 Starting deployment of Advent Hymnals..."
+            echo "📦 Image: ghcr.io/adventhymnals/advent-hymnals-web:${{ steps.info.outputs.image_tag }}"
+            echo "🔨 Triggered by: ${{ steps.info.outputs.triggered_by }}"
+            echo "📝 SHA: ${{ steps.info.outputs.sha }}"
+            
+            # Update .env file with secrets
+            cat > .env << EOF
+            # Production Environment Variables for Advent Hymnals
+            SITE_URL=https://adventhymnals.org
+            NEXT_PUBLIC_SITE_URL=https://adventhymnals.org
+            NODE_ENV=production
+            
+            # Analytics and Verification
+            NEXT_PUBLIC_GA_ID=${{ secrets.NEXT_PUBLIC_GA_ID }}
+            GOOGLE_VERIFICATION=${{ secrets.GOOGLE_VERIFICATION }}
+            YANDEX_VERIFICATION=${{ secrets.YANDEX_VERIFICATION }}
+            EOF
+            
+            # Ensure directories exist
+            mkdir -p logs nginx/ssl data backups
+            
+            # Create external network if it doesn't exist
+            if ! docker network ls | grep -q web-network; then
+              echo "🌐 Creating external Docker network..."
+              docker network create web-network
+            fi
+            
+            # Login to GitHub Container Registry
+            echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+            
+            # Use the robust deployment script
+            if [[ -f "./scripts/deploy.sh" ]]; then
+              echo "🚀 Using comprehensive deployment script..."
+              ./scripts/deploy.sh update
+            else
+              echo "📦 Using fallback deployment method..."
+              # Fallback deployment
+              docker pull ghcr.io/adventhymnals/advent-hymnals-web:${{ steps.info.outputs.image_tag }}
+              docker compose down || true
+              docker compose up -d
+              
+              # Wait for health check
+              sleep 15
+              
+              # Verify deployment
+              if curl -sf http://localhost/api/health > /dev/null 2>&1; then
+                echo "✅ Deployment successful! Advent Hymnals is running."
+              else
+                echo "⚠️ Warning: Health check failed. Checking logs..."
+                docker compose logs --tail=20
+              fi
+              
+              # Clean up old images
+              docker image prune -f
+            fi
+            
+            echo "🌐 Advent Hymnals is available at https://adventhymnals.org"
+
+      - name: Verify deployment
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          port: ${{ secrets.DEPLOY_PORT || 22 }}
+          script: |
+            cd /opt/advent-hymnals
+            
+            echo "🔍 Performing post-deployment verification..."
+            
+            # Check container status
+            echo "📊 Container Status:"
+            docker compose ps
+            
+            # Check health endpoint
+            echo "🏥 Health Check:"
+            if curl -sf http://localhost/api/health > /dev/null 2>&1; then
+              echo "✅ Internal health check passed"
+            else
+              echo "❌ Internal health check failed"
+              exit 1
+            fi
+            
+            # Test HTTPS if certificates exist
+            if [ -f "/etc/letsencrypt/live/adventhymnals.org/fullchain.pem" ]; then
+              echo "🔒 HTTPS Check:"
+              if curl -sf https://adventhymnals.org/api/health > /dev/null 2>&1; then
+                echo "✅ HTTPS health check passed"
+              else
+                echo "⚠️ HTTPS health check failed (certificate may need setup)"
+              fi
+            else
+              echo "ℹ️ No SSL certificates found - use scripts/setup-ssl.sh to configure HTTPS"
+            fi
+            
+            echo "✅ Deployment verification completed successfully!"
+
+      - name: Notify deployment status
+        if: always()
+        run: |
+          if [ "${{ job.status }}" = "success" ]; then
+            echo "✅ Deployment completed successfully!"
+            echo "🌐 Site: https://adventhymnals.org"
+            echo "📦 Image: ghcr.io/adventhymnals/advent-hymnals-web:${{ steps.info.outputs.image_tag }}"
+          else
+            echo "❌ Deployment failed!"
+            echo "Please check the logs above for details."
+            exit 1
+          fi
