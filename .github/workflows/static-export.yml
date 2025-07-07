@@ -96,14 +96,15 @@ jobs:
           NEXT_OUTPUT: export
           NEXT_DISTDIR: out
 
-      - name: Deploy to GitHub Pages (same repository)
+      - name: Deploy to GitHub Pages (adventhymnals.github.io)
         if: success()
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          external_repository: adventhymnals/adventhymnals.github.io
+          deploy_key: ${{ secrets.DEPLOY_SSH_KEY }}
           publish_dir: ./apps/web/out
-          publish_branch: gh-pages
-          cname: static.adventhymnals.org
+          publish_branch: master
+          cname: adventhymnals.org
           force_orphan: true
 
       - name: Deployment completed
@@ -111,5 +112,5 @@ jobs:
         run: |
           echo "✅ Static export build and deployment completed successfully!"
           echo "📁 Generated $(find apps/web/out -name '*.html' | wc -l) HTML files"
-          echo "🌐 Static site will be available at: https://static.adventhymnals.org"
-          echo "📝 You can also configure GitHub Pages in repository settings to use a custom domain"
+          echo "🌐 Static site deployed to: https://adventhymnals.org (GitHub Pages)"
+          echo "🐳 Docker site available at: https://adventhymnals.org (Server)"
