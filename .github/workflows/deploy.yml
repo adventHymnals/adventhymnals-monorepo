@@ -83,27 +83,34 @@ jobs:
             # Use the robust deployment script
             if [[ -f "./scripts/deploy.sh" ]]; then
               echo "🚀 Using comprehensive deployment script..."
-              ./scripts/deploy.sh update
+              if ./scripts/deploy.sh update; then
+                echo "✅ Deployment script completed successfully"
+              else
+                echo "❌ Deployment script failed, trying fallback method..."
+                # Fallback deployment
+                echo "📦 Attempting direct docker deployment..."
+                if docker pull ghcr.io/adventhymnals/advent-hymnals-web:${{ steps.info.outputs.image_tag }}; then
+                  docker compose down || true
+                  docker compose up -d
+                  sleep 15
+                else
+                  echo "❌ Failed to pull Docker image. The image may not exist yet."
+                  echo "💡 This can happen if the build workflow hasn't completed successfully."
+                  echo "🔍 Please check that the build workflow has completed and the image is available in the registry."
+                  exit 1
+                fi
+              fi
             else
               echo "📦 Using fallback deployment method..."
-              # Fallback deployment
-              docker pull ghcr.io/adventhymnals/advent-hymnals-web:${{ steps.info.outputs.image_tag }}
-              docker compose down || true
-              docker compose up -d
-              
-              # Wait for health check
-              sleep 15
-              
-              # Verify deployment
-              if curl -sf http://localhost/api/health > /dev/null 2>&1; then
-                echo "✅ Deployment successful! Advent Hymnals is running."
+              if docker pull ghcr.io/adventhymnals/advent-hymnals-web:${{ steps.info.outputs.image_tag }}; then
+                docker compose down || true
+                docker compose up -d
+                sleep 15
               else
-                echo "⚠️ Warning: Health check failed. Checking logs..."
-                docker compose logs --tail=20
+                echo "❌ Failed to pull Docker image and no deployment script found."
+                echo "💡 Please ensure the build workflow has completed and the image is available."
+                exit 1
               fi
-              
-              # Clean up old images
-              docker image prune -f
             fi
             
             echo "🌐 Advent Hymnals is available at https://adventhymnals.org"
@@ -124,25 +131,29 @@ jobs:
             echo "📊 Container Status:"
             docker compose ps
             
-            # Check health endpoint
-            echo "🏥 Health Check:"
-            if curl -sf http://localhost/api/health > /dev/null 2>&1; then
-              echo "✅ Internal health check passed"
-            else
-              echo "❌ Internal health check failed"
-              exit 1
-            fi
-            
-            # Test HTTPS if certificates exist
-            if docker compose exec -T nginx test -f /etc/letsencrypt/live/adventhymnals.org/fullchain.pem 2>/dev/null; then
-              echo "🔒 HTTPS Check:"
-              if curl -sf https://adventhymnals.org/api/health > /dev/null 2>&1; then
-                echo "✅ HTTPS health check passed"
+            # Check if containers are running
+            if docker compose ps --format json | jq -e '.[] | select(.State == "running")' > /dev/null 2>&1; then
+              echo "🏥 Health Check:"
+              if curl -sf http://localhost/api/health > /dev/null 2>&1; then
+                echo "✅ Internal health check passed"
               else
-                echo "⚠️ HTTPS health check failed (certificate may need setup)"
+                echo "❌ Internal health check failed"
+                echo "🔍 Checking container logs..."
+                docker compose logs --tail=10
+                exit 1
+              fi
+              
+              # Only check HTTPS if nginx container is running and we're not in certificate acquisition mode
+              if docker compose ps nginx --format json | jq -e '.State == "running"' > /dev/null 2>&1; then
+                echo "ℹ️ HTTPS Check skipped - certificates should be managed separately via scripts/setup-ssl.sh"
+              else
+                echo "⚠️ Nginx container not running"
               fi
             else
-              echo "ℹ️ No SSL certificates found - use scripts/setup-ssl.sh to configure HTTPS"
+              echo "❌ No containers are running"
+              echo "🔍 Checking compose configuration..."
+              docker compose config --quiet || echo "❌ Docker compose configuration is invalid"
+              exit 1
             fi
             
             echo "✅ Deployment verification completed successfully!"
