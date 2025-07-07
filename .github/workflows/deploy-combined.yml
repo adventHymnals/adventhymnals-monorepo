@@ -192,38 +192,10 @@ jobs:
         key: ${{ secrets.DEPLOY_SSH_KEY }}
         port: ${{ secrets.DEPLOY_PORT || 22 }}
         script: |
-          # Create deployment directory
-          mkdir -p /opt/advent-hymnals
+          # Change to deployment directory
           cd /opt/advent-hymnals
           
-          # Create docker-compose.yml if it doesn't exist
-          if [ ! -f docker-compose.yml ]; then
-            cat > docker-compose.yml << 'EOF'
-          version: '3.8'
-          
-          services:
-            advent-hymnals-web:
-              image: ghcr.io/adventhymnals/advent-hymnals-web:latest
-              ports:
-                - "80:3000"
-              environment:
-                - NODE_ENV=production
-                - NEXT_PUBLIC_GA_ID=${NEXT_PUBLIC_GA_ID}
-                - SITE_URL=${SITE_URL:-https://adventhymnals.org}
-                - NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL:-https://adventhymnals.org}
-                - GOOGLE_VERIFICATION=${GOOGLE_VERIFICATION}
-                - YANDEX_VERIFICATION=${YANDEX_VERIFICATION}
-              restart: unless-stopped
-              healthcheck:
-                test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/api/health"]
-                interval: 30s
-                timeout: 10s
-                retries: 3
-                start_period: 40s
-          EOF
-          fi
-          
-          # Create .env file with secrets
+          # Update .env file with secrets
           cat > .env << EOF
           NEXT_PUBLIC_GA_ID=${{ secrets.NEXT_PUBLIC_GA_ID }}
           SITE_URL=https://adventhymnals.org
@@ -243,6 +215,17 @@ jobs:
           
           # Start new containers
           docker compose up -d
+          
+          # Wait for health check
+          sleep 10
+          
+          # Verify deployment
+          if docker compose ps | grep -q "healthy"; then
+            echo "✅ Deployment successful! Advent Hymnals is running."
+          else
+            echo "⚠️ Warning: Container may not be fully healthy yet."
+            docker compose logs --tail=20
+          fi
           
           # Clean up old images
           docker image prune -f
