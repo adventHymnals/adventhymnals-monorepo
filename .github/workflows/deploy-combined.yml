@@ -88,16 +88,46 @@ jobs:
           publish_branch: master
           cname: adventhymnals.org
 
-      # Clean up static export files to free disk space for Docker build
-      - name: Clean up static export files
+      # Aggressive cleanup to free disk space for Docker build
+      - name: Clean up static export files and free space
         run: |
-          echo "Disk usage before cleanup:"
+          echo "=== Disk usage before cleanup ==="
           df -h
+          du -sh * 2>/dev/null | sort -hr | head -10
+          
+          # Remove static export files
           rm -rf apps/web/out
           rm -rf apps/web/.next
-          echo "Disk usage after cleanup:"
+          
+          # Clean package caches
+          pnpm store prune
+          npm cache clean --force
+          
+          # Remove unnecessary files
+          find . -name "node_modules" -type d -exec rm -rf {} + 2>/dev/null || true
+          find . -name "*.log" -delete 2>/dev/null || true
+          find . -name "*.tmp" -delete 2>/dev/null || true
+          
+          # Clean up apt cache
+          sudo apt-get clean
+          sudo rm -rf /var/lib/apt/lists/*
+          
+          # Clear system caches
+          sudo sync
+          echo 3 | sudo tee /proc/sys/vm/drop_caches
+          
+          echo "=== Disk usage after cleanup ==="
           df -h
+          echo "=== Largest remaining directories ==="
+          du -sh * 2>/dev/null | sort -hr | head -5
 
+      # Reinstall minimal dependencies for Docker build
+      - name: Reinstall minimal dependencies
+        run: |
+          echo "=== Reinstalling only necessary dependencies ==="
+          # Only install what we need for Docker build
+          pnpm install --frozen-lockfile --prod
+          
       # Docker setup and build
       - name: Check available disk space
         run: |
@@ -141,8 +171,11 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=min
           platforms: linux/amd64
+          no-cache: false
+          pull: false
           build-args: |
             BUILDKIT_INLINE_CACHE=1
+            DOCKER_BUILDKIT=1
 
   # Deploy Docker container to server
   deploy-docker:
