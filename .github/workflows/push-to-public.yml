@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       source_image:
-        description: 'Source Docker image (private)'
+        description: 'Source Docker image (private monorepo)'
         required: false
         default: 'ghcr.io/adventhymnals/adventhymnals-monorepo:latest'
       target_image:

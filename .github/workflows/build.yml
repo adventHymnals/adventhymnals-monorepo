@@ -16,7 +16,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: adventhymnals/advent-hymnals-web
+  IMAGE_NAME: adventhymnals/adventhymnals-monorepo
 
 permissions:
   contents: read
@@ -194,7 +194,7 @@ jobs:
           event-type: push-to-public
           client-payload: |
             {
-              "source_image": "ghcr.io/adventhymnals/adventhymnals-monorepo:latest",
+              "source_image": "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest",
               "target_image": "ghcr.io/adventhymnals/advent-hymnals-web:latest",
               "sha": "${{ github.sha }}",
               "ref": "${{ github.ref }}"
