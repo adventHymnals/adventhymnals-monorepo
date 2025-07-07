@@ -57,41 +57,11 @@ jobs:
       - name: Build packages
         run: pnpm turbo build --filter=@advent-hymnals/web^...
 
-      # Build static export for GitHub Pages
-      - name: Build static export
-        continue-on-error: true
+      # Static export disabled due to API route conflicts - using Docker deployment only
+      - name: Skip static export
         run: |
-          cd apps/web
-          # Clean previous build to avoid EEXIST errors
-          rm -rf out .next
-          pnpm build
-        env:
-          NEXT_OUTPUT: export
-          NEXT_DISTDIR: out
-          
-      # Check if build output exists (verifies build succeeded despite errors)
-      - name: Verify build output
-        run: |
-          if [ ! -d "apps/web/out" ]; then
-            echo "Build failed - no output directory found"
-            exit 1
-          fi
-          html_count=$(find apps/web/out -name "*.html" | wc -l)
-          echo "Build output verified - found $html_count HTML files"
-          if [ "$html_count" -lt 1000 ]; then
-            echo "Warning: Less than expected HTML files generated, but continuing..."
-          fi
-
-      # Deploy to GitHub Pages (disabled - using custom server deployment)
-      - name: Deploy to GitHub Pages
-        if: false  # Disabled since we're using custom server deployment
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          external_repository: adventhymnals/adventhymnals.github.io
-          deploy_key: ${{ secrets.DEPLOY_SSH_KEY }}
-          publish_dir: ./apps/web/out
-          publish_branch: master
-          cname: adventhymnals.org
+          echo "Skipping static export build due to dynamic API route conflicts."
+          echo "Using Docker deployment with full API functionality instead."
 
       # Build for Docker (standalone mode)
       - name: Build for Docker deployment
@@ -110,10 +80,7 @@ jobs:
           echo "=== Disk usage before cleanup ==="
           df -h
           
-          # Remove static export files (keep Docker build)
-          rm -rf apps/web/out
-          
-          # Clean package caches but keep node_modules
+          # Clean package caches but keep build artifacts
           pnpm store prune
           npm cache clean --force
           
