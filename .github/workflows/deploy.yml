@@ -39,6 +39,26 @@ jobs:
             echo "sha=${{ github.sha }}" >> $GITHUB_OUTPUT
           fi
 
+      - name: Verify Docker image exists
+        run: |
+          echo "🔍 Verifying Docker image exists..."
+          
+          # Login to check image availability
+          echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+          
+          # Check if image exists and is pullable
+          IMAGE_TAG="${{ steps.info.outputs.image_tag }}"
+          IMAGE_URL="ghcr.io/adventhymnals/advent-hymnals-web:${IMAGE_TAG}"
+          
+          if docker manifest inspect "$IMAGE_URL" > /dev/null 2>&1; then
+            echo "✅ Docker image $IMAGE_URL exists and is accessible"
+          else
+            echo "❌ Docker image $IMAGE_URL does not exist or is not accessible"
+            echo "💡 This usually means the build workflow hasn't completed successfully yet."
+            echo "🔍 Please ensure the build workflow has completed before running deployment."
+            exit 1
+          fi
+
       - name: Deploy to server
         uses: appleboy/ssh-action@v1.0.0
         with:
@@ -80,38 +100,20 @@ jobs:
             # Login to GitHub Container Registry
             echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
             
-            # Use the robust deployment script
-            if [[ -f "./scripts/deploy.sh" ]]; then
-              echo "🚀 Using comprehensive deployment script..."
-              if ./scripts/deploy.sh update; then
-                echo "✅ Deployment script completed successfully"
-              else
-                echo "❌ Deployment script failed, trying fallback method..."
-                # Fallback deployment
-                echo "📦 Attempting direct docker deployment..."
-                if docker pull ghcr.io/adventhymnals/advent-hymnals-web:${{ steps.info.outputs.image_tag }}; then
-                  docker compose down || true
-                  docker compose up -d
-                  sleep 15
-                else
-                  echo "❌ Failed to pull Docker image. The image may not exist yet."
-                  echo "💡 This can happen if the build workflow hasn't completed successfully."
-                  echo "🔍 Please check that the build workflow has completed and the image is available in the registry."
-                  exit 1
-                fi
-              fi
-            else
-              echo "📦 Using fallback deployment method..."
-              if docker pull ghcr.io/adventhymnals/advent-hymnals-web:${{ steps.info.outputs.image_tag }}; then
-                docker compose down || true
-                docker compose up -d
-                sleep 15
-              else
-                echo "❌ Failed to pull Docker image and no deployment script found."
-                echo "💡 Please ensure the build workflow has completed and the image is available."
-                exit 1
-              fi
-            fi
+            # Deploy the application (image existence already verified)
+            echo "📦 Pulling latest Docker image..."
+            docker pull ghcr.io/adventhymnals/advent-hymnals-web:${{ steps.info.outputs.image_tag }}
+            
+            echo "🛑 Stopping existing containers..."
+            docker compose down || true
+            
+            echo "🚀 Starting new containers..."
+            docker compose up -d
+            
+            echo "⏱️ Waiting for containers to start..."
+            sleep 15
+            
+            echo "✅ Deployment completed successfully!"
             
             echo "🌐 Advent Hymnals is available at https://adventhymnals.org"
 
@@ -131,28 +133,29 @@ jobs:
             echo "📊 Container Status:"
             docker compose ps
             
-            # Check if containers are running
-            if docker compose ps --format json | jq -e '.[] | select(.State == "running")' > /dev/null 2>&1; then
-              echo "🏥 Health Check:"
+            # Check if any containers are running
+            RUNNING_CONTAINERS=$(docker compose ps --format json | jq -r '.[] | select(.State == "running") | .Name' | wc -l)
+            
+            if [ "$RUNNING_CONTAINERS" -gt 0 ]; then
+              echo "✅ Found $RUNNING_CONTAINERS running container(s)"
+              
+              # Test health endpoint
+              echo "🏥 Testing health endpoint..."
               if curl -sf http://localhost/api/health > /dev/null 2>&1; then
-                echo "✅ Internal health check passed"
+                echo "✅ Health check passed - application is responding"
               else
-                echo "❌ Internal health check failed"
-                echo "🔍 Checking container logs..."
+                echo "⚠️ Health check failed - application may still be starting"
+                echo "🔍 Container logs (last 10 lines):"
                 docker compose logs --tail=10
-                exit 1
               fi
               
-              # Only check HTTPS if nginx container is running and we're not in certificate acquisition mode
-              if docker compose ps nginx --format json | jq -e '.State == "running"' > /dev/null 2>&1; then
-                echo "ℹ️ HTTPS Check skipped - certificates should be managed separately via scripts/setup-ssl.sh"
-              else
-                echo "⚠️ Nginx container not running"
-              fi
+              echo "ℹ️ SSL certificates can be set up using: ./scripts/setup-ssl.sh"
             else
               echo "❌ No containers are running"
-              echo "🔍 Checking compose configuration..."
-              docker compose config --quiet || echo "❌ Docker compose configuration is invalid"
+              echo "🔍 Container status:"
+              docker compose ps
+              echo "🔍 Recent logs:"
+              docker compose logs --tail=20
               exit 1
             fi
             
