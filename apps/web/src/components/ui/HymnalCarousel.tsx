@@ -79,22 +79,22 @@ export default function HymnalCarousel({ hymnals }: HymnalCarouselProps) {
 
   return (
     <>
-      <div className="relative px-16">
-        {/* Navigation arrows - improved styling */}
+      <div className="relative px-0 lg:px-8">
+        {/* Navigation arrows - mobile at page border, desktop after last card */}
         <button
           onClick={prevSlide}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 w-12 h-12 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-full shadow-lg transition-all duration-200 flex items-center justify-center text-white"
+          className="absolute left-0 lg:left-0 top-1/2 transform -translate-y-1/2 z-10 w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-full shadow-lg transition-all duration-200 flex items-center justify-center text-white"
           aria-label="Previous hymnal"
         >
-          <ChevronLeftIcon className="h-6 w-6" />
+          <ChevronLeftIcon className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6" />
         </button>
         
         <button
           onClick={nextSlide}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 w-12 h-12 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-full shadow-lg transition-all duration-200 flex items-center justify-center text-white"
+          className="absolute right-0 lg:right-0 top-1/2 transform -translate-y-1/2 z-10 w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-full shadow-lg transition-all duration-200 flex items-center justify-center text-white"
           aria-label="Next hymnal"
         >
-          <ChevronRightIcon className="h-6 w-6" />
+          <ChevronRightIcon className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6" />
         </button>
 
         {/* Carousel container - dynamic height based on center card */}
@@ -103,7 +103,7 @@ export default function HymnalCarousel({ hymnals }: HymnalCarouselProps) {
             className="flex transition-transform duration-500 ease-in-out"
             style={{ 
               transform: `translateX(-${100 / visibleCount}%)`, // Always show second item as first visible
-              minHeight: '420px' // Accommodate scaled center card
+              minHeight: '460px' // Accommodate scaled center card with better spacing
             }}
           >
             {visibleHymnals.map((hymnal, index) => {
@@ -114,7 +114,7 @@ export default function HymnalCarousel({ hymnals }: HymnalCarouselProps) {
               return (
                 <div
                   key={`${hymnal.id}-${hymnal.displayIndex}`}
-                  className="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-4 flex items-center"
+                  className="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-4 sm:px-3 lg:px-4 flex items-center"
                 >
                   <div className={`relative overflow-hidden rounded-2xl shadow-xl transition-all duration-300 w-full ${
                     isCenter 
@@ -125,7 +125,7 @@ export default function HymnalCarousel({ hymnals }: HymnalCarouselProps) {
                     <div className={`absolute inset-0 bg-gradient-to-br ${hymnal.colors.gradient}`}></div>
                     
                     {/* Card content */}
-                    <div className="relative p-6 h-80 flex flex-col">
+                    <div className="relative p-4 sm:p-6 min-h-[320px] sm:min-h-[360px] lg:min-h-[380px] flex flex-col">
                       {/* Header */}
                       <div className="flex items-center justify-between mb-4">
                         <div className={`text-lg font-bold ${hymnal.colors.text} bg-white/20 rounded-lg px-2 py-1`}>
