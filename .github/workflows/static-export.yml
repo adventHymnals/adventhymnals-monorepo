@@ -96,37 +96,20 @@ jobs:
           NEXT_OUTPUT: export
           NEXT_DISTDIR: out
 
-      - name: Check if GitHub Pages deployment is configured
-        id: check_deploy_key
-        run: |
-          if [ -n "${{ secrets.DEPLOY_SSH_KEY }}" ]; then
-            echo "deploy_enabled=true" >> $GITHUB_OUTPUT
-            echo "✅ Deploy key found - GitHub Pages deployment enabled"
-          else
-            echo "deploy_enabled=false" >> $GITHUB_OUTPUT
-            echo "⚠️ Deploy key not found - GitHub Pages deployment disabled"
-            echo "To enable GitHub Pages deployment, add DEPLOY_SSH_KEY secret"
-          fi
-
-      - name: Deploy to GitHub Pages
-        if: success() && steps.check_deploy_key.outputs.deploy_enabled == 'true'
+      - name: Deploy to GitHub Pages (same repository)
+        if: success()
         uses: peaceiris/actions-gh-pages@v3
         with:
-          external_repository: adventhymnals/adventhymnals.github.io
-          deploy_key: ${{ secrets.DEPLOY_SSH_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./apps/web/out
-          publish_branch: master
-          cname: adventhymnals.org
+          publish_branch: gh-pages
+          cname: static.adventhymnals.org
           force_orphan: true
 
-      - name: Static export completed without deployment
-        if: success() && steps.check_deploy_key.outputs.deploy_enabled == 'false'
+      - name: Deployment completed
+        if: success()
         run: |
-          echo "✅ Static export build completed successfully!"
+          echo "✅ Static export build and deployment completed successfully!"
           echo "📁 Generated $(find apps/web/out -name '*.html' | wc -l) HTML files"
-          echo "⚠️ GitHub Pages deployment skipped (no DEPLOY_SSH_KEY secret)"
-          echo ""
-          echo "To enable GitHub Pages deployment:"
-          echo "1. Generate an SSH key pair"
-          echo "2. Add the public key to adventhymnals/adventhymnals.github.io as a deploy key"
-          echo "3. Add the private key as DEPLOY_SSH_KEY secret in this repository"
+          echo "🌐 Static site will be available at: https://static.adventhymnals.org"
+          echo "📝 You can also configure GitHub Pages in repository settings to use a custom domain"
