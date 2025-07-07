@@ -20,6 +20,10 @@ const nextConfig = {
     async rewrites() {
       return [
         {
+          source: '/data/sources/images/:path*',
+          destination: '/api/images/:path*',
+        },
+        {
           source: '/sitemap.xml',
           destination: '/api/sitemap',
         },
