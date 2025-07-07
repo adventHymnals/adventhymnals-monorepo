@@ -62,6 +62,8 @@ jobs:
         continue-on-error: true
         run: |
           cd apps/web
+          # Clean previous build to avoid EEXIST errors
+          rm -rf out .next
           pnpm build
         env:
           NEXT_OUTPUT: export
@@ -91,45 +93,36 @@ jobs:
           publish_branch: master
           cname: adventhymnals.org
 
-      # Aggressive cleanup to free disk space for Docker build
-      - name: Clean up static export files and free space
+      # Build for Docker (standalone mode)
+      - name: Build for Docker deployment
+        run: |
+          cd apps/web
+          # Clean previous build
+          rm -rf .next
+          pnpm build
+        env:
+          NODE_ENV: production
+          NEXT_TELEMETRY_DISABLED: 1
+
+      # Minimal cleanup to free disk space for Docker build
+      - name: Clean up for Docker build
         run: |
           echo "=== Disk usage before cleanup ==="
           df -h
-          du -sh * 2>/dev/null | sort -hr | head -10
           
-          # Remove static export files
+          # Remove static export files (keep Docker build)
           rm -rf apps/web/out
-          rm -rf apps/web/.next
           
-          # Clean package caches
+          # Clean package caches but keep node_modules
           pnpm store prune
           npm cache clean --force
           
-          # Remove unnecessary files
-          find . -name "node_modules" -type d -exec rm -rf {} + 2>/dev/null || true
+          # Remove unnecessary files but keep build artifacts
           find . -name "*.log" -delete 2>/dev/null || true
           find . -name "*.tmp" -delete 2>/dev/null || true
           
-          # Clean up apt cache
-          sudo apt-get clean
-          sudo rm -rf /var/lib/apt/lists/*
-          
-          # Clear system caches
-          sudo sync
-          echo 3 | sudo tee /proc/sys/vm/drop_caches
-          
           echo "=== Disk usage after cleanup ==="
           df -h
-          echo "=== Largest remaining directories ==="
-          du -sh * 2>/dev/null | sort -hr | head -5
-
-      # Reinstall minimal dependencies for Docker build
-      - name: Reinstall minimal dependencies
-        run: |
-          echo "=== Reinstalling only necessary dependencies ==="
-          # Only install what we need for Docker build
-          pnpm install --frozen-lockfile --prod
           
       # Docker setup and build
       - name: Check available disk space
@@ -162,13 +155,13 @@ jobs:
             type=sha,prefix=sha-
             type=raw,value=latest,enable={{is_default_branch}}
 
-      # Build Docker image with API support (for search functionality)
+      # Build Docker image using pre-built artifacts
       - name: Build and push Docker image
         id: build
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./apps/web/Dockerfile
+          file: ./apps/web/Dockerfile.optimized
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}

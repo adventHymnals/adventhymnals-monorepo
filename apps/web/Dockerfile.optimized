@@ -1,0 +1,28 @@
+# Optimized Dockerfile that uses pre-built artifacts from CI
+FROM node:18-alpine AS runner
+WORKDIR /app
+
+ENV NODE_ENV production
+ENV NEXT_TELEMETRY_DISABLED 1
+
+# Create nextjs user
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
+
+# Copy pre-built standalone application
+COPY apps/web/.next/standalone ./
+COPY apps/web/.next/static ./apps/web/.next/static
+COPY apps/web/public ./public
+
+# Copy hymnal data files
+COPY data ./data
+RUN chown -R nextjs:nodejs ./data
+
+USER nextjs
+
+EXPOSE 3000
+
+ENV PORT 3000
+ENV HOSTNAME "0.0.0.0"
+
+CMD ["node", "apps/web/server.js"]
