@@ -39,32 +39,14 @@ jobs:
             echo "sha=${{ github.sha }}" >> $GITHUB_OUTPUT
           fi
 
-      - name: Verify Docker image exists
+      - name: Set image location
         run: |
-          echo "🔍 Verifying Docker image exists..."
-          
-          # Login to check image availability
-          echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
-          
-          # Check if image exists and is pullable
+          # Use public repository image (no authentication needed for pulling)
           IMAGE_TAG="${{ steps.info.outputs.image_tag }}"
           IMAGE_URL="ghcr.io/adventhymnals/advent-hymnals-web:${IMAGE_TAG}"
-          FALLBACK_URL="ghcr.io/adventhymnals/adventhymnals-monorepo:${IMAGE_TAG}"
           
-          if docker manifest inspect "$IMAGE_URL" > /dev/null 2>&1; then
-            echo "✅ Docker image $IMAGE_URL exists and is accessible"
-            echo "IMAGE_LOCATION=$IMAGE_URL" >> $GITHUB_ENV
-          elif docker manifest inspect "$FALLBACK_URL" > /dev/null 2>&1; then
-            echo "⚠️ Image found at $FALLBACK_URL instead of expected location"
-            echo "📝 Using fallback image location for deployment"
-            echo "IMAGE_LOCATION=$FALLBACK_URL" >> $GITHUB_ENV
-          else
-            echo "❌ Docker image not found at either location:"
-            echo "   - Expected: $IMAGE_URL"
-            echo "   - Fallback: $FALLBACK_URL"
-            echo "💡 This usually means the build workflow hasn't completed successfully yet."
-            exit 1
-          fi
+          echo "📦 Using public image: $IMAGE_URL"
+          echo "IMAGE_LOCATION=$IMAGE_URL" >> $GITHUB_ENV
 
       - name: Deploy to server
         uses: appleboy/ssh-action@v1.0.0
@@ -104,10 +86,7 @@ jobs:
               docker network create web-network
             fi
             
-            # Login to GitHub Container Registry
-            echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
-            
-            # Deploy the application (image existence already verified)
+            # Deploy the application using public image (no authentication needed)
             echo "📦 Pulling Docker image..."
             docker pull ${{ env.IMAGE_LOCATION }}
             

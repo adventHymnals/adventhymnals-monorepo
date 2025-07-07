@@ -181,6 +181,22 @@ jobs:
             BUILDKIT_INLINE_CACHE=1
             DOCKER_BUILDKIT=1
 
+      # Also push to public deployment repository for easier access
+      - name: Push to public deployment repository
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./apps/web/Dockerfile
+          push: true
+          tags: |
+            ghcr.io/adventhymnals/advent-hymnals-web:latest
+            ghcr.io/adventhymnals/advent-hymnals-web:${{ github.sha }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          platforms: linux/amd64
+          no-cache: false
+          pull: false
+
   # Trigger deployment workflow on successful build
   trigger-deploy:
     needs: build
