@@ -39,14 +39,26 @@ jobs:
             echo "sha=${{ github.sha }}" >> $GITHUB_OUTPUT
           fi
 
-      - name: Set image location
+      - name: Verify public image availability
         run: |
-          # Use public repository image (no authentication needed for pulling)
+          # Check if public image is available (no authentication needed)
           IMAGE_TAG="${{ steps.info.outputs.image_tag }}"
-          IMAGE_URL="ghcr.io/adventhymnals/advent-hymnals-web:${IMAGE_TAG}"
+          PUBLIC_IMAGE="ghcr.io/adventhymnals/advent-hymnals-web:${IMAGE_TAG}"
+          PRIVATE_IMAGE="ghcr.io/adventhymnals/adventhymnals-monorepo:${IMAGE_TAG}"
           
-          echo "📦 Using public image: $IMAGE_URL"
-          echo "IMAGE_LOCATION=$IMAGE_URL" >> $GITHUB_ENV
+          echo "🔍 Checking public image availability: $PUBLIC_IMAGE"
+          
+          # Test public image accessibility without authentication
+          if docker manifest inspect "$PUBLIC_IMAGE" > /dev/null 2>&1; then
+            echo "✅ Public image is available: $PUBLIC_IMAGE"
+            echo "IMAGE_LOCATION=$PUBLIC_IMAGE" >> $GITHUB_ENV
+            echo "AUTH_REQUIRED=false" >> $GITHUB_ENV
+          else
+            echo "⚠️ Public image not yet available, falling back to private image"
+            echo "📝 Will use private image with authentication: $PRIVATE_IMAGE"
+            echo "IMAGE_LOCATION=$PRIVATE_IMAGE" >> $GITHUB_ENV
+            echo "AUTH_REQUIRED=true" >> $GITHUB_ENV
+          fi
 
       - name: Deploy to server
         uses: appleboy/ssh-action@v1.0.0
@@ -86,8 +98,15 @@ jobs:
               docker network create web-network
             fi
             
-            # Deploy the application using public image (no authentication needed)
-            echo "📦 Pulling Docker image..."
+            # Deploy the application
+            if [ "${{ env.AUTH_REQUIRED }}" = "true" ]; then
+              echo "🔐 Logging in for private image access..."
+              echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+            else
+              echo "🌐 Using public image (no authentication needed)"
+            fi
+            
+            echo "📦 Pulling Docker image: ${{ env.IMAGE_LOCATION }}"
             docker pull ${{ env.IMAGE_LOCATION }}
             
             echo "🛑 Stopping existing containers..."

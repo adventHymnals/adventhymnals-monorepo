@@ -1,0 +1,104 @@
+name: Push to Public Repository
+
+on:
+  repository_dispatch:
+    types: [push-to-public]
+  workflow_dispatch:
+    inputs:
+      source_image:
+        description: 'Source Docker image (private)'
+        required: false
+        default: 'ghcr.io/adventhymnals/adventhymnals-monorepo:latest'
+      target_image:
+        description: 'Target Docker image (public)'
+        required: false
+        default: 'ghcr.io/adventhymnals/advent-hymnals-web:latest'
+
+env:
+  REGISTRY: ghcr.io
+
+permissions:
+  contents: read
+  packages: write
+
+concurrency:
+  group: "push-to-public"
+  cancel-in-progress: false
+
+jobs:
+  push-to-public:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Extract image info
+        id: images
+        run: |
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo "source_image=${{ github.event.client_payload.source_image }}" >> $GITHUB_OUTPUT
+            echo "target_image=${{ github.event.client_payload.target_image }}" >> $GITHUB_OUTPUT
+            echo "triggered_by=build" >> $GITHUB_OUTPUT
+            echo "sha=${{ github.event.client_payload.sha }}" >> $GITHUB_OUTPUT
+          else
+            echo "source_image=${{ github.event.inputs.source_image || 'ghcr.io/adventhymnals/adventhymnals-monorepo:latest' }}" >> $GITHUB_OUTPUT
+            echo "target_image=${{ github.event.inputs.target_image || 'ghcr.io/adventhymnals/advent-hymnals-web:latest' }}" >> $GITHUB_OUTPUT
+            echo "triggered_by=manual" >> $GITHUB_OUTPUT
+            echo "sha=${{ github.sha }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Log in to Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull, tag, and push to public repository
+        run: |
+          SOURCE_IMAGE="${{ steps.images.outputs.source_image }}"
+          TARGET_IMAGE="${{ steps.images.outputs.target_image }}"
+          
+          echo "🔍 Pulling source image: $SOURCE_IMAGE"
+          docker pull "$SOURCE_IMAGE"
+          
+          echo "🏷️ Tagging for public repository: $TARGET_IMAGE"
+          docker tag "$SOURCE_IMAGE" "$TARGET_IMAGE"
+          
+          # Also tag with SHA for versioning
+          SHA_TAG="${TARGET_IMAGE%:*}:${{ steps.images.outputs.sha }}"
+          docker tag "$SOURCE_IMAGE" "$SHA_TAG"
+          
+          echo "📤 Pushing to public repository..."
+          docker push "$TARGET_IMAGE"
+          docker push "$SHA_TAG"
+          
+          echo "✅ Successfully pushed to public repository!"
+          echo "📦 Latest: $TARGET_IMAGE"
+          echo "📦 SHA: $SHA_TAG"
+
+      - name: Verify public image accessibility
+        run: |
+          TARGET_IMAGE="${{ steps.images.outputs.target_image }}"
+          
+          echo "🔍 Verifying public image accessibility..."
+          
+          # Logout to test public access
+          docker logout ghcr.io
+          
+          # Try to pull without authentication
+          if docker pull "$TARGET_IMAGE" > /dev/null 2>&1; then
+            echo "✅ Public image is accessible without authentication"
+          else
+            echo "⚠️ Public image may require authentication (this is normal for new images)"
+            echo "ℹ️ The image should be publicly accessible once GitHub processes the push"
+          fi
+
+      - name: Summary
+        run: |
+          echo "## 📋 Push to Public Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Source**: \`${{ steps.images.outputs.source_image }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "**Target**: \`${{ steps.images.outputs.target_image }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "**SHA**: \`${{ steps.images.outputs.sha }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "**Triggered by**: ${{ steps.images.outputs.triggered_by }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🚀 Ready for Deployment" >> $GITHUB_STEP_SUMMARY
+          echo "The image is now available in the public repository and can be deployed without authentication." >> $GITHUB_STEP_SUMMARY

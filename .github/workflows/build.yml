@@ -181,28 +181,25 @@ jobs:
             BUILDKIT_INLINE_CACHE=1
             DOCKER_BUILDKIT=1
 
-      # Also push to public deployment repository for easier access
-      - name: Push to public deployment repository
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          file: ./apps/web/Dockerfile
-          push: true
-          tags: |
-            ghcr.io/adventhymnals/advent-hymnals-web:latest
-            ghcr.io/adventhymnals/advent-hymnals-web:${{ github.sha }}
-          labels: ${{ steps.meta.outputs.labels }}
-          cache-from: type=gha
-          platforms: linux/amd64
-          no-cache: false
-          pull: false
-
-  # Trigger deployment workflow on successful build
-  trigger-deploy:
+  # Trigger public image push and deployment workflows on successful build
+  trigger-workflows:
     needs: build
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
     steps:
+      - name: Trigger public image push workflow
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: push-to-public
+          client-payload: |
+            {
+              "source_image": "ghcr.io/adventhymnals/adventhymnals-monorepo:latest",
+              "target_image": "ghcr.io/adventhymnals/advent-hymnals-web:latest",
+              "sha": "${{ github.sha }}",
+              "ref": "${{ github.ref }}"
+            }
+
       - name: Trigger deployment workflow
         uses: peter-evans/repository-dispatch@v2
         with:
