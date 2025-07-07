@@ -39,26 +39,17 @@ jobs:
             echo "sha=${{ github.sha }}" >> $GITHUB_OUTPUT
           fi
 
-      - name: Verify public image availability
+      - name: Set image configuration
         run: |
-          # Check if public image is available (no authentication needed)
+          # Use public advent-hymnals-web image
           IMAGE_TAG="${{ steps.info.outputs.image_tag }}"
-          PUBLIC_IMAGE="ghcr.io/adventhymnals/advent-hymnals-web:${IMAGE_TAG}"
-          PRIVATE_IMAGE="ghcr.io/adventhymnals/adventhymnals-monorepo:${IMAGE_TAG}"
+          TARGET_IMAGE="ghcr.io/adventhymnals/advent-hymnals-web:${IMAGE_TAG}"
           
-          echo "🔍 Checking public image availability: $PUBLIC_IMAGE"
+          echo "📦 Using public image: $TARGET_IMAGE"
+          echo "🌐 No authentication required for public image"
           
-          # Test public image accessibility without authentication
-          if docker manifest inspect "$PUBLIC_IMAGE" > /dev/null 2>&1; then
-            echo "✅ Public image is available: $PUBLIC_IMAGE"
-            echo "IMAGE_LOCATION=$PUBLIC_IMAGE" >> $GITHUB_ENV
-            echo "AUTH_REQUIRED=false" >> $GITHUB_ENV
-          else
-            echo "⚠️ Public image not yet available, falling back to private image"
-            echo "📝 Will use private image with authentication: $PRIVATE_IMAGE"
-            echo "IMAGE_LOCATION=$PRIVATE_IMAGE" >> $GITHUB_ENV
-            echo "AUTH_REQUIRED=true" >> $GITHUB_ENV
-          fi
+          echo "IMAGE_LOCATION=$TARGET_IMAGE" >> $GITHUB_ENV
+          echo "AUTH_REQUIRED=false" >> $GITHUB_ENV
 
       - name: Deploy to server
         uses: appleboy/ssh-action@v1.0.0
