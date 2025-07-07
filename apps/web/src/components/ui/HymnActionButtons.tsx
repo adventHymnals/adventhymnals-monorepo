@@ -83,33 +83,34 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug }: HymnAc
   };
 
   return (
-    <div className="mt-8 flex flex-wrap justify-center gap-4 action-buttons no-print">
+    <div className="mt-8 flex flex-wrap justify-center gap-2 sm:gap-4 action-buttons no-print">
       <button 
         onClick={handlePlayAudio}
-        className="inline-flex items-center px-4 py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200"
+        className="inline-flex items-center px-2 py-1.5 sm:px-4 sm:py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200 text-xs sm:text-sm"
       >
-        <PlayIcon className="h-4 w-4 mr-2" />
-        Play Audio
+        <PlayIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
+        <span className="sm:hidden">Play</span>
+        <span className="hidden sm:inline">Play Audio</span>
       </button>
       <button 
         onClick={handlePrint}
-        className="inline-flex items-center px-4 py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200"
+        className="inline-flex items-center px-2 py-1.5 sm:px-4 sm:py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200 text-xs sm:text-sm"
       >
-        <PrinterIcon className="h-4 w-4 mr-2" />
+        <PrinterIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
         Print
       </button>
       <button 
         onClick={handleEdit}
-        className="inline-flex items-center px-4 py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200"
+        className="inline-flex items-center px-2 py-1.5 sm:px-4 sm:py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200 text-xs sm:text-sm"
       >
-        <PencilIcon className="h-4 w-4 mr-2" />
+        <PencilIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
         Edit
       </button>
       <button 
         onClick={handleShare}
-        className="inline-flex items-center px-4 py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200"
+        className="inline-flex items-center px-2 py-1.5 sm:px-4 sm:py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200 text-xs sm:text-sm"
       >
-        <ShareIcon className="h-4 w-4 mr-2" />
+        <ShareIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
         Share
       </button>
     </div>

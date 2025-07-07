@@ -41,7 +41,9 @@ export default function Breadcrumbs({ items, className }: BreadcrumbsProps) {
                   className="ml-2 text-sm font-medium text-primary-100 hover:text-white transition-colors duration-200"
                 >
                   <span className="hidden sm:inline">{item.label}</span>
-                  <span className="sm:hidden">{item.mobileLabel || item.label}...</span>
+                  <span className="sm:hidden">
+                    {item.mobileLabel ? `${item.mobileLabel}...` : item.label}
+                  </span>
                 </Link>
               ) : (
                 <span
@@ -54,7 +56,12 @@ export default function Breadcrumbs({ items, className }: BreadcrumbsProps) {
                   aria-current={item.current ? 'page' : undefined}
                 >
                   <span className="hidden sm:inline">{item.label}</span>
-                  <span className="sm:hidden">{item.mobileLabel || item.label}...</span>
+                  <span className="sm:hidden">
+                    {item.current 
+                      ? item.label // Don't truncate current page (hymn title)
+                      : (item.mobileLabel ? `${item.mobileLabel}...` : item.label)
+                    }
+                  </span>
                 </span>
               )}
             </div>
@@ -86,8 +93,10 @@ export function generateHymnalBreadcrumbs(
   ];
 
   if (hymnTitle && hymnNumber) {
+    const firstWord = hymnTitle.split(' ')[0];
     breadcrumbs.push({
       label: `${hymnNumber}. ${hymnTitle}`,
+      mobileLabel: `${hymnNumber}. ${firstWord}`,
       current: true
     });
   }

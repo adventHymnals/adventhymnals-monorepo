@@ -107,24 +107,6 @@ export default async function EditPage({ params }: EditPageProps) {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Minimal Header */}
-      <div className="bg-gradient-to-r from-primary-600 to-primary-700 py-4 px-6">
-        <div className="flex items-center justify-between text-white">
-          <div>
-            <h1 className="text-lg font-bold">
-              <span className="text-primary-200 mr-2">#{hymn.number}</span>
-              {hymn.title}
-            </h1>
-            <p className="text-sm text-primary-100">
-              Edit hymn text and view original images
-            </p>
-          </div>
-          
-          {/* Close button */}
-          <CloseButton />
-        </div>
-      </div>
-
       {/* Edit Interface - Full Height */}
       <HymnEditView 
         hymn={hymn}

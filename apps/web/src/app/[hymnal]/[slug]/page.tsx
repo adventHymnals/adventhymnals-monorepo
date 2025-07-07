@@ -192,14 +192,20 @@ export default async function HymnPage({ params }: HymnPageProps) {
                               href={item.href}
                               className="ml-2 text-sm font-medium text-primary-100 hover:text-white transition-colors duration-200"
                             >
-                              {item.label}
+                              <span className="hidden sm:inline">{item.label}</span>
+                              <span className="sm:hidden">
+                                {item.mobileLabel ? `${item.mobileLabel}...` : item.label}
+                              </span>
                             </Link>
                           ) : (
                             <span
                               className="ml-2 text-sm font-medium text-white"
                               aria-current={item.current ? 'page' : undefined}
                             >
-                              {item.label}
+                              <span className="hidden sm:inline">{item.label}</span>
+                              <span className="sm:hidden">
+                                {item.mobileLabel ? `${item.mobileLabel}...` : item.label}
+                              </span>
                             </span>
                           )}
                         </div>
