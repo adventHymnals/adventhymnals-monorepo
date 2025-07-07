@@ -21,6 +21,12 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug }: HymnAc
     window.print();
   };
 
+  const handleEdit = () => {
+    const editUrl = `/${hymnalSlug}/${hymnSlug}/edit`;
+    // Open in new window like projection
+    window.open(editUrl, '_blank', 'width=1600,height=900,scrollbars=yes,resizable=yes');
+  };
+
   const handleShare = () => {
     const url = window.location.href;
     const title = `${hymn.title} - Hymn #${hymn.number}`;
@@ -92,15 +98,13 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug }: HymnAc
         <PrinterIcon className="h-4 w-4 mr-2" />
         Print
       </button>
-      <a
-        href={`/${hymnalSlug}/${hymnSlug}/edit`}
-        target="_blank"
-        rel="noopener noreferrer"
+      <button 
+        onClick={handleEdit}
         className="inline-flex items-center px-4 py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200"
       >
         <PencilIcon className="h-4 w-4 mr-2" />
         Edit
-      </a>
+      </button>
       <button 
         onClick={handleShare}
         className="inline-flex items-center px-4 py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200"
