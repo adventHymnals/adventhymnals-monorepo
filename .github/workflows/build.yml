@@ -16,7 +16,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: adventhymnals/adventhymnals-monorepo
+  IMAGE_NAME: adventhymnals/advent-hymnals-web
 
 permissions:
   contents: read
@@ -181,25 +181,12 @@ jobs:
             BUILDKIT_INLINE_CACHE=1
             DOCKER_BUILDKIT=1
 
-  # Trigger public image push and deployment workflows on successful build
-  trigger-workflows:
+  # Trigger deployment workflow on successful build
+  trigger-deployment:
     needs: build
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
     steps:
-      - name: Trigger public image push workflow
-        uses: peter-evans/repository-dispatch@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          event-type: push-to-public
-          client-payload: |
-            {
-              "source_image": "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest",
-              "target_image": "ghcr.io/adventhymnals/advent-hymnals-web:latest",
-              "sha": "${{ github.sha }}",
-              "ref": "${{ github.ref }}"
-            }
-
       - name: Trigger deployment workflow
         uses: peter-evans/repository-dispatch@v2
         with:
