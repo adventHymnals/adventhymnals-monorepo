@@ -9,12 +9,77 @@ interface HymnActionButtonsProps {
   };
   hymnalSlug: string;
   hymnSlug: string;
+  hymnalRef?: {
+    id: string;
+    music?: {
+      mp3?: string;
+      midi?: string;
+    };
+  };
 }
 
-export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug }: HymnActionButtonsProps) {
+export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRef }: HymnActionButtonsProps) {
   const handlePlayAudio = () => {
-    // Mock audio play functionality
-    alert('Audio playback feature coming soon!');
+    if (!hymnalRef?.music) {
+      alert('Audio not available for this hymnal.');
+      return;
+    }
+
+    // Generate audio URLs with fallback logic
+    const audioSources = [];
+    
+    // For development, try local files first, then external URLs
+    const isDevelopment = process.env.NODE_ENV === 'development';
+    
+    if (isDevelopment) {
+      // Try local files first in development
+      if (hymnalRef.music.mp3) {
+        audioSources.push(`/data/sources/audio/${hymnalRef.id}/${hymn.number}.mp3`);
+      }
+      if (hymnalRef.music.midi) {
+        audioSources.push(`/data/sources/audio/${hymnalRef.id}/${hymn.number}.mid`);
+      }
+    }
+    
+    // Add external URLs as fallback
+    if (hymnalRef.music.mp3) {
+      audioSources.push(`${hymnalRef.music.mp3}/${hymn.number}.mp3`);
+    }
+    if (hymnalRef.music.midi) {
+      audioSources.push(`${hymnalRef.music.midi}/${hymn.number}.mid`);
+    }
+
+    if (audioSources.length === 0) {
+      alert('No audio files available for this hymn.');
+      return;
+    }
+
+    // Try to play the first available audio source
+    tryPlayAudio(audioSources, 0);
+  };
+
+  const tryPlayAudio = (sources: string[], index: number) => {
+    if (index >= sources.length) {
+      alert('Audio file could not be loaded for this hymn.');
+      return;
+    }
+
+    const audio = new Audio();
+    
+    audio.onloadeddata = () => {
+      audio.play().catch((error) => {
+        console.error('Error playing audio:', error);
+        alert('Could not play audio. Please check your browser settings.');
+      });
+    };
+
+    audio.onerror = () => {
+      console.log(`Failed to load ${sources[index]}, trying next source...`);
+      tryPlayAudio(sources, index + 1);
+    };
+
+    audio.src = sources[index];
+    audio.load();
   };
 
   const handlePrint = () => {

@@ -24,6 +24,10 @@ const nextConfig = {
           destination: '/api/images/:path*',
         },
         {
+          source: '/data/sources/audio/:path*',
+          destination: '/api/audio/:path*',
+        },
+        {
           source: '/sitemap.xml',
           destination: '/api/sitemap',
         },
