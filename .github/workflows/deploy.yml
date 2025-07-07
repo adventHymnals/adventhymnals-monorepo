@@ -134,7 +134,7 @@ jobs:
             fi
             
             # Test HTTPS if certificates exist
-            if [ -f "/etc/letsencrypt/live/adventhymnals.org/fullchain.pem" ]; then
+            if docker compose exec -T nginx test -f /etc/letsencrypt/live/adventhymnals.org/fullchain.pem 2>/dev/null; then
               echo "🔒 HTTPS Check:"
               if curl -sf https://adventhymnals.org/api/health > /dev/null 2>&1; then
                 echo "✅ HTTPS health check passed"
