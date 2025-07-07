@@ -140,8 +140,8 @@ jobs:
             echo "📊 Container Status:"
             docker compose ps
             
-            # Check if any containers are running
-            RUNNING_CONTAINERS=$(docker compose ps --format json | jq -r '.[] | select(.State == "running") | .Name' | wc -l)
+            # Check if any containers are running (without jq dependency)
+            RUNNING_CONTAINERS=$(docker compose ps --services --filter "status=running" | wc -l)
             
             if [ "$RUNNING_CONTAINERS" -gt 0 ]; then
               echo "✅ Found $RUNNING_CONTAINERS running container(s)"
