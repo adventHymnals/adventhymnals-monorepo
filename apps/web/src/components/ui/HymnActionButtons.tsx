@@ -94,6 +94,8 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug }: HymnAc
       </button>
       <a
         href={`/${hymnalSlug}/${hymnSlug}/edit`}
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-flex items-center px-4 py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200"
       >
         <PencilIcon className="h-4 w-4 mr-2" />
