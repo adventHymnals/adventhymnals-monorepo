@@ -94,50 +94,8 @@ export async function generateStaticParams() {
 }
 
 export default async function EditPage({ params }: EditPageProps) {
-  // In static export mode, the edit components will handle data loading via API calls to adventhymnals.org
-  const isStaticExport = process.env.NEXT_OUTPUT === 'export';
-  
-  if (isStaticExport) {
-    // For static export, render a basic structure that will be enhanced by the client
-    // We need to create a client component that handles the data loading
-    const { default: EditPageClient } = await import('./EditPageClient');
-    return <EditPageClient params={params} />;
-  }
-
-  // For server builds, pre-load all the data
-  const hymnalReferences = await loadHymnalReferences();
-  const hymnalRef = Object.values(hymnalReferences.hymnals).find(
-    (h) => h.url_slug === params.hymnal
-  );
-
-  if (!hymnalRef) {
-    notFound();
-  }
-
-  const hymnNumber = extractHymnNumber(params.slug);
-  if (!hymnNumber) {
-    notFound();
-  }
-
-  const hymnId = `${hymnalRef.id}-${hymnalRef.language}-${hymnNumber.toString().padStart(3, '0')}`;
-  const hymn = await loadHymn(hymnId);
-  
-  if (!hymn) {
-    notFound();
-  }
-
-  // Load all hymns for navigation
-  const { hymns: allHymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
-
-  return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Edit Interface - Full Height */}
-      <HymnEditView 
-        hymn={hymn}
-        hymnalRef={hymnalRef}
-        allHymns={allHymns}
-        params={params}
-      />
-    </div>
-  );
+  // Always render client component to avoid RSC requests during navigation
+  // The client component will handle data loading via external API
+  const { default: EditPageClient } = await import('./EditPageClient');
+  return <EditPageClient params={params} />;
 }

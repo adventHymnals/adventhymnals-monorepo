@@ -68,34 +68,11 @@ export async function generateMetadata({ params }: ProjectionPageProps): Promise
 }
 
 export default async function ProjectionPage({ params }: ProjectionPageProps) {
-  // In static export mode, the client will handle data loading via API calls to adventhymnals.org
-  const isStaticExport = process.env.NEXT_OUTPUT === 'export';
-  
-  if (isStaticExport) {
-    // For static export, render a basic structure that will be enhanced by the client
-    return (
-      <Suspense fallback={<div className="flex items-center justify-center min-h-screen bg-black text-white">Loading projection...</div>}>
-        <ProjectionClient hymnId={params.hymnId} hymn={null} />
-      </Suspense>
-    );
-  }
-
-  // For server builds, pre-load the hymn data
-  try {
-    const { loadHymn } = await import('@/lib/data-server');
-    const hymn = await loadHymn(params.hymnId);
-    
-    if (!hymn) {
-      notFound();
-    }
-    
-    return (
-      <Suspense fallback={<div className="flex items-center justify-center min-h-screen bg-black text-white">Loading projection...</div>}>
-        <ProjectionClient hymnId={params.hymnId} hymn={hymn} />
-      </Suspense>
-    );
-  } catch (error) {
-    console.error('Failed to load hymn:', error);
-    notFound();
-  }
+  // Always render client component to avoid RSC requests during navigation
+  // The client component will handle data loading via external API
+  return (
+    <Suspense fallback={<div className="flex items-center justify-center min-h-screen bg-black text-white">Loading projection...</div>}>
+      <ProjectionClient hymnId={params.hymnId} hymn={null} />
+    </Suspense>
+  );
 }
