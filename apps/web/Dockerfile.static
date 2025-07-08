@@ -46,7 +46,7 @@ ENV NODE_ENV production
 RUN pnpm --filter @advent-hymnals/shared build
 
 # Build the Next.js static export
-RUN cd apps/web && NEXT_OUTPUT=export NEXT_DISTDIR=out pnpm build
+RUN cd apps/web && NEXT_OUTPUT=export NEXT_DISTDIR=out NEXT_PUBLIC_API_BASE_URL=https://adventhymnals.org pnpm build
 
 # Production stage with nginx
 FROM nginx:alpine AS runner
