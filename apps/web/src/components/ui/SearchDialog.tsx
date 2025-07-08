@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
 import { MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import { getApiUrl } from '@/lib/data';
 
 
 interface SearchResult {
@@ -44,7 +45,7 @@ export default function SearchDialog({
     setLoading(true);
     
     try {
-      const response = await fetch(`/api/search?q=${encodeURIComponent(searchQuery)}&hymnal=${hymnalId}&limit=10`);
+      const response = await fetch(getApiUrl(`/api/search?q=${encodeURIComponent(searchQuery)}&hymnal=${hymnalId}&limit=10`));
       if (!response.ok) {
         throw new Error('Search failed');
       }

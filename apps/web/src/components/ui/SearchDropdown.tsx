@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { getApiUrl } from '@/lib/data';
 
 interface SearchResult {
   id: string;
@@ -43,7 +44,7 @@ export default function SearchDropdown({
     setLoading(true);
     
     try {
-      const response = await fetch(`/api/search?q=${encodeURIComponent(query)}&limit=5`);
+      const response = await fetch(getApiUrl(`/api/search?q=${encodeURIComponent(query)}&limit=5`));
       if (!response.ok) {
         throw new Error('Search failed');
       }

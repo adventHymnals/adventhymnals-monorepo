@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { ArrowDownTrayIcon } from '@heroicons/react/24/outline';
+import { getApiUrl } from '@/lib/data';
 
 interface PDFDownloadButtonProps {
   hymnalId: string;
@@ -31,7 +32,7 @@ export default function PDFDownloadButton({
 
     try {
       // Start the download
-      const response = await fetch(`/api/hymnals/${hymnalId}/pdf`);
+      const response = await fetch(getApiUrl(`/api/hymnals/${hymnalId}/pdf`));
       
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
