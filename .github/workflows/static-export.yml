@@ -101,7 +101,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           external_repository: adventhymnals/adventhymnals.github.io
-          deploy_key: ${{ secrets.DEPLOY_SSH_KEY }}
+          deploy_key: ${{ secrets.PAGES_DEPLOY_KEY }}
           publish_dir: ./apps/web/out
           publish_branch: master
           cname: adventhymnals.org
