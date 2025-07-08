@@ -11,27 +11,30 @@ interface ProjectionPageProps {
 }
 
 export async function generateStaticParams() {
-  // For static export, generate projection pages for hymns but show "not supported" message
-  // For dynamic server builds, generate projection pages with full functionality
   try {
     // Use server-side functions directly instead of API fetch during build
     const { loadHymnalHymns } = await import('@/lib/data-server');
     const hymnalReferences = await loadHymnalReferences();
     const allHymnIds: string[] = [];
     
-    // For static export, limit to first 100 hymns per hymnal to avoid excessive build times
+    // For static export, limit to first 50 hymns per hymnal to avoid excessive build times
     const isStaticExport = process.env.NEXT_OUTPUT === 'export';
-    const hymnLimit = isStaticExport ? 100 : 1000;
+    const hymnLimit = isStaticExport ? 50 : 1000;
+    
+    console.log(`🎵 Generating projection static params, isStaticExport: ${isStaticExport}, hymnLimit: ${hymnLimit}`);
     
     // Load hymns from all hymnals
     for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
       try {
         const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, hymnLimit);
         allHymnIds.push(...hymns.map((hymn: { id: string }) => hymn.id));
+        console.log(`✅ Added ${hymns.length} projection pages for ${hymnalRef.id}`);
       } catch (error) {
         console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
       }
     }
+    
+    console.log(`🎯 Generated ${allHymnIds.length} projection static params`);
     
     return allHymnIds.map((hymnId: string) => ({
       hymnId
@@ -65,42 +68,19 @@ export async function generateMetadata({ params }: ProjectionPageProps): Promise
 }
 
 export default async function ProjectionPage({ params }: ProjectionPageProps) {
-  // Check if this is a static export build
+  // In static export mode, the client will handle data loading via API calls to adventhymnals.org
   const isStaticExport = process.env.NEXT_OUTPUT === 'export';
   
-  // Show "not supported" message for static export builds
   if (isStaticExport) {
+    // For static export, render a basic structure that will be enhanced by the client
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="max-w-md mx-auto bg-white rounded-lg shadow-sm border p-8 text-center">
-          <div className="mb-6">
-            <svg className="mx-auto h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-          </div>
-          
-          <h1 className="text-xl font-semibold text-gray-900 mb-3">
-            Projection Mode Not Available
-          </h1>
-          
-          <p className="text-gray-600 mb-6">
-            Projection mode is not supported in fully static mode. This feature requires a dynamic server environment.
-          </p>
-          
-          <div className="space-y-3">
-            <a
-              href="/"
-              className="block w-full bg-primary-600 text-white py-2 px-4 rounded-lg hover:bg-primary-700 transition-colors"
-            >
-              Back to Home
-            </a>
-          </div>
-        </div>
-      </div>
+      <Suspense fallback={<div className="flex items-center justify-center min-h-screen bg-black text-white">Loading projection...</div>}>
+        <ProjectionClient hymnId={params.hymnId} hymn={null} />
+      </Suspense>
     );
   }
 
-  // For dynamic server builds, show the actual projection interface
+  // For server builds, pre-load the hymn data
   try {
     const { loadHymn } = await import('@/lib/data-server');
     const hymn = await loadHymn(params.hymnId);

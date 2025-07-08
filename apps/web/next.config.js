@@ -4,6 +4,15 @@ const nextConfig = {
   distDir: process.env.NEXT_DISTDIR || '.next',
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
+  // For static export, disable features that require server-side functionality
+  ...(process.env.NEXT_OUTPUT === 'export' && {
+    // Disable image optimization for static export
+    images: {
+      unoptimized: true,
+      domains: ['raw.githubusercontent.com'],
+      formats: ['image/webp', 'image/avif'],
+    },
+  }),
   eslint: {
     // Disable ESLint during builds
     ignoreDuringBuilds: true,
@@ -11,11 +20,14 @@ const nextConfig = {
   experimental: {
     // typedRoutes: true, // Disabled temporarily due to dynamic route issues
   },
-  images: {
-    domains: ['raw.githubusercontent.com'],
-    formats: ['image/webp', 'image/avif'],
-    minimumCacheTTL: 31536000, // 1 year
-  },
+  // Images configuration - conditional based on export mode
+  ...(process.env.NEXT_OUTPUT !== 'export' && {
+    images: {
+      domains: ['raw.githubusercontent.com'],
+      formats: ['image/webp', 'image/avif'],
+      minimumCacheTTL: 31536000, // 1 year
+    },
+  }),
   ...(process.env.NEXT_OUTPUT !== 'export' && {
     async rewrites() {
       return [

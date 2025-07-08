@@ -122,6 +122,7 @@ jobs:
         env:
           NEXT_OUTPUT: export
           NEXT_DISTDIR: out
+          NEXT_PUBLIC_API_BASE_URL: https://adventhymnals.org
 
       - name: Deploy to GitHub Pages (adventhymnals.github.io)
         if: success()

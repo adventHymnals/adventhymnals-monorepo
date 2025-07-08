@@ -3,6 +3,16 @@ import { Hymn, Hymnal, HymnalCollection, HymnalReference } from '@advent-hymnals
 // Cache for loaded data
 const cache = new Map<string, unknown>();
 
+// API base URL - for static export, use production API
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.API_BASE_URL || '';
+
+function getApiUrl(path: string): string {
+  if (API_BASE_URL) {
+    return `${API_BASE_URL}${path}`;
+  }
+  return path; // Use relative URLs for non-static builds
+}
+
 /**
  * Load hymnal reference metadata
  */
@@ -14,7 +24,7 @@ export async function loadHymnalReferences(): Promise<HymnalCollection> {
   }
 
   try {
-    const response = await fetch('/api/hymnals');
+    const response = await fetch(getApiUrl('/api/hymnals'));
     if (!response.ok) {
       throw new Error('Failed to fetch hymnal references');
     }
@@ -77,7 +87,7 @@ export async function loadHymnal(hymnalId: string): Promise<Hymnal | null> {
   }
 
   try {
-    const response = await fetch(`/api/hymnals/${hymnalId}`);
+    const response = await fetch(getApiUrl(`/api/hymnals/${hymnalId}`));
     if (!response.ok) {
       return null;
     }
@@ -102,7 +112,7 @@ export async function loadHymn(hymnId: string): Promise<Hymn | null> {
   }
 
   try {
-    const response = await fetch(`/api/hymns/${hymnId}`);
+    const response = await fetch(getApiUrl(`/api/hymns/${hymnId}`));
     if (!response.ok) {
       return null;
     }
@@ -125,7 +135,7 @@ export async function loadHymnalHymns(
   limit: number = 50
 ): Promise<{ hymns: Hymn[]; total: number; totalPages: number }> {
   try {
-    const response = await fetch(`/api/hymnals/${hymnalId}/hymns?page=${page}&limit=${limit}`);
+    const response = await fetch(getApiUrl(`/api/hymnals/${hymnalId}/hymns?page=${page}&limit=${limit}`));
     if (!response.ok) {
       return { hymns: [], total: 0, totalPages: 0 };
     }
@@ -155,7 +165,7 @@ export async function searchHymns(
       params.append('hymnal', hymnalId);
     }
     
-    const response = await fetch(`/api/search?${params.toString()}`);
+    const response = await fetch(getApiUrl(`/api/search?${params.toString()}`));
     if (!response.ok) {
       return [];
     }
@@ -175,7 +185,7 @@ export async function getRelatedHymns(
   limit: number = 10
 ): Promise<Array<{ hymn: Hymn; hymnal: HymnalReference; relationship: string }>> {
   try {
-    const response = await fetch(`/api/hymns/${hymnId}/related?limit=${limit}`);
+    const response = await fetch(getApiUrl(`/api/hymns/${hymnId}/related?limit=${limit}`));
     if (!response.ok) {
       return [];
     }

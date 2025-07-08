@@ -27,7 +27,7 @@ import {
 
 interface ProjectionClientProps {
   hymnId: string;
-  hymn: Hymn;
+  hymn: Hymn | null;
 }
 
 const defaultSettings: ProjectionSettings = {
@@ -39,9 +39,10 @@ const defaultSettings: ProjectionSettings = {
   autoAdvance: false,
 };
 
-export default function ProjectionClient({ hymnId, hymn }: ProjectionClientProps) {
+export default function ProjectionClient({ hymnId, hymn: initialHymn }: ProjectionClientProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
+  const [hymn, setHymn] = useState<Hymn | null>(initialHymn);
   const [slides, setSlides] = useState<ProjectionSlide[]>([]);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [settings, setSettings] = useState<ProjectionSettings>(defaultSettings);
@@ -52,6 +53,7 @@ export default function ProjectionClient({ hymnId, hymn }: ProjectionClientProps
   const [hymnalData, setHymnalData] = useState<unknown>(null);
   const [allHymns, setAllHymns] = useState<unknown[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const [loading, setLoading] = useState(!initialHymn);
 
   // Auto-enter fullscreen on mount
   useEffect(() => {
@@ -104,6 +106,28 @@ export default function ProjectionClient({ hymnId, hymn }: ProjectionClientProps
       document.removeEventListener('click', handleClick);
     };
   }, []);
+
+  // Load hymn data if not initially provided (for static export)
+  useEffect(() => {
+    const loadHymnData = async () => {
+      if (!hymn) {
+        setLoading(true);
+        try {
+          const { loadHymn } = await import('@/lib/data');
+          const hymnData = await loadHymn(hymnId);
+          if (hymnData) {
+            setHymn(hymnData);
+          }
+        } catch (error) {
+          console.error('Failed to load hymn:', error);
+        } finally {
+          setLoading(false);
+        }
+      }
+    };
+
+    loadHymnData();
+  }, [hymnId, hymn]);
 
   // Load hymnal data
   useEffect(() => {
@@ -334,7 +358,7 @@ export default function ProjectionClient({ hymnId, hymn }: ProjectionClientProps
     };
   }, []);
 
-  if (!hymn || slides.length === 0) {
+  if (loading || !hymn || slides.length === 0) {
     return (
       <div className="min-h-screen bg-gray-900 flex items-center justify-center">
         <div className="text-white text-center">
