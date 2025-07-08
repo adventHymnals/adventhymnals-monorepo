@@ -4,8 +4,8 @@
   "title": "Sing a New Song to the Lord",
   "author": "Timothy Dudley-Smith",
   "composer": "David G. Wilson",
-  "tune": "[unclear]",
-  "meter": "6/8",
+  "tune": "Cantate Domino",
+  "meter": "9.8.9.8",
   "language": "en",
   "verses": [
     {
@@ -37,7 +37,7 @@
       "Psalm 96",
       "Psalm 98"
     ],
-    "tune_source": "[unclear]",
+    "tune_source": "David G. Wilson, 1973",
     "original_language": "en"
   }
 }

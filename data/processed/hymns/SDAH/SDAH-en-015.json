@@ -2,10 +2,10 @@
   "id": "SDAH-en-015",
   "number": 15,
   "title": "My Maker and My King",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "4/4",
+  "author": "Charles Wesley",
+  "composer": "Joseph Barnby",
+  "tune": "Laudes Domini",
+  "meter": "6.6.8.6",
   "language": "en",
   "verses": [
     {
@@ -25,17 +25,21 @@
       "text": "O! let Thy grace inspire\nMy soul with strength divine;\nLet every word and each desire\nAnd all my days be Thine."
     }
   ],
-  "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1740,
+    "copyright": "Public Domain",
     "themes": [
       "thanksgiving",
       "dedication",
-      "God's sovereignty"
+      "stewardship",
+      "sovereignty"
     ],
-    "scripture_references": [],
-    "tune_source": null,
+    "scripture_references": [
+      "1 Chronicles 29:14",
+      "Romans 11:36",
+      "Psalm 116:12"
+    ],
+    "tune_source": "Joseph Barnby, 1868",
     "original_language": "en"
   }
 }

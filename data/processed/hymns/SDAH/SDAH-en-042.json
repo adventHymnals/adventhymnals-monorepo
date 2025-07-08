@@ -2,10 +2,10 @@
   "id": "SDAH-en-042",
   "number": 42,
   "title": "Now That the Daylight Fills the Sky",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "Anonymous Latin",
+  "composer": "Tallis' Canon",
+  "tune": "Tallis' Canon",
+  "meter": "8.8.8.8",
   "language": "en",
   "verses": [
     {
@@ -27,16 +27,23 @@
   ],
   "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 600,
+    "copyright": "Public Domain",
     "themes": [
       "morning",
       "protection",
       "prayer",
-      "praise"
+      "praise",
+      "daily devotion",
+      "spiritual vigilance"
     ],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en"
+    "scripture_references": [
+      "Psalm 5:3",
+      "Psalm 143:8",
+      "Matthew 6:13"
+    ],
+    "tune_source": "Thomas Tallis, c. 1567",
+    "original_language": "la",
+    "translator": "John Mason Neale"
   }
 }

@@ -2,10 +2,10 @@
   "id": "SDAH-en-016",
   "number": 16,
   "title": "All People That on Earth Do Dwell",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "4/4",
+  "author": "William Kethe",
+  "composer": "Louis Bourgeois",
+  "tune": "Old 100th",
+  "meter": "L.M.",
   "language": "en",
   "verses": [
     {
@@ -25,20 +25,20 @@
       "text": "For why the Lord our God is good,\nHis mercy is forever sure;\nHis truth at all times firmly stood,\nAnd shall from age to age endure."
     }
   ],
-  "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1561,
+    "copyright": "Public Domain",
     "themes": [
       "praise",
       "worship",
-      "God's goodness",
-      "thanksgiving"
+      "thanksgiving",
+      "God's goodness"
     ],
     "scripture_references": [
       "Psalm 100"
     ],
-    "tune_source": null,
-    "original_language": "en"
+    "tune_source": "Genevan Psalter, 1551",
+    "original_language": "en",
+    "notes": "Metrical version of Psalm 100"
   }
 }

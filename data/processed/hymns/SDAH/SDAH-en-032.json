@@ -4,8 +4,8 @@
   "title": "When in Our Music God Is Glorified",
   "author": "Fred Pratt Green",
   "composer": "Charles Stanford",
-  "tune": "[unclear]",
-  "meter": "4/4",
+  "tune": "Engelberg",
+  "meter": "10.10.10 with Alleluias",
   "language": "en",
   "verses": [
     {
@@ -39,7 +39,7 @@
     "scripture_references": [
       "Matthew 26:30"
     ],
-    "tune_source": "[unclear]",
+    "tune_source": "Charles Villiers Stanford, 1904",
     "original_language": "en"
   }
 }

@@ -2,10 +2,10 @@
   "id": "SDAH-en-044",
   "number": 44,
   "title": "Morning Has Broken",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "Eleanor Farjeon",
+  "composer": "Traditional Gaelic",
+  "tune": "Bunessan",
+  "meter": "5.5.5.4.D",
   "language": "en",
   "verses": [
     {
@@ -23,16 +23,22 @@
   ],
   "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1931,
+    "copyright": "© Eleanor Farjeon",
     "themes": [
       "morning",
       "creation",
       "praise",
-      "nature"
+      "nature",
+      "renewal",
+      "Eden"
     ],
-    "scripture_references": [],
-    "tune_source": null,
+    "scripture_references": [
+      "Genesis 1:31",
+      "Psalm 104:24",
+      "Lamentations 3:23"
+    ],
+    "tune_source": "Traditional Gaelic melody",
     "original_language": "en"
   }
 }

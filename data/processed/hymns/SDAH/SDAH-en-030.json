@@ -2,10 +2,10 @@
   "id": "SDAH-en-030",
   "number": 30,
   "title": "Holy God, We Praise Your Name",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "Ignaz Franz",
+  "composer": "Catholic Kirchengesang",
+  "tune": "Grosser Gott",
+  "meter": "7.8.7.8.7.7",
   "language": "en",
   "verses": [
     {
@@ -22,19 +22,26 @@
     }
   ],
   "chorus": {
-    "text": "Infinite Your vast domain,\nEverlasting is Your reign."
+    "text": "Infinite Your vast domain,\nEverlasting is Your reign!"
   },
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1774,
+    "copyright": "Public Domain",
     "themes": [
       "praise",
       "worship",
       "Trinity",
-      "holiness"
+      "holiness",
+      "adoration",
+      "angels"
     ],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en"
+    "scripture_references": [
+      "Revelation 4:8",
+      "Isaiah 6:3",
+      "1 Timothy 1:17"
+    ],
+    "tune_source": "Catholic Kirchengesang, Vienna, c. 1774",
+    "original_language": "de",
+    "translator": "Clarence Alphonsus Walworth"
   }
 }

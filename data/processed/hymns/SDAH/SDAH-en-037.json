@@ -2,10 +2,10 @@
   "id": "SDAH-en-037",
   "number": 37,
   "title": "O Sing, My Soul, Your Maker's Praise",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "3/4",
+  "author": "Anne Steele",
+  "composer": "Joseph Barnby",
+  "tune": "Laudes Domini",
+  "meter": "6.6.6.6.6.6",
   "language": "en",
   "verses": [
     {
@@ -22,18 +22,22 @@
     }
   ],
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1760,
+    "copyright": "Public Domain",
     "themes": [
       "praise",
       "thanksgiving",
       "trust",
-      "God's love"
+      "God's love",
+      "comfort",
+      "faithfulness"
     ],
     "scripture_references": [
-      "Psalm 34"
+      "Psalm 34:6",
+      "Psalm 30:5",
+      "Lamentations 3:22-23"
     ],
-    "tune_source": "[unclear]",
+    "tune_source": "Joseph Barnby, 1868",
     "original_language": "en"
   }
 }

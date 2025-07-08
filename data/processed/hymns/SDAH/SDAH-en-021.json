@@ -2,15 +2,15 @@
   "id": "SDAH-en-021",
   "number": 21,
   "title": "Immortal, Invisible, God Only Wise",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "Walter Chalmers Smith",
+  "composer": "John Roberts",
+  "tune": "St. Denio",
+  "meter": "11.11.11.11",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "Immortal, invisible, God only wise,\nIn light inaccessible hid from our eyes,\nMost blessed, most glorious, the Ancient of days,\nAlmighty, victorious, Thy great name we praise."
+      "text": "Immortal, invisible, God only wise,\nIn light inaccessible hid from our eyes,\nMost blessed, most glorious, the Ancient of Days,\nAlmighty, victorious, Thy great name we praise."
     },
     {
       "number": 2,
@@ -18,24 +18,28 @@
     },
     {
       "number": 3,
-      "text": "To all life Thou givest, to both great and small;\nIn all life Thou livest, the true life of all;\nWe blossom and flourish, like leaves on the tree,\nThen wither and perish; but naught changeth Thee."
+      "text": "To all life Thou givest to both great and small;\nIn all life Thou livest, the true life of all;\nWe blossom and flourish as leaves on the tree,\nThen wither and perish; but naught changeth Thee."
     },
     {
       "number": 4,
       "text": "Great Father of glory, pure Father of light,\nThine angels adore Thee, all veiling their sight;\nAll laud we would render: O help us to see\n'Tis only the splendor of light hideth Thee."
     }
   ],
-  "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1867,
+    "copyright": "Public Domain",
     "themes": [
-      "praise",
+      "God's attributes",
+      "eternity",
       "worship",
-      "God's attributes"
+      "transcendence"
     ],
-    "scripture_references": [],
-    "tune_source": null,
+    "scripture_references": [
+      "1 Timothy 1:17",
+      "1 Timothy 6:16",
+      "Daniel 7:9"
+    ],
+    "tune_source": "Welsh hymn melody, John Roberts, 1839",
     "original_language": "en"
   }
 }

@@ -2,10 +2,10 @@
   "id": "SDAH-en-017",
   "number": 17,
   "title": "Lord of All Being, Throned Afar",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "3/4",
+  "author": "Oliver Wendell Holmes",
+  "composer": "John B. Dykes",
+  "tune": "Louvan",
+  "meter": "L.M.D.",
   "language": "en",
   "verses": [
     {
@@ -22,25 +22,29 @@
     },
     {
       "number": 4,
-      "text": "Lord of all life, below, above,\nWhose light is truth, whose warmth is love,\nBefore Thy ever-blazing throne\nWe ask no lustre of our own."
+      "text": "Lord of all life, below, above,\nWhose light is truth, whose warmth is love,\nBefore Thy ever-blazing throne\nWe ask no luster of our own."
     },
     {
       "number": 5,
       "text": "Grant us Thy truth to make us free,\nAnd kindling hearts that burn for Thee,\nTill all Thy living altars claim\nOne holy light, one heavenly flame."
     }
   ],
-  "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1848,
+    "copyright": "Public Domain",
     "themes": [
-      "God's sovereignty",
+      "worship",
+      "nature",
       "light",
       "truth",
-      "worship"
+      "love"
     ],
-    "scripture_references": [],
-    "tune_source": null,
+    "scripture_references": [
+      "John 1:4-5",
+      "1 John 1:5",
+      "John 8:32"
+    ],
+    "tune_source": "John B. Dykes, 1875",
     "original_language": "en"
   }
 }

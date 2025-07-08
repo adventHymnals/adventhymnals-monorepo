@@ -2,10 +2,10 @@
   "id": "SDAH-en-036",
   "number": 36,
   "title": "O Thou in Whose Presence",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "4/4",
+  "author": "Joseph Swain",
+  "composer": "Freeman Lewis",
+  "tune": "Swain",
+  "meter": "11.11.11.11",
   "language": "en",
   "verses": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "number": 3,
-      "text": "His looks, as the fountain of righteousness,\nAnd ten thousands of angels rejoice;\nFirm is His promise, and His mercy sure,\nRejoice in His glorious word; He speaks, and eternity filled with His voice,\nRehopes, air is perfumed with His breath."
+      "text": "His looks, as a fountain of righteousness flow,\nThat waters the garden of grace;\nFrom which their salvation the Gentiles shall know,\nAnd bask in the smiles of His face."
     },
     {
       "number": 4,
@@ -26,15 +26,20 @@
     }
   ],
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1792,
+    "copyright": "Public Domain",
     "themes": [
       "worship",
       "comfort",
-      "presence of God"
+      "presence of God",
+      "salvation",
+      "praise"
     ],
-    "scripture_references": [],
-    "tune_source": "[unclear]",
+    "scripture_references": [
+      "Psalm 16:11",
+      "Psalm 91:15"
+    ],
+    "tune_source": "Freeman Lewis, 1825",
     "original_language": "en"
   }
 }

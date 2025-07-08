@@ -2,10 +2,10 @@
   "id": "SDAH-en-045",
   "number": 45,
   "title": "Open Now Thy Gates of Beauty",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "Benjamin Schmolck",
+  "composer": "Joachim Neander",
+  "tune": "Unser Herrscher",
+  "meter": "8.7.8.7.7.7",
   "language": "en",
   "verses": [
     {
@@ -31,16 +31,23 @@
   ],
   "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1732,
+    "copyright": "Public Domain",
     "themes": [
       "worship",
       "temple",
       "prayer",
-      "blessing"
+      "blessing",
+      "sanctuary",
+      "spiritual growth"
     ],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en"
+    "scripture_references": [
+      "Psalm 100:4",
+      "Psalm 84:1-2",
+      "Isaiah 55:11"
+    ],
+    "tune_source": "Joachim Neander, 1680",
+    "original_language": "de",
+    "translator": "Catherine Winkworth"
   }
 }

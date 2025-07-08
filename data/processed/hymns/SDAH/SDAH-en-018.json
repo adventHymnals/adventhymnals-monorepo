@@ -2,10 +2,10 @@
   "id": "SDAH-en-018",
   "number": 18,
   "title": "O Morning Star, How Fair and Bright",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "4/4",
+  "author": "Philipp Nicolai",
+  "composer": "Philipp Nicolai",
+  "tune": "Wie schön leuchtet",
+  "meter": "8.8.8.8.8.8.8.8",
   "language": "en",
   "verses": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "number": 2,
-      "text": "Lord, when You look on us in love,\nAt once there falls from God above\nA ray of purest pleasure.\nYour Word and Spirit, flesh and blood,\nRefresh our souls with heav'nly food.\nYou are our dearest treasure!"
+      "text": "Lord, when You look on us in love,\nAt once there falls from God above\nA ray of purest pleasure.\nYour Word and Spirit, flesh and blood,\nRefresh our souls with heavenly food,\nYou are our dearest treasure!"
     },
     {
       "number": 3,
@@ -25,18 +25,23 @@
       "text": "O let the harps break forth in sound!\nOur joy be all with music crowned,\nOur voices gaily blending!\nFor Christ goes with us all the way—\nToday, tomorrow, every day!\nHis love is never ending!"
     }
   ],
-  "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1599,
+    "copyright": "Public Domain",
     "themes": [
       "Christ",
-      "morning star",
+      "light",
       "salvation",
-      "joy"
+      "praise",
+      "love"
     ],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en"
+    "scripture_references": [
+      "Revelation 22:16",
+      "Matthew 2:2",
+      "John 1:9"
+    ],
+    "tune_source": "Philipp Nicolai, 1599",
+    "original_language": "de",
+    "translator": "Catherine Winkworth, Jaroslav J. Vajda"
   }
 }

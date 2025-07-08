@@ -2,10 +2,10 @@
   "id": "SDAH-en-035",
   "number": 35,
   "title": "With Songs and Honors",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "4/4",
+  "author": "Isaac Watts",
+  "composer": "Aaron Williams",
+  "tune": "St. Thomas",
+  "meter": "8.8.8.8",
   "language": "en",
   "verses": [
     {
@@ -30,18 +30,21 @@
     }
   ],
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1719,
+    "copyright": "Public Domain",
     "themes": [
       "creation",
       "seasons",
       "nature",
-      "praise"
+      "praise",
+      "providence",
+      "God's sovereignty"
     ],
     "scripture_references": [
-      "Psalm 147"
+      "Psalm 147:15-18",
+      "Psalm 104"
     ],
-    "tune_source": "[unclear]",
+    "tune_source": "Aaron Williams, 1763",
     "original_language": "en"
   }
 }

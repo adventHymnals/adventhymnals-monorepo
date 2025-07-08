@@ -2,10 +2,10 @@
   "id": "SDAH-en-014",
   "number": 14,
   "title": "Let Us Praise the Name of the Lord",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "4/4",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "Amen Response",
+  "meter": "Irregular",
   "language": "en",
   "verses": [
     {
@@ -22,14 +22,19 @@
   },
   "metadata": {
     "year": null,
-    "copyright": null,
+    "copyright": "Public Domain",
     "themes": [
       "praise",
       "worship",
-      "amen"
+      "commission",
+      "response"
     ],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en"
+    "scripture_references": [
+      "Psalm 113:1",
+      "Mark 16:15"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en",
+    "notes": "Short praise response or call to worship"
   }
 }

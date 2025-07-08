@@ -2,39 +2,39 @@
   "id": "SDAH-en-300",
   "number": 300,
   "title": "Rock of Ages",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "Augustus Montague Toplady",
+  "composer": "Thomas Hastings",
+  "tune": "Toplady",
+  "meter": "7.7.7.7.7.7",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "Rock of Ages, cleft for me,\nLet me hide myself in Thee;\nLet the water and the blood,\nFrom Thy riven side which flowed,"
+      "text": "Rock of Ages, cleft for me,\nLet me hide myself in Thee;\nLet the water and the blood,\nFrom Thy riven side which flowed,\nBe of sin the double cure;\nCleanse me from its guilt and power."
     },
     {
       "number": 2,
-      "text": "Not the labors of my hands\nCan fulfill Thy law's demands;\nCould my zeal no respite know,\nCould my tears forever flow,"
+      "text": "Not the labors of my hands\nCan fulfill Thy law's demands;\nCould my zeal no respite know,\nCould my tears forever flow,\nAll for sin could not atone;\nThou must save, and Thou alone."
     },
     {
       "number": 3,
-      "text": "When my pilgrimage I close,\nVictor o'er the last of foes,\nWhen I soar to worlds unknown,\nAnd behold Thee on Thy throne,"
+      "text": "When my pilgrimage I close,\nVictor o'er the last of foes,\nWhen I soar to worlds unknown,\nAnd behold Thee on Thy throne,\nRock of Ages, cleft for me,\nLet me hide myself in Thee."
     }
   ],
-  "chorus": {
-    "text": "Be of sin the double cure;\nCleanse me from its guilt and power.\nAll for sin could not atone;\nThou must save, and Thou alone.\nRock of Ages, cleft for me,\nLet me hide myself in Thee."
-  },
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1775,
+    "copyright": "Public Domain",
     "themes": [
-      "Rock of Ages",
-      "Refuge",
-      "Cleansing",
-      "Salvation"
+      "refuge",
+      "cleansing",
+      "salvation",
+      "atonement"
     ],
-    "scripture_references": [],
-    "tune_source": null,
+    "scripture_references": [
+      "1 Corinthians 10:4",
+      "John 19:34"
+    ],
+    "tune_source": "Thomas Hastings, 1830",
     "original_language": "en"
   }
 }

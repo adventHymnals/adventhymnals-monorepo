@@ -2,10 +2,10 @@
   "id": "SDAH-en-011",
   "number": 11,
   "title": "The God of Abraham Praise",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "4/4",
+  "author": "Thomas Olivers",
+  "composer": "Hebrew Melody",
+  "tune": "Leoni",
+  "meter": "6.6.8.4.D",
   "language": "en",
   "verses": [
     {
@@ -21,17 +21,22 @@
       "text": "The whole triumphant host\nGive thanks to God on high;\n\"Hail, Father, Son, and Holy Ghost!\"\nThey ever cry;\nHail, Abraham's God and mine!\nI join the heavenly lays;\nAll might and majesty are Thine,\nAnd endless praise."
     }
   ],
-  "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1770,
+    "copyright": "Public Domain",
     "themes": [
       "praise",
       "worship",
-      "God's sovereignty"
+      "covenant",
+      "eternity"
     ],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en"
+    "scripture_references": [
+      "Genesis 17:1",
+      "Exodus 3:14",
+      "Isaiah 57:15"
+    ],
+    "tune_source": "Hebrew melody, arranged by Meyer Lyon, c. 1770",
+    "original_language": "en",
+    "notes": "Based on the Jewish Yigdal"
   }
 }

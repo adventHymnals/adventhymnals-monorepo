@@ -2,19 +2,19 @@
   "id": "SDAH-en-024",
   "number": 24,
   "title": "Every Star Shall Sing a Carol",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "Sydney Bertram Carter",
+  "composer": "Sydney Bertram Carter",
+  "tune": "Every Star",
+  "meter": "7.6.7.6.D",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "Every star shall sing a carol;\nEvery creature, high or low,\nCome and praise the King of heaven\nBy whatever name you know."
+      "text": "Every star shall sing a carol,\nEvery creature, high or low,\nCome and praise the King of heaven\nBy whatever name you know."
     },
     {
       "number": 2,
-      "text": "When the King of all creation\nHad a cradle on the earth,\nHoly was the human body,\nHoly was the human birth."
+      "text": "When the King of all creation\nHad a cradle on the earth,\nHoly was the human body,\nBy whatever name you know."
     },
     {
       "number": 3,
@@ -25,16 +25,20 @@
     "text": "God above, Man below,\nHoly is the name I know."
   },
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1967,
+    "copyright": "© 1967 Stainer & Bell Ltd",
     "themes": [
-      "praise",
       "creation",
       "incarnation",
-      "Christmas"
+      "praise",
+      "universality"
     ],
-    "scripture_references": [],
-    "tune_source": null,
+    "scripture_references": [
+      "Luke 2:7",
+      "Philippians 2:6-8",
+      "Psalm 148"
+    ],
+    "tune_source": "Sydney Bertram Carter, 1967",
     "original_language": "en"
   }
 }

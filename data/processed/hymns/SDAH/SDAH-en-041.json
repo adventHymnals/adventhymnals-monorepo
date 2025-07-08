@@ -2,10 +2,10 @@
   "id": "SDAH-en-041",
   "number": 41,
   "title": "O Splendor of God's Glory Bright",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "Ambrose of Milan",
+  "composer": "Sarum Plainsong",
+  "tune": "Splendor Paternae",
+  "meter": "8.8.8.8",
   "language": "en",
   "verses": [
     {
@@ -27,16 +27,23 @@
   ],
   "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 387,
+    "copyright": "Public Domain",
     "themes": [
       "light",
       "glory",
       "morning",
-      "praise"
+      "praise",
+      "Trinity",
+      "divine radiance"
     ],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en"
+    "scripture_references": [
+      "John 1:9",
+      "John 8:12",
+      "2 Corinthians 4:6"
+    ],
+    "tune_source": "Sarum Plainsong, Mode I",
+    "original_language": "la",
+    "translator": "Robert Seymour Bridges"
   }
 }

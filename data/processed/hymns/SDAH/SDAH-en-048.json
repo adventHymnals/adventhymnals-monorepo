@@ -2,10 +2,10 @@
   "id": "SDAH-en-048",
   "number": 48,
   "title": "Softly Now the Light of Day",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "George Washington Doane",
+  "composer": "Carl Maria von Weber",
+  "tune": "Seymour",
+  "meter": "7.7.7.7",
   "language": "en",
   "verses": [
     {
@@ -23,16 +23,22 @@
   ],
   "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1824,
+    "copyright": "Public Domain",
     "themes": [
       "evening",
       "prayer",
       "forgiveness",
-      "communion"
+      "communion",
+      "reflection",
+      "mortality"
     ],
-    "scripture_references": [],
-    "tune_source": null,
+    "scripture_references": [
+      "Psalm 141:2",
+      "1 John 1:9",
+      "John 14:2-3"
+    ],
+    "tune_source": "Carl Maria von Weber, 1826",
     "original_language": "en"
   }
 }

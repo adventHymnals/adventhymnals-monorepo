@@ -2,10 +2,10 @@
   "id": "SDAH-en-046",
   "number": 46,
   "title": "Abide With Me, 'Tis Eventide",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "Martin Lowry",
+  "composer": "Harrison Millard",
+  "tune": "Eventide",
+  "meter": "10.10.10.10 with Refrain",
   "language": "en",
   "verses": [
     {
@@ -25,16 +25,22 @@
     "text": "O Savior, stay this night with me;\nBehold, 'tis eventide!\nO Savior, stay this night with me;\nBehold, 'tis eventide."
   },
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1877,
+    "copyright": "Public Domain",
     "themes": [
       "evening",
       "companionship",
       "comfort",
-      "prayer"
+      "prayer",
+      "divine presence",
+      "communion"
     ],
-    "scripture_references": [],
-    "tune_source": null,
+    "scripture_references": [
+      "Luke 24:29",
+      "Revelation 3:20",
+      "Matthew 28:20"
+    ],
+    "tune_source": "Harrison Millard, 1877",
     "original_language": "en"
   }
 }

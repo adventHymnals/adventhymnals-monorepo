@@ -2,10 +2,10 @@
   "id": "SDAH-en-043",
   "number": 43,
   "title": "When Morning Gilds the Skies",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "Anonymous German",
+  "composer": "Joseph Barnby",
+  "tune": "Laudes Domini",
+  "meter": "5.5.5.D",
   "language": "en",
   "verses": [
     {
@@ -35,16 +35,23 @@
   ],
   "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1828,
+    "copyright": "Public Domain",
     "themes": [
       "morning",
       "praise",
       "Jesus",
-      "worship"
+      "worship",
+      "daily devotion",
+      "universal praise"
     ],
-    "scripture_references": [],
-    "tune_source": null,
-    "original_language": "en"
+    "scripture_references": [
+      "Psalm 113:3",
+      "Malachi 1:11",
+      "Revelation 5:13"
+    ],
+    "tune_source": "Joseph Barnby, 1868",
+    "original_language": "de",
+    "translator": "Edward Caswall"
   }
 }

@@ -2,10 +2,10 @@
   "id": "SDAH-en-049",
   "number": 49,
   "title": "Savior, Breathe an Evening Blessing",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "James Edmeston",
+  "composer": "George Coles",
+  "tune": "Hinman",
+  "meter": "8.7.8.7",
   "language": "en",
   "verses": [
     {
@@ -27,16 +27,22 @@
   ],
   "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1820,
+    "copyright": "Public Domain",
     "themes": [
       "evening",
       "blessing",
       "protection",
-      "comfort"
+      "comfort",
+      "angels",
+      "eternal life"
     ],
-    "scripture_references": [],
-    "tune_source": null,
+    "scripture_references": [
+      "Psalm 4:8",
+      "Psalm 91:11",
+      "1 Corinthians 15:54"
+    ],
+    "tune_source": "George Coles, 1835",
     "original_language": "en"
   }
 }

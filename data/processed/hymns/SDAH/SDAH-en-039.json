@@ -2,10 +2,10 @@
   "id": "SDAH-en-039",
   "number": 39,
   "title": "Lord, in the Morning",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "3/4",
+  "author": "Isaac Watts",
+  "composer": "Franconia",
+  "tune": "Franconia",
+  "meter": "8.8.8.8",
   "language": "en",
   "verses": [
     {
@@ -26,18 +26,22 @@
     }
   ],
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1719,
+    "copyright": "Public Domain",
     "themes": [
       "morning prayer",
       "guidance",
       "trust",
-      "protection"
+      "protection",
+      "intercession",
+      "righteousness"
     ],
     "scripture_references": [
-      "Psalm 5"
+      "Psalm 5:3",
+      "Psalm 25:4-5",
+      "Hebrews 7:25"
     ],
-    "tune_source": "[unclear]",
+    "tune_source": "Harmoniae Sacrae, 1753",
     "original_language": "en"
   }
 }

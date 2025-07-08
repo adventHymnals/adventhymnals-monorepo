@@ -2,10 +2,10 @@
   "id": "SDAH-en-027",
   "number": 27,
   "title": "Rejoice, Ye Pure in Heart",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "Edward Hayes Plumptre",
+  "composer": "Arthur Henry Messiter",
+  "tune": "Marion",
+  "meter": "8.8.8.8 with Refrain",
   "language": "en",
   "verses": [
     {
@@ -33,16 +33,22 @@
     "text": "Rejoice! Rejoice!\nRejoice! Rejoice!\nRejoice, give thanks, and sing!"
   },
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1865,
+    "copyright": "Public Domain",
     "themes": [
       "praise",
       "rejoicing",
       "thanksgiving",
-      "pure heart"
+      "pure heart",
+      "christian living",
+      "discipleship"
     ],
-    "scripture_references": [],
-    "tune_source": null,
+    "scripture_references": [
+      "Psalm 32:11",
+      "Psalm 97:12",
+      "1 Peter 1:8"
+    ],
+    "tune_source": "Arthur Henry Messiter, 1889",
     "original_language": "en"
   }
 }

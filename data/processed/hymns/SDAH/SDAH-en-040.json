@@ -2,40 +2,46 @@
   "id": "SDAH-en-040",
   "number": 40,
   "title": "The Dawn of God's Dear Sabbath",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "4/4",
+  "author": "Harriet McEwen Kimball",
+  "composer": "William Batchelder Bradbury",
+  "tune": "Sabbath",
+  "meter": "8.8.8.8",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "The dawn of God's dear Sabbath\nBreaks o'er the earth again,\nAs some sweet summer morning\nAfter a night of pain;\nIt comes as cooling showers\nTo some exhausted land,\nAs shadow of great rock\nWithin a weary land."
+      "text": "The dawn of God's dear Sabbath\nBreaks o'er the earth again,\nAs some sweet summer morning\nAfter a night of pain;\nIt comes as cooling showers\nTo some exhausted land,\nAs shadow of clustered palm trees\n'Mid weary wastes of sand."
     },
     {
       "number": 2,
-      "text": "Lord, we would bring for offering,\nThough marred with earthly soil,\nA week of earnest labor,\nOf steady, faithful toil;\nFair fruits of self-denial,\nOf strong, deep love to Thee,\nThy work to make it pure,\nIn fostering so need, And"
+      "text": "Lord, we would bring for offering,\nThough marred with earthly soil,\nA week of earnest labor,\nOf steady, faithful toil;\nFair fruits of self-denial,\nOf strong, deep love to Thee,\nFor Thy dear presence blessing\nOur Sabbath rest to be."
     },
     {
       "number": 3,
-      "text": "And we would bring our burden\nOf sin and thoughtful deed,\nAnd with that sorrow mingling,\nA steadfast faith, and sure,\nThat Thou to make it pure."
+      "text": "And we would bring our burden\nOf sinful thought and deed,\nIn Thy dear presence finding\nThe pardon that we need;\nOur heart's most bitter sorrow\nFor all Thy work undone,\nSo few bright laurels won!"
     },
     {
       "number": 4,
-      "text": "And with that sorrow mingling,\nA steadfast faith, and sure,\nFor Thee to make it pure.\nThen shade of clustered palm trees\n'Mid weary wastes of sand,\nSo few bright laurels won!"
+      "text": "And with that sorrow mingling,\nA steadfast faith, and sure,\nThat Thou canst take the offering\nAnd make it clean and pure.\nThen by Thine own sweet Spirit\nThine peace so lasting,\nCelestial peace indeed."
     }
   ],
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1876,
+    "copyright": "Public Domain",
     "themes": [
       "Sabbath",
       "rest",
       "worship",
-      "renewal"
+      "renewal",
+      "offering",
+      "peace"
     ],
-    "scripture_references": [],
-    "tune_source": "[unclear]",
+    "scripture_references": [
+      "Isaiah 58:13-14",
+      "Exodus 20:8-11",
+      "Mark 2:27"
+    ],
+    "tune_source": "William Batchelder Bradbury, 1859",
     "original_language": "en"
   }
 }

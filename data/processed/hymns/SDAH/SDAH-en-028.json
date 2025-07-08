@@ -2,10 +2,10 @@
   "id": "SDAH-en-028",
   "number": 28,
   "title": "Praise We the Lord",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "author": "John Monsell",
+  "composer": "Arthur Sullivan",
+  "tune": "Praise",
+  "meter": "8.8.8.8",
   "language": "en",
   "verses": [
     {
@@ -18,21 +18,27 @@
     },
     {
       "number": 3,
-      "text": "Praise Him who by a simple flower\nLifts up our hearts to youth-ful joy;\nThank Him who gives to each one power,\nThings above."
+      "text": "Praise Him who by a simple flower\nLifts up our hearts to youthful joy;\nTo find a friend to know and love,\nThings above."
     }
   ],
   "chorus": null,
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1863,
+    "copyright": "Public Domain",
     "themes": [
       "praise",
       "creation",
       "beauty",
-      "thanksgiving"
+      "thanksgiving",
+      "senses",
+      "youth"
     ],
-    "scripture_references": [],
-    "tune_source": null,
+    "scripture_references": [
+      "Psalm 104:24",
+      "Genesis 1:31",
+      "1 Timothy 4:4"
+    ],
+    "tune_source": "Arthur Sullivan, 1872",
     "original_language": "en"
   }
 }

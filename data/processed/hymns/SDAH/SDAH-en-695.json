@@ -1,25 +1,33 @@
 {
   "id": "SDAH-en-695",
   "number": 695,
-  "title": "[To be extracted from image]",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "[unclear]",
+  "title": "Praise God, From Whom All Blessings",
+  "author": "Thomas Ken",
+  "composer": "Louis Bourgeois",
+  "tune": "Old 100th",
+  "meter": "L.M.",
   "language": "en",
   "verses": [
     {
       "number": 1,
-      "text": "[To be extracted from image]"
+      "text": "Praise God from whom all blessings flow;\nPraise Him all creatures here below;\nPraise Him above, ye heavenly host;\nPraise Father, Son, and Holy Ghost."
     }
   ],
   "metadata": {
+    "year": 1674,
+    "copyright": "Public Domain",
     "themes": [
-      "[to be determined]"
+      "doxology",
+      "praise",
+      "trinity",
+      "worship"
     ],
     "scripture_references": [
-      "[to be determined]"
+      "Psalm 150",
+      "1 Chronicles 29:10-13"
     ],
-    "copyright": "Public Domain"
+    "tune_source": "Genevan Psalter, 1551",
+    "original_language": "en",
+    "notes": "Common Doxology"
   }
 }

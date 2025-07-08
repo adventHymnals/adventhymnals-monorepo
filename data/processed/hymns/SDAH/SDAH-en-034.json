@@ -2,10 +2,10 @@
   "id": "SDAH-en-034",
   "number": 34,
   "title": "Wake the Song",
-  "author": "[unclear]",
-  "composer": "[unclear]",
-  "tune": "[unclear]",
-  "meter": "4/4",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "Wake the Song",
+  "meter": "8.7.8.7.D with Refrain",
   "language": "en",
   "verses": [
     {
@@ -14,27 +14,32 @@
     },
     {
       "number": 2,
-      "text": "Joyfully with songs and banners, We will greet the festal day;\nShout aloud our glad hosannas, And our grateful homage pay.\nWe will chant our Savior's glory While our thoughts we raise above,\nTelling still \"the old, old story,\" Precious Spirit, Sweetly draw us near to God."
+      "text": "Joyfully with songs and banners, We will greet the festal day;\nShout aloud our glad hosannas, And our grateful homage pay.\nWe will chant our Savior's glory While our thoughts we raise above,\nTelling still \"the old, old story,\" Precious theme redeeming love!"
     },
     {
       "number": 3,
-      "text": "Thanks to Thee, O holy Father, For the mercies of the year;\nMay each heart, as here we gather, Sweet theme redeeming love!"
+      "text": "Thanks to Thee, O holy Father, For the mercies of the year;\nMay each heart, as here we gather, Swell with gratitude sincere.\nFor redemption through Thy blood, Breathe upon us, Holy Spirit,\nSweetly draw us near to God."
     }
   ],
   "chorus": {
     "text": "Wake the song, wake the song,\nthe song of joy and gladness,\nWake the song, wake the song,\nThe song of Jubilee."
   },
   "metadata": {
-    "year": null,
-    "copyright": null,
+    "year": 1800,
+    "copyright": "Public Domain",
     "themes": [
       "joy",
       "praise",
       "worship",
-      "gathering"
+      "gathering",
+      "thanksgiving",
+      "fellowship"
     ],
-    "scripture_references": [],
-    "tune_source": "[unclear]",
+    "scripture_references": [
+      "Psalm 95:1-2",
+      "Psalm 100:1-2"
+    ],
+    "tune_source": "Traditional American",
     "original_language": "en"
   }
 }
