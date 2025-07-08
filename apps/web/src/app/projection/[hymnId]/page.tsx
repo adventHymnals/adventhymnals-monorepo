@@ -11,29 +11,22 @@ interface ProjectionPageProps {
 }
 
 export async function generateStaticParams() {
-  // Check if this is a static export build
-  const isStaticExport = process.env.NEXT_OUTPUT === 'export';
-  
-  if (isStaticExport) {
-    // For static export, generate a placeholder page that shows "not supported" message
-    return [
-      {
-        hymnId: 'placeholder'
-      }
-    ];
-  }
-  
-  // For dynamic server builds, generate projection pages for all hymns
+  // For static export, generate projection pages for hymns but show "not supported" message
+  // For dynamic server builds, generate projection pages with full functionality
   try {
     // Use server-side functions directly instead of API fetch during build
     const { loadHymnalHymns } = await import('@/lib/data-server');
     const hymnalReferences = await loadHymnalReferences();
     const allHymnIds: string[] = [];
     
+    // For static export, limit to first 100 hymns per hymnal to avoid excessive build times
+    const isStaticExport = process.env.NEXT_OUTPUT === 'export';
+    const hymnLimit = isStaticExport ? 100 : 1000;
+    
     // Load hymns from all hymnals
     for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
       try {
-        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, hymnLimit);
         allHymnIds.push(...hymns.map((hymn: { id: string }) => hymn.id));
       } catch (error) {
         console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);

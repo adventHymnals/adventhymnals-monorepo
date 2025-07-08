@@ -52,28 +52,19 @@ export async function generateMetadata({ params }: EditPageProps): Promise<Metad
 }
 
 export async function generateStaticParams() {
-  // Check if this is a static export build
-  const isStaticExport = process.env.NEXT_OUTPUT === 'export';
-  
-  if (isStaticExport) {
-    // For static export, generate a placeholder page that shows "not supported" message
-    return [
-      {
-        hymnal: 'placeholder',
-        slug: 'placeholder'
-      }
-    ];
-  }
-  
-  // For dynamic server builds, generate edit pages for hymns
+  // For static export, generate edit pages for all hymns but show "not supported" message
+  // For dynamic server builds, generate edit pages with full functionality
   try {
     const hymnalReferences = await loadHymnalReferences();
     const staticParams: { hymnal: string; slug: string }[] = [];
 
-    // Generate static params for popular hymns only (first 10 from each hymnal)
+    // Generate static params for all hymns (limit to first 100 from each hymnal for static export)
+    const isStaticExport = process.env.NEXT_OUTPUT === 'export';
+    const hymnLimit = isStaticExport ? 100 : 10; // Generate more pages for static export
+    
     for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
       try {
-        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 10);
+        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, hymnLimit);
         
         for (const hymn of hymns) {
           const slug = `hymn-${hymn.number}-${hymn.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')}`;
