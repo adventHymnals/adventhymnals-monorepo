@@ -1,0 +1,43 @@
+name: Sync Media Files
+
+on:
+  push:
+    paths:
+      - 'data/sources/**'
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  sync-media:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Sync media files to server
+        run: |
+          # Install rsync
+          sudo apt-get update && sudo apt-get install -y rsync
+          
+          # Setup SSH key
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H direct.adventhymnals.org >> ~/.ssh/known_hosts
+          
+          # Sync media files
+          rsync -avz --delete \
+            data/sources/ \
+            ${{ secrets.DEPLOY_USER }}@direct.adventhymnals.org:/opt/advent-hymnals/data/sources/
+          
+          # Fix permissions
+          ssh ${{ secrets.DEPLOY_USER }}@direct.adventhymnals.org \
+            "sudo chown -R 1001:1001 /opt/advent-hymnals/data/sources/"
+          
+          # Restart media server to refresh
+          ssh ${{ secrets.DEPLOY_USER }}@direct.adventhymnals.org \
+            "cd /opt/advent-hymnals && docker restart advent-hymnals-media"
+          
+          echo "✅ Media files synced successfully"
