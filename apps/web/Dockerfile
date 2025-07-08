@@ -59,10 +59,22 @@ ENV NEXT_TELEMETRY_DISABLED 1
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
-# Copy built application
+# Copy built application (standalone output)
 COPY --from=builder /app/apps/web/.next/standalone ./
+
+# CRITICAL: Manually copy static files that standalone mode doesn't include
+# Next.js standalone intentionally doesn't copy public and .next/static by default
 COPY --from=builder /app/apps/web/.next/static ./apps/web/.next/static
-COPY --from=builder /app/apps/web/public ./public
+
+# Copy public directory to where the server.js actually runs (apps/web subdirectory)
+# The server.js does process.chdir(__dirname) which moves to apps/web/ directory
+COPY --from=builder /app/apps/web/public ./apps/web/public
+
+# Create writable directories for Next.js runtime files
+RUN mkdir -p ./apps/web/.next/server/app && \
+    mkdir -p ./apps/web/.next/cache && \
+    chown -R nextjs:nodejs /app && \
+    chmod -R 755 ./apps/web/.next
 
 # Data files are now served from external media server
 # No need to copy data directory to container
