@@ -154,8 +154,8 @@ jobs:
           event-type: deploy
           client-payload: |
             {
-              "image_digest": "${{ needs.build.outputs.image-digest }}",
-              "image_tags": "${{ needs.build.outputs.image-tags }}",
+              "triggered_by": "build",
               "sha": "${{ github.sha }}",
-              "ref": "${{ github.ref }}"
+              "ref": "${{ github.ref }}",
+              "image_built": true
             }
