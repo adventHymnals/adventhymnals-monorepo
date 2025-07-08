@@ -94,7 +94,7 @@ export async function generateStaticParams() {
     const hymnalReferences = await loadHymnalReferences();
     const staticParams: { hymnal: string; slug: string }[] = [];
 
-    // Generate static params for all hymns in all hymnals
+    // Generate static params for ALL hymns in all hymnals for main hymn pages
     for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
       try {
         const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);

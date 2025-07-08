@@ -109,22 +109,8 @@ export default function HymnEditView({ hymn, hymnalRef, allHymns, params }: Hymn
         const config = getImageConfig(hymnalId);
         const imageSources = [];
         
-        // Use different base URLs for development vs production/static export
-        const isDevelopment = process.env.NODE_ENV === 'development';
-        let baseDir: string;
-        
-        if (isDevelopment) {
-            // Development: use local API route
-            baseDir = `/data/sources/images/${hymnalId}`;
-        } else {
-            // Production/Static export: use external GitHub URLs
-            const resourceUrls: Record<string, string> = {
-                'SDAH': 'https://raw.githubusercontent.com/GospelSounders/SDAHData/master/SDAHymnalsPhotos',
-                'CH1941': 'https://raw.githubusercontent.com/GospelSounders/CHData/master/ChurchHymnalImages',
-                'CS1900': 'https://raw.githubusercontent.com/GospelSounders/christ-in-song-pdfs/master/splitFiles',
-            };
-            baseDir = resourceUrls[hymnalId] || `/data/sources/images/${hymnalId}`;
-        }
+        // Always use media server for consistency
+        const baseDir = `https://media.adventhymnals.org/images/${hymnalId}`;
 
         if (config.padding === 0) {
             // No padding (HSAB: 1.png, 2.png)

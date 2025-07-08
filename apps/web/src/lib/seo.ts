@@ -28,7 +28,7 @@ export function generateHymnalMetadata(hymnal: HymnalReference): Metadata {
       type: 'website',
       images: [
         {
-          url: `/images/hymnals/${hymnal.id}-cover.jpg`,
+          url: `https://media.adventhymnals.org/images/hymnals/${hymnal.id}-cover.jpg`,
           width: 600,
           height: 800,
           alt: `${hymnal.name} cover`,
@@ -38,7 +38,7 @@ export function generateHymnalMetadata(hymnal: HymnalReference): Metadata {
     twitter: {
       title,
       description,
-      images: [`/images/hymnals/${hymnal.id}-cover.jpg`],
+      images: [`https://media.adventhymnals.org/images/hymnals/${hymnal.id}-cover.jpg`],
     },
     alternates: {
       canonical: `/${hymnal.url_slug}`,
