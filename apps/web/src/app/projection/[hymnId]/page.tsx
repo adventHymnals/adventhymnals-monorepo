@@ -17,9 +17,9 @@ export async function generateStaticParams() {
     const hymnalReferences = await loadHymnalReferences();
     const allHymnIds: string[] = [];
     
-    // For static export, limit to first 50 hymns per hymnal to avoid excessive build times
+    // Generate all hymns for static export
     const isStaticExport = process.env.NEXT_OUTPUT === 'export';
-    const hymnLimit = isStaticExport ? 50 : 1000;
+    const hymnLimit = isStaticExport ? 1000 : 1000;
     
     console.log(`🎵 Generating projection static params, isStaticExport: ${isStaticExport}, hymnLimit: ${hymnLimit}`);
     

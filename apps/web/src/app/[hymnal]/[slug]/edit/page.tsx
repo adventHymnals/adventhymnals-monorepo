@@ -59,9 +59,9 @@ export async function generateStaticParams() {
     const hymnalReferences = await loadHymnalReferences();
     const staticParams: { hymnal: string; slug: string }[] = [];
 
-    // Generate static params for all hymns (limit to first 50 from each hymnal for static export)
+    // Generate static params for all hymns 
     const isStaticExport = process.env.NEXT_OUTPUT === 'export';
-    const hymnLimit = isStaticExport ? 50 : 10; // Reduced limit for faster builds
+    const hymnLimit = isStaticExport ? 1000 : 10; // Full generation for static export
     
     console.log(`📖 Loading hymns from ${Object.keys(hymnalReferences.hymnals).length} hymnals, limit: ${hymnLimit}`);
     
