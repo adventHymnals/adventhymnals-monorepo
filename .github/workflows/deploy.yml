@@ -53,6 +53,39 @@ jobs:
           echo "IMAGE_LOCATION=$TARGET_IMAGE" >> $GITHUB_ENV
           echo "AUTH_REQUIRED=false" >> $GITHUB_ENV
 
+      - name: Checkout repository for media sync
+        if: github.event_name == 'repository_dispatch' && github.event.client_payload.triggered_by == 'build'
+        uses: actions/checkout@v4
+
+      - name: Sync media files to server
+        if: github.event_name == 'repository_dispatch' && github.event.client_payload.triggered_by == 'build'
+        run: |
+          # Setup SSH for rsync
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+          
+          # Sync media files if they exist
+          if [ -d "data/sources" ]; then
+            echo "📁 Syncing media files to production server..."
+            rsync -avz --delete \
+              data/sources/ \
+              ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/opt/advent-hymnals/data/sources/
+            
+            echo "🔧 Fixing file permissions..."
+            ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
+              "sudo chown -R 1001:1001 /opt/advent-hymnals/data/sources/"
+            
+            echo "🔄 Restarting media server to refresh content..."
+            ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
+              "cd /opt/advent-hymnals && docker restart advent-hymnals-media"
+            
+            echo "✅ Media files synced successfully"
+          else
+            echo "ℹ️  No media files to sync"
+          fi
+
       - name: Deploy to server
         uses: appleboy/ssh-action@v1.0.0
         with:

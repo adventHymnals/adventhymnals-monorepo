@@ -41,3 +41,15 @@ jobs:
             "cd /opt/advent-hymnals && docker restart advent-hymnals-media"
           
           echo "✅ Media files synced successfully"
+          
+      - name: Trigger deployment workflow
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: deploy
+          client-payload: |
+            {
+              "triggered_by": "media-sync",
+              "sha": "${{ github.sha }}",
+              "actor": "${{ github.actor }}"
+            }

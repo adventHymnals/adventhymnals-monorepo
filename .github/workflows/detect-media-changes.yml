@@ -1,0 +1,117 @@
+name: Detect and Deploy Media Changes
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  check-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      media_changed: ${{ steps.changes.outputs.media }}
+      web_changed: ${{ steps.changes.outputs.web }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check for changes
+        id: changes
+        run: |
+          # Check if media files changed
+          if git diff --name-only HEAD~1 HEAD | grep -E "^data/sources/" > /dev/null; then
+            echo "media=true" >> $GITHUB_OUTPUT
+            echo "📁 Media files changed"
+          else
+            echo "media=false" >> $GITHUB_OUTPUT
+            echo "📁 No media files changed"
+          fi
+          
+          # Check if web application changed
+          if git diff --name-only HEAD~1 HEAD | grep -v -E "^data/sources/" | grep -E "\.(ts|tsx|js|jsx|json|md|yml|yaml)$" > /dev/null; then
+            echo "web=true" >> $GITHUB_OUTPUT
+            echo "🌐 Web application changed"
+          else
+            echo "web=false" >> $GITHUB_OUTPUT
+            echo "🌐 No web application changes"
+          fi
+
+  sync-media:
+    needs: check-changes
+    if: needs.check-changes.outputs.media_changed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Sync media files to server
+        run: |
+          echo "📁 Syncing media files to production server..."
+          
+          # Setup SSH for rsync
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+          
+          # Sync only changed media files efficiently
+          rsync -avz --delete --progress \
+            data/sources/ \
+            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/opt/advent-hymnals/data/sources/
+          
+          # Fix permissions
+          ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
+            "sudo chown -R 1001:1001 /opt/advent-hymnals/data/sources/"
+          
+          # Restart media server to refresh content
+          ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
+            "cd /opt/advent-hymnals && docker restart advent-hymnals-media"
+          
+          echo "✅ Media files synced successfully"
+          
+          # Test media server health
+          sleep 10
+          if curl -sf https://media.${{ secrets.DEPLOY_HOST }}/health > /dev/null; then
+            echo "✅ Media server health check passed"
+          else
+            echo "⚠️ Media server health check failed"
+            exit 1
+          fi
+
+  deploy-web:
+    needs: check-changes
+    if: needs.check-changes.outputs.web_changed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger web application deployment
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: deploy
+          client-payload: |
+            {
+              "triggered_by": "web-changes",
+              "sha": "${{ github.sha }}",
+              "actor": "${{ github.actor }}"
+            }
+
+  deploy-both:
+    needs: check-changes
+    if: needs.check-changes.outputs.media_changed == 'true' && needs.check-changes.outputs.web_changed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger full deployment (web + media)
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: deploy
+          client-payload: |
+            {
+              "triggered_by": "full-deployment",
+              "sha": "${{ github.sha }}",
+              "actor": "${{ github.actor }}"
+            }
