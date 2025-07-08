@@ -6,7 +6,7 @@ const cache = new Map<string, unknown>();
 // API base URL - for static export, use production API
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.API_BASE_URL || '';
 
-function getApiUrl(path: string): string {
+export function getApiUrl(path: string): string {
   if (API_BASE_URL) {
     return `${API_BASE_URL}${path}`;
   }

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { MagnifyingGlassIcon, MusicalNoteIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
-import { loadHymnalReferences } from '@/lib/data';
+import { loadHymnalReferences, getApiUrl } from '@/lib/data';
 import { HymnalCollection } from '@advent-hymnals/shared';
 
 interface ComposerData {
@@ -35,7 +35,7 @@ export default function ComposersPage() {
     const loadData = async () => {
       try {
         const [composersResponse, references] = await Promise.all([
-          fetch('/api/composers'),
+          fetch(getApiUrl('/api/composers')),
           loadHymnalReferences()
         ]);
         

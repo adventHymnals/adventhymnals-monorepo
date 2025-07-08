@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { MagnifyingGlassIcon, UserIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
-import { loadHymnalReferences } from '@/lib/data';
+import { loadHymnalReferences, getApiUrl } from '@/lib/data';
 import { HymnalCollection } from '@advent-hymnals/shared';
 
 interface AuthorData {
@@ -35,7 +35,7 @@ export default function AuthorsPage() {
     const loadData = async () => {
       try {
         const [authorsResponse, references] = await Promise.all([
-          fetch('/api/authors'),
+          fetch(getApiUrl('/api/authors')),
           loadHymnalReferences()
         ]);
         
