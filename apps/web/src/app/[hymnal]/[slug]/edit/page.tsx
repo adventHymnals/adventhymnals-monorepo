@@ -55,16 +55,20 @@ export async function generateStaticParams() {
   // For static export, generate edit pages for all hymns but show "not supported" message
   // For dynamic server builds, generate edit pages with full functionality
   try {
+    console.log('🚀 Generating static params for edit pages, NEXT_OUTPUT:', process.env.NEXT_OUTPUT);
     const hymnalReferences = await loadHymnalReferences();
     const staticParams: { hymnal: string; slug: string }[] = [];
 
-    // Generate static params for all hymns (limit to first 100 from each hymnal for static export)
+    // Generate static params for all hymns (limit to first 50 from each hymnal for static export)
     const isStaticExport = process.env.NEXT_OUTPUT === 'export';
-    const hymnLimit = isStaticExport ? 100 : 10; // Generate more pages for static export
+    const hymnLimit = isStaticExport ? 50 : 10; // Reduced limit for faster builds
+    
+    console.log(`📖 Loading hymns from ${Object.keys(hymnalReferences.hymnals).length} hymnals, limit: ${hymnLimit}`);
     
     for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
       try {
         const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, hymnLimit);
+        console.log(`✅ Loaded ${hymns.length} hymns from ${hymnalRef.id}`);
         
         for (const hymn of hymns) {
           const slug = `hymn-${hymn.number}-${hymn.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')}`;
@@ -74,13 +78,17 @@ export async function generateStaticParams() {
           });
         }
       } catch (error) {
-        console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
+        console.warn(`❌ Failed to load hymns for ${hymnalRef.id}:`, error);
       }
     }
 
+    console.log(`🎯 Generated ${staticParams.length} edit page static params`);
+    // Log first few for debugging
+    console.log('First 3 edit params:', staticParams.slice(0, 3));
+    
     return staticParams;
   } catch (error) {
-    console.error('Error generating static params for edit pages:', error);
+    console.error('💥 Error generating static params for edit pages:', error);
     return [];
   }
 }
