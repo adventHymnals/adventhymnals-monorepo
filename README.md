@@ -57,43 +57,116 @@ A comprehensive digital platform for preserving and exploring 160+ years of Adve
 advent-hymnals-mono-repo/
 ├── apps/
 │   ├── web/              # Next.js web application
+│   ├── media-server/     # Static media file server
 │   └── mobile/           # React Native mobile app (roadmap)
 ├── packages/
 │   ├── shared/           # Common types and utilities
 │   ├── hymnal-processor/ # Core processing logic
 │   ├── seo-optimizer/    # SEO and structured data
 │   └── audio-player/     # Media playback components
-└── data/
-    ├── processed/        # Processed hymnal data (JSON)
-    └── sources/          # Raw source materials
+├── data/
+│   ├── processed/        # Processed hymnal data (JSON)
+│   └── sources/          # Raw source materials
+│       ├── audio/        # MIDI and MP3 files
+│       └── images/       # Hymnal page scans
+├── scripts/
+│   ├── setup-production-server.sh  # Automated server setup
+│   └── deploy-new-production.sh    # One-command deployment
+└── .github/workflows/    # Automated CI/CD pipelines
 ```
 
 ### Technology Stack
 - **Frontend**: Next.js 14+ with TypeScript
+- **Media Server**: nginx with optimized file serving
 - **Styling**: Tailwind CSS for responsive design
 - **Data**: Static JSON with dynamic search indexing
 - **SEO**: Next.js SEO optimization with structured data
-- **Deployment**: Vercel with global CDN
+- **Deployment**: Docker containers with automated CI/CD
 - **Analytics**: Privacy-focused usage tracking
 
-## 🚀 Roadmap
+### Production Infrastructure
+- **Web Application**: Docker container with Next.js
+- **Media Server**: High-performance nginx serving audio/images
+- **SSL**: Let's Encrypt with automatic renewal
+- **CDN**: Cloudflare for global content delivery
+- **Monitoring**: Health checks and automated recovery
 
-### Phase 1: Web Application (Current)
+## 🚀 Development & Deployment
+
+### Automated CI/CD Pipeline
+
+Our platform features a fully automated deployment system that ensures seamless updates:
+
+#### 🔄 Automatic Media File Deployment
+When you update files in the `data/sources/` directory:
+```bash
+# Add new audio files
+git add data/sources/audio/SDAH/201.mid
+git commit -m "Add hymn 201 MIDI file"
+git push
+# → Automatically synced to https://media.yourdomain.com/audio/SDAH/201.mid
+```
+
+**Smart Detection System:**
+- **Media-only changes**: Syncs audio/images, restarts media server
+- **Code-only changes**: Deploys web app, includes media sync for consistency  
+- **Combined changes**: Optimized deployment of both web app and media files
+
+#### 🚀 One-Command Production Setup
+Deploy a complete production server with a single command:
+```bash
+# From your development machine
+./scripts/deploy-new-production.sh
+```
+
+This automatically:
+- ✅ Provisions Ubuntu server with Docker
+- ✅ Configures SSL certificates with Let's Encrypt
+- ✅ Sets up nginx with media server optimization
+- ✅ Uploads all hymnal data (audio, images, metadata)
+- ✅ Configures GitHub Actions for continuous deployment
+
+#### 📁 Data Transfer Method
+- **Direct file transfer**: Uses `rsync` for efficient data sync
+- **No git on server**: Production server never runs git commands
+- **SSH key authentication**: No passphrases required
+- **Incremental updates**: Only changed files are transferred
+- **Target directory**: `/opt/advent-hymnals/data/sources/`
+
+#### 🎯 Production Infrastructure
+```
+Production Server (/opt/advent-hymnals/)
+├── docker-compose.yml     # Container orchestration
+├── nginx/                 # Web server configuration
+│   ├── conf.d/           # Auto-generated domain configs
+│   ├── domains.txt       # SSL certificate domains
+│   └── entrypoint.sh     # Automated SSL setup
+├── data/sources/         # Media files (auto-synced)
+│   ├── audio/           # MIDI/MP3 files
+│   └── images/          # Hymnal page scans
+└── .env                 # Production environment variables
+```
+
+### Roadmap
+
+#### Phase 1: Web Application (Current)
 - [x] Core hymnal data processing
 - [x] SEO-optimized site structure
-- [ ] **In Development**: Responsive web interface
+- [x] **Automated production deployment**
+- [x] **Media server with audio/image serving**
+- [x] **CI/CD pipeline with smart change detection**
+- [ ] **In Development**: Enhanced responsive web interface
 - [ ] Advanced search and filtering
-- [ ] Sheet music integration
-- [ ] Audio playback system
+- [ ] Interactive audio player with A-B looping
 
-### Phase 2: Enhanced Features (Q2 2025)
+#### Phase 2: Enhanced Features (Q2 2025)
 - [ ] **Desktop Application** - Offline access with Electron
 - [ ] **Mobile Application** - Native iOS/Android apps
 - [ ] User accounts and personal hymnals
 - [ ] Social sharing and collaboration tools
 - [ ] Advanced scholarly research tools
 
-### Phase 3: Community Features (Q3 2025)
+#### Phase 3: Community Features (Q3 2025)
 - [ ] User-contributed content (corrections, translations)
 - [ ] Community hymnal creation tools
 - [ ] Integration with worship planning software
@@ -126,6 +199,69 @@ adventhymnals.org/
 ├── nyimbo-za-kristo/                 # Kiswahili collection
 ├── christ-in-song/                   # Historical collection
 └── compare/                          # Cross-hymnal comparison
+```
+
+## 🔧 Deployment Workflows
+
+### Available Workflows
+
+#### 1. **detect-media-changes.yml** - Smart Change Detection
+- **Triggers**: Push to main/master branch
+- **Function**: Detects if media files or web app changed
+- **Actions**: Runs appropriate deployment (media-only, web-only, or both)
+
+#### 2. **deploy.yml** - Main Deployment Workflow  
+- **Triggers**: Repository dispatch events from other workflows
+- **Function**: Deploys web application and syncs media files
+- **Target**: Production server at `/opt/advent-hymnals/`
+
+#### 3. **sync-media.yml** - Manual Media Sync
+- **Triggers**: Manual dispatch or changes to `data/sources/`
+- **Function**: Syncs media files and restarts media server
+- **Use Case**: Force media updates without web deployment
+
+#### 4. **deploy-media-server.yml** - Media Server Image Build
+- **Triggers**: Changes to `apps/media-server/` or `data/sources/`
+- **Function**: Builds Docker image and triggers deployment
+- **Registry**: GitHub Container Registry (ghcr.io)
+
+### Deployment Process Flow
+
+```mermaid
+graph TD
+    A[Push to Repository] --> B[detect-media-changes.yml]
+    B --> C{What Changed?}
+    C -->|Media Only| D[sync-media.yml]
+    C -->|Code Only| E[deploy.yml]
+    C -->|Both| F[deploy.yml with media sync]
+    
+    D --> G[rsync data/sources/]
+    E --> H[Docker deploy + media sync]
+    F --> H
+    
+    G --> I[Restart media server]
+    H --> I
+    I --> J[Health checks]
+    J --> K[✅ Deployment Complete]
+```
+
+### Production Server Setup
+
+For new production deployments:
+1. **Automated Setup**: `./scripts/deploy-new-production.sh`
+2. **Manual Setup**: Follow `/docs/PRODUCTION-SETUP.md`
+3. **DNS Configuration**: Configure domains in Cloudflare
+4. **GitHub Secrets**: Set deployment credentials
+
+### File Serving Architecture
+
+```
+https://yourdomain.com/          → Next.js Web Application
+https://media.yourdomain.com/    → nginx Media Server
+  ├── /audio/SDAH/1.mid         → MIDI files
+  ├── /audio/CH1941/1.mid       → Audio files  
+  ├── /images/SDAH/001.png      → Hymnal scans
+  └── /health                   → Health endpoint
 ```
 
 ## 🤝 Contributing
