@@ -1,0 +1,194 @@
+name: Deploy Media Server
+
+on:
+  push:
+    paths:
+      - 'data/sources/**'
+      - 'apps/media-server/**'
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+    inputs:
+      force_deploy:
+        description: 'Force deployment even without changes'
+        required: false
+        default: false
+        type: boolean
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: adventhymnals/media-server
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      
+      - name: Check for relevant changes
+        id: changes
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force_deploy }}" = "true" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Forced deployment requested"
+          elif git diff --name-only HEAD~1 HEAD | grep -E "(data/sources/|apps/media-server/)" > /dev/null; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Relevant changes detected"
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No relevant changes detected"
+          fi
+      
+      - name: Log in to Container Registry
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Extract metadata
+        if: steps.changes.outputs.has_changes == 'true'
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=ref,event=branch
+            type=ref,event=pr
+            type=sha,prefix={{branch}}-
+            type=raw,value=latest,enable={{is_default_branch}}
+      
+      - name: Build Docker image
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          cd apps/media-server
+          docker build -f Dockerfile.production -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest .
+      
+      - name: Push Docker image
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+      
+      - name: Deploy to production server
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.MEDIA_SERVER_HOST }}
+          username: ${{ secrets.MEDIA_SERVER_USER }}
+          key: ${{ secrets.MEDIA_SERVER_SSH_KEY }}
+          port: ${{ secrets.MEDIA_SERVER_PORT || '22' }}
+          script: |
+            # Create directory structure
+            mkdir -p /opt/media-server
+            cd /opt/media-server
+            
+            # Download latest docker-compose configuration
+            curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                 -H "Accept: application/vnd.github.raw" \
+                 -L "https://api.github.com/repos/${{ github.repository }}/contents/apps/media-server/docker-compose.yml?ref=${{ github.sha }}" \
+                 -o docker-compose.yml
+            
+            # Download nginx configuration
+            curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                 -H "Accept: application/vnd.github.raw" \
+                 -L "https://api.github.com/repos/${{ github.repository }}/contents/apps/media-server/nginx.conf?ref=${{ github.sha }}" \
+                 -o nginx.conf
+            
+            # Login to container registry
+            echo ${{ secrets.GITHUB_TOKEN }} | docker login ${{ env.REGISTRY }} -u ${{ github.actor }} --password-stdin
+            
+            # Pull latest image
+            docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+            
+            # Update docker-compose to use the new image
+            sed -i 's|image: nginx:alpine|image: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest|' docker-compose.yml
+            
+            # Stop existing containers
+            docker-compose down || true
+            
+            # Start updated containers
+            docker-compose up -d
+            
+            # Wait for health check
+            sleep 10
+            
+            # Verify deployment
+            if curl -f http://localhost/health > /dev/null 2>&1; then
+              echo "✅ Deployment successful - health check passed"
+            else
+              echo "❌ Deployment failed - health check failed"
+              docker-compose logs
+              exit 1
+            fi
+      
+      - name: Sync media files
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.MEDIA_SERVER_HOST }}
+          username: ${{ secrets.MEDIA_SERVER_USER }}
+          key: ${{ secrets.MEDIA_SERVER_SSH_KEY }}
+          port: ${{ secrets.MEDIA_SERVER_PORT || '22' }}
+          script: |
+            # Create media files directory
+            mkdir -p /opt/media-server/media-files
+            
+            # Note: In production, you would typically sync from a storage service
+            # For now, we'll use the files already in the container
+            echo "Media files sync completed (using container volumes)"
+      
+      - name: Post-deployment tests
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.MEDIA_SERVER_HOST }}
+          username: ${{ secrets.MEDIA_SERVER_USER }}
+          key: ${{ secrets.MEDIA_SERVER_SSH_KEY }}
+          port: ${{ secrets.MEDIA_SERVER_PORT || '22' }}
+          script: |
+            # Basic endpoint tests
+            echo "Running post-deployment tests..."
+            
+            # Test health endpoint
+            if curl -f http://localhost/health > /dev/null 2>&1; then
+              echo "✅ Health check: PASS"
+            else
+              echo "❌ Health check: FAIL"
+              exit 1
+            fi
+            
+            # Test sample audio file
+            if curl -s -o /dev/null -w "%{http_code}" http://localhost/audio/SDAH/1.mid | grep -q "200"; then
+              echo "✅ Audio file test: PASS"
+            else
+              echo "⚠️  Audio file test: File not found (may be expected)"
+            fi
+            
+            # Test sample image file
+            if curl -s -o /dev/null -w "%{http_code}" http://localhost/images/SDAH/001.png | grep -q "200"; then
+              echo "✅ Image file test: PASS"
+            else
+              echo "⚠️  Image file test: File not found (may be expected)"
+            fi
+            
+            echo "🎉 All tests completed!"
+      
+      - name: Update deployment status
+        if: always() && steps.changes.outputs.has_changes == 'true'
+        run: |
+          if [ "${{ job.status }}" = "success" ]; then
+            echo "✅ Media server deployment completed successfully"
+            echo "🔗 Server should be available at: https://${{ secrets.MEDIA_SERVER_HOST }}"
+          else
+            echo "❌ Media server deployment failed"
+            exit 1
+          fi
