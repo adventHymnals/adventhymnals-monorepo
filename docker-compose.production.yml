@@ -3,6 +3,9 @@
 
 services:
   advent-hymnals-web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
     image: ${ADVENT_HYMNALS_IMAGE:-ghcr.io/adventhymnals/advent-hymnals-web:latest}
     container_name: advent-hymnals-web
     environment:
