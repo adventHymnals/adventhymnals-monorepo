@@ -4,6 +4,7 @@ import { BookOpenIcon, GlobeAltIcon, MusicalNoteIcon, AcademicCapIcon } from '@h
 import Layout from '@/components/layout/Layout';
 import HymnalCarousel from '@/components/ui/HymnalCarousel';
 import { loadHymnalReferences } from '@/lib/data-server';
+import { HymnalCollection, SupportedLanguage } from '@advent-hymnals/shared';
 
 export const metadata: Metadata = {
   title: 'Advent Hymnals - Digital Collection of Adventist Hymnody',
@@ -40,7 +41,38 @@ const features = [
 ];
 
 export default async function HomePage() {
-  const hymnalReferences = await loadHymnalReferences();
+  // For static export, use a minimal fallback since we can't access the file system
+  let hymnalReferences;
+  try {
+    hymnalReferences = await loadHymnalReferences();
+  } catch (error) {
+    console.warn('Failed to load hymnal references, using fallback data:', error);
+    // Minimal fallback for static export
+    hymnalReferences = {
+      hymnals: {
+        'SDAH': {
+          id: 'SDAH',
+          name: 'Seventh-day Adventist Hymnal',
+          abbreviation: 'SDAH',
+          year: 1985,
+          total_songs: 695,
+          language: 'en' as SupportedLanguage,
+          language_name: 'English',
+          site_name: 'Seventh-day Adventist Hymnal',
+          url_slug: 'seventh-day-adventist-hymnal'
+        }
+      },
+      languages: { 'en': 'English' },
+      metadata: {
+        total_hymnals: 1,
+        date_range: { earliest: 1985, latest: 1985 },
+        languages_supported: ['en'] as SupportedLanguage[],
+        total_estimated_songs: 695,
+        source: 'Fallback data for static export',
+        generated_date: new Date().toISOString().split('T')[0]
+      }
+    };
+  }
 
   // Convert hymnal references to carousel format - get all hymnals from actual data
   const allHymnals = Object.values(hymnalReferences.hymnals);
