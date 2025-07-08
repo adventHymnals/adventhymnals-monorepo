@@ -17,9 +17,14 @@ export async function generateMetadata({ params }: EditPageProps): Promise<Metad
 }
 
 export async function generateStaticParams() {
-  // Edit pages are not supported in fully static mode
-  // Return empty array to prevent any static generation
-  return [];
+  // For static export, we need to generate at least one page
+  // Generate a single placeholder page that shows "not supported" message
+  return [
+    {
+      hymnal: 'placeholder',
+      slug: 'placeholder'
+    }
+  ];
 }
 
 export default async function EditPage({ params }: EditPageProps) {
