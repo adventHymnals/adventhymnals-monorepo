@@ -3,6 +3,7 @@ import { NextResponse } from 'next/server';
 const ALLOWED_ORIGINS = [
   'http://localhost:8080', // Flutter app
   'http://localhost:3000', // Next.js app
+  'https://adventhymnals.github.io', // GitHub Pages static deployment
 ];
 
 export function corsHeaders(origin?: string | null) {

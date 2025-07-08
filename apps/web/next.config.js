@@ -48,7 +48,7 @@ const nextConfig = {
           headers: [
             {
               key: 'Access-Control-Allow-Origin',
-              value: 'http://localhost:8080',
+              value: '*',
             },
             {
               key: 'Access-Control-Allow-Methods',
