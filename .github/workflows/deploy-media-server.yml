@@ -102,7 +102,7 @@ jobs:
           client-payload: |
             {
               "triggered_by": "media-server-build",
-              "media_server_image": "${{ needs.build-media-server.outputs.image_tag }}",
+              "media_server_image": "ghcr.io/adventhymnals/media-server:latest",
               "sha": "${{ github.sha }}",
               "actor": "${{ github.actor }}"
             }
