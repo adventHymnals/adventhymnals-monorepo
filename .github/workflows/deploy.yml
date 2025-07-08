@@ -69,10 +69,12 @@ jobs:
             echo "🔨 Triggered by: ${{ steps.info.outputs.triggered_by }}"
             echo "📝 SHA: ${{ steps.info.outputs.sha }}"
             
-            # Handle media server image if provided
+            # Media server image
             if [ -n "${{ steps.info.outputs.media_server_image }}" ]; then
               echo "📦 Media Server Image: ${{ steps.info.outputs.media_server_image }}"
               echo "🎵 Media server will be updated"
+            else
+              echo "📦 Media Server Image: ghcr.io/adventhymnals/media-server:latest (default)"
             fi
             
             # Update .env file with secrets
@@ -108,10 +110,13 @@ jobs:
             echo "📦 Pulling Docker images..."
             docker pull ${{ env.IMAGE_LOCATION }}
             
-            # Pull media server image if provided
+            # Pull media server image
             if [ -n "${{ steps.info.outputs.media_server_image }}" ]; then
               echo "📦 Pulling media server image: ${{ steps.info.outputs.media_server_image }}"
               docker pull ${{ steps.info.outputs.media_server_image }}
+            else
+              echo "📦 Pulling default media server image: ghcr.io/adventhymnals/media-server:latest"
+              docker pull ghcr.io/adventhymnals/media-server:latest
             fi
             
             echo "🛑 Stopping existing containers..."
@@ -121,12 +126,16 @@ jobs:
             # Set image environment variables and start containers
             export ADVENT_HYMNALS_IMAGE="${{ env.IMAGE_LOCATION }}"
             
-            # Set media server image if provided
+            # Start containers with media server
             if [ -n "${{ steps.info.outputs.media_server_image }}" ]; then
               export MEDIA_SERVER_IMAGE="${{ steps.info.outputs.media_server_image }}"
               echo "🎵 Using media server image: $MEDIA_SERVER_IMAGE"
+            else
+              export MEDIA_SERVER_IMAGE="ghcr.io/adventhymnals/media-server:latest"
+              echo "🎵 Using default media server image: $MEDIA_SERVER_IMAGE"
             fi
             
+            echo "🚀 Starting all containers..."
             docker compose up -d
             
             echo "⏱️ Waiting for containers to start..."
@@ -168,14 +177,12 @@ jobs:
                 echo "⚠️ Web application health check failed - may still be starting"
               fi
               
-              # Test media server health if it was deployed
-              if [ -n "${{ steps.info.outputs.media_server_image }}" ]; then
-                echo "🎵 Testing media server health..."
-                if curl -sf https://media.adventhymnals.org/health > /dev/null 2>&1; then
-                  echo "✅ Media server health check passed"
-                else
-                  echo "⚠️ Media server health check failed - may still be starting"
-                fi
+              # Test media server health
+              echo "🎵 Testing media server health..."
+              if curl -sf https://media.adventhymnals.org/health > /dev/null 2>&1; then
+                echo "✅ Media server health check passed"
+              else
+                echo "⚠️ Media server health check failed - may still be starting"
               fi
               
               # Show logs if any health check failed
@@ -204,9 +211,11 @@ jobs:
             echo "🌐 Main site: https://adventhymnals.org"
             echo "📦 Web image: ghcr.io/adventhymnals/advent-hymnals-web:${{ steps.info.outputs.image_tag }}"
             
+            echo "🎵 Media server: https://media.adventhymnals.org"
             if [ -n "${{ steps.info.outputs.media_server_image }}" ]; then
-              echo "🎵 Media server: https://media.adventhymnals.org"
               echo "📦 Media image: ${{ steps.info.outputs.media_server_image }}"
+            else
+              echo "📦 Media image: ghcr.io/adventhymnals/media-server:latest"
             fi
           else
             echo "❌ Deployment failed!"
