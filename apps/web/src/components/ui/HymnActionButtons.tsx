@@ -414,12 +414,8 @@ Download the MIDI file?`
       setIsLoading(false);
     };
     
-    audio.ontimeout = () => {
-      console.error('Audio loading timed out');
-      setIsLoading(false);
-      setLoadingProgress(0);
-      tryPlayAudio(sources, index + 1);
-    };
+    // Note: ontimeout is not a standard HTMLAudioElement event
+    // We'll rely on onabort and onerror for timeout handling
 
     audio.onplay = () => {
       console.log('MP3 play event fired');
