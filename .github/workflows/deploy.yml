@@ -31,12 +31,14 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
             echo "image_tag=latest" >> $GITHUB_OUTPUT
-            echo "triggered_by=build" >> $GITHUB_OUTPUT
+            echo "triggered_by=${{ github.event.client_payload.triggered_by || 'build' }}" >> $GITHUB_OUTPUT
             echo "sha=${{ github.event.client_payload.sha }}" >> $GITHUB_OUTPUT
+            echo "media_server_image=${{ github.event.client_payload.media_server_image }}" >> $GITHUB_OUTPUT
           else
             echo "image_tag=${{ github.event.inputs.image_tag || 'latest' }}" >> $GITHUB_OUTPUT
             echo "triggered_by=manual" >> $GITHUB_OUTPUT
             echo "sha=${{ github.sha }}" >> $GITHUB_OUTPUT
+            echo "media_server_image=" >> $GITHUB_OUTPUT
           fi
 
       - name: Set image configuration
@@ -63,9 +65,15 @@ jobs:
             cd /opt/advent-hymnals
             
             echo "🚀 Starting deployment of Advent Hymnals..."
-            echo "📦 Image: ${{ env.IMAGE_LOCATION }}"
+            echo "📦 Web Image: ${{ env.IMAGE_LOCATION }}"
             echo "🔨 Triggered by: ${{ steps.info.outputs.triggered_by }}"
             echo "📝 SHA: ${{ steps.info.outputs.sha }}"
+            
+            # Handle media server image if provided
+            if [ -n "${{ steps.info.outputs.media_server_image }}" ]; then
+              echo "📦 Media Server Image: ${{ steps.info.outputs.media_server_image }}"
+              echo "🎵 Media server will be updated"
+            fi
             
             # Update .env file with secrets
             cat > .env << EOF
@@ -97,15 +105,28 @@ jobs:
               echo "🌐 Using public image (no authentication needed)"
             fi
             
-            echo "📦 Pulling Docker image: ${{ env.IMAGE_LOCATION }}"
+            echo "📦 Pulling Docker images..."
             docker pull ${{ env.IMAGE_LOCATION }}
+            
+            # Pull media server image if provided
+            if [ -n "${{ steps.info.outputs.media_server_image }}" ]; then
+              echo "📦 Pulling media server image: ${{ steps.info.outputs.media_server_image }}"
+              docker pull ${{ steps.info.outputs.media_server_image }}
+            fi
             
             echo "🛑 Stopping existing containers..."
             docker compose down || true
             
-            echo "🚀 Starting new containers with image: ${{ env.IMAGE_LOCATION }}..."
-            # Set image environment variable and start containers
+            echo "🚀 Starting new containers..."
+            # Set image environment variables and start containers
             export ADVENT_HYMNALS_IMAGE="${{ env.IMAGE_LOCATION }}"
+            
+            # Set media server image if provided
+            if [ -n "${{ steps.info.outputs.media_server_image }}" ]; then
+              export MEDIA_SERVER_IMAGE="${{ steps.info.outputs.media_server_image }}"
+              echo "🎵 Using media server image: $MEDIA_SERVER_IMAGE"
+            fi
+            
             docker compose up -d
             
             echo "⏱️ Waiting for containers to start..."
@@ -137,12 +158,28 @@ jobs:
             if [ "$RUNNING_CONTAINERS" -gt 0 ]; then
               echo "✅ Found $RUNNING_CONTAINERS running container(s)"
               
-              # Test health endpoint
-              echo "🏥 Testing health endpoint..."
+              # Test health endpoints
+              echo "🏥 Testing health endpoints..."
+              
+              # Test web application health
               if curl -sf http://localhost/api/health > /dev/null 2>&1; then
-                echo "✅ Health check passed - application is responding"
+                echo "✅ Web application health check passed"
               else
-                echo "⚠️ Health check failed - application may still be starting"
+                echo "⚠️ Web application health check failed - may still be starting"
+              fi
+              
+              # Test media server health if it was deployed
+              if [ -n "${{ steps.info.outputs.media_server_image }}" ]; then
+                echo "🎵 Testing media server health..."
+                if curl -sf https://media.adventhymnals.org/health > /dev/null 2>&1; then
+                  echo "✅ Media server health check passed"
+                else
+                  echo "⚠️ Media server health check failed - may still be starting"
+                fi
+              fi
+              
+              # Show logs if any health check failed
+              if ! curl -sf http://localhost/api/health > /dev/null 2>&1; then
                 echo "🔍 Container logs (last 10 lines):"
                 docker compose logs --tail=10
               fi
@@ -164,8 +201,13 @@ jobs:
         run: |
           if [ "${{ job.status }}" = "success" ]; then
             echo "✅ Deployment completed successfully!"
-            echo "🌐 Site: https://adventhymnals.org"
-            echo "📦 Image: ghcr.io/adventhymnals/advent-hymnals-web:${{ steps.info.outputs.image_tag }}"
+            echo "🌐 Main site: https://adventhymnals.org"
+            echo "📦 Web image: ghcr.io/adventhymnals/advent-hymnals-web:${{ steps.info.outputs.image_tag }}"
+            
+            if [ -n "${{ steps.info.outputs.media_server_image }}" ]; then
+              echo "🎵 Media server: https://media.adventhymnals.org"
+              echo "📦 Media image: ${{ steps.info.outputs.media_server_image }}"
+            fi
           else
             echo "❌ Deployment failed!"
             echo "Please check the logs above for details."

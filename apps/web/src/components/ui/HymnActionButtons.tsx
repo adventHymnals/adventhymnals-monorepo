@@ -56,7 +56,7 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRe
         // Check MIDI file
         if (hymnalRef.music.midi) {
           try {
-            const audioPath = `/data/sources/audio/${hymnalRef.id}/${hymn.number}.mid`;
+            const audioPath = `https://media.adventhymnals.org/audio/${hymnalRef.id}/${hymn.number}.mid`;
             const response = await fetch(audioPath, { method: 'HEAD' });
             if (response.ok) {
               available.add('midi');
@@ -69,7 +69,7 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRe
         // Check MP3 file  
         if (hymnalRef.music.mp3) {
           try {
-            const audioPath = `/data/sources/audio/${hymnalRef.id}/${hymn.number}.mp3`;
+            const audioPath = `https://media.adventhymnals.org/audio/${hymnalRef.id}/${hymn.number}.mp3`;
             const response = await fetch(audioPath, { method: 'HEAD' });
             if (response.ok) {
               available.add('mp3');
@@ -180,12 +180,12 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRe
     }
     const audioSources = [];
     
-    // Try local files first (always, regardless of environment)
+    // Try media server first (optimized for audio serving)
     if (formatToUse === 'mp3' && hymnalRef.music.mp3) {
-      audioSources.push(`/data/sources/audio/${hymnalRef.id}/${hymn.number}.mp3`);
+      audioSources.push(`https://media.adventhymnals.org/audio/${hymnalRef.id}/${hymn.number}.mp3`);
     }
     if (formatToUse === 'midi' && hymnalRef.music.midi) {
-      audioSources.push(`/data/sources/audio/${hymnalRef.id}/${hymn.number}.mid`);
+      audioSources.push(`https://media.adventhymnals.org/audio/${hymnalRef.id}/${hymn.number}.mid`);
     }
     
     // Add external URLs as fallback only if local files might not exist
