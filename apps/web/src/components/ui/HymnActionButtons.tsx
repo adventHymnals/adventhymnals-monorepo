@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { PlayIcon, PrinterIcon, ShareIcon, PencilIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
+import { PlayIcon, PauseIcon, StopIcon, ArrowPathIcon, Cog6ToothIcon, PrinterIcon, ShareIcon, PencilIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
 
 interface HymnActionButtonsProps {
   hymn: {
@@ -26,7 +26,63 @@ interface HymnActionButtonsProps {
 export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRef }: HymnActionButtonsProps) {
   const [selectedFormat, setSelectedFormat] = useState<'midi' | 'mp3'>('midi'); // Default to MIDI
   const [showFormatDropdown, setShowFormatDropdown] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [loopEnabled, setLoopEnabled] = useState(false);
+  const [showAdvancedPlayer, setShowAdvancedPlayer] = useState(false);
+  const [currentPlayer, setCurrentPlayer] = useState<any>(null);
+  const [loadingProgress, setLoadingProgress] = useState(0);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
+  const [pointA, setPointA] = useState<number | null>(null);
+  const [pointB, setPointB] = useState<number | null>(null);
+  const [isABLooping, setIsABLooping] = useState(false);
+  const [channelVolumes, setChannelVolumes] = useState({
+    master: 1.0,
+    left: 1.0,
+    right: 1.0,
+    melody: 1.0,
+    bass: 1.0
+  });
+  const [actuallyAvailableFormats, setActuallyAvailableFormats] = useState<Set<'midi' | 'mp3'>>(new Set());
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Check which audio formats actually exist for this hymn
+  useEffect(() => {
+    const checkFileExistence = async () => {
+      const available = new Set<'midi' | 'mp3'>();
+      
+      if (hymnalRef?.music) {
+        // Check MIDI file
+        if (hymnalRef.music.midi) {
+          try {
+            const response = await fetch(`/api/audio/${hymnalRef.id}/${hymn.number}.mid`, { method: 'HEAD' });
+            if (response.ok) {
+              available.add('midi');
+            }
+          } catch (error) {
+            console.log('MIDI file not available:', error);
+          }
+        }
+        
+        // Check MP3 file  
+        if (hymnalRef.music.mp3) {
+          try {
+            const response = await fetch(`/api/audio/${hymnalRef.id}/${hymn.number}.mp3`, { method: 'HEAD' });
+            if (response.ok) {
+              available.add('mp3');
+            }
+          } catch (error) {
+            console.log('MP3 file not available:', error);
+          }
+        }
+      }
+      
+      setActuallyAvailableFormats(available);
+    };
+    
+    checkFileExistence();
+  }, [hymnalRef?.id, hymn.number]);
 
   // Set selectedFormat to first available format when component loads
   useEffect(() => {
@@ -34,7 +90,31 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRe
     if (formats.length > 0 && !formats.find(f => f.key === selectedFormat)) {
       setSelectedFormat(formats[0].key);
     }
-  }, [hymnalRef]);
+  }, [hymnalRef, actuallyAvailableFormats]);
+
+  // Update position dynamically when playing
+  useEffect(() => {
+    let interval: NodeJS.Timeout;
+    
+    if (isPlaying && currentPlayer) {
+      interval = setInterval(() => {
+        if (currentPlayer.currentTime !== undefined) {
+          setCurrentTime(currentPlayer.currentTime);
+          setDuration(currentPlayer.duration || 0);
+          
+          // Handle A-B looping
+          if (isABLooping && pointA !== null && pointB !== null && currentPlayer.currentTime >= pointB) {
+            console.log(`A-B Loop: Jumping from ${currentPlayer.currentTime} back to ${pointA}`);
+            currentPlayer.currentTime = pointA;
+          }
+        }
+      }, 100); // Update every 100ms for smooth progress
+    }
+    
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [isPlaying, currentPlayer, isABLooping, pointA, pointB]);
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -50,20 +130,26 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRe
     };
   }, []);
 
-  // Get available formats for this hymnal
+  // Get available formats for this hymnal and specific hymn
   const getAvailableFormats = () => {
     const formats: Array<{ key: 'midi' | 'mp3'; label: string; size: string }> = [];
     
-    // Only enable audio for hymnals where we know files actually exist
-    const hymnalsWithActualAudio = ['CH1941', 'SDAH']; // Add more as audio files become available
+    // Show formats based on actual file existence
+    if (actuallyAvailableFormats.has('midi')) {
+      formats.push({ key: 'midi', label: 'MIDI', size: '~2KB' });
+    }
     
-    if (hymnalsWithActualAudio.includes(hymnalRef?.id || '')) {
-      // MIDI should be shown first (as default) when available
-      if (hymnalRef?.music?.midi) {
-        formats.push({ key: 'midi', label: 'MIDI', size: '~2KB' });
+    if (actuallyAvailableFormats.has('mp3')) {
+      formats.push({ key: 'mp3', label: 'MP3', size: '~2MB' });
+    }
+    
+    // If we haven't checked yet (actuallyAvailableFormats is empty), show potential formats
+    if (actuallyAvailableFormats.size === 0 && hymnalRef?.music) {
+      if (hymnalRef.music.midi) {
+        formats.push({ key: 'midi', label: 'MIDI (checking...)', size: '~2KB' });
       }
-      if (hymnalRef?.music?.mp3) {
-        formats.push({ key: 'mp3', label: 'MP3', size: '~2MB' });
+      if (hymnalRef.music.mp3) {
+        formats.push({ key: 'mp3', label: 'MP3 (checking...)', size: '~2MB' });
       }
     }
     
@@ -75,23 +161,42 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRe
       alert('Audio not available for this hymnal.');
       return;
     }
-
+    
     const availableFormats = getAvailableFormats();
     const defaultFormat = availableFormats[0]?.key || 'midi';
     const formatToUse = format || selectedFormat || defaultFormat;
+    
+    // If we know the format doesn't exist, show immediate feedback
+    if (actuallyAvailableFormats.size > 0 && !actuallyAvailableFormats.has(formatToUse as 'midi' | 'mp3')) {
+      const otherFormat = formatToUse === 'midi' ? 'mp3' : 'midi';
+      if (actuallyAvailableFormats.has(otherFormat as 'midi' | 'mp3')) {
+        alert(`${formatToUse.toUpperCase()} is not available for hymn #${hymn.number}. Try ${otherFormat.toUpperCase()} instead.`);
+      } else {
+        alert(`No audio files are available for hymn #${hymn.number}.`);
+      }
+      return;
+    }
     const audioSources = [];
     
     // Try local files first (always, regardless of environment)
     if (formatToUse === 'mp3' && hymnalRef.music.mp3) {
-      audioSources.push(`/data/sources/audio/${hymnalRef.id}/${hymn.number}.mp3`);
+      audioSources.push(`/api/audio/${hymnalRef.id}/${hymn.number}.mp3`);
     }
     if (formatToUse === 'midi' && hymnalRef.music.midi) {
-      audioSources.push(`/data/sources/audio/${hymnalRef.id}/${hymn.number}.mid`);
+      audioSources.push(`/api/audio/${hymnalRef.id}/${hymn.number}.mid`);
     }
     
     // Add external URLs as fallback only if local files might not exist
     if (formatToUse === 'mp3' && hymnalRef.music.mp3) {
-      audioSources.push(`${hymnalRef.music.mp3}/${hymn.number}.mp3`);
+      // Try GitHub raw URLs with different approaches
+      const baseUrl = hymnalRef.music.mp3;
+      audioSources.push(`${baseUrl}/${hymn.number}.mp3`);
+      
+      // Also try with explicit audio hint for better content-type detection
+      if (baseUrl.includes('raw.githubusercontent.com')) {
+        // Add URL parameters that might help with content type
+        audioSources.push(`${baseUrl}/${hymn.number}.mp3?raw=true`);
+      }
     }
     if (formatToUse === 'midi' && hymnalRef.music.midi) {
       const midiUrls = Array.isArray(hymnalRef.music.midi) 
@@ -100,6 +205,10 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRe
       
       midiUrls.forEach(url => {
         audioSources.push(`${url}/${hymn.number}.mid`);
+        // Also try with raw parameter for GitHub URLs
+        if (url.includes('raw.githubusercontent.com')) {
+          audioSources.push(`${url}/${hymn.number}.mid?raw=true`);
+        }
       });
     }
 
@@ -114,8 +223,12 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRe
 
   const playMidiFile = async (midiUrl: string) => {
     try {
+      setIsLoading(true);
+      setLoadingProgress(10);
+      
       // Load html-midi-player library (modern 2024 solution using Google Magenta.js)
       if (typeof window !== 'undefined' && !customElements.get('midi-player')) {
+        setLoadingProgress(20);
         // Load the html-midi-player library from CDN
         const script = document.createElement('script');
         script.src = 'https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0';
@@ -127,10 +240,12 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRe
           script.onerror = () => reject(new Error('Failed to load MIDI player library'));
         });
         
+        setLoadingProgress(50);
         // Wait a bit for the custom elements to be registered
         await new Promise(resolve => setTimeout(resolve, 500));
       }
 
+      setLoadingProgress(70);
       // Create a hidden MIDI player element
       let midiPlayer = document.getElementById('hidden-midi-player') as any;
       if (!midiPlayer) {
@@ -140,6 +255,10 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRe
         document.body.appendChild(midiPlayer);
       }
 
+      // Configure loop setting
+      midiPlayer.loop = loopEnabled;
+
+      setLoadingProgress(80);
       // Set the MIDI file source and play
       midiPlayer.src = midiUrl;
       
@@ -149,12 +268,46 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRe
         midiPlayer.addEventListener('error', reject, { once: true });
       });
 
+      setLoadingProgress(90);
+      // Add event listeners for playback state
+      midiPlayer.addEventListener('play', () => {
+        console.log('MIDI play event fired');
+        setIsPlaying(true);
+        // Try to get MIDI duration
+        if (midiPlayer.duration) {
+          setDuration(midiPlayer.duration);
+        }
+      });
+      midiPlayer.addEventListener('pause', () => {
+        console.log('MIDI pause event fired');
+        setIsPlaying(false);
+      });
+      midiPlayer.addEventListener('stop', () => {
+        console.log('MIDI stop event fired');
+        setIsPlaying(false);
+      });
+      midiPlayer.addEventListener('load', () => {
+        console.log('MIDI load event fired');
+        // Set duration when MIDI loads
+        if (midiPlayer.duration) {
+          setDuration(midiPlayer.duration);
+        }
+      });
+
       // Start playback
       midiPlayer.start();
+      setCurrentPlayer(midiPlayer);
+      
+      // Manually set playing state for MIDI since events might not fire immediately
+      setIsPlaying(true);
+      setLoadingProgress(100);
+      setIsLoading(false);
       console.log('Playing MIDI file:', midiUrl);
       
     } catch (error) {
       console.error('Failed to play MIDI file:', error);
+      setIsLoading(false);
+      setLoadingProgress(0);
       
       // Fallback options
       const userChoice = window.confirm(
@@ -190,7 +343,20 @@ Download the MIDI file?`
 
   const tryPlayAudio = (sources: string[], index: number) => {
     if (index >= sources.length) {
-      alert('Audio file could not be loaded for this hymn.');
+      // Provide more specific error message based on format
+      const isMP3 = sources.some(src => src.includes('.mp3'));
+      const isMIDI = sources.some(src => src.includes('.mid'));
+      
+      let errorMessage = 'Audio file could not be loaded for this hymn.';
+      if (isMP3 && selectedFormat === 'mp3') {
+        errorMessage = `MP3 audio is not available for hymn #${hymn.number}. Try MIDI format instead.`;
+      } else if (isMIDI && selectedFormat === 'midi') {
+        errorMessage = `MIDI audio is not available for hymn #${hymn.number}.`;
+      }
+      
+      alert(errorMessage);
+      setIsLoading(false);
+      setLoadingProgress(0);
       return;
     }
 
@@ -202,22 +368,225 @@ Download the MIDI file?`
       return;
     }
 
+    setIsLoading(true);
+    setLoadingProgress(10);
+    
     const audio = new Audio();
     
+    // Add loop if enabled
+    audio.loop = loopEnabled;
+    
+    // Try to handle GitHub raw URLs with incorrect content-type
+    if (currentSource.includes('raw.githubusercontent.com') && currentSource.endsWith('.mp3')) {
+      // Set crossOrigin to handle CORS properly
+      audio.crossOrigin = 'anonymous';
+    }
+    
+    // Enhanced progress tracking
+    audio.onloadstart = () => {
+      console.log('Started loading audio:', currentSource);
+      setLoadingProgress(20);
+    };
+    
+    audio.onprogress = (event) => {
+      if (event.lengthComputable) {
+        const percentComplete = (event.loaded / event.total) * 100;
+        setLoadingProgress(Math.min(20 + (percentComplete * 0.6), 80)); // Progress from 20% to 80%
+        console.log(`Download progress: ${percentComplete.toFixed(1)}%`);
+      }
+    };
+    
     audio.onloadeddata = () => {
+      console.log('Audio data loaded, attempting to play');
+      setLoadingProgress(85);
       audio.play().catch((error) => {
         console.error('Error playing audio:', error);
-        alert('Could not play audio. Please check your browser settings.');
+        setIsLoading(false);
+        setLoadingProgress(0);
+        // Try next source instead of showing alert immediately
+        tryPlayAudio(sources, index + 1);
       });
     };
 
-    audio.onerror = () => {
-      console.log(`Failed to load ${sources[index]}, trying next source...`);
+    audio.oncanplaythrough = () => {
+      console.log('Audio can play through');
+      setLoadingProgress(100);
+      setIsLoading(false);
+    };
+    
+    audio.ontimeout = () => {
+      console.error('Audio loading timed out');
+      setIsLoading(false);
+      setLoadingProgress(0);
       tryPlayAudio(sources, index + 1);
+    };
+
+    audio.onplay = () => {
+      console.log('MP3 play event fired');
+      setIsPlaying(true);
+      setCurrentPlayer(audio);
+      setDuration(audio.duration || 0);
+    };
+
+    audio.onpause = () => {
+      setIsPlaying(false);
+    };
+
+    audio.onended = () => {
+      setIsPlaying(false);
+      if (!loopEnabled) {
+        setCurrentPlayer(null);
+        setCurrentTime(0);
+        setDuration(0);
+      }
+    };
+
+    audio.onloadedmetadata = () => {
+      setDuration(audio.duration || 0);
+    };
+
+    audio.onerror = (event) => {
+      const error = audio.error;
+      let errorMessage = 'Unknown error';
+      
+      if (error) {
+        switch (error.code) {
+          case error.MEDIA_ERR_ABORTED:
+            errorMessage = 'Download aborted';
+            break;
+          case error.MEDIA_ERR_NETWORK:
+            errorMessage = 'Network error during download';
+            break;
+          case error.MEDIA_ERR_DECODE:
+            errorMessage = 'Audio decode error';
+            break;
+          case error.MEDIA_ERR_SRC_NOT_SUPPORTED:
+            errorMessage = 'Audio format not supported';
+            break;
+        }
+      }
+      
+      console.log(`Failed to load ${sources[index]} (${errorMessage}), trying next source...`);
+      console.log('Full error details:', error);
+      console.log('Response headers check needed for:', sources[index]);
+      setLoadingProgress(0);
+      
+      // Add a small delay before trying next source to avoid rapid retries
+      setTimeout(() => {
+        tryPlayAudio(sources, index + 1);
+      }, 500);
     };
 
     audio.src = sources[index];
     audio.load();
+  };
+
+  const handleStopAudio = () => {
+    if (currentPlayer) {
+      if (currentPlayer.pause) {
+        // HTML Audio element
+        currentPlayer.pause();
+        currentPlayer.currentTime = 0;
+      } else if (currentPlayer.stop) {
+        // MIDI player
+        currentPlayer.stop();
+      }
+      setIsPlaying(false);
+      setCurrentPlayer(null);
+      setCurrentTime(0);
+      setDuration(0);
+      setPointA(null);
+      setPointB(null);
+      setIsABLooping(false);
+    }
+  };
+
+  const handlePauseResumeAudio = () => {
+    if (currentPlayer) {
+      if (isPlaying) {
+        // Pause the audio
+        if (currentPlayer.pause) {
+          // HTML Audio element
+          currentPlayer.pause();
+        } else if (currentPlayer.stop) {
+          // MIDI player doesn't have pause, use stop
+          currentPlayer.stop();
+        }
+        setIsPlaying(false);
+        console.log('Audio paused');
+      } else {
+        // Resume the audio
+        if (currentPlayer.play) {
+          // HTML Audio element
+          currentPlayer.play();
+        } else if (currentPlayer.start) {
+          // MIDI player
+          currentPlayer.start();
+        }
+        setIsPlaying(true);
+        console.log('Audio resumed');
+      }
+    }
+  };
+
+  const toggleLoop = () => {
+    const newLoopState = !loopEnabled;
+    setLoopEnabled(newLoopState);
+    
+    // Apply loop setting to current player
+    if (currentPlayer) {
+      if (currentPlayer.play && currentPlayer.pause) {
+        // HTML Audio element
+        currentPlayer.loop = newLoopState;
+        console.log('HTML Audio loop set to:', newLoopState);
+      } else if (currentPlayer.start && currentPlayer.stop) {
+        // MIDI player - loop property should exist
+        if (currentPlayer.loop !== undefined) {
+          currentPlayer.loop = newLoopState;
+          console.log('MIDI player loop set to:', newLoopState);
+        } else {
+          console.log('MIDI player does not support loop property');
+        }
+      }
+    }
+  };
+
+  const setLoopPointA = () => {
+    if (currentPlayer && currentTime) {
+      setPointA(currentTime);
+      console.log('Set Point A at:', currentTime);
+    }
+  };
+
+  const setLoopPointB = () => {
+    if (currentPlayer && currentTime) {
+      setPointB(currentTime);
+      console.log('Set Point B at:', currentTime);
+    }
+  };
+
+  const toggleABLoop = () => {
+    if (pointA !== null && pointB !== null) {
+      const newABLoopState = !isABLooping;
+      setIsABLooping(newABLoopState);
+      console.log('A-B Loop toggled to:', newABLoopState);
+      console.log('Points A:', pointA, 'B:', pointB);
+      
+      if (newABLoopState && currentPlayer) {
+        // Jump to point A when starting A-B loop
+        currentPlayer.currentTime = pointA;
+        console.log('Jumped to Point A:', pointA);
+      }
+    } else {
+      alert('Please set both Point A and Point B first');
+      console.log('A-B Loop failed - Points A:', pointA, 'B:', pointB);
+    }
+  };
+
+  const clearLoopPoints = () => {
+    setPointA(null);
+    setPointB(null);
+    setIsABLooping(false);
   };
 
   const handlePrint = () => {
@@ -339,28 +708,72 @@ Download the MIDI file?`
   const currentFormat = availableFormats.find(f => f.key === validSelectedFormat);
 
   return (
-    <div className="mt-8 flex flex-wrap justify-center gap-2 sm:gap-4 action-buttons no-print">
-      {/* Audio Play Button with Format Selector */}
-      <div className="relative" ref={dropdownRef}>
+    <div className="mt-8 space-y-4 action-buttons no-print">
+      {/* Progress indicator */}
+      {isLoading && (
+        <div className="flex justify-center">
+          <div className="w-64 bg-white/10 rounded-full h-2">
+            <div 
+              className="bg-primary-500 h-2 rounded-full transition-all duration-300"
+              style={{ width: `${loadingProgress}%` }}
+            />
+          </div>
+        </div>
+      )}
+
+      <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
+        {/* Audio Controls */}
+        <div className="relative" ref={dropdownRef}>
           <div className="flex">
-            <button 
-              onClick={() => handlePlayAudio()}
-              disabled={availableFormats.length === 0}
-              className={`inline-flex items-center px-2 py-1.5 sm:px-3 sm:py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 font-medium transition-colors duration-200 text-xs sm:text-sm ${
-                availableFormats.length > 1 ? 'rounded-l-lg' : 'rounded-lg'
-              } ${
-                availableFormats.length === 0 ? 'opacity-50 cursor-not-allowed' : ''
-              }`}
-            >
-              <PlayIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
-              <span className="sm:hidden">Play</span>
-              <span className="hidden sm:inline">
-                {availableFormats.length === 0 
-                  ? 'No Audio' 
-                  : `Play ${currentFormat?.label}`
-                }
-              </span>
-            </button>
+            {/* Play Button - only show when not playing and not loading */}
+            {!isPlaying && !isLoading && (
+              <button 
+                onClick={() => handlePlayAudio()}
+                disabled={availableFormats.length === 0}
+                className={`inline-flex items-center px-2 py-1.5 sm:px-3 sm:py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 font-medium transition-colors duration-200 text-xs sm:text-sm ${
+                  availableFormats.length > 1 ? 'rounded-l-lg' : 'rounded-lg'
+                } ${
+                  availableFormats.length === 0 ? 'opacity-50 cursor-not-allowed' : ''
+                }`}
+              >
+                <PlayIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
+                <span className="sm:hidden">Play</span>
+                <span className="hidden sm:inline">
+                  {availableFormats.length === 0 
+                    ? 'No Audio' 
+                    : `Play ${currentFormat?.label}`
+                  }
+                </span>
+              </button>
+            )}
+            
+            {/* Loading Button */}
+            {isLoading && (
+              <button 
+                disabled={true}
+                className={`inline-flex items-center px-2 py-1.5 sm:px-3 sm:py-2 bg-white/10 text-white border border-white/20 font-medium transition-colors duration-200 text-xs sm:text-sm opacity-50 cursor-not-allowed ${
+                  availableFormats.length > 1 ? 'rounded-l-lg' : 'rounded-lg'
+                }`}
+              >
+                <div className="animate-spin rounded-full h-3 w-3 sm:h-4 sm:w-4 border-b-2 border-white mr-1 sm:mr-2"></div>
+                <span className="sm:hidden">Loading</span>
+                <span className="hidden sm:inline">Loading...</span>
+              </button>
+            )}
+            
+            {/* Pause Button - only show when playing */}
+            {isPlaying && (
+              <button 
+                onClick={handlePauseResumeAudio}
+                className={`inline-flex items-center px-2 py-1.5 sm:px-3 sm:py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 font-medium transition-colors duration-200 text-xs sm:text-sm ${
+                  availableFormats.length > 1 ? 'rounded-l-lg' : 'rounded-lg'
+                }`}
+              >
+                <PauseIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
+                <span className="sm:hidden">Pause</span>
+                <span className="hidden sm:inline">Pause {currentFormat?.label}</span>
+              </button>
+            )}
             {availableFormats.length > 1 && (
               <button
                 onClick={() => setShowFormatDropdown(!showFormatDropdown)}
@@ -393,9 +806,42 @@ Download the MIDI file?`
               ))}
             </div>
           )}
-      </div>
+        </div>
+
+        {/* Additional Audio Controls - only show when playing */}
+        {currentPlayer && (
+          <>
+            <button 
+              onClick={handleStopAudio}
+              className="inline-flex items-center px-2 py-1.5 sm:px-3 sm:py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200 text-xs sm:text-sm"
+            >
+              <StopIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
+              <span className="hidden sm:inline">Stop</span>
+            </button>
+
+            <button 
+              onClick={toggleLoop}
+              className={`inline-flex items-center px-2 py-1.5 sm:px-3 sm:py-2 border border-white/20 rounded-lg font-medium transition-colors duration-200 text-xs sm:text-sm ${
+                loopEnabled 
+                  ? 'bg-primary-500 text-white hover:bg-primary-600' 
+                  : 'bg-white/10 text-white hover:bg-white/20'
+              }`}
+            >
+              <ArrowPathIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
+              <span className="hidden sm:inline">Loop</span>
+            </button>
+
+            <button 
+              onClick={() => setShowAdvancedPlayer(!showAdvancedPlayer)}
+              className="inline-flex items-center px-2 py-1.5 sm:px-3 sm:py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200 text-xs sm:text-sm"
+            >
+              <Cog6ToothIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
+              <span className="hidden sm:inline">Advanced</span>
+            </button>
+          </>
+        )}
       
-      {/* YouTube Button */}
+        {/* YouTube Button */}
       <button 
         onClick={handleYouTube}
         className="inline-flex items-center px-2 py-1.5 sm:px-4 sm:py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200 text-xs sm:text-sm"
@@ -426,6 +872,231 @@ Download the MIDI file?`
         <ShareIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
         Share
       </button>
+      </div>
+
+      {/* Advanced Player Panel */}
+      {showAdvancedPlayer && currentPlayer && (
+        <div className="mt-4 p-4 bg-white/5 border border-white/20 rounded-lg">
+          <h4 className="text-white font-medium mb-3 text-sm">Advanced Audio Controls</h4>
+          
+          {/* Progress Bar (for HTML Audio and MIDI) */}
+          <div className="mb-4">
+            <div className="flex justify-between text-xs text-white/70 mb-1">
+              <span>Position</span>
+              <span>
+                {duration > 0 
+                  ? `${Math.floor(currentTime / 60)}:${String(Math.floor(currentTime % 60)).padStart(2, '0')} / ${Math.floor(duration / 60)}:${String(Math.floor(duration % 60)).padStart(2, '0')}`
+                  : `${Math.floor(currentTime / 60)}:${String(Math.floor(currentTime % 60)).padStart(2, '0')}`
+                }
+              </span>
+            </div>
+            <div className="w-full bg-white/10 rounded-full h-2">
+              <div 
+                className="bg-primary-500 h-2 rounded-full transition-all duration-300 cursor-pointer"
+                style={{ width: duration > 0 ? `${(currentTime / duration) * 100}%` : '0%' }}
+                onClick={(e) => {
+                  if (duration > 0) {
+                    const rect = e.currentTarget.parentElement?.getBoundingClientRect();
+                    if (rect) {
+                      const clickX = e.clientX - rect.left;
+                      const newTime = (clickX / rect.width) * duration;
+                      if (currentPlayer && currentPlayer.currentTime !== undefined) {
+                        currentPlayer.currentTime = newTime;
+                      }
+                    }
+                  }
+                }}
+              />
+            </div>
+          </div>
+
+          {/* Multi-Channel Mixer */}
+          <div className="mb-4">
+            <label className="block text-xs text-white/70 mb-2">Audio Mixer</label>
+            <div className="grid grid-cols-2 gap-3">
+              {/* Master Volume */}
+              <div className="col-span-2">
+                <div className="flex justify-between text-xs text-white/60 mb-1">
+                  <span>Master</span>
+                  <span>{Math.round(channelVolumes.master * 100)}%</span>
+                </div>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.05"
+                  value={channelVolumes.master}
+                  onChange={(e) => {
+                    const newVolume = parseFloat(e.target.value);
+                    setChannelVolumes(prev => ({ ...prev, master: newVolume }));
+                    if (currentPlayer.volume !== undefined) {
+                      currentPlayer.volume = newVolume;
+                    }
+                  }}
+                  className="w-full h-2 bg-white/10 rounded-lg appearance-none cursor-pointer"
+                />
+              </div>
+              
+              {/* Left/Right Balance for HTML Audio */}
+              {currentPlayer.playbackRate !== undefined && (
+                <>
+                  <div>
+                    <div className="flex justify-between text-xs text-white/60 mb-1">
+                      <span>Left</span>
+                      <span>{Math.round(channelVolumes.left * 100)}%</span>
+                    </div>
+                    <input
+                      type="range"
+                      min="0"
+                      max="1"
+                      step="0.05"
+                      value={channelVolumes.left}
+                      onChange={(e) => {
+                        const newVolume = parseFloat(e.target.value);
+                        setChannelVolumes(prev => ({ ...prev, left: newVolume }));
+                        // Apply to audio context if available
+                      }}
+                      className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer"
+                    />
+                  </div>
+                  
+                  <div>
+                    <div className="flex justify-between text-xs text-white/60 mb-1">
+                      <span>Right</span>
+                      <span>{Math.round(channelVolumes.right * 100)}%</span>
+                    </div>
+                    <input
+                      type="range"
+                      min="0"
+                      max="1"
+                      step="0.05"
+                      value={channelVolumes.right}
+                      onChange={(e) => {
+                        const newVolume = parseFloat(e.target.value);
+                        setChannelVolumes(prev => ({ ...prev, right: newVolume }));
+                        // Apply to audio context if available
+                      }}
+                      className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer"
+                    />
+                  </div>
+                </>
+              )}
+              
+              {/* MIDI Channel Controls */}
+              {currentPlayer.playbackRate === undefined && (
+                <>
+                  <div>
+                    <div className="flex justify-between text-xs text-white/60 mb-1">
+                      <span>Melody</span>
+                      <span>{Math.round(channelVolumes.melody * 100)}%</span>
+                    </div>
+                    <input
+                      type="range"
+                      min="0"
+                      max="1"
+                      step="0.05"
+                      value={channelVolumes.melody}
+                      onChange={(e) => {
+                        const newVolume = parseFloat(e.target.value);
+                        setChannelVolumes(prev => ({ ...prev, melody: newVolume }));
+                        // MIDI channel control would be implemented here
+                      }}
+                      className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer"
+                    />
+                  </div>
+                  
+                  <div>
+                    <div className="flex justify-between text-xs text-white/60 mb-1">
+                      <span>Bass</span>
+                      <span>{Math.round(channelVolumes.bass * 100)}%</span>
+                    </div>
+                    <input
+                      type="range"
+                      min="0"
+                      max="1"
+                      step="0.05"
+                      value={channelVolumes.bass}
+                      onChange={(e) => {
+                        const newVolume = parseFloat(e.target.value);
+                        setChannelVolumes(prev => ({ ...prev, bass: newVolume }));
+                        // MIDI channel control would be implemented here
+                      }}
+                      className="w-full h-1 bg-white/10 rounded-lg appearance-none cursor-pointer"
+                    />
+                  </div>
+                </>
+              )}
+            </div>
+          </div>
+
+          {/* Playback Speed */}
+          <div className="mb-4">
+            <label className="block text-xs text-white/70 mb-1">Speed</label>
+            <div className="flex gap-2">
+              {[0.5, 0.75, 1, 1.25, 1.5, 2].map(speed => (
+                <button
+                  key={speed}
+                  onClick={() => {
+                    if (currentPlayer.playbackRate !== undefined) {
+                      currentPlayer.playbackRate = speed;
+                    }
+                  }}
+                  disabled={currentPlayer.playbackRate === undefined}
+                  className={`px-2 py-1 text-xs rounded transition-colors ${
+                    currentPlayer.playbackRate !== undefined && currentPlayer.playbackRate === speed 
+                      ? 'bg-primary-500 text-white' 
+                      : currentPlayer.playbackRate === undefined
+                        ? 'bg-white/5 text-white/30 cursor-not-allowed'
+                        : 'bg-white/10 text-white/70 hover:bg-white/20'
+                  }`}
+                >
+                  {speed}x
+                </button>
+              ))}
+            </div>
+            {currentPlayer.playbackRate === undefined && (
+              <p className="text-xs text-white/50 mt-1">Speed control not available for MIDI files</p>
+            )}
+          </div>
+
+          {/* A-B Loop Section */}
+          <div>
+            <label className="block text-xs text-white/70 mb-1">Section Loop</label>
+            <div className="flex gap-2 text-xs flex-wrap">
+              <button 
+                onClick={setLoopPointA}
+                className="px-2 py-1 bg-white/10 text-white rounded hover:bg-white/20"
+              >
+                Set Point A {pointA !== null ? `(${Math.floor(pointA/60)}:${String(Math.floor(pointA%60)).padStart(2,'0')})` : ''}
+              </button>
+              <button 
+                onClick={setLoopPointB}
+                className="px-2 py-1 bg-white/10 text-white rounded hover:bg-white/20"
+              >
+                Set Point B {pointB !== null ? `(${Math.floor(pointB/60)}:${String(Math.floor(pointB%60)).padStart(2,'0')})` : ''}
+              </button>
+              <button 
+                onClick={toggleABLoop}
+                className={`px-2 py-1 rounded ${
+                  isABLooping 
+                    ? 'bg-primary-500 text-white hover:bg-primary-600' 
+                    : 'bg-white/10 text-white hover:bg-white/20'
+                } ${pointA === null || pointB === null ? 'opacity-50 cursor-not-allowed' : ''}`}
+                disabled={pointA === null || pointB === null}
+              >
+                {isABLooping ? 'Stop A-B Loop' : 'Loop A-B'}
+              </button>
+              <button 
+                onClick={clearLoopPoints}
+                className="px-2 py-1 bg-white/10 text-white rounded hover:bg-white/20"
+                disabled={pointA === null && pointB === null}
+              >
+                Clear Points
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
