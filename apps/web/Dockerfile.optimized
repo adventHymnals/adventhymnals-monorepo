@@ -11,12 +11,20 @@ RUN adduser --system --uid 1001 nextjs
 
 # Copy pre-built standalone application
 COPY apps/web/.next/standalone ./
+
+# CRITICAL: Copy static files to where server.js expects them
+# Next.js standalone server.js uses process.chdir(__dirname) which moves to apps/web/
 COPY apps/web/.next/static ./apps/web/.next/static
-COPY apps/web/public ./public
+COPY apps/web/public ./apps/web/public
 
 # Copy hymnal data files
 COPY data ./data
-RUN chown -R nextjs:nodejs ./data
+
+# Create writable directories and set proper permissions
+RUN mkdir -p ./apps/web/.next/server/app && \
+    mkdir -p ./apps/web/.next/cache && \
+    chown -R nextjs:nodejs /app && \
+    chmod -R 755 ./apps/web/.next
 
 USER nextjs
 
