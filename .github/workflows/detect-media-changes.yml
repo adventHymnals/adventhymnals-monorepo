@@ -93,8 +93,7 @@ jobs:
       - name: Trigger web application deployment
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.WORKFLOW_TOKEN }}
-          repository: ${{ github.repository }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           event-type: deploy
           client-payload: |
             {
@@ -114,8 +113,7 @@ jobs:
       - name: Trigger full deployment (web + media)
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.WORKFLOW_TOKEN }}
-          repository: ${{ github.repository }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           event-type: deploy
           client-payload: |
             {
