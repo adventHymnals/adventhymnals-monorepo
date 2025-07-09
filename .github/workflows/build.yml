@@ -73,6 +73,8 @@ jobs:
         env:
           NODE_ENV: production
           NEXT_TELEMETRY_DISABLED: 1
+          # Include Google Analytics ID at build time for client-side embedding
+          NEXT_PUBLIC_GA_ID: G-JPQZVQ70L9
 
       # Minimal cleanup to free disk space for Docker build
       - name: Clean up for Docker build
