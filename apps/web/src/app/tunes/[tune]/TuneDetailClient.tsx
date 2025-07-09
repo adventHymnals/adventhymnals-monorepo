@@ -6,6 +6,7 @@ import { MusicalNoteIcon, ArrowLeftIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import HymnFilters from '@/components/search/HymnFilters';
 import { HymnalCollection } from '@advent-hymnals/shared';
+import { loadHymnalReferences, loadHymnalHymns } from '@/lib/data';
 
 interface HymnData {
   id: string;
@@ -21,13 +22,110 @@ interface HymnData {
 }
 
 interface TuneDetailClientProps {
-  hymns: HymnData[];
-  decodedTune: string;
-  hymnalReferences: HymnalCollection;
+  tune: string;
+  params: {
+    tune: string;
+  };
 }
 
-export default function TuneDetailClient({ hymns, decodedTune, hymnalReferences }: TuneDetailClientProps) {
-  const [filteredHymns, setFilteredHymns] = useState<HymnData[]>(hymns);
+export default function TuneDetailClient({ tune, params }: TuneDetailClientProps) {
+  const [hymns, setHymns] = useState<HymnData[]>([]);
+  const [filteredHymns, setFilteredHymns] = useState<HymnData[]>([]);
+  const [hymnalReferences, setHymnalReferences] = useState<HymnalCollection | undefined>(undefined);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        setLoading(true);
+        const references = await loadHymnalReferences();
+        setHymnalReferences(references);
+        
+        const hymnsList: HymnData[] = [];
+        
+        // Load hymns from all hymnals to find hymns with this tune
+        for (const hymnalRef of Object.values(references.hymnals)) {
+          try {
+            const { hymns: hymnalHymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+            hymnalHymns.forEach((hymn: any) => {
+              if (hymn.tune === tune) {
+                hymnsList.push({
+                  id: hymn.id,
+                  number: hymn.number,
+                  title: hymn.title,
+                  author: hymn.author,
+                  hymnal: {
+                    id: hymnalRef.id,
+                    name: hymnalRef.name,
+                    url_slug: hymnalRef.url_slug,
+                    abbreviation: hymnalRef.abbreviation
+                  }
+                });
+              }
+            });
+          } catch (error) {
+            console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
+          }
+        }
+        
+        setHymns(hymnsList);
+        setFilteredHymns(hymnsList);
+        
+      } catch (err) {
+        console.error('Failed to load tune data:', err);
+        setError('Failed to load tune data');
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    loadData();
+  }, [tune]);
+  
+  if (loading) {
+    return (
+      <Layout>
+        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"></div>
+            <p className="text-gray-600">Loading tune details...</p>
+          </div>
+        </div>
+      </Layout>
+    );
+  }
+  
+  if (error || hymns.length === 0) {
+    return (
+      <Layout hymnalReferences={hymnalReferences}>
+        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+          <div className="max-w-md mx-auto bg-white rounded-lg shadow-sm border p-8 text-center">
+            <h1 className="text-xl font-semibold text-gray-900 mb-3">
+              Tune Not Found
+            </h1>
+            <p className="text-gray-600 mb-6">
+              No hymns found with the tune "{tune}".
+            </p>
+            <div className="space-y-3">
+              <Link
+                href="/tunes"
+                className="block w-full bg-primary-600 text-white py-2 px-4 rounded-lg hover:bg-primary-700 transition-colors"
+              >
+                Back to Tunes
+              </Link>
+              <Link
+                href="/"
+                className="block w-full bg-gray-100 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-200 transition-colors"
+              >
+                Back to Home
+              </Link>
+            </div>
+          </div>
+        </div>
+      </Layout>
+    );
+  }
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedHymnal, setSelectedHymnal] = useState('');
   const [sortBy, setSortBy] = useState<'title' | 'number'>('number');
@@ -85,7 +183,7 @@ export default function TuneDetailClient({ hymns, decodedTune, hymnalReferences 
               
               <MusicalNoteIcon className="mx-auto h-12 w-12 text-white mb-4" />
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-                {decodedTune}
+                {tune}
               </h1>
               <p className="mt-6 text-lg leading-8 text-primary-100">
                 {filteredHymns.length} of {hymns.length} hymn{hymns.length !== 1 ? 's' : ''} using this tune
