@@ -91,7 +91,9 @@ jobs:
     needs: build-media-server
     if: needs.build-media-server.outputs.image_tag != ''
     runs-on: ubuntu-latest
-    
+    permissions:
+      actions: write
+      contents: read
     steps:
       - name: Trigger server deployment workflow
         uses: peter-evans/repository-dispatch@v3
