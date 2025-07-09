@@ -37,7 +37,7 @@ export async function generateMetadata(): Promise<Metadata> {
     default: 'Advent Hymnals - Digital Collection of Adventist Hymnody',
     template: '%s | Advent Hymnals',
   },
-  description: 'Explore 160+ years of Adventist hymnody heritage. Search through 13 complete hymnal collections including the Seventh-day Adventist Hymnal, Christ in Song, and international collections.',
+  description: 'Explore 160+ years of Adventist hymnody heritage. Search through 13 complete hymnal collections including the Seventh-day Adventist Hymnal, Christ in Song, Nyimbo za Kristo, and more.',
   keywords: [
     'Seventh-day Adventist Hymnal',
     'SDA Hymnal',
@@ -75,7 +75,7 @@ export async function generateMetadata(): Promise<Metadata> {
     url: siteUrl,
     siteName: 'Advent Hymnals',
     title: 'Advent Hymnals - Digital Collection of Adventist Hymnody',
-    description: 'Explore 160+ years of Adventist hymnody heritage. Search through 13 complete hymnal collections.',
+    description: 'Explore 160+ years of Adventist hymnody heritage. Search through 13 complete hymnal collections including the Seventh-day Adventist Hymnal, Christ in Song, Nyimbo za Kristo, and more.',
     images: [
       {
         url: '/og-image.jpg',
@@ -88,7 +88,7 @@ export async function generateMetadata(): Promise<Metadata> {
   twitter: {
     card: 'summary_large_image',
     title: 'Advent Hymnals - Digital Collection of Adventist Hymnody',
-    description: 'Explore 160+ years of Adventist hymnody heritage. Search through 13 complete hymnal collections.',
+    description: 'Explore 160+ years of Adventist hymnody heritage. Search through 13 complete hymnal collections including the Seventh-day Adventist Hymnal, Christ in Song, Nyimbo za Kristo, and more.',
     images: ['/og-image.jpg'],
     creator: '@adventhymnals',
     site: '@adventhymnals',
@@ -136,7 +136,7 @@ export default function RootLayout({
         <meta name="application-name" content="Advent Hymnals" />
         <meta name="msapplication-TileColor" content="#1e40af" />
         
-        {/* Additional social media meta tags */}
+        {/* Additional meta tags */}
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
