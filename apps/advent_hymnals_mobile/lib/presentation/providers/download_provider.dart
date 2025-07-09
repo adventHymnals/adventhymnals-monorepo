@@ -78,15 +78,15 @@ class DownloadItem {
 class DownloadProvider extends ChangeNotifier {
   final DatabaseHelper _db = DatabaseHelper.instance;
   
-  List<DownloadItem> _downloadQueue = [];
-  List<DownloadItem> _activeDownloads = [];
-  List<DownloadItem> _completedDownloads = [];
+  final List<DownloadItem> _downloadQueue = [];
+  final List<DownloadItem> _activeDownloads = [];
+  final List<DownloadItem> _completedDownloads = [];
   List<Map<String, dynamic>> _downloadCache = [];
   
   DownloadLoadingState _loadingState = DownloadLoadingState.initial;
   String? _errorMessage;
   int _totalDownloadedSize = 0;
-  int _maxConcurrentDownloads = AppConstants.maxConcurrentDownloads;
+  final int _maxConcurrentDownloads = AppConstants.maxConcurrentDownloads;
 
   // Getters
   List<DownloadItem> get downloadQueue => _downloadQueue;

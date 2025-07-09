@@ -16,6 +16,10 @@ import 'presentation/screens/hymn_detail_screen.dart';
 import 'presentation/screens/authors_browse_screen.dart';
 import 'presentation/screens/topics_browse_screen.dart';
 import 'presentation/screens/collections_browse_screen.dart';
+import 'presentation/screens/tunes_browse_screen.dart';
+import 'presentation/screens/meters_browse_screen.dart';
+import 'presentation/screens/scripture_browse_screen.dart';
+import 'presentation/screens/first_lines_browse_screen.dart';
 import 'presentation/screens/recently_viewed_screen.dart';
 import 'presentation/screens/settings_screen.dart';
 import 'presentation/screens/downloads_screen.dart';
@@ -102,6 +106,26 @@ final GoRouter _router = GoRouter(
     GoRoute(
       path: '/browse/collections',
       builder: (context, state) => const CollectionsBrowseScreen(),
+    ),
+    
+    GoRoute(
+      path: '/browse/tunes',
+      builder: (context, state) => const TunesBrowseScreen(),
+    ),
+    
+    GoRoute(
+      path: '/browse/meters',
+      builder: (context, state) => const MetersBrowseScreen(),
+    ),
+    
+    GoRoute(
+      path: '/browse/scripture',
+      builder: (context, state) => const ScriptureBrowseScreen(),
+    ),
+    
+    GoRoute(
+      path: '/browse/first-lines',
+      builder: (context, state) => const FirstLinesBrowseScreen(),
     ),
     
     GoRoute(

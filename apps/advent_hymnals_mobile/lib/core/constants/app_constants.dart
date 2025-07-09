@@ -93,13 +93,14 @@ class AppColors {
   static const int gray100 = 0xFFF3F4F6;
   static const int gray300 = 0xFFD1D5DB;
   static const int gray500 = 0xFF6B7280;
+  static const int gray600 = 0xFF4B5563;
   static const int gray700 = 0xFF374151;
   static const int gray900 = 0xFF111827;
 }
 
 class AppFonts {
-  static const String inter = 'Inter';
-  static const String crimsonText = 'Crimson Text';
+  static const String inter = 'Roboto';
+  static const String crimsonText = 'serif';
 }
 
 class AppSizes {

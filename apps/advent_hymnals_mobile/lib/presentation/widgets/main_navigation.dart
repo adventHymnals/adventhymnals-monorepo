@@ -57,7 +57,7 @@ class _MainNavigationState extends State<MainNavigation> {
   }
 
   void _updateCurrentIndex() {
-    final String location = GoRouterState.of(context).location;
+    final String location = GoRouterState.of(context).uri.path;
     
     // Find the index of the current route
     for (int i = 0; i < _navigationItems.length; i++) {

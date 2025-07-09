@@ -132,6 +132,9 @@ class _SearchScreenState extends State<SearchScreen> {
                 });
               },
               deleteIcon: const Icon(Icons.close, size: 18),
+              onSelected: (bool selected) {
+                // Handle filter selection
+              },
             ),
           );
         },

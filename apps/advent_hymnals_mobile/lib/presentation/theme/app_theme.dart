@@ -25,12 +25,10 @@ class AppTheme {
         primary: _primaryBlue,
         secondary: _secondaryBlue,
         surface: _white,
-        background: _background,
         error: _errorRed,
         onPrimary: _white,
         onSecondary: _white,
         onSurface: _gray900,
-        onBackground: _gray900,
         onError: _white,
       ),
       
@@ -54,7 +52,7 @@ class AppTheme {
       ),
 
       // Bottom Navigation Theme
-      bottomNavigationBarTheme: const BottomNavigationBarTheme(
+      bottomNavigationBarTheme: const BottomNavigationBarThemeData(
         type: BottomNavigationBarType.fixed,
         backgroundColor: _white,
         selectedItemColor: _secondaryBlue,
@@ -230,17 +228,17 @@ class AppTheme {
 
       // Switch Theme
       switchTheme: SwitchThemeData(
-        thumbColor: MaterialStateProperty.resolveWith<Color>(
+        thumbColor: WidgetStateProperty.resolveWith<Color>(
           (states) {
-            if (states.contains(MaterialState.selected)) {
+            if (states.contains(WidgetState.selected)) {
               return _white;
             }
             return _gray300;
           },
         ),
-        trackColor: MaterialStateProperty.resolveWith<Color>(
+        trackColor: WidgetStateProperty.resolveWith<Color>(
           (states) {
-            if (states.contains(MaterialState.selected)) {
+            if (states.contains(WidgetState.selected)) {
               return _secondaryBlue;
             }
             return _gray300;
@@ -393,12 +391,10 @@ class AppTheme {
         primary: _secondaryBlue,
         secondary: _secondaryBlue,
         surface: _gray900,
-        background: _black,
         error: _errorRed,
         onPrimary: _white,
         onSecondary: _white,
         onSurface: _white,
-        onBackground: _white,
         onError: _white,
       ),
       
@@ -422,7 +418,7 @@ class AppTheme {
       ),
 
       // Bottom Navigation Theme
-      bottomNavigationBarTheme: const BottomNavigationBarTheme(
+      bottomNavigationBarTheme: const BottomNavigationBarThemeData(
         type: BottomNavigationBarType.fixed,
         backgroundColor: _gray900,
         selectedItemColor: _secondaryBlue,
