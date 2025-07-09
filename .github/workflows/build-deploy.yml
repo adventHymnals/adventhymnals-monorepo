@@ -81,6 +81,7 @@ jobs:
           NODE_ENV: production
           NEXT_TELEMETRY_DISABLED: 1
           NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
+          SITE_URL: https://adventhymnals.org
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3

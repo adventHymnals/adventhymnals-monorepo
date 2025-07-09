@@ -13,7 +13,7 @@ This directory contains the complete set of UI mockups for the Advent Hymnals Fl
 - **Material 3 compliance** with consistent design patterns
 - **Mobile-first responsive design** optimized for all screen sizes
 
-## 📱 Screen Inventory (14 Total Screens)
+## 📱 Screen Inventory (18 Total Screens)
 
 ### Core Application Screens (7 screens)
 1. **01_home_screen.svg/png** - Welcome interface with quick actions
@@ -32,6 +32,12 @@ This directory contains the complete set of UI mockups for the Advent Hymnals Fl
 12. **12_scripture_browse_screen.svg/png** - Browse by Bible references
 13. **13_first_lines_browse_screen.svg/png** - Alphabetical hymn listing
 14. **14_browse_hub_screen.svg/png** - Central browse navigation hub
+
+### Enhanced User Experience Screens (4 screens - v1.1)
+15. **15_favorites_screen.svg/png** - Personal favorites management
+16. **16_recently_viewed_screen.svg/png** - Recent hymn history tracking
+17. **17_enhanced_home_screen.svg/png** - Improved home with personalization
+18. **18_global_search_overlay.svg/png** - Global search interface
 
 ## 🎨 Design System v1.0
 
@@ -159,7 +165,16 @@ Traditional alphabetical listing of hymns by their opening lines. Features:
 
 ## 🔄 Version History
 
-### v1.0 (Current)
+### v1.1 (Current)
+- Added 4 enhanced user experience screens
+- Implemented favorites/bookmarks system
+- Added recently viewed tracking
+- Enhanced home screen with personalization
+- Global search interface
+- Updated navigation architecture (5-tab structure)
+- Comprehensive technical implementation guidance
+
+### v1.0 (Previous)
 - Added 7 essential browsing screens
 - Improved visual hierarchy and accessibility
 - Enhanced user experience with proper feedback
@@ -174,20 +189,57 @@ Traditional alphabetical listing of hymns by their opening lines. Features:
 
 ## 🎯 Future Enhancements
 
-### Planned for v1.1
-- Dark mode implementation with proper contrast
-- Advanced search filters and sorting options
-- Playlist/collection creation functionality
-- Enhanced offline capabilities
-- Audio player integration with lyrics sync
-
 ### Planned for v1.2
+- Service builder (basic playlist creation)
+- Advanced search filters and sorting options
+- User profile and history screen
+- Enhanced offline capabilities
+- Dark mode implementation with proper contrast
+
+### Planned for v1.3
+- Hymn comparison screen (side-by-side view)
+- Audio player integration with lyrics sync
 - Multi-language support for international collections
-- Custom theme creation and sharing
-- Social features (sharing hymns, collections)
 - Advanced projection mode for worship services
 - Performance analytics and usage tracking
 
+### Planned for v2.0
+- AI-powered hymn recommendations
+- Liturgical calendar integration
+- Community features (sharing hymns, collections)
+- Custom theme creation and sharing
+- Advanced accessibility features
+
+## 🔧 Technical Implementation (v1.1)
+
+### Database Architecture (SQLite)
+```sql
+-- Core tables: hymns, favorites, recently_viewed, download_cache
+-- Collections: 892 hymns, 247 authors, 156 tunes, 89 topics
+-- Storage: Lyrics in local SQLite database
+```
+
+### Media Storage Strategy
+```
+/app_documents/media/
+├── audio/{hymn_id}/          # MP3 files (multiple qualities)
+├── midi/{hymn_id}/           # MIDI arrangements
+├── images/{hymn_id}/         # Sheet music, hymnal pages
+└── pdf/{hymn_id}/            # PDF scores and lyrics
+```
+
+### Navigation Architecture
+- **5-tab bottom navigation**: Home | Browse | Search | Favorites | More
+- **Global search**: Accessible from any screen
+- **Context preservation**: Maintains user location across sessions
+- **Offline indicators**: Clear offline/online status
+
+### Key Features Implemented
+- **Favorites System**: Heart icons, personal collections, bulk operations
+- **Recently Viewed**: Chronological tracking, time-based filtering
+- **Enhanced Home**: Personalized recommendations, quick actions
+- **Global Search**: Auto-complete, recent searches, voice search placeholder
+
 ---
 
-*Flutter Web App UI Mockups v1.0 • Complete Hymnal Navigation System • Material 3 Design • Advent Hymnals Project*
+*Flutter Web App UI Mockups v1.1 • Complete Hymnal Experience • Technical Implementation Ready • Advent Hymnals Project*
