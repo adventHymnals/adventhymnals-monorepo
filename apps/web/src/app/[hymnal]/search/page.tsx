@@ -44,11 +44,11 @@ export default function HymnalSearchPage({ params }: HymnalSearchPageProps) {
         if (query.trim()) {
           setSearching(true);
           try {
-            const searchResults = await searchHymns({
-              query: query.trim(),
-              hymnal: foundHymnalRef.id,
-              limit: 50
-            });
+            const searchResults = await searchHymns(
+              query.trim(),
+              foundHymnalRef.id,
+              50
+            );
             setResults(searchResults);
           } catch (error) {
             console.error('Search failed:', error);
