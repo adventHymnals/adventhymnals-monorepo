@@ -32,7 +32,7 @@ export async function generateStaticParams() {
     // Load hymns from all hymnals to get unique tunes
     for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
       try {
-        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 10000);
         hymns.forEach((hymn: { tune?: string }) => {
           if (hymn.tune) {
             tuneSet.add(hymn.tune);
@@ -71,7 +71,7 @@ export default async function TuneDetailPage({ params }: TuneDetailProps) {
   // Load hymns from all hymnals to find hymns with this tune
   for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
     try {
-      const { hymns: hymnalHymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+      const { hymns: hymnalHymns } = await loadHymnalHymns(hymnalRef.id, 1, 10000);
       hymnalHymns.forEach((hymn: any) => {
         if (hymn.tune === decodedTune) {
           hymns.push({

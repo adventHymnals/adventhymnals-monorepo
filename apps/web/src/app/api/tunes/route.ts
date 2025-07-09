@@ -9,7 +9,7 @@ export async function GET() {
     // Load hymns from all hymnals
     for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
       try {
-        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 10000);
         
         for (const hymn of hymns) {
           if (hymn.tune) {
