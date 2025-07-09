@@ -97,7 +97,7 @@ export async function generateStaticParams() {
     // Generate static params for ALL hymns in all hymnals for main hymn pages
     for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
       try {
-        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+        const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 10000);
         
         for (const hymn of hymns) {
           const slug = `hymn-${hymn.number}-${hymn.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')}`;
@@ -145,7 +145,7 @@ export default async function HymnPage({ params }: HymnPageProps) {
   const relatedHymns = await getRelatedHymns(hymnId, 6);
   
   // Load all hymns for the hymnal index
-  const { hymns: allHymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+  const { hymns: allHymns } = await loadHymnalHymns(hymnalRef.id, 1, 10000);
 
   const breadcrumbs = generateHymnalBreadcrumbs(
     hymnalRef.name, 

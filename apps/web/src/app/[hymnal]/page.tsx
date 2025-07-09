@@ -89,7 +89,7 @@ export default async function HymnalPage({ params }: HymnalPageProps) {
     notFound();
   }
   
-  const hymnsData = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+  const hymnsData = await loadHymnalHymns(hymnalRef.id, 1, 10000);
 
   const breadcrumbs = [{
     label: 'Hymnals',
