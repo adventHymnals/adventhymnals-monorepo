@@ -1,19 +1,62 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { MagnifyingGlassIcon, FunnelIcon } from '@heroicons/react/24/outline';
 import { HymnalCollection } from '@advent-hymnals/shared';
 import MultiSelect from '@/components/ui/MultiSelect';
+import Layout from '@/components/layout/Layout';
+import Breadcrumbs, { generateSearchBreadcrumbs } from '@/components/ui/Breadcrumbs';
+import { loadHymnalReferences } from '@/lib/data';
 
-interface SearchPageClientProps {
-  hymnalReferences: HymnalCollection;
-}
-
-export default function SearchPageClient({ hymnalReferences }: SearchPageClientProps) {
+export default function SearchPageClient() {
+  const [hymnalReferences, setHymnalReferences] = useState<HymnalCollection | undefined>(undefined);
+  const [loading, setLoading] = useState(true);
   const [selectedHymnals, setSelectedHymnals] = useState<string[]>([]);
   const [selectedLanguages, setSelectedLanguages] = useState<string[]>([]);
   const [selectedThemes, setSelectedThemes] = useState<string[]>([]);
+
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const references = await loadHymnalReferences();
+        setHymnalReferences(references);
+      } catch (error) {
+        console.error('Failed to load hymnal references:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadData();
+  }, []);
+
+  // Handle loading state
+  if (loading) {
+    return (
+      <Layout>
+        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"></div>
+            <p className="text-gray-600">Loading search page...</p>
+          </div>
+        </div>
+      </Layout>
+    );
+  }
+
+  if (!hymnalReferences) {
+    return (
+      <Layout>
+        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+          <div className="text-center">
+            <p className="text-gray-600">Failed to load hymnal data</p>
+          </div>
+        </div>
+      </Layout>
+    );
+  }
+
+  const breadcrumbs = generateSearchBreadcrumbs();
 
   // Prepare hymnal options
   const hymnalOptions = Object.values(hymnalReferences.hymnals).map(hymnal => ({
@@ -41,9 +84,25 @@ export default function SearchPageClient({ hymnalReferences }: SearchPageClientP
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <Layout hymnalReferences={hymnalReferences}>
+      {/* Header */}
+      <div className="bg-gradient-to-r from-primary-600 to-primary-700">
+        <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
+          <Breadcrumbs items={breadcrumbs} className="mb-6" />
+          <div className="text-center">
+            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+              Search Hymns
+            </h1>
+            <p className="mt-6 text-lg leading-8 text-primary-100">
+              Search through 13 complete hymnal collections with over 5,000 hymns
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Search Interface */}
-      <div className="mx-auto max-w-7xl px-6 py-6 sm:py-8 lg:py-12 lg:px-8">
+      <div className="min-h-screen bg-gray-50">
+        <div className="mx-auto max-w-7xl px-6 py-6 sm:py-8 lg:py-12 lg:px-8">
         <div className="mx-auto max-w-4xl">
           {/* Main Search Bar */}
           <div className="relative mb-6 sm:mb-8">
@@ -191,6 +250,6 @@ export default function SearchPageClient({ hymnalReferences }: SearchPageClientP
           </div>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 }
