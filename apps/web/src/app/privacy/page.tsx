@@ -1,17 +1,19 @@
 import { Metadata } from 'next';
 import Layout from '@/components/layout/Layout';
-import { loadHymnalReferences } from '@/lib/data-server';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - Advent Hymnals',
   description: 'Privacy policy for the Advent Hymnals website and services.',
 };
 
-export default async function PrivacyPage() {
-  const hymnalReferences = await loadHymnalReferences();
+export async function generateStaticParams() {
+  // Static page with no dynamic params
+  return [];
+}
 
+export default function PrivacyPage() {
   return (
-    <Layout hymnalReferences={hymnalReferences}>
+    <Layout>
       <div className="min-h-screen bg-white">
         <div className="mx-auto max-w-4xl px-6 py-16 lg:px-8">
           <div className="text-center mb-12">

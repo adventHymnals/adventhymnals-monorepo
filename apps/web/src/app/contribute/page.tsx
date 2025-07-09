@@ -11,13 +11,17 @@ import {
   AcademicCapIcon
 } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
-import { loadHymnalReferences } from '@/lib/data-server';
 
 export const metadata: Metadata = {
   title: 'Contribute - Advent Hymnals',
   description: 'Help preserve Adventist hymnody for future generations. Contribute through development, research, donations, or community support.',
   keywords: ['contribute', 'volunteer', 'Adventist hymnals', 'open source', 'heritage preservation', 'community'],
 };
+
+export async function generateStaticParams() {
+  // Static page with no dynamic params
+  return [];
+}
 
 const contributionTypes = [
   {
@@ -118,11 +122,9 @@ const contributionTypes = [
   }
 ];
 
-export default async function ContributePage() {
-  const hymnalReferences = await loadHymnalReferences();
-
+export default function ContributePage() {
   return (
-    <Layout hymnalReferences={hymnalReferences}>
+    <Layout>
       <div className="min-h-screen bg-gray-50">
         {/* Header */}
         <div className="bg-white shadow-sm">

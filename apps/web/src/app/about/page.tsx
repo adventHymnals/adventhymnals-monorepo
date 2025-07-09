@@ -12,13 +12,17 @@ import {
   CheckCircleIcon
 } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
-import { loadHymnalReferences } from '@/lib/data-server';
 
 export const metadata: Metadata = {
   title: 'About - Advent Hymnals',
   description: 'Learn about the Advent Hymnals project - digitizing and preserving 160+ years of Adventist musical heritage for current and future generations.',
   keywords: ['Advent Hymnals', 'Gospel Sounders', 'Brian Onang\'o', 'Adventist hymnals', 'digital preservation', 'heritage'],
 };
+
+export async function generateStaticParams() {
+  // Static page with no dynamic params
+  return [];
+}
 
 const timelineEvents = [
   {
@@ -101,11 +105,9 @@ const team = [
   }
 ];
 
-export default async function AboutPage() {
-  const hymnalReferences = await loadHymnalReferences();
-
+export default function AboutPage() {
   return (
-    <Layout hymnalReferences={hymnalReferences}>
+    <Layout>
       <div className="min-h-screen bg-gray-50">
         {/* Header */}
         <div className="bg-white shadow-sm">

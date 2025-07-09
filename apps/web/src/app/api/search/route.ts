@@ -1,5 +1,10 @@
 import { NextResponse } from 'next/server';
 import { searchHymns } from '@/lib/data-server';
+import { withCors, handleOptionsRequest } from '@/lib/cors';
+
+export async function OPTIONS(request: Request) {
+  return handleOptionsRequest(request);
+}
 
 export async function GET(request: Request) {
   try {
@@ -18,19 +23,22 @@ export async function GET(request: Request) {
     }
     
     if (!query) {
-      return NextResponse.json(
+      const response = NextResponse.json(
         { error: 'Search query is required' }, 
         { status: 400 }
       );
+    return withCors(response, request.headers.get('origin'));
     }
     
     const results = await searchHymns(query, hymnalId, limit);
-    return NextResponse.json(results);
+    const response = NextResponse.json(results);
+    return withCors(response, request.headers.get('origin'));
   } catch (error) {
     console.error('API Error searching hymns:', error);
-    return NextResponse.json(
+    const response = NextResponse.json(
       { error: 'Failed to search hymns' }, 
       { status: 500 }
     );
+    return withCors(response, request.headers.get('origin'));
   }
 }
