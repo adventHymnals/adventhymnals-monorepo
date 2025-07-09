@@ -1,17 +1,21 @@
 import 'dart:convert';
 import 'package:dio/dio.dart';
+import '../config/api_config.dart';
 import '../models/hymn.dart';
 import '../models/hymnal.dart';
 import '../models/search.dart';
+import '../models/media_models.dart';
+import '../services/media_download_service.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:3000/api';
   late final Dio _dio;
+  late final MediaDownloadService _mediaService;
   bool _useMockData = false;
 
   ApiService({String? customBaseUrl}) {
+    final baseUrl = customBaseUrl ?? ApiConfig.apiBaseUrl;
     _dio = Dio(BaseOptions(
-      baseUrl: customBaseUrl ?? baseUrl,
+      baseUrl: baseUrl,
       connectTimeout: const Duration(seconds: 30),
       receiveTimeout: const Duration(seconds: 30),
       headers: {
@@ -19,6 +23,8 @@ class ApiService {
         'Accept': 'application/json',
       },
     ));
+    
+    _mediaService = MediaDownloadService();
 
     _dio.interceptors.add(LogInterceptor(
       requestBody: true,
@@ -200,6 +206,93 @@ class ApiService {
     } catch (e) {
       return false;
     }
+  }
+  
+  // Media endpoints
+  Future<MediaMetadata> getHymnMedia(String hymnId) async {
+    return await _mediaService.getHymnMedia(hymnId);
+  }
+  
+  Future<List<MediaFile>> getAvailableMedia(String hymnId, MediaType type) async {
+    return await _mediaService.getAvailableMedia(hymnId, type);
+  }
+  
+  Stream<DownloadProgress> downloadMedia(MediaFile mediaFile, {
+    bool addToQueue = true,
+    int priority = 0,
+  }) {
+    return _mediaService.downloadMedia(mediaFile, addToQueue: addToQueue, priority: priority);
+  }
+  
+  Future<bool> isMediaDownloaded(String mediaId) async {
+    return await _mediaService.isMediaDownloaded(mediaId);
+  }
+  
+  Future<LocalMediaInfo?> getLocalMediaInfo(String mediaId) async {
+    return await _mediaService.getLocalMediaInfo(mediaId);
+  }
+  
+  Future<String?> getLocalMediaPath(String mediaId) async {
+    return await _mediaService.getLocalMediaPath(mediaId);
+  }
+  
+  Future<void> deleteDownloadedMedia(String mediaId) async {
+    await _mediaService.deleteDownloadedMedia(mediaId);
+  }
+  
+  Future<List<String>> getDownloadedMediaIds() async {
+    return await _mediaService.getDownloadedMediaIds();
+  }
+  
+  Future<StorageStats> getStorageStats() async {
+    return await _mediaService.getStorageStats();
+  }
+  
+  void pauseDownload(String mediaId) {
+    _mediaService.pauseDownload(mediaId);
+  }
+  
+  void cancelDownload(String mediaId) {
+    _mediaService.cancelDownload(mediaId);
+  }
+  
+  void pauseAllDownloads() {
+    _mediaService.pauseAllDownloads();
+  }
+  
+  void clearDownloadQueue() {
+    _mediaService.clearDownloadQueue();
+  }
+  
+  int get downloadQueueLength => _mediaService.queueLength;
+  int get activeDownloads => _mediaService.activeDownloads;
+  
+  Future<void> retryFailedDownload(String mediaId, MediaFile mediaFile) async {
+    await _mediaService.retryFailedDownload(mediaId, mediaFile);
+  }
+  
+  Future<void> updateLastAccessed(String mediaId) async {
+    await _mediaService.updateLastAccessed(mediaId);
+  }
+  
+  Future<bool> verifyFileIntegrity(String mediaId, String expectedChecksum) async {
+    return await _mediaService.verifyFileIntegrity(mediaId, expectedChecksum);
+  }
+  
+  Future<void> cleanupOldFiles({int maxAgeInDays = 30}) async {
+    await _mediaService.cleanupOldFiles(maxAgeInDays: maxAgeInDays);
+  }
+  
+  Future<void> clearAllMedia() async {
+    await _mediaService.clearAllMedia();
+  }
+  
+  Future<void> clearTemporaryFiles() async {
+    await _mediaService.clearTemporaryFiles();
+  }
+  
+  void dispose() {
+    _mediaService.dispose();
   }
 
   Map<String, dynamic> _searchParamsToQueryParams(SearchParams params) {

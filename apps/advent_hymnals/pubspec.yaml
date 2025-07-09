@@ -59,6 +59,25 @@ dependencies:
   
   # File handling
   path_provider: ^2.1.5
+  
+  # Cryptography for file integrity
+  crypto: ^3.0.3
+  
+  # Media handling
+  url_launcher: ^6.3.1
+  mime: ^1.0.6
+  
+  # Audio playback (when ready)
+  # audioplayers: ^6.1.0
+  
+  # PDF viewing (when ready)
+  # flutter_pdfview: ^1.3.2
+  
+  # Image handling
+  cached_network_image: ^3.4.1
+  
+  # Performance monitoring
+  flutter_isolate: ^2.0.4
 
 dev_dependencies:
   flutter_test:

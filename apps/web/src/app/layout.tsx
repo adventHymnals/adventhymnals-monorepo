@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://adventhymnals.org',
+    url: process.env.SITE_URL || 'https://adventhymnals.org',
     siteName: 'Advent Hymnals',
     title: 'Advent Hymnals - Digital Collection of Adventist Hymnody',
     description: 'Explore 160+ years of Adventist hymnody heritage. Search through 13 complete hymnal collections.',
