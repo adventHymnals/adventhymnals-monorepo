@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, Crimson_Text } from 'next/font/google';
 import GoogleAnalytics from '@/components/analytics/GoogleAnalytics';
 import '../styles/globals.css';
+import { unstable_noStore as noStore } from 'next/cache';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -17,7 +18,21 @@ const crimsonText = Crimson_Text({
   display: 'swap',
 });
 
-export const metadata: Metadata = {
+export async function generateMetadata(): Promise<Metadata> {
+  noStore(); // Ensure we can access runtime environment variables
+  
+  // Determine the correct site URL based on environment
+  const siteUrl = process.env.SITE_URL || 
+    (process.env.NEXT_OUTPUT === 'export' ? 'https://adventhymnals.github.io' : 'https://adventhymnals.org');
+  
+  // Debug log for troubleshooting (will be removed in production)
+  if (process.env.NODE_ENV === 'development') {
+    console.log('SITE_URL:', process.env.SITE_URL);
+    console.log('NEXT_OUTPUT:', process.env.NEXT_OUTPUT);
+    console.log('Final siteUrl:', siteUrl);
+  }
+  
+  return {
   title: {
     default: 'Advent Hymnals - Digital Collection of Adventist Hymnody',
     template: '%s | Advent Hymnals',
@@ -45,7 +60,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(process.env.SITE_URL || 'https://adventhymnals.org'),
+  metadataBase: new URL(siteUrl),
   alternates: {
     canonical: '/',
     languages: {
@@ -57,7 +72,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: process.env.SITE_URL || 'https://adventhymnals.org',
+    url: siteUrl,
     siteName: 'Advent Hymnals',
     title: 'Advent Hymnals - Digital Collection of Adventist Hymnody',
     description: 'Explore 160+ years of Adventist hymnody heritage. Search through 13 complete hymnal collections.',
@@ -95,7 +110,8 @@ export const metadata: Metadata = {
     google: process.env.GOOGLE_VERIFICATION,
     yandex: process.env.YANDEX_VERIFICATION,
   },
-};
+  };
+}
 
 export default function RootLayout({
   children,

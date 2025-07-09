@@ -72,9 +72,10 @@ const nextConfig = {
     },
   }),
   env: {
-    SITE_URL: process.env.SITE_URL || process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : 'http://localhost:3000',
+    SITE_URL: process.env.SITE_URL || 
+      (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 
+       process.env.NEXT_OUTPUT === 'export' ? 'https://adventhymnals.github.io' : 
+       'https://adventhymnals.org'),
   },
   transpilePackages: [
     '@advent-hymnals/shared',
