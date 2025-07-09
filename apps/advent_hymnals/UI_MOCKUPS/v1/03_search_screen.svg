@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="390" height="844" fill="#fefce8"/>
+  
+  <!-- Status Bar -->
+  <rect width="390" height="44" fill="#1e3a8a"/>
+  <text x="20" y="30" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="600">9:41</text>
+  <text x="350" y="30" fill="white" font-family="Inter, sans-serif" font-size="14">100%</text>
+  
+  <!-- Header -->
+  <rect x="0" y="44" width="390" height="80" fill="#1e3a8a"/>
+  <text x="20" y="95" fill="white" font-family="Inter, sans-serif" font-size="24" font-weight="700">Search Hymns</text>
+  <text x="20" y="115" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="14">Find hymns across all collections</text>
+  
+  <!-- Search Bar -->
+  <rect x="20" y="144" width="350" height="48" rx="24" fill="white" stroke="#0284c7" stroke-width="2"/>
+  <circle cx="48" cy="168" r="8" fill="#0284c7"/>
+  <text x="68" y="173" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16">amazing grace</text>
+  <rect x="320" y="156" width="32" height="24" rx="12" fill="#0284c7"/>
+  <text x="330" y="171" fill="white" font-family="Inter, sans-serif" font-size="12" font-weight="500">×</text>
+  
+  <!-- Filter Bar -->
+  <rect x="0" y="212" width="390" height="56" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Active filter with improved visual hierarchy -->
+  <rect x="20" y="228" width="60" height="32" rx="16" fill="#0284c7"/>
+  <text x="35" y="247" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="600">SDAH</text>
+  
+  <rect x="92" y="228" width="55" height="32" rx="16" fill="#f59e0b"/>
+  <text x="105" y="247" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="600">Lyrics</text>
+  
+  <rect x="159" y="228" width="65" height="32" rx="16" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="175" y="247" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">Author</text>
+  
+  <rect x="236" y="228" width="60" height="32" rx="16" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="250" y="247" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">Theme</text>
+  
+  <rect x="308" y="228" width="62" height="32" rx="16" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="325" y="247" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">Filters</text>
+  
+  <!-- Search Results -->
+  <text x="20" y="290" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">Found 24 hymns</text>
+  <text x="20" y="308" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">Showing results for "amazing grace"</text>
+  
+  <!-- Result Item 1 - Increased vertical padding from 8px to 12px -->
+  <rect x="20" y="324" width="350" height="88" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="32" y="340" width="40" height="56" rx="4" fill="#1e3a8a"/>
+  <text x="45" y="359" fill="white" font-family="Inter, sans-serif" font-size="10" font-weight="700" text-anchor="middle">123</text>
+  <text x="45" y="374" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="8" text-anchor="middle">SDAH</text>
+  <text x="84" y="349" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">Amazing Grace</text>
+  <text x="84" y="367" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">John Newton • NEW BRITAIN • 8.6.8.6 (C.M.)</text>
+  <text x="84" y="385" fill="#10b981" font-family="Inter, sans-serif" font-size="12" font-weight="500">Grace, Salvation, Redemption</text>
+  
+  <!-- Media Icons - Increased from 16x16 to 24x24px with better contrast -->
+  <rect x="290" y="336" width="24" height="24" rx="4" fill="#0284c7"/>
+  <circle cx="298" cy="348" r="3" fill="white"/>
+  <text x="298" y="353" fill="white" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">♪</text>
+  
+  <rect x="320" y="336" width="24" height="24" rx="4" fill="#16a34a"/>
+  <circle cx="328" cy="348" r="3" fill="white"/>
+  <text x="328" y="353" fill="white" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">♫</text>
+  
+  <!-- Result Item 2 - Increased vertical padding from 8px to 12px -->
+  <rect x="20" y="428" width="350" height="88" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="32" y="444" width="40" height="56" rx="4" fill="#800020"/>
+  <text x="45" y="463" fill="white" font-family="Inter, sans-serif" font-size="10" font-weight="700" text-anchor="middle">87</text>
+  <text x="45" y="478" fill="#fca5a5" font-family="Inter, sans-serif" font-size="8" text-anchor="middle">CH</text>
+  <text x="84" y="453" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">Amazing Grace</text>
+  <text x="84" y="471" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">John Newton • AMAZING GRACE • 8.6.8.6 (C.M.)</text>
+  <text x="84" y="489" fill="#10b981" font-family="Inter, sans-serif" font-size="12" font-weight="500">Grace, Mercy, Forgiveness</text>
+  
+  <!-- Media Icons - Increased from 16x16 to 24x24px with better contrast -->
+  <rect x="290" y="440" width="24" height="24" rx="4" fill="#0284c7"/>
+  <circle cx="298" cy="452" r="3" fill="white"/>
+  <text x="298" y="457" fill="white" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">♪</text>
+  
+  <rect x="320" y="440" width="24" height="24" rx="4" fill="#f59e0b"/>
+  <circle cx="328" cy="452" r="3" fill="white"/>
+  <text x="328" y="457" fill="white" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">📄</text>
+  
+  <!-- Result Item 3 - Increased vertical padding from 8px to 12px -->
+  <rect x="20" y="532" width="350" height="88" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="32" y="548" width="40" height="56" rx="4" fill="#16a34a"/>
+  <text x="45" y="567" fill="white" font-family="Inter, sans-serif" font-size="10" font-weight="700" text-anchor="middle">456</text>
+  <text x="45" y="582" fill="#bbf7d0" font-family="Inter, sans-serif" font-size="8" text-anchor="middle">CS</text>
+  <text x="84" y="557" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">Grace! 'Tis a Charming Sound</text>
+  <text x="84" y="575" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">Philip Doddridge • WINCHESTER • 8.6.8.6 (C.M.)</text>
+  <text x="84" y="593" fill="#10b981" font-family="Inter, sans-serif" font-size="12" font-weight="500">Grace, Joy, Praise</text>
+  
+  <!-- Media Icons - Increased from 16x16 to 24x24px with better contrast -->
+  <rect x="290" y="544" width="24" height="24" rx="4" fill="#16a34a"/>
+  <circle cx="298" cy="556" r="3" fill="white"/>
+  <text x="298" y="561" fill="white" font-family="Inter, sans-serif" font-size="10" text-anchor="middle">♫</text>
+  
+  <!-- Load More Button -->
+  <rect x="20" y="636" width="350" height="40" rx="20" fill="white" stroke="#0284c7" stroke-width="1"/>
+  <text x="195" y="659" fill="#0284c7" font-family="Inter, sans-serif" font-size="14" font-weight="500" text-anchor="middle">Load More Results</text>
+  
+  <!-- Recent Searches -->
+  <text x="20" y="702" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">Recent Searches</text>
+  <rect x="20" y="714" width="80" height="28" rx="14" fill="#f3f4f6"/>
+  <text x="35" y="731" fill="#6b7280" font-family="Inter, sans-serif" font-size="12">holy spirit</text>
+  <rect x="112" y="714" width="60" height="28" rx="14" fill="#f3f4f6"/>
+  <text x="125" y="731" fill="#6b7280" font-family="Inter, sans-serif" font-size="12">peace</text>
+  <rect x="184" y="714" width="70" height="28" rx="14" fill="#f3f4f6"/>
+  <text x="202" y="731" fill="#6b7280" font-family="Inter, sans-serif" font-size="12">christmas</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="0" y="760" width="390" height="84" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Home Tab -->
+  <circle cx="39" cy="785" r="12" fill="#9ca3af"/>
+  <path d="M33 785 L39 779 L45 785 L42 785 L42 791 L36 791 L36 785 Z" fill="white"/>
+  <text x="27" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Home</text>
+  
+  <!-- Browse Tab -->
+  <circle cx="117" cy="785" r="12" fill="#9ca3af"/>
+  <rect x="111" y="779" width="12" height="2" fill="white"/>
+  <rect x="111" y="783" width="12" height="2" fill="white"/>
+  <rect x="111" y="787" width="12" height="2" fill="white"/>
+  <rect x="111" y="791" width="12" height="2" fill="white"/>
+  <text x="105" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Browse</text>
+  
+  <!-- Search Tab (Active) -->
+  <rect x="156" y="760" width="78" height="84" fill="#eff6ff"/>
+  <circle cx="195" cy="785" r="12" fill="#0284c7"/>
+  <circle cx="193" cy="783" r="5" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M197 787 L201 791" stroke="white" stroke-width="2"/>
+  <text x="183" y="805" fill="#0284c7" font-family="Inter, sans-serif" font-size="11" font-weight="600">Search</text>
+  
+  <!-- Downloads Tab -->
+  <circle cx="273" cy="785" r="12" fill="#9ca3af"/>
+  <path d="M269 781 L269 789 M269 789 L273 785 M269 789 L277 785" stroke="white" stroke-width="2" fill="none"/>
+  <text x="255" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Downloads</text>
+  
+  <!-- Settings Tab -->
+  <circle cx="351" cy="785" r="12" fill="#9ca3af"/>
+  <circle cx="351" cy="785" r="4" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M351 777 L351 779 M351 791 L351 793 M343 785 L345 785 M357 785 L359 785 M345 779 L347 781 M355 789 L357 791 M345 791 L347 789 M355 779 L357 781" stroke="white" stroke-width="1"/>
+  <text x="339" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Settings</text>
+</svg>

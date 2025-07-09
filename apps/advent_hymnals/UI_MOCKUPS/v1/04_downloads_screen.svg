@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="390" height="844" fill="#fefce8"/>
+  
+  <!-- Status Bar -->
+  <rect width="390" height="44" fill="#1e3a8a"/>
+  <text x="20" y="30" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="600">9:41</text>
+  <text x="350" y="30" fill="white" font-family="Inter, sans-serif" font-size="14">100%</text>
+  
+  <!-- Header -->
+  <rect x="0" y="44" width="390" height="80" fill="#1e3a8a"/>
+  <text x="20" y="95" fill="white" font-family="Inter, sans-serif" font-size="24" font-weight="700">Downloads</text>
+  <text x="20" y="115" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="14">Media files &amp; offline content</text>
+  
+  <!-- Stats Bar -->
+  <rect x="0" y="124" width="390" height="80" fill="#eff6ff" stroke="#0284c7" stroke-width="1"/>
+  <rect x="20" y="140" width="80" height="48" rx="8" fill="white" stroke="#0284c7" stroke-width="1"/>
+  <text x="35" y="155" fill="#0284c7" font-family="Inter, sans-serif" font-size="20" font-weight="700">247</text>
+  <text x="35" y="175" fill="#0284c7" font-family="Inter, sans-serif" font-size="12" font-weight="500">Downloaded</text>
+  
+  <rect x="112" y="140" width="80" height="48" rx="8" fill="white" stroke="#16a34a" stroke-width="1"/>
+  <text x="135" y="155" fill="#16a34a" font-family="Inter, sans-serif" font-size="20" font-weight="700">3</text>
+  <text x="127" y="175" fill="#16a34a" font-family="Inter, sans-serif" font-size="12" font-weight="500">Active</text>
+  
+  <rect x="204" y="140" width="80" height="48" rx="8" fill="white" stroke="#f59e0b" stroke-width="1"/>
+  <text x="225" y="155" fill="#f59e0b" font-family="Inter, sans-serif" font-size="20" font-weight="700">7</text>
+  <text x="227" y="175" fill="#f59e0b" font-family="Inter, sans-serif" font-size="12" font-weight="500">Queue</text>
+  
+  <rect x="296" y="140" width="74" height="48" rx="8" fill="white" stroke="#7c3aed" stroke-width="1"/>
+  <text x="312" y="155" fill="#7c3aed" font-family="Inter, sans-serif" font-size="16" font-weight="700">2.4GB</text>
+  <text x="312" y="175" fill="#7c3aed" font-family="Inter, sans-serif" font-size="12" font-weight="500">Storage</text>
+  
+  <!-- Active Downloads -->
+  <text x="20" y="230" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="18" font-weight="600">Active Downloads</text>
+  
+  <!-- Active Download Item 1 -->
+  <rect x="20" y="244" width="350" height="80" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="32" y="256" width="40" height="56" rx="4" fill="#1e3a8a"/>
+  <text x="45" y="275" fill="white" font-family="Inter, sans-serif" font-size="10" font-weight="700" text-anchor="middle">123</text>
+  <text x="45" y="290" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="8" text-anchor="middle">SDAH</text>
+  <text x="84" y="270" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">Amazing Grace</text>
+  <text x="84" y="288" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">Audio MP3 • 3.2MB</text>
+  
+  <!-- Progress Bar with estimated time -->
+  <rect x="84" y="300" width="200" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="84" y="300" width="140" height="6" rx="3" fill="#16a34a"/>
+  <text x="84" y="318" fill="#16a34a" font-family="Inter, sans-serif" font-size="12" font-weight="500">70% • 250 KB/s • 1m 30s left</text>
+  
+  <!-- Control Buttons - Increased size from 20x16 to 32x24px -->
+  <rect x="296" y="260" width="32" height="24" rx="12" fill="#f59e0b"/>
+  <path d="M306 268 L306 276 M310 268 L310 276" stroke="white" stroke-width="2"/>
+  <rect x="336" y="260" width="32" height="24" rx="12" fill="#dc2626"/>
+  <path d="M348 268 L348 276 M348 272 L356 272" stroke="white" stroke-width="2"/>
+  
+  <!-- Active Download Item 2 -->
+  <rect x="20" y="340" width="350" height="80" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="32" y="352" width="40" height="56" rx="4" fill="#800020"/>
+  <text x="45" y="371" fill="white" font-family="Inter, sans-serif" font-size="10" font-weight="700" text-anchor="middle">87</text>
+  <text x="45" y="386" fill="#fca5a5" font-family="Inter, sans-serif" font-size="8" text-anchor="middle">CH</text>
+  <text x="84" y="366" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">Holy, Holy, Holy</text>
+  <text x="84" y="384" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">MIDI File • 1.8MB</text>
+  
+  <!-- Progress Bar with estimated time -->
+  <rect x="84" y="396" width="200" height="6" rx="3" fill="#e5e7eb"/>
+  <rect x="84" y="396" width="60" height="6" rx="3" fill="#16a34a"/>
+  <text x="84" y="414" fill="#16a34a" font-family="Inter, sans-serif" font-size="12" font-weight="500">30% • 180 KB/s • 2m 45s left</text>
+  
+  <!-- Control Buttons - Increased size from 20x16 to 32x24px -->
+  <rect x="296" y="356" width="32" height="24" rx="12" fill="#f59e0b"/>
+  <path d="M306 364 L306 372 M310 364 L310 372" stroke="white" stroke-width="2"/>
+  <rect x="336" y="356" width="32" height="24" rx="12" fill="#dc2626"/>
+  <path d="M348 364 L348 372 M348 368 L356 368" stroke="white" stroke-width="2"/>
+  
+  <!-- Downloaded Files -->
+  <text x="20" y="450" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="18" font-weight="600">Downloaded Files</text>
+  <text x="315" y="450" fill="#0284c7" font-family="Inter, sans-serif" font-size="14" font-weight="500">View All</text>
+  
+  <!-- Downloaded File Item 1 -->
+  <rect x="20" y="464" width="350" height="60" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="32" y="476" width="30" height="36" rx="3" fill="#16a34a"/>
+  <text x="40" y="490" fill="white" font-family="Inter, sans-serif" font-size="8" font-weight="700" text-anchor="middle">♪</text>
+  <text x="40" y="500" fill="#bbf7d0" font-family="Inter, sans-serif" font-size="6" text-anchor="middle">MP3</text>
+  <text x="74" y="488" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="14" font-weight="600">Rock of Ages</text>
+  <text x="74" y="504" fill="#6b7280" font-family="Inter, sans-serif" font-size="12">SDAH #111 • 3.1MB • 2 hours ago</text>
+  
+  <!-- Action Buttons - Increased size from 20x16 to 32x24px -->
+  <rect x="274" y="478" width="32" height="24" rx="12" fill="#eff6ff"/>
+  <text x="284" y="494" fill="#0284c7" font-family="Inter, sans-serif" font-size="10" font-weight="500">Play</text>
+  <rect x="314" y="478" width="46" height="24" rx="12" fill="#f0f9ff"/>
+  <text x="330" y="494" fill="#0284c7" font-family="Inter, sans-serif" font-size="10" font-weight="500">Share</text>
+  
+  <!-- Downloaded File Item 2 -->
+  <rect x="20" y="540" width="350" height="60" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="32" y="552" width="30" height="36" rx="3" fill="#7c3aed"/>
+  <text x="40" y="566" fill="white" font-family="Inter, sans-serif" font-size="8" font-weight="700" text-anchor="middle">♫</text>
+  <text x="40" y="576" fill="#ddd6fe" font-family="Inter, sans-serif" font-size="6" text-anchor="middle">MID</text>
+  <text x="74" y="564" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="14" font-weight="600">Great Is Thy Faithfulness</text>
+  <text x="74" y="580" fill="#6b7280" font-family="Inter, sans-serif" font-size="12">CH #45 • 1.2MB • 1 day ago</text>
+  
+  <!-- Action Buttons - Increased size from 20x16 to 32x24px -->
+  <rect x="274" y="554" width="32" height="24" rx="12" fill="#eff6ff"/>
+  <text x="284" y="570" fill="#0284c7" font-family="Inter, sans-serif" font-size="10" font-weight="500">Play</text>
+  <rect x="314" y="554" width="46" height="24" rx="12" fill="#f0f9ff"/>
+  <text x="330" y="570" fill="#0284c7" font-family="Inter, sans-serif" font-size="10" font-weight="500">Share</text>
+  
+  <!-- Storage Management -->
+  <text x="20" y="630" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="18" font-weight="600">Storage Management</text>
+  
+  <!-- Storage Bar with clear labels -->
+  <rect x="20" y="644" width="350" height="24" rx="12" fill="#e5e7eb"/>
+  <rect x="20" y="644" width="210" height="24" rx="12" fill="#0284c7"/>
+  <text x="25" y="659" fill="white" font-family="Inter, sans-serif" font-size="12" font-weight="500">Used: 2.4GB</text>
+  <text x="285" y="659" fill="#6b7280" font-family="Inter, sans-serif" font-size="12">Available: 1.6GB</text>
+  
+  <!-- Storage Actions -->
+  <rect x="20" y="680" width="165" height="40" rx="20" fill="white" stroke="#dc2626" stroke-width="1"/>
+  <text x="85" y="703" fill="#dc2626" font-family="Inter, sans-serif" font-size="14" font-weight="500" text-anchor="middle">Clear All</text>
+  
+  <rect x="205" y="680" width="165" height="40" rx="20" fill="white" stroke="#0284c7" stroke-width="1"/>
+  <text x="270" y="703" fill="#0284c7" font-family="Inter, sans-serif" font-size="14" font-weight="500" text-anchor="middle">Manage Storage</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="0" y="760" width="390" height="84" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Home Tab -->
+  <circle cx="39" cy="785" r="12" fill="#9ca3af"/>
+  <path d="M33 785 L39 779 L45 785 L42 785 L42 791 L36 791 L36 785 Z" fill="white"/>
+  <text x="27" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Home</text>
+  
+  <!-- Browse Tab -->
+  <circle cx="117" cy="785" r="12" fill="#9ca3af"/>
+  <rect x="111" y="779" width="12" height="2" fill="white"/>
+  <rect x="111" y="783" width="12" height="2" fill="white"/>
+  <rect x="111" y="787" width="12" height="2" fill="white"/>
+  <rect x="111" y="791" width="12" height="2" fill="white"/>
+  <text x="105" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Browse</text>
+  
+  <!-- Search Tab -->
+  <circle cx="195" cy="785" r="12" fill="#9ca3af"/>
+  <circle cx="193" cy="783" r="5" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M197 787 L201 791" stroke="white" stroke-width="2"/>
+  <text x="185" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Search</text>
+  
+  <!-- Downloads Tab (Active) -->
+  <rect x="234" y="760" width="78" height="84" fill="#eff6ff"/>
+  <circle cx="273" cy="785" r="12" fill="#0284c7"/>
+  <path d="M269 781 L269 789 M269 789 L273 785 M269 789 L277 785" stroke="white" stroke-width="2" fill="none"/>
+  <text x="253" y="805" fill="#0284c7" font-family="Inter, sans-serif" font-size="11" font-weight="600">Downloads</text>
+  
+  <!-- Badge for active downloads -->
+  <circle cx="285" cy="773" r="8" fill="#16a34a"/>
+  <text x="282" y="777" fill="white" font-family="Inter, sans-serif" font-size="10" font-weight="700">3</text>
+  
+  <!-- Settings Tab -->
+  <circle cx="351" cy="785" r="12" fill="#9ca3af"/>
+  <circle cx="351" cy="785" r="4" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M351 777 L351 779 M351 791 L351 793 M343 785 L345 785 M357 785 L359 785 M345 779 L347 781 M355 789 L357 791 M345 791 L347 789 M355 779 L357 781" stroke="white" stroke-width="1"/>
+  <text x="339" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Settings</text>
+</svg>

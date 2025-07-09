@@ -43,7 +43,7 @@ class LocalStorageService {
     return mediaTemp;
   }
   
-  Future<Directory> get _cacheDirectory async {
+  static Future<Directory> get _cacheDirectory async {
     final appDir = await getApplicationDocumentsDirectory();
     final cacheDir = Directory('${appDir.path}/cache');
     if (!await cacheDir.exists()) {

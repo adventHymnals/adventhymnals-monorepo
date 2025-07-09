@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="390" height="844" fill="#fefce8"/>
+  
+  <!-- Status Bar -->
+  <rect width="390" height="44" fill="#1e3a8a"/>
+  <text x="20" y="30" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="600">9:41</text>
+  <text x="350" y="30" fill="white" font-family="Inter, sans-serif" font-size="14">100%</text>
+  
+  <!-- Header -->
+  <rect x="0" y="44" width="390" height="80" fill="#1e3a8a"/>
+  <text x="20" y="95" fill="white" font-family="Inter, sans-serif" font-size="24" font-weight="700">Settings</text>
+  <text x="20" y="115" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="14">Preferences &amp; Configuration</text>
+  
+  <!-- User Profile Section -->
+  <rect x="20" y="144" width="350" height="80" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="60" cy="184" r="20" fill="#0284c7"/>
+  <text x="60" y="190" fill="white" font-family="Inter, sans-serif" font-size="16" font-weight="700" text-anchor="middle">U</text>
+  <text x="92" y="178" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="18" font-weight="600">User Profile</text>
+  <text x="92" y="198" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">Manage your account settings</text>
+  <path d="M345 179 L350 184 L345 189" stroke="#9ca3af" stroke-width="2" fill="none"/>
+  
+  <!-- Visual separator -->
+  <rect x="20" y="234" width="350" height="1" fill="#e5e7eb"/>
+  
+  <!-- Appearance Section -->
+  <text x="20" y="260" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="18" font-weight="600">Appearance</text>
+  
+  <!-- Theme Option: Light -->
+  <rect x="20" y="274" width="350" height="60" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="50" cy="304" r="12" fill="#f59e0b"/>
+  <path d="M44 304 L50 298 L56 304 L50 310 Z" fill="white"/>
+  <text x="74" y="301" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">Light Theme</text>
+  <text x="74" y="317" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">Default light appearance</text>
+  
+  <!-- Material 3 Toggle Switch (ON) -->
+  <rect x="320" y="294" width="40" height="20" rx="10" fill="#0284c7"/>
+  <circle cx="350" cy="304" r="8" fill="white" stroke="#0284c7" stroke-width="2"/>
+  
+  <!-- Theme Option: Dark -->
+  <rect x="20" y="350" width="350" height="60" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="50" cy="380" r="12" fill="#1e293b"/>
+  <path d="M44 380 L50 374 L56 380 L50 386 Z" fill="white"/>
+  <text x="74" y="377" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">Dark Theme</text>
+  <text x="74" y="393" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">Dark appearance for low light</text>
+  
+  <!-- Material 3 Toggle Switch (OFF) -->
+  <rect x="320" y="370" width="40" height="20" rx="10" fill="#e5e7eb"/>
+  <circle cx="330" cy="380" r="8" fill="white" stroke="#9ca3af" stroke-width="2"/>
+  
+  <!-- Visual separator -->
+  <rect x="20" y="420" width="350" height="1" fill="#e5e7eb"/>
+  
+  <!-- Download Settings Section -->
+  <text x="20" y="446" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="18" font-weight="600">Downloads</text>
+  
+  <!-- Download Location -->
+  <rect x="20" y="460" width="350" height="60" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="50" cy="490" r="12" fill="#7c3aed"/>
+  <path d="M44 486 L50 480 L56 486 M50 480 L50 500 M44 494 L50 500 L56 494" stroke="white" stroke-width="2" fill="none"/>
+  <text x="74" y="487" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">Download Location</text>
+  <text x="74" y="503" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">/storage/emulated/0/AdventHymnals • 1.6GB free</text>
+  <path d="M345 485 L350 490 L345 495" stroke="#9ca3af" stroke-width="2" fill="none"/>
+  
+  <!-- Auto Download -->
+  <rect x="20" y="536" width="350" height="60" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="50" cy="566" r="12" fill="#16a34a"/>
+  <path d="M44 562 L50 556 L56 562 M50 556 L50 576 M44 570 L50 576 L56 570" stroke="white" stroke-width="2" fill="none"/>
+  <text x="74" y="563" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">Auto Download</text>
+  <text x="74" y="579" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">Download media automatically</text>
+  
+  <!-- Material 3 Toggle Switch (ON) -->
+  <rect x="320" y="556" width="40" height="20" rx="10" fill="#16a34a"/>
+  <circle cx="350" cy="566" r="8" fill="white" stroke="#16a34a" stroke-width="2"/>
+  
+  <!-- Visual separator -->
+  <rect x="20" y="606" width="350" height="1" fill="#e5e7eb"/>
+  
+  <!-- General Settings Section -->
+  <text x="20" y="632" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="18" font-weight="600">General</text>
+  
+  <!-- Notifications -->
+  <rect x="20" y="646" width="350" height="60" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="50" cy="676" r="12" fill="#f59e0b"/>
+  <path d="M44 670 L50 670 L56 670 L56 682 L44 682 Z M48 667 L52 667" stroke="white" stroke-width="2" fill="none"/>
+  <text x="74" y="673" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">Notifications</text>
+  <text x="74" y="689" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">Download &amp; app notifications</text>
+  
+  <!-- Material 3 Toggle Switch (ON) -->
+  <rect x="320" y="666" width="40" height="20" rx="10" fill="#f59e0b"/>
+  <circle cx="350" cy="676" r="8" fill="white" stroke="#f59e0b" stroke-width="2"/>
+  
+  <!-- Visual separator -->
+  <rect x="20" y="716" width="350" height="1" fill="#e5e7eb"/>
+  
+  <!-- About Section -->
+  <rect x="20" y="726" width="350" height="40" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="40" cy="746" r="8" fill="#6b7280"/>
+  <text x="38" y="750" fill="white" font-family="Inter, sans-serif" font-size="10" font-weight="700" text-anchor="middle">i</text>
+  <text x="58" y="751" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">About Advent Hymnals</text>
+  <path d="M345 741 L350 746 L345 751" stroke="#9ca3af" stroke-width="2" fill="none"/>
+  
+  <!-- Bottom Navigation -->
+  <rect x="0" y="760" width="390" height="84" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Home Tab -->
+  <circle cx="39" cy="785" r="12" fill="#9ca3af"/>
+  <path d="M33 785 L39 779 L45 785 L42 785 L42 791 L36 791 L36 785 Z" fill="white"/>
+  <text x="27" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Home</text>
+  
+  <!-- Browse Tab -->
+  <circle cx="117" cy="785" r="12" fill="#9ca3af"/>
+  <rect x="111" y="779" width="12" height="2" fill="white"/>
+  <rect x="111" y="783" width="12" height="2" fill="white"/>
+  <rect x="111" y="787" width="12" height="2" fill="white"/>
+  <rect x="111" y="791" width="12" height="2" fill="white"/>
+  <text x="105" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Browse</text>
+  
+  <!-- Search Tab -->
+  <circle cx="195" cy="785" r="12" fill="#9ca3af"/>
+  <circle cx="193" cy="783" r="5" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M197 787 L201 791" stroke="white" stroke-width="2"/>
+  <text x="185" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Search</text>
+  
+  <!-- Downloads Tab -->
+  <circle cx="273" cy="785" r="12" fill="#9ca3af"/>
+  <path d="M269 781 L269 789 M269 789 L273 785 M269 789 L277 785" stroke="white" stroke-width="2" fill="none"/>
+  <text x="255" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Downloads</text>
+  
+  <!-- Settings Tab (Active) -->
+  <rect x="312" y="760" width="78" height="84" fill="#eff6ff"/>
+  <circle cx="351" cy="785" r="12" fill="#0284c7"/>
+  <circle cx="351" cy="785" r="4" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M351 777 L351 779 M351 791 L351 793 M343 785 L345 785 M357 785 L359 785 M345 779 L347 781 M355 789 L357 791 M345 791 L347 789 M355 779 L357 781" stroke="white" stroke-width="1"/>
+  <text x="337" y="805" fill="#0284c7" font-family="Inter, sans-serif" font-size="11" font-weight="600">Settings</text>
+</svg>

@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
 
-part 'media_models.g.dart';
+// part 'media_models.g.dart';
 
 enum MediaType {
   @JsonValue('audio')
@@ -79,11 +79,38 @@ class MediaFile {
     this.checksum,
   });
   
-  factory MediaFile.fromJson(Map<String, dynamic> json) => _$MediaFileFromJson(json);
-  Map<String, dynamic> toJson() => _$MediaFileToJson(this);
+  factory MediaFile.fromJson(Map<String, dynamic> json) {
+    return MediaFile(
+      id: json['id'],
+      filename: json['filename'],
+      url: json['url'],
+      type: MediaType.values.firstWhere((e) => e.toString().split('.').last == json['type']),
+      format: MediaFormat.values.firstWhere((e) => e.toString().split('.').last == json['format']),
+      size: json['size'],
+      metadata: Map<String, dynamic>.from(json['metadata'] ?? {}),
+      description: json['description'],
+      duration: json['duration'],
+      checksum: json['checksum'],
+    );
+  }
+  
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'filename': filename,
+      'url': url,
+      'type': type.toString().split('.').last,
+      'format': format.toString().split('.').last,
+      'size': size,
+      'metadata': metadata,
+      'description': description,
+      'duration': duration,
+      'checksum': checksum,
+    };
+  }
   
   String get displayName => description ?? filename;
-  String get extension => format.name;
+  String get extension => format.toString().split('.').last;
   
   bool get isAudio => type == MediaType.audio;
   bool get isImage => type == MediaType.image;
@@ -122,8 +149,25 @@ class MediaMetadata {
     this.additionalData = const {},
   });
   
-  factory MediaMetadata.fromJson(Map<String, dynamic> json) => _$MediaMetadataFromJson(json);
-  Map<String, dynamic> toJson() => _$MediaMetadataToJson(this);
+  factory MediaMetadata.fromJson(Map<String, dynamic> json) {
+    return MediaMetadata(
+      hymnId: json['hymnId'],
+      files: (json['files'] as List).map((f) => MediaFile.fromJson(f)).toList(),
+      lastUpdated: DateTime.parse(json['lastUpdated']),
+      version: json['version'],
+      additionalData: Map<String, dynamic>.from(json['additionalData'] ?? {}),
+    );
+  }
+  
+  Map<String, dynamic> toJson() {
+    return {
+      'hymnId': hymnId,
+      'files': files.map((f) => f.toJson()).toList(),
+      'lastUpdated': lastUpdated.toIso8601String(),
+      'version': version,
+      'additionalData': additionalData,
+    };
+  }
   
   List<MediaFile> getFilesByType(MediaType type) {
     return files.where((f) => f.type == type).toList();
@@ -186,8 +230,33 @@ class DownloadProgress {
     this.speed,
   });
   
-  factory DownloadProgress.fromJson(Map<String, dynamic> json) => _$DownloadProgressFromJson(json);
-  Map<String, dynamic> toJson() => _$DownloadProgressToJson(this);
+  factory DownloadProgress.fromJson(Map<String, dynamic> json) {
+    return DownloadProgress(
+      mediaId: json['mediaId'],
+      progress: json['progress'].toDouble(),
+      status: DownloadStatus.values.firstWhere((e) => e.toString().split('.').last == json['status']),
+      bytesDownloaded: json['bytesDownloaded'],
+      totalBytes: json['totalBytes'],
+      startTime: json['startTime'] != null ? DateTime.parse(json['startTime']) : null,
+      endTime: json['endTime'] != null ? DateTime.parse(json['endTime']) : null,
+      error: json['error'],
+      speed: json['speed']?.toDouble(),
+    );
+  }
+  
+  Map<String, dynamic> toJson() {
+    return {
+      'mediaId': mediaId,
+      'progress': progress,
+      'status': status.toString().split('.').last,
+      'bytesDownloaded': bytesDownloaded,
+      'totalBytes': totalBytes,
+      'startTime': startTime?.toIso8601String(),
+      'endTime': endTime?.toIso8601String(),
+      'error': error,
+      'speed': speed,
+    };
+  }
   
   factory DownloadProgress.initial(String mediaId) {
     return DownloadProgress(
@@ -277,8 +346,25 @@ class DownloadResult {
     required this.timestamp,
   });
   
-  factory DownloadResult.fromJson(Map<String, dynamic> json) => _$DownloadResultFromJson(json);
-  Map<String, dynamic> toJson() => _$DownloadResultToJson(this);
+  factory DownloadResult.fromJson(Map<String, dynamic> json) {
+    return DownloadResult(
+      isSuccess: json['isSuccess'],
+      filePath: json['filePath'],
+      error: json['error'],
+      metadata: Map<String, dynamic>.from(json['metadata'] ?? {}),
+      timestamp: DateTime.parse(json['timestamp']),
+    );
+  }
+  
+  Map<String, dynamic> toJson() {
+    return {
+      'isSuccess': isSuccess,
+      'filePath': filePath,
+      'error': error,
+      'metadata': metadata,
+      'timestamp': timestamp.toIso8601String(),
+    };
+  }
   
   factory DownloadResult.success(String filePath, {Map<String, dynamic>? metadata}) {
     return DownloadResult(
@@ -319,8 +405,29 @@ class LocalMediaInfo {
     this.lastAccessed,
   });
   
-  factory LocalMediaInfo.fromJson(Map<String, dynamic> json) => _$LocalMediaInfoFromJson(json);
-  Map<String, dynamic> toJson() => _$LocalMediaInfoToJson(this);
+  factory LocalMediaInfo.fromJson(Map<String, dynamic> json) {
+    return LocalMediaInfo(
+      mediaId: json['mediaId'],
+      localPath: json['localPath'],
+      downloadDate: DateTime.parse(json['downloadDate']),
+      size: json['size'],
+      checksum: json['checksum'],
+      metadata: Map<String, dynamic>.from(json['metadata'] ?? {}),
+      lastAccessed: json['lastAccessed'] != null ? DateTime.parse(json['lastAccessed']) : null,
+    );
+  }
+  
+  Map<String, dynamic> toJson() {
+    return {
+      'mediaId': mediaId,
+      'localPath': localPath,
+      'downloadDate': downloadDate.toIso8601String(),
+      'size': size,
+      'checksum': checksum,
+      'metadata': metadata,
+      'lastAccessed': lastAccessed?.toIso8601String(),
+    };
+  }
   
   LocalMediaInfo copyWith({
     String? mediaId,

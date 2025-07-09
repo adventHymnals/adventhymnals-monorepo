@@ -76,6 +76,7 @@ export const metadata: Metadata = {
     description: 'Explore 160+ years of Adventist hymnody heritage. Search through 13 complete hymnal collections.',
     images: ['/og-image.jpg'],
     creator: '@adventhymnals',
+    site: '@adventhymnals',
   },
   robots: {
     index: true,
@@ -118,6 +119,17 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="Advent Hymnals" />
         <meta name="application-name" content="Advent Hymnals" />
         <meta name="msapplication-TileColor" content="#1e40af" />
+        
+        {/* Additional social media meta tags */}
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="article:author" content="Advent Hymnals Project" />
+        <meta property="article:publisher" content="Advent Hymnals" />
+        <meta name="twitter:image:alt" content="Advent Hymnals - Digital Hymnal Collection" />
+        
+        {/* Discord embed color */}
+        <meta name="theme-color" content="#1e40af" />
       </head>
       <body className="font-sans antialiased bg-gray-50">
         <GoogleAnalytics />

@@ -269,7 +269,7 @@ class MediaDownloadService {
   int get queueLength => _downloadQueue.length;
   int get activeDownloads => _activeDownloads;
   
-  List<DownloadTask> get downloadQueue => List.unmodifiable(_downloadQueue);
+  List<DownloadTask> get downloadQueue => List.unmodifiable(_downloadQueue._items);
   
   Future<void> retryFailedDownload(String mediaId, MediaFile mediaFile) async {
     final controller = StreamController<DownloadProgress>.broadcast();
