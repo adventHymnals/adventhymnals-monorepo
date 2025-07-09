@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:go_router/go_router.dart';
 import '../providers/hymn_provider.dart';
 import '../providers/favorites_provider.dart';
 import '../providers/recently_viewed_provider.dart';
@@ -45,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(
             icon: const Icon(Icons.search),
             onPressed: () {
-              // Navigate to search
+              context.go('/search');
             },
           ),
         ],
@@ -147,7 +148,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 title: 'Search',
                 subtitle: 'Find hymns',
                 onTap: () {
-                  // Navigate to search
+                  context.go('/search');
                 },
               ),
             ),
@@ -158,7 +159,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 title: 'Favorites',
                 subtitle: 'Your saved hymns',
                 onTap: () {
-                  // Navigate to favorites
+                  context.go('/favorites');
                 },
               ),
             ),
@@ -169,7 +170,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 title: 'Browse',
                 subtitle: 'Explore collections',
                 onTap: () {
-                  // Navigate to browse
+                  context.go('/browse');
                 },
               ),
             ),
@@ -233,7 +234,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 if (provider.recentlyViewed.isNotEmpty)
                   TextButton(
                     onPressed: () {
-                      // Navigate to recently viewed
+                      context.go('/recently-viewed');
                     },
                     child: const Text('See All'),
                   ),
@@ -282,7 +283,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 if (provider.favorites.isNotEmpty)
                   TextButton(
                     onPressed: () {
-                      // Navigate to favorites
+                      context.go('/favorites');
                     },
                     child: const Text('See All'),
                   ),
@@ -352,7 +353,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Card(
         child: InkWell(
           onTap: () {
-            // Navigate to hymn detail
+            context.go('/hymn/${hymn.hymnNumber}');
           },
           borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
           child: Padding(
@@ -399,7 +400,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Card(
       child: InkWell(
         onTap: () {
-          // Navigate to collection
+          context.go('/browse');
         },
         borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
         child: Padding(

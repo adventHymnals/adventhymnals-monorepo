@@ -18,7 +18,10 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   @override
   void initState() {
     super.initState();
-    _loadFavorites();
+    // Schedule the async loading after the build is complete
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _loadFavorites();
+    });
   }
 
   @override

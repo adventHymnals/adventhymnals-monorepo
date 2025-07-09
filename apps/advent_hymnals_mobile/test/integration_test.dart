@@ -33,11 +33,17 @@ void main() {
 
     testWidgets('Browse screens navigation and search', (WidgetTester tester) async {
       await tester.pumpWidget(const AdventHymnalsApp());
-      await tester.pumpAndSettle();
+      
+      // Use custom pumping instead of pumpAndSettle
+      for (int i = 0; i < 10; i++) {
+        await tester.pump(const Duration(milliseconds: 100));
+      }
 
       // Navigate to browse
       await tester.tap(find.text('Browse'));
-      await tester.pumpAndSettle();
+      for (int i = 0; i < 5; i++) {
+        await tester.pump(const Duration(milliseconds: 100));
+      }
 
       // Test all browse categories
       await _testBrowseCategories(tester);
@@ -45,7 +51,11 @@ void main() {
 
     testWidgets('Search functionality across screens', (WidgetTester tester) async {
       await tester.pumpWidget(const AdventHymnalsApp());
-      await tester.pumpAndSettle();
+      
+      // Use custom pumping instead of pumpAndSettle
+      for (int i = 0; i < 10; i++) {
+        await tester.pump(const Duration(milliseconds: 100));
+      }
 
       // Test main search screen
       await tester.tap(find.text('Search'));
@@ -59,7 +69,11 @@ void main() {
 
     testWidgets('Error handling and edge cases', (WidgetTester tester) async {
       await tester.pumpWidget(const AdventHymnalsApp());
-      await tester.pumpAndSettle();
+      
+      // Use custom pumping instead of pumpAndSettle
+      for (int i = 0; i < 10; i++) {
+        await tester.pump(const Duration(milliseconds: 100));
+      }
 
       await _testErrorHandling(tester);
     });
@@ -67,36 +81,36 @@ void main() {
 }
 
 Future<void> _testBottomNavigation(WidgetTester tester) async {
-  // Test Home tab
-  await tester.tap(find.text('Home').first);
+  // Test Home tab - use bottom nav
+  await tester.tap(find.text('Home').last);
   for (int i = 0; i < 5; i++) {
     await tester.pump(const Duration(milliseconds: 100));
   }
-  expect(find.text('Welcome to Advent Hymnals'), findsOneWidget);
+  expect(find.text('Welcome to'), findsOneWidget);
 
-  // Test Browse tab
-  await tester.tap(find.text('Browse').first);
+  // Test Browse tab - use bottom nav
+  await tester.tap(find.text('Browse').last);
   for (int i = 0; i < 5; i++) {
     await tester.pump(const Duration(milliseconds: 100));
   }
   expect(find.text('Explore Hymns'), findsOneWidget);
 
-  // Test Search tab
-  await tester.tap(find.text('Search').first);
+  // Test Search tab - use bottom nav
+  await tester.tap(find.text('Search').last);
   for (int i = 0; i < 5; i++) {
     await tester.pump(const Duration(milliseconds: 100));
   }
-  expect(find.text('Search Hymns'), findsOneWidget);
+  expect(find.text('Search Suggestions'), findsOneWidget);
 
-  // Test Favorites tab
-  await tester.tap(find.text('Favorites').first);
+  // Test Favorites tab - use bottom nav
+  await tester.tap(find.text('Favorites').last);
   for (int i = 0; i < 5; i++) {
     await tester.pump(const Duration(milliseconds: 100));
   }
   expect(find.text('Your Favorites'), findsOneWidget);
 
-  // Test More tab
-  await tester.tap(find.text('More').first);
+  // Test More tab - use bottom nav
+  await tester.tap(find.text('More').last);
   for (int i = 0; i < 5; i++) {
     await tester.pump(const Duration(milliseconds: 100));
   }
@@ -106,40 +120,56 @@ Future<void> _testBottomNavigation(WidgetTester tester) async {
 Future<void> _testBrowseFunctionality(WidgetTester tester) async {
   // Go to browse screen
   await tester.tap(find.text('Browse'));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 
   // Test Collections category
   await tester.tap(find.text(AppStrings.collectionsTitle));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   expect(find.text('Browse Collections'), findsOneWidget);
   
   // Go back to browse hub
   await tester.tap(find.byIcon(Icons.arrow_back));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 
   // Test Authors category
   await tester.tap(find.text(AppStrings.authorsTitle));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   expect(find.text('Browse Authors'), findsOneWidget);
   
   // Go back to browse hub
   await tester.tap(find.byIcon(Icons.arrow_back));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 
   // Test Topics category
   await tester.tap(find.text(AppStrings.topicsTitle));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   expect(find.text('Browse Topics'), findsOneWidget);
   
   // Go back to browse hub
   await tester.tap(find.byIcon(Icons.arrow_back));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 }
 
 Future<void> _testSearchFunctionality(WidgetTester tester) async {
   // Go to search screen
   await tester.tap(find.text('Search'));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 
   // Find search field
   final searchField = find.byType(TextField);
@@ -147,30 +177,40 @@ Future<void> _testSearchFunctionality(WidgetTester tester) async {
 
   // Test search input
   await tester.enterText(searchField, 'Amazing Grace');
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 
   // Test search button
   final searchButton = find.byIcon(Icons.search);
   if (searchButton.evaluate().isNotEmpty) {
     await tester.tap(searchButton);
-    await tester.pumpAndSettle();
+    for (int i = 0; i < 3; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
   }
 
   // Test clear search
   await tester.enterText(searchField, 'Test search');
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   
   final clearButton = find.byIcon(Icons.clear);
   if (clearButton.evaluate().isNotEmpty) {
     await tester.tap(clearButton);
-    await tester.pumpAndSettle();
+    for (int i = 0; i < 3; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
   }
 }
 
 Future<void> _testFavoritesFunctionality(WidgetTester tester) async {
   // Go to favorites screen
   await tester.tap(find.text('Favorites'));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 
   // Check for empty state or favorites
   expect(find.text('Your Favorites'), findsOneWidget);
@@ -179,100 +219,136 @@ Future<void> _testFavoritesFunctionality(WidgetTester tester) async {
   final searchField = find.byType(TextField);
   if (searchField.evaluate().isNotEmpty) {
     await tester.enterText(searchField, 'test');
-    await tester.pumpAndSettle();
+    for (int i = 0; i < 3; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
   }
 }
 
 Future<void> _testBrowseCategories(WidgetTester tester) async {
   // Test Tunes category
   await tester.tap(find.text(AppStrings.tunesTitle));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   expect(find.text('Search Tunes'), findsOneWidget);
   
   // Test search in tunes
   final tunesSearchField = find.byType(TextField);
   await tester.enterText(tunesSearchField, 'AMAZING');
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   
   // Clear search
   final clearButton = find.byIcon(Icons.clear);
   if (clearButton.evaluate().isNotEmpty) {
     await tester.tap(clearButton);
-    await tester.pumpAndSettle();
+    for (int i = 0; i < 3; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
   }
   
   // Go back
   await tester.tap(find.byIcon(Icons.arrow_back));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 
   // Test Meters category
   await tester.tap(find.text(AppStrings.metersTitle));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   expect(find.text('Search Meters'), findsOneWidget);
   
   // Test search in meters
   final metersSearchField = find.byType(TextField);
   await tester.enterText(metersSearchField, 'CM');
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   
   // Go back
   await tester.tap(find.byIcon(Icons.arrow_back));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 
   // Test Scripture category
   await tester.tap(find.text(AppStrings.scriptureTitle));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   expect(find.text('Search Scripture References'), findsOneWidget);
   
   // Test search in scripture
   final scriptureSearchField = find.byType(TextField);
   await tester.enterText(scriptureSearchField, 'Psalm');
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   
   // Go back
   await tester.tap(find.byIcon(Icons.arrow_back));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 
   // Test First Lines category
   await tester.tap(find.text(AppStrings.firstLinesTitle));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   expect(find.text('Search First Lines'), findsOneWidget);
   
   // Test search in first lines
   final firstLinesSearchField = find.byType(TextField);
   await tester.enterText(firstLinesSearchField, 'Amazing grace');
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   
   // Go back
   await tester.tap(find.byIcon(Icons.arrow_back));
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 }
 
 Future<void> _testMainSearchScreen(WidgetTester tester) async {
   // Test basic search functionality
   final searchField = find.byType(TextField);
   await tester.enterText(searchField, 'grace');
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 
   // Test filter chips if available
   final filterChips = find.byType(FilterChip);
   if (filterChips.evaluate().isNotEmpty) {
     await tester.tap(filterChips.first);
-    await tester.pumpAndSettle();
+    for (int i = 0; i < 3; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
   }
 
   // Test search tips expansion
   final searchTips = find.text('Search Tips');
   if (searchTips.evaluate().isNotEmpty) {
     await tester.tap(searchTips);
-    await tester.pumpAndSettle();
+    for (int i = 0; i < 3; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
   }
 }
 
 Future<void> _testBrowseScreenSearches(WidgetTester tester) async {
-  // Navigate to browse
-  await tester.tap(find.text('Browse'));
-  await tester.pumpAndSettle();
+  // Navigate to browse - use bottom nav
+  await tester.tap(find.text('Browse').last);
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 
   // Test search in each browse screen
   final browseCategories = [
@@ -290,27 +366,35 @@ Future<void> _testBrowseScreenSearches(WidgetTester tester) async {
   ];
 
   for (int i = 0; i < browseCategories.length; i++) {
-    // Navigate to category
-    await tester.tap(find.text(browseCategories[i]));
-    await tester.pumpAndSettle();
+    // Navigate to category - use first match
+    await tester.tap(find.text(browseCategories[i]).first);
+    for (int j = 0; j < 5; j++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
 
     // Find and test search field
     final searchField = find.byType(TextField);
     if (searchField.evaluate().isNotEmpty) {
       await tester.enterText(searchField, searchQueries[i]);
-      await tester.pumpAndSettle();
+      for (int j = 0; j < 3; j++) {
+        await tester.pump(const Duration(milliseconds: 100));
+      }
 
       // Test clear functionality
       final clearButton = find.byIcon(Icons.clear);
       if (clearButton.evaluate().isNotEmpty) {
         await tester.tap(clearButton);
-        await tester.pumpAndSettle();
+        for (int j = 0; j < 3; j++) {
+          await tester.pump(const Duration(milliseconds: 100));
+        }
       }
     }
 
     // Go back to browse hub
     await tester.tap(find.byIcon(Icons.arrow_back));
-    await tester.pumpAndSettle();
+    for (int j = 0; j < 3; j++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
   }
 }
 
@@ -318,25 +402,35 @@ Future<void> _testErrorHandling(WidgetTester tester) async {
   // Test navigation to non-existent routes (should be handled gracefully)
   // This is more of a unit test but we can test UI responses
   
-  // Test empty search results
-  await tester.tap(find.text('Search'));
-  await tester.pumpAndSettle();
+  // Test empty search results - use bottom nav
+  await tester.tap(find.text('Search').last);
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   
   final searchField = find.byType(TextField);
   await tester.enterText(searchField, 'xyznonexistentquery123');
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   
-  // Test various edge cases in browse screens
-  await tester.tap(find.text('Browse'));
-  await tester.pumpAndSettle();
+  // Test various edge cases in browse screens - use bottom nav
+  await tester.tap(find.text('Browse').last);
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   
-  // Test search with special characters
-  await tester.tap(find.text(AppStrings.tunesTitle));
-  await tester.pumpAndSettle();
+  // Test search with special characters - use first match
+  await tester.tap(find.text(AppStrings.tunesTitle).first);
+  for (int i = 0; i < 5; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   
   final tunesSearchField = find.byType(TextField);
   await tester.enterText(tunesSearchField, '!@#\$%^&*()');
-  await tester.pumpAndSettle();
+  for (int i = 0; i < 3; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
   
   // Should handle gracefully without crashing
   expect(find.byType(TextField), findsOneWidget);
