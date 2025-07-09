@@ -65,6 +65,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Install turbo globally
+        run: npm install -g turbo
+
       - name: Build packages
         run: pnpm turbo build --filter=@advent-hymnals/web^...
 
@@ -135,6 +138,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Install turbo globally
+        run: npm install -g turbo
 
       - name: Build packages
         run: pnpm turbo build --filter=@advent-hymnals/web^...
