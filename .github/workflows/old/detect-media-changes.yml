@@ -85,39 +85,19 @@ jobs:
   deploy-web:
     needs: check-changes
     if: needs.check-changes.outputs.web_changed == 'true'
-    runs-on: ubuntu-latest
-    permissions:
-      actions: write
-      contents: read
-    steps:
-      - name: Trigger web application deployment
-        uses: peter-evans/repository-dispatch@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          event-type: deploy
-          client-payload: |
-            {
-              "triggered_by": "web-changes",
-              "sha": "${{ github.sha }}",
-              "actor": "${{ github.actor }}"
-            }
+    uses: ./.github/workflows/deploy.yml
+    with:
+      triggered_by: "web-changes"
+      sha: ${{ github.sha }}
+      actor: ${{ github.actor }}
+      image_tag: "latest"
 
   deploy-both:
     needs: check-changes
     if: needs.check-changes.outputs.media_changed == 'true' && needs.check-changes.outputs.web_changed == 'true'
-    runs-on: ubuntu-latest
-    permissions:
-      actions: write
-      contents: read
-    steps:
-      - name: Trigger full deployment (web + media)
-        uses: peter-evans/repository-dispatch@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          event-type: deploy
-          client-payload: |
-            {
-              "triggered_by": "full-deployment",
-              "sha": "${{ github.sha }}",
-              "actor": "${{ github.actor }}"
-            }
+    uses: ./.github/workflows/deploy.yml
+    with:
+      triggered_by: "full-deployment"
+      sha: ${{ github.sha }}
+      actor: ${{ github.actor }}
+      image_tag: "latest"

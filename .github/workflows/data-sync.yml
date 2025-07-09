@@ -1,0 +1,74 @@
+name: Data Sync to Server
+
+on:
+  push:
+    branches: [master, main]
+    paths: ['data/**']
+  workflow_dispatch:
+
+env:
+  NODE_ENV: production
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "data-sync-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  sync-media:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Sync media files to server
+        run: |
+          echo "📁 Syncing media files to production server..."
+          
+          # Setup SSH for rsync
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+          
+          # Sync only changed media files efficiently
+          rsync -avz --delete --progress \
+            data/sources/ \
+            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/opt/advent-hymnals/data/sources/
+          
+          # Fix permissions
+          ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
+            "sudo chown -R 1001:1001 /opt/advent-hymnals/data/sources/"
+          
+          # Restart media server to refresh content
+          ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
+            "cd /opt/advent-hymnals && docker restart advent-hymnals-media"
+          
+          echo "✅ Media files synced successfully"
+          
+      - name: Verify media server health
+        run: |
+          echo "🏥 Testing media server health..."
+          sleep 10
+          
+          if curl -sf https://media.${{ secrets.DEPLOY_HOST }}/health > /dev/null; then
+            echo "✅ Media server health check passed"
+          else
+            echo "⚠️ Media server health check failed"
+            exit 1
+          fi
+
+      - name: Notify sync status
+        if: always()
+        run: |
+          if [ "${{ job.status }}" = "success" ]; then
+            echo "✅ Data sync completed successfully!"
+            echo "🎵 Media server: https://media.${{ secrets.DEPLOY_HOST }}"
+          else
+            echo "❌ Data sync failed!"
+            echo "Please check the logs above for details."
+            exit 1
+          fi

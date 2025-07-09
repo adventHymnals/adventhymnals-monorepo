@@ -84,3 +84,5 @@ Processed and cleaned hymnal data:
   }
 }
 ```
+
+<!-- Test change to trigger data-sync workflow - 2025-07-09 -->

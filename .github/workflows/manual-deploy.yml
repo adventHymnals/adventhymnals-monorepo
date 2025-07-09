@@ -1,0 +1,288 @@
+name: Manual Deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      deployment_type:
+        description: 'Type of deployment'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - full
+          - server-only
+          - pages-only
+          - data-only
+      image_tag:
+        description: 'Docker image tag to deploy (for server deployment)'
+        required: false
+        default: 'latest'
+        type: string
+      force_rebuild:
+        description: 'Force rebuild before deployment'
+        required: false
+        default: false
+        type: boolean
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: adventhymnals/advent-hymnals-web
+
+permissions:
+  contents: read
+  packages: write
+  id-token: write
+  pages: write
+
+concurrency:
+  group: "manual-deploy"
+  cancel-in-progress: false
+
+jobs:
+  # Data sync job
+  sync-data:
+    runs-on: ubuntu-latest
+    if: inputs.deployment_type == 'full' || inputs.deployment_type == 'data-only'
+    environment: production
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Sync media files to server
+        run: |
+          echo "📁 Manual sync of media files to production server..."
+          
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+          
+          rsync -avz --delete --progress \
+            data/sources/ \
+            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/opt/advent-hymnals/data/sources/
+          
+          ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
+            "sudo chown -R 1001:1001 /opt/advent-hymnals/data/sources/"
+          
+          ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
+            "cd /opt/advent-hymnals && docker restart advent-hymnals-media"
+          
+          echo "✅ Manual data sync completed"
+
+  # Build job (conditional)
+  build:
+    runs-on: ubuntu-latest
+    if: inputs.force_rebuild == true && (inputs.deployment_type == 'full' || inputs.deployment_type == 'server-only' || inputs.deployment_type == 'pages-only')
+    outputs:
+      image-digest: ${{ steps.build.outputs.digest }}
+      image-tags: ${{ steps.meta.outputs.tags }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8.15.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build packages
+        run: pnpm turbo build --filter=@advent-hymnals/web^...
+
+      - name: Build for Docker
+        if: inputs.deployment_type == 'full' || inputs.deployment_type == 'server-only'
+        run: |
+          cd apps/web
+          rm -rf .next
+          pnpm build
+        env:
+          NODE_ENV: production
+          NEXT_TELEMETRY_DISABLED: 1
+          NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
+
+      - name: Set up Docker Buildx
+        if: inputs.deployment_type == 'full' || inputs.deployment_type == 'server-only'
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to Container Registry
+        if: inputs.deployment_type == 'full' || inputs.deployment_type == 'server-only'
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata
+        if: inputs.deployment_type == 'full' || inputs.deployment_type == 'server-only'
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=ref,event=branch
+            type=sha,prefix=sha-
+            type=raw,value=latest,enable={{is_default_branch}}
+            type=raw,value=${{ inputs.image_tag }}
+
+      - name: Build and push Docker image
+        if: inputs.deployment_type == 'full' || inputs.deployment_type == 'server-only'
+        id: build
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./apps/web/Dockerfile.optimized
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          platforms: linux/amd64
+
+      - name: Build static export
+        if: inputs.deployment_type == 'full' || inputs.deployment_type == 'pages-only'
+        run: |
+          cd apps/web
+          rm -rf .next out
+          pnpm build
+          pnpm export
+        env:
+          NODE_ENV: production
+          NEXT_TELEMETRY_DISABLED: 1
+          NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
+
+      - name: Upload static artifacts
+        if: inputs.deployment_type == 'full' || inputs.deployment_type == 'pages-only'
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-site-manual
+          path: apps/web/out/
+
+  # Server deployment
+  deploy-server:
+    needs: [build]
+    runs-on: ubuntu-latest
+    if: always() && (inputs.deployment_type == 'full' || inputs.deployment_type == 'server-only')
+    environment: production
+    steps:
+      - name: Deploy to server
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          port: ${{ secrets.DEPLOY_PORT || 22 }}
+          script: |
+            cd /opt/advent-hymnals
+            
+            echo "🚀 Manual deployment to server..."
+            
+            # Determine image to use
+            if [ "${{ inputs.force_rebuild }}" = "true" ] && [ "${{ needs.build.outputs.image-tags }}" != "" ]; then
+              IMAGE_TO_USE="${{ needs.build.outputs.image-tags }}"
+            else
+              IMAGE_TO_USE="${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ inputs.image_tag }}"
+            fi
+            
+            echo "📦 Using image: $IMAGE_TO_USE"
+            
+            # Update environment
+            cat > .env << EOF
+            SITE_URL=https://adventhymnals.org
+            NEXT_PUBLIC_SITE_URL=https://adventhymnals.org
+            NODE_ENV=production
+            NEXT_PUBLIC_GA_ID=${{ secrets.NEXT_PUBLIC_GA_ID }}
+            GOOGLE_VERIFICATION=${{ secrets.GOOGLE_VERIFICATION }}
+            YANDEX_VERIFICATION=${{ secrets.YANDEX_VERIFICATION }}
+            EOF
+            
+            # Deploy
+            docker pull $IMAGE_TO_USE
+            docker compose down || true
+            export ADVENT_HYMNALS_IMAGE="$IMAGE_TO_USE"
+            docker compose up -d
+            
+            sleep 15
+            echo "✅ Manual server deployment completed!"
+
+  # Pages deployment
+  deploy-pages:
+    needs: [build]
+    runs-on: ubuntu-latest
+    if: always() && (inputs.deployment_type == 'full' || inputs.deployment_type == 'pages-only')
+    steps:
+      - name: Download static artifacts
+        if: inputs.force_rebuild == true
+        uses: actions/download-artifact@v4
+        with:
+          name: static-site-manual
+          path: ./out
+
+      - name: Checkout for static files
+        if: inputs.force_rebuild == false
+        uses: actions/checkout@v4
+
+      - name: Build static site (if not rebuilt)
+        if: inputs.force_rebuild == false
+        run: |
+          npm install -g pnpm@8.15.0
+          pnpm install --frozen-lockfile
+          pnpm turbo build --filter=@advent-hymnals/web^...
+          cd apps/web
+          pnpm build
+          pnpm export
+          mkdir -p ../../out
+          cp -r out/* ../../out/
+        env:
+          NODE_ENV: production
+          NEXT_TELEMETRY_DISABLED: 1
+          NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PAGES_DEPLOY_TOKEN }}
+          external_repository: ${{ secrets.PUBLIC_REPO_NAME }}
+          publish_dir: ./out
+          publish_branch: gh-pages
+          commit_message: |
+            Manual deploy from ${{ github.repository }}@${{ github.sha }}
+            
+            Deployment type: ${{ inputs.deployment_type }}
+            Force rebuild: ${{ inputs.force_rebuild }}
+            Actor: ${{ github.actor }}
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+
+  # Summary
+  summary:
+    needs: [sync-data, build, deploy-server, deploy-pages]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Deployment Summary
+        run: |
+          echo "## Manual Deployment Summary"
+          echo "**Type:** ${{ inputs.deployment_type }}"
+          echo "**Force Rebuild:** ${{ inputs.force_rebuild }}"
+          echo "**Image Tag:** ${{ inputs.image_tag }}"
+          echo ""
+          echo "### Results:"
+          echo "- Data Sync: ${{ needs.sync-data.result || 'skipped' }}"
+          echo "- Build: ${{ needs.build.result || 'skipped' }}"
+          echo "- Server Deploy: ${{ needs.deploy-server.result || 'skipped' }}"
+          echo "- Pages Deploy: ${{ needs.deploy-pages.result || 'skipped' }}"
+          echo ""
+          
+          if [ "${{ needs.deploy-server.result }}" = "success" ]; then
+            echo "🌐 Server: https://adventhymnals.org"
+          fi
+          
+          if [ "${{ needs.deploy-pages.result }}" = "success" ]; then
+            echo "📄 Pages: https://${{ secrets.PUBLIC_REPO_NAME }}.github.io"
+          fi

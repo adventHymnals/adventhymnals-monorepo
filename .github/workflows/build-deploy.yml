@@ -1,0 +1,288 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - 'apps/web/**'
+      - 'packages/**'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+      - 'turbo.json'
+  workflow_dispatch:
+    inputs:
+      deploy_server:
+        description: 'Deploy to server'
+        required: false
+        default: 'true'
+        type: boolean
+      deploy_pages:
+        description: 'Deploy to GitHub Pages'
+        required: false
+        default: 'true'
+        type: boolean
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: adventhymnals/advent-hymnals-web
+  NODE_ENV: production
+
+permissions:
+  contents: read
+  packages: write
+  id-token: write
+  pages: write
+
+concurrency:
+  group: "build-deploy-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  # Docker Build Path
+  build-docker:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.deploy_server == 'true')
+    outputs:
+      image-digest: ${{ steps.build.outputs.digest }}
+      image-tags: ${{ steps.meta.outputs.tags }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8.15.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build packages
+        run: pnpm turbo build --filter=@advent-hymnals/web^...
+
+      - name: Build for Docker deployment
+        run: |
+          cd apps/web
+          rm -rf .next
+          pnpm build
+        env:
+          NODE_ENV: production
+          NEXT_TELEMETRY_DISABLED: 1
+          NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=ref,event=branch
+            type=ref,event=pr
+            type=sha,prefix=sha-
+            type=raw,value=latest,enable={{is_default_branch}}
+
+      - name: Build and push Docker image
+        id: build
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./apps/web/Dockerfile.optimized
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=min
+          platforms: linux/amd64
+
+  # Static Build Path (Independent)
+  build-static:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.deploy_pages == 'true')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8.15.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build packages
+        run: pnpm turbo build --filter=@advent-hymnals/web^...
+
+      - name: Build static export
+        run: |
+          cd apps/web
+          rm -rf .next out
+          
+          # Build with static export configuration
+          pnpm build
+          pnpm export
+        env:
+          NODE_ENV: production
+          NEXT_TELEMETRY_DISABLED: 1
+          NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
+
+      - name: Upload static artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-site
+          path: apps/web/out/
+          retention-days: 1
+
+  # Deploy to Production Server
+  deploy-server:
+    needs: build-docker
+    runs-on: ubuntu-latest
+    if: needs.build-docker.result == 'success'
+    environment: production
+    steps:
+      - name: Deploy to server
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          port: ${{ secrets.DEPLOY_PORT || 22 }}
+          script: |
+            cd /opt/advent-hymnals
+            
+            echo "🚀 Starting deployment of Advent Hymnals..."
+            echo "📦 Web Image: ${{ needs.build-docker.outputs.image-tags }}"
+            
+            # Update .env file with secrets
+            cat > .env << EOF
+            SITE_URL=https://adventhymnals.org
+            NEXT_PUBLIC_SITE_URL=https://adventhymnals.org
+            NODE_ENV=production
+            NEXT_PUBLIC_GA_ID=${{ secrets.NEXT_PUBLIC_GA_ID }}
+            GOOGLE_VERIFICATION=${{ secrets.GOOGLE_VERIFICATION }}
+            YANDEX_VERIFICATION=${{ secrets.YANDEX_VERIFICATION }}
+            EOF
+            
+            # Create external network if it doesn't exist
+            if ! docker network ls | grep -q web-network; then
+              echo "🌐 Creating external Docker network..."
+              docker network create web-network
+            fi
+            
+            echo "📦 Pulling Docker images..."
+            docker pull ${{ needs.build-docker.outputs.image-tags }}
+            
+            echo "🛑 Stopping existing containers..."
+            docker compose down || true
+            
+            echo "🚀 Starting new containers..."
+            export ADVENT_HYMNALS_IMAGE="${{ needs.build-docker.outputs.image-tags }}"
+            docker compose up -d
+            
+            sleep 15
+            echo "✅ Deployment completed successfully!"
+
+      - name: Verify deployment
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          port: ${{ secrets.DEPLOY_PORT || 22 }}
+          script: |
+            cd /opt/advent-hymnals
+            
+            echo "🔍 Performing post-deployment verification..."
+            docker compose ps
+            
+            RUNNING_CONTAINERS=$(docker compose ps --services --filter "status=running" | wc -l)
+            
+            if [ "$RUNNING_CONTAINERS" -gt 0 ]; then
+              echo "✅ Found $RUNNING_CONTAINERS running container(s)"
+              
+              if curl -sf http://localhost/api/health > /dev/null 2>&1; then
+                echo "✅ Web application health check passed"
+              else
+                echo "⚠️ Web application health check failed"
+                docker compose logs --tail=10
+              fi
+            else
+              echo "❌ No containers are running"
+              docker compose logs --tail=20
+              exit 1
+            fi
+
+  # Deploy to Public GitHub Pages
+  deploy-to-public-repo:
+    needs: build-static
+    runs-on: ubuntu-latest
+    if: needs.build-static.result == 'success'
+    steps:
+      - name: Download static artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: static-site
+          path: ./out
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PAGES_DEPLOY_TOKEN }}
+          external_repository: ${{ secrets.PUBLIC_REPO_NAME }}
+          publish_dir: ./out
+          publish_branch: gh-pages
+          commit_message: |
+            Deploy static site from ${{ github.repository }}@${{ github.sha }}
+            
+            Source: ${{ github.event.head_commit.message }}
+            Actor: ${{ github.actor }}
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+
+  # Notify results
+  notify:
+    needs: [build-docker, build-static, deploy-server, deploy-to-public-repo]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Notify deployment status
+        run: |
+          echo "## Deployment Results"
+          echo "- Docker Build: ${{ needs.build-docker.result || 'skipped' }}"
+          echo "- Static Build: ${{ needs.build-static.result || 'skipped' }}"
+          echo "- Server Deploy: ${{ needs.deploy-server.result || 'skipped' }}"
+          echo "- Pages Deploy: ${{ needs.deploy-to-public-repo.result || 'skipped' }}"
+          
+          if [ "${{ needs.deploy-server.result }}" = "success" ]; then
+            echo "🌐 Main site: https://adventhymnals.org"
+          fi
+          
+          if [ "${{ needs.deploy-to-public-repo.result }}" = "success" ]; then
+            echo "📄 GitHub Pages: https://${{ secrets.PUBLIC_REPO_NAME }}.github.io"
+          fi

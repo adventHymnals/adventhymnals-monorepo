@@ -1,6 +1,6 @@
 {
   "name": "@advent-hymnals/web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Web application for browsing and managing Advent Hymnals",
   "scripts": {

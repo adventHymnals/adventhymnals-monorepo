@@ -9,6 +9,27 @@ on:
         description: 'Docker image tag to deploy'
         required: false
         default: 'latest'
+  workflow_call:
+    inputs:
+      triggered_by:
+        description: 'What triggered this deployment'
+        required: true
+        type: string
+      sha:
+        description: 'Git SHA of the commit'
+        required: false
+        type: string
+        default: ''
+      actor:
+        description: 'GitHub actor who triggered this'
+        required: false
+        type: string
+        default: ''
+      image_tag:
+        description: 'Docker image tag to deploy'
+        required: false
+        type: string
+        default: 'latest'
 
 env:
   REGISTRY: ghcr.io
@@ -34,6 +55,11 @@ jobs:
             echo "triggered_by=${{ github.event.client_payload.triggered_by || 'build' }}" >> $GITHUB_OUTPUT
             echo "sha=${{ github.event.client_payload.sha }}" >> $GITHUB_OUTPUT
             echo "media_server_image=${{ github.event.client_payload.media_server_image }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event_name }}" = "workflow_call" ]; then
+            echo "image_tag=${{ inputs.image_tag || 'latest' }}" >> $GITHUB_OUTPUT
+            echo "triggered_by=${{ inputs.triggered_by }}" >> $GITHUB_OUTPUT
+            echo "sha=${{ inputs.sha || github.sha }}" >> $GITHUB_OUTPUT
+            echo "media_server_image=" >> $GITHUB_OUTPUT
           else
             echo "image_tag=${{ github.event.inputs.image_tag || 'latest' }}" >> $GITHUB_OUTPUT
             echo "triggered_by=manual" >> $GITHUB_OUTPUT
@@ -54,11 +80,11 @@ jobs:
           echo "AUTH_REQUIRED=false" >> $GITHUB_ENV
 
       - name: Checkout repository for media sync
-        if: github.event_name == 'repository_dispatch' && github.event.client_payload.triggered_by == 'build'
+        if: (github.event_name == 'repository_dispatch' && github.event.client_payload.triggered_by == 'build') || (github.event_name == 'workflow_call' && inputs.triggered_by == 'full-deployment')
         uses: actions/checkout@v4
 
       - name: Sync media files to server
-        if: github.event_name == 'repository_dispatch' && github.event.client_payload.triggered_by == 'build'
+        if: (github.event_name == 'repository_dispatch' && github.event.client_payload.triggered_by == 'build') || (github.event_name == 'workflow_call' && inputs.triggered_by == 'full-deployment')
         run: |
           # Setup SSH for rsync
           mkdir -p ~/.ssh
