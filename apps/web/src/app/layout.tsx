@@ -137,6 +137,7 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#1e40af" />
         
         {/* Additional meta tags */}
+        <meta property="og:image" content={`${process.env.SITE_URL || (process.env.NEXT_OUTPUT === 'export' ? 'https://adventhymnals.github.io' : 'https://adventhymnals.org')}/og-image.jpg`} />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />

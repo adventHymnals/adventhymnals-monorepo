@@ -63,6 +63,10 @@ export async function generateMetadata({ params }: HymnPageProps): Promise<Metad
     const title = `${hymn.title} - ${hymnalRef.site_name} #${hymn.number}`;
     const description = `${hymn.title} from ${hymnalRef.site_name} hymnal. ${hymn.author ? `Words by ${hymn.author}. ` : ''}${hymn.composer ? `Music by ${hymn.composer}. ` : ''}${hymn.verses[0]?.text?.split('\n')[0] || ''}`;
 
+    // Determine site URL
+    const siteUrl = process.env.SITE_URL || 
+      (process.env.NEXT_OUTPUT === 'export' ? 'https://adventhymnals.github.io' : 'https://adventhymnals.org');
+    
     return {
       title,
       description,
@@ -80,6 +84,22 @@ export async function generateMetadata({ params }: HymnPageProps): Promise<Metad
         title,
         description,
         type: 'article',
+        url: `${siteUrl}/${hymnalRef.url_slug}/${params.slug}`,
+        siteName: 'Advent Hymnals',
+        images: [
+          {
+            url: `${siteUrl}/og-image.jpg`,
+            width: 1200,
+            height: 630,
+            alt: `${hymn.title} - ${hymnalRef.site_name} #${hymn.number}`,
+          },
+        ],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title,
+        description,
+        images: [`${siteUrl}/og-image.jpg`],
       },
     };
   } catch {

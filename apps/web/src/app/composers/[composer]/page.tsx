@@ -54,9 +54,68 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: ComposerDetailProps): Promise<Metadata> {
   const decodedComposer = decodeURIComponent(params.composer);
+  
+  // Get some basic stats about the composer
+  const hymnalReferences = await loadHymnalReferences();
+  const { loadHymnalHymns } = await import('@/lib/data-server');
+  let hymnCount = 0;
+  const hymnalSet = new Set<string>();
+  
+  // Count hymns and hymnals for this composer
+  for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+    try {
+      const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+      const composerHymns = hymns.filter((hymn: any) => hymn.composer === decodedComposer);
+      if (composerHymns.length > 0) {
+        hymnCount += composerHymns.length;
+        hymnalSet.add(hymnalRef.abbreviation);
+      }
+    } catch (error) {
+      console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
+    }
+  }
+  
+  const hymnalList = Array.from(hymnalSet).join(', ');
+  const title = `${decodedComposer} - Hymn Composer | Advent Hymnals`;
+  const description = `Browse ${hymnCount} hymns composed by ${decodedComposer} across ${hymnalSet.size} hymnal collections (${hymnalList}). Explore Adventist hymnody with full text, themes, and musical information.`;
+  
+  // Determine site URL
+  const siteUrl = process.env.SITE_URL || 
+    (process.env.NEXT_OUTPUT === 'export' ? 'https://adventhymnals.github.io' : 'https://adventhymnals.org');
+  
   return {
-    title: `${decodedComposer} - Hymn Composer`,
-    description: `Browse hymns composed by ${decodedComposer}. Explore Adventist hymnody with full text, themes, and musical information.`
+    title,
+    description,
+    keywords: [
+      decodedComposer,
+      'hymn composer',
+      'Adventist hymns',
+      'church music',
+      'worship music',
+      'Christian music',
+      'hymnal',
+      ...Array.from(hymnalSet)
+    ],
+    openGraph: {
+      title,
+      description,
+      type: 'profile',
+      url: `${siteUrl}/composers/${encodeURIComponent(decodedComposer)}`,
+      images: [
+        {
+          url: `${siteUrl}/og-image.jpg`,
+          width: 1200,
+          height: 630,
+          alt: `${decodedComposer} - Hymn Composer on Advent Hymnals`,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${siteUrl}/og-image.jpg`],
+    },
   };
 }
 

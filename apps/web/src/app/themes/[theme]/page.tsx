@@ -54,9 +54,68 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: ThemeDetailProps): Promise<Metadata> {
   const decodedTheme = decodeURIComponent(params.theme);
+  
+  // Get some basic stats about the theme
+  const hymnalReferences = await loadHymnalReferences();
+  const { loadHymnalHymns } = await import('@/lib/data-server');
+  let hymnCount = 0;
+  const hymnalSet = new Set<string>();
+  
+  // Count hymns and hymnals for this theme
+  for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+    try {
+      const { hymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+      const themeHymns = hymns.filter((hymn: any) => hymn.metadata?.themes?.includes(decodedTheme));
+      if (themeHymns.length > 0) {
+        hymnCount += themeHymns.length;
+        hymnalSet.add(hymnalRef.abbreviation);
+      }
+    } catch (error) {
+      console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
+    }
+  }
+  
+  const hymnalList = Array.from(hymnalSet).join(', ');
+  const title = `${decodedTheme} - Hymn Theme | Advent Hymnals`;
+  const description = `Browse ${hymnCount} hymns with the theme "${decodedTheme}" across ${hymnalSet.size} hymnal collections (${hymnalList}). Explore Adventist hymnody with full text, themes, and musical information.`;
+  
+  // Determine site URL
+  const siteUrl = process.env.SITE_URL || 
+    (process.env.NEXT_OUTPUT === 'export' ? 'https://adventhymnals.github.io' : 'https://adventhymnals.org');
+  
   return {
-    title: `${decodedTheme} - Hymn Theme`,
-    description: `Browse hymns with the theme "${decodedTheme}". Explore Adventist hymnody with full text, themes, and musical information.`
+    title,
+    description,
+    keywords: [
+      decodedTheme,
+      'hymn theme',
+      'Adventist hymns',
+      'church music',
+      'worship music',
+      'Christian music',
+      'hymnal',
+      ...Array.from(hymnalSet)
+    ],
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      url: `${siteUrl}/themes/${encodeURIComponent(decodedTheme)}`,
+      images: [
+        {
+          url: `${siteUrl}/og-image.jpg`,
+          width: 1200,
+          height: 630,
+          alt: `${decodedTheme} - Hymn Theme on Advent Hymnals`,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${siteUrl}/og-image.jpg`],
+    },
   };
 }
 
