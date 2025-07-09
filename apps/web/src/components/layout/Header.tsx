@@ -14,6 +14,7 @@ import {
 import { HymnalCollection } from '@advent-hymnals/shared';
 import { classNames } from '@advent-hymnals/shared';
 import SearchDropdown from '../ui/SearchDropdown';
+import { getApiUrl } from '@/lib/data';
 
 interface HeaderProps {
   hymnalReferences?: HymnalCollection;
@@ -26,6 +27,8 @@ export default function Header({ hymnalReferences }: HeaderProps) {
   const [mobileSearchDropdownOpen, setMobileSearchDropdownOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [hymnalSearchQuery, setHymnalSearchQuery] = useState('');
+  const [loadedHymnalReferences, setLoadedHymnalReferences] = useState<HymnalCollection | undefined>(hymnalReferences);
+  const [isLoadingHymnals, setIsLoadingHymnals] = useState(false);
   const pathname = usePathname();
 
   // Close mobile menu when route changes
@@ -36,6 +39,50 @@ export default function Header({ hymnalReferences }: HeaderProps) {
     setMobileSearchDropdownOpen(false);
     setHymnalSearchQuery('');
   }, [pathname]);
+
+  // Load hymnal references via API if not provided as props
+  useEffect(() => {
+    // If hymnalReferences is provided as prop, use it
+    if (hymnalReferences) {
+      setLoadedHymnalReferences(hymnalReferences);
+      return;
+    }
+    
+    // Otherwise, load via API if not already loaded or loading
+    if (!loadedHymnalReferences && !isLoadingHymnals) {
+      setIsLoadingHymnals(true);
+      
+      const loadHymnalReferences = async () => {
+        try {
+          const response = await fetch(getApiUrl('/api/hymnals'));
+          if (!response.ok) {
+            throw new Error('Failed to load hymnal references');
+          }
+          const data = await response.json();
+          setLoadedHymnalReferences(data);
+        } catch (error) {
+          console.error('Failed to load hymnal references:', error);
+          // Set empty structure as fallback
+          setLoadedHymnalReferences({
+            hymnals: {},
+            languages: {},
+            metadata: {
+              total_hymnals: 0,
+              date_range: { earliest: 2000, latest: 2024 },
+              languages_supported: [],
+              total_estimated_songs: 0,
+              source: 'API Error',
+              generated_date: new Date().toISOString().split('T')[0]
+            }
+          });
+        } finally {
+          setIsLoadingHymnals(false);
+        }
+      };
+
+      loadHymnalReferences();
+    }
+  }, [hymnalReferences, loadedHymnalReferences, isLoadingHymnals]);
 
   // Prevent background scroll when mobile menu is open
   useEffect(() => {
@@ -79,11 +126,31 @@ export default function Header({ hymnalReferences }: HeaderProps) {
     { name: 'Contribute', href: '/contribute', current: pathname === '/contribute' },
   ];
 
-  const allHymnals = hymnalReferences ? Object.values(hymnalReferences.hymnals) : [];
+  // Static navigation links for SEO (always rendered)
+  const staticHymnalLinks = [
+    { name: 'Seventh-day Adventist Hymnal', url_slug: 'seventh-day-adventist-hymnal' },
+    { name: 'Christ in Song', url_slug: 'christ-in-song' },
+    { name: 'Church Hymnal', url_slug: 'church-hymnal' },
+    { name: 'Nyimbo za Kristo', url_slug: 'nyimbo-za-kristo' },
+    { name: 'Wende Nyasaye', url_slug: 'wende-nyasaye' },
+    { name: 'View All Collections', url_slug: 'hymnals' },
+  ];
+
+  // Use provided hymnalReferences or loaded ones, fallback to static links
+  const currentHymnalReferences = hymnalReferences || loadedHymnalReferences;
+  const allHymnals = currentHymnalReferences ? Object.values(currentHymnalReferences.hymnals) : [];
   
+  // Use API data if available, otherwise use static links for SEO
+  const hymnalNavigationItems = allHymnals.length > 0 ? 
+    allHymnals.map(hymnal => ({
+      name: hymnal.site_name || hymnal.name,
+      url_slug: hymnal.url_slug
+    })) : 
+    staticHymnalLinks.slice(0, -1); // Remove "View All Collections" from main nav
+
   // Filter and sort hymnals for dropdown with search functionality
-  const dropdownHymnals = allHymnals
-    .filter(hymnal => {
+  const dropdownHymnals = allHymnals.length > 0 ? 
+    allHymnals.filter(hymnal => {
       if (!hymnal.url_slug) return false;
       if (!hymnalSearchQuery.trim()) return true;
       
@@ -94,7 +161,11 @@ export default function Header({ hymnalReferences }: HeaderProps) {
              hymnal.language_name.toLowerCase().includes(query) ||
              hymnal.year.toString().includes(query);
     })
-    .sort((a, b) => b.year - a.year);
+    .sort((a, b) => b.year - a.year) :
+    staticHymnalLinks.filter(hymnal => {
+      if (!hymnalSearchQuery.trim()) return true;
+      return hymnal.name.toLowerCase().includes(hymnalSearchQuery.toLowerCase());
+    });
 
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -179,7 +250,7 @@ export default function Header({ hymnalReferences }: HeaderProps) {
                         {dropdownHymnals.length > 0 ? (
                           dropdownHymnals.map((hymnal) => (
                             <Link
-                              key={hymnal.id}
+                              key={hymnal.url_slug}
                               href={`/${hymnal.url_slug}`}
                               className="block p-2 rounded-md hover:bg-gray-50 transition-colors duration-200"
                               onClick={() => {
@@ -190,11 +261,13 @@ export default function Header({ hymnalReferences }: HeaderProps) {
                               <div className="flex items-center justify-between">
                                 <div className="min-w-0 flex-1">
                                   <div className="text-sm font-medium text-gray-900 truncate">
-                                    {hymnal.site_name || hymnal.name}
+                                    {(hymnal as any).site_name || hymnal.name}
                                   </div>
-                                  <div className="text-xs text-gray-500">
-                                    {hymnal.year} • {hymnal.total_songs} hymns • {hymnal.language_name}
-                                  </div>
+                                  {(hymnal as any).year && (hymnal as any).total_songs && (
+                                    <div className="text-xs text-gray-500">
+                                      {(hymnal as any).year} • {(hymnal as any).total_songs} hymns • {(hymnal as any).language_name}
+                                    </div>
+                                  )}
                                 </div>
                               </div>
                             </Link>
@@ -216,7 +289,7 @@ export default function Header({ hymnalReferences }: HeaderProps) {
                             setHymnalSearchQuery('');
                           }}
                         >
-                          View all {allHymnals.length} collections →
+                          View all {allHymnals.length > 0 ? allHymnals.length : staticHymnalLinks.length - 1} collections →
                         </Link>
                       </div>
                     </div>
@@ -316,14 +389,16 @@ export default function Header({ hymnalReferences }: HeaderProps) {
                 </div>
                 {dropdownHymnals.slice(0, 5).map((hymnal) => (
                   <Link
-                    key={hymnal.id}
+                    key={hymnal.url_slug}
                     href={`/${hymnal.url_slug}`}
                     className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                   >
-                    <div className="font-medium">{hymnal.site_name || hymnal.name}</div>
-                    <div className="text-xs text-gray-500">
-                      {hymnal.year} • {hymnal.total_songs} hymns
-                    </div>
+                    <div className="font-medium">{(hymnal as any).site_name || hymnal.name}</div>
+                    {(hymnal as any).year && (hymnal as any).total_songs && (
+                      <div className="text-xs text-gray-500">
+                        {(hymnal as any).year} • {(hymnal as any).total_songs} hymns
+                      </div>
+                    )}
                   </Link>
                 ))}
                 <Link
