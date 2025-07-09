@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   keywords: ['hymn search', 'Adventist hymns', 'hymnal search', 'worship music', 'Christian songs'],
 };
 
+export async function generateStaticParams() {
+  // Global search page has no dynamic params, return empty array
+  return [];
+}
+
 export default async function SearchPage() {
   const hymnalReferences = await loadHymnalReferences();
   const breadcrumbs = generateSearchBreadcrumbs();
