@@ -1,5 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    // Ensure proper module resolution for CI environments
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@': require('path').resolve(__dirname, 'src'),
+    };
+    return config;
+  },
   output: process.env.NEXT_OUTPUT === 'export' ? 'export' : 'standalone',
   distDir: process.env.NEXT_DISTDIR || '.next',
   trailingSlash: true,
