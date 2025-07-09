@@ -1,0 +1,59 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Subtle pattern overlay -->
+    <pattern id="pattern" patternUnits="userSpaceOnUse" width="60" height="60">
+      <rect width="60" height="60" fill="none"/>
+      <path d="M30 0 L30 60 M0 30 L60 30" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg-gradient)"/>
+  <rect width="1200" height="630" fill="url(#pattern)"/>
+  
+  <!-- Decorative musical notes -->
+  <text x="100" y="120" font-family="serif" font-size="48" fill="rgba(255,255,255,0.1)">♪</text>
+  <text x="1050" y="180" font-family="serif" font-size="36" fill="rgba(255,255,255,0.1)">♫</text>
+  <text x="150" y="520" font-family="serif" font-size="42" fill="rgba(255,255,255,0.1)">♪</text>
+  <text x="1000" y="580" font-family="serif" font-size="30" fill="rgba(255,255,255,0.1)">♫</text>
+  
+  <!-- Main title -->
+  <text x="600" y="220" font-family="serif" font-size="72" font-weight="bold" fill="white" text-anchor="middle">
+    Advent Hymnals
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="280" font-family="sans-serif" font-size="32" fill="#93c5fd" text-anchor="middle">
+    Digital Collection of Adventist Hymnody
+  </text>
+  
+  <!-- Key features -->
+  <text x="600" y="350" font-family="sans-serif" font-size="24" fill="#e2e8f0" text-anchor="middle">
+    160+ Years of Hymn Heritage
+  </text>
+  
+  <text x="600" y="390" font-family="sans-serif" font-size="20" fill="#cbd5e1" text-anchor="middle">
+    13 Complete Hymnal Collections • Search &amp; Browse • Free Access
+  </text>
+  
+  <!-- Highlighted collections -->
+  <text x="600" y="440" font-family="sans-serif" font-size="18" fill="#94a3b8" text-anchor="middle">
+    SDA Hymnal • Christ in Song • Church Hymnal • Millenial Harp
+  </text>
+  
+  <!-- Website URL -->
+  <text x="600" y="520" font-family="sans-serif" font-size="20" fill="#60a5fa" text-anchor="middle">
+    adventhymnals.org
+  </text>
+  
+  <!-- Small attribution -->
+  <text x="600" y="580" font-family="sans-serif" font-size="14" fill="rgba(255,255,255,0.6)" text-anchor="middle">
+    Preserving Adventist Musical Heritage for Future Generations
+  </text>
+</svg>
