@@ -60,14 +60,48 @@ export async function generateMetadata({ params }: TuneDetailProps): Promise<Met
   };
 }
 
-export default function TuneDetailPage({ params }: TuneDetailProps) {
-  // Always render client component to avoid RSC requests during navigation
-  // The client component will handle data loading via external API
+export default async function TuneDetailPage({ params }: TuneDetailProps) {
   const decodedTune = decodeURIComponent(params.tune);
+  const hymnalReferences = await loadHymnalReferences();
+  
+  // Use server-side data loading directly instead of API fetch
+  const { loadHymnalHymns } = await import('@/lib/data-server');
+  const hymns: HymnData[] = [];
+  
+  // Load hymns from all hymnals to find hymns with this tune
+  for (const hymnalRef of Object.values(hymnalReferences.hymnals)) {
+    try {
+      const { hymns: hymnalHymns } = await loadHymnalHymns(hymnalRef.id, 1, 1000);
+      hymnalHymns.forEach((hymn: any) => {
+        if (hymn.tune === decodedTune) {
+          hymns.push({
+            id: hymn.id,
+            number: hymn.number,
+            title: hymn.title,
+            author: hymn.author,
+            hymnal: {
+              id: hymnalRef.id,
+              name: hymnalRef.name,
+              url_slug: hymnalRef.url_slug,
+              abbreviation: hymnalRef.abbreviation
+            }
+          });
+        }
+      });
+    } catch (error) {
+      console.warn(`Failed to load hymns for ${hymnalRef.id}:`, error);
+    }
+  }
+  
+  if (hymns.length === 0) {
+    notFound();
+  }
+
   return (
     <TuneDetailClient 
-      tune={decodedTune}
-      params={params}
+      hymns={hymns}
+      decodedTune={decodedTune}
+      hymnalReferences={hymnalReferences}
     />
   );
 }
