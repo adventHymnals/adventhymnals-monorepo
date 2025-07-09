@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { MusicalNoteIcon, ArrowLeftIcon } from '@heroicons/react/24/outline';
+import { MusicalNoteIcon, ArrowLeftIcon, ChartBarIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import HymnFilters from '@/components/search/HymnFilters';
 import { HymnalCollection } from '@advent-hymnals/shared';
@@ -31,6 +31,24 @@ export default function TuneDetailClient({ hymns, decodedTune, hymnalReferences 
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedHymnal, setSelectedHymnal] = useState('');
   const [sortBy, setSortBy] = useState<'title' | 'number'>('number');
+  const [showStats, setShowStats] = useState(false);
+
+  // Calculate hymnal breakdown statistics
+  const hymnalStats = hymns.reduce((acc, hymn) => {
+    const key = hymn.hymnal.id;
+    if (!acc[key]) {
+      acc[key] = {
+        hymnal: hymn.hymnal,
+        count: 0,
+        hymns: []
+      };
+    }
+    acc[key].count++;
+    acc[key].hymns.push(hymn);
+    return acc;
+  }, {} as Record<string, { hymnal: HymnData['hymnal'], count: number, hymns: HymnData[] }>);
+
+  const sortedHymnalStats = Object.values(hymnalStats).sort((a, b) => b.count - a.count);
 
   // Filter and sort hymns
   useEffect(() => {
@@ -96,6 +114,41 @@ export default function TuneDetailClient({ hymns, decodedTune, hymnalReferences 
 
         {/* Content */}
         <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
+          {/* Statistics Toggle */}
+          <div className="mb-6">
+            <button
+              onClick={() => setShowStats(!showStats)}
+              className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+            >
+              <ChartBarIcon className="h-4 w-4 mr-2" />
+              {showStats ? 'Hide' : 'Show'} Hymnal Breakdown
+            </button>
+          </div>
+
+          {/* Hymnal Statistics */}
+          {showStats && (
+            <div className="mb-8 bg-white p-6 rounded-lg shadow-sm border">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Hymnal Breakdown</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {sortedHymnalStats.map((stat) => (
+                  <div key={stat.hymnal.id} className="p-4 bg-gray-50 rounded-lg">
+                    <div className="flex items-center justify-between mb-2">
+                      <h4 className="font-medium text-gray-900">{stat.hymnal.abbreviation}</h4>
+                      <span className="text-sm font-semibold text-primary-600">{stat.count}</span>
+                    </div>
+                    <p className="text-sm text-gray-600">{stat.hymnal.name}</p>
+                    <div className="mt-2 bg-gray-200 rounded-full h-2">
+                      <div
+                        className="bg-primary-600 h-2 rounded-full"
+                        style={{ width: `${(stat.count / hymns.length) * 100}%` }}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           <HymnFilters
             searchTerm={searchTerm}
             onSearchChange={setSearchTerm}

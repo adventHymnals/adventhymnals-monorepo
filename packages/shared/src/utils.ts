@@ -93,7 +93,10 @@ export function calculateTextSimilarity(text1: string, text2: string): number {
   const words2 = norm2.split(/\s+/);
   
   const intersection = words1.filter(word => words2.includes(word));
-  const union = [...new Set([...words1, ...words2])];
+  const unionSet = new Set<string>();
+  words1.forEach(word => unionSet.add(word));
+  words2.forEach(word => unionSet.add(word));
+  const union = Array.from(unionSet);
   
   return intersection.length / union.length;
 }

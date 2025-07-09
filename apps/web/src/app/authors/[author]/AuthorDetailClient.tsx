@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { MusicalNoteIcon, ArrowLeftIcon, ChartBarIcon } from '@heroicons/react/24/outline';
+import { UserIcon, ArrowLeftIcon, ChartBarIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import HymnFilters from '@/components/search/HymnFilters';
 import { HymnalCollection } from '@advent-hymnals/shared';
@@ -20,13 +20,13 @@ interface HymnData {
   };
 }
 
-interface MeterDetailClientProps {
+interface AuthorDetailClientProps {
   hymns: HymnData[];
-  decodedMeter: string;
+  decodedAuthor: string;
   hymnalReferences: HymnalCollection;
 }
 
-export default function MeterDetailClient({ hymns, decodedMeter, hymnalReferences }: MeterDetailClientProps) {
+export default function AuthorDetailClient({ hymns, decodedAuthor, hymnalReferences }: AuthorDetailClientProps) {
   const [filteredHymns, setFilteredHymns] = useState<HymnData[]>(hymns);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedHymnal, setSelectedHymnal] = useState('');
@@ -59,7 +59,6 @@ export default function MeterDetailClient({ hymns, decodedMeter, hymnalReference
       const normalizedSearch = searchTerm.toLowerCase();
       filtered = filtered.filter(hymn =>
         hymn.title.toLowerCase().includes(normalizedSearch) ||
-        hymn.author?.toLowerCase().includes(normalizedSearch) ||
         hymn.hymnal.abbreviation.toLowerCase().includes(normalizedSearch) ||
         hymn.number.toString().includes(normalizedSearch)
       );
@@ -94,19 +93,19 @@ export default function MeterDetailClient({ hymns, decodedMeter, hymnalReference
           <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
             <div className="text-center">
               <Link
-                href="/meters"
+                href="/authors"
                 className="inline-flex items-center text-primary-200 hover:text-white mb-6 transition-colors"
               >
                 <ArrowLeftIcon className="h-4 w-4 mr-2" />
-                Back to Meters
+                Back to Authors
               </Link>
               
-              <MusicalNoteIcon className="mx-auto h-12 w-12 text-white mb-4" />
+              <UserIcon className="mx-auto h-12 w-12 text-white mb-4" />
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-                {decodedMeter}
+                {decodedAuthor}
               </h1>
               <p className="mt-6 text-lg leading-8 text-primary-100">
-                {filteredHymns.length} of {hymns.length} hymn{hymns.length !== 1 ? 's' : ''} in this metrical pattern
+                {filteredHymns.length} of {hymns.length} hymn{hymns.length !== 1 ? 's' : ''} by this author
               </p>
             </div>
           </div>
@@ -174,11 +173,6 @@ export default function MeterDetailClient({ hymns, decodedMeter, hymnalReference
                     <div className="text-sm text-gray-600 mt-1">
                       {hymn.hymnal.abbreviation} #{hymn.number}
                     </div>
-                    {hymn.author && (
-                      <div className="text-sm text-gray-500 mt-1">
-                        by {hymn.author}
-                      </div>
-                    )}
                   </div>
                 </div>
               </Link>
@@ -186,8 +180,8 @@ export default function MeterDetailClient({ hymns, decodedMeter, hymnalReference
           </div>
 
           {filteredHymns.length === 0 && hymns.length > 0 && (
-            <div className="text-center py-12 col-span-full">
-              <MusicalNoteIcon className="mx-auto h-12 w-12 text-gray-400 mb-4" />
+            <div className="text-center py-12">
+              <UserIcon className="mx-auto h-12 w-12 text-gray-400 mb-4" />
               <h3 className="text-lg font-medium text-gray-900 mb-2">No hymns match your filters</h3>
               <p className="text-gray-600">Try adjusting your search terms or filters.</p>
             </div>
@@ -195,9 +189,9 @@ export default function MeterDetailClient({ hymns, decodedMeter, hymnalReference
 
           {hymns.length === 0 && (
             <div className="text-center py-12">
-              <MusicalNoteIcon className="mx-auto h-12 w-12 text-gray-400 mb-4" />
+              <UserIcon className="mx-auto h-12 w-12 text-gray-400 mb-4" />
               <h3 className="text-lg font-medium text-gray-900 mb-2">No hymns found</h3>
-              <p className="text-gray-600">No hymns found for this metrical pattern.</p>
+              <p className="text-gray-600">No hymns found by this author.</p>
             </div>
           )}
         </div>
