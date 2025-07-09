@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="390" height="844" fill="#fefce8"/>
+  
+  <!-- Status Bar -->
+  <rect width="390" height="44" fill="#1e3a8a"/>
+  <text x="20" y="30" fill="white" font-family="Inter, sans-serif" font-size="14" font-weight="600">9:41</text>
+  <text x="350" y="30" fill="white" font-family="Inter, sans-serif" font-size="14">100%</text>
+  
+  <!-- Header -->
+  <rect x="0" y="44" width="390" height="80" fill="#1e3a8a"/>
+  <path d="M28 79 L33 84 L28 89" stroke="white" stroke-width="2" fill="none"/>
+  <text x="50" y="95" fill="white" font-family="Inter, sans-serif" font-size="24" font-weight="700">Tunes</text>
+  <text x="50" y="115" fill="#a5b4fc" font-family="Inter, sans-serif" font-size="14">Browse by musical tunes</text>
+  
+  <!-- Search Icon -->
+  <circle cx="350" cy="84" r="20" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="347" cy="81" r="7" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M352 86 L356 90" stroke="white" stroke-width="2"/>
+  
+  <!-- Filter Bar -->
+  <rect x="0" y="124" width="390" height="60" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="20" y="142" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="14" font-weight="600">Filter by:</text>
+  
+  <!-- Filter Chips -->
+  <rect x="20" y="152" width="50" height="24" rx="12" fill="#eff6ff" stroke="#0284c7" stroke-width="1"/>
+  <text x="45" y="167" fill="#0284c7" font-family="Inter, sans-serif" font-size="12" font-weight="500" text-anchor="middle">All (156)</text>
+  
+  <rect x="80" y="152" width="60" height="24" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="110" y="167" fill="#6b7280" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">C.M. (28)</text>
+  
+  <rect x="150" y="152" width="70" height="24" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="185" y="167" fill="#6b7280" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">8.7.8.7 (15)</text>
+  
+  <rect x="230" y="152" width="65" height="24" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="262" y="167" fill="#6b7280" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">L.M. (22)</text>
+  
+  <rect x="305" y="152" width="65" height="24" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="337" y="167" fill="#6b7280" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">Other (91)</text>
+  
+  <!-- Featured Tunes Section -->
+  <text x="20" y="210" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="18" font-weight="600">Popular Tunes</text>
+  
+  <!-- Featured Tune Cards -->
+  <rect x="20" y="224" width="165" height="100" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="32" y="236" width="141" height="40" rx="8" fill="#0284c7"/>
+  <text x="102" y="260" fill="white" font-family="Inter, sans-serif" font-size="16" font-weight="700" text-anchor="middle">NEW BRITAIN</text>
+  <text x="32" y="295" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="14" font-weight="600">8.6.8.6 (C.M.)</text>
+  <text x="32" y="310" fill="#6b7280" font-family="Inter, sans-serif" font-size="12">Used in 5 hymns</text>
+  
+  <rect x="205" y="224" width="165" height="100" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="217" y="236" width="141" height="40" rx="8" fill="#16a34a"/>
+  <text x="287" y="260" fill="white" font-family="Inter, sans-serif" font-size="16" font-weight="700" text-anchor="middle">ANTIOCH</text>
+  <text x="217" y="295" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="14" font-weight="600">8.6.8.6 (C.M.)</text>
+  <text x="217" y="310" fill="#6b7280" font-family="Inter, sans-serif" font-size="12">Used in 3 hymns</text>
+  
+  <!-- All Tunes List -->
+  <text x="20" y="354" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="18" font-weight="600">All Tunes</text>
+  <text x="320" y="354" fill="#0284c7" font-family="Inter, sans-serif" font-size="14" font-weight="500">Sort A-Z</text>
+  
+  <!-- Tune Items -->
+  <!-- Tune 1 -->
+  <rect x="20" y="368" width="350" height="68" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="50" cy="397" r="16" fill="#f59e0b"/>
+  <text x="50" y="402" fill="white" font-family="Inter, sans-serif" font-size="12" font-weight="700" text-anchor="middle">♪</text>
+  <text x="78" y="390" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">ABERYSTWYTH</text>
+  <text x="78" y="406" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">7.7.7.7 D • Welsh tune</text>
+  <text x="78" y="420" fill="#16a34a" font-family="Inter, sans-serif" font-size="12" font-weight="500">Used in 2 hymns</text>
+  
+  <!-- Audio indicator -->
+  <circle cx="300" cy="388" r="8" fill="#0284c7"/>
+  <text x="300" y="392" fill="white" font-family="Inter, sans-serif" font-size="8" font-weight="700" text-anchor="middle">♪</text>
+  
+  <!-- MIDI indicator -->
+  <circle cx="320" cy="388" r="8" fill="#16a34a"/>
+  <text x="320" y="392" fill="white" font-family="Inter, sans-serif" font-size="8" font-weight="700" text-anchor="middle">♫</text>
+  
+  <path d="M345 392 L350 397 L345 402" stroke="#9ca3af" stroke-width="2" fill="none"/>
+  
+  <!-- Tune 2 -->
+  <rect x="20" y="448" width="350" height="68" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="50" cy="477" r="16" fill="#7c3aed"/>
+  <text x="50" y="482" fill="white" font-family="Inter, sans-serif" font-size="12" font-weight="700" text-anchor="middle">♪</text>
+  <text x="78" y="470" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">ADESTE FIDELES</text>
+  <text x="78" y="486" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">11.11.11.11 • Portuguese/Latin</text>
+  <text x="78" y="500" fill="#16a34a" font-family="Inter, sans-serif" font-size="12" font-weight="500">Used in 1 hymn</text>
+  
+  <!-- Audio indicator -->
+  <circle cx="300" cy="468" r="8" fill="#0284c7"/>
+  <text x="300" y="472" fill="white" font-family="Inter, sans-serif" font-size="8" font-weight="700" text-anchor="middle">♪</text>
+  
+  <path d="M345 472 L350 477 L345 482" stroke="#9ca3af" stroke-width="2" fill="none"/>
+  
+  <!-- Tune 3 -->
+  <rect x="20" y="528" width="350" height="68" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="50" cy="557" r="16" fill="#dc2626"/>
+  <text x="50" y="562" fill="white" font-family="Inter, sans-serif" font-size="12" font-weight="700" text-anchor="middle">♪</text>
+  <text x="78" y="550" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">AMAZING GRACE</text>
+  <text x="78" y="566" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">8.6.8.6 (C.M.) • American</text>
+  <text x="78" y="580" fill="#16a34a" font-family="Inter, sans-serif" font-size="12" font-weight="500">Used in 4 hymns</text>
+  
+  <!-- Audio indicator -->
+  <circle cx="300" cy="548" r="8" fill="#0284c7"/>
+  <text x="300" y="552" fill="white" font-family="Inter, sans-serif" font-size="8" font-weight="700" text-anchor="middle">♪</text>
+  
+  <!-- MIDI indicator -->
+  <circle cx="320" cy="548" r="8" fill="#16a34a"/>
+  <text x="320" y="552" fill="white" font-family="Inter, sans-serif" font-size="8" font-weight="700" text-anchor="middle">♫</text>
+  
+  <path d="M345 552 L350 557 L345 562" stroke="#9ca3af" stroke-width="2" fill="none"/>
+  
+  <!-- Tune 4 -->
+  <rect x="20" y="608" width="350" height="68" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="50" cy="637" r="16" fill="#0284c7"/>
+  <text x="50" y="642" fill="white" font-family="Inter, sans-serif" font-size="12" font-weight="700" text-anchor="middle">♪</text>
+  <text x="78" y="630" fill="#1e3a8a" font-family="Inter, sans-serif" font-size="16" font-weight="600">AURELIA</text>
+  <text x="78" y="646" fill="#6b7280" font-family="Inter, sans-serif" font-size="14">7.6.7.6 D • Samuel S. Wesley</text>
+  <text x="78" y="660" fill="#16a34a" font-family="Inter, sans-serif" font-size="12" font-weight="500">Used in 3 hymns</text>
+  
+  <!-- MIDI indicator -->
+  <circle cx="320" cy="628" r="8" fill="#16a34a"/>
+  <text x="320" y="632" fill="white" font-family="Inter, sans-serif" font-size="8" font-weight="700" text-anchor="middle">♫</text>
+  
+  <path d="M345 632 L350 637 L345 642" stroke="#9ca3af" stroke-width="2" fill="none"/>
+  
+  <!-- Scroll Indicator -->
+  <rect x="370" y="400" width="4" height="250" rx="2" fill="#e5e7eb"/>
+  <rect x="370" y="400" width="4" height="100" rx="2" fill="#0284c7"/>
+  
+  <!-- Load More Button -->
+  <rect x="20" y="688" width="350" height="40" rx="20" fill="white" stroke="#0284c7" stroke-width="1"/>
+  <text x="195" y="712" fill="#0284c7" font-family="Inter, sans-serif" font-size="14" font-weight="500" text-anchor="middle">Load More Tunes (152 remaining)</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="0" y="760" width="390" height="84" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Home Tab -->
+  <circle cx="39" cy="785" r="12" fill="#9ca3af"/>
+  <path d="M33 785 L39 779 L45 785 L42 785 L42 791 L36 791 L36 785 Z" fill="white"/>
+  <text x="27" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Home</text>
+  
+  <!-- Browse Tab (Active) -->
+  <rect x="78" y="760" width="78" height="84" fill="#eff6ff"/>
+  <circle cx="117" cy="785" r="12" fill="#0284c7"/>
+  <rect x="111" y="779" width="12" height="2" fill="white"/>
+  <rect x="111" y="783" width="12" height="2" fill="white"/>
+  <rect x="111" y="787" width="12" height="2" fill="white"/>
+  <rect x="111" y="791" width="12" height="2" fill="white"/>
+  <text x="103" y="805" fill="#0284c7" font-family="Inter, sans-serif" font-size="11" font-weight="600">Browse</text>
+  
+  <!-- Search Tab -->
+  <circle cx="195" cy="785" r="12" fill="#9ca3af"/>
+  <circle cx="193" cy="783" r="5" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M197 787 L201 791" stroke="white" stroke-width="2"/>
+  <text x="185" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Search</text>
+  
+  <!-- Downloads Tab -->
+  <circle cx="273" cy="785" r="12" fill="#9ca3af"/>
+  <path d="M269 781 L269 789 M269 789 L273 785 M269 789 L277 785" stroke="white" stroke-width="2" fill="none"/>
+  <text x="255" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Downloads</text>
+  
+  <!-- Settings Tab -->
+  <circle cx="351" cy="785" r="12" fill="#9ca3af"/>
+  <circle cx="351" cy="785" r="4" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M351 777 L351 779 M351 791 L351 793 M343 785 L345 785 M357 785 L359 785 M345 779 L347 781 M355 789 L357 791 M345 791 L347 789 M355 779 L357 781" stroke="white" stroke-width="1"/>
+  <text x="339" y="805" fill="#6b7280" font-family="Inter, sans-serif" font-size="11">Settings</text>
+</svg>
