@@ -148,11 +148,26 @@ jobs:
       - name: Build static export
         run: |
           cd apps/web
-          rm -rf .next out
+          # Clean previous builds and output directory
+          rm -rf .next out .turbo
           
           # Build with static export configuration
           pnpm build
-          pnpm export
+          
+          # Clean out directory again before export to prevent EEXIST errors
+          rm -rf out
+          
+          # Export with retry logic for EEXIST errors
+          for i in {1..3}; do
+            if pnpm export; then
+              echo "✅ Static export completed successfully"
+              break
+            else
+              echo "⚠️ Static export failed (attempt $i/3), cleaning and retrying..."
+              rm -rf out
+              sleep 2
+            fi
+          done
         env:
           NODE_ENV: production
           NEXT_TELEMETRY_DISABLED: 1
