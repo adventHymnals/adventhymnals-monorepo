@@ -201,6 +201,149 @@ adventhymnals.org/
 └── compare/                          # Cross-hymnal comparison
 ```
 
+## 📱 Mobile Application & Update System
+
+### Mobile App Features
+Our Flutter mobile application provides full offline access to hymnal collections with automatic content updates:
+
+#### 🚀 Seamless Update Mechanism
+The mobile app features an innovative hybrid data architecture that eliminates app store delays for content updates:
+
+**Layered Data Architecture:**
+```
+📱 Mobile App Data Layers
+├── 🔒 BUNDLED (Essential content, shipped with app)
+│   ├── Essential collections metadata (SDAH, CS1900)
+│   ├── Top 100 most-used hymns for offline access
+│   └── Core app configuration and fallback data
+│
+├── 💾 CACHED (Downloaded content, updatable)
+│   ├── Full hymnal collections with complete lyrics
+│   ├── Incremental updates and corrections
+│   ├── User favorites and recently viewed hymns
+│   └── Audio files and enhanced content
+│
+└── 🔄 RUNTIME (Unified access layer)
+    └── Smart data merging with automatic fallbacks
+```
+
+#### 🔄 Automatic Update Detection
+**Version-Based Updates:**
+- Daily automatic checks for new content versions
+- Server API endpoints: `/api/updates/version` and `/api/updates/updates/{from_version}`
+- Version format: `YYYY.MM.DD` (e.g., "2024.07.10")
+- Only downloads changed files for bandwidth efficiency
+
+**Update Process Flow:**
+```mermaid
+graph TD
+    A[App Launch] --> B[Check Local Version]
+    B --> C[Query Server Version]
+    C --> D{Updates Available?}
+    D -->|No| E[Use Local Data]
+    D -->|Yes| F[Download Incremental Updates]
+    F --> G[Apply Updates Atomically]
+    G --> H[Update Local Version]
+    H --> I[Content Available Immediately]
+    E --> J[Normal App Operation]
+    I --> J
+```
+
+**Update Advantages:**
+- ✅ **No App Store Delays** - Content updates bypass app review process
+- ✅ **Bandwidth Efficient** - Only changed files are downloaded
+- ✅ **Offline Resilient** - Falls back to bundled data if updates fail
+- ✅ **Version Controlled** - Full audit trail of all changes
+- ✅ **Immediate Updates** - New content appears without app restart
+
+#### 📲 Platform Support
+- **Android APK** - Direct installation and Google Play Store
+- **Linux Desktop** - Native GTK application for desktop users
+- **Windows Desktop** - Native Windows application 
+- **iOS** - Planned for App Store release (Q2 2025)
+
+#### 🔧 Development & Building
+```bash
+# Build Android APK
+flutter build apk --release
+
+# Build Linux desktop application  
+flutter build linux --release
+
+# Build Windows desktop application
+flutter build windows --release
+
+# Run in development mode
+flutter run --debug
+
+# Run desktop version for development
+flutter run -d linux --debug
+```
+
+#### ⛪ Church Mode & Worship Features
+**Intelligent Church Mode Detection:**
+- Automatic prompting during likely worship times (weekends, mornings)
+- Diplomatic user-friendly messaging for worship focus
+- Connectivity-aware to avoid disruptions during church services
+- Reduces notifications and distractions for worship environments
+- Configurable in app settings with manual enable/disable options
+
+**Church Mode Benefits:**
+- 🔕 Minimized notifications and background activity
+- ⛪ Optimized interface for worship projection and reading
+- 📱 Reduced data usage during church services
+- 🎵 Prioritized hymnal content over auxiliary features
+- 🕊️ Distraction-free worship experience
+
+### Content Update Management
+
+#### For Content Managers
+When you update hymnal data in the `data/processed/` directory:
+
+1. **Update Version Metadata:**
+```bash
+# Update data/processed/metadata/collections-metadata.json
+{
+  "version": "2024.07.15",
+  "last_updated": "2024-07-15T00:00:00Z",
+  "changelog": [
+    {
+      "version": "2024.07.15", 
+      "changes": ["Added 5 new hymns to SDAH collection", "Fixed lyrics in CS1900 #123"]
+    }
+  ]
+}
+```
+
+2. **Automatic Distribution:**
+   - Web API immediately serves new version to mobile clients
+   - Mobile apps detect updates during daily checks
+   - Users receive non-intrusive update notifications
+   - Content downloads automatically on WiFi
+
+#### API Endpoints
+The web application provides RESTful endpoints for the mobile update system:
+
+- `GET /api/updates/version` - Current data version and available collections
+- `GET /api/updates/updates/{from_version}` - Incremental updates since client version
+- `GET /api/hymnals/{id}` - Full collection metadata and hymn listings
+- `GET /api/hymns/{hymn_id}` - Individual hymn content and metadata
+
+#### 📦 Enhanced Update System Features
+**Collection-Level Change Detection:**
+- **Added Collections** - New hymnal collections are automatically distributed
+- **Deleted Collections** - Removed collections are cleaned up from local storage
+- **Updated Collections** - Modified metadata and content synced efficiently
+- **Hymn-Level Updates** - Individual hymn corrections and additions
+- **Smart Fallbacks** - Graceful degradation when updates fail or are unavailable
+
+**Update Process Monitoring:**
+- Version-based change tracking with detailed changelogs
+- Atomic update application to prevent partial updates
+- Platform-optimized storage locations (Android Documents, Linux Application Support)
+- Bandwidth-efficient incremental downloads
+- User-friendly update summaries and progress indicators
+
 ## 🔧 Deployment Workflows
 
 ### Available Workflows
