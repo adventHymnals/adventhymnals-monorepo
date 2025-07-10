@@ -143,19 +143,30 @@ jobs:
         working-directory: apps/advent_hymnals_mobile
         run: flutter build windows --release --verbose
         
-      - name: Self-sign executable (development)
+      - name: Rename and sign executable (development)
         working-directory: apps/advent_hymnals_mobile
         run: |
+          # First rename the executable to have proper display name
+          $originalPath = "build\windows\x64\runner\Release\AdventHymnals.exe"
+          $newPath = "build\windows\x64\runner\Release\Advent Hymnals.exe"
+          
+          if (Test-Path $originalPath) {
+            Rename-Item -Path $originalPath -NewName "Advent Hymnals.exe"
+            Write-Host "✅ Renamed executable to 'Advent Hymnals.exe'"
+          } else {
+            Write-Host "❌ Original executable not found at: $originalPath"
+            ls "build\windows\x64\runner\Release\"
+          }
+          
           # Create self-signed certificate for testing
           $cert = New-SelfSignedCertificate -Subject "CN=Advent Hymnals" -Type CodeSigning -KeyUsage DigitalSignature -FriendlyName "Advent Hymnals Code Signing" -CertStoreLocation "Cert:\CurrentUser\My" -KeyLength 2048
           
-          # Sign the executable
-          $exePath = "build\windows\x64\runner\Release\Advent Hymnals.exe"
-          if (Test-Path $exePath) {
-            Set-AuthenticodeSignature -FilePath $exePath -Certificate $cert
+          # Sign the renamed executable
+          if (Test-Path $newPath) {
+            Set-AuthenticodeSignature -FilePath $newPath -Certificate $cert
             Write-Host "✅ Executable signed with self-signed certificate"
           } else {
-            Write-Host "❌ Executable not found at: $exePath"
+            Write-Host "❌ Renamed executable not found at: $newPath"
           }
         shell: powershell
         
