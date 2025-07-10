@@ -4,6 +4,8 @@ import 'package:go_router/go_router.dart';
 import 'dart:io' show Platform;
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
+// Main entry point for Advent Hymnals mobile application
+
 import 'presentation/theme/app_theme.dart';
 import 'presentation/providers/hymn_provider.dart';
 import 'presentation/providers/favorites_provider.dart';
