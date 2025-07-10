@@ -5,6 +5,7 @@ import 'dart:io' show Platform;
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 // Main entry point for Advent Hymnals mobile application
+// Updated to trigger Windows installer build workflow
 
 import 'presentation/theme/app_theme.dart';
 import 'presentation/providers/hymn_provider.dart';
