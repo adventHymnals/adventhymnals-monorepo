@@ -16,12 +16,16 @@ class _SearchScreenState extends State<SearchScreen> {
   final TextEditingController _searchController = TextEditingController();
   final FocusNode _searchFocusNode = FocusNode();
   List<String> _searchFilters = [];
-  String _sortBy = 'relevance';
 
   @override
   void initState() {
     super.initState();
     _searchFocusNode.requestFocus();
+    // Load available collections for filtering
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
+      hymnProvider.loadAvailableCollections();
+    });
   }
 
   @override
@@ -52,8 +56,14 @@ class _SearchScreenState extends State<SearchScreen> {
         elevation: 0,
         actions: [
           IconButton(
+            icon: const Icon(Icons.tune),
+            onPressed: () => _showCollectionFilterDialog(context),
+            tooltip: 'Filter Collections',
+          ),
+          IconButton(
             icon: const Icon(Icons.filter_list),
             onPressed: _showFilterDialog,
+            tooltip: 'Other Filters',
           ),
         ],
       ),
@@ -61,6 +71,16 @@ class _SearchScreenState extends State<SearchScreen> {
         children: [
           // Search Bar
           _buildSearchBar(),
+          
+          // Collection Filters
+          Consumer<HymnProvider>(
+            builder: (context, provider, child) {
+              if (provider.selectedCollections.isNotEmpty) {
+                return _buildCollectionFilters(provider);
+              }
+              return const SizedBox.shrink();
+            },
+          ),
           
           // Search Filters
           if (_searchFilters.isNotEmpty) _buildSearchFilters(),
@@ -311,12 +331,13 @@ class _SearchScreenState extends State<SearchScreen> {
                 '${results.length} result${results.length == 1 ? '' : 's'}',
                 style: Theme.of(context).textTheme.titleMedium,
               ),
-              PopupMenuButton<String>(
-                onSelected: (value) {
-                  setState(() {
-                    _sortBy = value;
-                  });
-                },
+              Consumer<HymnProvider>(
+                builder: (context, provider, child) {
+                  return PopupMenuButton<String>(
+                    onSelected: (value) {
+                      provider.setSortBy(value);
+                    },
+                    initialValue: provider.sortBy,
                 itemBuilder: (context) => [
                   const PopupMenuItem(
                     value: 'relevance',
@@ -335,16 +356,18 @@ class _SearchScreenState extends State<SearchScreen> {
                     child: Text('Sort by Hymn Number'),
                   ),
                 ],
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      'Sort',
-                      style: Theme.of(context).textTheme.bodyMedium,
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(
+                          _getSortLabel(provider.sortBy),
+                          style: Theme.of(context).textTheme.bodyMedium,
+                        ),
+                        const Icon(Icons.sort),
+                      ],
                     ),
-                    const Icon(Icons.sort),
-                  ],
-                ),
+                  );
+                },
               ),
             ],
           ),
@@ -493,6 +516,195 @@ class _SearchScreenState extends State<SearchScreen> {
           ],
         ),
       ),
+    );
+  }
+
+  Widget _buildCollectionFilters(HymnProvider provider) {
+    return Container(
+      height: 50,
+      padding: const EdgeInsets.symmetric(horizontal: AppSizes.spacing16),
+      child: ListView.builder(
+        scrollDirection: Axis.horizontal,
+        itemCount: provider.selectedCollections.length,
+        itemBuilder: (context, index) {
+          final collectionId = provider.selectedCollections[index];
+          final collection = provider.availableCollections.firstWhere(
+            (c) => c['id'] == collectionId,
+            orElse: () => {'name': collectionId, 'abbreviation': collectionId},
+          );
+          
+          return Container(
+            margin: const EdgeInsets.only(right: AppSizes.spacing8),
+            child: FilterChip(
+              label: Text(
+                collection['abbreviation'] ?? collection['name'],
+                style: TextStyle(
+                  color: Color(AppColors.primaryBlue),
+                  fontWeight: FontWeight.w600,
+                  fontSize: 12,
+                ),
+              ),
+              onDeleted: () {
+                final updatedCollections = List<String>.from(provider.selectedCollections);
+                updatedCollections.removeAt(index);
+                provider.setSelectedCollections(updatedCollections);
+              },
+              deleteIcon: Icon(
+                Icons.close, 
+                size: 16,
+                color: Color(AppColors.primaryBlue),
+              ),
+              onSelected: (bool selected) {
+                // Handle filter selection
+              },
+              selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
+              backgroundColor: Color(AppColors.primaryBlue).withOpacity(0.2),
+              checkmarkColor: Color(AppColors.primaryBlue),
+              deleteIconColor: Color(AppColors.primaryBlue),
+              side: BorderSide(
+                color: Color(AppColors.primaryBlue),
+                width: 1,
+              ),
+            ),
+          );
+        },
+      ),
+    );
+  }
+
+  String _getSortLabel(String sortBy) {
+    switch (sortBy) {
+      case 'title':
+        return 'Title';
+      case 'author':
+        return 'Author';
+      case 'hymn_number':
+        return 'Number';
+      case 'relevance':
+      default:
+        return 'Relevance';
+    }
+  }
+
+  void _showCollectionFilterDialog(BuildContext context) {
+    final provider = Provider.of<HymnProvider>(context, listen: false);
+    List<String> tempSelected = List.from(provider.selectedCollections);
+
+    showDialog(
+      context: context,
+      builder: (dialogContext) {
+        return StatefulBuilder(
+          builder: (context, setDialogState) {
+            // Group collections by language
+            final groupedCollections = <String, List<Map<String, dynamic>>>{};
+            for (final collection in provider.availableCollections) {
+              final language = collection['language_name'] ?? 'Unknown';
+              groupedCollections.putIfAbsent(language, () => []);
+              groupedCollections[language]!.add(collection);
+            }
+
+            return AlertDialog(
+              title: const Text('Filter by Hymnals'),
+              content: SizedBox(
+                width: double.maxFinite,
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        TextButton(
+                          onPressed: () {
+                            setDialogState(() {
+                              tempSelected.clear();
+                            });
+                          },
+                          child: const Text('Clear All'),
+                        ),
+                        TextButton(
+                          onPressed: () {
+                            setDialogState(() {
+                              tempSelected = provider.availableCollections
+                                  .map((c) => c['id'] as String)
+                                  .toList();
+                            });
+                          },
+                          child: const Text('Select All'),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 8),
+                    Flexible(
+                      child: SingleChildScrollView(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: groupedCollections.entries.map((entry) {
+                            final language = entry.key;
+                            final collections = entry.value;
+                            
+                            return Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Padding(
+                                  padding: const EdgeInsets.symmetric(vertical: 8.0),
+                                  child: Text(
+                                    language,
+                                    style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                                      fontWeight: FontWeight.bold,
+                                      color: Color(AppColors.primaryBlue),
+                                    ),
+                                  ),
+                                ),
+                                ...collections.map((collection) {
+                                  final isSelected = tempSelected.contains(collection['id']);
+                                  return CheckboxListTile(
+                                    dense: true,
+                                    contentPadding: const EdgeInsets.symmetric(horizontal: 8),
+                                    title: Text(
+                                      '${collection['name']} (${collection['abbreviation']})',
+                                      style: Theme.of(context).textTheme.bodyMedium,
+                                    ),
+                                    value: isSelected,
+                                    onChanged: (value) {
+                                      setDialogState(() {
+                                        if (value == true) {
+                                          if (!tempSelected.contains(collection['id'])) {
+                                            tempSelected.add(collection['id'] as String);
+                                          }
+                                        } else {
+                                          tempSelected.remove(collection['id']);
+                                        }
+                                      });
+                                    },
+                                  );
+                                }),
+                                const SizedBox(height: 8),
+                              ],
+                            );
+                          }).toList(),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.of(dialogContext).pop(),
+                  child: const Text('Cancel'),
+                ),
+                TextButton(
+                  onPressed: () {
+                    provider.setSelectedCollections(tempSelected);
+                    Navigator.of(dialogContext).pop();
+                  },
+                  child: const Text('Apply'),
+                ),
+              ],
+            );
+          },
+        );
+      },
     );
   }
 

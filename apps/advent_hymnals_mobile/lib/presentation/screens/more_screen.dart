@@ -108,13 +108,27 @@ class MoreScreen extends StatelessWidget {
             Expanded(
               child: _buildQuickAccessCard(
                 context,
+                icon: Icons.favorite,
+                title: 'Favorites',
+                subtitle: 'Your saved hymns',
+                onTap: () => context.push('/favorites'),
+              ),
+            ),
+            const SizedBox(width: AppSizes.spacing12),
+            Expanded(
+              child: _buildQuickAccessCard(
+                context,
                 icon: Icons.history,
                 title: 'Recently Viewed',
                 subtitle: 'Your hymn history',
                 onTap: () => context.push('/recently-viewed'),
               ),
             ),
-            const SizedBox(width: AppSizes.spacing12),
+          ],
+        ),
+        const SizedBox(height: AppSizes.spacing12),
+        Row(
+          children: [
             Expanded(
               child: _buildQuickAccessCard(
                 context,
@@ -123,6 +137,10 @@ class MoreScreen extends StatelessWidget {
                 subtitle: 'Offline content',
                 onTap: () => context.push('/downloads'),
               ),
+            ),
+            const SizedBox(width: AppSizes.spacing12),
+            Expanded(
+              child: Container(), // Empty space for balanced layout
             ),
           ],
         ),

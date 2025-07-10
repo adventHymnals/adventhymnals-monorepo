@@ -334,7 +334,16 @@ class DatabaseHelper {
   // Favorites operations
   Future<int> addFavorite(int hymnId, {String userId = 'default'}) async {
     final db = await database;
-    return await db.insert(
+    
+    // First check if hymn exists
+    final hymn = await getHymnById(hymnId);
+    if (hymn == null) {
+      print('⚠️ [DatabaseHelper] Cannot add favorite: Hymn $hymnId does not exist in database');
+      throw Exception('Hymn $hymnId not found in database');
+    }
+    
+    print('💖 [DatabaseHelper] Adding hymn $hymnId to favorites for user $userId');
+    final result = await db.insert(
       'favorites',
       {
         'hymn_id': hymnId,
@@ -343,6 +352,9 @@ class DatabaseHelper {
       },
       conflictAlgorithm: ConflictAlgorithm.replace,
     );
+    
+    print('✅ [DatabaseHelper] Successfully added favorite with ID: $result');
+    return result;
   }
 
   Future<int> removeFavorite(int hymnId, {String userId = 'default'}) async {
@@ -356,7 +368,9 @@ class DatabaseHelper {
 
   Future<List<Map<String, dynamic>>> getFavorites({String userId = 'default'}) async {
     final db = await database;
-    return await db.rawQuery('''
+    print('🔍 [DatabaseHelper] Querying favorites for user: $userId');
+    
+    final result = await db.rawQuery('''
       SELECT h.*, f.date_added, f.play_count, f.last_played,
              a.name as author_name, c.name as collection_name, c.abbreviation as collection_abbr
       FROM hymns h
@@ -366,6 +380,9 @@ class DatabaseHelper {
       WHERE f.user_id = ?
       ORDER BY f.date_added DESC
     ''', [userId]);
+    
+    print('📊 [DatabaseHelper] Found ${result.length} favorites from database query');
+    return result;
   }
 
   Future<bool> isFavorite(int hymnId, {String userId = 'default'}) async {
@@ -383,6 +400,15 @@ class DatabaseHelper {
   Future<int> addRecentlyViewed(int hymnId, {String userId = 'default'}) async {
     final db = await database;
     
+    // First check if hymn exists
+    final hymn = await getHymnById(hymnId);
+    if (hymn == null) {
+      print('⚠️ [DatabaseHelper] Cannot add recently viewed: Hymn $hymnId does not exist in database');
+      throw Exception('Hymn $hymnId not found in database');
+    }
+    
+    print('📚 [DatabaseHelper] Adding hymn $hymnId to recently viewed for user $userId');
+    
     // Check if already exists
     final existing = await db.query(
       'recently_viewed',
@@ -393,7 +419,8 @@ class DatabaseHelper {
 
     if (existing.isNotEmpty) {
       // Update existing record
-      return await db.update(
+      print('🔄 [DatabaseHelper] Updating existing recently viewed record for hymn $hymnId');
+      final result = await db.update(
         'recently_viewed',
         {
           'last_viewed': DateTime.now().toIso8601String(),
@@ -402,9 +429,12 @@ class DatabaseHelper {
         where: 'hymn_id = ? AND user_id = ?',
         whereArgs: [hymnId, userId],
       );
+      print('✅ [DatabaseHelper] Successfully updated recently viewed record: $result');
+      return result;
     } else {
       // Insert new record
-      return await db.insert(
+      print('➕ [DatabaseHelper] Inserting new recently viewed record for hymn $hymnId');
+      final result = await db.insert(
         'recently_viewed',
         {
           'hymn_id': hymnId,
@@ -413,6 +443,8 @@ class DatabaseHelper {
           'view_count': 1,
         },
       );
+      print('✅ [DatabaseHelper] Successfully inserted recently viewed record with ID: $result');
+      return result;
     }
   }
 
@@ -421,7 +453,9 @@ class DatabaseHelper {
     int limit = 50,
   }) async {
     final db = await database;
-    return await db.rawQuery('''
+    print('🔍 [DatabaseHelper] Querying recently viewed for user: $userId (limit: $limit)');
+    
+    final result = await db.rawQuery('''
       SELECT h.*, rv.last_viewed, rv.view_count,
              a.name as author_name, c.name as collection_name, c.abbreviation as collection_abbr
       FROM hymns h
@@ -432,6 +466,14 @@ class DatabaseHelper {
       ORDER BY rv.last_viewed DESC
       LIMIT ?
     ''', [userId, limit]);
+    
+    print('📊 [DatabaseHelper] Found ${result.length} recently viewed hymns from database query');
+    if (result.isNotEmpty) {
+      for (final hymn in result.take(3)) {
+        print('  - Hymn ${hymn['hymn_number']}: ${hymn['title']} (last viewed: ${hymn['last_viewed']})');
+      }
+    }
+    return result;
   }
 
   Future<int> clearRecentlyViewed({String userId = 'default'}) async {

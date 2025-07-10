@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import '../../domain/entities/hymn.dart';
 import '../../core/database/database_helper.dart';
 import '../../core/data/hymn_data_manager.dart';
+import '../../core/data/collections_data_manager.dart';
 
 enum HymnLoadingState {
   initial,
@@ -19,6 +20,9 @@ class HymnProvider extends ChangeNotifier {
   HymnLoadingState _loadingState = HymnLoadingState.initial;
   String? _errorMessage;
   String _searchQuery = '';
+  String _sortBy = 'relevance';
+  List<String> _selectedCollections = [];
+  List<Map<String, dynamic>> _availableCollections = [];
 
   // Getters
   List<Hymn> get hymns => _hymns;
@@ -26,6 +30,9 @@ class HymnProvider extends ChangeNotifier {
   HymnLoadingState get loadingState => _loadingState;
   String? get errorMessage => _errorMessage;
   String get searchQuery => _searchQuery;
+  String get sortBy => _sortBy;
+  List<String> get selectedCollections => _selectedCollections;
+  List<Map<String, dynamic>> get availableCollections => _availableCollections;
   bool get isLoading => _loadingState == HymnLoadingState.loading;
   bool get hasError => _loadingState == HymnLoadingState.error;
 
@@ -51,6 +58,46 @@ class HymnProvider extends ChangeNotifier {
     }
   }
 
+  // Load available collections for filtering
+  Future<void> loadAvailableCollections() async {
+    try {
+      final collectionsDataManager = CollectionsDataManager();
+      final collections = await collectionsDataManager.getCollectionsList();
+      
+      _availableCollections = collections.map((collection) => {
+        'id': collection.id,
+        'name': collection.title,
+        'abbreviation': collection.id, // Use ID as abbreviation since it's typically the abbreviation
+        'language': collection.language,
+        'language_name': _getLanguageName(collection.language),
+      }).toList();
+      
+      notifyListeners();
+    } catch (e) {
+      print('⚠️ [HymnProvider] Failed to load collections: $e');
+    }
+  }
+
+  // Set search sorting
+  void setSortBy(String sortBy) {
+    if (_sortBy != sortBy) {
+      _sortBy = sortBy;
+      if (_searchResults.isNotEmpty) {
+        _sortSearchResults();
+      }
+      notifyListeners();
+    }
+  }
+
+  // Set selected collections for filtering
+  void setSelectedCollections(List<String> collections) {
+    _selectedCollections = collections;
+    if (_searchQuery.isNotEmpty) {
+      searchHymns(_searchQuery);
+    }
+    notifyListeners();
+  }
+
   // Search hymns
   Future<void> searchHymns(String query) async {
     _searchQuery = query;
@@ -64,19 +111,84 @@ class HymnProvider extends ChangeNotifier {
     _setLoadingState(HymnLoadingState.loading);
     
     try {
-      // Try database first, fall back to mock data if database fails
+      // Try database first
+      List<Hymn> results = [];
+      
       try {
         final hymnsData = await _db.searchHymns(query);
-        _searchResults = hymnsData.map((data) => _mapToHymn(data)).toList();
+        results = hymnsData.map((data) => _mapToHymn(data)).toList();
+        print('✅ [HymnProvider] Found ${results.length} results from database');
       } catch (dbError) {
-        // Database not available, use mock data
-        print('Database search failed, using mock data: $dbError');
-        _searchResults = _getMockSearchResults(query);
+        print('⚠️ [HymnProvider] Database search failed, using JSON fallback: $dbError');
+        // Fallback to JSON search
+        results = await _searchHymnsFromJson(query);
+        print('✅ [HymnProvider] Found ${results.length} results from JSON');
       }
       
+      _searchResults = results;
+      _sortSearchResults();
       _setLoadingState(HymnLoadingState.loaded);
     } catch (e) {
+      print('❌ [HymnProvider] Search failed: $e');
       _setError('Search failed: ${e.toString()}');
+    }
+  }
+
+  // Search hymns from JSON data as fallback
+  Future<List<Hymn>> _searchHymnsFromJson(String query) async {
+    final queryLower = query.toLowerCase();
+    final allHymns = <Hymn>[];
+    
+    try {
+      // Load available collections and search in them
+      final collectionsDataManager = CollectionsDataManager();
+      final collections = await collectionsDataManager.getCollectionsList();
+      
+      // Filter collections based on selected collections
+      final collectionsToSearch = _selectedCollections.isEmpty 
+          ? collections.take(5).toList() // Default: search first 5 collections
+          : collections.where((c) => _selectedCollections.contains(c.id)).toList();
+      
+      for (final collection in collectionsToSearch) {
+        try {
+          final hymns = await _hymnDataManager.getHymnsForCollection(collection.id);
+          allHymns.addAll(hymns);
+        } catch (e) {
+          print('⚠️ [HymnProvider] Failed to load collection ${collection.id}: $e');
+        }
+      }
+      
+      // Search through all loaded hymns
+      final searchResults = allHymns.where((hymn) {
+        final searchableText = [
+          hymn.title.toLowerCase(),
+          hymn.author?.toLowerCase() ?? '',
+          hymn.composer?.toLowerCase() ?? '',
+          hymn.tuneName?.toLowerCase() ?? '',
+          hymn.meter?.toLowerCase() ?? '',
+          hymn.firstLine?.toLowerCase() ?? '',
+          hymn.lyrics?.toLowerCase() ?? '',
+          hymn.hymnNumber.toString(),
+        ].join(' ');
+        
+        return searchableText.contains(queryLower);
+      }).toList();
+      
+      // Initial relevance sort (title matches first)
+      searchResults.sort((a, b) {
+        final aTitle = a.title.toLowerCase().contains(queryLower);
+        final bTitle = b.title.toLowerCase().contains(queryLower);
+        
+        if (aTitle && !bTitle) return -1;
+        if (!aTitle && bTitle) return 1;
+        
+        return a.title.compareTo(b.title);
+      });
+      
+      return searchResults.take(50).toList(); // Limit results for performance
+    } catch (e) {
+      print('❌ [HymnProvider] JSON search failed: $e');
+      return [];
     }
   }
 
@@ -298,10 +410,38 @@ class HymnProvider extends ChangeNotifier {
     }
   }
 
+  // Sort search results based on current sort option
+  void _sortSearchResults() {
+    switch (_sortBy) {
+      case 'title':
+        _searchResults.sort((a, b) => a.title.compareTo(b.title));
+        break;
+      case 'author':
+        _searchResults.sort((a, b) {
+          final aAuthor = a.author ?? '';
+          final bAuthor = b.author ?? '';
+          final authorComparison = aAuthor.compareTo(bAuthor);
+          return authorComparison != 0 ? authorComparison : a.title.compareTo(b.title);
+        });
+        break;
+      case 'hymn_number':
+        _searchResults.sort((a, b) {
+          final numberComparison = a.hymnNumber.compareTo(b.hymnNumber);
+          return numberComparison != 0 ? numberComparison : a.title.compareTo(b.title);
+        });
+        break;
+      case 'relevance':
+      default:
+        // Already sorted by relevance in search, no need to re-sort
+        break;
+    }
+  }
+
   // Clear search
   void clearSearch() {
     _searchQuery = '';
     _searchResults = [];
+    _sortBy = 'relevance';
     notifyListeners();
   }
 
@@ -324,6 +464,50 @@ class HymnProvider extends ChangeNotifier {
       _setLoadingState(HymnLoadingState.loaded);
     } else {
       await loadHymns();
+    }
+  }
+
+  // Get language display name
+  String _getLanguageName(String languageCode) {
+    switch (languageCode.toLowerCase()) {
+      case 'en':
+        return 'English';
+      case 'es':
+        return 'Spanish';
+      case 'fr':
+        return 'French';
+      case 'de':
+        return 'German';
+      case 'pt':
+        return 'Portuguese';
+      case 'it':
+        return 'Italian';
+      case 'nl':
+        return 'Dutch';
+      case 'da':
+        return 'Danish';
+      case 'sv':
+        return 'Swedish';
+      case 'no':
+        return 'Norwegian';
+      case 'fi':
+        return 'Finnish';
+      case 'pl':
+        return 'Polish';
+      case 'ru':
+        return 'Russian';
+      case 'zh':
+        return 'Chinese';
+      case 'ja':
+        return 'Japanese';
+      case 'ko':
+        return 'Korean';
+      case 'hi':
+        return 'Hindi';
+      case 'ar':
+        return 'Arabic';
+      default:
+        return languageCode.toUpperCase();
     }
   }
 

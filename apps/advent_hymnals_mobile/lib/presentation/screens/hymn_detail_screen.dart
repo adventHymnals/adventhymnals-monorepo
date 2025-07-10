@@ -37,7 +37,6 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   void initState() {
     super.initState();
     _loadHymnData();
-    _loadFavoriteStatus();
   }
 
   Future<void> _loadHymnData() async {
@@ -64,8 +63,9 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             _isLoading = false;
           });
           
-          // Add to recently viewed
+          // Add to recently viewed and load favorite status
           _addToRecentlyViewed();
+          _loadFavoriteStatus();
           return;
         }
       }
@@ -88,8 +88,9 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             _isLoading = false;
           });
           
-          // Add to recently viewed
+          // Add to recently viewed and load favorite status
           _addToRecentlyViewed();
+          _loadFavoriteStatus();
           return;
         }
       }
@@ -100,6 +101,9 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         _hymn = _createFallbackHymn();
         _isLoading = false;
       });
+      
+      // Load favorite status for fallback hymn (but don't add to recently viewed since it's not a real hymn)
+      _loadFavoriteStatus();
       
     } catch (e) {
       print('❌ [HymnDetail] Error loading hymn: $e');
@@ -126,9 +130,15 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   
   Future<void> _addToRecentlyViewed() async {
     try {
+      // Only add to recently viewed if we have a loaded hymn with a valid database ID
+      if (_hymn == null || _hymn!.id <= 0) {
+        print('⚠️ [HymnDetail] Cannot add to recently viewed: hymn not loaded or invalid ID');
+        return;
+      }
+      
       final recentlyViewedProvider = Provider.of<RecentlyViewedProvider>(context, listen: false);
-      await recentlyViewedProvider.addRecentlyViewed(widget.hymnId);
-      print('✅ [HymnDetail] Added hymn ${widget.hymnId} to recently viewed');
+      await recentlyViewedProvider.addRecentlyViewed(_hymn!.id);
+      print('✅ [HymnDetail] Added hymn ${_hymn!.id} (${_hymn!.title}) to recently viewed');
     } catch (e) {
       print('⚠️ [HymnDetail] Failed to add to recently viewed: $e');
       // Don't show error to user as this is not critical functionality
@@ -136,11 +146,21 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 
   Future<void> _loadFavoriteStatus() async {
-    final favoritesProvider = Provider.of<FavoritesProvider>(context, listen: false);
-    final isFav = await favoritesProvider.isFavorite(widget.hymnId);
-    setState(() {
-      _isFavorite = isFav;
-    });
+    try {
+      // Only check favorites if we have a loaded hymn with a valid database ID
+      if (_hymn == null || _hymn!.id <= 0) {
+        print('⚠️ [HymnDetail] Cannot check favorite status: hymn not loaded or invalid ID');
+        return;
+      }
+      
+      final favoritesProvider = Provider.of<FavoritesProvider>(context, listen: false);
+      final isFav = await favoritesProvider.isFavorite(_hymn!.id);
+      setState(() {
+        _isFavorite = isFav;
+      });
+    } catch (e) {
+      print('⚠️ [HymnDetail] Failed to load favorite status: $e');
+    }
   }
 
   @override
@@ -919,10 +939,23 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 
   Future<void> _toggleFavorite() async {
+    // Only toggle favorite if we have a loaded hymn with a valid database ID
+    if (_hymn == null || _hymn!.id <= 0) {
+      print('⚠️ [HymnDetail] Cannot toggle favorite: hymn not loaded or invalid ID');
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Unable to update favorites: hymn not loaded'),
+          backgroundColor: Color(AppColors.errorRed),
+          duration: Duration(seconds: 2),
+        ),
+      );
+      return;
+    }
+    
     final favoritesProvider = Provider.of<FavoritesProvider>(context, listen: false);
     
     try {
-      final success = await favoritesProvider.toggleFavorite(widget.hymnId);
+      final success = await favoritesProvider.toggleFavorite(_hymn!.id);
       
       if (success) {
         setState(() {
@@ -937,7 +970,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             action: SnackBarAction(
               label: 'Undo',
               onPressed: () async {
-                await favoritesProvider.toggleFavorite(widget.hymnId);
+                await favoritesProvider.toggleFavorite(_hymn!.id);
                 setState(() {
                   _isFavorite = !_isFavorite;
                 });

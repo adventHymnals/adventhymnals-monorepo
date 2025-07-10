@@ -331,13 +331,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   'Recently Viewed',
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
-                if (provider.recentlyViewed.isNotEmpty)
-                  TextButton(
-                    onPressed: () {
-                      context.go('/recently-viewed');
-                    },
-                    child: const Text('See All'),
-                  ),
+                TextButton(
+                  onPressed: () {
+                    context.go('/recently-viewed');
+                  },
+                  child: Text(provider.recentlyViewed.isNotEmpty ? 'See All' : 'View'),
+                ),
               ],
             ),
             const SizedBox(height: AppSizes.spacing12),
@@ -380,13 +379,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   'Favorites',
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
-                if (provider.favorites.isNotEmpty)
-                  TextButton(
-                    onPressed: () {
-                      context.go('/favorites');
-                    },
-                    child: const Text('See All'),
-                  ),
+                TextButton(
+                  onPressed: () {
+                    context.go('/favorites');
+                  },
+                  child: Text(provider.favorites.isNotEmpty ? 'See All' : 'View'),
+                ),
               ],
             ),
             const SizedBox(height: AppSizes.spacing12),
@@ -458,7 +456,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Card(
         child: InkWell(
           onTap: () {
-            context.go('/hymn/${hymn.hymnNumber}');
+            context.go('/hymn/${hymn.id}');
           },
           borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
           child: Padding(

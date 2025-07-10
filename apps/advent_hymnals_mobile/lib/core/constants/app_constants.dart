@@ -69,7 +69,7 @@ class AppStrings {
   
   // Messages
   static const String noResults = 'No results found';
-  static const String noFavorites = 'No favorites yet';
+  static const String noFavorites = 'No Favorites';
   static const String noRecentlyViewed = 'No recently viewed hymns';
   static const String downloadComplete = 'Download complete';
   static const String downloadFailed = 'Download failed';

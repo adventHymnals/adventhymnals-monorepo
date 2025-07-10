@@ -5,8 +5,23 @@ import '../../core/constants/app_constants.dart';
 import '../providers/recently_viewed_provider.dart';
 import '../../domain/entities/hymn.dart';
 
-class RecentlyViewedScreen extends StatelessWidget {
+class RecentlyViewedScreen extends StatefulWidget {
   const RecentlyViewedScreen({super.key});
+
+  @override
+  State<RecentlyViewedScreen> createState() => _RecentlyViewedScreenState();
+}
+
+class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
+  @override
+  void initState() {
+    super.initState();
+    // Load recently viewed data when the screen is initialized
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final provider = Provider.of<RecentlyViewedProvider>(context, listen: false);
+      provider.loadRecentlyViewed();
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -31,6 +46,46 @@ class RecentlyViewedScreen extends StatelessWidget {
       ),
       body: Consumer<RecentlyViewedProvider>(
         builder: (context, provider, child) {
+          if (provider.isLoading) {
+            return const Center(child: CircularProgressIndicator());
+          }
+
+          if (provider.hasError) {
+            return Center(
+              child: Padding(
+                padding: const EdgeInsets.all(AppSizes.spacing24),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(
+                      Icons.error_outline,
+                      size: 80,
+                      color: Color(AppColors.errorRed),
+                    ),
+                    const SizedBox(height: AppSizes.spacing16),
+                    Text(
+                      'Error Loading Recently Viewed',
+                      style: Theme.of(context).textTheme.titleLarge,
+                    ),
+                    const SizedBox(height: AppSizes.spacing8),
+                    Text(
+                      provider.errorMessage ?? 'Unknown error occurred',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: Color(AppColors.gray500),
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                    const SizedBox(height: AppSizes.spacing24),
+                    ElevatedButton(
+                      onPressed: () => provider.loadRecentlyViewed(),
+                      child: const Text('Retry'),
+                    ),
+                  ],
+                ),
+              ),
+            );
+          }
+
           if (provider.recentlyViewed.isEmpty) {
             return _buildEmptyState(context);
           }
@@ -123,7 +178,7 @@ class RecentlyViewedScreen extends StatelessWidget {
                 ),
                 const SizedBox(width: 4),
                 Text(
-                  _getTimeAgo(hymn.updatedAt ?? DateTime.now()),
+                  _getTimeAgo(hymn.lastViewed ?? DateTime.now()),
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
                     color: Color(AppColors.gray500),
                   ),
