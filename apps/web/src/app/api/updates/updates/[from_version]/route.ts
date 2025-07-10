@@ -68,6 +68,9 @@ export async function GET(
       console.warn('Could not read collections index');
     }
 
+    // Get base URL from request
+    const baseUrl = `${request.nextUrl.protocol}//${request.nextUrl.host}`;
+
     // Generate updates based on collection and content changes
     const updates: DataUpdate[] = await generateUpdatesList(fromVersion, currentVersion, collections, baseUrl, collectionFilter);
 
