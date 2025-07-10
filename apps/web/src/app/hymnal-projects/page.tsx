@@ -53,16 +53,16 @@ const projects = [
   // Future projects can be added here
   {
     id: 'youth-hymnal',
-    title: 'Modern Adventist Youth Hymnal',
+    title: 'Traditional Adventist Youth Hymnal',
     status: 'planned',
     phase: 'Planning Phase',
-    description: 'A collection designed specifically for youth and young adult worship, combining traditional hymns with contemporary expressions.',
-    longDescription: 'This future project will focus on creating worship resources that speak to younger generations while maintaining theological integrity and Adventist distinctives.',
+    description: 'A collection designed specifically for youth and young adult worship, focusing on traditional hymns with accessible arrangements.',
+    longDescription: 'This future project will focus on creating worship resources that help younger generations appreciate traditional hymnody while maintaining theological integrity and Adventist distinctives.',
     goals: [
-      'Bridge traditional and contemporary worship',
+      'Preserve traditional hymn singing for younger generations',
       'Engage younger generations in hymn singing',
       'Maintain theological and historical accuracy',
-      'Provide modern musical arrangements'
+      'Provide quality musical arrangements of traditional hymns'
     ],
     currentWork: [],
     timeline: {
