@@ -104,6 +104,61 @@ class Hymn {
       title.hashCode;
   }
 
+  /// Create Hymn from processed JSON data format
+  factory Hymn.fromJsonData(Map<String, dynamic> json) {
+    // Extract hymn number from ID (e.g., "SDAH-en-001" -> 1)
+    final hymnId = json['id'] as String;
+    final idParts = hymnId.split('-');
+    final numberPart = idParts.isNotEmpty ? idParts.last : '0';
+    final hymnNumber = int.tryParse(numberPart) ?? 0;
+    
+    // Convert verses array to a single lyrics string
+    String? lyrics;
+    if (json['verses'] != null) {
+      final verses = json['verses'] as List<dynamic>;
+      final verseTexts = verses.map((verse) => verse['text'] as String).toList();
+      
+      // Add refrain if present
+      if (json['refrain'] != null) {
+        final refrain = json['refrain']['text'] as String;
+        verseTexts.add('\nRefrain:\n$refrain');
+      }
+      
+      lyrics = verseTexts.join('\n\n');
+    }
+    
+    // Get first line from first verse
+    String? firstLine;
+    if (json['verses'] != null && (json['verses'] as List).isNotEmpty) {
+      final firstVerse = (json['verses'] as List).first;
+      final verseText = firstVerse['text'] as String;
+      // Extract first line (up to first period or newline)
+      firstLine = verseText.split(RegExp(r'[.\n]')).first.trim();
+    }
+    
+    // Extract metadata
+    final metadata = json['metadata'] as Map<String, dynamic>?;
+    final themes = metadata?['themes'] as List<dynamic>?;
+    final scriptureRefs = metadata?['scripture_references'] as List<dynamic>?;
+    
+    return Hymn(
+      id: hymnNumber, // Use hymn number as ID for now
+      hymnNumber: hymnNumber,
+      title: json['title'] as String,
+      author: json['author'] as String?,
+      composer: json['composer'] as String?,
+      tuneName: json['tune'] as String?,
+      meter: json['meter'] as String?,
+      lyrics: lyrics,
+      firstLine: firstLine,
+      themeTags: themes?.cast<String>(),
+      scriptureRefs: scriptureRefs?.cast<String>(),
+      createdAt: metadata?['year'] != null 
+          ? DateTime(metadata!['year'] as int)
+          : null,
+    );
+  }
+
   @override
   String toString() {
     return 'Hymn(id: $id, hymnNumber: $hymnNumber, title: $title, author: $author)';

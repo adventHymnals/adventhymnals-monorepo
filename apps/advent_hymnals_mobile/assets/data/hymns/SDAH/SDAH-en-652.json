@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-652",
+  "number": 652,
+  "title": "Love at Home",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is beauty all around, When there's love at home;\nThere is joy in every sound, When there's love at home.\nPeace and plenty here abide, Smiling fair on every side;\nTime doth softly, sweetly glide, When there's love at home."
+    },
+    {
+      "number": 2,
+      "text": "Kindly heaven smiles above, When there's love at home;\nAll the earth is filled with love, When there's love at home.\nSweeter sings the brooklet by, Brighter beams the azure sky;\nO, there's One who smiles on high When there's love at home."
+    },
+    {
+      "number": 3,
+      "text": "Jesus, make me wholly Thine, Then there's love at home;\nMay Thy sacrifice be mine, With no sinful care distressed,\nSafely from all harm I'll rest, Through Thy tender mercy blessed, When there's love at home."
+    }
+  ],
+  "refrain": {
+    "text": "Love at home, love at home;\nTime doth softly, sweetly glide, When there's love at home."
+  },
+  "metadata": {
+    "themes": [
+      "home",
+      "love",
+      "family",
+      "peace"
+    ],
+    "scripture_references": [
+      "1 Corinthians 13:4-7",
+      "Psalm 133:1"
+    ],
+    "copyright": "Public Domain"
+  }
+}

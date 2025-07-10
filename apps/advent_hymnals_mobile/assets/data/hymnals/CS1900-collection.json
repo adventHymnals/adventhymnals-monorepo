@@ -1,0 +1,2029 @@
+{
+  "id": "CS1900",
+  "title": "Christ in Song",
+  "language": "en",
+  "year": 1900,
+  "publisher": "Review and Herald Publishing Association",
+  "hymns": [
+    {
+      "number": 1,
+      "hymn_id": "CS1900-en-001",
+      "title": "Lead Them to Thee"
+    },
+    {
+      "number": 2,
+      "hymn_id": "CS1900-en-002",
+      "title": "Tell Me the Old, Old Story"
+    },
+    {
+      "number": 3,
+      "hymn_id": "CS1900-en-003",
+      "title": "Jesus Loves Me"
+    },
+    {
+      "number": 4,
+      "hymn_id": "CS1900-en-004",
+      "title": "At the Door"
+    },
+    {
+      "number": 5,
+      "hymn_id": "CS1900-en-005",
+      "title": "Shall I Let Him In?"
+    },
+    {
+      "number": 6,
+      "hymn_id": "CS1900-en-006",
+      "title": "Make Room for Jesus"
+    },
+    {
+      "number": 7,
+      "hymn_id": "CS1900-en-007",
+      "title": "Let Him In"
+    },
+    {
+      "number": 8,
+      "hymn_id": "CS1900-en-008",
+      "title": "Whiter Than Snow"
+    },
+    {
+      "number": 9,
+      "hymn_id": "CS1900-en-009",
+      "title": "Like as a Father"
+    },
+    {
+      "number": 10,
+      "hymn_id": "CS1900-en-010",
+      "title": "Only One Step"
+    },
+    {
+      "number": 11,
+      "hymn_id": "CS1900-en-011",
+      "title": "Urge Them to Come"
+    },
+    {
+      "number": 12,
+      "hymn_id": "CS1900-en-012",
+      "title": "Come Unto Me"
+    },
+    {
+      "number": 13,
+      "hymn_id": "CS1900-en-013",
+      "title": "Pass Me Not"
+    },
+    {
+      "number": 14,
+      "hymn_id": "CS1900-en-014",
+      "title": "Life in a Look"
+    },
+    {
+      "number": 15,
+      "hymn_id": "CS1900-en-015",
+      "title": "Able to Deliver"
+    },
+    {
+      "number": 16,
+      "hymn_id": "CS1900-en-016",
+      "title": "Linger No Longer"
+    },
+    {
+      "number": 17,
+      "hymn_id": "CS1900-en-017",
+      "title": "Though Your Sins Be as Scarlet"
+    },
+    {
+      "number": 18,
+      "hymn_id": "CS1900-en-018",
+      "title": "Lovingly, Tenderly Calling"
+    },
+    {
+      "number": 19,
+      "hymn_id": "CS1900-en-019",
+      "title": "Not in the Hour of Death"
+    },
+    {
+      "number": 20,
+      "hymn_id": "CS1900-en-020",
+      "title": "Over the Line"
+    },
+    {
+      "number": 21,
+      "hymn_id": "CS1900-en-021",
+      "title": "Mercy's Gate Is Open"
+    },
+    {
+      "number": 22,
+      "hymn_id": "CS1900-en-022",
+      "title": "The Comforter Has Come"
+    },
+    {
+      "number": 23,
+      "hymn_id": "CS1900-en-023",
+      "title": "Able to Save and Keep"
+    },
+    {
+      "number": 24,
+      "hymn_id": "CS1900-en-024",
+      "title": "Build on the Rock"
+    },
+    {
+      "number": 25,
+      "hymn_id": "CS1900-en-025",
+      "title": "Blessed Are They That Do"
+    },
+    {
+      "number": 26,
+      "hymn_id": "CS1900-en-026",
+      "title": "Cover with His Life"
+    },
+    {
+      "number": 27,
+      "hymn_id": "CS1900-en-027",
+      "title": "Whiter Than Snow"
+    },
+    {
+      "number": 28,
+      "hymn_id": "CS1900-en-028",
+      "title": "Christ Receiveth Sinful Men"
+    },
+    {
+      "number": 29,
+      "hymn_id": "CS1900-en-029",
+      "title": "I'm So Glad!"
+    },
+    {
+      "number": 30,
+      "hymn_id": "CS1900-en-030",
+      "title": "Something for Jesus"
+    },
+    {
+      "number": 31,
+      "hymn_id": "CS1900-en-031",
+      "title": "Knocking, Knocking"
+    },
+    {
+      "number": 32,
+      "hymn_id": "CS1900-en-032",
+      "title": "Who Is on the Lord's Side?"
+    },
+    {
+      "number": 33,
+      "hymn_id": "CS1900-en-033",
+      "title": "Mighty to Save"
+    },
+    {
+      "number": 34,
+      "hymn_id": "CS1900-en-034",
+      "title": "Never Be Afraid"
+    },
+    {
+      "number": 35,
+      "hymn_id": "CS1900-en-035",
+      "title": "Bravely Say No!"
+    },
+    {
+      "number": 36,
+      "hymn_id": "CS1900-en-036",
+      "title": "How Shall We Stand in the Judgment?"
+    },
+    {
+      "number": 37,
+      "hymn_id": "CS1900-en-037",
+      "title": "When the King Comes In"
+    },
+    {
+      "number": 38,
+      "hymn_id": "CS1900-en-038",
+      "title": "What Shall the Harvest Be?"
+    },
+    {
+      "number": 39,
+      "hymn_id": "CS1900-en-039",
+      "title": "What Hast Thou Done for Me?"
+    },
+    {
+      "number": 40,
+      "hymn_id": "CS1900-en-040",
+      "title": "Keep Tenting Toward the Highlands"
+    },
+    {
+      "number": 41,
+      "hymn_id": "CS1900-en-041",
+      "title": "Will You Go?"
+    },
+    {
+      "number": 42,
+      "hymn_id": "CS1900-en-042",
+      "title": "Tarry by the Living Waters"
+    },
+    {
+      "number": 43,
+      "hymn_id": "CS1900-en-043",
+      "title": "Let the Little Ones Come"
+    },
+    {
+      "number": 44,
+      "hymn_id": "CS1900-en-044",
+      "title": "Calling"
+    },
+    {
+      "number": 45,
+      "hymn_id": "CS1900-en-045",
+      "title": "Only Two Ways"
+    },
+    {
+      "number": 46,
+      "hymn_id": "CS1900-en-046",
+      "title": "Jesus Saves"
+    },
+    {
+      "number": 47,
+      "hymn_id": "CS1900-en-047",
+      "title": "Your Saviour, Too"
+    },
+    {
+      "number": 48,
+      "hymn_id": "CS1900-en-048",
+      "title": "Jesus of Nazareth Passeth By"
+    },
+    {
+      "number": 49,
+      "hymn_id": "CS1900-en-049",
+      "title": "Take Me As I Am"
+    },
+    {
+      "number": 50,
+      "hymn_id": "CS1900-en-050",
+      "title": "There's Room for You to Anchor"
+    },
+    {
+      "number": 51,
+      "hymn_id": "CS1900-en-051",
+      "title": "While Jesus Whispers"
+    },
+    {
+      "number": 52,
+      "hymn_id": "CS1900-en-052",
+      "title": "Pure Gold"
+    },
+    {
+      "number": 53,
+      "hymn_id": "CS1900-en-053",
+      "title": "Come Out In The Sunshine"
+    },
+    {
+      "number": 54,
+      "hymn_id": "CS1900-en-054",
+      "title": "Dare To Do Right"
+    },
+    {
+      "number": 55,
+      "hymn_id": "CS1900-en-055",
+      "title": "Yield Not to Temptation"
+    },
+    {
+      "number": 56,
+      "hymn_id": "CS1900-en-056",
+      "title": "Showers of Blessing"
+    },
+    {
+      "number": 57,
+      "hymn_id": "CS1900-en-057",
+      "title": "The Lost Sheep"
+    },
+    {
+      "number": 58,
+      "hymn_id": "CS1900-en-058",
+      "title": "Memories of Galilee"
+    },
+    {
+      "number": 59,
+      "hymn_id": "CS1900-en-059",
+      "title": "Gethsemane"
+    },
+    {
+      "number": 60,
+      "hymn_id": "CS1900-en-060",
+      "title": "Calvary"
+    },
+    {
+      "number": 61,
+      "hymn_id": "CS1900-en-061",
+      "title": "The Passover"
+    },
+    {
+      "number": 62,
+      "hymn_id": "CS1900-en-062",
+      "title": "In the Silent Midnight Watches"
+    },
+    {
+      "number": 63,
+      "hymn_id": "CS1900-en-063",
+      "title": "The Handwriting on the Wall"
+    },
+    {
+      "number": 64,
+      "hymn_id": "CS1900-en-064",
+      "title": "There's Room for You to Anchor"
+    },
+    {
+      "number": 65,
+      "hymn_id": "CS1900-en-065",
+      "title": "Yield Not to Temptation"
+    },
+    {
+      "number": 66,
+      "hymn_id": "CS1900-en-066",
+      "title": "Showers of Blessing"
+    },
+    {
+      "number": 67,
+      "hymn_id": "CS1900-en-067",
+      "title": "The Lost Sheep"
+    },
+    {
+      "number": 68,
+      "hymn_id": "CS1900-en-068",
+      "title": "Memories of Galilee"
+    },
+    {
+      "number": 69,
+      "hymn_id": "CS1900-en-069",
+      "title": "Gethsemane"
+    },
+    {
+      "number": 70,
+      "hymn_id": "CS1900-en-070",
+      "title": "Calvary"
+    },
+    {
+      "number": 71,
+      "hymn_id": "CS1900-en-071",
+      "title": "The Passover"
+    },
+    {
+      "number": 72,
+      "hymn_id": "CS1900-en-072",
+      "title": "In the Silent Midnight Watches"
+    },
+    {
+      "number": 73,
+      "hymn_id": "CS1900-en-073",
+      "title": "The Handwriting on the Wall"
+    },
+    {
+      "number": 74,
+      "hymn_id": "CS1900-en-074",
+      "title": "Weighed and Wanting"
+    },
+    {
+      "number": 75,
+      "hymn_id": "CS1900-en-075",
+      "title": "The Love of Jesus"
+    },
+    {
+      "number": 76,
+      "hymn_id": "CS1900-en-076",
+      "title": "Almost Persuaded"
+    },
+    {
+      "number": 77,
+      "hymn_id": "CS1900-en-077",
+      "title": "I Will Early Seek the Saviour"
+    },
+    {
+      "number": 78,
+      "hymn_id": "CS1900-en-078",
+      "title": "Coming to the Cross"
+    },
+    {
+      "number": 79,
+      "hymn_id": "CS1900-en-079",
+      "title": "The Cleansing Wave"
+    },
+    {
+      "number": 80,
+      "hymn_id": "CS1900-en-080",
+      "title": "Just As I Am"
+    },
+    {
+      "number": 81,
+      "hymn_id": "CS1900-en-081",
+      "title": "There Is A Fountain"
+    },
+    {
+      "number": 82,
+      "hymn_id": "CS1900-en-082",
+      "title": "Penitence"
+    },
+    {
+      "number": 83,
+      "hymn_id": "CS1900-en-083",
+      "title": "Decisive Day"
+    },
+    {
+      "number": 84,
+      "hymn_id": "CS1900-en-084",
+      "title": "Come Ye Disconsolate"
+    },
+    {
+      "number": 85,
+      "hymn_id": "CS1900-en-085",
+      "title": "Come Unto Me"
+    },
+    {
+      "number": 86,
+      "hymn_id": "CS1900-en-086",
+      "title": "The Great Physician"
+    },
+    {
+      "number": 87,
+      "hymn_id": "CS1900-en-087",
+      "title": "Nothing But The Blood"
+    },
+    {
+      "number": 88,
+      "hymn_id": "CS1900-en-088",
+      "title": "Weeping Will Not Save Me"
+    },
+    {
+      "number": 89,
+      "hymn_id": "CS1900-en-089",
+      "title": "Only Trust Him"
+    },
+    {
+      "number": 90,
+      "hymn_id": "CS1900-en-090",
+      "title": "Comfort To The Dreary"
+    },
+    {
+      "number": 91,
+      "hymn_id": "CS1900-en-091",
+      "title": "Outside The Door"
+    },
+    {
+      "number": 92,
+      "hymn_id": "CS1900-en-092",
+      "title": "Weary Of Earth"
+    },
+    {
+      "number": 93,
+      "hymn_id": "CS1900-en-093",
+      "title": "Untitled"
+    },
+    {
+      "number": 94,
+      "hymn_id": "CS1900-en-094",
+      "title": "He Speaks Within"
+    },
+    {
+      "number": 95,
+      "hymn_id": "CS1900-en-095",
+      "title": "Thou Art The Way"
+    },
+    {
+      "number": 96,
+      "hymn_id": "CS1900-en-096",
+      "title": "Rest In Me"
+    },
+    {
+      "number": 97,
+      "hymn_id": "CS1900-en-097",
+      "title": "He Is Calling"
+    },
+    {
+      "number": 98,
+      "hymn_id": "CS1900-en-098",
+      "title": "Nothing For Jesus"
+    },
+    {
+      "number": 99,
+      "hymn_id": "CS1900-en-099",
+      "title": "I Am Coming, Lord"
+    },
+    {
+      "number": 100,
+      "hymn_id": "CS1900-en-100",
+      "title": "Flee As A Bird"
+    },
+    {
+      "number": 101,
+      "hymn_id": "CS1900-en-101",
+      "title": "I Bring My Sins To Thee"
+    },
+    {
+      "number": 102,
+      "hymn_id": "CS1900-en-102",
+      "title": "Take All My Sin Away"
+    },
+    {
+      "number": 103,
+      "hymn_id": "CS1900-en-103",
+      "title": "Jesus, Remember Me"
+    },
+    {
+      "number": 104,
+      "hymn_id": "CS1900-en-104",
+      "title": "Fill Me Now"
+    },
+    {
+      "number": 105,
+      "hymn_id": "CS1900-en-105",
+      "title": "Thy Work Alone"
+    },
+    {
+      "number": 106,
+      "hymn_id": "CS1900-en-106",
+      "title": "Cleansed"
+    },
+    {
+      "number": 107,
+      "hymn_id": "CS1900-en-107",
+      "title": "Born Again"
+    },
+    {
+      "number": 108,
+      "hymn_id": "CS1900-en-108",
+      "title": "Coming"
+    },
+    {
+      "number": 109,
+      "hymn_id": "CS1900-en-109",
+      "title": "The Sprinkled Blood"
+    },
+    {
+      "number": 110,
+      "hymn_id": "CS1900-en-110",
+      "title": "On Jesus"
+    },
+    {
+      "number": 111,
+      "hymn_id": "CS1900-en-111",
+      "title": "I Need Thee"
+    },
+    {
+      "number": 112,
+      "hymn_id": "CS1900-en-112",
+      "title": "Jubilee"
+    },
+    {
+      "number": 113,
+      "hymn_id": "CS1900-en-113",
+      "title": "Baptize Us Anew"
+    },
+    {
+      "number": 114,
+      "hymn_id": "CS1900-en-114",
+      "title": "The Last Call Of Mercy"
+    },
+    {
+      "number": 115,
+      "hymn_id": "CS1900-en-115",
+      "title": "Write Thy Law"
+    },
+    {
+      "number": 116,
+      "hymn_id": "CS1900-en-116",
+      "title": "Baptize Us Anew"
+    },
+    {
+      "number": 117,
+      "hymn_id": "CS1900-en-117",
+      "title": "The Last Call Of Mercy"
+    },
+    {
+      "number": 118,
+      "hymn_id": "CS1900-en-118",
+      "title": "Write Thy Law"
+    },
+    {
+      "number": 119,
+      "hymn_id": "CS1900-en-119",
+      "title": "For Others' Guilt"
+    },
+    {
+      "number": 120,
+      "hymn_id": "CS1900-en-120",
+      "title": "That Dreadful Day"
+    },
+    {
+      "number": 121,
+      "hymn_id": "CS1900-en-121",
+      "title": "All Have Gone Astray"
+    },
+    {
+      "number": 122,
+      "hymn_id": "CS1900-en-122",
+      "title": "Shall Our Cheeks Be Dry?"
+    },
+    {
+      "number": 123,
+      "hymn_id": "CS1900-en-123",
+      "title": "Crown Him"
+    },
+    {
+      "number": 124,
+      "hymn_id": "CS1900-en-124",
+      "title": "My Sins Are All Taken Away"
+    },
+    {
+      "number": 125,
+      "hymn_id": "CS1900-en-125",
+      "title": "I Will Follow Thee"
+    },
+    {
+      "number": 126,
+      "hymn_id": "CS1900-en-126",
+      "title": "At the Cross"
+    },
+    {
+      "number": 127,
+      "hymn_id": "CS1900-en-127",
+      "title": "Safe in the Arms of Jesus"
+    },
+    {
+      "number": 128,
+      "hymn_id": "CS1900-en-128",
+      "title": "Hallelujah for the Cross!"
+    },
+    {
+      "number": 129,
+      "hymn_id": "CS1900-en-129",
+      "title": "In Him"
+    },
+    {
+      "number": 130,
+      "hymn_id": "CS1900-en-130",
+      "title": "A New Song"
+    },
+    {
+      "number": 131,
+      "hymn_id": "CS1900-en-131",
+      "title": "The Glory of Immanuel"
+    },
+    {
+      "number": 132,
+      "hymn_id": "CS1900-en-132",
+      "title": "Our God is a God of Love"
+    },
+    {
+      "number": 133,
+      "hymn_id": "CS1900-en-133",
+      "title": "The Dove of Peace"
+    },
+    {
+      "number": 134,
+      "hymn_id": "CS1900-en-134",
+      "title": "Redeemed"
+    },
+    {
+      "number": 135,
+      "hymn_id": "CS1900-en-135",
+      "title": "None of Self and All of Thee"
+    },
+    {
+      "number": 136,
+      "hymn_id": "CS1900-en-136",
+      "title": "Wonderful Love of Jesus"
+    },
+    {
+      "number": 137,
+      "hymn_id": "CS1900-en-137",
+      "title": "The Holiest Name"
+    },
+    {
+      "number": 138,
+      "hymn_id": "CS1900-en-138",
+      "title": "Wonderful Peace"
+    },
+    {
+      "number": 139,
+      "hymn_id": "CS1900-en-139",
+      "title": "In Him"
+    },
+    {
+      "number": 143,
+      "hymn_id": "CS1900-en-143",
+      "title": "I Will Not Let Thee Go"
+    },
+    {
+      "number": 144,
+      "hymn_id": "CS1900-en-144",
+      "title": "Broad Is the Road"
+    },
+    {
+      "number": 145,
+      "hymn_id": "CS1900-en-145",
+      "title": "The Wondrous Cross"
+    },
+    {
+      "number": 146,
+      "hymn_id": "CS1900-en-146",
+      "title": "To-day the Saviour Calls"
+    },
+    {
+      "number": 160,
+      "hymn_id": "CS1900-en-160",
+      "title": "A New Song"
+    },
+    {
+      "number": 225,
+      "hymn_id": "CS1900-en-225",
+      "title": "OUR KING"
+    },
+    {
+      "number": 226,
+      "hymn_id": "CS1900-en-226",
+      "title": "CROWN HIM LORD OF ALL"
+    },
+    {
+      "number": 227,
+      "hymn_id": "CS1900-en-227",
+      "title": "PRAISE YE JEHOVAH'S NAME"
+    },
+    {
+      "number": 228,
+      "hymn_id": "CS1900-en-228",
+      "title": "JESUS IS MINE"
+    },
+    {
+      "number": 229,
+      "hymn_id": "CS1900-en-229",
+      "title": "OUR SUREST STAY"
+    },
+    {
+      "number": 230,
+      "hymn_id": "CS1900-en-230",
+      "title": "CROWN HIM"
+    },
+    {
+      "number": 231,
+      "hymn_id": "CS1900-en-231",
+      "title": "THE MATCHLESS WORTH"
+    },
+    {
+      "number": 232,
+      "hymn_id": "CS1900-en-232",
+      "title": "MORE LIKE JESUS"
+    },
+    {
+      "number": 233,
+      "hymn_id": "CS1900-en-233",
+      "title": "PURE IN HEART"
+    },
+    {
+      "number": 234,
+      "hymn_id": "CS1900-en-234",
+      "title": "HOW CAN I KEEP FROM SINGING?"
+    },
+    {
+      "number": 235,
+      "hymn_id": "CS1900-en-235",
+      "title": "I'VE FOUND A FRIEND"
+    },
+    {
+      "number": 236,
+      "hymn_id": "CS1900-en-236",
+      "title": "JESUS, LOVER OF MY SOUL"
+    },
+    {
+      "number": 237,
+      "hymn_id": "CS1900-en-237",
+      "title": "THE LORD IN ZION REIGNETH"
+    },
+    {
+      "number": 238,
+      "hymn_id": "CS1900-en-238",
+      "title": "Seeking the Lost"
+    },
+    {
+      "number": 239,
+      "hymn_id": "CS1900-en-239",
+      "title": "Freely Give"
+    },
+    {
+      "number": 240,
+      "hymn_id": "CS1900-en-240",
+      "title": "Not a Wasted Moment"
+    },
+    {
+      "number": 241,
+      "hymn_id": "CS1900-en-241",
+      "title": "Angry Words! Oh, Let Them Never"
+    },
+    {
+      "number": 242,
+      "hymn_id": "CS1900-en-242",
+      "title": "Standing on the Promises"
+    },
+    {
+      "number": 243,
+      "hymn_id": "CS1900-en-243",
+      "title": "More of Jesus"
+    },
+    {
+      "number": 244,
+      "hymn_id": "CS1900-en-244",
+      "title": "My Sabbath Home"
+    },
+    {
+      "number": 245,
+      "hymn_id": "CS1900-en-245",
+      "title": "Don't Forget the Sabbath"
+    },
+    {
+      "number": 246,
+      "hymn_id": "CS1900-en-246",
+      "title": "The Lily of the Valley"
+    },
+    {
+      "number": 247,
+      "hymn_id": "CS1900-en-247",
+      "title": "Valley Lilies"
+    },
+    {
+      "number": 248,
+      "hymn_id": "CS1900-en-248",
+      "title": "Count Your Many Blessings"
+    },
+    {
+      "number": 249,
+      "hymn_id": "CS1900-en-249",
+      "title": "Tis Shining Still"
+    },
+    {
+      "number": 250,
+      "hymn_id": "CS1900-en-250",
+      "title": "Two Little Hands"
+    },
+    {
+      "number": 251,
+      "hymn_id": "CS1900-en-251",
+      "title": "He Loves Me, Too"
+    },
+    {
+      "number": 252,
+      "hymn_id": "CS1900-en-252",
+      "title": "How I Wish I Knew"
+    },
+    {
+      "number": 253,
+      "hymn_id": "CS1900-en-253",
+      "title": "O Come, Let Us Sing"
+    },
+    {
+      "number": 254,
+      "hymn_id": "CS1900-en-254",
+      "title": "Sweetly Sing"
+    },
+    {
+      "number": 255,
+      "hymn_id": "CS1900-en-255",
+      "title": "Our King"
+    },
+    {
+      "number": 256,
+      "hymn_id": "CS1900-en-256",
+      "title": "Crown Him Lord of All"
+    },
+    {
+      "number": 257,
+      "hymn_id": "CS1900-en-257",
+      "title": "Praise Ye Jehovah's Name"
+    },
+    {
+      "number": 258,
+      "hymn_id": "CS1900-en-258",
+      "title": "Jesus Is Mine"
+    },
+    {
+      "number": 259,
+      "hymn_id": "CS1900-en-259",
+      "title": "Our Surest Stay"
+    },
+    {
+      "number": 260,
+      "hymn_id": "CS1900-en-260",
+      "title": "How Pleasant"
+    },
+    {
+      "number": 261,
+      "hymn_id": "CS1900-en-261",
+      "title": "From Every Stormy Wind"
+    },
+    {
+      "number": 262,
+      "hymn_id": "CS1900-en-262",
+      "title": "In the Cross of Christ"
+    },
+    {
+      "number": 263,
+      "hymn_id": "CS1900-en-263",
+      "title": "The Rising Day"
+    },
+    {
+      "number": 264,
+      "hymn_id": "CS1900-en-264",
+      "title": "How Sweet the Name"
+    },
+    {
+      "number": 265,
+      "hymn_id": "CS1900-en-265",
+      "title": "The Very Thought of Thee"
+    },
+    {
+      "number": 266,
+      "hymn_id": "CS1900-en-266",
+      "title": "O Holy Book"
+    },
+    {
+      "number": 267,
+      "hymn_id": "CS1900-en-267",
+      "title": "I Will Follow Thee"
+    },
+    {
+      "number": 268,
+      "hymn_id": "CS1900-en-268",
+      "title": "Blessed Quietness"
+    },
+    {
+      "number": 269,
+      "hymn_id": "CS1900-en-269",
+      "title": "His Loving Kindness"
+    },
+    {
+      "number": 270,
+      "hymn_id": "CS1900-en-270",
+      "title": "I'll Praise"
+    },
+    {
+      "number": 271,
+      "hymn_id": "CS1900-en-271",
+      "title": "Blessed Quietness"
+    },
+    {
+      "number": 272,
+      "hymn_id": "CS1900-en-272",
+      "title": "I've Found the Pearl"
+    },
+    {
+      "number": 273,
+      "hymn_id": "CS1900-en-273",
+      "title": "Joy of Loving Hearts"
+    },
+    {
+      "number": 274,
+      "hymn_id": "CS1900-en-274",
+      "title": "Praise God"
+    },
+    {
+      "number": 275,
+      "hymn_id": "CS1900-en-275",
+      "title": "Before Jehovah's Throne"
+    },
+    {
+      "number": 276,
+      "hymn_id": "CS1900-en-276",
+      "title": "Thou Art Near"
+    },
+    {
+      "number": 277,
+      "hymn_id": "CS1900-en-277",
+      "title": "Thy Righteousness"
+    },
+    {
+      "number": 278,
+      "hymn_id": "CS1900-en-278",
+      "title": "By Thee We Rise"
+    },
+    {
+      "number": 279,
+      "hymn_id": "CS1900-en-279",
+      "title": "With Thee"
+    },
+    {
+      "number": 280,
+      "hymn_id": "CS1900-en-280",
+      "title": "The Herald Angels Sing"
+    },
+    {
+      "number": 281,
+      "hymn_id": "CS1900-en-281",
+      "title": "That Song of Old"
+    },
+    {
+      "number": 282,
+      "hymn_id": "CS1900-en-282",
+      "title": "Thy Mercies"
+    },
+    {
+      "number": 283,
+      "hymn_id": "CS1900-en-283",
+      "title": "How Happy Are They!"
+    },
+    {
+      "number": 284,
+      "hymn_id": "CS1900-en-284",
+      "title": "How Endless Is Thy Love!"
+    },
+    {
+      "number": 285,
+      "hymn_id": "CS1900-en-285",
+      "title": "A Thousand Tongues"
+    },
+    {
+      "number": 286,
+      "hymn_id": "CS1900-en-286",
+      "title": "The Best of Days"
+    },
+    {
+      "number": 287,
+      "hymn_id": "CS1900-en-287",
+      "title": "Benediction"
+    },
+    {
+      "number": 288,
+      "hymn_id": "CS1900-en-288",
+      "title": "God Made Them"
+    },
+    {
+      "number": 289,
+      "hymn_id": "CS1900-en-289",
+      "title": "Praise Him"
+    },
+    {
+      "number": 290,
+      "hymn_id": "CS1900-en-290",
+      "title": "The Spring-Tide"
+    },
+    {
+      "number": 291,
+      "hymn_id": "CS1900-en-291",
+      "title": "We Thank Thee"
+    },
+    {
+      "number": 292,
+      "hymn_id": "CS1900-en-292",
+      "title": "I My Cross Have Taken"
+    },
+    {
+      "number": 293,
+      "hymn_id": "CS1900-en-293",
+      "title": "Happy in Him"
+    },
+    {
+      "number": 294,
+      "hymn_id": "CS1900-en-294",
+      "title": "Bliss of the Pure"
+    },
+    {
+      "number": 295,
+      "hymn_id": "CS1900-en-295",
+      "title": "My Jesus, I Love Thee"
+    },
+    {
+      "number": 296,
+      "hymn_id": "CS1900-en-296",
+      "title": "Praise Ye the Father"
+    },
+    {
+      "number": 297,
+      "hymn_id": "CS1900-en-297",
+      "title": "Praise the Lord"
+    },
+    {
+      "number": 298,
+      "hymn_id": "CS1900-en-298",
+      "title": "Salvation Free"
+    },
+    {
+      "number": 299,
+      "hymn_id": "CS1900-en-299",
+      "title": "Our Parting Hymn"
+    },
+    {
+      "number": 300,
+      "hymn_id": "CS1900-en-300",
+      "title": "I'll Live for Him"
+    },
+    {
+      "number": 301,
+      "hymn_id": "CS1900-en-301",
+      "title": "All for Jesus"
+    },
+    {
+      "number": 302,
+      "hymn_id": "CS1900-en-302",
+      "title": "The Thought of God"
+    },
+    {
+      "number": 303,
+      "hymn_id": "CS1900-en-303",
+      "title": "Call My Name"
+    },
+    {
+      "number": 304,
+      "hymn_id": "CS1900-en-304",
+      "title": "Repose"
+    },
+    {
+      "number": 305,
+      "hymn_id": "CS1900-en-305",
+      "title": "Prayer"
+    },
+    {
+      "number": 306,
+      "hymn_id": "CS1900-en-306",
+      "title": "God of My Life"
+    },
+    {
+      "number": 307,
+      "hymn_id": "CS1900-en-307",
+      "title": "God of Light"
+    },
+    {
+      "number": 308,
+      "hymn_id": "CS1900-en-308",
+      "title": "High in the Heavens"
+    },
+    {
+      "number": 309,
+      "hymn_id": "CS1900-en-309",
+      "title": "O Worship the King!"
+    },
+    {
+      "number": 310,
+      "hymn_id": "CS1900-en-310",
+      "title": "My Salvation, My All"
+    },
+    {
+      "number": 312,
+      "hymn_id": "CS1900-en-312",
+      "title": "Thy Glory Fills the Heavens"
+    },
+    {
+      "number": 313,
+      "hymn_id": "CS1900-en-313",
+      "title": "Ten Thousand Harps"
+    },
+    {
+      "number": 314,
+      "hymn_id": "CS1900-en-314",
+      "title": "The Day Awakes"
+    },
+    {
+      "number": 315,
+      "hymn_id": "CS1900-en-315",
+      "title": "Our Song of Praise"
+    },
+    {
+      "number": 316,
+      "hymn_id": "CS1900-en-316",
+      "title": "Power to Open"
+    },
+    {
+      "number": 317,
+      "hymn_id": "CS1900-en-317",
+      "title": "Fount of Every Blessing"
+    },
+    {
+      "number": 318,
+      "hymn_id": "CS1900-en-318",
+      "title": "The Sweetest Name"
+    },
+    {
+      "number": 319,
+      "hymn_id": "CS1900-en-319",
+      "title": "Happy Day"
+    },
+    {
+      "number": 320,
+      "hymn_id": "CS1900-en-320",
+      "title": "Majestic Sweetness"
+    },
+    {
+      "number": 321,
+      "hymn_id": "CS1900-en-321",
+      "title": "The Word"
+    },
+    {
+      "number": 322,
+      "hymn_id": "CS1900-en-322",
+      "title": "Glorious"
+    },
+    {
+      "number": 323,
+      "hymn_id": "CS1900-en-323",
+      "title": "Secure"
+    },
+    {
+      "number": 324,
+      "hymn_id": "CS1900-en-324",
+      "title": "Perfect"
+    },
+    {
+      "number": 325,
+      "hymn_id": "CS1900-en-325",
+      "title": "The Only Lord"
+    },
+    {
+      "number": 326,
+      "hymn_id": "CS1900-en-326",
+      "title": "Precious Jesus"
+    },
+    {
+      "number": 327,
+      "hymn_id": "CS1900-en-327",
+      "title": "Will You Come?"
+    },
+    {
+      "number": 328,
+      "hymn_id": "CS1900-en-328",
+      "title": "The Voice of Jesus"
+    },
+    {
+      "number": 329,
+      "hymn_id": "CS1900-en-329",
+      "title": "What a Friend"
+    },
+    {
+      "number": 331,
+      "hymn_id": "CS1900-en-331",
+      "title": "Walking with Thee"
+    },
+    {
+      "number": 332,
+      "hymn_id": "CS1900-en-332",
+      "title": "More Love to Thee"
+    },
+    {
+      "number": 333,
+      "hymn_id": "CS1900-en-333",
+      "title": "Stand Up, and Bless the Lord"
+    },
+    {
+      "number": 334,
+      "hymn_id": "CS1900-en-334",
+      "title": "Consecrated Childhood"
+    },
+    {
+      "number": 335,
+      "hymn_id": "CS1900-en-335",
+      "title": "How Gentle God's Commands!"
+    },
+    {
+      "number": 336,
+      "hymn_id": "CS1900-en-336",
+      "title": "Attempt His Praise"
+    },
+    {
+      "number": 337,
+      "hymn_id": "CS1900-en-337",
+      "title": "CAN WE FORGET?"
+    },
+    {
+      "number": 338,
+      "hymn_id": "CS1900-en-338",
+      "title": "AT THY FEET"
+    },
+    {
+      "number": 339,
+      "hymn_id": "CS1900-en-339",
+      "title": "MY NEED, AND THY LOVE"
+    },
+    {
+      "number": 340,
+      "hymn_id": "CS1900-en-340",
+      "title": "FAITH VIEWS HIM"
+    },
+    {
+      "number": 341,
+      "hymn_id": "CS1900-en-341",
+      "title": "WITH WILLING HEARTS"
+    },
+    {
+      "number": 342,
+      "hymn_id": "CS1900-en-342",
+      "title": "WE LIVE ANEW"
+    },
+    {
+      "number": 343,
+      "hymn_id": "CS1900-en-343",
+      "title": "BLEST BE THE TIE"
+    },
+    {
+      "number": 344,
+      "hymn_id": "CS1900-en-344",
+      "title": "FORBID THEM NOT"
+    },
+    {
+      "number": 345,
+      "hymn_id": "CS1900-en-345",
+      "title": "ALL THINGS ARE THINE"
+    },
+    {
+      "number": 346,
+      "hymn_id": "CS1900-en-346",
+      "title": "THY PRESENCE HERE"
+    },
+    {
+      "number": 347,
+      "hymn_id": "CS1900-en-347",
+      "title": "WE DEDICATE TO THEE"
+    },
+    {
+      "number": 348,
+      "hymn_id": "CS1900-en-348",
+      "title": "COME, HOLY SPIRIT"
+    },
+    {
+      "number": 349,
+      "hymn_id": "CS1900-en-349",
+      "title": "THE SOLID ROCK"
+    },
+    {
+      "number": 350,
+      "hymn_id": "CS1900-en-350",
+      "title": "WALKING WITH GOD"
+    },
+    {
+      "number": 351,
+      "hymn_id": "CS1900-en-351",
+      "title": "ARISE, MY SOUL, ARISE!"
+    },
+    {
+      "number": 352,
+      "hymn_id": "CS1900-en-352",
+      "title": "THE JUBILEE"
+    },
+    {
+      "number": 353,
+      "hymn_id": "CS1900-en-353",
+      "title": "GOD'S REST"
+    },
+    {
+      "number": 354,
+      "hymn_id": "CS1900-en-354",
+      "title": "LORD, DISMISS US"
+    },
+    {
+      "number": 355,
+      "hymn_id": "CS1900-en-355",
+      "title": "PRAISE FOR TRUTH"
+    },
+    {
+      "number": 356,
+      "hymn_id": "CS1900-en-356",
+      "title": "PRAISE THE LORD"
+    },
+    {
+      "number": 357,
+      "hymn_id": "CS1900-en-357",
+      "title": "SAFELY THRO' ANOTHER WEEK"
+    },
+    {
+      "number": 358,
+      "hymn_id": "CS1900-en-358",
+      "title": "DAY OF REST AND GLADNESS"
+    },
+    {
+      "number": 359,
+      "hymn_id": "CS1900-en-359",
+      "title": "WELCOME, WELCOME"
+    },
+    {
+      "number": 360,
+      "hymn_id": "CS1900-en-360",
+      "title": "HOW SWEET!"
+    },
+    {
+      "number": 361,
+      "hymn_id": "CS1900-en-361",
+      "title": "COME, FEED THY SHEEP"
+    },
+    {
+      "number": 362,
+      "hymn_id": "CS1900-en-362",
+      "title": "COME, THOU ALMIGHTY KING"
+    },
+    {
+      "number": 363,
+      "hymn_id": "CS1900-en-363",
+      "title": "WELCOME, DELIGHTFUL MORN!"
+    },
+    {
+      "number": 379,
+      "hymn_id": "CS1900-en-379",
+      "title": "SOMETHING FOR JESUS"
+    },
+    {
+      "number": 380,
+      "hymn_id": "CS1900-en-380",
+      "title": "I LOVE TO TELL THE STORY"
+    },
+    {
+      "number": 381,
+      "hymn_id": "CS1900-en-381",
+      "title": "WORKING, O CHRIST, WITH THEE"
+    },
+    {
+      "number": 382,
+      "hymn_id": "CS1900-en-382",
+      "title": "GIVE ME THE BIBLE"
+    },
+    {
+      "number": 383,
+      "hymn_id": "CS1900-en-383",
+      "title": "STAND LIKE THE BRAVE"
+    },
+    {
+      "number": 384,
+      "hymn_id": "CS1900-en-384",
+      "title": "HOLD ON"
+    },
+    {
+      "number": 385,
+      "hymn_id": "CS1900-en-385",
+      "title": "MASTER, HAST THOU WORK FOR ME"
+    },
+    {
+      "number": 386,
+      "hymn_id": "CS1900-en-386",
+      "title": "IT IS WELL WITH MY SOUL"
+    },
+    {
+      "number": 387,
+      "hymn_id": "CS1900-en-387",
+      "title": "LET THE LOWER LIGHTS BE BURNING"
+    },
+    {
+      "number": 388,
+      "hymn_id": "CS1900-en-388",
+      "title": "KEEP STEP"
+    },
+    {
+      "number": 389,
+      "hymn_id": "CS1900-en-389",
+      "title": "HEAR THE PENNIES DROPPING"
+    },
+    {
+      "number": 390,
+      "hymn_id": "CS1900-en-390",
+      "title": "I'LL GO WHERE YOU WANT ME TO GO"
+    },
+    {
+      "number": 391,
+      "hymn_id": "CS1900-en-391",
+      "title": "TIS LOVE THAT MAKES US HAPPY"
+    },
+    {
+      "number": 392,
+      "hymn_id": "CS1900-en-392",
+      "title": "TIS SO SWEET TO TRUST IN JESUS"
+    },
+    {
+      "number": 393,
+      "hymn_id": "CS1900-en-393",
+      "title": "DRAW ME CLOSER TO THEE"
+    },
+    {
+      "number": 394,
+      "hymn_id": "CS1900-en-394",
+      "title": "ONE MORE NEW DAY"
+    },
+    {
+      "number": 395,
+      "hymn_id": "CS1900-en-395",
+      "title": "ONE MORE DAY'S WORK FOR JESUS"
+    },
+    {
+      "number": 396,
+      "hymn_id": "CS1900-en-396",
+      "title": "RESCUE THE PERISHING"
+    },
+    {
+      "number": 397,
+      "hymn_id": "CS1900-en-397",
+      "title": "THE CALL FOR REAPERS"
+    },
+    {
+      "number": 398,
+      "hymn_id": "CS1900-en-398",
+      "title": "THROW OUT THE LIFE-LINE!"
+    },
+    {
+      "number": 400,
+      "hymn_id": "CS1900-en-400",
+      "title": "LIFT HIM UP"
+    },
+    {
+      "number": 401,
+      "hymn_id": "CS1900-en-401",
+      "title": "THE FAITHFUL THREE"
+    },
+    {
+      "number": 402,
+      "hymn_id": "CS1900-en-402",
+      "title": "Silent Messengers"
+    },
+    {
+      "number": 403,
+      "hymn_id": "CS1900-en-403",
+      "title": "NEVER TURN BACK"
+    },
+    {
+      "number": 404,
+      "hymn_id": "CS1900-en-404",
+      "title": "ANOTHER SIX DAYS' WORK"
+    },
+    {
+      "number": 405,
+      "hymn_id": "CS1900-en-405",
+      "title": "NOT A WASTED MOMENT"
+    },
+    {
+      "number": 406,
+      "hymn_id": "CS1900-en-406",
+      "title": "SEEKING THE LOST"
+    },
+    {
+      "number": 407,
+      "hymn_id": "CS1900-en-407",
+      "title": "FREELY GIVE"
+    },
+    {
+      "number": 408,
+      "hymn_id": "CS1900-en-408",
+      "title": "AN OPEN BIBLE FOR THE WORLD"
+    },
+    {
+      "number": 409,
+      "hymn_id": "CS1900-en-409",
+      "title": "Silent Messengers"
+    },
+    {
+      "number": 410,
+      "hymn_id": "CS1900-en-410",
+      "title": "We'll Live in Tents"
+    },
+    {
+      "number": 411,
+      "hymn_id": "CS1900-en-411",
+      "title": "O Where Are the Reapers?"
+    },
+    {
+      "number": 412,
+      "hymn_id": "CS1900-en-412",
+      "title": "How Much I Need Thee"
+    },
+    {
+      "number": 413,
+      "hymn_id": "CS1900-en-413",
+      "title": "I Need Thee Every Hour"
+    },
+    {
+      "number": 414,
+      "hymn_id": "CS1900-en-414",
+      "title": "On Time"
+    },
+    {
+      "number": 415,
+      "hymn_id": "CS1900-en-415",
+      "title": "Moment by Moment"
+    },
+    {
+      "number": 416,
+      "hymn_id": "CS1900-en-416",
+      "title": "Anywhere with Jesus"
+    },
+    {
+      "number": 417,
+      "hymn_id": "CS1900-en-417",
+      "title": "Stand on the Rock"
+    },
+    {
+      "number": 418,
+      "hymn_id": "CS1900-en-418",
+      "title": "All My Class"
+    },
+    {
+      "number": 419,
+      "hymn_id": "CS1900-en-419",
+      "title": "Tell It to Jesus"
+    },
+    {
+      "number": 452,
+      "hymn_id": "CS1900-en-452",
+      "title": "Casting All Your Care Upon Him"
+    },
+    {
+      "number": 453,
+      "hymn_id": "CS1900-en-453",
+      "title": "Watch and Pray"
+    },
+    {
+      "number": 454,
+      "hymn_id": "CS1900-en-454",
+      "title": "Strike for Victory"
+    },
+    {
+      "number": 455,
+      "hymn_id": "CS1900-en-455",
+      "title": "I'll Be a Sunbeam"
+    },
+    {
+      "number": 456,
+      "hymn_id": "CS1900-en-456",
+      "title": "Beautiful Flowers"
+    },
+    {
+      "number": 457,
+      "hymn_id": "CS1900-en-457",
+      "title": "A Child of the King"
+    },
+    {
+      "number": 458,
+      "hymn_id": "CS1900-en-458",
+      "title": "Pray for the Erring"
+    },
+    {
+      "number": 459,
+      "hymn_id": "CS1900-en-459",
+      "title": "Wait on the Lord"
+    },
+    {
+      "number": 460,
+      "hymn_id": "CS1900-en-460",
+      "title": "On the Mountain"
+    },
+    {
+      "number": 541,
+      "hymn_id": "CS1900-en-541",
+      "title": "Leave the Rest to God"
+    },
+    {
+      "number": 542,
+      "hymn_id": "CS1900-en-542",
+      "title": "THE PURE IN HEART"
+    },
+    {
+      "number": 543,
+      "hymn_id": "CS1900-en-543",
+      "title": "Control My Will"
+    },
+    {
+      "number": 544,
+      "hymn_id": "CS1900-en-544",
+      "title": "The Pure in Heart"
+    },
+    {
+      "number": 545,
+      "hymn_id": "CS1900-en-545",
+      "title": "Pilgrims, On!"
+    },
+    {
+      "number": 546,
+      "hymn_id": "CS1900-en-546",
+      "title": "Morn Breaks O'er Thee"
+    },
+    {
+      "number": 547,
+      "hymn_id": "CS1900-en-547",
+      "title": "Lead, Kindly Light"
+    },
+    {
+      "number": 548,
+      "hymn_id": "CS1900-en-548",
+      "title": "Holy Spirit, Faithful Guide"
+    },
+    {
+      "number": 549,
+      "hymn_id": "CS1900-en-549",
+      "title": "Stretch Every Nerve"
+    },
+    {
+      "number": 550,
+      "hymn_id": "CS1900-en-550",
+      "title": "He Will Keep Us"
+    },
+    {
+      "number": 551,
+      "hymn_id": "CS1900-en-551",
+      "title": "Firm as a Rock"
+    },
+    {
+      "number": 552,
+      "hymn_id": "CS1900-en-552",
+      "title": "One Living Faith"
+    },
+    {
+      "number": 553,
+      "hymn_id": "CS1900-en-553",
+      "title": "A Soldier of the Cross"
+    },
+    {
+      "number": 554,
+      "hymn_id": "CS1900-en-554",
+      "title": "Each Returning Morn"
+    },
+    {
+      "number": 555,
+      "hymn_id": "CS1900-en-555",
+      "title": "Be on Thy Guard"
+    },
+    {
+      "number": 556,
+      "hymn_id": "CS1900-en-556",
+      "title": "Cast Thy Burden on the Lord"
+    },
+    {
+      "number": 557,
+      "hymn_id": "CS1900-en-557",
+      "title": "Evening Blessing"
+    },
+    {
+      "number": 558,
+      "hymn_id": "CS1900-en-558",
+      "title": "He Will Not Let Thy Foot Be Moved"
+    },
+    {
+      "number": 559,
+      "hymn_id": "CS1900-en-559",
+      "title": "I FOLLOW ON"
+    },
+    {
+      "number": 560,
+      "hymn_id": "CS1900-en-560",
+      "title": "NEARER, MY GOD, TO THEE"
+    },
+    {
+      "number": 561,
+      "hymn_id": "CS1900-en-561",
+      "title": "SPEND AND BE SPENT"
+    },
+    {
+      "number": 562,
+      "hymn_id": "CS1900-en-562",
+      "title": "GENTLY THINK AND SPEAK"
+    },
+    {
+      "number": 563,
+      "hymn_id": "CS1900-en-563",
+      "title": "IN LOWLY PATHS"
+    },
+    {
+      "number": 564,
+      "hymn_id": "CS1900-en-564",
+      "title": "THOUGH NATURE WEEPS"
+    },
+    {
+      "number": 565,
+      "hymn_id": "CS1900-en-565",
+      "title": "IS MY NAME WRITTEN THERE?"
+    },
+    {
+      "number": 566,
+      "hymn_id": "CS1900-en-566",
+      "title": "I SHALL BE SATISFIED"
+    },
+    {
+      "number": 567,
+      "hymn_id": "CS1900-en-567",
+      "title": "WHEN I SHALL AWAKE"
+    },
+    {
+      "number": 568,
+      "hymn_id": "CS1900-en-568",
+      "title": "BEAUTIFUL ROBES"
+    },
+    {
+      "number": 569,
+      "hymn_id": "CS1900-en-569",
+      "title": "WE WOULD SEE JESUS"
+    },
+    {
+      "number": 570,
+      "hymn_id": "CS1900-en-570",
+      "title": "GOLDEN DAWNING"
+    },
+    {
+      "number": 571,
+      "hymn_id": "CS1900-en-571",
+      "title": "ONE SWEETLY SOLEMN THOUGHT"
+    },
+    {
+      "number": 572,
+      "hymn_id": "CS1900-en-572",
+      "title": "THE BRIGHT FOREVER"
+    },
+    {
+      "number": 573,
+      "hymn_id": "CS1900-en-573",
+      "title": "HE GIVETH HIS BELOVED SLEEP"
+    },
+    {
+      "number": 574,
+      "hymn_id": "CS1900-en-574",
+      "title": "BEAUTIFUL VALLEY OF EDEN"
+    },
+    {
+      "number": 575,
+      "hymn_id": "CS1900-en-575",
+      "title": "WHEN THE KING SHALL CLAIM HIS OWN"
+    },
+    {
+      "number": 576,
+      "hymn_id": "CS1900-en-576",
+      "title": "THE BEAUTIFUL BEYOND"
+    },
+    {
+      "number": 577,
+      "hymn_id": "CS1900-en-577",
+      "title": "JEWELS"
+    },
+    {
+      "number": 578,
+      "hymn_id": "CS1900-en-578",
+      "title": "JESUS COMES"
+    },
+    {
+      "number": 579,
+      "hymn_id": "CS1900-en-579",
+      "title": "WE KNOW NOT THE HOUR"
+    },
+    {
+      "number": 580,
+      "hymn_id": "CS1900-en-580",
+      "title": "Truth Crushed to Earth"
+    },
+    {
+      "number": 581,
+      "hymn_id": "CS1900-en-581",
+      "title": "The One Thing Needful"
+    },
+    {
+      "number": 582,
+      "hymn_id": "CS1900-en-582",
+      "title": "Be Not Afraid"
+    },
+    {
+      "number": 583,
+      "hymn_id": "CS1900-en-583",
+      "title": "God, Our Refuge"
+    },
+    {
+      "number": 584,
+      "hymn_id": "CS1900-en-584",
+      "title": "Ye Christian Heralds!"
+    },
+    {
+      "number": 664,
+      "hymn_id": "CS1900-en-664",
+      "title": "Behold the Bridegroom"
+    },
+    {
+      "number": 689,
+      "hymn_id": "CS1900-en-689",
+      "title": "We Shall Meet By and By"
+    },
+    {
+      "number": 715,
+      "hymn_id": "CS1900-en-715",
+      "title": "Hail to the Brightness"
+    },
+    {
+      "number": 716,
+      "hymn_id": "CS1900-en-716",
+      "title": "Daughter of Zion"
+    },
+    {
+      "number": 717,
+      "hymn_id": "CS1900-en-717",
+      "title": "Trust in the Lord"
+    },
+    {
+      "number": 718,
+      "hymn_id": "CS1900-en-718",
+      "title": "Trusting in the Lord"
+    },
+    {
+      "number": 719,
+      "hymn_id": "CS1900-en-719",
+      "title": "Break, Eternal Day"
+    },
+    {
+      "number": 720,
+      "hymn_id": "CS1900-en-720",
+      "title": "Jesus Is Coming Again"
+    },
+    {
+      "number": 721,
+      "hymn_id": "CS1900-en-721",
+      "title": "Even at the Door"
+    },
+    {
+      "number": 722,
+      "hymn_id": "CS1900-en-722",
+      "title": "The Evergreen Shore"
+    },
+    {
+      "number": 723,
+      "hymn_id": "CS1900-en-723",
+      "title": "Safe Within the Veil"
+    },
+    {
+      "number": 724,
+      "hymn_id": "CS1900-en-724",
+      "title": "On Jordan's Stormy Banks"
+    },
+    {
+      "number": 725,
+      "hymn_id": "CS1900-en-725",
+      "title": "A Few More Years"
+    },
+    {
+      "number": 726,
+      "hymn_id": "CS1900-en-726",
+      "title": "The Time Is Near"
+    },
+    {
+      "number": 727,
+      "hymn_id": "CS1900-en-727",
+      "title": "No Abiding City Here"
+    },
+    {
+      "number": 728,
+      "hymn_id": "CS1900-en-728",
+      "title": "The Time Is Near"
+    },
+    {
+      "number": 729,
+      "hymn_id": "CS1900-en-729",
+      "title": "THE HOMELAND DEAR"
+    },
+    {
+      "number": 730,
+      "hymn_id": "CS1900-en-730",
+      "title": "We'll Stand the Storm"
+    },
+    {
+      "number": 731,
+      "hymn_id": "CS1900-en-731",
+      "title": "Rest for the Weary"
+    },
+    {
+      "number": 732,
+      "hymn_id": "CS1900-en-732",
+      "title": "Hark! That Shout!"
+    },
+    {
+      "number": 733,
+      "hymn_id": "CS1900-en-733",
+      "title": "Patience, Bids Us Wait"
+    },
+    {
+      "number": 734,
+      "hymn_id": "CS1900-en-734",
+      "title": "Redemption Nigh"
+    },
+    {
+      "number": 735,
+      "hymn_id": "CS1900-en-735",
+      "title": "Rest for the Toiling Hand"
+    },
+    {
+      "number": 736,
+      "hymn_id": "CS1900-en-736",
+      "title": "When Thou Shalt Come"
+    },
+    {
+      "number": 737,
+      "hymn_id": "CS1900-en-737",
+      "title": "Bear Me On"
+    },
+    {
+      "number": 738,
+      "hymn_id": "CS1900-en-738",
+      "title": "My Rest Is in Heaven"
+    },
+    {
+      "number": 739,
+      "hymn_id": "CS1900-en-739",
+      "title": "We Would Not Weep"
+    },
+    {
+      "number": 740,
+      "hymn_id": "CS1900-en-740",
+      "title": "Gone to Rest"
+    },
+    {
+      "number": 741,
+      "hymn_id": "CS1900-en-741",
+      "title": "No Sorrow There"
+    },
+    {
+      "number": 742,
+      "hymn_id": "CS1900-en-742",
+      "title": "Meet Again"
+    }
+  ]
+}

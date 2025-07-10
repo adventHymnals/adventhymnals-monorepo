@@ -195,6 +195,16 @@ class RecentlyViewedProvider extends ChangeNotifier {
     await loadRecentlyViewed(userId: userId);
   }
 
+  // Remove specific hymn from recently viewed (used by UI)
+  Future<void> removeFromRecent(Hymn hymn, {String userId = 'default'}) async {
+    await removeRecentlyViewed(hymn.id, userId: userId);
+  }
+
+  // Clear all recently viewed (used by UI)
+  Future<void> clearAll({String userId = 'default'}) async {
+    await clearRecentlyViewed(userId: userId);
+  }
+
   // Private methods
   void _setLoadingState(RecentlyViewedLoadingState state) {
     _loadingState = state;

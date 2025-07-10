@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-319",
+  "number": 319,
+  "title": "Lord, I Want to Be a Christian",
+  "author": "Traditional Spiritual",
+  "composer": "Traditional Spiritual",
+  "tune": "I WANT TO BE A CHRISTIAN",
+  "meter": "10.6.10.6 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, I want to be a Christian\nIn my heart, in my heart;\nLord, I want to be a Christian\nIn my heart."
+    },
+    {
+      "number": 2,
+      "text": "Lord, I want to be more loving\nIn my heart, in my heart;\nLord, I want to be more loving\nIn my heart."
+    },
+    {
+      "number": 3,
+      "text": "Lord, I want to be more holy\nIn my heart, in my heart;\nLord, I want to be more holy\nIn my heart."
+    },
+    {
+      "number": 4,
+      "text": "Lord, I want to be like Jesus\nIn my heart, in my heart;\nLord, I want to be like Jesus\nIn my heart."
+    }
+  ],
+  "chorus": {
+    "text": "In my heart, in my heart,\nIn my heart, in my heart."
+  },
+  "metadata": {
+    "themes": [
+      "commitment",
+      "spiritual growth",
+      "prayer"
+    ],
+    "scripture_references": [
+      "Romans 10:9",
+      "1 John 3:2"
+    ],
+    "tune_source": "Traditional Spiritual",
+    "original_language": "en"
+  }
+}

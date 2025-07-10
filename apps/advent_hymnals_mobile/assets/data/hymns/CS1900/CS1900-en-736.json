@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-736",
+  "number": 736,
+  "title": "When Thou Shalt Come",
+  "author": "Mrs. E. R. Latta",
+  "composer": "Mrs. E. R. Latta",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When Thou shalt come with Thy bright crown, That glo-rious vic-tor's diadem,\nMay I be there be-fore Thy throne, And wear a crown that comes from Him."
+    },
+    {
+      "number": 2,
+      "text": "When Thou shalt come with all Thy saints, That glo-rious com-pa-ny so fair,\nMay I be num-bered with Thy saints, And of Thy glo-ry have a share."
+    },
+    {
+      "number": 3,
+      "text": "When Thou shalt come to claim Thy bride, That spot-less, pure, and glo-rious band,\nMay I be stand-ing by Thy side, And wear a robe made by Thy hand."
+    }
+  ],
+  "chorus": {
+    "text": "When Thou shalt come, when Thou shalt come,\nTo take Thy wait-ing church a-way;\nWhen Thou shalt come, when Thou shalt come,\nO blessed, blessed, glo-rious day!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "second coming",
+      "crowns",
+      "saints",
+      "bride of Christ"
+    ],
+    "scripture_references": [],
+    "tune_source": "Mrs. E. R. Latta",
+    "original_language": "en"
+  }
+}

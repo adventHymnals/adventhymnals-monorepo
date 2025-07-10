@@ -1,0 +1,34 @@
+{
+  "id": "CS1900-en-360",
+  "number": 360,
+  "title": "HOW SWEET!",
+  "author": "Mrs. Phelan",
+  "composer": "E. M. Koscher",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How sweet it is this eve-ning, The peace of Je-sus o'er us,\nThe love of God sur-round-ing, The Ho-ly Spir-it near us;\nTo rest our souls in thought of thee, And feel thy love and sweet re-pose,\nFor thou art light and life to me, And more than all the world be-stows."
+    },
+    {
+      "number": 2,
+      "text": "How sweet to know that Je-sus, Our pre-cious Lord and Sav-ior,\nIs wait-ing to re-ceive us, With his e-ter-nal fa-vor;\nThat when this earth-ly pil-grim-age, And all its cares shall end,\nWe'll dwell with him through-out the age, Our dear-est, best-est Friend."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "peace",
+      "Jesus",
+      "love",
+      "eternal life"
+    ],
+    "scripture_references": [],
+    "tune_source": "E. M. Koscher",
+    "original_language": "en"
+  }
+}

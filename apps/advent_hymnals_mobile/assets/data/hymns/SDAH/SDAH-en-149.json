@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-149",
+  "number": 149,
+  "title": "Once in Royal David's City",
+  "author": "Cecil Frances Alexander",
+  "composer": "Henry J. Gauntlett",
+  "tune": "Irby",
+  "meter": "8.7.8.7.7.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Once in royal David's city\nStood a lowly cattle shed,\nWhere a mother laid her Baby\nIn a manger for His bed:\nMary was that mother mild,\nJesus Christ her little Child."
+    },
+    {
+      "number": 2,
+      "text": "He came down to earth from heaven\nWho is God and Lord of all,\nAnd His shelter was a stable,\nAnd His cradle was a stall:\nWith the poor, and mean, and lowly\nLived on earth our Savior holy."
+    },
+    {
+      "number": 3,
+      "text": "And through all His wondrous childhood\nHe would honor and obey,\nLove and watch the lowly mother\nIn whose gentle arms He lay:\nChristian children all must be\nMild, obedient, good as He."
+    },
+    {
+      "number": 4,
+      "text": "And our eyes at last shall see Him,\nThrough His own redeeming love;\nFor that Child so dear and gentle\nIs our Lord in heaven above:\nAnd He leads His children on\nTo the place where He is gone."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1848,
+    "copyright": null,
+    "themes": [
+      "christmas",
+      "nativity",
+      "incarnation",
+      "christ_child",
+      "humility"
+    ],
+    "scripture_references": [
+      "Luke 2:1-20"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

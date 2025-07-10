@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-338",
+  "number": 338,
+  "title": "AT THY FEET",
+  "author": "Fanny J. Crosby",
+  "composer": "Ira D. Sankey",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "At thy feet I'm waiting, weary, worn and sad;\nThou hast promised rest for all the heavy-laden;\nAt thy feet I'm waiting, thou hast called me here;\nWilt thou not my burden take and make me glad?"
+    },
+    {
+      "number": 2,
+      "text": "Thou hast said,'Come unto me all ye that labor, and are heavy laden,'\nBut thou hast yet not told me: 'Wilt thou in Christ thy rest,'\nThou hast said that thou wilt give me rest and peace;\nWilt thou not in mercy make my soul at rest?"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "rest",
+      "weariness",
+      "burden"
+    ],
+    "scripture_references": [],
+    "tune_source": "Ira D. Sankey",
+    "original_language": "en"
+  }
+}

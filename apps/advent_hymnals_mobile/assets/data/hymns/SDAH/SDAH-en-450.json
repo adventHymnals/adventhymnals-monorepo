@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-450",
+  "number": 450,
+  "title": "Beautiful Zion",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "BEAUTIFUL ZION",
+  "meter": "7.6.7.6",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Beautiful Zion, built above,\nBeautiful city that I love;"
+    },
+    {
+      "number": 2,
+      "text": "Beautiful trees forever there,\nBeautiful fruit they always bear;"
+    },
+    {
+      "number": 3,
+      "text": "Beautiful crowns on every brow,\nBeautiful palms the conquerors show;"
+    }
+  ],
+  "chorus": {
+    "text": "Beautiful gates of pearly white,\nBeautiful rivers clear and bright,\nBeautiful robes the ransomed wear,\nBeautiful temple, God its light,\nBeautiful fountains never dry,\nBeautiful all who enter there."
+  },
+  "metadata": {
+    "year": 1875,
+    "copyright": "Public Domain",
+    "themes": [
+      "Zion",
+      "heavenly city",
+      "beauty",
+      "gates of pearl",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "Revelation 21:2",
+      "Revelation 21:21",
+      "Revelation 22:1-2"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-357",
+  "number": 357,
+  "title": "Come, Labor On",
+  "author": "Jane Laurie Borthwick",
+  "composer": "T. Tertius Noble",
+  "tune": "ORO LABORA",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, labor on. Who dares stand idle on the harvest plain While all around him waves the golden grain? And to each servant does the Master say, \"Go work today.\""
+    },
+    {
+      "number": 2,
+      "text": "Come, labor on. Claim the high calling angels cannot share; To young and old the gospel gladness bear; Redeem the time; its hours too swiftly fly. The night draws nigh."
+    },
+    {
+      "number": 3,
+      "text": "Come, labor on. No time for rest, till glows the western sky, Till the long shadows o'er our pathway lie, And a glad sound comes with the setting sun, \"Well done, well done!\""
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1863,
+    "copyright": null,
+    "themes": [
+      "Work",
+      "Harvest",
+      "Service",
+      "Gospel",
+      "Stewardship"
+    ],
+    "scripture_references": [
+      "Matthew 9:37-38",
+      "John 9:4",
+      "Matthew 25:21"
+    ],
+    "tune_source": "T. Tertius Noble",
+    "original_language": "en"
+  }
+}

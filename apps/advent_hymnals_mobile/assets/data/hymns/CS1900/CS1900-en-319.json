@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-319",
+  "number": 319,
+  "title": "Happy Day",
+  "author": "P. Doddridge",
+  "composer": "E. F. Rimbault",
+  "tune": "Happy Day",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O happy day that fixed my choice On thee, my Savior and my God! Well may this glowing heart rejoice, And tell its raptures all abroad."
+    },
+    {
+      "number": 2,
+      "text": "O happy bond, that seals my vows To him who merits all my love! Let cheerful anthems fill his house, While to that sacred shrine I move."
+    },
+    {
+      "number": 3,
+      "text": "High heaven, that heard the solemn vow, That vow renewed shall daily hear, Till in life's latest hour I bow, And bless in death a bond so dear."
+    }
+  ],
+  "chorus": {
+    "text": "Happy day, happy day, When Jesus washed my sins away! He taught me how to watch and pray, And live rejoicing every day; Happy day, happy day, When Jesus washed my sins away!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "salvation",
+      "joy",
+      "commitment",
+      "baptism"
+    ],
+    "scripture_references": [
+      "Acts 8:39"
+    ],
+    "tune_source": "E. F. Rimbault",
+    "original_language": "en"
+  }
+}

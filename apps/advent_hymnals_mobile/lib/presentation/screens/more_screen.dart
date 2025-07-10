@@ -214,6 +214,13 @@ class MoreScreen extends StatelessWidget {
             // Show share feature info
           },
         ),
+        _buildFeatureItem(
+          context,
+          icon: Icons.tv,
+          title: 'Projector Mode',
+          subtitle: 'Display hymns for projection',
+          onTap: () => context.push('/projector'),
+        ),
       ],
     );
   }
@@ -261,6 +268,13 @@ class MoreScreen extends StatelessWidget {
             // Open app store rating
           },
         ),
+        const SizedBox(height: AppSizes.spacing16),
+        Text(
+          'Connect With Us',
+          style: Theme.of(context).textTheme.titleMedium,
+        ),
+        const SizedBox(height: AppSizes.spacing8),
+        _buildSocialRow(context),
       ],
     );
   }
@@ -403,6 +417,197 @@ class MoreScreen extends StatelessWidget {
         subtitle: Text(subtitle),
         trailing: const Icon(Icons.arrow_forward_ios, size: 16),
         onTap: onTap,
+      ),
+    );
+  }
+
+  Widget _buildSocialRow(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(vertical: AppSizes.spacing12),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          _buildSocialButton(
+            context,
+            icon: Icons.language,
+            label: 'Website',
+            color: Color(AppColors.primaryBlue),
+            onTap: () {
+              // Open website: https://adventhymnals.org
+              _showWebsiteDialog(context);
+            },
+          ),
+          _buildSocialButton(
+            context,
+            icon: Icons.video_library,
+            label: 'YouTube',
+            color: const Color(0xFFFF0000), // YouTube red
+            onTap: () {
+              // Open YouTube channel
+              _showYouTubeDialog(context);
+            },
+          ),
+          _buildSocialButton(
+            context,
+            icon: Icons.code,
+            label: 'GitHub',
+            color: const Color(0xFF24292e), // GitHub dark
+            onTap: () {
+              // Open GitHub repository
+              _showGitHubDialog(context);
+            },
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildSocialButton(
+    BuildContext context, {
+    required IconData icon,
+    required String label,
+    required Color color,
+    required VoidCallback onTap,
+  }) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.symmetric(
+          horizontal: AppSizes.spacing16,
+          vertical: AppSizes.spacing12,
+        ),
+        decoration: BoxDecoration(
+          color: color.withOpacity(0.1),
+          borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
+          border: Border.all(color: color.withOpacity(0.3)),
+        ),
+        child: Column(
+          children: [
+            Icon(icon, color: color, size: AppSizes.iconSize),
+            const SizedBox(height: AppSizes.spacing4),
+            Text(
+              label,
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                color: color,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _showWebsiteDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Visit Our Website'),
+        content: const Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text('Visit our website to explore more hymnal resources:'),
+            SizedBox(height: 16),
+            SelectableText(
+              'https://adventhymnals.org',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+              ),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Close'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context);
+              // In a real app, this would open the URL
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(content: Text('Opening website...')),
+              );
+            },
+            child: const Text('Open Website'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showYouTubeDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('YouTube Channel'),
+        content: const Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text('Subscribe to our YouTube channel for:'),
+            SizedBox(height: 12),
+            Text('• Hymn tutorials and singalongs'),
+            Text('• Historical information about hymns'),
+            Text('• Live streaming of services'),
+            Text('• Educational content'),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Close'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context);
+              // In a real app, this would open the YouTube channel
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(content: Text('Opening YouTube channel...')),
+              );
+            },
+            child: const Text('Open YouTube'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showGitHubDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Open Source Project'),
+        content: const Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('This app is open source! Visit our GitHub to:'),
+            SizedBox(height: 12),
+            Text('• View the source code'),
+            Text('• Report issues or bugs'),
+            Text('• Contribute to development'),
+            Text('• Request new features'),
+            SizedBox(height: 12),
+            Text('Repository: GospelSounders/adventhymnals'),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Close'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context);
+              // In a real app, this would open the GitHub repository
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(content: Text('Opening GitHub repository...')),
+              );
+            },
+            child: const Text('Open GitHub'),
+          ),
+        ],
       ),
     );
   }

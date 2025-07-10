@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-087",
+  "number": 87,
+  "title": "God Who Spoke in the Beginning",
+  "author": "Fred Kaan",
+  "composer": "David McCarthy",
+  "tune": "Beginnings",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God who spoke in the beginning,\nForming rock and shaping spar,\nSet all life and growth in motion,\nEarthly world and distant star;"
+    },
+    {
+      "number": 2,
+      "text": "God who spoke thro' men and nations,\nThro' events long past and gone,\nShowing still to day His purpose,\nSpeaks supremely through His Son;"
+    },
+    {
+      "number": 3,
+      "text": "God whose speech becomes incarnate\nChrist is servant, Christ is Lord\nCalls us to a life of service,\nHeart and will to action stirred:"
+    }
+  ],
+  "metadata": {
+    "year": 1968,
+    "copyright": "Words © 1968 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission. Music © 1975 Stainer & Bell, Ltd. and the Trustees for Methodist Church Purposes. (Admin. Hope Publishing Co., Carol Stream, IL 60188). All rights reserved. Used by permission.",
+    "themes": [
+      "Creation",
+      "God's Word",
+      "Christ",
+      "Service"
+    ],
+    "scripture_references": [],
+    "tune_source": "Beginnings",
+    "original_language": "en"
+  }
+}

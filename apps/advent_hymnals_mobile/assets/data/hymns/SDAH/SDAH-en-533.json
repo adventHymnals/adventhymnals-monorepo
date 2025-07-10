@@ -1,0 +1,46 @@
+{
+  "id": "SDAH-en-533",
+  "number": 533,
+  "title": "O for a Faith",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O for a faith that will not shrink,\nThough pressed by many a foe;\nThat will not tremble on the brink\nOf poverty or woe;"
+    },
+    {
+      "number": 2,
+      "text": "That will not murmur or complain\nBeneath the chastening rod,\nBut in the hour of grief or pain\nCan lean upon its God;"
+    },
+    {
+      "number": 3,
+      "text": "A faith that shines more bright and clear\nWhen tempests rage without;\nThat when in danger knows no fear,\nIn darkness feels no doubt;"
+    },
+    {
+      "number": 4,
+      "text": "That bears unmoved the world's dread frown,\nNor heeds its scornful smile;\nThat sin's wild ocean cannot drown,\nNor Satan's arts beguile;"
+    },
+    {
+      "number": 5,
+      "text": "Lord, give me such a faith as this,\nAnd then, whate'er may come,\nI'll taste e'en here the hallowed bliss\nOf an eternal home."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "faith",
+      "perseverance",
+      "trust",
+      "steadfastness"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

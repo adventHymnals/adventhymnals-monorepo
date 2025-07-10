@@ -1,6 +1,7 @@
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
+import 'dart:io';
 import '../constants/app_constants.dart';
 
 class DatabaseHelper {
@@ -17,15 +18,72 @@ class DatabaseHelper {
   }
 
   Future<Database> _initDatabase() async {
-    final documentsPath = await getApplicationDocumentsDirectory();
-    final path = join(documentsPath.path, AppConstants.databaseName);
+    try {
+      final directory = await _getOptimalDatabaseDirectory();
+      final path = join(directory.path, AppConstants.databaseName);
 
-    return await openDatabase(
-      path,
-      version: AppConstants.databaseVersion,
-      onCreate: _createDatabase,
-      onUpgrade: _upgradeDatabase,
-    );
+      // Ensure directory exists
+      if (!await directory.exists()) {
+        await directory.create(recursive: true);
+      }
+
+      print('Database location: $path');
+
+      return await openDatabase(
+        path,
+        version: AppConstants.databaseVersion,
+        onCreate: _createDatabase,
+        onUpgrade: _upgradeDatabase,
+      );
+    } catch (e) {
+      print('Failed to initialize database with optimal directory: $e');
+      
+      // Fallback: Try with a temporary database in memory
+      try {
+        print('Falling back to in-memory database');
+        return await openDatabase(
+          inMemoryDatabasePath,
+          version: AppConstants.databaseVersion,
+          onCreate: _createDatabase,
+          onUpgrade: _upgradeDatabase,
+        );
+      } catch (fallbackError) {
+        print('Failed to create in-memory database: $fallbackError');
+        throw Exception('Database initialization failed: $e');
+      }
+    }
+  }
+
+  /// Get the optimal database directory based on platform best practices
+  Future<Directory> _getOptimalDatabaseDirectory() async {
+    if (Platform.isAndroid || Platform.isIOS) {
+      // Mobile platforms: Use Documents directory (backed up on iOS, private on Android)
+      return await getApplicationDocumentsDirectory();
+    } else {
+      // Desktop platforms: Use Application Support directory
+      // This follows platform conventions:
+      // - Linux: ~/.local/share/advent_hymnals_mobile/
+      // - Windows: %APPDATA%\advent_hymnals_mobile\
+      // - macOS: ~/Library/Application Support/advent_hymnals_mobile/
+      try {
+        return await getApplicationSupportDirectory();
+      } catch (e) {
+        print('Application support directory not available, falling back to documents: $e');
+        return await getApplicationDocumentsDirectory();
+      }
+    }
+  }
+
+  /// Check if database is available and working
+  Future<bool> isDatabaseAvailable() async {
+    try {
+      final db = await database;
+      await db.rawQuery('SELECT 1');
+      return true;
+    } catch (e) {
+      print('Database availability check failed: $e');
+      return false;
+    }
   }
 
   Future<void> _createDatabase(Database db, int version) async {
@@ -459,6 +517,17 @@ class DatabaseHelper {
   Future<List<Map<String, dynamic>>> getCollections() async {
     final db = await database;
     return await db.query('collections', orderBy: 'name ASC');
+  }
+
+  Future<Map<String, dynamic>?> getCollectionByAbbreviation(String abbreviation) async {
+    final db = await database;
+    final result = await db.query(
+      'collections',
+      where: 'abbreviation = ?',
+      whereArgs: [abbreviation],
+      limit: 1,
+    );
+    return result.isNotEmpty ? result.first : null;
   }
 
   // Author operations

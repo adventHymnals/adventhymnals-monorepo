@@ -1,0 +1,3484 @@
+{
+  "id": "SDAH",
+  "title": "Seventh-day Adventist Hymnal",
+  "language": "en",
+  "year": 1985,
+  "publisher": "Review and Herald Publishing Association",
+  "hymns": [
+    {
+      "number": 1,
+      "hymn_id": "SDAH-en-001",
+      "title": "Praise to the Lord"
+    },
+    {
+      "number": 2,
+      "hymn_id": "SDAH-en-002",
+      "title": "All Creatures of Our God and King"
+    },
+    {
+      "number": 3,
+      "hymn_id": "SDAH-en-003",
+      "title": "God Himself Is With Us"
+    },
+    {
+      "number": 4,
+      "hymn_id": "SDAH-en-004",
+      "title": "Praise, My Soul, the King of Heaven"
+    },
+    {
+      "number": 5,
+      "hymn_id": "SDAH-en-005",
+      "title": "All My Hope on God Is Founded"
+    },
+    {
+      "number": 6,
+      "hymn_id": "SDAH-en-006",
+      "title": "O Worship the Lord"
+    },
+    {
+      "number": 7,
+      "hymn_id": "SDAH-en-007",
+      "title": "The Lord in Zion Reigneth"
+    },
+    {
+      "number": 8,
+      "hymn_id": "SDAH-en-008",
+      "title": "We Gather Together"
+    },
+    {
+      "number": 9,
+      "hymn_id": "SDAH-en-009",
+      "title": "Let All the World in Every Corner Sing"
+    },
+    {
+      "number": 10,
+      "hymn_id": "SDAH-en-010",
+      "title": "Come, Christians, Join to Sing"
+    },
+    {
+      "number": 11,
+      "hymn_id": "SDAH-en-011",
+      "title": "The God of Abraham Praise"
+    },
+    {
+      "number": 12,
+      "hymn_id": "SDAH-en-012",
+      "title": "Joyful, Joyful, We Adore Thee"
+    },
+    {
+      "number": 13,
+      "hymn_id": "SDAH-en-013",
+      "title": "New Songs of Celebration Render"
+    },
+    {
+      "number": 14,
+      "hymn_id": "SDAH-en-014",
+      "title": "Let Us Praise the Name of the Lord"
+    },
+    {
+      "number": 15,
+      "hymn_id": "SDAH-en-015",
+      "title": "My Maker and My King"
+    },
+    {
+      "number": 16,
+      "hymn_id": "SDAH-en-016",
+      "title": "All People That on Earth Do Dwell"
+    },
+    {
+      "number": 17,
+      "hymn_id": "SDAH-en-017",
+      "title": "Lord of All Being, Throned Afar"
+    },
+    {
+      "number": 18,
+      "hymn_id": "SDAH-en-018",
+      "title": "O Morning Star, How Fair and Bright"
+    },
+    {
+      "number": 19,
+      "hymn_id": "SDAH-en-019",
+      "title": "O Sing a New Song to the Lord"
+    },
+    {
+      "number": 20,
+      "hymn_id": "SDAH-en-020",
+      "title": "O Praise Ye the Lord"
+    },
+    {
+      "number": 21,
+      "hymn_id": "SDAH-en-021",
+      "title": "Immortal, Invisible, God Only Wise"
+    },
+    {
+      "number": 22,
+      "hymn_id": "SDAH-en-022",
+      "title": "God Is Our Song"
+    },
+    {
+      "number": 23,
+      "hymn_id": "SDAH-en-023",
+      "title": "Now the Joyful Bells A-Ringing"
+    },
+    {
+      "number": 24,
+      "hymn_id": "SDAH-en-024",
+      "title": "Every Star Shall Sing a Carol"
+    },
+    {
+      "number": 25,
+      "hymn_id": "SDAH-en-025",
+      "title": "Praise the Lord, His Glories Show"
+    },
+    {
+      "number": 26,
+      "hymn_id": "SDAH-en-026",
+      "title": "Praise the Lord! You Heavens Adore Him"
+    },
+    {
+      "number": 27,
+      "hymn_id": "SDAH-en-027",
+      "title": "Rejoice, Ye Pure in Heart"
+    },
+    {
+      "number": 28,
+      "hymn_id": "SDAH-en-028",
+      "title": "Praise We the Lord"
+    },
+    {
+      "number": 29,
+      "hymn_id": "SDAH-en-029",
+      "title": "Sing Praise to God"
+    },
+    {
+      "number": 30,
+      "hymn_id": "SDAH-en-030",
+      "title": "Holy God, We Praise Your Name"
+    },
+    {
+      "number": 31,
+      "hymn_id": "SDAH-en-031",
+      "title": "Tell Out, My Soul"
+    },
+    {
+      "number": 32,
+      "hymn_id": "SDAH-en-032",
+      "title": "When in Our Music God Is Glorified"
+    },
+    {
+      "number": 33,
+      "hymn_id": "SDAH-en-033",
+      "title": "Sing a New Song to the Lord"
+    },
+    {
+      "number": 34,
+      "hymn_id": "SDAH-en-034",
+      "title": "Wake the Song"
+    },
+    {
+      "number": 35,
+      "hymn_id": "SDAH-en-035",
+      "title": "With Songs and Honors"
+    },
+    {
+      "number": 36,
+      "hymn_id": "SDAH-en-036",
+      "title": "O Thou in Whose Presence"
+    },
+    {
+      "number": 37,
+      "hymn_id": "SDAH-en-037",
+      "title": "O Sing, My Soul, Your Maker's Praise"
+    },
+    {
+      "number": 38,
+      "hymn_id": "SDAH-en-038",
+      "title": "Arise, My Soul, Arise!"
+    },
+    {
+      "number": 39,
+      "hymn_id": "SDAH-en-039",
+      "title": "Lord, in the Morning"
+    },
+    {
+      "number": 40,
+      "hymn_id": "SDAH-en-040",
+      "title": "The Dawn of God's Dear Sabbath"
+    },
+    {
+      "number": 41,
+      "hymn_id": "SDAH-en-041",
+      "title": "O Splendor of God's Glory Bright"
+    },
+    {
+      "number": 42,
+      "hymn_id": "SDAH-en-042",
+      "title": "Now That the Daylight Fills the Sky"
+    },
+    {
+      "number": 43,
+      "hymn_id": "SDAH-en-043",
+      "title": "When Morning Gilds the Skies"
+    },
+    {
+      "number": 44,
+      "hymn_id": "SDAH-en-044",
+      "title": "Morning Has Broken"
+    },
+    {
+      "number": 45,
+      "hymn_id": "SDAH-en-045",
+      "title": "Open Now Thy Gates of Beauty"
+    },
+    {
+      "number": 46,
+      "hymn_id": "SDAH-en-046",
+      "title": "Abide With Me, 'Tis Eventide"
+    },
+    {
+      "number": 47,
+      "hymn_id": "SDAH-en-047",
+      "title": "God, Who Made the Earth and Heaven"
+    },
+    {
+      "number": 48,
+      "hymn_id": "SDAH-en-048",
+      "title": "Softly Now the Light of Day"
+    },
+    {
+      "number": 49,
+      "hymn_id": "SDAH-en-049",
+      "title": "Savior, Breathe an Evening Blessing"
+    },
+    {
+      "number": 50,
+      "hymn_id": "SDAH-en-050",
+      "title": "Abide With Me"
+    },
+    {
+      "number": 51,
+      "hymn_id": "SDAH-en-051",
+      "title": "Day Is Dying in the West"
+    },
+    {
+      "number": 52,
+      "hymn_id": "SDAH-en-052",
+      "title": "Now the Day Is Over"
+    },
+    {
+      "number": 53,
+      "hymn_id": "SDAH-en-053",
+      "title": "All Praise to Thee"
+    },
+    {
+      "number": 54,
+      "hymn_id": "SDAH-en-054",
+      "title": "O Gladsome Light"
+    },
+    {
+      "number": 55,
+      "hymn_id": "SDAH-en-055",
+      "title": "Jesus, Tender Shepherd, Hear Me"
+    },
+    {
+      "number": 56,
+      "hymn_id": "SDAH-en-056",
+      "title": "The Day Thou Gavest"
+    },
+    {
+      "number": 57,
+      "hymn_id": "SDAH-en-057",
+      "title": "Now All the Woods Are Sleeping"
+    },
+    {
+      "number": 58,
+      "hymn_id": "SDAH-en-058",
+      "title": "Hark, the Vesper Hymn Is Stealing"
+    },
+    {
+      "number": 59,
+      "hymn_id": "SDAH-en-059",
+      "title": "Great Our Joy as Now We Gather"
+    },
+    {
+      "number": 60,
+      "hymn_id": "SDAH-en-060",
+      "title": "Blessed Jesus, at Thy Word"
+    },
+    {
+      "number": 61,
+      "hymn_id": "SDAH-en-061",
+      "title": "God Is Here!"
+    },
+    {
+      "number": 62,
+      "hymn_id": "SDAH-en-062",
+      "title": "How Lovely Is Thy Dwelling Place"
+    },
+    {
+      "number": 63,
+      "hymn_id": "SDAH-en-063",
+      "title": "O Come, Let Us Sing to the Lord"
+    },
+    {
+      "number": 64,
+      "hymn_id": "SDAH-en-064",
+      "title": "Lord, Dismiss Us With Thy Blessing"
+    },
+    {
+      "number": 65,
+      "hymn_id": "SDAH-en-065",
+      "title": "God Be With You"
+    },
+    {
+      "number": 66,
+      "hymn_id": "SDAH-en-066",
+      "title": "God Be With You"
+    },
+    {
+      "number": 67,
+      "hymn_id": "SDAH-en-067",
+      "title": "O Lord, Now Let Your Servant"
+    },
+    {
+      "number": 68,
+      "hymn_id": "SDAH-en-068",
+      "title": "On Our Way Rejoicing"
+    },
+    {
+      "number": 69,
+      "hymn_id": "SDAH-en-069",
+      "title": "Lord, Make Us More Holy"
+    },
+    {
+      "number": 70,
+      "hymn_id": "SDAH-en-070",
+      "title": "Praise Ye the Father"
+    },
+    {
+      "number": 71,
+      "hymn_id": "SDAH-en-071",
+      "title": "Come, Thou Almighty King"
+    },
+    {
+      "number": 72,
+      "hymn_id": "SDAH-en-072",
+      "title": "Creator of the Stars of Night"
+    },
+    {
+      "number": 73,
+      "hymn_id": "SDAH-en-073",
+      "title": "Holy, Holy, Holy"
+    },
+    {
+      "number": 74,
+      "hymn_id": "SDAH-en-074",
+      "title": "Like a River Glorious"
+    },
+    {
+      "number": 75,
+      "hymn_id": "SDAH-en-075",
+      "title": "The Wonder of It All"
+    },
+    {
+      "number": 76,
+      "hymn_id": "SDAH-en-076",
+      "title": "O Love That Wilt Not Let Me Go"
+    },
+    {
+      "number": 77,
+      "hymn_id": "SDAH-en-077",
+      "title": "O Love of God Most Full"
+    },
+    {
+      "number": 78,
+      "hymn_id": "SDAH-en-078",
+      "title": "For God So Loved Us"
+    },
+    {
+      "number": 79,
+      "hymn_id": "SDAH-en-079",
+      "title": "O Love of God, How Strong and True!"
+    },
+    {
+      "number": 80,
+      "hymn_id": "SDAH-en-080",
+      "title": "O World of God"
+    },
+    {
+      "number": 81,
+      "hymn_id": "SDAH-en-081",
+      "title": "Though I Speak With Tongues"
+    },
+    {
+      "number": 82,
+      "hymn_id": "SDAH-en-082",
+      "title": "Before Jehovah's Awful Throne"
+    },
+    {
+      "number": 83,
+      "hymn_id": "SDAH-en-083",
+      "title": "O Worship the King"
+    },
+    {
+      "number": 84,
+      "hymn_id": "SDAH-en-084",
+      "title": "God the Omnipotent"
+    },
+    {
+      "number": 85,
+      "hymn_id": "SDAH-en-085",
+      "title": "Eternal Father, Strong to Save"
+    },
+    {
+      "number": 86,
+      "hymn_id": "SDAH-en-086",
+      "title": "How Great Thou Art"
+    },
+    {
+      "number": 87,
+      "hymn_id": "SDAH-en-087",
+      "title": "God Who Spoke in the Beginning"
+    },
+    {
+      "number": 88,
+      "hymn_id": "SDAH-en-088",
+      "title": "I Sing the Mighty Power of God"
+    },
+    {
+      "number": 89,
+      "hymn_id": "SDAH-en-089",
+      "title": "Let All on Earth Their Voices Raise"
+    },
+    {
+      "number": 90,
+      "hymn_id": "SDAH-en-090",
+      "title": "Eternal God, Whose Power Upholds"
+    },
+    {
+      "number": 91,
+      "hymn_id": "SDAH-en-091",
+      "title": "Ye Watchers and Ye Holy Ones"
+    },
+    {
+      "number": 92,
+      "hymn_id": "SDAH-en-092",
+      "title": "This Is My Father's World"
+    },
+    {
+      "number": 93,
+      "hymn_id": "SDAH-en-093",
+      "title": "All Things Bright and Beautiful"
+    },
+    {
+      "number": 94,
+      "hymn_id": "SDAH-en-094",
+      "title": "Nature With Open Volume Stands"
+    },
+    {
+      "number": 95,
+      "hymn_id": "SDAH-en-095",
+      "title": "Spring Has Now Unwrapped the Flowers"
+    },
+    {
+      "number": 96,
+      "hymn_id": "SDAH-en-096",
+      "title": "The Spacious Firmament"
+    },
+    {
+      "number": 97,
+      "hymn_id": "SDAH-en-097",
+      "title": "Lord of the Boundless Curves of Space"
+    },
+    {
+      "number": 98,
+      "hymn_id": "SDAH-en-098",
+      "title": "Can You Count the Stars?"
+    },
+    {
+      "number": 99,
+      "hymn_id": "SDAH-en-099",
+      "title": "God Will Take Care of You"
+    },
+    {
+      "number": 100,
+      "hymn_id": "SDAH-en-100",
+      "title": "Great Is Thy Faithfulness"
+    },
+    {
+      "number": 101,
+      "hymn_id": "SDAH-en-101",
+      "title": "Children of the Heavenly Father"
+    },
+    {
+      "number": 102,
+      "hymn_id": "SDAH-en-102",
+      "title": "Unto the Hills"
+    },
+    {
+      "number": 103,
+      "hymn_id": "SDAH-en-103",
+      "title": "O God, Our Help"
+    },
+    {
+      "number": 104,
+      "hymn_id": "SDAH-en-104",
+      "title": "My Shepherd Will Supply My Need"
+    },
+    {
+      "number": 105,
+      "hymn_id": "SDAH-en-105",
+      "title": "Sing to the Great Jehovah's Praise"
+    },
+    {
+      "number": 106,
+      "hymn_id": "SDAH-en-106",
+      "title": "Give to Our God Immortal Praise"
+    },
+    {
+      "number": 107,
+      "hymn_id": "SDAH-en-107",
+      "title": "God Moves in a Mysterious Way"
+    },
+    {
+      "number": 108,
+      "hymn_id": "SDAH-en-108",
+      "title": "Amazing Grace"
+    },
+    {
+      "number": 109,
+      "hymn_id": "SDAH-en-109",
+      "title": "Marvelous Grace"
+    },
+    {
+      "number": 110,
+      "hymn_id": "SDAH-en-110",
+      "title": "God's Free Mercy Streameth"
+    },
+    {
+      "number": 111,
+      "hymn_id": "SDAH-en-111",
+      "title": "It Took a Miracle"
+    },
+    {
+      "number": 112,
+      "hymn_id": "SDAH-en-112",
+      "title": "Let Us With a Gladsome Mind"
+    },
+    {
+      "number": 113,
+      "hymn_id": "SDAH-en-113",
+      "title": "As Pants the Hart"
+    },
+    {
+      "number": 114,
+      "hymn_id": "SDAH-en-114",
+      "title": "There's a Wideness"
+    },
+    {
+      "number": 115,
+      "hymn_id": "SDAH-en-115",
+      "title": "O Come, O Come, Immanuel"
+    },
+    {
+      "number": 116,
+      "hymn_id": "SDAH-en-116",
+      "title": "Of the Father's Love Begotten"
+    },
+    {
+      "number": 117,
+      "hymn_id": "SDAH-en-117",
+      "title": "The Advent of Our God"
+    },
+    {
+      "number": 118,
+      "hymn_id": "SDAH-en-118",
+      "title": "The First Noel"
+    },
+    {
+      "number": 119,
+      "hymn_id": "SDAH-en-119",
+      "title": "Angels From the Realms of Glory"
+    },
+    {
+      "number": 120,
+      "hymn_id": "SDAH-en-120",
+      "title": "Angels We Have Heard on High"
+    },
+    {
+      "number": 121,
+      "hymn_id": "SDAH-en-121",
+      "title": "Go, Tell It on the Mountain"
+    },
+    {
+      "number": 122,
+      "hymn_id": "SDAH-en-122",
+      "title": "Hark! the Herald Angels Sing"
+    },
+    {
+      "number": 123,
+      "hymn_id": "SDAH-en-123",
+      "title": "As With Gladness Men of Old"
+    },
+    {
+      "number": 124,
+      "hymn_id": "SDAH-en-124",
+      "title": "Away in a Manger"
+    },
+    {
+      "number": 125,
+      "hymn_id": "SDAH-en-125",
+      "title": "Joy to the World"
+    },
+    {
+      "number": 126,
+      "hymn_id": "SDAH-en-126",
+      "title": "In the Bleak Midwinter"
+    },
+    {
+      "number": 127,
+      "hymn_id": "SDAH-en-127",
+      "title": "Infant Holy, Infant Lowly"
+    },
+    {
+      "number": 128,
+      "hymn_id": "SDAH-en-128",
+      "title": "Break Forth, O Beauteous Heavenly Light"
+    },
+    {
+      "number": 129,
+      "hymn_id": "SDAH-en-129",
+      "title": "As It Fell Upon a Night"
+    },
+    {
+      "number": 130,
+      "hymn_id": "SDAH-en-130",
+      "title": "It Came Upon the Midnight Clear"
+    },
+    {
+      "number": 131,
+      "hymn_id": "SDAH-en-131",
+      "title": "Lo, How a Rose E'er Blooming"
+    },
+    {
+      "number": 132,
+      "hymn_id": "SDAH-en-132",
+      "title": "O Come, All Ye Faithful"
+    },
+    {
+      "number": 133,
+      "hymn_id": "SDAH-en-133",
+      "title": "Now Is Born the Divine Christ Child"
+    },
+    {
+      "number": 134,
+      "hymn_id": "SDAH-en-134",
+      "title": "O Jesus Sweet"
+    },
+    {
+      "number": 135,
+      "hymn_id": "SDAH-en-135",
+      "title": "O Little Town of Bethlehem"
+    },
+    {
+      "number": 136,
+      "hymn_id": "SDAH-en-136",
+      "title": "Good Christians, Now Rejoice"
+    },
+    {
+      "number": 137,
+      "hymn_id": "SDAH-en-137",
+      "title": "We Three Kings"
+    },
+    {
+      "number": 138,
+      "hymn_id": "SDAH-en-138",
+      "title": "Rise Up, Shepherd, and Follow"
+    },
+    {
+      "number": 139,
+      "hymn_id": "SDAH-en-139",
+      "title": "While Shepherds Watched Their Flocks"
+    },
+    {
+      "number": 140,
+      "hymn_id": "SDAH-en-140",
+      "title": "Thou Didst Leave Thy Throne"
+    },
+    {
+      "number": 141,
+      "hymn_id": "SDAH-en-141",
+      "title": "What Child Is This?"
+    },
+    {
+      "number": 142,
+      "hymn_id": "SDAH-en-142",
+      "title": "Angels We Have Heard on High"
+    },
+    {
+      "number": 143,
+      "hymn_id": "SDAH-en-143",
+      "title": "Silent Night, Holy Night"
+    },
+    {
+      "number": 144,
+      "hymn_id": "SDAH-en-144",
+      "title": "O Sing a Song of Bethlehem"
+    },
+    {
+      "number": 145,
+      "hymn_id": "SDAH-en-145",
+      "title": "Songs of Thankfulness and Praise"
+    },
+    {
+      "number": 146,
+      "hymn_id": "SDAH-en-146",
+      "title": "I Think When I Read That Sweet Story"
+    },
+    {
+      "number": 147,
+      "hymn_id": "SDAH-en-147",
+      "title": "Christ Upon the Mountain Peak"
+    },
+    {
+      "number": 148,
+      "hymn_id": "SDAH-en-148",
+      "title": "O Love, How Deep, How Broad"
+    },
+    {
+      "number": 149,
+      "hymn_id": "SDAH-en-149",
+      "title": "Once in Royal David's City"
+    },
+    {
+      "number": 150,
+      "hymn_id": "SDAH-en-150",
+      "title": "Who Is He in Yonder Stall?"
+    },
+    {
+      "number": 151,
+      "hymn_id": "SDAH-en-151",
+      "title": "Jesus Walked This Lonesome Valley"
+    },
+    {
+      "number": 152,
+      "hymn_id": "SDAH-en-152",
+      "title": "Tell Me the Story of Jesus"
+    },
+    {
+      "number": 153,
+      "hymn_id": "SDAH-en-153",
+      "title": "Prince of Peace, Control My Will"
+    },
+    {
+      "number": 154,
+      "hymn_id": "SDAH-en-154",
+      "title": "When I Survey the Wondrous Cross"
+    },
+    {
+      "number": 155,
+      "hymn_id": "SDAH-en-155",
+      "title": "When I Survey the Wondrous Cross"
+    },
+    {
+      "number": 156,
+      "hymn_id": "SDAH-en-156",
+      "title": "O Sacred Head Now Wounded"
+    },
+    {
+      "number": 157,
+      "hymn_id": "SDAH-en-157",
+      "title": "Go to Dark Gethsemane"
+    },
+    {
+      "number": 158,
+      "hymn_id": "SDAH-en-158",
+      "title": "Were You There?"
+    },
+    {
+      "number": 159,
+      "hymn_id": "SDAH-en-159",
+      "title": "The Old Rugged Cross"
+    },
+    {
+      "number": 160,
+      "hymn_id": "SDAH-en-160",
+      "title": "Ride On in Majesty"
+    },
+    {
+      "number": 161,
+      "hymn_id": "SDAH-en-161",
+      "title": "Throned Upon the Awful Tree"
+    },
+    {
+      "number": 162,
+      "hymn_id": "SDAH-en-162",
+      "title": "Wondrous Love"
+    },
+    {
+      "number": 163,
+      "hymn_id": "SDAH-en-163",
+      "title": "At the Cross"
+    },
+    {
+      "number": 164,
+      "hymn_id": "SDAH-en-164",
+      "title": "There Is a Green Hill Far Away"
+    },
+    {
+      "number": 165,
+      "hymn_id": "SDAH-en-165",
+      "title": "Look, You Saints! the Sight Is Glorious"
+    },
+    {
+      "number": 166,
+      "hymn_id": "SDAH-en-166",
+      "title": "Christ the Lord Is Risen Today"
+    },
+    {
+      "number": 167,
+      "hymn_id": "SDAH-en-167",
+      "title": "Alleluia! Sing to Jesus!"
+    },
+    {
+      "number": 168,
+      "hymn_id": "SDAH-en-168",
+      "title": "And Have the Bright Immensities"
+    },
+    {
+      "number": 169,
+      "hymn_id": "SDAH-en-169",
+      "title": "Come, You Faithful"
+    },
+    {
+      "number": 170,
+      "hymn_id": "SDAH-en-170",
+      "title": "Come, You Faithful"
+    },
+    {
+      "number": 171,
+      "hymn_id": "SDAH-en-171",
+      "title": "Thine Is the Glory"
+    },
+    {
+      "number": 172,
+      "hymn_id": "SDAH-en-172",
+      "title": "The Strife Is O'er"
+    },
+    {
+      "number": 173,
+      "hymn_id": "SDAH-en-173",
+      "title": "Good Christian Friends, Rejoice!"
+    },
+    {
+      "number": 174,
+      "hymn_id": "SDAH-en-174",
+      "title": "Star of Our Hope"
+    },
+    {
+      "number": 175,
+      "hymn_id": "SDAH-en-175",
+      "title": "Now the Green Blade Rises"
+    },
+    {
+      "number": 176,
+      "hymn_id": "SDAH-en-176",
+      "title": "Hail the Day That Sees Him Rise"
+    },
+    {
+      "number": 177,
+      "hymn_id": "SDAH-en-177",
+      "title": "Jesus, Your Blood and Righteousness"
+    },
+    {
+      "number": 178,
+      "hymn_id": "SDAH-en-178",
+      "title": "The Unveiled Christ"
+    },
+    {
+      "number": 179,
+      "hymn_id": "SDAH-en-179",
+      "title": "The Wonders of Redeeming Love"
+    },
+    {
+      "number": 180,
+      "hymn_id": "SDAH-en-180",
+      "title": "O Listen to Our Wondrous Story"
+    },
+    {
+      "number": 181,
+      "hymn_id": "SDAH-en-181",
+      "title": "Does Jesus Care?"
+    },
+    {
+      "number": 182,
+      "hymn_id": "SDAH-en-182",
+      "title": "Christ Is Alive"
+    },
+    {
+      "number": 183,
+      "hymn_id": "SDAH-en-183",
+      "title": "I Will Sing of Jesus' Love"
+    },
+    {
+      "number": 184,
+      "hymn_id": "SDAH-en-184",
+      "title": "Jesus Paid It All"
+    },
+    {
+      "number": 185,
+      "hymn_id": "SDAH-en-185",
+      "title": "Jesus Is All the World to Me"
+    },
+    {
+      "number": 186,
+      "hymn_id": "SDAH-en-186",
+      "title": "I've Found a Friend"
+    },
+    {
+      "number": 187,
+      "hymn_id": "SDAH-en-187",
+      "title": "Jesus, What a Friend for Sinners"
+    },
+    {
+      "number": 188,
+      "hymn_id": "SDAH-en-188",
+      "title": "My Song Is Love Unknown"
+    },
+    {
+      "number": 189,
+      "hymn_id": "SDAH-en-189",
+      "title": "All That Thrills My Soul"
+    },
+    {
+      "number": 190,
+      "hymn_id": "SDAH-en-190",
+      "title": "Jesus Loves Me"
+    },
+    {
+      "number": 191,
+      "hymn_id": "SDAH-en-191",
+      "title": "Love Divine"
+    },
+    {
+      "number": 192,
+      "hymn_id": "SDAH-en-192",
+      "title": "O Shepherd Divine"
+    },
+    {
+      "number": 193,
+      "hymn_id": "SDAH-en-193",
+      "title": "Savior, Teach Me"
+    },
+    {
+      "number": 194,
+      "hymn_id": "SDAH-en-194",
+      "title": "Sing We of the Modern City"
+    },
+    {
+      "number": 195,
+      "hymn_id": "SDAH-en-195",
+      "title": "Showers of Blessing"
+    },
+    {
+      "number": 196,
+      "hymn_id": "SDAH-en-196",
+      "title": "Tell Me the Old, Old Story"
+    },
+    {
+      "number": 197,
+      "hymn_id": "SDAH-en-197",
+      "title": "The King of Love My Shepherd Is"
+    },
+    {
+      "number": 198,
+      "hymn_id": "SDAH-en-198",
+      "title": "And Can It Be?"
+    },
+    {
+      "number": 199,
+      "hymn_id": "SDAH-en-199",
+      "title": "The Head That Once Was Crowned"
+    },
+    {
+      "number": 200,
+      "hymn_id": "SDAH-en-200",
+      "title": "The Lord Is Coming"
+    },
+    {
+      "number": 201,
+      "hymn_id": "SDAH-en-201",
+      "title": "Christ Is Coming"
+    },
+    {
+      "number": 202,
+      "hymn_id": "SDAH-en-202",
+      "title": "Hail Him the King of Glory"
+    },
+    {
+      "number": 203,
+      "hymn_id": "SDAH-en-203",
+      "title": "This Is the Threefold Truth"
+    },
+    {
+      "number": 204,
+      "hymn_id": "SDAH-en-204",
+      "title": "Come, Thou Long Expected Jesus"
+    },
+    {
+      "number": 205,
+      "hymn_id": "SDAH-en-205",
+      "title": "Gleams of the Golden Morning"
+    },
+    {
+      "number": 206,
+      "hymn_id": "SDAH-en-206",
+      "title": "Face to Face"
+    },
+    {
+      "number": 207,
+      "hymn_id": "SDAH-en-207",
+      "title": "It May Be at Morn"
+    },
+    {
+      "number": 208,
+      "hymn_id": "SDAH-en-208",
+      "title": "There'll Be No Dark Valley"
+    },
+    {
+      "number": 209,
+      "hymn_id": "SDAH-en-209",
+      "title": "That Glorious Day Is Coming"
+    },
+    {
+      "number": 210,
+      "hymn_id": "SDAH-en-210",
+      "title": "Wake, Awake, for Night Is Flying"
+    },
+    {
+      "number": 211,
+      "hymn_id": "SDAH-en-211",
+      "title": "Lo! He Comes"
+    },
+    {
+      "number": 212,
+      "hymn_id": "SDAH-en-212",
+      "title": "'Tis Almost Time for the Lord to Come"
+    },
+    {
+      "number": 213,
+      "hymn_id": "SDAH-en-213",
+      "title": "Jesus Is Coming Again"
+    },
+    {
+      "number": 214,
+      "hymn_id": "SDAH-en-214",
+      "title": "We Have This Hope"
+    },
+    {
+      "number": 215,
+      "hymn_id": "SDAH-en-215",
+      "title": "The King Shall Come"
+    },
+    {
+      "number": 216,
+      "hymn_id": "SDAH-en-216",
+      "title": "When the Roll Is Called Up Yonder"
+    },
+    {
+      "number": 217,
+      "hymn_id": "SDAH-en-217",
+      "title": "The Church Has Waited Long"
+    },
+    {
+      "number": 218,
+      "hymn_id": "SDAH-en-218",
+      "title": "When He Cometh"
+    },
+    {
+      "number": 219,
+      "hymn_id": "SDAH-en-219",
+      "title": "When Jesus Comes in Glory"
+    },
+    {
+      "number": 220,
+      "hymn_id": "SDAH-en-220",
+      "title": "When He Comes"
+    },
+    {
+      "number": 221,
+      "hymn_id": "SDAH-en-221",
+      "title": "Rejoice, the Lord Is King"
+    },
+    {
+      "number": 222,
+      "hymn_id": "SDAH-en-222",
+      "title": "Hark! Ten Thousand Harps and Voices"
+    },
+    {
+      "number": 223,
+      "hymn_id": "SDAH-en-223",
+      "title": "Crown Him With Many Crowns"
+    },
+    {
+      "number": 224,
+      "hymn_id": "SDAH-en-224",
+      "title": "Seek Ye First the Kingdom"
+    },
+    {
+      "number": 225,
+      "hymn_id": "SDAH-en-225",
+      "title": "God Is Working His Purpose Out"
+    },
+    {
+      "number": 226,
+      "hymn_id": "SDAH-en-226",
+      "title": "Lift Up Your Heads"
+    },
+    {
+      "number": 227,
+      "hymn_id": "SDAH-en-227",
+      "title": "Jesus Shall Reign"
+    },
+    {
+      "number": 228,
+      "hymn_id": "SDAH-en-228",
+      "title": "A Hymn of Glory Let Us Sing"
+    },
+    {
+      "number": 229,
+      "hymn_id": "SDAH-en-229",
+      "title": "All Hail the Power of Jesus' Name"
+    },
+    {
+      "number": 230,
+      "hymn_id": "SDAH-en-230",
+      "title": "All Glory, Laud, and Honor"
+    },
+    {
+      "number": 231,
+      "hymn_id": "SDAH-en-231",
+      "title": "Blest Be the King"
+    },
+    {
+      "number": 232,
+      "hymn_id": "SDAH-en-232",
+      "title": "At the Name of Jesus"
+    },
+    {
+      "number": 233,
+      "hymn_id": "SDAH-en-233",
+      "title": "Christ, Whose Glory Fills the Skies"
+    },
+    {
+      "number": 234,
+      "hymn_id": "SDAH-en-234",
+      "title": "Christ Is the World's Light"
+    },
+    {
+      "number": 235,
+      "hymn_id": "SDAH-en-235",
+      "title": "Christ Is Made the Sure Foundation"
+    },
+    {
+      "number": 236,
+      "hymn_id": "SDAH-en-236",
+      "title": "I Love Thee"
+    },
+    {
+      "number": 237,
+      "hymn_id": "SDAH-en-237",
+      "title": "In the Cross of Christ I Glory"
+    },
+    {
+      "number": 238,
+      "hymn_id": "SDAH-en-238",
+      "title": "How Sweet the Name!"
+    },
+    {
+      "number": 239,
+      "hymn_id": "SDAH-en-239",
+      "title": "Jesus, Priceless Treasure"
+    },
+    {
+      "number": 240,
+      "hymn_id": "SDAH-en-240",
+      "title": "Fairest Lord Jesus"
+    },
+    {
+      "number": 241,
+      "hymn_id": "SDAH-en-241",
+      "title": "Jesus, the Very Thought of Thee"
+    },
+    {
+      "number": 242,
+      "hymn_id": "SDAH-en-242",
+      "title": "Jesus, Thou Joy of Loving Hearts"
+    },
+    {
+      "number": 243,
+      "hymn_id": "SDAH-en-243",
+      "title": "King of Glory, King of Peace"
+    },
+    {
+      "number": 244,
+      "hymn_id": "SDAH-en-244",
+      "title": "My Song Shall Be of Jesus"
+    },
+    {
+      "number": 245,
+      "hymn_id": "SDAH-en-245",
+      "title": "More About Jesus"
+    },
+    {
+      "number": 246,
+      "hymn_id": "SDAH-en-246",
+      "title": "Worthy, Worthy Is the Lamb"
+    },
+    {
+      "number": 247,
+      "hymn_id": "SDAH-en-247",
+      "title": "Come, My Way"
+    },
+    {
+      "number": 248,
+      "hymn_id": "SDAH-en-248",
+      "title": "O, How I Love Jesus"
+    },
+    {
+      "number": 249,
+      "hymn_id": "SDAH-en-249",
+      "title": "Praise Him! Praise Him!"
+    },
+    {
+      "number": 250,
+      "hymn_id": "SDAH-en-250",
+      "title": "O for a Thousand Tongues to Sing"
+    },
+    {
+      "number": 251,
+      "hymn_id": "SDAH-en-251",
+      "title": "He Lives"
+    },
+    {
+      "number": 252,
+      "hymn_id": "SDAH-en-252",
+      "title": "Come, Let Us Sing"
+    },
+    {
+      "number": 253,
+      "hymn_id": "SDAH-en-253",
+      "title": "There's No Other Name Like Jesus"
+    },
+    {
+      "number": 254,
+      "hymn_id": "SDAH-en-254",
+      "title": "The Great Physician Now Is Near"
+    },
+    {
+      "number": 255,
+      "hymn_id": "SDAH-en-255",
+      "title": "I Cannot Tell Why"
+    },
+    {
+      "number": 256,
+      "hymn_id": "SDAH-en-256",
+      "title": "Ye Servants of God"
+    },
+    {
+      "number": 257,
+      "hymn_id": "SDAH-en-257",
+      "title": "Come Down, O Love Divine"
+    },
+    {
+      "number": 258,
+      "hymn_id": "SDAH-en-258",
+      "title": "Baptize Us Anew"
+    },
+    {
+      "number": 259,
+      "hymn_id": "SDAH-en-259",
+      "title": "Draw Us in the Spirit's Tether"
+    },
+    {
+      "number": 260,
+      "hymn_id": "SDAH-en-260",
+      "title": "Hover O'er Me, Holy Spirit"
+    },
+    {
+      "number": 261,
+      "hymn_id": "SDAH-en-261",
+      "title": "The Spirit of the Lord Revealed"
+    },
+    {
+      "number": 262,
+      "hymn_id": "SDAH-en-262",
+      "title": "Sweet, Sweet Spirit"
+    },
+    {
+      "number": 263,
+      "hymn_id": "SDAH-en-263",
+      "title": "Fire of God, Thou Sacred Flame"
+    },
+    {
+      "number": 264,
+      "hymn_id": "SDAH-en-264",
+      "title": "O for That Flame of Living Fire"
+    },
+    {
+      "number": 265,
+      "hymn_id": "SDAH-en-265",
+      "title": "Breathe on Me, Breath of God"
+    },
+    {
+      "number": 266,
+      "hymn_id": "SDAH-en-266",
+      "title": "Spirit of God"
+    },
+    {
+      "number": 267,
+      "hymn_id": "SDAH-en-267",
+      "title": "Spirit Divine"
+    },
+    {
+      "number": 268,
+      "hymn_id": "SDAH-en-268",
+      "title": "Holy Spirit, Light Divine"
+    },
+    {
+      "number": 269,
+      "hymn_id": "SDAH-en-269",
+      "title": "Come, Holy Spirit"
+    },
+    {
+      "number": 270,
+      "hymn_id": "SDAH-en-270",
+      "title": "O Holy Dove of God Descending"
+    },
+    {
+      "number": 271,
+      "hymn_id": "SDAH-en-271",
+      "title": "Break Thou the Bread of Life"
+    },
+    {
+      "number": 272,
+      "hymn_id": "SDAH-en-272",
+      "title": "Give Me the Bible"
+    },
+    {
+      "number": 273,
+      "hymn_id": "SDAH-en-273",
+      "title": "Lord, I Have Made Thy Word My Choice"
+    },
+    {
+      "number": 274,
+      "hymn_id": "SDAH-en-274",
+      "title": "O Word of God Incarnate"
+    },
+    {
+      "number": 275,
+      "hymn_id": "SDAH-en-275",
+      "title": "O God of Light"
+    },
+    {
+      "number": 276,
+      "hymn_id": "SDAH-en-276",
+      "title": "Thanks to God"
+    },
+    {
+      "number": 277,
+      "hymn_id": "SDAH-en-277",
+      "title": "For Your Holy Book We Thank You"
+    },
+    {
+      "number": 278,
+      "hymn_id": "SDAH-en-278",
+      "title": "Lord Jesus, Once You Spoke to Men"
+    },
+    {
+      "number": 279,
+      "hymn_id": "SDAH-en-279",
+      "title": "Only Trust Him"
+    },
+    {
+      "number": 280,
+      "hymn_id": "SDAH-en-280",
+      "title": "Come, Ye Sinners"
+    },
+    {
+      "number": 281,
+      "hymn_id": "SDAH-en-281",
+      "title": "I Gave My Life for Thee"
+    },
+    {
+      "number": 282,
+      "hymn_id": "SDAH-en-282",
+      "title": "I Hear Thy Welcome Voice"
+    },
+    {
+      "number": 283,
+      "hymn_id": "SDAH-en-283",
+      "title": "O Jesus, Thou Art Standing"
+    },
+    {
+      "number": 284,
+      "hymn_id": "SDAH-en-284",
+      "title": "For You I Am Praying"
+    },
+    {
+      "number": 285,
+      "hymn_id": "SDAH-en-285",
+      "title": "Jesus Calls Us"
+    },
+    {
+      "number": 286,
+      "hymn_id": "SDAH-en-286",
+      "title": "Wonderful Words of Life"
+    },
+    {
+      "number": 287,
+      "hymn_id": "SDAH-en-287",
+      "title": "Softly and Tenderly"
+    },
+    {
+      "number": 288,
+      "hymn_id": "SDAH-en-288",
+      "title": "I Am Going to Calvary"
+    },
+    {
+      "number": 289,
+      "hymn_id": "SDAH-en-289",
+      "title": "The Savior Is Waiting"
+    },
+    {
+      "number": 290,
+      "hymn_id": "SDAH-en-290",
+      "title": "Turn Your Eyes Upon Jesus"
+    },
+    {
+      "number": 291,
+      "hymn_id": "SDAH-en-291",
+      "title": "We Have Not Known Thee"
+    },
+    {
+      "number": 292,
+      "hymn_id": "SDAH-en-292",
+      "title": "Jesus, I Come"
+    },
+    {
+      "number": 293,
+      "hymn_id": "SDAH-en-293",
+      "title": "Heavenly Father, Bless Us Now"
+    },
+    {
+      "number": 294,
+      "hymn_id": "SDAH-en-294",
+      "title": "Power in the Blood"
+    },
+    {
+      "number": 295,
+      "hymn_id": "SDAH-en-295",
+      "title": "Chief of Sinners"
+    },
+    {
+      "number": 296,
+      "hymn_id": "SDAH-en-296",
+      "title": "Lord, I'm Coming Home"
+    },
+    {
+      "number": 297,
+      "hymn_id": "SDAH-en-297",
+      "title": "God Be Merciful to Me"
+    },
+    {
+      "number": 298,
+      "hymn_id": "SDAH-en-298",
+      "title": "I Lay My Sins on Jesus"
+    },
+    {
+      "number": 299,
+      "hymn_id": "SDAH-en-299",
+      "title": "Forgive Our Sins as We Forgive"
+    },
+    {
+      "number": 300,
+      "hymn_id": "SDAH-en-300",
+      "title": "Rock of Ages"
+    },
+    {
+      "number": 301,
+      "hymn_id": "SDAH-en-301",
+      "title": "Nearer, Still Nearer"
+    },
+    {
+      "number": 302,
+      "hymn_id": "SDAH-en-302",
+      "title": "Deeper Yet"
+    },
+    {
+      "number": 303,
+      "hymn_id": "SDAH-en-303",
+      "title": "Beneath the Cross of Jesus"
+    },
+    {
+      "number": 304,
+      "hymn_id": "SDAH-en-304",
+      "title": "Faith of Our Fathers"
+    },
+    {
+      "number": 305,
+      "hymn_id": "SDAH-en-305",
+      "title": "Give Me Jesus"
+    },
+    {
+      "number": 306,
+      "hymn_id": "SDAH-en-306",
+      "title": "Draw Me Nearer"
+    },
+    {
+      "number": 307,
+      "hymn_id": "SDAH-en-307",
+      "title": "I Am Coming to the Cross"
+    },
+    {
+      "number": 308,
+      "hymn_id": "SDAH-en-308",
+      "title": "Wholly Thine"
+    },
+    {
+      "number": 309,
+      "hymn_id": "SDAH-en-309",
+      "title": "I Surrender All"
+    },
+    {
+      "number": 310,
+      "hymn_id": "SDAH-en-310",
+      "title": "I'd Rather Have Jesus"
+    },
+    {
+      "number": 311,
+      "hymn_id": "SDAH-en-311",
+      "title": "I Would Be Like Jesus"
+    },
+    {
+      "number": 312,
+      "hymn_id": "SDAH-en-312",
+      "title": "Near the Cross"
+    },
+    {
+      "number": 313,
+      "hymn_id": "SDAH-en-313",
+      "title": "Near the Cross"
+    },
+    {
+      "number": 314,
+      "hymn_id": "SDAH-en-314",
+      "title": "Just as I Am"
+    },
+    {
+      "number": 315,
+      "hymn_id": "SDAH-en-315",
+      "title": "O for a Closer Walk!"
+    },
+    {
+      "number": 316,
+      "hymn_id": "SDAH-en-316",
+      "title": "Live Out Thy Life Within Me"
+    },
+    {
+      "number": 317,
+      "hymn_id": "SDAH-en-317",
+      "title": "Lead Me to Calvary"
+    },
+    {
+      "number": 318,
+      "hymn_id": "SDAH-en-318",
+      "title": "Whiter Than Snow"
+    },
+    {
+      "number": 319,
+      "hymn_id": "SDAH-en-319",
+      "title": "Lord, I Want to Be a Christian"
+    },
+    {
+      "number": 320,
+      "hymn_id": "SDAH-en-320",
+      "title": "Lord of Creation"
+    },
+    {
+      "number": 321,
+      "hymn_id": "SDAH-en-321",
+      "title": "My Jesus, I Love Thee"
+    },
+    {
+      "number": 322,
+      "hymn_id": "SDAH-en-322",
+      "title": "Nothing Between"
+    },
+    {
+      "number": 323,
+      "hymn_id": "SDAH-en-323",
+      "title": "O for a Heart to Praise My God!"
+    },
+    {
+      "number": 324,
+      "hymn_id": "SDAH-en-324",
+      "title": "Just as I Am, Thine Own to Be"
+    },
+    {
+      "number": 325,
+      "hymn_id": "SDAH-en-325",
+      "title": "Jesus, I My Cross Have Taken"
+    },
+    {
+      "number": 326,
+      "hymn_id": "SDAH-en-326",
+      "title": "Open My Eyes That I May See"
+    },
+    {
+      "number": 327,
+      "hymn_id": "SDAH-en-327",
+      "title": "I'd Rather Have Jesus"
+    },
+    {
+      "number": 328,
+      "hymn_id": "SDAH-en-328",
+      "title": "Must Jesus Bear the Cross Alone"
+    },
+    {
+      "number": 329,
+      "hymn_id": "SDAH-en-329",
+      "title": "Take the World, but Give Me Jesus"
+    },
+    {
+      "number": 330,
+      "hymn_id": "SDAH-en-330",
+      "title": "Take My Life and Let It Be"
+    },
+    {
+      "number": 331,
+      "hymn_id": "SDAH-en-331",
+      "title": "O Jesus, I Have Promised"
+    },
+    {
+      "number": 332,
+      "hymn_id": "SDAH-en-332",
+      "title": "The Cleansing Wave"
+    },
+    {
+      "number": 333,
+      "hymn_id": "SDAH-en-333",
+      "title": "On Jordan's Banks the Baptist's Cry"
+    },
+    {
+      "number": 334,
+      "hymn_id": "SDAH-en-334",
+      "title": "Come, Thou Fount of Every Blessing"
+    },
+    {
+      "number": 335,
+      "hymn_id": "SDAH-en-335",
+      "title": "What a Wonderful Savior"
+    },
+    {
+      "number": 336,
+      "hymn_id": "SDAH-en-336",
+      "title": "There Is a Fountain"
+    },
+    {
+      "number": 337,
+      "hymn_id": "SDAH-en-337",
+      "title": "Redeemed!"
+    },
+    {
+      "number": 338,
+      "hymn_id": "SDAH-en-338",
+      "title": "Redeemed!"
+    },
+    {
+      "number": 339,
+      "hymn_id": "SDAH-en-339",
+      "title": "God Is My Strong Salvation"
+    },
+    {
+      "number": 340,
+      "hymn_id": "SDAH-en-340",
+      "title": "Jesus Saves"
+    },
+    {
+      "number": 341,
+      "hymn_id": "SDAH-en-341",
+      "title": "To God Be the Glory"
+    },
+    {
+      "number": 342,
+      "hymn_id": "SDAH-en-342",
+      "title": "Is This a Day of New Beginnings?"
+    },
+    {
+      "number": 343,
+      "hymn_id": "SDAH-en-343",
+      "title": "I Will Sing of My Redeemer"
+    },
+    {
+      "number": 344,
+      "hymn_id": "SDAH-en-344",
+      "title": "I Love Your Kingdom, Lord"
+    },
+    {
+      "number": 345,
+      "hymn_id": "SDAH-en-345",
+      "title": "Christ Is the World's True Light"
+    },
+    {
+      "number": 346,
+      "hymn_id": "SDAH-en-346",
+      "title": "Lord, Who Dost Give to Thy Church"
+    },
+    {
+      "number": 347,
+      "hymn_id": "SDAH-en-347",
+      "title": "Built on the Rock"
+    },
+    {
+      "number": 348,
+      "hymn_id": "SDAH-en-348",
+      "title": "The Church Has One Foundation"
+    },
+    {
+      "number": 349,
+      "hymn_id": "SDAH-en-349",
+      "title": "God Is Love"
+    },
+    {
+      "number": 350,
+      "hymn_id": "SDAH-en-350",
+      "title": "Blest Be the Tie That Binds"
+    },
+    {
+      "number": 351,
+      "hymn_id": "SDAH-en-351",
+      "title": "Thy Hand, O God Has Guided"
+    },
+    {
+      "number": 352,
+      "hymn_id": "SDAH-en-352",
+      "title": "This Is My Will"
+    },
+    {
+      "number": 353,
+      "hymn_id": "SDAH-en-353",
+      "title": "Father, Help Your People"
+    },
+    {
+      "number": 354,
+      "hymn_id": "SDAH-en-354",
+      "title": "Thy Love, O God"
+    },
+    {
+      "number": 355,
+      "hymn_id": "SDAH-en-355",
+      "title": "Where Cross the Crowded Ways of Life"
+    },
+    {
+      "number": 356,
+      "hymn_id": "SDAH-en-356",
+      "title": "All Who Love and Serve Your City"
+    },
+    {
+      "number": 357,
+      "hymn_id": "SDAH-en-357",
+      "title": "Come, Labor On"
+    },
+    {
+      "number": 358,
+      "hymn_id": "SDAH-en-358",
+      "title": "Far and Near the Fields Are Teeming"
+    },
+    {
+      "number": 359,
+      "hymn_id": "SDAH-en-359",
+      "title": "Hark! the Voice of Jesus Calling"
+    },
+    {
+      "number": 360,
+      "hymn_id": "SDAH-en-360",
+      "title": "From the Eastern Mountains"
+    },
+    {
+      "number": 361,
+      "hymn_id": "SDAH-en-361",
+      "title": "Hark! 'Tis the Shepherd's Voice I Hear"
+    },
+    {
+      "number": 362,
+      "hymn_id": "SDAH-en-362",
+      "title": "Lift High the Cross"
+    },
+    {
+      "number": 363,
+      "hymn_id": "SDAH-en-363",
+      "title": "Lord, Whose Love in Humble Service"
+    },
+    {
+      "number": 364,
+      "hymn_id": "SDAH-en-364",
+      "title": "O Jesus Christ, to You"
+    },
+    {
+      "number": 365,
+      "hymn_id": "SDAH-en-365",
+      "title": "O Zion, Haste"
+    },
+    {
+      "number": 366,
+      "hymn_id": "SDAH-en-366",
+      "title": "O Where Are the Reapers?"
+    },
+    {
+      "number": 367,
+      "hymn_id": "SDAH-en-367",
+      "title": "Rescue the Perishing"
+    },
+    {
+      "number": 368,
+      "hymn_id": "SDAH-en-368",
+      "title": "Watchman, Blow the Gospel Trumpet"
+    },
+    {
+      "number": 369,
+      "hymn_id": "SDAH-en-369",
+      "title": "Bringing in the Sheaves"
+    },
+    {
+      "number": 370,
+      "hymn_id": "SDAH-en-370",
+      "title": "Christ for the World"
+    },
+    {
+      "number": 371,
+      "hymn_id": "SDAH-en-371",
+      "title": "Lift Him Up"
+    },
+    {
+      "number": 372,
+      "hymn_id": "SDAH-en-372",
+      "title": "How Beauteous Are Their Feet"
+    },
+    {
+      "number": 373,
+      "hymn_id": "SDAH-en-373",
+      "title": "Seeking the Lost"
+    },
+    {
+      "number": 374,
+      "hymn_id": "SDAH-en-374",
+      "title": "Jesus, With Thy Church Abide"
+    },
+    {
+      "number": 375,
+      "hymn_id": "SDAH-en-375",
+      "title": "Work, for the Night Is Coming"
+    },
+    {
+      "number": 376,
+      "hymn_id": "SDAH-en-376",
+      "title": "All Things Are Thine"
+    },
+    {
+      "number": 377,
+      "hymn_id": "SDAH-en-377",
+      "title": "Go Forth, Go Forth With Christ"
+    },
+    {
+      "number": 378,
+      "hymn_id": "SDAH-en-378",
+      "title": "Go, Preach My Gospel"
+    },
+    {
+      "number": 379,
+      "hymn_id": "SDAH-en-379",
+      "title": "We Give This Child to You"
+    },
+    {
+      "number": 380,
+      "hymn_id": "SDAH-en-380",
+      "title": "Welcome, Day of Sweet Repose"
+    },
+    {
+      "number": 381,
+      "hymn_id": "SDAH-en-381",
+      "title": "Holy Sabbath Day of Rest"
+    },
+    {
+      "number": 382,
+      "hymn_id": "SDAH-en-382",
+      "title": "O Day of Rest and Gladness"
+    },
+    {
+      "number": 383,
+      "hymn_id": "SDAH-en-383",
+      "title": "O Day of Rest and Gladness"
+    },
+    {
+      "number": 384,
+      "hymn_id": "SDAH-en-384",
+      "title": "Safely Through Another Week"
+    },
+    {
+      "number": 385,
+      "hymn_id": "SDAH-en-385",
+      "title": "Crowning Jewel of Creation"
+    },
+    {
+      "number": 386,
+      "hymn_id": "SDAH-en-386",
+      "title": "The Sacred Anthem"
+    },
+    {
+      "number": 387,
+      "hymn_id": "SDAH-en-387",
+      "title": "Come, O Sabbath Day"
+    },
+    {
+      "number": 388,
+      "hymn_id": "SDAH-en-388",
+      "title": "Don't Forget the Sabbath"
+    },
+    {
+      "number": 389,
+      "hymn_id": "SDAH-en-389",
+      "title": "Light of Light, Enlighten Me"
+    },
+    {
+      "number": 390,
+      "hymn_id": "SDAH-en-390",
+      "title": "We Love Thy Sabbath, Lord"
+    },
+    {
+      "number": 391,
+      "hymn_id": "SDAH-en-391",
+      "title": "Hymn 391"
+    },
+    {
+      "number": 392,
+      "hymn_id": "SDAH-en-392",
+      "title": "Hymn 392"
+    },
+    {
+      "number": 393,
+      "hymn_id": "SDAH-en-393",
+      "title": "Hymn 393"
+    },
+    {
+      "number": 394,
+      "hymn_id": "SDAH-en-394",
+      "title": "Hymn 394"
+    },
+    {
+      "number": 395,
+      "hymn_id": "SDAH-en-395",
+      "title": "Hymn 395"
+    },
+    {
+      "number": 396,
+      "hymn_id": "SDAH-en-396",
+      "title": "Hymn 396"
+    },
+    {
+      "number": 397,
+      "hymn_id": "SDAH-en-397",
+      "title": "Hymn 397"
+    },
+    {
+      "number": 398,
+      "hymn_id": "SDAH-en-398",
+      "title": "Hymn 398"
+    },
+    {
+      "number": 399,
+      "hymn_id": "SDAH-en-399",
+      "title": "Hymn 399"
+    },
+    {
+      "number": 400,
+      "hymn_id": "SDAH-en-400",
+      "title": "I Come With Joy"
+    },
+    {
+      "number": 401,
+      "hymn_id": "SDAH-en-401",
+      "title": "In Imitation, Lord of Thee"
+    },
+    {
+      "number": 402,
+      "hymn_id": "SDAH-en-402",
+      "title": "By Christ Redeemed"
+    },
+    {
+      "number": 403,
+      "hymn_id": "SDAH-en-403",
+      "title": "Let Us Break Bread Together"
+    },
+    {
+      "number": 404,
+      "hymn_id": "SDAH-en-404",
+      "title": "Now Let Us From This Table Rise"
+    },
+    {
+      "number": 405,
+      "hymn_id": "SDAH-en-405",
+      "title": "O God, Unseen, Yet Ever Near"
+    },
+    {
+      "number": 406,
+      "hymn_id": "SDAH-en-406",
+      "title": "Love Consecrates the Humblest Act"
+    },
+    {
+      "number": 407,
+      "hymn_id": "SDAH-en-407",
+      "title": "Sent Forth by God's Blessing"
+    },
+    {
+      "number": 408,
+      "hymn_id": "SDAH-en-408",
+      "title": "Lord, Enthroned in Heavenly Splendor"
+    },
+    {
+      "number": 409,
+      "hymn_id": "SDAH-en-409",
+      "title": "Jesus Invites His Saints"
+    },
+    {
+      "number": 410,
+      "hymn_id": "SDAH-en-410",
+      "title": "Thy Broken Body, Gracious Lord"
+    },
+    {
+      "number": 411,
+      "hymn_id": "SDAH-en-411",
+      "title": "The Son of God Proclaim"
+    },
+    {
+      "number": 412,
+      "hymn_id": "SDAH-en-412",
+      "title": "Cover With His Life"
+    },
+    {
+      "number": 413,
+      "hymn_id": "SDAH-en-413",
+      "title": "God Has Spoken by His Prophets"
+    },
+    {
+      "number": 414,
+      "hymn_id": "SDAH-en-414",
+      "title": "Fruitful Trees, the Spirit's Sowing"
+    },
+    {
+      "number": 415,
+      "hymn_id": "SDAH-en-415",
+      "title": "Christ the Lord, All Power Possessing"
+    },
+    {
+      "number": 416,
+      "hymn_id": "SDAH-en-416",
+      "title": "The Judgment Has Set"
+    },
+    {
+      "number": 417,
+      "hymn_id": "SDAH-en-417",
+      "title": "O Solemn Thought"
+    },
+    {
+      "number": 418,
+      "hymn_id": "SDAH-en-418",
+      "title": "Day of Judgment, Day of Wonders!"
+    },
+    {
+      "number": 419,
+      "hymn_id": "SDAH-en-419",
+      "title": "Soon Shall the Trump of God"
+    },
+    {
+      "number": 420,
+      "hymn_id": "SDAH-en-420",
+      "title": "Jerusalem, My Happy Home"
+    },
+    {
+      "number": 421,
+      "hymn_id": "SDAH-en-421",
+      "title": "For All the Saints"
+    },
+    {
+      "number": 422,
+      "hymn_id": "SDAH-en-422",
+      "title": "Marching to Zion"
+    },
+    {
+      "number": 423,
+      "hymn_id": "SDAH-en-423",
+      "title": "Glorious Things of Thee Are Spoken"
+    },
+    {
+      "number": 424,
+      "hymn_id": "SDAH-en-424",
+      "title": "For Thee, O Dear, Dear Country"
+    },
+    {
+      "number": 425,
+      "hymn_id": "SDAH-en-425",
+      "title": "Holy, Holy, Is What the Angels Sing"
+    },
+    {
+      "number": 426,
+      "hymn_id": "SDAH-en-426",
+      "title": "I Shall See the King"
+    },
+    {
+      "number": 427,
+      "hymn_id": "SDAH-en-427",
+      "title": "No Night There"
+    },
+    {
+      "number": 428,
+      "hymn_id": "SDAH-en-428",
+      "title": "There's a Song in the Air"
+    },
+    {
+      "number": 429,
+      "hymn_id": "SDAH-en-429",
+      "title": "Jerusalem the Golden"
+    },
+    {
+      "number": 430,
+      "hymn_id": "SDAH-en-430",
+      "title": "Joy By and By"
+    },
+    {
+      "number": 431,
+      "hymn_id": "SDAH-en-431",
+      "title": "Over Yonder"
+    },
+    {
+      "number": 432,
+      "hymn_id": "SDAH-en-432",
+      "title": "Shall We Gather at the River"
+    },
+    {
+      "number": 433,
+      "hymn_id": "SDAH-en-433",
+      "title": "Ten Thousand Times Ten Thousand"
+    },
+    {
+      "number": 434,
+      "hymn_id": "SDAH-en-434",
+      "title": "We Speak of the Realms"
+    },
+    {
+      "number": 435,
+      "hymn_id": "SDAH-en-435",
+      "title": "The Glory Song"
+    },
+    {
+      "number": 436,
+      "hymn_id": "SDAH-en-436",
+      "title": "The Homeland"
+    },
+    {
+      "number": 437,
+      "hymn_id": "SDAH-en-437",
+      "title": "I'm Going Home"
+    },
+    {
+      "number": 438,
+      "hymn_id": "SDAH-en-438",
+      "title": "You Will See Your Lord A-Coming"
+    },
+    {
+      "number": 439,
+      "hymn_id": "SDAH-en-439",
+      "title": "How Far From Home?"
+    },
+    {
+      "number": 440,
+      "hymn_id": "SDAH-en-440",
+      "title": "How Cheering Is the Christian's Hope"
+    },
+    {
+      "number": 441,
+      "hymn_id": "SDAH-en-441",
+      "title": "I Saw One Weary"
+    },
+    {
+      "number": 442,
+      "hymn_id": "SDAH-en-442",
+      "title": "How Sweet Are the Tidings"
+    },
+    {
+      "number": 443,
+      "hymn_id": "SDAH-en-443",
+      "title": "There'll Be No Sorrow There"
+    },
+    {
+      "number": 444,
+      "hymn_id": "SDAH-en-444",
+      "title": "I'm a Pilgrim"
+    },
+    {
+      "number": 445,
+      "hymn_id": "SDAH-en-445",
+      "title": "I'm But a Stranger Here"
+    },
+    {
+      "number": 446,
+      "hymn_id": "SDAH-en-446",
+      "title": "Lo, What a Glorious Sight Appears"
+    },
+    {
+      "number": 447,
+      "hymn_id": "SDAH-en-447",
+      "title": "Long Upon the Mountains"
+    },
+    {
+      "number": 448,
+      "hymn_id": "SDAH-en-448",
+      "title": "O, When Shall I See Jesus"
+    },
+    {
+      "number": 449,
+      "hymn_id": "SDAH-en-449",
+      "title": "Never Part Again"
+    },
+    {
+      "number": 450,
+      "hymn_id": "SDAH-en-450",
+      "title": "Beautiful Zion"
+    },
+    {
+      "number": 451,
+      "hymn_id": "SDAH-en-451",
+      "title": "Together Let Us Sweetly Live"
+    },
+    {
+      "number": 452,
+      "hymn_id": "SDAH-en-452",
+      "title": "What Heavenly Music"
+    },
+    {
+      "number": 453,
+      "hymn_id": "SDAH-en-453",
+      "title": "We Have Heard"
+    },
+    {
+      "number": 454,
+      "hymn_id": "SDAH-en-454",
+      "title": "Don't You See My Jesus Coming?"
+    },
+    {
+      "number": 455,
+      "hymn_id": "SDAH-en-455",
+      "title": "Immortal Love, Forever Full"
+    },
+    {
+      "number": 456,
+      "hymn_id": "SDAH-en-456",
+      "title": "My Lord and I"
+    },
+    {
+      "number": 457,
+      "hymn_id": "SDAH-en-457",
+      "title": "I Love to Tell the Story"
+    },
+    {
+      "number": 458,
+      "hymn_id": "SDAH-en-458",
+      "title": "More Love to Thee"
+    },
+    {
+      "number": 459,
+      "hymn_id": "SDAH-en-459",
+      "title": "As the Bridegroom to His Chosen"
+    },
+    {
+      "number": 460,
+      "hymn_id": "SDAH-en-460",
+      "title": "As Water to the Thirsty"
+    },
+    {
+      "number": 461,
+      "hymn_id": "SDAH-en-461",
+      "title": "Be Still, My Soul"
+    },
+    {
+      "number": 462,
+      "hymn_id": "SDAH-en-462",
+      "title": "Blessed Assurance, Jesus Is Mine!"
+    },
+    {
+      "number": 463,
+      "hymn_id": "SDAH-en-463",
+      "title": "Peace, Perfect Peace"
+    },
+    {
+      "number": 464,
+      "hymn_id": "SDAH-en-464",
+      "title": "When I Can Read My Title Clear"
+    },
+    {
+      "number": 465,
+      "hymn_id": "SDAH-en-465",
+      "title": "I Heard the Voice of Jesus"
+    },
+    {
+      "number": 466,
+      "hymn_id": "SDAH-en-466",
+      "title": "Wonderful Peace"
+    },
+    {
+      "number": 467,
+      "hymn_id": "SDAH-en-467",
+      "title": "Life Is Great! So Sing About It"
+    },
+    {
+      "number": 468,
+      "hymn_id": "SDAH-en-468",
+      "title": "A Child of the King"
+    },
+    {
+      "number": 469,
+      "hymn_id": "SDAH-en-469",
+      "title": "Leaning on the Everlasting Arms"
+    },
+    {
+      "number": 470,
+      "hymn_id": "SDAH-en-470",
+      "title": "There's Sunshine in My Soul Today"
+    },
+    {
+      "number": 471,
+      "hymn_id": "SDAH-en-471",
+      "title": "Grant Us Your Peace"
+    },
+    {
+      "number": 472,
+      "hymn_id": "SDAH-en-472",
+      "title": "A Song of Heaven and Homeland"
+    },
+    {
+      "number": 473,
+      "hymn_id": "SDAH-en-473",
+      "title": "Nearer My God, to Thee"
+    },
+    {
+      "number": 474,
+      "hymn_id": "SDAH-en-474",
+      "title": "Take the Name of Jesus With You"
+    },
+    {
+      "number": 475,
+      "hymn_id": "SDAH-en-475",
+      "title": "Balm in Gilead"
+    },
+    {
+      "number": 476,
+      "hymn_id": "SDAH-en-476",
+      "title": "Hymn 476"
+    },
+    {
+      "number": 477,
+      "hymn_id": "SDAH-en-477",
+      "title": "Hymn 477"
+    },
+    {
+      "number": 478,
+      "hymn_id": "SDAH-en-478",
+      "title": "Hymn 478"
+    },
+    {
+      "number": 479,
+      "hymn_id": "SDAH-en-479",
+      "title": "Hymn 479"
+    },
+    {
+      "number": 480,
+      "hymn_id": "SDAH-en-480",
+      "title": "Hymn 480"
+    },
+    {
+      "number": 481,
+      "hymn_id": "SDAH-en-481",
+      "title": "Hymn 481"
+    },
+    {
+      "number": 482,
+      "hymn_id": "SDAH-en-482",
+      "title": "Hymn 482"
+    },
+    {
+      "number": 483,
+      "hymn_id": "SDAH-en-483",
+      "title": "Hymn 483"
+    },
+    {
+      "number": 484,
+      "hymn_id": "SDAH-en-484",
+      "title": "Hymn 484"
+    },
+    {
+      "number": 485,
+      "hymn_id": "SDAH-en-485",
+      "title": "Hymn 485"
+    },
+    {
+      "number": 486,
+      "hymn_id": "SDAH-en-486",
+      "title": "Hymn 486"
+    },
+    {
+      "number": 487,
+      "hymn_id": "SDAH-en-487",
+      "title": "Hymn 487"
+    },
+    {
+      "number": 488,
+      "hymn_id": "SDAH-en-488",
+      "title": "Hymn 488"
+    },
+    {
+      "number": 489,
+      "hymn_id": "SDAH-en-489",
+      "title": "Hymn 489"
+    },
+    {
+      "number": 490,
+      "hymn_id": "SDAH-en-490",
+      "title": "Hymn 490"
+    },
+    {
+      "number": 491,
+      "hymn_id": "SDAH-en-491",
+      "title": "Hymn 491"
+    },
+    {
+      "number": 492,
+      "hymn_id": "SDAH-en-492",
+      "title": "Hymn 492"
+    },
+    {
+      "number": 493,
+      "hymn_id": "SDAH-en-493",
+      "title": "Hymn 493"
+    },
+    {
+      "number": 494,
+      "hymn_id": "SDAH-en-494",
+      "title": "Hymn 494"
+    },
+    {
+      "number": 495,
+      "hymn_id": "SDAH-en-495",
+      "title": "Hymn 495"
+    },
+    {
+      "number": 496,
+      "hymn_id": "SDAH-en-496",
+      "title": "Hymn 496"
+    },
+    {
+      "number": 497,
+      "hymn_id": "SDAH-en-497",
+      "title": "Hymn 497"
+    },
+    {
+      "number": 498,
+      "hymn_id": "SDAH-en-498",
+      "title": "Hymn 498"
+    },
+    {
+      "number": 499,
+      "hymn_id": "SDAH-en-499",
+      "title": "Hymn 499"
+    },
+    {
+      "number": 500,
+      "hymn_id": "SDAH-en-500",
+      "title": "Take Time to Be Holy"
+    },
+    {
+      "number": 501,
+      "hymn_id": "SDAH-en-501",
+      "title": "'Tis the Blessed Hour of Prayer"
+    },
+    {
+      "number": 502,
+      "hymn_id": "SDAH-en-502",
+      "title": "Sun of My Soul"
+    },
+    {
+      "number": 503,
+      "hymn_id": "SDAH-en-503",
+      "title": "A Quiet Place"
+    },
+    {
+      "number": 504,
+      "hymn_id": "SDAH-en-504",
+      "title": "Lord Jesus, Think on Me"
+    },
+    {
+      "number": 505,
+      "hymn_id": "SDAH-en-505",
+      "title": "I Need the Prayers"
+    },
+    {
+      "number": 506,
+      "hymn_id": "SDAH-en-506",
+      "title": "A Mighty Fortress"
+    },
+    {
+      "number": 507,
+      "hymn_id": "SDAH-en-507",
+      "title": "Moment by Moment"
+    },
+    {
+      "number": 508,
+      "hymn_id": "SDAH-en-508",
+      "title": "Anywhere With Jesus"
+    },
+    {
+      "number": 509,
+      "hymn_id": "SDAH-en-509",
+      "title": "How Firm a Foundation"
+    },
+    {
+      "number": 510,
+      "hymn_id": "SDAH-en-510",
+      "title": "If You But Trust in God to Guide You"
+    },
+    {
+      "number": 511,
+      "hymn_id": "SDAH-en-511",
+      "title": "I Know Whom I Have Believed"
+    },
+    {
+      "number": 512,
+      "hymn_id": "SDAH-en-512",
+      "title": "Just When I Need Him Most"
+    },
+    {
+      "number": 513,
+      "hymn_id": "SDAH-en-513",
+      "title": "In Heavenly Love Abiding"
+    },
+    {
+      "number": 514,
+      "hymn_id": "SDAH-en-514",
+      "title": "Lord of Our Life"
+    },
+    {
+      "number": 515,
+      "hymn_id": "SDAH-en-515",
+      "title": "The Lord Is My Light"
+    },
+    {
+      "number": 516,
+      "hymn_id": "SDAH-en-516",
+      "title": "All the Way"
+    },
+    {
+      "number": 517,
+      "hymn_id": "SDAH-en-517",
+      "title": "My Faith Looks Up to Thee"
+    },
+    {
+      "number": 518,
+      "hymn_id": "SDAH-en-518",
+      "title": "Standing on the Promises"
+    },
+    {
+      "number": 519,
+      "hymn_id": "SDAH-en-519",
+      "title": "Give to the Winds Your Fears"
+    },
+    {
+      "number": 520,
+      "hymn_id": "SDAH-en-520",
+      "title": "He Hideth My Soul"
+    },
+    {
+      "number": 521,
+      "hymn_id": "SDAH-en-521",
+      "title": "Depth of Mercy"
+    },
+    {
+      "number": 522,
+      "hymn_id": "SDAH-en-522",
+      "title": "My Hope Is Built on Nothing Less"
+    },
+    {
+      "number": 523,
+      "hymn_id": "SDAH-en-523",
+      "title": "My Faith Has Found a Resting Place"
+    },
+    {
+      "number": 524,
+      "hymn_id": "SDAH-en-524",
+      "title": "'Tis So Sweet to Trust in Jesus"
+    },
+    {
+      "number": 525,
+      "hymn_id": "SDAH-en-525",
+      "title": "Hiding in Thee"
+    },
+    {
+      "number": 526,
+      "hymn_id": "SDAH-en-526",
+      "title": "Because He Lives"
+    },
+    {
+      "number": 527,
+      "hymn_id": "SDAH-en-527",
+      "title": "From Every Stormy Wind"
+    },
+    {
+      "number": 528,
+      "hymn_id": "SDAH-en-528",
+      "title": "A Shelter in the Time of Storm"
+    },
+    {
+      "number": 529,
+      "hymn_id": "SDAH-en-529",
+      "title": "Under His Wings"
+    },
+    {
+      "number": 530,
+      "hymn_id": "SDAH-en-530",
+      "title": "It Is Well With My Soul"
+    },
+    {
+      "number": 531,
+      "hymn_id": "SDAH-en-531",
+      "title": "We'll Build on the Rock"
+    },
+    {
+      "number": 532,
+      "hymn_id": "SDAH-en-532",
+      "title": "Day by Day"
+    },
+    {
+      "number": 533,
+      "hymn_id": "SDAH-en-533",
+      "title": "O for a Faith"
+    },
+    {
+      "number": 534,
+      "hymn_id": "SDAH-en-534",
+      "title": "Will Your Anchor Hold?"
+    },
+    {
+      "number": 535,
+      "hymn_id": "SDAH-en-535",
+      "title": "I Am Trusting Thee, Lord Jesus"
+    },
+    {
+      "number": 536,
+      "hymn_id": "SDAH-en-536",
+      "title": "God, Who Stretched the Spangled Heavens"
+    },
+    {
+      "number": 537,
+      "hymn_id": "SDAH-en-537",
+      "title": "He Leadeth Me"
+    },
+    {
+      "number": 538,
+      "hymn_id": "SDAH-en-538",
+      "title": "Guide Me, O Thou Great Jehovah"
+    },
+    {
+      "number": 539,
+      "hymn_id": "SDAH-en-539",
+      "title": "I Will Early Seek the Savior"
+    },
+    {
+      "number": 540,
+      "hymn_id": "SDAH-en-540",
+      "title": "Gentle Jesus, Meek and Mild"
+    },
+    {
+      "number": 541,
+      "hymn_id": "SDAH-en-541",
+      "title": "Lord, Speak to Me"
+    },
+    {
+      "number": 542,
+      "hymn_id": "SDAH-en-542",
+      "title": "Jesus, Friend So Kind"
+    },
+    {
+      "number": 543,
+      "hymn_id": "SDAH-en-543",
+      "title": "Jesus, Friend of Little Children"
+    },
+    {
+      "number": 544,
+      "hymn_id": "SDAH-en-544",
+      "title": "Jesus, Son of Blessed Mary"
+    },
+    {
+      "number": 545,
+      "hymn_id": "SDAH-en-545",
+      "title": "Savior, Like a Shepherd"
+    },
+    {
+      "number": 546,
+      "hymn_id": "SDAH-en-546",
+      "title": "The Lord's My Shepherd"
+    },
+    {
+      "number": 547,
+      "hymn_id": "SDAH-en-547",
+      "title": "Be Thou My Vision"
+    },
+    {
+      "number": 548,
+      "hymn_id": "SDAH-en-548",
+      "title": "Now Praise the Hidden God of Love"
+    },
+    {
+      "number": 549,
+      "hymn_id": "SDAH-en-549",
+      "title": "Loving Shepherd of Thy Sheep"
+    },
+    {
+      "number": 550,
+      "hymn_id": "SDAH-en-550",
+      "title": "Every Flower That Grows"
+    },
+    {
+      "number": 551,
+      "hymn_id": "SDAH-en-551",
+      "title": "Jesus, Savior, Pilot Me"
+    },
+    {
+      "number": 552,
+      "hymn_id": "SDAH-en-552",
+      "title": "The Lord's My Shepherd"
+    },
+    {
+      "number": 553,
+      "hymn_id": "SDAH-en-553",
+      "title": "Jesus, Guide Our Way"
+    },
+    {
+      "number": 554,
+      "hymn_id": "SDAH-en-554",
+      "title": "O Let Me Walk With Thee"
+    },
+    {
+      "number": 555,
+      "hymn_id": "SDAH-en-555",
+      "title": "Shepherd of Tender Youth"
+    },
+    {
+      "number": 556,
+      "hymn_id": "SDAH-en-556",
+      "title": "As Saints of Old"
+    },
+    {
+      "number": 557,
+      "hymn_id": "SDAH-en-557",
+      "title": "Come, Ye Thankful People"
+    },
+    {
+      "number": 558,
+      "hymn_id": "SDAH-en-558",
+      "title": "For the Fruits of His Creation"
+    },
+    {
+      "number": 559,
+      "hymn_id": "SDAH-en-559",
+      "title": "Now Thank We All Our God"
+    },
+    {
+      "number": 560,
+      "hymn_id": "SDAH-en-560",
+      "title": "Let All Things Now Living"
+    },
+    {
+      "number": 561,
+      "hymn_id": "SDAH-en-561",
+      "title": "We Plow the Fields"
+    },
+    {
+      "number": 562,
+      "hymn_id": "SDAH-en-562",
+      "title": "Come, Sing a Song of Harvest"
+    },
+    {
+      "number": 563,
+      "hymn_id": "SDAH-en-563",
+      "title": "Praise and Thanksgiving"
+    },
+    {
+      "number": 564,
+      "hymn_id": "SDAH-en-564",
+      "title": "For Sunrise Hope and Sunset Calm"
+    },
+    {
+      "number": 565,
+      "hymn_id": "SDAH-en-565",
+      "title": "For the Beauty of the Earth"
+    },
+    {
+      "number": 566,
+      "hymn_id": "SDAH-en-566",
+      "title": "Father, We Thank You"
+    },
+    {
+      "number": 567,
+      "hymn_id": "SDAH-en-567",
+      "title": "Have Thine Own Way, Lord"
+    },
+    {
+      "number": 568,
+      "hymn_id": "SDAH-en-568",
+      "title": "Make Me a Captive, Lord"
+    },
+    {
+      "number": 569,
+      "hymn_id": "SDAH-en-569",
+      "title": "Pass Me Not, O Gentle Savior"
+    },
+    {
+      "number": 570,
+      "hymn_id": "SDAH-en-570",
+      "title": "Not I, but Christ"
+    },
+    {
+      "number": 571,
+      "hymn_id": "SDAH-en-571",
+      "title": "What Does the Lord Require?"
+    },
+    {
+      "number": 572,
+      "hymn_id": "SDAH-en-572",
+      "title": "Give of Your Best to the Master"
+    },
+    {
+      "number": 573,
+      "hymn_id": "SDAH-en-573",
+      "title": "Hymn 573"
+    },
+    {
+      "number": 574,
+      "hymn_id": "SDAH-en-574",
+      "title": "Hymn 574"
+    },
+    {
+      "number": 575,
+      "hymn_id": "SDAH-en-575",
+      "title": "Hymn 575"
+    },
+    {
+      "number": 576,
+      "hymn_id": "SDAH-en-576",
+      "title": "Hymn 576"
+    },
+    {
+      "number": 577,
+      "hymn_id": "SDAH-en-577",
+      "title": "Hymn 577"
+    },
+    {
+      "number": 578,
+      "hymn_id": "SDAH-en-578",
+      "title": "Hymn 578"
+    },
+    {
+      "number": 579,
+      "hymn_id": "SDAH-en-579",
+      "title": "Hymn 579"
+    },
+    {
+      "number": 580,
+      "hymn_id": "SDAH-en-580",
+      "title": "Hymn 580"
+    },
+    {
+      "number": 581,
+      "hymn_id": "SDAH-en-581",
+      "title": "Hymn 581"
+    },
+    {
+      "number": 582,
+      "hymn_id": "SDAH-en-582",
+      "title": "Hymn 582"
+    },
+    {
+      "number": 583,
+      "hymn_id": "SDAH-en-583",
+      "title": "Hymn 583"
+    },
+    {
+      "number": 584,
+      "hymn_id": "SDAH-en-584",
+      "title": "Hymn 584"
+    },
+    {
+      "number": 585,
+      "hymn_id": "SDAH-en-585",
+      "title": "When Christ Was Lifted From the Earth"
+    },
+    {
+      "number": 586,
+      "hymn_id": "SDAH-en-586",
+      "title": "Hymn 586"
+    },
+    {
+      "number": 587,
+      "hymn_id": "SDAH-en-587",
+      "title": "Hymn 587"
+    },
+    {
+      "number": 588,
+      "hymn_id": "SDAH-en-588",
+      "title": "Hymn 588"
+    },
+    {
+      "number": 589,
+      "hymn_id": "SDAH-en-589",
+      "title": "Hymn 589"
+    },
+    {
+      "number": 590,
+      "hymn_id": "SDAH-en-590",
+      "title": "Hymn 590"
+    },
+    {
+      "number": 591,
+      "hymn_id": "SDAH-en-591",
+      "title": "Hymn 591"
+    },
+    {
+      "number": 592,
+      "hymn_id": "SDAH-en-592",
+      "title": "Hymn 592"
+    },
+    {
+      "number": 593,
+      "hymn_id": "SDAH-en-593",
+      "title": "Hymn 593"
+    },
+    {
+      "number": 594,
+      "hymn_id": "SDAH-en-594",
+      "title": "Hymn 594"
+    },
+    {
+      "number": 595,
+      "hymn_id": "SDAH-en-595",
+      "title": "Hymn 595"
+    },
+    {
+      "number": 596,
+      "hymn_id": "SDAH-en-596",
+      "title": "Hymn 596"
+    },
+    {
+      "number": 597,
+      "hymn_id": "SDAH-en-597",
+      "title": "Ye Servants of the Lord"
+    },
+    {
+      "number": 598,
+      "hymn_id": "SDAH-en-598",
+      "title": "Watch, Ye Saints"
+    },
+    {
+      "number": 599,
+      "hymn_id": "SDAH-en-599",
+      "title": "Rejoice, Rejoice, Believers"
+    },
+    {
+      "number": 600,
+      "hymn_id": "SDAH-en-600",
+      "title": "Hold Fast Till I Come"
+    },
+    {
+      "number": 601,
+      "hymn_id": "SDAH-en-601",
+      "title": "Watchmen, on the Walls of Zion"
+    },
+    {
+      "number": 602,
+      "hymn_id": "SDAH-en-602",
+      "title": "O Brother, Be Faithful"
+    },
+    {
+      "number": 603,
+      "hymn_id": "SDAH-en-603",
+      "title": "Christian, Seek Not Repose"
+    },
+    {
+      "number": 604,
+      "hymn_id": "SDAH-en-604",
+      "title": "We Know Not the Hour"
+    },
+    {
+      "number": 605,
+      "hymn_id": "SDAH-en-605",
+      "title": "My Soul, Be on Thy Guard"
+    },
+    {
+      "number": 606,
+      "hymn_id": "SDAH-en-606",
+      "title": "Once to Every Man and Nation"
+    },
+    {
+      "number": 607,
+      "hymn_id": "SDAH-en-607",
+      "title": "God of Grace and God of Glory"
+    },
+    {
+      "number": 608,
+      "hymn_id": "SDAH-en-608",
+      "title": "Faith Is the Victory"
+    },
+    {
+      "number": 609,
+      "hymn_id": "SDAH-en-609",
+      "title": "Am I a Soldier of the Cross?"
+    },
+    {
+      "number": 610,
+      "hymn_id": "SDAH-en-610",
+      "title": "Stand Like the Brave"
+    },
+    {
+      "number": 611,
+      "hymn_id": "SDAH-en-611",
+      "title": "Awake, My Soul!"
+    },
+    {
+      "number": 612,
+      "hymn_id": "SDAH-en-612",
+      "title": "Onward, Christian Soldiers!"
+    },
+    {
+      "number": 613,
+      "hymn_id": "SDAH-en-613",
+      "title": "Fight the Good Fight"
+    },
+    {
+      "number": 614,
+      "hymn_id": "SDAH-en-614",
+      "title": "Sound the Battle Cry"
+    },
+    {
+      "number": 615,
+      "hymn_id": "SDAH-en-615",
+      "title": "Rise Up, O Church of God"
+    },
+    {
+      "number": 616,
+      "hymn_id": "SDAH-en-616",
+      "title": "Soldiers of Christ, Arise"
+    },
+    {
+      "number": 617,
+      "hymn_id": "SDAH-en-617",
+      "title": "We Are Living, We Are Dwelling"
+    },
+    {
+      "number": 618,
+      "hymn_id": "SDAH-en-618",
+      "title": "Stand Up! Stand Up for Jesus!"
+    },
+    {
+      "number": 619,
+      "hymn_id": "SDAH-en-619",
+      "title": "Lead On, O King Eternal"
+    },
+    {
+      "number": 620,
+      "hymn_id": "SDAH-en-620",
+      "title": "On Jordan's Stormy Banks"
+    },
+    {
+      "number": 621,
+      "hymn_id": "SDAH-en-621",
+      "title": "Gracious Father, Guard Thy Children"
+    },
+    {
+      "number": 622,
+      "hymn_id": "SDAH-en-622",
+      "title": "Come, Come, Ye Saints"
+    },
+    {
+      "number": 623,
+      "hymn_id": "SDAH-en-623",
+      "title": "I Will Follow Thee"
+    },
+    {
+      "number": 624,
+      "hymn_id": "SDAH-en-624",
+      "title": "I Want Jesus to Walk With Me"
+    },
+    {
+      "number": 625,
+      "hymn_id": "SDAH-en-625",
+      "title": "Higher Ground"
+    },
+    {
+      "number": 626,
+      "hymn_id": "SDAH-en-626",
+      "title": "In a Little While We're Going Home"
+    },
+    {
+      "number": 627,
+      "hymn_id": "SDAH-en-627",
+      "title": "Jacob's Ladder"
+    },
+    {
+      "number": 628,
+      "hymn_id": "SDAH-en-628",
+      "title": "As Jacob With Travel Was Weary"
+    },
+    {
+      "number": 629,
+      "hymn_id": "SDAH-en-629",
+      "title": "O Happy Band of Pilgrims"
+    },
+    {
+      "number": 630,
+      "hymn_id": "SDAH-en-630",
+      "title": "Rise, My Soul, and Stretch Thy Wings"
+    },
+    {
+      "number": 631,
+      "hymn_id": "SDAH-en-631",
+      "title": "When on Life a Darkness Falls"
+    },
+    {
+      "number": 632,
+      "hymn_id": "SDAH-en-632",
+      "title": "Until Then"
+    },
+    {
+      "number": 633,
+      "hymn_id": "SDAH-en-633",
+      "title": "When We All Get to Heaven"
+    },
+    {
+      "number": 634,
+      "hymn_id": "SDAH-en-634",
+      "title": "Come, All Christians, Be Committed"
+    },
+    {
+      "number": 635,
+      "hymn_id": "SDAH-en-635",
+      "title": "Lord of All Good"
+    },
+    {
+      "number": 636,
+      "hymn_id": "SDAH-en-636",
+      "title": "God, Whose Giving Knows No Ending"
+    },
+    {
+      "number": 637,
+      "hymn_id": "SDAH-en-637",
+      "title": "Son of God, Eternal Savior"
+    },
+    {
+      "number": 638,
+      "hymn_id": "SDAH-en-638",
+      "title": "The Wise May Bring Their Learning"
+    },
+    {
+      "number": 639,
+      "hymn_id": "SDAH-en-639",
+      "title": "A Diligent and Grateful Heart"
+    },
+    {
+      "number": 640,
+      "hymn_id": "SDAH-en-640",
+      "title": "For Beauty of Meadows"
+    },
+    {
+      "number": 641,
+      "hymn_id": "SDAH-en-641",
+      "title": "God in His Love for Us"
+    },
+    {
+      "number": 642,
+      "hymn_id": "SDAH-en-642",
+      "title": "We Praise Thee With Our Minds"
+    },
+    {
+      "number": 643,
+      "hymn_id": "SDAH-en-643",
+      "title": "Father, Who on Us Do Shower"
+    },
+    {
+      "number": 644,
+      "hymn_id": "SDAH-en-644",
+      "title": "O God, Whose Will Is Life and Good"
+    },
+    {
+      "number": 645,
+      "hymn_id": "SDAH-en-645",
+      "title": "God of Our Fathers"
+    },
+    {
+      "number": 646,
+      "hymn_id": "SDAH-en-646",
+      "title": "To the Name That Brings Salvation"
+    },
+    {
+      "number": 647,
+      "hymn_id": "SDAH-en-647",
+      "title": "Mine Eyes Have Seen the Glory"
+    },
+    {
+      "number": 648,
+      "hymn_id": "SDAH-en-648",
+      "title": "I Vow to Thee, My Country"
+    },
+    {
+      "number": 649,
+      "hymn_id": "SDAH-en-649",
+      "title": "Lord, While for All Mankind"
+    },
+    {
+      "number": 650,
+      "hymn_id": "SDAH-en-650",
+      "title": "Our Father, by Whose Name"
+    },
+    {
+      "number": 651,
+      "hymn_id": "SDAH-en-651",
+      "title": "Happy the Home That Welcomes You"
+    },
+    {
+      "number": 652,
+      "hymn_id": "SDAH-en-652",
+      "title": "Love at Home"
+    },
+    {
+      "number": 653,
+      "hymn_id": "SDAH-en-653",
+      "title": "Lead Them, My God, to Thee"
+    },
+    {
+      "number": 654,
+      "hymn_id": "SDAH-en-654",
+      "title": "Lord, Bless Our Homes"
+    },
+    {
+      "number": 655,
+      "hymn_id": "SDAH-en-655",
+      "title": "Happy the Home"
+    },
+    {
+      "number": 656,
+      "hymn_id": "SDAH-en-656",
+      "title": "O Perfect Love"
+    },
+    {
+      "number": 657,
+      "hymn_id": "SDAH-en-657",
+      "title": "O God, From Whom Mankind"
+    },
+    {
+      "number": 658,
+      "hymn_id": "SDAH-en-658",
+      "title": "Heavenly Father, Hear Our Prayer"
+    },
+    {
+      "number": 659,
+      "hymn_id": "SDAH-en-659",
+      "title": "May the Grace of Christ Our Savior"
+    },
+    {
+      "number": 660,
+      "hymn_id": "SDAH-en-660",
+      "title": "Glory Be to the Father"
+    },
+    {
+      "number": 661,
+      "hymn_id": "SDAH-en-661",
+      "title": "Holy, Holy, Holy"
+    },
+    {
+      "number": 662,
+      "hymn_id": "SDAH-en-662",
+      "title": "Let All Mortal Flesh Keep Silence"
+    },
+    {
+      "number": 663,
+      "hymn_id": "SDAH-en-663",
+      "title": "Amens"
+    },
+    {
+      "number": 664,
+      "hymn_id": "SDAH-en-664",
+      "title": "Sevenfold Amen"
+    },
+    {
+      "number": 665,
+      "hymn_id": "SDAH-en-665",
+      "title": "All Things Come of Thee"
+    },
+    {
+      "number": 666,
+      "hymn_id": "SDAH-en-666",
+      "title": "Cast Thy Burden Upon the Lord"
+    },
+    {
+      "number": 667,
+      "hymn_id": "SDAH-en-667",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 668,
+      "hymn_id": "SDAH-en-668",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 669,
+      "hymn_id": "SDAH-en-669",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 670,
+      "hymn_id": "SDAH-en-670",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 671,
+      "hymn_id": "SDAH-en-671",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 672,
+      "hymn_id": "SDAH-en-672",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 673,
+      "hymn_id": "SDAH-en-673",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 674,
+      "hymn_id": "SDAH-en-674",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 675,
+      "hymn_id": "SDAH-en-675",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 676,
+      "hymn_id": "SDAH-en-676",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 677,
+      "hymn_id": "SDAH-en-677",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 678,
+      "hymn_id": "SDAH-en-678",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 679,
+      "hymn_id": "SDAH-en-679",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 680,
+      "hymn_id": "SDAH-en-680",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 681,
+      "hymn_id": "SDAH-en-681",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 682,
+      "hymn_id": "SDAH-en-682",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 683,
+      "hymn_id": "SDAH-en-683",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 684,
+      "hymn_id": "SDAH-en-684",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 685,
+      "hymn_id": "SDAH-en-685",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 686,
+      "hymn_id": "SDAH-en-686",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 687,
+      "hymn_id": "SDAH-en-687",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 688,
+      "hymn_id": "SDAH-en-688",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 689,
+      "hymn_id": "SDAH-en-689",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 690,
+      "hymn_id": "SDAH-en-690",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 691,
+      "hymn_id": "SDAH-en-691",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 692,
+      "hymn_id": "SDAH-en-692",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 693,
+      "hymn_id": "SDAH-en-693",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 694,
+      "hymn_id": "SDAH-en-694",
+      "title": "[To be extracted from image]"
+    },
+    {
+      "number": 695,
+      "hymn_id": "SDAH-en-695",
+      "title": "[To be extracted from image]"
+    }
+  ]
+}

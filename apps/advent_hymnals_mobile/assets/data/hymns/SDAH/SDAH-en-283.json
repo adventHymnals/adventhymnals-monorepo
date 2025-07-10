@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-283",
+  "number": 283,
+  "title": "O Jesus, Thou Art Standing",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Jesus, Thou art standing\nOutside the fast-closed door,\nIn lowly patience waiting\nTo pass the threshold o'er:"
+    },
+    {
+      "number": 2,
+      "text": "O Jesus, Thou art knocking;\nAnd, lo, that hand is scarred,\nAnd thorns Thy brow encircle,\nAnd tears Thy face have marred:"
+    },
+    {
+      "number": 3,
+      "text": "O Jesus, Thou art pleading\nIn accents meek and low,\n\"I died for you, My children,\nAnd will ye treat Me so?\""
+    }
+  ],
+  "chorus": {
+    "text": "O shame, thrice shame upon us,\nTo keep Him standing there!\nO shame, professing Christian,\nHis name and sign who bear,\nO shame, thrice shame upon us,\nTo keep Him standing there!\nO sin that hath no equal,\nSo fast to bar the gate!\nDear Savior, enter, enter,\nAnd leave us never more."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Jesus",
+      "Invitation",
+      "Heart's Door",
+      "Repentance"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

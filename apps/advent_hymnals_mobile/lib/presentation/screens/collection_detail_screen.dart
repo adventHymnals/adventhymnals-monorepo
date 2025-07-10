@@ -19,6 +19,7 @@ class CollectionDetailScreen extends StatefulWidget {
 }
 
 class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
+  final TextEditingController _searchController = TextEditingController();
   String _searchQuery = '';
   String _sortBy = 'hymn_number';
   List<String> _selectedLanguages = [];
@@ -37,9 +38,10 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
     // Load collection metadata
     await _loadCollectionMetadata();
     
-    // Load hymn data
+    // Load hymn data for this specific collection
     final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
-    await hymnProvider.loadHymns();
+    print('🔄 [CollectionDetail] Loading hymns for collection: ${widget.collectionId}');
+    await hymnProvider.loadHymnsByCollectionAbbreviation(widget.collectionId);
   }
 
   Future<void> _loadCollectionMetadata() async {
@@ -80,12 +82,21 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
 
   List<Hymn> _getFilteredHymns(List<Hymn> hymns) {
     var filtered = hymns.where((hymn) {
-      // Filter by search query
+      // Filter by search query - search in title, author, composer, tune, meter, lyrics, hymn number
       if (_searchQuery.isNotEmpty) {
         final query = _searchQuery.toLowerCase();
-        if (!hymn.title.toLowerCase().contains(query) &&
-            !(hymn.author?.toLowerCase().contains(query) ?? false) &&
-            !(hymn.firstLine?.toLowerCase().contains(query) ?? false)) {
+        final searchableText = [
+          hymn.title.toLowerCase(),
+          hymn.author?.toLowerCase() ?? '',
+          hymn.composer?.toLowerCase() ?? '',
+          hymn.tuneName?.toLowerCase() ?? '',
+          hymn.meter?.toLowerCase() ?? '',
+          hymn.firstLine?.toLowerCase() ?? '',
+          hymn.lyrics?.toLowerCase() ?? '',
+          hymn.hymnNumber.toString(),
+        ].join(' ');
+        
+        if (!searchableText.contains(query)) {
           return false;
         }
       }
@@ -106,6 +117,12 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
         break;
       case 'author':
         filtered.sort((a, b) => (a.author ?? '').compareTo(b.author ?? ''));
+        break;
+      case 'composer':
+        filtered.sort((a, b) => (a.composer ?? '').compareTo(b.composer ?? ''));
+        break;
+      case 'tune':
+        filtered.sort((a, b) => (a.tuneName ?? '').compareTo(b.tuneName ?? ''));
         break;
       case 'hymn_number':
       default:
@@ -148,11 +165,6 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
         title: Text(collectionInfo.title),
         elevation: 0,
         actions: [
-          IconButton(
-            icon: const Icon(Icons.search),
-            onPressed: _showSearchDialog,
-            tooltip: 'Search Collection',
-          ),
           IconButton(
             icon: const Icon(Icons.filter_list),
             onPressed: _showFilterDialog,
@@ -225,6 +237,59 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                     color: Colors.white.withOpacity(0.9),
                   ),
                 ),
+              ],
+            ),
+          ),
+
+          // Search Section
+          Container(
+            padding: const EdgeInsets.all(AppSizes.spacing16),
+            color: Color(AppColors.background),
+            child: Column(
+              children: [
+                TextField(
+                  controller: _searchController,
+                  decoration: InputDecoration(
+                    hintText: 'Search by title, author, composer, tune, meter, number...',
+                    prefixIcon: const Icon(Icons.search),
+                    suffixIcon: _searchQuery.isNotEmpty
+                        ? IconButton(
+                            icon: const Icon(Icons.clear),
+                            onPressed: () {
+                              _searchController.clear();
+                              setState(() {
+                                _searchQuery = '';
+                              });
+                            },
+                          )
+                        : null,
+                  ),
+                  onChanged: (value) {
+                    setState(() {
+                      _searchQuery = value;
+                    });
+                  },
+                ),
+                if (_searchQuery.isNotEmpty) ...[
+                  const SizedBox(height: AppSizes.spacing8),
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.info_outline,
+                        size: 16,
+                        color: Color(AppColors.primaryBlue),
+                      ),
+                      const SizedBox(width: AppSizes.spacing4),
+                      Text(
+                        'Searching in: title, author, composer, tune, meter, lyrics, number',
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: Color(AppColors.gray600),
+                          fontSize: 12,
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
               ],
             ),
           ),
@@ -382,7 +447,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: AppSizes.spacing32),
                           child: Text(
-                            'This collection doesn\'t have any hymns loaded yet. The content may be available for download or will be added in a future update.',
+                            'This collection doesn\'t have any hymns loaded yet. The app may be using demonstration data or the database content is not yet available.',
                             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                               color: Color(AppColors.gray500),
                             ),
@@ -542,40 +607,10 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
     );
   }
 
-  void _showSearchDialog() {
-    showDialog(
-      context: context,
-      builder: (context) {
-        String searchText = _searchQuery;
-        return AlertDialog(
-          title: const Text('Search Collection'),
-          content: TextField(
-            autofocus: true,
-            decoration: const InputDecoration(
-              hintText: 'Search hymns, authors, or lyrics...',
-              prefixIcon: Icon(Icons.search),
-            ),
-            onChanged: (value) => searchText = value,
-            controller: TextEditingController(text: _searchQuery),
-          ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.pop(context),
-              child: const Text('Cancel'),
-            ),
-            TextButton(
-              onPressed: () {
-                setState(() {
-                  _searchQuery = searchText;
-                });
-                Navigator.pop(context);
-              },
-              child: const Text('Search'),
-            ),
-          ],
-        );
-      },
-    );
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
   }
 
   void _showFilterDialog() {
@@ -613,6 +648,20 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                   RadioListTile<String>(
                     title: const Text('Author'),
                     value: 'author',
+                    groupValue: tempSortBy,
+                    onChanged: (value) => setState(() => tempSortBy = value!),
+                    dense: true,
+                  ),
+                  RadioListTile<String>(
+                    title: const Text('Composer'),
+                    value: 'composer',
+                    groupValue: tempSortBy,
+                    onChanged: (value) => setState(() => tempSortBy = value!),
+                    dense: true,
+                  ),
+                  RadioListTile<String>(
+                    title: const Text('Tune'),
+                    value: 'tune',
                     groupValue: tempSortBy,
                     onChanged: (value) => setState(() => tempSortBy = value!),
                     dense: true,

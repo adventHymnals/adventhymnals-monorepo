@@ -1,0 +1,54 @@
+{
+  "id": "SDAH-en-455",
+  "number": 455,
+  "title": "Immortal Love, Forever Full",
+  "author": "John Greenleaf Whittier",
+  "composer": "Traditional",
+  "tune": "IMMORTAL LOVE",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Immortal Love, forever full,\nForever flowing free,\nForever shared, forever whole,\nA never ebbing sea!"
+    },
+    {
+      "number": 2,
+      "text": "We may not climb the heavenly steeps\nTo bring the Lord Christ down;\nIn vain we search the lowest deeps,\nFor Him no depths can drown."
+    },
+    {
+      "number": 3,
+      "text": "But warm, sweet, tender, even yet\nA present help is He;\nAnd faith has still its Olivet,\nAnd love its Galilee."
+    },
+    {
+      "number": 4,
+      "text": "The healing of His seamless dress\nIs by our beds of pain;\nWe touch Him in life's throng and press,\nAnd we are whole again."
+    },
+    {
+      "number": 5,
+      "text": "Through Him the first fond prayers are said\nOur lips of childhood frame;\nThe last low whispers of our dead\nAre burdened with His name."
+    },
+    {
+      "number": 6,
+      "text": "O Lord and Master of us all:\nWhatever our name or sign,\nWe own Thy sway, we hear Thy call,\nWe test our lives by Thine!"
+    }
+  ],
+  "metadata": {
+    "year": 1866,
+    "copyright": "Public Domain",
+    "themes": [
+      "divine love",
+      "Christ's presence",
+      "healing",
+      "immortal love",
+      "spiritual communion"
+    ],
+    "scripture_references": [
+      "John 14:16-17",
+      "Matthew 18:20",
+      "Luke 8:44-48"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

@@ -123,8 +123,16 @@ class HymnDataManager {
       
       final hymns = <Hymn>[];
       
-      // Load a subset of hymns for performance (first 20 hymns)
-      final hymnIdsToLoad = hymnIds.take(20).cast<String>();
+      // Sort hymn IDs by number first to ensure we get hymns 1, 2, 3, etc.
+      final sortedHymnIds = hymnIds.cast<String>().toList();
+      sortedHymnIds.sort((a, b) {
+        final numA = int.tryParse(a.split('-').last) ?? 0;
+        final numB = int.tryParse(b.split('-').last) ?? 0;
+        return numA.compareTo(numB);
+      });
+      
+      // Load a subset of hymns for performance (first 30 hymns by number)
+      final hymnIdsToLoad = sortedHymnIds.take(30);
       
       for (final hymnId in hymnIdsToLoad) {
         final hymn = await loadHymnFromJson(hymnId);
@@ -133,7 +141,7 @@ class HymnDataManager {
         }
       }
       
-      // Sort by hymn number
+      // Final sort by hymn number (should already be sorted, but just to be sure)
       hymns.sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
       
       print('✅ [HymnDataManager] Successfully loaded ${hymns.length} hymns for collection "$collectionAbbreviation"');

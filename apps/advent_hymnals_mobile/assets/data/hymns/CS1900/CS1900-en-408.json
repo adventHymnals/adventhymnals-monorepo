@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-408",
+  "number": 408,
+  "title": "AN OPEN BIBLE FOR THE WORLD",
+  "author": "Wm. J. Kirkpatrick",
+  "composer": "Wm. J. Kirkpatrick",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "An open Bible for the world! May this our watchword be,\nWherever men in darkness dwell, all nations shall be free.\nLet voices rise from earth's remotest bounds to greet that day,\nGod's Book shall be the light of all, the truth that lights the way."
+    },
+    {
+      "number": 2,
+      "text": "An open Bible for the world! What though the mountains high,\nThe valleys deep, the desert sand, the raging seas defy.\nGod's Word shall conquer every foe, shall break down every wall,\nAnd make the desert places bloom with Gospel truth for all."
+    }
+  ],
+  "chorus": {
+    "text": "An open Bible for the world! An open Bible for the world!\nProclaim sweet mercy from above, and forth the light unfurled;\nProclaim sweet mercy from above, and forth the light unfurled;\nAnd point with hope to eternal years."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by Wm. J. Kirkpatrick. Used by permission.",
+    "themes": [
+      "Bible",
+      "missions",
+      "light",
+      "truth"
+    ],
+    "scripture_references": [],
+    "tune_source": "Wm. J. Kirkpatrick",
+    "original_language": "en"
+  }
+}

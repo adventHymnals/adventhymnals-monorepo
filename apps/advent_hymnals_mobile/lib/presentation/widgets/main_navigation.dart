@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/constants/app_constants.dart';
+import '../../core/services/church_mode_service.dart';
+import 'mini_audio_player.dart';
 
 class MainNavigation extends StatefulWidget {
   final Widget child;
@@ -54,6 +56,9 @@ class _MainNavigationState extends State<MainNavigation> {
   void didChangeDependencies() {
     super.didChangeDependencies();
     _updateCurrentIndex();
+    
+    // Set context for church mode service
+    ChurchModeService().setContext(context);
   }
 
   void _updateCurrentIndex() {
@@ -81,7 +86,13 @@ class _MainNavigationState extends State<MainNavigation> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: widget.child,
-      bottomNavigationBar: _buildBottomNavigationBar(),
+      bottomNavigationBar: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          const MiniAudioPlayer(),
+          _buildBottomNavigationBar(),
+        ],
+      ),
     );
   }
 

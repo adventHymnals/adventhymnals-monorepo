@@ -85,6 +85,8 @@ class AppColors {
   static const int warningOrange = 0xFFF59E0B;
   static const int errorRed = 0xFFDC2626;
   static const int purple = 0xFF7C3AED;
+  static const int darkPurple = 0xFF6D28D9;
+  static const int infoBlue = 0xFF0EA5E9;
   static const int background = 0xFFFEFCE8;
   
   // Neutral Colors
@@ -92,6 +94,7 @@ class AppColors {
   static const int white = 0xFFFFFFFF;
   static const int gray100 = 0xFFF3F4F6;
   static const int gray300 = 0xFFD1D5DB;
+  static const int gray400 = 0xFF9CA3AF;
   static const int gray500 = 0xFF6B7280;
   static const int gray600 = 0xFF4B5563;
   static const int gray700 = 0xFF374151;

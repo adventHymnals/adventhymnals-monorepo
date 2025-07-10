@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-114",
+  "number": 114,
+  "title": "There's a Wideness",
+  "author": "Frederick W. Faber",
+  "composer": "Lizzie S. Tourjée",
+  "tune": "Wellesley",
+  "meter": "87.87",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There's a wideness in God's mercy,\nLike the wideness of the sea;\nThere's a kindness in His justice,\nWhich is more than liberty."
+    },
+    {
+      "number": 2,
+      "text": "There is welcome for the sinner,\nAnd more graces for the good;\nThere is mercy with the Savior;\nThere is healing in His blood."
+    },
+    {
+      "number": 3,
+      "text": "For the love of God is broader\nThan the measure of man's mind;\nAnd the heart of the Eternal\nIs most wonderfully kind."
+    },
+    {
+      "number": 4,
+      "text": "If our love were but more simple,\nWe should take Him at His word;\nAnd our lives would be all sunshine\nIn the sweetness of our Lord."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1862,
+    "copyright": "Public Domain",
+    "themes": [
+      "God's Mercy",
+      "God's Love",
+      "Grace",
+      "Forgiveness"
+    ],
+    "scripture_references": [
+      "Ephesians 2:4-7",
+      "1 John 4:16"
+    ],
+    "tune_source": "Lizzie S. Tourjée, 1877",
+    "original_language": "en"
+  }
+}

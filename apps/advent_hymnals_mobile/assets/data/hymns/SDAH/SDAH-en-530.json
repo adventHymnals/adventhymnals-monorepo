@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-530",
+  "number": 530,
+  "title": "It Is Well With My Soul",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When peace, like a river, attendeth my way,\nWhen sorrows like sea billows roll\nWhatever my lot, Thou hast taught me to say,\nIt is well, it is well with my soul."
+    },
+    {
+      "number": 2,
+      "text": "My sin O the joy of this glorious thought\nMy sin, not in part, but the whole,\nIs nailed to the cross, and I bear it no more:\nPraise the Lord, praise the Lord, O my soul!"
+    },
+    {
+      "number": 3,
+      "text": "And, Lord, haste the day when my faith shall be sight,\nThe clouds be rolled back as a scroll:\nThe trump shall resound and the Lord shall descend,\nEven so it is well with my soul."
+    }
+  ],
+  "chorus": {
+    "text": "It is well with my soul,\nIt is well, it is well with my soul."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "peace",
+      "comfort",
+      "trust",
+      "salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

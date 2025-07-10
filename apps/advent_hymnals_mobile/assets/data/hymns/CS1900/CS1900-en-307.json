@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-307",
+  "number": 307,
+  "title": "God of Light",
+  "author": "T. H. Gill",
+  "composer": "A. S. Sullivan",
+  "tune": "Matthias",
+  "meter": "8, 8, 8, 8, 8, 8.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God of light and truth and beauty, Hear thy children's earnest cry, Plead we here the tender mercy Of thy love that cannot die."
+    },
+    {
+      "number": 2,
+      "text": "For the heart with sorrow laden, For the soul in doubt and fear, For the life by sin o'ershaded, Plead we in thy presence here."
+    },
+    {
+      "number": 3,
+      "text": "Let thy light, O Lord, all-searching, Every heart and life explore; From the height of thy pure dwelling, Look on us and love us more."
+    },
+    {
+      "number": 4,
+      "text": "Let thy light, O Lord, with power Touch the springs of human thought; Let thy life of love and blessing Into every heart be brought."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "divine light",
+      "prayer",
+      "mercy",
+      "love"
+    ],
+    "scripture_references": [
+      "1 John 1:5"
+    ],
+    "tune_source": "A. S. Sullivan",
+    "original_language": "en"
+  }
+}

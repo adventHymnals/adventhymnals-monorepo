@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-345",
+  "number": 345,
+  "title": "ALL THINGS ARE THINE",
+  "author": "J. G. Whittier",
+  "composer": "J. B. Dykes",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All things are thine; no gift have we,\nLord of all gifts, to offer thee;\nAnd hence with grateful hearts today\nThine own before thy feet we lay."
+    },
+    {
+      "number": 2,
+      "text": "Thy will was in the builders' thought;\nThy hand unseen amidst us wrought;\nThrough mortal motive, scheme and plan,\nThy wise eternal purpose ran."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "stewardship",
+      "gratitude",
+      "offering"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. B. Dykes",
+    "original_language": "en"
+  }
+}

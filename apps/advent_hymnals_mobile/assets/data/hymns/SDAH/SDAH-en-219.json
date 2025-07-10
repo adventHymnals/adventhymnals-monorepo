@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-219",
+  "number": 219,
+  "title": "When Jesus Comes in Glory",
+  "author": "Fanny J. Crosby",
+  "composer": "John R. Sweney",
+  "tune": "GLORY SONG",
+  "meter": "10.8.10.8.10.8.10.8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When Jesus comes in glory, as Lord and King of kings,\nO what a wondrous story the blessed Bible brings:\nHis face will shine like sunlight, His head be white as snow,\nHis eyes like flaming fire-light, His feet like brass aglow."
+    },
+    {
+      "number": 2,
+      "text": "His voice like rushing waters will reach with mighty sound\nInto the deepest quarters of all creation round;\nAnd at the wondrous greeting, the dead in Christ shall rise,\nWhen greets the Lord and Savior, meet-ing in the skies."
+    },
+    {
+      "number": 3,
+      "text": "And we who are believing and His appearing love,\nShall know we are receiving His glory from above;\nHis resurrection power will raise us to the bride,\nAnd at Thine own returning, be caught up to Thy side."
+    },
+    {
+      "number": 4,
+      "text": "O hasten Thine appearing, Star! Lord, may we soon be hearing\nThe trumpet sound afar; Thy people all are yearning\nTo be Thy raptured bride, and at Thine own returning,\nBe caught up to Thy side."
+    }
+  ],
+  "metadata": {
+    "year": 1884,
+    "copyright": "Public Domain",
+    "themes": [
+      "Second Coming",
+      "Glory of Christ",
+      "Resurrection",
+      "Rapture"
+    ],
+    "scripture_references": [
+      "Revelation 1:14-16",
+      "1 Thessalonians 4:16-17"
+    ],
+    "tune_source": "John R. Sweney, 1884",
+    "original_language": "en"
+  }
+}

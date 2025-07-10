@@ -1,0 +1,46 @@
+{
+  "id": "SDAH-en-519",
+  "number": 519,
+  "title": "Give to the Winds Your Fears",
+  "author": "Paul Gerhardt",
+  "composer": "William Henry Monk",
+  "tune": "Festal Song",
+  "meter": "8.8.8.8.8.8.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Give to the winds your fears;\nIn hope be undismayed;\nGod hears your sighs and counts your tears,\nGod shall lift up your head."
+    },
+    {
+      "number": 2,
+      "text": "To Him commit your griefs;\nYour ways put in His hands;\nHis sure truth and tender care\nWho earth and heaven commands."
+    },
+    {
+      "number": 3,
+      "text": "O put your trust in God;\nIn duty's path go on;\nWalk in His strength with faith and hope,\nSo shall your work be done."
+    },
+    {
+      "number": 4,
+      "text": "Leave to His sovereign sway\nTo choose and to command;\nSo shall you, wondering, own His way,\nHow wise, how strong His hand!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1653,
+    "copyright": "Public Domain",
+    "themes": [
+      "trust",
+      "comfort",
+      "providence",
+      "faith",
+      "hope"
+    ],
+    "scripture_references": [
+      "Psalm 55:22",
+      "1 Peter 5:7"
+    ],
+    "tune_source": "William Henry Monk",
+    "original_language": "de"
+  }
+}

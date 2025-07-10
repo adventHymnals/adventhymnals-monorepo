@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-199",
+  "number": 199,
+  "title": "The Head That Once Was Crowned",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The head that once was crowned with thorns\nIs crowned with glory now;\nA royal diadem adorns\nThe mighty victor's brow."
+    },
+    {
+      "number": 2,
+      "text": "The highest place that heaven affords\nIs His, is His by right;\nThe King of kings, and Lord of lords,\nAnd heaven's eternal light."
+    },
+    {
+      "number": 3,
+      "text": "The joy of all who dwell above,\nThe joy of all below,\nTo whom He manifests His love,\nAnd grants His name to know."
+    },
+    {
+      "number": 4,
+      "text": "To them the cross, with all its shame,\nWith all its grace, is given;\nTheir name an everlasting name,\nTheir joy the joy of heaven."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "crown",
+      "victory",
+      "glory",
+      "crucifixion",
+      "triumph"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

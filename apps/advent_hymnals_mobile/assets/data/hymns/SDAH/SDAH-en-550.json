@@ -1,0 +1,38 @@
+{
+  "id": "SDAH-en-550",
+  "number": 550,
+  "title": "Every Flower That Grows",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Every flower that grows,\nEvery brook that flows,\nTell of beauty God has given for me:\nThroughout my life may beauty be\nDeep within a heart from sin set free."
+    },
+    {
+      "number": 2,
+      "text": "Gracious Lord above,\nLooking down in love,\nGuide my thoughts, my life, in my walk with Thee.\nThat day by day the world may see\nChrist, the Lord and Savior, lives in me."
+    },
+    {
+      "number": 3,
+      "text": "All my earthly days,\nI shall sing and praise\nGod the Father, Spirit, and the Son.\nGrant faith when life on earth is done,\nI shall sing with those whose rest is won."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "nature",
+      "beauty",
+      "praise",
+      "Christian living"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

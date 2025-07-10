@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-024",
+  "number": 24,
+  "title": "Build on the Rock",
+  "author": "Anonymous",
+  "composer": "S. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock.\"—Matt. 7: 24. My soul build on the Rock, the liv - ing Rock, On Je - sus, the Rock of A - ges; So when we a - bide The storms of doubt and tri - al can not move; The firm and the true foun-da - tion, It's hope is the hop which."
+    },
+    {
+      "number": 2,
+      "text": "When build on the Rock, oh the sand - y ground, By winds and waves is beat - en down; The fool - ish man built on sand, We'll build on the Rock, the sol - id Rock, We'll build on the Rock, on the sol - id Rock, On Christ, the mighty Rock."
+    }
+  ],
+  "chorus": {
+    "text": "We'll build on the Rock, the sol - id Rock, We'll build on the Rock, on the sol - id Rock, On Christ, the mighty Rock."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1895, by S. E. Belden",
+    "themes": [
+      "rock",
+      "foundation",
+      "building",
+      "storm",
+      "trial",
+      "hope",
+      "ages"
+    ],
+    "scripture_references": [
+      "Matt. 7:24"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

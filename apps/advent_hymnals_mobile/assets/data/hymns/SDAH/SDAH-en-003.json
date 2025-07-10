@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-003",
+  "number": 3,
+  "title": "God Himself Is With Us",
+  "author": "Gerhard Tersteegen",
+  "composer": "Joachim Neander",
+  "tune": "Wunderbarer König",
+  "meter": "6.6.8.3.3.6.6",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God Himself is with us;\nLet us all adore Him,\nAnd with awe appear before Him.\nGod is here within us;\nSoul, in silence fear Him,\nHumbly, fervently draw near Him."
+    },
+    {
+      "number": 2,
+      "text": "Come, abide within me;\nLet my soul, like Mary,\nBe Thine earthly sanctuary.\nCome and dwell within us;\nWith transfiguring splendor,\nSoul, in silence be before Him."
+    },
+    {
+      "number": 3,
+      "text": "Gladly we surrender\nEarth's deceitful treasures,\nPride of life and sinful pleasures.\nGladly, Lord, we offer\nThine to be forever,\nSoul and life and each endeavor."
+    }
+  ],
+  "metadata": {
+    "year": 1729,
+    "copyright": "Public Domain",
+    "themes": [
+      "worship",
+      "presence",
+      "surrender",
+      "adoration"
+    ],
+    "scripture_references": [
+      "Matthew 18:20",
+      "Revelation 3:20"
+    ],
+    "tune_source": "Joachim Neander, 1680",
+    "original_language": "de",
+    "translator": "Frederick W. Foster, John Miller"
+  }
+}

@@ -16,6 +16,7 @@ dependencies:
   
   # Database
   sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0
   path: ^1.8.3
   
   # Network
@@ -53,6 +54,15 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  
+  # Assets
+  assets:
+    - assets/data/
+    - assets/data/metadata/
+    - assets/data/hymnals/
+    - assets/data/hymns/
+    - assets/data/hymns/SDAH/
+    - assets/data/hymns/CS1900/
   
   # fonts:
   #   - family: Inter

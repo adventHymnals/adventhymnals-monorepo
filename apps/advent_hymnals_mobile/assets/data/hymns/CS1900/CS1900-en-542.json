@@ -1,0 +1,43 @@
+{
+  "id": "CS1900-en-542",
+  "number": 542,
+  "title": "THE PURE IN HEART",
+  "author": "John Keble",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Blest are the pure in heart,\nFor they shall see our God;\nThe secret of the Lord is theirs,\nTheir soul is Christ's abode."
+    },
+    {
+      "number": 2,
+      "text": "The Lord, who left the heavens\nOur life and peace to bring,\nTo dwell in lowliness with men,\nTheir Pattern and their King."
+    },
+    {
+      "number": 3,
+      "text": "Still to the lowly soul\nHe doth himself impart,\nAnd for his dwelling and his throne\nChooseth the pure in heart."
+    },
+    {
+      "number": 4,
+      "text": "Lord, we thy presence seek;\nMay ours this blessing be;\nGive us a pure and lowly heart,\nA temple meet for thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "purity",
+      "heart",
+      "divine presence"
+    ],
+    "scripture_references": [
+      "Matthew 5:8"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

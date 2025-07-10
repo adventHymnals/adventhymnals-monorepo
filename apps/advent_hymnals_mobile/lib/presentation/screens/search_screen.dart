@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:go_router/go_router.dart';
 import '../providers/hymn_provider.dart';
 import '../../core/constants/app_constants.dart';
+import '../../domain/entities/hymn.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});
@@ -266,7 +268,7 @@ class _SearchScreenState extends State<SearchScreen> {
     );
   }
 
-  Widget _buildSearchResults(List<dynamic> results) {
+  Widget _buildSearchResults(List<Hymn> results) {
     return Column(
       children: [
         // Results Header
@@ -332,7 +334,7 @@ class _SearchScreenState extends State<SearchScreen> {
     );
   }
 
-  Widget _buildSearchResultItem(dynamic hymn) {
+  Widget _buildSearchResultItem(Hymn hymn) {
     return Card(
       margin: const EdgeInsets.symmetric(
         horizontal: AppSizes.spacing16,
@@ -370,7 +372,7 @@ class _SearchScreenState extends State<SearchScreen> {
               ),
             if (hymn.firstLine != null)
               Text(
-                hymn.firstLine,
+                hymn.firstLine!,
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   fontStyle: FontStyle.italic,
                 ),
@@ -382,6 +384,7 @@ class _SearchScreenState extends State<SearchScreen> {
         trailing: const Icon(Icons.arrow_forward_ios, size: 16),
         onTap: () {
           // Navigate to hymn detail
+          context.push('/hymn/${hymn.id}');
         },
       ),
     );
@@ -419,6 +422,11 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   Widget _buildErrorState(String error) {
+    // Check if this is a database initialization error
+    final isDatabaseError = error.contains('databaseFactory') || 
+                          error.contains('getApplicationsDirectory') ||
+                          error.contains('Bad state: databaseFactory not initialized');
+    
     return Center(
       child: Padding(
         padding: const EdgeInsets.all(AppSizes.spacing24),
@@ -426,18 +434,20 @@ class _SearchScreenState extends State<SearchScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(
-              Icons.error_outline,
+              isDatabaseError ? Icons.info_outline : Icons.error_outline,
               size: 64,
-              color: Color(AppColors.errorRed),
+              color: isDatabaseError ? Color(AppColors.primaryBlue) : Color(AppColors.errorRed),
             ),
             const SizedBox(height: AppSizes.spacing16),
             Text(
-              'Search Error',
+              isDatabaseError ? 'Search Information' : 'Search Error',
               style: Theme.of(context).textTheme.titleLarge,
             ),
             const SizedBox(height: AppSizes.spacing8),
             Text(
-              error,
+              isDatabaseError 
+                  ? 'Search is currently using demonstration data. Full database functionality will be available when the hymnal database is loaded.'
+                  : error,
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                 color: Color(AppColors.gray500),
               ),

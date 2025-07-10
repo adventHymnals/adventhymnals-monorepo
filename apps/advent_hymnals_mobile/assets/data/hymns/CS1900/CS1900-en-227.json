@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-227",
+  "number": 227,
+  "title": "PRAISE YE JEHOVAH'S NAME",
+  "author": "WM. COWPER",
+  "composer": "HENRY CAREY",
+  "tune": "AMERICA",
+  "meter": "6s & 4s",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise ye Jehovah's name, Praise through his courts resound; Aloud the mighty acts proclaim, His glo - ry tell around."
+    },
+    {
+      "number": 2,
+      "text": "Praise him in sounds that tell His ex - cel - lence abroad; Praise him in harps that gently swell His grace thro' ages broad."
+    },
+    {
+      "number": 3,
+      "text": "Let all his saints advance, His praise with voices raise; While instruments of every kind Their var - ied notes em - ploy."
+    },
+    {
+      "number": 4,
+      "text": "While his rich grace we prove, Visit us his love, Call with his name; And with his grace, End with his name."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "praise",
+      "jehovah",
+      "glory",
+      "worship"
+    ],
+    "scripture_references": [],
+    "tune_source": "HENRY CAREY",
+    "original_language": "en"
+  }
+}

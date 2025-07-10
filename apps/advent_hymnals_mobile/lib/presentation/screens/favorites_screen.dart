@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:go_router/go_router.dart';
 import '../providers/favorites_provider.dart';
 import '../../core/constants/app_constants.dart';
 
@@ -351,6 +352,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
         ),
         onTap: () {
           // Navigate to hymn detail
+          context.push('/hymn/${hymn.id}');
         },
       ),
     );
@@ -384,7 +386,8 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
             const SizedBox(height: AppSizes.spacing24),
             ElevatedButton(
               onPressed: () {
-                // Navigate to browse or home
+                // Navigate to browse screen
+                context.go('/browse');
               },
               child: const Text('Browse Hymns'),
             ),

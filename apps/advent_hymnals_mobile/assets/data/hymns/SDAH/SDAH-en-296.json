@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-296",
+  "number": 296,
+  "title": "Lord, I'm Coming Home",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I've wandered far away from God,\nNow I'm coming home;\nThe paths of sin too long I've trod,\nLord, I'm coming home."
+    },
+    {
+      "number": 2,
+      "text": "I've wasted many precious years,\nNow I'm coming home;\nI now repent with bitter tears,\nLord, I'm coming home."
+    },
+    {
+      "number": 3,
+      "text": "I'm tired of sin and straying, Lord,\nNow I'm coming home;\nI'll trust Thy love, believe Thy word,\nLord, I'm coming home."
+    },
+    {
+      "number": 4,
+      "text": "My only hope, my only plea,\nNow I'm coming home;\nThat Jesus died, and died for me;\nLord, I'm coming home."
+    },
+    {
+      "number": 5,
+      "text": "I need His cleansing blood, I know,\nNow I'm coming home;\nO wash me whiter than the snow;\nLord, I'm coming home."
+    }
+  ],
+  "chorus": {
+    "text": "Coming home, coming home,\nNevermore to roam;\nOpen wide Thine arms of love;\nLord, I'm coming home."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Coming Home",
+      "Repentance",
+      "Wandering",
+      "Return to God"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}
