@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Layout from '@/components/layout/Layout';
 import { HymnalCollection } from '@advent-hymnals/shared';
@@ -32,6 +32,14 @@ interface FormData {
   preferredTimeline: string;
 }
 
+interface HymnData {
+  id: string;
+  title: string;
+  number: number;
+  hymnalName: string;
+  hymnalId: string;
+}
+
 export default function ChoirRegistrationForm({ hymnalReferences }: ChoirRegistrationFormProps) {
   const [formData, setFormData] = useState<FormData>({
     choirName: '',
@@ -52,26 +60,63 @@ export default function ChoirRegistrationForm({ hymnalReferences }: ChoirRegistr
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
   const [hymnSearch, setHymnSearch] = useState('');
   const [selectedHymnal, setSelectedHymnal] = useState<string>('all');
+  const [searchResults, setSearchResults] = useState<HymnData[]>([]);
+  const [isSearching, setIsSearching] = useState(false);
+  const [totalHymnsCount, setTotalHymnsCount] = useState<number>(0);
 
-  // Get all hymns from all hymnals for selection
-  const allHymns = Object.values(hymnalReferences.hymnals).flatMap(hymnal => 
-    (hymnal.hymns || []).map(hymn => ({
-      id: hymn.id,
-      title: hymn.title,
-      number: hymn.number,
-      hymnalName: hymnal.name,
-      hymnalId: hymnal.id
-    }))
-  );
+  // Load total hymns count on mount
+  useEffect(() => {
+    const loadTotalCount = () => {
+      const total = Object.values(hymnalReferences.hymnals)
+        .reduce((sum, hymnal) => sum + (hymnal.total_songs || 0), 0);
+      setTotalHymnsCount(total);
+    };
 
-  // Filter hymns based on search and hymnal selection
-  const filteredHymns = allHymns.filter(hymn => {
-    const matchesSearch = hymn.title.toLowerCase().includes(hymnSearch.toLowerCase()) ||
-                         hymn.number.toString().includes(hymnSearch) ||
-                         hymn.id.toLowerCase().includes(hymnSearch.toLowerCase());
-    const matchesHymnal = selectedHymnal === 'all' || hymn.hymnalId === selectedHymnal;
-    return matchesSearch && matchesHymnal;
-  });
+    loadTotalCount();
+  }, [hymnalReferences]);
+
+  // Search hymns when search term changes
+  useEffect(() => {
+    const searchHymns = async () => {
+      if (!hymnSearch.trim()) {
+        setSearchResults([]);
+        setIsSearching(false);
+        return;
+      }
+
+      setIsSearching(true);
+      try {
+        const hymnalParam = selectedHymnal === 'all' ? '' : `&hymnal=${selectedHymnal}`;
+        const response = await fetch(`/api/search?q=${encodeURIComponent(hymnSearch)}&limit=50${hymnalParam}`);
+        
+        if (response.ok) {
+          const data = await response.json();
+          const hymnsData: HymnData[] = data.map((result: any) => ({
+            id: result.hymn.id,
+            title: result.hymn.title || 'Untitled',
+            number: result.hymn.number || 0,
+            hymnalName: result.hymnal.name,
+            hymnalId: result.hymnal.id
+          }));
+          setSearchResults(hymnsData);
+        } else {
+          setSearchResults([]);
+        }
+      } catch (error) {
+        console.error('Failed to search hymns:', error);
+        setSearchResults([]);
+      } finally {
+        setIsSearching(false);
+      }
+    };
+
+    // Debounce search
+    const timeoutId = setTimeout(searchHymns, 300);
+    return () => clearTimeout(timeoutId);
+  }, [hymnSearch, selectedHymnal]);
+
+  // Use search results as the hymns to display
+  const displayHymns = searchResults;
 
   const handleInputChange = (field: keyof FormData, value: string | string[]) => {
     setFormData(prev => ({ ...prev, [field]: value }));
@@ -86,42 +131,68 @@ export default function ChoirRegistrationForm({ hymnalReferences }: ChoirRegistr
     }));
   };
 
+  const getSelectedHymnDetails = () => {
+    return formData.selectedHymns.map(hymnId => {
+      const hymn = searchResults.find(h => h.id === hymnId);
+      return hymn ? `${hymn.hymnalId}-${hymn.number}: ${hymn.title}` : hymnId;
+    });
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
     try {
-      const response = await fetch('/api/choir-registration', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          ...formData,
-          selectedHymnsDetails: formData.selectedHymns.map(hymnId => {
-            const hymn = allHymns.find(h => h.id === hymnId);
-            return hymn ? `${hymn.hymnalId}-${hymn.number}: ${hymn.title}` : hymnId;
-          }),
-          timestamp: new Date().toISOString(),
-        }),
+      // Build URL parameters for GET request
+      const params = new URLSearchParams({
+        choirName: formData.choirName,
+        contactName: formData.contactName,
+        email: formData.email,
+        phone: formData.phone,
+        location: formData.location,
+        churchAffiliation: formData.churchAffiliation,
+        choirSize: formData.choirSize,
+        experience: formData.experience,
+        equipment: formData.equipment,
+        preferredTimeline: formData.preferredTimeline,
+        selectedHymnsCount: formData.selectedHymns.length.toString(),
+        selectedHymnsDetails: getSelectedHymnDetails().join(' | '),
+        additionalInfo: formData.additionalInfo,
+        timestamp: new Date().toISOString(),
+        userAgent: navigator.userAgent,
+        referer: window.location.href
       });
 
+      // Send directly to Google Apps Script
+      const googleScriptUrl = process.env.NEXT_PUBLIC_GOOGLE_CHOIR_SCRIPT_URL;
+      
+      console.log('Using Google Apps Script URL:', googleScriptUrl);
+      
+      const response = await fetch(`${googleScriptUrl}?${params.toString()}`);
+
       if (response.ok) {
-        setSubmitStatus('success');
-        // Reset form
-        setFormData({
-          choirName: '',
-          contactName: '',
-          email: '',
-          phone: '',
-          location: '',
-          churchAffiliation: '',
-          choirSize: '',
-          experience: '',
-          equipment: '',
-          selectedHymns: [],
-          additionalInfo: '',
-          preferredTimeline: ''
-        });
+        const result = await response.json();
+        if (result.success) {
+          setSubmitStatus('success');
+          // Reset form
+          setFormData({
+            choirName: '',
+            contactName: '',
+            email: '',
+            phone: '',
+            location: '',
+            churchAffiliation: '',
+            choirSize: '',
+            experience: '',
+            equipment: '',
+            selectedHymns: [],
+            additionalInfo: '',
+            preferredTimeline: ''
+          });
+        } else {
+          setSubmitStatus('error');
+        }
       } else {
         setSubmitStatus('error');
       }
@@ -374,9 +445,17 @@ export default function ChoirRegistrationForm({ hymnalReferences }: ChoirRegistr
                 </div>
 
                 <p className="text-gray-600 mb-6">
-                  Select the hymns your choir would like to record. You can choose from any of our {allHymns.length} hymns 
-                  across all collections. Use the search and filter options to find specific hymns.
+                  Select the hymns your choir would like to record. You can choose from any of our {totalHymnsCount.toLocaleString()} hymns 
+                  across all collections. Use the search box below to find specific hymns.
                 </p>
+
+                {!hymnSearch.trim() && (
+                  <div className="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                    <p className="text-blue-800 text-sm">
+                      💡 <strong>Tip:</strong> Start typing to search for hymns by title, number, author, or composer.
+                    </p>
+                  </div>
+                )}
 
                 {/* Search and Filter */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -384,7 +463,7 @@ export default function ChoirRegistrationForm({ hymnalReferences }: ChoirRegistr
                     <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
                     <input
                       type="text"
-                      placeholder="Search hymns by title, number, or ID..."
+                      placeholder="Search hymns by title, number, author, or composer..."
                       value={hymnSearch}
                       onChange={(e) => setHymnSearch(e.target.value)}
                       className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
@@ -421,13 +500,25 @@ export default function ChoirRegistrationForm({ hymnalReferences }: ChoirRegistr
 
                 {/* Hymn List */}
                 <div className="max-h-96 overflow-y-auto border border-gray-200 rounded-lg">
-                  {filteredHymns.length === 0 ? (
+                  {isSearching ? (
                     <div className="p-8 text-center text-gray-500">
-                      No hymns found matching your search criteria.
+                      <div className="animate-pulse">Searching hymns...</div>
+                    </div>
+                  ) : !hymnSearch.trim() ? (
+                    <div className="p-8 text-center text-gray-500">
+                      <div className="space-y-2">
+                        <MagnifyingGlassIcon className="h-12 w-12 mx-auto text-gray-400" />
+                        <p>Start typing to search and select hymns</p>
+                        <p className="text-xs">Search by title, number, author, or composer</p>
+                      </div>
+                    </div>
+                  ) : displayHymns.length === 0 ? (
+                    <div className="p-8 text-center text-gray-500">
+                      No hymns found matching "{hymnSearch}". Try a different search term.
                     </div>
                   ) : (
                     <div className="divide-y divide-gray-200">
-                      {filteredHymns.slice(0, 200).map(hymn => (
+                      {displayHymns.map(hymn => (
                         <label
                           key={hymn.id}
                           className="flex items-center p-4 hover:bg-gray-50 cursor-pointer"
@@ -448,9 +539,9 @@ export default function ChoirRegistrationForm({ hymnalReferences }: ChoirRegistr
                           </div>
                         </label>
                       ))}
-                      {filteredHymns.length > 200 && (
+                      {displayHymns.length >= 50 && (
                         <div className="p-4 text-center text-gray-500">
-                          Showing first 200 results. Use search to narrow down.
+                          Showing first 50 results. Refine your search for more specific results.
                         </div>
                       )}
                     </div>

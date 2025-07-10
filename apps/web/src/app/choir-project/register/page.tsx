@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   keywords: ['choir registration', 'hymn recording', 'Adventist choir', 'music collaboration', 'sacred music'],
 };
 
+export async function generateStaticParams() {
+  // Static page with no dynamic params
+  return [];
+}
+
 export default async function ChoirRegistrationPage() {
   const hymnalReferences = await loadHymnalReferences();
   

@@ -18,11 +18,41 @@ function doGet(e) {
       status: 'running',
       timestamp: new Date().toISOString(),
       version: '1.0.0',
-      usage: 'Provide choir registration parameters to register'
+      usage: 'POST choir registration data to register'
     })).setMimeType(ContentService.MimeType.JSON);
     
   } catch (error) {
     console.error('doGet error:', error);
+    return ContentService.createTextOutput(JSON.stringify({
+      error: 'Internal server error',
+      message: error.toString()
+    })).setMimeType(ContentService.MimeType.JSON);
+  }
+}
+
+function doPost(e) {
+  try {
+    let params;
+    
+    // Parse the POST data
+    if (e.postData && e.postData.contents) {
+      try {
+        params = JSON.parse(e.postData.contents);
+      } catch (parseError) {
+        console.error('JSON parse error:', parseError);
+        return ContentService.createTextOutput(JSON.stringify({
+          error: 'Invalid JSON in request body'
+        })).setMimeType(ContentService.MimeType.JSON);
+      }
+    } else {
+      params = e.parameter || {};
+    }
+    
+    // Handle choir registration
+    return handleChoirRegistration(params);
+    
+  } catch (error) {
+    console.error('doPost error:', error);
     return ContentService.createTextOutput(JSON.stringify({
       error: 'Internal server error',
       message: error.toString()
@@ -64,6 +94,9 @@ function handleChoirRegistration(params) {
     }
     
     // Add new registration
+    const selectedHymnsCount = Array.isArray(params.selectedHymns) ? params.selectedHymns.length : 0;
+    const selectedHymnsDetails = Array.isArray(params.selectedHymnsDetails) ? params.selectedHymnsDetails.join(' | ') : (params.selectedHymnsDetails || '');
+    
     sheet.appendRow([
       params.choirName || '',
       params.contactName || '',
@@ -75,8 +108,8 @@ function handleChoirRegistration(params) {
       params.experience || '',
       params.equipment || '',
       params.preferredTimeline || '',
-      params.selectedHymnsCount || '0',
-      params.selectedHymnsDetails || '',
+      selectedHymnsCount.toString(),
+      selectedHymnsDetails,
       params.additionalInfo || '',
       params.timestamp || new Date().toISOString(),
       params.userAgent || 'unknown',
@@ -84,7 +117,7 @@ function handleChoirRegistration(params) {
       new Date() // Server timestamp
     ]);
     
-    console.log(`New choir registration: ${params.choirName} (${params.email}) - ${params.selectedHymnsCount} hymns selected`);
+    console.log(`New choir registration: ${params.choirName} (${params.email}) - ${selectedHymnsCount} hymns selected`);
     
     return ContentService.createTextOutput(JSON.stringify({
       success: true,
@@ -104,7 +137,8 @@ function handleChoirRegistration(params) {
 }
 
 function getOrCreateChoirRegistrationSheet() {
-  const spreadsheetName = 'Advent Hymnals Choir Registrations';
+  const spreadsheetName = 'Advent Hymnals Subscriptions';
+  const sheetName = 'Choir Registrations';
   
   // Try to find existing spreadsheet
   const files = DriveApp.getFilesByName(spreadsheetName);
@@ -114,13 +148,65 @@ function getOrCreateChoirRegistrationSheet() {
     // Use existing spreadsheet
     const file = files.next();
     spreadsheet = SpreadsheetApp.openById(file.getId());
+    
+    // Check if the choir registrations sheet exists
+    let sheet = spreadsheet.getSheetByName(sheetName);
+    
+    if (!sheet) {
+      // Create the choir registrations sheet
+      sheet = spreadsheet.insertSheet(sheetName);
+      
+      // Set up the header row
+      sheet.getRange('A1:Q1').setValues([[
+        'Choir Name',
+        'Contact Name',
+        'Email',
+        'Phone',
+        'Location',
+        'Church/Organization',
+        'Choir Size',
+        'Recording Experience',
+        'Equipment',
+        'Preferred Timeline',
+        'Selected Hymns Count',
+        'Selected Hymns Details',
+        'Additional Info',
+        'Timestamp',
+        'User Agent',
+        'Referer',
+        'Server Timestamp'
+      ]]);
+      
+      // Format the header row
+      const headerRange = sheet.getRange('A1:Q1');
+      headerRange.setFontWeight('bold');
+      headerRange.setBackground('#4285f4');
+      headerRange.setFontColor('white');
+      
+      // Auto-resize columns
+      sheet.autoResizeColumns(1, 17);
+      
+      // Set column widths for better readability
+      sheet.setColumnWidth(1, 200); // Choir Name
+      sheet.setColumnWidth(2, 150); // Contact Name
+      sheet.setColumnWidth(3, 200); // Email
+      sheet.setColumnWidth(5, 150); // Location
+      sheet.setColumnWidth(6, 200); // Church/Organization
+      sheet.setColumnWidth(9, 300); // Equipment
+      sheet.setColumnWidth(12, 500); // Selected Hymns Details
+      sheet.setColumnWidth(13, 300); // Additional Info
+      
+      console.log(`Created new choir registration sheet in existing spreadsheet: ${spreadsheet.getUrl()}`);
+    }
+    
+    return sheet;
   } else {
-    // Create new spreadsheet
+    // Create new spreadsheet if it doesn't exist
     spreadsheet = SpreadsheetApp.create(spreadsheetName);
     
-    // Set up the header row
+    // Set up the choir registrations sheet
     const sheet = spreadsheet.getActiveSheet();
-    sheet.setName('Choir Registrations');
+    sheet.setName(sheetName);
     sheet.getRange('A1:Q1').setValues([[
       'Choir Name',
       'Contact Name',
@@ -160,10 +246,9 @@ function getOrCreateChoirRegistrationSheet() {
     sheet.setColumnWidth(12, 500); // Selected Hymns Details
     sheet.setColumnWidth(13, 300); // Additional Info
     
-    console.log(`Created new choir registration spreadsheet: ${spreadsheet.getUrl()}`);
+    console.log(`Created new spreadsheet with choir registration sheet: ${spreadsheet.getUrl()}`);
+    return sheet;
   }
-  
-  return spreadsheet.getActiveSheet();
 }
 
 function createResponse(data, statusCode = 200) {

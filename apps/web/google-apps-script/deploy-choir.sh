@@ -18,42 +18,94 @@ if ! clasp login --status &> /dev/null; then
     exit 1
 fi
 
+# Backup existing Code.js if it exists
+if [ -f "Code.js" ]; then
+    echo "💾 Backing up existing Code.js..."
+    cp Code.js Code.js.backup
+fi
+
 # Create a new Google Apps Script project for choir registration
 echo "📝 Creating new Google Apps Script project..."
-clasp create --type webapp --title "Advent Hymnals Choir Registration" --rootDir ./
+clasp create --type webapp --title "Advent Hymnals Choir Registration"
 
-# Copy the choir registration script
-echo "📋 Copying choir registration script..."
+# Copy the choir registration script and manifest
+echo "📋 Setting up project files..."
 cp ChoirRegistration.js Code.js
 
-# Deploy the script
-echo "🚀 Deploying script..."
+# Ensure appsscript.json is properly configured
+cat > appsscript.json << EOF
+{
+  "timeZone": "America/New_York",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "webapp": {
+    "access": "ANYONE",
+    "executeAs": "USER_DEPLOYING"
+  }
+}
+EOF
+
+# Push files to Google Apps Script
+echo "📤 Pushing files to Google Apps Script..."
 clasp push
-clasp deploy --description "Choir Registration Handler v1.0"
 
-# Get the web app URL
-echo "🌐 Getting web app URL..."
-WEB_APP_URL=$(clasp deployments | grep -oE 'https://script\.google\.com/macros/s/[A-Za-z0-9_-]+/exec' | head -n1)
+# Create a new deployment
+echo "🚀 Creating deployment..."
+DEPLOYMENT_OUTPUT=$(clasp deploy --description "Choir Registration Handler v1.0" 2>&1)
+echo "$DEPLOYMENT_OUTPUT"
 
-if [ -n "$WEB_APP_URL" ]; then
-    echo "✅ Deployment successful!"
-    echo ""
-    echo "🔗 Web App URL: $WEB_APP_URL"
-    echo ""
-    echo "📝 Next steps:"
-    echo "   1. Add this URL to your .env file as GOOGLE_CHOIR_SCRIPT_URL"
-    echo "   2. Test the integration with the choir registration form"
-    echo "   3. Check the Google Sheets created for choir registrations"
-    echo ""
-    echo "🔧 Environment variable to add:"
-    echo "   GOOGLE_CHOIR_SCRIPT_URL=$WEB_APP_URL"
+# Get the deployment ID and construct the web app URL
+DEPLOYMENT_ID=$(echo "$DEPLOYMENT_OUTPUT" | grep -oE '[A-Za-z0-9_-]{57}' | head -n1)
+
+if [ -n "$DEPLOYMENT_ID" ]; then
+    # Get the script ID
+    SCRIPT_ID=$(clasp list | grep "Advent Hymnals Choir Registration" | grep -oE '[A-Za-z0-9_-]{57}')
+    
+    if [ -n "$SCRIPT_ID" ]; then
+        WEB_APP_URL="https://script.google.com/macros/s/$SCRIPT_ID/exec"
+        
+        echo ""
+        echo "✅ Deployment successful!"
+        echo ""
+        echo "🔗 Web App URL: $WEB_APP_URL"
+        echo "📋 Script ID: $SCRIPT_ID"
+        echo "🆔 Deployment ID: $DEPLOYMENT_ID"
+        echo ""
+        echo "📝 Next steps:"
+        echo "   1. Go to: https://script.google.com/d/$SCRIPT_ID/edit"
+        echo "   2. Click 'Deploy' > 'Manage deployments'"
+        echo "   3. Click the gear icon next to your deployment"
+        echo "   4. Set 'Execute as' to 'Me' and 'Who has access' to 'Anyone'"
+        echo "   5. Click 'Update' and authorize the script"
+        echo "   6. Add this URL to your .env file:"
+        echo ""
+        echo "🔧 Environment variable to add:"
+        echo "   GOOGLE_CHOIR_SCRIPT_URL=$WEB_APP_URL"
+        echo ""
+        echo "🧪 Test the script with:"
+        echo "   curl \"$WEB_APP_URL\""
+    else
+        echo "❌ Error: Could not retrieve script ID"
+        exit 1
+    fi
 else
-    echo "❌ Error: Could not retrieve web app URL. Please check the deployment manually."
+    echo "❌ Error: Could not retrieve deployment ID. Please check the deployment manually."
+    echo "Output was: $DEPLOYMENT_OUTPUT"
     exit 1
 fi
 
-# Restore original Code.js
-echo "🔄 Restoring original subscription script..."
-cp ../Code.js.backup Code.js 2>/dev/null || echo "⚠️  Warning: Could not restore original Code.js"
+# Restore original Code.js if backup exists
+if [ -f "Code.js.backup" ]; then
+    echo "🔄 Restoring original Code.js..."
+    mv Code.js.backup Code.js
+fi
 
+echo ""
 echo "✨ Choir registration deployment complete!"
+echo ""
+echo "📋 Summary:"
+echo "   - Google Apps Script project created"
+echo "   - Choir registration handler deployed"
+echo "   - Spreadsheet will be auto-created on first registration"
+echo "   - Manual authorization required (see steps above)"

@@ -82,6 +82,8 @@ jobs:
           NEXT_TELEMETRY_DISABLED: 1
           NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
           SITE_URL: https://adventhymnals.org
+          GOOGLE_SCRIPT_URL: ${{ secrets.GOOGLE_SCRIPT_URL }}
+          GOOGLE_CHOIR_SCRIPT_URL: ${{ secrets.GOOGLE_CHOIR_SCRIPT_URL }}
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -185,6 +187,8 @@ jobs:
           NEXT_TELEMETRY_DISABLED: 1
           NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
           SITE_URL: https://adventhymnals.github.io
+          GOOGLE_SCRIPT_URL: ${{ secrets.GOOGLE_SCRIPT_URL }}
+          GOOGLE_CHOIR_SCRIPT_URL: ${{ secrets.GOOGLE_CHOIR_SCRIPT_URL }}
 
       - name: Upload static artifacts
         uses: actions/upload-artifact@v4
@@ -223,6 +227,8 @@ jobs:
             NEXT_PUBLIC_GA_ID=${{ secrets.NEXT_PUBLIC_GA_ID }}
             GOOGLE_VERIFICATION=${{ secrets.GOOGLE_VERIFICATION }}
             YANDEX_VERIFICATION=${{ secrets.YANDEX_VERIFICATION }}
+            GOOGLE_SCRIPT_URL=${{ secrets.GOOGLE_SCRIPT_URL }}
+            GOOGLE_CHOIR_SCRIPT_URL=${{ secrets.GOOGLE_CHOIR_SCRIPT_URL }}
             EOF
             
             # Create external network if it doesn't exist

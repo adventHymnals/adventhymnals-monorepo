@@ -246,7 +246,7 @@ export default async function HomePage() {
               
               <div className="space-y-4 mb-8">
                 <div className="flex items-start">
-                  <UserGroupIcon className="h-5 w-5 text-rose-600 mt-1 mr-3 flex-shrink-0" />
+                  <UserGroupIcon className="h-5 w-5 text-emerald-600 mt-1 mr-3 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Choir Collaborations</h3>
                     <p className="text-gray-600 text-sm">Partner with choirs worldwide to create authentic, heartfelt recordings</p>
@@ -254,7 +254,7 @@ export default async function HomePage() {
                 </div>
                 
                 <div className="flex items-start">
-                  <PlayIcon className="h-5 w-5 text-rose-600 mt-1 mr-3 flex-shrink-0" />
+                  <PlayIcon className="h-5 w-5 text-emerald-600 mt-1 mr-3 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-gray-900">AI-Assisted Production</h3>
                     <p className="text-gray-600 text-sm">Cutting-edge technology ensures every hymn can be beautifully represented</p>
@@ -262,7 +262,7 @@ export default async function HomePage() {
                 </div>
                 
                 <div className="flex items-start">
-                  <MusicalNoteIcon className="h-5 w-5 text-rose-600 mt-1 mr-3 flex-shrink-0" />
+                  <MusicalNoteIcon className="h-5 w-5 text-emerald-600 mt-1 mr-3 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Preserving Heritage</h3>
                     <p className="text-gray-600 text-sm">Ensuring 160+ years of sacred music reaches current and future generations</p>
@@ -273,7 +273,7 @@ export default async function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/choir-project"
-                  className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 transition-colors"
+                  className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700 transition-colors"
                 >
                   <UserGroupIcon className="h-5 w-5 mr-2" />
                   Join Our Mission
@@ -282,7 +282,7 @@ export default async function HomePage() {
                   href="https://www.youtube.com/@adventhymnals"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-3 border border-rose-600 text-base font-medium rounded-md text-rose-600 hover:bg-rose-50 transition-colors"
+                  className="inline-flex items-center px-6 py-3 border border-emerald-600 text-base font-medium rounded-md text-emerald-600 hover:bg-emerald-50 transition-colors"
                 >
                   <PlayIcon className="h-5 w-5 mr-2" />
                   Visit Our Channel
@@ -310,17 +310,17 @@ export default async function HomePage() {
 
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div className="text-center p-4 bg-gray-800 rounded-lg">
-                    <div className="text-2xl font-bold text-red-400">5,500+</div>
+                    <div className="text-2xl font-bold text-emerald-400">5,500+</div>
                     <div className="text-sm text-gray-300">Hymns to Record</div>
                   </div>
                   <div className="text-center p-4 bg-gray-800 rounded-lg">
-                    <div className="text-2xl font-bold text-red-400">Growing</div>
+                    <div className="text-2xl font-bold text-emerald-400">Growing</div>
                     <div className="text-sm text-gray-300">Active Project</div>
                   </div>
                 </div>
 
-                <div className="bg-red-600/20 border border-red-600/30 rounded-lg p-4">
-                  <p className="text-red-200 text-sm">
+                <div className="bg-emerald-600/20 border border-emerald-600/30 rounded-lg p-4">
+                  <p className="text-emerald-200 text-sm">
                     🎵 <strong>Join us</strong> in preserving centuries of sacred music for future generations
                   </p>
                 </div>
