@@ -94,8 +94,8 @@ export default function HistoricSDAHymnalPage() {
                     <div>
                       <h3 className="font-semibold text-blue-900 mb-2">Important Note</h3>
                       <p className="text-blue-800 text-sm">
-                        This project is approached with scholarly objectivity and respect for all Christian traditions. 
-                        Our goal is historical preservation and theological consistency, not divisiveness.
+                        This project follows evidence-based methodology using documented sources. 
+                        We prioritize factual accuracy over speculative theories.
                       </p>
                     </div>
                   </div>
