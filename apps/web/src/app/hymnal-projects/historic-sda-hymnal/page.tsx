@@ -46,7 +46,7 @@ export default function HistoricSDAHymnalPage() {
         </div>
 
         {/* Hero Section */}
-        <div className="bg-gradient-to-r from-amber-600 to-orange-600 text-white">
+        <div className="bg-gradient-to-r from-blue-900 to-purple-900 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="text-center">
               <div className="flex justify-center mb-6">
@@ -57,10 +57,10 @@ export default function HistoricSDAHymnalPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Historic Seventh-Day Adventist Hymnal
               </h1>
-              <p className="text-xl md:text-2xl text-amber-100 max-w-3xl mx-auto mb-8">
+              <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto mb-8">
                 Preserving the theological distinctives and worship traditions of early Adventism
               </p>
-              <div className="inline-flex items-center bg-amber-500/30 text-amber-100 px-4 py-2 rounded-full text-sm font-medium border border-amber-400/30">
+              <div className="inline-flex items-center bg-blue-500/30 text-blue-100 px-4 py-2 rounded-full text-sm font-medium border border-blue-400/30">
                 <ClockIcon className="w-4 h-4 mr-2" />
                 Currently in Research Phase
               </div>
@@ -214,12 +214,12 @@ export default function HistoricSDAHymnalPage() {
               {/* Current Phase */}
               <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Current Phase</h3>
-                <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-4">
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
                   <div className="flex items-center mb-2">
-                    <ClockIcon className="w-5 h-5 text-amber-600 mr-2" />
-                    <span className="font-medium text-amber-800">Research Phase</span>
+                    <ClockIcon className="w-5 h-5 text-blue-600 mr-2" />
+                    <span className="font-medium text-blue-800">Research Phase</span>
                   </div>
-                  <p className="text-amber-700 text-sm">Analyzing existing hymnal content and historical sources</p>
+                  <p className="text-blue-700 text-sm">Analyzing existing hymnal content and historical sources</p>
                 </div>
                 
                 <h4 className="font-medium text-gray-800 mb-3">Current Activities:</h4>
@@ -247,11 +247,11 @@ export default function HistoricSDAHymnalPage() {
               <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Project Timeline</h3>
                 <div className="space-y-4">
-                  <div className="flex items-center p-3 bg-amber-50 border border-amber-200 rounded-lg">
-                    <CheckCircleIcon className="w-5 h-5 text-amber-600 mr-3" />
+                  <div className="flex items-center p-3 bg-blue-50 border border-blue-200 rounded-lg">
+                    <CheckCircleIcon className="w-5 h-5 text-blue-600 mr-3" />
                     <div>
-                      <div className="font-medium text-amber-800">Research Phase</div>
-                      <div className="text-sm text-amber-600">Current - Content analysis</div>
+                      <div className="font-medium text-blue-800">Research Phase</div>
+                      <div className="text-sm text-blue-600">Current - Content analysis</div>
                     </div>
                   </div>
                   
