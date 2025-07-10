@@ -122,6 +122,7 @@ export default function Header({ hymnalReferences }: HeaderProps) {
     { name: 'Home', href: '/', current: pathname === '/' },
     { name: 'Search', href: '/search', current: pathname === '/search' },
     { name: 'Download', href: '/download', current: pathname === '/download' },
+    { name: 'Projects', href: '/hymnal-projects', current: pathname === '/hymnal-projects' },
     { name: 'About', href: '/about', current: pathname === '/about' },
     { name: 'Contribute', href: '/contribute', current: pathname === '/contribute' },
   ];

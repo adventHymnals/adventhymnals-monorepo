@@ -268,6 +268,14 @@ export default async function HomePage() {
                     <p className="text-gray-600 text-sm">Ensuring 160+ years of sacred music reaches current and future generations</p>
                   </div>
                 </div>
+                
+                <div className="flex items-start">
+                  <BookOpenIcon className="h-5 w-5 text-emerald-600 mt-1 mr-3 flex-shrink-0" />
+                  <div>
+                    <h3 className="font-semibold text-gray-900">Hymnal Projects</h3>
+                    <p className="text-gray-600 text-sm">Creating curated collections that reflect historic Adventist theology and worship traditions</p>
+                  </div>
+                </div>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -277,6 +285,13 @@ export default async function HomePage() {
                 >
                   <UserGroupIcon className="h-5 w-5 mr-2" />
                   Join Our Mission
+                </Link>
+                <Link
+                  href="/hymnal-projects"
+                  className="inline-flex items-center px-6 py-3 border border-emerald-600 text-base font-medium rounded-md text-emerald-600 hover:bg-emerald-50 transition-colors"
+                >
+                  <BookOpenIcon className="h-5 w-5 mr-2" />
+                  Hymnal Projects
                 </Link>
                 <a
                   href="https://www.youtube.com/@adventhymnals"
