@@ -73,13 +73,13 @@ const projects = [
   }
 ];
 
-const statusColors = {
+const statusColors: Record<string, string> = {
   active: 'bg-green-100 text-green-800 border-green-200',
   planned: 'bg-blue-100 text-blue-800 border-blue-200',
   completed: 'bg-purple-100 text-purple-800 border-purple-200'
 };
 
-const phaseIcons = {
+const phaseIcons: Record<string, any> = {
   current: CheckCircleIcon,
   upcoming: ClockIcon,
   future: PlayCircleIcon,
