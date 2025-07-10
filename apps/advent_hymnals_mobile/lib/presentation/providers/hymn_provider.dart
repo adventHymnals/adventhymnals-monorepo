@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import '../../domain/entities/hymn.dart';
 import '../../core/database/database_helper.dart';
+import '../../core/data/hymn_data_manager.dart';
 
 enum HymnLoadingState {
   initial,
@@ -11,6 +12,7 @@ enum HymnLoadingState {
 
 class HymnProvider extends ChangeNotifier {
   final DatabaseHelper _db = DatabaseHelper.instance;
+  final HymnDataManager _hymnDataManager = HymnDataManager();
   
   List<Hymn> _hymns = [];
   List<Hymn> _searchResults = [];
@@ -182,139 +184,7 @@ class HymnProvider extends ChangeNotifier {
     }).toList();
   }
 
-  // Mock hymns for specific collection
-  List<Hymn> _getMockHymnsForCollection(String abbreviation) {
-    print('🎭 [HymnProvider] Generating mock hymns for collection "$abbreviation"');
-    
-    // Different mock hymns based on collection
-    if (abbreviation.toUpperCase() == 'SDAH') {
-      return [
-        Hymn(
-          id: 1,
-          hymnNumber: 1,
-          title: 'Holy, Holy, Holy',
-          author: 'Reginald Heber',
-          composer: 'John B. Dykes',
-          tuneName: 'Nicaea',
-          meter: '11.12.12.10',
-          collectionId: 1,
-          lyrics: 'Holy, holy, holy! Lord God Almighty!\nEarly in the morning our song shall rise to Thee;\nHoly, holy, holy! Merciful and mighty!\nGod in three Persons, blessed Trinity!',
-          firstLine: 'Holy, holy, holy! Lord God Almighty!',
-          themeTags: ['worship', 'trinity', 'holiness'],
-          scriptureRefs: ['Revelation 4:8', 'Isaiah 6:3'],
-          createdAt: DateTime.now(),
-          updatedAt: DateTime.now(),
-          isFavorite: false,
-        ),
-        Hymn(
-          id: 2,
-          hymnNumber: 2,
-          title: 'Come, Thou Almighty King',
-          author: 'Unknown',
-          composer: 'Felice de Giardini',
-          tuneName: 'Italian Hymn',
-          meter: '664.6664',
-          collectionId: 1,
-          lyrics: 'Come, Thou Almighty King,\nHelp us Thy name to sing,\nHelp us to praise!\nFather all glorious,\nO\'er all victorious,\nCome and reign over us,\nAncient of Days!',
-          firstLine: 'Come, Thou Almighty King',
-          themeTags: ['worship', 'trinity', 'praise'],
-          scriptureRefs: ['1 Timothy 1:17'],
-          createdAt: DateTime.now(),
-          updatedAt: DateTime.now(),
-          isFavorite: false,
-        ),
-        Hymn(
-          id: 3,
-          hymnNumber: 3,
-          title: 'Great Is Thy Faithfulness',
-          author: 'Thomas O. Chisholm',
-          composer: 'William M. Runyan',
-          tuneName: 'Faithfulness',
-          meter: '11.10.11.10',
-          collectionId: 1,
-          lyrics: 'Great is Thy faithfulness, O God my Father;\nThere is no shadow of turning with Thee;\nThou changest not, Thy compassions, they fail not;\nAs Thou hast been, Thou forever wilt be.',
-          firstLine: 'Great is Thy faithfulness, O God my Father',
-          themeTags: ['faithfulness', 'God', 'trust'],
-          scriptureRefs: ['Lamentations 3:22-23'],
-          createdAt: DateTime.now(),
-          updatedAt: DateTime.now(),
-          isFavorite: false,
-        ),
-        Hymn(
-          id: 4,
-          hymnNumber: 4,
-          title: 'Praise to the Lord, the Almighty',
-          author: 'Joachim Neander',
-          composer: 'Traditional German Melody',
-          tuneName: 'Lobe Den Herren',
-          meter: '14.14.4.78',
-          collectionId: 1,
-          lyrics: 'Praise to the Lord, the Almighty, the King of creation!\nO my soul, praise Him, for He is thy health and salvation!\nAll ye who hear,\nNow to His temple draw near;\nPraise Him in glad adoration.',
-          firstLine: 'Praise to the Lord, the Almighty, the King of creation!',
-          themeTags: ['praise', 'worship', 'creation'],
-          scriptureRefs: ['Psalm 103:1-5'],
-          createdAt: DateTime.now(),
-          updatedAt: DateTime.now(),
-          isFavorite: false,
-        ),
-        Hymn(
-          id: 5,
-          hymnNumber: 5,
-          title: 'A Mighty Fortress Is Our God',
-          author: 'Martin Luther',
-          composer: 'Martin Luther',
-          tuneName: 'Ein Feste Burg',
-          meter: '87.87.66.667',
-          collectionId: 1,
-          lyrics: 'A mighty fortress is our God,\nA bulwark never failing;\nOur helper He, amid the flood\nOf mortal ills prevailing:\nFor still our ancient foe\nDoth seek to work us woe;\nHis craft and power are great,\nAnd, armed with cruel hate,\nOn earth is not his equal.',
-          firstLine: 'A mighty fortress is our God',
-          themeTags: ['strength', 'protection', 'God'],
-          scriptureRefs: ['Psalm 46:1'],
-          createdAt: DateTime.now(),
-          updatedAt: DateTime.now(),
-          isFavorite: false,
-        ),
-      ];
-    } else {
-      // Generic mock hymns for other collections
-      return [
-        Hymn(
-          id: 10,
-          hymnNumber: 1,
-          title: 'Amazing Grace ($abbreviation Collection)',
-          author: 'John Newton',
-          composer: 'Traditional American Melody',
-          tuneName: 'New Britain',
-          meter: 'CM',
-          collectionId: 1,
-          lyrics: 'Amazing grace! how sweet the sound\nThat saved a wretch like me!\nI once was lost, but now am found,\nWas blind, but now I see.',
-          firstLine: 'Amazing grace! how sweet the sound',
-          themeTags: ['grace', 'salvation', 'testimony'],
-          scriptureRefs: ['Ephesians 2:8-9'],
-          createdAt: DateTime.now(),
-          updatedAt: DateTime.now(),
-          isFavorite: false,
-        ),
-        Hymn(
-          id: 11,
-          hymnNumber: 2,
-          title: 'How Great Thou Art ($abbreviation Collection)',
-          author: 'Carl Boberg',
-          composer: 'Traditional Swedish Melody',
-          tuneName: 'O Store Gud',
-          meter: '11.10.11.10',
-          collectionId: 1,
-          lyrics: 'O Lord my God, when I in awesome wonder\nConsider all the worlds Thy hands have made;\nI see the stars, I hear the rolling thunder,\nThy power throughout the universe displayed.',
-          firstLine: 'O Lord my God, when I in awesome wonder',
-          themeTags: ['praise', 'creation', 'worship'],
-          scriptureRefs: ['Psalm 8:3-4'],
-          createdAt: DateTime.now(),
-          updatedAt: DateTime.now(),
-          isFavorite: false,
-        ),
-      ];
-    }
-  }
+  // Note: Mock hymns functionality removed - now using real JSON hymn data via HymnDataManager
 
   // Get hymn by ID
   Future<Hymn?> getHymnById(int id) async {
@@ -349,8 +219,8 @@ class HymnProvider extends ChangeNotifier {
       // Check if database is available
       final isDbAvailable = await _db.isDatabaseAvailable();
       if (!isDbAvailable) {
-        print('⚠️ [HymnProvider] Database not available, falling back to mock data');
-        _hymns = _getMockHymnsForCollection(abbreviation); // Return collection-specific mock hymns
+        print('⚠️ [HymnProvider] Database not available, falling back to JSON data');
+        _hymns = await _hymnDataManager.getHymnsForCollection(abbreviation);
         _setLoadingState(HymnLoadingState.loaded);
         return;
       }
@@ -374,8 +244,8 @@ class HymnProvider extends ChangeNotifier {
         // Check if database is empty (no collections at all)
         final collections = await _db.getCollections();
         if (collections.isEmpty) {
-          print('📋 [HymnProvider] Database is empty, using mock data for demonstration');
-          _hymns = _getMockHymnsForCollection(abbreviation); // Return collection-specific mock hymns
+          print('📋 [HymnProvider] Database is empty, using JSON data for demonstration');
+          _hymns = await _hymnDataManager.getHymnsForCollection(abbreviation);
           _setLoadingState(HymnLoadingState.loaded);
         } else {
           print('📋 [HymnProvider] Database has ${collections.length} collections but "$abbreviation" not found');
@@ -386,9 +256,9 @@ class HymnProvider extends ChangeNotifier {
     } catch (e) {
       print('❌ [HymnProvider] Error loading hymns for collection "$abbreviation": $e');
       
-      // Fallback to mock data if there's an error
-      print('🔄 [HymnProvider] Falling back to mock data due to error');
-      _hymns = _getMockHymnsForCollection(abbreviation);
+      // Fallback to JSON data if there's an error
+      print('🔄 [HymnProvider] Falling back to JSON data due to error');
+      _hymns = await _hymnDataManager.getHymnsForCollection(abbreviation);
       _setLoadingState(HymnLoadingState.loaded);
     }
   }

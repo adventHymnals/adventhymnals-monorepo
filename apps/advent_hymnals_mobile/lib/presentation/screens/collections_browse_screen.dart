@@ -14,6 +14,7 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
   final TextEditingController _searchController = TextEditingController();
   String _searchQuery = '';
   List<CollectionInfo> _collections = [];
+  List<String> _selectedLanguages = [];
   bool _isLoading = true;
 
   @override
@@ -42,12 +43,41 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
   }
 
   List<CollectionInfo> get _filteredCollections {
-    if (_searchQuery.isEmpty) return _collections;
-    return _collections.where((collection) =>
-        collection.title.toLowerCase().contains(_searchQuery.toLowerCase()) ||
-        collection.description.toLowerCase().contains(_searchQuery.toLowerCase()) ||
-        collection.year.toString().contains(_searchQuery)
-    ).toList();
+    var filtered = _collections;
+    
+    // Apply language filter
+    if (_selectedLanguages.isNotEmpty) {
+      filtered = filtered.where((collection) {
+        final languageCode = _getLanguageCode(collection.language);
+        return _selectedLanguages.contains(languageCode);
+      }).toList();
+    }
+    
+    // Apply search query filter
+    if (_searchQuery.isNotEmpty) {
+      final query = _searchQuery.toLowerCase();
+      filtered = filtered.where((collection) =>
+          collection.title.toLowerCase().contains(query) ||
+          collection.id.toLowerCase().contains(query) || // Search by abbreviation (SDAH)
+          collection.description.toLowerCase().contains(query) ||
+          collection.year.toString().contains(query)
+      ).toList();
+    }
+    
+    return filtered;
+  }
+  
+  String _getLanguageCode(String languageName) {
+    switch (languageName.toLowerCase()) {
+      case 'english':
+        return 'en';
+      case 'kiswahili':
+        return 'swa';
+      case 'dholuo':
+        return 'luo';
+      default:
+        return languageName.toLowerCase();
+    }
   }
 
   @override
@@ -56,6 +86,13 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
       appBar: AppBar(
         title: const Text(AppStrings.collectionsTitle),
         elevation: 0,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.filter_list),
+            onPressed: _showFilterDialog,
+            tooltip: 'Filter Collections',
+          ),
+        ],
       ),
       body: Column(
         children: [
@@ -83,7 +120,7 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
                 TextField(
                   controller: _searchController,
                   decoration: InputDecoration(
-                    hintText: 'Search collections or years...',
+                    hintText: 'Search by name, abbreviation (SDAH), or year...',
                     prefixIcon: const Icon(Icons.search),
                     suffixIcon: _searchQuery.isNotEmpty
                         ? IconButton(
@@ -103,6 +140,29 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
                     });
                   },
                 ),
+                
+                // Filter chips
+                if (_selectedLanguages.isNotEmpty) ...[
+                  const SizedBox(height: AppSizes.spacing12),
+                  Wrap(
+                    spacing: 8,
+                    children: _selectedLanguages.map((lang) => FilterChip(
+                      label: Text(_getLanguageName(lang)),
+                      onSelected: (selected) {
+                        if (!selected) {
+                          setState(() {
+                            _selectedLanguages.remove(lang);
+                          });
+                        }
+                      },
+                      onDeleted: () {
+                        setState(() {
+                          _selectedLanguages.remove(lang);
+                        });
+                      },
+                    )).toList(),
+                  ),
+                ],
               ],
             ),
           ),
@@ -261,6 +321,76 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
           ),
         );
       },
+    );
+  }
+
+  String _getLanguageName(String code) {
+    switch (code) {
+      case 'en':
+        return 'English';
+      case 'swa':
+        return 'Kiswahili';
+      case 'luo':
+        return 'Dholuo';
+      default:
+        return code.toUpperCase();
+    }
+  }
+
+  void _showFilterDialog() {
+    List<String> tempSelectedLanguages = List.from(_selectedLanguages);
+
+    showDialog(
+      context: context,
+      builder: (context) => StatefulBuilder(
+        builder: (context, setState) => AlertDialog(
+          title: const Text('Filter Collections'),
+          content: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('Languages:', style: Theme.of(context).textTheme.titleSmall),
+                const SizedBox(height: 8),
+                
+                // Get unique languages from collections
+                ...{
+                  for (var collection in _collections) 
+                    _getLanguageCode(collection.language)
+                }.map((langCode) => CheckboxListTile(
+                  title: Text(_getLanguageName(langCode)),
+                  value: tempSelectedLanguages.contains(langCode),
+                  onChanged: (value) {
+                    setState(() {
+                      if (value == true) {
+                        tempSelectedLanguages.add(langCode);
+                      } else {
+                        tempSelectedLanguages.remove(langCode);
+                      }
+                    });
+                  },
+                  dense: true,
+                )),
+              ],
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('Cancel'),
+            ),
+            TextButton(
+              onPressed: () {
+                this.setState(() {
+                  _selectedLanguages = tempSelectedLanguages;
+                });
+                Navigator.pop(context);
+              },
+              child: const Text('Apply'),
+            ),
+          ],
+        ),
+      ),
     );
   }
 
