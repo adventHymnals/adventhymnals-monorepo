@@ -208,6 +208,16 @@ async function generateHymnUpdates(
   return hymnUpdates;
 }
 
+// For static generation - provide common version patterns
+export function generateStaticParams() {
+  return [
+    { from_version: '1.0.0' },
+    { from_version: '1.1.0' },
+    { from_version: '1.2.0' },
+    { from_version: '2.0.0' }
+  ];
+}
+
 export async function GET(
   request: NextRequest,
   { params }: { params: { from_version: string } }
