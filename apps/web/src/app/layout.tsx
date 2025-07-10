@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter, Crimson_Text } from 'next/font/google';
 import GoogleAnalytics from '@/components/analytics/GoogleAnalytics';
+import DevelopmentPopupWrapper from '@/components/ui/DevelopmentPopupWrapper';
 import '../styles/globals.css';
 import { unstable_noStore as noStore } from 'next/cache';
 
@@ -150,6 +151,7 @@ export default function RootLayout({
       </head>
       <body className="font-sans antialiased bg-gray-50">
         <GoogleAnalytics />
+        <DevelopmentPopupWrapper />
         {children}
       </body>
     </html>

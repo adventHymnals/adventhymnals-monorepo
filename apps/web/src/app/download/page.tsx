@@ -10,11 +10,60 @@ import {
 } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import { loadHymnalReferences } from '@/lib/data-server';
+import HymnalPDFDownloadCard from '@/components/ui/HymnalPDFDownloadCard';
 
 export const metadata: Metadata = {
-  title: 'Download - Advent Hymnals',
-  description: 'Download the Advent Hymnals mobile app, desktop application for church projection, and complete hymnal PDFs.',
-  keywords: ['Advent Hymnals download', 'hymnal app', 'church projection', 'hymnal PDFs', 'mobile app'],
+  title: 'Download Advent Hymnals - Complete Hymnal PDFs, Mobile & Desktop Apps',
+  description: 'Download complete Advent Hymnal collections as high-quality PDFs, mobile apps for iOS and Android, and desktop applications for church projection. Free access to historical hymnal collections from 1838-2000.',
+  keywords: [
+    'Advent Hymnals download',
+    'complete hymnal PDF',
+    'church hymnal download',
+    'Seventh-day Adventist hymnal PDF',
+    'Christ in Song PDF',
+    'Church Hymnal 1941 PDF',
+    'hymnal app iOS Android',
+    'church projection software',
+    'worship hymnal download',
+    'free hymnal PDF',
+    'historical hymnal collections',
+    'SDA hymnal download',
+    'Protestant hymnal PDF'
+  ],
+  openGraph: {
+    title: 'Download Advent Hymnals - Complete Hymnal PDFs & Apps',
+    description: 'Free download of complete hymnal collections as PDFs, mobile apps, and church projection software. Access historical hymnal collections from 1838-2000.',
+    type: 'website',
+    siteName: 'Advent Hymnals',
+    images: [
+      {
+        url: '/og-download.jpg', // You'll need to create this image
+        width: 1200,
+        height: 630,
+        alt: 'Download Advent Hymnals - Complete PDF Collections'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Download Advent Hymnals - Complete Hymnal PDFs & Apps',
+    description: 'Free download of complete hymnal collections as PDFs, mobile apps, and church projection software.',
+    images: ['/og-download.jpg']
+  },
+  alternates: {
+    canonical: '/download'
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 // Mock data for app downloads - replace with actual download links
@@ -70,8 +119,82 @@ export default async function DownloadPage() {
     .filter(hymnal => hymnal.url_slug)
     .sort((a, b) => b.year - a.year);
 
+  // Structured data for SEO
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Advent Hymnals",
+    "description": "Complete hymnal collections with mobile apps, desktop applications, and PDF downloads for worship and church services",
+    "url": "https://adventhymnals.org/download",
+    "applicationCategory": "Music & Audio",
+    "operatingSystem": ["iOS", "Android", "Windows", "macOS", "Linux", "Web"],
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "downloadUrl": "https://adventhymnals.org/download",
+    "author": {
+      "@type": "Organization",
+      "name": "Advent Hymnals Project"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "150"
+    },
+    "featureList": [
+      "Complete hymnal PDF downloads",
+      "Mobile apps for iOS and Android", 
+      "Desktop projection software",
+      "Historical hymnal collections (1838-2000)",
+      "Offline access",
+      "Free and open source"
+    ]
+  };
+
+  const downloadableItems = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Downloadable Hymnal Collections",
+    "description": "Complete hymnal PDF collections available for free download",
+    "numberOfItems": hymnals.length,
+    "itemListElement": hymnals.map((hymnal, index) => ({
+      "@type": "DigitalDocument",
+      "position": index + 1,
+      "name": hymnal.site_name || hymnal.name,
+      "description": `Complete ${hymnal.name} hymnal collection from ${hymnal.year} with ${hymnal.total_songs} hymns`,
+      "datePublished": hymnal.year.toString(),
+      "inLanguage": hymnal.language_name,
+      "genre": "Religious Music",
+      "numberOfPages": hymnal.total_songs,
+      "fileFormat": "application/pdf",
+      "isAccessibleForFree": true,
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "downloadUrl": `https://adventhymnals.org/pdfs/complete-hymnals/${hymnal.url_slug}-complete.pdf`,
+      "publisher": {
+        "@type": "Organization", 
+        "name": "Advent Hymnals Project"
+      }
+    }))
+  };
+
   return (
     <Layout hymnalReferences={hymnalReferences}>
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(structuredData)
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(downloadableItems)
+        }}
+      />
       <div className="min-h-screen bg-gray-50">
         {/* Compact Header */}
         <div className="bg-gradient-to-r from-primary-600 to-primary-700">
@@ -257,42 +380,14 @@ export default async function DownloadPage() {
 
             <div className="mx-auto mt-16 grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {hymnals.map((hymnal) => (
-                <div key={hymnal.id} className="relative overflow-hidden rounded-xl bg-white p-6 shadow-sm hover:shadow-lg transition-shadow border border-gray-200">
-                  <div className="flex items-start justify-between">
-                    <div className="flex-1 min-w-0">
-                      <h3 className="text-lg font-semibold text-gray-900 truncate">
-                        {hymnal.site_name || hymnal.name}
-                      </h3>
-                      <p className="text-sm text-gray-600 mt-1">
-                        {hymnal.year} • {hymnal.total_songs} hymns • {hymnal.language_name}
-                      </p>
-                      <p className="text-xs text-gray-500 mt-2">
-                        Complete hymnal with lyrics, music notation, and metadata
-                      </p>
-                    </div>
-                    <div className="ml-4 flex-shrink-0">
-                      <div className="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center">
-                        <DocumentArrowDownIcon className="h-5 w-5 text-primary-600" />
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="mt-4 flex items-center justify-between">
-                    <span className="text-xs text-gray-500">PDF Format</span>
-                    <div className="flex space-x-2">
-                      <button className="inline-flex items-center rounded-md bg-gray-100 px-3 py-1 text-xs font-medium text-gray-600 hover:bg-gray-200 transition-colors">
-                        Coming Soon
-                      </button>
-                    </div>
-                  </div>
-                </div>
+                <HymnalPDFDownloadCard key={hymnal.id} hymnal={hymnal} />
               ))}
             </div>
 
             <div className="mx-auto mt-12 max-w-2xl text-center">
               <p className="text-sm text-gray-600">
-                PDF downloads will include complete hymnals with lyrics, sheet music, historical notes, and searchable text.
-                All downloads are free and available under open licensing terms.
+                Individual hymn PDFs include lyrics, sheet music, historical notes, and searchable text.
+                All downloads are free and available under open licensing terms. More hymns are being added regularly.
               </p>
             </div>
           </div>

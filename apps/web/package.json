@@ -9,7 +9,12 @@
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "export": "NEXT_OUTPUT=export next build"
+    "export": "NEXT_OUTPUT=export next build",
+    "generate-pdfs": "node scripts/generate-pdfs-local.mjs",
+    "generate-pdfs-sample": "node scripts/generate-pdfs-local.mjs all --sample",
+    "generate-pdfs-force": "node scripts/generate-pdfs-local.mjs all --force",
+    "generate-complete-hymnals": "node scripts/generate-complete-hymnal-pdfs.mjs",
+    "generate-complete-hymnals-force": "node scripts/generate-complete-hymnal-pdfs.mjs all --force"
   },
   "dependencies": {
     "@advent-hymnals/hymnal-processor": "workspace:*",
@@ -41,6 +46,7 @@
   },
   "devDependencies": {
     "eslint": "^8.56.0",
-    "eslint-config-next": "^14.1.0"
+    "eslint-config-next": "^14.1.0",
+    "puppeteer": "^21.11.0"
   }
 }

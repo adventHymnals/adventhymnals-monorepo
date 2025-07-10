@@ -2,6 +2,9 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { PlayIcon, PauseIcon, StopIcon, ArrowPathIcon, Cog6ToothIcon, PrinterIcon, ShareIcon, PencilIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
+import PDFDownloadButton from './PDFDownloadButton';
+import EnhancedAudioPlayer from './EnhancedAudioPlayer';
+import { getDeviceType } from '@/lib/pdf-utils';
 
 interface HymnActionButtonsProps {
   hymn: {
@@ -16,6 +19,7 @@ interface HymnActionButtonsProps {
   hymnSlug: string;
   hymnalRef?: {
     id: string;
+    name?: string;
     music?: {
       mp3?: string;
       midi?: string | string[];
@@ -25,6 +29,7 @@ interface HymnActionButtonsProps {
 
 export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRef }: HymnActionButtonsProps) {
   const [selectedFormat, setSelectedFormat] = useState<'midi' | 'mp3'>('midi'); // Default to MIDI
+  const [deviceType, setDeviceType] = useState<'desktop' | 'mobile'>('desktop');
   const [showFormatDropdown, setShowFormatDropdown] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -46,6 +51,11 @@ export default function HymnActionButtons({ hymn, hymnalSlug, hymnSlug, hymnalRe
   });
   const [actuallyAvailableFormats, setActuallyAvailableFormats] = useState<Set<'midi' | 'mp3'>>(new Set());
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Detect device type
+  useEffect(() => {
+    setDeviceType(getDeviceType());
+  }, []);
 
   // Check which audio formats actually exist for this hymn
   useEffect(() => {
@@ -856,6 +866,14 @@ Download the MIDI file?`
         <PrinterIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
         Print
       </button>
+      <PDFDownloadButton
+        hymnalSlug={hymnalSlug}
+        hymnNumber={hymn.number}
+        hymnTitle={hymn.title}
+        hymnalName={hymnalRef?.name || hymnalSlug}
+        className="bg-white/10 text-white border border-white/20 hover:bg-white/20"
+        size="sm"
+      />
       <button 
         onClick={handleEdit}
         className="inline-flex items-center px-2 py-1.5 sm:px-4 sm:py-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 rounded-lg font-medium transition-colors duration-200 text-xs sm:text-sm"
@@ -1093,6 +1111,17 @@ Download the MIDI file?`
               </button>
             </div>
           </div>
+        </div>
+      )}
+
+      {/* Enhanced Mobile Audio Player */}
+      {deviceType === 'mobile' && hymnalRef?.music && (
+        <div className="mt-6">
+          <EnhancedAudioPlayer
+            hymn={hymn}
+            hymnalRef={hymnalRef}
+            className="w-full"
+          />
         </div>
       )}
     </div>

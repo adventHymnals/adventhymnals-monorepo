@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { BookOpenIcon, GlobeAltIcon, MusicalNoteIcon, AcademicCapIcon } from '@heroicons/react/24/outline';
+import { BookOpenIcon, GlobeAltIcon, MusicalNoteIcon, AcademicCapIcon, PlayIcon, UserGroupIcon } from '@heroicons/react/24/outline';
 import Layout from '@/components/layout/Layout';
 import HymnalCarousel from '@/components/ui/HymnalCarousel';
 import { loadHymnalReferences } from '@/lib/data-server';
-import { HymnalCollection, SupportedLanguage } from '@advent-hymnals/shared';
+import { SupportedLanguage } from '@advent-hymnals/shared';
 
 export const metadata: Metadata = {
   title: 'Advent Hymnals - Digital Collection of Adventist Hymnody',
@@ -150,18 +150,27 @@ export default async function HomePage() {
               Explore 13 complete hymnal collections with over 5,000 hymns from 1838 to 2000
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-x-6">
-              <div className="flex items-center gap-x-4">
+              <div className="flex flex-col sm:flex-row items-center gap-4">
+                <div className="flex items-center gap-x-4">
+                  <Link
+                    href="/search"
+                    className="btn-primary bg-white text-primary-600 hover:bg-gray-50 shadow-lg"
+                  >
+                    Start Searching
+                  </Link>
+                  <Link
+                    href="/download"
+                    className="btn-primary bg-primary-500 text-white hover:bg-primary-400 shadow-lg border border-primary-400"
+                  >
+                    Download App
+                  </Link>
+                </div>
+                {/* Option 1: Added choir project button */}
                 <Link
-                  href="/search"
-                  className="btn-primary bg-white text-primary-600 hover:bg-gray-50 shadow-lg"
+                  href="/choir-project"
+                  className="btn-primary bg-emerald-500 text-white hover:bg-emerald-400 shadow-lg border border-emerald-400"
                 >
-                  Start Searching
-                </Link>
-                <Link
-                  href="/download"
-                  className="btn-primary bg-primary-500 text-white hover:bg-primary-400 shadow-lg border border-primary-400"
-                >
-                  Download App
+                  🎵 Join Our Choir Project
                 </Link>
               </div>
               <Link
@@ -217,6 +226,106 @@ export default async function HomePage() {
                 </div>
               ))}
             </dl>
+          </div>
+        </div>
+      </div>
+
+      {/* Option 3: Bringing Hymns to Life Section */}
+      <div className="py-24 sm:py-32 bg-white">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Left side - Mission & Info */}
+            <div>
+              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6">
+                Bringing Hymns to Life
+              </h2>
+              <p className="text-lg text-gray-600 mb-6">
+                These beautiful hymns deserve to be heard, not just read. Unlike contemporary songs that 
+                come and go, hymns have sustained faith for centuries and will continue for generations to come.
+              </p>
+              
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start">
+                  <UserGroupIcon className="h-5 w-5 text-rose-600 mt-1 mr-3 flex-shrink-0" />
+                  <div>
+                    <h3 className="font-semibold text-gray-900">Choir Collaborations</h3>
+                    <p className="text-gray-600 text-sm">Partner with choirs worldwide to create authentic, heartfelt recordings</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <PlayIcon className="h-5 w-5 text-rose-600 mt-1 mr-3 flex-shrink-0" />
+                  <div>
+                    <h3 className="font-semibold text-gray-900">AI-Assisted Production</h3>
+                    <p className="text-gray-600 text-sm">Cutting-edge technology ensures every hymn can be beautifully represented</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <MusicalNoteIcon className="h-5 w-5 text-rose-600 mt-1 mr-3 flex-shrink-0" />
+                  <div>
+                    <h3 className="font-semibold text-gray-900">Preserving Heritage</h3>
+                    <p className="text-gray-600 text-sm">Ensuring 160+ years of sacred music reaches current and future generations</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/choir-project"
+                  className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 transition-colors"
+                >
+                  <UserGroupIcon className="h-5 w-5 mr-2" />
+                  Join Our Mission
+                </Link>
+                <a
+                  href="https://www.youtube.com/@adventhymnals"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 border border-rose-600 text-base font-medium rounded-md text-rose-600 hover:bg-rose-50 transition-colors"
+                >
+                  <PlayIcon className="h-5 w-5 mr-2" />
+                  Visit Our Channel
+                </a>
+              </div>
+            </div>
+
+            {/* Right side - YouTube Channel Preview */}
+            <div className="lg:pl-8">
+              <div className="relative bg-gray-900 rounded-xl p-8 text-white">
+                <div className="flex items-center mb-6">
+                  <div className="bg-red-600 p-3 rounded-lg mr-4">
+                    <PlayIcon className="h-8 w-8 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold">@adventhymnals</h3>
+                    <p className="text-gray-300">YouTube Channel</p>
+                  </div>
+                </div>
+                
+                <p className="text-gray-200 mb-6">
+                  Experience the beauty of traditional Adventist hymnody through our growing collection 
+                  of choir recordings and AI-assisted performances.
+                </p>
+
+                <div className="grid grid-cols-2 gap-4 mb-6">
+                  <div className="text-center p-4 bg-gray-800 rounded-lg">
+                    <div className="text-2xl font-bold text-red-400">5,500+</div>
+                    <div className="text-sm text-gray-300">Hymns to Record</div>
+                  </div>
+                  <div className="text-center p-4 bg-gray-800 rounded-lg">
+                    <div className="text-2xl font-bold text-red-400">Growing</div>
+                    <div className="text-sm text-gray-300">Active Project</div>
+                  </div>
+                </div>
+
+                <div className="bg-red-600/20 border border-red-600/30 rounded-lg p-4">
+                  <p className="text-red-200 text-sm">
+                    🎵 <strong>Join us</strong> in preserving centuries of sacred music for future generations
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
