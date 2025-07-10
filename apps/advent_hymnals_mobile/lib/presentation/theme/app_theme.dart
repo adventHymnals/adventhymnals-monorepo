@@ -228,17 +228,17 @@ class AppTheme {
 
       // Switch Theme
       switchTheme: SwitchThemeData(
-        thumbColor: WidgetStateProperty.resolveWith<Color>(
+        thumbColor: MaterialStateProperty.resolveWith<Color>(
           (states) {
-            if (states.contains(WidgetState.selected)) {
+            if (states.contains(MaterialState.selected)) {
               return _white;
             }
             return _gray300;
           },
         ),
-        trackColor: WidgetStateProperty.resolveWith<Color>(
+        trackColor: MaterialStateProperty.resolveWith<Color>(
           (states) {
-            if (states.contains(WidgetState.selected)) {
+            if (states.contains(MaterialState.selected)) {
               return _secondaryBlue;
             }
             return _gray300;
