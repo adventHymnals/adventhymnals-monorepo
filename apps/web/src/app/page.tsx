@@ -406,7 +406,7 @@ export default async function HomePage() {
                     </div>
                     <div>
                       <h4 className="font-semibold mb-1">Theological Integrity</h4>
-                      <p className="text-purple-100 text-sm">Ensure all hymns align with biblical Protestant principles and fundamental Adventist beliefs</p>
+                      <p className="text-purple-100 text-sm">Ensure all hymns align with biblical Protestant principles and fundamental Adventist principles</p>
                     </div>
                   </div>
                   

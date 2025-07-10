@@ -193,7 +193,7 @@ export default function HistoricSDAHymnalPage() {
                       </li>
                       <li className="flex items-start">
                         <CheckCircleIcon className="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" />
-                        <span className="text-gray-600 text-sm">Harmony with fundamental Adventist beliefs</span>
+                        <span className="text-gray-600 text-sm">Harmony with fundamental Adventist principles</span>
                       </li>
                       <li className="flex items-start">
                         <CheckCircleIcon className="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" />

@@ -34,7 +34,7 @@ const projects = [
     longDescription: 'The Historic Seventh-Day Adventist Hymnal is a scholarly project aimed at creating a hymnal that reflects the Protestant heritage and biblical foundations that shaped the Seventh-day Adventist movement. This project addresses concerns raised by some scholars and church members about maintaining denominational distinctiveness in worship.',
     goals: [
       'Consistency with biblical Protestant principles',
-      'Harmony with fundamental Adventist beliefs', 
+      'Harmony with fundamental Adventist principles', 
       'Preservation of historic worship traditions',
       'Reflection of biblical worship patterns'
     ],
@@ -243,7 +243,7 @@ export default function HymnalProjectsPage() {
                 </p>
                 <ul className="text-gray-600 space-y-1 text-sm">
                   <li>• Thorough theological and historical research</li>
-                  <li>• Alignment with fundamental Adventist beliefs</li>
+                  <li>• Alignment with fundamental Adventist principles</li>
                   <li>• Preservation of Protestant Reformation principles</li>
                   <li>• Respect for biblical worship patterns</li>
                 </ul>
