@@ -64,9 +64,21 @@ class _MainNavigationState extends State<MainNavigation> {
   void _updateCurrentIndex() {
     final String location = GoRouterState.of(context).uri.path;
     
-    // Find the index of the current route
+    // Find the index of the current route, handling sub-routes
     for (int i = 0; i < _navigationItems.length; i++) {
-      if (location == _navigationItems[i].route) {
+      final route = _navigationItems[i].route;
+      
+      // Check exact match first
+      if (location == route) {
+        setState(() {
+          _currentIndex = i;
+        });
+        break;
+      }
+      
+      // Check if location starts with the route (for sub-routes)
+      // For example, /browse/collections should highlight the Browse tab
+      if (location.startsWith(route + '/')) {
         setState(() {
           _currentIndex = i;
         });

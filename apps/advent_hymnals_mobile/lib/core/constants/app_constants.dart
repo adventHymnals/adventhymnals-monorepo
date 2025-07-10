@@ -4,7 +4,7 @@ class AppConstants {
   
   // Database
   static const String databaseName = 'hymns.db';
-  static const int databaseVersion = 1;
+  static const int databaseVersion = 2;
   
   // API
   static const String apiBaseUrl = 'https://adventhymnals.org/api';
@@ -115,6 +115,7 @@ class AppSizes {
   static const double spacing20 = 20.0;
   static const double spacing24 = 24.0;
   static const double spacing32 = 32.0;
+  static const double spacing48 = 48.0;
   
   // Border Radius
   static const double radiusSmall = 8.0;

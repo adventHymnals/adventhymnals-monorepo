@@ -168,8 +168,11 @@ class HymnDataManager {
         ? (verses[0]['text'] as String? ?? '').split('\n').first 
         : '';
     
-    // Extract hymn number from ID (e.g., "SDAH-en-003" -> 3)
+    // Extract hymn number and collection abbreviation from ID (e.g., "SDAH-en-003" -> 3, "SDAH")
     final hymnId = data['id'] as String;
+    final parts = hymnId.split('-');
+    final collectionAbbreviation = parts.isNotEmpty ? parts[0] : 'UNKNOWN';
+    
     final numberMatch = RegExp(r'-(\d+)$').firstMatch(hymnId);
     final hymnNumber = numberMatch != null 
         ? int.tryParse(numberMatch.group(1)!) ?? 0
@@ -184,6 +187,7 @@ class HymnDataManager {
       tuneName: data['tune'] as String?,
       meter: data['meter'] as String?,
       collectionId: 1, // Default collection ID
+      collectionAbbreviation: collectionAbbreviation,
       lyrics: lyrics.isNotEmpty ? lyrics : null,
       firstLine: firstLine.isNotEmpty ? firstLine : null,
       themeTags: (metadata['themes'] as List<dynamic>?)?.cast<String>(),

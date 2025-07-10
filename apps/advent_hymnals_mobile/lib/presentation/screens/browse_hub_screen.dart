@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/constants/app_constants.dart';
+import '../widgets/banner_ad_widget.dart';
 
 class BrowseHubScreen extends StatelessWidget {
   const BrowseHubScreen({super.key});
@@ -36,6 +37,11 @@ class BrowseHubScreen extends StatelessWidget {
             
             // Browse Categories Grid
             _buildBrowseGrid(context),
+            
+            const SizedBox(height: AppSizes.spacing24),
+            
+            // Banner Ad
+            const BannerAdWidget(),
             
             const SizedBox(height: AppSizes.spacing24),
             

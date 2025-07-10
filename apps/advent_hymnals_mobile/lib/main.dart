@@ -13,12 +13,16 @@ import 'presentation/providers/settings_provider.dart';
 import 'presentation/providers/audio_player_provider.dart';
 import 'core/services/church_mode_service.dart';
 import 'core/services/projector_service.dart';
+import 'core/services/admob_service.dart';
+import 'core/services/data_import_service.dart';
 import 'presentation/screens/home_screen.dart';
 import 'presentation/screens/browse_hub_screen.dart';
 import 'presentation/screens/search_screen.dart';
 import 'presentation/screens/favorites_screen.dart';
 import 'presentation/screens/more_screen.dart';
 import 'presentation/screens/hymn_detail_screen.dart';
+import 'presentation/screens/data_loading_screen.dart';
+import 'presentation/widgets/app_initializer.dart';
 import 'presentation/screens/authors_browse_screen.dart';
 import 'presentation/screens/topics_browse_screen.dart';
 import 'presentation/screens/collections_browse_screen.dart';
@@ -45,6 +49,11 @@ void main() async {
   // Initialize church mode service
   await ChurchModeService().initialize();
   
+  // Initialize AdMob (mobile platforms only)
+  if (Platform.isAndroid || Platform.isIOS) {
+    await AdMobService.initialize();
+  }
+  
   runApp(const AdventHymnalsApp());
 }
 
@@ -68,13 +77,15 @@ class AdventHymnalsApp extends StatelessWidget {
       ],
       child: Consumer<SettingsProvider>(
         builder: (context, settingsProvider, child) {
-          return MaterialApp.router(
-            title: 'Advent Hymnals',
-            theme: AppTheme.lightTheme,
-            darkTheme: AppTheme.darkTheme,
-            themeMode: settingsProvider.themeMode,
-            routerConfig: _router,
-            debugShowCheckedModeBanner: false,
+          return AppInitializer(
+            child: MaterialApp.router(
+              title: 'Advent Hymnals',
+              theme: AppTheme.lightTheme,
+              darkTheme: AppTheme.darkTheme,
+              themeMode: settingsProvider.themeMode,
+              routerConfig: _router,
+              debugShowCheckedModeBanner: false,
+            ),
           );
         },
       ),
@@ -125,9 +136,11 @@ final GoRouter _router = GoRouter(
           builder: (context, state) {
             final hymnId = int.tryParse(state.pathParameters['id'] ?? '0') ?? 0;
             final collectionId = state.uri.queryParameters['collection'];
+            final fromSource = state.uri.queryParameters['from'];
             return HymnDetailScreen(
               hymnId: hymnId,
               collectionId: collectionId,
+              fromSource: fromSource,
             );
           },
         ),

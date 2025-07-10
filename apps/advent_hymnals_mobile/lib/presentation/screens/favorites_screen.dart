@@ -294,7 +294,9 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
           ),
           child: Center(
             child: Text(
-              hymn.hymnNumber.toString(),
+              hymn.collectionAbbreviation != null 
+                ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
+                : hymn.hymnNumber.toString(),
               style: Theme.of(context).textTheme.labelMedium?.copyWith(
                 color: Color(AppColors.primaryBlue),
                 fontWeight: FontWeight.bold,
@@ -351,8 +353,12 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
           ],
         ),
         onTap: () {
-          // Navigate to hymn detail
-          context.push('/hymn/${hymn.id}');
+          // Navigate to hymn detail with source context for proper back navigation
+          final collectionParam = hymn.collectionAbbreviation;
+          final route = collectionParam != null 
+            ? '/hymn/${hymn.hymnNumber}?collection=$collectionParam&from=favorites'
+            : '/hymn/${hymn.hymnNumber}?from=favorites';
+          context.push(route);
         },
       ),
     );

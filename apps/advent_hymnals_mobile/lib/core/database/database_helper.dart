@@ -146,7 +146,9 @@ class DatabaseHelper {
         hymn_number INTEGER NOT NULL,
         title TEXT NOT NULL,
         author_id INTEGER,
+        author_name TEXT,
         composer_id INTEGER,
+        composer TEXT,
         tune_name TEXT,
         meter TEXT,
         collection_id INTEGER,
@@ -154,6 +156,11 @@ class DatabaseHelper {
         theme_tags TEXT,
         scripture_refs TEXT,
         first_line TEXT,
+        is_favorite INTEGER DEFAULT 0,
+        view_count INTEGER DEFAULT 0,
+        last_viewed TEXT,
+        last_played TEXT,
+        play_count INTEGER DEFAULT 0,
         created_at TEXT DEFAULT CURRENT_TIMESTAMP,
         updated_at TEXT DEFAULT CURRENT_TIMESTAMP,
         FOREIGN KEY (author_id) REFERENCES authors(id),
@@ -228,6 +235,15 @@ class DatabaseHelper {
       )
     ''');
 
+    // Metadata table for versioning and app state
+    await db.execute('''
+      CREATE TABLE metadata (
+        key TEXT PRIMARY KEY,
+        value TEXT NOT NULL,
+        updated_at TEXT DEFAULT CURRENT_TIMESTAMP
+      )
+    ''');
+
     // Create indexes for performance
     await db.execute('CREATE INDEX idx_hymns_title ON hymns(title)');
     await db.execute('CREATE INDEX idx_hymns_author ON hymns(author_id)');
@@ -248,7 +264,11 @@ class DatabaseHelper {
   // Hymn operations
   Future<int> insertHymn(Map<String, dynamic> hymn) async {
     final db = await database;
-    return await db.insert('hymns', hymn);
+    return await db.insert(
+      'hymns', 
+      hymn,
+      conflictAlgorithm: ConflictAlgorithm.replace,
+    );
   }
 
   Future<List<Map<String, dynamic>>> getHymns({
@@ -553,7 +573,11 @@ class DatabaseHelper {
   // Collection operations
   Future<int> insertCollection(Map<String, dynamic> collection) async {
     final db = await database;
-    return await db.insert('collections', collection);
+    return await db.insert(
+      'collections', 
+      collection,
+      conflictAlgorithm: ConflictAlgorithm.replace,
+    );
   }
 
   Future<List<Map<String, dynamic>>> getCollections() async {
@@ -630,16 +654,28 @@ class DatabaseHelper {
   }
 
   Future<void> clearAllData() async {
-    final db = await database;
-    await db.delete('hymns');
-    await db.delete('favorites');
-    await db.delete('recently_viewed');
-    await db.delete('download_cache');
-    await db.delete('search_history');
-    await db.delete('collections');
-    await db.delete('authors');
-    await db.delete('topics');
-    await db.delete('hymn_topics');
+    try {
+      final db = await database;
+      await db.delete('hymns');
+      await db.delete('favorites');
+      await db.delete('recently_viewed');
+      await db.delete('download_cache');
+      await db.delete('search_history');
+      await db.delete('collections');
+      await db.delete('authors');
+      await db.delete('topics');
+      await db.delete('hymn_topics');
+      
+      // Try to delete metadata, but don't fail if table doesn't exist
+      try {
+        await db.delete('metadata');
+      } catch (e) {
+        print('Warning: Could not clear metadata table (may not exist): $e');
+      }
+    } catch (e) {
+      print('Error clearing database: $e');
+      rethrow;
+    }
   }
 
   Future<void> closeDatabase() async {
@@ -647,6 +683,86 @@ class DatabaseHelper {
     if (db != null) {
       await db.close();
       _database = null;
+    }
+  }
+
+  // Metadata methods for data versioning
+  Future<String?> getMetadata(String key) async {
+    try {
+      final db = await database;
+      final result = await db.query(
+        'metadata',
+        where: 'key = ?',
+        whereArgs: [key],
+      );
+      if (result.isNotEmpty) {
+        return result.first['value'] as String?;
+      }
+      return null;
+    } catch (e) {
+      print('❌ [DatabaseHelper] Error getting metadata for key $key: $e');
+      return null;
+    }
+  }
+
+  Future<void> setMetadata(String key, String value) async {
+    try {
+      final db = await database;
+      await db.insert(
+        'metadata',
+        {'key': key, 'value': value},
+        conflictAlgorithm: ConflictAlgorithm.replace,
+      );
+    } catch (e) {
+      print('❌ [DatabaseHelper] Error setting metadata for key $key: $e');
+      rethrow;
+    }
+  }
+
+
+  // Initialize database method (public)
+  Future<void> initDatabase() async {
+    await database; // This will trigger initialization
+  }
+
+  // Search hymns within a specific collection
+  Future<List<Map<String, dynamic>>> searchHymnsInCollection(String query, int collectionId) async {
+    try {
+      final db = await database;
+      
+      // Create the WHERE clause for full-text search within collection
+      const whereClause = '''
+        collection_id = ? AND (
+          title LIKE ? OR 
+          author_name LIKE ? OR 
+          composer LIKE ? OR 
+          tune_name LIKE ? OR 
+          meter LIKE ? OR 
+          first_line LIKE ? OR 
+          lyrics LIKE ? OR 
+          CAST(hymn_number AS TEXT) LIKE ?
+        )
+      ''';
+      
+      final searchTerm = '%$query%';
+      final whereArgs = [
+        collectionId,
+        searchTerm, searchTerm, searchTerm, searchTerm, 
+        searchTerm, searchTerm, searchTerm, searchTerm
+      ];
+      
+      final result = await db.query(
+        'hymns',
+        where: whereClause,
+        whereArgs: whereArgs,
+        orderBy: 'hymn_number ASC',
+      );
+      
+      print('🔍 [DatabaseHelper] Collection search found ${result.length} results for "$query" in collection $collectionId');
+      return result;
+    } catch (e) {
+      print('❌ [DatabaseHelper] Collection search failed: $e');
+      return [];
     }
   }
 }

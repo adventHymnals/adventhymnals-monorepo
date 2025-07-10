@@ -5,6 +5,7 @@ import '../../core/constants/app_constants.dart';
 import '../../core/data/collections_data_manager.dart';
 import '../providers/hymn_provider.dart';
 import '../../domain/entities/hymn.dart';
+import '../widgets/banner_ad_widget.dart';
 
 class CollectionDetailScreen extends StatefulWidget {
   final String collectionId;
@@ -293,6 +294,9 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
               ],
             ),
           ),
+
+          // Banner Ad
+          const BannerAdWidget(),
 
           // Search Results or Hymn List
           Expanded(

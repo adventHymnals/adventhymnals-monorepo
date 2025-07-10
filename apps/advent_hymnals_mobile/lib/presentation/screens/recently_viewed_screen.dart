@@ -147,10 +147,13 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
         leading: CircleAvatar(
           backgroundColor: Color(AppColors.primaryBlue),
           child: Text(
-            '${hymn.hymnNumber}',
+            hymn.collectionAbbreviation != null 
+            ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
+            : '${hymn.hymnNumber}',
             style: const TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
+              fontSize: 12,
             ),
           ),
         ),
@@ -221,7 +224,12 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
           ],
         ),
         onTap: () {
-          context.go('/hymn/${hymn.id}');
+          // Navigate to hymn detail with source context for proper back navigation
+          final collectionParam = hymn.collectionAbbreviation;
+          final route = collectionParam != null 
+            ? '/hymn/${hymn.hymnNumber}?collection=$collectionParam&from=recent'
+            : '/hymn/${hymn.hymnNumber}?from=recent';
+          context.go(route);
         },
       ),
     );

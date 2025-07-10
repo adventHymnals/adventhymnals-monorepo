@@ -7,6 +7,7 @@ class Hymn {
   final String? tuneName;
   final String? meter;
   final int? collectionId;
+  final String? collectionAbbreviation; // Added for displaying hymnal abbreviation
   final String? lyrics;
   final List<String>? themeTags;
   final List<String>? scriptureRefs;
@@ -30,6 +31,7 @@ class Hymn {
     this.tuneName,
     this.meter,
     this.collectionId,
+    this.collectionAbbreviation,
     this.lyrics,
     this.themeTags,
     this.scriptureRefs,
@@ -52,6 +54,7 @@ class Hymn {
     String? tuneName,
     String? meter,
     int? collectionId,
+    String? collectionAbbreviation,
     String? lyrics,
     List<String>? themeTags,
     List<String>? scriptureRefs,
@@ -73,6 +76,7 @@ class Hymn {
       tuneName: tuneName ?? this.tuneName,
       meter: meter ?? this.meter,
       collectionId: collectionId ?? this.collectionId,
+      collectionAbbreviation: collectionAbbreviation ?? this.collectionAbbreviation,
       lyrics: lyrics ?? this.lyrics,
       themeTags: themeTags ?? this.themeTags,
       scriptureRefs: scriptureRefs ?? this.scriptureRefs,
@@ -158,6 +162,9 @@ class Hymn {
           : null,
     );
   }
+
+  /// Alias for fromJsonData to support DataImportService
+  factory Hymn.fromJson(Map<String, dynamic> json) => Hymn.fromJsonData(json);
 
   @override
   String toString() {

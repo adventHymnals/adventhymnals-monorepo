@@ -7,6 +7,7 @@ import '../providers/favorites_provider.dart';
 import '../providers/recently_viewed_provider.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/data/collections_data_manager.dart';
+import '../widgets/banner_ad_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -91,6 +92,11 @@ class _HomeScreenState extends State<HomeScreen> {
               
               // Recent Hymns Section
               _buildRecentHymnsSection(),
+              
+              const SizedBox(height: AppSizes.spacing24),
+              
+              // Banner Ad
+              const BannerAdWidget(),
               
               const SizedBox(height: AppSizes.spacing24),
               
@@ -456,7 +462,13 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Card(
         child: InkWell(
           onTap: () {
-            context.go('/hymn/${hymn.id}');
+            // Pass hymn number instead of database ID, along with collection info
+            // Always prefer abbreviation over ID to avoid showing numbers like '2'
+            final collectionParam = hymn.collectionAbbreviation;
+            final route = collectionParam != null 
+              ? '/hymn/${hymn.hymnNumber}?collection=$collectionParam&from=home'
+              : '/hymn/${hymn.hymnNumber}?from=home';
+            context.go(route);
           },
           borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
           child: Padding(
@@ -465,7 +477,9 @@ class _HomeScreenState extends State<HomeScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  hymn.hymnNumber.toString(),
+                  hymn.collectionAbbreviation != null 
+                    ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
+                    : hymn.hymnNumber.toString(),
                   style: Theme.of(context).textTheme.labelMedium?.copyWith(
                     color: Color(AppColors.secondaryBlue),
                     fontWeight: FontWeight.bold,

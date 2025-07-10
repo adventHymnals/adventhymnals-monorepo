@@ -1,0 +1,189 @@
+name: Generate Hymn PDFs
+
+on:
+  workflow_dispatch:
+    inputs:
+      hymnal_filter:
+        description: 'Generate PDFs for specific hymnal (e.g., "SDAH" or "all")'
+        required: false
+        default: 'all'
+        type: string
+      force_regenerate:
+        description: 'Force regenerate existing PDFs'
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    # Run weekly on Sundays at 2 AM UTC to catch new hymns
+    - cron: '0 2 * * 0'
+  push:
+    paths:
+      - 'data/processed/hymnals/**/*.json'
+      - 'data/processed/metadata/**/*.json'
+
+jobs:
+  generate-pdfs:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: 'apps/web/package-lock.json'
+        
+    - name: Install dependencies
+      working-directory: apps/web
+      run: npm ci
+      
+    - name: Install Puppeteer dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          fonts-liberation \
+          fonts-dejavu-core \
+          fontconfig \
+          libasound2 \
+          libatk-bridge2.0-0 \
+          libatk1.0-0 \
+          libatspi2.0-0 \
+          libcups2 \
+          libdbus-1-3 \
+          libdrm2 \
+          libgtk-3-0 \
+          libnspr4 \
+          libnss3 \
+          libwayland-client0 \
+          libxcomposite1 \
+          libxdamage1 \
+          libxfixes3 \
+          libxkbcommon0 \
+          libxrandr2 \
+          xvfb
+          
+    - name: Create PDF directories
+      working-directory: apps/web
+      run: |
+        mkdir -p public/pdfs/complete-hymnals
+        mkdir -p public/pdfs
+      
+    - name: Generate Complete Hymnal PDFs
+      working-directory: apps/web
+      env:
+        HYMNAL_FILTER: ${{ github.event.inputs.hymnal_filter || 'all' }}
+        FORCE_REGENERATE: ${{ github.event.inputs.force_regenerate || 'false' }}
+        NODE_ENV: production
+      run: |
+        # Use the same complete hymnal PDF generation script as local
+        cp scripts/generate-complete-hymnal-pdfs.mjs scripts/generate-pdfs-ci.mjs
+        
+        # Run the complete hymnal PDF generation
+        node scripts/generate-pdfs-ci.mjs
+        
+    - name: Create PDF index
+      working-directory: apps/web
+      run: |
+        # Create index of available complete hymnal PDFs
+        cat > scripts/create-pdf-index.mjs << 'EOF'
+        import fs from 'fs/promises';
+        import path from 'path';
+
+        async function createPDFIndex() {
+          const pdfsDir = 'public/pdfs/complete-hymnals';
+          const indexPath = 'public/pdfs/index.json';
+          
+          try {
+            const files = await fs.readdir(pdfsDir);
+            const pdfFiles = files
+              .filter(file => file.endsWith('.pdf'))
+              .map(file => {
+                // Parse hymnal name from complete PDF filename
+                const filename = file.replace('.pdf', '');
+                const parts = filename.split('-');
+                
+                // Extract hymnal ID (assuming format like "seventh-day-adventist-hymnal-complete.pdf")
+                let hymnalId = '';
+                if (filename.includes('seventh-day-adventist')) {
+                  hymnalId = 'SDAH';
+                } else if (filename.includes('christ-in-song')) {
+                  hymnalId = 'CS1900';
+                } else if (filename.includes('christian-hymnal')) {
+                  hymnalId = 'CH1941';
+                } else {
+                  // Fallback: use first part
+                  hymnalId = parts[0].toUpperCase();
+                }
+                
+                return {
+                  filename: file,
+                  hymnal: hymnalId,
+                  type: 'complete',
+                  url: `/pdfs/complete-hymnals/${file}`,
+                  generated: new Date().toISOString()
+                };
+              })
+              .sort((a, b) => a.hymnal.localeCompare(b.hymnal));
+            
+            const index = {
+              generated: new Date().toISOString(),
+              count: pdfFiles.length,
+              type: 'complete-hymnals',
+              pdfs: pdfFiles
+            };
+            
+            await fs.writeFile(indexPath, JSON.stringify(index, null, 2));
+            console.log(`📋 Created complete hymnal PDF index with ${pdfFiles.length} files`);
+            
+          } catch (error) {
+            console.error('Error creating PDF index:', error);
+          }
+        }
+
+        createPDFIndex();
+        EOF
+        
+        node scripts/create-pdf-index.mjs
+        
+    - name: Optimize PDFs (optional)
+      working-directory: apps/web
+      run: |
+        # Install ghostscript for PDF optimization
+        sudo apt-get install -y ghostscript
+        
+        # Optimize complete hymnal PDFs for web
+        find public/pdfs/complete-hymnals -name "*.pdf" -type f | while read pdf; do
+          if [ -f "$pdf" ] && [ $(stat -c%s "$pdf") -gt 2000000 ]; then
+            echo "Optimizing large complete hymnal PDF: $pdf"
+            gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
+               -dNOPAUSE -dQUIET -dBATCH -sOutputFile="${pdf}.opt" "$pdf" || true
+            
+            if [ -f "${pdf}.opt" ] && [ $(stat -c%s "${pdf}.opt") -lt $(stat -c%s "$pdf") ]; then
+              mv "${pdf}.opt" "$pdf"
+              echo "Optimized: $pdf"
+            else
+              rm -f "${pdf}.opt"
+            fi
+          fi
+        done
+        
+    - name: Summary
+      working-directory: apps/web
+      run: |
+        echo "## Complete Hymnal PDF Generation Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Generated Complete Hymnal PDFs:** $(find public/pdfs/complete-hymnals -name '*.pdf' | wc -l)" >> $GITHUB_STEP_SUMMARY
+        echo "**Total size:** $(du -sh public/pdfs/complete-hymnals/ | cut -f1)" >> $GITHUB_STEP_SUMMARY
+        echo "**Available at:** \`/pdfs/complete-hymnals/\` directory" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### Generated Complete Hymnal PDFs:" >> $GITHUB_STEP_SUMMARY
+        find public/pdfs/complete-hymnals -name "*.pdf" | while read pdf; do
+          basename_pdf=$(basename "$pdf")
+          file_size=$(du -h "$pdf" | cut -f1)
+          echo "- \`$basename_pdf\` ($file_size)" >> $GITHUB_STEP_SUMMARY
+        done

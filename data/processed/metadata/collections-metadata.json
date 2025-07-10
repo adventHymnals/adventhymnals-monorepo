@@ -1,0 +1,21 @@
+{
+  "version": "2024.07.10",
+  "last_updated": "2024-07-10T00:00:00Z",
+  "total_collections": 13,
+  "total_hymns": 5147,
+  "languages": ["en", "swa", "luo"],
+  "format_version": "1.0",
+  "generated_by": "advent-hymnals-data-processor",
+  "update_frequency": "weekly",
+  "changelog": [
+    {
+      "version": "2024.07.10",
+      "date": "2024-07-10",
+      "changes": [
+        "Initial data release with 13 hymnal collections",
+        "Added support for English, Kiswahili, and Dholuo languages",
+        "Included historical hymnals from 1838-2000"
+      ]
+    }
+  ]
+}

@@ -42,6 +42,9 @@ dependencies:
   intl: ^0.18.1
   uuid: ^4.1.0
   
+  # Ads
+  google_mobile_ads: ^5.1.0
+  
   # Icons
   cupertino_icons: ^1.0.6
 

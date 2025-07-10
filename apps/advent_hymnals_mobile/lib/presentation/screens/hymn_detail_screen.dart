@@ -11,15 +11,18 @@ import '../providers/audio_player_provider.dart';
 import '../providers/hymn_provider.dart';
 import '../providers/recently_viewed_provider.dart';
 import '../../domain/entities/hymn.dart';
+import '../widgets/banner_ad_widget.dart';
 
 class HymnDetailScreen extends StatefulWidget {
   final int hymnId;
   final String? collectionId;
+  final String? fromSource;
 
   const HymnDetailScreen({
     super.key,
     required this.hymnId,
     this.collectionId,
+    this.fromSource,
   });
 
   @override
@@ -314,6 +317,9 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             
             // Content Section
             _buildContent(),
+            
+            // Banner Ad
+            const BannerAdWidget(),
             
             // Metadata Section
             _buildMetadata(),
@@ -1094,20 +1100,58 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     return IconButton(
       icon: const Icon(Icons.arrow_back),
       onPressed: () {
-        // If we have a collection ID, navigate back to that collection
-        if (widget.collectionId != null) {
+        // Handle back navigation based on source
+        if (widget.fromSource != null) {
+          switch (widget.fromSource) {
+            case 'favorites':
+              context.go('/favorites');
+              break;
+            case 'recent':
+              context.go('/recently-viewed');
+              break;
+            case 'home':
+              context.go('/home');
+              break;
+            default:
+              _defaultBackNavigation();
+              break;
+          }
+        } else if (widget.collectionId != null) {
+          // If no source but has collection ID, try to navigate to collection
+          // Note: This assumes collectionId is a valid collection identifier
           context.go('/collection/${widget.collectionId}');
         } else {
-          // Default back navigation
-          if (Navigator.of(context).canPop()) {
-            Navigator.of(context).pop();
-          } else {
-            context.go('/home');
-          }
+          _defaultBackNavigation();
         }
       },
-      tooltip: 'Back to Collection',
+      tooltip: _getBackTooltip(),
     );
+  }
+
+  void _defaultBackNavigation() {
+    if (Navigator.of(context).canPop()) {
+      Navigator.of(context).pop();
+    } else {
+      context.go('/home');
+    }
+  }
+
+  String _getBackTooltip() {
+    if (widget.fromSource != null) {
+      switch (widget.fromSource) {
+        case 'favorites':
+          return 'Back to Favorites';
+        case 'recent':
+          return 'Back to Recent';
+        case 'home':
+          return 'Back to Home';
+        default:
+          return 'Back';
+      }
+    } else if (widget.collectionId != null) {
+      return 'Back to Collection';
+    }
+    return 'Back';
   }
 
   void _showPrintDialog() {

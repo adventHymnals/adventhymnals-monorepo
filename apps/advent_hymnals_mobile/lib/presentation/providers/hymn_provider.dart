@@ -98,7 +98,7 @@ class HymnProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  // Search hymns
+  // Search hymns (database-only after data import)
   Future<void> searchHymns(String query) async {
     _searchQuery = query;
     
@@ -111,19 +111,26 @@ class HymnProvider extends ChangeNotifier {
     _setLoadingState(HymnLoadingState.loading);
     
     try {
-      // Try database first
+      // Filter by selected collections if any are selected
       List<Hymn> results = [];
       
-      try {
+      if (_selectedCollections.isNotEmpty) {
+        // Search within selected collections only
+        for (final collectionId in _selectedCollections) {
+          final collectionData = await _db.getCollectionByAbbreviation(collectionId);
+          if (collectionData != null) {
+            final dbCollectionId = collectionData['id'] as int;
+            final collectionResults = await _db.searchHymnsInCollection(query, dbCollectionId);
+            results.addAll(collectionResults.map((data) => _mapToHymn(data)).toList());
+          }
+        }
+      } else {
+        // Search all hymns
         final hymnsData = await _db.searchHymns(query);
         results = hymnsData.map((data) => _mapToHymn(data)).toList();
-        print('✅ [HymnProvider] Found ${results.length} results from database');
-      } catch (dbError) {
-        print('⚠️ [HymnProvider] Database search failed, using JSON fallback: $dbError');
-        // Fallback to JSON search
-        results = await _searchHymnsFromJson(query);
-        print('✅ [HymnProvider] Found ${results.length} results from JSON');
       }
+      
+      print('✅ [HymnProvider] Found ${results.length} results from database');
       
       _searchResults = results;
       _sortSearchResults();
@@ -134,169 +141,7 @@ class HymnProvider extends ChangeNotifier {
     }
   }
 
-  // Search hymns from JSON data as fallback
-  Future<List<Hymn>> _searchHymnsFromJson(String query) async {
-    final queryLower = query.toLowerCase();
-    final allHymns = <Hymn>[];
-    
-    try {
-      // Load available collections and search in them
-      final collectionsDataManager = CollectionsDataManager();
-      final collections = await collectionsDataManager.getCollectionsList();
-      
-      // Filter collections based on selected collections
-      final collectionsToSearch = _selectedCollections.isEmpty 
-          ? collections.take(5).toList() // Default: search first 5 collections
-          : collections.where((c) => _selectedCollections.contains(c.id)).toList();
-      
-      for (final collection in collectionsToSearch) {
-        try {
-          final hymns = await _hymnDataManager.getHymnsForCollection(collection.id);
-          allHymns.addAll(hymns);
-        } catch (e) {
-          print('⚠️ [HymnProvider] Failed to load collection ${collection.id}: $e');
-        }
-      }
-      
-      // Search through all loaded hymns
-      final searchResults = allHymns.where((hymn) {
-        final searchableText = [
-          hymn.title.toLowerCase(),
-          hymn.author?.toLowerCase() ?? '',
-          hymn.composer?.toLowerCase() ?? '',
-          hymn.tuneName?.toLowerCase() ?? '',
-          hymn.meter?.toLowerCase() ?? '',
-          hymn.firstLine?.toLowerCase() ?? '',
-          hymn.lyrics?.toLowerCase() ?? '',
-          hymn.hymnNumber.toString(),
-        ].join(' ');
-        
-        return searchableText.contains(queryLower);
-      }).toList();
-      
-      // Initial relevance sort (title matches first)
-      searchResults.sort((a, b) {
-        final aTitle = a.title.toLowerCase().contains(queryLower);
-        final bTitle = b.title.toLowerCase().contains(queryLower);
-        
-        if (aTitle && !bTitle) return -1;
-        if (!aTitle && bTitle) return 1;
-        
-        return a.title.compareTo(b.title);
-      });
-      
-      return searchResults.take(50).toList(); // Limit results for performance
-    } catch (e) {
-      print('❌ [HymnProvider] JSON search failed: $e');
-      return [];
-    }
-  }
 
-  // Mock search results for demo purposes
-  List<Hymn> _getMockSearchResults(String query) {
-    final mockHymns = [
-      Hymn(
-        id: 1,
-        hymnNumber: 1,
-        title: 'Holy, Holy, Holy',
-        author: 'Reginald Heber',
-        composer: 'John B. Dykes',
-        tuneName: 'Nicaea',
-        meter: '11.12.12.10',
-        collectionId: 1,
-        lyrics: 'Holy, holy, holy! Lord God Almighty!\nEarly in the morning our song shall rise to Thee;',
-        firstLine: 'Holy, holy, holy! Lord God Almighty!',
-        themeTags: ['worship', 'trinity', 'holiness'],
-        scriptureRefs: ['Revelation 4:8', 'Isaiah 6:3'],
-        createdAt: DateTime.now(),
-        updatedAt: DateTime.now(),
-        isFavorite: false,
-      ),
-      Hymn(
-        id: 2,
-        hymnNumber: 2,
-        title: 'Amazing Grace',
-        author: 'John Newton',
-        composer: 'Traditional American Melody',
-        tuneName: 'New Britain',
-        meter: 'CM',
-        collectionId: 1,
-        lyrics: 'Amazing grace! how sweet the sound\nThat saved a wretch like me!',
-        firstLine: 'Amazing grace! how sweet the sound',
-        themeTags: ['grace', 'salvation', 'testimony'],
-        scriptureRefs: ['Ephesians 2:8-9'],
-        createdAt: DateTime.now(),
-        updatedAt: DateTime.now(),
-        isFavorite: false,
-      ),
-      Hymn(
-        id: 3,
-        hymnNumber: 3,
-        title: 'Great Is Thy Faithfulness',
-        author: 'Thomas Chisholm',
-        composer: 'William M. Runyan',
-        tuneName: 'Faithfulness',
-        meter: '11.10.11.10',
-        collectionId: 1,
-        lyrics: 'Great is Thy faithfulness, O God my Father;\nThere is no shadow of turning with Thee;',
-        firstLine: 'Great is Thy faithfulness, O God my Father',
-        themeTags: ['faithfulness', 'God', 'trust'],
-        scriptureRefs: ['Lamentations 3:22-23'],
-        createdAt: DateTime.now(),
-        updatedAt: DateTime.now(),
-        isFavorite: false,
-      ),
-      Hymn(
-        id: 4,
-        hymnNumber: 4,
-        title: 'How Great Thou Art',
-        author: 'Carl Boberg',
-        composer: 'Traditional Swedish Melody',
-        tuneName: 'O Store Gud',
-        meter: '11.10.11.10',
-        collectionId: 1,
-        lyrics: 'O Lord my God, when I in awesome wonder\nConsider all the worlds Thy hands have made;',
-        firstLine: 'O Lord my God, when I in awesome wonder',
-        themeTags: ['praise', 'creation', 'worship'],
-        scriptureRefs: ['Psalm 8:3-4'],
-        createdAt: DateTime.now(),
-        updatedAt: DateTime.now(),
-        isFavorite: false,
-      ),
-      Hymn(
-        id: 5,
-        hymnNumber: 5,
-        title: 'Jesus Loves Me',
-        author: 'Anna B. Warner',
-        composer: 'William B. Bradbury',
-        tuneName: 'Jesus Loves Me',
-        meter: '77.77',
-        collectionId: 1,
-        lyrics: 'Jesus loves me! This I know,\nFor the Bible tells me so;',
-        firstLine: 'Jesus loves me! This I know',
-        themeTags: ['love', 'children', 'Jesus'],
-        scriptureRefs: ['John 3:16'],
-        createdAt: DateTime.now(),
-        updatedAt: DateTime.now(),
-        isFavorite: false,
-      ),
-    ];
-
-    // Filter mock hymns based on query
-    if (query.isEmpty) {
-      return mockHymns; // Return all hymns for empty query
-    }
-    
-    final lowerQuery = query.toLowerCase();
-    return mockHymns.where((hymn) {
-      return hymn.title.toLowerCase().contains(lowerQuery) ||
-             (hymn.author?.toLowerCase().contains(lowerQuery) ?? false) ||
-             (hymn.firstLine?.toLowerCase().contains(lowerQuery) ?? false) ||
-             (hymn.lyrics?.toLowerCase().contains(lowerQuery) ?? false);
-    }).toList();
-  }
-
-  // Note: Mock hymns functionality removed - now using real JSON hymn data via HymnDataManager
 
   // Get hymn by ID
   Future<Hymn?> getHymnById(int id) async {
@@ -430,6 +275,17 @@ class HymnProvider extends ChangeNotifier {
           return numberComparison != 0 ? numberComparison : a.title.compareTo(b.title);
         });
         break;
+      case 'hymnal':
+        _searchResults.sort((a, b) {
+          final aHymnal = a.collectionAbbreviation ?? '';
+          final bHymnal = b.collectionAbbreviation ?? '';
+          final hymnalComparison = aHymnal.compareTo(bHymnal);
+          if (hymnalComparison != 0) return hymnalComparison;
+          // If same hymnal, sort by hymn number
+          final numberComparison = a.hymnNumber.compareTo(b.hymnNumber);
+          return numberComparison != 0 ? numberComparison : a.title.compareTo(b.title);
+        });
+        break;
       case 'relevance':
       default:
         // Already sorted by relevance in search, no need to re-sort
@@ -455,12 +311,12 @@ class HymnProvider extends ChangeNotifier {
     return await _db.isDatabaseAvailable();
   }
 
-  // Initialize with mock data if database is not available
+  // Initialize with fallback if database is not available
   Future<void> initializeWithFallback() async {
     final dbAvailable = await isDatabaseAvailable();
     if (!dbAvailable) {
-      // Load some default mock data for better UX
-      _hymns = _getMockSearchResults(''); // Empty query returns all mock hymns
+      // Database not available - wait for data import to complete
+      _hymns = [];
       _setLoadingState(HymnLoadingState.loaded);
     } else {
       await loadHymns();
@@ -536,6 +392,9 @@ class HymnProvider extends ChangeNotifier {
       tuneName: data['tune_name'] as String?,
       meter: data['meter'] as String?,
       collectionId: data['collection_id'] as int?,
+      collectionAbbreviation: data['collection_abbr'] as String? ?? 
+                             data['collection_abbreviation'] as String? ??
+                             data['collection_name'] as String?, // Fallback to collection name if abbreviation not available
       lyrics: data['lyrics'] as String?,
       themeTags: data['theme_tags'] != null 
           ? (data['theme_tags'] as String).split(',').map((e) => e.trim()).toList()

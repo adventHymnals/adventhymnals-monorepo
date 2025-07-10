@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../providers/hymn_provider.dart';
 import '../../core/constants/app_constants.dart';
 import '../../domain/entities/hymn.dart';
+import '../widgets/banner_ad_widget.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});
@@ -84,6 +85,9 @@ class _SearchScreenState extends State<SearchScreen> {
           
           // Search Filters
           if (_searchFilters.isNotEmpty) _buildSearchFilters(),
+          
+          // Banner Ad
+          const BannerAdWidget(),
           
           // Search Results
           Expanded(
@@ -355,6 +359,10 @@ class _SearchScreenState extends State<SearchScreen> {
                     value: 'hymn_number',
                     child: Text('Sort by Hymn Number'),
                   ),
+                  const PopupMenuItem(
+                    value: 'hymnal',
+                    child: Text('Sort by Hymnal'),
+                  ),
                 ],
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
@@ -395,7 +403,7 @@ class _SearchScreenState extends State<SearchScreen> {
       ),
       child: ListTile(
         leading: Container(
-          width: 40,
+          width: 56,
           height: 40,
           decoration: BoxDecoration(
             color: Color(AppColors.primaryBlue).withOpacity(0.1),
@@ -403,11 +411,14 @@ class _SearchScreenState extends State<SearchScreen> {
           ),
           child: Center(
             child: Text(
-              hymn.hymnNumber.toString(),
+              hymn.collectionAbbreviation != null 
+                  ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
+                  : hymn.hymnNumber.toString(),
               style: Theme.of(context).textTheme.labelMedium?.copyWith(
                 color: Color(AppColors.primaryBlue),
                 fontWeight: FontWeight.bold,
               ),
+              textAlign: TextAlign.center,
             ),
           ),
         ),
@@ -580,6 +591,8 @@ class _SearchScreenState extends State<SearchScreen> {
         return 'Author';
       case 'hymn_number':
         return 'Number';
+      case 'hymnal':
+        return 'Hymnal';
       case 'relevance':
       default:
         return 'Relevance';

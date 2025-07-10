@@ -230,6 +230,9 @@ class RecentlyViewedProvider extends ChangeNotifier {
       tuneName: data['tune_name'] as String?,
       meter: data['meter'] as String?,
       collectionId: data['collection_id'] as int?,
+      collectionAbbreviation: data['collection_abbr'] as String? ?? 
+                             data['collection_abbreviation'] as String? ??
+                             data['collection_name'] as String?, // Fallback to collection name if abbreviation not available
       lyrics: data['lyrics'] as String?,
       themeTags: data['theme_tags'] != null 
           ? (data['theme_tags'] as String).split(',').map((e) => e.trim()).toList()
