@@ -5,16 +5,21 @@ import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/services/projector_service.dart';
+import '../../core/data/hymn_data_manager.dart';
 import '../providers/favorites_provider.dart';
 import '../providers/audio_player_provider.dart';
+import '../providers/hymn_provider.dart';
+import '../providers/recently_viewed_provider.dart';
 import '../../domain/entities/hymn.dart';
 
 class HymnDetailScreen extends StatefulWidget {
   final int hymnId;
+  final String? collectionId;
 
   const HymnDetailScreen({
     super.key,
     required this.hymnId,
+    this.collectionId,
   });
 
   @override
@@ -24,15 +29,110 @@ class HymnDetailScreen extends StatefulWidget {
 class _HymnDetailScreenState extends State<HymnDetailScreen> {
   String _selectedFormat = 'lyrics';
   bool _isFavorite = false;
-
-  // Sample hymn data - in real app this would come from database/provider
-  late final HymnData _hymn;
+  bool _isLoading = true;
+  Hymn? _hymn;
+  String? _errorMessage;
 
   @override
   void initState() {
     super.initState();
-    _hymn = _getSampleHymnData(widget.hymnId);
+    _loadHymnData();
     _loadFavoriteStatus();
+  }
+
+  Future<void> _loadHymnData() async {
+    try {
+      setState(() {
+        _isLoading = true;
+        _errorMessage = null;
+      });
+
+      print('🔍 [HymnDetail] Loading hymn ${widget.hymnId} from collection ${widget.collectionId}');
+      
+      // Try to get hymn from HymnProvider first (if collection is known)
+      if (widget.collectionId != null) {
+        final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
+        final hymns = hymnProvider.hymns;
+        
+        // Look for the hymn in the loaded hymns
+        final foundHymn = hymns.where((h) => h.hymnNumber == widget.hymnId).firstOrNull;
+        
+        if (foundHymn != null) {
+          print('✅ [HymnDetail] Found hymn in provider: ${foundHymn.title}');
+          setState(() {
+            _hymn = foundHymn;
+            _isLoading = false;
+          });
+          
+          // Add to recently viewed
+          _addToRecentlyViewed();
+          return;
+        }
+      }
+      
+      // Fallback: Try to load individual hymn by constructing the expected hymn ID
+      if (widget.collectionId != null) {
+        print('🔄 [HymnDetail] Trying to load individual hymn from JSON...');
+        
+        // Construct the hymn ID (e.g., "SDAH-en-003")
+        final paddedNumber = widget.hymnId.toString().padLeft(3, '0');
+        final hymnId = '${widget.collectionId!.toUpperCase()}-en-$paddedNumber';
+        
+        final hymnDataManager = HymnDataManager();
+        final hymn = await hymnDataManager.loadHymnFromJson(hymnId);
+        
+        if (hymn != null) {
+          print('✅ [HymnDetail] Loaded hymn from JSON: ${hymn.title}');
+          setState(() {
+            _hymn = hymn;
+            _isLoading = false;
+          });
+          
+          // Add to recently viewed
+          _addToRecentlyViewed();
+          return;
+        }
+      }
+      
+      // Final fallback: create a placeholder hymn
+      print('⚠️ [HymnDetail] Unable to load hymn data, using placeholder');
+      setState(() {
+        _hymn = _createFallbackHymn();
+        _isLoading = false;
+      });
+      
+    } catch (e) {
+      print('❌ [HymnDetail] Error loading hymn: $e');
+      setState(() {
+        _errorMessage = 'Failed to load hymn: $e';
+        _isLoading = false;
+      });
+    }
+  }
+  
+  Hymn _createFallbackHymn() {
+    return Hymn(
+      id: widget.hymnId,
+      hymnNumber: widget.hymnId,
+      title: 'Hymn ${widget.hymnId}',
+      author: 'Loading...',
+      lyrics: 'Hymn content is being loaded...',
+      collectionId: 1,
+      createdAt: DateTime.now(),
+      updatedAt: DateTime.now(),
+      isFavorite: false,
+    );
+  }
+  
+  Future<void> _addToRecentlyViewed() async {
+    try {
+      final recentlyViewedProvider = Provider.of<RecentlyViewedProvider>(context, listen: false);
+      await recentlyViewedProvider.addRecentlyViewed(widget.hymnId);
+      print('✅ [HymnDetail] Added hymn ${widget.hymnId} to recently viewed');
+    } catch (e) {
+      print('⚠️ [HymnDetail] Failed to add to recently viewed: $e');
+      // Don't show error to user as this is not critical functionality
+    }
   }
 
   Future<void> _loadFavoriteStatus() async {
@@ -45,10 +145,53 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
 
   @override
   Widget build(BuildContext context) {
+    // Show loading state
+    if (_isLoading) {
+      return Scaffold(
+        appBar: AppBar(
+          title: const Text('Loading...'),
+          elevation: 0,
+          leading: _buildBackButton(),
+        ),
+        body: const Center(
+          child: CircularProgressIndicator(),
+        ),
+      );
+    }
+
+    // Show error state
+    if (_errorMessage != null) {
+      return Scaffold(
+        appBar: AppBar(
+          title: const Text('Error'),
+          elevation: 0,
+          leading: _buildBackButton(),
+        ),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Icon(Icons.error_outline, size: 64, color: Colors.red),
+              const SizedBox(height: 16),
+              Text(_errorMessage!),
+              const SizedBox(height: 16),
+              ElevatedButton(
+                onPressed: _loadHymnData,
+                child: const Text('Retry'),
+              ),
+            ],
+          ),
+        ),
+      );
+    }
+
+    // Show hymn content
+    final hymn = _hymn!;
     return Scaffold(
       appBar: AppBar(
-        title: Text(_hymn.title),
+        title: Text(hymn.title),
         elevation: 0,
+        leading: _buildBackButton(),
         actions: [
           IconButton(
             icon: Icon(_isFavorite ? Icons.favorite : Icons.favorite_border),
@@ -156,7 +299,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             _buildMetadata(),
             
             // Scripture References
-            if (_hymn.scriptureReferences.isNotEmpty) _buildScriptureReferences(),
+            if (_hymn!.scriptureRefs != null && _hymn!.scriptureRefs!.isNotEmpty) _buildScriptureReferences(),
             
             // Related Hymns
             _buildRelatedHymns(),
@@ -198,7 +341,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                   borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
                 ),
                 child: Text(
-                  '#${_hymn.number}',
+                  '#${_hymn!.hymnNumber}',
                   style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
@@ -211,7 +354,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      _hymn.title,
+                      _hymn!.title,
                       style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
@@ -274,9 +417,23 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       label: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, size: 16),
+          Icon(
+            icon, 
+            size: 16,
+            color: isSelected 
+              ? Color(AppColors.primaryBlue) 
+              : Color(AppColors.gray700),
+          ),
           const SizedBox(width: AppSizes.spacing4),
-          Text(label),
+          Text(
+            label,
+            style: TextStyle(
+              color: isSelected 
+                ? Color(AppColors.primaryBlue) 
+                : Color(AppColors.gray700),
+              fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
+            ),
+          ),
         ],
       ),
       onSelected: (selected) {
@@ -287,7 +444,14 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         }
       },
       selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
+      backgroundColor: Color(AppColors.gray100),
       checkmarkColor: Color(AppColors.primaryBlue),
+      side: BorderSide(
+        color: isSelected 
+          ? Color(AppColors.primaryBlue) 
+          : Color(AppColors.gray300),
+        width: 1,
+      ),
     );
   }
 
@@ -313,19 +477,49 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 
   Widget _buildLyricsContent() {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        // Verses
-        for (int i = 0; i < _hymn.verses.length; i++) ...[
-          _buildVerse(_hymn.verses[i], i + 1),
-          if (i < _hymn.verses.length - 1 || _hymn.chorus != null)
-            const SizedBox(height: AppSizes.spacing16),
+    final hymn = _hymn!;
+    
+    // If we have structured lyrics (verse by verse), use that
+    if (hymn.lyrics != null && hymn.lyrics!.isNotEmpty) {
+      // Split lyrics into verses (assuming they're separated by double newlines)
+      final verses = hymn.lyrics!.split('\\n\\n').where((v) => v.trim().isNotEmpty).toList();
+      
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          for (int i = 0; i < verses.length; i++) ...[
+            _buildVerse(verses[i], i + 1),
+            if (i < verses.length - 1)
+              const SizedBox(height: AppSizes.spacing16),
+          ],
         ],
-        
-        // Chorus
-        if (_hymn.chorus != null) _buildChorus(_hymn.chorus!),
-      ],
+      );
+    }
+    
+    // Fallback if no lyrics
+    return Center(
+      child: Column(
+        children: [
+          Icon(
+            Icons.music_note_outlined,
+            size: 64,
+            color: Color(AppColors.gray500),
+          ),
+          const SizedBox(height: AppSizes.spacing16),
+          Text(
+            'Lyrics Not Available',
+            style: Theme.of(context).textTheme.titleLarge,
+          ),
+          const SizedBox(height: AppSizes.spacing8),
+          Text(
+            'The lyrics for this hymn are not currently available.',
+            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+              color: Color(AppColors.gray600),
+            ),
+            textAlign: TextAlign.center,
+          ),
+        ],
+      ),
     );
   }
 
@@ -500,26 +694,21 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               ),
               const SizedBox(height: AppSizes.spacing16),
               
-              if (_hymn.author.isNotEmpty)
-                _buildMetadataItem('Author', _hymn.author, Icons.person),
+              if (_hymn!.author != null && _hymn!.author!.isNotEmpty)
+                _buildMetadataItem('Author', _hymn!.author!, Icons.person),
               
-              if (_hymn.composer.isNotEmpty)
-                _buildMetadataItem('Composer', _hymn.composer, Icons.music_note),
+              if (_hymn!.composer != null && _hymn!.composer!.isNotEmpty)
+                _buildMetadataItem('Composer', _hymn!.composer!, Icons.music_note),
               
-              if (_hymn.tune.isNotEmpty)
-                _buildMetadataItem('Tune', _hymn.tune, Icons.queue_music),
+              if (_hymn!.tuneName != null && _hymn!.tuneName!.isNotEmpty)
+                _buildMetadataItem('Tune', _hymn!.tuneName!, Icons.queue_music),
               
-              if (_hymn.meter.isNotEmpty)
-                _buildMetadataItem('Meter', _hymn.meter, Icons.straighten),
+              if (_hymn!.meter != null && _hymn!.meter!.isNotEmpty)
+                _buildMetadataItem('Meter', _hymn!.meter!, Icons.straighten),
               
-              if (_hymn.year > 0)
-                _buildMetadataItem('Year', _hymn.year.toString(), Icons.calendar_today),
-              
-              if (_hymn.copyright.isNotEmpty)
-                _buildMetadataItem('Copyright', _hymn.copyright, Icons.copyright),
               
               // Themes
-              if (_hymn.themes.isNotEmpty) ...[
+              if (_hymn!.themeTags != null && _hymn!.themeTags!.isNotEmpty) ...[
                 const SizedBox(height: AppSizes.spacing12),
                 Text(
                   'Themes',
@@ -531,7 +720,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 Wrap(
                   spacing: AppSizes.spacing8,
                   runSpacing: AppSizes.spacing8,
-                  children: _hymn.themes.map((theme) => Chip(
+                  children: (_hymn!.themeTags ?? []).map((theme) => Chip(
                     label: Text(theme),
                     backgroundColor: Color(AppColors.purple).withOpacity(0.1),
                     labelStyle: TextStyle(
@@ -612,7 +801,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               Wrap(
                 spacing: AppSizes.spacing8,
                 runSpacing: AppSizes.spacing8,
-                children: _hymn.scriptureReferences.map((ref) => InkWell(
+                children: (_hymn!.scriptureRefs ?? []).map((ref) => InkWell(
                   onTap: () {
                     // Open Bible app or reference
                   },
@@ -779,10 +968,10 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 
   void _shareHymn() {
+    final hymn = _hymn!;
+    
     // Copy hymn text to clipboard
-    final text = '${_hymn.title}\n\n${_hymn.verses.asMap().entries.map((entry) => 
-      'Verse ${entry.key + 1}:\n${entry.value}'
-    ).join('\n\n')}${_hymn.chorus != null ? '\n\nChorus:\n${_hymn.chorus}' : ''}';
+    final text = '${hymn.title}\n\n${hymn.lyrics ?? 'Lyrics not available'}';
     
     Clipboard.setData(ClipboardData(text: text));
     
@@ -798,7 +987,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     // Navigate to fullscreen view
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (context) => FullscreenHymnView(hymn: _hymn),
+        builder: (context) => FullscreenHymnView(hymn: _hymn!),
       ),
     );
   }
@@ -821,25 +1010,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         audioProvider.resume();
       }
     } else {
-      // Create hymn object for playback
-      final hymnForPlayback = Hymn(
-        id: widget.hymnId,
-        hymnNumber: _hymn.number,
-        title: _hymn.title,
-        author: _hymn.author,
-        composer: _hymn.composer,
-        tuneName: _hymn.tune,
-        meter: _hymn.meter,
-        lyrics: _hymn.verses.join('\n\n'),
-        firstLine: _hymn.verses.isNotEmpty ? _hymn.verses.first.split('\n').first : null,
-        themeTags: _hymn.themes,
-        scriptureRefs: _hymn.scriptureReferences,
-        createdAt: DateTime.now(),
-        updatedAt: DateTime.now(),
-        isFavorite: _isFavorite,
-      );
-      
-      audioProvider.playHymn(hymnForPlayback);
+      // Use the current hymn for playback
+      audioProvider.playHymn(_hymn!);
     }
   }
 
@@ -870,7 +1042,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             children: [
               const Icon(Icons.present_to_all, color: Colors.white),
               const SizedBox(width: 8),
-              Text('Projecting "${_hymn.title}"'),
+              Text('Projecting "${_hymn!.title}"'),
             ],
           ),
           backgroundColor: Colors.orange,
@@ -885,50 +1057,24 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     }
   }
 
-  HymnData _getSampleHymnData(int hymnId) {
-    // Sample data - in real app this would come from database
-    switch (hymnId) {
-      case 1:
-        return HymnData(
-          id: 'SDAH-en-001',
-          number: 1,
-          title: 'Holy, Holy, Holy',
-          author: 'Reginald Heber',
-          composer: 'John B. Dykes',
-          tune: 'Nicaea',
-          meter: '11.12.12.10',
-          year: 1826,
-          copyright: 'Public Domain',
-          verses: [
-            'Holy, holy, holy! Lord God Almighty!\nEarly in the morning our song shall rise to Thee;\nHoly, holy, holy! merciful and mighty!\nGod in three Persons, blessed Trinity!',
-            'Holy, holy, holy! All the saints adore Thee,\nCasting down their golden crowns around the glassy sea;\nCherubim and seraphim falling down before Thee,\nWhich wert, and art, and evermore shalt be.',
-            'Holy, holy, holy! Though the darkness hide Thee,\nThough the eye of sinful man Thy glory may not see,\nOnly Thou art holy; there is none beside Thee\nPerfect in power, in love, and purity.',
-          ],
-          chorus: null,
-          themes: ['worship', 'trinity', 'holiness', 'praise'],
-          scriptureReferences: ['Revelation 4:8', 'Isaiah 6:3'],
-        );
-      default:
-        return HymnData(
-          id: 'SDAH-en-${hymnId.toString().padLeft(3, '0')}',
-          number: hymnId,
-          title: 'Amazing Grace',
-          author: 'John Newton',
-          composer: 'Traditional American Melody',
-          tune: 'New Britain',
-          meter: 'CM',
-          year: 1779,
-          copyright: 'Public Domain',
-          verses: [
-            'Amazing grace! how sweet the sound\nThat saved a wretch like me!\nI once was lost, but now am found,\nWas blind, but now I see.',
-            '\'Twas grace that taught my heart to fear,\nAnd grace my fears relieved;\nHow precious did that grace appear\nThe hour I first believed!',
-            'Through many dangers, toils and snares,\nI have already come;\n\'Tis grace hath brought me safe thus far,\nAnd grace will lead me home.',
-          ],
-          chorus: null,
-          themes: ['grace', 'salvation', 'testimony', 'faith'],
-          scriptureReferences: ['Ephesians 2:8-9', '1 Timothy 1:15'],
-        );
-    }
+  Widget _buildBackButton() {
+    return IconButton(
+      icon: const Icon(Icons.arrow_back),
+      onPressed: () {
+        // If we have a collection ID, navigate back to that collection
+        if (widget.collectionId != null) {
+          context.go('/collection/${widget.collectionId}');
+        } else {
+          // Default back navigation
+          if (Navigator.of(context).canPop()) {
+            Navigator.of(context).pop();
+          } else {
+            context.go('/home');
+          }
+        }
+      },
+      tooltip: 'Back to Collection',
+    );
   }
 
   void _showPrintDialog() {
@@ -940,7 +1086,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Print options for "${_hymn.title}":'),
+            Text('Print options for "${_hymn!.title}":'),
             const SizedBox(height: 16),
             ListTile(
               leading: const Icon(Icons.lyrics),
@@ -973,7 +1119,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   void _printLyrics() {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('Printing lyrics for "${_hymn.title}"...'),
+        content: Text('Printing lyrics for "${_hymn!.title}"...'),
         action: SnackBarAction(
           label: 'View',
           onPressed: () {
@@ -987,7 +1133,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   void _printWithMetadata() {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('Printing full hymn details for "${_hymn.title}"...'),
+        content: Text('Printing full hymn details for "${_hymn!.title}"...'),
         action: SnackBarAction(
           label: 'View',
           onPressed: () {
@@ -1017,20 +1163,17 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    _hymn.title,
+                    _hymn!.title,
                     style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  Text('Hymn #${_hymn.number}'),
-                  if (_hymn.author.isNotEmpty) Text('By: ${_hymn.author}'),
-                  if (_hymn.composer.isNotEmpty) Text('Music: ${_hymn.composer}'),
+                  Text('Hymn #${_hymn!.hymnNumber}'),
+                  if (_hymn!.author != null && _hymn!.author!.isNotEmpty) Text('By: ${_hymn!.author}'),
+                  if (_hymn!.composer != null && _hymn!.composer!.isNotEmpty) Text('Music: ${_hymn!.composer}'),
                   const SizedBox(height: 16),
-                  ...(_hymn.verses.map((verse) => Padding(
-                    padding: const EdgeInsets.only(bottom: 12),
-                    child: Text(verse),
-                  ))),
+                  Text(_hymn!.lyrics ?? 'Lyrics not available'),
                 ],
               ),
             ),
@@ -1064,7 +1207,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Download "${_hymn.title}" as:'),
+            Text('Download "${_hymn!.title}" as:'),
             const SizedBox(height: 16),
             ListTile(
               leading: const Icon(Icons.picture_as_pdf),
@@ -1084,16 +1227,16 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 _downloadText();
               },
             ),
-            if (_hymn.hasAudio)
-              ListTile(
-                leading: const Icon(Icons.audiotrack),
-                title: const Text('Audio (MP3)'),
-                subtitle: const Text('Audio recording'),
-                onTap: () {
-                  Navigator.pop(context);
-                  _downloadAudio();
-                },
-              ),
+            // Audio download option (mock implementation)
+            ListTile(
+              leading: const Icon(Icons.audiotrack),
+              title: const Text('Audio (MP3)'),
+              subtitle: const Text('Audio recording'),
+              onTap: () {
+                Navigator.pop(context);
+                _downloadAudio();
+              },
+            ),
           ],
         ),
         actions: [
@@ -1117,7 +1260,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               child: CircularProgressIndicator(strokeWidth: 2),
             ),
             const SizedBox(width: 12),
-            Text('Downloading "${_hymn.title}.pdf"...'),
+            Text('Downloading "${_hymn!.title}.pdf"...'),
           ],
         ),
         duration: const Duration(seconds: 3),
@@ -1128,7 +1271,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('Downloaded "${_hymn.title}.pdf" to Downloads folder'),
+            content: Text('Downloaded "${_hymn!.title}.pdf" to Downloads folder'),
             action: SnackBarAction(
               label: 'Open',
               onPressed: () {
@@ -1144,7 +1287,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   void _downloadText() {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('Downloaded "${_hymn.title}.txt" to Downloads folder'),
+        content: Text('Downloaded "${_hymn!.title}.txt" to Downloads folder'),
         action: SnackBarAction(
           label: 'Open',
           onPressed: () {
@@ -1166,7 +1309,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               child: CircularProgressIndicator(strokeWidth: 2),
             ),
             const SizedBox(width: 12),
-            Text('Downloading "${_hymn.title}.mp3"...'),
+            Text('Downloading "${_hymn!.title}.mp3"...'),
           ],
         ),
         duration: const Duration(seconds: 5),
@@ -1177,7 +1320,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('Downloaded "${_hymn.title}.mp3" to Downloads folder'),
+            content: Text('Downloaded "${_hymn!.title}.mp3" to Downloads folder'),
             action: SnackBarAction(
               label: 'Play',
               onPressed: () {
@@ -1191,309 +1334,11 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 }
 
-class HymnData {
-  final String id;
-  final int number;
-  final String title;
-  final String author;
-  final String composer;
-  final String tune;
-  final String meter;
-  final int year;
-  final String copyright;
-  final List<String> verses;
-  final String? chorus;
-  final List<String> themes;
-  final List<String> scriptureReferences;
 
-  HymnData({
-    required this.id,
-    required this.number,
-    required this.title,
-    required this.author,
-    required this.composer,
-    required this.tune,
-    required this.meter,
-    required this.year,
-    required this.copyright,
-    required this.verses,
-    this.chorus,
-    required this.themes,
-    required this.scriptureReferences,
-  });
-
-  bool get hasAudio => true; // Sample data - in real app would check if audio file exists
-}
-
-// Add these methods to the _HymnDetailScreenState class (move them from here)
-extension HymnDetailScreenMethods on _HymnDetailScreenState {
-  void _showPrintDialog() {
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Print Hymn'),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text('Print options for "${_hymn.title}":'),
-            const SizedBox(height: 16),
-            ListTile(
-              leading: const Icon(Icons.lyrics),
-              title: const Text('Lyrics Only'),
-              onTap: () {
-                Navigator.pop(context);
-                _printLyrics();
-              },
-            ),
-            ListTile(
-              leading: const Icon(Icons.music_note),
-              title: const Text('Lyrics with Metadata'),
-              onTap: () {
-                Navigator.pop(context);
-                _printWithMetadata();
-              },
-            ),
-          ],
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: const Text('Cancel'),
-          ),
-        ],
-      ),
-    );
-  }
-
-  void _printLyrics() {
-    // In a real app, this would integrate with platform printing
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text('Printing lyrics for "${_hymn.title}"...'),
-        action: SnackBarAction(
-          label: 'View',
-          onPressed: () {
-            // Show print preview
-            _showPrintPreview();
-          },
-        ),
-      ),
-    );
-  }
-
-  void _printWithMetadata() {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text('Printing full hymn details for "${_hymn.title}"...'),
-        action: SnackBarAction(
-          label: 'View',
-          onPressed: () {
-            _showPrintPreview();
-          },
-        ),
-      ),
-    );
-  }
-
-  void _showPrintPreview() {
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Print Preview'),
-        content: Container(
-          width: double.maxFinite,
-          height: 300,
-          child: SingleChildScrollView(
-            child: Container(
-              padding: const EdgeInsets.all(16),
-              decoration: BoxDecoration(
-                border: Border.all(color: Colors.grey.shade300),
-                borderRadius: BorderRadius.circular(8),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    _hymn.title,
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  Text('Hymn #${_hymn.number}'),
-                  if (_hymn.author.isNotEmpty) Text('By: ${_hymn.author}'),
-                  if (_hymn.composer.isNotEmpty) Text('Music: ${_hymn.composer}'),
-                  const SizedBox(height: 16),
-                  ...(_hymn.verses.map((verse) => Padding(
-                    padding: const EdgeInsets.only(bottom: 12),
-                    child: Text(verse),
-                  ))),
-                ],
-              ),
-            ),
-          ),
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: const Text('Close'),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              Navigator.pop(context);
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text('Sent to printer')),
-              );
-            },
-            child: const Text('Print'),
-          ),
-        ],
-      ),
-    );
-  }
-
-  void _showDownloadDialog() {
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Download Hymn'),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text('Download "${_hymn.title}" as:'),
-            const SizedBox(height: 16),
-            ListTile(
-              leading: const Icon(Icons.picture_as_pdf),
-              title: const Text('PDF'),
-              subtitle: const Text('Printable format'),
-              onTap: () {
-                Navigator.pop(context);
-                _downloadPdf();
-              },
-            ),
-            ListTile(
-              leading: const Icon(Icons.text_snippet),
-              title: const Text('Text File'),
-              subtitle: const Text('Plain text lyrics'),
-              onTap: () {
-                Navigator.pop(context);
-                _downloadText();
-              },
-            ),
-            if (_hymn.hasAudio)
-              ListTile(
-                leading: const Icon(Icons.audiotrack),
-                title: const Text('Audio (MP3)'),
-                subtitle: const Text('Audio recording'),
-                onTap: () {
-                  Navigator.pop(context);
-                  _downloadAudio();
-                },
-              ),
-          ],
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context),
-            child: const Text('Cancel'),
-          ),
-        ],
-      ),
-    );
-  }
-
-  void _downloadPdf() {
-    // Simulate download progress
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Row(
-          children: [
-            const SizedBox(
-              width: 20,
-              height: 20,
-              child: CircularProgressIndicator(strokeWidth: 2),
-            ),
-            const SizedBox(width: 12),
-            Text('Downloading "${_hymn.title}.pdf"...'),
-          ],
-        ),
-        duration: const Duration(seconds: 3),
-      ),
-    );
-    
-    // After 3 seconds, show completion
-    Future.delayed(const Duration(seconds: 3), () {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Downloaded "${_hymn.title}.pdf" to Downloads folder'),
-            action: SnackBarAction(
-              label: 'Open',
-              onPressed: () {
-                // Open file
-              },
-            ),
-          ),
-        );
-      }
-    });
-  }
-
-  void _downloadText() {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text('Downloaded "${_hymn.title}.txt" to Downloads folder'),
-        action: SnackBarAction(
-          label: 'Open',
-          onPressed: () {
-            // Open file
-          },
-        ),
-      ),
-    );
-  }
-
-  void _downloadAudio() {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Row(
-          children: [
-            const SizedBox(
-              width: 20,
-              height: 20,
-              child: CircularProgressIndicator(strokeWidth: 2),
-            ),
-            const SizedBox(width: 12),
-            Text('Downloading "${_hymn.title}.mp3"...'),
-          ],
-        ),
-        duration: const Duration(seconds: 5),
-      ),
-    );
-    
-    Future.delayed(const Duration(seconds: 5), () {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Downloaded "${_hymn.title}.mp3" to Downloads folder'),
-            action: SnackBarAction(
-              label: 'Play',
-              onPressed: () {
-                // Play audio
-              },
-            ),
-          ),
-        );
-      }
-    });
-  }
-}
 
 // Fullscreen hymn view widget
 class FullscreenHymnView extends StatefulWidget {
-  final HymnData hymn;
+  final Hymn hymn;
 
   const FullscreenHymnView({super.key, required this.hymn});
 
@@ -1561,13 +1406,13 @@ class _FullscreenHymnViewState extends State<FullscreenHymnView> {
               // Metadata (if enabled)
               if (_showMetadata) ...[
                 Text(
-                  'Hymn #${widget.hymn.number}',
+                  'Hymn #${widget.hymn.hymnNumber}',
                   style: TextStyle(
                     color: Colors.white70,
                     fontSize: _fontSize - 2,
                   ),
                 ),
-                if (widget.hymn.author.isNotEmpty)
+                if (widget.hymn.author != null && widget.hymn.author!.isNotEmpty)
                   Text(
                     'By: ${widget.hymn.author}',
                     style: TextStyle(
@@ -1575,7 +1420,7 @@ class _FullscreenHymnViewState extends State<FullscreenHymnView> {
                       fontSize: _fontSize - 2,
                     ),
                   ),
-                if (widget.hymn.composer.isNotEmpty)
+                if (widget.hymn.composer != null && widget.hymn.composer!.isNotEmpty)
                   Text(
                     'Music: ${widget.hymn.composer}',
                     style: TextStyle(
@@ -1587,57 +1432,29 @@ class _FullscreenHymnViewState extends State<FullscreenHymnView> {
               ] else 
                 const SizedBox(height: 16),
               
-              // Verses
-              ...widget.hymn.verses.asMap().entries.map(
-                (entry) => Padding(
-                  padding: const EdgeInsets.only(bottom: 24),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'Verse ${entry.key + 1}',
-                        style: TextStyle(
-                          color: Colors.white60,
-                          fontSize: _fontSize - 4,
-                          fontWeight: FontWeight.w500,
-                        ),
+              // Lyrics
+              if (widget.hymn.lyrics != null && widget.hymn.lyrics!.isNotEmpty) ...
+                widget.hymn.lyrics!.split('\n\n').where((v) => v.trim().isNotEmpty).map(
+                  (verse) => Padding(
+                    padding: const EdgeInsets.only(bottom: 24),
+                    child: Text(
+                      verse,
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: _fontSize,
+                        height: 1.5,
                       ),
-                      const SizedBox(height: 8),
-                      Text(
-                        entry.value,
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: _fontSize,
-                          height: 1.5,
-                        ),
-                      ),
-                    ],
+                    ),
                   ),
-                ),
-              ),
-              
-              // Chorus (if exists)
-              if (widget.hymn.chorus != null) ...[
-                const SizedBox(height: 24),
+                )
+              else
                 Text(
-                  'Chorus',
+                  'Lyrics not available',
                   style: TextStyle(
-                    color: Colors.white60,
-                    fontSize: _fontSize - 4,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  widget.hymn.chorus!,
-                  style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.white70,
                     fontSize: _fontSize,
-                    height: 1.5,
-                    fontStyle: FontStyle.italic,
                   ),
                 ),
-              ],
             ],
           ),
         ),

@@ -601,7 +601,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
         ),
         trailing: const Icon(Icons.arrow_forward_ios, size: 16),
         onTap: () {
-          context.go('/hymn/${hymn.id}');
+          context.go('/hymn/${hymn.id}?collection=${widget.collectionId}');
         },
       ),
     );

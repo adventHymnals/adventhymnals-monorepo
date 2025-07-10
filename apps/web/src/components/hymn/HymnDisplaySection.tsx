@@ -37,7 +37,9 @@ export default function HymnDisplaySection({ hymn }: HymnDisplaySectionProps) {
           />
         </div>
         
-        <ProjectionButton hymn={hymn} />
+        <div className="hidden md:block">
+          <ProjectionButton hymn={hymn} />
+        </div>
       </div>
 
       {/* Content */}

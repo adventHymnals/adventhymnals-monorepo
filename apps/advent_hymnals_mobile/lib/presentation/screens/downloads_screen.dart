@@ -221,7 +221,15 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
           return Container(
             margin: const EdgeInsets.only(right: AppSizes.spacing8),
             child: FilterChip(
-              label: Text('${filter['label']} (${filter['count']})'),
+              label: Text(
+                '${filter['label']} (${filter['count']})',
+                style: TextStyle(
+                  color: isSelected 
+                    ? Color(AppColors.primaryBlue) 
+                    : Color(AppColors.gray700),
+                  fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
+                ),
+              ),
               selected: isSelected,
               onSelected: (selected) {
                 setState(() {
@@ -229,7 +237,14 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
                 });
               },
               selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
+              backgroundColor: Color(AppColors.gray100),
               checkmarkColor: Color(AppColors.primaryBlue),
+              side: BorderSide(
+                color: isSelected 
+                  ? Color(AppColors.primaryBlue) 
+                  : Color(AppColors.gray300),
+                width: 1,
+              ),
             ),
           );
         },

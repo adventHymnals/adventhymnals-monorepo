@@ -127,16 +127,34 @@ class _SearchScreenState extends State<SearchScreen> {
           return Container(
             margin: const EdgeInsets.only(right: AppSizes.spacing8),
             child: FilterChip(
-              label: Text(filter),
+              label: Text(
+                filter,
+                style: TextStyle(
+                  color: Color(AppColors.primaryBlue),
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
               onDeleted: () {
                 setState(() {
                   _searchFilters.removeAt(index);
                 });
               },
-              deleteIcon: const Icon(Icons.close, size: 18),
+              deleteIcon: Icon(
+                Icons.close, 
+                size: 18,
+                color: Color(AppColors.primaryBlue),
+              ),
               onSelected: (bool selected) {
                 // Handle filter selection
               },
+              selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
+              backgroundColor: Color(AppColors.primaryBlue).withOpacity(0.2),
+              checkmarkColor: Color(AppColors.primaryBlue),
+              deleteIconColor: Color(AppColors.primaryBlue),
+              side: BorderSide(
+                color: Color(AppColors.primaryBlue),
+                width: 1,
+              ),
             ),
           );
         },
@@ -208,11 +226,23 @@ class _SearchScreenState extends State<SearchScreen> {
           runSpacing: AppSizes.spacing8,
           children: suggestions.map((suggestion) {
             return ActionChip(
-              label: Text(suggestion),
+              label: Text(
+                suggestion,
+                style: TextStyle(
+                  color: Color(AppColors.gray700),
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
               onPressed: () {
                 _searchController.text = suggestion;
                 _performSearch(suggestion);
               },
+              backgroundColor: Color(AppColors.gray100),
+              side: BorderSide(
+                color: Color(AppColors.gray300),
+                width: 1,
+              ),
+              pressElevation: 2,
             );
           }).toList(),
         ),

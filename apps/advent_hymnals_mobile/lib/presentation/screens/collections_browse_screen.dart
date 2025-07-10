@@ -84,6 +84,17 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            if (Navigator.of(context).canPop()) {
+              Navigator.of(context).pop();
+            } else {
+              context.go('/browse');
+            }
+          },
+          tooltip: 'Back',
+        ),
         title: const Text(AppStrings.collectionsTitle),
         elevation: 0,
         actions: [
@@ -147,7 +158,13 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
                   Wrap(
                     spacing: 8,
                     children: _selectedLanguages.map((lang) => FilterChip(
-                      label: Text(_getLanguageName(lang)),
+                      label: Text(
+                        _getLanguageName(lang),
+                        style: TextStyle(
+                          color: Color(AppColors.primaryBlue),
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
                       onSelected: (selected) {
                         if (!selected) {
                           setState(() {
@@ -160,6 +177,14 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
                           _selectedLanguages.remove(lang);
                         });
                       },
+                      selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
+                      backgroundColor: Color(AppColors.primaryBlue).withOpacity(0.2),
+                      checkmarkColor: Color(AppColors.primaryBlue),
+                      deleteIconColor: Color(AppColors.primaryBlue),
+                      side: BorderSide(
+                        color: Color(AppColors.primaryBlue),
+                        width: 1,
+                      ),
                     )).toList(),
                   ),
                 ],
