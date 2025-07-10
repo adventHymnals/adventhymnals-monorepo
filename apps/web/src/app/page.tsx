@@ -269,13 +269,6 @@ export default async function HomePage() {
                   </div>
                 </div>
                 
-                <div className="flex items-start">
-                  <BookOpenIcon className="h-5 w-5 text-emerald-600 mt-1 mr-3 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-gray-900">Hymnal Projects</h3>
-                    <p className="text-gray-600 text-sm">Creating curated collections that reflect historic Adventist theology and worship traditions</p>
-                  </div>
-                </div>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -285,13 +278,6 @@ export default async function HomePage() {
                 >
                   <UserGroupIcon className="h-5 w-5 mr-2" />
                   Join Our Mission
-                </Link>
-                <Link
-                  href="/hymnal-projects"
-                  className="inline-flex items-center px-6 py-3 border border-emerald-600 text-base font-medium rounded-md text-emerald-600 hover:bg-emerald-50 transition-colors"
-                >
-                  <BookOpenIcon className="h-5 w-5 mr-2" />
-                  Hymnal Projects
                 </Link>
                 <a
                   href="https://www.youtube.com/@adventhymnals"
@@ -337,6 +323,118 @@ export default async function HomePage() {
                 <div className="bg-emerald-600/20 border border-emerald-600/30 rounded-lg p-4">
                   <p className="text-emerald-200 text-sm">
                     🎵 <strong>Join us</strong> in preserving centuries of sacred music for future generations
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Hymnal Projects Section */}
+      <div className="py-24 sm:py-32 bg-gradient-to-r from-purple-50 to-blue-50">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center mb-16">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Hymnal Projects
+            </h2>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              Creating curated collections that preserve historic Adventist theology and worship traditions
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Project Info */}
+            <div>
+              <div className="bg-white rounded-xl shadow-lg p-8">
+                <div className="flex items-center mb-6">
+                  <div className="bg-amber-100 p-3 rounded-lg mr-4">
+                    <BookOpenIcon className="h-8 w-8 text-amber-600" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900">Historic Seventh-Day Adventist Hymnal</h3>
+                    <p className="text-amber-600 font-medium">Current Project</p>
+                  </div>
+                </div>
+                
+                <p className="text-gray-600 mb-6">
+                  A carefully curated collection that preserves the theological distinctives and worship 
+                  traditions of early Adventism. This project addresses scholarly concerns about maintaining 
+                  denominational distinctiveness in worship while honoring our Protestant heritage.
+                </p>
+                
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-center text-sm text-gray-600">
+                    <AcademicCapIcon className="w-4 h-4 mr-2 text-blue-600" />
+                    Scholarly research and theological alignment
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <MusicalNoteIcon className="w-4 h-4 mr-2 text-blue-600" />
+                    Preserving historic Adventist worship traditions
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <BookOpenIcon className="w-4 h-4 mr-2 text-blue-600" />
+                    Reflecting Protestant Reformation principles
+                  </div>
+                </div>
+                
+                <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-6">
+                  <p className="text-amber-800 text-sm font-medium">
+                    📖 Currently in research phase - analyzing hymnal content and historical sources
+                  </p>
+                </div>
+                
+                <Link
+                  href="/hymnal-projects"
+                  className="inline-flex items-center px-6 py-3 bg-purple-600 text-white font-medium rounded-md hover:bg-purple-700 transition-colors"
+                >
+                  <BookOpenIcon className="h-5 w-5 mr-2" />
+                  Learn More
+                </Link>
+              </div>
+            </div>
+            
+            {/* Visual/Stats Side */}
+            <div className="lg:pl-8">
+              <div className="bg-gradient-to-br from-purple-600 to-blue-600 rounded-xl p-8 text-white">
+                <h3 className="text-2xl font-bold mb-6">Project Goals</h3>
+                
+                <div className="space-y-6">
+                  <div className="flex items-start">
+                    <div className="bg-white/20 p-2 rounded-lg mr-4 mt-1">
+                      <AcademicCapIcon className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold mb-1">Theological Integrity</h4>
+                      <p className="text-purple-100 text-sm">Ensure all hymns align with biblical Protestant principles and fundamental Adventist beliefs</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <div className="bg-white/20 p-2 rounded-lg mr-4 mt-1">
+                      <BookOpenIcon className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold mb-1">Historical Preservation</h4>
+                      <p className="text-purple-100 text-sm">Maintain the rich heritage of Adventist hymnody while preserving theological consistency</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <div className="bg-white/20 p-2 rounded-lg mr-4 mt-1">
+                      <MusicalNoteIcon className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold mb-1">Worship Enhancement</h4>
+                      <p className="text-purple-100 text-sm">Provide resources that enhance biblical worship and spiritual connection</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="mt-8 p-4 bg-white/10 rounded-lg">
+                  <p className="text-sm text-purple-100">
+                    💡 <strong>Vision:</strong> Creating worship resources that honor both our Adventist heritage 
+                    and biblical truth for current and future generations
                   </p>
                 </div>
               </div>
