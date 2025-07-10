@@ -42,11 +42,11 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Flutter web build artifacts
-/web/
+# Flutter web build artifacts (keep platform config, ignore build outputs)
+web/build/
 
-# Linux build artifacts
-/linux/
+# Linux build artifacts (keep platform config, ignore build outputs)
+linux/build/
 
 # Test results and temporary files
 test_results/
@@ -69,5 +69,5 @@ coverage/
 debug_test*.dart
 fixed_test.dart
 
-# Build artifacts that shouldn't be committed
-windows/
+# Windows build artifacts (keep platform config, ignore build outputs)
+windows/build/
