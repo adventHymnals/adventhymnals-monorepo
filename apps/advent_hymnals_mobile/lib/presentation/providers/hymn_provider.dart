@@ -216,6 +216,8 @@ class HymnProvider extends ChangeNotifier {
     _setLoadingState(HymnLoadingState.loading);
     
     try {
+      print('🔍 [HymnProvider] Starting hymn loading for collection "$abbreviation"');
+      
       // Check if database is available
       final isDbAvailable = await _db.isDatabaseAvailable();
       if (!isDbAvailable) {
@@ -225,6 +227,8 @@ class HymnProvider extends ChangeNotifier {
         return;
       }
       
+      print('✅ [HymnProvider] Database is available, attempting to load from DB first');
+      
       // First get the collection by abbreviation
       final collectionData = await _db.getCollectionByAbbreviation(abbreviation);
       
@@ -232,24 +236,33 @@ class HymnProvider extends ChangeNotifier {
         final collectionId = collectionData['id'] as int;
         print('🎯 [HymnProvider] Found collection ID $collectionId for abbreviation "$abbreviation"');
         
-        // Now get hymns for this collection
+        // Now try to get hymns for this collection from database
         final hymnsData = await _db.getHymnsByCollection(collectionId);
-        _hymns = hymnsData.map((data) => _mapToHymn(data)).toList();
         
-        print('✅ [HymnProvider] Loaded ${_hymns.length} hymns for collection "$abbreviation"');
-        _setLoadingState(HymnLoadingState.loaded);
+        if (hymnsData.isNotEmpty) {
+          // SUCCESS: Found hymns in database
+          _hymns = hymnsData.map((data) => _mapToHymn(data)).toList();
+          print('✅ [HymnProvider] Loaded ${_hymns.length} hymns from DATABASE for collection "$abbreviation"');
+          _setLoadingState(HymnLoadingState.loaded);
+        } else {
+          // FALLBACK: Collection exists but no hymns in database
+          print('⚠️ [HymnProvider] Collection "$abbreviation" found but no hymns in database, falling back to JSON');
+          _hymns = await _hymnDataManager.getHymnsForCollection(abbreviation);
+          print('✅ [HymnProvider] Loaded ${_hymns.length} hymns from JSON for collection "$abbreviation"');
+          _setLoadingState(HymnLoadingState.loaded);
+        }
       } else {
         print('⚠️ [HymnProvider] Collection "$abbreviation" not found in database');
         
         // Check if database is empty (no collections at all)
         final collections = await _db.getCollections();
         if (collections.isEmpty) {
-          print('📋 [HymnProvider] Database is empty, using JSON data for demonstration');
+          print('📋 [HymnProvider] Database is empty, using JSON data');
           _hymns = await _hymnDataManager.getHymnsForCollection(abbreviation);
           _setLoadingState(HymnLoadingState.loaded);
         } else {
-          print('📋 [HymnProvider] Database has ${collections.length} collections but "$abbreviation" not found');
-          _hymns = [];
+          print('📋 [HymnProvider] Database has ${collections.length} collections but "$abbreviation" not found, trying JSON fallback');
+          _hymns = await _hymnDataManager.getHymnsForCollection(abbreviation);
           _setLoadingState(HymnLoadingState.loaded);
         }
       }
