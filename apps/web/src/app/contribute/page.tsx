@@ -105,6 +105,22 @@ const contributionTypes = [
     href: '/contact'
   },
   {
+    title: 'Choir Collaborations',
+    icon: MusicalNoteIcon,
+    color: 'bg-rose-500',
+    description: 'Join our YouTube project to bring these beautiful hymns to life through choral recordings.',
+    ways: [
+      'Record hymns with your choir',
+      'Participate in our YouTube channel',
+      'Help preserve musical heritage',
+      'Reach global Adventist community',
+      'Collaborate with AI-assisted production',
+      'Build lasting musical legacy'
+    ],
+    cta: 'Join Choir Project',
+    href: '/choir-project'
+  },
+  {
     title: 'Financial Support',
     icon: CurrencyDollarIcon,
     color: 'bg-red-500',
