@@ -1,3 +1,6 @@
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
 import { 
   MusicalNoteIcon,
@@ -9,6 +12,41 @@ import {
 } from '@heroicons/react/24/outline';
 
 export default function Footer() {
+  const [email, setEmail] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+
+  const handleSubscribe = async () => {
+    if (!email.trim()) return;
+
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+
+    try {
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: email.trim(),
+          source: 'footer',
+          timestamp: new Date().toISOString(),
+        }),
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setEmail('');
+        localStorage.setItem('advent-hymnals-subscribed', 'true');
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (error) {
+      console.error('Subscribe error:', error);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
   const navigation = {
     hymnals: [
       { name: 'Seventh-day Adventist Hymnal', href: '/seventh-day-adventist-hymnal' },
@@ -204,6 +242,43 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Newsletter Section */}
+        <div className="mt-16 border-t border-gray-700 pt-8 sm:mt-20">
+          <div className="lg:flex lg:items-center lg:justify-between">
+            <div className="lg:flex-1">
+              <h3 className="text-lg font-semibold text-white">Stay Updated</h3>
+              <p className="mt-2 text-sm text-gray-300">
+                Get notified about new hymnal collections, features, and updates.
+              </p>
+            </div>
+            <div className="mt-6 lg:mt-0 lg:ml-8">
+              <div className="flex flex-col sm:flex-row sm:space-x-3 space-y-3 sm:space-y-0">
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder={submitStatus === 'success' ? 'Thank you for subscribing!' : 'Enter your email'}
+                  className="flex-1 min-w-0 px-4 py-2 text-sm border border-gray-600 rounded-md bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:opacity-50"
+                  disabled={isSubmitting || submitStatus === 'success'}
+                />
+                <button
+                  type="button"
+                  onClick={handleSubscribe}
+                  disabled={isSubmitting || !email.trim() || submitStatus === 'success'}
+                  className="px-6 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {isSubmitting ? 'Subscribing...' : submitStatus === 'success' ? 'Subscribed!' : 'Subscribe'}
+                </button>
+              </div>
+              {submitStatus === 'error' && (
+                <p className="mt-2 text-sm text-red-400">
+                  Sorry, there was an error. Please try again later.
+                </p>
+              )}
             </div>
           </div>
         </div>
