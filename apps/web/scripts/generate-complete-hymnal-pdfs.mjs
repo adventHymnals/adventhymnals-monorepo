@@ -300,20 +300,42 @@ async function generateCompleteHymnalPDF(browser, hymnal, hymns) {
         }
         
         .toc-item {
+          margin-bottom: 2px !important;
+        }
+        
+        .toc-link {
           display: flex !important;
           justify-content: space-between !important;
-          padding: 4px 0 !important;
-          border-bottom: 1px dotted #cbd5e0 !important;
+          align-items: center !important;
+          padding: 8px 12px !important;
+          text-decoration: none !important;
+          color: #2d3748 !important;
+          border-radius: 4px !important;
+          transition: all 0.2s ease !important;
+        }
+        
+        .toc-link:hover {
+          background-color: #f7fafc !important;
+          color: #1a365d !important;
         }
         
         .toc-title {
           flex: 1 !important;
-          margin-right: 20px !important;
+          margin-right: 12px !important;
+          font-weight: 500 !important;
+        }
+        
+        .toc-dots {
+          flex: 1 !important;
+          border-bottom: 1px dotted #cbd5e0 !important;
+          margin: 0 12px !important;
+          height: 1px !important;
         }
         
         .toc-number {
           font-weight: bold !important;
           color: #4a5568 !important;
+          font-size: 12px !important;
         }
         
         /* Page break rules */
@@ -385,34 +407,33 @@ async function generateCompleteHymnalPDF(browser, hymnal, hymns) {
       titlePage.style.cssText = 'page-break-after: always; height: 100vh; position: relative; display: flex; flex-direction: column; justify-content: center; text-align: center;';
       container.appendChild(titlePage);
       
-      // Table of contents
+      // Table of contents with clickable links
       if (hymnsData.length > 0) {
         const tocPage = document.createElement('div');
         tocPage.className = 'toc';
         tocPage.innerHTML = `
           <h2>Table of Contents</h2>
           <div class="toc-list">
-            ${hymnsData.slice(0, 50).map(hymn => `
+            ${hymnsData.map(hymn => `
               <div class="toc-item">
-                <span class="toc-title">${hymn.title}</span>
-                <span class="toc-number">#${hymn.number}</span>
+                <a href="#hymn-${hymn.number}" class="toc-link">
+                  <span class="toc-title">${hymn.title}</span>
+                  <span class="toc-dots"></span>
+                  <span class="toc-number">#${hymn.number}</span>
+                </a>
               </div>
             `).join('')}
-            ${hymnsData.length > 50 ? `
-              <div style="text-align: center; margin: 20px 0; font-style: italic; color: #666;">
-                ... and ${hymnsData.length - 50} more hymns
-              </div>
-            ` : ''}
           </div>
         `;
         container.appendChild(tocPage);
       }
       
-      // Add hymns content (first 10 for sample, or all if small collection)
-      const hymnsToInclude = hymnsData.length <= 20 ? hymnsData : hymnsData.slice(0, 10);
+      // Add hymns content (all hymns, not just samples)
+      const hymnsToInclude = hymnsData;
       hymnsToInclude.forEach((hymn, index) => {
         const hymnSection = document.createElement('div');
         hymnSection.className = 'hymn-section';
+        hymnSection.id = `hymn-${hymn.number}`;  // Add ID for linking
         
         let hymnContent = `
           <div class="hymn-item">
@@ -512,17 +533,17 @@ async function generateCompleteHymnalPDF(browser, hymnal, hymns) {
         container.appendChild(hymnSection);
       });
       
-      // Add note if this is a sample
-      if (hymnsData.length > hymnsToInclude.length) {
-        const sampleNote = document.createElement('div');
-        sampleNote.style.cssText = 'page-break-before: always; text-align: center; padding: 40px; color: #666;';
-        sampleNote.innerHTML = `
-          <h2>Sample Complete</h2>
-          <p>This PDF contains the first ${hymnsToInclude.length} hymns from ${hymnalData.site_name || hymnalData.name}.</p>
-          <p>The complete collection contains ${hymnsData.length} hymns total.</p>
-          <p>Visit <strong>AdventHymnals.org</strong> to browse all hymns online.</p>
+      // Add completion note
+      if (hymnsData.length > 0) {
+        const completionNote = document.createElement('div');
+        completionNote.style.cssText = 'page-break-before: always; text-align: center; padding: 40px; color: #666;';
+        completionNote.innerHTML = `
+          <h2>Collection Complete</h2>
+          <p>This PDF contains all ${hymnsData.length} hymns from ${hymnalData.site_name || hymnalData.name}.</p>
+          <p>Generated from <strong>AdventHymnals.org</strong> - ${new Date().toLocaleDateString()}</p>
+          <p><small>For the most up-to-date versions, visit our website.</small></p>
         `;
-        container.appendChild(sampleNote);
+        container.appendChild(completionNote);
       }
       
       document.body.appendChild(container);

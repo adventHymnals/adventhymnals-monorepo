@@ -1,5 +1,5 @@
 {
-  "generated": "2025-07-10T20:21:56.105Z",
+  "generated": "2025-07-10T20:35:05.464Z",
   "count": 13,
   "type": "complete_hymnals",
   "description": "Complete hymnal PDF collections with all hymns from each collection",
@@ -9,91 +9,91 @@
       "hymnal_slug": "campus-melodies",
       "url": "/pdfs/complete-hymnals/campus-melodies-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.449Z"
     },
     {
       "filename": "christ-in-song-complete.pdf",
       "hymnal_slug": "christ-in-song",
       "url": "/pdfs/complete-hymnals/christ-in-song-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.450Z"
     },
     {
       "filename": "church-hymnal-complete.pdf",
       "hymnal_slug": "church-hymnal",
       "url": "/pdfs/complete-hymnals/church-hymnal-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.450Z"
     },
     {
       "filename": "hymns-and-tunes-1869-complete.pdf",
       "hymnal_slug": "hymns-and-tunes-1869",
       "url": "/pdfs/complete-hymnals/hymns-and-tunes-1869-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.450Z"
     },
     {
       "filename": "hymns-and-tunes-1876-complete.pdf",
       "hymnal_slug": "hymns-and-tunes-1876",
       "url": "/pdfs/complete-hymnals/hymns-and-tunes-1876-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.450Z"
     },
     {
       "filename": "hymns-and-tunes-1886-complete.pdf",
       "hymnal_slug": "hymns-and-tunes-1886",
       "url": "/pdfs/complete-hymnals/hymns-and-tunes-1886-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.450Z"
     },
     {
       "filename": "hymns-for-gods-peculiar-people-complete.pdf",
       "hymnal_slug": "hymns-for-gods-peculiar-people",
       "url": "/pdfs/complete-hymnals/hymns-for-gods-peculiar-people-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.450Z"
     },
     {
       "filename": "hymns-for-second-advent-believers-complete.pdf",
       "hymnal_slug": "hymns-for-second-advent-believers",
       "url": "/pdfs/complete-hymnals/hymns-for-second-advent-believers-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.450Z"
     },
     {
       "filename": "hymns-for-the-poor-of-the-flock-complete.pdf",
       "hymnal_slug": "hymns-for-the-poor-of-the-flock",
       "url": "/pdfs/complete-hymnals/hymns-for-the-poor-of-the-flock-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.450Z"
     },
     {
       "filename": "millenial-harp-complete.pdf",
       "hymnal_slug": "millenial-harp",
       "url": "/pdfs/complete-hymnals/millenial-harp-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.450Z"
     },
     {
       "filename": "nyimbo-za-kristo-complete.pdf",
       "hymnal_slug": "nyimbo-za-kristo",
       "url": "/pdfs/complete-hymnals/nyimbo-za-kristo-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.450Z"
     },
     {
       "filename": "seventh-day-adventist-hymnal-complete.pdf",
       "hymnal_slug": "seventh-day-adventist-hymnal",
       "url": "/pdfs/complete-hymnals/seventh-day-adventist-hymnal-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.450Z"
     },
     {
       "filename": "wende-nyasaye-complete.pdf",
       "hymnal_slug": "wende-nyasaye",
       "url": "/pdfs/complete-hymnals/wende-nyasaye-complete.pdf",
       "type": "complete_hymnal",
-      "generated": "2025-07-10T20:21:56.091Z"
+      "generated": "2025-07-10T20:35:05.450Z"
     }
   ]
 }
