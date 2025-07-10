@@ -64,3 +64,10 @@ ehthumbs.db
 # Coverage reports
 coverage/
 *.lcov
+
+# Debug and temporary test files
+debug_test*.dart
+fixed_test.dart
+
+# Build artifacts that shouldn't be committed
+windows/

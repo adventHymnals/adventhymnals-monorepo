@@ -1,0 +1,266 @@
+name: Build Flutter Mobile Apps
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - 'apps/advent_hymnals_mobile/**'
+      - 'packages/**' # If mobile app uses shared packages
+    tags:
+      - 'mobile-v*' # Trigger on version tags like mobile-v1.0.0
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g., 1.0.0)'
+        required: true
+        default: '1.0.0'
+      create_release:
+        description: 'Create GitHub Release'
+        required: false
+        default: false
+        type: boolean
+
+env:
+  FLUTTER_VERSION: '3.19.0'
+
+permissions:
+  contents: write
+  packages: write
+
+concurrency:
+  group: "flutter-build-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  # Build Android APK and AAB
+  build-android:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+          
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+          
+      - name: Get Flutter dependencies
+        working-directory: apps/advent_hymnals_mobile
+        run: flutter pub get
+        
+      - name: Build APK
+        working-directory: apps/advent_hymnals_mobile
+        run: |
+          flutter build apk --release
+          flutter build apk --release --target-platform android-arm64
+          
+      - name: Build AAB (Android App Bundle)
+        working-directory: apps/advent_hymnals_mobile
+        run: flutter build appbundle --release
+        
+      - name: Upload Android artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-builds
+          path: |
+            apps/advent_hymnals_mobile/build/app/outputs/flutter-apk/app-release.apk
+            apps/advent_hymnals_mobile/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+            apps/advent_hymnals_mobile/build/app/outputs/bundle/release/app-release.aab
+          retention-days: 30
+
+  # Build Linux executable
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Install Linux dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
+          
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+          
+      - name: Enable Linux desktop
+        run: flutter config --enable-linux-desktop
+        
+      - name: Get Flutter dependencies
+        working-directory: apps/advent_hymnals_mobile
+        run: flutter pub get
+        
+      - name: Build Linux executable
+        working-directory: apps/advent_hymnals_mobile
+        run: flutter build linux --release
+        
+      - name: Package Linux build
+        working-directory: apps/advent_hymnals_mobile
+        run: |
+          cd build/linux/x64/release/bundle
+          tar -czf ../../../../../advent-hymnals-mobile-linux.tar.gz *
+          
+      - name: Upload Linux artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-build
+          path: apps/advent_hymnals_mobile/advent-hymnals-mobile-linux.tar.gz
+          retention-days: 30
+
+  # Build Windows executable
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+          
+      - name: Enable Windows desktop
+        run: flutter config --enable-windows-desktop
+        
+      - name: Get Flutter dependencies
+        working-directory: apps/advent_hymnals_mobile
+        run: flutter pub get
+        
+      - name: Build Windows executable
+        working-directory: apps/advent_hymnals_mobile
+        run: flutter build windows --release
+        
+      - name: Package Windows build
+        working-directory: apps/advent_hymnals_mobile
+        run: |
+          cd build/windows/x64/runner/Release
+          7z a ../../../../../advent-hymnals-mobile-windows.zip *
+          
+      - name: Upload Windows artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-build
+          path: apps/advent_hymnals_mobile/advent-hymnals-mobile-windows.zip
+          retention-days: 30
+
+  # Build macOS app (optional - requires macOS runner)
+  build-macos:
+    runs-on: macos-latest
+    if: false # Disable for now, enable if needed
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+          
+      - name: Enable macOS desktop
+        run: flutter config --enable-macos-desktop
+        
+      - name: Get Flutter dependencies
+        working-directory: apps/advent_hymnals_mobile
+        run: flutter pub get
+        
+      - name: Build macOS app
+        working-directory: apps/advent_hymnals_mobile
+        run: flutter build macos --release
+        
+      - name: Package macOS build
+        working-directory: apps/advent_hymnals_mobile
+        run: |
+          cd build/macos/Build/Products/Release
+          zip -r ../../../../../advent-hymnals-mobile-macos.zip *.app
+          
+      - name: Upload macOS artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos-build
+          path: apps/advent_hymnals_mobile/advent-hymnals-mobile-macos.zip
+          retention-days: 30
+
+  # Create GitHub Release with all artifacts
+  create-release:
+    needs: [build-android, build-linux, build-windows]
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' && inputs.create_release == 'true'
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          
+      - name: Display artifact structure
+        run: ls -la artifacts/
+        
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: mobile-v${{ inputs.version }}
+          name: "Advent Hymnals Mobile v${{ inputs.version }}"
+          body: |
+            ## Advent Hymnals Mobile App v${{ inputs.version }}
+            
+            ### Downloads
+            - **Android APK (Universal)**: `app-release.apk`
+            - **Android APK (ARM64)**: `app-arm64-v8a-release.apk` 
+            - **Android App Bundle**: `app-release.aab` (for Google Play Store)
+            - **Linux**: `advent-hymnals-mobile-linux.tar.gz`
+            - **Windows**: `advent-hymnals-mobile-windows.zip`
+            
+            ### Installation Instructions
+            
+            **Android:**
+            1. Download the appropriate APK file
+            2. Enable "Install from unknown sources" in your Android settings
+            3. Install the APK file
+            
+            **Linux:**
+            1. Download and extract `advent-hymnals-mobile-linux.tar.gz`
+            2. Run the executable: `./advent_hymnals_mobile`
+            
+            **Windows:**
+            1. Download and extract `advent-hymnals-mobile-windows.zip`
+            2. Run `advent_hymnals_mobile.exe`
+            
+            ### Changes
+            See commit history for detailed changes in this release.
+          files: |
+            artifacts/android-builds/*
+            artifacts/linux-build/*
+            artifacts/windows-build/*
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # Development builds (for every push, no release)
+  upload-development-builds:
+    needs: [build-android, build-linux, build-windows]
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: development-builds
+          
+      - name: Upload development builds
+        uses: actions/upload-artifact@v4
+        with:
+          name: development-builds-${{ github.sha }}
+          path: development-builds/
+          retention-days: 7
