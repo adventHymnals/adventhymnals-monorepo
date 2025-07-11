@@ -1,6 +1,5 @@
 import 'package:flutter/foundation.dart';
 import 'package:audioplayers/audioplayers.dart';
-import 'dart:io' show Platform;
 import '../../domain/entities/hymn.dart';
 import '../providers/settings_provider.dart';
 
@@ -19,7 +18,7 @@ enum RepeatMode {
 }
 
 class AudioPlayerProvider extends ChangeNotifier {
-  final AudioPlayer _audioPlayer = AudioPlayer();
+  AudioPlayer? _audioPlayer;
   final SettingsProvider _settingsProvider;
   
   AudioState _audioState = AudioState.stopped;
@@ -33,7 +32,10 @@ class AudioPlayerProvider extends ChangeNotifier {
   double _volume = 1.0;
   String? _errorMessage;
   
-  // Getters
+  // Stream subscriptions for cleanup
+  late final List<StreamSubscription> _subscriptions = [];
+  
+  // Getters (same as before)
   AudioState get audioState => _audioState;
   Hymn? get currentHymn => _currentHymn;
   List<Hymn> get playlist => _playlist;
@@ -62,56 +64,79 @@ class AudioPlayerProvider extends ChangeNotifier {
   String get remainingText => _formatDuration(_duration - _position);
 
   AudioPlayerProvider(this._settingsProvider) {
-    // WINDOWS FIX: Skip audio initialization on Windows to prevent crash
-    if (!Platform.isWindows) {
-      _initializePlayer();
-    }
+    _initializePlayer();
   }
 
   void _initializePlayer() {
-    // Listen to player state changes
-    _audioPlayer.onPlayerStateChanged.listen((state) {
-      switch (state) {
-        case PlayerState.stopped:
-          _setAudioState(AudioState.stopped);
-          break;
-        case PlayerState.playing:
-          _setAudioState(AudioState.playing);
-          break;
-        case PlayerState.paused:
-          _setAudioState(AudioState.paused);
-          break;
-        case PlayerState.completed:
-          _onTrackCompleted();
-          break;
-        case PlayerState.disposed:
-          _setAudioState(AudioState.stopped);
-          break;
-      }
-    });
+    try {
+      _audioPlayer = AudioPlayer();
+      
+      // Safe stream subscription with null checks
+      _subscriptions.add(
+        _audioPlayer!.onPlayerStateChanged.listen((state) {
+          if (!mounted) return;
+          
+          switch (state) {
+            case PlayerState.stopped:
+              _setAudioState(AudioState.stopped);
+              break;
+            case PlayerState.playing:
+              _setAudioState(AudioState.playing);
+              break;
+            case PlayerState.paused:
+              _setAudioState(AudioState.paused);
+              break;
+            case PlayerState.completed:
+              _onTrackCompleted();
+              break;
+            case PlayerState.disposed:
+              _setAudioState(AudioState.stopped);
+              break;
+          }
+        }, onError: (error) {
+          debugPrint('Audio player state error: $error');
+          _setError('Audio player state error: $error');
+        }),
+      );
 
-    // Listen to duration changes
-    _audioPlayer.onDurationChanged.listen((duration) {
-      _duration = duration;
-      notifyListeners();
-    });
+      // Safe duration listener
+      _subscriptions.add(
+        _audioPlayer!.onDurationChanged.listen((duration) {
+          if (!mounted) return;
+          _duration = duration;
+          notifyListeners();
+        }, onError: (error) {
+          debugPrint('Audio duration error: $error');
+        }),
+      );
 
-    // Listen to position changes
-    _audioPlayer.onPositionChanged.listen((position) {
-      _position = position;
-      notifyListeners();
-    });
+      // Safe position listener
+      _subscriptions.add(
+        _audioPlayer!.onPositionChanged.listen((position) {
+          if (!mounted) return;
+          _position = position;
+          notifyListeners();
+        }, onError: (error) {
+          debugPrint('Audio position error: $error');
+        }),
+      );
 
-    // Set initial volume from settings
-    _volume = _settingsProvider.settings.soundEnabled ? 1.0 : 0.0;
-    _audioPlayer.setVolume(_volume);
+      // Set initial volume from settings
+      _volume = _settingsProvider.settings.soundEnabled ? 1.0 : 0.0;
+      _audioPlayer!.setVolume(_volume);
+      
+    } catch (e) {
+      debugPrint('Failed to initialize audio player: $e');
+      _setError('Failed to initialize audio player: $e');
+    }
   }
 
-  // Playback control methods
+  bool get mounted => _audioPlayer != null;
+
+  // Fixed playback method with better error handling
   Future<void> playHymn(Hymn hymn, {List<Hymn>? playlist}) async {
-    // WINDOWS FIX: Skip audio playback on Windows to prevent crash
-    if (Platform.isWindows) {
-      _setError('Audio playback not available on Windows in debug mode');
+    if (!mounted) {
+      _setError('Audio player not initialized');
       return;
     }
     
@@ -133,48 +158,73 @@ class AudioPlayerProvider extends ChangeNotifier {
         _currentIndex = 0;
       }
 
+      // WINDOWS FIX: Don't attempt to play demo URLs on Windows
+      // Instead, set a placeholder state
+      if (Platform.isWindows) {
+        _setError('Audio playback not available on Windows in debug mode');
+        return;
+      }
+
       // For demo purposes, use a sample audio URL
-      // In a real app, this would come from the hymn's audio file path
       final audioUrl = _getAudioUrl(hymn);
       
-      await _audioPlayer.play(UrlSource(audioUrl));
+      // Validate URL before attempting to play
+      if (audioUrl.isEmpty) {
+        _setError('No audio URL available for this hymn');
+        return;
+      }
+      
+      await _audioPlayer!.play(UrlSource(audioUrl));
       
       notifyListeners();
     } catch (e) {
+      debugPrint('Failed to play hymn: $e');
       _setError('Failed to play hymn: ${e.toString()}');
     }
   }
 
   Future<void> pause() async {
+    if (!mounted) return;
+    
     try {
-      await _audioPlayer.pause();
+      await _audioPlayer!.pause();
     } catch (e) {
+      debugPrint('Failed to pause: $e');
       _setError('Failed to pause: ${e.toString()}');
     }
   }
 
   Future<void> resume() async {
+    if (!mounted) return;
+    
     try {
-      await _audioPlayer.resume();
+      await _audioPlayer!.resume();
     } catch (e) {
+      debugPrint('Failed to resume: $e');
       _setError('Failed to resume: ${e.toString()}');
     }
   }
 
   Future<void> stop() async {
+    if (!mounted) return;
+    
     try {
-      await _audioPlayer.stop();
+      await _audioPlayer!.stop();
       _position = Duration.zero;
       notifyListeners();
     } catch (e) {
+      debugPrint('Failed to stop: $e');
       _setError('Failed to stop: ${e.toString()}');
     }
   }
 
   Future<void> seekTo(Duration position) async {
+    if (!mounted) return;
+    
     try {
-      await _audioPlayer.seek(position);
+      await _audioPlayer!.seek(position);
     } catch (e) {
+      debugPrint('Failed to seek: $e');
       _setError('Failed to seek: ${e.toString()}');
     }
   }
@@ -198,27 +248,35 @@ class AudioPlayerProvider extends ChangeNotifier {
   }
 
   Future<void> setVolume(double volume) async {
+    if (!mounted) return;
+    
     try {
       _volume = volume.clamp(0.0, 1.0);
-      await _audioPlayer.setVolume(_volume);
+      await _audioPlayer!.setVolume(_volume);
       notifyListeners();
     } catch (e) {
+      debugPrint('Failed to set volume: $e');
       _setError('Failed to set volume: ${e.toString()}');
     }
   }
 
   Future<void> setPlaybackRate(double rate) async {
+    if (!mounted) return;
+    
     try {
       final clampedRate = rate.clamp(0.5, 2.0);
-      await _audioPlayer.setPlaybackRate(clampedRate);
+      await _audioPlayer!.setPlaybackRate(clampedRate);
       notifyListeners();
     } catch (e) {
+      debugPrint('Failed to set playback rate: $e');
       _setError('Failed to set playback rate: ${e.toString()}');
     }
   }
 
-  // Playlist navigation
+  // Playlist navigation methods (same as before but with mounted checks)
   Future<void> playNext() async {
+    if (!mounted) return;
+    
     if (!hasNext) {
       if (_repeatMode == RepeatMode.all) {
         _currentIndex = 0;
@@ -233,6 +291,8 @@ class AudioPlayerProvider extends ChangeNotifier {
   }
 
   Future<void> playPrevious() async {
+    if (!mounted) return;
+    
     if (!hasPrevious) {
       if (_repeatMode == RepeatMode.all) {
         _currentIndex = _playlist.length - 1;
@@ -247,13 +307,15 @@ class AudioPlayerProvider extends ChangeNotifier {
   }
 
   Future<void> playAtIndex(int index) async {
+    if (!mounted) return;
+    
     if (index >= 0 && index < _playlist.length) {
       _currentIndex = index;
       await playHymn(_playlist[_currentIndex], playlist: _playlist);
     }
   }
 
-  // Playlist management
+  // Playlist management methods (same as before)
   void toggleShuffle() {
     _isShuffleEnabled = !_isShuffleEnabled;
     notifyListeners();
@@ -319,10 +381,14 @@ class AudioPlayerProvider extends ChangeNotifier {
 
   // Private methods
   void _onTrackCompleted() {
+    if (!mounted) return;
+    
     switch (_repeatMode) {
       case RepeatMode.one:
         // Replay current track
-        playHymn(_currentHymn!, playlist: _playlist);
+        if (_currentHymn != null) {
+          playHymn(_currentHymn!, playlist: _playlist);
+        }
         break;
       case RepeatMode.all:
         // Play next track, or first if at end
@@ -340,6 +406,8 @@ class AudioPlayerProvider extends ChangeNotifier {
   }
 
   void _setAudioState(AudioState state) {
+    if (!mounted) return;
+    
     _audioState = state;
     if (state != AudioState.error) {
       _errorMessage = null;
@@ -348,6 +416,8 @@ class AudioPlayerProvider extends ChangeNotifier {
   }
 
   void _setError(String error) {
+    if (!mounted) return;
+    
     _audioState = AudioState.error;
     _errorMessage = error;
     notifyListeners();
@@ -361,6 +431,11 @@ class AudioPlayerProvider extends ChangeNotifier {
   }
 
   String _getAudioUrl(Hymn hymn) {
+    // WINDOWS FIX: Return empty string to avoid network calls on Windows
+    if (Platform.isWindows) {
+      return '';
+    }
+    
     // For demo purposes, return a sample audio URL
     // In a real app, this would be based on the hymn's actual audio file
     switch (hymn.id) {
@@ -388,7 +463,16 @@ class AudioPlayerProvider extends ChangeNotifier {
 
   @override
   void dispose() {
-    _audioPlayer.dispose();
+    // Cancel all subscriptions first
+    for (final subscription in _subscriptions) {
+      subscription.cancel();
+    }
+    _subscriptions.clear();
+    
+    // Dispose audio player
+    _audioPlayer?.dispose();
+    _audioPlayer = null;
+    
     super.dispose();
   }
 }
