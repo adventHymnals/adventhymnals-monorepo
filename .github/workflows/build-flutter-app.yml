@@ -141,179 +141,19 @@ jobs:
         
       - name: Build Windows executable
         working-directory: apps/advent_hymnals_mobile
-        run: flutter build windows --release --verbose
+        run: flutter build windows --release
         
-      - name: Rename and sign executable (development)
-        working-directory: apps/advent_hymnals_mobile
-        run: |
-          # First rename the executable to have proper display name
-          $originalPath = "build\windows\x64\runner\Release\AdventHymnals.exe"
-          $newPath = "build\windows\x64\runner\Release\Advent Hymnals.exe"
-          
-          if (Test-Path $originalPath) {
-            Rename-Item -Path $originalPath -NewName "Advent Hymnals.exe"
-            Write-Host "✅ Renamed executable to 'Advent Hymnals.exe'"
-          } else {
-            Write-Host "❌ Original executable not found at: $originalPath"
-            ls "build\windows\x64\runner\Release\"
-          }
-          
-          # Create self-signed certificate for testing
-          $cert = New-SelfSignedCertificate -Subject "CN=Advent Hymnals" -Type CodeSigning -KeyUsage DigitalSignature -FriendlyName "Advent Hymnals Code Signing" -CertStoreLocation "Cert:\CurrentUser\My" -KeyLength 2048
-          
-          # Sign the renamed executable
-          if (Test-Path $newPath) {
-            Set-AuthenticodeSignature -FilePath $newPath -Certificate $cert
-            Write-Host "✅ Executable signed with self-signed certificate"
-          } else {
-            Write-Host "❌ Renamed executable not found at: $newPath"
-          }
-        shell: powershell
-        
-      - name: Install NSIS for installer creation
-        run: choco install nsis -y
-        
-      - name: Create LICENSE file
-        working-directory: apps/advent_hymnals_mobile
-        run: |
-          if (-not (Test-Path "LICENSE")) {
-            $license = @"
-          MIT License
-          
-          Copyright (c) 2024 Advent Hymnals
-          
-          Permission is hereby granted, free of charge, to any person obtaining a copy
-          of this software and associated documentation files (the "Software"), to deal
-          in the Software without restriction, including without limitation the rights
-          to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-          copies of the Software, and to permit persons to whom the Software is
-          furnished to do so, subject to the following conditions:
-          
-          The above copyright notice and this permission notice shall be included in all
-          copies or substantial portions of the Software.
-          
-          THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-          IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-          FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-          AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-          LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-          OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-          SOFTWARE.
-          "@
-            $license | Out-File -FilePath "LICENSE" -Encoding UTF8
-          }
-        shell: powershell
-        
-      - name: Create installer script
-        working-directory: apps/advent_hymnals_mobile
-        run: |
-          $installerScript = @"
-          !define APP_NAME "Advent Hymnals"
-          !define APP_VERSION "1.0.0"
-          !define APP_PUBLISHER "Advent Hymnals"
-          !define APP_URL "https://adventhymnals.org"
-          !define APP_DESCRIPTION "Comprehensive hymnal desktop application"
-          
-          !include "MUI2.nsh"
-          
-          Name "`${APP_NAME}"
-          OutFile "advent-hymnals-installer.exe"
-          InstallDir "`$PROGRAMFILES64\`${APP_NAME}"
-          InstallDirRegKey HKLM "Software\`${APP_NAME}" "InstallPath"
-          RequestExecutionLevel admin
-          
-          !define MUI_ABORTWARNING
-          
-          !insertmacro MUI_PAGE_WELCOME
-          !insertmacro MUI_PAGE_LICENSE "LICENSE"
-          !insertmacro MUI_PAGE_DIRECTORY
-          !insertmacro MUI_PAGE_INSTFILES
-          !insertmacro MUI_PAGE_FINISH
-          
-          !insertmacro MUI_UNPAGE_WELCOME
-          !insertmacro MUI_UNPAGE_CONFIRM
-          !insertmacro MUI_UNPAGE_INSTFILES
-          !insertmacro MUI_UNPAGE_FINISH
-          
-          !insertmacro MUI_LANGUAGE "English"
-          
-          Section "Main Application" SecMain
-            SetOutPath "`$INSTDIR"
-            
-            File /r "build\windows\x64\runner\Release\*"
-            
-            WriteRegStr HKLM "Software\`${APP_NAME}" "InstallPath" "`$INSTDIR"
-            WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\`${APP_NAME}" "DisplayName" "`${APP_NAME}"
-            WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\`${APP_NAME}" "UninstallString" "`$INSTDIR\uninstall.exe"
-            WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\`${APP_NAME}" "DisplayIcon" "`$INSTDIR\Advent Hymnals.exe"
-            WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\`${APP_NAME}" "Publisher" "`${APP_PUBLISHER}"
-            WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\`${APP_NAME}" "URLInfoAbout" "`${APP_URL}"
-            WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\`${APP_NAME}" "DisplayVersion" "`${APP_VERSION}"
-            WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\`${APP_NAME}" "NoModify" 1
-            WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\`${APP_NAME}" "NoRepair" 1
-            
-            CreateDirectory "`$SMPROGRAMS\`${APP_NAME}"
-            CreateShortcut "`$SMPROGRAMS\`${APP_NAME}\`${APP_NAME}.lnk" "`$INSTDIR\Advent Hymnals.exe"
-            CreateShortcut "`$SMPROGRAMS\`${APP_NAME}\Uninstall.lnk" "`$INSTDIR\uninstall.exe"
-            CreateShortcut "`$DESKTOP\`${APP_NAME}.lnk" "`$INSTDIR\Advent Hymnals.exe"
-            
-            WriteUninstaller "`$INSTDIR\uninstall.exe"
-          SectionEnd
-          
-          Section "Uninstall"
-            Delete "`$INSTDIR\*"
-            RMDir /r "`$INSTDIR"
-            
-            Delete "`$SMPROGRAMS\`${APP_NAME}\*"
-            RMDir "`$SMPROGRAMS\`${APP_NAME}"
-            Delete "`$DESKTOP\`${APP_NAME}.lnk"
-            
-            DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\`${APP_NAME}"
-            DeleteRegKey HKLM "Software\`${APP_NAME}"
-          SectionEnd
-          "@
-          
-          $installerScript | Out-File -FilePath "installer.nsi" -Encoding UTF8
-          Write-Host "✅ Installer script created"
-        shell: powershell
-        
-      - name: Build installer
-        working-directory: apps/advent_hymnals_mobile
-        run: |
-          makensis installer.nsi
-          if (Test-Path "advent-hymnals-installer.exe") {
-            Write-Host "✅ Installer created successfully"
-          } else {
-            Write-Host "❌ Installer creation failed"
-            exit 1
-          }
-        shell: powershell
-        
-      - name: Sign installer
-        working-directory: apps/advent_hymnals_mobile
-        run: |
-          # Get the certificate we created earlier
-          $cert = Get-ChildItem -Path "Cert:\CurrentUser\My" | Where-Object { $_.Subject -eq "CN=Advent Hymnals" } | Select-Object -First 1
-          
-          if ($cert -and (Test-Path "advent-hymnals-installer.exe")) {
-            Set-AuthenticodeSignature -FilePath "advent-hymnals-installer.exe" -Certificate $cert
-            Write-Host "✅ Installer signed with self-signed certificate"
-          }
-        shell: powershell
-        
-      - name: Package Windows build (portable)
+      - name: Package Windows build
         working-directory: apps/advent_hymnals_mobile
         run: |
           cd build/windows/x64/runner/Release
-          7z a ../../../../../advent-hymnals-portable-windows.zip *
+          7z a ../../../../../advent-hymnals-mobile-windows.zip *
           
       - name: Upload Windows artifacts
         uses: actions/upload-artifact@v4
         with:
           name: windows-build
-          path: |
-            apps/advent_hymnals_mobile/advent-hymnals-portable-windows.zip
-            apps/advent_hymnals_mobile/advent-hymnals-installer.exe
+          path: apps/advent_hymnals_mobile/advent-hymnals-mobile-windows.zip
           retention-days: 30
 
   # Build macOS app (optional - requires macOS runner)
@@ -381,8 +221,7 @@ jobs:
             - **Android APK (ARM64)**: `app-arm64-v8a-release.apk` 
             - **Android App Bundle**: `app-release.aab` (for Google Play Store)
             - **Linux**: `advent-hymnals-mobile-linux.tar.gz`
-            - **Windows Installer**: `advent-hymnals-installer.exe` (Recommended)
-            - **Windows Portable**: `advent-hymnals-portable-windows.zip`
+            - **Windows**: `advent-hymnals-mobile-windows.zip`
             
             ### Installation Instructions
             
@@ -396,13 +235,8 @@ jobs:
             2. Run the executable: `./advent_hymnals_mobile`
             
             **Windows:**
-            - **Installer (Recommended)**: Download and run `advent-hymnals-installer.exe`
-              - Creates desktop and start menu shortcuts
-              - Includes uninstaller
-              - Self-signed certificate (Windows will show security warning)
-            - **Portable**: Download and extract `advent-hymnals-portable-windows.zip`, then run `Advent Hymnals.exe`
-            
-            **Windows Security Note:** This app uses self-signed certificates. Windows will show a security warning. Click "More info" → "Run anyway" to proceed.
+            1. Download and extract `advent-hymnals-mobile-windows.zip`
+            2. Run `AdventHymnals.exe`
             
             ### Changes
             See commit history for detailed changes in this release.
