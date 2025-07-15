@@ -33,9 +33,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   window.SetQuitOnClose(true);
   
   // Show the window - without this, the app runs as a background process
-  if (!window.Show()) {
-    return EXIT_FAILURE;
-  }
+  window.Show();
 
   ::MSG msg;
   while (::GetMessage(&msg, nullptr, 0, 0)) {
