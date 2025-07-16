@@ -59,11 +59,11 @@ class _HymnSelectionWidgetState extends State<HymnSelectionWidget> with SingleTi
   Future<void> _performSearch(String query) async {
     try {
       final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
-      final results = await hymnProvider.searchHymns(query);
+      await hymnProvider.searchHymns(query);
       
       if (mounted) {
         setState(() {
-          _searchResults = results;
+          _searchResults = hymnProvider.searchResults;
           _isSearching = false;
         });
       }
@@ -189,7 +189,7 @@ class _HymnSelectionWidgetState extends State<HymnSelectionWidget> with SingleTi
   Widget _buildRecentTab() {
     return Consumer<RecentlyViewedProvider>(
       builder: (context, provider, child) {
-        if (provider.recentHymns.isEmpty) {
+        if (provider.recentlyViewed.isEmpty) {
           return _buildEmptyState(
             icon: Icons.history,
             title: 'No Recent Hymns',
@@ -197,7 +197,7 @@ class _HymnSelectionWidgetState extends State<HymnSelectionWidget> with SingleTi
           );
         }
 
-        return _buildHymnList(provider.recentHymns);
+        return _buildHymnList(provider.recentlyViewed);
       },
     );
   }
@@ -205,7 +205,7 @@ class _HymnSelectionWidgetState extends State<HymnSelectionWidget> with SingleTi
   Widget _buildFavoritesTab() {
     return Consumer<FavoritesProvider>(
       builder: (context, provider, child) {
-        if (provider.favoriteHymns.isEmpty) {
+        if (provider.favorites.isEmpty) {
           return _buildEmptyState(
             icon: Icons.favorite_border,
             title: 'No Favorites',
@@ -213,7 +213,7 @@ class _HymnSelectionWidgetState extends State<HymnSelectionWidget> with SingleTi
           );
         }
 
-        return _buildHymnList(provider.favoriteHymns);
+        return _buildHymnList(provider.favorites);
       },
     );
   }
@@ -287,11 +287,11 @@ class _HymnSelectionWidgetState extends State<HymnSelectionWidget> with SingleTi
                 ),
               ),
             ],
-            if (hymn.themeTags.isNotEmpty) ...[
+            if (hymn.themeTags?.isNotEmpty == true) ...[
               const SizedBox(height: 4),
               Wrap(
                 spacing: 4,
-                children: hymn.themeTags.take(3).map((tag) {
+                children: hymn.themeTags!.take(3).map((tag) {
                   return Chip(
                     label: Text(tag),
                     materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
@@ -366,7 +366,7 @@ class _HymnSelectionWidgetState extends State<HymnSelectionWidget> with SingleTi
     
     // Add to recently viewed
     final recentlyViewedProvider = Provider.of<RecentlyViewedProvider>(context, listen: false);
-    recentlyViewedProvider.addRecentlyViewed(hymn);
+    recentlyViewedProvider.addRecentlyViewed(hymn.id);
     
     // Call the callback
     widget.onHymnSelected?.call();

@@ -384,27 +384,27 @@ How great Thou art, how great Thou art!''',
       expect(hymnProvider.hymns[1].title, 'How Great Thou Art');
 
       // Test search functionality
-      final searchResults = await hymnProvider.searchHymns('Amazing');
-      expect(searchResults.length, 1);
-      expect(searchResults[0].title, 'Amazing Grace');
+      await hymnProvider.searchHymns('Amazing');
+      expect(hymnProvider.searchResults.length, 1);
+      expect(hymnProvider.searchResults[0].title, 'Amazing Grace');
 
       // Test favorites
       final favoritesProvider = tester.widget<ChangeNotifierProvider>(
         find.byType(ChangeNotifierProvider).at(1),
       ).create(null) as FavoritesProvider;
 
-      favoritesProvider.addFavorite(sampleHymns[0]);
-      expect(favoritesProvider.favoriteHymns.length, 1);
-      expect(favoritesProvider.isFavorite(1), isTrue);
+      await favoritesProvider.addFavorite(sampleHymns[0].id);
+      expect(favoritesProvider.favorites.length, 1);
+      expect(await favoritesProvider.isFavorite(1), isTrue);
 
       // Test recently viewed
       final recentlyViewedProvider = tester.widget<ChangeNotifierProvider>(
         find.byType(ChangeNotifierProvider).at(2),
       ).create(null) as RecentlyViewedProvider;
 
-      recentlyViewedProvider.addRecentlyViewed(sampleHymns[0]);
-      expect(recentlyViewedProvider.recentHymns.length, 1);
-      expect(recentlyViewedProvider.recentHymns[0].title, 'Amazing Grace');
+      await recentlyViewedProvider.addRecentlyViewed(sampleHymns[0].id);
+      expect(recentlyViewedProvider.recentlyViewed.length, 1);
+      expect(recentlyViewedProvider.recentlyViewed[0].title, 'Amazing Grace');
 
       // Test projector service integration
       final projectorService = tester.widget<ChangeNotifierProvider>(
