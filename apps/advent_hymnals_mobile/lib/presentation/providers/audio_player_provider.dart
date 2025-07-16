@@ -3,6 +3,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'dart:io' show Platform;
 import '../../domain/entities/hymn.dart';
 import '../providers/settings_provider.dart';
+import '../../core/services/windows_audio_service.dart';
 
 enum AudioState {
   stopped,
@@ -21,6 +22,7 @@ enum RepeatMode {
 class AudioPlayerProvider extends ChangeNotifier {
   final AudioPlayer _audioPlayer = AudioPlayer();
   final SettingsProvider _settingsProvider;
+  WindowsAudioService? _windowsAudioService;
   
   AudioState _audioState = AudioState.stopped;
   Hymn? _currentHymn;
@@ -62,13 +64,21 @@ class AudioPlayerProvider extends ChangeNotifier {
   String get remainingText => _formatDuration(_duration - _position);
 
   AudioPlayerProvider(this._settingsProvider) {
-    // WINDOWS FIX: Skip audio initialization on Windows to prevent crash
-    if (!Platform.isWindows) {
-      _initializePlayer();
-    }
+    _initializePlayer();
   }
 
   void _initializePlayer() {
+    if (Platform.isWindows) {
+      // Initialize Windows-specific audio service
+      _windowsAudioService = WindowsAudioService.instance;
+      _initializeWindowsAudio();
+    } else {
+      // Initialize standard audio player for other platforms
+      _initializeStandardAudio();
+    }
+  }
+
+  void _initializeStandardAudio() {
     // Listen to player state changes
     _audioPlayer.onPlayerStateChanged.listen((state) {
       switch (state) {
@@ -107,14 +117,59 @@ class AudioPlayerProvider extends ChangeNotifier {
     _audioPlayer.setVolume(_volume);
   }
 
+  Future<void> _initializeWindowsAudio() async {
+    try {
+      if (_windowsAudioService != null) {
+        final initialized = await _windowsAudioService!.initialize();
+        if (initialized) {
+          // Set up Windows audio player event listeners
+          final windowsPlayer = _windowsAudioService!.audioPlayer;
+          if (windowsPlayer != null) {
+            windowsPlayer.onPlayerStateChanged.listen((state) {
+              switch (state) {
+                case PlayerState.stopped:
+                  _setAudioState(AudioState.stopped);
+                  break;
+                case PlayerState.playing:
+                  _setAudioState(AudioState.playing);
+                  break;
+                case PlayerState.paused:
+                  _setAudioState(AudioState.paused);
+                  break;
+                case PlayerState.completed:
+                  _onTrackCompleted();
+                  break;
+                case PlayerState.disposed:
+                  _setAudioState(AudioState.stopped);
+                  break;
+              }
+            });
+
+            windowsPlayer.onDurationChanged.listen((duration) {
+              _duration = duration;
+              notifyListeners();
+            });
+
+            windowsPlayer.onPositionChanged.listen((position) {
+              _position = position;
+              notifyListeners();
+            });
+
+            // Set initial volume
+            _volume = _settingsProvider.settings.soundEnabled ? 1.0 : 0.0;
+            await _windowsAudioService!.setVolume(_volume);
+          }
+        } else {
+          _setError('Failed to initialize Windows audio service');
+        }
+      }
+    } catch (e) {
+      _setError('Windows audio initialization failed: ${e.toString()}');
+    }
+  }
+
   // Playback control methods
   Future<void> playHymn(Hymn hymn, {List<Hymn>? playlist}) async {
-    // WINDOWS FIX: Skip audio playback on Windows to prevent crash
-    if (Platform.isWindows) {
-      _setError('Audio playback not available on Windows in debug mode');
-      return;
-    }
-    
     try {
       _setAudioState(AudioState.loading);
       _clearError();
@@ -133,11 +188,20 @@ class AudioPlayerProvider extends ChangeNotifier {
         _currentIndex = 0;
       }
 
-      // For demo purposes, use a sample audio URL
-      // In a real app, this would come from the hymn's audio file path
+      // Get audio URL for the hymn
       final audioUrl = _getAudioUrl(hymn);
       
-      await _audioPlayer.play(UrlSource(audioUrl));
+      if (Platform.isWindows && _windowsAudioService != null) {
+        // Use Windows audio service
+        final success = await _windowsAudioService!.playFromUrl(audioUrl);
+        if (!success) {
+          _setError(_windowsAudioService!.lastError ?? 'Failed to play hymn on Windows');
+          return;
+        }
+      } else {
+        // Use standard audio player
+        await _audioPlayer.play(UrlSource(audioUrl));
+      }
       
       notifyListeners();
     } catch (e) {
@@ -147,7 +211,14 @@ class AudioPlayerProvider extends ChangeNotifier {
 
   Future<void> pause() async {
     try {
-      await _audioPlayer.pause();
+      if (Platform.isWindows && _windowsAudioService != null) {
+        final success = await _windowsAudioService!.pause();
+        if (!success) {
+          _setError(_windowsAudioService!.lastError ?? 'Failed to pause on Windows');
+        }
+      } else {
+        await _audioPlayer.pause();
+      }
     } catch (e) {
       _setError('Failed to pause: ${e.toString()}');
     }
@@ -155,7 +226,14 @@ class AudioPlayerProvider extends ChangeNotifier {
 
   Future<void> resume() async {
     try {
-      await _audioPlayer.resume();
+      if (Platform.isWindows && _windowsAudioService != null) {
+        final success = await _windowsAudioService!.resume();
+        if (!success) {
+          _setError(_windowsAudioService!.lastError ?? 'Failed to resume on Windows');
+        }
+      } else {
+        await _audioPlayer.resume();
+      }
     } catch (e) {
       _setError('Failed to resume: ${e.toString()}');
     }
@@ -163,7 +241,14 @@ class AudioPlayerProvider extends ChangeNotifier {
 
   Future<void> stop() async {
     try {
-      await _audioPlayer.stop();
+      if (Platform.isWindows && _windowsAudioService != null) {
+        final success = await _windowsAudioService!.stop();
+        if (!success) {
+          _setError(_windowsAudioService!.lastError ?? 'Failed to stop on Windows');
+        }
+      } else {
+        await _audioPlayer.stop();
+      }
       _position = Duration.zero;
       notifyListeners();
     } catch (e) {
@@ -173,7 +258,14 @@ class AudioPlayerProvider extends ChangeNotifier {
 
   Future<void> seekTo(Duration position) async {
     try {
-      await _audioPlayer.seek(position);
+      if (Platform.isWindows && _windowsAudioService != null) {
+        final success = await _windowsAudioService!.seekTo(position);
+        if (!success) {
+          _setError(_windowsAudioService!.lastError ?? 'Failed to seek on Windows');
+        }
+      } else {
+        await _audioPlayer.seek(position);
+      }
     } catch (e) {
       _setError('Failed to seek: ${e.toString()}');
     }
@@ -200,7 +292,16 @@ class AudioPlayerProvider extends ChangeNotifier {
   Future<void> setVolume(double volume) async {
     try {
       _volume = volume.clamp(0.0, 1.0);
-      await _audioPlayer.setVolume(_volume);
+      
+      if (Platform.isWindows && _windowsAudioService != null) {
+        final success = await _windowsAudioService!.setVolume(_volume);
+        if (!success) {
+          _setError(_windowsAudioService!.lastError ?? 'Failed to set volume on Windows');
+        }
+      } else {
+        await _audioPlayer.setVolume(_volume);
+      }
+      
       notifyListeners();
     } catch (e) {
       _setError('Failed to set volume: ${e.toString()}');

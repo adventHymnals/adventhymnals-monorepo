@@ -171,29 +171,28 @@
   - Test sorting functionality with various collection data
   - _Requirements: 7.2, 7.3, 7.4, 7.5_
 
-- [ ] 6. Re-enable Windows audio playback functionality
+- [x] 6. Re-enable Windows audio playback functionality
 
   - Investigate current Windows audio implementation issues
   - Fix audio playback controls and file handling on Windows
   - Test audio functionality across Windows versions
   - _Requirements: 8.1, 8.2, 8.3, 8.4, 8.5_
 
-- [ ] 6.1 Diagnose Windows audio playback issues
+- [x] 6.1 Diagnose Windows audio playback issues
   - Investigate current `AudioPlayerProvider` implementation on Windows
   - Check audio file format support and codec availability
   - Identify specific Windows audio initialization problems
   - Document current audio playback failure points
   - _Requirements: 8.1, 8.4_
 
-- [ ] 6.2 Implement Windows-specific audio service
+- [x] 6.2 Implement Windows-specific audio service
   - Create `WindowsAudioService` class for platform-specific audio handling
   - Add Windows audio session initialization and configuration
   - Implement proper audio file loading and playback for Windows
   - Add Windows-specific error handling for audio operations
   - _Requirements: 8.1, 8.2, 8.3, 8.4_
 
-
-- [ ] 6.3 Update audio player provider for Windows compatibility
+- [x] 6.3 Update audio player provider for Windows compatibility
   - Modify `AudioPlayerProvider` to use Windows audio service when on Windows platform
   - Add conditional audio initialization based on platform detection
   - Implement Windows-specific audio controls (play, pause, stop, volume)
