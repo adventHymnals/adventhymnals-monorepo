@@ -92,31 +92,42 @@ if [ $? -eq 0 ]; then
             echo "🧪 Starting Windows app test..."
             echo "==============================================="
             
-            # Test the executable (run for 5 seconds)
-            echo "Testing if app runs without crashing..."
-            timeout 5 "./windows-build/AdventHymnals.exe" &
-            APP_PID=$!
-            
-            sleep 5
-            
-            if kill -0 $APP_PID 2>/dev/null; then
-                echo "✅ SUCCESS: App is running without crashes!"
-                kill $APP_PID 2>/dev/null
-                wait $APP_PID 2>/dev/null
-            else
-                wait $APP_PID 2>/dev/null
-                EXIT_CODE=$?
-                if [ $EXIT_CODE -eq 124 ]; then
-                    echo "✅ SUCCESS: App ran successfully (timeout reached)"
-                else
-                    echo "❌ FAILED: App crashed or exited (exit code: $EXIT_CODE)"
-                    exit 1
-                fi
-            fi
-            
+            # Offer debugging options
             echo ""
-            echo "🎯 Windows build test completed successfully!"
-            echo "📍 Executable location: $TMP_DIR/windows-build/AdventHymnals.exe"
+            echo "Choose debug method:"
+            echo "1) Basic test (default)"
+            echo "2) Advanced debug with sound alerts and window detection"
+            echo "3) Flutter verbose logging and console capture"
+            echo "4) All methods"
+            echo ""
+            read -p "Enter choice (1-4) or press Enter for default: " choice
+            
+            case $choice in
+                2)
+                    echo "🔊 Running advanced debug..."
+                    "$SCRIPT_DIR/debug_windows_advanced.sh" "$TMP_DIR/windows-build"
+                    ;;
+                3)
+                    echo "📝 Running Flutter verbose debug..."
+                    "$SCRIPT_DIR/debug_flutter_verbose.sh" "$TMP_DIR/windows-build"
+                    ;;
+                4)
+                    echo "🔄 Running all debug methods..."
+                    echo ""
+                    echo "=== Basic Test ==="
+                    "$SCRIPT_DIR/test_windows_app.sh" "$TMP_DIR/windows-build"
+                    echo ""
+                    echo "=== Advanced Debug ==="
+                    "$SCRIPT_DIR/debug_windows_advanced.sh" "$TMP_DIR/windows-build"
+                    echo ""
+                    echo "=== Flutter Verbose ==="
+                    "$SCRIPT_DIR/debug_flutter_verbose.sh" "$TMP_DIR/windows-build"
+                    ;;
+                *)
+                    echo "📋 Running basic test..."
+                    "$SCRIPT_DIR/test_windows_app.sh" "$TMP_DIR/windows-build"
+                    ;;
+            esac
             
         else
             echo "❌ Executable not found in extracted files"
