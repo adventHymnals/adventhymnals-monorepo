@@ -55,4 +55,5 @@ data/processing/
 *.ocr.tmp
 *.processing.tmp
 tmp/
+latest-windows-build/
 .claude/settings.local.json
