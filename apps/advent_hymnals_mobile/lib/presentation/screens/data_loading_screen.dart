@@ -7,6 +7,7 @@ class DataLoadingScreen extends StatelessWidget {
   final bool hasError;
   final String? errorMessage;
   final VoidCallback? onRetry;
+  final VoidCallback? onSkip;
 
   const DataLoadingScreen({
     super.key,
@@ -15,6 +16,7 @@ class DataLoadingScreen extends StatelessWidget {
     this.hasError = false,
     this.errorMessage,
     this.onRetry,
+    this.onSkip,
   });
 
   @override
@@ -78,16 +80,35 @@ class DataLoadingScreen extends StatelessWidget {
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: AppSizes.spacing24),
-                ElevatedButton.icon(
-                  onPressed: onRetry,
-                  icon: const Icon(Icons.refresh),
-                  label: const Text('Retry'),
-                  style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: AppSizes.spacing24,
-                      vertical: AppSizes.spacing12,
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    ElevatedButton.icon(
+                      onPressed: onRetry,
+                      icon: const Icon(Icons.refresh),
+                      label: const Text('Retry'),
+                      style: ElevatedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: AppSizes.spacing24,
+                          vertical: AppSizes.spacing12,
+                        ),
+                      ),
                     ),
-                  ),
+                    if (onSkip != null) ..[
+                      const SizedBox(width: AppSizes.spacing16),
+                      OutlinedButton.icon(
+                        onPressed: onSkip,
+                        icon: const Icon(Icons.skip_next),
+                        label: const Text('Continue Anyway'),
+                        style: OutlinedButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: AppSizes.spacing24,
+                            vertical: AppSizes.spacing12,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ],
                 ),
               ]
               // Loading State

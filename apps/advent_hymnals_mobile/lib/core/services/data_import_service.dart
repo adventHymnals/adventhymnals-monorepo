@@ -1,4 +1,6 @@
 import 'dart:convert';
+import 'dart:io' show Platform;
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import '../database/database_helper.dart';
 import '../data/collections_data_manager.dart';
@@ -19,28 +21,28 @@ class DataImportService {
       // Check if database is available
       final isDbAvailable = await _db.isDatabaseAvailable();
       if (!isDbAvailable) {
-        print('📦 [DataImport] Database not available, import needed');
+        _logDebug('📦 [DataImport] Database not available, import needed');
         return true;
       }
 
       // Check if hymns table has data
       final hymnCount = await _db.getHymnCount();
       if (hymnCount == 0) {
-        print('📦 [DataImport] No hymns in database, import needed');
+        _logDebug('📦 [DataImport] No hymns in database, import needed');
         return true;
       }
 
       // Check data version
       final storedVersion = await _db.getMetadata(_dataVersionKey);
       if (storedVersion != _currentDataVersion) {
-        print('📦 [DataImport] Data version mismatch (stored: $storedVersion, current: $_currentDataVersion), import needed');
+        _logDebug('📦 [DataImport] Data version mismatch (stored: $storedVersion, current: $_currentDataVersion), import needed');
         return true;
       }
 
-      print('📦 [DataImport] Database up to date with $hymnCount hymns');
+      _logDebug('📦 [DataImport] Database up to date with $hymnCount hymns');
       return false;
     } catch (e) {
-      print('❌ [DataImport] Error checking import status: $e');
+      _logError('❌ [DataImport] Error checking import status: $e');
       return true; // Import on error to be safe
     }
   }
@@ -76,11 +78,11 @@ class DataImportService {
       result.success = true;
       onProgress?.call('Import complete!');
       
-      print('✅ [DataImport] Import completed successfully: ${result.hymnsImported} hymns, ${result.collectionsImported} collections');
+      _logDebug('✅ [DataImport] Import completed successfully: ${result.hymnsImported} hymns, ${result.collectionsImported} collections');
       
     } catch (e, stackTrace) {
-      print('❌ [DataImport] Import failed: $e');
-      print('Stack trace: $stackTrace');
+      _logError('❌ [DataImport] Import failed: $e');
+      _logError('Stack trace: $stackTrace');
       result.success = false;
       result.error = e.toString();
     }
@@ -107,10 +109,10 @@ class DataImportService {
         imported++;
       }
       
-      print('📚 [DataImport] Imported $imported collections');
+      _logDebug('📚 [DataImport] Imported $imported collections');
       return imported;
     } catch (e) {
-      print('❌ [DataImport] Failed to import collections: $e');
+      _logError('❌ [DataImport] Failed to import collections: $e');
       rethrow;
     }
   }
@@ -133,7 +135,7 @@ class DataImportService {
         totalToImport += hymnIds.length;
       }
       
-      print('📖 [DataImport] Found $totalToImport hymns to import');
+      _logDebug('📖 [DataImport] Found $totalToImport hymns to import');
       
       // Import hymns for each collection
       for (final entry in bundledIndex.entries) {
@@ -155,16 +157,16 @@ class DataImportService {
               }
             }
           } catch (e) {
-            print('⚠️ [DataImport] Failed to import hymn $hymnId: $e');
+            _logError('⚠️ [DataImport] Failed to import hymn $hymnId: $e');
             // Continue with other hymns
           }
         }
       }
       
-      print('📖 [DataImport] Imported $totalImported hymns');
+      _logDebug('📖 [DataImport] Imported $totalImported hymns');
       return totalImported;
     } catch (e) {
-      print('❌ [DataImport] Failed to import hymns: $e');
+      _logError('❌ [DataImport] Failed to import hymns: $e');
       rethrow;
     }
   }
@@ -184,7 +186,7 @@ class DataImportService {
       
       return Hymn.fromJson(data);
     } catch (e) {
-      print('⚠️ [DataImport] Failed to load hymn $hymnId: $e');
+      _logError('⚠️ [DataImport] Failed to load hymn $hymnId: $e');
       return null;
     }
   }
@@ -223,6 +225,27 @@ class DataImportService {
       'view_count': 0,
       'play_count': 0,
     });
+  }
+
+  /// Enhanced logging that works on all platforms including Windows release builds
+  void _logDebug(String message) {
+    if (kDebugMode) {
+      debugPrint(message);
+    }
+    // Also log to stdout for Windows console visibility
+    if (Platform.isWindows) {
+      print(message);
+    }
+  }
+
+  void _logError(String message) {
+    if (kDebugMode) {
+      debugPrint(message);
+    }
+    // Always log errors to stderr for Windows console visibility
+    if (Platform.isWindows) {
+      print('ERROR: $message');
+    }
   }
 }
 

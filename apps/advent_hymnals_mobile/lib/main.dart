@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
@@ -43,25 +44,48 @@ import 'presentation/widgets/main_navigation.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
+  // Enhanced Windows logging
+  if (Platform.isWindows && kDebugMode) {
+    debugPrint('🪟 [Windows] Advent Hymnals starting...');
+  }
+  
   // Initialize sqflite for desktop platforms
   if (Platform.isLinux || Platform.isWindows || Platform.isMacOS) {
     sqfliteFfiInit();
     databaseFactory = databaseFactoryFfi;
+    if (Platform.isWindows && kDebugMode) {
+      debugPrint('🪟 [Windows] SQLite FFI initialized');
+    }
   }
   
   // Initialize church mode service
-  await ChurchModeService().initialize();
+  try {
+    await ChurchModeService().initialize();
+    if (Platform.isWindows && kDebugMode) {
+      debugPrint('🪟 [Windows] Church mode service initialized');
+    }
+  } catch (e) {
+    if (Platform.isWindows && kDebugMode) {
+      debugPrint('🪟 [Windows] Church mode service failed: $e');
+    }
+  }
   
   // Initialize AdMob (mobile platforms only)
   if (Platform.isAndroid || Platform.isIOS) {
     await AdMobService.initialize();
   }
   
+  if (Platform.isWindows && kDebugMode) {
+    debugPrint('🪟 [Windows] Starting AdventHymnalsApp...');
+  }
+  
   runApp(const AdventHymnalsApp());
 }
 
 class AdventHymnalsApp extends StatelessWidget {
-  const AdventHymnalsApp({super.key});
+  final bool skipDataLoading;
+  
+  const AdventHymnalsApp({super.key, this.skipDataLoading = false});
 
   @override
   Widget build(BuildContext context) {
@@ -80,16 +104,24 @@ class AdventHymnalsApp extends StatelessWidget {
       ],
       child: Consumer<SettingsProvider>(
         builder: (context, settingsProvider, child) {
-          return AppInitializer(
-            child: MaterialApp.router(
-              title: 'Advent Hymnals',
-              theme: AppTheme.lightTheme,
-              darkTheme: AppTheme.darkTheme,
-              themeMode: settingsProvider.themeMode,
-              routerConfig: _router,
-              debugShowCheckedModeBanner: false,
-            ),
+          final app = MaterialApp.router(
+            title: 'Advent Hymnals',
+            theme: AppTheme.lightTheme,
+            darkTheme: AppTheme.darkTheme,
+            themeMode: settingsProvider.themeMode,
+            routerConfig: _router,
+            debugShowCheckedModeBanner: false,
           );
+          
+          // Skip data loading if requested (for debugging)
+          if (skipDataLoading) {
+            if (Platform.isWindows && kDebugMode) {
+              debugPrint('🪟 [Windows] Skipping data loading for debugging');
+            }
+            return app;
+          }
+          
+          return AppInitializer(child: app);
         },
       ),
     );
