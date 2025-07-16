@@ -6,7 +6,7 @@ echo Expected hymns: 1099
 echo.
 echo Starting application...
 echo.
-./advent-hymnals-test/AdventHymnals.exe
+advent-hymnals-test\AdventHymnals.exe
 echo.
 echo Application exited with code: %ERRORLEVEL%
 pause
