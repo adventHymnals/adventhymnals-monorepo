@@ -3,9 +3,13 @@
 echo "🔍 Downloading latest Windows build with UI fixes..."
 echo ""
 
-# Set up paths
-TMP_DIR="/tmp/advent-hymnals-windows-test"
+# Set up paths - ensure we're in the repo root
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+TMP_DIR="$REPO_ROOT/tmp/advent-hymnals-windows-test"
+
+# Change to repo root to ensure git commands work
+cd "$REPO_ROOT"
 
 # Clean up any existing tmp directory
 if [ -d "$TMP_DIR" ]; then
@@ -13,7 +17,6 @@ if [ -d "$TMP_DIR" ]; then
 fi
 
 mkdir -p "$TMP_DIR"
-cd "$TMP_DIR"
 
 # Get the latest successful workflow run
 WORKFLOW_ID=$(gh run list --workflow="debug-windows-build.yml" --status=completed --limit=1 --json databaseId --jq='.[0].databaseId')
@@ -25,29 +28,40 @@ fi
 
 echo "📦 Found workflow run: $WORKFLOW_ID"
 
-# Get artifacts from the workflow run
-ARTIFACT_INFO=$(gh api repos/adventHymnals/adventhymnals-monorepo/actions/runs/$WORKFLOW_ID/artifacts)
-ARTIFACT_ID=$(echo "$ARTIFACT_INFO" | jq -r '.artifacts[0].id')
-ARTIFACT_NAME=$(echo "$ARTIFACT_INFO" | jq -r '.artifacts[0].name')
+# Download artifacts directly using gh run download
+echo "📥 Downloading artifacts from workflow run..."
 
-if [ -z "$ARTIFACT_ID" ] || [ "$ARTIFACT_ID" == "null" ]; then
-    echo "❌ No artifacts found in workflow run"
-    exit 1
-fi
-
-echo "📥 Downloading artifact: $ARTIFACT_NAME"
-
-# Download the artifact
-gh api repos/adventHymnals/adventhymnals-monorepo/actions/artifacts/$ARTIFACT_ID/zip > windows-build.zip
+# Change to tmp directory and download
+cd "$TMP_DIR"
+gh run download "$WORKFLOW_ID"
 
 if [ $? -eq 0 ]; then
     echo "✅ Downloaded successfully"
     
-    # Extract the artifact
-    echo "📂 Extracting build..."
+    # Find the Windows build artifact directory
+    ARTIFACT_DIR=$(find . -name "*windows-debug-build*" -type d | head -1)
+    
+    if [ -z "$ARTIFACT_DIR" ]; then
+        echo "❌ No Windows build artifact found"
+        echo "🔍 Available artifacts:"
+        ls -la
+        exit 1
+    fi
+    
+    echo "📦 Found artifact directory: $ARTIFACT_DIR"
+    
+    # Find the zip file in the artifact
+    ZIP_FILE=$(find "$ARTIFACT_DIR" -name "*.zip" | head -1)
+    
+    if [ -z "$ZIP_FILE" ]; then
+        echo "❌ No zip file found in artifact"
+        exit 1
+    fi
+    
+    echo "📂 Extracting build from: $ZIP_FILE"
     
     # Extract to windows-build directory
-    unzip -q windows-build.zip -d windows-build
+    unzip -q "$ZIP_FILE" -d windows-build
     
     if [ $? -eq 0 ]; then
         echo "✅ Extracted to $TMP_DIR/windows-build/"
@@ -71,20 +85,38 @@ if [ $? -eq 0 ]; then
             
             echo ""
             echo "📊 Artifact details:"
-            echo "  - ID: $ARTIFACT_ID"
-            echo "  - Name: $ARTIFACT_NAME"
             echo "  - Workflow: $WORKFLOW_ID"
             echo "  - Contains UI fixes for blank window issue"
             echo ""
             
-            # Clean up zip file
-            rm -f windows-build.zip
-            
             echo "🧪 Starting Windows app test..."
             echo "==============================================="
             
-            # Call the test script
-            "$SCRIPT_DIR/test_windows_app.sh" "$TMP_DIR/windows-build"
+            # Test the executable (run for 5 seconds)
+            echo "Testing if app runs without crashing..."
+            timeout 5 "./windows-build/AdventHymnals.exe" &
+            APP_PID=$!
+            
+            sleep 5
+            
+            if kill -0 $APP_PID 2>/dev/null; then
+                echo "✅ SUCCESS: App is running without crashes!"
+                kill $APP_PID 2>/dev/null
+                wait $APP_PID 2>/dev/null
+            else
+                wait $APP_PID 2>/dev/null
+                EXIT_CODE=$?
+                if [ $EXIT_CODE -eq 124 ]; then
+                    echo "✅ SUCCESS: App ran successfully (timeout reached)"
+                else
+                    echo "❌ FAILED: App crashed or exited (exit code: $EXIT_CODE)"
+                    exit 1
+                fi
+            fi
+            
+            echo ""
+            echo "🎯 Windows build test completed successfully!"
+            echo "📍 Executable location: $TMP_DIR/windows-build/AdventHymnals.exe"
             
         else
             echo "❌ Executable not found in extracted files"
