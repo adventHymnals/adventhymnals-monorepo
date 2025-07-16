@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'projector_window_service.dart';
 
 class ProjectorService extends ChangeNotifier {
   static final ProjectorService _instance = ProjectorService._internal();
@@ -60,6 +61,12 @@ class ProjectorService extends ChangeNotifier {
     _currentHymnId = null;
     _currentVerseIndex = 0;
     _stopAutoAdvanceTimer();
+    
+    // Close secondary window on desktop
+    if (Platform.isLinux || Platform.isWindows || Platform.isMacOS) {
+      _closeSecondaryWindow();
+    }
+    
     notifyListeners();
   }
 
@@ -69,6 +76,7 @@ class ProjectorService extends ChangeNotifier {
     _currentHymnId = hymnId;
     _currentVerseIndex = 0;
     _resetAutoAdvanceTimer();
+    _updateSecondaryWindowContent();
     notifyListeners();
   }
 
@@ -77,6 +85,7 @@ class ProjectorService extends ChangeNotifier {
     print('🎥 [ProjectorService] Moving to next section (verse ${_currentVerseIndex + 1})');
     _currentVerseIndex++;
     _resetAutoAdvanceTimer();
+    _updateSecondaryWindowContent();
     notifyListeners();
   }
 
@@ -86,6 +95,7 @@ class ProjectorService extends ChangeNotifier {
       print('🎥 [ProjectorService] Moving to previous section (verse ${_currentVerseIndex - 1})');
       _currentVerseIndex--;
       _resetAutoAdvanceTimer();
+      _updateSecondaryWindowContent();
       notifyListeners();
     }
   }
@@ -95,6 +105,7 @@ class ProjectorService extends ChangeNotifier {
     print('🎥 [ProjectorService] Jumping to verse $verseIndex');
     _currentVerseIndex = verseIndex;
     _resetAutoAdvanceTimer();
+    _updateSecondaryWindowContent();
     notifyListeners();
   }
 
@@ -139,6 +150,7 @@ class ProjectorService extends ChangeNotifier {
     if (showMetadata != null) _showMetadata = showMetadata;
     
     print('🎥 [ProjectorService] Updated projector settings');
+    _updateSecondaryWindowContent();
     notifyListeners();
   }
 
@@ -162,16 +174,89 @@ class ProjectorService extends ChangeNotifier {
   }
 
   /// Open secondary window for projector (desktop only)
-  void _openSecondaryWindow() {
-    // This would require platform-specific implementation
-    // For now, we'll use the same window but indicate it's projector mode
-    print('🎥 [ProjectorService] Would open secondary window on desktop platform');
+  Future<void> _openSecondaryWindow() async {
+    print('🎥 [ProjectorService] Opening secondary window on desktop platform');
     
-    // In a full implementation, this would:
-    // 1. Create a new window using platform channels
-    // 2. Position it on the secondary monitor
-    // 3. Set it to fullscreen mode
-    // 4. Navigate to the projector display screen
+    try {
+      final projectorWindowService = ProjectorWindowService.instance;
+      
+      // Initialize the service if needed
+      if (!projectorWindowService.isInitialized) {
+        await projectorWindowService.initialize();
+      }
+      
+      // Get available monitors
+      final monitors = await projectorWindowService.getAvailableMonitors();
+      print('🎥 [ProjectorService] Found ${monitors.length} monitors');
+      
+      // Try to open on secondary monitor if available, otherwise use primary
+      int targetMonitor = 0;
+      if (monitors.length > 1) {
+        // Find first non-primary monitor
+        for (int i = 0; i < monitors.length; i++) {
+          if (!monitors[i].isPrimary) {
+            targetMonitor = i;
+            break;
+          }
+        }
+      }
+      
+      // Open the secondary window
+      final success = await projectorWindowService.openSecondaryWindow(
+        monitorIndex: targetMonitor,
+        fullscreen: true,
+      );
+      
+      if (success) {
+        print('🎥 [ProjectorService] Secondary window opened successfully on monitor $targetMonitor');
+      } else {
+        print('❌ [ProjectorService] Failed to open secondary window');
+      }
+    } catch (e) {
+      print('❌ [ProjectorService] Error opening secondary window: $e');
+    }
+  }
+
+  /// Close secondary window for projector (desktop only)
+  Future<void> _closeSecondaryWindow() async {
+    try {
+      final projectorWindowService = ProjectorWindowService.instance;
+      
+      if (projectorWindowService.isSecondaryWindowOpen) {
+        final success = await projectorWindowService.closeSecondaryWindow();
+        if (success) {
+          print('🎥 [ProjectorService] Secondary window closed successfully');
+        } else {
+          print('❌ [ProjectorService] Failed to close secondary window');
+        }
+      }
+    } catch (e) {
+      print('❌ [ProjectorService] Error closing secondary window: $e');
+    }
+  }
+
+  /// Update content in secondary window
+  Future<void> _updateSecondaryWindowContent() async {
+    try {
+      final projectorWindowService = ProjectorWindowService.instance;
+      
+      if (projectorWindowService.isSecondaryWindowOpen && _currentHymnId != null) {
+        final content = {
+          'hymnId': _currentHymnId,
+          'verseIndex': _currentVerseIndex,
+          'theme': _theme.toString(),
+          'textSize': _textSize.toString(),
+          'showVerseNumbers': _showVerseNumbers,
+          'showHymnNumber': _showHymnNumber,
+          'showTitle': _showTitle,
+          'showMetadata': _showMetadata,
+        };
+        
+        await projectorWindowService.updateContent(content);
+      }
+    } catch (e) {
+      print('❌ [ProjectorService] Error updating secondary window content: $e');
+    }
   }
 
   /// Get estimated time until next auto-advance (for UI feedback)

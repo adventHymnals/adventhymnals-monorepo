@@ -8,6 +8,7 @@ import '../providers/recently_viewed_provider.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/data/collections_data_manager.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/projector_control_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -84,6 +85,10 @@ class _HomeScreenState extends State<HomeScreen> {
               _buildWelcomeSection(),
               
               const SizedBox(height: AppSizes.spacing24),
+              
+              // Projector Control Widget (Desktop only)
+              if (Platform.isLinux || Platform.isWindows || Platform.isMacOS)
+                const ProjectorControlWidget(),
               
               // Quick Actions
               _buildQuickActions(),

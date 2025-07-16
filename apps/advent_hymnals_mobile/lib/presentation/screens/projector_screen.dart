@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import '../../core/services/projector_service.dart';
 import '../../domain/entities/hymn.dart';
+import '../widgets/hymn_selection_widget.dart';
 
 class ProjectorScreen extends StatefulWidget {
   final int? initialHymnId;
@@ -148,6 +149,17 @@ class _ProjectorScreenState extends State<ProjectorScreen> {
           WidgetsBinding.instance.addPostFrameCallback((_) {
             _loadHymn(projectorService.currentHymnId!);
           });
+        }
+        
+        // Show hymn selection when projector is not active and not in secondary window
+        if (!projectorService.isProjectorActive && !widget.isSecondaryWindow) {
+          return Scaffold(
+            appBar: AppBar(
+              title: const Text('Projector Mode'),
+              elevation: 0,
+            ),
+            body: const HymnSelectionWidget(),
+          );
         }
         
         return Scaffold(
