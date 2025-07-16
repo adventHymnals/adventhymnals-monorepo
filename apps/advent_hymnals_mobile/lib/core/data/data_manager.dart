@@ -49,9 +49,7 @@ class DataManager {
 
   /// Get list of available hymnals
   List<HymnalInfo> getAvailableHymnals() {
-    if (_hymnalsReference == null) return [];
-    
-    final hymnals = _hymnalsReference!['hymnals'] as Map<String, dynamic>;
+    final hymnals = _hymnalsReference['hymnals'] as Map<String, dynamic>;
     return hymnals.entries.map((entry) {
       final data = entry.value as Map<String, dynamic>;
       return HymnalInfo.fromJson(data);
@@ -151,7 +149,7 @@ class DataManager {
     if (now - lastCheck < 24 * 60 * 60 * 1000) return;
     
     try {
-      final versionUrl = '${AppConstants.apiBaseUrl}/version.json';
+      const versionUrl = '${AppConstants.apiBaseUrl}/version.json';
       final response = await _dio.get(versionUrl);
       
       if (response.statusCode == 200) {
@@ -229,7 +227,7 @@ class DataManager {
     
     return {
       'downloaded_hymnals': downloaded.length,
-      'total_hymnals': _hymnalsReference?['metadata']['total_hymnals'] ?? 0,
+      'total_hymnals': _hymnalsReference['metadata']['total_hymnals'] ?? 0,
       'storage_used_mb': (totalSize / (1024 * 1024)).toStringAsFixed(1),
       'last_update': _prefs?.getInt(_lastUpdateKey),
       'version': _prefs?.getString(_versionKey) ?? '0.0.0',
@@ -238,7 +236,7 @@ class DataManager {
 
   // Private helper methods
   HymnalInfo? _getHymnalInfo(String hymnalId) {
-    final hymnals = _hymnalsReference?['hymnals'] as Map<String, dynamic>?;
+    final hymnals = _hymnalsReference['hymnals'] as Map<String, dynamic>?;
     final data = hymnals?[hymnalId] as Map<String, dynamic>?;
     return data != null ? HymnalInfo.fromJson(data) : null;
   }

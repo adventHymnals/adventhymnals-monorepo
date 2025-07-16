@@ -255,7 +255,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
           Text(
             _getSortDescription(),
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: Color(AppColors.gray500),
+              color: const Color(AppColors.gray500),
             ),
           ),
         ],
@@ -289,7 +289,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
           width: 40,
           height: 40,
           decoration: BoxDecoration(
-            color: Color(AppColors.primaryBlue).withOpacity(0.1),
+            color: const Color(AppColors.primaryBlue).withOpacity(0.1),
             borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
           ),
           child: Center(
@@ -298,7 +298,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                 ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
                 : hymn.hymnNumber.toString(),
               style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                color: Color(AppColors.primaryBlue),
+                color: const Color(AppColors.primaryBlue),
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -371,7 +371,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
+            const Icon(
               Icons.favorite_border,
               size: 64,
               color: Color(AppColors.gray500),
@@ -385,7 +385,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
             Text(
               'Tap the heart icon on any hymn to add it to your favorites',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Color(AppColors.gray500),
+                color: const Color(AppColors.gray500),
               ),
               textAlign: TextAlign.center,
             ),
@@ -410,7 +410,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
+            const Icon(
               Icons.error_outline,
               size: 64,
               color: Color(AppColors.errorRed),
@@ -424,7 +424,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
             Text(
               error,
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Color(AppColors.gray500),
+                color: const Color(AppColors.gray500),
               ),
               textAlign: TextAlign.center,
             ),

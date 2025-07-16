@@ -110,7 +110,7 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
           // Search Section
           Container(
             padding: const EdgeInsets.all(AppSizes.spacing16),
-            color: Color(AppColors.background),
+            color: const Color(AppColors.background),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -124,7 +124,7 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
                 Text(
                   'Explore hymnal collections from different eras',
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Color(AppColors.gray700),
+                    color: const Color(AppColors.gray700),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing16),
@@ -160,7 +160,7 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
                     children: _selectedLanguages.map((lang) => FilterChip(
                       label: Text(
                         _getLanguageName(lang),
-                        style: TextStyle(
+                        style: const TextStyle(
                           color: Color(AppColors.primaryBlue),
                           fontWeight: FontWeight.w600,
                         ),
@@ -177,11 +177,11 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
                           _selectedLanguages.remove(lang);
                         });
                       },
-                      selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-                      backgroundColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-                      checkmarkColor: Color(AppColors.primaryBlue),
-                      deleteIconColor: Color(AppColors.primaryBlue),
-                      side: BorderSide(
+                      selectedColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+                      backgroundColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+                      checkmarkColor: const Color(AppColors.primaryBlue),
+                      deleteIconColor: const Color(AppColors.primaryBlue),
+                      side: const BorderSide(
                         color: Color(AppColors.primaryBlue),
                         width: 1,
                       ),
@@ -223,7 +223,7 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(
+          const Icon(
             Icons.library_books_outlined,
             size: 64,
             color: Color(AppColors.gray500),
@@ -232,14 +232,14 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
           Text(
             'No collections found',
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-              color: Color(AppColors.gray700),
+              color: const Color(AppColors.gray700),
             ),
           ),
           const SizedBox(height: AppSizes.spacing8),
           Text(
             'Try adjusting your search terms',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray500),
+              color: const Color(AppColors.gray500),
             ),
           ),
         ],
@@ -280,7 +280,7 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
                         ),
                       ],
                     ),
-                    child: Icon(
+                    child: const Icon(
                       Icons.library_books,
                       color: Colors.white,
                       size: 32,
@@ -301,7 +301,7 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
                         Text(
                           'Published in ${collection.year}',
                           style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: Color(AppColors.gray600),
+                            color: const Color(AppColors.gray600),
                             fontWeight: FontWeight.w500,
                           ),
                         ),
@@ -309,7 +309,7 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
                         Text(
                           collection.description,
                           style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: Color(AppColors.gray700),
+                            color: const Color(AppColors.gray700),
                           ),
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
@@ -335,7 +335,7 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
                       ],
                     ),
                   ),
-                  Icon(
+                  const Icon(
                     Icons.arrow_forward_ios,
                     size: 16,
                     color: Color(AppColors.gray500),

@@ -33,7 +33,7 @@ class MiniAudioPlayer extends StatelessWidget {
               LinearProgressIndicator(
                 value: audioProvider.progress,
                 backgroundColor: Colors.grey[300],
-                valueColor: AlwaysStoppedAnimation<Color>(
+                valueColor: const AlwaysStoppedAnimation<Color>(
                   Color(AppColors.primaryBlue),
                 ),
                 minHeight: 2,
@@ -53,10 +53,10 @@ class MiniAudioPlayer extends StatelessWidget {
                         width: 48,
                         height: 48,
                         decoration: BoxDecoration(
-                          color: Color(AppColors.primaryBlue).withOpacity(0.1),
+                          color: const Color(AppColors.primaryBlue).withOpacity(0.1),
                           borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
                         ),
-                        child: Icon(
+                        child: const Icon(
                           Icons.music_note,
                           color: Color(AppColors.primaryBlue),
                           size: 24,
@@ -111,7 +111,7 @@ class MiniAudioPlayer extends StatelessWidget {
                       Container(
                         width: 40,
                         height: 40,
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           color: Color(AppColors.primaryBlue),
                           shape: BoxShape.circle,
                         ),
@@ -190,7 +190,7 @@ class FullScreenAudioPlayer extends StatelessWidget {
 
         return Container(
           height: MediaQuery.of(context).size.height,
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [
                 Color(AppColors.primaryBlue),
@@ -399,7 +399,7 @@ class FullScreenAudioPlayer extends StatelessWidget {
                   : audioProvider.isPlaying 
                       ? Icons.pause 
                       : Icons.play_arrow,
-              color: Color(AppColors.primaryBlue),
+              color: const Color(AppColors.primaryBlue),
               size: 40,
             ),
           ),

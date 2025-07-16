@@ -2,10 +2,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import '../../core/constants/app_constants.dart';
 import '../../core/services/projector_service.dart';
-import '../providers/settings_provider.dart';
-import '../providers/hymn_provider.dart';
 import '../../domain/entities/hymn.dart';
 
 class ProjectorScreen extends StatefulWidget {
@@ -504,7 +501,7 @@ class _ProjectorScreenState extends State<ProjectorScreen> {
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Icon(
+                const Icon(
                   Icons.timer,
                   color: Colors.white,
                   size: 16,

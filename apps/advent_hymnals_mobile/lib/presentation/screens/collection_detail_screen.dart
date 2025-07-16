@@ -23,7 +23,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
   final TextEditingController _searchController = TextEditingController();
   String _searchQuery = '';
   String _sortBy = 'hymn_number';
-  List<String> _selectedLanguages = [];
+  final List<String> _selectedLanguages = [];
   bool _showAudioOnly = false;
   CollectionInfo? _collectionInfo;
 
@@ -72,7 +72,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
       title: collectionId.toUpperCase(),
       subtitle: 'Collection not yet available',
       description: 'This hymnal collection is not currently available in the app. The collection data may be added in a future update, or it may need to be downloaded separately.',
-      color: Color(AppColors.gray500),
+      color: const Color(AppColors.gray500),
       language: 'Unknown',
       hymnCount: 0,
       isAvailable: false,
@@ -141,7 +141,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
       title: 'Loading...',
       subtitle: 'Please wait',
       description: 'Loading collection information',
-      color: Color(AppColors.primaryBlue),
+      color: const Color(AppColors.primaryBlue),
       language: 'Loading',
       hymnCount: 0,
       isAvailable: true,
@@ -201,7 +201,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                         color: Colors.white.withOpacity(0.2),
                         borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
                       ),
-                      child: Icon(
+                      child: const Icon(
                         Icons.library_books,
                         color: Colors.white,
                         size: AppSizes.iconSizeLarge,
@@ -245,7 +245,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
           // Search Section
           Container(
             padding: const EdgeInsets.all(AppSizes.spacing16),
-            color: Color(AppColors.background),
+            color: const Color(AppColors.background),
             child: Column(
               children: [
                 TextField(
@@ -275,7 +275,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                   const SizedBox(height: AppSizes.spacing8),
                   Row(
                     children: [
-                      Icon(
+                      const Icon(
                         Icons.info_outline,
                         size: 16,
                         color: Color(AppColors.primaryBlue),
@@ -284,7 +284,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                       Text(
                         'Searching in: title, author, composer, tune, meter, lyrics, number',
                         style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: Color(AppColors.gray600),
+                          color: const Color(AppColors.gray600),
                           fontSize: 12,
                         ),
                       ),
@@ -311,7 +311,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.error_outline,
                           size: 64,
                           color: Color(AppColors.errorRed),
@@ -345,7 +345,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.library_books_outlined,
                           size: 80,
                           color: Color(AppColors.gray400),
@@ -354,7 +354,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                         Text(
                           'Collection Not Available',
                           style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                            color: Color(AppColors.gray700),
+                            color: const Color(AppColors.gray700),
                           ),
                         ),
                         const SizedBox(height: AppSizes.spacing12),
@@ -363,7 +363,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                           child: Text(
                             'The "${collectionInfo.title}" collection is not currently available in the app.',
                             style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                              color: Color(AppColors.gray600),
+                              color: const Color(AppColors.gray600),
                             ),
                             textAlign: TextAlign.center,
                           ),
@@ -374,7 +374,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                           child: Text(
                             'This content may be added in a future update or may need to be downloaded separately.',
                             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                              color: Color(AppColors.gray500),
+                              color: const Color(AppColors.gray500),
                             ),
                             textAlign: TextAlign.center,
                           ),
@@ -406,7 +406,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.search_off,
                           size: 64,
                           color: Color(AppColors.gray500),
@@ -420,7 +420,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                         Text(
                           'Try adjusting your search terms or filters',
                           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                            color: Color(AppColors.gray500),
+                            color: const Color(AppColors.gray500),
                           ),
                           textAlign: TextAlign.center,
                         ),
@@ -435,7 +435,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.music_note_outlined,
                           size: 64,
                           color: Color(AppColors.gray400),
@@ -444,7 +444,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                         Text(
                           'No Hymns Available',
                           style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                            color: Color(AppColors.gray700),
+                            color: const Color(AppColors.gray700),
                           ),
                         ),
                         const SizedBox(height: AppSizes.spacing8),
@@ -453,7 +453,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                           child: Text(
                             'This collection doesn\'t have any hymns loaded yet. The app may be using demonstration data or the database content is not yet available.',
                             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                              color: Color(AppColors.gray500),
+                              color: const Color(AppColors.gray500),
                             ),
                             textAlign: TextAlign.center,
                           ),
@@ -477,7 +477,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                         padding: const EdgeInsets.all(AppSizes.spacing16),
                         child: Row(
                           children: [
-                            Icon(
+                            const Icon(
                               Icons.info_outline,
                               size: 16,
                               color: Color(AppColors.primaryBlue),
@@ -487,7 +487,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                               child: Text(
                                 '${filteredHymns.length} hymns found',
                                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                                  color: Color(AppColors.primaryBlue),
+                                  color: const Color(AppColors.primaryBlue),
                                 ),
                               ),
                             ),
@@ -532,7 +532,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
       title: widget.collectionId.toUpperCase(),
       subtitle: 'Loading...',
       description: 'Loading collection information',
-      color: Color(AppColors.primaryBlue),
+      color: const Color(AppColors.primaryBlue),
       language: 'Unknown',
       hymnCount: 0,
       isAvailable: true,
@@ -572,14 +572,14 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
               Text(
                 'by ${hymn.author}',
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: Color(AppColors.gray600),
+                  color: const Color(AppColors.gray600),
                 ),
               ),
             const SizedBox(height: 4),
             Row(
               children: [
                 if (hasAudio) ...[
-                  Icon(
+                  const Icon(
                     Icons.audiotrack,
                     size: 16,
                     color: Color(AppColors.successGreen),
@@ -588,7 +588,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                   Text(
                     'Audio',
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Color(AppColors.successGreen),
+                      color: const Color(AppColors.successGreen),
                     ),
                   ),
                   const SizedBox(width: 12),
@@ -596,7 +596,7 @@ class _CollectionDetailScreenState extends State<CollectionDetailScreen> {
                 Text(
                   collectionInfo.language,
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.gray500),
+                    color: const Color(AppColors.gray500),
                   ),
                 ),
               ],

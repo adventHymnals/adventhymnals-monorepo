@@ -21,7 +21,7 @@ class AppTheme {
   static ThemeData get lightTheme {
     return ThemeData(
       useMaterial3: true,
-      colorScheme: ColorScheme.light(
+      colorScheme: const ColorScheme.light(
         primary: _primaryBlue,
         secondary: _secondaryBlue,
         surface: _white,
@@ -228,17 +228,17 @@ class AppTheme {
 
       // Switch Theme
       switchTheme: SwitchThemeData(
-        thumbColor: MaterialStateProperty.resolveWith<Color>(
+        thumbColor: WidgetStateProperty.resolveWith<Color>(
           (states) {
-            if (states.contains(MaterialState.selected)) {
+            if (states.contains(WidgetState.selected)) {
               return _white;
             }
             return _gray300;
           },
         ),
-        trackColor: MaterialStateProperty.resolveWith<Color>(
+        trackColor: WidgetStateProperty.resolveWith<Color>(
           (states) {
-            if (states.contains(MaterialState.selected)) {
+            if (states.contains(WidgetState.selected)) {
               return _secondaryBlue;
             }
             return _gray300;
@@ -387,7 +387,7 @@ class AppTheme {
   static ThemeData get darkTheme {
     return ThemeData(
       useMaterial3: true,
-      colorScheme: ColorScheme.dark(
+      colorScheme: const ColorScheme.dark(
         primary: _secondaryBlue,
         secondary: _secondaryBlue,
         surface: _gray900,

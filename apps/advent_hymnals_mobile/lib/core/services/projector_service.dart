@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class ProjectorService extends ChangeNotifier {
   static final ProjectorService _instance = ProjectorService._internal();

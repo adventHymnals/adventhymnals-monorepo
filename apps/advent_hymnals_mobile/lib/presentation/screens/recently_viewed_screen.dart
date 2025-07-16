@@ -57,7 +57,7 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(
+                    const Icon(
                       Icons.error_outline,
                       size: 80,
                       color: Color(AppColors.errorRed),
@@ -71,7 +71,7 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
                     Text(
                       provider.errorMessage ?? 'Unknown error occurred',
                       style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                        color: Color(AppColors.gray500),
+                        color: const Color(AppColors.gray500),
                       ),
                       textAlign: TextAlign.center,
                     ),
@@ -110,7 +110,7 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
+            const Icon(
               Icons.history,
               size: 80,
               color: Color(AppColors.gray400),
@@ -124,7 +124,7 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
             Text(
               'Hymns you view will appear here for quick access.',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Color(AppColors.gray500),
+                color: const Color(AppColors.gray500),
               ),
               textAlign: TextAlign.center,
             ),
@@ -145,7 +145,7 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
       margin: const EdgeInsets.only(bottom: AppSizes.spacing12),
       child: ListTile(
         leading: CircleAvatar(
-          backgroundColor: Color(AppColors.primaryBlue),
+          backgroundColor: const Color(AppColors.primaryBlue),
           child: Text(
             hymn.collectionAbbreviation != null 
             ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
@@ -168,13 +168,13 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
               Text(
                 'by ${hymn.author}',
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: Color(AppColors.gray600),
+                  color: const Color(AppColors.gray600),
                 ),
               ),
             const SizedBox(height: 4),
             Row(
               children: [
-                Icon(
+                const Icon(
                   Icons.access_time,
                   size: 14,
                   color: Color(AppColors.gray500),
@@ -183,7 +183,7 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
                 Text(
                   _getTimeAgo(hymn.lastViewed ?? DateTime.now()),
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.gray500),
+                    color: const Color(AppColors.gray500),
                   ),
                 ),
               ],

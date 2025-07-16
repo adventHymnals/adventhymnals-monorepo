@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../constants/app_constants.dart';
 import '../update/update_manager.dart';
@@ -62,15 +61,15 @@ class CollectionsDataManager {
     final collections = <CollectionInfo>[];
     
     final colorMap = {
-      'SDAH': Color(AppColors.primaryBlue),
-      'CS1900': Color(AppColors.successGreen), 
-      'CH1941': Color(AppColors.purple),
-      'HT1869': Color(AppColors.warningOrange),
-      'HT1876': Color(AppColors.infoBlue),
-      'HT1886': Color(AppColors.darkPurple),
-      'CM2000': Color(AppColors.gray600),
-      'NZK': Color(AppColors.errorRed),
-      'WN': Color(AppColors.gray700),
+      'SDAH': const Color(AppColors.primaryBlue),
+      'CS1900': const Color(AppColors.successGreen), 
+      'CH1941': const Color(AppColors.purple),
+      'HT1869': const Color(AppColors.warningOrange),
+      'HT1876': const Color(AppColors.infoBlue),
+      'HT1886': const Color(AppColors.darkPurple),
+      'CM2000': const Color(AppColors.gray600),
+      'NZK': const Color(AppColors.errorRed),
+      'WN': const Color(AppColors.gray700),
     };
     
     collectionsData.forEach((id, data) {
@@ -103,7 +102,7 @@ class CollectionsDataManager {
         description: bundled 
             ? 'Available offline with $totalSongs hymns in $languageName. Published in $year.'
             : 'Collection with $totalSongs hymns in $languageName. Published in $year. Download required.',
-        color: colorMap[id] ?? Color(AppColors.primaryBlue),
+        color: colorMap[id] ?? const Color(AppColors.primaryBlue),
         language: languageName,
         hymnCount: totalSongs,
         isAvailable: true,

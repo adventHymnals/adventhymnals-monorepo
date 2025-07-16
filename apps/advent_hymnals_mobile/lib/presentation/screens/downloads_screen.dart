@@ -129,8 +129,8 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _addSampleDownload,
-        child: const Icon(Icons.add),
         tooltip: 'Add Sample Download',
+        child: const Icon(Icons.add),
       ),
     );
   }
@@ -147,25 +147,25 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
             title: 'Total',
             value: stats['total'].toString(),
             icon: Icons.download,
-            color: Color(AppColors.primaryBlue),
+            color: const Color(AppColors.primaryBlue),
           ),
           _buildStatCard(
             title: 'Active',
             value: stats['active'].toString(),
             icon: Icons.download_outlined,
-            color: Color(AppColors.successGreen),
+            color: const Color(AppColors.successGreen),
           ),
           _buildStatCard(
             title: 'Completed',
             value: stats['completed'].toString(),
             icon: Icons.check_circle,
-            color: Color(AppColors.successGreen),
+            color: const Color(AppColors.successGreen),
           ),
           _buildStatCard(
             title: 'Failed',
             value: stats['failed'].toString(),
             icon: Icons.error,
-            color: Color(AppColors.errorRed),
+            color: const Color(AppColors.errorRed),
           ),
         ],
       ),
@@ -192,7 +192,7 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
         Text(
           title,
           style: Theme.of(context).textTheme.bodySmall?.copyWith(
-            color: Color(AppColors.gray600),
+            color: const Color(AppColors.gray600),
           ),
         ),
       ],
@@ -225,8 +225,8 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
                 '${filter['label']} (${filter['count']})',
                 style: TextStyle(
                   color: isSelected 
-                    ? Color(AppColors.primaryBlue) 
-                    : Color(AppColors.gray700),
+                    ? const Color(AppColors.primaryBlue) 
+                    : const Color(AppColors.gray700),
                   fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
                 ),
               ),
@@ -236,13 +236,13 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
                   _selectedFilter = filter['key'] as String;
                 });
               },
-              selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-              backgroundColor: Color(AppColors.gray100),
-              checkmarkColor: Color(AppColors.primaryBlue),
+              selectedColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+              backgroundColor: const Color(AppColors.gray100),
+              checkmarkColor: const Color(AppColors.primaryBlue),
               side: BorderSide(
                 color: isSelected 
-                  ? Color(AppColors.primaryBlue) 
-                  : Color(AppColors.gray300),
+                  ? const Color(AppColors.primaryBlue) 
+                  : const Color(AppColors.gray300),
                 width: 1,
               ),
             ),
@@ -299,7 +299,7 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
                       Text(
                         '${download.fileType.toUpperCase()}${download.quality != null ? ' • ${download.quality}' : ''}',
                         style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: Color(AppColors.gray600),
+                          color: const Color(AppColors.gray600),
                         ),
                       ),
                     ],
@@ -314,11 +314,11 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
               const SizedBox(height: AppSizes.spacing12),
               LinearProgressIndicator(
                 value: download.progress,
-                backgroundColor: Color(AppColors.gray300),
+                backgroundColor: const Color(AppColors.gray300),
                 valueColor: AlwaysStoppedAnimation<Color>(
                   download.state == DownloadState.paused 
-                    ? Color(AppColors.warningOrange)
-                    : Color(AppColors.primaryBlue),
+                    ? const Color(AppColors.warningOrange)
+                    : const Color(AppColors.primaryBlue),
                 ),
               ),
               const SizedBox(height: AppSizes.spacing8),
@@ -328,13 +328,13 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
                   Text(
                     _formatDownloadState(download),
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Color(AppColors.gray600),
+                      color: const Color(AppColors.gray600),
                     ),
                   ),
                   Text(
                     '${(download.progress * 100).toStringAsFixed(0)}%',
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Color(AppColors.gray600),
+                      color: const Color(AppColors.gray600),
                       fontWeight: FontWeight.w500,
                     ),
                   ),
@@ -348,12 +348,12 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
               Container(
                 padding: const EdgeInsets.all(AppSizes.spacing8),
                 decoration: BoxDecoration(
-                  color: Color(AppColors.errorRed).withOpacity(0.1),
+                  color: const Color(AppColors.errorRed).withOpacity(0.1),
                   borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
                 ),
                 child: Row(
                   children: [
-                    Icon(
+                    const Icon(
                       Icons.error,
                       size: 16,
                       color: Color(AppColors.errorRed),
@@ -363,7 +363,7 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
                       child: Text(
                         download.errorMessage!,
                         style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: Color(AppColors.errorRed),
+                          color: const Color(AppColors.errorRed),
                         ),
                       ),
                     ),
@@ -377,7 +377,7 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
               const SizedBox(height: AppSizes.spacing8),
               Row(
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.check_circle,
                     size: 16,
                     color: Color(AppColors.successGreen),
@@ -386,7 +386,7 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
                   Text(
                     'Downloaded ${_formatDateTime(download.completedTime)}',
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Color(AppColors.successGreen),
+                      color: const Color(AppColors.successGreen),
                     ),
                   ),
                   if (download.fileSize != null) ...[
@@ -394,7 +394,7 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
                     Text(
                       '• ${_formatFileSize(download.fileSize!)}',
                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: Color(AppColors.gray600),
+                        color: const Color(AppColors.gray600),
                       ),
                     ),
                   ],
@@ -414,23 +414,23 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
     switch (state) {
       case DownloadState.downloading:
         iconData = Icons.download;
-        color = Color(AppColors.primaryBlue);
+        color = const Color(AppColors.primaryBlue);
         break;
       case DownloadState.completed:
         iconData = Icons.check_circle;
-        color = Color(AppColors.successGreen);
+        color = const Color(AppColors.successGreen);
         break;
       case DownloadState.failed:
         iconData = Icons.error;
-        color = Color(AppColors.errorRed);
+        color = const Color(AppColors.errorRed);
         break;
       case DownloadState.paused:
         iconData = Icons.pause_circle;
-        color = Color(AppColors.warningOrange);
+        color = const Color(AppColors.warningOrange);
         break;
       default:
         iconData = Icons.download_outlined;
-        color = Color(AppColors.gray500);
+        color = const Color(AppColors.gray500);
     }
 
     return Icon(iconData, color: color, size: 32);
@@ -473,7 +473,7 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(
+          const Icon(
             Icons.download_outlined,
             size: 64,
             color: Color(AppColors.gray500),
@@ -482,14 +482,14 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
           Text(
             'No downloads',
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-              color: Color(AppColors.gray600),
+              color: const Color(AppColors.gray600),
             ),
           ),
           const SizedBox(height: AppSizes.spacing8),
           Text(
             'Downloads will appear here when you download hymns',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray500),
+              color: const Color(AppColors.gray500),
             ),
             textAlign: TextAlign.center,
           ),
@@ -503,7 +503,7 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(
+          const Icon(
             Icons.error_outline,
             size: 64,
             color: Color(AppColors.errorRed),
@@ -512,14 +512,14 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
           Text(
             'Error loading downloads',
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-              color: Color(AppColors.errorRed),
+              color: const Color(AppColors.errorRed),
             ),
           ),
           const SizedBox(height: AppSizes.spacing8),
           Text(
             errorMessage,
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray600),
+              color: const Color(AppColors.gray600),
             ),
             textAlign: TextAlign.center,
           ),

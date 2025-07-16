@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/audio_player_provider.dart';
 import '../../core/constants/app_constants.dart';
-import '../../domain/entities/hymn.dart';
 
 class AudioPlayerWidget extends StatelessWidget {
   final bool isMinimized;
@@ -30,7 +29,7 @@ class AudioPlayerWidget extends StatelessWidget {
           child: Material(
             elevation: 8,
             child: Container(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
                     Color(AppColors.primaryBlue),
@@ -61,7 +60,7 @@ class AudioPlayerWidget extends StatelessWidget {
               color: Colors.white.withOpacity(0.2),
               borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
             ),
-            child: Icon(
+            child: const Icon(
               Icons.music_note,
               color: Colors.white,
               size: 24,
@@ -117,7 +116,7 @@ class AudioPlayerWidget extends StatelessWidget {
           // Expand button
           IconButton(
             onPressed: onExpand,
-            icon: Icon(
+            icon: const Icon(
               Icons.keyboard_arrow_up,
               color: Colors.white,
             ),
@@ -138,7 +137,7 @@ class AudioPlayerWidget extends StatelessWidget {
               children: [
                 IconButton(
                   onPressed: onMinimize,
-                  icon: Icon(
+                  icon: const Icon(
                     Icons.keyboard_arrow_down,
                     color: Colors.white,
                     size: 32,
@@ -156,7 +155,7 @@ class AudioPlayerWidget extends StatelessWidget {
                 ),
                 IconButton(
                   onPressed: () => _showPlaylistSheet(context, audioProvider),
-                  icon: Icon(
+                  icon: const Icon(
                     Icons.queue_music,
                     color: Colors.white,
                   ),
@@ -181,7 +180,7 @@ class AudioPlayerWidget extends StatelessWidget {
                   ),
                 ],
               ),
-              child: Icon(
+              child: const Icon(
                 Icons.music_note,
                 color: Colors.white,
                 size: 80,
@@ -294,7 +293,7 @@ class AudioPlayerWidget extends StatelessWidget {
         // Seek backward button
         IconButton(
           onPressed: audioProvider.seekBackward,
-          icon: Icon(
+          icon: const Icon(
             Icons.replay_10,
             color: Colors.white,
             size: 32,
@@ -326,7 +325,7 @@ class AudioPlayerWidget extends StatelessWidget {
             },
             icon: Icon(
               audioProvider.isPlaying ? Icons.pause : Icons.play_arrow,
-              color: Color(AppColors.primaryBlue),
+              color: const Color(AppColors.primaryBlue),
               size: 40,
             ),
           ),
@@ -335,7 +334,7 @@ class AudioPlayerWidget extends StatelessWidget {
         // Seek forward button
         IconButton(
           onPressed: audioProvider.seekForward,
-          icon: Icon(
+          icon: const Icon(
             Icons.forward_10,
             color: Colors.white,
             size: 32,
@@ -395,7 +394,7 @@ class AudioPlayerWidget extends StatelessWidget {
         // Speed button
         IconButton(
           onPressed: () => _showSpeedSelector(context, audioProvider),
-          icon: Icon(
+          icon: const Icon(
             Icons.speed,
             color: Colors.white,
           ),
@@ -423,14 +422,14 @@ class AudioPlayerWidget extends StatelessWidget {
           children: [
             Row(
               children: [
-                Icon(Icons.volume_down),
+                const Icon(Icons.volume_down),
                 Expanded(
                   child: Slider(
                     value: audioProvider.volume,
                     onChanged: audioProvider.setVolume,
                   ),
                 ),
-                Icon(Icons.volume_up),
+                const Icon(Icons.volume_up),
               ],
             ),
             Text('${(audioProvider.volume * 100).round()}%'),
@@ -538,15 +537,15 @@ class PlaylistSheet extends StatelessWidget {
                     height: 40,
                     decoration: BoxDecoration(
                       color: isCurrentTrack 
-                          ? Color(AppColors.primaryBlue)
-                          : Color(AppColors.gray300),
+                          ? const Color(AppColors.primaryBlue)
+                          : const Color(AppColors.gray300),
                       borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
                     ),
                     child: Icon(
                       isCurrentTrack && audioProvider.isPlaying
                           ? Icons.volume_up
                           : Icons.music_note,
-                      color: isCurrentTrack ? Colors.white : Color(AppColors.gray600),
+                      color: isCurrentTrack ? Colors.white : const Color(AppColors.gray600),
                       size: 20,
                     ),
                   ),
@@ -554,17 +553,17 @@ class PlaylistSheet extends StatelessWidget {
                     hymn.title,
                     style: TextStyle(
                       fontWeight: isCurrentTrack ? FontWeight.bold : FontWeight.normal,
-                      color: isCurrentTrack ? Color(AppColors.primaryBlue) : null,
+                      color: isCurrentTrack ? const Color(AppColors.primaryBlue) : null,
                     ),
                   ),
                   subtitle: hymn.author != null ? Text(hymn.author!) : null,
                   trailing: PopupMenuButton(
                     itemBuilder: (context) => [
-                      PopupMenuItem(
+                      const PopupMenuItem(
                         value: 'play',
                         child: Text('Play'),
                       ),
-                      PopupMenuItem(
+                      const PopupMenuItem(
                         value: 'remove',
                         child: Text('Remove'),
                       ),

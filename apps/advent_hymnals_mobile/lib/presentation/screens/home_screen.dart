@@ -119,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
       width: double.infinity,
       padding: const EdgeInsets.all(AppSizes.spacing20),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
+        gradient: const LinearGradient(
           colors: [
             Color(AppColors.primaryBlue),
             Color(AppColors.secondaryBlue),
@@ -220,7 +220,7 @@ class _HomeScreenState extends State<HomeScreen> {
       elevation: 4,
       child: Container(
         decoration: BoxDecoration(
-          gradient: LinearGradient(
+          gradient: const LinearGradient(
             colors: [
               Color(AppColors.purple),
               Color(AppColors.darkPurple),
@@ -245,7 +245,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Colors.white.withOpacity(0.2),
                     borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
                   ),
-                  child: Icon(
+                  child: const Icon(
                     Icons.present_to_all,
                     size: AppSizes.iconSizeLarge,
                     color: Colors.white,
@@ -303,7 +303,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Icon(
                 icon,
                 size: AppSizes.iconSizeLarge,
-                color: Color(AppColors.secondaryBlue),
+                color: const Color(AppColors.secondaryBlue),
               ),
               const SizedBox(height: AppSizes.spacing8),
               Text(
@@ -481,7 +481,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
                     : hymn.hymnNumber.toString(),
                   style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                    color: Color(AppColors.secondaryBlue),
+                    color: const Color(AppColors.secondaryBlue),
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -557,7 +557,7 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Center(
             child: Column(
               children: [
-                Icon(
+                const Icon(
                   Icons.filter_list_off,
                   size: 48,
                   color: Color(AppColors.gray500),
@@ -566,14 +566,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text(
                   'No collections match your filters',
                   style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    color: Color(AppColors.gray600),
+                    color: const Color(AppColors.gray600),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing4),
                 Text(
                   'Try adjusting your language or filter settings',
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Color(AppColors.gray500),
+                    color: const Color(AppColors.gray500),
                   ),
                 ),
               ],
@@ -651,7 +651,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
               ),
-              Icon(
+              const Icon(
                 Icons.arrow_forward_ios,
                 color: Color(AppColors.gray500),
                 size: 16,
@@ -676,20 +676,20 @@ class _HomeScreenState extends State<HomeScreen> {
           Icon(
             icon,
             size: 48,
-            color: Color(AppColors.gray500),
+            color: const Color(AppColors.gray500),
           ),
           const SizedBox(height: AppSizes.spacing16),
           Text(
             title,
             style: Theme.of(context).textTheme.titleMedium?.copyWith(
-              color: Color(AppColors.gray700),
+              color: const Color(AppColors.gray700),
             ),
           ),
           const SizedBox(height: AppSizes.spacing8),
           Text(
             subtitle,
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray500),
+              color: const Color(AppColors.gray500),
             ),
             textAlign: TextAlign.center,
           ),

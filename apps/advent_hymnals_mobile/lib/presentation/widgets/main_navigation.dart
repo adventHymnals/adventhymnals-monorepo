@@ -20,31 +20,31 @@ class _MainNavigationState extends State<MainNavigation> {
   int _currentIndex = 0;
 
   final List<NavigationItem> _navigationItems = [
-    NavigationItem(
+    const NavigationItem(
       icon: Icons.home_outlined,
       activeIcon: Icons.home,
       label: AppStrings.homeTitle,
       route: '/home',
     ),
-    NavigationItem(
+    const NavigationItem(
       icon: Icons.explore_outlined,
       activeIcon: Icons.explore,
       label: AppStrings.browseTitle,
       route: '/browse',
     ),
-    NavigationItem(
+    const NavigationItem(
       icon: Icons.search_outlined,
       activeIcon: Icons.search,
       label: AppStrings.searchTitle,
       route: '/search',
     ),
-    NavigationItem(
+    const NavigationItem(
       icon: Icons.favorite_outline,
       activeIcon: Icons.favorite,
       label: AppStrings.favoritesTitle,
       route: '/favorites',
     ),
-    NavigationItem(
+    const NavigationItem(
       icon: Icons.more_horiz_outlined,
       activeIcon: Icons.more_horiz,
       label: AppStrings.moreTitle,
@@ -78,7 +78,7 @@ class _MainNavigationState extends State<MainNavigation> {
       
       // Check if location starts with the route (for sub-routes)
       // For example, /browse/collections should highlight the Browse tab
-      if (location.startsWith(route + '/')) {
+      if (location.startsWith('$route/')) {
         setState(() {
           _currentIndex = i;
         });
@@ -143,7 +143,7 @@ class _MainNavigationState extends State<MainNavigation> {
       padding: const EdgeInsets.all(4),
       decoration: BoxDecoration(
         color: isActive 
-            ? Color(AppColors.secondaryBlue).withOpacity(0.1)
+            ? const Color(AppColors.secondaryBlue).withOpacity(0.1)
             : Colors.transparent,
         borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
       ),
@@ -151,8 +151,8 @@ class _MainNavigationState extends State<MainNavigation> {
         icon,
         size: AppSizes.iconSize,
         color: isActive 
-            ? Color(AppColors.secondaryBlue)
-            : Color(AppColors.gray500),
+            ? const Color(AppColors.secondaryBlue)
+            : const Color(AppColors.gray500),
       ),
     );
   }

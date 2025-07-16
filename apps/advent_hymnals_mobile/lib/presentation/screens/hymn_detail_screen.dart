@@ -341,7 +341,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(AppSizes.spacing20),
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         gradient: LinearGradient(
           colors: [
             Color(AppColors.primaryBlue),
@@ -447,16 +447,16 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             icon, 
             size: 16,
             color: isSelected 
-              ? Color(AppColors.primaryBlue) 
-              : Color(AppColors.gray700),
+              ? const Color(AppColors.primaryBlue) 
+              : const Color(AppColors.gray700),
           ),
           const SizedBox(width: AppSizes.spacing4),
           Text(
             label,
             style: TextStyle(
               color: isSelected 
-                ? Color(AppColors.primaryBlue) 
-                : Color(AppColors.gray700),
+                ? const Color(AppColors.primaryBlue) 
+                : const Color(AppColors.gray700),
               fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
             ),
           ),
@@ -469,13 +469,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           });
         }
       },
-      selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-      backgroundColor: Color(AppColors.gray100),
-      checkmarkColor: Color(AppColors.primaryBlue),
+      selectedColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+      backgroundColor: const Color(AppColors.gray100),
+      checkmarkColor: const Color(AppColors.primaryBlue),
       side: BorderSide(
         color: isSelected 
-          ? Color(AppColors.primaryBlue) 
-          : Color(AppColors.gray300),
+          ? const Color(AppColors.primaryBlue) 
+          : const Color(AppColors.gray300),
         width: 1,
       ),
     );
@@ -526,7 +526,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     return Center(
       child: Column(
         children: [
-          Icon(
+          const Icon(
             Icons.music_note_outlined,
             size: 64,
             color: Color(AppColors.gray500),
@@ -540,7 +540,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           Text(
             'The lyrics for this hymn are not currently available.',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray600),
+              color: const Color(AppColors.gray600),
             ),
             textAlign: TextAlign.center,
           ),
@@ -559,13 +559,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             vertical: AppSizes.spacing4,
           ),
           decoration: BoxDecoration(
-            color: Color(AppColors.primaryBlue).withOpacity(0.1),
+            color: const Color(AppColors.primaryBlue).withOpacity(0.1),
             borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
           ),
           child: Text(
             'Verse $number',
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: Color(AppColors.primaryBlue),
+              color: const Color(AppColors.primaryBlue),
               fontWeight: FontWeight.w600,
             ),
           ),
@@ -591,13 +591,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             vertical: AppSizes.spacing4,
           ),
           decoration: BoxDecoration(
-            color: Color(AppColors.successGreen).withOpacity(0.1),
+            color: const Color(AppColors.successGreen).withOpacity(0.1),
             borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
           ),
           child: Text(
             'Chorus',
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: Color(AppColors.successGreen),
+              color: const Color(AppColors.successGreen),
               fontWeight: FontWeight.w600,
             ),
           ),
@@ -607,10 +607,10 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           width: double.infinity,
           padding: const EdgeInsets.all(AppSizes.spacing16),
           decoration: BoxDecoration(
-            color: Color(AppColors.successGreen).withOpacity(0.05),
+            color: const Color(AppColors.successGreen).withOpacity(0.05),
             borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
             border: Border.all(
-              color: Color(AppColors.successGreen).withOpacity(0.2),
+              color: const Color(AppColors.successGreen).withOpacity(0.2),
             ),
           ),
           child: Text(
@@ -629,7 +629,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     return Center(
       child: Column(
         children: [
-          Icon(
+          const Icon(
             Icons.music_note,
             size: 64,
             color: Color(AppColors.gray500),
@@ -643,7 +643,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           Text(
             'Solfa notation will be available soon',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray600),
+              color: const Color(AppColors.gray600),
             ),
           ),
         ],
@@ -655,7 +655,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     return Center(
       child: Column(
         children: [
-          Icon(
+          const Icon(
             Icons.piano,
             size: 64,
             color: Color(AppColors.gray500),
@@ -669,7 +669,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           Text(
             'Staff notation will be available soon',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray600),
+              color: const Color(AppColors.gray600),
             ),
           ),
         ],
@@ -681,7 +681,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     return Center(
       child: Column(
         children: [
-          Icon(
+          const Icon(
             Icons.my_library_music,
             size: 64,
             color: Color(AppColors.gray500),
@@ -695,7 +695,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           Text(
             'Chord charts will be available soon',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray600),
+              color: const Color(AppColors.gray600),
             ),
           ),
         ],
@@ -748,8 +748,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                   runSpacing: AppSizes.spacing8,
                   children: (_hymn!.themeTags ?? []).map((theme) => Chip(
                     label: Text(theme),
-                    backgroundColor: Color(AppColors.purple).withOpacity(0.1),
-                    labelStyle: TextStyle(
+                    backgroundColor: const Color(AppColors.purple).withOpacity(0.1),
+                    labelStyle: const TextStyle(
                       color: Color(AppColors.purple),
                       fontSize: 12,
                     ),
@@ -772,7 +772,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           Icon(
             icon,
             size: 20,
-            color: Color(AppColors.gray600),
+            color: const Color(AppColors.gray600),
           ),
           const SizedBox(width: AppSizes.spacing12),
           Expanded(
@@ -782,7 +782,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 Text(
                   label,
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.gray600),
+                    color: const Color(AppColors.gray600),
                     fontWeight: FontWeight.w500,
                   ),
                 ),
@@ -810,7 +810,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             children: [
               Row(
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.menu_book,
                     color: Color(AppColors.secondaryBlue),
                   ),
@@ -837,16 +837,16 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                       vertical: AppSizes.spacing8,
                     ),
                     decoration: BoxDecoration(
-                      color: Color(AppColors.secondaryBlue).withOpacity(0.1),
+                      color: const Color(AppColors.secondaryBlue).withOpacity(0.1),
                       borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
                       border: Border.all(
-                        color: Color(AppColors.secondaryBlue).withOpacity(0.3),
+                        color: const Color(AppColors.secondaryBlue).withOpacity(0.3),
                       ),
                     ),
                     child: Text(
                       ref,
                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: Color(AppColors.secondaryBlue),
+                        color: const Color(AppColors.secondaryBlue),
                         fontWeight: FontWeight.w500,
                       ),
                     ),
@@ -901,7 +901,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               width: 32,
               height: 32,
               decoration: BoxDecoration(
-                color: Color(AppColors.gray300),
+                color: const Color(AppColors.gray300),
                 borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
               ),
               child: Center(
@@ -927,13 +927,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                   Text(
                     author,
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Color(AppColors.gray600),
+                      color: const Color(AppColors.gray600),
                     ),
                   ),
                 ],
               ),
             ),
-            Icon(
+            const Icon(
               Icons.arrow_forward_ios,
               size: 16,
               color: Color(AppColors.gray500),
@@ -989,7 +989,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text('Failed to ${_isFavorite ? 'remove from' : 'add to'} favorites'),
-            backgroundColor: Color(AppColors.errorRed),
+            backgroundColor: const Color(AppColors.errorRed),
             duration: const Duration(seconds: 2),
           ),
         );
@@ -999,7 +999,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text('Error: ${e.toString()}'),
-          backgroundColor: Color(AppColors.errorRed),
+          backgroundColor: const Color(AppColors.errorRed),
           duration: const Duration(seconds: 2),
         ),
       );
@@ -1226,7 +1226,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       context: context,
       builder: (context) => AlertDialog(
         title: const Text('Print Preview'),
-        content: Container(
+        content: SizedBox(
           width: double.maxFinite,
           height: 300,
           child: SingleChildScrollView(

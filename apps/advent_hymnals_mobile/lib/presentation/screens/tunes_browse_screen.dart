@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import '../../core/constants/app_constants.dart';
 
 class TunesBrowseScreen extends StatefulWidget {
@@ -15,26 +14,26 @@ class _TunesBrowseScreenState extends State<TunesBrowseScreen> {
 
   // Sample tunes data
   final List<TuneItem> _tunes = [
-    TuneItem(name: 'AMAZING GRACE', meter: 'CM', hymnCount: 12),
-    TuneItem(name: 'AUSTRIA', meter: '87.87 D', hymnCount: 8),
-    TuneItem(name: 'BEECHER', meter: '87.87 D', hymnCount: 5),
-    TuneItem(name: 'CORONATION', meter: 'CM', hymnCount: 3),
-    TuneItem(name: 'EASTER HYMN', meter: '77.77 with Alleluias', hymnCount: 4),
-    TuneItem(name: 'DUKE STREET', meter: 'LM', hymnCount: 15),
-    TuneItem(name: 'HYFRYDOL', meter: '87.87 D', hymnCount: 6),
-    TuneItem(name: 'ITALIAN HYMN', meter: '664.6664', hymnCount: 2),
-    TuneItem(name: 'LOBE DEN HERREN', meter: '14.14.4.78', hymnCount: 1),
-    TuneItem(name: 'MARYTON', meter: 'LM', hymnCount: 7),
-    TuneItem(name: 'NICAEA', meter: '11.12.12.10', hymnCount: 1),
-    TuneItem(name: 'OLD HUNDREDTH', meter: 'LM', hymnCount: 9),
-    TuneItem(name: 'PASSION CHORALE', meter: '76.76 D', hymnCount: 3),
-    TuneItem(name: 'PICARDY', meter: '87.87.87', hymnCount: 2),
-    TuneItem(name: 'REGENT SQUARE', meter: '87.87.87', hymnCount: 4),
-    TuneItem(name: 'ST. ANNE', meter: 'CM', hymnCount: 6),
-    TuneItem(name: 'ST. GEORGE\'S WINDSOR', meter: '77.77 D', hymnCount: 1),
-    TuneItem(name: 'THAXTED', meter: '13.13.13.13.13.13', hymnCount: 1),
-    TuneItem(name: 'VENI CREATOR', meter: 'LM', hymnCount: 2),
-    TuneItem(name: 'WESTMINSTER ABBEY', meter: '87.87.87', hymnCount: 1),
+    const TuneItem(name: 'AMAZING GRACE', meter: 'CM', hymnCount: 12),
+    const TuneItem(name: 'AUSTRIA', meter: '87.87 D', hymnCount: 8),
+    const TuneItem(name: 'BEECHER', meter: '87.87 D', hymnCount: 5),
+    const TuneItem(name: 'CORONATION', meter: 'CM', hymnCount: 3),
+    const TuneItem(name: 'EASTER HYMN', meter: '77.77 with Alleluias', hymnCount: 4),
+    const TuneItem(name: 'DUKE STREET', meter: 'LM', hymnCount: 15),
+    const TuneItem(name: 'HYFRYDOL', meter: '87.87 D', hymnCount: 6),
+    const TuneItem(name: 'ITALIAN HYMN', meter: '664.6664', hymnCount: 2),
+    const TuneItem(name: 'LOBE DEN HERREN', meter: '14.14.4.78', hymnCount: 1),
+    const TuneItem(name: 'MARYTON', meter: 'LM', hymnCount: 7),
+    const TuneItem(name: 'NICAEA', meter: '11.12.12.10', hymnCount: 1),
+    const TuneItem(name: 'OLD HUNDREDTH', meter: 'LM', hymnCount: 9),
+    const TuneItem(name: 'PASSION CHORALE', meter: '76.76 D', hymnCount: 3),
+    const TuneItem(name: 'PICARDY', meter: '87.87.87', hymnCount: 2),
+    const TuneItem(name: 'REGENT SQUARE', meter: '87.87.87', hymnCount: 4),
+    const TuneItem(name: 'ST. ANNE', meter: 'CM', hymnCount: 6),
+    const TuneItem(name: 'ST. GEORGE\'S WINDSOR', meter: '77.77 D', hymnCount: 1),
+    const TuneItem(name: 'THAXTED', meter: '13.13.13.13.13.13', hymnCount: 1),
+    const TuneItem(name: 'VENI CREATOR', meter: 'LM', hymnCount: 2),
+    const TuneItem(name: 'WESTMINSTER ABBEY', meter: '87.87.87', hymnCount: 1),
   ];
 
   List<TuneItem> get _filteredTunes {
@@ -57,7 +56,7 @@ class _TunesBrowseScreenState extends State<TunesBrowseScreen> {
           // Search Section
           Container(
             padding: const EdgeInsets.all(AppSizes.spacing16),
-            color: Color(AppColors.background),
+            color: const Color(AppColors.background),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -71,7 +70,7 @@ class _TunesBrowseScreenState extends State<TunesBrowseScreen> {
                 Text(
                   'Find hymns by tune name or meter',
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Color(AppColors.gray700),
+                    color: const Color(AppColors.gray700),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing16),
@@ -118,7 +117,7 @@ class _TunesBrowseScreenState extends State<TunesBrowseScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(
+          const Icon(
             Icons.music_note_outlined,
             size: 64,
             color: Color(AppColors.gray500),
@@ -127,14 +126,14 @@ class _TunesBrowseScreenState extends State<TunesBrowseScreen> {
           Text(
             'No tunes found',
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-              color: Color(AppColors.gray700),
+              color: const Color(AppColors.gray700),
             ),
           ),
           const SizedBox(height: AppSizes.spacing8),
           Text(
             'Try adjusting your search terms',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray500),
+              color: const Color(AppColors.gray500),
             ),
           ),
         ],
@@ -155,10 +154,10 @@ class _TunesBrowseScreenState extends State<TunesBrowseScreen> {
               width: 48,
               height: 48,
               decoration: BoxDecoration(
-                color: Color(AppColors.warningOrange).withOpacity(0.1),
+                color: const Color(AppColors.warningOrange).withOpacity(0.1),
                 borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
               ),
-              child: Icon(
+              child: const Icon(
                 Icons.music_note,
                 color: Color(AppColors.warningOrange),
               ),
@@ -176,20 +175,20 @@ class _TunesBrowseScreenState extends State<TunesBrowseScreen> {
                 Text(
                   'Meter: ${tune.meter}',
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.gray600),
+                    color: const Color(AppColors.gray600),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing4),
                 Text(
                   '${tune.hymnCount} hymn${tune.hymnCount == 1 ? '' : 's'}',
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.secondaryBlue),
+                    color: const Color(AppColors.secondaryBlue),
                     fontWeight: FontWeight.w500,
                   ),
                 ),
               ],
             ),
-            trailing: Icon(
+            trailing: const Icon(
               Icons.arrow_forward_ios,
               size: 16,
               color: Color(AppColors.gray500),

@@ -203,11 +203,11 @@ class ChurchModeService {
       // Show confirmation snackbar
       ScaffoldMessenger.of(_currentContext!).showSnackBar(
         SnackBar(
-          content: Row(
+          content: const Row(
             children: [
-              const Icon(Icons.church, color: Colors.white, size: 20),
-              const SizedBox(width: 8),
-              const Expanded(
+              Icon(Icons.church, color: Colors.white, size: 20),
+              SizedBox(width: 8),
+              Expanded(
                 child: Text(
                   'Worship Focus Mode enabled for a distraction-free experience',
                   style: TextStyle(color: Colors.white),

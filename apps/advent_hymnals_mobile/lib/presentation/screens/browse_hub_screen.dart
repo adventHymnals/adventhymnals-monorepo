@@ -29,7 +29,7 @@ class BrowseHubScreen extends StatelessWidget {
             Text(
               'Browse hymns by different categories',
               style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                color: Color(AppColors.gray700),
+                color: const Color(AppColors.gray700),
               ),
             ),
             
@@ -55,49 +55,49 @@ class BrowseHubScreen extends StatelessWidget {
 
   Widget _buildBrowseGrid(BuildContext context) {
     final browseItems = [
-      BrowseItem(
+      const BrowseItem(
         icon: Icons.library_books,
         title: AppStrings.collectionsTitle,
         subtitle: 'Browse by hymnal collections',
         color: Color(AppColors.primaryBlue),
         route: '/browse/collections',
       ),
-      BrowseItem(
+      const BrowseItem(
         icon: Icons.person,
         title: AppStrings.authorsTitle,
         subtitle: 'Find hymns by author',
         color: Color(AppColors.successGreen),
         route: '/browse/authors',
       ),
-      BrowseItem(
+      const BrowseItem(
         icon: Icons.category,
         title: AppStrings.topicsTitle,
         subtitle: 'Browse by theme and topic',
         color: Color(AppColors.purple),
         route: '/browse/topics',
       ),
-      BrowseItem(
+      const BrowseItem(
         icon: Icons.music_note,
         title: AppStrings.tunesTitle,
         subtitle: 'Search by tune name',
         color: Color(AppColors.warningOrange),
         route: '/browse/tunes',
       ),
-      BrowseItem(
+      const BrowseItem(
         icon: Icons.straighten,
         title: AppStrings.metersTitle,
         subtitle: 'Find hymns by meter',
         color: Color(AppColors.secondaryBlue),
         route: '/browse/meters',
       ),
-      BrowseItem(
+      const BrowseItem(
         icon: Icons.menu_book,
         title: AppStrings.scriptureTitle,
         subtitle: 'Browse by scripture reference',
         color: Color(AppColors.errorRed),
         route: '/browse/scripture',
       ),
-      BrowseItem(
+      const BrowseItem(
         icon: Icons.format_quote,
         title: AppStrings.firstLinesTitle,
         subtitle: 'Search by first line',
@@ -161,7 +161,7 @@ class BrowseHubScreen extends StatelessWidget {
               Text(
                 item.subtitle,
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: Color(AppColors.gray600),
+                  color: const Color(AppColors.gray600),
                 ),
                 textAlign: TextAlign.center,
                 maxLines: 2,
@@ -179,10 +179,10 @@ class BrowseHubScreen extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.all(AppSizes.spacing20),
       decoration: BoxDecoration(
-        color: Color(AppColors.background),
+        color: const Color(AppColors.background),
         borderRadius: BorderRadius.circular(AppSizes.radiusLarge),
         border: Border.all(
-          color: Color(AppColors.gray300),
+          color: const Color(AppColors.gray300),
           width: 1,
         ),
       ),
@@ -204,7 +204,7 @@ class BrowseHubScreen extends StatelessWidget {
                   icon: Icons.library_books,
                   title: '2,500+',
                   subtitle: 'Total Hymns',
-                  color: Color(AppColors.primaryBlue),
+                  color: const Color(AppColors.primaryBlue),
                 ),
               ),
               const SizedBox(width: AppSizes.spacing16),
@@ -214,7 +214,7 @@ class BrowseHubScreen extends StatelessWidget {
                   icon: Icons.person,
                   title: '400+',
                   subtitle: 'Authors',
-                  color: Color(AppColors.successGreen),
+                  color: const Color(AppColors.successGreen),
                 ),
               ),
               const SizedBox(width: AppSizes.spacing16),
@@ -224,7 +224,7 @@ class BrowseHubScreen extends StatelessWidget {
                   icon: Icons.category,
                   title: '50+',
                   subtitle: 'Topics',
-                  color: Color(AppColors.purple),
+                  color: const Color(AppColors.purple),
                 ),
               ),
             ],
@@ -238,7 +238,7 @@ class BrowseHubScreen extends StatelessWidget {
                   icon: Icons.collections,
                   title: '6',
                   subtitle: 'Collections',
-                  color: Color(AppColors.warningOrange),
+                  color: const Color(AppColors.warningOrange),
                 ),
               ),
               const SizedBox(width: AppSizes.spacing16),
@@ -248,7 +248,7 @@ class BrowseHubScreen extends StatelessWidget {
                   icon: Icons.music_note,
                   title: '300+',
                   subtitle: 'Tunes',
-                  color: Color(AppColors.secondaryBlue),
+                  color: const Color(AppColors.secondaryBlue),
                 ),
               ),
               const SizedBox(width: AppSizes.spacing16),
@@ -258,7 +258,7 @@ class BrowseHubScreen extends StatelessWidget {
                   icon: Icons.straighten,
                   title: '100+',
                   subtitle: 'Meters',
-                  color: Color(AppColors.errorRed),
+                  color: const Color(AppColors.errorRed),
                 ),
               ),
             ],
@@ -294,7 +294,7 @@ class BrowseHubScreen extends StatelessWidget {
         Text(
           subtitle,
           style: Theme.of(context).textTheme.bodySmall?.copyWith(
-            color: Color(AppColors.gray600),
+            color: const Color(AppColors.gray600),
           ),
           textAlign: TextAlign.center,
         ),

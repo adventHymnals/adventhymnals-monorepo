@@ -83,7 +83,7 @@ class SettingsScreen extends StatelessWidget {
         children: [
           Icon(
             icon,
-            color: Color(AppColors.primaryBlue),
+            color: const Color(AppColors.primaryBlue),
             size: 20,
           ),
           const SizedBox(width: AppSizes.spacing8),
@@ -91,7 +91,7 @@ class SettingsScreen extends StatelessWidget {
             title,
             style: Theme.of(context).textTheme.titleMedium?.copyWith(
               fontWeight: FontWeight.w600,
-              color: Color(AppColors.primaryBlue),
+              color: const Color(AppColors.primaryBlue),
             ),
           ),
         ],
@@ -107,7 +107,7 @@ class SettingsScreen extends StatelessWidget {
           ListTile(
             leading: Icon(
               provider.isDarkMode ? Icons.dark_mode : Icons.light_mode,
-              color: Color(AppColors.gray600),
+              color: const Color(AppColors.gray600),
             ),
             title: const Text('Theme'),
             subtitle: Text(_getThemeDisplayName(provider.settings.theme)),
@@ -125,7 +125,7 @@ class SettingsScreen extends StatelessWidget {
       child: Column(
         children: [
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               Icons.language,
               color: Color(AppColors.gray600),
             ),
@@ -145,7 +145,7 @@ class SettingsScreen extends StatelessWidget {
       child: Column(
         children: [
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               Icons.text_fields,
               color: Color(AppColors.gray600),
             ),
@@ -165,7 +165,7 @@ class SettingsScreen extends StatelessWidget {
       child: Column(
         children: [
           SwitchListTile(
-            secondary: Icon(
+            secondary: const Icon(
               Icons.view_compact,
               color: Color(AppColors.gray600),
             ),
@@ -176,7 +176,7 @@ class SettingsScreen extends StatelessWidget {
           ),
           const Divider(height: 1),
           SwitchListTile(
-            secondary: Icon(
+            secondary: const Icon(
               Icons.numbers,
               color: Color(AppColors.gray600),
             ),
@@ -187,7 +187,7 @@ class SettingsScreen extends StatelessWidget {
           ),
           const Divider(height: 1),
           SwitchListTile(
-            secondary: Icon(
+            secondary: const Icon(
               Icons.accessibility,
               color: Color(AppColors.gray600),
             ),
@@ -198,7 +198,7 @@ class SettingsScreen extends StatelessWidget {
           ),
           const Divider(height: 1),
           SwitchListTile(
-            secondary: Icon(
+            secondary: const Icon(
               Icons.my_library_music,
               color: Color(AppColors.gray600),
             ),
@@ -209,7 +209,7 @@ class SettingsScreen extends StatelessWidget {
           ),
           const Divider(height: 1),
           SwitchListTile(
-            secondary: Icon(
+            secondary: const Icon(
               Icons.info_outline,
               color: Color(AppColors.gray600),
             ),
@@ -229,7 +229,7 @@ class SettingsScreen extends StatelessWidget {
       child: Column(
         children: [
           SwitchListTile(
-            secondary: Icon(
+            secondary: const Icon(
               Icons.volume_up,
               color: Color(AppColors.gray600),
             ),
@@ -240,7 +240,7 @@ class SettingsScreen extends StatelessWidget {
           ),
           const Divider(height: 1),
           SwitchListTile(
-            secondary: Icon(
+            secondary: const Icon(
               Icons.vibration,
               color: Color(AppColors.gray600),
             ),
@@ -251,7 +251,7 @@ class SettingsScreen extends StatelessWidget {
           ),
           const Divider(height: 1),
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               Icons.speed,
               color: Color(AppColors.gray600),
             ),
@@ -271,7 +271,7 @@ class SettingsScreen extends StatelessWidget {
       child: Column(
         children: [
           SwitchListTile(
-            secondary: Icon(
+            secondary: const Icon(
               Icons.download,
               color: Color(AppColors.gray600),
             ),
@@ -282,7 +282,7 @@ class SettingsScreen extends StatelessWidget {
           ),
           const Divider(height: 1),
           SwitchListTile(
-            secondary: Icon(
+            secondary: const Icon(
               Icons.offline_pin,
               color: Color(AppColors.gray600),
             ),
@@ -302,7 +302,7 @@ class SettingsScreen extends StatelessWidget {
       child: Column(
         children: [
           SwitchListTile(
-            secondary: Icon(
+            secondary: const Icon(
               Icons.screen_lock_portrait,
               color: Color(AppColors.gray600),
             ),
@@ -313,7 +313,7 @@ class SettingsScreen extends StatelessWidget {
           ),
           const Divider(height: 1),
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               Icons.timer,
               color: Color(AppColors.gray600),
             ),
@@ -333,7 +333,7 @@ class SettingsScreen extends StatelessWidget {
       child: Column(
         children: [
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               Icons.refresh,
               color: Color(AppColors.gray600),
             ),
@@ -343,11 +343,11 @@ class SettingsScreen extends StatelessWidget {
           ),
           const Divider(height: 1),
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               Icons.delete_forever,
               color: Color(AppColors.errorRed),
             ),
-            title: Text(
+            title: const Text(
               'Clear All Data',
               style: TextStyle(color: Color(AppColors.errorRed)),
             ),
@@ -365,7 +365,7 @@ class SettingsScreen extends StatelessWidget {
       child: Column(
         children: [
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               Icons.info,
               color: Color(AppColors.gray600),
             ),
@@ -375,7 +375,7 @@ class SettingsScreen extends StatelessWidget {
           ),
           const Divider(height: 1),
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               Icons.privacy_tip,
               color: Color(AppColors.gray600),
             ),
@@ -384,7 +384,7 @@ class SettingsScreen extends StatelessWidget {
           ),
           const Divider(height: 1),
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               Icons.gavel,
               color: Color(AppColors.gray600),
             ),
@@ -509,7 +509,7 @@ class SettingsScreen extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [15, 30, 60, 120, 300].map((timeout) {
             return RadioListTile<int>(
-              title: Text('${timeout} seconds'),
+              title: Text('$timeout seconds'),
               value: timeout,
               groupValue: provider.settings.autoLockTimeout,
               onChanged: (value) {
@@ -571,7 +571,7 @@ class SettingsScreen extends StatelessWidget {
               );
             },
             style: TextButton.styleFrom(
-              foregroundColor: Color(AppColors.errorRed),
+              foregroundColor: const Color(AppColors.errorRed),
             ),
             child: const Text('Clear Data'),
           ),

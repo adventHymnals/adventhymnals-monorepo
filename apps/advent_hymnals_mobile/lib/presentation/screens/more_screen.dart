@@ -46,7 +46,7 @@ class MoreScreen extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(AppSizes.spacing20),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
+        gradient: const LinearGradient(
           colors: [
             Color(AppColors.primaryBlue),
             Color(AppColors.secondaryBlue),
@@ -166,7 +166,7 @@ class MoreScreen extends StatelessWidget {
               Icon(
                 icon,
                 size: AppSizes.iconSizeLarge,
-                color: Color(AppColors.secondaryBlue),
+                color: const Color(AppColors.secondaryBlue),
               ),
               const SizedBox(height: AppSizes.spacing8),
               Text(
@@ -360,12 +360,12 @@ class MoreScreen extends StatelessWidget {
           width: 40,
           height: 40,
           decoration: BoxDecoration(
-            color: Color(AppColors.successGreen).withOpacity(0.1),
+            color: const Color(AppColors.successGreen).withOpacity(0.1),
             borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
           ),
           child: Icon(
             icon,
-            color: Color(AppColors.successGreen),
+            color: const Color(AppColors.successGreen),
             size: AppSizes.iconSize,
           ),
         ),
@@ -391,12 +391,12 @@ class MoreScreen extends StatelessWidget {
           width: 40,
           height: 40,
           decoration: BoxDecoration(
-            color: Color(AppColors.warningOrange).withOpacity(0.1),
+            color: const Color(AppColors.warningOrange).withOpacity(0.1),
             borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
           ),
           child: Icon(
             icon,
-            color: Color(AppColors.warningOrange),
+            color: const Color(AppColors.warningOrange),
             size: AppSizes.iconSize,
           ),
         ),
@@ -422,12 +422,12 @@ class MoreScreen extends StatelessWidget {
           width: 40,
           height: 40,
           decoration: BoxDecoration(
-            color: Color(AppColors.gray500).withOpacity(0.1),
+            color: const Color(AppColors.gray500).withOpacity(0.1),
             borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
           ),
           child: Icon(
             icon,
-            color: Color(AppColors.gray500),
+            color: const Color(AppColors.gray500),
             size: AppSizes.iconSize,
           ),
         ),
@@ -449,7 +449,7 @@ class MoreScreen extends StatelessWidget {
             context,
             icon: Icons.language,
             label: 'Website',
-            color: Color(AppColors.primaryBlue),
+            color: const Color(AppColors.primaryBlue),
             onTap: () {
               // Open website: https://adventhymnals.org
               _showWebsiteDialog(context);

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import '../../core/constants/app_constants.dart';
 
 class MetersBrowseScreen extends StatefulWidget {
@@ -15,26 +14,26 @@ class _MetersBrowseScreenState extends State<MetersBrowseScreen> {
 
   // Sample meters data
   final List<MeterItem> _meters = [
-    MeterItem(name: 'CM', fullName: 'Common Meter', pattern: '8.6.8.6', hymnCount: 45),
-    MeterItem(name: 'LM', fullName: 'Long Meter', pattern: '8.8.8.8', hymnCount: 38),
-    MeterItem(name: 'SM', fullName: 'Short Meter', pattern: '6.6.8.6', hymnCount: 12),
-    MeterItem(name: '87.87 D', fullName: 'Double 87.87', pattern: '8.7.8.7.8.7.8.7', hymnCount: 25),
-    MeterItem(name: '76.76 D', fullName: 'Double 76.76', pattern: '7.6.7.6.7.6.7.6', hymnCount: 8),
-    MeterItem(name: '77.77 D', fullName: 'Double 77.77', pattern: '7.7.7.7.7.7.7.7', hymnCount: 6),
-    MeterItem(name: '87.87.87', fullName: 'Triple 87.87', pattern: '8.7.8.7.8.7', hymnCount: 14),
-    MeterItem(name: '10.10.10.10', fullName: 'Ten-syllable meter', pattern: '10.10.10.10', hymnCount: 9),
-    MeterItem(name: '11.11.11.11', fullName: 'Eleven-syllable meter', pattern: '11.11.11.11', hymnCount: 7),
-    MeterItem(name: '664.6664', fullName: 'Irregular meter', pattern: '6.6.4.6.6.6.4', hymnCount: 3),
-    MeterItem(name: '77.77 with Alleluias', fullName: 'Easter meter', pattern: '7.7.7.7+A', hymnCount: 4),
-    MeterItem(name: '11.12.12.10', fullName: 'Nicaea meter', pattern: '11.12.12.10', hymnCount: 1),
-    MeterItem(name: '14.14.4.78', fullName: 'Praise meter', pattern: '14.14.4.7.8', hymnCount: 1),
-    MeterItem(name: '13.13.13.13.13.13', fullName: 'Thaxted meter', pattern: '13.13.13.13.13.13', hymnCount: 1),
-    MeterItem(name: '98.98', fullName: 'Secular meter', pattern: '9.8.9.8', hymnCount: 5),
-    MeterItem(name: '86.86', fullName: 'Standard meter', pattern: '8.6.8.6', hymnCount: 15),
-    MeterItem(name: '65.65', fullName: 'Short irregular', pattern: '6.5.6.5', hymnCount: 2),
-    MeterItem(name: '54.54 D', fullName: 'Double short', pattern: '5.4.5.4.5.4.5.4', hymnCount: 3),
-    MeterItem(name: '88.88', fullName: 'Equal meter', pattern: '8.8.8.8', hymnCount: 11),
-    MeterItem(name: '12.12.12.12', fullName: 'Twelve-syllable meter', pattern: '12.12.12.12', hymnCount: 2),
+    const MeterItem(name: 'CM', fullName: 'Common Meter', pattern: '8.6.8.6', hymnCount: 45),
+    const MeterItem(name: 'LM', fullName: 'Long Meter', pattern: '8.8.8.8', hymnCount: 38),
+    const MeterItem(name: 'SM', fullName: 'Short Meter', pattern: '6.6.8.6', hymnCount: 12),
+    const MeterItem(name: '87.87 D', fullName: 'Double 87.87', pattern: '8.7.8.7.8.7.8.7', hymnCount: 25),
+    const MeterItem(name: '76.76 D', fullName: 'Double 76.76', pattern: '7.6.7.6.7.6.7.6', hymnCount: 8),
+    const MeterItem(name: '77.77 D', fullName: 'Double 77.77', pattern: '7.7.7.7.7.7.7.7', hymnCount: 6),
+    const MeterItem(name: '87.87.87', fullName: 'Triple 87.87', pattern: '8.7.8.7.8.7', hymnCount: 14),
+    const MeterItem(name: '10.10.10.10', fullName: 'Ten-syllable meter', pattern: '10.10.10.10', hymnCount: 9),
+    const MeterItem(name: '11.11.11.11', fullName: 'Eleven-syllable meter', pattern: '11.11.11.11', hymnCount: 7),
+    const MeterItem(name: '664.6664', fullName: 'Irregular meter', pattern: '6.6.4.6.6.6.4', hymnCount: 3),
+    const MeterItem(name: '77.77 with Alleluias', fullName: 'Easter meter', pattern: '7.7.7.7+A', hymnCount: 4),
+    const MeterItem(name: '11.12.12.10', fullName: 'Nicaea meter', pattern: '11.12.12.10', hymnCount: 1),
+    const MeterItem(name: '14.14.4.78', fullName: 'Praise meter', pattern: '14.14.4.7.8', hymnCount: 1),
+    const MeterItem(name: '13.13.13.13.13.13', fullName: 'Thaxted meter', pattern: '13.13.13.13.13.13', hymnCount: 1),
+    const MeterItem(name: '98.98', fullName: 'Secular meter', pattern: '9.8.9.8', hymnCount: 5),
+    const MeterItem(name: '86.86', fullName: 'Standard meter', pattern: '8.6.8.6', hymnCount: 15),
+    const MeterItem(name: '65.65', fullName: 'Short irregular', pattern: '6.5.6.5', hymnCount: 2),
+    const MeterItem(name: '54.54 D', fullName: 'Double short', pattern: '5.4.5.4.5.4.5.4', hymnCount: 3),
+    const MeterItem(name: '88.88', fullName: 'Equal meter', pattern: '8.8.8.8', hymnCount: 11),
+    const MeterItem(name: '12.12.12.12', fullName: 'Twelve-syllable meter', pattern: '12.12.12.12', hymnCount: 2),
   ];
 
   List<MeterItem> get _filteredMeters {
@@ -58,7 +57,7 @@ class _MetersBrowseScreenState extends State<MetersBrowseScreen> {
           // Search Section
           Container(
             padding: const EdgeInsets.all(AppSizes.spacing16),
-            color: Color(AppColors.background),
+            color: const Color(AppColors.background),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -72,7 +71,7 @@ class _MetersBrowseScreenState extends State<MetersBrowseScreen> {
                 Text(
                   'Find hymns by meter pattern',
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Color(AppColors.gray700),
+                    color: const Color(AppColors.gray700),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing16),
@@ -119,7 +118,7 @@ class _MetersBrowseScreenState extends State<MetersBrowseScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(
+          const Icon(
             Icons.straighten_outlined,
             size: 64,
             color: Color(AppColors.gray500),
@@ -128,14 +127,14 @@ class _MetersBrowseScreenState extends State<MetersBrowseScreen> {
           Text(
             'No meters found',
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-              color: Color(AppColors.gray700),
+              color: const Color(AppColors.gray700),
             ),
           ),
           const SizedBox(height: AppSizes.spacing8),
           Text(
             'Try adjusting your search terms',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray500),
+              color: const Color(AppColors.gray500),
             ),
           ),
         ],
@@ -156,10 +155,10 @@ class _MetersBrowseScreenState extends State<MetersBrowseScreen> {
               width: 48,
               height: 48,
               decoration: BoxDecoration(
-                color: Color(AppColors.secondaryBlue).withOpacity(0.1),
+                color: const Color(AppColors.secondaryBlue).withOpacity(0.1),
                 borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
               ),
-              child: Icon(
+              child: const Icon(
                 Icons.straighten,
                 color: Color(AppColors.secondaryBlue),
               ),
@@ -177,14 +176,14 @@ class _MetersBrowseScreenState extends State<MetersBrowseScreen> {
                 Text(
                   meter.fullName,
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.gray600),
+                    color: const Color(AppColors.gray600),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing4),
                 Text(
                   'Pattern: ${meter.pattern}',
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.gray600),
+                    color: const Color(AppColors.gray600),
                     fontFamily: 'monospace',
                   ),
                 ),
@@ -192,13 +191,13 @@ class _MetersBrowseScreenState extends State<MetersBrowseScreen> {
                 Text(
                   '${meter.hymnCount} hymn${meter.hymnCount == 1 ? '' : 's'}',
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.secondaryBlue),
+                    color: const Color(AppColors.secondaryBlue),
                     fontWeight: FontWeight.w500,
                   ),
                 ),
               ],
             ),
-            trailing: Icon(
+            trailing: const Icon(
               Icons.arrow_forward_ios,
               size: 16,
               color: Color(AppColors.gray500),

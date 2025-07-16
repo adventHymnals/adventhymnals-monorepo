@@ -16,7 +16,7 @@ class SearchScreen extends StatefulWidget {
 class _SearchScreenState extends State<SearchScreen> {
   final TextEditingController _searchController = TextEditingController();
   final FocusNode _searchFocusNode = FocusNode();
-  List<String> _searchFilters = [];
+  final List<String> _searchFilters = [];
 
   @override
   void initState() {
@@ -153,7 +153,7 @@ class _SearchScreenState extends State<SearchScreen> {
             child: FilterChip(
               label: Text(
                 filter,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Color(AppColors.primaryBlue),
                   fontWeight: FontWeight.w600,
                 ),
@@ -163,7 +163,7 @@ class _SearchScreenState extends State<SearchScreen> {
                   _searchFilters.removeAt(index);
                 });
               },
-              deleteIcon: Icon(
+              deleteIcon: const Icon(
                 Icons.close, 
                 size: 18,
                 color: Color(AppColors.primaryBlue),
@@ -171,11 +171,11 @@ class _SearchScreenState extends State<SearchScreen> {
               onSelected: (bool selected) {
                 // Handle filter selection
               },
-              selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-              backgroundColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-              checkmarkColor: Color(AppColors.primaryBlue),
-              deleteIconColor: Color(AppColors.primaryBlue),
-              side: BorderSide(
+              selectedColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+              backgroundColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+              checkmarkColor: const Color(AppColors.primaryBlue),
+              deleteIconColor: const Color(AppColors.primaryBlue),
+              side: const BorderSide(
                 color: Color(AppColors.primaryBlue),
                 width: 1,
               ),
@@ -252,7 +252,7 @@ class _SearchScreenState extends State<SearchScreen> {
             return ActionChip(
               label: Text(
                 suggestion,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Color(AppColors.gray700),
                   fontWeight: FontWeight.w500,
                 ),
@@ -261,8 +261,8 @@ class _SearchScreenState extends State<SearchScreen> {
                 _searchController.text = suggestion;
                 _performSearch(suggestion);
               },
-              backgroundColor: Color(AppColors.gray100),
-              side: BorderSide(
+              backgroundColor: const Color(AppColors.gray100),
+              side: const BorderSide(
                 color: Color(AppColors.gray300),
                 width: 1,
               ),
@@ -278,9 +278,9 @@ class _SearchScreenState extends State<SearchScreen> {
     return Container(
       padding: const EdgeInsets.all(AppSizes.spacing16),
       decoration: BoxDecoration(
-        color: Color(AppColors.background),
+        color: const Color(AppColors.background),
         borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
-        border: Border.all(color: Color(AppColors.gray300)),
+        border: Border.all(color: const Color(AppColors.gray300)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -305,7 +305,7 @@ class _SearchScreenState extends State<SearchScreen> {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Icon(
+          const Icon(
             Icons.lightbulb_outline,
             size: 16,
             color: Color(AppColors.warningOrange),
@@ -406,7 +406,7 @@ class _SearchScreenState extends State<SearchScreen> {
           width: 56,
           height: 40,
           decoration: BoxDecoration(
-            color: Color(AppColors.primaryBlue).withOpacity(0.1),
+            color: const Color(AppColors.primaryBlue).withOpacity(0.1),
             borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
           ),
           child: Center(
@@ -415,7 +415,7 @@ class _SearchScreenState extends State<SearchScreen> {
                   ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
                   : hymn.hymnNumber.toString(),
               style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                color: Color(AppColors.primaryBlue),
+                color: const Color(AppColors.primaryBlue),
                 fontWeight: FontWeight.bold,
               ),
               textAlign: TextAlign.center,
@@ -461,7 +461,7 @@ class _SearchScreenState extends State<SearchScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
+            const Icon(
               Icons.search_off,
               size: 64,
               color: Color(AppColors.gray500),
@@ -475,7 +475,7 @@ class _SearchScreenState extends State<SearchScreen> {
             Text(
               'Try adjusting your search terms or filters',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Color(AppColors.gray500),
+                color: const Color(AppColors.gray500),
               ),
               textAlign: TextAlign.center,
             ),
@@ -500,7 +500,7 @@ class _SearchScreenState extends State<SearchScreen> {
             Icon(
               isDatabaseError ? Icons.info_outline : Icons.error_outline,
               size: 64,
-              color: isDatabaseError ? Color(AppColors.primaryBlue) : Color(AppColors.errorRed),
+              color: isDatabaseError ? const Color(AppColors.primaryBlue) : const Color(AppColors.errorRed),
             ),
             const SizedBox(height: AppSizes.spacing16),
             Text(
@@ -513,7 +513,7 @@ class _SearchScreenState extends State<SearchScreen> {
                   ? 'Search is currently using demonstration data. Full database functionality will be available when the hymnal database is loaded.'
                   : error,
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Color(AppColors.gray500),
+                color: const Color(AppColors.gray500),
               ),
               textAlign: TextAlign.center,
             ),
@@ -549,7 +549,7 @@ class _SearchScreenState extends State<SearchScreen> {
             child: FilterChip(
               label: Text(
                 collection['abbreviation'] ?? collection['name'],
-                style: TextStyle(
+                style: const TextStyle(
                   color: Color(AppColors.primaryBlue),
                   fontWeight: FontWeight.w600,
                   fontSize: 12,
@@ -560,7 +560,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 updatedCollections.removeAt(index);
                 provider.setSelectedCollections(updatedCollections);
               },
-              deleteIcon: Icon(
+              deleteIcon: const Icon(
                 Icons.close, 
                 size: 16,
                 color: Color(AppColors.primaryBlue),
@@ -568,11 +568,11 @@ class _SearchScreenState extends State<SearchScreen> {
               onSelected: (bool selected) {
                 // Handle filter selection
               },
-              selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-              backgroundColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-              checkmarkColor: Color(AppColors.primaryBlue),
-              deleteIconColor: Color(AppColors.primaryBlue),
-              side: BorderSide(
+              selectedColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+              backgroundColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+              checkmarkColor: const Color(AppColors.primaryBlue),
+              deleteIconColor: const Color(AppColors.primaryBlue),
+              side: const BorderSide(
                 color: Color(AppColors.primaryBlue),
                 width: 1,
               ),
@@ -664,7 +664,7 @@ class _SearchScreenState extends State<SearchScreen> {
                                     language,
                                     style: Theme.of(context).textTheme.titleSmall?.copyWith(
                                       fontWeight: FontWeight.bold,
-                                      color: Color(AppColors.primaryBlue),
+                                      color: const Color(AppColors.primaryBlue),
                                     ),
                                   ),
                                 ),

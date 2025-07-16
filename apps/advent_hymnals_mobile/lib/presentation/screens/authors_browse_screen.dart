@@ -15,31 +15,31 @@ class _AuthorsBrowseScreenState extends State<AuthorsBrowseScreen> {
 
   // Sample authors data
   final List<AuthorItem> _authors = [
-    AuthorItem(name: 'Charles Wesley', years: '1707-1788', hymnCount: 156),
-    AuthorItem(name: 'Isaac Watts', years: '1674-1748', hymnCount: 134),
-    AuthorItem(name: 'Fanny J. Crosby', years: '1820-1915', hymnCount: 89),
-    AuthorItem(name: 'John Newton', years: '1725-1807', hymnCount: 67),
-    AuthorItem(name: 'Philip P. Bliss', years: '1838-1876', hymnCount: 45),
-    AuthorItem(name: 'John Wesley', years: '1703-1791', hymnCount: 42),
-    AuthorItem(name: 'William Cowper', years: '1731-1800', hymnCount: 38),
-    AuthorItem(name: 'Horatius Bonar', years: '1808-1889', hymnCount: 36),
-    AuthorItem(name: 'Frances R. Havergal', years: '1836-1879', hymnCount: 34),
-    AuthorItem(name: 'Charlotte Elliott', years: '1789-1871', hymnCount: 32),
-    AuthorItem(name: 'Augustus M. Toplady', years: '1740-1778', hymnCount: 28),
-    AuthorItem(name: 'Ray Palmer', years: '1808-1887', hymnCount: 26),
-    AuthorItem(name: 'Samuel Stennett', years: '1727-1795', hymnCount: 24),
-    AuthorItem(name: 'John Fawcett', years: '1740-1817', hymnCount: 22),
-    AuthorItem(name: 'Philip Doddridge', years: '1702-1751', hymnCount: 21),
-    AuthorItem(name: 'Thomas Kelly', years: '1769-1855', hymnCount: 19),
-    AuthorItem(name: 'John Keble', years: '1792-1866', hymnCount: 18),
-    AuthorItem(name: 'Thomas Ken', years: '1637-1711', hymnCount: 16),
-    AuthorItem(name: 'Samuel F. Smith', years: '1808-1895', hymnCount: 15),
-    AuthorItem(name: 'James Montgomery', years: '1771-1854', hymnCount: 14),
-    AuthorItem(name: 'John Greenleaf Whittier', years: '1807-1892', hymnCount: 13),
-    AuthorItem(name: 'William B. Bradbury', years: '1816-1868', hymnCount: 12),
-    AuthorItem(name: 'Reginald Heber', years: '1783-1826', hymnCount: 11),
-    AuthorItem(name: 'Anna L. Waring', years: '1823-1910', hymnCount: 10),
-    AuthorItem(name: 'John Mason Neale', years: '1818-1866', hymnCount: 9),
+    const AuthorItem(name: 'Charles Wesley', years: '1707-1788', hymnCount: 156),
+    const AuthorItem(name: 'Isaac Watts', years: '1674-1748', hymnCount: 134),
+    const AuthorItem(name: 'Fanny J. Crosby', years: '1820-1915', hymnCount: 89),
+    const AuthorItem(name: 'John Newton', years: '1725-1807', hymnCount: 67),
+    const AuthorItem(name: 'Philip P. Bliss', years: '1838-1876', hymnCount: 45),
+    const AuthorItem(name: 'John Wesley', years: '1703-1791', hymnCount: 42),
+    const AuthorItem(name: 'William Cowper', years: '1731-1800', hymnCount: 38),
+    const AuthorItem(name: 'Horatius Bonar', years: '1808-1889', hymnCount: 36),
+    const AuthorItem(name: 'Frances R. Havergal', years: '1836-1879', hymnCount: 34),
+    const AuthorItem(name: 'Charlotte Elliott', years: '1789-1871', hymnCount: 32),
+    const AuthorItem(name: 'Augustus M. Toplady', years: '1740-1778', hymnCount: 28),
+    const AuthorItem(name: 'Ray Palmer', years: '1808-1887', hymnCount: 26),
+    const AuthorItem(name: 'Samuel Stennett', years: '1727-1795', hymnCount: 24),
+    const AuthorItem(name: 'John Fawcett', years: '1740-1817', hymnCount: 22),
+    const AuthorItem(name: 'Philip Doddridge', years: '1702-1751', hymnCount: 21),
+    const AuthorItem(name: 'Thomas Kelly', years: '1769-1855', hymnCount: 19),
+    const AuthorItem(name: 'John Keble', years: '1792-1866', hymnCount: 18),
+    const AuthorItem(name: 'Thomas Ken', years: '1637-1711', hymnCount: 16),
+    const AuthorItem(name: 'Samuel F. Smith', years: '1808-1895', hymnCount: 15),
+    const AuthorItem(name: 'James Montgomery', years: '1771-1854', hymnCount: 14),
+    const AuthorItem(name: 'John Greenleaf Whittier', years: '1807-1892', hymnCount: 13),
+    const AuthorItem(name: 'William B. Bradbury', years: '1816-1868', hymnCount: 12),
+    const AuthorItem(name: 'Reginald Heber', years: '1783-1826', hymnCount: 11),
+    const AuthorItem(name: 'Anna L. Waring', years: '1823-1910', hymnCount: 10),
+    const AuthorItem(name: 'John Mason Neale', years: '1818-1866', hymnCount: 9),
   ];
 
   List<AuthorItem> get _filteredAuthors {
@@ -62,7 +62,7 @@ class _AuthorsBrowseScreenState extends State<AuthorsBrowseScreen> {
           // Search Section
           Container(
             padding: const EdgeInsets.all(AppSizes.spacing16),
-            color: Color(AppColors.background),
+            color: const Color(AppColors.background),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -76,7 +76,7 @@ class _AuthorsBrowseScreenState extends State<AuthorsBrowseScreen> {
                 Text(
                   'Find hymns by author name or time period',
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Color(AppColors.gray700),
+                    color: const Color(AppColors.gray700),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing16),
@@ -123,7 +123,7 @@ class _AuthorsBrowseScreenState extends State<AuthorsBrowseScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(
+          const Icon(
             Icons.person_outline,
             size: 64,
             color: Color(AppColors.gray500),
@@ -132,14 +132,14 @@ class _AuthorsBrowseScreenState extends State<AuthorsBrowseScreen> {
           Text(
             'No authors found',
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-              color: Color(AppColors.gray700),
+              color: const Color(AppColors.gray700),
             ),
           ),
           const SizedBox(height: AppSizes.spacing8),
           Text(
             'Try adjusting your search terms',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray500),
+              color: const Color(AppColors.gray500),
             ),
           ),
         ],
@@ -160,10 +160,10 @@ class _AuthorsBrowseScreenState extends State<AuthorsBrowseScreen> {
               width: 48,
               height: 48,
               decoration: BoxDecoration(
-                color: Color(AppColors.successGreen).withOpacity(0.1),
+                color: const Color(AppColors.successGreen).withOpacity(0.1),
                 borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
               ),
-              child: Icon(
+              child: const Icon(
                 Icons.person,
                 color: Color(AppColors.successGreen),
               ),
@@ -181,20 +181,20 @@ class _AuthorsBrowseScreenState extends State<AuthorsBrowseScreen> {
                 Text(
                   author.years,
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.gray600),
+                    color: const Color(AppColors.gray600),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing4),
                 Text(
                   '${author.hymnCount} hymn${author.hymnCount == 1 ? '' : 's'}',
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.successGreen),
+                    color: const Color(AppColors.successGreen),
                     fontWeight: FontWeight.w500,
                   ),
                 ),
               ],
             ),
-            trailing: Icon(
+            trailing: const Icon(
               Icons.arrow_forward_ios,
               size: 16,
               color: Color(AppColors.gray500),
