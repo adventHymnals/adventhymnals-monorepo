@@ -66,7 +66,7 @@ class _AppInitializerState extends State<AppInitializer> {
           throw TimeoutException('Initialization timed out', Duration(seconds: Platform.isWindows ? 45 : 30));
         }),
       ]);
-    } on TimeoutException catch (e) {
+    } on TimeoutException {
       if (kDebugMode) {
         debugPrint('⏱️ [AppInitializer] Initialization timed out, allowing app to continue');
       }

@@ -6,7 +6,7 @@ import 'dart:io' show Platform;
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 // Main entry point for Advent Hymnals mobile application
-// Updated to trigger Windows installer build workflow
+// Debug: Testing Windows build workflow trigger
 
 import 'presentation/theme/app_theme.dart';
 import 'presentation/providers/hymn_provider.dart';
@@ -18,14 +18,12 @@ import 'presentation/providers/audio_player_provider.dart';
 import 'core/services/church_mode_service.dart';
 import 'core/services/projector_service.dart';
 import 'core/services/admob_service.dart';
-import 'core/services/data_import_service.dart';
 import 'presentation/screens/home_screen.dart';
 import 'presentation/screens/browse_hub_screen.dart';
 import 'presentation/screens/search_screen.dart';
 import 'presentation/screens/favorites_screen.dart';
 import 'presentation/screens/more_screen.dart';
 import 'presentation/screens/hymn_detail_screen.dart';
-import 'presentation/screens/data_loading_screen.dart';
 import 'presentation/widgets/app_initializer.dart';
 import 'presentation/screens/authors_browse_screen.dart';
 import 'presentation/screens/topics_browse_screen.dart';
@@ -245,4 +243,4 @@ final GoRouter _router = GoRouter(
       },
     ),
   ],
-);
+);// Debug trigger Wed, Jul 16, 2025 10:37:02 AM

@@ -22,7 +22,7 @@ class DataLoadingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(AppColors.background),
+      backgroundColor: const Color(AppColors.background),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(AppSizes.spacing24),
@@ -34,10 +34,10 @@ class DataLoadingScreen extends StatelessWidget {
                 width: 120,
                 height: 120,
                 decoration: BoxDecoration(
-                  color: Color(AppColors.primaryBlue).withOpacity(0.1),
+                  color: const Color(AppColors.primaryBlue).withOpacity(0.1),
                   borderRadius: BorderRadius.circular(AppSizes.radiusLarge),
                 ),
-                child: Icon(
+                child: const Icon(
                   Icons.library_music,
                   size: 64,
                   color: Color(AppColors.primaryBlue),
@@ -50,7 +50,7 @@ class DataLoadingScreen extends StatelessWidget {
               Text(
                 AppStrings.appTitle,
                 style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                  color: Color(AppColors.primaryBlue),
+                  color: const Color(AppColors.primaryBlue),
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -59,7 +59,7 @@ class DataLoadingScreen extends StatelessWidget {
               
               // Error State
               if (hasError) ...[
-                Icon(
+                const Icon(
                   Icons.error_outline,
                   size: 64,
                   color: Color(AppColors.errorRed),
@@ -68,14 +68,14 @@ class DataLoadingScreen extends StatelessWidget {
                 Text(
                   'Import Failed',
                   style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    color: Color(AppColors.errorRed),
+                    color: const Color(AppColors.errorRed),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing8),
                 Text(
                   errorMessage ?? 'An error occurred during data import',
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Color(AppColors.gray600),
+                    color: const Color(AppColors.gray600),
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -127,8 +127,8 @@ class DataLoadingScreen extends StatelessWidget {
                         child: CircularProgressIndicator(
                           value: progress > 0 ? progress : null,
                           strokeWidth: 8,
-                          backgroundColor: Color(AppColors.gray300),
-                          valueColor: AlwaysStoppedAnimation<Color>(
+                          backgroundColor: const Color(AppColors.gray300),
+                          valueColor: const AlwaysStoppedAnimation<Color>(
                             Color(AppColors.primaryBlue),
                           ),
                         ),
@@ -141,20 +141,20 @@ class DataLoadingScreen extends StatelessWidget {
                             Text(
                               '${(progress * 100).toInt()}%',
                               style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                                color: Color(AppColors.primaryBlue),
+                                color: const Color(AppColors.primaryBlue),
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
                             Text(
                               'Loading',
                               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                                color: Color(AppColors.gray600),
+                                color: const Color(AppColors.gray600),
                               ),
                             ),
                           ],
                         )
                       else
-                        Icon(
+                        const Icon(
                           Icons.download,
                           size: 48,
                           color: Color(AppColors.primaryBlue),
@@ -169,7 +169,7 @@ class DataLoadingScreen extends StatelessWidget {
                 Text(
                   status,
                   style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    color: Color(AppColors.primaryBlue),
+                    color: const Color(AppColors.primaryBlue),
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -180,7 +180,7 @@ class DataLoadingScreen extends StatelessWidget {
                 Text(
                   'Setting up your hymnal library for the first time.\nThis may take a few moments.',
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Color(AppColors.gray600),
+                    color: const Color(AppColors.gray600),
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -191,12 +191,12 @@ class DataLoadingScreen extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.all(AppSizes.spacing16),
                   decoration: BoxDecoration(
-                    color: Color(AppColors.primaryBlue).withOpacity(0.1),
+                    color: const Color(AppColors.primaryBlue).withOpacity(0.1),
                     borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
                   ),
                   child: Row(
                     children: [
-                      Icon(
+                      const Icon(
                         Icons.info_outline,
                         color: Color(AppColors.primaryBlue),
                         size: 20,
@@ -206,7 +206,7 @@ class DataLoadingScreen extends StatelessWidget {
                         child: Text(
                           'Loading hymn collections and preparing search functionality.',
                           style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: Color(AppColors.primaryBlue),
+                            color: const Color(AppColors.primaryBlue),
                           ),
                         ),
                       ),
