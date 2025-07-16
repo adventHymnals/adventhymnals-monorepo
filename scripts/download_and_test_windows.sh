@@ -3,6 +3,18 @@
 echo "🔍 Downloading latest Windows build with UI fixes..."
 echo ""
 
+# Set up paths
+TMP_DIR="/tmp/advent-hymnals-windows-test"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Clean up any existing tmp directory
+if [ -d "$TMP_DIR" ]; then
+    rm -rf "$TMP_DIR"
+fi
+
+mkdir -p "$TMP_DIR"
+cd "$TMP_DIR"
+
 # Get the latest successful workflow run
 WORKFLOW_ID=$(gh run list --workflow="debug-windows-build.yml" --status=completed --limit=1 --json databaseId --jq='.[0].databaseId')
 
@@ -34,55 +46,57 @@ if [ $? -eq 0 ]; then
     # Extract the artifact
     echo "📂 Extracting build..."
     
-    # Remove old build if it exists
-    if [ -d "latest-windows-build" ]; then
-        rm -rf latest-windows-build
-    fi
-    
-    # Extract to latest-windows-build directory
-    unzip -q windows-build.zip -d latest-windows-build
+    # Extract to windows-build directory
+    unzip -q windows-build.zip -d windows-build
     
     if [ $? -eq 0 ]; then
-        echo "✅ Extracted to latest-windows-build/"
+        echo "✅ Extracted to $TMP_DIR/windows-build/"
         
         # Check if executable exists
-        if [ -f "latest-windows-build/AdventHymnals.exe" ]; then
-            echo "✅ Executable found: latest-windows-build/AdventHymnals.exe"
+        if [ -f "windows-build/AdventHymnals.exe" ]; then
+            echo "✅ Executable found: windows-build/AdventHymnals.exe"
             
             # Show file info
             echo "🔍 File info:"
-            ls -la latest-windows-build/AdventHymnals.exe
+            ls -la windows-build/AdventHymnals.exe
             
             # Check assets
-            if [ -d "latest-windows-build/data/flutter_assets" ]; then
+            if [ -d "windows-build/data/flutter_assets" ]; then
                 echo "✅ Flutter assets found"
             else
                 echo "⚠️  Flutter assets not found in expected location"
-                echo "🔍 Contents of latest-windows-build/:"
-                ls -la latest-windows-build/
+                echo "🔍 Contents of windows-build/:"
+                ls -la windows-build/
             fi
             
             echo ""
-            echo "🎉 Ready to test! Run: ./debug_windows.sh"
+            echo "📊 Artifact details:"
+            echo "  - ID: $ARTIFACT_ID"
+            echo "  - Name: $ARTIFACT_NAME"
+            echo "  - Workflow: $WORKFLOW_ID"
+            echo "  - Contains UI fixes for blank window issue"
+            echo ""
+            
+            # Clean up zip file
+            rm -f windows-build.zip
+            
+            echo "🧪 Starting Windows app test..."
+            echo "==============================================="
+            
+            # Call the test script
+            "$SCRIPT_DIR/test_windows_app.sh" "$TMP_DIR/windows-build"
+            
         else
             echo "❌ Executable not found in extracted files"
-            echo "🔍 Contents of latest-windows-build/:"
-            ls -la latest-windows-build/
+            echo "🔍 Contents of windows-build/:"
+            ls -la windows-build/
+            exit 1
         fi
     else
         echo "❌ Failed to extract artifact"
+        exit 1
     fi
-    
-    # Clean up zip file
-    rm -f windows-build.zip
 else
     echo "❌ Failed to download artifact"
     exit 1
 fi
-
-echo ""
-echo "📊 Artifact details:"
-echo "  - ID: $ARTIFACT_ID"
-echo "  - Name: $ARTIFACT_NAME"
-echo "  - Workflow: $WORKFLOW_ID"
-echo "  - Contains UI fixes for blank window issue"
