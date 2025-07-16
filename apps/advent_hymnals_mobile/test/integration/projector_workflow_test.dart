@@ -11,6 +11,8 @@ import '../../lib/presentation/providers/recently_viewed_provider.dart';
 import '../../lib/domain/entities/hymn.dart';
 
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+  
   group('Projector Workflow Integration Tests', () {
     late List<MethodCall> methodCalls;
 

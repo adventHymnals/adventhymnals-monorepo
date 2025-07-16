@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 import '../../lib/core/services/projector_service.dart';
 
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+  
   group('ProjectorService', () {
     late ProjectorService service;
     late List<MethodCall> methodCalls;
