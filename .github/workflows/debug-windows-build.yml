@@ -123,9 +123,9 @@ jobs:
         working-directory: apps/advent_hymnals_mobile
         run: |
           if ("${{ inputs.build_type }}" -eq "debug") {
-            $exePath = "build/windows/x64/runner/Debug/advent_hymnals_mobile.exe"
+            $exePath = "build/windows/x64/runner/Debug/AdventHymnals.exe"
           } else {
-            $exePath = "build/windows/x64/runner/Release/advent_hymnals_mobile.exe"
+            $exePath = "build/windows/x64/runner/Release/AdventHymnals.exe"
           }
           
           if (Test-Path $exePath) {
