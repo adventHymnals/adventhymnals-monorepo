@@ -94,7 +94,7 @@ class DataLoadingScreen extends StatelessWidget {
                         ),
                       ),
                     ),
-                    if (onSkip != null) ..[
+                    if (onSkip != null) ...[
                       const SizedBox(width: AppSizes.spacing16),
                       OutlinedButton.icon(
                         onPressed: onSkip,
