@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
+import 'dart:io' show Platform;
 import '../../core/constants/app_constants.dart';
+import '../../core/services/windows_debug_service.dart';
 
 class DataLoadingScreen extends StatelessWidget {
   final String status;
@@ -21,6 +24,12 @@ class DataLoadingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Debug: DataLoadingScreen build
+    if (Platform.isWindows && kDebugMode) {
+      debugPrint('🪟 [Windows] DataLoadingScreen.build() - status: $status, progress: $progress, hasError: $hasError');
+      WindowsDebugService.debugMilestone('DataLoadingScreen.build() - Status: $status');
+    }
+    
     // Safe theme access with fallbacks
     final theme = Theme.of(context);
     final textTheme = theme.textTheme;

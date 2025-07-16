@@ -3,6 +3,7 @@ import 'dart:io' show Platform;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../../core/services/data_import_service.dart';
+import '../../core/services/windows_debug_service.dart';
 import '../screens/data_loading_screen.dart';
 
 class AppInitializer extends StatefulWidget {
@@ -17,7 +18,7 @@ class AppInitializer extends StatefulWidget {
   State<AppInitializer> createState() => _AppInitializerState();
 }
 
-class _AppInitializerState extends State<AppInitializer> {
+class _AppInitializerState extends State<AppInitializer> with WindowsDebugMixin {
   final DataImportService _importService = DataImportService();
   
   bool _isInitialized = false;
@@ -30,17 +31,30 @@ class _AppInitializerState extends State<AppInitializer> {
   @override
   void initState() {
     super.initState();
+    if (Platform.isWindows && kDebugMode) {
+      debugPrint('🪟 [Windows] AppInitializer.initState() called');
+      debugMilestone('AppInitializer.initState() called');
+    }
     _initializeApp();
   }
 
   Future<void> _initializeApp() async {
     try {
+      if (Platform.isWindows && kDebugMode) {
+        debugPrint('🪟 [Windows] _initializeApp() started');
+        debugMilestone('_initializeApp() started');
+      }
+      
       setState(() {
         _isLoading = true;
         _hasError = false;
         _status = 'Checking data...';
         _progress = 0.0;
       });
+
+      if (Platform.isWindows && kDebugMode) {
+        debugMilestone('setState() completed - loading state set');
+      }
 
       // Add timeout for initialization to prevent hanging
       await _initializeWithTimeout();
@@ -143,10 +157,22 @@ class _AppInitializerState extends State<AppInitializer> {
 
   @override
   Widget build(BuildContext context) {
+    if (Platform.isWindows && kDebugMode) {
+      debugPrint('🪟 [Windows] AppInitializer.build() - _isInitialized: $_isInitialized, _isLoading: $_isLoading, _hasError: $_hasError');
+      debugMilestone('AppInitializer.build() - Status: $_status, Progress: $_progress');
+    }
+    
     if (_isInitialized) {
+      if (Platform.isWindows && kDebugMode) {
+        debugMilestone('AppInitializer returning main app child - INITIALIZATION COMPLETE!', soundFreq: 1200);
+      }
       return widget.child;
     }
 
+    if (Platform.isWindows && kDebugMode) {
+      debugMilestone('AppInitializer returning DataLoadingScreen');
+    }
+    
     return DataLoadingScreen(
       status: _status,
       progress: _progress,
@@ -154,6 +180,9 @@ class _AppInitializerState extends State<AppInitializer> {
       errorMessage: _errorMessage,
       onRetry: _hasError ? _initializeApp : null,
       onSkip: _hasError ? () {
+        if (Platform.isWindows && kDebugMode) {
+          debugMilestone('AppInitializer Skip button pressed - forcing initialization complete');
+        }
         setState(() {
           _isInitialized = true;
           _isLoading = false;

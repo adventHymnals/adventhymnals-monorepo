@@ -38,13 +38,15 @@ import 'presentation/screens/downloads_screen.dart';
 import 'presentation/screens/collection_detail_screen.dart';
 import 'presentation/screens/projector_screen.dart';
 import 'presentation/widgets/main_navigation.dart';
+import 'core/services/windows_debug_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
-  // Enhanced Windows logging
+  // Enhanced Windows logging and debug sound
   if (Platform.isWindows && kDebugMode) {
     debugPrint('🪟 [Windows] Advent Hymnals starting...');
+    await WindowsDebugService.debugMilestone('App main() started');
   }
   
   // Initialize sqflite for desktop platforms
@@ -53,6 +55,7 @@ void main() async {
     databaseFactory = databaseFactoryFfi;
     if (Platform.isWindows && kDebugMode) {
       debugPrint('🪟 [Windows] SQLite FFI initialized');
+      await WindowsDebugService.debugMilestone('SQLite FFI initialized');
     }
   }
   
@@ -61,10 +64,12 @@ void main() async {
     await ChurchModeService().initialize();
     if (Platform.isWindows && kDebugMode) {
       debugPrint('🪟 [Windows] Church mode service initialized');
+      await WindowsDebugService.debugMilestone('Church mode service initialized');
     }
   } catch (e) {
     if (Platform.isWindows && kDebugMode) {
       debugPrint('🪟 [Windows] Church mode service failed: $e');
+      await WindowsDebugService.debugMilestone('Church mode service FAILED: $e', soundFreq: 400);
     }
   }
   
@@ -75,6 +80,7 @@ void main() async {
   
   if (Platform.isWindows && kDebugMode) {
     debugPrint('🪟 [Windows] Starting AdventHymnalsApp...');
+    await WindowsDebugService.debugMilestone('About to call runApp()');
   }
   
   runApp(const AdventHymnalsApp());
@@ -87,6 +93,12 @@ class AdventHymnalsApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Debug: Widget build started
+    if (Platform.isWindows && kDebugMode) {
+      debugPrint('🪟 [Windows] AdventHymnalsApp.build() called');
+      WindowsDebugService.debugMilestone('AdventHymnalsApp.build() started');
+    }
+    
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => HymnProvider()),
@@ -102,6 +114,12 @@ class AdventHymnalsApp extends StatelessWidget {
       ],
       child: Consumer<SettingsProvider>(
         builder: (context, settingsProvider, child) {
+          // Debug: Consumer builder called
+          if (Platform.isWindows && kDebugMode) {
+            debugPrint('🪟 [Windows] Consumer<SettingsProvider> builder called');
+            WindowsDebugService.debugMilestone('Consumer<SettingsProvider> builder called');
+          }
+          
           return MaterialApp.router(
             title: 'Advent Hymnals',
             theme: AppTheme.lightTheme,
@@ -110,12 +128,24 @@ class AdventHymnalsApp extends StatelessWidget {
             routerConfig: _router,
             debugShowCheckedModeBanner: false,
             builder: (context, child) {
+              // Debug: MaterialApp builder called
+              if (Platform.isWindows && kDebugMode) {
+                debugPrint('🪟 [Windows] MaterialApp.router builder called');
+                WindowsDebugService.debugMilestone('MaterialApp.router builder called');
+              }
               // Skip data loading if requested (for debugging)
               if (skipDataLoading) {
                 if (Platform.isWindows && kDebugMode) {
                   debugPrint('🪟 [Windows] Skipping data loading for debugging');
+                  WindowsDebugService.debugMilestone('Skipping data loading - returning child directly');
                 }
                 return child ?? const SizedBox();
+              }
+              
+              // Debug: About to create AppInitializer
+              if (Platform.isWindows && kDebugMode) {
+                debugPrint('🪟 [Windows] Creating AppInitializer');
+                WindowsDebugService.debugMilestone('Creating AppInitializer with child');
               }
               
               return AppInitializer(child: child ?? const SizedBox());

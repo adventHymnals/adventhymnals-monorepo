@@ -18,6 +18,7 @@ dependencies:
   sqflite: ^2.3.0
   sqflite_common_ffi: ^2.3.0
   path: ^1.8.3
+  ffi: ^2.0.2
   
   # Network
   dio: ^5.3.2
