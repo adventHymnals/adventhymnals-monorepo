@@ -20,11 +20,10 @@ if exist "advent-hymnals-test\data\flutter_assets" (
     echo ✗ Flutter assets NOT found
 )
 echo.
-echo Starting application with timeout...
+echo Starting application...
 echo Press Ctrl+C to stop if it hangs
 echo.
-timeout /t 5 /nobreak >nul
-start /wait "" "advent-hymnals-test\AdventHymnals.exe"
+"advent-hymnals-test\AdventHymnals.exe"
 echo.
 echo Application exited with code: %ERRORLEVEL%
 pause
