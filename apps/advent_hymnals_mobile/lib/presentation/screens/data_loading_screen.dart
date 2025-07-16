@@ -21,6 +21,10 @@ class DataLoadingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Safe theme access with fallbacks
+    final theme = Theme.of(context);
+    final textTheme = theme.textTheme;
+    
     return Scaffold(
       backgroundColor: const Color(AppColors.background),
       body: SafeArea(
@@ -49,7 +53,7 @@ class DataLoadingScreen extends StatelessWidget {
               // App Title
               Text(
                 AppStrings.appTitle,
-                style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                style: (textTheme.headlineMedium ?? const TextStyle()).copyWith(
                   color: const Color(AppColors.primaryBlue),
                   fontWeight: FontWeight.bold,
                 ),
@@ -67,14 +71,14 @@ class DataLoadingScreen extends StatelessWidget {
                 const SizedBox(height: AppSizes.spacing16),
                 Text(
                   'Import Failed',
-                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                  style: (textTheme.titleLarge ?? const TextStyle()).copyWith(
                     color: const Color(AppColors.errorRed),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing8),
                 Text(
                   errorMessage ?? 'An error occurred during data import',
-                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                  style: (textTheme.bodyMedium ?? const TextStyle()).copyWith(
                     color: const Color(AppColors.gray600),
                   ),
                   textAlign: TextAlign.center,
@@ -140,14 +144,14 @@ class DataLoadingScreen extends StatelessWidget {
                           children: [
                             Text(
                               '${(progress * 100).toInt()}%',
-                              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                              style: (textTheme.headlineMedium ?? const TextStyle()).copyWith(
                                 color: const Color(AppColors.primaryBlue),
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
                             Text(
                               'Loading',
-                              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                              style: (textTheme.bodyMedium ?? const TextStyle()).copyWith(
                                 color: const Color(AppColors.gray600),
                               ),
                             ),
@@ -168,7 +172,7 @@ class DataLoadingScreen extends StatelessWidget {
                 // Status text
                 Text(
                   status,
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                  style: (textTheme.titleMedium ?? const TextStyle()).copyWith(
                     color: const Color(AppColors.primaryBlue),
                   ),
                   textAlign: TextAlign.center,
@@ -179,7 +183,7 @@ class DataLoadingScreen extends StatelessWidget {
                 // Description
                 Text(
                   'Setting up your hymnal library for the first time.\nThis may take a few moments.',
-                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                  style: (textTheme.bodyMedium ?? const TextStyle()).copyWith(
                     color: const Color(AppColors.gray600),
                   ),
                   textAlign: TextAlign.center,
@@ -205,7 +209,7 @@ class DataLoadingScreen extends StatelessWidget {
                       Expanded(
                         child: Text(
                           'Loading hymn collections and preparing search functionality.',
-                          style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          style: (textTheme.bodySmall ?? const TextStyle()).copyWith(
                             color: const Color(AppColors.primaryBlue),
                           ),
                         ),

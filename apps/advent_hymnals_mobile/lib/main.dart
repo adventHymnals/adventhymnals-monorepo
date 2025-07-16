@@ -102,24 +102,25 @@ class AdventHymnalsApp extends StatelessWidget {
       ],
       child: Consumer<SettingsProvider>(
         builder: (context, settingsProvider, child) {
-          final app = MaterialApp.router(
+          return MaterialApp.router(
             title: 'Advent Hymnals',
             theme: AppTheme.lightTheme,
             darkTheme: AppTheme.darkTheme,
             themeMode: settingsProvider.themeMode,
             routerConfig: _router,
             debugShowCheckedModeBanner: false,
+            builder: (context, child) {
+              // Skip data loading if requested (for debugging)
+              if (skipDataLoading) {
+                if (Platform.isWindows && kDebugMode) {
+                  debugPrint('🪟 [Windows] Skipping data loading for debugging');
+                }
+                return child ?? const SizedBox();
+              }
+              
+              return AppInitializer(child: child ?? const SizedBox());
+            },
           );
-          
-          // Skip data loading if requested (for debugging)
-          if (skipDataLoading) {
-            if (Platform.isWindows && kDebugMode) {
-              debugPrint('🪟 [Windows] Skipping data loading for debugging');
-            }
-            return app;
-          }
-          
-          return AppInitializer(child: app);
         },
       ),
     );
