@@ -3,6 +3,8 @@ import '../../domain/entities/hymn.dart';
 import '../../core/database/database_helper.dart';
 import '../../core/data/hymn_data_manager.dart';
 import '../../core/data/collections_data_manager.dart';
+import '../../core/utils/search_query_parser.dart';
+import '../../core/models/search_query.dart';
 
 enum HymnLoadingState {
   initial,
@@ -98,7 +100,7 @@ class HymnProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  // Search hymns (database-only after data import)
+  // Search hymns with enhanced hymnal filtering support
   Future<void> searchHymns(String query) async {
     _searchQuery = query;
     
@@ -111,23 +113,21 @@ class HymnProvider extends ChangeNotifier {
     _setLoadingState(HymnLoadingState.loading);
     
     try {
-      // Filter by selected collections if any are selected
+      // Parse the search query to extract hymnal filter and search text
+      final parsedQuery = SearchQueryParser.parse(query);
+      print('🔍 [HymnProvider] Parsed query: $parsedQuery');
+      
       List<Hymn> results = [];
       
-      if (_selectedCollections.isNotEmpty) {
+      if (parsedQuery.hasHymnalFilter && parsedQuery.hymnalAbbreviation != null) {
+        // Search within specific hymnal
+        await _searchInHymnal(parsedQuery, results);
+      } else if (_selectedCollections.isNotEmpty) {
         // Search within selected collections only
-        for (final collectionId in _selectedCollections) {
-          final collectionData = await _db.getCollectionByAbbreviation(collectionId);
-          if (collectionData != null) {
-            final dbCollectionId = collectionData['id'] as int;
-            final collectionResults = await _db.searchHymnsInCollection(query, dbCollectionId);
-            results.addAll(collectionResults.map((data) => _mapToHymn(data)).toList());
-          }
-        }
+        await _searchInSelectedCollections(parsedQuery.searchText, results);
       } else {
         // Search all hymns
-        final hymnsData = await _db.searchHymns(query);
-        results = hymnsData.map((data) => _mapToHymn(data)).toList();
+        await _searchAllHymns(parsedQuery.searchText, results);
       }
       
       print('✅ [HymnProvider] Found ${results.length} results from database');
@@ -139,6 +139,60 @@ class HymnProvider extends ChangeNotifier {
       print('❌ [HymnProvider] Search failed: $e');
       _setError('Search failed: ${e.toString()}');
     }
+  }
+
+  // Search within a specific hymnal based on parsed query
+  Future<void> _searchInHymnal(SearchQuery parsedQuery, List<Hymn> results) async {
+    final hymnalAbbrev = parsedQuery.hymnalAbbreviation!;
+    
+    // Get collection data by abbreviation
+    final collectionData = await _db.getCollectionByAbbreviation(hymnalAbbrev);
+    if (collectionData == null) {
+      print('⚠️ [HymnProvider] Hymnal "$hymnalAbbrev" not found in database');
+      return;
+    }
+    
+    final dbCollectionId = collectionData['id'] as int;
+    
+    if (parsedQuery.hymnNumber != null) {
+      // Search for specific hymn number in the hymnal
+      final hymnData = await _db.getHymnByNumberInCollection(
+        parsedQuery.hymnNumber!, 
+        dbCollectionId
+      );
+      if (hymnData != null) {
+        results.add(_mapToHymn(hymnData));
+      }
+    } else if (parsedQuery.searchText.isNotEmpty) {
+      // Search for text within the specific hymnal
+      final collectionResults = await _db.searchHymnsInCollection(
+        parsedQuery.searchText, 
+        dbCollectionId
+      );
+      results.addAll(collectionResults.map((data) => _mapToHymn(data)).toList());
+    } else {
+      // Just hymnal abbreviation - return all hymns from that hymnal
+      final collectionResults = await _db.getHymnsByCollection(dbCollectionId);
+      results.addAll(collectionResults.map((data) => _mapToHymn(data)).toList());
+    }
+  }
+
+  // Search within selected collections
+  Future<void> _searchInSelectedCollections(String searchText, List<Hymn> results) async {
+    for (final collectionId in _selectedCollections) {
+      final collectionData = await _db.getCollectionByAbbreviation(collectionId);
+      if (collectionData != null) {
+        final dbCollectionId = collectionData['id'] as int;
+        final collectionResults = await _db.searchHymnsInCollection(searchText, dbCollectionId);
+        results.addAll(collectionResults.map((data) => _mapToHymn(data)).toList());
+      }
+    }
+  }
+
+  // Search all hymns
+  Future<void> _searchAllHymns(String searchText, List<Hymn> results) async {
+    final hymnsData = await _db.searchHymns(searchText);
+    results.addAll(hymnsData.map((data) => _mapToHymn(data)).toList());
   }
 
 

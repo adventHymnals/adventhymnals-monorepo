@@ -328,6 +328,17 @@ class DatabaseHelper {
     );
   }
 
+  Future<Map<String, dynamic>?> getHymnByNumberInCollection(int hymnNumber, int collectionId) async {
+    final db = await database;
+    final result = await db.query(
+      'hymns',
+      where: 'hymn_number = ? AND collection_id = ?',
+      whereArgs: [hymnNumber, collectionId],
+      limit: 1,
+    );
+    return result.isNotEmpty ? result.first : null;
+  }
+
   Future<List<Map<String, dynamic>>> getHymnsByAuthor(int authorId) async {
     final db = await database;
     return await db.query(

@@ -143,6 +143,21 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
       appBar: AppBar(
         title: const Text(AppStrings.favoritesTitle),
         elevation: 0,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            try {
+              context.go('/home');
+            } catch (e) {
+              print('❌ [FavoritesScreen] Navigation error: $e');
+              // Fallback to Navigator.pop if context.go fails
+              if (Navigator.of(context).canPop()) {
+                Navigator.of(context).pop();
+              }
+            }
+          },
+          tooltip: 'Back to Home',
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.sort),

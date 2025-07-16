@@ -31,6 +31,7 @@ class RecentlyViewedProvider extends ChangeNotifier {
     String userId = 'default',
     int limit = 50,
   }) async {
+    print('🔍 [RecentlyViewedProvider] Loading recently viewed for user $userId (limit: $limit)');
     _setLoadingState(RecentlyViewedLoadingState.loading);
     
     try {
@@ -38,10 +39,21 @@ class RecentlyViewedProvider extends ChangeNotifier {
         userId: userId,
         limit: limit,
       );
+      print('📊 [RecentlyViewedProvider] Database returned ${recentData.length} recently viewed records');
+      
       _recentlyViewed = recentData.map((data) => _mapToHymn(data)).toList();
       _totalCount = _recentlyViewed.length;
+      
+      print('✅ [RecentlyViewedProvider] Successfully loaded $_totalCount recently viewed hymns');
+      if (_recentlyViewed.isNotEmpty) {
+        for (final hymn in _recentlyViewed.take(3)) {
+          print('  - Hymn ${hymn.hymnNumber}: ${hymn.title} (last viewed: ${hymn.lastViewed})');
+        }
+      }
+      
       _setLoadingState(RecentlyViewedLoadingState.loaded);
     } catch (e) {
+      print('❌ [RecentlyViewedProvider] Failed to load recently viewed: $e');
       _setError('Failed to load recently viewed: ${e.toString()}');
     }
   }
@@ -49,13 +61,17 @@ class RecentlyViewedProvider extends ChangeNotifier {
   // Add hymn to recently viewed
   Future<bool> addRecentlyViewed(int hymnId, {String userId = 'default'}) async {
     try {
+      print('🔍 [RecentlyViewedProvider] Adding hymn $hymnId to recently viewed for user $userId');
       await _db.addRecentlyViewed(hymnId, userId: userId);
       
       // Reload recently viewed to get updated list
+      print('🔄 [RecentlyViewedProvider] Reloading recently viewed after adding hymn $hymnId');
       await loadRecentlyViewed(userId: userId);
       
+      print('✅ [RecentlyViewedProvider] Successfully added hymn $hymnId to recently viewed. Total count: $_totalCount');
       return true;
     } catch (e) {
+      print('❌ [RecentlyViewedProvider] Failed to add recently viewed: $e');
       _setError('Failed to add recently viewed: ${e.toString()}');
       return false;
     }

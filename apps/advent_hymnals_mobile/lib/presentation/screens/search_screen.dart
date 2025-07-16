@@ -5,6 +5,8 @@ import '../providers/hymn_provider.dart';
 import '../../core/constants/app_constants.dart';
 import '../../domain/entities/hymn.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../../core/utils/search_query_parser.dart';
+import '../../core/models/search_query.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});
@@ -55,6 +57,21 @@ class _SearchScreenState extends State<SearchScreen> {
       appBar: AppBar(
         title: const Text(AppStrings.searchTitle),
         elevation: 0,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            try {
+              context.go('/home');
+            } catch (e) {
+              print('❌ [SearchScreen] Navigation error: $e');
+              // Fallback to Navigator.pop if context.go fails
+              if (Navigator.of(context).canPop()) {
+                Navigator.of(context).pop();
+              }
+            }
+          },
+          tooltip: 'Back to Home',
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.tune),
@@ -78,6 +95,19 @@ class _SearchScreenState extends State<SearchScreen> {
             builder: (context, provider, child) {
               if (provider.selectedCollections.isNotEmpty) {
                 return _buildCollectionFilters(provider);
+              }
+              return const SizedBox.shrink();
+            },
+          ),
+          
+          // Hymnal Filters (from search query parsing)
+          Consumer<HymnProvider>(
+            builder: (context, provider, child) {
+              if (provider.searchQuery.isNotEmpty) {
+                final parsedQuery = SearchQueryParser.parse(provider.searchQuery);
+                if (parsedQuery.hasHymnalFilter) {
+                  return _buildHymnalFilters(parsedQuery);
+                }
               }
               return const SizedBox.shrink();
             },
@@ -528,6 +558,109 @@ class _SearchScreenState extends State<SearchScreen> {
         ),
       ),
     );
+  }
+
+  Widget _buildHymnalFilters(SearchQuery parsedQuery) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: AppSizes.spacing16, vertical: AppSizes.spacing8),
+      child: Row(
+        children: [
+          const Icon(
+            Icons.filter_alt,
+            size: 16,
+            color: Color(AppColors.successGreen),
+          ),
+          const SizedBox(width: AppSizes.spacing8),
+          Text(
+            'Active Filter:',
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: const Color(AppColors.gray600),
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+          const SizedBox(width: AppSizes.spacing8),
+          Container(
+            padding: const EdgeInsets.symmetric(
+              horizontal: AppSizes.spacing12,
+              vertical: AppSizes.spacing4,
+            ),
+            decoration: BoxDecoration(
+              color: const Color(AppColors.successGreen).withOpacity(0.1),
+              borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+              border: Border.all(
+                color: const Color(AppColors.successGreen),
+                width: 1,
+              ),
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Icon(
+                  Icons.library_books,
+                  size: 14,
+                  color: const Color(AppColors.successGreen),
+                ),
+                const SizedBox(width: AppSizes.spacing4),
+                Text(
+                  _buildHymnalFilterText(parsedQuery),
+                  style: const TextStyle(
+                    color: Color(AppColors.successGreen),
+                    fontWeight: FontWeight.w600,
+                    fontSize: 12,
+                  ),
+                ),
+                const SizedBox(width: AppSizes.spacing4),
+                GestureDetector(
+                  onTap: () => _clearHymnalFilter(),
+                  child: const Icon(
+                    Icons.close,
+                    size: 14,
+                    color: Color(AppColors.successGreen),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const Spacer(),
+          Text(
+            '${_getFilteredResultsCount()} results',
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: const Color(AppColors.gray600),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _buildHymnalFilterText(SearchQuery parsedQuery) {
+    final hymnal = parsedQuery.hymnalAbbreviation!;
+    if (parsedQuery.hymnNumber != null) {
+      return '$hymnal #${parsedQuery.hymnNumber}';
+    } else if (parsedQuery.searchText.isNotEmpty) {
+      return '$hymnal: "${parsedQuery.searchText}"';
+    } else {
+      return hymnal;
+    }
+  }
+
+  int _getFilteredResultsCount() {
+    final provider = Provider.of<HymnProvider>(context, listen: false);
+    return provider.searchResults.length;
+  }
+
+  void _clearHymnalFilter() {
+    final provider = Provider.of<HymnProvider>(context, listen: false);
+    final parsedQuery = SearchQueryParser.parse(provider.searchQuery);
+    
+    // If there's search text without hymnal filter, keep just the search text
+    if (parsedQuery.searchText.isNotEmpty) {
+      _searchController.text = parsedQuery.searchText;
+      _performSearch(parsedQuery.searchText);
+    } else {
+      // Clear the entire search
+      _clearSearch();
+    }
   }
 
   Widget _buildCollectionFilters(HymnProvider provider) {

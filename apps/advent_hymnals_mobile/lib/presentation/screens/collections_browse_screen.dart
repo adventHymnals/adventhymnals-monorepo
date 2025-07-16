@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/data/collections_data_manager.dart';
+import '../../core/services/collection_sorting_service.dart';
 
 class CollectionsBrowseScreen extends StatefulWidget {
   const CollectionsBrowseScreen({super.key});
@@ -16,6 +17,7 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
   List<CollectionInfo> _collections = [];
   List<String> _selectedLanguages = [];
   bool _isLoading = true;
+  CollectionSortBy _currentSortBy = CollectionSortBy.title;
 
   @override
   void initState() {
@@ -27,10 +29,14 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
 
   Future<void> _loadCollections() async {
     try {
+      // Load saved sorting preference
+      final savedSortBy = await CollectionSortingService.loadSortPreference();
+      
       final collectionsDataManager = CollectionsDataManager();
       final collections = await collectionsDataManager.getCollectionsList();
       
       setState(() {
+        _currentSortBy = savedSortBy;
         _collections = collections;
         _isLoading = false;
       });
@@ -63,6 +69,9 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
           collection.year.toString().contains(query)
       ).toList();
     }
+    
+    // Apply sorting
+    filtered = CollectionSortingService.sortCollections(filtered, _currentSortBy);
     
     return filtered;
   }
@@ -98,6 +107,11 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
         title: const Text(AppStrings.collectionsTitle),
         elevation: 0,
         actions: [
+          IconButton(
+            icon: const Icon(Icons.sort),
+            onPressed: _showSortDialog,
+            tooltip: 'Sort Collections',
+          ),
           IconButton(
             icon: const Icon(Icons.filter_list),
             onPressed: _showFilterDialog,
@@ -360,6 +374,45 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
       default:
         return code.toUpperCase();
     }
+  }
+
+  void _showSortDialog() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Sort Collections'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: CollectionSortBy.values.map((sortBy) => RadioListTile<CollectionSortBy>(
+            title: Text(sortBy.displayName),
+            value: sortBy,
+            groupValue: _currentSortBy,
+            onChanged: (value) {
+              if (value != null) {
+                _changeSortBy(value);
+                Navigator.pop(context);
+              }
+            },
+            dense: true,
+          )).toList(),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Cancel'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Future<void> _changeSortBy(CollectionSortBy newSortBy) async {
+    setState(() {
+      _currentSortBy = newSortBy;
+    });
+    
+    // Save the preference
+    await CollectionSortingService.saveSortPreference(newSortBy);
   }
 
   void _showFilterDialog() {

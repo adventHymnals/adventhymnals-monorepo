@@ -12,6 +12,21 @@ class BrowseHubScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text(AppStrings.browseTitle),
         elevation: 0,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            try {
+              context.go('/home');
+            } catch (e) {
+              print('❌ [BrowseHubScreen] Navigation error: $e');
+              // Fallback to Navigator.pop if context.go fails
+              if (Navigator.of(context).canPop()) {
+                Navigator.of(context).pop();
+              }
+            }
+          },
+          tooltip: 'Back to Home',
+        ),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(AppSizes.spacing16),

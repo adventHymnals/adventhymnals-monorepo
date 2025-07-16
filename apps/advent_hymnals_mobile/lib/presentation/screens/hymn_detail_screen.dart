@@ -6,12 +6,27 @@ import 'package:go_router/go_router.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/services/projector_service.dart';
 import '../../core/data/hymn_data_manager.dart';
+import '../../core/database/database_helper.dart';
+
 import '../providers/favorites_provider.dart';
 import '../providers/audio_player_provider.dart';
 import '../providers/hymn_provider.dart';
 import '../providers/recently_viewed_provider.dart';
 import '../../domain/entities/hymn.dart';
 import '../widgets/banner_ad_widget.dart';
+
+// Simple inline model for lyrics sections
+class LyricsSection {
+  final String type; // "verse", "chorus", "bridge", "refrain"
+  final int number; // verse number (1, 2, 3, etc.)
+  final String content; // the actual text content
+
+  const LyricsSection({
+    required this.type,
+    required this.number,
+    required this.content,
+  });
+}
 
 class HymnDetailScreen extends StatefulWidget {
   final int hymnId;
@@ -133,17 +148,45 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   
   Future<void> _addToRecentlyViewed() async {
     try {
-      // Only add to recently viewed if we have a loaded hymn with a valid database ID
-      if (_hymn == null || _hymn!.id <= 0) {
-        print('⚠️ [HymnDetail] Cannot add to recently viewed: hymn not loaded or invalid ID');
+      if (_hymn == null) {
+        print('⚠️ [HymnDetail] Cannot add to recently viewed: hymn not loaded');
         return;
       }
       
+      print('🔍 [HymnDetail] Adding hymn ${_hymn!.id} (${_hymn!.title}) to recently viewed');
+      
+      // If the hymn doesn't have a proper database ID (loaded from JSON), 
+      // try to find it in the database first
+      int? databaseId = _hymn!.id;
+      if (databaseId <= 0) {
+        print('🔄 [HymnDetail] Hymn has invalid database ID, searching by hymn number and collection');
+        // Try to find the hymn in the database by hymn number and collection
+        final db = DatabaseHelper.instance;
+        final hymns = await db.getHymns();
+        final matchingHymn = hymns.where((h) => 
+          h['hymn_number'] == _hymn!.hymnNumber && 
+          h['title'] == _hymn!.title
+        ).firstOrNull;
+        
+        if (matchingHymn != null) {
+          databaseId = matchingHymn['id'] as int;
+          print('✅ [HymnDetail] Found matching hymn in database with ID: $databaseId');
+        } else {
+          print('⚠️ [HymnDetail] Could not find hymn in database, skipping recently viewed');
+          return;
+        }
+      }
+      
       final recentlyViewedProvider = Provider.of<RecentlyViewedProvider>(context, listen: false);
-      await recentlyViewedProvider.addRecentlyViewed(_hymn!.id);
-      print('✅ [HymnDetail] Added hymn ${_hymn!.id} (${_hymn!.title}) to recently viewed');
+      final success = await recentlyViewedProvider.addRecentlyViewed(databaseId);
+      
+      if (success) {
+        print('✅ [HymnDetail] Successfully added hymn $databaseId (${_hymn!.title}) to recently viewed');
+      } else {
+        print('❌ [HymnDetail] Failed to add hymn $databaseId to recently viewed');
+      }
     } catch (e) {
-      print('⚠️ [HymnDetail] Failed to add to recently viewed: $e');
+      print('❌ [HymnDetail] Exception while adding to recently viewed: $e');
       // Don't show error to user as this is not critical functionality
     }
   }
@@ -164,6 +207,140 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     } catch (e) {
       print('⚠️ [HymnDetail] Failed to load favorite status: $e');
     }
+  }
+
+  void _handleHorizontalDragEnd(DragEndDetails details) {
+    // Check if the swipe velocity is significant enough
+    const double minSwipeVelocity = 500.0;
+    
+    if (details.primaryVelocity == null) return;
+    
+    final double velocity = details.primaryVelocity!;
+    
+    if (velocity.abs() < minSwipeVelocity) return;
+    
+    // Add haptic feedback for swipe gestures
+    HapticFeedback.lightImpact();
+    
+    if (velocity > 0) {
+      // Swipe right - go to previous hymn
+      _navigateToPreviousHymn();
+    } else {
+      // Swipe left - go to next hymn
+      _navigateToNextHymn();
+    }
+  }
+
+  void _navigateToNextHymn() {
+    if (_hymn == null || widget.collectionId == null) {
+      _showNavigationFeedback('Unable to navigate: hymn or collection not loaded');
+      return;
+    }
+
+    try {
+      // Get the current hymn provider to access the hymns in the collection
+      final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
+      final hymns = hymnProvider.hymns;
+      
+      if (hymns.isEmpty) {
+        _showNavigationFeedback('No hymns available in collection');
+        return;
+      }
+
+      // Find hymns in the same collection, sorted by hymn number
+      final collectionHymns = hymns
+          .where((h) => h.collectionAbbreviation?.toLowerCase() == widget.collectionId?.toLowerCase())
+          .toList()
+        ..sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
+
+      if (collectionHymns.isEmpty) {
+        _showNavigationFeedback('No hymns found in this collection');
+        return;
+      }
+
+      // Find current hymn index
+      final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
+      
+      if (currentIndex == -1) {
+        _showNavigationFeedback('Current hymn not found in collection');
+        return;
+      }
+
+      // Check if we're at the last hymn
+      if (currentIndex >= collectionHymns.length - 1) {
+        _showNavigationFeedback('This is the last hymn in the collection');
+        return;
+      }
+
+      // Navigate to next hymn
+      final nextHymn = collectionHymns[currentIndex + 1];
+      context.pushReplacement('/hymn/${nextHymn.hymnNumber}?collection=${widget.collectionId}&fromSource=${widget.fromSource ?? 'swipe'}');
+      
+    } catch (e) {
+      print('❌ [HymnDetail] Error navigating to next hymn: $e');
+      _showNavigationFeedback('Error navigating to next hymn');
+    }
+  }
+
+  void _navigateToPreviousHymn() {
+    if (_hymn == null || widget.collectionId == null) {
+      _showNavigationFeedback('Unable to navigate: hymn or collection not loaded');
+      return;
+    }
+
+    try {
+      // Get the current hymn provider to access the hymns in the collection
+      final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
+      final hymns = hymnProvider.hymns;
+      
+      if (hymns.isEmpty) {
+        _showNavigationFeedback('No hymns available in collection');
+        return;
+      }
+
+      // Find hymns in the same collection, sorted by hymn number
+      final collectionHymns = hymns
+          .where((h) => h.collectionAbbreviation?.toLowerCase() == widget.collectionId?.toLowerCase())
+          .toList()
+        ..sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
+
+      if (collectionHymns.isEmpty) {
+        _showNavigationFeedback('No hymns found in this collection');
+        return;
+      }
+
+      // Find current hymn index
+      final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
+      
+      if (currentIndex == -1) {
+        _showNavigationFeedback('Current hymn not found in collection');
+        return;
+      }
+
+      // Check if we're at the first hymn
+      if (currentIndex <= 0) {
+        _showNavigationFeedback('This is the first hymn in the collection');
+        return;
+      }
+
+      // Navigate to previous hymn
+      final previousHymn = collectionHymns[currentIndex - 1];
+      context.pushReplacement('/hymn/${previousHymn.hymnNumber}?collection=${widget.collectionId}&fromSource=${widget.fromSource ?? 'swipe'}');
+      
+    } catch (e) {
+      print('❌ [HymnDetail] Error navigating to previous hymn: $e');
+      _showNavigationFeedback('Error navigating to previous hymn');
+    }
+  }
+
+  void _showNavigationFeedback(String message) {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(message),
+        duration: const Duration(seconds: 2),
+        behavior: SnackBarBehavior.floating,
+      ),
+    );
   }
 
   @override
@@ -212,7 +389,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     final hymn = _hymn!;
     return Scaffold(
       appBar: AppBar(
-        title: Text(hymn.title),
+        title: _buildOptimizedTitle(hymn),
         elevation: 0,
         leading: _buildBackButton(),
         actions: [
@@ -305,103 +482,39 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           ),
         ],
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            // Header Section
-            _buildHeader(),
-            
-            // Format Selector
-            _buildFormatSelector(),
-            
-            // Content Section
-            _buildContent(),
-            
-            // Banner Ad
-            const BannerAdWidget(),
-            
-            // Metadata Section
-            _buildMetadata(),
-            
-            // Scripture References
-            if (_hymn!.scriptureRefs != null && _hymn!.scriptureRefs!.isNotEmpty) _buildScriptureReferences(),
-            
-            // Related Hymns
-            _buildRelatedHymns(),
-            
-            const SizedBox(height: AppSizes.spacing24),
-          ],
+      body: GestureDetector(
+        onHorizontalDragEnd: _handleHorizontalDragEnd,
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              // Format Selector
+              _buildFormatSelector(),
+              
+              // Content Section
+              _buildContent(),
+              
+              // Banner Ad
+              const BannerAdWidget(),
+              
+              // Metadata Section
+              _buildMetadata(),
+              
+              // Scripture References
+              if (_hymn!.scriptureRefs != null && _hymn!.scriptureRefs!.isNotEmpty) _buildScriptureReferences(),
+              
+              // Related Hymns
+              _buildRelatedHymns(),
+              
+              const SizedBox(height: AppSizes.spacing24),
+            ],
+          ),
         ),
       ),
     );
   }
 
-  Widget _buildHeader() {
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(AppSizes.spacing20),
-      decoration: const BoxDecoration(
-        gradient: LinearGradient(
-          colors: [
-            Color(AppColors.primaryBlue),
-            Color(AppColors.secondaryBlue),
-          ],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: AppSizes.spacing12,
-                  vertical: AppSizes.spacing8,
-                ),
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
-                ),
-                child: Text(
-                  '#${_hymn!.hymnNumber}',
-                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-              const SizedBox(width: AppSizes.spacing12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      _hymn!.title,
-                      style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: AppSizes.spacing4),
-                    Text(
-                      'Adventist Hymnal',
-                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                        color: Colors.white.withOpacity(0.9),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ],
-      ),
-    );
-  }
+
 
   Widget _buildFormatSelector() {
     return Container(
@@ -505,21 +618,23 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   Widget _buildLyricsContent() {
     final hymn = _hymn!;
     
-    // If we have structured lyrics (verse by verse), use that
+    // If we have lyrics, parse them into verses with proper labeling
     if (hymn.lyrics != null && hymn.lyrics!.isNotEmpty) {
-      // Split lyrics into verses (assuming they're separated by double newlines)
-      final verses = hymn.lyrics!.split('\\n\\n').where((v) => v.trim().isNotEmpty).toList();
+      // Split lyrics into sections (verses, chorus, etc.)
+      final sections = _parseLyricsIntoSections(hymn.lyrics!);
       
-      return Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          for (int i = 0; i < verses.length; i++) ...[
-            _buildVerse(verses[i], i + 1),
-            if (i < verses.length - 1)
-              const SizedBox(height: AppSizes.spacing16),
+      if (sections.isNotEmpty) {
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            for (int i = 0; i < sections.length; i++) ...[
+              _buildLyricsSection(sections[i]),
+              if (i < sections.length - 1)
+                const SizedBox(height: AppSizes.spacing16),
+            ],
           ],
-        ],
-      );
+        );
+      }
     }
     
     // Fallback if no lyrics
@@ -547,6 +662,21 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         ],
       ),
     );
+  }
+
+  Widget _buildLyricsSection(LyricsSection section) {
+    switch (section.type.toLowerCase()) {
+      case 'verse':
+        return _buildVerse(section.content, section.number);
+      case 'chorus':
+        return _buildChorus(section.content);
+      case 'refrain':
+        return _buildRefrain(section.content);
+      case 'bridge':
+        return _buildBridge(section.content);
+      default:
+        return _buildVerse(section.content, section.number);
+    }
   }
 
   Widget _buildVerse(String verse, int number) {
@@ -619,6 +749,83 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               height: 1.6,
               fontStyle: FontStyle.italic,
             ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildRefrain(String refrain) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Container(
+          padding: const EdgeInsets.symmetric(
+            horizontal: AppSizes.spacing8,
+            vertical: AppSizes.spacing4,
+          ),
+          decoration: BoxDecoration(
+            color: const Color(AppColors.secondaryBlue).withOpacity(0.1),
+            borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+          ),
+          child: Text(
+            'Refrain',
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: const Color(AppColors.secondaryBlue),
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+        ),
+        const SizedBox(height: AppSizes.spacing8),
+        Container(
+          width: double.infinity,
+          padding: const EdgeInsets.all(AppSizes.spacing16),
+          decoration: BoxDecoration(
+            color: const Color(AppColors.secondaryBlue).withOpacity(0.05),
+            borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
+            border: Border.all(
+              color: const Color(AppColors.secondaryBlue).withOpacity(0.2),
+            ),
+          ),
+          child: Text(
+            refrain,
+            style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+              height: 1.6,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildBridge(String bridge) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Container(
+          padding: const EdgeInsets.symmetric(
+            horizontal: AppSizes.spacing8,
+            vertical: AppSizes.spacing4,
+          ),
+          decoration: BoxDecoration(
+            color: const Color(AppColors.purple).withOpacity(0.1),
+            borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+          ),
+          child: Text(
+            'Bridge',
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: const Color(AppColors.purple),
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+        ),
+        const SizedBox(height: AppSizes.spacing8),
+        Text(
+          bridge,
+          style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+            height: 1.6,
+            fontWeight: FontWeight.w500,
           ),
         ),
       ],
@@ -1096,43 +1303,227 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     }
   }
 
+  Widget _buildOptimizedTitle(Hymn hymn) {
+    // Get hymnal abbreviation - use collectionAbbreviation if available, otherwise derive from collectionId
+    String hymnalAbbrev = hymn.collectionAbbreviation ?? 
+                         (widget.collectionId?.toUpperCase() ?? 'HYMN');
+    
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        // Hymnal abbreviation
+        Container(
+          padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+          decoration: BoxDecoration(
+            color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
+            borderRadius: BorderRadius.circular(4),
+          ),
+          child: Text(
+            hymnalAbbrev,
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: Theme.of(context).colorScheme.primary,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+        const SizedBox(width: 8),
+        
+        // Hymn number
+        Text(
+          '#${hymn.hymnNumber}',
+          style: Theme.of(context).textTheme.titleMedium?.copyWith(
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+        const SizedBox(width: 8),
+        
+        // Title (truncated if too long)
+        Expanded(
+          child: Text(
+            hymn.title,
+            style: Theme.of(context).textTheme.titleMedium,
+            overflow: TextOverflow.ellipsis,
+            maxLines: 1,
+          ),
+        ),
+      ],
+    );
+  }
+
+  List<LyricsSection> _parseLyricsIntoSections(String lyrics) {
+    final sections = <LyricsSection>[];
+    
+    // Split by double newlines to get potential sections
+    final rawSections = lyrics.split(RegExp(r'\n\s*\n')).where((s) => s.trim().isNotEmpty).toList();
+    
+    int verseNumber = 1;
+    LyricsSection? chorusSection;
+    
+    for (final rawSection in rawSections) {
+      final trimmedSection = rawSection.trim();
+      if (trimmedSection.isEmpty) continue;
+      
+      final sectionType = _detectSectionType(trimmedSection);
+      
+      switch (sectionType) {
+        case 'chorus':
+        case 'refrain':
+          // Store chorus/refrain for later repetition
+          final cleanContent = _cleanSectionContent(trimmedSection, sectionType);
+          chorusSection = LyricsSection(
+            type: sectionType,
+            number: 1,
+            content: cleanContent,
+          );
+          sections.add(chorusSection);
+          break;
+          
+        case 'bridge':
+          final cleanContent = _cleanSectionContent(trimmedSection, sectionType);
+          sections.add(LyricsSection(
+            type: 'bridge',
+            number: 1,
+            content: cleanContent,
+          ));
+          break;
+          
+        case 'verse':
+        default:
+          // Treat as verse
+          final cleanContent = _cleanSectionContent(trimmedSection, 'verse');
+          sections.add(LyricsSection(
+            type: 'verse',
+            number: verseNumber,
+            content: cleanContent,
+          ));
+          
+          // Add chorus after verse if it exists and should repeat
+          if (chorusSection != null && verseNumber > 1) {
+            sections.add(chorusSection);
+          }
+          
+          verseNumber++;
+          break;
+      }
+    }
+    
+    return sections;
+  }
+
+  String _detectSectionType(String section) {
+    final firstLine = section.split('\n').first.toLowerCase().trim();
+    
+    // Check for explicit labels
+    if (firstLine.startsWith('chorus') || 
+        firstLine.contains('chorus:')) {
+      return 'chorus';
+    }
+    
+    if (firstLine.startsWith('refrain') ||
+        firstLine.contains('refrain:')) {
+      return 'refrain';
+    }
+    
+    // Check for bridge indicators
+    if (firstLine.startsWith('bridge') || firstLine.contains('bridge:')) {
+      return 'bridge';
+    }
+    
+    // Check for verse indicators
+    if (firstLine.startsWith('verse') || 
+        firstLine.contains('verse') ||
+        RegExp(r'^\d+\.?\s').hasMatch(firstLine)) {
+      return 'verse';
+    }
+    
+    // Check for common chorus/refrain patterns (short sections with repeated words)
+    final lines = section.split('\n').map((l) => l.trim()).where((l) => l.isNotEmpty).toList();
+    if (lines.length <= 4) {
+      final words = section.toLowerCase().split(RegExp(r'\W+'));
+      final wordCounts = <String, int>{};
+      
+      for (final word in words) {
+        if (word.length > 2) {
+          wordCounts[word] = (wordCounts[word] ?? 0) + 1;
+        }
+      }
+      
+      final hasRepeatedWords = wordCounts.values.any((count) => count > 1);
+      if (hasRepeatedWords && lines.length <= 6) {
+        return 'chorus';
+      }
+    }
+    
+    // Default to verse
+    return 'verse';
+  }
+
+  String _cleanSectionContent(String section, String sectionType) {
+    final lines = section.split('\n').map((l) => l.trim()).toList();
+    final cleanedLines = <String>[];
+    
+    for (int i = 0; i < lines.length; i++) {
+      final line = lines[i];
+      if (line.isEmpty) continue;
+      
+      // Skip the first line if it's just a label
+      if (i == 0 && _isLabelLine(line, sectionType)) {
+        continue;
+      }
+      
+      cleanedLines.add(line);
+    }
+    
+    return cleanedLines.join('\n').trim();
+  }
+
+  bool _isLabelLine(String line, String sectionType) {
+    final lowerLine = line.toLowerCase().trim();
+    final cleanLine = lowerLine.replaceAll(RegExp(r'[^\w\s]'), '').trim();
+    
+    switch (sectionType) {
+      case 'chorus':
+        return cleanLine == 'chorus' || cleanLine.startsWith('chorus ');
+      case 'refrain':
+        return cleanLine == 'refrain' || cleanLine.startsWith('refrain ');
+      case 'bridge':
+        return cleanLine == 'bridge' || cleanLine.startsWith('bridge ');
+      case 'verse':
+        return RegExp(r'^verse\s*\d*$').hasMatch(cleanLine) ||
+               RegExp(r'^\d+\.?\s*$').hasMatch(cleanLine);
+      default:
+        return false;
+    }
+  }
+
   Widget _buildBackButton() {
     return IconButton(
       icon: const Icon(Icons.arrow_back),
       onPressed: () {
-        // Handle back navigation based on source
-        if (widget.fromSource != null) {
-          switch (widget.fromSource) {
-            case 'favorites':
-              context.go('/favorites');
-              break;
-            case 'recent':
-              context.go('/recently-viewed');
-              break;
-            case 'home':
-              context.go('/home');
-              break;
-            default:
-              _defaultBackNavigation();
-              break;
+        try {
+          // Always navigate to home screen as per requirements
+          context.go('/home');
+        } catch (e) {
+          // Error handling for navigation failures
+          print('❌ [HymnDetail] Navigation error: $e');
+          // Fallback to Navigator.pop if context.go fails
+          if (Navigator.of(context).canPop()) {
+            Navigator.of(context).pop();
           }
-        } else if (widget.collectionId != null) {
-          // If no source but has collection ID, try to navigate to collection
-          // Note: This assumes collectionId is a valid collection identifier
-          context.go('/collection/${widget.collectionId}');
-        } else {
-          _defaultBackNavigation();
         }
       },
-      tooltip: _getBackTooltip(),
+      tooltip: 'Back to Home',
     );
   }
 
   void _defaultBackNavigation() {
-    if (Navigator.of(context).canPop()) {
-      Navigator.of(context).pop();
-    } else {
+    try {
       context.go('/home');
+    } catch (e) {
+      print('❌ [HymnDetail] Navigation error: $e');
+      if (Navigator.of(context).canPop()) {
+        Navigator.of(context).pop();
+      }
     }
   }
 
