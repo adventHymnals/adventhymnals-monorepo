@@ -1,10 +1,17 @@
 #ifndef PROJECTOR_WINDOW_MANAGER_H_
 #define PROJECTOR_WINDOW_MANAGER_H_
 
-#include <flutter_linux/flutter_linux.h>
-#include <gtk/gtk.h>
 #include <vector>
 #include <string>
+
+// Forward declarations to avoid including GTK headers
+typedef struct _FlView FlView;
+typedef struct _FlMethodChannel FlMethodChannel;
+typedef struct _FlMethodCall FlMethodCall;
+typedef struct _GtkWidget GtkWidget;
+typedef union _GdkEvent GdkEvent;
+typedef int gboolean;
+typedef void* gpointer;
 
 // Structure to hold monitor information
 struct MonitorInfo {
@@ -45,8 +52,11 @@ public:
     // Set fullscreen on specific monitor
     bool SetFullscreenOnMonitor(int monitorIndex);
     
+    // Update content in secondary window
+    bool UpdateContent(const std::string& content);
+    
     // Check if secondary window is open
-    bool IsSecondaryWindowOpen() const { return secondary_window_ != nullptr; }
+    bool IsSecondaryWindowOpen() const;
     
 private:
     // Method channel handler
@@ -58,9 +68,9 @@ private:
     // Window close handler
     static gboolean OnSecondaryWindowClose(GtkWidget* widget, GdkEvent* event, gpointer user_data);
     
-    FlMethodChannel* method_channel_;
-    GtkWidget* secondary_window_;
-    FlView* secondary_view_;
+    void* method_channel_;
+    void* secondary_window_;
+    void* secondary_view_;
     std::vector<MonitorInfo> monitors_;
 };
 
