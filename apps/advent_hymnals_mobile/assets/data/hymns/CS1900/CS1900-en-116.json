@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-116",
+  "number": 116,
+  "title": "Baptize Us Anew",
+  "author": "A. J. Gordon",
+  "composer": "A. J. Gordon",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Baptize us anew with pow'r from on high,\nWith wisdom and love from the Father above;\nBaptize us anew with the spirit of pray'r,\nWith grace that abounds and with blessing to share."
+    },
+    {
+      "number": 2,
+      "text": "Baptize us anew with love burning bright,\nWith zeal that shall conquer the darkness of night;\nBaptize us anew with boldness to stand\nFor Jesus our Lord in this sin-cursed land."
+    },
+    {
+      "number": 3,
+      "text": "Baptize us anew with power divine,\nThat souls may be won to the Savior benign;\nBaptize us anew till our hearts overflow\nWith love that the world through our lives he may know."
+    }
+  ],
+  "chorus": {
+    "text": "Baptize us anew, baptize us anew,\nWith power from on high, with blessing so true;\nBaptize us anew, baptize us anew,\nO Spirit divine, we're waiting for you."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "baptism",
+      "Holy Spirit",
+      "power"
+    ],
+    "scripture_references": [
+      "Acts 1:8"
+    ],
+    "tune_source": "A. J. Gordon",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "Baptize us anew with pow'r from on high"
+  }
+}

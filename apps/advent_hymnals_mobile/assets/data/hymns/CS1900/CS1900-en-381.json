@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-381",
+  "number": 381,
+  "title": "WORKING, O CHRIST, WITH THEE",
+  "author": "Unknown",
+  "composer": "A. J. Gordon",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Work-ing, O Christ, with thee, Work-ing with thee;\nI know that thy glo-ry will shine on me, Work-ing with thee;\nSav-ior, my heart with thee, Work-ing with thee,\nAs work of thine calls for me, Can nev-er be Na-tion or Na-tion."
+    },
+    {
+      "number": 2,
+      "text": "Work-ing, O Christ, with thee, Work-ing with thee;\nI know that thy might wil at-tend on me, Work-ing with thee;\nSav-ior, my heart with thee, Work-ing with thee,\nAs work of thine calls for me, Can nev-er be Na-tion or Na-tion."
+    },
+    {
+      "number": 3,
+      "text": "Work-ing, O Christ, with thee, Work-ing with thee;\nI know that thy love will de-scend on me, Work-ing with thee;\nSav-ior, my heart with thee, Work-ing with thee,\nAs work of thine calls for me, Can nev-er be Na-tion or Na-tion."
+    }
+  ],
+  "chorus": {
+    "text": "Our all to thee we give, For thee a-lone we live,\nThy pow'r and love re-ceive from thee; For thou hast wrought in us\nThy glo-ry-show-ing thru us, We praise thee, and a-dore thee."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "service",
+      "working with Christ",
+      "dedication",
+      "ministry"
+    ],
+    "scripture_references": [],
+    "tune_source": "A. J. Gordon",
+    "original_language": "en"
+  }
+}

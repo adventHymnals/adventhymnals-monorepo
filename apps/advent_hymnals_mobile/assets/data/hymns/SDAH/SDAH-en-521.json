@@ -1,0 +1,46 @@
+{
+  "id": "SDAH-en-521",
+  "number": 521,
+  "title": "Depth of Mercy",
+  "author": "Charles Wesley",
+  "composer": "Carl Gotthelf Gläser",
+  "tune": "Azmon",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Depth of mercy! can there be\nMercy still reserved for me?\nCan my God His wrath forbear?\nMe, the chief of sinners, spare?"
+    },
+    {
+      "number": 2,
+      "text": "I have long withstood His grace,\nLong provoked Him to His face,\nWould not hearken to His calls,\nGrieved Him by a thousand falls."
+    },
+    {
+      "number": 3,
+      "text": "Now incline me to repent;\nLet me now my sins lament;\nNow my foul revolt deplore,\nWeep, believe, and sin no more."
+    },
+    {
+      "number": 4,
+      "text": "There for me the Savior stands,\nShows His wounds and spreads His hands;\nGod is love! I know, I feel;\nJesus weeps, and loves me still."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1740,
+    "copyright": "Public Domain",
+    "themes": [
+      "mercy",
+      "repentance",
+      "forgiveness",
+      "grace",
+      "love"
+    ],
+    "scripture_references": [
+      "1 Timothy 1:15",
+      "Romans 5:20"
+    ],
+    "tune_source": "Carl Gotthelf Gläser",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-248",
+  "number": 248,
+  "title": "Count Your Many Blessings",
+  "author": "Johnson Oatman Jr.",
+  "composer": "E. O. Excell",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Count your man-y bless-ings, name them one by one, And it will sur-prise you what the Lord hath done.\nCount your man-y bless-ings, see what God hath done; Count your man-y bless-ings, name them one by one."
+    },
+    {
+      "number": 2,
+      "text": "Are you ev-er bur-dened with a load of care? Does the cross seem heav-y you are called to bear?\nCount your man-y bless-ings, ev-'ry doubt will fly, And you will be sing-ing as the days go by."
+    },
+    {
+      "number": 3,
+      "text": "When you look at oth-ers with their lands and gold, Think that Christ has prom-ised you His wealth un-told;\nCount your man-y bless-ings, mon-ey can-not buy Your re-ward in heav-en, nor your home on high."
+    },
+    {
+      "number": 4,
+      "text": "So a-mid the con-flict, wheth-er great or small, Do not be dis-cour-aged, God is o-ver all;\nCount your man-y bless-ings, an-gels will at-tend, Help and com-fort give you to your jour-ney's end."
+    }
+  ],
+  "chorus": {
+    "text": "Count your bless-ings, name them one by one;\nCount your bless-ings, see what God hath done;\nCount your bless-ings, name them one by one;\nCount your man-y bless-ings, see what God hath done."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1897, by E. O. Excell.",
+    "themes": [
+      "gratitude",
+      "blessings",
+      "thanksgiving",
+      "encouragement"
+    ],
+    "scripture_references": [],
+    "tune_source": "E. O. Excell",
+    "original_language": "en"
+  }
+}

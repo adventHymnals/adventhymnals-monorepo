@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-317",
+  "number": 317,
+  "title": "Lead Me to Calvary",
+  "author": "Jennie Evelyn Hussey",
+  "composer": "William J. Kirkpatrick",
+  "tune": "DUNCANNON",
+  "meter": "8.7.8.7 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "King of my life, I crown Thee now,\nThine shall the glory be;\nLest I forget Thy thorn-crowned brow,\nLead me to Calvary."
+    },
+    {
+      "number": 2,
+      "text": "Show me the tomb where Thou wast laid,\nTenderly mourned and wept;\nAngels in robes of light arrayed\nGuarded Thee whilst Thou slept."
+    },
+    {
+      "number": 3,
+      "text": "Let me like Mary, thru the gloom,\nCome with a gift to Thee;\nShow me the empty tomb,\nLead me to Calvary."
+    },
+    {
+      "number": 4,
+      "text": "May I be willing, Lord, to bear\nDaily my cross for Thee;\nEven Thy cup of grief to share,\nThou hast borne all for me."
+    }
+  ],
+  "chorus": {
+    "text": "Lest I forget Gethsemane;\nLest I forget Thine agony;\nLest I forget Thy love for me,\nLead me to Calvary."
+  },
+  "metadata": {
+    "themes": [
+      "crucifixion",
+      "remembrance",
+      "sacrifice"
+    ],
+    "scripture_references": [
+      "Matthew 27:33",
+      "Luke 23:33"
+    ],
+    "tune_source": "William J. Kirkpatrick",
+    "original_language": "en"
+  }
+}

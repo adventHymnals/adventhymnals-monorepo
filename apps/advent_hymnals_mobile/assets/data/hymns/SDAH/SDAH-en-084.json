@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-084",
+  "number": 84,
+  "title": "God the Omnipotent",
+  "author": "Henry Fothergill Chorley",
+  "composer": "Alexis Lvov",
+  "tune": "Russian Hymn",
+  "meter": "11.10.11.9",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God the Omnipotent! King, who ordainest\nGreat winds Thy clarions, the lightnings Thy sword;\nShow forth Thy pity on high where Thou reignest:\nGive to us peace, O most merciful Lord."
+    },
+    {
+      "number": 2,
+      "text": "God the all-merciful! earth hath forsaken\nThy precepts holy, and slighted Thy word;\nBid not Thy wrath in its terrors awaken:\nGive to us peace, O most merciful Lord."
+    },
+    {
+      "number": 3,
+      "text": "God the all-righteous One! man hath defied Thee;\nYet to eternity standeth Thy word;\nFalsehood and wrong shall not tarry beside Thee:\nGive to us peace, O most merciful Lord."
+    },
+    {
+      "number": 4,
+      "text": "So shall we render Thee thankful devotion,\nFor Thy deliverance from peril and sword;\nSing in the chorus from ocean to ocean:\nPeace to the nations, and glory, O Lord."
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "God's Power",
+      "Peace",
+      "Mercy",
+      "Justice"
+    ],
+    "scripture_references": [],
+    "tune_source": "Russian Hymn",
+    "original_language": "en"
+  }
+}

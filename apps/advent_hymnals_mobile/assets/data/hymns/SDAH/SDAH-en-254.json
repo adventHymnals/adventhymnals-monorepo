@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-254",
+  "number": 254,
+  "title": "The Great Physician Now Is Near",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The Great Physician now is near,\nThe sympathizing Jesus;\nHe speaks, the drooping heart to cheer,\nO hear the voice of Jesus!"
+    },
+    {
+      "number": 2,
+      "text": "All glory to the dying Lamb!\nI now believe in Jesus;\nI love the blessed Savior's name,\nI love the name of Jesus!"
+    },
+    {
+      "number": 3,
+      "text": "His name dispels my guilt and fear,\nNo other name but Jesus;\nO how my soul delights to hear\nThe precious name of Jesus!"
+    },
+    {
+      "number": 4,
+      "text": "And when He comes to bring the crown\nThe crown of life and glory,\nThen by His side we will sit down,\nAnd tell redemption's story."
+    }
+  ],
+  "chorus": {
+    "text": "Sweetest note in seraph song,\nSweetest name on mortal tongue,\nSweetest carol ever sung\nJesus, blessed Jesus!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Great Physician",
+      "Jesus",
+      "Healing",
+      "Sweet Name",
+      "Glory"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

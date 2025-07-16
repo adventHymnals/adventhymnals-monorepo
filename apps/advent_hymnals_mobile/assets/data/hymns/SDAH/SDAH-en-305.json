@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-305",
+  "number": 305,
+  "title": "Give Me Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In the morning, when I rise,\nIn the morning, when I rise,\nIn the morning, when I rise,\nGive me Jesus."
+    },
+    {
+      "number": 2,
+      "text": "Dark midnight was my cry,\nDark midnight was my cry,\nDark midnight was my cry,\nGive me Jesus."
+    },
+    {
+      "number": 3,
+      "text": "Just about the break of day,\nJust about the break of day,\nJust about the break of day,\nGive me Jesus."
+    },
+    {
+      "number": 4,
+      "text": "Oh, when I come to die,\nOh, when I come to die,\nOh, when I come to die,\nGive me Jesus."
+    }
+  ],
+  "chorus": {
+    "text": "Give me Jesus, Give me Jesus,\nYou may have all this world,\nGive me Jesus."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Jesus Christ",
+      "Spiritual",
+      "Prayer",
+      "Life Journey",
+      "Death"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

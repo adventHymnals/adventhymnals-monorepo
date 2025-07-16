@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-144",
+  "number": 144,
+  "title": "Broad Is the Road",
+  "author": "Mrs. R. R. Forman",
+  "composer": "Geo. C. Hugg",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Broad is the road that leads to death, And thou - sands walk to - ge - ther there; But wis - dom shows a nar - row path, With here and there a trav - el - er."
+    },
+    {
+      "number": 2,
+      "text": "De - ny thy - self and take thy cross, Is the Re - deem - er's great com - mand; Na - ture must count her gold but dross, If she would gain that heav'n - ly land."
+    },
+    {
+      "number": 3,
+      "text": "The fear - ful soul that tires and faints, And walks the ways of God no more, Is but es - teemed al - most with saints, But nev - er en - ters heav - en's door."
+    },
+    {
+      "number": 4,
+      "text": "Lord, let not all my hopes be vain, Cre - ate my heart en - tire - ly new; Which hyp - o - crites could ne'er at - tain, Which false a - pos - tles nev - er knew."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "narrow way",
+      "cross",
+      "sacrifice",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Matthew 7:13-14"
+    ],
+    "tune_source": "Geo. C. Hugg",
+    "original_language": "en"
+  }
+}

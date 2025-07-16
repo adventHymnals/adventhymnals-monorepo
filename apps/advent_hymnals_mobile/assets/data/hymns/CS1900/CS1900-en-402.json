@@ -1,0 +1,43 @@
+{
+  "id": "CS1900-en-402",
+  "number": 402,
+  "title": "Silent Messengers",
+  "author": "Thomas Hastings",
+  "composer": "J. L. Holden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Go when the morn-ing shin-eth, Go when the noon is bright,\nGo when the eve de-clin-eth, Go in the hush of night;\nGo with pure mind and feel-ing, Fling earth-ly thought a-way,\nAnd in thy clos-et kneel-ing, Do thou in se-cret pray."
+    },
+    {
+      "number": 2,
+      "text": "Go with the voice of sing-ing, Go with the voice of prayer,\nGo with the joy of bring-ing Those who are sad with care;\nGo with the heart that's burn-ing, Go with the heart that's true,\nAnd in thy glad re-turn-ing, Thy joy shall be re-new."
+    },
+    {
+      "number": 3,
+      "text": "Go with your small and dai-ly, Go with your great and high,\nGo with your hopes and fail-ly, Go with your des-tin-y;\nGo with the old and ho-ly, Go with the young and free,\nGo with the meek and low-ly, Go with the high de-gree."
+    },
+    {
+      "number": 4,
+      "text": "Go but not man-ward lean-ing, But learn the mean-ing well,\nGo but not earth-ward seem-ing, But learn the sto-ry tell;\nGo but not for-ward pressed, But learn the love-ly part,\nGo but not self-ex-pressed, But learn the qui-et heart."
+    }
+  ],
+  "chorus": {
+    "text": "Si-lent mes-sen-gers, Go ye forth,\nSo car-ry Love's ban-ner to the North,\nSi-lent mes-sen-gers, Go ye forth,\nFrom South to North, From South to North, Si-lent mes-sen-gers East and West, Si-lent mes-sen-gers, Go ye forth."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "missionary",
+      "evangelism",
+      "service"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. L. Holden",
+    "original_language": "en"
+  }
+}

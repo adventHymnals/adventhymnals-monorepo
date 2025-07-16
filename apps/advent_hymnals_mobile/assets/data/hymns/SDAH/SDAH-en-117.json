@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-117",
+  "number": 117,
+  "title": "The Advent of Our God",
+  "author": "Charles Coffin; trans. John Chandler",
+  "composer": "Aaron Williams",
+  "tune": "St. Thomas",
+  "meter": "SM",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The advent of our God\nWith eager prayers we greet,\nAnd singing haste upon His road\nHis coming reign to meet."
+    },
+    {
+      "number": 2,
+      "text": "The everlasting Son\nWas born to make us free;\nHe a servant's form put on\nTo gain our liberty."
+    },
+    {
+      "number": 3,
+      "text": "As Judge, on clouds of light,\nHe soon will come again,\nAnd scat his foes to endless night,\nWith them in heaven to reign."
+    },
+    {
+      "number": 4,
+      "text": "Praise to the incarnate Son\nWho comes to set us free,\nSpirit, it, ever one,\nTo all eternity."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1736,
+    "copyright": "Public Domain",
+    "themes": [
+      "Advent",
+      "Second Coming",
+      "Christ's Kingship",
+      "Trinity"
+    ],
+    "scripture_references": [
+      "Revelation 1:7",
+      "Philippians 2:6-11"
+    ],
+    "tune_source": "Aaron Williams, 1763",
+    "original_language": "la"
+  }
+}

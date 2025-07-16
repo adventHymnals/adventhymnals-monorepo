@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-312",
+  "number": 312,
+  "title": "Thy Glory Fills the Heavens",
+  "author": "R. M. McC",
+  "composer": "J. H. Maunder",
+  "tune": "Patrin",
+  "meter": "8, 8, 8, 8, 8, 8.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, thy glory fills the heavens, Earth is with its fullness stored; Unto thee be glory given, Holy, holy, holy Lord."
+    },
+    {
+      "number": 2,
+      "text": "Heaven is still with glory ringing, Earth takes up the angels' cry, Holy, holy, holy, singing, God of hosts, the Lord most high."
+    },
+    {
+      "number": 3,
+      "text": "Ever thus, in God's high praises, Brethren, let our tongues unite, While our thoughts his greatness raises, And our love his gifts requite."
+    },
+    {
+      "number": 4,
+      "text": "With his seraph train before him, With his holy church below, Thus unite we to adore him, Bid we thus our anthems flow."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "glory",
+      "worship",
+      "holiness",
+      "praise"
+    ],
+    "scripture_references": [
+      "Isaiah 6:3"
+    ],
+    "tune_source": "J. H. Maunder",
+    "original_language": "en"
+  }
+}

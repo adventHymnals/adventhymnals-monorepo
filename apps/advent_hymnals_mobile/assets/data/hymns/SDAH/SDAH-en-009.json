@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-009",
+  "number": 9,
+  "title": "Let All the World in Every Corner Sing",
+  "author": "George Herbert",
+  "composer": "Robert G. McCutchan",
+  "tune": "All the World",
+  "meter": "10.4.6.6.6.6.10.4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Let all the world in every corner sing, My God and King!\nThe heavens are not too high, His praise may thither fly;\nThe earth is not too low, His praises there may grow.\nLet all the world in every corner sing, My God and King!"
+    },
+    {
+      "number": 2,
+      "text": "Let all the world in every corner sing, My God and King!\nThe church with psalms must shout, No door can keep them out;\nBut above all, the heart Must bear the longest part.\nLet all the world in every corner sing, My God and King!"
+    }
+  ],
+  "metadata": {
+    "year": 1633,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "worship",
+      "universal",
+      "creation"
+    ],
+    "scripture_references": [
+      "Psalm 148",
+      "Psalm 150"
+    ],
+    "tune_source": "Robert G. McCutchan, 1930",
+    "original_language": "en"
+  }
+}

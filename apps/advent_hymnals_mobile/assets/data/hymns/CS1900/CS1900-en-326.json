@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-326",
+  "number": 326,
+  "title": "Precious Jesus",
+  "author": "J. Edmeston",
+  "composer": "Arranged",
+  "tune": "Sawley",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lead us, heavenly Father, lead us O'er the world's tempestuous sea; Guard us, guide us, keep us, feed us, For we have no help but thee."
+    },
+    {
+      "number": 2,
+      "text": "Savior, breathe forgiveness o'er us, All our weakness thou dost know; Thou didst tread this earth before us, Thou didst feel its keenest woe."
+    },
+    {
+      "number": 3,
+      "text": "Spirit of our God, descending, Fill our hearts with heavenly joy; Love with every passion blending, Pleasure that can never cloy."
+    },
+    {
+      "number": 4,
+      "text": "Thus provided, pardoned, guided, Nothing can our peace destroy; We are with the Lord provided, And possess the heavenly joy."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "guidance",
+      "Trinity",
+      "providence",
+      "peace"
+    ],
+    "scripture_references": [
+      "Psalm 23:1"
+    ],
+    "tune_source": "Arranged",
+    "original_language": "en"
+  }
+}

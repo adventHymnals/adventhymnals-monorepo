@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-138",
+  "number": 138,
+  "title": "Rise Up, Shepherd, and Follow",
+  "author": "African American Spiritual",
+  "composer": "African American Spiritual",
+  "tune": "Rise Up, Shepherd",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There's a star in the east on Christmas morn,\nRise up, shepherd, and follow.\nIt will lead to the place where the Savior's born,\nRise up, shepherd, and follow."
+    },
+    {
+      "number": 2,
+      "text": "If you take good heed to the angel's words,\nRise up, shepherd, and follow.\nYou'll forget your flocks, you'll forget your herds,\nRise up, shepherd, and follow."
+    }
+  ],
+  "chorus": {
+    "text": "Leave your sheep and leave your lambs,\nRise up, shepherd, and follow.\nLeave your ewes and leave your rams,\nRise up, shepherd, and follow.\nFollow, follow, rise up shepherd and follow.\nFollow the star of Bethlehem,\nRise up, shepherd, and follow."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "christmas",
+      "shepherds",
+      "star",
+      "following",
+      "nativity"
+    ],
+    "scripture_references": [
+      "Luke 2:8-20"
+    ],
+    "tune_source": "African American Spiritual",
+    "original_language": "en"
+  }
+}

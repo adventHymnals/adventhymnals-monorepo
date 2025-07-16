@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-343",
+  "number": 343,
+  "title": "I Will Sing of My Redeemer",
+  "author": "Philip P. Bliss",
+  "composer": "James McGranahan",
+  "tune": "MY REDEEMER",
+  "meter": "8.7.8.7.D with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I will sing of my Redeemer, And His wondrous love to me; On the cruel cross He suffered, From the curse to set me free."
+    },
+    {
+      "number": 2,
+      "text": "I will tell the wondrous story, How my lost estate to save, In His boundless love and mercy, He the ransom freely gave."
+    },
+    {
+      "number": 3,
+      "text": "I will sing of my Redeemer, And His heavenly love to me; He from death to life hath brought me, Son of God, with Him to be."
+    }
+  ],
+  "chorus": {
+    "text": "Sing, Oh, sing of my Redeemer, With His blood He purchased me; On the cross He sealed my pardon, Paid the debt and made me free."
+  },
+  "metadata": {
+    "year": 1876,
+    "copyright": null,
+    "themes": [
+      "Redemption",
+      "Jesus Christ",
+      "Cross",
+      "Salvation"
+    ],
+    "scripture_references": [
+      "Galatians 3:13",
+      "1 Peter 1:18-19"
+    ],
+    "tune_source": "James McGranahan",
+    "original_language": "en"
+  }
+}

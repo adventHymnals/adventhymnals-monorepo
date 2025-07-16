@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-719",
+  "number": 719,
+  "title": "Break, Eternal Day",
+  "author": "Johnson",
+  "composer": "Johnson",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Break, e-ter-nal day! Break, e-ter-nal day!\nDis-perse the gloom of sin and woe, Break, e-ter-nal day!"
+    },
+    {
+      "number": 2,
+      "text": "Let the light of heav-en shine, Let the light of heav-en shine,\nIn this heart of mine, Break, e-ter-nal day!"
+    },
+    {
+      "number": 3,
+      "text": "Come, thou bless-ed Prince of Peace, Come, thou bless-ed Prince of Peace,\nBid all con-flict cease, Break, e-ter-nal day!"
+    }
+  ],
+  "chorus": {
+    "text": "Break, e-ter-nal day! Break, e-ter-nal day!\nDis-perse the gloom of sin and woe, Break, e-ter-nal day!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "eternal life",
+      "light",
+      "peace",
+      "redemption"
+    ],
+    "scripture_references": [],
+    "tune_source": "Johnson",
+    "original_language": "en"
+  }
+}

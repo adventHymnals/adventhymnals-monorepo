@@ -1,0 +1,47 @@
+{
+  "id": "SDAH-en-443",
+  "number": 443,
+  "title": "There'll Be No Sorrow There",
+  "author": "S. Fillmore Bennett",
+  "composer": "S. Fillmore Bennett",
+  "tune": "SWEET BY AND BY",
+  "meter": "9.9.9.9 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There'll be no night in heaven;\nIn that blest world above;\nNo anxious toil, no weary hours;\nFor labor there is love."
+    },
+    {
+      "number": 2,
+      "text": "There'll be no grief in heaven;\nFor life is one glad day,\nAnd tears are those of former things\nWhich all have passed away."
+    },
+    {
+      "number": 3,
+      "text": "There'll be no sin in heaven;\nBehold that blessed throng,\nAll holy in their spotless robes,\nAll holy in their song."
+    },
+    {
+      "number": 4,
+      "text": "There'll be no sorrow there;\nThere'll be no sorrow there;\nIn heaven above, where all is love,\nThere'll be no sorrow there."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1868,
+    "copyright": "Public Domain",
+    "themes": [
+      "heaven",
+      "no sorrow",
+      "eternal joy",
+      "no sin",
+      "perfect love"
+    ],
+    "scripture_references": [
+      "Revelation 21:4",
+      "Revelation 22:5",
+      "Revelation 7:16-17"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

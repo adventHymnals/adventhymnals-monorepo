@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-212",
+  "number": 212,
+  "title": "'Tis Almost Time for the Lord to Come",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'Tis almost time for the Lord to come,\nI hear the people say;\nThe stars of heaven are growing dim,\nIt must be the breaking of the"
+    },
+    {
+      "number": 2,
+      "text": "The signs foretold in the sun and moon,\nIn earth and sea and sky,\nA loud proclaim to all mankind,\nThe coming of the Master draweth"
+    },
+    {
+      "number": 3,
+      "text": "It must be time for the waiting church\nTo cast her pride away,\nWith girded loins and burning lamps,\nTo look for the breaking of the"
+    },
+    {
+      "number": 4,
+      "text": "Go quickly out in the streets and lanes\nAnd in the broad highway,\nAnd call the maimed, the halt, and blind,\nTo be ready for the breaking of the"
+    }
+  ],
+  "chorus": {
+    "text": "O it must be the breaking of the day!\nO it must be the breaking of the day!\nThe night is almost gone, The day is coming on;\nO it must be the breaking of the day!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Signs of Times",
+      "Preparation",
+      "Breaking Day",
+      "Readiness"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

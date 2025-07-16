@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-006",
+  "number": 6,
+  "title": "Make Room for Jesus",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Have you a - ny room for Je - sus, He who bore your load of sin? Has he found when bless there was no room to come in? And did thou a try room-for Je - sus? Not one room in all the inn; Have you a - ny room for Je - sus? Not one room in all the inn."
+    },
+    {
+      "number": 2,
+      "text": "Room for pleasure, room for business, But for Christ the crucified; Not a place that he can enter in the heart for which he died? Have you a - ny room for Je - sus? Not one room in all the inn."
+    },
+    {
+      "number": 3,
+      "text": "Room for Jesus, King of Glory? Hasten now, his word obey; Swing the heart's door wide- ly open, Bid him enter while you may. Have you a - ny room for Je - sus? With his heav - ly grace to fill - ering love and free?"
+    }
+  ],
+  "refrain": {
+    "text": "Room for Jesus, King of Glory! Hasten now, his word obey; Have you a - ny room? Have you a - ny room? Have you a - ny room for Je - sus? Make room! make room! Make room for Je - sus!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1895, by F. E. Belden",
+    "themes": [
+      "invitation",
+      "room",
+      "Jesus",
+      "heart",
+      "welcome",
+      "inn"
+    ],
+    "scripture_references": [
+      "Luke 2:7"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

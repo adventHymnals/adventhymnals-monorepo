@@ -1,0 +1,49 @@
+{
+  "id": "SDAH-en-428",
+  "number": 428,
+  "title": "There's a Song in the Air",
+  "author": "Josiah G. Holland",
+  "composer": "Karl P. Harrington",
+  "tune": "CHRISTMAS SONG",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There's a song in the air!\nThere's a star in the sky!\nThere's a mother's deep prayer\nAnd a baby's low cry!"
+    },
+    {
+      "number": 2,
+      "text": "There's a tumult of joy\nO'er the wonderful birth,\nFor the virgin's sweet boy\nIs the Lord of the earth."
+    },
+    {
+      "number": 3,
+      "text": "In the light of that star\nLie the ages impearled;\nAnd that song from afar\nHas swept over the world."
+    },
+    {
+      "number": 4,
+      "text": "We rejoice in the light,\nAnd we echo the song\nThat comes down through the night\nFrom the heavenly throng."
+    }
+  ],
+  "chorus": {
+    "text": "And the star rains its fire while the beautiful sing,\nFor the manger of Bethlehem cradles a King!\nAye! the star rains its fire while the beautiful sing,\nEv'ry hearth is aflame, and the beautiful sing\nIn the homes of the nations that Jesus is King!\nAnd we greet in His cradle our Savior and King!"
+  },
+  "metadata": {
+    "year": 1879,
+    "copyright": "Public Domain",
+    "themes": [
+      "Christmas",
+      "nativity",
+      "Jesus birth",
+      "celebration",
+      "joy"
+    ],
+    "scripture_references": [
+      "Luke 2:7-14",
+      "Matthew 2:1-2",
+      "Isaiah 9:6"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

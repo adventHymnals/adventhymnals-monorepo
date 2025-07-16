@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-102",
+  "number": 102,
+  "title": "Unto the Hills",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Unto the hills around shall I lift up\nmy longing eyes?\nO whence for me shall my salvation come,\nfrom whence arise?\nFrom God the Lord doth come my certain aid,\nFrom God the Lord, who heaven and earth hath made."
+    },
+    {
+      "number": 2,
+      "text": "He will not suffer that thy foot be moved;\nsafe shalt Thou be.\nNo careless slumber shall His eyelids close,\nwho keepeth thee.\nBehold, He that keepeth Israel, He\nshall slumber not, nor sleep eternally."
+    },
+    {
+      "number": 3,
+      "text": "Jehovah is Himself thy keeper true,\nthy changeless shade;\nJehovah thy defense on thy right hand\nHimself hath made.\nAnd thee no sun by day shall ever smite;\nno moon shall harm thee in the silent night."
+    },
+    {
+      "number": 4,
+      "text": "From every evil shall preserve thy soul,\nfrom every sin;\nJehovah shall preserve thy going out,\nthy coming in.\nThe Lord shall keep thee henceforth, yea, for evermore."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "protection",
+      "trust",
+      "divine_care",
+      "psalm_121"
+    ],
+    "scripture_references": [
+      "Psalm 121"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

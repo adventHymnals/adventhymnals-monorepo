@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-417",
+  "number": 417,
+  "title": "Stand on the Rock",
+  "author": "Dr. G. A. Blackader",
+  "composer": "W. H. Doane",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Firmly stand for God, in the world's mad strife, Tho' the black'ning and the waves beat high; 'Tis life, Firmly stand for Truth, with a noble soul, With a true heart hold, and a will of steel, 'Tis life, Firmly stand for Truth, it will serve you best; Tho' it walk eth lone, it is sure at last; 'Tis life."
+    }
+  ],
+  "chorus": {
+    "text": "Rock along giveth sound and lift, When the tent of sin are night. Rock along giveth sound and rest, When the storms of life are past. Rock along giveth sound and rest, When the storms of life are past."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of Dr. W. H. Doane.",
+    "themes": [
+      "standing firm",
+      "truth",
+      "rock of salvation"
+    ],
+    "scripture_references": [
+      "Matthew 7:24-25"
+    ],
+    "tune_source": "W. H. Doane",
+    "original_language": "en"
+  }
+}

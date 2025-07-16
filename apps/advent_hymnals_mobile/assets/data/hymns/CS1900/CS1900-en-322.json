@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-322",
+  "number": 322,
+  "title": "Glorious",
+  "author": "Julia H. Johnston",
+  "composer": "Wm. J. Kirkpatrick",
+  "tune": "Glorious",
+  "meter": "8, 7, 8, 7, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Glorious things of thee are spoken, Zion, city of our God! He whose word cannot be broken Formed thee for his own abode."
+    },
+    {
+      "number": 2,
+      "text": "See, the streams of living waters, Springing from eternal love, Well supply thy sons and daughters, And all fear of want remove."
+    },
+    {
+      "number": 3,
+      "text": "Round each habitation hovering, See the cloud and fire appear For a glory and a covering, Showing that the Lord is near."
+    },
+    {
+      "number": 4,
+      "text": "Savior, if of Zion's city I through grace a member am, Let the world deride or pity, I will glory in thy name."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Zion",
+      "church",
+      "divine provision",
+      "glory"
+    ],
+    "scripture_references": [
+      "Isaiah 33:20"
+    ],
+    "tune_source": "Wm. J. Kirkpatrick",
+    "original_language": "en"
+  }
+}

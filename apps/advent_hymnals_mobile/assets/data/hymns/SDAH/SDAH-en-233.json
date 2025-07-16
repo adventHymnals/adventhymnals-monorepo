@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-233",
+  "number": 233,
+  "title": "Christ, Whose Glory Fills the Skies",
+  "author": "Charles Wesley",
+  "composer": "Traditional German",
+  "tune": "RATISBON",
+  "meter": "7.7.7.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Christ, whose glory fills the skies,\nChrist, the true, the only light,\nSun of Righteousness, arise,\nTriumph o'er the shades of night;\nDayspring from on high, be near;\nDaystar, in my heart appear."
+    },
+    {
+      "number": 2,
+      "text": "Dark and cheerless is the morn\nUnaccompanied by Thee;\nJoyless is the day's return\nTill Thy mercy's beams I see;\nTill they inward light impart,\nCheer my eyes and warm my heart."
+    },
+    {
+      "number": 3,
+      "text": "Visit then this soul of mine,\nPierce the gloom of sin and grief;\nFill me, Radiancy divine,\nScatter all my unbelief;\nMore and more Thyself display,\nShining to the perfect day."
+    }
+  ],
+  "metadata": {
+    "year": 1740,
+    "copyright": "Public Domain",
+    "themes": [
+      "Christ as Light",
+      "Morning Prayer",
+      "Spiritual Illumination",
+      "Sun of Righteousness"
+    ],
+    "scripture_references": [
+      "Malachi 4:2",
+      "Luke 1:78",
+      "John 8:12"
+    ],
+    "tune_source": "Traditional German melody",
+    "original_language": "en"
+  }
+}

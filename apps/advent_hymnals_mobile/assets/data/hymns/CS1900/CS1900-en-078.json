@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-078",
+  "number": 78,
+  "title": "Coming to the Cross",
+  "author": "Wm. McDonald",
+  "composer": "Wm. G. Fischer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I'm coming to the cross; I'm poor and weak and blind;\nI'm counting all but dross; I shall full salvation find."
+    },
+    {
+      "number": 2,
+      "text": "I'm trusting in the Lord, I'm trusting in His word;\nI'm trusting in the blood; I'm leaning on the Lord."
+    },
+    {
+      "number": 3,
+      "text": "I'm coming to the cross, I'm counting all but dross;\nI'm trusting in the Lord, I'm blessed Lord of the cross."
+    }
+  ],
+  "chorus": {
+    "text": "I'm trusting, Lord, in Thee, blessed Lord of Calvary;\nHumbly at Thy cross I bow, Save me, Je - sus, save me now."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "cross",
+      "salvation",
+      "trust",
+      "humility"
+    ],
+    "scripture_references": [],
+    "tune_source": "Wm. G. Fischer",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-176",
+  "number": 176,
+  "title": "Hail the Day That Sees Him Rise",
+  "author": "Charles Wesley",
+  "composer": "Robert Williams",
+  "tune": "Llanfair",
+  "meter": "7.7.7.7 with Alleluias",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hail the day that sees Him rise,\nGlorious to His native skies;\nChrist, awhile to mortals given,\nEnters now the highest heaven!"
+    },
+    {
+      "number": 2,
+      "text": "There the glorious triumph waits;\nLift your heads, eternal gates!\nSee! He shows the prints of love:\nRaise our hearts to reach Thy height."
+    },
+    {
+      "number": 3,
+      "text": "Wide unfold the radiant scene;\nTake the King of glory in!\nHark! His gracious lips bestow\nBlessings on His Church below."
+    },
+    {
+      "number": 4,
+      "text": "Lord beyond our mortal sight,\nRaise our hearts to reach Thy height;\nThere Thy face unclouded see,\nFind our heaven of heavens in Thee."
+    }
+  ],
+  "chorus": {
+    "text": "Alleluia!"
+  },
+  "metadata": {
+    "year": 1739,
+    "copyright": null,
+    "themes": [
+      "ascension",
+      "triumph",
+      "glory",
+      "heaven",
+      "christ"
+    ],
+    "scripture_references": [
+      "Luke 24:50-51",
+      "Acts 1:9-11"
+    ],
+    "tune_source": "Welsh",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-383",
+  "number": 383,
+  "title": "O Day of Rest and Gladness",
+  "author": "Christopher Wordsworth",
+  "composer": "German melody",
+  "tune": "MENDEBRAS",
+  "meter": "7.6.7.6.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O day of rest and gladness,\nO day of joy and light,\nO balm of care and sadness,\nMost beautiful, most bright;\nOn thee, the high and lowly,\nWho bend before the throne,\nSing, Holy, holy, holy,\nTo the Eternal One."
+    }
+  ],
+  "metadata": {
+    "year": 1862,
+    "copyright": "Public Domain",
+    "themes": [
+      "Sabbath",
+      "Rest",
+      "Worship",
+      "Joy"
+    ],
+    "scripture_references": [
+      "Psalm 118:24",
+      "Isaiah 58:13"
+    ],
+    "tune_source": "German melody, arr. Lowell Mason",
+    "original_language": "en",
+    "note": "Same content as hymn 382"
+  }
+}

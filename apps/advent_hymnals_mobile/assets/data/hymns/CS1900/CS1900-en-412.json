@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-412",
+  "number": 412,
+  "title": "How Much I Need Thee",
+  "author": null,
+  "composer": "J. E. Rankin",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Blest, so I can know how much I need thee! Walk and die, fail poor and blind; Take my trembling hand and lead me. In the right path let me find. Wait-ing, trusting, still I call on thee."
+    },
+    {
+      "number": 2,
+      "text": "O take me with thy love to keep beside thee, Stand with me on the rock; And in the sunshine of thy love I'll hide me, All with thee, now shorn I'll walk-ing, trust-ing, still I call on thee."
+    },
+    {
+      "number": 3,
+      "text": "Thus will I see the bless-ed, Savior, still with me in dark-ness, love Divine; Till with thee, now shorn I'll walk-ing, trust-ing, still I call on thee."
+    }
+  ],
+  "chorus": {
+    "text": "Ev - 'ry hour, ev - 'ry hour, Blessed Lord, how much I need thee, Ev-'ry hour, ev - 'ry hour, Sav-iour, keep me, ev - 'ry hour."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1896. Used by permission.",
+    "themes": [
+      "dependence on God",
+      "prayer",
+      "guidance"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. E. Rankin",
+    "original_language": "en"
+  }
+}

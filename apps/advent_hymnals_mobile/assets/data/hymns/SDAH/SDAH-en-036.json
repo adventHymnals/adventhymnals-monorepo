@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-036",
+  "number": 36,
+  "title": "O Thou in Whose Presence",
+  "author": "Joseph Swain",
+  "composer": "Freeman Lewis",
+  "tune": "Swain",
+  "meter": "11.11.11.11",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Thou in whose presence my soul takes delight,\nOn whom in affliction I call,\nMy comfort by day and my song in the night,\nMy hope, my salvation, my all!"
+    },
+    {
+      "number": 2,
+      "text": "His voice, as the sound of the dulcimer sweet,\nIs heard through the shadows of death;\nThe cedars of Lebanon bow at His feet,\nThe air is perfumed with His breath."
+    },
+    {
+      "number": 3,
+      "text": "His looks, as a fountain of righteousness flow,\nThat waters the garden of grace;\nFrom which their salvation the Gentiles shall know,\nAnd bask in the smiles of His face."
+    },
+    {
+      "number": 4,
+      "text": "He looks and ten thousands of angels rejoice,\nAnd myriads wait for His word;\nHe speaks, and eternity filled with His voice,\nRe-echoes the praise of the Lord."
+    }
+  ],
+  "metadata": {
+    "year": 1792,
+    "copyright": "Public Domain",
+    "themes": [
+      "worship",
+      "comfort",
+      "presence of God",
+      "salvation",
+      "praise"
+    ],
+    "scripture_references": [
+      "Psalm 16:11",
+      "Psalm 91:15"
+    ],
+    "tune_source": "Freeman Lewis, 1825",
+    "original_language": "en"
+  }
+}

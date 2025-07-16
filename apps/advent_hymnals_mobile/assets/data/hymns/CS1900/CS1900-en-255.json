@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-255",
+  "number": 255,
+  "title": "Our King",
+  "author": "Anon",
+  "composer": "Chas. H. Gabriel",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Our pre-cious Lord and Sav-ior, Our King in heav-en a-bove; We bring our praise be-fore You, We come to You in love.\nWe love to sing His prais-es, And ban-ish sin-cing wid; Of Him who reigns eter-nal-ly in Gal-i-lee of old."
+    },
+    {
+      "number": 2,
+      "text": "We love to trust His prom-is-es, And ban-ish sin-cing wid; We love to know that He is here\nO Sav-ior, bless-ed Sav-ior, We need learn here to say, All those down with pray-er and praise, a-mong the saints in heav-en a-bove."
+    }
+  ],
+  "chorus": {
+    "text": "We sing, we sing, The praise of our King, We sing, we sing, The glo-ry of our King."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "By 'The Singing King' in 'Our Choice's Day.' Copyright 1900 by Chas. H. Gabriel. Used by permission.",
+    "themes": [
+      "Jesus as King",
+      "praise",
+      "worship",
+      "heaven"
+    ],
+    "scripture_references": [],
+    "tune_source": "Chas. H. Gabriel",
+    "original_language": "en"
+  }
+}

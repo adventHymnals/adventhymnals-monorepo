@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-249",
+  "number": 249,
+  "title": "Tis Shining Still",
+  "author": "S. R. L.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I heard a sweet sto-ry of Je-sus of old, How He walked by the sea, Where the wa-ters were blue,\nHow He gath-ered dis-ci-ples a-round Him so dear, And He taught them the way to the king-dom so true."
+    },
+    {
+      "number": 2,
+      "text": "They knelt by the wa-ter's cool side, As they heard the glad mes-sage He brought them that day, They fol-lowed His foot-steps which shone like a far-\nHe told them the won-der-ful Word, By the side of the Lil-y-crowned shore where they stood, And of Him on the earth here be-low."
+    },
+    {
+      "number": 3,
+      "text": "The cross where my Sav-ior was cru-ci-fied, Still stands, and the prom-ise is giv-en still true,\nThat He will save all who will trust in His name, And His love and His mer-cy to all He'll re-new."
+    }
+  ],
+  "chorus": {
+    "text": "Tis shin-ing still, this bless-ed light, That beams from His face so bright,\nTis shin-ing still, this bless-ed light, That beams from His face so bright."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900. Used by permission.",
+    "themes": [
+      "Jesus",
+      "discipleship",
+      "gospel light",
+      "salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "CS1900-en-047",
+  "number": 47,
+  "title": "Your Saviour, Too",
+  "author": "S. O'Malley Cluff",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I have a Saviour, he's pleading in glory, A dear, loving Saviour, tho earth-friends be few; And now he is watching in tenderness o'er me, But oh, that my Saviour were your Saviour, too."
+    },
+    {
+      "number": 2,
+      "text": "I have a Father; to me he has given A hope for eternity, blessed and true; And soon he will call me to meet him in heaven, But oh, that my Father were your Father, too."
+    },
+    {
+      "number": 3,
+      "text": "I have a peace; it is calm as a river, A peace that the friends of this world never knew; My Saviour alone is its author and giver, And oh, that my Saviour were your Saviour, too."
+    },
+    {
+      "number": 4,
+      "text": "When Jesus comes in his glory descending, And saints to their home in the kingdom he's called, O where will you be when the journey is ending? Dear friend, is the Saviour your Saviour at all?"
+    }
+  ],
+  "chorus": {
+    "text": "Your Saviour, too, your Saviour, too, My Saviour now can be your Saviour, too."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1889, by F. E. Belden",
+    "themes": [
+      "Saviour",
+      "Father",
+      "pleading",
+      "glory",
+      "tenderness",
+      "peace",
+      "eternity",
+      "heaven"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

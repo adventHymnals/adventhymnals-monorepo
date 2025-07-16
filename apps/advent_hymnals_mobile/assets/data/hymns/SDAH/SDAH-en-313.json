@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-313",
+  "number": 313,
+  "title": "Near the Cross",
+  "author": "Fanny J. Crosby",
+  "composer": "William H. Doane",
+  "tune": "Near the Cross",
+  "meter": "7.6.7.6 with refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, keep me near the cross;\nThere a precious fountain,\nFree to all, a healing stream,\nFlows from Calvary's mountain."
+    },
+    {
+      "number": 2,
+      "text": "Near the cross, a trembling soul,\nLove and mercy found me;\nThere the bright and Morning Star\nSheds its beams around me."
+    },
+    {
+      "number": 3,
+      "text": "Near the cross! O Lamb of God,\nBring its scenes before me;\nHelp me walk from day to day\nWith its shadows o'er me."
+    },
+    {
+      "number": 4,
+      "text": "Near the cross I'll watch and wait,\nHoping, trusting ever,\nTill I reach the golden strand\nJust beyond the river."
+    }
+  ],
+  "chorus": {
+    "text": "In the cross, in the cross,\nBe my glory ever,\nTill my raptured soul shall find\nRest beyond the river."
+  },
+  "metadata": {
+    "year": 1869,
+    "copyright": "Public Domain",
+    "themes": [
+      "cross",
+      "salvation",
+      "nearness to Christ",
+      "comfort"
+    ],
+    "scripture_references": [
+      "Galatians 6:14",
+      "Hebrews 12:2"
+    ],
+    "tune_source": "William H. Doane, 1869",
+    "original_language": "en",
+    "notes": "Found on same page as hymn 312"
+  }
+}

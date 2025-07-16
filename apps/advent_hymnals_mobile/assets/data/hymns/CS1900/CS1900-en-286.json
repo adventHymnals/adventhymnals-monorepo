@@ -1,0 +1,48 @@
+{
+  "id": "CS1900-en-286",
+  "number": 286,
+  "title": "The Best of Days",
+  "author": "J. Montgomery",
+  "composer": "Beethoven",
+  "tune": null,
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "This is the day the Lord has made, He calls the hours his own; Let heaven rejoice, let earth be glad, And praise surround the throne."
+    },
+    {
+      "number": 2,
+      "text": "This is the day when Christ arose So glorious from the dead; This is the day of prayers and praise, Let songs of triumph spread."
+    },
+    {
+      "number": 3,
+      "text": "Hosanna to the anointed King, To David's holy Son! Help us, O Lord; descend and bring Salvation from thy throne."
+    },
+    {
+      "number": 4,
+      "text": "Blest be the Lord, who comes to men With messages of grace; Who comes, in God his Father's name, To save our sinful race."
+    },
+    {
+      "number": 5,
+      "text": "Hosanna in the highest strains The church on earth can raise; The highest heavens, in which he reigns, Shall give him nobler praise."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "resurrection",
+      "praise",
+      "sabbath",
+      "triumph"
+    ],
+    "scripture_references": [
+      "Psalm 118:24"
+    ],
+    "tune_source": "Beethoven",
+    "original_language": "en"
+  }
+}

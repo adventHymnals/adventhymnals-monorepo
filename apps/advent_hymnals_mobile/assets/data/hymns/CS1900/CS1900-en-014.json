@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-014",
+  "number": 14,
+  "title": "Life in a Look",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There's life in a look at the Crucified One, There's life at this moment for thee; Then look, sinner, look unto him and be saved, Un-to him who was nailed to the tree. Faith cometh by hearing and looking to the cross Life's eternal gift; Yes, look, it is more than our sight, there's life for thee, There's life in a look at the cross of Christ."
+    },
+    {
+      "number": 2,
+      "text": "When first to the Saviour I lifted my eyes, Sweet was the smile that fell on me, Of, as the clouds of temptation and doubt, my soul, At one look of love, Come the clouds that may linger, There's life in a look."
+    }
+  ],
+  "chorus": {
+    "text": "Look! look! there's life for a look at the Crucified One, Look! look! look at the cross till the full work is done, There's life in a look, there's life for thee, By a look at Calvary."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1895. Used by permission",
+    "themes": [
+      "life",
+      "look",
+      "cross",
+      "Crucified",
+      "salvation",
+      "faith",
+      "tree"
+    ],
+    "scripture_references": [
+      "Isa. 45:22"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

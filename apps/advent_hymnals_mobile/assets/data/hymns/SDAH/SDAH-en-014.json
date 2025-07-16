@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-014",
+  "number": 14,
+  "title": "Let Us Praise the Name of the Lord",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "Amen Response",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Let us praise the name of the Lord!\nGive Him glory, Amen."
+    },
+    {
+      "number": 2,
+      "text": "Go ye into all the world.\nAleluia, Amen."
+    }
+  ],
+  "chorus": {
+    "text": "Amen, amen, Amen, amen."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "worship",
+      "commission",
+      "response"
+    ],
+    "scripture_references": [
+      "Psalm 113:1",
+      "Mark 16:15"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en",
+    "notes": "Short praise response or call to worship"
+  }
+}

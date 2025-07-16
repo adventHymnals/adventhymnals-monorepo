@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-715",
+  "number": 715,
+  "title": "Hail to the Brightness",
+  "author": "Thomas Hastings",
+  "composer": "Lowell Mason",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hail to the bright-ness of Zi-on's glad morn-ing,\nJoy to the lands that in dark-ness have lain;\nHushed be the ac-cents of sor-row and mourn-ing,\nZi-on in tri-umph be-gins her mild reign."
+    },
+    {
+      "number": 2,
+      "text": "Hail to the bright-ness of Zi-on's glad morn-ing,\nLong by the proph-ets of Is-ra-el fore-told;\nHail to the mil-lions from bond-age re-turn-ing,\nGen-tiles and Jews the blest vi-sion be-hold."
+    },
+    {
+      "number": 3,
+      "text": "Lo, in the des-ert rich flow-ers are spring-ing,\nStreams ev-er co-pious are gild-ing the plain;\nLoud from the moun-tain tops ech-oes are ring-ing,\nWast-es and sol-i-tudes burst forth in song."
+    },
+    {
+      "number": 4,
+      "text": "See, from all lands, from the isles of the o-cean,\nPraise to Je-ho-vah as-cend-ing on high;\nFallen are the en-gines of war and com-mo-tion,\nShouts of sal-va-tion are rend-ing the sky."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "zion",
+      "salvation",
+      "prophecy",
+      "triumph"
+    ],
+    "scripture_references": [],
+    "tune_source": "Lowell Mason",
+    "original_language": "en"
+  }
+}

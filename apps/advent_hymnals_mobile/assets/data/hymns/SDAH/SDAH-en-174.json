@@ -1,0 +1,46 @@
+{
+  "id": "SDAH-en-174",
+  "number": 174,
+  "title": "Star of Our Hope",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Star of our hope! He'll soon appear,\nThe last loud trumpet speaks Him near;\nHail Him, all saints, from pole to pole,\nHow welcome to the faithful soul!"
+    },
+    {
+      "number": 2,
+      "text": "From heaven angelic voices sound:\nBehold the Lord with glory crowned,\nAnd in His high celestial glory\nThe saints rejoice, they sing, and shout."
+    },
+    {
+      "number": 3,
+      "text": "The grave yields up its precious trust,\nWhich long has slumbered in the dust,\nRe-splendent saints from their tomb\nTo meet Him in their Savior's throne."
+    },
+    {
+      "number": 4,
+      "text": "Descending with His azure throne,\nHe claims the kingdom for His own;\nThe saints rejoice and triumph ring,\nAnd hail Him their triumphant King."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "second_coming",
+      "hope",
+      "resurrection",
+      "triumph",
+      "saints"
+    ],
+    "scripture_references": [
+      "1 Thessalonians 4:16-17",
+      "Revelation 19:11-16"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

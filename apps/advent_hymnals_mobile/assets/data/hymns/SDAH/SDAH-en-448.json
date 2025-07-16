@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-448",
+  "number": 448,
+  "title": "O, When Shall I See Jesus",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "WHEN SHALL I SEE JESUS",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O, when shall I see Jesus and reign with Him above,\nAnd shall hear the trumpet sound in that morning?\nAnd from the flowing fountain drink everlasting love,\nAnd shall hear the trumpet sound in that morning?"
+    },
+    {
+      "number": 2,
+      "text": "Gird on the gospel armor of faith and hope and love,\nAnd you'll hear the trumpet sound in that morning;\nAnd when the combat's ended, you'll reign with Him above,\nAnd shall hear the trumpet sound in that morning."
+    },
+    {
+      "number": 3,
+      "text": "Our ears shall hear with transport the host of heaven sing,\nAnd shall hear the trumpet sound in that morning;\nOur tongues shall chant the glory of our immortal King,\nAnd shall hear the trumpet sound in that morning."
+    }
+  ],
+  "chorus": {
+    "text": "O shout, glory! For I shall mount above the skies,\nWhen I hear the trumpet sound in that morning."
+  },
+  "metadata": {
+    "year": 1800,
+    "copyright": "Public Domain",
+    "themes": [
+      "seeing Jesus",
+      "trumpet sound",
+      "eternal life",
+      "spiritual warfare",
+      "glory"
+    ],
+    "scripture_references": [
+      "1 Thessalonians 4:16",
+      "1 Corinthians 15:52",
+      "Revelation 19:6-7"
+    ],
+    "tune_source": "American Folk Hymn",
+    "original_language": "en"
+  }
+}

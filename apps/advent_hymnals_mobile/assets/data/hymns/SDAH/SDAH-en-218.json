@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-218",
+  "number": 218,
+  "title": "When He Cometh",
+  "author": "William O. Cushing",
+  "composer": "George F. Root",
+  "tune": "JEWELS",
+  "meter": "6.5.6.5 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When He cometh, when He cometh\nTo make up His jewels,\nAll His jewels, precious jewels,\nHis loved and His own."
+    },
+    {
+      "number": 2,
+      "text": "He will gather, He will gather\nThe gems for His kingdom;\nAll the pure ones, all the bright ones,\nHis loved and His own."
+    },
+    {
+      "number": 3,
+      "text": "Little children, little children\nWho love their Redeemer,\nAre the jewels, precious jewels,\nHis loved and His own."
+    }
+  ],
+  "chorus": {
+    "text": "Like the stars of the morning,\nHis bright crown adorning,\nThey shall shine in their beauty,\nBright gems for His crown."
+  },
+  "metadata": {
+    "year": 1856,
+    "copyright": "Public Domain",
+    "themes": [
+      "Children",
+      "Second Coming",
+      "Precious to God"
+    ],
+    "scripture_references": [
+      "Malachi 3:17",
+      "Matthew 19:14"
+    ],
+    "tune_source": "George F. Root, 1856",
+    "original_language": "en"
+  }
+}

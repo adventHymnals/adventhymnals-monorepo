@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-385",
+  "number": 385,
+  "title": "Crowning Jewel of Creation",
+  "author": "Anonymous",
+  "composer": "Traditional",
+  "tune": "CROWNING JEWEL",
+  "meter": "8.7.8.7. with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Crowning jewel of creation,\nBlest and hallowed,\nsanctified;\nTime and changes all transcending,\nShared for ever, glorified."
+    },
+    {
+      "number": 2,
+      "text": "Sin and sickness, prayer and weeping\nCease at close of\nearthly days;\nBut Thy Sabbath, Thy Sabbath\nJoyful thanksgiving to Thee we raise!"
+    },
+    {
+      "number": 3,
+      "text": "Teach us, Lord, in storm or sunshine\nHow to truly\nrest in Thee;\nMay Thy Sabbath, Thy Sabbath\nAnd our shelter ever be."
+    }
+  ],
+  "refrain": {
+    "text": "Blessed Sabbath\nmade for man,\nGift from the Creator's hand."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": "Public Domain",
+    "themes": [
+      "Sabbath",
+      "Creation",
+      "Rest",
+      "Holiness"
+    ],
+    "scripture_references": [
+      "Genesis 2:2-3",
+      "Mark 2:27"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

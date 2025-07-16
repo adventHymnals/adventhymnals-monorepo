@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-363",
+  "number": 363,
+  "title": "WELCOME, DELIGHTFUL MORN!",
+  "author": "Hayward",
+  "composer": "F. Schneider",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Wel-come, de-light-ful morn! Thou day of sa-cred rest!\nI hail thy mild re-turn; Lord, make these mo-ments blest;\nFrom the low train of mor-tal toys I soar to reach im-mor-tal joys."
+    },
+    {
+      "number": 2,
+      "text": "Now may the King de-scend, And fill his throne of grace;\nThy scepter, Lord, ex-tend, While saints ad-dress thy face;\nLet sin-ners feel thy quick-'ning word, And learn to know and fear the Lord."
+    },
+    {
+      "number": 3,
+      "text": "De-scend, ce-les-tial Dove, With all thy quick-'ning pow'rs;\nDis-close a Sav-ior's love, And bless the sa-cred hours;\nThen shall my soul new life ob-tain, Nor Sab-bath hopes be formed in vain."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Sabbath",
+      "worship",
+      "morning",
+      "spiritual renewal"
+    ],
+    "scripture_references": [],
+    "tune_source": "F. Schneider",
+    "original_language": "en"
+  }
+}

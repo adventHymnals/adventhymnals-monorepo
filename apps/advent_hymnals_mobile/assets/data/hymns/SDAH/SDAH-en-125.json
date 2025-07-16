@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-125",
+  "number": 125,
+  "title": "Joy to the World",
+  "author": "Isaac Watts",
+  "composer": "George F. Handel",
+  "tune": "Antioch",
+  "meter": "CM",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Joy to the world, the Lord is come!\nLet earth receive her King;\nLet every heart prepare Him room,\nAnd heaven and nature sing,\nAnd heaven and nature sing,\nAnd heaven, and heaven, and nature sing."
+    },
+    {
+      "number": 2,
+      "text": "Joy to the earth, the Savior reigns!\nLet men their songs employ;\nWhile fields and floods, rocks, hills and plains\nRepeat the sounding joy,\nRepeat the sounding joy,\nRepeat, repeat, the sounding joy."
+    },
+    {
+      "number": 3,
+      "text": "No more let sin and sorrow grow,\nNor thorns infest the ground;\nHe comes to make His blessings flow\nFar as the curse is found,\nFar as the curse is found,\nFar as, far as, the curse is found."
+    },
+    {
+      "number": 4,
+      "text": "He rules the world with truth and grace,\nAnd makes the nations prove\nThe glories of His righteousness,\nAnd wonders of His love,\nAnd wonders of His love,\nAnd wonders, wonders, of His love."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": [
+      "Christmas",
+      "Christ's Reign",
+      "Joy",
+      "Salvation"
+    ],
+    "scripture_references": [
+      "Psalm 98"
+    ],
+    "tune_source": "George F. Handel, 1742",
+    "original_language": "en"
+  }
+}

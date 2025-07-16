@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-405",
+  "number": 405,
+  "title": "O God, Unseen, Yet Ever Near",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O God, unseen, yet ever near,\nReveal Thy presence now;\nWhile we in love that hath no fear,\nBefore Thy glory bow."
+    },
+    {
+      "number": 2,
+      "text": "Here may Thy faithful people know\nThe blessings of Thy love,\nThe streams that through the desert flow,\nThe manna from above."
+    },
+    {
+      "number": 3,
+      "text": "We come, obedient to Thy Word,\nTo feast on heavenly food;\nOur meat, the body of the Lord,\nOur drink, His precious blood."
+    },
+    {
+      "number": 4,
+      "text": "Thus may we all Thy Word obey,\nFor we are Thine by birth;\nAnd go rejoicing on our way,\nRenewed by strength divine."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "communion",
+      "worship",
+      "gods_presence",
+      "spiritual_nourishment"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

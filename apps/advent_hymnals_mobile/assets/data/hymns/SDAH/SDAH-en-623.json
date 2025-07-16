@@ -1,0 +1,51 @@
+{
+  "id": "SDAH-en-623",
+  "number": 623,
+  "title": "I Will Follow Thee",
+  "author": "W. A. Ogden",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I will follow Thee, my Savior,\nWhere-so-e'er my lot may be.\nWhere Thou goest I will follow;\nYes, my Lord, I'll follow Thee."
+    },
+    {
+      "number": 2,
+      "text": "Though the road be rough and thorny,\nTrackless as the foaming sea,\nThou hast trod this way before me,\nAnd I'll gladly follow Thee."
+    },
+    {
+      "number": 3,
+      "text": "Though I meet with tribulations,\nSorely tempted though I be,\nI re-member Thou wast tempted,\nAnd I only follow Thee."
+    },
+    {
+      "number": 4,
+      "text": "Though Thou leadest me through affliction,\nPoor, forsaken, though I be,\nThou hast crossed the waves before me,\nAnd I still will follow Thee."
+    },
+    {
+      "number": 5,
+      "text": "Though to Jordan's rolling billows,\nCold and deep, Thou leadest me,\nAnd though all men should forsake Thee,\nBy Thy grace I'll follow Thee."
+    }
+  ],
+  "chorus": {
+    "text": "I will follow Thee, my Savior,\nThou didst shed Thy blood for me;\nAnd though all men should forsake Thee,\nBy Thy grace I'll follow Thee."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": [
+      "discipleship",
+      "following Christ",
+      "commitment",
+      "perseverance"
+    ],
+    "scripture_references": [
+      "Matthew 16:24",
+      "Luke 9:23"
+    ],
+    "tune_source": "",
+    "original_language": "en"
+  }
+}

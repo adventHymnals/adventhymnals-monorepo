@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-082",
+  "number": 82,
+  "title": "Penitence",
+  "author": "Horatio Oakley",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 4,
+      "text": "[Verse text available in source hymnal]"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "repentance",
+      "confession",
+      "forgiveness"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en",
+    "verse_count": 4,
+    "structure": "4 verses, no chorus",
+    "first_line": "Savior, Prince, enthroned above"
+  }
+}

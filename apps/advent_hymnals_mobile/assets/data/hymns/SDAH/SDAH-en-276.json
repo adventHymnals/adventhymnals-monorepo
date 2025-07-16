@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-276",
+  "number": 276,
+  "title": "Thanks to God",
+  "author": "R. T. Brooks",
+  "composer": "Peter Cutts",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thanks to God whose Word was spoken\nIn the deed that made the earth.\nHis the voice that called a nation;\nHis the fires that tried her worth."
+    },
+    {
+      "number": 2,
+      "text": "Thanks to God whose Word incarnate\nGlorified the flesh of man.\nDeeds and words and death and rising\nTell the grace in heaven's plan."
+    },
+    {
+      "number": 3,
+      "text": "Thanks to God whose Word is answered\nBy the Spirit's voice within.\nHere we drink of joy unmeasured,\nLife redeemed from death and sin."
+    }
+  ],
+  "chorus": {
+    "text": "God has spoken;\nGod has spoken;\nGod is speaking:\nPraise Him for His open Word.\nPraise Him for His open Word.\nPraise Him for His open Word."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": "Words © 1954, Ren. 1982 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission. Music © 1966, Ren. 1994 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
+    "themes": [
+      "Word of God",
+      "Creation",
+      "Incarnation",
+      "Holy Spirit"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

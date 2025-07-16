@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-258",
+  "number": 258,
+  "title": "Baptize Us Anew",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Baptize us anew\nWith power from on high,\nWith love, O refresh us!\nDear Savior, draw nigh."
+    },
+    {
+      "number": 2,
+      "text": "Unworthy we cry,\nUnholy,\nDescend from on high,\nWe plead Thy rich blessing;\nIn mercy draw nigh."
+    },
+    {
+      "number": 3,
+      "text": "O heavenly Dove,\nFrom heaven it came:\nThou art My beloved,\nWell pleased I am."
+    },
+    {
+      "number": 4,
+      "text": "O list the glad voice!\nWith power from on high,\nFrom sin's guilt stain,\nIn mercy I draw nigh."
+    }
+  ],
+  "chorus": {
+    "text": "We humbly beseech Thee,\nLord Jesus, we pray,\nWith love and the Spirit\nbaptize us today.\n(Last vs.) We praise Thee, we bless Thee,\nwe laud and adore Thee,\nAmen and Amen."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Baptism",
+      "Spirit",
+      "Power",
+      "Refresh",
+      "Mercy"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

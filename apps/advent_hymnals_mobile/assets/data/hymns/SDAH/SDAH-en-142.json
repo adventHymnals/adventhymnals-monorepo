@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-142",
+  "number": 142,
+  "title": "Angels We Have Heard on High",
+  "author": "Traditional French carol",
+  "composer": "Traditional French melody",
+  "tune": "Gloria",
+  "meter": "7.7.7.7 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Angels we have heard on high,\nSinging sweetly through the night,\nAnd the mountains in reply\nEchoing their brave delight."
+    },
+    {
+      "number": 2,
+      "text": "Shepherds, why this jubilee?\nWhy these songs of happy cheer?\nWhat glad tidings did you see?\nWhat glad tidings did you hear?"
+    },
+    {
+      "number": 3,
+      "text": "Come to Bethlehem and see\nHim whose birth the angels sing;\nCome, adore on bended knee\nChrist, the Lord, the newborn King."
+    },
+    {
+      "number": 4,
+      "text": "See Him in a manger laid\nWhom the angels praise above;\nMary, Joseph, lend your aid,\nWhile we raise our hearts in love."
+    }
+  ],
+  "chorus": {
+    "text": "Gloria in excelsis Deo,\nGloria in excelsis Deo."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "christmas",
+      "angels",
+      "glory",
+      "nativity",
+      "worship",
+      "shepherds"
+    ],
+    "scripture_references": [
+      "Luke 2:8-20"
+    ],
+    "tune_source": "French",
+    "original_language": "fr"
+  }
+}

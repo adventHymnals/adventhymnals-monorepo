@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-566",
+  "number": 566,
+  "title": "I SHALL BE SATISFIED",
+  "author": "E. R. Latta",
+  "composer": "J. H. Brubaker",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Soul and spirit, flesh and dwelling, Sheltered by the circle of grace,\nI shall be satisfied when I awake in thy likeness, I shall be satisfied then.\nPatient wait God's time for giving, Warmth and thought too lily-like,\nBorn of God, he shall not die, Who are here with all the grace."
+    },
+    {
+      "number": 2,
+      "text": "I shall be satisfied when I awake, I shall be satisfied\nI shall be satisfied when I awake, I shall be satisfied"
+    }
+  ],
+  "chorus": {
+    "text": "Soon shall come the Prince of Peace,\nFor the highest one of all,\nThen shall each well last one day,\nWhen the soul is sat - is - fied,\nI shall be sat-is-fied when I awake, I shall be satisfied.\nI shall be sat-is-fied when I awake, I shall be satisfied."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by J. H. Brubaker",
+    "themes": [
+      "satisfaction",
+      "awakening",
+      "peace",
+      "resurrection"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. H. Brubaker",
+    "original_language": "en"
+  }
+}

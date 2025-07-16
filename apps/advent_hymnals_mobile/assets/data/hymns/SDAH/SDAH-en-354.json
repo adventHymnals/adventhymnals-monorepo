@@ -1,0 +1,46 @@
+{
+  "id": "SDAH-en-354",
+  "number": 354,
+  "title": "Thy Love, O God",
+  "author": "Timothy Rees",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thy love, O God, has all mankind created, And led Thy people to this present hour; Christ we see life's glory consummated In Spirit manifests His living power."
+    },
+    {
+      "number": 2,
+      "text": "From out the darkness of our hope's frustration, From all the broken idols of our pride, We turn to seek Thy truth's illumination, Till we find Thy mercy waiting at our side."
+    },
+    {
+      "number": 3,
+      "text": "In pity look upon Thy children's striving For life and freedom, peace and brotherhood, Till at the full-ness of Thy truth arriving We hear the mighty harmonies of good."
+    },
+    {
+      "number": 4,
+      "text": "In spire Thy church, mid earth's discordant voices, To preach the gospel of her Lord above, Till the day this warring world rejoices To find in Christ the triumph of Thy love."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "God's Love",
+      "Creation",
+      "Truth",
+      "Peace",
+      "Brotherhood"
+    ],
+    "scripture_references": [
+      "1 John 4:7-8",
+      "Romans 8:28"
+    ],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

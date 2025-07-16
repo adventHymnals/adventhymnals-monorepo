@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-397",
+  "number": 397,
+  "title": "THE CALL FOR REAPERS",
+  "author": "Unknown",
+  "composer": "E. O. Excell",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Far and near the fields are foam-ing, White al-read-y to har-vest;\nFar and near their gold is gleam-ing, O'er the sun-ny slope and hill;\nLord of har-vest, send forth reap-ers! Hear us, Lord, to thee we cry;\nSend them now the sheaves to gath-er, Ere the har-vest time pass by."
+    },
+    {
+      "number": 2,
+      "text": "O thou whom thy Lord is send-ing, Gath-er now the gold-en grain;\nNothing doubt-ing, noth-ing fear-ing, Though the task seem great and hard;\nThou shalt doubt-less come re-joic-ing, Bring-ing in the sheaves at last."
+    }
+  ],
+  "chorus": {
+    "text": "Send them forth with thy bless-ing, Send them forth with thy bless-ing, Send them forth with thy bless-ing, Send them forth with thy bless-ing."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "harvest",
+      "missions",
+      "evangelism",
+      "workers"
+    ],
+    "scripture_references": [],
+    "tune_source": "E. O. Excell",
+    "original_language": "en"
+  }
+}

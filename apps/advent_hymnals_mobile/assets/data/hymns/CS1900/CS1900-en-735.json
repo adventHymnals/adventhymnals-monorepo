@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-735",
+  "number": 735,
+  "title": "Rest for the Toiling Hand",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Rest for the toil-ing hand, Rest for the anx-ious brow,\nRest for the wea-ry, way-worn feet, Rest for the suf-f'rer now.\nRest, peace-ful rest, be-neath the shade of Cal-va-ry's tree;\nThere is rest for the wea-ry, there is rest for thee."
+    },
+    {
+      "number": 2,
+      "text": "Rest for the ach-ing heart, Rest for the trou-bled soul,\nRest for the heal-ing, gra-cious word, Rest that will make thee whole.\nRest, peace-ful rest, be-neath the shade of Cal-va-ry's tree;\nThere is rest for the wea-ry, there is rest for thee."
+    },
+    {
+      "number": 3,
+      "text": "Rest in the ho-ly place, Rest in the mer-cy seat,\nRest in the arms of Je-sus Christ, Rest ev-er-last-ing, sweet.\nRest, peace-ful rest, be-neath the shade of Cal-va-ry's tree;\nThere is rest for the wea-ry, there is rest for thee."
+    }
+  ],
+  "chorus": {
+    "text": "Rest for the wea-ry, rest for thee,\nRest for the wea-ry, rest for thee;\nThere is rest for the wea-ry, there is rest for thee."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "rest",
+      "comfort",
+      "peace",
+      "salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

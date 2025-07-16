@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-321",
+  "number": 321,
+  "title": "The Word",
+  "author": "J. Gilchrist",
+  "composer": "J. Gilchrist",
+  "tune": "Elisha",
+  "meter": "S. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I gave my heart to Jesus, He saved me from my sins; He made me heir of heaven, And there my joy begins."
+    },
+    {
+      "number": 2,
+      "text": "How perfect is the Bible, How precious is the word, I love the holy scriptures, For they tell of the Lord."
+    },
+    {
+      "number": 3,
+      "text": "I love my blessed Jesus, He fills my heart with joy; He gives me strength to follow Him, And serves me in his sight."
+    },
+    {
+      "number": 4,
+      "text": "I love the name of Jesus, It sounds like music sweet; I love to meet with Christians, And worship at his feet."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "salvation",
+      "scripture",
+      "Jesus name",
+      "joy"
+    ],
+    "scripture_references": [
+      "2 Timothy 3:16"
+    ],
+    "tune_source": "J. Gilchrist",
+    "original_language": "en"
+  }
+}

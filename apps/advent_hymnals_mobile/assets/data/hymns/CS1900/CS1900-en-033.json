@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-033",
+  "number": 33,
+  "title": "Mighty to Save",
+  "author": "Rev. Chas. Wesley",
+  "composer": "Anonymous",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Who is this that cometh from Edom... travelling in the greatness of his strength? I that speak in righteousness, mighty to save.\"—Isa. 63: 1. Je - sus! the name high o - ver all, In hell or earth or sky; An - gels and men be - fore it fall, And dev - ils fear and fly. With won-der-ful de - light-ful power Lord!"
+    },
+    {
+      "number": 2,
+      "text": "O why is thou so pa - ral - lel With rock-ing pow all God, Tell them that read the wine-press red! O why are thou things With bless-ing from thy gra-cious feet for ours? Why wag-est thou-sand-ness and beast? Sanc-tion giv'n."
+    }
+  ],
+  "refrain": {
+    "text": "Mighty to save, mighty to save, He is mighty to save them in ness; Mighty to save, mighty to save, He is mighty to save."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "By permission",
+    "themes": [
+      "mighty",
+      "save",
+      "Jesus",
+      "name",
+      "power",
+      "righteousness",
+      "strength"
+    ],
+    "scripture_references": [
+      "Isa. 63:1"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

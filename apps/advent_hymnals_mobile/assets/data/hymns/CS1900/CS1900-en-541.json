@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-541",
+  "number": 541,
+  "title": "Leave the Rest to God",
+  "author": "M. C. Hazard",
+  "composer": "J. H. Tenney",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Go thou and do the work awaiting thee to-day,\nAnd think not of the morrow's care and sorrow;\nGo thou and do the best that thou canst do to-day,\nAnd leave the rest to God."
+    },
+    {
+      "number": 2,
+      "text": "Do thou thy part, and He will do His part for thee,\nAnd daily unto thee fresh strength be given;\nThy loving work will be rewarded faithfully,\nAnd leave the rest to God."
+    },
+    {
+      "number": 3,
+      "text": "Thy service shall be of the clearest, purest kind,\nOf this be constantly and thankfully mindful;\nThy spirit shall be kept in perfect peace and joy,\nAnd leave the rest to God."
+    },
+    {
+      "number": 4,
+      "text": "The way, the truth, the life, will all be made so clear,\nAnd there shall be no doubting, no perplexing;\nThy mind shall be enlightened, and thy heart made pure,\nAnd leave the rest to God."
+    }
+  ],
+  "chorus": {
+    "text": "Leave the rest to God, leave the rest to God,\nAnd He will work out all thy heart's desire;\nLeave the rest to God, leave the rest to God,\nAnd He will bring the answer by and by."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1895, by J. H. Tenney. Used by permission",
+    "themes": [
+      "trust",
+      "faith",
+      "providence",
+      "daily living"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. H. Tenney",
+    "original_language": "en"
+  }
+}

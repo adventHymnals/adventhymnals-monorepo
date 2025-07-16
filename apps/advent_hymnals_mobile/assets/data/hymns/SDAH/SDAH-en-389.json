@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-389",
+  "number": 389,
+  "title": "Light of Light, Enlighten Me",
+  "author": "Charles Wesley",
+  "composer": "William H. Monk",
+  "tune": "EVENTIDE",
+  "meter": "10.10.10.10.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Light of light, enlighten me,\nNow a new the day is dawning;\nSun of grace, the shadows flee,\nBrighten Thou my Sabbath morning;\nWith Thy joyous sunshine blest,\nHappy is my day of rest."
+    },
+    {
+      "number": 2,
+      "text": "Let me with my heart today,\nHoly, holy, sing to Thee;\nRapt awhile from earth away,\nAll my soul to fill this temple;\nThee up spring lowly;\nHave a foretaste inward given\nHow they worship Thee in heaven."
+    },
+    {
+      "number": 3,
+      "text": "Hence all care, all vanity!\nFor the day to God is holy;\nCome, Thou glorious Majesty,\nDeign to fill this temple lowly;\nNought to Thee in my day\nmy soul shall move,\nSimply resting in Thy love."
+    }
+  ],
+  "metadata": {
+    "year": 1740,
+    "copyright": "Public Domain",
+    "themes": [
+      "Sabbath",
+      "Light",
+      "Worship",
+      "Rest"
+    ],
+    "scripture_references": [
+      "Psalm 36:9",
+      "1 John 1:5"
+    ],
+    "tune_source": "William H. Monk, 1861",
+    "original_language": "en"
+  }
+}

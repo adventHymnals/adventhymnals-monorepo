@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-021",
+  "number": 21,
+  "title": "Mercy's Gate Is Open",
+  "author": "F. M. D.",
+  "composer": "Frank M. Davis, by per.",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Ye who long to sin have wandered From the Saviour's fold a - way, Come, the gate of mercy's o - pen, Come, the gate of mercy's o - pen, En - ter now without de - lay. Far a - way in realms of glo - ry, Lov-ed voic-es claim the strain, \"Come, the gate of mercy's o - pen, Come to Jesus once a-gain.\""
+    },
+    {
+      "number": 2,
+      "text": "Why should you delay longer, when his voice is gently calling, O, sin-sick soul why should-st thou roam? Come and taste the rich-er blessing, By the gate that leads to home. Come, the gate of mercy's o - pen, Come to Je-sus once a-gain."
+    }
+  ],
+  "refrain": {
+    "text": "Come, O come to-day, Come, O come to-day, Come and taste the rich-er blessing, Come, O come, Come, O come to-day, O come to-day."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "mercy",
+      "gate",
+      "open",
+      "wandering",
+      "fold",
+      "blessing",
+      "home"
+    ],
+    "scripture_references": [
+      "Matt. 7:7"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

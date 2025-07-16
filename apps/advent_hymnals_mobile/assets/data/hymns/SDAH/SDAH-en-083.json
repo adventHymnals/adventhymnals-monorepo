@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-083",
+  "number": 83,
+  "title": "O Worship the King",
+  "author": "Robert Grant",
+  "composer": "Johann Michael Haydn",
+  "tune": "Lyons",
+  "meter": "10.10.11.11",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O worship the King, all glorious above,\nO gratefully sing His wonderful love;\nOur Shield and Defender, the Ancient of Days,\nPavilioned in splendor, and girded with praise."
+    },
+    {
+      "number": 2,
+      "text": "O tell of His might, O sing of His grace,\nWhose robe is the light, whose canopy space;\nHis chariots of wrath the deep thunderclouds form,\nAnd dark is His path on the wings of the storm."
+    },
+    {
+      "number": 3,
+      "text": "Thy bountiful care, what tongue can recite?\nIt breathes in the air, it shines in the light;\nIt streams from the hills, it descends to the plain,\nAnd sweetly distills in the dew and the rain."
+    },
+    {
+      "number": 4,
+      "text": "Frail children of dust, and feeble as frail,\nIn Thee do we trust, nor find Thee to fail;\nThy mercies, how tender, how firm to the end,\nOur Maker, Defender, Redeemer, and Friend!"
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "Worship",
+      "God's Majesty",
+      "God's Care",
+      "Praise"
+    ],
+    "scripture_references": [
+      "Psalm 104"
+    ],
+    "tune_source": "Lyons",
+    "original_language": "en"
+  }
+}

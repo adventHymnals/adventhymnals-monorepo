@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-405",
+  "number": 405,
+  "title": "NOT A WASTED MOMENT",
+  "author": "P. P. B.",
+  "composer": "F. J. Haydn",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Not a wasted moment in the morning fair,\nNot a wasted moment while the sun is bright,\nWhere the home is cheerless and the heart is bare,\nWhere the souls are longing for the light of light."
+    },
+    {
+      "number": 2,
+      "text": "Not a wasted moment in the sunny day,\nNot a wasted moment while the Christ is near,\nWhere the drunk are reeling over the way,\nWhere the weary mourn throughout the field of care."
+    },
+    {
+      "number": 3,
+      "text": "Not a wasted moment in the evening light,\nNot a wasted moment while the Lord is here,\nWhere the drank are rolling over the sight,\nWhere the weary mourn throughout the field of care."
+    }
+  ],
+  "chorus": {
+    "text": "God, on high, not lost, not lost,\nBut they have found their Savior's cost,\nSave the lost, save the lost,\nLet us gain souls at any cost."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "evangelism",
+      "urgency",
+      "saving souls"
+    ],
+    "scripture_references": [
+      "Romans 1:14"
+    ],
+    "tune_source": "F. J. Haydn",
+    "original_language": "en"
+  }
+}

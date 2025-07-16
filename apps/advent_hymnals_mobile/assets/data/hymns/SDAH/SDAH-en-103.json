@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-103",
+  "number": 103,
+  "title": "O God, Our Help",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O God, our help in ages past,\nOur hope for years to come,\nOur shelter from the stormy blast,\nAnd our eternal home!"
+    },
+    {
+      "number": 2,
+      "text": "Under the shadow of Thy throne\nStill may we dwell secure;\nSufficient is Thine arm alone,\nAnd our defense is sure."
+    },
+    {
+      "number": 3,
+      "text": "Before the hills in order stood,\nOr earth received her frame,\nFrom everlasting Thou art God,\nTo endless years the same."
+    },
+    {
+      "number": 4,
+      "text": "A thousand ages in Thy sight\nAre like an evening gone;\nShort as the watch that ends the night,\nBefore the rising sun."
+    },
+    {
+      "number": 5,
+      "text": "O God, our help in ages past,\nOur hope for years to come,\nBe Thou our guide while life shall last,\nAnd our eternal home!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "praise",
+      "eternal_god",
+      "trust",
+      "psalm_90"
+    ],
+    "scripture_references": [
+      "Psalm 90"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

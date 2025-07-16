@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-166",
+  "number": 166,
+  "title": "Christ the Lord Is Risen Today",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Christ the Lord is risen today, Alleluia!\nSons of men and angels say: Alleluia!\nRaise your joys and triumphs high, Alleluia!\nSing, ye heavens, and earth reply: Alleluia!"
+    },
+    {
+      "number": 2,
+      "text": "Lives again our glorious King, Alleluia!\nWhere, O death, is now thy sting? Alleluia!\nOnce He died our souls to save, Alleluia!\nWhere's thy victory, boasting grave? Alleluia!"
+    },
+    {
+      "number": 3,
+      "text": "Love's redeeming work is done, Alleluia!\nFought the fight, the battle won, Alleluia!\nDeath in vain forbids Him rise, Alleluia!\nChrist has opened paradise, Alleluia!"
+    },
+    {
+      "number": 4,
+      "text": "Soar we now where Christ has led, Alleluia!\nFollowing our exalted Head, Alleluia!\nMade like Him, like Him we rise, Alleluia!\nOurs the cross, the grave, the skies, Alleluia!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "resurrection",
+      "victory",
+      "Easter",
+      "triumph"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

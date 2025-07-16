@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-465",
+  "number": 465,
+  "title": "I Heard the Voice of Jesus",
+  "author": "Horatius Bonar",
+  "composer": "Ralph Vaughan Williams",
+  "tune": "Kingsfold",
+  "meter": "C.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I heard the voice of Jesus say,\n'Come unto Me and rest;\nLay down, thou weary one, lay down\nThy head upon My breast.'\nI came to Jesus as I was,\nWeary and worn and sad;\nI found in Him a resting place,\nAnd He has made me glad."
+    },
+    {
+      "number": 2,
+      "text": "I heard the voice of Jesus say,\n'Behold, I freely give\nThe living water; thirsty one,\nStoop down and drink and live.'\nI came to Jesus, and I drank\nOf that life-giving stream;\nMy thirst was quenched, my soul revived,\nAnd now I live in Him."
+    },
+    {
+      "number": 3,
+      "text": "I heard the voice of Jesus say,\n'I am this dark world's light;\nLook unto Me, thy morn shall rise,\nAnd all thy day be bright.'\nI looked to Jesus, and I found\nIn Him my star, my sun;\nAnd in that light of life I'll walk,\nTill traveling days are done."
+    }
+  ],
+  "metadata": {
+    "year": 1846,
+    "copyright": "Public Domain",
+    "themes": [
+      "invitation",
+      "rest",
+      "spiritual thirst",
+      "light",
+      "joy and peace"
+    ],
+    "scripture_references": [
+      "Matthew 11:28",
+      "John 4:14",
+      "John 8:12"
+    ],
+    "tune_source": "English traditional melody, arranged by Ralph Vaughan Williams",
+    "original_language": "en",
+    "author_dates": "1808-1889",
+    "composer_dates": "1872-1958"
+  }
+}

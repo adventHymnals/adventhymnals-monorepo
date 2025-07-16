@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-338",
+  "number": 338,
+  "title": "Redeemed!",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Redeemed, how I love to proclaim it!\nRedeemed by the blood of the Lamb;\nRedeemed thro' His infinite mercy,\nHis child, and forever, I am."
+    },
+    {
+      "number": 2,
+      "text": "I think of my blessed Redeemer,\nI think of Him all the day long;\nI sing, for I cannot be silent;\nHis love is the theme of my song."
+    },
+    {
+      "number": 3,
+      "text": "I know I shall see in His beauty\nThe King in whose law I delight;\nWho lovingly guardeth my footsteps,\nAnd giveth me songs in the night."
+    }
+  ],
+  "chorus": {
+    "text": "Redeemed, redeemed,\nRedeemed by the blood of the Lamb;\nRedeemed, how I love to proclaim it!\nHis child and forever I am."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Redemption",
+      "Blood of Christ",
+      "Salvation",
+      "Joy",
+      "Eternal Life"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

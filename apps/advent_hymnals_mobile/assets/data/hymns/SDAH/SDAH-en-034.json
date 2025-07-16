@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-034",
+  "number": 34,
+  "title": "Wake the Song",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "Wake the Song",
+  "meter": "8.7.8.7.D with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Wake the song of joy and gladness; Hither bring your noblest lays;\nBanish every thought of sadness, Pouring forth your highest praise.\nSing to Him whose care has brought us Once again with friends to meet,\nAnd whose loving voice has taught us Of the way to Jesus' feet."
+    },
+    {
+      "number": 2,
+      "text": "Joyfully with songs and banners, We will greet the festal day;\nShout aloud our glad hosannas, And our grateful homage pay.\nWe will chant our Savior's glory While our thoughts we raise above,\nTelling still \"the old, old story,\" Precious theme redeeming love!"
+    },
+    {
+      "number": 3,
+      "text": "Thanks to Thee, O holy Father, For the mercies of the year;\nMay each heart, as here we gather, Swell with gratitude sincere.\nFor redemption through Thy blood, Breathe upon us, Holy Spirit,\nSweetly draw us near to God."
+    }
+  ],
+  "chorus": {
+    "text": "Wake the song, wake the song,\nthe song of joy and gladness,\nWake the song, wake the song,\nThe song of Jubilee."
+  },
+  "metadata": {
+    "year": 1800,
+    "copyright": "Public Domain",
+    "themes": [
+      "joy",
+      "praise",
+      "worship",
+      "gathering",
+      "thanksgiving",
+      "fellowship"
+    ],
+    "scripture_references": [
+      "Psalm 95:1-2",
+      "Psalm 100:1-2"
+    ],
+    "tune_source": "Traditional American",
+    "original_language": "en"
+  }
+}

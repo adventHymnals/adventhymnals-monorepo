@@ -1,0 +1,45 @@
+{
+  "id": "CS1900-en-042",
+  "number": 42,
+  "title": "Tarry by the Living Waters",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"I will give unto him that is athirst of the fountain of the water of life freely.\"—Rev. 21: 6. When with-ered by the des - ert, And thy soul is parch-ing there; In the fount-ain pure and clear lay there is re - fresh - ment sweet, Where-crys-tal wa - ters gen - tly"
+    },
+    {
+      "number": 2,
+      "text": "When wea-ry with the toil-some jour-ney, 'Tis sweet to rest a-while Where-crys-tal wa - ters gen - tly From yon Rock of A - ges flow; Come taste and drink and cher;"
+    },
+    {
+      "number": 3,
+      "text": "Tar - ry by the liv - ing wa - ters, Tar - ry by the fount of Life."
+    }
+  ],
+  "chorus": {
+    "text": "We'll tar - ry by the liv - ing wa - ters, Tar - ry by the mur-mur, And toi-ly foun-tains drink; so - fres, And thirst no more."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1885. Used by permission",
+    "themes": [
+      "water",
+      "fountain",
+      "living waters",
+      "thirst",
+      "desert",
+      "refreshment",
+      "Rock of Ages"
+    ],
+    "scripture_references": [
+      "Rev. 21:6"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

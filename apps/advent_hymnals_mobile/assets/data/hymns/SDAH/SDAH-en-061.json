@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-061",
+  "number": 61,
+  "title": "God Is Here!",
+  "author": "Fred Pratt Green",
+  "composer": "Cyril V. Taylor",
+  "tune": "[unclear]",
+  "meter": "10 10 10 10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God is here! As we His people\nMeet to offer praise and prayer,\nMay we find in fuller measure\nWhat it is in Christ we share."
+    },
+    {
+      "number": 2,
+      "text": "Here are symbols to remind us\nOf our life-long need of grace;\nHere are table, font and pulpit;\nHere the Word has central place."
+    },
+    {
+      "number": 3,
+      "text": "Here our children find a welcome\nIn the Shepherd's flock and fold,\nHere, as bread and wine are taken,\nChrist sustains us, as of old."
+    },
+    {
+      "number": 4,
+      "text": "Lord of all, of church and kingdom,\nIn an age of change and doubt,\nKeep us faithful to the gospel,\nHelp us work Your purpose out."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1979,
+    "copyright": "Words © 1979 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission. Music © 1942, Ren. 1970 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
+    "themes": [
+      "God's presence",
+      "worship",
+      "church",
+      "prayer"
+    ],
+    "scripture_references": [],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

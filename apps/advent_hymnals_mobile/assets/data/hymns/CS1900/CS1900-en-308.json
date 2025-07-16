@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-308",
+  "number": 308,
+  "title": "High in the Heavens",
+  "author": "Isaac Watts",
+  "composer": "J. H. Stockton",
+  "tune": "Stockton",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "High in the heavens, eternal God, Thy goodness in full glory shines; Thy truth shall break through every cloud That veils and darkens thy designs."
+    },
+    {
+      "number": 2,
+      "text": "Forever firm thy justice stands, As mountains their foundations keep; Wise are the wonders of thy hands, Thy judgments are a mighty deep."
+    },
+    {
+      "number": 3,
+      "text": "My God, how excellent thy grace, Whence all our hope and comfort springs! The sons of Adam in distress Fly to the shadow of thy wings."
+    },
+    {
+      "number": 4,
+      "text": "Life, like a fountain rich and free, Springs from the presence of the Lord; And in thy light our souls shall see The glories promised in thy word."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "God's glory",
+      "divine attributes",
+      "comfort",
+      "refuge"
+    ],
+    "scripture_references": [
+      "Psalm 36:5-9"
+    ],
+    "tune_source": "J. H. Stockton",
+    "original_language": "en"
+  }
+}

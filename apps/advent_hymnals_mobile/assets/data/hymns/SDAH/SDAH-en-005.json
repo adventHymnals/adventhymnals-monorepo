@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-005",
+  "number": 5,
+  "title": "All My Hope on God Is Founded",
+  "author": "Joachim Neander",
+  "composer": "Joachim Neander",
+  "tune": "Meine Hoffnung",
+  "meter": "8.7.8.7.3.3.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All my hope on God is founded;\nHe doth still my trust renew.\nMe through change and chance He guideth,\nOnly good and only true.\nGod unknown,\nHe alone\nCalls my heart to be His own."
+    },
+    {
+      "number": 2,
+      "text": "Pride of man and earthly glory,\nSword and crown betray his trust;\nWhat with care and toil he buildeth,\nTower and temple fall to dust.\nBut God's power,\nHour by hour,\nIs my temple and my tower."
+    },
+    {
+      "number": 3,
+      "text": "God's great goodness aye endureth,\nDeep His wisdom, passing thought;\nSplendor, light and life attend Him,\nBeauty springeth out of naught.\nEvermore\nFrom His store\nNew-born worlds rise and adore."
+    },
+    {
+      "number": 4,
+      "text": "Still from man to God eternal\nSacrifice of praise be done,\nHigh above all praises praising\nFor the gift of Christ His Son.\nChrist doth call\nOne and all:\nYe who follow shall not fall."
+    }
+  ],
+  "metadata": {
+    "year": 1680,
+    "copyright": "Public Domain",
+    "themes": [
+      "trust",
+      "hope",
+      "faithfulness",
+      "praise"
+    ],
+    "scripture_references": [
+      "Psalm 62:5-8",
+      "1 Peter 1:21"
+    ],
+    "tune_source": "Joachim Neander, 1680",
+    "original_language": "de",
+    "translator": "Robert Seymour Bridges"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-459",
+  "number": 459,
+  "title": "Wait on the Lord",
+  "author": "J. H. Tenney",
+  "composer": "A. S. Hickman",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The bur-den waits of earth-ly care, Our pain and grief and loss; Joy is found in Je-sus' love,\nYet when we com-plain of tri-als there, To He who bore the cross; In grief thy strength hast thou found,\nIn thy path-way thorns are found, O think who bore them on his brow; In grief thy strength hast thou found,\nJoy up, my soul, though dark the way, Come walking thro' the glo-ry land, In His all per-fect love."
+    },
+    {
+      "number": 2,
+      "text": "Who would not sing to praise their God! their hope? Wait - up-on the Lord up-on the Lord, He - shall re-\nWait, meek-ly wait, and trust and pray; Wait on the Lord, meek-ly wait, and trust thy strength.\nWait, meek-ly wait, and trust and pray; Wait on the Lord, wait up-on the Lord, He will re-new thy strength."
+    }
+  ],
+  "chorus": {
+    "text": "Wait - up-on the Lord, wait up-on the Lord, He will re-new thy strength.\nIf wait-ing by faith, Wait on the Lord, wait up-on the Lord, He will re-new thee at length;\nWait on the Lord, wait up-on the Lord, He will re-new thy strength."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Music copyright, 1897, by J. E. Belden.",
+    "themes": [
+      "waiting on God",
+      "strength",
+      "patience",
+      "trust"
+    ],
+    "scripture_references": [
+      "Isaiah 40:31",
+      "Psalm 27:14"
+    ],
+    "tune_source": "A. S. Hickman",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-025",
+  "number": 25,
+  "title": "Blessed Are They That Do",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"For not the hearers of the law are just before God, but the doers of the law shall be justified.\"—Rom. 2: 13. Not for the hear - ers who may hear his voice But for the do - ers of the word; Hearing them, praising them; But in vain we hear his com-mand-ments all in vain his prom-is - es, too; Hear-ing them, praising them; They who joy may ov - er it No; I say from his own established, So still them, from the pit."
+    },
+    {
+      "number": 2,
+      "text": "Hear and re-mem-ber, Bless-ed are the do - ers of the word and not sim - ply hear - ers. But who have be - guarded, Bless - ed, O bless-ed are they that do; Bless-ed are they that do his commandments, That they may have the right to the tree of life."
+    }
+  ],
+  "chorus": {
+    "text": "Bless - ed are they, bless-ed are they, Bless-ed are they that do his com-mand-ments, bless-ed are they."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of The Johns Church Co., owners of the copyright",
+    "themes": [
+      "blessed",
+      "doers",
+      "hearers",
+      "commandments",
+      "law",
+      "justified",
+      "word"
+    ],
+    "scripture_references": [
+      "Rom. 2:13"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

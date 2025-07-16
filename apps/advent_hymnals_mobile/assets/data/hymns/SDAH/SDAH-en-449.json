@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-449",
+  "number": 449,
+  "title": "Never Part Again",
+  "author": "Eliza H. Hamilton",
+  "composer": "James McGranahan",
+  "tune": "NEVER PART AGAIN",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is a land of pure delight,\nWhere bliss eternal reigns,\nInfinite day excludes the night,\nAnd pleasures banish pain."
+    },
+    {
+      "number": 2,
+      "text": "There everlasting spring abides,\nAnd never-withering flowers;\nBut a little space divides\nThis heavenly land from ours."
+    },
+    {
+      "number": 3,
+      "text": "Could we but stand where Moses stood,\nAnd view the landscape o'er,\nNot all this world's pretended good\nCould ever charm us more."
+    }
+  ],
+  "chorus": {
+    "text": "We're traveling to Immanuel's land,\nWe soon shall hear the trumpet sound,\nAnd soon we shall with Jesus reign,\nAnd never, never part again.\nWhat! Never part again? No, never part again.\nWhat! Never part again? No, never part again,\nAnd soon we shall with Jesus reign,\nAnd never, never part again."
+  },
+  "metadata": {
+    "year": 1877,
+    "copyright": "Public Domain",
+    "themes": [
+      "eternal reunion",
+      "Immanuel's land",
+      "no separation",
+      "heavenly joy",
+      "trumpet"
+    ],
+    "scripture_references": [
+      "Revelation 21:4",
+      "1 Thessalonians 4:17",
+      "John 14:3"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

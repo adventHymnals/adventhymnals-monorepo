@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-106",
+  "number": 106,
+  "title": "Cleansed",
+  "author": "J. H. Stockton",
+  "composer": "J. H. Stockton",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Gone are the doubts that at my heart;\nGone are the fears that held me here;\nGone are the chains that bound me fast;\nJesus has set me free."
+    },
+    {
+      "number": 2,
+      "text": "Clean is the heart that once was foul;\nClean is the life that once was dark;\nClean is the conscience, free from guilt;\nWashed in the cleansing blood."
+    },
+    {
+      "number": 3,
+      "text": "Now I can go where Jesus led;\nNow I can follow where he trod;\nNow I can serve him with my all;\nCleansed and made pure."
+    }
+  ],
+  "chorus": {
+    "text": "Cleansed, cleansed, precious promise,\nCleansed by the blood of the lamb;\nWhite as snow, I am now made;\nCleansed, cleansed, I am."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "cleansing",
+      "purity",
+      "blood of Christ"
+    ],
+    "scripture_references": [
+      "1 John 1:7"
+    ],
+    "tune_source": "J. H. Stockton",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "Gone are the doubts that at my heart"
+  }
+}

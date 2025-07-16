@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-344",
+  "number": 344,
+  "title": "FORBID THEM NOT",
+  "author": "Unknown",
+  "composer": "Unknown",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Forbid them not, the children young and tender,\nLet them come to me, and do not send them away;\nFor such is the kingdom of heaven, so render\nTo them the blessing of this holy day."
+    },
+    {
+      "number": 2,
+      "text": "Be thou our children's strength and stay together,\nAnd help thy people all their peace and joy reward;\nAnd help thy people all their peace and joy reward."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "children",
+      "blessing",
+      "kingdom of heaven"
+    ],
+    "scripture_references": [],
+    "tune_source": "Unknown",
+    "original_language": "en"
+  }
+}

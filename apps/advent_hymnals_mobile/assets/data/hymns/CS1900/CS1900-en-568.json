@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-568",
+  "number": 568,
+  "title": "BEAUTIFUL ROBES",
+  "author": "J. M. Henson",
+  "composer": "W. J. Kirkpatrick",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Arrayed in fair linen, clean and white; for the fine linen is the righteousness of saints.\" - Rev. 19:8.\nWe shall walk with him in white; In that country pure and bright, Where the saints from earth's dark night may dwell;\nAnd our robes shall be as snow, By the fountains of de-light, When the Lamb his ransomed ones shall lead."
+    },
+    {
+      "number": 2,
+      "text": "We are washed in the blood of the Lamb, And our garments are white as the snow;\nWhere the day-break never closes, For the blessed light that shines Is the glo-ry of the Saviour's smile;\nRobed in garments full and sweet, For ref-ting-ship complete, Washed, and in the Lamb's e-ter-nal smile."
+    }
+  ],
+  "chorus": {
+    "text": "Beautiful robes, (Beautiful robes,) Beautiful robes, (Beautiful robes,) Robes of light,\nGar-ments of light, Love-ly and bright, (Omit,) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\nBeautiful robes, Beautiful robes, Beautiful robes, Robes of light, Beautiful robes we then shall wear."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1900, by Wm. J. Kirkpatrick. Used by permission.",
+    "themes": [
+      "righteousness",
+      "white robes",
+      "saints",
+      "lamb",
+      "glory"
+    ],
+    "scripture_references": [
+      "Rev. 19:8"
+    ],
+    "tune_source": "W. J. Kirkpatrick",
+    "original_language": "en"
+  }
+}

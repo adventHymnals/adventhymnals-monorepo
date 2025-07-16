@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-290",
+  "number": 290,
+  "title": "Turn Your Eyes Upon Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O soul, are you weary and troubled?\nNo light in the darkness you see?\nThere's light for a look at the Savior,\nAnd life more abundant and free!"
+    },
+    {
+      "number": 2,
+      "text": "Through death into life everlasting\nHe passed, and we follow Him there;\nOver us sin no more hath dominion,\nFor more than conqu'rors we are!"
+    },
+    {
+      "number": 3,
+      "text": "His word shall not fail you He promised;\nBelieve Him and all will be well:\nThen go to a world that is dying,\nHis perfect salvation to tell!"
+    }
+  ],
+  "chorus": {
+    "text": "Turn your eyes upon Jesus,\nLook full in His wonderful face;\nAnd the things of earth will grow strangely dim\nIn the light of His glory and grace."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Jesus",
+      "Focus on Jesus",
+      "Light",
+      "Glory"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

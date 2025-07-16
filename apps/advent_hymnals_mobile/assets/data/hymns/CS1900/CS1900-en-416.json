@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-416",
+  "number": 416,
+  "title": "Anywhere with Jesus",
+  "author": "Jessie H. Brown",
+  "composer": "D. B. Towner",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Anywhere with Jesus I can safe-ly go, Anywhere He leads me in this world below; Anywhere without Him dearest joys would fade, Anywhere with Jesus I am not afraid."
+    },
+    {
+      "number": 2,
+      "text": "Anywhere with Jesus I am not alone, Other friends may fail me, He is still my own; Tho' His hand may lead me o-ver drear-y ways, Anywhere with Jesus is a house of praise."
+    },
+    {
+      "number": 3,
+      "text": "Anywhere with Jesus I can go to sleep, When the dark-'ning shad-ows round about me creep; Knowing I shall wak-en nev-er more to roam, Anywhere with Jesus will be home, sweet home."
+    }
+  ],
+  "chorus": {
+    "text": "Anywhere! anywhere! Fear I can-not know; Anywhere with Jesus I can safe-ly go."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1887, by D. B. Towner. By per.",
+    "themes": [
+      "trust",
+      "following Jesus",
+      "safety in Christ"
+    ],
+    "scripture_references": [],
+    "tune_source": "D. B. Towner",
+    "original_language": "en"
+  }
+}

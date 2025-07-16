@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-135",
+  "number": 135,
+  "title": "O Little Town of Bethlehem",
+  "author": "Phillips Brooks",
+  "composer": "Lewis H. Redner",
+  "tune": "St. Louis",
+  "meter": "8.6.8.6.7.6.8.6",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O little town of Bethlehem, How still we see thee lie!\nAbove thy deep and dreamless sleep The silent stars go by;\nYet in thy dark streets shineth The everlasting light;\nThe hopes and fears of all the years Are met in thee tonight."
+    },
+    {
+      "number": 2,
+      "text": "For Christ is born of Mary; And gathered all above,\nWhile mortals sleep, the angels keep Their watch of wondering love.\nO morning stars, together Proclaim the holy birth!\nAnd praises sing to God the King, And peace to men on earth."
+    },
+    {
+      "number": 3,
+      "text": "How silently, how silently The wondrous gift is given!\nSo God imparts to human hearts The blessings of His heaven.\nNo ear may hear His coming; But in this world of sin,\nWhere meek souls will receive Him still, The dear Christ enters in."
+    },
+    {
+      "number": 4,
+      "text": "O holy Child of Bethlehem, Descend to us, we pray;\nCast out our sin and enter in, Be born in us today.\nWe hear the Christmas angels The great glad tidings tell;\nO come to us, abide with us, Our Lord Emmanuel!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1868,
+    "copyright": null,
+    "themes": [
+      "christmas",
+      "bethlehem",
+      "nativity",
+      "peace",
+      "incarnation"
+    ],
+    "scripture_references": [
+      "Luke 2:1-20"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

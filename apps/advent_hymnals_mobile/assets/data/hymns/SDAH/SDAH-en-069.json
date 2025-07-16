@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-069",
+  "number": 69,
+  "title": "Lord, Make Us More Holy",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "6 6 6 6 8 8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, make us more holy;\nLord, make us more holy;\nLord, make us more holy,\nUntil we meet again."
+    },
+    {
+      "number": 2,
+      "text": "Lord, make us more faithful;\nLord, make us more faithful;\nLord, make us more faithful,\nUntil we meet again."
+    },
+    {
+      "number": 3,
+      "text": "Lord, make us more humble;\nLord, make us more humble;\nLord, make us more humble,\nUntil we meet again."
+    },
+    {
+      "number": 4,
+      "text": "Lord, make us more loving;\nLord, make us more loving;\nLord, make us more loving,\nUntil we meet again."
+    }
+  ],
+  "chorus": {
+    "text": "Like Jesus, the Savior,\nUntil we meet again."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": [
+      "holiness",
+      "faithfulness",
+      "humility",
+      "love",
+      "spiritual growth"
+    ],
+    "scripture_references": [],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

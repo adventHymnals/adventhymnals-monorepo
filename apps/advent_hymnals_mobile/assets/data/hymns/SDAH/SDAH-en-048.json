@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-048",
+  "number": 48,
+  "title": "Softly Now the Light of Day",
+  "author": "George Washington Doane",
+  "composer": "Carl Maria von Weber",
+  "tune": "Seymour",
+  "meter": "7.7.7.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Softly now the light of day\nFades upon our sight away;\nFree from care, from labor free,\nLord, we would commune with Thee."
+    },
+    {
+      "number": 2,
+      "text": "Thou, whose all-pervading eye\nNought escapes, with-out, within,\nPardon each infirmity,\nOpen fault, and secret sin."
+    },
+    {
+      "number": 3,
+      "text": "Soon from us the light of day\nShall forever pass away;\nThen, from sin and sorrow free,\nTake us, Lord, to dwell with Thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1824,
+    "copyright": "Public Domain",
+    "themes": [
+      "evening",
+      "prayer",
+      "forgiveness",
+      "communion",
+      "reflection",
+      "mortality"
+    ],
+    "scripture_references": [
+      "Psalm 141:2",
+      "1 John 1:9",
+      "John 14:2-3"
+    ],
+    "tune_source": "Carl Maria von Weber, 1826",
+    "original_language": "en"
+  }
+}

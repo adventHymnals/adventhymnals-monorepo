@@ -1,0 +1,43 @@
+{
+  "id": "CS1900-en-559",
+  "number": 559,
+  "title": "I FOLLOW ON",
+  "author": "Grant C. Tullar",
+  "composer": "F. J. Haydn",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I follow on, I follow on,\nFor Jesus leads the way;\nMy soul is fed with living bread,\nBy the words that he doth say."
+    },
+    {
+      "number": 2,
+      "text": "I follow on, I follow on,\nThough trials may be sore;\nThough darkness be all around me,\nI'll trust him more and more."
+    },
+    {
+      "number": 3,
+      "text": "I follow on, I follow on,\nTill Jesus comes in his glory;\nI'll sing his praise throughout the days,\nAnd tell the wondrous story."
+    },
+    {
+      "number": 4,
+      "text": "I follow on, I follow on,\nTill I reach the other side;\nWhile Jesus leads, my soul he feeds,\nIn him I will abide."
+    }
+  ],
+  "chorus": {
+    "text": "I have sought, I have sought,\nLet thy thy seeking heart be brought;\nSafe, sweet, and safe and found,\nIn Jesus I am found."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "following Christ",
+      "discipleship",
+      "trust"
+    ],
+    "scripture_references": [],
+    "tune_source": "F. J. Haydn",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-472",
+  "number": 472,
+  "title": "A Song of Heaven and Homeland",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "SONG OF HEAVEN",
+  "meter": "8.8.8.8.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sometimes I hear strange music, like none e'er heard before,\nCome floating softly earthward as thro' heaven's open door:\nIt seems like angel voices, in strains of joy and love,\nThat swell the mighty chorus around the throne above."
+    },
+    {
+      "number": 2,
+      "text": "Now soft, and low, and restful, it floods my soul with peace,\nAs if God's benediction bade all earth's troubles cease.\nThen grander than the voices, of wind, and wave, and sea\nIt fills the dome of heaven with glorious harmony."
+    },
+    {
+      "number": 3,
+      "text": "This music haunts me ever, like something heard in dreams\nIt seems to catch the cadence of heaven'ly winds and streams.\nMy heart is filled with rapture, to think, some day to come,\nI'll sing it with the angels, the song of heaven and home."
+    }
+  ],
+  "chorus": {
+    "text": "O sweet, celestial music, heard from a land afar\nThe song of Heav'n and Homeland. Thro' doors God leaves ajar!"
+  },
+  "metadata": {
+    "year": 1800,
+    "copyright": "Public Domain",
+    "themes": [
+      "heavenly music",
+      "angels",
+      "home in heaven",
+      "celestial harmony",
+      "spiritual longing"
+    ],
+    "scripture_references": [
+      "Revelation 14:2-3",
+      "Revelation 5:9-10",
+      "Luke 15:10"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

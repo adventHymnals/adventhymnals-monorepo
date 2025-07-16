@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-112",
+  "number": 112,
+  "title": "Let Us With a Gladsome Mind",
+  "author": "John Milton",
+  "composer": "John Antes",
+  "tune": "Monkland",
+  "meter": "77.77",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Let us with a gladsome mind\nPraise the Lord, for He is kind:\nFor His mercies shall endure,\nEver faithful, ever sure."
+    },
+    {
+      "number": 2,
+      "text": "He, with all-commanding might,\nFilled the new-made world with light:\nFor His mercies shall endure,\nEver faithful, ever sure."
+    },
+    {
+      "number": 3,
+      "text": "All things living He does feed;\nHis full hand supplies their need:\nFor His mercies shall endure,\nEver faithful, ever sure."
+    },
+    {
+      "number": 4,
+      "text": "Let us then with gladsome mind\nPraise the Lord, for He is kind:\nFor His mercies shall endure,\nEver faithful, ever sure."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1623,
+    "copyright": "Public Domain",
+    "themes": [
+      "Praise",
+      "God's Goodness",
+      "God's Faithfulness",
+      "God's Mercy"
+    ],
+    "scripture_references": [
+      "Psalm 136"
+    ],
+    "tune_source": "John Antes, 1789",
+    "original_language": "en"
+  }
+}

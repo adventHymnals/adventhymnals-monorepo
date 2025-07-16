@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-332",
+  "number": 332,
+  "title": "The Cleansing Wave",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O now I see the crimson wave,\nThe fountain deep and wide;\nJesus, my Lord, mighty to save,\nPoints to His wounded side."
+    },
+    {
+      "number": 2,
+      "text": "I see the new creation rise,\nI hear the speaking blood;\nIt speaks polluted nature dies,\nSinks 'neath the cleansing flood."
+    },
+    {
+      "number": 3,
+      "text": "I rise to walk in heaven's own light,\nAbove the world and sin,\nWith heart made pure and garments white,\nAnd Christ enthroned within."
+    },
+    {
+      "number": 4,
+      "text": "Amazing grace! 'tis heaven below\nTo feel the blood applied;\nAnd Jesus, only Jesus, know,\nMy Jesus crucified."
+    }
+  ],
+  "chorus": {
+    "text": "The cleansing stream I see, I see,\nI plunge, and O, it cleanseth me!\nO praise the Lord! it cleanseth me,\nIt cleanseth me, yes, cleanseth me."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Salvation",
+      "Blood of Christ",
+      "Cleansing",
+      "Sanctification",
+      "Grace"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

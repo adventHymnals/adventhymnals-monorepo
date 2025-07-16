@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-336",
+  "number": 336,
+  "title": "Attempt His Praise",
+  "author": "Charles H. Gabriel",
+  "composer": "George Duffield",
+  "tune": "Stand Up",
+  "meter": "7, 6, 7, 6, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Stand up, stand up for Jesus, Ye soldiers of the cross! Lift high his royal banner, It must not suffer loss."
+    },
+    {
+      "number": 2,
+      "text": "Stand up, stand up for Jesus, The trumpet call obey; Forth to the mighty conflict In this his glorious day."
+    },
+    {
+      "number": 3,
+      "text": "Stand up, stand up for Jesus, Stand in his strength alone; The arm of flesh will fail you, Ye dare not trust your own."
+    },
+    {
+      "number": 4,
+      "text": "Stand up, stand up for Jesus, The strife will not be long; This day the noise of battle, The next the victor's song."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "spiritual warfare",
+      "courage",
+      "victory",
+      "loyalty"
+    ],
+    "scripture_references": [
+      "Ephesians 6:11"
+    ],
+    "tune_source": "George Duffield",
+    "original_language": "en"
+  }
+}

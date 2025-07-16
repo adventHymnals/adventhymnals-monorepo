@@ -1,0 +1,52 @@
+{
+  "id": "CS1900-en-080",
+  "number": 80,
+  "title": "Just As I Am",
+  "author": "Charlotte Elliott",
+  "composer": "William B. Bradbury",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 4,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 5,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 6,
+      "text": "[Verse text available in source hymnal]"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "salvation",
+      "invitation",
+      "acceptance"
+    ],
+    "scripture_references": [],
+    "tune_source": "William B. Bradbury",
+    "original_language": "en",
+    "verse_count": 6,
+    "structure": "6 verses, no chorus",
+    "first_line": "Just as I am, without one plea"
+  }
+}

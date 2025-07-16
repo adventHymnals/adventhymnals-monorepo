@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-008",
+  "number": 8,
+  "title": "We Gather Together",
+  "author": "Traditional Dutch",
+  "composer": "Edward Kremser",
+  "tune": "Kremser",
+  "meter": "12.11.12.11",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We gather together to ask the Lord's blessing;\nHe chastens and hastens His will to make known;\nThe wicked oppressing now cease from distressing,\nSing praises to His name: He forgets not His own."
+    },
+    {
+      "number": 2,
+      "text": "Beside us to guide us, our God with us joining,\nOrdaining, maintaining His kingdom divine;\nSo from the beginning the fight we were winning;\nThou, Lord, wast at our side; all glory be Thine!"
+    },
+    {
+      "number": 3,
+      "text": "We all do extol Thee, Thou Leader triumphant,\nAnd pray that Thou still our Defender wilt be;\nLet Thy congregation escape tribulation;\nThy name be ever praised! O Lord, make us free!"
+    }
+  ],
+  "metadata": {
+    "year": 1597,
+    "copyright": "Public Domain",
+    "themes": [
+      "thanksgiving",
+      "protection",
+      "guidance",
+      "deliverance"
+    ],
+    "scripture_references": [
+      "Psalm 95:2",
+      "Psalm 100:4"
+    ],
+    "tune_source": "Netherlands folk melody, arranged by Edward Kremser, 1877",
+    "original_language": "nl",
+    "translator": "Theodore Baker"
+  }
+}

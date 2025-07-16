@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-032",
+  "number": 32,
+  "title": "When in Our Music God Is Glorified",
+  "author": "Fred Pratt Green",
+  "composer": "Charles Stanford",
+  "tune": "Engelberg",
+  "meter": "10.10.10 with Alleluias",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When in our music God is glorified,\nAnd adoration leaves no room for pride,\nIt is as though the whole creation cried:"
+    },
+    {
+      "number": 2,
+      "text": "How oft, in making music, we have found\nA new dimension in the world of sound,\nAs worship moved us to a more profound:"
+    },
+    {
+      "number": 3,
+      "text": "And did not Jesus sing a psalm that night\nWhen utmost evil strove against the light?\nThen let us sing, for whom He won the fight:"
+    },
+    {
+      "number": 4,
+      "text": "Let every instrument be tuned for praise!\nLet all rejoice who have a voice to raise!\nAnd may God give us faith to sing always:"
+    }
+  ],
+  "chorus": {
+    "text": "Alleluia! Alleluia! Alleluia!"
+  },
+  "metadata": {
+    "year": 1972,
+    "copyright": "Words © 1972 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission",
+    "themes": [
+      "music",
+      "praise",
+      "worship"
+    ],
+    "scripture_references": [
+      "Matthew 26:30"
+    ],
+    "tune_source": "Charles Villiers Stanford, 1904",
+    "original_language": "en"
+  }
+}

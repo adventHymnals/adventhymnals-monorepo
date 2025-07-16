@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-645",
+  "number": 645,
+  "title": "God of Our Fathers",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God of our fathers, whose almighty hand\nLeads forth in beauty all the starry band\nOf shining worlds in splendor through the skies,\nOur grateful songs before Thy throne arise."
+    },
+    {
+      "number": 2,
+      "text": "Thy love divine hath led us in the past,\nIn this free land by Thee our lot is cast;\nBe Thou our ruler, guardian, guide, and stay,\nThy word our law, Thy paths our chosen way."
+    },
+    {
+      "number": 3,
+      "text": "From war's alarms, from deadly pestilence,\nBe Thy strong arm our ever sure defense;\nThy true religion in our hearts and lives\nFill all our lives with love and grace divine."
+    },
+    {
+      "number": 4,
+      "text": "Refresh Thy people on their toilsome way,\nLead us from night to never-ending day;\nFill all our lives with love and grace divine,\nAnd glory, laud, and praise be ever Thine."
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "patriotism",
+      "divine guidance",
+      "national prayer",
+      "protection"
+    ],
+    "scripture_references": [
+      "Psalm 33:12",
+      "Proverbs 14:34"
+    ],
+    "copyright": "Public Domain"
+  }
+}

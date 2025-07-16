@@ -1,0 +1,47 @@
+{
+  "id": "SDAH-en-039",
+  "number": 39,
+  "title": "Lord, in the Morning",
+  "author": "Isaac Watts",
+  "composer": "Franconia",
+  "tune": "Franconia",
+  "meter": "8.8.8.8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, in the morning Thou shalt hear\nMy voice ascending high;\nTo Thee will I direct my prayer,\nTo Thee lift up mine eye."
+    },
+    {
+      "number": 2,
+      "text": "Up to the hills where Christ is gone\nTo plead for all His saints,\nPresenting at His Father's throne\nOur songs and our complaints."
+    },
+    {
+      "number": 3,
+      "text": "O may Thy Spirit guide my feet\nIn ways of righteousness,\nMake every path of duty straight\nAnd plain before my face."
+    },
+    {
+      "number": 4,
+      "text": "The men that love and fear Thy name\nShall see their hopes fulfilled;\nThe mighty God will compass them\nWith favor as a shield."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": [
+      "morning prayer",
+      "guidance",
+      "trust",
+      "protection",
+      "intercession",
+      "righteousness"
+    ],
+    "scripture_references": [
+      "Psalm 5:3",
+      "Psalm 25:4-5",
+      "Hebrews 7:25"
+    ],
+    "tune_source": "Harmoniae Sacrae, 1753",
+    "original_language": "en"
+  }
+}

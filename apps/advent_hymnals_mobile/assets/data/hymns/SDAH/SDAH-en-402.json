@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-402",
+  "number": 402,
+  "title": "By Christ Redeemed",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "3/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "By Christ redeemed, In Christ restored,\nWe keep the memory adored,\nAnd show the death of our dear Lord,\nUntil He come."
+    },
+    {
+      "number": 2,
+      "text": "His broken body in our stead\nIs here, in his memorial bread;\nAnd so our feeble love is fed,\nUntil He come."
+    },
+    {
+      "number": 3,
+      "text": "His fearful drops of agony,\nHis life-blood shed for us we see;\nThe wine shall tell the mystery,\nUntil He come."
+    },
+    {
+      "number": 4,
+      "text": "And thus that dark betrayal night\nWith the last advent we unite,\nBy one blest chain of loving rite,\nUntil He come."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "communion",
+      "redemption",
+      "second_coming",
+      "sacrifice"
+    ],
+    "scripture_references": [
+      "1 Corinthians 11:26"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

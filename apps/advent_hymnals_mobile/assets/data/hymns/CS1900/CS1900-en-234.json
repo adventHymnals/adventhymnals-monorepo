@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-234",
+  "number": 234,
+  "title": "HOW CAN I KEEP FROM SINGING?",
+  "author": "R. L.",
+  "composer": null,
+  "tune": "RESIGNATION",
+  "meter": "8s, 7s, & 4s.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My life flows on in endless song, And earth has no sorrow, That heav'n cannot heal."
+    },
+    {
+      "number": 2,
+      "text": "I hear the sweet, though far-off hymn That hails a new creation; Through all the tumult and the strife I hear the music ringing."
+    },
+    {
+      "number": 3,
+      "text": "What though the radiance that was once My joy and crown be dimming? The peace of Christ makes fresh my heart, A fountain ever springing."
+    },
+    {
+      "number": 4,
+      "text": "The peace of Christ, it surges through The storms of grief and anguish; Since love is Lord of heav'n and earth, How can I keep from singing?"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "singing",
+      "joy",
+      "peace",
+      "music"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

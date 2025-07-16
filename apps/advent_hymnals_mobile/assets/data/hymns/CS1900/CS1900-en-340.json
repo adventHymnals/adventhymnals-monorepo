@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-340",
+  "number": 340,
+  "title": "FAITH VIEWS HIM",
+  "author": "W. T. Sleeper",
+  "composer": "Geo. C. Stebbins",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Faith views him as the wayward eyes; And there behold him rise\nAbove the Lord appointed will; Yet still on our treasure;\nWith joy we in his triumph read; And read the cross confess."
+    },
+    {
+      "number": 2,
+      "text": "Faith views him in the weary grave; And there behold him rise\nAbove the Lord appointed will; Yet still on our treasure;\nWith joy we in his triumph read; And read the cross confess."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "faith",
+      "resurrection",
+      "triumph"
+    ],
+    "scripture_references": [],
+    "tune_source": "Geo. C. Stebbins",
+    "original_language": "en"
+  }
+}

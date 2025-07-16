@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-045",
+  "number": 45,
+  "title": "Only Two Ways",
+  "author": "F. E. B.",
+  "composer": "F. E. B.",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Jesus saith unto them, I am the way, the truth, and the life; no man cometh unto the Father but by me.\"—John 14: 6. There are two ways for trav - el - ers, on - ly two ways: God's hill narrow way of ho - li - ness and re - gard; The oth - er leads\ndown-ward, the wide way to ruin; Up to the land de - ceived, Where we the sway. That the wide path seems lay of sin - ly and strife. The glo - ry up"
+    },
+    {
+      "number": 2,
+      "text": "There are not man - y ways to glo - ry, on - ly one: One that seems ra - di - ant with light, One that leads to an e - ter - nal throne; One that brings dark-ness, with un - cer-tain end. Say that path seems win - ning, His foot is rest - ure end; They that are with us, death gains with us."
+    }
+  ],
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1895, by F. E. Belden",
+    "themes": [
+      "two ways",
+      "narrow way",
+      "wide way",
+      "holiness",
+      "ruin",
+      "glory",
+      "truth"
+    ],
+    "scripture_references": [
+      "John 14:6"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

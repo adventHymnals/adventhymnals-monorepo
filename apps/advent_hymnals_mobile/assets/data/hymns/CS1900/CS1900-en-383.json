@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-383",
+  "number": 383,
+  "title": "STAND LIKE THE BRAVE",
+  "author": "F. J. Crosby",
+  "composer": "W. H. Doane and Philip Phillips",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Stand up, stand up for Je-sus, A sol-dier of the cross;\nLift high his roy-al ban-ner, It must not suf-fer loss;\nFrom vic-t'ry un-to vic-t'ry His ar-my shall he lead,\nTill ev-'ry foe is van-quished, And Christ is Lord in-deed."
+    },
+    {
+      "number": 2,
+      "text": "Stand up, stand up for Je-sus, The trum-pet call o-bey;\nForth to the might-y con-flict, In this his glo-rious day;\nYe that are men now serve him A-gainst un-num-bered foes;\nLet cour-age rise with dan-ger, And strength to strength op-pose."
+    },
+    {
+      "number": 3,
+      "text": "Stand up, stand up for Je-sus, Stand in his strength a-lone;\nThe arm of flesh will fail you, Ye dare not trust your own;\nPut on the gos-pel ar-mor, Each piece put on with prayer;\nWhere du-ty calls, or dan-ger, Be nev-er want-ing there."
+    },
+    {
+      "number": 4,
+      "text": "Stand up, stand up for Je-sus, The strife will not be long;\nThis day the noise of bat-tle, The next the vic-tor's song;\nTo him that o-ver-com-eth A crown of life shall be;\nHe with the King of glo-ry Shall reign e-ter-nal-ly."
+    }
+  ],
+  "chorus": {
+    "text": "Stand like the brave, stand like the brave,\nStand like the brave, with thy face to the foe."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "courage",
+      "spiritual warfare",
+      "standing firm",
+      "victory"
+    ],
+    "scripture_references": [],
+    "tune_source": "W. H. Doane and Philip Phillips",
+    "original_language": "en"
+  }
+}

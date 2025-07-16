@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-092",
+  "number": 92,
+  "title": "This Is My Father's World",
+  "author": "Maltbie Davenport Babcock",
+  "composer": "Franklin L. Sheppard",
+  "tune": "Terra Beata",
+  "meter": "S.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "This is my Father's world,\nAnd to my listening ears,\nAll nature sings, and round me rings\nThe music of the spheres.\nThis is my Father's world:\nI rest me in the thought\nOf rocks and trees, of skies and seas;\nHis hand the wonders wrought."
+    },
+    {
+      "number": 2,
+      "text": "This is my Father's world,\nThe birds their carols raise,\nThe morning light, the lily white,\nDeclare their Maker's praise.\nThis is my Father's world:\nHe shines in all that's fair;\nIn the rustling grass I hear Him pass,\nHe speaks to me everywhere."
+    },
+    {
+      "number": 3,
+      "text": "This is my Father's world,\nO let me ne'er forget\nThat though the wrong seems oft so strong,\nGod is the Ruler yet.\nThis is my Father's world:\nWhy should my heart be sad?\nThe Lord is King; let the heavens ring!\nGod reigns; let the earth be glad."
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "Creation",
+      "God's World",
+      "Nature",
+      "Trust"
+    ],
+    "scripture_references": [],
+    "tune_source": "Terra Beata",
+    "original_language": "en"
+  }
+}

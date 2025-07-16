@@ -1,0 +1,43 @@
+{
+  "id": "CS1900-en-239",
+  "number": 239,
+  "title": "Freely Give",
+  "author": "Fanny J. Crosby",
+  "composer": "Thos. E. Perkins",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Would you win a Saviour's blessing? Freely, freely give; Work you see in work preparing; Freely, freely give; Like the dew on balm distilling, Freely, freely give; Love to want for souls that famish, Freely, freely give."
+    },
+    {
+      "number": 2,
+      "text": "With a cheerful heart and willing, Freely, freely give; Use the talent He has given, Freely, freely give; Have you riches? Give you only; O how precious is to sight! Is your offering still be-quired; Freely, freely give."
+    },
+    {
+      "number": 3,
+      "text": "Would you drink of Christ's salvation? Freely, freely give; In the harvest of the Lord? There ye who find rest; Freely, freely give."
+    }
+  ],
+  "chorus": {
+    "text": "Freely, freely give, Freely, freely give, Freely, freely give, Freely, freely give."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1879, by W. H. Doane. Used by permission",
+    "themes": [
+      "giving",
+      "freely",
+      "blessing",
+      "Saviour",
+      "talent",
+      "harvest",
+      "salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

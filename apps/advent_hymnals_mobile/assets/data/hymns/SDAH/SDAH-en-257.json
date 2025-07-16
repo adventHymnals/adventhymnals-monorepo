@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-257",
+  "number": 257,
+  "title": "Come Down, O Love Divine",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come down, O Love divine,\nSeek Thou this soul of mine,\nAnd visit it with Thine own ardor glowing;"
+    },
+    {
+      "number": 2,
+      "text": "O let it freely burn,\nTill earthly passions turn\nTo dust and ashes in its heat consuming;"
+    },
+    {
+      "number": 3,
+      "text": "Let holy charity\nMine outward vesture be,\nAnd lowliness become mine inner clothing;"
+    },
+    {
+      "number": 4,
+      "text": "And so the yearning strong,\nWith which the soul will long,\nShall far outpass the power of human telling;"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Love Divine",
+      "Holy Spirit",
+      "Soul",
+      "Ardor",
+      "Charity"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

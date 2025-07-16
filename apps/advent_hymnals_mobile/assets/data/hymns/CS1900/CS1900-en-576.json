@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-576",
+  "number": 576,
+  "title": "THE BEAUTIFUL BEYOND",
+  "author": "E. E. R.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Beautiful for situation, the joy of the whole earth, is mount Zion, on the sides of the north, the city of the great King.\" - Ps. 48:2.\nI know the Gold-en cit-y, With-out and with-in, Fair-est and far-great-er than,\nThe streets of life with comfort flow, That is of life, that ap-pear bow,"
+    },
+    {
+      "number": 2,
+      "text": "The flow-ers that bloom, And bless-ed im-mor-tal-i-ty, No - sin-ful and fair; The gold-en streets,\nThe gold-en har-ps, The ang-els sing, The spir-its and fair; Fresh with them shine,\nThe rose, so bright, So bright and fair, And love to shine, With fel-low-ship of love."
+    }
+  ],
+  "chorus": {
+    "text": "REFRAIN:\nO beau-ti-ful, beau-ti-ful cit-y!\nO home of beau-ty, free from sor-row and pain!\nO ev-er-last-ing glad hom-age to the bless-ed!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1900, by F. E. Belden. Used by permission. Hardy Lake, Illinois",
+    "themes": [
+      "golden city",
+      "beautiful",
+      "Zion",
+      "streets of gold",
+      "immortality"
+    ],
+    "scripture_references": [
+      "Ps. 48:2"
+    ],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

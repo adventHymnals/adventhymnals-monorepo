@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-430",
+  "number": 430,
+  "title": "Joy By and By",
+  "author": "Eliza H. Hamilton",
+  "composer": "James McGranahan",
+  "tune": "JOY BY AND BY",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O there'll be joy when the work is done,\nJoy when the reapers gather home,\nBringing the sheaves at set of sun\nTo the New Jerusalem."
+    },
+    {
+      "number": 2,
+      "text": "Sweet are the songs that we hope to sing,\nGrateful the thanks our hearts shall bring,\nPraising forever Christ our King\nIn the New Jerusalem."
+    },
+    {
+      "number": 3,
+      "text": "Pure are the joys that await us there,\nMany the golden mansions fair;\nJesus Himself doth them prepare\nIn the New Jerusalem."
+    }
+  ],
+  "chorus": {
+    "text": "Joy, joy, there'll be joy by and by,\nJoy, joy, where the joys never die;\nJoy, joy, for the day draweth nigh\nWhen the workers gather home."
+  },
+  "metadata": {
+    "year": 1877,
+    "copyright": "Public Domain",
+    "themes": [
+      "heaven",
+      "joy",
+      "eternal life",
+      "New Jerusalem",
+      "harvest"
+    ],
+    "scripture_references": [
+      "Matthew 13:39",
+      "John 4:36",
+      "Revelation 21:2"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

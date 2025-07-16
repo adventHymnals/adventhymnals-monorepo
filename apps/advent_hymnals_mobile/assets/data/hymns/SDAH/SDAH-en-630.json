@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-630",
+  "number": 630,
+  "title": "Rise, My Soul, and Stretch Thy Wings",
+  "author": "Robert Seagrave",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Rise, my soul, and stretch thy wings,\nThy better portion trace;\nRise from transitory things\nToward heaven, thy native place:\nSun, and moon, and stars decay;\nTime shall soon this earth remove;\nRise, my soul, and haste away\nTo seats prepared above."
+    },
+    {
+      "number": 2,
+      "text": "Rivers to the ocean run,\nNor stay in all their course;\nFire ascending seeks the sun,\nBoth speed them to their source:\nSo a soul that's born of God\nLongs to view His glorious face,\nForward tends to His abode,\nTo rest in His embrace."
+    },
+    {
+      "number": 3,
+      "text": "Cease, ye pilgrims, cease to mourn;\nPress onward to the prize;\nSoon our Savior will return\nTriumphant in the skies:\nYet a season, and you know\nHappy entrance will be given,\nAll our sorrows left below,\nAnd earth exchanged for heaven."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": [
+      "aspiration",
+      "heaven",
+      "spiritual journey",
+      "second coming"
+    ],
+    "scripture_references": [
+      "Colossians 3:1-2",
+      "Philippians 3:20"
+    ],
+    "tune_source": "",
+    "original_language": "en"
+  }
+}

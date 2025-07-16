@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-724",
+  "number": 724,
+  "title": "On Jordan's Stormy Banks",
+  "author": "S. Stennett",
+  "composer": "Arr. by J. P. Holbrook",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "On Jor-dan's stor-my banks I stand, And cast a wish-ful eye\nTo Ca-naan's fair and hap-py land, Where my pos-ses-sions lie;\nI will with-draw my ran-somed soul Want from a sin-ful stay."
+    },
+    {
+      "number": 2,
+      "text": "O the trans-port-ing rap-turous scene That ris-es to my sight!\nSweet fields ar-rayed in liv-ing green, And riv-ers of de-light!\nO when shall I reach that hap-py place, And be for-ev-er blest?"
+    },
+    {
+      "number": 3,
+      "text": "There gen-erous fruits that nev-er fail On trees im-mor-tal grow;\nThere rocks and hills and brooks and vales With milk and hon-ey flow.\nWhen shall I reach that hap-py place, And be for-ev-er blest?"
+    },
+    {
+      "number": 4,
+      "text": "All o'er those wide ex-tend-ed plains Shines one e-ter-nal day;\nThere God the Son for-ev-er reigns, And scat-ters night a-way.\nWhen shall I reach that hap-py place, And be for-ev-er blest?"
+    }
+  ],
+  "chorus": {
+    "text": "When shall I reach that hap-py place, And be for-ev-er blest?\nWhen shall I see my Fa-ther's face, And in His bos-om rest?"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "heaven",
+      "eternal life",
+      "journey",
+      "promised land"
+    ],
+    "scripture_references": [],
+    "tune_source": "Arr. by J. P. Holbrook",
+    "original_language": "en"
+  }
+}

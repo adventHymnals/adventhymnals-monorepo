@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-257",
+  "number": 257,
+  "title": "Praise Ye Jehovah's Name",
+  "author": "Wm. Cowper",
+  "composer": "Henley Casey",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise ye Je-ho-vah's name, Praise through His courts His fame;\nStrike up, and praise His name, From all be-low."
+    },
+    {
+      "number": 2,
+      "text": "Praise pre-cious, Him and glo-ry, Sing of His tri-umph sto-ry,\nEx-alt His sac-red name, From all be-low."
+    },
+    {
+      "number": 3,
+      "text": "Heav'n's ar-chway, Sound His great song of love,\nShine forth, ye stars a-bove, From all be-low."
+    },
+    {
+      "number": 4,
+      "text": "While life shall praise we pour, Visit us His mer-cy,\nEnd - less shall be our pow'r, From all be-low."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "praise",
+      "Jehovah",
+      "worship",
+      "glory"
+    ],
+    "scripture_references": [],
+    "tune_source": "Henley Casey",
+    "original_language": "en"
+  }
+}

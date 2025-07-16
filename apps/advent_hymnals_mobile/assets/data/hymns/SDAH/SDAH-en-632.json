@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-632",
+  "number": 632,
+  "title": "Until Then",
+  "author": "Stuart Hamblen",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My heart can sing when I pause to remember\nA heartache here is but a stepping stone\nAlong a trail that's winding always upward,\nThis troubled world is not my final home."
+    },
+    {
+      "number": 2,
+      "text": "The things of earth will dim and lose their value\nIf we recall they're borrowed for a while;\nAnd things of earth that cause the heart to tremble,\nRemembered there will only bring a smile."
+    }
+  ],
+  "chorus": {
+    "text": "But until then my heart will go on singing,\nUntil then with joy I'll carry on,\nUntil the day my eyes behold the city,\nUntil the day God calls me home."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": [
+      "hope",
+      "perseverance",
+      "eternal perspective",
+      "heaven"
+    ],
+    "scripture_references": [
+      "2 Corinthians 4:17-18",
+      "Philippians 3:20"
+    ],
+    "tune_source": "",
+    "original_language": "en"
+  }
+}

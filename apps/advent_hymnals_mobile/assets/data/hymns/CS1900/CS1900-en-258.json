@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-258",
+  "number": 258,
+  "title": "Jesus Is Mine",
+  "author": "Mrs. C. H. Morris",
+  "composer": "J. E. Thomas",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Fade, fade, each earth-ly joy, Je-sus is mine! Break ev-'ry\nDark is the wil-der-ness, earth has no rest-ing place, Je-sus a-lone can bless, Je-sus is mine!"
+    },
+    {
+      "number": 2,
+      "text": "Fare-well, ye dreams of night, Je-sus is mine! Lost in this\ntem-der, glo-rious light, sun-set at noon day bright, Je-sus is mine!"
+    },
+    {
+      "number": 3,
+      "text": "Fare-well, mor-tal-i-ty, Je-sus is mine! Wel-come, e-ter-ni-ty, Je-sus is mine!"
+    }
+  ],
+  "chorus": {
+    "text": "Je-sus is mine! Je-sus is mine! Je-sus is mine!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission.",
+    "themes": [
+      "Jesus",
+      "salvation",
+      "joy",
+      "eternity"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. E. Thomas",
+    "original_language": "en"
+  }
+}

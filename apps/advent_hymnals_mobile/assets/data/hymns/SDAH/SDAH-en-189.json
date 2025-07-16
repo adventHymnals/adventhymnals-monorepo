@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-189",
+  "number": 189,
+  "title": "All That Thrills My Soul",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Who can cheer the heart like Jesus,\nBy His presence all divine?\nTrue and tender, pure and precious,\nO how blest to call Him mine!"
+    },
+    {
+      "number": 2,
+      "text": "Love of Christ so freely given,\nGrace of God beyond degree,\nMercy higher than the heaven,\nDeeper than the deepest sea."
+    },
+    {
+      "number": 3,
+      "text": "Every need His hand supplying,\nEvery good in Him I see;\nOn His strength my soul relying,\nHe is All in All to me."
+    },
+    {
+      "number": 4,
+      "text": "By the crystal flowing river\nWith the ransomed I will sing,\nAnd forever and forever\nPraise and glorify the King."
+    }
+  ],
+  "chorus": {
+    "text": "All that thrills my soul is Jesus;\nHe is more than life to me;\nAnd the fairest of ten thousand,\nIn my blessed Lord I see."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "jesus_love",
+      "praise",
+      "worship",
+      "joy",
+      "devotion"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

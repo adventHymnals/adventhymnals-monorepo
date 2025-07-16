@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-012",
+  "number": 12,
+  "title": "Come Unto Me",
+  "author": "G. H. R. - Soprano and Alto",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O ye heart bowed down with sorrow, O you weary, and oppressed for sight! There's gladness in To-morrow, In your darkness there is light; In your Gethsemane of anguish, Gold Christ the Healer goes: all them in Co-dem-na-tion? Re- he hears are sore vex-er, in peace is love of rest; In peace there is love and light."
+    },
+    {
+      "number": 2,
+      "text": "Come unto me, I will give you rest, Take my yoke upon you, and Come unto me, Come, all ye that la-bor; Come, come unto me, Come, all ye that labor, Lift - my yoke is up-on you, and I will give you rest, Come, O come, Come unto me, Come, O come, Come unto me and rest."
+    },
+    {
+      "number": 3,
+      "text": "Come, my heart is hard ey- er and will give you rest. Come unto me, I will give you rest, Come O come, Come unto me and ye."
+    }
+  ],
+  "refrain": {
+    "text": "Come unto me, Come, all ye that la-bor; Come, unto me, Come, all ye that labor; O come, Come, O come, come unto me, Come, O come, Come unto me and rest."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1895, by F. E. Belden",
+    "themes": [
+      "invitation",
+      "rest",
+      "comfort",
+      "sorrow",
+      "Jesus",
+      "burden"
+    ],
+    "scripture_references": [
+      "Matt. 11:28"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

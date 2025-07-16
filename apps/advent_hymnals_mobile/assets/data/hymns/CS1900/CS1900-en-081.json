@@ -1,0 +1,48 @@
+{
+  "id": "CS1900-en-081",
+  "number": 81,
+  "title": "There Is A Fountain",
+  "author": "William Cowper",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 4,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 5,
+      "text": "[Verse text available in source hymnal]"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "salvation",
+      "cleansing",
+      "redemption"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en",
+    "verse_count": 5,
+    "structure": "5 verses, no chorus",
+    "first_line": "There is a fountain filled with blood"
+  }
+}

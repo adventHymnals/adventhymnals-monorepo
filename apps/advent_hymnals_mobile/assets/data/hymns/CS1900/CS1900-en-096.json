@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-096",
+  "number": 96,
+  "title": "Rest In Me",
+  "author": "F. J. Van Alstyne",
+  "composer": "W. H. Doane",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come unto me, sin-burdened, What before the cross weighed,\nThy is the precious one, the Man, Lord, thy sins in chains,\nThy is the precious one, the Man, Lord, thy sins in chains."
+    },
+    {
+      "number": 2,
+      "text": "Let me hold till you possessing From the savior's lying Friend,\nFor thy days of ease are numbered, and thy hour of rest,\nRest thy weary head on me, thou afflicted, thou distressed."
+    },
+    {
+      "number": 3,
+      "text": "I will give thee rest, my servant, Rest in me: Lord, I gladly rest in thee,\nSweetly rest in —, sweetly rest in me."
+    }
+  ],
+  "chorus": {
+    "text": "Rest in me, rest in me,\nI will give thee rest;\nRest in me, rest in me,\nOn my loving breast."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "rest",
+      "comfort",
+      "Jesus Christ"
+    ],
+    "scripture_references": [
+      "Matthew 11:28"
+    ],
+    "tune_source": "W. H. Doane",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "Come unto me, sin-burdened"
+  }
+}

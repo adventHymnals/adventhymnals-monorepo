@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-302",
+  "number": 302,
+  "title": "The Thought of God",
+  "author": "F. W. Faber",
+  "composer": "St. John",
+  "tune": "St. John",
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! hark, my soul! angelic songs are swelling O'er earth's green fields and ocean's wave-beat shore; How sweet the truth those blessed strains are telling Of that new life when sin shall be no more!"
+    },
+    {
+      "number": 2,
+      "text": "Angels of Jesus, angels of light, Singing to welcome the pilgrims of the night! Onward we go, for still we hear them singing, 'Come, weary souls, for Jesus bids you come;' And through the dark, its echoes sweetly ringing, The music of the gospel leads us home."
+    },
+    {
+      "number": 3,
+      "text": "Far, far away, like bells at evening pealing, The voice of Jesus sounds o'er land and sea, And laden souls by thousands meekly stealing, Kind Shepherd, turn their weary steps to thee."
+    },
+    {
+      "number": 4,
+      "text": "Rest comes at length; though life be long and dreary, The day must dawn, and darksome night be past; Faith's journeys end in welcome to the weary, And heaven, the heart's true home, will come at last."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "angels",
+      "pilgrimage",
+      "heaven",
+      "invitation"
+    ],
+    "scripture_references": [
+      "Hebrews 1:14"
+    ],
+    "tune_source": "St. John",
+    "original_language": "en"
+  }
+}

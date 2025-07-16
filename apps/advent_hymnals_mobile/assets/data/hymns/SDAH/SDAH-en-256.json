@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-256",
+  "number": 256,
+  "title": "Ye Servants of God",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Ye servants of God, your Master proclaim,\nAnd publish abroad His wonderful name;\nThe name all victorious of Jesus extol;\nHis kingdom is glorious, He rules over all."
+    },
+    {
+      "number": 2,
+      "text": "God ruleth on high, almighty to save,\nAnd still He is nigh His presence we have;\nThe great congregation His triumph shall sing,\nAscribing salvation to Jesus our King."
+    },
+    {
+      "number": 3,
+      "text": "\"Salvation to God Who sits on the throne,\"\nLet all cry aloud, and honor the Son;\nThe praises of Jesus the angels proclaim,\nFall down on their faces, and worship the Lamb."
+    },
+    {
+      "number": 4,
+      "text": "Then let us adore, and give Him His right:\nAll glory and power, all wisdom and might,\nAll honor and blessing, with angels above,\nAnd thanks never ceasing, and infinite love."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Servants of God",
+      "Master",
+      "Wonderful Name",
+      "Kingdom",
+      "Salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

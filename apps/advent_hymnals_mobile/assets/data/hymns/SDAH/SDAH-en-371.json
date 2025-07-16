@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-371",
+  "number": 371,
+  "title": "Lift Him Up",
+  "author": "Johnson Oatman Jr.",
+  "composer": "Charles H. Gabriel",
+  "tune": "LIFT HIM UP",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lift Him up, 'tis He that bids you, let the dying look and live;\nTo all weary, thirsting sinners, living waters will He give."
+    },
+    {
+      "number": 2,
+      "text": "Lift Him up, this precious Savior, let the multitude behold;\nThey with willing hearts shall seek Him, He will draw them to His fold."
+    },
+    {
+      "number": 3,
+      "text": "Lift Him up in all His glory, 'tis the Son of God on high;\nLift Him up, His glorious Redeemer, all the sins of men did bear."
+    },
+    {
+      "number": 4,
+      "text": "O then lift Him up in singing, lift the Savior up in prayer;\nHe, the glorious Redeemer, all the sins of men did bear."
+    }
+  ],
+  "metadata": {
+    "year": 1894,
+    "copyright": "Public Domain",
+    "themes": [
+      "Exaltation of Christ",
+      "Evangelism",
+      "Cross",
+      "Salvation"
+    ],
+    "scripture_references": [
+      "John 12:32",
+      "John 3:14-15"
+    ],
+    "tune_source": "Charles H. Gabriel, 1894",
+    "original_language": "en"
+  }
+}

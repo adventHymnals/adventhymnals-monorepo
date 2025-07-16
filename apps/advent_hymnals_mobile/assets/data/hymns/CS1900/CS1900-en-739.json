@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-739",
+  "number": 739,
+  "title": "We Would Not Weep",
+  "author": "Julia A. Carney",
+  "composer": "J. H. Rosecrans",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Dear as thou wert, and just-ly dear, We would not weep for thee;\nOne thought shall check the start-ing tear, It is that thou art free.\nAnd thus we mourn-ing mor-tals here, The lim-it of our woe;\nWhy should we give one need-less tear, Or heave one use-less sigh?"
+    },
+    {
+      "number": 2,
+      "text": "We would not call thee from the verge Of that ce-les-tial shore;\nWe would not drag thee back to urge The toil-some jour-ney o'er.\nAnd thus we mourn-ing mor-tals here, The lim-it of our woe;\nWhy should we give one need-less tear, Or heave one use-less sigh?"
+    },
+    {
+      "number": 3,
+      "text": "Rest, spir-it, rest! 'twas God who gave, And God who took a-way;\nAnd when this fleet-ing life is o'er, We hope to meet thee there.\nAnd thus we mourn-ing mor-tals here, The lim-it of our woe;\nWhy should we give one need-less tear, Or heave one use-less sigh?"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "death",
+      "comfort",
+      "eternal life",
+      "hope"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. H. Rosecrans",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-295",
+  "number": 295,
+  "title": "My Jesus, I Love Thee",
+  "author": "W. R. Featherstone",
+  "composer": "A. J. Gordon",
+  "tune": "Gordon",
+  "meter": "11, 11, 11, 11.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My Jesus, I love thee, I know thou art mine; For thee all the follies of sin I resign; My gracious Redeemer, my Savior art thou; If ever I loved thee, my Jesus, 'tis now."
+    },
+    {
+      "number": 2,
+      "text": "I love thee because thou hast first loved me, And purchased my pardon on Calvary's tree; I love thee for wearing the thorns on thy brow; If ever I loved thee, my Jesus, 'tis now."
+    },
+    {
+      "number": 3,
+      "text": "I'll love thee in life, I will love thee in death, And praise thee as long as thou lendest me breath; And say when the death-dew lies cold on my brow, If ever I loved thee, my Jesus, 'tis now."
+    },
+    {
+      "number": 4,
+      "text": "In mansions of glory and endless delight, I'll ever adore thee in heaven so bright; I'll sing with the glittering crown on my brow, If ever I loved thee, my Jesus, 'tis now."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "love for Jesus",
+      "devotion",
+      "salvation",
+      "eternity"
+    ],
+    "scripture_references": [
+      "1 John 4:19"
+    ],
+    "tune_source": "A. J. Gordon",
+    "original_language": "en"
+  }
+}

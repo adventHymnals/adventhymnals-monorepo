@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-097",
+  "number": 97,
+  "title": "He Is Calling",
+  "author": "Carrie Youngs",
+  "composer": "Geo. C. Stebbins",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There's a silence in God's mercy, Like the softness of the day;\nAnd he speaks to the restless, In the twilight's gentle way;\nThere's a place where earthly sorrow All can find full rest from care,\nAnd the heart that once was heavy Is now resting sweetly there."
+    },
+    {
+      "number": 2,
+      "text": "There is mercy with salvation, There is healing in his blood;\nThere are peace and consolation From the ever-living good;\nBut the heart of the Sa- vior lies in comfort with his King,\nAnd the weary, as he saves it, All their suffering doth bring."
+    },
+    {
+      "number": 3,
+      "text": "He is calling, \"Come unto me, Lord, I gladly go,\" I say."
+    }
+  ],
+  "chorus": {
+    "text": "He is calling, \"Come unto me, Lord, I gladly go,\" I say;\nI will go unto altar,\nEverything to Jesus bring."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "calling",
+      "mercy",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Matthew 11:28"
+    ],
+    "tune_source": "Geo. C. Stebbins",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "There's a silence in God's mercy"
+  }
+}

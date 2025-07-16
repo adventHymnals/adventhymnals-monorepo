@@ -1,0 +1,47 @@
+{
+  "id": "SDAH-en-030",
+  "number": 30,
+  "title": "Holy God, We Praise Your Name",
+  "author": "Ignaz Franz",
+  "composer": "Catholic Kirchengesang",
+  "tune": "Grosser Gott",
+  "meter": "7.8.7.8.7.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy God, we praise Your name;\nLord of all, we bow before You!\nAll on earth Your scepter claim,\nAll in heaven above adore You;"
+    },
+    {
+      "number": 2,
+      "text": "Hark! the loud celestial hymn\nAngel choirs above are raising,\nCherubim and seraphim,\nIn unceasing chorus praising;"
+    },
+    {
+      "number": 3,
+      "text": "Holy Father, Holy Son,\nHoly Spirit, three we name You;\nWhile in essence only one,\nUndivided God we claim You;"
+    }
+  ],
+  "chorus": {
+    "text": "Infinite Your vast domain,\nEverlasting is Your reign!"
+  },
+  "metadata": {
+    "year": 1774,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "worship",
+      "Trinity",
+      "holiness",
+      "adoration",
+      "angels"
+    ],
+    "scripture_references": [
+      "Revelation 4:8",
+      "Isaiah 6:3",
+      "1 Timothy 1:17"
+    ],
+    "tune_source": "Catholic Kirchengesang, Vienna, c. 1774",
+    "original_language": "de",
+    "translator": "Clarence Alphonsus Walworth"
+  }
+}

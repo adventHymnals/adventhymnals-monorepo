@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-123",
+  "number": 123,
+  "title": "Crown Him",
+  "author": null,
+  "composer": "Robert Lowry",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Crown Him, the children,\nHail Him as thy Saviour true;\nYe lambs of Christ, your tribute bring,\nYe children great and small; Ho - san - na ring.\nThe chil - dren sang what they learned at Jesus' knee."
+    },
+    {
+      "number": 2,
+      "text": "Ye lambs of Christ, your tribute bring,\nYe children great and small; Ho - san - na ring.\nThe chil - dren sang what they learned at Jesus' knee."
+    },
+    {
+      "number": 3,
+      "text": "The chil - dren sang what they learned at Jesus' knee."
+    }
+  ],
+  "chorus": {
+    "text": "Hail, hail, hail, thou holy, holy, holy Lord!\nA time to sing through all the earth;\nChrist your King, And crown him Lord of all,\nAnd crown him Lord of all."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of Biglow & Main.",
+    "themes": [
+      "praise",
+      "children",
+      "Jesus"
+    ],
+    "scripture_references": [],
+    "tune_source": "Robert Lowry",
+    "original_language": "en"
+  }
+}

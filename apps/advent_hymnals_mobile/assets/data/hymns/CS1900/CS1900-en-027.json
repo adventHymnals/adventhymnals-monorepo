@@ -1,0 +1,45 @@
+{
+  "id": "CS1900-en-027",
+  "number": 27,
+  "title": "Whiter Than Snow",
+  "author": "Jas. Nicholson",
+  "composer": "Wm. G. Fischer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Wash me, and I shall be whiter than snow.\"—Ps. 51: 7. Lord Je - sus, I long to be per - fect - ly whole; I want thee for - ev - er to live in my soul; Lord Je - sus, look down from thy throne in the skies, And help me to make a com-plete sac - ri - fice."
+    },
+    {
+      "number": 2,
+      "text": "Lord Je - sus, for this I most hum - bly en - treat, I wait, bless-ed Lord, at thy cru - ci - fied feet; Lord Je - sus, come now, set me per - fect - ly white; I want thee to cleanse from all sin in thy sight."
+    },
+    {
+      "number": 3,
+      "text": "Lord Je - sus, thou see - est I pa - tient - ly wait; Come now, and with - in me a new heart cre - ate; Now wash me, and I shall be whit - er than snow."
+    }
+  ],
+  "chorus": {
+    "text": "Whit - er than snow, yes, whit - er than snow; Now wash me, and I shall be whit - er than snow."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission",
+    "themes": [
+      "cleansing",
+      "snow",
+      "perfect",
+      "whole",
+      "sacrifice",
+      "throne",
+      "heart"
+    ],
+    "scripture_references": [
+      "Ps. 51:7"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-107",
+  "number": 107,
+  "title": "Born Again",
+  "author": "E. R. Latta",
+  "composer": "J. H. Burke",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The blood of Jesus, O learn of God, Can give me peace within;\nThe blood of Jesus flowing free, Can cleanse me from all sin;\nFor I am born again, Born again, Lord, born again,\nHallelujah, I am born again."
+    },
+    {
+      "number": 2,
+      "text": "The love of Jesus, O learn of God, Can bring me sweet release;\nThe love of Jesus flowing free, Can fill my heart with peace;\nFor I am born again, Born again, Lord, born again,\nHallelujah, I am born again."
+    },
+    {
+      "number": 3,
+      "text": "The power of Jesus, O learn of God, Can make me clean within;\nThe power of Jesus flowing free, Can save me from all sin;\nFor I am born again, Born again, Lord, born again,\nHallelujah, I am born again."
+    }
+  ],
+  "chorus": {
+    "text": "Born again, born again,\nHallelujah, I am born again;\nBorn again, born again,\nHallelujah, I am born again."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "new birth",
+      "salvation",
+      "spiritual regeneration"
+    ],
+    "scripture_references": [
+      "John 3:3"
+    ],
+    "tune_source": "J. H. Burke",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "The blood of Jesus, O learn of God"
+  }
+}

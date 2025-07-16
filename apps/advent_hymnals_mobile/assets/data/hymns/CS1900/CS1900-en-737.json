@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-737",
+  "number": 737,
+  "title": "Bear Me On",
+  "author": "Anon",
+  "composer": "Anon",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Bear me on, bear me on, On thy wings of love so strong;\nTill I reach the bet-ter land, Then I'll sing re-demp-tion's song."
+    },
+    {
+      "number": 2,
+      "text": "Bear me on, bear me on, Till the jour-ney here is done;\nTill I reach the shin-ing shore, Where the vic-t'ry shall be won."
+    },
+    {
+      "number": 3,
+      "text": "Bear me on, bear me on, Till I see my Sav-ior's face;\nTill I reach the ho-ly hill, Where I'll rest in per-fect peace."
+    }
+  ],
+  "chorus": {
+    "text": "Bear me on, bear me on, On thy wings of love so strong;\nBear me on, bear me on, Till I reach the bet-ter land."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "journey",
+      "love",
+      "redemption",
+      "victory"
+    ],
+    "scripture_references": [],
+    "tune_source": "Anon",
+    "original_language": "en"
+  }
+}

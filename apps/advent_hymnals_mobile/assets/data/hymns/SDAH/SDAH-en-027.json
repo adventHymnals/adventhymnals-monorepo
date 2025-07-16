@@ -1,0 +1,54 @@
+{
+  "id": "SDAH-en-027",
+  "number": 27,
+  "title": "Rejoice, Ye Pure in Heart",
+  "author": "Edward Hayes Plumptre",
+  "composer": "Arthur Henry Messiter",
+  "tune": "Marion",
+  "meter": "8.8.8.8 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Rejoice, ye pure in heart!\nRejoice, give thanks, and sing;\nYour festal banner wave on high,\nThe cross of Christ your King."
+    },
+    {
+      "number": 2,
+      "text": "With voice as full and strong\nAs ocean's surging praise,\nSend forth the sturdy hymns of old,\nThe psalms of ancient days."
+    },
+    {
+      "number": 3,
+      "text": "With all the angel choirs,\nWith all the saints on earth,\nPour out the strains of joy and bliss,\nTrue rapture, noblest mirth."
+    },
+    {
+      "number": 4,
+      "text": "Yes, on through life's long path,\nStill chanting as ye go;\nFrom youth to age, by night and day,\nIn gladness and in woe."
+    },
+    {
+      "number": 5,
+      "text": "Praise Him who reigns on high,\nThe Lord whom we adore,\nThe Father, Son, and Holy Ghost,\nOne God forevermore."
+    }
+  ],
+  "chorus": {
+    "text": "Rejoice! Rejoice!\nRejoice! Rejoice!\nRejoice, give thanks, and sing!"
+  },
+  "metadata": {
+    "year": 1865,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "rejoicing",
+      "thanksgiving",
+      "pure heart",
+      "christian living",
+      "discipleship"
+    ],
+    "scripture_references": [
+      "Psalm 32:11",
+      "Psalm 97:12",
+      "1 Peter 1:8"
+    ],
+    "tune_source": "Arthur Henry Messiter, 1889",
+    "original_language": "en"
+  }
+}

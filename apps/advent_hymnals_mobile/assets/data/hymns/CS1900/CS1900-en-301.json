@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-301",
+  "number": 301,
+  "title": "All for Jesus",
+  "author": "W. J. Sparrow-Simpson",
+  "composer": "J. Stainer",
+  "tune": "All for Jesus",
+  "meter": "8, 7, 8, 7, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All for Jesus, all for Jesus, All my being's ransomed powers; All my thoughts and words and doings, All my days and all my hours."
+    },
+    {
+      "number": 2,
+      "text": "Let my hands perform his bidding, Let my feet run in his ways; Let my eyes see Jesus only, Let my lips speak forth his praise."
+    },
+    {
+      "number": 3,
+      "text": "Worldlings prize their gems of beauty, Cling to gilded toys of dust; Boast of wealth and seek for honor, Jesus is my life, my trust."
+    },
+    {
+      "number": 4,
+      "text": "Since my eyes were fixed on Jesus, I've lost sight of all beside; So enchained my spirit's vision, Looking at the Crucified."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "dedication",
+      "Jesus",
+      "commitment",
+      "discipleship"
+    ],
+    "scripture_references": [
+      "Romans 12:1"
+    ],
+    "tune_source": "J. Stainer",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-038",
+  "number": 38,
+  "title": "What Shall the Harvest Be?",
+  "author": "Emily S. Oakey",
+  "composer": "Philip Phillips",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"He that soweth in his flesh shall of the flesh reap corruption; but he that soweth to the Spirit shall reap life.\"—Gal. 6: 8. Sow - ing the seed by the day - light fair, Sow - ing the seed by the noon-day glare, Sow - ing the seed by the fad - ing light, Sow - ing the seed in the mourn - ful night;"
+    },
+    {
+      "number": 2,
+      "text": "Sow - ing the seed with an ach - ing heart, Sow - ing the seed while the tear - drops start, Sow - ing the seed in hope till the reap - ers come, Glad - ly to gath - er the har - vest home."
+    }
+  ],
+  "chorus": {
+    "text": "Sown in the dark-ness or sown in the light, Sown in our weak-ness or sown in our might;"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1874, by P. P. Bliss",
+    "themes": [
+      "sowing",
+      "seed",
+      "harvest",
+      "reaping",
+      "corruption",
+      "Spirit",
+      "life"
+    ],
+    "scripture_references": [
+      "Gal. 6:8"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "SDAH-en-153",
+  "number": 153,
+  "title": "Prince of Peace, Control My Will",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "3/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Prince of Peace, control my will,\nBid this struggling heart be still;\nBid my fears and doubtings cease,\nHush my spirit into peace."
+    },
+    {
+      "number": 2,
+      "text": "Thou hast bought me with Thy blood,\nOpened wide the gate to God;\nPeace, I ask, but peace must be,\nLord, in being one with Thee."
+    },
+    {
+      "number": 3,
+      "text": "May Thy will, not mine, be done,\nMay Thy will and mine be one;\nChase these doubtings from my heart,\nNow Thy perfect peace impart."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "peace",
+      "surrender",
+      "will of God",
+      "control"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

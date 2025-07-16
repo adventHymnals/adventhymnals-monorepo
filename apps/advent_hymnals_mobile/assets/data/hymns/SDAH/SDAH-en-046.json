@@ -1,0 +1,46 @@
+{
+  "id": "SDAH-en-046",
+  "number": 46,
+  "title": "Abide With Me, 'Tis Eventide",
+  "author": "Martin Lowry",
+  "composer": "Harrison Millard",
+  "tune": "Eventide",
+  "meter": "10.10.10.10 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Abide with me, 'tis eventide!\nThe day is past and gone;\nThe shadows of the evening fall;\nThe night is coming on!\nWithin my heart a welcome guest,\nWith in my home abide;"
+    },
+    {
+      "number": 2,
+      "text": "Abide with me, 'tis eventide!\nThy walk today with me\nHas made my heart with-in me burn,\nAs I communed with Thee.\nThy earnest words have filled my soul\nAnd kept me near Thy side;"
+    },
+    {
+      "number": 3,
+      "text": "Abide with me, 'tis eventide!\nAnd lone will be the night,\nIf I cannot commune with Thee,\nNor find in Thee my light.\nThe darkness of the world, I fear,\nWould in my home abide;"
+    }
+  ],
+  "chorus": {
+    "text": "O Savior, stay this night with me;\nBehold, 'tis eventide!\nO Savior, stay this night with me;\nBehold, 'tis eventide."
+  },
+  "metadata": {
+    "year": 1877,
+    "copyright": "Public Domain",
+    "themes": [
+      "evening",
+      "companionship",
+      "comfort",
+      "prayer",
+      "divine presence",
+      "communion"
+    ],
+    "scripture_references": [
+      "Luke 24:29",
+      "Revelation 3:20",
+      "Matthew 28:20"
+    ],
+    "tune_source": "Harrison Millard, 1877",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-259",
+  "number": 259,
+  "title": "Draw Us in the Spirit's Tether",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Draw us in the Spirit's tether,\nFor when humbly in Thy name\nTwo or three are met together,\nThou art in the midst of them;"
+    },
+    {
+      "number": 2,
+      "text": "As the brethren used to gather\nIn the name of Christ to sup,\nThen with thanks to God the Father\nBreak the bread and bless the cup."
+    },
+    {
+      "number": 3,
+      "text": "All our meals and all our living\nMake as sacraments of Thee,\nThat by caring, helping, giving,\nWe may true disciples be."
+    }
+  ],
+  "chorus": {
+    "text": "Alleluia! Alleluia!\nTouch we now Thy garment's hem.\nAlleluia! Alleluia!\nSo knit Thou our friendship up.\nAlleluia! Alleluia!\nWe will serve Thee faithfully."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Spirit's Tether",
+      "Fellowship",
+      "Communion",
+      "Disciples",
+      "Alleluia"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

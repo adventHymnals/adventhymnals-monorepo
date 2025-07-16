@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-163",
+  "number": 163,
+  "title": "At the Cross",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Alas, and did my Savior bleed? And did my Sovereign die?\nWould He devote that sacred head For someone such as I?"
+    },
+    {
+      "number": 2,
+      "text": "Was it for crimes that I have done, He suffered on the tree?\nAmazing pity! grace unknown! And love beyond degree!"
+    },
+    {
+      "number": 3,
+      "text": "But drops of grief can ne'er repay The debt of love I owe:\nHere, Lord, I give myself away, 'Tis all that I can do!"
+    }
+  ],
+  "chorus": {
+    "text": "At the cross, at the cross where I first saw the light,\nAnd the burden of my heart rolled away,\nIt was there by faith I received my sight,\nAnd now I am happy all the day!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "cross",
+      "salvation",
+      "grace",
+      "gratitude"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

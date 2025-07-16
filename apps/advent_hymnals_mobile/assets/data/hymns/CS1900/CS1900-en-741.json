@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-741",
+  "number": 741,
+  "title": "No Sorrow There",
+  "author": "J. A. Duchan",
+  "composer": "J. A. Duchan",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There'll be no grief in heav-en's fair cit-y, no part-ing day;\nThere'll be no sor-row there, no weep-ing, no sor-row there.\nSafe in the arms of Je-sus, safe from care and pain,\nNo sor-row there, no sor-row there."
+    },
+    {
+      "number": 2,
+      "text": "There'll be no part-ing there in the glo-ry, no part-ing there;\nThere'll be no sor-row there, no weep-ing, no sor-row there.\nSafe in the arms of Je-sus, safe from care and pain,\nNo sor-row there, no sor-row there."
+    },
+    {
+      "number": 3,
+      "text": "And when our earth-ly pil-grim-age is o-ver, we'll meet them there;\nThere'll be no sor-row there, no weep-ing, no sor-row there.\nSafe in the arms of Je-sus, safe from care and pain,\nNo sor-row there, no sor-row there."
+    }
+  ],
+  "chorus": {
+    "text": "No sor-row there, no sor-row there,\nIn heav-en a-bove, no sor-row there;\nNo sor-row there, no sor-row there,\nIn heav-en a-bove, no sor-row there."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "heaven",
+      "comfort",
+      "no sorrow",
+      "eternal joy"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. A. Duchan",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-210",
+  "number": 210,
+  "title": "Wake, Awake, for Night Is Flying",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Wake, awake, for night is flying,\nThe watchmen on the heights are crying,\nAwake, Jerusalem, arise!\nMidnight's solemn hour is tolling,\nHis chariot wheels are nearer rolling,\nHe comes; prepare, ye virgins wise."
+    },
+    {
+      "number": 2,
+      "text": "Zion hears the watchmen singing,\nHer heart with deep delight is springing,\nShe wakes, she rises from her gloom;\nForth her Bridegroom comes, all glorious,\nIn grace arrayed, by truth victorious,\nHer Star is risen, her Light is come!"
+    },
+    {
+      "number": 3,
+      "text": "Lamb of God, the heavens adore Thee,\nAnd men and angels sing before Thee,\nWith harp and cymbal's clear est tone.\nBy the pearly gates in wonder\nWe stand, and swell the voice of thunder\nThat echoes round Thy dazzling throne."
+    }
+  ],
+  "chorus": {
+    "text": "Rise up, with willing feet\nGo forth, the Bridegroom meet:\nAlleluia!\nBear through the night your well-trimmed light,\nSpeed forth to join the marriage rite."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Wake",
+      "Bridegroom",
+      "Preparation",
+      "Marriage Supper"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

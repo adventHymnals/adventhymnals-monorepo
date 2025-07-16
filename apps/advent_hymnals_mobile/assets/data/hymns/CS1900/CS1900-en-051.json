@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-051",
+  "number": 51,
+  "title": "While Jesus Whispers",
+  "author": "W. T. Winters",
+  "composer": "H. R. Palmer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "While Jesus whispers to you, Come, sinner, come! While we are praying for you, Come, sinner, come! For Jesus calls you so sweetly, And heaven is waiting to greet thee, Come home, Come home, Run home; Come home, Run home."
+    },
+    {
+      "number": 2,
+      "text": "Now is the time to own him, Come, sinner, come! We will not tire of pleading, Come, sinner, come! Now is the time to know him, Come, sinner, come! To-mor-row may re-ceed-ing, Come, sinner, come! Come to thy God confiding, come!"
+    }
+  ],
+  "chorus": {
+    "text": "Come home, Come home, Run home; Come home, Run home."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1889, by H. R. Palmer",
+    "themes": [
+      "invitation",
+      "salvation",
+      "Jesus",
+      "calling",
+      "home",
+      "sinner"
+    ],
+    "scripture_references": [],
+    "tune_source": "H. R. Palmer",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-241",
+  "number": 241,
+  "title": "Angry Words! Oh, Let Them Never",
+  "author": "H. R. Palmer",
+  "composer": "H. R. Palmer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "An-gry words! oh, let them nev-er From the tongue un-bridled slip; May the heart's best im-pulse ev-er\nCheck them ere they soil the lip."
+    },
+    {
+      "number": 2,
+      "text": "\"Love one an-oth-er\" thus saith the Sav-ior, Chil-dren, o-bey the gen-tle word;\nWith its glo-rious shine en-deav-or Ye to walk be-fore the Lord."
+    },
+    {
+      "number": 3,
+      "text": "An-gry words are light-ly spo-ken, Bit-ter thoughts are rash-ly stirred, Bright-est links of life are bro-ken\nBy a sin-gle an-gry word."
+    }
+  ],
+  "chorus": {
+    "text": "Love one an-oth-er, Love one an-oth-er, Thus saith the Sav-ior, Chil-dren, o-bey;\nLove one an-oth-er, Love one an-oth-er, Thus saith the Sav-ior, Chil-dren, o-bey."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by H. R. Palmer, owner of the copyright.",
+    "themes": [
+      "kindness",
+      "love",
+      "children",
+      "angry words"
+    ],
+    "scripture_references": [
+      "John 13:34"
+    ],
+    "tune_source": "H. R. Palmer",
+    "original_language": "en"
+  }
+}

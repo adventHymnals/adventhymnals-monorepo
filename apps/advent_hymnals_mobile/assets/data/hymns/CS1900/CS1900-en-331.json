@@ -1,0 +1,46 @@
+{
+  "id": "CS1900-en-331",
+  "number": 331,
+  "title": "Walking with Thee",
+  "author": "Fanny J. Crosby",
+  "composer": "W. H. Doane",
+  "tune": "Walking",
+  "meter": "7, 6, 7, 6, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Walking with thee, my God, how blessed, Walking with thee, my soul is blest; And when my work on earth is o'er, I'll walk with thee forevermore."
+    },
+    {
+      "number": 2,
+      "text": "Trusting in thee, my Guide so true, Lean on his teacher's strength, Crossing the wild, Yet from all care and sin secure, He leads me to the tree."
+    },
+    {
+      "number": 3,
+      "text": "Resting in his precious love, Brother, And by his ways so sweet, Lessons of holy thought, Ever as friend and good, Jesus is near."
+    },
+    {
+      "number": 4,
+      "text": "Let it be sung, Let us hope, Faith un-de-feated, Faith un-de-fected, Walking with thee, Walking with thee."
+    }
+  ],
+  "chorus": {
+    "text": "Walking with thee, walking with thee, Blessed communion, walking with thee; Walking with thee, walking with thee, How sweet the fellowship divine!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "walking with God",
+      "fellowship",
+      "trust",
+      "guidance"
+    ],
+    "scripture_references": [
+      "Micah 6:8"
+    ],
+    "tune_source": "W. H. Doane",
+    "original_language": "en"
+  }
+}

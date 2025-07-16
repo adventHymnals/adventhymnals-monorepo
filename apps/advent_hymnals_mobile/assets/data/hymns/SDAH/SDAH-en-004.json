@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-004",
+  "number": 4,
+  "title": "Praise, My Soul, the King of Heaven",
+  "author": "Henry Francis Lyte",
+  "composer": "John Goss",
+  "tune": "Praise My Soul",
+  "meter": "8.7.8.7.8.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise, my soul, the King of heaven;\nTo His feet thy tribute bring;\nRansomed, healed, restored, forgiven,\nWho like thee His praise should sing?\nPraise Him, praise Him,\nPraise the everlasting King."
+    },
+    {
+      "number": 2,
+      "text": "Praise Him for His grace and favor\nTo our fathers in distress;\nTenderly He shields and spares us;\nWell our feeble frame He knows.\nPraise Him, praise Him,\nGlorious in His faithfulness."
+    },
+    {
+      "number": 3,
+      "text": "Angels, help us to adore Him;\nYe behold Him face to face;\nSun and moon, bow down before Him,\nDwellers all in time and space.\nPraise Him, praise Him,\nPraise with us the God of grace."
+    }
+  ],
+  "metadata": {
+    "year": 1834,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "redemption",
+      "mercy",
+      "faithfulness"
+    ],
+    "scripture_references": [
+      "Psalm 103:1-5",
+      "Psalm 103:8-14"
+    ],
+    "tune_source": "John Goss, 1869",
+    "original_language": "en",
+    "notes": "This hymn has three settings. The second setting (four-part) may be used for all stanzas. First setting: Unison"
+  }
+}

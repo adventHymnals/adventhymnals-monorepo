@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-335",
+  "number": 335,
+  "title": "How Gentle God's Commands!",
+  "author": "P. Doddridge",
+  "composer": "H. K. Oliver",
+  "tune": "Federal Street",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How gentle God's commands! How kind his precepts are! Come, cast your burdens on the Lord, And trust his constant care."
+    },
+    {
+      "number": 2,
+      "text": "Beneath his watchful eye His saints securely dwell; That hand which bears all nature up Shall guide his children well."
+    },
+    {
+      "number": 3,
+      "text": "Why should this anxious load Press down your weary mind? Haste to your heavenly Father's throne, And sweet refreshment find."
+    },
+    {
+      "number": 4,
+      "text": "His goodness stands approved, Down to the present day; I'll drop my burden at his feet, And bear a song away."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "God's care",
+      "trust",
+      "burden bearing",
+      "comfort"
+    ],
+    "scripture_references": [
+      "1 Peter 5:7"
+    ],
+    "tune_source": "H. K. Oliver",
+    "original_language": "en"
+  }
+}

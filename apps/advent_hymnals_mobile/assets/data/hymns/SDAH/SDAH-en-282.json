@@ -1,0 +1,47 @@
+{
+  "id": "SDAH-en-282",
+  "number": 282,
+  "title": "I Hear Thy Welcome Voice",
+  "author": "Lewis Hartsough",
+  "composer": "Lewis Hartsough",
+  "tune": "Welcome Voice",
+  "meter": "S.M. with refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I hear Thy welcome voice,\nThat calls me, Lord, to Thee,\nFor cleansing in Thy precious blood\nThat flowed on Calvary."
+    },
+    {
+      "number": 2,
+      "text": "Though coming weak and vile,\nThou dost my strength assure;\nThou dost my vileness fully cleanse,\nTill spotless all, and pure."
+    },
+    {
+      "number": 3,
+      "text": "'Tis Jesus calls me on\nTo perfect faith and love,\nTo perfect hope, and peace, and trust,\nFor earth and heaven above."
+    },
+    {
+      "number": 4,
+      "text": "All hail! atoning blood!\nAll hail! redeeming grace!\nAll hail! the gift of Christ, our Lord,\nOur Strength and Righteousness."
+    }
+  ],
+  "chorus": {
+    "text": "I am coming, Lord!\nComing now to Thee!\nWash me, cleanse me, in the blood\nThat flowed on Calvary."
+  },
+  "metadata": {
+    "year": 1872,
+    "copyright": "Public Domain",
+    "themes": [
+      "invitation",
+      "cleansing",
+      "blood of Christ",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Isaiah 1:18",
+      "1 John 1:7"
+    ],
+    "tune_source": "Lewis Hartsough, 1872",
+    "original_language": "en"
+  }
+}

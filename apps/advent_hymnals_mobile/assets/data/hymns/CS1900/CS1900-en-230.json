@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-230",
+  "number": 230,
+  "title": "CROWN HIM",
+  "author": "M. BRIDGES",
+  "composer": "G. J. ELVEY",
+  "tune": "DIADEM ATA",
+  "meter": "S. M. D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Crown him with many crowns, The Lamb upon his throne; Hark! how the heav'nly anthem drowns All music but its own."
+    },
+    {
+      "number": 2,
+      "text": "Crown him the Lord of love; Behold his hands and side, Rich wounds, yet visible above, In beauty glorified."
+    },
+    {
+      "number": 3,
+      "text": "Crown him the Lord of years, The Potentate of time, Creator of the rolling spheres, Ineffably sublime."
+    },
+    {
+      "number": 4,
+      "text": "Crown him the Lord of lords, Who over all doth reign, Who once on earth, the incarnate Word, For ransomed sinners slain."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "crown",
+      "lamb",
+      "lord",
+      "worship"
+    ],
+    "scripture_references": [],
+    "tune_source": "G. J. ELVEY",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-102",
+  "number": 102,
+  "title": "Take All My Sin Away",
+  "author": "A. B. Simpson",
+  "composer": "J. H. Burke",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When I am distressed sin, At, without any aid of me or thought\nThere seems no hope in me, Lord, but thy heart in me;\nTake all my sin away, Take all my sin away."
+    },
+    {
+      "number": 2,
+      "text": "When Christ my Savior knows my case, Salvation's in me;\nBurdens were taken hence, He answers my prayer;\nTake all my sin away, Take all my sin away."
+    },
+    {
+      "number": 3,
+      "text": "My stubborn heart he can renew, And make me whole;\nTy gracious spirit will shine through, And sanctify my soul;\nTake all my sin away, Take all my sin away."
+    }
+  ],
+  "chorus": {
+    "text": "Take all my sin away, Take all my sin away,\nO blessed Jesus, this my earnest prayer;\nTake all my sin away, Take all my sin away,\nAnd keep me every moment in thy care."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "cleansing",
+      "sanctification",
+      "prayer"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. H. Burke",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "When I am distressed sin"
+  }
+}

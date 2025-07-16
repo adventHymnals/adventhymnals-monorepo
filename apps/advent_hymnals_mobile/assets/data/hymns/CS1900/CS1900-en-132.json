@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-132",
+  "number": 132,
+  "title": "Our God is a God of Love",
+  "author": "M. H. H.",
+  "composer": "M. H. Huntington",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Do you know what the ser - vants re - cite? As they speak in love with me?\nDo you know what the con - vents bright Are singing from morning till night?\nDo you know what the roll - ers re - cite? As they rest in the har - vest field?\nDo you know what the work - ers re - cite? As they jin - gle the yoke as they yield?"
+    },
+    {
+      "number": 2,
+      "text": "It is 'Love, love, love!' It is 'Love, love, love!'\nIt is 'Love, love, love!' Our God is a God of love!"
+    }
+  ],
+  "chorus": {
+    "text": "It is 'Love, love, love!' It is 'Love, love, love!'\nIt is 'Love, love, love!' Our God is a God of love!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "God's love",
+      "love",
+      "worship"
+    ],
+    "scripture_references": [
+      "1 John 4:8"
+    ],
+    "tune_source": "M. H. Huntington",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-227",
+  "number": 227,
+  "title": "Jesus Shall Reign",
+  "author": "Isaac Watts",
+  "composer": "John Hatton",
+  "tune": "DUKE STREET",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus shall reign wherever the sun\nDoes its successive journeys run;\nHis kingdom stretch from shore to shore,\nTill moons shall wax and wane no more."
+    },
+    {
+      "number": 2,
+      "text": "People and realms of every tongue\nDwell on His love with sweetest song;\nAnd infant voices shall proclaim\nTheir early blessings on His name."
+    },
+    {
+      "number": 3,
+      "text": "Blessings abound wherever He reigns;\nThe prisoners leap to lose their chains,\nThe weary find eternal rest,\nAnd all who suffer want are blessed."
+    },
+    {
+      "number": 4,
+      "text": "Let every creature rise and bring\nHonors peculiar to our King;\nAngels descend with songs again,\nAnd earth repeat the loud amen."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": [
+      "Kingship of Christ",
+      "Global Mission",
+      "Eternal Reign",
+      "Praise"
+    ],
+    "scripture_references": [
+      "Psalm 72:8",
+      "Psalm 72:11"
+    ],
+    "tune_source": "John Hatton, 1793",
+    "original_language": "en"
+  }
+}

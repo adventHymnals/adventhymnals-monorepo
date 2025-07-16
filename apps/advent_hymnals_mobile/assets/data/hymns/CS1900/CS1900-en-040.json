@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-040",
+  "number": 40,
+  "title": "Keep Tenting Toward the Highlands",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Let galbled his tent toward Sodom.\"—Gen. 19: 17. Up to the mountains of the land of his fa - thers, shine! Are you tonight - ing life's high Does far Sol - om in her glo - ry Beckon you with case on gain? Rest her aw - ful judg-ment Day and here no temp-ta - tion, tell?"
+    },
+    {
+      "number": 2,
+      "text": "To the moun-tains of eth - er - nal Hear the su - preme fall."
+    }
+  ],
+  "chorus": {
+    "text": "Keep tent-ing toward the high-lands of life, home; Keep tent-ing mar-er home; Keep tent-ing toward the high-lands of life, Sweet home, toward the high-lands of life."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1885, by F. E. Belden. Used by permission of Harvey Booth, owner of copyright",
+    "themes": [
+      "tenting",
+      "highlands",
+      "mountains",
+      "Sodom",
+      "judgment",
+      "home",
+      "life"
+    ],
+    "scripture_references": [
+      "Gen. 19:17"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

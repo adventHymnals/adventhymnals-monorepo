@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-649",
+  "number": 649,
+  "title": "Lord, While for All Mankind",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, while for all mankind we pray,\nOf every clime and coast,\nO hear us for our native land,\nThe land we love the most."
+    },
+    {
+      "number": 2,
+      "text": "O guard our shores from every foe;\nWith peace our borders bless;\nWith prosperous times our cities crown,\nOur fields with plenteousness."
+    },
+    {
+      "number": 3,
+      "text": "Unite us in the sacred love\nOf knowledge, truth, and Thee;\nAnd let our hills and valleys shout\nThe songs of liberty."
+    },
+    {
+      "number": 4,
+      "text": "Lord of the nations, thus to Thee\nOur country we commend;\nBe Thou her refuge and her trust,\nHer everlasting friend."
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "national prayer",
+      "peace",
+      "protection",
+      "unity"
+    ],
+    "scripture_references": [
+      "Psalm 33:12",
+      "1 Timothy 2:1-2"
+    ],
+    "copyright": "Public Domain"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-318",
+  "number": 318,
+  "title": "Whiter Than Snow",
+  "author": "James Nicholson",
+  "composer": "William G. Fischer",
+  "tune": "FISCHER",
+  "meter": "11.11.11.11 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord Jesus, I long to be perfectly whole;\nI want Thee forever to live in my soul;\nBreak down every idol, cast out every foe;\nNow wash me, and I shall be whiter than snow."
+    },
+    {
+      "number": 2,
+      "text": "Lord Jesus, look down from Thy throne in the skies,\nAnd help me to make a complete sacrifice;\nI give up myself, and whatever I know,\nNow wash me, and I shall be whiter than snow."
+    },
+    {
+      "number": 3,
+      "text": "Lord Jesus, for this I most humbly entreat;\nI wait, blessed Lord, at Thy crucified feet;\nBy faith, for my cleansing, I see Thy blood flow,\nNow wash me, and I shall be whiter than snow."
+    },
+    {
+      "number": 4,
+      "text": "Lord Jesus, Thou seest I patiently wait;\nCome now, and within me a new heart create;\nTo those who have sought Thee, Thou never said'st No;\nNow wash me, and I shall be whiter than snow."
+    }
+  ],
+  "chorus": {
+    "text": "Whiter than snow, yes, whiter than snow;\nNow wash me, and I shall be whiter than snow."
+  },
+  "metadata": {
+    "themes": [
+      "cleansing",
+      "sanctification",
+      "purity"
+    ],
+    "scripture_references": [
+      "Psalm 51:7",
+      "Isaiah 1:18"
+    ],
+    "tune_source": "William G. Fischer",
+    "original_language": "en"
+  }
+}

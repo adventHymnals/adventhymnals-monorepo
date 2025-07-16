@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-373",
+  "number": 373,
+  "title": "Seeking the Lost",
+  "author": "William A. Ogden",
+  "composer": "William A. Ogden",
+  "tune": "SEEKING THE LOST",
+  "meter": "10.6.10.6.10.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Seeking the lost, yes, kindly entreating wanderers on the mountain astray;\n'Come unto Me,' His message repeating, words of the Master speaking today."
+    },
+    {
+      "number": 2,
+      "text": "Seeking the lost and pointing to Jesus, souls that are weak and hearts that are sore,\nLeading them forth in ways of salvation, showing the path to life evermore."
+    },
+    {
+      "number": 3,
+      "text": "Thus I would go on missions of mercy, following Christ from day unto day,\nCheering the faint and raising the fallen, pointing the lost to Jesus, the Way."
+    }
+  ],
+  "chorus": {
+    "text": "Going afar upon the mountain, bringing the wanderer back again,\nInto the fold of my Redeemer, Jesus the Lamb for sinners slain."
+  },
+  "metadata": {
+    "year": 1887,
+    "copyright": "Public Domain",
+    "themes": [
+      "Lost Sheep",
+      "Evangelism",
+      "Mission",
+      "Salvation"
+    ],
+    "scripture_references": [
+      "Luke 15:3-7",
+      "Matthew 18:12-14"
+    ],
+    "tune_source": "William A. Ogden, 1887",
+    "original_language": "en"
+  }
+}

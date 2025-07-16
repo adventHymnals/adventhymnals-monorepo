@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-372",
+  "number": 372,
+  "title": "How Beauteous Are Their Feet",
+  "author": "Isaac Watts",
+  "composer": "Henry T. Smart",
+  "tune": "REGENT SQUARE",
+  "meter": "8.7.8.7.8.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How beauteous are their feet who stand on Zion's hill;\nWho bring salvation on their tongues, and words of peace reveal!"
+    },
+    {
+      "number": 2,
+      "text": "How charming is their voice, so sweet the tidings are:\nZion, behold thy Savior King; He reigns and triumphs here!"
+    },
+    {
+      "number": 3,
+      "text": "How happy are our ears that hear this joyful sound\nWhich kings and prophets waited for, and sought, but never found!"
+    },
+    {
+      "number": 4,
+      "text": "How blessed are our eyes that see this heavenly light!\nProphets and kings desired it long, but died without the sight!"
+    },
+    {
+      "number": 5,
+      "text": "The watchmen join their voice, and tuneful notes employ;\nJerusalem breaks forth in songs, and deserts learn the joy."
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": [
+      "Gospel Messengers",
+      "Good News",
+      "Evangelism",
+      "Zion"
+    ],
+    "scripture_references": [
+      "Romans 10:15",
+      "Isaiah 52:7"
+    ],
+    "tune_source": "Henry T. Smart, 1867",
+    "original_language": "en"
+  }
+}

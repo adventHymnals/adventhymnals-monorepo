@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-255",
+  "number": 255,
+  "title": "I Cannot Tell Why",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I cannot tell why He whom angels worship\nShould set His love upon the souls of men,\nOr why as Shepherd He should seek the wanderers,\nTo bring them back, they know not how nor when."
+    },
+    {
+      "number": 2,
+      "text": "I cannot tell how silently He suffered,\nAs with His peace He graced this place of tears,\nOr how His heart upon the cross was broken,\nThe crown of pain to three and thirty years."
+    },
+    {
+      "number": 3,
+      "text": "I cannot tell how He will win the nations,\nHow He will claim His earthly heritage,\nHow satisfy the needs and aspirations\nOf East and West, of sinner and of sage."
+    },
+    {
+      "number": 4,
+      "text": "I cannot tell how all the lands shall worship,\nWhen at His bidding every storm is stilled,\nOr who can say how great the jubilation\nWhen all our hearts with perfect love are filled."
+    }
+  ],
+  "chorus": {
+    "text": "But this I know, that He was born of Mary\nWhen Bethlehem's manger was His only home,\nAnd that He lived at Nazareth and labored,\nAnd so the Savior, Savior of the world is come."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Mystery",
+      "Jesus Christ",
+      "Cannot Tell",
+      "Worship",
+      "Savior"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

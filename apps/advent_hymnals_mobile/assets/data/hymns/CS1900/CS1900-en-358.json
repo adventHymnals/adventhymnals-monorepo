@@ -1,0 +1,34 @@
+{
+  "id": "CS1900-en-358",
+  "number": 358,
+  "title": "DAY OF REST AND GLADNESS",
+  "author": "Christopher Wordsworth",
+  "composer": "German Melody",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O day of rest and gladness,\nO day of joy and light,\nO balm of care and sadness,\nMost beautiful, most bright;\nOn thee the high and lowly,\nThrough ages joined in tune,\nSing 'Holy, holy, holy'\nTo the great God Triune."
+    },
+    {
+      "number": 2,
+      "text": "On thee, at the creation,\nThe light first had its birth;\nOn thee, for our salvation,\nChrist rose from depths of earth;\nOn thee, our Lord victorious\nThe Spirit sent from heaven;\nAnd thus on thee most glorious\nA triple light was given."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Sabbath",
+      "rest",
+      "gladness",
+      "Trinity"
+    ],
+    "scripture_references": [],
+    "tune_source": "German Melody",
+    "original_language": "en"
+  }
+}

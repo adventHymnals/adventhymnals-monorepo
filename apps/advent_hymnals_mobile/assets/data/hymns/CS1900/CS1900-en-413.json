@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-413",
+  "number": 413,
+  "title": "I Need Thee Every Hour",
+  "author": "Mrs. Annie S. Hawks",
+  "composer": "Rev. Robert Lowry",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I need thee every hour, Most gracious Lord; No tender voice like thine Can peace afford. I need thee every hour, Most Holy One; O make me thine indeed, Thou blessed Son!"
+    },
+    {
+      "number": 2,
+      "text": "I need thee every hour, Stay thou near by; Temptation loses pow'r When thou art nigh. I need thee every hour, In joy or pain; Come quickly and abide, Or life is vain."
+    },
+    {
+      "number": 3,
+      "text": "I need thee every hour, In hope or fear; Come quickly and abide, Or life is vain. I need thee every hour, Most Holy One; O make me thine indeed, Thou blessed Son!"
+    }
+  ],
+  "chorus": {
+    "text": "I need thee, O I need thee, Ev-'ry hour I need thee! O bless me now, my Sav-iour, I come to thee!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1872, by R. Lowry. Used by permission.",
+    "themes": [
+      "dependence on God",
+      "prayer",
+      "constant need"
+    ],
+    "scripture_references": [],
+    "tune_source": "Rev. Robert Lowry",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-100",
+  "number": 100,
+  "title": "Flee As A Bird",
+  "author": "M. J. Cartwright",
+  "composer": "J. P. Webster",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Flee as a bird to your mountain, Thou who art weary of sin;\nGo to the clear, flowing fountain, Where you may wash and be clean;\nFly, for the destroyer is near thee, Call, and the savior will hear thee;\nHe on his bosom will bear thee, O thou who art weary of sin."
+    },
+    {
+      "number": 2,
+      "text": "He is the bountiful giver, Now unto him draw near;\nPeace then shall flow like a river, Thou shalt be happy here;\nHark! 'tis the loving voice calling, Haste thee, thy strength is now failing;\nLet not thy heart be appalling, O thou who art weary of sin."
+    },
+    {
+      "number": 3,
+      "text": "Come, then, his mercy's revealing, Fly, for thy refuge is near;\nHe will do more than thy healing, He will thy burden bear;\nLo! Jesus gently is calling, Tenderly, lovingly calling,\nCalling, O sinner, come to me!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "refuge",
+      "cleansing",
+      "mercy"
+    ],
+    "scripture_references": [
+      "Psalm 11:1"
+    ],
+    "tune_source": "J. P. Webster",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses, no chorus",
+    "first_line": "Flee as a bird to your mountain"
+  }
+}

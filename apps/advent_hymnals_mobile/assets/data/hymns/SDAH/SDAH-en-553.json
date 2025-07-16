@@ -1,0 +1,38 @@
+{
+  "id": "SDAH-en-553",
+  "number": 553,
+  "title": "Jesus, Guide Our Way",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, guide our way\nTo eternal day;\nSo, shall we, no more delaying,\nFollow Thee, Thy voice obeying;\nLead us by the hand\nTo our Father's land."
+    },
+    {
+      "number": 2,
+      "text": "When we danger meet\nSteadfast make our feet;\nLord, preserve us uncomplaining\nMid the darkness round us reigning;\nThrough adversity\nTo our Father's land."
+    },
+    {
+      "number": 3,
+      "text": "Order all our way\nThrough the mortal day;\nIn our toil, with aid be near us;\nIn our need, with succor cheer us;\nTill we safely stand\nIn our Father's land."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "guidance",
+      "journey",
+      "protection",
+      "faith"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

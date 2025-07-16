@@ -1,0 +1,29 @@
+{
+  "id": "SDAH-en-660",
+  "number": 660,
+  "title": "Glory Be to the Father",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Glory be to the Father, and to the Son, and to the Holy Ghost;\nAs it was in the beginning, is now, and ever shall be,\nworld without end. Amen, Amen."
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "doxology",
+      "Trinity",
+      "praise",
+      "glory"
+    ],
+    "scripture_references": [
+      "Matthew 28:19",
+      "Ephesians 3:21"
+    ],
+    "copyright": "Public Domain"
+  }
+}

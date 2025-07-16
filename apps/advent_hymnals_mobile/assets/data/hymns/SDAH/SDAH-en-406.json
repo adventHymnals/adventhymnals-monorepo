@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-406",
+  "number": 406,
+  "title": "Love Consecrates the Humblest Act",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "3/8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Love consecrates the humblest act\nAnd hallows mercy's deeds;\nIt sheds a benediction sweet\nAnd hallows human needs."
+    },
+    {
+      "number": 2,
+      "text": "When in the shadow of the cross\nChrist knelt and washed the feet\nOf His disciples, He gave us\nA sign of love complete."
+    },
+    {
+      "number": 3,
+      "text": "Love serves and will-ing stoops to serve;\nWhat Christ in love so true\nHas freely done for one and all,\nLet us now gladly do!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "love",
+      "service",
+      "humility",
+      "communion"
+    ],
+    "scripture_references": [
+      "John 13"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

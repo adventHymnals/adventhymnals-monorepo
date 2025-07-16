@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-361",
+  "number": 361,
+  "title": "COME, FEED THY SHEEP",
+  "author": "A. J. Showalter",
+  "composer": "A. J. Showalter",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, feed thy sheep that on the moun-tain high Are wan-der-ing hungry, faint and lone-ly too;\nAnd some have wan-dered from thy courts so nigh, With none to speak the soul-re-fresh-ing word to them of you."
+    },
+    {
+      "number": 2,
+      "text": "Some souls are hun-gry, wait-ing for the bread That com-eth down from heav-en's courts a-bove,\nAnd some are faint and wea-ry, sick and sad, Still wait-ing for the heal-ing touch of thy re-deem-ing love."
+    },
+    {
+      "number": 3,
+      "text": "Then let us haste to feed thy hun-gry sheep, And bring them back in-to the fold of love,\nFor thou hast said that thou wilt safe-ly keep All those who trust in thee, and look to thee a-bove."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "shepherding",
+      "ministry",
+      "feeding the flock",
+      "spiritual hunger"
+    ],
+    "scripture_references": [],
+    "tune_source": "A. J. Showalter",
+    "original_language": "en"
+  }
+}

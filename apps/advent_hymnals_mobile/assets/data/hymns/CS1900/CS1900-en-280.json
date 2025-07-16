@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-280",
+  "number": 280,
+  "title": "The Herald Angels Sing",
+  "author": "Charles Wesley",
+  "composer": "Mendelssohn",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! the her-ald an-gels sing, \"Glo-ry to the new-born King! Peace on earth and mer-cy mild,\nGod and sin-ners rec-on-ciled.\" Joy-ful, all ye na-tions, rise, Join the tri-umph of the skies;"
+    },
+    {
+      "number": 2,
+      "text": "With th'an-gel-ic host pro-claim, \"Christ is born in Beth-le-hem!\" Hail, the heav'n-born Prince of Peace!\nHail, the Sun of Right-eous-ness! Light and life to all He brings, Ris'n with heal-ing in His wings;"
+    },
+    {
+      "number": 3,
+      "text": "Mild He lays His glo-ry by, Born that man no more may die, Born to raise the sons of earth,\nBorn to give them sec-ond birth. Hark! the her-ald an-gels sing, \"Glo-ry to the new-born King!\""
+    }
+  ],
+  "chorus": {
+    "text": "Hark! the her-ald an-gels sing, \"Glo-ry to the new-born King!\""
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Christmas",
+      "nativity",
+      "angels",
+      "Jesus birth"
+    ],
+    "scripture_references": [
+      "Luke 2:14"
+    ],
+    "tune_source": "Mendelssohn",
+    "original_language": "en"
+  }
+}

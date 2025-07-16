@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-363",
+  "number": 363,
+  "title": "Lord, Whose Love in Humble Service",
+  "author": "Albert F. Bayly",
+  "composer": "Traditional",
+  "tune": "BLAENWERN",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, whose love in humble service bore the weight of human need,\nWho upon the cross, forsaken, worked Your mercy's perfect deed:\nWe, Your servants, bring the worship not of voice alone, but heart;\nConsecrating to Your purpose ev'ry gift which You impart."
+    },
+    {
+      "number": 2,
+      "text": "Still Your children wander homeless; still the hungry cry for bread;\nStill the captives long for freedom; still in grief we mourn our dead.\nAs You, Lord, in deep compassion healed the sick and freed the soul,\nBy Your Spirit send Your power to our world to make it whole."
+    },
+    {
+      "number": 3,
+      "text": "As we worship, grant us vision, till Your love's revealing light\nIn its height and depth and greatness dawns upon our quickened sight,\nMaking known the needs and burdens Your compassion bids us bear,\nStirring us to ardent service, Your abundant life to share."
+    }
+  ],
+  "metadata": {
+    "year": 1961,
+    "copyright": "© 1961 Albert F. Bayly",
+    "themes": [
+      "Service",
+      "Compassion",
+      "Social Justice",
+      "Worship"
+    ],
+    "scripture_references": [
+      "Matthew 25:35-40",
+      "Luke 4:18-19"
+    ],
+    "tune_source": "Traditional Welsh Melody",
+    "original_language": "en"
+  }
+}

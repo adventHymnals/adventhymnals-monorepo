@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-508",
+  "number": 508,
+  "title": "Anywhere With Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Anywhere with Jesus I can safely go, Anywhere He leads me in this world below;\nAnywhere without Him, dearest joys would fade; Anywhere with Jesus I am not afraid."
+    },
+    {
+      "number": 2,
+      "text": "Anywhere with Jesus I am not alone; Other friends may fail me, He is still my own;\nThough His hand may lead me over dreary ways, Anywhere with Jesus is a house of praise."
+    },
+    {
+      "number": 3,
+      "text": "Anywhere with Jesus I can go to sleep, When the gloomy shadows round about me creep;\nKnowing I shall waken never more to roam; Anywhere with Jesus will be home sweet home."
+    }
+  ],
+  "chorus": {
+    "text": "Anywhere! anywhere! Fear I cannot know;\nAnywhere with Jesus I can safely go."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Jesus",
+      "guidance",
+      "comfort",
+      "trust"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

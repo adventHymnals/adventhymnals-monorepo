@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-547",
+  "number": 547,
+  "title": "Be Thou My Vision",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Be Thou my vision, O Lord of my heart;\nNaught be all else to me, save that Thou art\nThou my best thought, by day or by night,\nWaking or sleeping, Thy presence my light."
+    },
+    {
+      "number": 2,
+      "text": "Be Thou my wisdom, Be Thou my true word;\nI ever with Thee, Thou with me, Lord;\nThou my great Father, Thy son, what\nThou in me dwelling, and I with Thee one."
+    },
+    {
+      "number": 3,
+      "text": "Riches I heed not, Nor man's empty praise;\nThou mine inheritance, her-it-ance,\nThou and Thou only, first in my heart,\nHigh King of heaven, my treasure Thou art."
+    },
+    {
+      "number": 4,
+      "text": "High King of heaven, When victory is won,\nMay I reach heaven's joys, O bright heaven's Sun!\nHeart of my own heart, what-ev-er befall,\nStill be my vision, O Ruler of all."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "vision",
+      "devotion",
+      "God's presence",
+      "Irish"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

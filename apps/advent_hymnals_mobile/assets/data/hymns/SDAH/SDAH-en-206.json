@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-206",
+  "number": 206,
+  "title": "Face to Face",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Face to face with Christ my Savior,\nFace to face, what will it be,\nWhen with rapture I behold Him,\nJesus Christ, who died for me?"
+    },
+    {
+      "number": 2,
+      "text": "Only faintly now I see Him,\nWith the darkening veil between,\nBut a blessed day is coming,\nWhen His glory shall be seen."
+    },
+    {
+      "number": 3,
+      "text": "What rejoicing in His presence,\nWhen are banished grief and pain;\nWhen the crooked ways are straight,\nAnd the dark things shall be plain!"
+    },
+    {
+      "number": 4,
+      "text": "Face to face! oh, blissful moment!\nFace to face - to see and know;\nFace to face with my Redeemer,\nJesus Christ, who loves me so."
+    }
+  ],
+  "chorus": {
+    "text": "Face to face shall I behold Him,\nFar beyond the starry sky;\nFace to face in all His glory,\nI shall see Him by and by!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Heaven",
+      "Second Coming",
+      "Face to Face",
+      "Glory"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

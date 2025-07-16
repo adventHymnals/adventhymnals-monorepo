@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-131",
+  "number": 131,
+  "title": "The Glory of Immanuel",
+  "author": "P. P. Bliss",
+  "composer": "J. H. Fillmore",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In can - did light we be - hold the im - man - u - el;\nShine forth, ye saints, in un - ion bright, The glory of Im - man - u - el."
+    },
+    {
+      "number": 2,
+      "text": "De - spise then the deep - est scorn, mil - itar - y,\nBreak of from the sil - ver cease un - God;\nShine forth, ye saints, in un - ion bright, The glory of Im - man - u - el."
+    },
+    {
+      "number": 3,
+      "text": "Once a-gain now free and hap - py giv - en,\nKnow ye how the right and truth are giv - en;\nShine forth, ye saints, in un - ion bright, The glory of Im - man - u - el."
+    }
+  ],
+  "chorus": {
+    "text": "Sing, O sing of the love - ly, O sing of the Saviour's name! Sing of the glory that endures while for - ev - er flows the same."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1865, by P. P. Bliss.",
+    "themes": [
+      "Immanuel",
+      "glory",
+      "light",
+      "Jesus"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. H. Fillmore",
+    "original_language": "en"
+  }
+}

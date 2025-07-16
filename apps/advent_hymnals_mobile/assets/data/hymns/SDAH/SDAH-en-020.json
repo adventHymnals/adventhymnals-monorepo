@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-020",
+  "number": 20,
+  "title": "O Praise Ye the Lord",
+  "author": "Henry Williams Baker",
+  "composer": "Charles Hubert Hastings Parry",
+  "tune": "Laudate Dominum",
+  "meter": "6.6.6.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O praise ye the Lord!\nPraise Him in the height;\nRejoice in His word,\nYe angels of light;\nYe heavens, adore Him\nBy whom ye were made,\nAnd worship before Him,\nIn brightness arrayed."
+    },
+    {
+      "number": 2,
+      "text": "O praise ye the Lord!\nPraise Him upon earth,\nIn tuneful accord,\nYe sons of new birth;\nPraise Him who hath brought you\nHis grace from above,\nPraise Him who hath taught you\nTo sing of His love."
+    },
+    {
+      "number": 3,
+      "text": "O praise ye the Lord,\nAll things that give sound;\nEach jubilant chord\nReecho around;\nLoud organs His glory\nForth tell in deep tone,\nAnd sweet harp, the story\nOf what He hath done."
+    },
+    {
+      "number": 4,
+      "text": "O praise ye the Lord!\nThanksgiving and song\nTo Him be outpoured\nAll ages along!\nFor love in creation,\nFor heaven restored,\nFor grace of salvation,\nO praise ye the Lord!"
+    }
+  ],
+  "metadata": {
+    "year": 1875,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "worship",
+      "heavenly worship",
+      "creation",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Psalm 148",
+      "Psalm 150"
+    ],
+    "tune_source": "C. Hubert H. Parry, 1894",
+    "original_language": "en"
+  }
+}

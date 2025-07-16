@@ -1,0 +1,49 @@
+{
+  "id": "SDAH-en-425",
+  "number": 425,
+  "title": "Holy, Holy, Is What the Angels Sing",
+  "author": "Johnson Oatman Jr.",
+  "composer": "John R. Sweney",
+  "tune": "WHAT THE ANGELS SING",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is singing up in heaven such as we have never known,\nWhere the angels sing the praises of the Lamb upon the throne;"
+    },
+    {
+      "number": 2,
+      "text": "But I hear another anthem, blending voices clear and strong,\nThen the angels stand and listen, for they cannot join that song;"
+    },
+    {
+      "number": 3,
+      "text": "Then the angels stand and listen, for they can not join that song,\nLike the sound of many waters, by that happy, blood-washed throng;"
+    },
+    {
+      "number": 4,
+      "text": "So, although I'm not an angel, yet I know that over there\nI will join a blessed chorus that the angels cannot share;"
+    }
+  ],
+  "chorus": {
+    "text": "Their sweet harps are ever tuneful and their voices always clear,\nWe have come through tribulations to this land so fair and bright,\nFor they sing about great trials, battles fought and victories won,\nI will sing about my Savior, who upon dark Calvary\nO that we might be more like them while we serve the Master here!\nIn the fountain freely flowing He hath made our garments white,\nAnd they sing about great trials, battles fought and victories won,\nFreely pardoned my transgressions, died to set a sinner free."
+  },
+  "metadata": {
+    "year": 1894,
+    "copyright": "Public Domain",
+    "themes": [
+      "heaven",
+      "angels",
+      "salvation",
+      "redemption",
+      "praise"
+    ],
+    "scripture_references": [
+      "Revelation 5:9-10",
+      "Revelation 7:9-10",
+      "Isaiah 6:3"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

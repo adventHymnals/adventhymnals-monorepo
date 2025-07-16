@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-044",
+  "number": 44,
+  "title": "Morning Has Broken",
+  "author": "Eleanor Farjeon",
+  "composer": "Traditional Gaelic",
+  "tune": "Bunessan",
+  "meter": "5.5.5.4.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Morning has broken\nLike the first morning,\nBlackbird has spoken\nLike the first bird.\nPraise for the singing!\nPraise for the morning!\nPraise for them springing\nFresh from the Word!"
+    },
+    {
+      "number": 2,
+      "text": "Sweet the rain's new fall\nSunlit from heaven,\nLike the first dewfall\nOn the first grass.\nPraise for the sweetness\nOf the wet garden,\nSprung in completeness\nWhere His feet pass."
+    },
+    {
+      "number": 3,
+      "text": "Mine is the sunlight!\nMine is the morning\nBorn of the one light\nEden saw play!\nPraise with elation,\nPraise every morning,\nGod's re-creation\nOf the new day!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1931,
+    "copyright": "© Eleanor Farjeon",
+    "themes": [
+      "morning",
+      "creation",
+      "praise",
+      "nature",
+      "renewal",
+      "Eden"
+    ],
+    "scripture_references": [
+      "Genesis 1:31",
+      "Psalm 104:24",
+      "Lamentations 3:23"
+    ],
+    "tune_source": "Traditional Gaelic melody",
+    "original_language": "en"
+  }
+}

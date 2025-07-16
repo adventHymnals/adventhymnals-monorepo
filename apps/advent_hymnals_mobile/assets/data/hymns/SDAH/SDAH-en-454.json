@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-454",
+  "number": 454,
+  "title": "Don't You See My Jesus Coming?",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "DON'T YOU SEE MY JESUS COMING",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Don't you see my Jesus coming,\nSee Him come in yonder cloud?\nWith ten thousand angels round Him,\nHow they do my Jesus crowd!"
+    },
+    {
+      "number": 2,
+      "text": "Don't you see the saints ascending,\nHear them shouting thro' the air,\nJe-sus smiling, trumpets sounding,\nNow His glory they shall share."
+    }
+  ],
+  "chorus": {
+    "text": "I am bound for the kingdom,\nWill you go to glory with me?\nHallelujah! O praise ye the Lord!"
+  },
+  "metadata": {
+    "year": 1800,
+    "copyright": "Public Domain",
+    "themes": [
+      "Second Coming",
+      "angels",
+      "saints",
+      "glory",
+      "kingdom of God"
+    ],
+    "scripture_references": [
+      "Matthew 24:30",
+      "1 Thessalonians 4:16-17",
+      "Revelation 1:7"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

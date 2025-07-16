@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-731",
+  "number": 731,
+  "title": "Rest for the Weary",
+  "author": "J. H. Harker",
+  "composer": "J. H. Harker, arr.",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In the Chris-tian's home in glo-ry, There re-mains a land of rest;\nThere my Sav-ior's gone be-fore me, To ful-fill my soul's re-quest."
+    },
+    {
+      "number": 2,
+      "text": "He is fit-ting up my man-sion, Which e-ter-nal-ly shall stand,\nFor my stay shall not be tran-sient, In that ho-ly, hap-py land."
+    },
+    {
+      "number": 3,
+      "text": "Pain and sick-ness ne'er shall en-ter, Grief nor woe my lot shall share;\nBut in that ce-les-tial cen-ter, I a crown of life shall wear."
+    },
+    {
+      "number": 4,
+      "text": "Death it-self shall then be con-quered, And his sting shall be with-drawn;\nShout for glad-ness, O ye ran-somed, Hail with joy the gold-en dawn."
+    }
+  ],
+  "chorus": {
+    "text": "There is rest for the wea-ry, There is rest for the wea-ry,\nThere is rest for the wea-ry, There is rest for you.\nOn the oth-er side of Jor-dan, In the sweet fields of E-den,\nWhere the tree of life is bloom-ing, There is rest for you."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "rest",
+      "heaven",
+      "eternal life",
+      "comfort"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. H. Harker, arr.",
+    "original_language": "en"
+  }
+}

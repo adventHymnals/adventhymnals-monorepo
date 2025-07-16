@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-037",
+  "number": 37,
+  "title": "When the King Comes In",
+  "author": "J. E. Rankin",
+  "composer": "Anonymous",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Then shall the King say unto them on his right hand, Come, ye blessed of my Father, inherit the kingdom.\"—Matt. 25: 34. Come to the heart where thy thorns have been, Glo - ri - ous! set he who once died for men; Splendid the Come ev'ry one, oh the least where they have been thrown, Then he who has been sor - row-scare for you, throne where they Life's bat - tles fought, the vic - to-ry won; Like light-ning's flash will thy kingdom come; Aye but Let there the sad sep - a - ra - tion then, For the cry of de - light and pain; Aye but But for the the For thy."
+    },
+    {
+      "number": 2,
+      "text": "Gates, friends, with thee and me When the King comes in! When the King comes in! Of my dead - ly, oh, we meet me there, When the King comes in! We will each neigh-bor know, When the King comes in, When the King comes in, breth-ren, for but to see thy face When thou com - est in."
+    }
+  ],
+  "refrain": {
+    "text": "When the King comes in! When the King comes in! When the King comes in!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission",
+    "themes": [
+      "King",
+      "coming",
+      "kingdom",
+      "glory",
+      "throne",
+      "victory",
+      "friends"
+    ],
+    "scripture_references": [
+      "Matt. 25:34"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

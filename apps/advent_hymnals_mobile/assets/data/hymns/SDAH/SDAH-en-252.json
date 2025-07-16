@@ -1,0 +1,47 @@
+{
+  "id": "SDAH-en-252",
+  "number": 252,
+  "title": "Come, Let Us Sing",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, let us sing the song of songs\nThe angels first began,\nThe homage which to Christ belongs:\n\"Worthy the Lamb, for He was slain!\""
+    },
+    {
+      "number": 2,
+      "text": "Slain to redeem us by His blood,\nTo cleanse from every stain,\nTo make us kings and priests to God:\n\"Worthy the Lamb, for He was slain!\""
+    },
+    {
+      "number": 3,
+      "text": "To Him who suffered on the tree\nOur souls' price,\nBlessing, and honor, and majesty:\n\"Worthy the Lamb, for He was slain!\""
+    },
+    {
+      "number": 4,
+      "text": "To Him, enthroned by filial right,\nAll power in earth and heaven,\nTo Him be glory, and songs\n\"Worthy the Lamb, for He was slain!\""
+    },
+    {
+      "number": 5,
+      "text": "Long as we live, and when we die,\nAnd while in heaven we reign,\nThis song our song of songs shall be:\n\"Worthy the Lamb, for He was slain!\""
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Lamb",
+      "Worthy",
+      "Song",
+      "Angels",
+      "Redemption"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

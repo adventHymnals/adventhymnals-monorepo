@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-379",
+  "number": 379,
+  "title": "SOMETHING FOR JESUS",
+  "author": "S. D. Phelps",
+  "composer": "Rev. Robert Lowry",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sav-ior! thy dy-ing love Thou gav-est me,\nNor should I aught with-hold, Dear Lord, from thee;\nIn love my soul would bow, My heart ful-fill its vow,\nSome off-'ring bring thee now, Some-thing for thee."
+    },
+    {
+      "number": 2,
+      "text": "At the blest mer-cy seat, Plead-ing for me,\nMy fee-ble faith looks up, Je-sus, to thee;\nHelp me the cross to bear, Thy wond-rous love de-clare,\nSome song to raise, or pray'r, Some-thing for thee."
+    },
+    {
+      "number": 3,
+      "text": "Give me a faith-ful heart, Like-ness to thee,\nThat each de-part-ing day Hence-forth may see\nSome work of love be-gun, Some deed of kind-ness done,\nSome wan-d'rer sought and won, Some-thing for thee."
+    },
+    {
+      "number": 4,
+      "text": "All that I am and have, Thy gifts so free,\nIn joy, in grief, thro' life, Dear Lord, for thee!\nAnd when thy face I see, My ran-somed soul shall be\nThro' all e-ter-ni-ty, Some-thing for thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "dedication",
+      "service",
+      "love",
+      "commitment"
+    ],
+    "scripture_references": [],
+    "tune_source": "Rev. Robert Lowry",
+    "original_language": "en"
+  }
+}

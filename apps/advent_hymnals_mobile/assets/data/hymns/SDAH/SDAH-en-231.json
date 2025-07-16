@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-231",
+  "number": 231,
+  "title": "Blest Be the King",
+  "author": "Fred Pratt Green",
+  "composer": "Eric H. Thiman",
+  "tune": "BETHLEHEM",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Blest be the King whose coming is in the name of God!\nFor Him let doors be opened, no hearts against Him barred!\nNot robed in royal splendor, in power and pomp comes He;\nBut clad as are the poorest, such His humility."
+    },
+    {
+      "number": 2,
+      "text": "By those who truly listen His voice is truly heard;\nHe speaks in love and comfort, all pity like a bird.\nThe proud and haughty, who have not learned to heed\nThe meek shall find all glory and humble He."
+    },
+    {
+      "number": 3,
+      "text": "He only to the humble reveals the face of God.\nAll power is His, all glory! All things are in His hand,\nAll light His yoke shall be, for gentle Christ will end."
+    },
+    {
+      "number": 4,
+      "text": "He offers to the burdened the rest and grace they need.\nLet us as are the poorest, till time itself shall end,\nHe would have us bear it, so He can made us free!"
+    }
+  ],
+  "metadata": {
+    "year": 1974,
+    "copyright": "© 1974 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission.",
+    "themes": [
+      "Kingship of Christ",
+      "Humility",
+      "Service",
+      "Palm Sunday"
+    ],
+    "scripture_references": [
+      "Matthew 21:9",
+      "Matthew 11:28-30"
+    ],
+    "tune_source": "Eric H. Thiman",
+    "original_language": "en"
+  }
+}

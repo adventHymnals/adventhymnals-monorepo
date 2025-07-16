@@ -1,0 +1,50 @@
+{
+  "id": "SDAH-en-035",
+  "number": 35,
+  "title": "With Songs and Honors",
+  "author": "Isaac Watts",
+  "composer": "Aaron Williams",
+  "tune": "St. Thomas",
+  "meter": "8.8.8.8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "With songs and honors sounding loud,\nAddress the Lord on high;\nOver the heavens He spreads His cloud,\nAnd waters veil the sky."
+    },
+    {
+      "number": 2,
+      "text": "He sends His showers of blessing down\nTo cheer the plains below;\nHe makes the grass the mountains crown,\nAnd corn in valleys grow."
+    },
+    {
+      "number": 3,
+      "text": "His steady counsels change the face\nOf the declining year;\nHe bids the sun cut short his race,\nAnd wintry days appear."
+    },
+    {
+      "number": 4,
+      "text": "His hoary frost, His fleecy snow,\nDescend and clothe the ground;\nThe liquid streams forbear to flow,\nIn icy fetters bound."
+    },
+    {
+      "number": 5,
+      "text": "The changing wind, the flying cloud,\nObey His mighty word;\nWith songs and honors sounding loud,\nPraise ye the sovereign Lord!"
+    }
+  ],
+  "metadata": {
+    "year": 1719,
+    "copyright": "Public Domain",
+    "themes": [
+      "creation",
+      "seasons",
+      "nature",
+      "praise",
+      "providence",
+      "God's sovereignty"
+    ],
+    "scripture_references": [
+      "Psalm 147:15-18",
+      "Psalm 104"
+    ],
+    "tune_source": "Aaron Williams, 1763",
+    "original_language": "en"
+  }
+}

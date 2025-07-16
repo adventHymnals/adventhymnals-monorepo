@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-136",
+  "number": 136,
+  "title": "Good Christians, Now Rejoice",
+  "author": "Medieval Latin carol",
+  "composer": "German melody",
+  "tune": "In Dulci Jubilo",
+  "meter": "6.6.7.7.7.8.5.5",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Good Christians, now rejoice\nWith heart, and soul, and voice;\nGive ye heed to what we say:\nJesus Christ is born today;\nOx and ass before Him bow,\nAnd He is in the manger now.\nChrist is born today!\nChrist is born today!"
+    },
+    {
+      "number": 2,
+      "text": "Good Christians, now rejoice\nWith heart, and soul, and voice;\nNow ye hear of endless bliss:\nJesus Christ is born for this!\nHe hath oped the heavenly door,\nAnd we are blessed evermore.\nChrist is born for this!\nChrist is born for this!"
+    },
+    {
+      "number": 3,
+      "text": "Good Christians, now rejoice\nWith heart, and soul, and voice;\nNow ye need not fear the grave:\nJesus Christ was born to save!\nCalls you one and calls you all\nTo gain His everlasting hall.\nChrist was born to save!\nChrist was born to save!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "christmas",
+      "joy",
+      "salvation",
+      "nativity",
+      "eternal_life"
+    ],
+    "scripture_references": [
+      "Luke 2:1-20"
+    ],
+    "tune_source": "German",
+    "original_language": "la"
+  }
+}

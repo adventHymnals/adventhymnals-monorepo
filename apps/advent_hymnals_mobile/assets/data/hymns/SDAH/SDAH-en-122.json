@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-122",
+  "number": 122,
+  "title": "Hark! the Herald Angels Sing",
+  "author": "Charles Wesley",
+  "composer": "Felix Mendelssohn",
+  "tune": "Mendelssohn",
+  "meter": "77.77D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! the herald angels sing,\n\"Glory to the newborn King:\nPeace on earth, and mercy mild,\nGod and sinners reconciled!\"\nJoyful, all ye nations, rise,\nJoin the triumph of the skies;\nWith th'angelic host proclaim,\n\"Christ is born in Bethlehem!\""
+    },
+    {
+      "number": 2,
+      "text": "Christ, by highest heaven adored,\nChrist the everlasting Lord:\nLate in time behold Him come,\nOffspring of the virgin's womb.\nVeiled in flesh the Godhead see;\nHail th'incarnate Deity,\nPleased as man with man to dwell,\nJesus, our Emmanuel!"
+    },
+    {
+      "number": 3,
+      "text": "Hail! the heaven-born Prince of Peace!\nHail! the Sun of Righteousness!\nLight and life to all He brings,\nRisen with healing in His wings.\nMild He lays His glory by,\nBorn that man no more may die,\nBorn to raise the sons of earth,\nBorn to give them second birth."
+    }
+  ],
+  "chorus": {
+    "text": "Hark! the herald angels sing,\n\"Glory to the newborn King.\""
+  },
+  "metadata": {
+    "year": 1739,
+    "copyright": "Public Domain",
+    "themes": [
+      "Christmas",
+      "Christ's Birth",
+      "Angels",
+      "Incarnation"
+    ],
+    "scripture_references": [
+      "Luke 2:14",
+      "Isaiah 9:6"
+    ],
+    "tune_source": "Felix Mendelssohn, 1840",
+    "original_language": "en"
+  }
+}

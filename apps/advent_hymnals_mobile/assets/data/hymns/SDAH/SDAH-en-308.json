@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-308",
+  "number": 308,
+  "title": "Wholly Thine",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I would be, dear Savior, wholly Thine;\nTeach me how, teach me how;\nI would do Thy will, O Lord, not mine;\nHelp me, help me now."
+    },
+    {
+      "number": 2,
+      "text": "What is worldly pleasure, wealth, or fame,\nWithout Thee, without Thee?\nI will leave them all for Thy dear name,\nThis my wealth shall be."
+    },
+    {
+      "number": 3,
+      "text": "As I cast earth's transient joys behind,\nCome Thou near, come Thou near;\nIn Thy presence all I find,\n'Tis my comfort here."
+    }
+  ],
+  "chorus": {
+    "text": "Wholly Thine, wholly Thine,\nWholly Thine, this is my vow;\nWholly Thine, wholly Thine,\nWholly Thine, O Lord, just now."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Consecration",
+      "Dedication",
+      "Surrender",
+      "Discipleship"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

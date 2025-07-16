@@ -1,0 +1,43 @@
+{
+  "id": "CS1900-en-143",
+  "number": 143,
+  "title": "I Will Not Let Thee Go",
+  "author": "Mary A. Kidder",
+  "composer": "R. H. Prichard",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I will not let thee go, I will not let thee go, Un - less thou bless me; Un - less thou bless me, I will not let thee go."
+    },
+    {
+      "number": 2,
+      "text": "I can - not live with - out thee; I can - not live with - out thee; O bless me ere I go, O bless me ere I go."
+    },
+    {
+      "number": 3,
+      "text": "In vain I have not wres - tled, In vain I have not wres - tled; I will not let thee go, I will not let thee go."
+    },
+    {
+      "number": 4,
+      "text": "My strength is well - nigh spen - ded, My strength is well - nigh spen - ded; But I will not let thee go, But I will not let thee go."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "persistence",
+      "blessing",
+      "wrestling with God"
+    ],
+    "scripture_references": [
+      "Genesis 32:26"
+    ],
+    "tune_source": "R. H. Prichard",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-528",
+  "number": 528,
+  "title": "A Shelter in the Time of Storm",
+  "author": "Vernon J. Charlesworth",
+  "composer": "Ira D. Sankey",
+  "tune": "Shelter",
+  "meter": "9.6.9.6. with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The Lord's our Rock, in Him we hide,\nA shelter in the time of storm;\nSecure whatever may betide,\nA shelter in the time of storm."
+    },
+    {
+      "number": 2,
+      "text": "A shade by day, defense by night,\nA shelter in the time of storm;\nNo fears alarm, no foes affright,\nA shelter in the time of storm."
+    },
+    {
+      "number": 3,
+      "text": "The raging floods may round us beat,\nA shelter in the time of storm;\nWe'll never leave our safe retreat,\nA shelter in the time of storm."
+    },
+    {
+      "number": 4,
+      "text": "O Rock divine, O Refuge dear,\nA shelter in the time of storm;\nBe Thou our helper ever near,\nA shelter in the time of storm."
+    }
+  ],
+  "chorus": {
+    "text": "Mighty Rock in a weary land,\nCooling shade on the burning sand,\nFaithful guide for the pilgrim band,\nA shelter in the time of storm."
+  },
+  "metadata": {
+    "year": 1880,
+    "copyright": "Public Domain",
+    "themes": [
+      "refuge",
+      "protection",
+      "safety",
+      "storms",
+      "trust"
+    ],
+    "scripture_references": [
+      "Psalm 61:2",
+      "Isaiah 25:4"
+    ],
+    "tune_source": "Ira D. Sankey",
+    "original_language": "en"
+  }
+}

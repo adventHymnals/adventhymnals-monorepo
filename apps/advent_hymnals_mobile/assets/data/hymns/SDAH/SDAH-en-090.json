@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-090",
+  "number": 90,
+  "title": "Eternal God, Whose Power Upholds",
+  "author": "Henry Hallam Tweedy",
+  "composer": "Jean Sibelius",
+  "tune": "Finlandia",
+  "meter": "11.10.11.10.11.11",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Eternal God, whose power upholds\nBoth flower and flaming star,\nTo whom there is no here nor there,\nNo time, no near nor far,\nNo alien race, no foreign shore,\nNo child unsought, unknown:"
+    },
+    {
+      "number": 2,
+      "text": "O God of truth, whom science seeks\nAnd reverent souls adore,\nIn speech that flows to melody,\nIn holiness of art,\nIn speech that flows to melody,\nIn holiness of art,"
+    },
+    {
+      "number": 3,
+      "text": "O God of beauty, oft revealed\nIn dreams of human art,\nIn speech that flows to melody,\nIn holiness of heart;\nTeach us to ban all ugliness\nThat blinds our eyes to Thee:"
+    },
+    {
+      "number": 4,
+      "text": "O God of righteousness and grace,\nSeen in the Christ, Your Son,\nWhose life and death reveal Your face,\nBy whom Your will was done:\nHelp us to spread Your gracious reign\nTill greed and hate shall cease;"
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "God's Power",
+      "Creation",
+      "Truth",
+      "Beauty",
+      "Christ"
+    ],
+    "scripture_references": [],
+    "tune_source": "Finlandia",
+    "original_language": "en"
+  }
+}

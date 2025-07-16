@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-028",
+  "number": 28,
+  "title": "Praise We the Lord",
+  "author": "John Monsell",
+  "composer": "Arthur Sullivan",
+  "tune": "Praise",
+  "meter": "8.8.8.8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise we the Lord, who made all beauty\nFor all our senses to enjoy;\nOwe we our humble thanks and duty\nThat simple pleasures never cloy."
+    },
+    {
+      "number": 2,
+      "text": "Praise Him who loves to see young lovers,\nFresh hearts that swell with pride;\nThank Him who sends the sun above,\nThank Him who gives to each one power."
+    },
+    {
+      "number": 3,
+      "text": "Praise Him who by a simple flower\nLifts up our hearts to youthful joy;\nTo find a friend to know and love,\nThings above."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1863,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "creation",
+      "beauty",
+      "thanksgiving",
+      "senses",
+      "youth"
+    ],
+    "scripture_references": [
+      "Psalm 104:24",
+      "Genesis 1:31",
+      "1 Timothy 4:4"
+    ],
+    "tune_source": "Arthur Sullivan, 1872",
+    "original_language": "en"
+  }
+}

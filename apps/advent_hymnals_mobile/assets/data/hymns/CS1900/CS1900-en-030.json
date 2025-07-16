@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-030",
+  "number": 30,
+  "title": "Something for Jesus",
+  "author": "Elder S. Phelps",
+  "composer": "Joseph Garrison",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"My son, give me thine heart.\"—Prov. 23: 26. Some - thing for Je - sus I glad - ly would bring, All that I have and all that I see; All of my thoughts of a giv - ers a poor way for - get stood, He saw the gifts they of - fered, Know how he blest the gifts they;"
+    },
+    {
+      "number": 2,
+      "text": "Some - thing for Je - sus, a love - gift so sweet! Al - way - sy car - ing sweet; Good deeds and words of kind - ness, Help for the poor and suf - fring, My sin - ful, way-ward heart! Then Je - sus answered soft - ly, Count not the gift as small."
+    }
+  ],
+  "chorus": {
+    "text": "Just but a gift, some-thing for him Was that of - fer - ing worth? Thought this the best of all: Would it bring a gift to Je - sus? You all of them are precious."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "By permission of Biglow & Manin",
+    "themes": [
+      "giving",
+      "Jesus",
+      "heart",
+      "gifts",
+      "love",
+      "kindness",
+      "poor"
+    ],
+    "scripture_references": [
+      "Prov. 23:26"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

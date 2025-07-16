@@ -1,0 +1,37 @@
+{
+  "id": "SDAH-en-091",
+  "number": 91,
+  "title": "Ye Watchers and Ye Holy Ones",
+  "author": "Athelstan Riley",
+  "composer": "Geistliche Kirchengesänge",
+  "tune": "Lasst uns erfreuen",
+  "meter": "8.8.4.4.8.8 with Alleluias",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Ye watchers and ye holy ones,\nBright seraphs, cherubim and thrones,\nRaise the glad strain, Alleluia!\nCry out, dominions, princedoms, powers,\nVirtues, archangels, angels' choirs,\nAlleluia, Alleluia, Alleluia, Alleluia, Alleluia!"
+    },
+    {
+      "number": 2,
+      "text": "O higher than the cherubim,\nMore glorious than the seraphim,\nLead their praises, Alleluia!\nThou bearer of the eternal Word,\nMost gracious, magnify the Lord,\nAlleluia, Alleluia, Alleluia, Alleluia, Alleluia!"
+    },
+    {
+      "number": 3,
+      "text": "O friends, in gladness let us sing,\nSupernal anthems echoing,\nAlleluia, Alleluia!\nTo God the Father, God the Son,\nAnd God the Spirit, Three in One,\nAlleluia, Alleluia, Alleluia, Alleluia, Alleluia!"
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "Angels",
+      "Praise",
+      "Trinity",
+      "Worship"
+    ],
+    "scripture_references": [
+      "Revelation 4"
+    ],
+    "tune_source": "Lasst uns erfreuen",
+    "original_language": "en"
+  }
+}

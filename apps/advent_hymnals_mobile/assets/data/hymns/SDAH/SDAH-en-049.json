@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-049",
+  "number": 49,
+  "title": "Savior, Breathe an Evening Blessing",
+  "author": "James Edmeston",
+  "composer": "George Coles",
+  "tune": "Hinman",
+  "meter": "8.7.8.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Savior, breathe an evening blessing,\nEre repose our spirits seal;\nSin and want we come confessing,\nThou canst save and Thou canst heal."
+    },
+    {
+      "number": 2,
+      "text": "Though the night be dark and dreary,\nDarkness can-not hide from Thee;\nThou art He who, never weary,\nWatchest where Thy people be."
+    },
+    {
+      "number": 3,
+      "text": "Though destruction walk around us,\nThough the arrows past us fly,\nAngel guards from Thee surround us;\nWe are safe if Thou art nigh."
+    },
+    {
+      "number": 4,
+      "text": "Should swift death this night o'er-take us,\nAnd our couch become our tomb,\nMay the morn in heaven wake us,\nClad in bright and deathless bloom."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1820,
+    "copyright": "Public Domain",
+    "themes": [
+      "evening",
+      "blessing",
+      "protection",
+      "comfort",
+      "angels",
+      "eternal life"
+    ],
+    "scripture_references": [
+      "Psalm 4:8",
+      "Psalm 91:11",
+      "1 Corinthians 15:54"
+    ],
+    "tune_source": "George Coles, 1835",
+    "original_language": "en"
+  }
+}

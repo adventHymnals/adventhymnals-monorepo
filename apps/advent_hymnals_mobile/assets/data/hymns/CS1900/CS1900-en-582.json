@@ -1,0 +1,45 @@
+{
+  "id": "CS1900-en-582",
+  "number": 582,
+  "title": "Be Not Afraid",
+  "author": "Miss A. E. Hamilton",
+  "composer": "Geo. C. Stebbins",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Be not afraid, ye saints of God; Press onward to the prize; Above the storms of earth abide The sunshine of the skies."
+    },
+    {
+      "number": 2,
+      "text": "Be not afraid, though foes are strong And earth-born pleasures lure; The Captain of salvation still Doth make your triumph sure."
+    },
+    {
+      "number": 3,
+      "text": "Be not afraid, though dark the night, And distant seems the shore; Behind the clouds, however dark, The sun shines as before."
+    }
+  ],
+  "refrain": {
+    "text": "Be not afraid, be not afraid, He will your Helper be; Be not afraid, be not afraid, He will your Helper be."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "courage",
+      "faith",
+      "divine protection",
+      "perseverance",
+      "trials",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Joshua 1:9",
+      "Isaiah 41:10"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

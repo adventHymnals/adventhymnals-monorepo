@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-198",
+  "number": 198,
+  "title": "And Can It Be?",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "And can it be that I should gain\nAn interest in the Savior's blood?\nDied He for me, who caused His pain?\nFor me, who Him to death pursued?\nAmazing love! how can it be\nThat Thou, my God, shouldst die for me?"
+    },
+    {
+      "number": 2,
+      "text": "He left His Father's throne above,\nSo free, so infinite His grace;\nEmptied Himself of all but love,\nAnd bled for Adam's helpless race.\n'Tis mercy all, immense and free;\nFor, O my God, it found out me."
+    },
+    {
+      "number": 3,
+      "text": "Long my imprisoned spirit lay\nFast bound in sin and nature's night;\nThine eye diffused a quickening ray,\nI woke, the dungeon flamed with light.\nMy chains fell off, my heart was free;\nI rose, went forth, and followed Thee."
+    },
+    {
+      "number": 4,
+      "text": "No condemnation now I dread;\nJesus, and all in Him, is mine!\nAlive in Him, my living Head,\nAnd clothed in righteousness divine.\nBold I approach th' eternal throne,\nAnd claim the crown, through Christ my own."
+    }
+  ],
+  "chorus": {
+    "text": "Amazing love! How can it be\nThat Thou, my God, shouldst die for me?"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "amazing_grace",
+      "salvation",
+      "redemption",
+      "freedom",
+      "love"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

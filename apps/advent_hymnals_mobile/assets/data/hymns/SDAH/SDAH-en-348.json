@@ -1,0 +1,47 @@
+{
+  "id": "SDAH-en-348",
+  "number": 348,
+  "title": "The Church Has One Foundation",
+  "author": "Samuel J. Stone",
+  "composer": "Samuel S. Wesley",
+  "tune": "AURELIA",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The church has one foundation, 'Tis Jesus Christ her Lord; She is His new creation, By water and the word; From heaven He came and sought her To be His holy bride; With His own blood He bought her, And for her life He died."
+    },
+    {
+      "number": 2,
+      "text": "Elect from every nation, Yet one o'er all the earth, Her charter of salvation, One Lord, one faith, one birth; One holy name she blesses, Partakes one holy food, And to one hope she presses, With every grace endued."
+    },
+    {
+      "number": 3,
+      "text": "Though with a scornful wonder Men see her sore oppressed, By schisms rent asunder, By heresies distressed; Yet saints their watch are keeping, Their cry goes up, \"How long?\" And soon the night of weeping Shall be the morn of song."
+    },
+    {
+      "number": 4,
+      "text": "'Mid toil and tribulation, And tumult of her war, She waits the consummation Of peace forevermore; Till with the vision glorious Her longing eyes are blest, And the great church victorious Shall be the church at rest."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1866,
+    "copyright": null,
+    "themes": [
+      "Church",
+      "Foundation",
+      "Jesus Christ",
+      "Unity",
+      "Bride of Christ"
+    ],
+    "scripture_references": [
+      "1 Corinthians 3:11",
+      "Ephesians 5:25-27",
+      "Ephesians 4:4-6"
+    ],
+    "tune_source": "Samuel S. Wesley",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "SDAH-en-468",
+  "number": 468,
+  "title": "A Child of the King",
+  "author": "Harriet E. Buell",
+  "composer": "John B. Sumner",
+  "tune": "CHILD OF THE KING",
+  "meter": "11.11.11.11 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My Father is rich in houses and lands,\nHe holdeth the wealth of the world in His hands!\nOf rubies and diamonds, of silver and gold,\nHis coffers are full, He has riches untold."
+    },
+    {
+      "number": 2,
+      "text": "My Father's own Son, the Savior of men,\nOnce wandered on earth as the poorest of them;\nBut now He is pleading our pardon on high,\nThat we may be His when He comes by and by."
+    },
+    {
+      "number": 3,
+      "text": "I once was an outcast stranger on earth,\nA sinner by choice, and an alien by birth!\nBut I've been adopted, my name's written down,\nAn heir to a mansion, a robe, and a crown."
+    },
+    {
+      "number": 4,
+      "text": "A tent or a cottage, why should I care?\nThey're building a palace for me over there!\nThough exiled from home, yet still I may sing:\n'All glory to God, I'm a child of the King.'"
+    }
+  ],
+  "chorus": {
+    "text": "I'm a child of the King, a child of the King:\nWith Jesus my Savior, I'm a child of the King!"
+  },
+  "metadata": {
+    "year": 1877,
+    "copyright": "Public Domain",
+    "themes": [
+      "sonship",
+      "inheritance",
+      "heavenly riches",
+      "adoption",
+      "royal identity"
+    ],
+    "scripture_references": [
+      "Romans 8:17",
+      "1 John 3:1",
+      "Ephesians 1:5"
+    ],
+    "tune_source": "John B. Sumner",
+    "original_language": "en"
+  }
+}

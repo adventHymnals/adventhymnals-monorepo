@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-031",
+  "number": 31,
+  "title": "Tell Out, My Soul",
+  "author": "Timothy Dudley-Smith",
+  "composer": "Sydney Watson",
+  "tune": "Woodlands",
+  "meter": "10.10.10.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Tell out, my soul, the greatness of the Lord:\nUnnumbered blessings, give my spirit voice;\nTender to me the promise of His word;\nIn God my Savior shall my heart rejoice."
+    },
+    {
+      "number": 2,
+      "text": "Tell out, my soul, the greatness of His name:\nMake known His might, the deeds His arm has done;\nHis mercy sure, from age to age the same;\nHis holy name, the Lord, the Mighty One."
+    },
+    {
+      "number": 3,
+      "text": "Tell out, my soul, the greatness of His might:\nPow'rs and dominions lay their glory by;\nProud hearts and stubborn wills are put to flight,\nThe hungry fed, the humble lifted high."
+    },
+    {
+      "number": 4,
+      "text": "Tell out, my soul, the glories of His word:\nFirm is His promise, and His mercy sure.\nTell out, my soul, the greatness of the Lord\nTo children's children and forevermore."
+    }
+  ],
+  "metadata": {
+    "year": 1962,
+    "copyright": "Words © 1962, Ren. 1990 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission",
+    "themes": [
+      "praise",
+      "worship",
+      "testimony"
+    ],
+    "scripture_references": [
+      "Luke 1:46-55"
+    ],
+    "tune_source": "Sydney Watson, 1962",
+    "original_language": "en"
+  }
+}

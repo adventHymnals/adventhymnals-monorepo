@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-260",
+  "number": 260,
+  "title": "Hover O'er Me, Holy Spirit",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hover o'er me, Holy Spirit,\nBathe my trembling heart and brow;\nFill me with Thy hallowed presence,\nCome, O come and fill me now."
+    },
+    {
+      "number": 2,
+      "text": "Thou canst fill me, gracious Spirit,\nThough I cannot tell Thee how;\nBut I need Thee, greatly need Thee,\nCome, O come and fill me now."
+    },
+    {
+      "number": 3,
+      "text": "I am weakness, full of weakness,\nAt Thy sacred feet I bow;\nBlest divine, eternal Spirit,\nFill with love, and fill me now."
+    },
+    {
+      "number": 4,
+      "text": "Cleanse and comfort, bless and save me,\nBathe, O bathe my heart and brow;\nThou art comforting and saving,\nThou art sweetly filling now."
+    }
+  ],
+  "chorus": {
+    "text": "Fill me now, fill me now,\nJesus, come and fill me now;\nFill me with Thy hallowed presence,\nCome, O come and fill me now."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Holy Spirit",
+      "Fill Me",
+      "Hover",
+      "Presence",
+      "Comfort"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

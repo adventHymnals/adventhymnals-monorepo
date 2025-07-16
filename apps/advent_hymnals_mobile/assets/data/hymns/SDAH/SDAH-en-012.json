@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-012",
+  "number": 12,
+  "title": "Joyful, Joyful, We Adore Thee",
+  "author": "Henry van Dyke",
+  "composer": "Ludwig van Beethoven",
+  "tune": "Hymn to Joy",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Joyful, joyful, we adore Thee,\nGod of glory, Lord of love;\nHearts unfold like flow'rs before Thee,\nHail Thee as the sun above.\nMelt the clouds of sin and sadness,\nDrive the dark of doubt away;\nGiver of immortal gladness,\nFill us with the light of day!"
+    },
+    {
+      "number": 2,
+      "text": "All Thy works with joy surround Thee,\nEarth and heav'n reflect Thy rays,\nStars and angels sing around Thee,\nCenter of unbroken praise.\nField and forest, vale and mountain,\nBlooming meadow, flashing sea,\nChanting bird and flowing fountain\nCall us to rejoice in Thee."
+    },
+    {
+      "number": 3,
+      "text": "Thou art giving and forgiving,\nEver blessing, ever blest,\nWell-spring of the joy of living,\nOcean-depth of happy rest!\nThou our Father, Christ our Brother,\nAll who live in love are Thine;\nTeach us how to love each other,\nLift us to the joy divine."
+    }
+  ],
+  "metadata": {
+    "year": 1907,
+    "copyright": "Public Domain",
+    "themes": [
+      "joy",
+      "worship",
+      "praise",
+      "creation",
+      "love"
+    ],
+    "scripture_references": [
+      "Psalm 95:1-2",
+      "Psalm 100:1-2",
+      "1 John 4:7-8"
+    ],
+    "tune_source": "Ludwig van Beethoven, Symphony No. 9, 'Ode to Joy', 1824",
+    "original_language": "en"
+  }
+}

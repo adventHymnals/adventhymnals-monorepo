@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-261",
+  "number": 261,
+  "title": "From Every Stormy Wind",
+  "author": "Stockton",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "From every stormy wind that blows,\nFrom every swelling tide of woes,\nThere is a calm, a sure retreat;\n'Tis found beneath the mercy seat."
+    },
+    {
+      "number": 2,
+      "text": "There is a place where Jesus sheds\nThe oil of gladness on our heads;\nA place than all beside more sweet;\nIt is the blood-bought mercy seat."
+    },
+    {
+      "number": 3,
+      "text": "There is a scene where spirits blend,\nWhere friend holds fellowship with friend;\nThough sundered far by faith they meet\nAround one common mercy seat."
+    },
+    {
+      "number": 4,
+      "text": "There, there on eagle's wings we soar,\nAnd time and sense seem all no more;\nAnd heaven comes down our souls to greet,\nAnd glory crowns the mercy seat."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "refuge",
+      "mercy",
+      "prayer",
+      "divine presence"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

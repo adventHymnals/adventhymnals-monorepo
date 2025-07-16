@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-004",
+  "number": 4,
+  "title": "At the Door",
+  "author": "Mrs. O. L. Foster",
+  "composer": "Rev. Robert Lowry",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The mistakes of my life are many, The sins of my heart are more; And I scarce can find I am weeping, But I know I am weak and sinful, My love - of it brings me few him; O'er the failure and the fall."
+    },
+    {
+      "number": 2,
+      "text": "But I know at the op - en door, And he will not say me nay; I know I am weak and sinful, But Jesus bid - day, But sin - ning; And I'm hold-ing my heart to thee."
+    },
+    {
+      "number": 3,
+      "text": "It comes to me more and more; let since the fair Saviour has bid us come in, I'll en - ter the o - pen door."
+    }
+  ],
+  "chorus": {
+    "text": "At the door, I know I am weak and sinful, But I know at the o - pen door."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission",
+    "themes": [
+      "confession",
+      "sin",
+      "forgiveness",
+      "door",
+      "invitation",
+      "weakness"
+    ],
+    "scripture_references": [
+      "Rev. 3:8"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}
