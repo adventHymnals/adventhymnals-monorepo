@@ -63,56 +63,58 @@ class _ProjectorControlWidgetState extends State<ProjectorControlWidget> {
               ),
             ],
           ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // Header
-              Row(
-                children: [
-                  const Icon(Icons.cast_connected, color: Colors.green),
-                  const SizedBox(width: 8),
-                  Text(
-                    'Projector Active',
-                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                      color: Colors.green,
-                      fontWeight: FontWeight.bold,
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                // Header
+                Row(
+                  children: [
+                    const Icon(Icons.cast_connected, color: Colors.green),
+                    const SizedBox(width: 8),
+                    Text(
+                      'Projector Active',
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        color: Colors.green,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
-                  ),
-                  const Spacer(),
-                  IconButton(
-                    icon: const Icon(Icons.refresh),
-                    onPressed: _loadMonitors,
-                    tooltip: 'Refresh monitors',
-                  ),
-                ],
-              ),
-              const SizedBox(height: 16),
-
-              // Current hymn info
-              if (projectorService.currentHymnId != null) ...[
-                _buildCurrentHymnInfo(projectorService),
+                    const Spacer(),
+                    IconButton(
+                      icon: const Icon(Icons.refresh),
+                      onPressed: _loadMonitors,
+                      tooltip: 'Refresh monitors',
+                    ),
+                  ],
+                ),
                 const SizedBox(height: 16),
+
+                // Current hymn info
+                if (projectorService.currentHymnId != null) ...[
+                  _buildCurrentHymnInfo(projectorService),
+                  const SizedBox(height: 16),
+                ],
+
+                // Navigation controls
+                _buildNavigationControls(projectorService),
+                const SizedBox(height: 16),
+
+                // Monitor selection
+                _buildMonitorSelection(projectorService),
+                const SizedBox(height: 16),
+
+                // Settings controls
+                _buildSettingsControls(projectorService),
+                const SizedBox(height: 16),
+
+                // Auto-advance controls
+                _buildAutoAdvanceControls(projectorService),
+                const SizedBox(height: 16),
+
+                // Action buttons
+                _buildActionButtons(projectorService),
               ],
-
-              // Navigation controls
-              _buildNavigationControls(projectorService),
-              const SizedBox(height: 16),
-
-              // Monitor selection
-              _buildMonitorSelection(projectorService),
-              const SizedBox(height: 16),
-
-              // Settings controls
-              _buildSettingsControls(projectorService),
-              const SizedBox(height: 16),
-
-              // Auto-advance controls
-              _buildAutoAdvanceControls(projectorService),
-              const SizedBox(height: 16),
-
-              // Action buttons
-              _buildActionButtons(projectorService),
-            ],
+            ),
           ),
         );
       },
@@ -239,14 +241,15 @@ class _ProjectorControlWidgetState extends State<ProjectorControlWidget> {
 
   Widget _buildMonitorCard(MonitorInfo monitor, ProjectorService projectorService) {
     return Container(
-      width: 160,
+      width: 140,
+      height: 100,
       margin: const EdgeInsets.only(right: 8),
       child: Card(
         child: InkWell(
           onTap: () => _moveToMonitor(monitor.index, projectorService),
           borderRadius: BorderRadius.circular(8),
           child: Padding(
-            padding: const EdgeInsets.all(12),
+            padding: const EdgeInsets.all(8),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -254,14 +257,14 @@ class _ProjectorControlWidgetState extends State<ProjectorControlWidget> {
                   children: [
                     Icon(
                       monitor.isPrimary ? Icons.monitor : Icons.desktop_windows,
-                      size: 20,
+                      size: 16,
                       color: monitor.isPrimary ? Colors.blue : Colors.grey,
                     ),
                     const SizedBox(width: 4),
                     Expanded(
                       child: Text(
                         monitor.isPrimary ? 'Primary' : 'Monitor ${monitor.index + 1}',
-                        style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                        style: Theme.of(context).textTheme.labelSmall?.copyWith(
                           fontWeight: monitor.isPrimary ? FontWeight.bold : FontWeight.normal,
                         ),
                         overflow: TextOverflow.ellipsis,
@@ -269,22 +272,19 @@ class _ProjectorControlWidgetState extends State<ProjectorControlWidget> {
                     ),
                   ],
                 ),
-                const SizedBox(height: 8),
+                const SizedBox(height: 4),
                 Text(
                   '${monitor.width} × ${monitor.height}',
-                  style: Theme.of(context).textTheme.bodySmall,
-                ),
-                Text(
-                  'Scale: ${monitor.scaleFactor.toStringAsFixed(1)}x',
                   style: Theme.of(context).textTheme.bodySmall,
                 ),
                 const Spacer(),
                 ElevatedButton(
                   onPressed: () => _moveToMonitor(monitor.index, projectorService),
                   style: ElevatedButton.styleFrom(
-                    minimumSize: const Size(double.infinity, 32),
+                    minimumSize: const Size(double.infinity, 24),
+                    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                   ),
-                  child: const Text('Use'),
+                  child: const Text('Use', style: TextStyle(fontSize: 12)),
                 ),
               ],
             ),

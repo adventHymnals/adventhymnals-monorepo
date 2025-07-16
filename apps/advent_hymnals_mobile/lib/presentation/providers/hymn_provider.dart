@@ -474,4 +474,10 @@ class HymnProvider extends ChangeNotifier {
       playCount: data['play_count'] as int?,
     );
   }
+
+  // Test helper method (only used in tests)
+  void setTestHymns(List<Hymn> hymns) {
+    _hymns = hymns;
+    notifyListeners();
+  }
 }

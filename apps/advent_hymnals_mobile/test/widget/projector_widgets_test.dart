@@ -384,7 +384,7 @@ How great Thou art, how great Thou art!''',
         await tester.pumpAndSettle();
 
         // Should show branding watermark
-        expect(find.text('Advent Hymnals'), findsAtLeastNWidget(1));
+        expect(find.text('Advent Hymnals'), findsAtLeastNWidgets(1));
       });
 
       testWidgets('should show connection indicator', (WidgetTester tester) async {
@@ -525,8 +525,8 @@ How great Thou art, how great Thou art!''',
         await tester.pumpAndSettle();
 
         // Should show project buttons
-        expect(find.text('Project'), findsAtLeastNWidget(2));
-        expect(find.byIcon(Icons.cast), findsAtLeastNWidget(2));
+        expect(find.text('Project'), findsAtLeastNWidgets(2));
+        expect(find.byIcon(Icons.cast), findsAtLeastNWidgets(2));
       });
 
       testWidgets('should show preview buttons', (WidgetTester tester) async {
@@ -538,7 +538,7 @@ How great Thou art, how great Thou art!''',
         await tester.pumpAndSettle();
 
         // Should show preview buttons
-        expect(find.byIcon(Icons.preview), findsAtLeastNWidget(2));
+        expect(find.byIcon(Icons.preview), findsAtLeastNWidgets(2));
       });
 
       testWidgets('should start projector when project button is tapped', (WidgetTester tester) async {
@@ -570,8 +570,8 @@ How great Thou art, how great Thou art!''',
         await tester.pumpAndSettle();
 
         // Should show preview dialog
-        expect(find.text('Amazing Grace'), findsAtLeastNWidget(2)); // Title in dialog
-        expect(find.text('By John Newton'), findsAtLeastNWidget(2));
+        expect(find.text('Amazing Grace'), findsAtLeastNWidgets(2)); // Title in dialog
+        expect(find.text('By John Newton'), findsAtLeastNWidgets(2));
         expect(find.text('Close'), findsOneWidget);
       });
 
