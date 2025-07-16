@@ -1,8 +1,6 @@
 #ifndef RUNNER_PROJECTOR_WINDOW_MANAGER_H_
 #define RUNNER_PROJECTOR_WINDOW_MANAGER_H_
 
-#include <flutter/method_channel.h>
-#include <flutter/standard_method_codec.h>
 #include <windows.h>
 #include <memory>
 #include <vector>
@@ -21,16 +19,13 @@ struct MonitorInfo {
     HMONITOR hMonitor;
 };
 
-// Forward declaration
-class FlutterWindow;
-
 class ProjectorWindowManager {
 public:
     ProjectorWindowManager();
     ~ProjectorWindowManager();
     
-    // Initialize the projector window manager
-    bool Initialize(flutter::FlutterEngine* engine);
+    // Initialize the projector window manager (stub for Windows)
+    bool Initialize(void* engine);
     
     // Cleanup resources
     void Dispose();
@@ -61,10 +56,6 @@ public:
     bool IsSecondaryWindowOpen() const { return secondary_window_ != nullptr; }
     
 private:
-    // Method channel handler
-    void HandleMethodCall(const flutter::MethodCall<flutter::EncodableValue>& method_call,
-                         std::unique_ptr<flutter::MethodResult<flutter::EncodableValue>> result);
-    
     // Monitor enumeration callback
     static BOOL CALLBACK MonitorEnumProc(HMONITOR hMonitor, HDC hdcMonitor, 
                                         LPRECT lprcMonitor, LPARAM dwData);
@@ -75,9 +66,6 @@ private:
     // Create secondary window
     bool CreateSecondaryWindow(int x, int y, int width, int height, bool fullscreen);
     
-    // Update secondary window position and size
-    void UpdateSecondaryWindowPosition(int x, int y, int width, int height, bool fullscreen);
-    
     // Get monitor by index
     MonitorInfo* GetMonitorByIndex(int index);
     
@@ -87,11 +75,8 @@ private:
     // Convert string to wide string
     std::wstring StringToWideString(const std::string& str);
     
-    flutter::FlutterEngine* engine_;
-    std::unique_ptr<flutter::MethodChannel<flutter::EncodableValue>> method_channel_;
-    
+    void* engine_;
     HWND secondary_window_;
-    std::unique_ptr<FlutterWindow> secondary_flutter_window_;
     std::vector<MonitorInfo> monitors_;
     
     // Window class name for secondary window

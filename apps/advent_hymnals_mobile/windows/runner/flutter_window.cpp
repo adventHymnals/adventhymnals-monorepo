@@ -3,7 +3,6 @@
 #include <optional>
 
 #include "flutter/generated_plugin_registrant.h"
-#include "projector_window_manager.h"
 
 FlutterWindow::FlutterWindow(const flutter::DartProject& project)
     : project_(project) {}
@@ -27,10 +26,6 @@ bool FlutterWindow::OnCreate() {
   }
   RegisterPlugins(flutter_controller_->engine());
   SetChildContent(flutter_controller_->view()->GetNativeWindow());
-  
-  // Initialize projector window manager
-  projector_window_manager_ = std::make_unique<ProjectorWindowManager>();
-  projector_window_manager_->Initialize(flutter_controller_->engine());
 
   flutter_controller_->engine()->SetNextFrameCallback([&]() {
     this->Show();
@@ -45,11 +40,6 @@ bool FlutterWindow::OnCreate() {
 }
 
 void FlutterWindow::OnDestroy() {
-  if (projector_window_manager_) {
-    projector_window_manager_->Dispose();
-    projector_window_manager_ = nullptr;
-  }
-  
   if (flutter_controller_) {
     flutter_controller_ = nullptr;
   }
