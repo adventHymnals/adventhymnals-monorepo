@@ -2227,135 +2227,6 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       }
     });
   }
-}
-
-
-
-// Fullscreen hymn view widget
-class FullscreenHymnView extends StatefulWidget {
-  final Hymn hymn;
-
-  const FullscreenHymnView({super.key, required this.hymn});
-
-  @override
-  State<FullscreenHymnView> createState() => _FullscreenHymnViewState();
-}
-
-class _FullscreenHymnViewState extends State<FullscreenHymnView> {
-  double _fontSize = 18.0;
-  bool _showMetadata = false;
-  
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.black,
-      appBar: AppBar(
-        backgroundColor: Colors.black,
-        foregroundColor: Colors.white,
-        title: Text(widget.hymn.title),
-        actions: [
-          IconButton(
-            icon: Icon(_showMetadata ? Icons.info : Icons.info_outline),
-            onPressed: () {
-              setState(() {
-                _showMetadata = !_showMetadata;
-              });
-            },
-          ),
-          IconButton(
-            icon: const Icon(Icons.text_increase),
-            onPressed: () {
-              setState(() {
-                _fontSize = (_fontSize + 2).clamp(12.0, 32.0);
-              });
-            },
-          ),
-          IconButton(
-            icon: const Icon(Icons.text_decrease),
-            onPressed: () {
-              setState(() {
-                _fontSize = (_fontSize - 2).clamp(12.0, 32.0);
-              });
-            },
-          ),
-        ],
-      ),
-      body: Container(
-        color: Colors.black,
-        child: SingleChildScrollView(
-          padding: const EdgeInsets.all(24),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // Title
-              Text(
-                widget.hymn.title,
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: _fontSize + 6,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const SizedBox(height: 8),
-              
-              // Metadata (if enabled)
-              if (_showMetadata) ...[
-                Text(
-                  'Hymn #${widget.hymn.hymnNumber}',
-                  style: TextStyle(
-                    color: Colors.white70,
-                    fontSize: _fontSize - 2,
-                  ),
-                ),
-                if (widget.hymn.author != null && widget.hymn.author!.isNotEmpty)
-                  Text(
-                    'By: ${widget.hymn.author}',
-                    style: TextStyle(
-                      color: Colors.white70,
-                      fontSize: _fontSize - 2,
-                    ),
-                  ),
-                if (widget.hymn.composer != null && widget.hymn.composer!.isNotEmpty)
-                  Text(
-                    'Music: ${widget.hymn.composer}',
-                    style: TextStyle(
-                      color: Colors.white70,
-                      fontSize: _fontSize - 2,
-                    ),
-                  ),
-                const SizedBox(height: 24),
-              ] else 
-                const SizedBox(height: 16),
-              
-              // Lyrics
-              if (widget.hymn.lyrics != null && widget.hymn.lyrics!.isNotEmpty) ...
-                widget.hymn.lyrics!.split('\n\n').where((v) => v.trim().isNotEmpty).map(
-                  (verse) => Padding(
-                    padding: const EdgeInsets.only(bottom: 24),
-                    child: Text(
-                      verse,
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: _fontSize,
-                        height: 1.5,
-                      ),
-                    ),
-                  ),
-                )
-              else
-                Text(
-                  'Lyrics not available',
-                  style: TextStyle(
-                    color: Colors.white70,
-                    fontSize: _fontSize,
-                  ),
-                ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
 
   Widget _buildAlternateTunes() {
     return Padding(
@@ -2651,4 +2522,134 @@ class _FullscreenHymnViewState extends State<FullscreenHymnView> {
       return [];
     }
   }
+}
+
+
+
+// Fullscreen hymn view widget
+class FullscreenHymnView extends StatefulWidget {
+  final Hymn hymn;
+
+  const FullscreenHymnView({super.key, required this.hymn});
+
+  @override
+  State<FullscreenHymnView> createState() => _FullscreenHymnViewState();
+}
+
+class _FullscreenHymnViewState extends State<FullscreenHymnView> {
+  double _fontSize = 18.0;
+  bool _showMetadata = false;
+  
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.black,
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        foregroundColor: Colors.white,
+        title: Text(widget.hymn.title),
+        actions: [
+          IconButton(
+            icon: Icon(_showMetadata ? Icons.info : Icons.info_outline),
+            onPressed: () {
+              setState(() {
+                _showMetadata = !_showMetadata;
+              });
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.text_increase),
+            onPressed: () {
+              setState(() {
+                _fontSize = (_fontSize + 2).clamp(12.0, 32.0);
+              });
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.text_decrease),
+            onPressed: () {
+              setState(() {
+                _fontSize = (_fontSize - 2).clamp(12.0, 32.0);
+              });
+            },
+          ),
+        ],
+      ),
+      body: Container(
+        color: Colors.black,
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(24),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              // Title
+              Text(
+                widget.hymn.title,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: _fontSize + 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: 8),
+              
+              // Metadata (if enabled)
+              if (_showMetadata) ...[
+                Text(
+                  'Hymn #${widget.hymn.hymnNumber}',
+                  style: TextStyle(
+                    color: Colors.white70,
+                    fontSize: _fontSize - 2,
+                  ),
+                ),
+                if (widget.hymn.author != null && widget.hymn.author!.isNotEmpty)
+                  Text(
+                    'By: ${widget.hymn.author}',
+                    style: TextStyle(
+                      color: Colors.white70,
+                      fontSize: _fontSize - 2,
+                    ),
+                  ),
+                if (widget.hymn.composer != null && widget.hymn.composer!.isNotEmpty)
+                  Text(
+                    'Music: ${widget.hymn.composer}',
+                    style: TextStyle(
+                      color: Colors.white70,
+                      fontSize: _fontSize - 2,
+                    ),
+                  ),
+                const SizedBox(height: 24),
+              ] else 
+                const SizedBox(height: 16),
+              
+              // Lyrics
+              if (widget.hymn.lyrics != null && widget.hymn.lyrics!.isNotEmpty) ...
+                widget.hymn.lyrics!.split('\n\n').where((v) => v.trim().isNotEmpty).map(
+                  (verse) => Padding(
+                    padding: const EdgeInsets.only(bottom: 24),
+                    child: Text(
+                      verse,
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: _fontSize,
+                        height: 1.5,
+                      ),
+                    ),
+                  ),
+                )
+              else
+                Text(
+                  'Lyrics not available',
+                  style: TextStyle(
+                    color: Colors.white70,
+                    fontSize: _fontSize,
+                  ),
+                ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
 }
