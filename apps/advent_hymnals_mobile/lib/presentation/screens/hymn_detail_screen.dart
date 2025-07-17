@@ -287,12 +287,18 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 
   bool _canNavigateToNext() {
-    if (_hymn == null || widget.collectionId == null) return false;
+    if (_hymn == null) return false;
     
     try {
       final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
       final allHymns = hymnProvider.hymns;
-      final collectionHymns = allHymns.where((h) => h.collectionAbbreviation == widget.collectionId).toList();
+      
+      // Use the hymn's own collection abbreviation as the primary source
+      final currentCollection = _hymn!.collectionAbbreviation ?? widget.collectionId;
+      
+      final collectionHymns = allHymns
+          .where((h) => h.collectionAbbreviation?.toLowerCase() == currentCollection?.toLowerCase())
+          .toList();
       collectionHymns.sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
       
       final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
@@ -303,12 +309,18 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 
   bool _canNavigateToPrevious() {
-    if (_hymn == null || widget.collectionId == null) return false;
+    if (_hymn == null) return false;
     
     try {
       final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
       final allHymns = hymnProvider.hymns;
-      final collectionHymns = allHymns.where((h) => h.collectionAbbreviation == widget.collectionId).toList();
+      
+      // Use the hymn's own collection abbreviation as the primary source
+      final currentCollection = _hymn!.collectionAbbreviation ?? widget.collectionId;
+      
+      final collectionHymns = allHymns
+          .where((h) => h.collectionAbbreviation?.toLowerCase() == currentCollection?.toLowerCase())
+          .toList();
       collectionHymns.sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
       
       final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
@@ -319,8 +331,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 
   void _navigateToNextHymn() {
-    if (_hymn == null || widget.collectionId == null) {
-      _showNavigationFeedback('Unable to navigate: hymn or collection not loaded');
+    if (_hymn == null) {
+      _showNavigationFeedback('Unable to navigate: hymn not loaded');
       return;
     }
 
@@ -334,14 +346,22 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         return;
       }
 
+      // Use the hymn's own collection abbreviation as the primary source
+      final currentCollection = _hymn!.collectionAbbreviation ?? widget.collectionId;
+      
+      print('🔍 [Navigation] Current hymn: ${_hymn!.hymnNumber}, Collection: $currentCollection');
+      print('🔍 [Navigation] Available hymns: ${hymns.length}');
+      
       // Find hymns in the same collection, sorted by hymn number
       final collectionHymns = hymns
-          .where((h) => h.collectionAbbreviation?.toLowerCase() == widget.collectionId?.toLowerCase())
+          .where((h) => h.collectionAbbreviation?.toLowerCase() == currentCollection?.toLowerCase())
           .toList()
         ..sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
 
+      print('🔍 [Navigation] Collection hymns found: ${collectionHymns.length}');
+
       if (collectionHymns.isEmpty) {
-        _showNavigationFeedback('No hymns found in this collection');
+        _showNavigationFeedback('No hymns found in this collection ($currentCollection)');
         return;
       }
 
@@ -361,7 +381,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
 
       // Navigate to next hymn
       final nextHymn = collectionHymns[currentIndex + 1];
-      context.pushReplacement('/hymn/${nextHymn.hymnNumber}?collection=${widget.collectionId}&fromSource=${widget.fromSource ?? 'swipe'}');
+      context.pushReplacement('/hymn/${nextHymn.hymnNumber}?collection=${currentCollection}&fromSource=${widget.fromSource ?? 'swipe'}');
       
     } catch (e) {
       print('❌ [HymnDetail] Error navigating to next hymn: $e');
@@ -370,8 +390,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 
   void _navigateToPreviousHymn() {
-    if (_hymn == null || widget.collectionId == null) {
-      _showNavigationFeedback('Unable to navigate: hymn or collection not loaded');
+    if (_hymn == null) {
+      _showNavigationFeedback('Unable to navigate: hymn not loaded');
       return;
     }
 
@@ -385,14 +405,17 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         return;
       }
 
+      // Use the hymn's own collection abbreviation as the primary source
+      final currentCollection = _hymn!.collectionAbbreviation ?? widget.collectionId;
+      
       // Find hymns in the same collection, sorted by hymn number
       final collectionHymns = hymns
-          .where((h) => h.collectionAbbreviation?.toLowerCase() == widget.collectionId?.toLowerCase())
+          .where((h) => h.collectionAbbreviation?.toLowerCase() == currentCollection?.toLowerCase())
           .toList()
         ..sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
 
       if (collectionHymns.isEmpty) {
-        _showNavigationFeedback('No hymns found in this collection');
+        _showNavigationFeedback('No hymns found in this collection ($currentCollection)');
         return;
       }
 
@@ -412,7 +435,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
 
       // Navigate to previous hymn
       final previousHymn = collectionHymns[currentIndex - 1];
-      context.pushReplacement('/hymn/${previousHymn.hymnNumber}?collection=${widget.collectionId}&fromSource=${widget.fromSource ?? 'swipe'}');
+      context.pushReplacement('/hymn/${previousHymn.hymnNumber}?collection=${currentCollection}&fromSource=${widget.fromSource ?? 'swipe'}');
       
     } catch (e) {
       print('❌ [HymnDetail] Error navigating to previous hymn: $e');
