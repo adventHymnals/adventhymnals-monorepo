@@ -17,7 +17,7 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
   List<CollectionInfo> _collections = [];
   List<String> _selectedLanguages = [];
   bool _isLoading = true;
-  CollectionSortBy _currentSortBy = CollectionSortBy.title;
+  CollectionSortBy _currentSortBy = CollectionSortBy.titleAsc;
 
   @override
   void initState() {
@@ -381,20 +381,40 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
       context: context,
       builder: (context) => AlertDialog(
         title: const Text('Sort Collections'),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: CollectionSortBy.values.map((sortBy) => RadioListTile<CollectionSortBy>(
-            title: Text(sortBy.displayName),
-            value: sortBy,
-            groupValue: _currentSortBy,
-            onChanged: (value) {
-              if (value != null) {
-                _changeSortBy(value);
-                Navigator.pop(context);
-              }
-            },
-            dense: true,
-          )).toList(),
+        content: SizedBox(
+          width: double.maxFinite,
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                _buildSortSection('Title', [
+                  CollectionSortBy.titleAsc,
+                  CollectionSortBy.titleDesc,
+                ]),
+                const SizedBox(height: 16),
+                _buildSortSection('Year', [
+                  CollectionSortBy.yearAsc,
+                  CollectionSortBy.yearDesc,
+                ]),
+                const SizedBox(height: 16),
+                _buildSortSection('Language', [
+                  CollectionSortBy.languageAsc,
+                  CollectionSortBy.languageDesc,
+                ]),
+                const SizedBox(height: 16),
+                _buildSortSection('Hymn Count', [
+                  CollectionSortBy.hymnCountAsc,
+                  CollectionSortBy.hymnCountDesc,
+                ]),
+                const SizedBox(height: 16),
+                _buildSortSection('Abbreviation', [
+                  CollectionSortBy.abbreviationAsc,
+                  CollectionSortBy.abbreviationDesc,
+                ]),
+              ],
+            ),
+          ),
         ),
         actions: [
           TextButton(
@@ -403,6 +423,34 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
           ),
         ],
       ),
+    );
+  }
+
+  Widget _buildSortSection(String title, List<CollectionSortBy> options) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          title,
+          style: Theme.of(context).textTheme.titleSmall?.copyWith(
+            fontWeight: FontWeight.bold,
+            color: const Color(AppColors.primaryBlue),
+          ),
+        ),
+        ...options.map((sortBy) => RadioListTile<CollectionSortBy>(
+          title: Text(sortBy.displayName),
+          value: sortBy,
+          groupValue: _currentSortBy,
+          onChanged: (value) {
+            if (value != null) {
+              _changeSortBy(value);
+              Navigator.pop(context);
+            }
+          },
+          dense: true,
+          contentPadding: const EdgeInsets.symmetric(horizontal: 8),
+        )),
+      ],
     );
   }
 
