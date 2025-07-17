@@ -300,12 +300,21 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       final currentCollection = _hymn!.collectionAbbreviation ?? widget.collectionId;
       print('🔍 [Navigation] _canNavigateToNext: current hymn ${_hymn!.hymnNumber}, collection: $currentCollection');
       
+      // Debug: show sample collection abbreviations
+      final sampleCollections = allHymns.take(5).map((h) => '${h.hymnNumber}:${h.collectionAbbreviation}').join(', ');
+      print('🔍 [Navigation] Sample hymn collections: $sampleCollections');
+      
       final collectionHymns = allHymns
           .where((h) => h.collectionAbbreviation?.toLowerCase() == currentCollection?.toLowerCase())
           .toList();
       collectionHymns.sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
       
       print('🔍 [Navigation] Found ${collectionHymns.length} hymns in collection $currentCollection');
+      if (collectionHymns.isEmpty) {
+        // Debug: show all unique collections available
+        final uniqueCollections = allHymns.map((h) => h.collectionAbbreviation).toSet().toList();
+        print('🔍 [Navigation] Available collections: $uniqueCollections');
+      }
       
       final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
       final canNavigate = currentIndex >= 0 && currentIndex < collectionHymns.length - 1;
@@ -1478,46 +1487,54 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     String hymnalAbbrev = hymn.collectionAbbreviation ?? 
                          (widget.collectionId?.toUpperCase() ?? 'HYMN');
     
-    return Row(
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
       children: [
-        // Hymnal abbreviation
-        Container(
-          padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-          decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.primary.withOpacity(0.1),
-            borderRadius: BorderRadius.circular(4),
-          ),
-          child: Text(
-            hymnalAbbrev,
-            style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: Theme.of(context).colorScheme.primary,
-              fontWeight: FontWeight.bold,
+        // First line: Hymnal abbreviation and hymn number
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            // Hymnal abbreviation with better contrast
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.2),
+                borderRadius: BorderRadius.circular(4),
+              ),
+              child: Text(
+                hymnalAbbrev,
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
             ),
-          ),
+            const SizedBox(width: 8),
+            
+            // Hymn number
+            Text(
+              '#${hymn.hymnNumber}',
+              style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                fontWeight: FontWeight.w600,
+                color: Theme.of(context).appBarTheme.foregroundColor,
+                fontSize: 18,
+              ),
+            ),
+          ],
         ),
-        const SizedBox(width: 8),
         
-        // Hymn number
+        const SizedBox(height: 2),
+        
+        // Second line: Title
         Text(
-          '#${hymn.hymnNumber}',
+          hymn.title,
           style: Theme.of(context).textTheme.titleMedium?.copyWith(
-            fontWeight: FontWeight.w600,
             color: Theme.of(context).appBarTheme.foregroundColor,
+            fontSize: 16,
           ),
-        ),
-        const SizedBox(width: 8),
-        
-        // Title (truncated if too long)
-        Expanded(
-          child: Text(
-            hymn.title,
-            style: Theme.of(context).textTheme.titleMedium?.copyWith(
-              color: Theme.of(context).appBarTheme.foregroundColor,
-            ),
-            overflow: TextOverflow.ellipsis,
-            maxLines: 1,
-          ),
+          overflow: TextOverflow.ellipsis,
+          maxLines: 1,
         ),
       ],
     );

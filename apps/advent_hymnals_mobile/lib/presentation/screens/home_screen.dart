@@ -210,7 +210,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 title: 'Browse',
                 subtitle: 'Explore collections',
                 onTap: () {
-                  context.go('/browse');
+                  context.go('/browse/collections');
                 },
               ),
             ),
@@ -450,7 +450,7 @@ class _HomeScreenState extends State<HomeScreen> {
           width: double.infinity,
           child: OutlinedButton.icon(
             onPressed: () {
-              context.go('/browse');
+              context.go('/browse/collections');
             },
             icon: const Icon(Icons.explore),
             label: const Text('Explore All Collections'),
