@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../providers/hymn_provider.dart';
 import '../providers/favorites_provider.dart';
 import '../providers/recently_viewed_provider.dart';
+import '../providers/audio_player_provider.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/data/collections_data_manager.dart';
 import '../../core/database/database_helper.dart';
@@ -199,6 +200,42 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const Text(AppStrings.appTitle),
         elevation: 0,
         actions: [
+          // Audio Player Button
+          Consumer<AudioPlayerProvider>(
+            builder: (context, audioProvider, child) {
+              final hasCurrentHymn = audioProvider.currentHymn != null;
+              
+              return IconButton(
+                icon: Stack(
+                  children: [
+                    Icon(
+                      hasCurrentHymn ? Icons.music_note : Icons.music_note_outlined,
+                      color: hasCurrentHymn ? const Color(AppColors.primaryBlue) : null,
+                    ),
+                    if (audioProvider.isPlaying)
+                      Positioned(
+                        right: 0,
+                        top: 0,
+                        child: Container(
+                          width: 8,
+                          height: 8,
+                          decoration: const BoxDecoration(
+                            color: Color(AppColors.successGreen),
+                            shape: BoxShape.circle,
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
+                onPressed: () {
+                  context.push('/player');
+                },
+                tooltip: hasCurrentHymn 
+                  ? 'Audio Player - ${audioProvider.currentHymn!.title}'
+                  : 'Audio Player',
+              );
+            },
+          ),
           IconButton(
             icon: const Icon(Icons.search),
             onPressed: () {
