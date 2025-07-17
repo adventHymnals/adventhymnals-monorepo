@@ -4,6 +4,7 @@ import 'dart:io' show Platform;
 import '../../domain/entities/hymn.dart';
 import '../providers/settings_provider.dart';
 import '../../core/services/windows_audio_service.dart';
+import '../../core/services/comprehensive_audio_service.dart';
 
 enum AudioState {
   stopped,
@@ -11,6 +12,7 @@ enum AudioState {
   paused,
   loading,
   error,
+  checking_availability,
 }
 
 enum RepeatMode {
@@ -22,10 +24,12 @@ enum RepeatMode {
 class AudioPlayerProvider extends ChangeNotifier {
   final AudioPlayer _audioPlayer = AudioPlayer();
   final SettingsProvider _settingsProvider;
+  final ComprehensiveAudioService _audioService = ComprehensiveAudioService.instance;
   WindowsAudioService? _windowsAudioService;
   
   AudioState _audioState = AudioState.stopped;
   Hymn? _currentHymn;
+  HymnAudioInfo? _currentAudioInfo;
   List<Hymn> _playlist = [];
   int _currentIndex = 0;
   Duration _duration = Duration.zero;
@@ -38,6 +42,7 @@ class AudioPlayerProvider extends ChangeNotifier {
   // Getters
   AudioState get audioState => _audioState;
   Hymn? get currentHymn => _currentHymn;
+  HymnAudioInfo? get currentAudioInfo => _currentAudioInfo;
   List<Hymn> get playlist => _playlist;
   int get currentIndex => _currentIndex;
   Duration get duration => _duration;
@@ -50,9 +55,16 @@ class AudioPlayerProvider extends ChangeNotifier {
   bool get isPlaying => _audioState == AudioState.playing;
   bool get isPaused => _audioState == AudioState.paused;
   bool get isLoading => _audioState == AudioState.loading;
+  bool get isCheckingAvailability => _audioState == AudioState.checking_availability;
   bool get hasError => _audioState == AudioState.error;
   bool get hasPrevious => _currentIndex > 0;
   bool get hasNext => _currentIndex < _playlist.length - 1;
+  
+  // Audio availability getters
+  bool get hasAnyAudio => _currentAudioInfo?.hasAnyAudio ?? false;
+  bool get isCheckingAudio => _currentAudioInfo?.isChecking ?? false;
+  List<AudioFormat> get availableFormats => _currentAudioInfo?.availableFormats ?? [];
+  AudioFormat? get preferredFormat => _currentAudioInfo?.preferredFormat;
   
   double get progress {
     if (_duration.inMilliseconds == 0) return 0.0;
@@ -65,6 +77,20 @@ class AudioPlayerProvider extends ChangeNotifier {
 
   AudioPlayerProvider(this._settingsProvider) {
     _initializePlayer();
+    _initializeAudioService();
+  }
+  
+  Future<void> _initializeAudioService() async {
+    try {
+      await _audioService.loadCacheFromDisk();
+      if (kDebugMode) {
+        print('✅ [AudioPlayerProvider] Audio service initialized');
+      }
+    } catch (e) {
+      if (kDebugMode) {
+        print('⚠️ [AudioPlayerProvider] Failed to initialize audio service: $e');
+      }
+    }
   }
 
   void _initializePlayer() {
@@ -168,8 +194,36 @@ class AudioPlayerProvider extends ChangeNotifier {
     }
   }
 
+  // Audio availability checking
+  Future<void> checkAudioAvailability(Hymn hymn) async {
+    try {
+      _setAudioState(AudioState.checking_availability);
+      _currentAudioInfo = await _audioService.getAudioInfo(hymn);
+      
+      if (_currentAudioInfo!.hasAnyAudio) {
+        _setAudioState(AudioState.stopped);
+      } else if (!_currentAudioInfo!.isChecking) {
+        _setAudioState(AudioState.stopped);
+      }
+      
+      notifyListeners();
+    } catch (e) {
+      _setError('Failed to check audio availability: ${e.toString()}');
+    }
+  }
+  
+  // Download audio for offline use
+  Future<bool> downloadAudioFile(Hymn hymn, AudioFormat format) async {
+    try {
+      return await _audioService.downloadAudioFile(hymn, format);
+    } catch (e) {
+      _setError('Failed to download audio: ${e.toString()}');
+      return false;
+    }
+  }
+  
   // Playback control methods
-  Future<void> playHymn(Hymn hymn, {List<Hymn>? playlist}) async {
+  Future<void> playHymn(Hymn hymn, {List<Hymn>? playlist, AudioFormat? preferredFormat}) async {
     try {
       _setAudioState(AudioState.loading);
       _clearError();
@@ -188,19 +242,61 @@ class AudioPlayerProvider extends ChangeNotifier {
         _currentIndex = 0;
       }
 
-      // Get audio URL for the hymn
-      final audioUrl = _getAudioUrl(hymn);
+      // Get audio info with availability checking
+      _currentAudioInfo = await _audioService.getAudioInfo(hymn);
+      
+      // Wait for availability check if still checking
+      if (_currentAudioInfo!.isChecking) {
+        // Give it a moment to complete the check
+        await Future.delayed(const Duration(milliseconds: 1500));
+        _currentAudioInfo = await _audioService.getAudioInfo(hymn);
+      }
+      
+      if (!_currentAudioInfo!.hasAnyAudio) {
+        _setError('No audio files available for this hymn');
+        return;
+      }
+      
+      // Get the best audio file for playback
+      final audioFile = await _audioService.getBestAudioFile(
+        _currentAudioInfo!,
+        preferredFormat: preferredFormat,
+      );
+      
+      if (audioFile == null) {
+        _setError('No suitable audio file found for playback');
+        return;
+      }
+      
+      String audioSource;
+      if (audioFile.isLocal && audioFile.localPath != null) {
+        audioSource = audioFile.localPath!;
+        if (kDebugMode) {
+          print('🎵 [AudioPlayerProvider] Playing local file: $audioSource');
+        }
+      } else {
+        audioSource = audioFile.url;
+        if (kDebugMode) {
+          print('🎵 [AudioPlayerProvider] Playing remote file: $audioSource');
+        }
+      }
       
       if (Platform.isWindows && _windowsAudioService != null) {
         // Use Windows audio service
-        final success = await _windowsAudioService!.playFromUrl(audioUrl);
+        final success = audioFile.isLocal 
+          ? await _windowsAudioService!.playFromFile(audioSource)
+          : await _windowsAudioService!.playFromUrl(audioSource);
         if (!success) {
           _setError(_windowsAudioService!.lastError ?? 'Failed to play hymn on Windows');
           return;
         }
       } else {
         // Use standard audio player
-        await _audioPlayer.play(UrlSource(audioUrl));
+        if (audioFile.isLocal) {
+          await _audioPlayer.play(DeviceFileSource(audioSource));
+        } else {
+          await _audioPlayer.play(UrlSource(audioSource));
+        }
       }
       
       notifyListeners();
@@ -461,17 +557,24 @@ class AudioPlayerProvider extends ChangeNotifier {
       _audioState = AudioState.stopped;
     }
   }
-
-  String _getAudioUrl(Hymn hymn) {
-    // Get the hymnal ID from the hymn's collection abbreviation
-    final hymnalId = hymn.collectionAbbreviation ?? 'CH1941'; // Default to Church Hymnal
-    
-    // Get hymn number
-    final hymnNumber = hymn.hymnNumber.toString();
-    
-    // Construct the CDN URL for the audio file
-    // Default to MP3 format as it's more widely supported
-    return 'https://media.adventhymnals.org/audio/$hymnalId/$hymnNumber.mp3';
+  
+  // Cache management methods
+  Future<int> getCacheSize() async {
+    return await _audioService.getCacheSize();
+  }
+  
+  String formatCacheSize(int bytes) {
+    return _audioService.formatCacheSize(bytes);
+  }
+  
+  Future<void> clearAudioCache() async {
+    try {
+      await _audioService.clearCache();
+      _currentAudioInfo = null;
+      notifyListeners();
+    } catch (e) {
+      _setError('Failed to clear cache: ${e.toString()}');
+    }
   }
 
   String _formatDuration(Duration duration) {
@@ -490,6 +593,7 @@ class AudioPlayerProvider extends ChangeNotifier {
   @override
   void dispose() {
     _audioPlayer.dispose();
+    _audioService.dispose();
     super.dispose();
   }
 }

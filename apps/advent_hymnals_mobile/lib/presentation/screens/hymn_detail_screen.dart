@@ -14,6 +14,7 @@ import '../providers/hymn_provider.dart';
 import '../providers/recently_viewed_provider.dart';
 import '../../domain/entities/hymn.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../../core/services/comprehensive_audio_service.dart';
 
 // Simple inline model for lyrics sections
 class LyricsSection {
@@ -51,6 +52,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   bool _isLoading = true;
   Hymn? _hymn;
   String? _errorMessage;
+  HymnAudioInfo? _audioInfo;
+  bool _isCheckingAudio = false;
 
   @override
   void initState() {
@@ -98,6 +101,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           // Add to recently viewed and load favorite status
           _addToRecentlyViewed();
           _loadFavoriteStatus();
+          _checkAudioAvailability();
           return;
         }
       }
@@ -123,6 +127,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           // Add to recently viewed and load favorite status
           _addToRecentlyViewed();
           _loadFavoriteStatus();
+          _checkAudioAvailability();
           return;
         }
       }
@@ -136,6 +141,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       
       // Load favorite status for fallback hymn (but don't add to recently viewed since it's not a real hymn)
       _loadFavoriteStatus();
+      _checkAudioAvailability();
       
     } catch (e) {
       print('❌ [HymnDetail] Error loading hymn: $e');
@@ -220,6 +226,34 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       });
     } catch (e) {
       print('⚠️ [HymnDetail] Failed to load favorite status: $e');
+    }
+  }
+  
+  Future<void> _checkAudioAvailability() async {
+    if (_hymn == null) return;
+    
+    try {
+      setState(() {
+        _isCheckingAudio = true;
+      });
+      
+      final audioService = ComprehensiveAudioService.instance;
+      final audioInfo = await audioService.getAudioInfo(_hymn!);
+      
+      setState(() {
+        _audioInfo = audioInfo;
+        _isCheckingAudio = false;
+      });
+      
+      // Also trigger check in audio provider
+      final audioProvider = Provider.of<AudioPlayerProvider>(context, listen: false);
+      await audioProvider.checkAudioAvailability(_hymn!);
+      
+    } catch (e) {
+      print('⚠️ [HymnDetail] Failed to check audio availability: $e');
+      setState(() {
+        _isCheckingAudio = false;
+      });
     }
   }
 
@@ -637,14 +671,81 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           Consumer<AudioPlayerProvider>(
             builder: (context, audioProvider, child) {
               final isCurrentHymn = audioProvider.currentHymn?.id == widget.hymnId;
-              return IconButton(
+              final hasAudio = _audioInfo?.hasAnyAudio ?? false;
+              final isCheckingAudio = _isCheckingAudio || (_audioInfo?.isChecking ?? false);
+              
+              if (isCheckingAudio) {
+                return IconButton(
+                  icon: const SizedBox(
+                    width: 20,
+                    height: 20,
+                    child: CircularProgressIndicator(strokeWidth: 2),
+                  ),
+                  onPressed: null,
+                  tooltip: 'Checking audio availability...',
+                );
+              }
+              
+              return PopupMenuButton<String>(
+                enabled: hasAudio,
                 icon: Icon(
-                  isCurrentHymn && audioProvider.isPlaying
-                      ? Icons.pause_circle_filled
-                      : Icons.play_circle_filled,
+                  hasAudio
+                    ? (isCurrentHymn && audioProvider.isPlaying
+                        ? Icons.pause_circle_filled
+                        : Icons.play_circle_filled)
+                    : Icons.play_circle_outline,
+                  color: hasAudio ? null : Colors.grey,
                 ),
-                onPressed: () => _togglePlayback(audioProvider),
-                tooltip: isCurrentHymn && audioProvider.isPlaying ? 'Pause' : 'Play',
+                tooltip: hasAudio 
+                  ? (isCurrentHymn && audioProvider.isPlaying ? 'Audio Options' : 'Audio Options')
+                  : 'No audio available',
+                onSelected: (value) async {
+                  switch (value) {
+                    case 'play':
+                      _togglePlayback(audioProvider);
+                      break;
+                    case 'download_mp3':
+                      _downloadAudioFile(AudioFormat.mp3);
+                      break;
+                    case 'download_midi':
+                      _downloadAudioFile(AudioFormat.midi);
+                      break;
+                  }
+                },
+                itemBuilder: (context) => [
+                  PopupMenuItem(
+                    value: 'play',
+                    child: Row(
+                      children: [
+                        Icon(isCurrentHymn && audioProvider.isPlaying ? Icons.pause : Icons.play_arrow),
+                        const SizedBox(width: 8),
+                        Text(isCurrentHymn && audioProvider.isPlaying ? 'Pause' : 'Play'),
+                      ],
+                    ),
+                  ),
+                  if (_audioInfo?.availableFormats.contains(AudioFormat.mp3) ?? false)
+                    const PopupMenuItem(
+                      value: 'download_mp3',
+                      child: Row(
+                        children: [
+                          Icon(Icons.download),
+                          SizedBox(width: 8),
+                          Text('Download MP3'),
+                        ],
+                      ),
+                    ),
+                  if (_audioInfo?.availableFormats.contains(AudioFormat.midi) ?? false)
+                    const PopupMenuItem(
+                      value: 'download_midi',
+                      child: Row(
+                        children: [
+                          Icon(Icons.download),
+                          SizedBox(width: 8),
+                          Text('Download MIDI'),
+                        ],
+                      ),
+                    ),
+                ],
               );
             },
           ),
@@ -1229,6 +1330,78 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 }),
               
               
+              // Audio Information
+              if (_audioInfo != null) ...[
+                const SizedBox(height: AppSizes.spacing12),
+                Text(
+                  'Audio',
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                const SizedBox(height: AppSizes.spacing8),
+                if (_audioInfo!.hasAnyAudio) ...[
+                  ...(_audioInfo!.availableFormats.map((format) {
+                    final audioFile = _audioInfo!.audioFiles[format];
+                    return Padding(
+                      padding: const EdgeInsets.only(bottom: AppSizes.spacing4),
+                      child: Row(
+                        children: [
+                          Icon(
+                            format == AudioFormat.mp3 ? Icons.audiotrack : Icons.piano,
+                            size: 16,
+                            color: const Color(AppColors.successGreen),
+                          ),
+                          const SizedBox(width: AppSizes.spacing8),
+                          Text(
+                            '${format.name.toUpperCase()} ${audioFile?.isLocal == true ? '(Downloaded)' : '(Online)'}',
+                            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                              color: const Color(AppColors.successGreen),
+                            ),
+                          ),
+                          if (audioFile?.isLocal == false) ...[
+                            const Spacer(),
+                            TextButton(
+                              onPressed: () => _downloadAudioFile(format),
+                              child: const Text('Download', style: TextStyle(fontSize: 12)),
+                            ),
+                          ],
+                        ],
+                      ),
+                    );
+                  })),
+                ] else if (_audioInfo!.isChecking) ...[
+                  const Row(
+                    children: [
+                      SizedBox(
+                        width: 16,
+                        height: 16,
+                        child: CircularProgressIndicator(strokeWidth: 2),
+                      ),
+                      SizedBox(width: AppSizes.spacing8),
+                      Text('Checking audio availability...'),
+                    ],
+                  ),
+                ] else ...[
+                  Row(
+                    children: [
+                      const Icon(
+                        Icons.audiotrack_outlined,
+                        size: 16,
+                        color: Color(AppColors.gray500),
+                      ),
+                      const SizedBox(width: AppSizes.spacing8),
+                      Text(
+                        'No audio files available',
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: const Color(AppColors.gray500),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ],
+              
               // Themes
               if (_hymn!.themeTags != null && _hymn!.themeTags!.isNotEmpty) ...[
                 const SizedBox(height: AppSizes.spacing12),
@@ -1605,8 +1778,76 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         audioProvider.resume();
       }
     } else {
-      // Use the current hymn for playback
-      audioProvider.playHymn(_hymn!);
+      // Use the current hymn for playback with preferred format
+      final preferredFormat = _audioInfo?.preferredFormat;
+      audioProvider.playHymn(_hymn!, preferredFormat: preferredFormat);
+    }
+  }
+  
+  Future<void> _downloadAudioFile(AudioFormat format) async {
+    if (_hymn == null) return;
+    
+    try {
+      // Show progress dialog
+      showDialog(
+        context: context,
+        barrierDismissible: false,
+        builder: (context) => AlertDialog(
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const CircularProgressIndicator(),
+              const SizedBox(height: 16),
+              Text('Downloading ${format.name.toUpperCase()} file...'),
+            ],
+          ),
+        ),
+      );
+      
+      final audioProvider = Provider.of<AudioPlayerProvider>(context, listen: false);
+      final success = await audioProvider.downloadAudioFile(_hymn!, format);
+      
+      // Close progress dialog
+      if (mounted) {
+        Navigator.of(context).pop();
+      }
+      
+      if (success) {
+        // Refresh audio info to show downloaded status
+        await _checkAudioAvailability();
+        
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text('${format.name.toUpperCase()} file downloaded successfully'),
+              backgroundColor: const Color(AppColors.successGreen),
+            ),
+          );
+        }
+      } else {
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text('Failed to download ${format.name.toUpperCase()} file'),
+              backgroundColor: const Color(AppColors.errorRed),
+            ),
+          );
+        }
+      }
+    } catch (e) {
+      // Close progress dialog if still open
+      if (mounted && Navigator.of(context).canPop()) {
+        Navigator.of(context).pop();
+      }
+      
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Error downloading audio: $e'),
+            backgroundColor: const Color(AppColors.errorRed),
+          ),
+        );
+      }
     }
   }
 
@@ -2198,38 +2439,55 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 
   void _downloadAudio() {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Row(
+    if (_audioInfo == null || !_audioInfo!.hasAnyAudio) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('No audio files available for download'),
+          backgroundColor: Color(AppColors.errorRed),
+        ),
+      );
+      return;
+    }
+    
+    // Show dialog with available formats
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Download Audio'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
-            const SizedBox(
-              width: 20,
-              height: 20,
-              child: CircularProgressIndicator(strokeWidth: 2),
-            ),
-            const SizedBox(width: 12),
-            Text('Downloading "${_hymn!.title}.mp3"...'),
+            Text('Choose audio format for "${_hymn!.title}":'),
+            const SizedBox(height: 16),
+            ...(_audioInfo!.availableFormats.map((format) {
+              final audioFile = _audioInfo!.audioFiles[format];
+              final isLocal = audioFile?.isLocal ?? false;
+              
+              return ListTile(
+                leading: Icon(
+                  format == AudioFormat.mp3 ? Icons.audiotrack : Icons.piano,
+                  color: isLocal ? const Color(AppColors.successGreen) : null,
+                ),
+                title: Text(format.name.toUpperCase()),
+                subtitle: Text(isLocal ? 'Already downloaded' : 'Download for offline use'),
+                trailing: isLocal ? const Icon(Icons.check_circle, color: Color(AppColors.successGreen)) : null,
+                enabled: !isLocal,
+                onTap: isLocal ? null : () {
+                  Navigator.of(context).pop();
+                  _downloadAudioFile(format);
+                },
+              );
+            })),
           ],
         ),
-        duration: const Duration(seconds: 5),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Cancel'),
+          ),
+        ],
       ),
     );
-    
-    Future.delayed(const Duration(seconds: 5), () {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Downloaded "${_hymn!.title}.mp3" to Downloads folder'),
-            action: SnackBarAction(
-              label: 'Play',
-              onPressed: () {
-                // Play audio
-              },
-            ),
-          ),
-        );
-      }
-    });
   }
 
   Widget _buildAlternateTunes() {
