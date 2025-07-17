@@ -134,6 +134,52 @@ class CollectionsDataManager {
     }
   }
 
+  /// Get hymnal abbreviations for use in search query parsing
+  Future<Map<String, String>> getHymnalAbbreviations() async {
+    final collectionsData = await loadCollectionsData();
+    final abbreviations = <String, String>{};
+    
+    collectionsData.forEach((id, data) {
+      final abbreviation = data['abbreviation'] as String;
+      
+      // Add the main abbreviation (e.g., "SDAH" -> "SDAH")
+      abbreviations[abbreviation.toLowerCase()] = abbreviation;
+      
+      // Add common short forms and variations
+      switch (abbreviation) {
+        case 'SDAH':
+          abbreviations['sda'] = abbreviation;
+          abbreviations['adventist'] = abbreviation;
+          break;
+        case 'CH1941':
+          abbreviations['ch'] = abbreviation;
+          abbreviations['christ'] = abbreviation;
+          abbreviations['christinsong'] = abbreviation;
+          break;
+        case 'CS1900':
+          abbreviations['cs'] = abbreviation;
+          break;
+        case 'HT1869':
+        case 'HT1876':
+        case 'HT1886':
+          abbreviations['ht'] = abbreviation; // Will use the last one found
+          break;
+      }
+      
+      // Also add the full ID as an alternative (e.g., "cs1900" -> "CS1900")
+      abbreviations[id.toLowerCase()] = abbreviation;
+    });
+    
+    // Add some generic terms
+    abbreviations['hymns'] = 'HYMNS';
+    abbreviations['gospel'] = 'GOSPEL';
+    abbreviations['praise'] = 'PRAISE';
+    abbreviations['worship'] = 'WORSHIP';
+    abbreviations['songs'] = 'SONGS';
+    
+    return abbreviations;
+  }
+
   /// Clear cache to force reload
   void clearCache() {
     _cachedCollectionsData = null;

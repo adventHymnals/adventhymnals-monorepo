@@ -24,11 +24,22 @@ class _SearchScreenState extends State<SearchScreen> {
   void initState() {
     super.initState();
     _searchFocusNode.requestFocus();
-    // Load available collections for filtering
+    // Load available collections for filtering and initialize search parser
     WidgetsBinding.instance.addPostFrameCallback((_) {
       final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
       hymnProvider.loadAvailableCollections();
+      // Pre-load search query parser abbreviations
+      _preloadSearchAbbreviations();
     });
+  }
+
+  void _preloadSearchAbbreviations() async {
+    try {
+      // This will cache the abbreviations for sync usage
+      await SearchQueryParser.parse('');
+    } catch (e) {
+      print('Warning: Could not preload search abbreviations: $e');
+    }
   }
 
   @override
@@ -71,7 +82,7 @@ class _SearchScreenState extends State<SearchScreen> {
       
       // Apply "with audio" filter
       if (_searchFilters.contains('audio')) {
-        // This would need to check if the hymn has audio files
+        // TODO: Implement audio availability checking when has_audio field is added to Hymn entity
         // For now, we'll assume all hymns potentially have audio
         // This could be extended with actual audio availability checking
       }
@@ -133,8 +144,8 @@ class _SearchScreenState extends State<SearchScreen> {
           Consumer<HymnProvider>(
             builder: (context, provider, child) {
               if (provider.searchQuery.isNotEmpty) {
-                final parsedQuery = SearchQueryParser.parse(provider.searchQuery);
-                if (parsedQuery.hasHymnalFilter) {
+                final parsedQuery = SearchQueryParser.parseSync(provider.searchQuery);
+                if (parsedQuery != null && parsedQuery.hasHymnalFilter) {
                   return _buildHymnalFilters(parsedQuery);
                 }
               }
@@ -692,10 +703,10 @@ class _SearchScreenState extends State<SearchScreen> {
 
   void _clearHymnalFilter() {
     final provider = Provider.of<HymnProvider>(context, listen: false);
-    final parsedQuery = SearchQueryParser.parse(provider.searchQuery);
+    final parsedQuery = SearchQueryParser.parseSync(provider.searchQuery);
     
     // If there's search text without hymnal filter, keep just the search text
-    if (parsedQuery.searchText.isNotEmpty) {
+    if (parsedQuery != null && parsedQuery.searchText.isNotEmpty) {
       _searchController.text = parsedQuery.searchText;
       _performSearch(parsedQuery.searchText);
     } else {
@@ -715,7 +726,7 @@ class _SearchScreenState extends State<SearchScreen> {
           final collectionId = provider.selectedCollections[index];
           final collection = provider.availableCollections.firstWhere(
             (c) => c['id'] == collectionId,
-            orElse: () => {'name': collectionId, 'abbreviation': collectionId},
+            orElse: () => <String, dynamic>{'name': collectionId, 'abbreviation': collectionId},
           );
           
           return Container(

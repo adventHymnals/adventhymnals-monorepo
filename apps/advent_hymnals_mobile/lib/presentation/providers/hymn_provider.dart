@@ -63,6 +63,21 @@ class HymnProvider extends ChangeNotifier {
   // Load available collections for filtering
   Future<void> loadAvailableCollections() async {
     try {
+      // First try to load from database
+      final dbCollections = await _db.getCollections();
+      if (dbCollections.isNotEmpty) {
+        _availableCollections = dbCollections.map((collection) => {
+          'id': collection['abbreviation'], // Use abbreviation as ID for consistency
+          'name': collection['name'],
+          'abbreviation': collection['abbreviation'],
+          'language': collection['language'] ?? 'en',
+          'language_name': _getLanguageName(collection['language'] ?? 'en'),
+        }).toList();
+        notifyListeners();
+        return;
+      }
+      
+      // Fallback to collections data manager
       final collectionsDataManager = CollectionsDataManager();
       final collections = await collectionsDataManager.getCollectionsList();
       
@@ -114,7 +129,7 @@ class HymnProvider extends ChangeNotifier {
     
     try {
       // Parse the search query to extract hymnal filter and search text
-      final parsedQuery = SearchQueryParser.parse(query);
+      final parsedQuery = await SearchQueryParser.parse(query);
       print('🔍 [HymnProvider] Parsed query: $parsedQuery');
       
       List<Hymn> results = [];
