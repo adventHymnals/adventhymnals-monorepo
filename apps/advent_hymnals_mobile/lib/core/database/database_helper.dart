@@ -306,16 +306,11 @@ class DatabaseHelper {
     return await db.rawQuery('''
       SELECT h.*, a.name as author_name, c.name as collection_name, c.abbreviation as collection_abbr,
              CASE WHEN f.hymn_id IS NOT NULL THEN 1 ELSE 0 END as is_favorite,
-             CASE WHEN m.hymn_id IS NOT NULL THEN 1 ELSE 0 END as has_audio
+             0 as has_audio
       FROM hymns h
       LEFT JOIN authors a ON h.author_id = a.id
       LEFT JOIN collections c ON h.collection_id = c.id
       LEFT JOIN favorites f ON h.id = f.hymn_id AND f.user_id = 'default'
-      LEFT JOIN (
-        SELECT DISTINCT hymn_id 
-        FROM media_files 
-        WHERE type = 'audio'
-      ) m ON h.id = m.hymn_id
       WHERE h.title LIKE ? OR h.first_line LIKE ? OR a.name LIKE ? OR h.lyrics LIKE ?
       ORDER BY 
         CASE 
@@ -763,16 +758,11 @@ class DatabaseHelper {
       final result = await db.rawQuery('''
         SELECT h.*, a.name as author_name, c.name as collection_name, c.abbreviation as collection_abbr,
                CASE WHEN f.hymn_id IS NOT NULL THEN 1 ELSE 0 END as is_favorite,
-               CASE WHEN m.hymn_id IS NOT NULL THEN 1 ELSE 0 END as has_audio
+               0 as has_audio
         FROM hymns h
         LEFT JOIN authors a ON h.author_id = a.id
         LEFT JOIN collections c ON h.collection_id = c.id
         LEFT JOIN favorites f ON h.id = f.hymn_id AND f.user_id = 'default'
-        LEFT JOIN (
-          SELECT DISTINCT hymn_id 
-          FROM media_files 
-          WHERE type = 'audio'
-        ) m ON h.id = m.hymn_id
         WHERE h.collection_id = ? AND (
           h.title LIKE ? OR 
           a.name LIKE ? OR 

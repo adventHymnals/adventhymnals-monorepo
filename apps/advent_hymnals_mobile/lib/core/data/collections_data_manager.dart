@@ -145,6 +145,9 @@ class CollectionsDataManager {
       // Add the main abbreviation (e.g., "SDAH" -> "SDAH")
       abbreviations[abbreviation.toLowerCase()] = abbreviation;
       
+      // Add the full ID as an alternative (e.g., "cs1900" -> "CS1900")
+      abbreviations[id.toLowerCase()] = abbreviation;
+      
       // Add common short forms and variations
       switch (abbreviation) {
         case 'SDAH':
@@ -158,24 +161,28 @@ class CollectionsDataManager {
           break;
         case 'CS1900':
           abbreviations['cs'] = abbreviation;
+          abbreviations['christinsong'] = abbreviation;
           break;
         case 'HT1869':
         case 'HT1876':
         case 'HT1886':
           abbreviations['ht'] = abbreviation; // Will use the last one found
+          abbreviations['hymnstunes'] = abbreviation;
+          break;
+        case 'CM2000':
+          abbreviations['cm'] = abbreviation;
+          abbreviations['campus'] = abbreviation;
+          break;
+        case 'NZK':
+          abbreviations['nyimbo'] = abbreviation;
+          break;
+        case 'WN':
+          abbreviations['wende'] = abbreviation;
           break;
       }
-      
-      // Also add the full ID as an alternative (e.g., "cs1900" -> "CS1900")
-      abbreviations[id.toLowerCase()] = abbreviation;
     });
     
-    // Add some generic terms
-    abbreviations['hymns'] = 'HYMNS';
-    abbreviations['gospel'] = 'GOSPEL';
-    abbreviations['praise'] = 'PRAISE';
-    abbreviations['worship'] = 'WORSHIP';
-    abbreviations['songs'] = 'SONGS';
+    print('🔍 [CollectionsDataManager] Loaded ${abbreviations.length} abbreviations: ${abbreviations.keys.take(10).join(', ')}${abbreviations.length > 10 ? '...' : ''}');
     
     return abbreviations;
   }

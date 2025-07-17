@@ -12,6 +12,7 @@ class SearchQueryParser {
     }
     
     _cachedAbbreviations = await _collectionsManager.getHymnalAbbreviations();
+    print('🔍 [SearchQueryParser] Cached ${_cachedAbbreviations!.length} abbreviations');
     return _cachedAbbreviations!;
   }
 
@@ -49,6 +50,8 @@ class SearchQueryParser {
     
     // Check if first word is a hymnal abbreviation
     final hymnalAbbrev = hymnalAbbreviations[firstWord];
+    
+    print('🔍 [SearchQueryParser] Checking "$firstWord" against ${hymnalAbbreviations.length} abbreviations. Found: $hymnalAbbrev');
     
     if (hymnalAbbrev != null) {
       // Found hymnal abbreviation
@@ -126,6 +129,7 @@ class SearchQueryParser {
   static SearchQuery? parseSync(String query) {
     if (_cachedAbbreviations == null) {
       // No cached abbreviations available, return basic query
+      print('⚠️ [SearchQueryParser] parseSync called but no cached abbreviations available');
       return SearchQuery(
         originalQuery: query,
         searchText: query.trim(),
@@ -154,6 +158,8 @@ class SearchQueryParser {
 
     final firstWord = parts[0];
     final hymnalAbbrev = _cachedAbbreviations![firstWord];
+    
+    print('🔍 [SearchQueryParser] parseSync checking "$firstWord" against cached abbreviations. Found: $hymnalAbbrev');
     
     if (hymnalAbbrev != null) {
       // Found hymnal abbreviation
