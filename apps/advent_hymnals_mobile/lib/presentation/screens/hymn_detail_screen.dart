@@ -47,6 +47,7 @@ class HymnDetailScreen extends StatefulWidget {
 class _HymnDetailScreenState extends State<HymnDetailScreen> {
   String _selectedFormat = 'lyrics';
   bool _isFavorite = false;
+  late final FocusNode _focusNode;
   bool _isLoading = true;
   Hymn? _hymn;
   String? _errorMessage;
@@ -54,7 +55,20 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   @override
   void initState() {
     super.initState();
+    _focusNode = FocusNode();
     _loadHymnData();
+    // Request focus for keyboard navigation on desktop
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
+        _focusNode.requestFocus();
+      }
+    });
+  }
+
+  @override
+  void dispose() {
+    _focusNode.dispose();
+    super.dispose();
   }
 
   Future<void> _loadHymnData() async {
@@ -228,6 +242,79 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     } else {
       // Swipe left - go to next hymn
       _navigateToNextHymn();
+    }
+  }
+
+  void _handleKeyEvent(KeyEvent event) {
+    // Only handle key down events to avoid double triggers
+    if (event is! KeyDownEvent) return;
+    
+    // Desktop keyboard navigation
+    if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
+      switch (event.logicalKey) {
+        case LogicalKeyboardKey.arrowLeft:
+        case LogicalKeyboardKey.keyJ:
+          // Left arrow or J key = Previous hymn
+          _navigateToPreviousHymn();
+          break;
+        case LogicalKeyboardKey.arrowRight:
+        case LogicalKeyboardKey.keyK:
+          // Right arrow or K key = Next hymn
+          _navigateToNextHymn();
+          break;
+        case LogicalKeyboardKey.space:
+          // Spacebar = Play/Pause audio
+          _toggleAudioPlayback();
+          break;
+        case LogicalKeyboardKey.escape:
+          // Escape key = Go back
+          _navigateBack();
+          break;
+      }
+    }
+  }
+
+  void _toggleAudioPlayback() {
+    if (_hymn == null) return;
+    
+    final audioProvider = Provider.of<AudioPlayerProvider>(context, listen: false);
+    
+    if (audioProvider.currentHymn?.id == _hymn!.id && audioProvider.isPlaying) {
+      audioProvider.pause();
+    } else {
+      audioProvider.playHymn(_hymn!);
+    }
+  }
+
+  bool _canNavigateToNext() {
+    if (_hymn == null || widget.collectionId == null) return false;
+    
+    try {
+      final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
+      final allHymns = hymnProvider.hymns;
+      final collectionHymns = allHymns.where((h) => h.collectionAbbreviation == widget.collectionId).toList();
+      collectionHymns.sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
+      
+      final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
+      return currentIndex >= 0 && currentIndex < collectionHymns.length - 1;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  bool _canNavigateToPrevious() {
+    if (_hymn == null || widget.collectionId == null) return false;
+    
+    try {
+      final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
+      final allHymns = hymnProvider.hymns;
+      final collectionHymns = allHymns.where((h) => h.collectionAbbreviation == widget.collectionId).toList();
+      collectionHymns.sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
+      
+      final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
+      return currentIndex > 0;
+    } catch (e) {
+      return false;
     }
   }
 
@@ -428,6 +515,19 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 );
               },
             ),
+          // Desktop navigation buttons
+          if (Platform.isLinux || Platform.isWindows || Platform.isMacOS) ...[
+            IconButton(
+              icon: const Icon(Icons.skip_previous),
+              onPressed: _canNavigateToPrevious() ? _navigateToPreviousHymn : null,
+              tooltip: 'Previous Hymn (← or J)',
+            ),
+            IconButton(
+              icon: const Icon(Icons.skip_next),
+              onPressed: _canNavigateToNext() ? _navigateToNextHymn : null,
+              tooltip: 'Next Hymn (→ or K)',
+            ),
+          ],
           IconButton(
             icon: const Icon(Icons.share),
             onPressed: _shareHymn,
@@ -482,32 +582,36 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           ),
         ],
       ),
-      body: GestureDetector(
-        onHorizontalDragEnd: _handleHorizontalDragEnd,
-        child: SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // Format Selector
-              _buildFormatSelector(),
-              
-              // Content Section
-              _buildContent(),
-              
-              // Banner Ad
-              const BannerAdWidget(),
-              
-              // Metadata Section
-              _buildMetadata(),
-              
-              // Scripture References
-              if (_hymn!.scriptureRefs != null && _hymn!.scriptureRefs!.isNotEmpty) _buildScriptureReferences(),
-              
-              // Related Hymns
-              _buildRelatedHymns(),
-              
-              const SizedBox(height: AppSizes.spacing24),
-            ],
+      body: KeyboardListener(
+        focusNode: _focusNode,
+        onKeyEvent: _handleKeyEvent,
+        child: GestureDetector(
+          onHorizontalDragEnd: _handleHorizontalDragEnd,
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                // Format Selector
+                _buildFormatSelector(),
+                
+                // Content Section
+                _buildContent(),
+                
+                // Banner Ad
+                const BannerAdWidget(),
+                
+                // Metadata Section
+                _buildMetadata(),
+                
+                // Scripture References
+                if (_hymn!.scriptureRefs != null && _hymn!.scriptureRefs!.isNotEmpty) _buildScriptureReferences(),
+                
+                // Related Hymns
+                _buildRelatedHymns(),
+                
+                const SizedBox(height: AppSizes.spacing24),
+              ],
+            ),
           ),
         ),
       ),

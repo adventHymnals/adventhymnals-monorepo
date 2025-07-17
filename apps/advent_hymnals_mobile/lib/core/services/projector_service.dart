@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'projector_window_service.dart';
+import 'package:flutter/services.dart';
 
 class ProjectorService extends ChangeNotifier {
   static final ProjectorService _instance = ProjectorService._internal();
@@ -178,82 +178,45 @@ class ProjectorService extends ChangeNotifier {
     print('🎥 [ProjectorService] Opening secondary window on desktop platform');
     
     try {
-      final projectorWindowService = ProjectorWindowService.instance;
-      
-      // Initialize the service if needed
-      if (!projectorWindowService.isInitialized) {
-        await projectorWindowService.initialize();
-      }
-      
-      // Get available monitors
-      final monitors = await projectorWindowService.getAvailableMonitors();
-      print('🎥 [ProjectorService] Found ${monitors.length} monitors');
-      
-      // Try to open on secondary monitor if available, otherwise use primary
-      int targetMonitor = 0;
-      if (monitors.length > 1) {
-        // Find first non-primary monitor
-        for (int i = 0; i < monitors.length; i++) {
-          if (!monitors[i].isPrimary) {
-            targetMonitor = i;
-            break;
-          }
-        }
-      }
-      
-      // Open the secondary window
-      final success = await projectorWindowService.openSecondaryWindow(
-        monitorIndex: targetMonitor,
-        fullscreen: true,
-      );
-      
-      if (success) {
-        print('🎥 [ProjectorService] Secondary window opened successfully on monitor $targetMonitor');
-      } else {
-        print('❌ [ProjectorService] Failed to open secondary window');
+      if (_currentHymnId != null) {
+        // Build URL for projector window
+        final projectorUrl = 'http://localhost:${_getFlutterWebPort()}/projector-window?hymn=$_currentHymnId';
+        
+        // Copy URL to clipboard and show instructions
+        await Clipboard.setData(ClipboardData(text: projectorUrl));
+        print('🎥 [ProjectorService] Projector URL copied to clipboard: $projectorUrl');
+        
+        // Show instructions to user (this could be enhanced with a dialog in the UI)
+        print('📋 [ProjectorService] Instructions: URL copied to clipboard. Open a new browser window/tab and paste the URL to display the projector on a second screen.');
       }
     } catch (e) {
-      print('❌ [ProjectorService] Error opening secondary window: $e');
+      print('❌ [ProjectorService] Error preparing secondary window: $e');
     }
+  }
+
+  /// Get the Flutter web development port (default is 8080)
+  int _getFlutterWebPort() {
+    // For development, Flutter web typically runs on port 8080
+    // This could be made configurable in the future
+    return 8080;
   }
 
   /// Close secondary window for projector (desktop only)
   Future<void> _closeSecondaryWindow() async {
     try {
-      final projectorWindowService = ProjectorWindowService.instance;
-      
-      if (projectorWindowService.isSecondaryWindowOpen) {
-        final success = await projectorWindowService.closeSecondaryWindow();
-        if (success) {
-          print('🎥 [ProjectorService] Secondary window closed successfully');
-        } else {
-          print('❌ [ProjectorService] Failed to close secondary window');
-        }
-      }
+      print('🎥 [ProjectorService] Projector mode stopped. Close the browser window/tab manually if needed.');
     } catch (e) {
-      print('❌ [ProjectorService] Error closing secondary window: $e');
+      print('❌ [ProjectorService] Error in close secondary window: $e');
     }
   }
 
   /// Update content in secondary window
   Future<void> _updateSecondaryWindowContent() async {
     try {
-      final projectorWindowService = ProjectorWindowService.instance;
-      
-      if (projectorWindowService.isSecondaryWindowOpen && _currentHymnId != null) {
-        final content = {
-          'hymnId': _currentHymnId,
-          'verseIndex': _currentVerseIndex,
-          'theme': _theme.toString(),
-          'textSize': _textSize.toString(),
-          'showVerseNumbers': _showVerseNumbers,
-          'showHymnNumber': _showHymnNumber,
-          'showTitle': _showTitle,
-          'showMetadata': _showMetadata,
-        };
-        
-        await projectorWindowService.updateContent(content);
-      }
+      // The projector window automatically updates via Provider/ChangeNotifier
+      // No need for manual content updates since the ProjectorWindowScreen
+      // listens to ProjectorService changes
+      print('🎥 [ProjectorService] Content updated - projector window will auto-refresh');
     } catch (e) {
       print('❌ [ProjectorService] Error updating secondary window content: $e');
     }

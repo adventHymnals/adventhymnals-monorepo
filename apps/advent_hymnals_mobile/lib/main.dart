@@ -37,6 +37,7 @@ import 'presentation/screens/settings_screen.dart';
 import 'presentation/screens/downloads_screen.dart';
 import 'presentation/screens/collection_detail_screen.dart';
 import 'presentation/screens/projector_screen.dart';
+import 'presentation/screens/projector_window_screen.dart';
 import 'presentation/screens/player_screen.dart';
 import 'presentation/widgets/main_navigation.dart';
 import 'core/services/windows_debug_service.dart';
@@ -277,6 +278,15 @@ final GoRouter _router = GoRouter(
     GoRoute(
       path: '/player',
       builder: (context, state) => const PlayerScreen(),
+    ),
+    GoRoute(
+      path: '/projector-window',
+      builder: (context, state) {
+        final hymnId = state.uri.queryParameters['hymn'];
+        return ProjectorWindowScreen(
+          hymnId: hymnId != null ? int.tryParse(hymnId) : null,
+        );
+      },
     ),
   ],
 );// Debug trigger Wed, Jul 16, 2025 10:37:02 AM
