@@ -208,19 +208,6 @@ final GoRouter _router = GoRouter(
           },
         ),
         
-        GoRoute(
-          path: '/hymn/:id',
-          builder: (context, state) {
-            final hymnId = int.tryParse(state.pathParameters['id'] ?? '0') ?? 0;
-            final collectionId = state.uri.queryParameters['collection'];
-            final fromSource = state.uri.queryParameters['from'];
-            return HymnDetailScreen(
-              hymnId: hymnId,
-              collectionId: collectionId,
-              fromSource: fromSource,
-            );
-          },
-        ),
         
         GoRoute(
           path: '/browse/collections',
@@ -265,6 +252,20 @@ final GoRouter _router = GoRouter(
     GoRoute(
       path: '/browse/first-lines',
       builder: (context, state) => const FirstLinesBrowseScreen(),
+    ),
+    
+    GoRoute(
+      path: '/hymn/:id',
+      builder: (context, state) {
+        final hymnId = int.tryParse(state.pathParameters['id'] ?? '0') ?? 0;
+        final collectionId = state.uri.queryParameters['collection'];
+        final fromSource = state.uri.queryParameters['from'];
+        return HymnDetailScreen(
+          hymnId: hymnId,
+          collectionId: collectionId,
+          fromSource: fromSource,
+        );
+      },
     ),
     
     GoRoute(

@@ -756,15 +756,20 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     // Check if hymn has chorus sections to determine layout
     final hasChorus = _hymn != null && _hymn!.lyrics != null && _hasChorusSections(_hymn!.lyrics!);
     
-    // Use full width for hymns without choruses
+    // Use full width card for hymns without choruses
     if (!hasChorus && _selectedFormat == 'lyrics') {
       return Padding(
-        padding: const EdgeInsets.symmetric(horizontal: AppSizes.spacing16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            _buildLyricsContent(),
-          ],
+        padding: const EdgeInsets.all(AppSizes.spacing16),
+        child: Card(
+          child: Padding(
+            padding: const EdgeInsets.all(AppSizes.spacing20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                _buildLyricsContent(),
+              ],
+            ),
+          ),
         ),
       );
     }
