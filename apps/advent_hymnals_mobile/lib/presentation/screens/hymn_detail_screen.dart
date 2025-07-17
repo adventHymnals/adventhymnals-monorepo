@@ -482,6 +482,79 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     );
   }
 
+  Future<List<Map<String, dynamic>>> _getRelatedHymns() async {
+    if (_hymn == null) return [];
+    
+    try {
+      final db = DatabaseHelper.instance;
+      
+      // Get topics for current hymn
+      final topics = await db.database.then((database) => database.rawQuery('''
+        SELECT t.id, t.name 
+        FROM topics t
+        INNER JOIN hymn_topics ht ON t.id = ht.topic_id
+        WHERE ht.hymn_id = ?
+        LIMIT 3
+      ''', [_hymn!.id]));
+      
+      if (topics.isEmpty) {
+        // If no topics, try to find hymns by same author
+        return await _getHymnsByAuthor();
+      }
+      
+      // Get hymns that share topics with current hymn
+      List<Map<String, dynamic>> relatedHymns = [];
+      
+      for (final topic in topics) {
+        final topicId = topic['id'];
+        final hymnsByTopic = await db.database.then((database) => database.rawQuery('''
+          SELECT h.id, h.hymn_number, h.title, h.author_name, c.name as collection_name
+          FROM hymns h
+          LEFT JOIN collections c ON h.collection_id = c.id
+          INNER JOIN hymn_topics ht ON h.id = ht.hymn_id
+          WHERE ht.topic_id = ? AND h.id != ?
+          ORDER BY h.title ASC
+          LIMIT 5
+        ''', [topicId, _hymn!.id]));
+        
+        relatedHymns.addAll(hymnsByTopic);
+      }
+      
+      // Remove duplicates and limit to 5
+      final uniqueHymns = <int, Map<String, dynamic>>{};
+      for (final hymn in relatedHymns) {
+        uniqueHymns[hymn['id']] = hymn;
+      }
+      
+      return uniqueHymns.values.take(5).toList();
+      
+    } catch (e) {
+      print('Error fetching related hymns: $e');
+      return [];
+    }
+  }
+
+  Future<List<Map<String, dynamic>>> _getHymnsByAuthor() async {
+    if (_hymn == null || _hymn!.author == null) return [];
+    
+    try {
+      final db = DatabaseHelper.instance;
+      
+      return await db.database.then((database) => database.rawQuery('''
+        SELECT h.id, h.hymn_number, h.title, h.author_name, c.name as collection_name
+        FROM hymns h
+        LEFT JOIN collections c ON h.collection_id = c.id
+        WHERE h.author_name = ? AND h.id != ?
+        ORDER BY h.title ASC
+        LIMIT 5
+      ''', [_hymn!.author, _hymn!.id]));
+      
+    } catch (e) {
+      print('Error fetching hymns by author: $e');
+      return [];
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     // Show loading state
@@ -491,6 +564,14 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           title: const Text('Loading...'),
           elevation: 0,
           leading: _buildBackButton(),
+          actions: [
+            // Home button
+            IconButton(
+              icon: const Icon(Icons.home),
+              onPressed: () => context.go('/home'),
+              tooltip: 'Go to Home',
+            ),
+          ],
         ),
         body: const Center(
           child: CircularProgressIndicator(),
@@ -505,6 +586,14 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           title: const Text('Error'),
           elevation: 0,
           leading: _buildBackButton(),
+          actions: [
+            // Home button
+            IconButton(
+              icon: const Icon(Icons.home),
+              onPressed: () => context.go('/home'),
+              tooltip: 'Go to Home',
+            ),
+          ],
         ),
         body: Center(
           child: Column(
@@ -534,6 +623,12 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         foregroundColor: Theme.of(context).appBarTheme.foregroundColor,
         leading: _buildBackButton(),
         actions: [
+          // Home button
+          IconButton(
+            icon: const Icon(Icons.home),
+            onPressed: () => context.go('/home'),
+            tooltip: 'Go to Home',
+          ),
           IconButton(
             icon: Icon(_isFavorite ? Icons.favorite : Icons.favorite_border),
             onPressed: _toggleFavorite,
@@ -1263,10 +1358,48 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 ),
               ),
               const SizedBox(height: AppSizes.spacing12),
-              // Sample related hymns
-              _buildRelatedHymnItem('Great Is Thy Faithfulness', 'Thomas Chisholm', 18),
-              _buildRelatedHymnItem('How Great Thou Art', 'Carl Boberg', 86),
-              _buildRelatedHymnItem('Blessed Assurance', 'Fanny J. Crosby', 462),
+              // Load related hymns from database
+              FutureBuilder<List<Map<String, dynamic>>>(
+                future: _getRelatedHymns(),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const Center(
+                      child: Padding(
+                        padding: EdgeInsets.all(AppSizes.spacing16),
+                        child: CircularProgressIndicator(),
+                      ),
+                    );
+                  }
+                  
+                  if (snapshot.hasError) {
+                    return Text(
+                      'Error loading related hymns',
+                      style: TextStyle(color: Colors.grey[600]),
+                    );
+                  }
+                  
+                  final relatedHymns = snapshot.data ?? [];
+                  
+                  if (relatedHymns.isEmpty) {
+                    return Text(
+                      'No related hymns found',
+                      style: TextStyle(color: Colors.grey[600]),
+                    );
+                  }
+                  
+                  return Column(
+                    children: relatedHymns.map((hymn) {
+                      return _buildRelatedHymnItem(
+                        hymn['title'] ?? 'Unknown Title',
+                        hymn['author_name'] ?? 'Unknown Author',
+                        hymn['hymn_number'] ?? 0,
+                        hymn['id'] ?? 0,
+                        hymn['collection_name'] ?? '',
+                      );
+                    }).toList(),
+                  );
+                },
+              ),
             ],
           ),
         ),
@@ -1274,11 +1407,11 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     );
   }
 
-  Widget _buildRelatedHymnItem(String title, String author, int number) {
+  Widget _buildRelatedHymnItem(String title, String author, int number, int hymnId, String collectionName) {
     return InkWell(
       onTap: () {
-        // Navigate to related hymn
-        context.push('/hymn/$number');
+        // Navigate to related hymn with proper context
+        context.push('/hymn/$hymnId?from=related');
       },
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: AppSizes.spacing8),

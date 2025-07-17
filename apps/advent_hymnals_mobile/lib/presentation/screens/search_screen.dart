@@ -7,6 +7,7 @@ import '../../domain/entities/hymn.dart';
 import '../widgets/banner_ad_widget.dart';
 import '../../core/utils/search_query_parser.dart';
 import '../../core/models/search_query.dart';
+import '../../core/database/database_helper.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});
@@ -288,17 +289,8 @@ class _SearchScreenState extends State<SearchScreen> {
           
           const SizedBox(height: AppSizes.spacing24),
           
-          // Search by Category
-          _buildSuggestionSection(
-            title: 'Search by Category',
-            suggestions: [
-              'Praise and Worship',
-              'Christmas',
-              'Easter',
-              'Communion',
-              'Baptism',
-            ],
-          ),
+          // Search by Category (Real Topics from Database)
+          _buildTopicSuggestionSection(),
           
           const SizedBox(height: AppSizes.spacing24),
           
@@ -976,5 +968,82 @@ class _SearchScreenState extends State<SearchScreen> {
         );
       },
     );
+  }
+
+  Widget _buildTopicSuggestionSection() {
+    return FutureBuilder<List<Map<String, dynamic>>>(
+      future: _getTopicsFromDatabase(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Center(
+            child: Padding(
+              padding: EdgeInsets.all(AppSizes.spacing16),
+              child: CircularProgressIndicator(),
+            ),
+          );
+        }
+        
+        if (snapshot.hasError) {
+          // Fallback to default categories if database fails
+          return _buildSuggestionSection(
+            title: 'Search by Category',
+            suggestions: [
+              'Praise and Worship',
+              'Christmas',
+              'Easter',
+              'Communion',
+              'Baptism',
+            ],
+          );
+        }
+        
+        final topics = snapshot.data ?? [];
+        
+        if (topics.isEmpty) {
+          // Fallback to default categories if no topics in database
+          return _buildSuggestionSection(
+            title: 'Search by Category',
+            suggestions: [
+              'Praise and Worship',
+              'Christmas',
+              'Easter',
+              'Communion',
+              'Baptism',
+            ],
+          );
+        }
+        
+        // Use real topics from database
+        final topicNames = topics.map((topic) => topic['name'] as String).toList();
+        
+        return _buildSuggestionSection(
+          title: 'Search by Category',
+          suggestions: topicNames,
+        );
+      },
+    );
+  }
+
+  Future<List<Map<String, dynamic>>> _getTopicsFromDatabase() async {
+    try {
+      final db = DatabaseHelper.instance;
+      
+      // Get topics with hymn counts
+      final topics = await db.database.then((database) => database.rawQuery('''
+        SELECT t.id, t.name, t.category, COUNT(ht.hymn_id) as hymn_count
+        FROM topics t
+        LEFT JOIN hymn_topics ht ON t.id = ht.topic_id
+        GROUP BY t.id, t.name, t.category
+        HAVING hymn_count > 0
+        ORDER BY hymn_count DESC, t.name ASC
+        LIMIT 10
+      '''));
+      
+      return topics;
+      
+    } catch (e) {
+      print('Error fetching topics from database: $e');
+      return [];
+    }
   }
 }
