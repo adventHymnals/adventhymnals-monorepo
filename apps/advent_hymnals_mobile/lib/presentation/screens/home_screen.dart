@@ -39,6 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
   // SharedPreferences keys
   static const String _sortOptionKey = 'collection_sort_option';
   static const String _sortAscendingKey = 'collection_sort_ascending';
+  static const String _selectedLanguagesKey = 'collection_selected_languages';
   
   @override
   void initState() {
@@ -135,15 +136,17 @@ class _HomeScreenState extends State<HomeScreen> {
       final prefs = await SharedPreferences.getInstance();
       final sortOptionIndex = prefs.getInt(_sortOptionKey) ?? CollectionSortOption.year.index;
       final sortAscending = prefs.getBool(_sortAscendingKey) ?? false;
+      final selectedLanguages = prefs.getStringList(_selectedLanguagesKey) ?? [];
       
       setState(() {
         _sortOption = CollectionSortOption.values[sortOptionIndex];
         _sortAscending = sortAscending;
+        _selectedLanguages = selectedLanguages;
       });
       
-      print('🔄 [HomeScreen] Loaded sort preferences: ${_sortOption.name}, ascending: $_sortAscending');
+      print('🔄 [HomeScreen] Loaded preferences: sort=${_sortOption.name}, ascending=$_sortAscending, languages=$_selectedLanguages');
     } catch (e) {
-      print('❌ [HomeScreen] Error loading sort preferences: $e');
+      print('❌ [HomeScreen] Error loading preferences: $e');
     }
   }
 
@@ -152,10 +155,11 @@ class _HomeScreenState extends State<HomeScreen> {
       final prefs = await SharedPreferences.getInstance();
       await prefs.setInt(_sortOptionKey, _sortOption.index);
       await prefs.setBool(_sortAscendingKey, _sortAscending);
+      await prefs.setStringList(_selectedLanguagesKey, _selectedLanguages);
       
-      print('💾 [HomeScreen] Saved sort preferences: ${_sortOption.name}, ascending: $_sortAscending');
+      print('💾 [HomeScreen] Saved preferences: sort=${_sortOption.name}, ascending=$_sortAscending, languages=$_selectedLanguages');
     } catch (e) {
-      print('❌ [HomeScreen] Error saving sort preferences: $e');
+      print('❌ [HomeScreen] Error saving preferences: $e');
     }
   }
 
@@ -1014,6 +1018,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   _showAudioOnly = tempShowAudioOnly;
                   _showFavoritesOnly = tempShowFavoritesOnly;
                 });
+                
+                // Save preferences including language filters
+                _saveSortPreferences();
+                
                 Navigator.pop(context);
                 
                 // Show confirmation with language display names instead of codes
