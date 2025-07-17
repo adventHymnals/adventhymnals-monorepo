@@ -1499,32 +1499,79 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   Widget _buildBackButton() {
     return IconButton(
       icon: const Icon(Icons.arrow_back),
-      onPressed: () {
-        try {
-          // Always navigate to home screen as per requirements
-          context.go('/home');
-        } catch (e) {
-          // Error handling for navigation failures
-          print('❌ [HymnDetail] Navigation error: $e');
-          // Fallback to Navigator.pop if context.go fails
-          if (Navigator.of(context).canPop()) {
-            Navigator.of(context).pop();
-          }
-        }
-      },
-      tooltip: 'Back to Home',
+      onPressed: () => _navigateBack(),
+      tooltip: _getBackButtonTooltip(),
     );
   }
 
-  void _defaultBackNavigation() {
+  String _getBackButtonTooltip() {
+    switch (widget.fromSource) {
+      case 'favorites':
+        return 'Back to Favorites';
+      case 'recent':
+        return 'Back to Recently Viewed';
+      case 'search':
+        return 'Back to Search';
+      case 'collection':
+        return 'Back to Collection';
+      case 'browse':
+        return 'Back to Browse';
+      case 'home':
+      default:
+        return 'Back to Home';
+    }
+  }
+
+  void _navigateBack() {
     try {
-      context.go('/home');
+      // Navigate based on source context
+      if (widget.fromSource != null) {
+        switch (widget.fromSource) {
+          case 'favorites':
+            context.go('/favorites');
+            break;
+          case 'recent':
+            context.go('/recently-viewed');
+            break;
+          case 'search':
+            context.go('/search');
+            break;
+          case 'collection':
+            if (widget.collectionId != null) {
+              context.go('/collection/${widget.collectionId}');
+            } else {
+              context.go('/browse/collections');
+            }
+            break;
+          case 'browse':
+            context.go('/browse');
+            break;
+          case 'home':
+          default:
+            context.go('/home');
+            break;
+        }
+      } else {
+        // Fallback to standard back navigation or home
+        if (Navigator.of(context).canPop()) {
+          Navigator.of(context).pop();
+        } else {
+          context.go('/home');
+        }
+      }
     } catch (e) {
       print('❌ [HymnDetail] Navigation error: $e');
+      // Fallback navigation
       if (Navigator.of(context).canPop()) {
         Navigator.of(context).pop();
+      } else {
+        context.go('/home');
       }
     }
+  }
+
+  void _defaultBackNavigation() {
+    _navigateBack();
   }
 
   String _getBackTooltip() {

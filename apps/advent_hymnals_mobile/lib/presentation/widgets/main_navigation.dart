@@ -143,7 +143,8 @@ class _MainNavigationState extends State<MainNavigation> {
       padding: const EdgeInsets.all(4),
       decoration: BoxDecoration(
         color: isActive 
-            ? const Color(AppColors.secondaryBlue).withOpacity(0.1)
+            ? (Theme.of(context).bottomNavigationBarTheme.selectedItemColor ?? 
+               Theme.of(context).primaryColor).withOpacity(0.1)
             : Colors.transparent,
         borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
       ),
@@ -151,8 +152,8 @@ class _MainNavigationState extends State<MainNavigation> {
         icon,
         size: AppSizes.iconSize,
         color: isActive 
-            ? const Color(AppColors.secondaryBlue)
-            : const Color(AppColors.gray500),
+            ? Theme.of(context).bottomNavigationBarTheme.selectedItemColor
+            : Theme.of(context).bottomNavigationBarTheme.unselectedItemColor,
       ),
     );
   }

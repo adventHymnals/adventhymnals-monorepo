@@ -147,6 +147,17 @@ class MiniAudioPlayer extends StatelessWidget {
                         iconSize: 24,
                       ),
                       
+                      // Full screen player button
+                      IconButton(
+                        onPressed: () => context.push('/player'),
+                        icon: Icon(
+                          Icons.fullscreen,
+                          color: Colors.grey[600],
+                        ),
+                        iconSize: 20,
+                        tooltip: 'Full Player',
+                      ),
+                      
                       // Close button
                       IconButton(
                         onPressed: () => audioProvider.stop(),

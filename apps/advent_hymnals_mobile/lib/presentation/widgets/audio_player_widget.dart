@@ -121,6 +121,20 @@ class AudioPlayerWidget extends StatelessWidget {
               color: Colors.white,
             ),
           ),
+          
+          // Close button
+          IconButton(
+            onPressed: () {
+              audioProvider.stop();
+              audioProvider.clearPlaylist();
+            },
+            icon: const Icon(
+              Icons.close,
+              color: Colors.white,
+              size: 20,
+            ),
+            tooltip: 'Close Player',
+          ),
         ],
       ),
     );
@@ -132,7 +146,7 @@ class AudioPlayerWidget extends StatelessWidget {
         padding: const EdgeInsets.all(AppSizes.spacing20),
         child: Column(
           children: [
-            // Header with minimize button
+            // Header with minimize and close buttons
             Row(
               children: [
                 IconButton(
@@ -159,6 +173,17 @@ class AudioPlayerWidget extends StatelessWidget {
                     Icons.queue_music,
                     color: Colors.white,
                   ),
+                ),
+                IconButton(
+                  onPressed: () {
+                    audioProvider.stop();
+                    audioProvider.clearPlaylist();
+                  },
+                  icon: const Icon(
+                    Icons.close,
+                    color: Colors.white,
+                  ),
+                  tooltip: 'Close Player',
                 ),
               ],
             ),

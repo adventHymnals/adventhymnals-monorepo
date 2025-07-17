@@ -124,8 +124,8 @@ class BrowseHubScreen extends StatelessWidget {
     return GridView.builder(
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: _getResponsiveColumnCount(context),
         crossAxisSpacing: AppSizes.spacing12,
         mainAxisSpacing: AppSizes.spacing12,
         childAspectRatio: 1.1,
@@ -136,6 +136,25 @@ class BrowseHubScreen extends StatelessWidget {
         return _buildBrowseCard(context, item);
       },
     );
+  }
+
+  int _getResponsiveColumnCount(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+    
+    // Responsive breakpoints for column count
+    if (screenWidth >= 1200) {
+      // Desktop: 4 columns
+      return 4;
+    } else if (screenWidth >= 800) {
+      // Large tablet: 3 columns
+      return 3;
+    } else if (screenWidth >= 600) {
+      // Small tablet: 3 columns
+      return 3;
+    } else {
+      // Mobile: 2 columns
+      return 2;
+    }
   }
 
   Widget _buildBrowseCard(BuildContext context, BrowseItem item) {

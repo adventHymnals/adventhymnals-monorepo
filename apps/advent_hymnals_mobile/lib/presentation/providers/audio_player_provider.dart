@@ -395,6 +395,7 @@ class AudioPlayerProvider extends ChangeNotifier {
   void clearPlaylist() {
     _playlist.clear();
     _currentIndex = 0;
+    _currentHymn = null;
     stop();
     notifyListeners();
   }
@@ -462,16 +463,15 @@ class AudioPlayerProvider extends ChangeNotifier {
   }
 
   String _getAudioUrl(Hymn hymn) {
-    // For demo purposes, return a sample audio URL
-    // In a real app, this would be based on the hymn's actual audio file
-    switch (hymn.id) {
-      case 1:
-        return 'https://www.soundjay.com/misc/sounds/bell-ringing-05.wav';
-      case 2:
-        return 'https://www.soundjay.com/misc/sounds/bell-ringing-04.wav';
-      default:
-        return 'https://www.soundjay.com/misc/sounds/bell-ringing-03.wav';
-    }
+    // Get the hymnal ID from the hymn's collection abbreviation
+    final hymnalId = hymn.collectionAbbreviation ?? 'CH1941'; // Default to Church Hymnal
+    
+    // Get hymn number
+    final hymnNumber = hymn.hymnNumber.toString();
+    
+    // Construct the CDN URL for the audio file
+    // Default to MP3 format as it's more widely supported
+    return 'https://media.adventhymnals.org/audio/$hymnalId/$hymnNumber.mp3';
   }
 
   String _formatDuration(Duration duration) {
