@@ -28,7 +28,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   List<CollectionInfo> _collections = [];
-  List<String> _selectedLanguages = ['en']; // Default to English only
+  List<String> _selectedLanguages = []; // No default selection - show all languages
   bool _showAudioOnly = false;
   bool _showFavoritesOnly = false;
   
@@ -79,16 +79,30 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<List<Map<String, dynamic>>> _getAvailableLanguages() async {
     try {
-      final db = DatabaseHelper.instance;
+      // Get languages from the collections data manager instead of database
+      // This ensures consistency with the actual collection data displayed
+      final collectionsDataManager = CollectionsDataManager();
+      final collections = await collectionsDataManager.getCollectionsList(sortByYear: false);
       
-      // Get distinct languages from collections
-      final languages = await db.database.then((database) => database.rawQuery('''
-        SELECT DISTINCT language, COUNT(*) as collection_count
-        FROM collections
-        WHERE language IS NOT NULL
-        GROUP BY language
-        ORDER BY collection_count DESC, language ASC
-      '''));
+      // Group collections by language and count them
+      final languageMap = <String, int>{};
+      for (final collection in collections) {
+        final languageCode = _getLanguageCode(collection.language);
+        languageMap[languageCode] = (languageMap[languageCode] ?? 0) + 1;
+      }
+      
+      // Convert to the expected format
+      final languages = languageMap.entries.map((entry) => {
+        'language': entry.key,
+        'collection_count': entry.value,
+      }).toList();
+      
+      // Sort by collection count (descending) then by language code
+      languages.sort((a, b) {
+        final countCompare = (b['collection_count'] as int).compareTo(a['collection_count'] as int);
+        if (countCompare != 0) return countCompare;
+        return (a['language'] as String).compareTo(b['language'] as String);
+      });
       
       return languages;
       
@@ -663,10 +677,12 @@ class _HomeScreenState extends State<HomeScreen> {
     final filteredCollections = <Widget>[];
     
     for (final collection in _collections) {
-      // Apply language filter
-      final languageCode = _getLanguageCode(collection.language);
-      if (_selectedLanguages.isNotEmpty && !_selectedLanguages.contains(languageCode)) {
-        continue;
+      // Apply language filter - if no languages selected, show all
+      if (_selectedLanguages.isNotEmpty) {
+        final languageCode = _getLanguageCode(collection.language);
+        if (!_selectedLanguages.contains(languageCode)) {
+          continue;
+        }
       }
       
       // Apply audio filter (mock - would check real audio availability)
@@ -1001,9 +1017,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 Navigator.pop(context);
                 
                 // Show confirmation
+                final languageNames = tempSelectedLanguages.map((code) => _getLanguageDisplayName(code)).toList();
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
-                    content: Text('Filters applied: ${tempSelectedLanguages.isEmpty ? 'All languages' : tempSelectedLanguages.join(', ')}'),
+                    content: Text('Filters applied: ${languageNames.isEmpty ? 'All languages' : languageNames.join(', ')}'),
                     duration: const Duration(seconds: 2),
                   ),
                 );
