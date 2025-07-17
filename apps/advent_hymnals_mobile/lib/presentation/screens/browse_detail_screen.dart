@@ -7,6 +7,7 @@ import '../widgets/banner_ad_widget.dart';
 
 enum BrowseCategory {
   authors,
+  composers,
   topics,
   meters,
   tunes,
@@ -63,6 +64,15 @@ class _BrowseDetailScreenState extends State<BrowseDetailScreen> {
             WHERE author_name IS NOT NULL AND author_name != ''
             GROUP BY author_name
             ORDER BY hymn_count DESC, author_name ASC
+          ''');
+          break;
+        case BrowseCategory.composers:
+          results = await database.rawQuery('''
+            SELECT composer as name, COUNT(*) as hymn_count
+            FROM hymns 
+            WHERE composer IS NOT NULL AND composer != ''
+            GROUP BY composer
+            ORDER BY hymn_count DESC, composer ASC
           ''');
           break;
         case BrowseCategory.topics:
@@ -136,6 +146,17 @@ class _BrowseDetailScreenState extends State<BrowseDetailScreen> {
             LEFT JOIN collections c ON h.collection_id = c.id
             LEFT JOIN favorites f ON h.id = f.hymn_id AND f.user_id = 'default'
             WHERE h.author_name = ?
+            ORDER BY h.title ASC
+          ''', [itemName]);
+          break;
+        case BrowseCategory.composers:
+          results = await database.rawQuery('''
+            SELECT h.*, c.name as collection_name, c.abbreviation as collection_abbr,
+                   CASE WHEN f.hymn_id IS NOT NULL THEN 1 ELSE 0 END as is_favorite
+            FROM hymns h
+            LEFT JOIN collections c ON h.collection_id = c.id
+            LEFT JOIN favorites f ON h.id = f.hymn_id AND f.user_id = 'default'
+            WHERE h.composer = ?
             ORDER BY h.title ASC
           ''', [itemName]);
           break;
@@ -249,6 +270,8 @@ class _BrowseDetailScreenState extends State<BrowseDetailScreen> {
     switch (widget.category) {
       case BrowseCategory.authors:
         return 'Authors';
+      case BrowseCategory.composers:
+        return 'Composers';
       case BrowseCategory.topics:
         return 'Topics';
       case BrowseCategory.meters:

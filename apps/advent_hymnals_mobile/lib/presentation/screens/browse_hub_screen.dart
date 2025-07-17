@@ -140,6 +140,13 @@ class _BrowseHubScreenState extends State<BrowseHubScreen> {
         route: '/browse/authors',
       ),
       const BrowseItem(
+        icon: Icons.music_note,
+        title: 'Composers',
+        subtitle: 'Find hymns by composer',
+        color: Color(AppColors.infoBlue),
+        route: '/browse/composers',
+      ),
+      const BrowseItem(
         icon: Icons.category,
         title: AppStrings.topicsTitle,
         subtitle: 'Browse by theme and topic',
@@ -147,7 +154,7 @@ class _BrowseHubScreenState extends State<BrowseHubScreen> {
         route: '/browse/topics',
       ),
       const BrowseItem(
-        icon: Icons.music_note,
+        icon: Icons.queue_music,
         title: AppStrings.tunesTitle,
         subtitle: 'Search by tune name',
         color: Color(AppColors.warningOrange),

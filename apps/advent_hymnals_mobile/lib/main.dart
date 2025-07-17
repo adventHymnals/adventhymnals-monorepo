@@ -232,6 +232,19 @@ final GoRouter _router = GoRouter(
     ),
     
     GoRoute(
+      path: '/browse/composers',
+      builder: (context, state) => const BrowseDetailScreen(category: BrowseCategory.composers),
+    ),
+    
+    GoRoute(
+      path: '/browse/composers/:composer',
+      builder: (context, state) {
+        final composer = Uri.decodeComponent(state.pathParameters['composer'] ?? '');
+        return BrowseDetailScreen(category: BrowseCategory.composers, selectedItem: composer);
+      },
+    ),
+    
+    GoRoute(
       path: '/browse/topics',
       builder: (context, state) => const BrowseDetailScreen(category: BrowseCategory.topics),
     ),

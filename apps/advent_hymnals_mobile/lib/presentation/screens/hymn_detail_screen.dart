@@ -1209,10 +1209,14 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               const SizedBox(height: AppSizes.spacing16),
               
               if (_hymn!.author != null && _hymn!.author!.isNotEmpty)
-                _buildMetadataItem('Author', _hymn!.author!, Icons.person),
+                _buildMetadataItem('Author', _hymn!.author!, Icons.person, onTap: () {
+                  context.push('/browse/authors/${Uri.encodeComponent(_hymn!.author!)}');
+                }),
               
               if (_hymn!.composer != null && _hymn!.composer!.isNotEmpty)
-                _buildMetadataItem('Composer', _hymn!.composer!, Icons.music_note),
+                _buildMetadataItem('Composer', _hymn!.composer!, Icons.music_note, onTap: () {
+                  context.push('/browse/composers/${Uri.encodeComponent(_hymn!.composer!)}');
+                }),
               
               if (_hymn!.tuneName != null && _hymn!.tuneName!.isNotEmpty)
                 _buildMetadataItem('Tune', _hymn!.tuneName!, Icons.queue_music, onTap: () {

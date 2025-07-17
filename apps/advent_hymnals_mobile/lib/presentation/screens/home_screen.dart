@@ -1016,7 +1016,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 });
                 Navigator.pop(context);
                 
-                // Show confirmation
+                // Show confirmation with language display names instead of codes
                 final languageNames = tempSelectedLanguages.map((code) => _getLanguageDisplayName(code)).toList();
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
