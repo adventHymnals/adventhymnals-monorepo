@@ -122,7 +122,13 @@ class Hymn {
       final verses = json['verses'] as List<dynamic>;
       final verseTexts = verses.map((verse) => verse['text'] as String).toList();
       
-      // Add refrain if present
+      // Add chorus if present
+      if (json['chorus'] != null) {
+        final chorus = json['chorus']['text'] as String;
+        verseTexts.add('\nChorus:\n$chorus');
+      }
+      
+      // Add refrain if present (legacy support)
       if (json['refrain'] != null) {
         final refrain = json['refrain']['text'] as String;
         verseTexts.add('\nRefrain:\n$refrain');

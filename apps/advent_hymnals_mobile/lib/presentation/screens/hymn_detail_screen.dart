@@ -753,6 +753,23 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 
   Widget _buildContent() {
+    // Check if hymn has chorus sections to determine layout
+    final hasChorus = _hymn != null && _hymn!.lyrics != null && _hasChorusSections(_hymn!.lyrics!);
+    
+    // Use full width for hymns without choruses
+    if (!hasChorus && _selectedFormat == 'lyrics') {
+      return Padding(
+        padding: const EdgeInsets.symmetric(horizontal: AppSizes.spacing16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            _buildLyricsContent(),
+          ],
+        ),
+      );
+    }
+    
+    // Default card layout for hymns with choruses or other formats
     return Padding(
       padding: const EdgeInsets.all(AppSizes.spacing16),
       child: Card(
@@ -1626,26 +1643,29 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       return 'verse';
     }
     
-    // Check for common chorus/refrain patterns (short sections with repeated words)
-    final lines = section.split('\n').map((l) => l.trim()).where((l) => l.isNotEmpty).toList();
-    if (lines.length <= 4) {
-      final words = section.toLowerCase().split(RegExp(r'\W+'));
-      final wordCounts = <String, int>{};
-      
-      for (final word in words) {
-        if (word.length > 2) {
-          wordCounts[word] = (wordCounts[word] ?? 0) + 1;
-        }
-      }
-      
-      final hasRepeatedWords = wordCounts.values.any((count) => count > 1);
-      if (hasRepeatedWords && lines.length <= 6) {
-        return 'chorus';
-      }
-    }
+    // Only detect chorus/refrain if explicitly labeled or in a hymn structure with multiple sections
+    // Don't auto-detect based on word repetition as that can incorrectly classify verses
     
     // Default to verse
     return 'verse';
+  }
+
+  bool _hasChorusSections(String lyrics) {
+    // Check if the lyrics contain explicit chorus/refrain section labels
+    // Look for labels at the beginning of lines, not just anywhere in the text
+    final lines = lyrics.toLowerCase().split('\n');
+    for (final line in lines) {
+      final trimmedLine = line.trim();
+      if (trimmedLine.startsWith('chorus') || 
+          trimmedLine.contains('chorus:') ||
+          trimmedLine.startsWith('refrain') ||
+          trimmedLine.contains('refrain:') ||
+          trimmedLine.startsWith('bridge') ||
+          trimmedLine.contains('bridge:')) {
+        return true;
+      }
+    }
+    return false;
   }
 
   String _cleanSectionContent(String section, String sectionType) {

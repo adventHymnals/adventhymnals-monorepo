@@ -39,9 +39,12 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   void _performSearch(String query) {
+    final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
     if (query.isNotEmpty) {
-      final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
       hymnProvider.searchHymns(query);
+    } else {
+      // When search is cleared, reset to initial state
+      hymnProvider.clearSearch();
     }
   }
 
@@ -49,6 +52,32 @@ class _SearchScreenState extends State<SearchScreen> {
     _searchController.clear();
     final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
     hymnProvider.clearSearch();
+  }
+
+  List<Hymn> _applySearchFilters(List<Hymn> results) {
+    if (_searchFilters.isEmpty) return results;
+    
+    return results.where((hymn) {
+      // Apply "favorites only" filter
+      if (_searchFilters.contains('favorites') && !hymn.isFavorite) {
+        return false;
+      }
+      
+      // Apply "hymns only" filter (exclude other types if we had them)
+      if (_searchFilters.contains('hymns')) {
+        // For now, all results are hymns, so this doesn't filter anything
+        // This could be extended if we had other content types
+      }
+      
+      // Apply "with audio" filter
+      if (_searchFilters.contains('audio')) {
+        // This would need to check if the hymn has audio files
+        // For now, we'll assume all hymns potentially have audio
+        // This could be extended with actual audio availability checking
+      }
+      
+      return true;
+    }).toList();
   }
 
   @override
@@ -139,7 +168,9 @@ class _SearchScreenState extends State<SearchScreen> {
                   return _buildEmptyResults();
                 }
                 
-                return _buildSearchResults(provider.searchResults);
+                // Apply local filters to search results
+                final filteredResults = _applySearchFilters(provider.searchResults);
+                return _buildSearchResults(filteredResults);
               },
             ),
           ),
@@ -151,20 +182,24 @@ class _SearchScreenState extends State<SearchScreen> {
   Widget _buildSearchBar() {
     return Container(
       padding: const EdgeInsets.all(AppSizes.spacing16),
-      child: TextField(
-        controller: _searchController,
-        focusNode: _searchFocusNode,
-        onChanged: _performSearch,
-        decoration: InputDecoration(
-          hintText: 'Search hymns, authors, or first lines...',
-          prefixIcon: const Icon(Icons.search),
-          suffixIcon: _searchController.text.isNotEmpty
-              ? IconButton(
-                  icon: const Icon(Icons.clear),
-                  onPressed: _clearSearch,
-                )
-              : null,
-        ),
+      child: Consumer<HymnProvider>(
+        builder: (context, provider, child) {
+          return TextField(
+            controller: _searchController,
+            focusNode: _searchFocusNode,
+            onChanged: _performSearch,
+            decoration: InputDecoration(
+              hintText: 'Search hymns, authors, or first lines...',
+              prefixIcon: const Icon(Icons.search),
+              suffixIcon: (_searchController.text.isNotEmpty || provider.searchQuery.isNotEmpty)
+                  ? IconButton(
+                      icon: const Icon(Icons.clear),
+                      onPressed: _clearSearch,
+                    )
+                  : null,
+            ),
+          );
+        },
       ),
     );
   }
@@ -362,7 +397,7 @@ class _SearchScreenState extends State<SearchScreen> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                '${results.length} result${results.length == 1 ? '' : 's'}',
+                '${results.length} result${results.length == 1 ? '' : 's'}${_searchFilters.isNotEmpty ? ' (filtered)' : ''}',
                 style: Theme.of(context).textTheme.titleMedium,
               ),
               Consumer<HymnProvider>(
@@ -439,16 +474,22 @@ class _SearchScreenState extends State<SearchScreen> {
             color: const Color(AppColors.primaryBlue).withOpacity(0.1),
             borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
           ),
-          child: Center(
-            child: Text(
-              hymn.collectionAbbreviation != null 
-                  ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
-                  : hymn.hymnNumber.toString(),
-              style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                color: const Color(AppColors.primaryBlue),
-                fontWeight: FontWeight.bold,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 4.0),
+            child: Align(
+              alignment: Alignment.centerRight,
+              child: Text(
+                hymn.collectionAbbreviation != null 
+                    ? '${hymn.collectionAbbreviation}\n${hymn.hymnNumber}'
+                    : hymn.hymnNumber.toString(),
+                style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                  color: const Color(AppColors.primaryBlue),
+                  fontWeight: FontWeight.bold,
+                  fontSize: 10,
+                ),
+                textAlign: TextAlign.right,
+                maxLines: 2,
               ),
-              textAlign: TextAlign.center,
             ),
           ),
         ),
@@ -912,6 +953,10 @@ class _SearchScreenState extends State<SearchScreen> {
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop();
+                // Re-run search with updated filters
+                if (_searchController.text.isNotEmpty) {
+                  _performSearch(_searchController.text);
+                }
                 setState(() {});
               },
               child: const Text('Apply'),
