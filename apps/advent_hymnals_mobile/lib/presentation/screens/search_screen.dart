@@ -114,16 +114,17 @@ class _SearchScreenState extends State<SearchScreen> {
           tooltip: 'Back to Home',
         ),
         actions: [
-          IconButton(
-            icon: const Icon(Icons.tune),
-            onPressed: () => _showCollectionFilterDialog(context),
-            tooltip: 'Filter Collections',
-          ),
-          IconButton(
-            icon: const Icon(Icons.filter_list),
-            onPressed: _showFilterDialog,
-            tooltip: 'Other Filters',
-          ),
+          // Temporarily disabled filter buttons
+          // IconButton(
+          //   icon: const Icon(Icons.tune),
+          //   onPressed: () => _showCollectionFilterDialog(context),
+          //   tooltip: 'Filter Collections',
+          // ),
+          // IconButton(
+          //   icon: const Icon(Icons.filter_list),
+          //   onPressed: _showFilterDialog,
+          //   tooltip: 'Other Filters',
+          // ),
         ],
       ),
       body: Column(
@@ -362,6 +363,9 @@ class _SearchScreenState extends State<SearchScreen> {
           _buildTipItem('Search by author: "Charles Wesley"'),
           _buildTipItem('Search by first line: "Amazing grace how sweet"'),
           _buildTipItem('Search by topic: "praise" or "Christmas"'),
+          const SizedBox(height: AppSizes.spacing12),
+          // Hymnal abbreviations from database
+          _buildHymnalAbbreviationsSection(),
         ],
       ),
     );
@@ -1043,6 +1047,98 @@ class _SearchScreenState extends State<SearchScreen> {
       
     } catch (e) {
       print('Error fetching topics from database: $e');
+      return [];
+    }
+  }
+
+  Widget _buildHymnalAbbreviationsSection() {
+    return FutureBuilder<List<Map<String, dynamic>>>(
+      future: _getHymnalAbbreviations(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const SizedBox(
+            height: 30,
+            child: Center(child: CircularProgressIndicator()),
+          );
+        }
+        
+        if (snapshot.hasError || !snapshot.hasData || snapshot.data!.isEmpty) {
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Hymnal Abbreviations:',
+                style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: AppSizes.spacing4),
+              _buildTipItem('Search in specific hymnal: "SDAH:123" or "CH:Holy"'),
+            ],
+          );
+        }
+        
+        final hymnals = snapshot.data!;
+        
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              'Hymnal Abbreviations:',
+              style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            const SizedBox(height: AppSizes.spacing8),
+            Wrap(
+              spacing: AppSizes.spacing8,
+              runSpacing: AppSizes.spacing4,
+              children: hymnals.map((hymnal) {
+                return Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: AppSizes.spacing8,
+                    vertical: AppSizes.spacing4,
+                  ),
+                  decoration: BoxDecoration(
+                    color: const Color(AppColors.primaryBlue).withOpacity(0.1),
+                    borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+                    border: Border.all(
+                      color: const Color(AppColors.primaryBlue).withOpacity(0.3),
+                    ),
+                  ),
+                  child: Text(
+                    hymnal['abbreviation'] ?? hymnal['name'],
+                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      color: const Color(AppColors.primaryBlue),
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                );
+              }).toList(),
+            ),
+            const SizedBox(height: AppSizes.spacing4),
+            _buildTipItem('Search in specific hymnal: "SDAH:123" or "CH:Holy"'),
+          ],
+        );
+      },
+    );
+  }
+
+  Future<List<Map<String, dynamic>>> _getHymnalAbbreviations() async {
+    try {
+      final db = DatabaseHelper.instance;
+      
+      // Get collections with their abbreviations
+      final collections = await db.database.then((database) => database.rawQuery('''
+        SELECT DISTINCT name, abbreviation
+        FROM collections
+        ORDER BY abbreviation ASC
+      '''));
+      
+      return collections;
+      
+    } catch (e) {
+      print('Error fetching hymnal abbreviations: $e');
       return [];
     }
   }

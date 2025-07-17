@@ -40,10 +40,16 @@ class AdMobService {
       return;
     }
     
-    await MobileAds.instance.initialize();
-    
-    if (kDebugMode) {
-      print('AdMob initialized with test ads');
+    try {
+      await MobileAds.instance.initialize();
+      
+      if (kDebugMode) {
+        print('AdMob initialized with test ads');
+      }
+    } catch (e) {
+      if (kDebugMode) {
+        print('AdMob initialization failed: $e');
+      }
     }
   }
 

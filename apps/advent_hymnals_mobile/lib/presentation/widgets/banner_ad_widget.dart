@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'dart:io' show Platform;
 import '../../core/services/admob_service.dart';
 
 class BannerAdWidget extends StatefulWidget {
@@ -28,34 +29,53 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
   }
 
   void _loadBannerAd() {
-    final adSize = widget.adSize ?? _adMobService.getBannerAdSize();
+    // Skip ad loading on non-mobile platforms
+    if (!Platform.isAndroid && !Platform.isIOS) {
+      return;
+    }
     
-    _bannerAd = _adMobService.createBannerAd(
-      adSize: adSize,
-      onAdLoaded: (ad) {
-        setState(() {
-          _isAdLoaded = true;
-        });
-      },
-      onAdFailedToLoad: (ad, error) {
-        print('Banner ad failed to load: $error');
-        ad.dispose();
-        setState(() {
-          _isAdLoaded = false;
-        });
-      },
-    );
+    try {
+      final adSize = widget.adSize ?? _adMobService.getBannerAdSize();
+      
+      _bannerAd = _adMobService.createBannerAd(
+        adSize: adSize,
+        onAdLoaded: (ad) {
+          if (mounted) {
+            setState(() {
+              _isAdLoaded = true;
+            });
+          }
+        },
+        onAdFailedToLoad: (ad, error) {
+          print('Banner ad failed to load: $error');
+          try {
+            ad.dispose();
+          } catch (e) {
+            print('Error disposing failed ad: $e');
+          }
+          if (mounted) {
+            setState(() {
+              _isAdLoaded = false;
+            });
+          }
+        },
+      );
 
-    _bannerAd?.load();
+      _bannerAd?.load();
+    } catch (e) {
+      print('Error creating banner ad: $e');
+    }
   }
 
   @override
   void dispose() {
-    try {
-      _bannerAd?.dispose();
-    } catch (e) {
-      // Safely handle any disposal errors
-      print('Warning: Error disposing banner ad: $e');
+    if (Platform.isAndroid || Platform.isIOS) {
+      try {
+        _bannerAd?.dispose();
+      } catch (e) {
+        // Safely handle any disposal errors
+        print('Warning: Error disposing banner ad: $e');
+      }
     }
     super.dispose();
   }
@@ -103,34 +123,53 @@ class _AdaptiveBannerAdWidgetState extends State<AdaptiveBannerAdWidget> {
   }
 
   void _loadAdaptiveBannerAd() async {
-    final adSize = await _adMobService.getAdaptiveBannerSize();
+    // Skip ad loading on non-mobile platforms
+    if (!Platform.isAndroid && !Platform.isIOS) {
+      return;
+    }
     
-    _bannerAd = _adMobService.createBannerAd(
-      adSize: adSize,
-      onAdLoaded: (ad) {
-        setState(() {
-          _isAdLoaded = true;
-        });
-      },
-      onAdFailedToLoad: (ad, error) {
-        print('Adaptive banner ad failed to load: $error');
-        ad.dispose();
-        setState(() {
-          _isAdLoaded = false;
-        });
-      },
-    );
+    try {
+      final adSize = await _adMobService.getAdaptiveBannerSize();
+      
+      _bannerAd = _adMobService.createBannerAd(
+        adSize: adSize,
+        onAdLoaded: (ad) {
+          if (mounted) {
+            setState(() {
+              _isAdLoaded = true;
+            });
+          }
+        },
+        onAdFailedToLoad: (ad, error) {
+          print('Adaptive banner ad failed to load: $error');
+          try {
+            ad.dispose();
+          } catch (e) {
+            print('Error disposing failed adaptive ad: $e');
+          }
+          if (mounted) {
+            setState(() {
+              _isAdLoaded = false;
+            });
+          }
+        },
+      );
 
-    _bannerAd?.load();
+      _bannerAd?.load();
+    } catch (e) {
+      print('Error creating adaptive banner ad: $e');
+    }
   }
 
   @override
   void dispose() {
-    try {
-      _bannerAd?.dispose();
-    } catch (e) {
-      // Safely handle any disposal errors
-      print('Warning: Error disposing banner ad: $e');
+    if (Platform.isAndroid || Platform.isIOS) {
+      try {
+        _bannerAd?.dispose();
+      } catch (e) {
+        // Safely handle any disposal errors
+        print('Warning: Error disposing banner ad: $e');
+      }
     }
     super.dispose();
   }

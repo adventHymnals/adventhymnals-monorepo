@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/data/collections_data_manager.dart';
 import '../../core/services/collection_sorting_service.dart';
+import '../../core/database/database_helper.dart';
 
 class CollectionsBrowseScreen extends StatefulWidget {
   const CollectionsBrowseScreen({super.key});
@@ -376,6 +377,37 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
     }
   }
 
+  Future<List<Map<String, dynamic>>> _getAvailableLanguages() async {
+    try {
+      final db = DatabaseHelper.instance;
+      
+      // Get distinct languages from collections
+      final languages = await db.database.then((database) => database.rawQuery('''
+        SELECT DISTINCT language, COUNT(*) as collection_count
+        FROM collections
+        WHERE language IS NOT NULL
+        GROUP BY language
+        ORDER BY collection_count DESC, language ASC
+      '''));
+      
+      return languages;
+      
+    } catch (e) {
+      print('Error fetching languages: $e');
+      // Fallback to collection-based languages
+      final uniqueLanguages = <String, int>{};
+      for (var collection in _collections) {
+        final langCode = _getLanguageCode(collection.language);
+        uniqueLanguages[langCode] = (uniqueLanguages[langCode] ?? 0) + 1;
+      }
+      
+      return uniqueLanguages.entries.map((entry) => {
+        'language': entry.key,
+        'collection_count': entry.value,
+      }).toList();
+    }
+  }
+
   void _showSortDialog() {
     showDialog(
       context: context,
@@ -444,7 +476,9 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
           onChanged: (value) {
             if (value != null) {
               _changeSortBy(value);
-              Navigator.pop(context);
+              if (Navigator.canPop(context)) {
+                Navigator.pop(context);
+              }
             }
           },
           dense: true,
@@ -479,24 +513,39 @@ class _CollectionsBrowseScreenState extends State<CollectionsBrowseScreen> {
                 Text('Languages:', style: Theme.of(context).textTheme.titleSmall),
                 const SizedBox(height: 8),
                 
-                // Get unique languages from collections
-                ...{
-                  for (var collection in _collections) 
-                    _getLanguageCode(collection.language)
-                }.map((langCode) => CheckboxListTile(
-                  title: Text(_getLanguageName(langCode)),
-                  value: tempSelectedLanguages.contains(langCode),
-                  onChanged: (value) {
-                    setState(() {
-                      if (value == true) {
-                        tempSelectedLanguages.add(langCode);
-                      } else {
-                        tempSelectedLanguages.remove(langCode);
-                      }
-                    });
+                // Dynamic language checkboxes from database
+                FutureBuilder<List<Map<String, dynamic>>>(
+                  future: _getAvailableLanguages(),
+                  builder: (context, snapshot) {
+                    if (snapshot.connectionState == ConnectionState.waiting) {
+                      return const Center(child: CircularProgressIndicator());
+                    }
+                    
+                    final languages = snapshot.data ?? [];
+                    
+                    return Column(
+                      children: languages.map((language) {
+                        final languageCode = language['language'] as String;
+                        final collectionCount = language['collection_count'] as int;
+                        
+                        return CheckboxListTile(
+                          title: Text('${_getLanguageName(languageCode)} ($collectionCount)'),
+                          value: tempSelectedLanguages.contains(languageCode),
+                          onChanged: (value) {
+                            setState(() {
+                              if (value == true) {
+                                tempSelectedLanguages.add(languageCode);
+                              } else {
+                                tempSelectedLanguages.remove(languageCode);
+                              }
+                            });
+                          },
+                          dense: true,
+                        );
+                      }).toList(),
+                    );
                   },
-                  dense: true,
-                )),
+                ),
               ],
             ),
           ),
