@@ -226,6 +226,11 @@ final GoRouter _router = GoRouter(
           path: '/browse/collections',
           builder: (context, state) => const CollectionsBrowseScreen(),
         ),
+        
+        GoRoute(
+          path: '/recently-viewed',
+          builder: (context, state) => const RecentlyViewedScreen(),
+        ),
       ],
     ),
     
@@ -260,11 +265,6 @@ final GoRouter _router = GoRouter(
     GoRoute(
       path: '/browse/first-lines',
       builder: (context, state) => const FirstLinesBrowseScreen(),
-    ),
-    
-    GoRoute(
-      path: '/recently-viewed',
-      builder: (context, state) => const RecentlyViewedScreen(),
     ),
     
     GoRoute(
