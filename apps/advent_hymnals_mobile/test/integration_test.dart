@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:advent_hymnals_mobile/main.dart';
-import 'package:advent_hymnals_mobile/core/constants/app_constants.dart';
+import 'package:advent_hymnals/main.dart';
+import 'package:advent_hymnals/core/constants/app_constants.dart';
 
 // Helper function to safely navigate back
 Future<void> _safeNavigateBack(WidgetTester tester) async {

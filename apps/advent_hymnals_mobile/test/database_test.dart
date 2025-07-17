@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:advent_hymnals_mobile/core/database/database_helper.dart';
+import 'package:advent_hymnals/core/database/database_helper.dart';
 
 void main() {
   group('Database Tests', () {

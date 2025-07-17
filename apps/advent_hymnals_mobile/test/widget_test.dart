@@ -7,9 +7,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:advent_hymnals_mobile/main.dart';
-import 'package:advent_hymnals_mobile/presentation/screens/tunes_browse_screen.dart';
-import 'package:advent_hymnals_mobile/presentation/screens/meters_browse_screen.dart';
+import 'package:advent_hymnals/main.dart';
+import 'package:advent_hymnals/presentation/screens/tunes_browse_screen.dart';
+import 'package:advent_hymnals/presentation/screens/meters_browse_screen.dart';
 
 void main() {
   group('Widget Tests', () {
