@@ -988,13 +988,12 @@ class _SearchScreenState extends State<SearchScreen> {
         }
         
         if (snapshot.hasError) {
-          // Fallback to default categories if database fails
+          print('Error loading topics: ${snapshot.error}');
+          // Fallback to minimal categories if database fails
           return _buildSuggestionSection(
             title: 'Search by Category',
             suggestions: [
               'Praise and Worship',
-              'Christmas',
-              'Easter',
               'Communion',
               'Baptism',
             ],
@@ -1004,13 +1003,11 @@ class _SearchScreenState extends State<SearchScreen> {
         final topics = snapshot.data ?? [];
         
         if (topics.isEmpty) {
-          // Fallback to default categories if no topics in database
+          // Fallback to minimal categories if no topics in database
           return _buildSuggestionSection(
             title: 'Search by Category',
             suggestions: [
               'Praise and Worship',
-              'Christmas',
-              'Easter',
               'Communion',
               'Baptism',
             ],
@@ -1032,8 +1029,20 @@ class _SearchScreenState extends State<SearchScreen> {
     try {
       final db = DatabaseHelper.instance;
       
+      // First check if we have data in the database
+      final database = await db.database;
+      
+      // Check if topics table has data
+      final topicsCheck = await database.rawQuery('SELECT COUNT(*) as count FROM topics');
+      final topicsCount = topicsCheck.first['count'] as int;
+      
+      if (topicsCount == 0) {
+        print('No topics found in database');
+        return [];
+      }
+      
       // Get topics with hymn counts
-      final topics = await db.database.then((database) => database.rawQuery('''
+      final topics = await database.rawQuery('''
         SELECT t.id, t.name, t.category, COUNT(ht.hymn_id) as hymn_count
         FROM topics t
         LEFT JOIN hymn_topics ht ON t.id = ht.topic_id
@@ -1041,8 +1050,9 @@ class _SearchScreenState extends State<SearchScreen> {
         HAVING hymn_count > 0
         ORDER BY hymn_count DESC, t.name ASC
         LIMIT 10
-      '''));
+      ''');
       
+      print('Found ${topics.length} topics from database');
       return topics;
       
     } catch (e) {

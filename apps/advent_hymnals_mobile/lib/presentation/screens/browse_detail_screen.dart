@@ -485,7 +485,12 @@ class _BrowseDetailScreenState extends State<BrowseDetailScreen> {
               ],
             ),
             onTap: () {
-              context.push('/hymn/${hymn.id}');
+              // Pass collection information to hymn detail
+              final collectionParam = hymn.collectionAbbreviation ?? hymn.collectionId?.toString();
+              final route = collectionParam != null 
+                ? '/hymn/${hymn.id}?collection=$collectionParam&from=browse'
+                : '/hymn/${hymn.id}?from=browse';
+              context.push(route);
             },
           ),
         );

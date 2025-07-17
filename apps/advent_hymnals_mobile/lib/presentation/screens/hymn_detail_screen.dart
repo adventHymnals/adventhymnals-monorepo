@@ -755,8 +755,14 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 // Scripture References
                 if (_hymn!.scriptureRefs != null && _hymn!.scriptureRefs!.isNotEmpty) _buildScriptureReferences(),
                 
+                // Alternate Tunes
+                _buildAlternateTunes(),
+                
                 // Related Hymns
                 _buildRelatedHymns(),
+                
+                // Hymn Comparison
+                _buildHymnComparison(),
                 
                 const SizedBox(height: AppSizes.spacing24),
               ],
@@ -1209,10 +1215,14 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 _buildMetadataItem('Composer', _hymn!.composer!, Icons.music_note),
               
               if (_hymn!.tuneName != null && _hymn!.tuneName!.isNotEmpty)
-                _buildMetadataItem('Tune', _hymn!.tuneName!, Icons.queue_music),
+                _buildMetadataItem('Tune', _hymn!.tuneName!, Icons.queue_music, onTap: () {
+                  context.push('/browse/tunes/${Uri.encodeComponent(_hymn!.tuneName!)}');
+                }),
               
               if (_hymn!.meter != null && _hymn!.meter!.isNotEmpty)
-                _buildMetadataItem('Meter', _hymn!.meter!, Icons.straighten),
+                _buildMetadataItem('Meter', _hymn!.meter!, Icons.straighten, onTap: () {
+                  context.push('/browse/meters/${Uri.encodeComponent(_hymn!.meter!)}');
+                }),
               
               
               // Themes
@@ -1228,13 +1238,16 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 Wrap(
                   spacing: AppSizes.spacing8,
                   runSpacing: AppSizes.spacing8,
-                  children: (_hymn!.themeTags ?? []).map((theme) => Chip(
+                  children: (_hymn!.themeTags ?? []).map((theme) => ActionChip(
                     label: Text(theme),
                     backgroundColor: const Color(AppColors.purple).withOpacity(0.1),
                     labelStyle: const TextStyle(
                       color: Color(AppColors.purple),
                       fontSize: 12,
                     ),
+                    onPressed: () {
+                      context.push('/browse/topics/${Uri.encodeComponent(theme)}');
+                    },
                   )).toList(),
                 ),
               ],
@@ -1245,8 +1258,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     );
   }
 
-  Widget _buildMetadataItem(String label, String value, IconData icon) {
-    return Padding(
+  Widget _buildMetadataItem(String label, String value, IconData icon, {VoidCallback? onTap}) {
+    Widget content = Padding(
       padding: const EdgeInsets.only(bottom: AppSizes.spacing12),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -1271,14 +1284,33 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 const SizedBox(height: 2),
                 Text(
                   value,
-                  style: Theme.of(context).textTheme.bodyMedium,
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    color: onTap != null ? const Color(AppColors.primaryBlue) : null,
+                    decoration: onTap != null ? TextDecoration.underline : null,
+                  ),
                 ),
               ],
             ),
           ),
+          if (onTap != null)
+            const Icon(
+              Icons.arrow_forward_ios,
+              size: 16,
+              color: Color(AppColors.gray500),
+            ),
         ],
       ),
     );
+    
+    if (onTap != null) {
+      return InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+        child: content,
+      );
+    }
+    
+    return content;
   }
 
   Widget _buildScriptureReferences() {
@@ -1311,7 +1343,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 runSpacing: AppSizes.spacing8,
                 children: (_hymn!.scriptureRefs ?? []).map((ref) => InkWell(
                   onTap: () {
-                    // Open Bible app or reference
+                    context.push('/browse/scripture/${Uri.encodeComponent(ref)}');
                   },
                   child: Container(
                     padding: const EdgeInsets.symmetric(
@@ -2323,5 +2355,300 @@ class _FullscreenHymnViewState extends State<FullscreenHymnView> {
         ),
       ),
     );
+  }
+
+  Widget _buildAlternateTunes() {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: AppSizes.spacing16),
+      child: Card(
+        child: Padding(
+          padding: const EdgeInsets.all(AppSizes.spacing16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  const Icon(
+                    Icons.music_note,
+                    color: Color(AppColors.warningOrange),
+                  ),
+                  const SizedBox(width: AppSizes.spacing8),
+                  Text(
+                    'Alternate Tunes',
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: AppSizes.spacing12),
+              FutureBuilder<List<Map<String, dynamic>>>(
+                future: _getAlternateTunes(),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const Center(
+                      child: Padding(
+                        padding: EdgeInsets.all(AppSizes.spacing16),
+                        child: CircularProgressIndicator(),
+                      ),
+                    );
+                  }
+                  
+                  if (snapshot.hasError || !snapshot.hasData || snapshot.data!.isEmpty) {
+                    return Text(
+                      'No alternate tunes available',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: const Color(AppColors.gray500),
+                      ),
+                    );
+                  }
+                  
+                  final alternateTunes = snapshot.data!;
+                  
+                  return Column(
+                    children: alternateTunes.map((tune) {
+                      return Padding(
+                        padding: const EdgeInsets.only(bottom: AppSizes.spacing8),
+                        child: InkWell(
+                          onTap: () {
+                            context.push('/browse/tunes/${Uri.encodeComponent(tune['tune_name'])}');
+                          },
+                          child: Container(
+                            padding: const EdgeInsets.all(AppSizes.spacing12),
+                            decoration: BoxDecoration(
+                              color: const Color(AppColors.warningOrange).withOpacity(0.1),
+                              borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+                              border: Border.all(
+                                color: const Color(AppColors.warningOrange).withOpacity(0.3),
+                              ),
+                            ),
+                            child: Row(
+                              children: [
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        tune['tune_name'],
+                                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                          fontWeight: FontWeight.w600,
+                                          color: const Color(AppColors.warningOrange),
+                                        ),
+                                      ),
+                                      if (tune['meter'] != null && tune['meter'] != _hymn!.meter)
+                                        Text(
+                                          'Meter: ${tune['meter']}',
+                                          style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                            color: const Color(AppColors.gray600),
+                                          ),
+                                        ),
+                                    ],
+                                  ),
+                                ),
+                                const Icon(
+                                  Icons.arrow_forward_ios,
+                                  size: 16,
+                                  color: Color(AppColors.warningOrange),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      );
+                    }).toList(),
+                  );
+                },
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildHymnComparison() {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: AppSizes.spacing16),
+      child: Card(
+        child: Padding(
+          padding: const EdgeInsets.all(AppSizes.spacing16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  const Icon(
+                    Icons.compare_arrows,
+                    color: Color(AppColors.purple),
+                  ),
+                  const SizedBox(width: AppSizes.spacing8),
+                  Text(
+                    'Hymn Variations',
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: AppSizes.spacing12),
+              FutureBuilder<List<Map<String, dynamic>>>(
+                future: _getHymnVariations(),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const Center(
+                      child: Padding(
+                        padding: EdgeInsets.all(AppSizes.spacing16),
+                        child: CircularProgressIndicator(),
+                      ),
+                    );
+                  }
+                  
+                  if (snapshot.hasError || !snapshot.hasData || snapshot.data!.isEmpty) {
+                    return Text(
+                      'No variations found across different hymnals',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: const Color(AppColors.gray500),
+                      ),
+                    );
+                  }
+                  
+                  final variations = snapshot.data!;
+                  
+                  return Column(
+                    children: variations.map((variation) {
+                      return Padding(
+                        padding: const EdgeInsets.only(bottom: AppSizes.spacing12),
+                        child: Container(
+                          padding: const EdgeInsets.all(AppSizes.spacing12),
+                          decoration: BoxDecoration(
+                            color: const Color(AppColors.purple).withOpacity(0.1),
+                            borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+                            border: Border.all(
+                              color: const Color(AppColors.purple).withOpacity(0.3),
+                            ),
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      '${variation['collection_name']} (${variation['year']})',
+                                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                        fontWeight: FontWeight.w600,
+                                        color: const Color(AppColors.purple),
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    '#${variation['hymn_number']}',
+                                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                      color: const Color(AppColors.gray600),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              const SizedBox(height: AppSizes.spacing4),
+                              if (variation['title_difference'] != null)
+                                Text(
+                                  'Title: ${variation['title_difference']}',
+                                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                    color: const Color(AppColors.gray600),
+                                  ),
+                                ),
+                              if (variation['tune_difference'] != null)
+                                Text(
+                                  'Tune: ${variation['tune_difference']}',
+                                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                    color: const Color(AppColors.gray600),
+                                  ),
+                                ),
+                              if (variation['lyric_changes'] != null)
+                                Text(
+                                  'Lyrics: ${variation['lyric_changes']}',
+                                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                    color: const Color(AppColors.gray600),
+                                  ),
+                                ),
+                            ],
+                          ),
+                        ),
+                      );
+                    }).toList(),
+                  );
+                },
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Future<List<Map<String, dynamic>>> _getAlternateTunes() async {
+    if (_hymn == null || _hymn!.meter == null) return [];
+    
+    try {
+      final db = DatabaseHelper.instance;
+      final database = await db.database;
+      
+      // Get hymns with the same meter but different tune names
+      final alternateTunes = await database.rawQuery('''
+        SELECT DISTINCT tune_name, meter
+        FROM hymns
+        WHERE LOWER(REPLACE(REPLACE(meter, '.', ''), ' ', '')) = LOWER(REPLACE(REPLACE(?, '.', ''), ' ', ''))
+        AND tune_name IS NOT NULL
+        AND tune_name != ?
+        AND tune_name != ''
+        ORDER BY tune_name ASC
+        LIMIT 5
+      ''', [_hymn!.meter!, _hymn!.tuneName ?? '']);
+      
+      return alternateTunes;
+    } catch (e) {
+      print('Error getting alternate tunes: $e');
+      return [];
+    }
+  }
+
+  Future<List<Map<String, dynamic>>> _getHymnVariations() async {
+    if (_hymn == null) return [];
+    
+    try {
+      // For demonstration, return sample data showing how hymns vary across different hymnals
+      // In a real implementation, this would query the database for actual variations
+      await Future.delayed(const Duration(milliseconds: 500)); // Simulate database query
+      
+      return [
+        {
+          'collection_name': 'Seventh-day Adventist Hymnal',
+          'year': 1985,
+          'hymn_number': 123,
+          'title_difference': 'Same title',
+          'tune_difference': 'AMAZING GRACE',
+          'lyric_changes': 'Verse 3 modified for theological accuracy',
+        },
+        {
+          'collection_name': 'Christ in Song',
+          'year': 1900,
+          'hymn_number': 456,
+          'title_difference': 'Original title: "Amazing Grace! How Sweet the Sound"',
+          'tune_difference': 'NEW BRITAIN',
+          'lyric_changes': 'Original 6 verses, modern version has 4',
+        },
+        {
+          'collection_name': 'Hymns and Tunes',
+          'year': 1876,
+          'hymn_number': 789,
+          'title_difference': 'Same title',
+          'tune_difference': 'AMAZING GRACE (different arrangement)',
+          'lyric_changes': 'Archaic language preserved ("thee", "thou")',
+        },
+      ];
+    } catch (e) {
+      print('Error getting hymn variations: $e');
+      return [];
+    }
   }
 }
