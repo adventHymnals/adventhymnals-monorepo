@@ -1503,6 +1503,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           '#${hymn.hymnNumber}',
           style: Theme.of(context).textTheme.titleMedium?.copyWith(
             fontWeight: FontWeight.w600,
+            color: Theme.of(context).appBarTheme.foregroundColor,
           ),
         ),
         const SizedBox(width: 8),
@@ -1511,7 +1512,9 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         Expanded(
           child: Text(
             hymn.title,
-            style: Theme.of(context).textTheme.titleMedium,
+            style: Theme.of(context).textTheme.titleMedium?.copyWith(
+              color: Theme.of(context).appBarTheme.foregroundColor,
+            ),
             overflow: TextOverflow.ellipsis,
             maxLines: 1,
           ),
