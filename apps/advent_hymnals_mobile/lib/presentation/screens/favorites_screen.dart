@@ -45,7 +45,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   void _showSortDialog() {
     showDialog(
       context: context,
-      builder: (context) {
+      builder: (dialogContext) {
         return AlertDialog(
           title: const Text('Sort Favorites'),
           content: SizedBox(
@@ -58,29 +58,29 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                   _buildFavoritesSortSection('Date Added', [
                     ('date_added_desc', 'Date Added (Newest first)'),
                     ('date_added_asc', 'Date Added (Oldest first)'),
-                  ]),
+                  ], dialogContext),
                   const SizedBox(height: 16),
                   _buildFavoritesSortSection('Title', [
                     ('title_asc', 'Title (A-Z)'),
                     ('title_desc', 'Title (Z-A)'),
-                  ]),
+                  ], dialogContext),
                   const SizedBox(height: 16),
                   _buildFavoritesSortSection('Author', [
                     ('author_asc', 'Author (A-Z)'),
                     ('author_desc', 'Author (Z-A)'),
-                  ]),
+                  ], dialogContext),
                   const SizedBox(height: 16),
                   _buildFavoritesSortSection('Hymn Number', [
                     ('hymn_number_asc', 'Hymn Number (Low to High)'),
                     ('hymn_number_desc', 'Hymn Number (High to Low)'),
-                  ]),
+                  ], dialogContext),
                 ],
               ),
             ),
           ),
           actions: [
             TextButton(
-              onPressed: () => Navigator.of(context).pop(),
+              onPressed: () => Navigator.of(dialogContext).pop(),
               child: const Text('Cancel'),
             ),
           ],
@@ -89,7 +89,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
     );
   }
 
-  Widget _buildFavoritesSortSection(String title, List<(String, String)> options) {
+  Widget _buildFavoritesSortSection(String title, List<(String, String)> options, BuildContext dialogContext) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -105,11 +105,13 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
           value: option.$1,
           groupValue: _sortBy,
           onChanged: (value) {
-            setState(() {
-              _sortBy = value!;
-            });
-            Navigator.of(context).pop();
-            _applySorting();
+            if (value != null) {
+              setState(() {
+                _sortBy = value;
+              });
+              Navigator.of(dialogContext).pop();
+              _applySorting();
+            }
           },
           dense: true,
           contentPadding: const EdgeInsets.symmetric(horizontal: 8),

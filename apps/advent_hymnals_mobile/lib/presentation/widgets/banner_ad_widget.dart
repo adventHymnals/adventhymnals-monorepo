@@ -51,7 +51,12 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
 
   @override
   void dispose() {
-    _bannerAd?.dispose();
+    try {
+      _bannerAd?.dispose();
+    } catch (e) {
+      // Safely handle any disposal errors
+      print('Warning: Error disposing banner ad: $e');
+    }
     super.dispose();
   }
 
@@ -121,7 +126,12 @@ class _AdaptiveBannerAdWidgetState extends State<AdaptiveBannerAdWidget> {
 
   @override
   void dispose() {
-    _bannerAd?.dispose();
+    try {
+      _bannerAd?.dispose();
+    } catch (e) {
+      // Safely handle any disposal errors
+      print('Warning: Error disposing banner ad: $e');
+    }
     super.dispose();
   }
 
