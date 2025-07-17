@@ -47,16 +47,24 @@ class ProjectorService extends ChangeNotifier {
   /// Start projector mode with a hymn
   void startProjector(int hymnId, {int totalVerses = 0}) {
     print('🎥 [ProjectorService] Starting projector mode with hymn $hymnId (${totalVerses} verses)');
+    print('🎥 [ProjectorService] Current state before start: hymnId=$_currentHymnId, verses=$_totalVerses, active=$_isProjectorActive');
+    
     _currentHymnId = hymnId;
     _currentVerseIndex = 0;
     _totalVerses = totalVerses;
     _isProjectorActive = true;
+    
+    print('🎥 [ProjectorService] Updated state: hymnId=$_currentHymnId, verses=$_totalVerses, active=$_isProjectorActive');
+    
     _resetAutoAdvanceTimer();
     notifyListeners();
     
     // Try to open secondary window on desktop
     if (Platform.isLinux || Platform.isWindows || Platform.isMacOS) {
+      print('🎥 [ProjectorService] Desktop platform detected, opening secondary window');
       _openSecondaryWindow();
+    } else {
+      print('🎥 [ProjectorService] Mobile platform, skipping secondary window');
     }
   }
 
@@ -97,6 +105,8 @@ class ProjectorService extends ChangeNotifier {
 
   /// Navigate to next verse/chorus
   void nextSection() {
+    print('🎥 [ProjectorService] nextSection() called - current: ${_currentVerseIndex + 1}/$_totalVerses');
+    
     // Check if we're at the last verse
     if (_totalVerses > 0 && _currentVerseIndex >= _totalVerses - 1) {
       print('🎥 [ProjectorService] Already at last verse (${_currentVerseIndex + 1}/$_totalVerses) - stopping auto-advance');
@@ -104,8 +114,10 @@ class ProjectorService extends ChangeNotifier {
       return;
     }
     
-    print('🎥 [ProjectorService] Moving to next section (verse ${_currentVerseIndex + 1})');
+    print('🎥 [ProjectorService] Moving to next section (verse ${_currentVerseIndex + 1} → ${_currentVerseIndex + 2})');
     _currentVerseIndex++;
+    print('🎥 [ProjectorService] Updated to verse ${_currentVerseIndex + 1}/$_totalVerses');
+    
     _resetAutoAdvanceTimer();
     _updateSecondaryWindowContent();
     notifyListeners();

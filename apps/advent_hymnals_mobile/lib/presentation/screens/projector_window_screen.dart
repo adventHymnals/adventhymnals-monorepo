@@ -24,25 +24,79 @@ class _ProjectorWindowScreenState extends State<ProjectorWindowScreen> {
   @override
   void initState() {
     super.initState();
-    _loadHymnData();
+    
+    // Wait for the next frame to ensure providers are ready
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _loadHymnData();
+    });
   }
 
   Future<void> _loadHymnData() async {
-    if (widget.hymnId == null) return;
+    print('🎥 [ProjectorWindow] _loadHymnData called with hymnId: ${widget.hymnId}');
+    
+    if (widget.hymnId == null) {
+      print('🎥 [ProjectorWindow] No hymnId provided, skipping load');
+      return;
+    }
     
     try {
       final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
+      final allHymns = hymnProvider.hymns;
+      print('🎥 [ProjectorWindow] Total hymns available: ${allHymns.length}');
+      
+      // Debug: show some hymn numbers for reference
+      if (allHymns.isNotEmpty) {
+        final hymnNumbers = allHymns.take(10).map((h) => 'Hymn ${h.hymnNumber}: ${h.title}').join(', ');
+        print('🎥 [ProjectorWindow] Sample hymns: $hymnNumbers');
+      }
+      
       final hymn = hymnProvider.hymns.firstWhere(
         (h) => h.hymnNumber == widget.hymnId,
         orElse: () => throw Exception('Hymn not found'),
       );
       
+      print('🎥 [ProjectorWindow] Found hymn: ${hymn.hymnNumber} - ${hymn.title}');
+      print('🎥 [ProjectorWindow] Hymn collection: ${hymn.collectionAbbreviation}');
+      
+      final verses = _parseVerses(hymn.lyrics ?? '');
+      print('🎥 [ProjectorWindow] Parsed ${verses.length} verses from lyrics');
+      
       setState(() {
         _hymn = hymn;
-        _verses = _parseVerses(hymn.lyrics ?? '');
+        _verses = verses;
       });
     } catch (e) {
       print('❌ [ProjectorWindow] Error loading hymn data: $e');
+      print('❌ [ProjectorWindow] Requested hymnId: ${widget.hymnId}');
+    }
+  }
+
+  Future<void> _loadHymnDataByNumber(int hymnNumber) async {
+    print('🎥 [ProjectorWindow] _loadHymnDataByNumber called with hymnNumber: $hymnNumber');
+    
+    try {
+      final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
+      final allHymns = hymnProvider.hymns;
+      print('🎥 [ProjectorWindow] Total hymns available: ${allHymns.length}');
+      
+      final hymn = hymnProvider.hymns.firstWhere(
+        (h) => h.hymnNumber == hymnNumber,
+        orElse: () => throw Exception('Hymn $hymnNumber not found'),
+      );
+      
+      print('🎥 [ProjectorWindow] Found hymn: ${hymn.hymnNumber} - ${hymn.title}');
+      print('🎥 [ProjectorWindow] Hymn collection: ${hymn.collectionAbbreviation}');
+      
+      final verses = _parseVerses(hymn.lyrics ?? '');
+      print('🎥 [ProjectorWindow] Parsed ${verses.length} verses from lyrics');
+      
+      setState(() {
+        _hymn = hymn;
+        _verses = verses;
+      });
+    } catch (e) {
+      print('❌ [ProjectorWindow] Error loading hymn by number: $e');
+      print('❌ [ProjectorWindow] Requested hymnNumber: $hymnNumber');
     }
   }
 
@@ -60,6 +114,19 @@ class _ProjectorWindowScreenState extends State<ProjectorWindowScreen> {
       backgroundColor: Colors.black,
       body: Consumer<ProjectorService>(
         builder: (context, projectorService, child) {
+          print('🎥 [ProjectorWindow] Build called - projector active: ${projectorService.isProjectorActive}, hymn loaded: ${_hymn != null}');
+          print('🎥 [ProjectorWindow] ProjectorService current hymn: ${projectorService.currentHymnId}, verse: ${projectorService.currentVerseIndex + 1}');
+          
+          // If projector is active but we don't have the right hymn loaded, try to load it
+          if (projectorService.isProjectorActive && projectorService.currentHymnId != null) {
+            if (_hymn == null || _hymn!.hymnNumber != projectorService.currentHymnId) {
+              print('🎥 [ProjectorWindow] Hymn mismatch detected, reloading hymn ${projectorService.currentHymnId}');
+              WidgetsBinding.instance.addPostFrameCallback((_) {
+                _loadHymnDataByNumber(projectorService.currentHymnId!);
+              });
+            }
+          }
+          
           if (!projectorService.isProjectorActive || _hymn == null) {
             return _buildWaitingScreen();
           }

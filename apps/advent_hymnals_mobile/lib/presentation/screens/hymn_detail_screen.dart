@@ -287,7 +287,10 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 
   bool _canNavigateToNext() {
-    if (_hymn == null) return false;
+    if (_hymn == null) {
+      print('🔍 [Navigation] _canNavigateToNext: false - _hymn is null');
+      return false;
+    }
     
     try {
       final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
@@ -295,21 +298,31 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       
       // Use the hymn's own collection abbreviation as the primary source
       final currentCollection = _hymn!.collectionAbbreviation ?? widget.collectionId;
+      print('🔍 [Navigation] _canNavigateToNext: current hymn ${_hymn!.hymnNumber}, collection: $currentCollection');
       
       final collectionHymns = allHymns
           .where((h) => h.collectionAbbreviation?.toLowerCase() == currentCollection?.toLowerCase())
           .toList();
       collectionHymns.sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
       
+      print('🔍 [Navigation] Found ${collectionHymns.length} hymns in collection $currentCollection');
+      
       final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
-      return currentIndex >= 0 && currentIndex < collectionHymns.length - 1;
+      final canNavigate = currentIndex >= 0 && currentIndex < collectionHymns.length - 1;
+      
+      print('🔍 [Navigation] Current index: $currentIndex, can navigate next: $canNavigate');
+      return canNavigate;
     } catch (e) {
+      print('❌ [Navigation] Error in _canNavigateToNext: $e');
       return false;
     }
   }
 
   bool _canNavigateToPrevious() {
-    if (_hymn == null) return false;
+    if (_hymn == null) {
+      print('🔍 [Navigation] _canNavigateToPrevious: false - _hymn is null');
+      return false;
+    }
     
     try {
       final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
@@ -317,15 +330,22 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       
       // Use the hymn's own collection abbreviation as the primary source
       final currentCollection = _hymn!.collectionAbbreviation ?? widget.collectionId;
+      print('🔍 [Navigation] _canNavigateToPrevious: current hymn ${_hymn!.hymnNumber}, collection: $currentCollection');
       
       final collectionHymns = allHymns
           .where((h) => h.collectionAbbreviation?.toLowerCase() == currentCollection?.toLowerCase())
           .toList();
       collectionHymns.sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
       
+      print('🔍 [Navigation] Found ${collectionHymns.length} hymns in collection $currentCollection');
+      
       final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
-      return currentIndex > 0;
+      final canNavigate = currentIndex > 0;
+      
+      print('🔍 [Navigation] Current index: $currentIndex, can navigate previous: $canNavigate');
+      return canNavigate;
     } catch (e) {
+      print('❌ [Navigation] Error in _canNavigateToPrevious: $e');
       return false;
     }
   }
@@ -501,6 +521,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       appBar: AppBar(
         title: _buildOptimizedTitle(hymn),
         elevation: 0,
+        backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
+        foregroundColor: Theme.of(context).appBarTheme.foregroundColor,
         leading: _buildBackButton(),
         actions: [
           IconButton(
@@ -1424,9 +1446,18 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           backgroundColor: Colors.orange,
           duration: const Duration(seconds: 3),
           action: SnackBarAction(
-            label: 'View',
+            label: 'Open URL',
             textColor: Colors.white,
-            onPressed: () => context.go('/projector?hymn=${widget.hymnId}'),
+            onPressed: () {
+              ScaffoldMessenger.of(context).hideCurrentSnackBar();
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(
+                  content: Text('Projector URL copied to clipboard. Paste in a new browser window on your projector screen.'),
+                  backgroundColor: Colors.blue,
+                  duration: Duration(seconds: 4),
+                ),
+              );
+            },
           ),
         ),
       );
