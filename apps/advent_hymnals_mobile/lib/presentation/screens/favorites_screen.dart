@@ -121,6 +121,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   }
 
   void _applySorting() {
+    print('🔄 [FavoritesScreen] Applying sort: $_sortBy');
     final favoritesProvider = Provider.of<FavoritesProvider>(context, listen: false);
     favoritesProvider.sortFavorites(_sortBy);
   }

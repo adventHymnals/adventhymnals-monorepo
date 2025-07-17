@@ -195,7 +195,46 @@ class FavoritesProvider extends ChangeNotifier {
 
   // Sort favorites
   void sortFavorites(String sortBy) {
+    print('🔄 [FavoritesProvider] Sorting favorites by: $sortBy');
+    
     switch (sortBy) {
+      // Title sorting
+      case 'title_asc':
+        _favorites.sort((a, b) => a.title.compareTo(b.title));
+        break;
+      case 'title_desc':
+        _favorites.sort((a, b) => b.title.compareTo(a.title));
+        break;
+      
+      // Author sorting
+      case 'author_asc':
+        _favorites.sort((a, b) => 
+          (a.author ?? '').compareTo(b.author ?? ''));
+        break;
+      case 'author_desc':
+        _favorites.sort((a, b) => 
+          (b.author ?? '').compareTo(a.author ?? ''));
+        break;
+      
+      // Hymn number sorting
+      case 'hymn_number_asc':
+        _favorites.sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
+        break;
+      case 'hymn_number_desc':
+        _favorites.sort((a, b) => b.hymnNumber.compareTo(a.hymnNumber));
+        break;
+      
+      // Date added sorting
+      case 'date_added_desc':
+        _favorites.sort((a, b) => 
+          (b.lastViewed ?? DateTime.now()).compareTo(a.lastViewed ?? DateTime.now()));
+        break;
+      case 'date_added_asc':
+        _favorites.sort((a, b) => 
+          (a.lastViewed ?? DateTime.now()).compareTo(b.lastViewed ?? DateTime.now()));
+        break;
+      
+      // Legacy support for old sorting values
       case 'title':
         _favorites.sort((a, b) => a.title.compareTo(b.title));
         break;
@@ -210,11 +249,15 @@ class FavoritesProvider extends ChangeNotifier {
         _favorites.sort((a, b) => 
           (b.lastViewed ?? DateTime.now()).compareTo(a.lastViewed ?? DateTime.now()));
         break;
+      
       default:
         // Default sort by date added (newest first)
+        print('⚠️ [FavoritesProvider] Unknown sort option: $sortBy, using default');
         _favorites.sort((a, b) => 
           (b.lastViewed ?? DateTime.now()).compareTo(a.lastViewed ?? DateTime.now()));
     }
+    
+    print('✅ [FavoritesProvider] Sorted ${_favorites.length} favorites');
     notifyListeners();
   }
 
