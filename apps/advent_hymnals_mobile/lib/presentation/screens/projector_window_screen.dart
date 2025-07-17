@@ -33,7 +33,7 @@ class _ProjectorWindowScreenState extends State<ProjectorWindowScreen> {
     try {
       final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
       final hymn = hymnProvider.hymns.firstWhere(
-        (h) => h.id == widget.hymnId,
+        (h) => h.hymnNumber == widget.hymnId,
         orElse: () => throw Exception('Hymn not found'),
       );
       

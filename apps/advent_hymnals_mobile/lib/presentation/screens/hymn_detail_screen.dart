@@ -1408,14 +1408,17 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         ),
       );
     } else {
-      projectorService.startProjector(widget.hymnId);
+      // Calculate total verses from the hymn lyrics
+      final totalVerses = _hymn != null ? _parseVerses(_hymn!.lyrics ?? '').length : 0;
+      
+      projectorService.startProjector(widget.hymnId, totalVerses: totalVerses);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Row(
             children: [
               const Icon(Icons.present_to_all, color: Colors.white),
               const SizedBox(width: 8),
-              Text('Projecting "${_hymn!.title}"'),
+              Text('Projecting "${_hymn!.title}" ($totalVerses verses)'),
             ],
           ),
           backgroundColor: Colors.orange,
@@ -1428,6 +1431,15 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         ),
       );
     }
+  }
+
+  /// Parse verses from lyrics (same logic as ProjectorWindowScreen)
+  List<String> _parseVerses(String lyrics) {
+    if (lyrics.isEmpty) return ['No lyrics available'];
+    
+    // Split by double newlines or verse markers
+    final verses = lyrics.split(RegExp(r'\n\s*\n|\n\d+\.\s*'));
+    return verses.where((verse) => verse.trim().isNotEmpty).toList();
   }
 
   Widget _buildOptimizedTitle(Hymn hymn) {

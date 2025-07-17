@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import 'dart:io' show Platform;
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
+import 'package:desktop_multi_window/desktop_multi_window.dart';
 
 // Main entry point for Advent Hymnals mobile application
 // Debug: Testing Windows build workflow trigger
@@ -44,6 +45,16 @@ import 'core/services/windows_debug_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  
+  // Register the projector window entry point
+  if (Platform.isLinux || Platform.isWindows || Platform.isMacOS) {
+    DesktopMultiWindow.setMethodHandler((call, fromWindowId) async {
+      // Handle method calls from secondary windows
+      if (call.method == 'projectorWindowReady') {
+        print('🎥 [Main] Projector window ready (ID: $fromWindowId)');
+      }
+    });
+  }
   
   // Enhanced Windows logging and debug sound
   if (Platform.isWindows && kDebugMode) {

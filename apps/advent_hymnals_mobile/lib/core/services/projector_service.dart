@@ -1,7 +1,9 @@
 import 'dart:async';
+import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:desktop_multi_window/desktop_multi_window.dart';
 
 class ProjectorService extends ChangeNotifier {
   static final ProjectorService _instance = ProjectorService._internal();
@@ -13,6 +15,8 @@ class ProjectorService extends ChangeNotifier {
   int _currentVerseIndex = 0;
   bool _isProjectorActive = false;
   Timer? _autoAdvanceTimer;
+  int? _projectorWindowId;
+  int _totalVerses = 0;
   
   // Auto-advance settings
   bool _autoAdvanceEnabled = false;
@@ -38,12 +42,14 @@ class ProjectorService extends ChangeNotifier {
   bool get showHymnNumber => _showHymnNumber;
   bool get showTitle => _showTitle;
   bool get showMetadata => _showMetadata;
+  int get totalVerses => _totalVerses;
 
   /// Start projector mode with a hymn
-  void startProjector(int hymnId) {
-    print('🎥 [ProjectorService] Starting projector mode with hymn $hymnId');
+  void startProjector(int hymnId, {int totalVerses = 0}) {
+    print('🎥 [ProjectorService] Starting projector mode with hymn $hymnId (${totalVerses} verses)');
     _currentHymnId = hymnId;
     _currentVerseIndex = 0;
+    _totalVerses = totalVerses;
     _isProjectorActive = true;
     _resetAutoAdvanceTimer();
     notifyListeners();
@@ -54,12 +60,20 @@ class ProjectorService extends ChangeNotifier {
     }
   }
 
+  /// Set the total number of verses for the current hymn
+  void setTotalVerses(int totalVerses) {
+    _totalVerses = totalVerses;
+    print('🎥 [ProjectorService] Total verses set to $totalVerses');
+    notifyListeners();
+  }
+
   /// Stop projector mode
   void stopProjector() {
     print('🎥 [ProjectorService] Stopping projector mode');
     _isProjectorActive = false;
     _currentHymnId = null;
     _currentVerseIndex = 0;
+    _totalVerses = 0;
     _stopAutoAdvanceTimer();
     
     // Close secondary window on desktop
@@ -71,10 +85,11 @@ class ProjectorService extends ChangeNotifier {
   }
 
   /// Change to a different hymn
-  void changeHymn(int hymnId) {
-    print('🎥 [ProjectorService] Changing hymn to $hymnId');
+  void changeHymn(int hymnId, {int totalVerses = 0}) {
+    print('🎥 [ProjectorService] Changing hymn to $hymnId (${totalVerses} verses)');
     _currentHymnId = hymnId;
     _currentVerseIndex = 0;
+    _totalVerses = totalVerses;
     _resetAutoAdvanceTimer();
     _updateSecondaryWindowContent();
     notifyListeners();
@@ -82,6 +97,13 @@ class ProjectorService extends ChangeNotifier {
 
   /// Navigate to next verse/chorus
   void nextSection() {
+    // Check if we're at the last verse
+    if (_totalVerses > 0 && _currentVerseIndex >= _totalVerses - 1) {
+      print('🎥 [ProjectorService] Already at last verse (${_currentVerseIndex + 1}/$_totalVerses) - stopping auto-advance');
+      _stopAutoAdvanceTimer();
+      return;
+    }
+    
     print('🎥 [ProjectorService] Moving to next section (verse ${_currentVerseIndex + 1})');
     _currentVerseIndex++;
     _resetAutoAdvanceTimer();
@@ -179,34 +201,31 @@ class ProjectorService extends ChangeNotifier {
     
     try {
       if (_currentHymnId != null) {
-        // Build URL for projector window
-        final projectorUrl = 'http://localhost:${_getFlutterWebPort()}/projector-window?hymn=$_currentHymnId';
-        
-        // Copy URL to clipboard and show instructions
-        await Clipboard.setData(ClipboardData(text: projectorUrl));
-        print('🎥 [ProjectorService] Projector URL copied to clipboard: $projectorUrl');
-        
-        // Show instructions to user (this could be enhanced with a dialog in the UI)
-        print('📋 [ProjectorService] Instructions: URL copied to clipboard. Open a new browser window/tab and paste the URL to display the projector on a second screen.');
+        // For now, use clipboard method until we properly configure desktop_multi_window
+        await _fallbackToClipboard();
       }
     } catch (e) {
       print('❌ [ProjectorService] Error preparing secondary window: $e');
     }
   }
 
-  /// Get the Flutter web development port (default is 8080)
-  int _getFlutterWebPort() {
-    // For development, Flutter web typically runs on port 8080
-    // This could be made configurable in the future
-    return 8080;
+  /// Fallback method for platforms where desktop_multi_window isn't available
+  Future<void> _fallbackToClipboard() async {
+    if (_currentHymnId != null) {
+      final projectorUrl = 'http://localhost:8080/projector-window?hymn=$_currentHymnId';
+      await Clipboard.setData(ClipboardData(text: projectorUrl));
+      print('📋 [ProjectorService] Fallback: URL copied to clipboard. Open in browser window on second screen.');
+    }
   }
 
   /// Close secondary window for projector (desktop only)
   Future<void> _closeSecondaryWindow() async {
     try {
       print('🎥 [ProjectorService] Projector mode stopped. Close the browser window/tab manually if needed.');
+      _projectorWindowId = null;
     } catch (e) {
       print('❌ [ProjectorService] Error in close secondary window: $e');
+      _projectorWindowId = null;
     }
   }
 
@@ -216,7 +235,7 @@ class ProjectorService extends ChangeNotifier {
       // The projector window automatically updates via Provider/ChangeNotifier
       // No need for manual content updates since the ProjectorWindowScreen
       // listens to ProjectorService changes
-      print('🎥 [ProjectorService] Content updated - projector window will auto-refresh');
+      print('🎥 [ProjectorService] Content updated - projector window will auto-refresh (verse ${_currentVerseIndex + 1})');
     } catch (e) {
       print('❌ [ProjectorService] Error updating secondary window content: $e');
     }
