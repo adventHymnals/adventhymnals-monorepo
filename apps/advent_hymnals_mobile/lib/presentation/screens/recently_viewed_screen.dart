@@ -4,7 +4,6 @@ import 'package:go_router/go_router.dart';
 import '../../core/constants/app_constants.dart';
 import '../providers/recently_viewed_provider.dart';
 import '../providers/favorites_provider.dart';
-import '../widgets/bottom_nav_bar.dart';
 import '../../domain/entities/hymn.dart';
 
 class RecentlyViewedScreen extends StatefulWidget {
@@ -117,7 +116,6 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
           );
         },
       ),
-      bottomNavigationBar: const BottomNavBar(currentIndex: 2),
     );
   }
 
