@@ -26,13 +26,8 @@ import 'presentation/screens/favorites_screen.dart';
 import 'presentation/screens/more_screen.dart';
 import 'presentation/screens/hymn_detail_screen.dart';
 import 'presentation/widgets/app_initializer.dart';
-import 'presentation/screens/authors_browse_screen.dart';
-import 'presentation/screens/topics_browse_screen.dart';
 import 'presentation/screens/collections_browse_screen.dart';
-import 'presentation/screens/tunes_browse_screen.dart';
-import 'presentation/screens/meters_browse_screen.dart';
-import 'presentation/screens/scripture_browse_screen.dart';
-import 'presentation/screens/first_lines_browse_screen.dart';
+import 'presentation/screens/browse_detail_screen.dart';
 import 'presentation/screens/recently_viewed_screen.dart';
 import 'presentation/screens/settings_screen.dart';
 import 'presentation/screens/downloads_screen.dart';
@@ -225,33 +220,67 @@ final GoRouter _router = GoRouter(
     
     GoRoute(
       path: '/browse/authors',
-      builder: (context, state) => const AuthorsBrowseScreen(),
+      builder: (context, state) => const BrowseDetailScreen(category: BrowseCategory.authors),
+    ),
+    
+    GoRoute(
+      path: '/browse/authors/:author',
+      builder: (context, state) {
+        final author = Uri.decodeComponent(state.pathParameters['author'] ?? '');
+        return BrowseDetailScreen(category: BrowseCategory.authors, selectedItem: author);
+      },
     ),
     
     GoRoute(
       path: '/browse/topics',
-      builder: (context, state) => const TopicsBrowseScreen(),
+      builder: (context, state) => const BrowseDetailScreen(category: BrowseCategory.topics),
     ),
     
+    GoRoute(
+      path: '/browse/topics/:topic',
+      builder: (context, state) {
+        final topic = Uri.decodeComponent(state.pathParameters['topic'] ?? '');
+        return BrowseDetailScreen(category: BrowseCategory.topics, selectedItem: topic);
+      },
+    ),
     
     GoRoute(
       path: '/browse/tunes',
-      builder: (context, state) => const TunesBrowseScreen(),
+      builder: (context, state) => const BrowseDetailScreen(category: BrowseCategory.tunes),
+    ),
+    
+    GoRoute(
+      path: '/browse/tunes/:tune',
+      builder: (context, state) {
+        final tune = Uri.decodeComponent(state.pathParameters['tune'] ?? '');
+        return BrowseDetailScreen(category: BrowseCategory.tunes, selectedItem: tune);
+      },
     ),
     
     GoRoute(
       path: '/browse/meters',
-      builder: (context, state) => const MetersBrowseScreen(),
+      builder: (context, state) => const BrowseDetailScreen(category: BrowseCategory.meters),
+    ),
+    
+    GoRoute(
+      path: '/browse/meters/:meter',
+      builder: (context, state) {
+        final meter = Uri.decodeComponent(state.pathParameters['meter'] ?? '');
+        return BrowseDetailScreen(category: BrowseCategory.meters, selectedItem: meter);
+      },
     ),
     
     GoRoute(
       path: '/browse/scripture',
-      builder: (context, state) => const ScriptureBrowseScreen(),
+      builder: (context, state) => const BrowseDetailScreen(category: BrowseCategory.scripture),
     ),
     
     GoRoute(
-      path: '/browse/first-lines',
-      builder: (context, state) => const FirstLinesBrowseScreen(),
+      path: '/browse/scripture/:scripture',
+      builder: (context, state) {
+        final scripture = Uri.decodeComponent(state.pathParameters['scripture'] ?? '');
+        return BrowseDetailScreen(category: BrowseCategory.scripture, selectedItem: scripture);
+      },
     ),
     
     GoRoute(
