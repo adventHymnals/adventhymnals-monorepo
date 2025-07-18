@@ -1,11 +1,12 @@
 import 'dart:io';
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:go_router/go_router.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:path/path.dart' as path;
+import 'package:shared_preferences/shared_preferences.dart';
 import '../../core/constants/app_constants.dart';
-import '../../core/services/comprehensive_audio_service.dart';
 import '../providers/audio_player_provider.dart';
-import '../providers/settings_provider.dart';
 import '../../domain/entities/hymn.dart';
 
 class AudioPlayerScreen extends StatefulWidget {
@@ -18,7 +19,6 @@ class AudioPlayerScreen extends StatefulWidget {
 class _AudioPlayerScreenState extends State<AudioPlayerScreen>
     with TickerProviderStateMixin {
   late TabController _tabController;
-  bool _showQueue = true;
   bool _showLyrics = false;
 
   @override
@@ -485,33 +485,121 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
   }
 
   Widget _buildPlaylistsTab(AudioPlayerProvider audioProvider) {
-    return const Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Icon(
-            Icons.playlist_play,
-            size: 64,
-            color: Colors.grey,
-          ),
-          SizedBox(height: 16),
-          Text(
-            'Playlists Coming Soon',
-            style: TextStyle(
-              color: Colors.grey,
-              fontSize: 18,
+    return FutureBuilder<List<Map<String, dynamic>>>(
+      future: _loadSavedPlaylists(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Center(child: CircularProgressIndicator());
+        }
+        
+        final playlists = snapshot.data ?? [];
+        
+        return Column(
+          children: [
+            // New Playlist Button
+            Padding(
+              padding: const EdgeInsets.all(16),
+              child: SizedBox(
+                width: double.infinity,
+                child: ElevatedButton.icon(
+                  onPressed: () => _showSavePlaylistDialog(),
+                  icon: const Icon(Icons.add),
+                  label: const Text('Save Current Queue as Playlist'),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(AppColors.primaryBlue),
+                    foregroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(vertical: 12),
+                  ),
+                ),
+              ),
             ),
-          ),
-          SizedBox(height: 8),
-          Text(
-            'Save and manage your custom playlists',
-            style: TextStyle(
-              color: Colors.grey,
-              fontSize: 14,
+            
+            // Playlists List
+            Expanded(
+              child: playlists.isEmpty
+                  ? Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(
+                            Icons.playlist_play,
+                            size: 64,
+                            color: Theme.of(context).textTheme.bodyMedium?.color,
+                          ),
+                          const SizedBox(height: 16),
+                          Text(
+                            'No Saved Playlists',
+                            style: TextStyle(
+                              color: Theme.of(context).textTheme.bodyMedium?.color,
+                              fontSize: 18,
+                            ),
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            'Save your current queue to create playlists',
+                            style: TextStyle(
+                              color: Theme.of(context).textTheme.bodyMedium?.color,
+                              fontSize: 14,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                        ],
+                      ),
+                    )
+                  : ListView.builder(
+                      itemCount: playlists.length,
+                      itemBuilder: (context, index) {
+                        final playlist = playlists[index];
+                        return Card(
+                          margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                          child: ListTile(
+                            leading: const Icon(Icons.playlist_play),
+                            title: Text(playlist['name']),
+                            subtitle: Text('${playlist['hymns'].length} hymns'),
+                            trailing: PopupMenuButton(
+                              itemBuilder: (context) => [
+                                const PopupMenuItem(
+                                  value: 'load',
+                                  child: Row(
+                                    children: [
+                                      Icon(Icons.play_arrow),
+                                      SizedBox(width: 8),
+                                      Text('Load Playlist'),
+                                    ],
+                                  ),
+                                ),
+                                const PopupMenuItem(
+                                  value: 'delete',
+                                  child: Row(
+                                    children: [
+                                      Icon(Icons.delete),
+                                      SizedBox(width: 8),
+                                      Text('Delete'),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                              onSelected: (value) async {
+                                switch (value) {
+                                  case 'load':
+                                    await _loadAndPlayPlaylist(playlist['id']);
+                                    break;
+                                  case 'delete':
+                                    await _deletePlaylist(playlist['id']);
+                                    setState(() {});
+                                    break;
+                                }
+                              },
+                            ),
+                            onTap: () => _loadAndPlayPlaylist(playlist['id']),
+                          ),
+                        );
+                      },
+                    ),
             ),
-          ),
-        ],
-      ),
+          ],
+        );
+      },
     );
   }
 
@@ -598,10 +686,10 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
             const SizedBox(height: 16),
             
             // Downloaded Files Section
-            const Text(
+            Text(
               'Downloaded Audio Files',
               style: TextStyle(
-                color: Colors.white,
+                color: Theme.of(context).textTheme.bodyLarge?.color,
                 fontSize: 18,
                 fontWeight: FontWeight.w600,
               ),
@@ -609,19 +697,50 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
             
             const SizedBox(height: 8),
             
-            const Card(
-              color: Color(0xFF2A2A2A),
-              child: Padding(
-                padding: EdgeInsets.all(16),
-                child: Text(
-                  'Downloaded files list coming soon.\nFiles are cached automatically when you play hymns.',
-                  style: TextStyle(
-                    color: Colors.grey,
-                    fontSize: 14,
-                  ),
-                  textAlign: TextAlign.center,
-                ),
-              ),
+            FutureBuilder<List<Map<String, dynamic>>>(
+              future: _loadDownloadedFiles(),
+              builder: (context, snapshot) {
+                if (snapshot.connectionState == ConnectionState.waiting) {
+                  return const Center(child: CircularProgressIndicator());
+                }
+                
+                final files = snapshot.data ?? [];
+                
+                if (files.isEmpty) {
+                  return Card(
+                    color: Theme.of(context).cardColor,
+                    child: Padding(
+                      padding: const EdgeInsets.all(16),
+                      child: Text(
+                        'No downloaded files yet.\nFiles are cached automatically when you play hymns.',
+                        style: TextStyle(
+                          color: Theme.of(context).textTheme.bodyMedium?.color,
+                          fontSize: 14,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  );
+                }
+                
+                return Column(
+                  children: files.map((file) {
+                    return Card(
+                      color: Theme.of(context).cardColor,
+                      child: ListTile(
+                        leading: const Icon(Icons.music_note),
+                        title: Text(file['name']),
+                        subtitle: Text('${_formatFileSize(file['size'])} • ${file['type']}'),
+                        trailing: IconButton(
+                          icon: const Icon(Icons.delete),
+                          onPressed: () => _deleteFile(file['path']),
+                        ),
+                        onTap: () => _playFile(file['path']),
+                      ),
+                    );
+                  }).toList(),
+                );
+              },
             ),
           ],
         );
@@ -699,22 +818,54 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
   }
 
   void _showSavePlaylistDialog() {
+    final TextEditingController nameController = TextEditingController();
+    
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        backgroundColor: const Color(0xFF2A2A2A),
-        title: const Text(
+        backgroundColor: Theme.of(context).cardColor,
+        title: Text(
           'Save Playlist',
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(color: Theme.of(context).textTheme.bodyLarge?.color),
         ),
-        content: const Text(
-          'Playlist saving feature coming soon!',
-          style: TextStyle(color: Colors.grey),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            TextField(
+              controller: nameController,
+              decoration: const InputDecoration(
+                labelText: 'Playlist Name',
+                hintText: 'Enter a name for your playlist',
+              ),
+              autofocus: true,
+            ),
+            const SizedBox(height: 16),
+            Text(
+              'This will save your current queue (${context.read<AudioPlayerProvider>().playlist.length} hymns)',
+              style: TextStyle(color: Theme.of(context).textTheme.bodyMedium?.color),
+            ),
+          ],
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(),
-            child: const Text('OK'),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () async {
+              final name = nameController.text.trim();
+              if (name.isNotEmpty) {
+                await _saveCurrentPlaylist(name);
+                if (context.mounted) {
+                  Navigator.of(context).pop();
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Playlist saved successfully!')),
+                  );
+                  setState(() {}); // Refresh the playlists tab
+                }
+              }
+            },
+            child: const Text('Save'),
           ),
         ],
       ),
@@ -758,16 +909,159 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
       ),
     ) ?? false;
   }
+
+  // Playlist Management Methods
+  Future<List<Map<String, dynamic>>> _loadSavedPlaylists() async {
+    final prefs = await SharedPreferences.getInstance();
+    final playlistsJson = prefs.getStringList('saved_playlists') ?? [];
+    
+    return playlistsJson.map((json) {
+      final data = jsonDecode(json) as Map<String, dynamic>;
+      return data;
+    }).toList();
+  }
+
+  Future<void> _saveCurrentPlaylist(String name) async {
+    final audioProvider = context.read<AudioPlayerProvider>();
+    final prefs = await SharedPreferences.getInstance();
+    
+    final playlist = {
+      'id': DateTime.now().millisecondsSinceEpoch.toString(),
+      'name': name,
+      'createdAt': DateTime.now().toIso8601String(),
+      'hymns': audioProvider.playlist.map((hymn) => {
+        'id': hymn.id,
+        'title': hymn.title,
+        'hymnNumber': hymn.hymnNumber,
+        'author': hymn.author,
+        'composer': hymn.composer,
+        'collectionId': hymn.collectionId,
+        'collectionAbbreviation': hymn.collectionAbbreviation,
+      }).toList(),
+    };
+    
+    final existingPlaylists = await _loadSavedPlaylists();
+    existingPlaylists.add(playlist);
+    
+    final playlistsJson = existingPlaylists.map((p) => jsonEncode(p)).toList();
+    await prefs.setStringList('saved_playlists', playlistsJson);
+  }
+
+  Future<void> _loadAndPlayPlaylist(String playlistId) async {
+    final playlists = await _loadSavedPlaylists();
+    final playlist = playlists.firstWhere((p) => p['id'] == playlistId);
+    
+    final audioProvider = context.read<AudioPlayerProvider>();
+    audioProvider.clearPlaylist();
+    
+    // Convert saved hymn data back to Hymn objects
+    final hymns = (playlist['hymns'] as List).map((hymnData) {
+      return Hymn(
+        id: hymnData['id'],
+        title: hymnData['title'],
+        hymnNumber: hymnData['hymnNumber'],
+        author: hymnData['author'],
+        composer: hymnData['composer'],
+        collectionId: hymnData['collectionId'],
+        collectionAbbreviation: hymnData['collectionAbbreviation'],
+        lyrics: '', // Will be loaded when needed
+      );
+    }).toList();
+    
+    // Clear current playlist and add new hymns
+    audioProvider.clearPlaylist();
+    for (final hymn in hymns) {
+      audioProvider.addToPlaylist(hymn);
+    }
+    
+    if (hymns.isNotEmpty) {
+      audioProvider.playAtIndex(0);
+    }
+  }
+
+  Future<void> _deletePlaylist(String playlistId) async {
+    final prefs = await SharedPreferences.getInstance();
+    final playlists = await _loadSavedPlaylists();
+    playlists.removeWhere((p) => p['id'] == playlistId);
+    
+    final playlistsJson = playlists.map((p) => jsonEncode(p)).toList();
+    await prefs.setStringList('saved_playlists', playlistsJson);
+  }
+
+  // Downloaded Files Methods
+  Future<List<Map<String, dynamic>>> _loadDownloadedFiles() async {
+    try {
+      final directory = await getApplicationDocumentsDirectory();
+      final audioDir = Directory(path.join(directory.path, 'audio_cache'));
+      
+      if (!await audioDir.exists()) {
+        return [];
+      }
+      
+      final files = <Map<String, dynamic>>[];
+      await for (final entity in audioDir.list()) {
+        if (entity is File) {
+          final stat = await entity.stat();
+          files.add({
+            'name': path.basename(entity.path),
+            'path': entity.path,
+            'size': stat.size,
+            'type': path.extension(entity.path).replaceFirst('.', '').toUpperCase(),
+            'modifiedAt': stat.modified,
+          });
+        }
+      }
+      
+      // Sort by modified date (newest first)
+      files.sort((a, b) => (b['modifiedAt'] as DateTime).compareTo(a['modifiedAt'] as DateTime));
+      return files;
+    } catch (e) {
+      print('Error loading downloaded files: $e');
+      return [];
+    }
+  }
+
+  String _formatFileSize(int bytes) {
+    if (bytes < 1024) return '${bytes}B';
+    if (bytes < 1024 * 1024) return '${(bytes / 1024).toStringAsFixed(1)}KB';
+    return '${(bytes / (1024 * 1024)).toStringAsFixed(1)}MB';
+  }
+
+  void _deleteFile(String filePath) async {
+    try {
+      final file = File(filePath);
+      await file.delete();
+      setState(() {}); // Refresh the downloads list
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('File deleted successfully')),
+        );
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Error deleting file: $e')),
+        );
+      }
+    }
+  }
+
+  void _playFile(String filePath) {
+    // TODO: Implement playing local file
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(content: Text('Playing local files coming soon')),
+    );
+  }
 }
 
 class _CacheManagementScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF0A0A0A),
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
-        backgroundColor: const Color(0xFF0A0A0A),
-        foregroundColor: Colors.white,
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+        foregroundColor: Theme.of(context).textTheme.bodyLarge?.color,
         title: const Text('Cache Management'),
       ),
       body: Consumer<AudioPlayerProvider>(
@@ -779,16 +1073,16 @@ class _CacheManagementScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(16),
                 children: [
                   Card(
-                    color: const Color(0xFF2A2A2A),
+                    color: Theme.of(context).cardColor,
                     child: Padding(
                       padding: const EdgeInsets.all(16),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text(
+                          Text(
                             'Audio Cache Statistics',
                             style: TextStyle(
-                              color: Colors.white,
+                              color: Theme.of(context).textTheme.bodyLarge?.color,
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ),
@@ -800,24 +1094,25 @@ class _CacheManagementScreen extends StatelessWidget {
                             snapshot.hasData 
                               ? audioProvider.formatCacheSize(snapshot.data!)
                               : 'Calculating...',
+                            context,
                           ),
                           
                           const SizedBox(height: 16),
                           
-                          const Text(
+                          Text(
                             'Cache Benefits:',
                             style: TextStyle(
-                              color: Colors.white,
+                              color: Theme.of(context).textTheme.bodyLarge?.color,
                               fontSize: 16,
                               fontWeight: FontWeight.w600,
                             ),
                           ),
                           const SizedBox(height: 8),
                           
-                          _buildBenefitItem('• Offline playback capability'),
-                          _buildBenefitItem('• Faster loading times'),
-                          _buildBenefitItem('• Reduced data usage'),
-                          _buildBenefitItem('• Better audio quality consistency'),
+                          _buildBenefitItem('• Offline playback capability', context),
+                          _buildBenefitItem('• Faster loading times', context),
+                          _buildBenefitItem('• Reduced data usage', context),
+                          _buildBenefitItem('• Better audio quality consistency', context),
                         ],
                       ),
                     ),
@@ -826,16 +1121,16 @@ class _CacheManagementScreen extends StatelessWidget {
                   const SizedBox(height: 16),
                   
                   Card(
-                    color: const Color(0xFF2A2A2A),
+                    color: Theme.of(context).cardColor,
                     child: Padding(
                       padding: const EdgeInsets.all(16),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text(
+                          Text(
                             'Cache Management',
                             style: TextStyle(
-                              color: Colors.white,
+                              color: Theme.of(context).textTheme.bodyLarge?.color,
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ),
@@ -879,21 +1174,21 @@ class _CacheManagementScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildStatRow(String label, String value) {
+  Widget _buildStatRow(String label, String value, BuildContext context) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
           label,
-          style: const TextStyle(
-            color: Colors.grey,
+          style: TextStyle(
+            color: Theme.of(context).textTheme.bodyMedium?.color,
             fontSize: 16,
           ),
         ),
         Text(
           value,
-          style: const TextStyle(
-            color: Colors.white,
+          style: TextStyle(
+            color: Theme.of(context).textTheme.bodyLarge?.color,
             fontSize: 16,
             fontWeight: FontWeight.w600,
           ),
@@ -902,13 +1197,13 @@ class _CacheManagementScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildBenefitItem(String text) {
+  Widget _buildBenefitItem(String text, BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(bottom: 4),
       child: Text(
         text,
-        style: const TextStyle(
-          color: Colors.grey,
+        style: TextStyle(
+          color: Theme.of(context).textTheme.bodyMedium?.color,
           fontSize: 14,
         ),
       ),
@@ -919,14 +1214,14 @@ class _CacheManagementScreen extends StatelessWidget {
     return await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        backgroundColor: const Color(0xFF2A2A2A),
-        title: const Text(
+        backgroundColor: Theme.of(context).cardColor,
+        title: Text(
           'Clear Audio Cache',
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(color: Theme.of(context).textTheme.bodyLarge?.color),
         ),
-        content: const Text(
+        content: Text(
           'This will permanently delete all downloaded audio files. They will need to be downloaded again for offline playback.\n\nThis action cannot be undone. Continue?',
-          style: TextStyle(color: Colors.grey),
+          style: TextStyle(color: Theme.of(context).textTheme.bodyMedium?.color),
         ),
         actions: [
           TextButton(
