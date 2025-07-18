@@ -127,18 +127,29 @@ mixin WindowsDebugMixin<T extends StatefulWidget> on State<T> {
     await WindowsDebugService.debugMilestone(message, soundFreq: soundFreq);
     
     if (showOverlay && Platform.isWindows && kDebugMode) {
-      final overlay = WindowsDebugService.createDebugOverlay(context, message);
-      if (overlay != null) {
-        Overlay.of(context).insert(overlay);
-        _debugOverlays.add(overlay);
-        
-        // Auto-remove after duration
-        Future.delayed(overlayDuration, () {
-          if (_debugOverlays.contains(overlay)) {
-            overlay.remove();
-            _debugOverlays.remove(overlay);
+      try {
+        // Check if overlay is available before trying to use it
+        final overlayState = Overlay.maybeOf(context);
+        if (overlayState != null) {
+          final overlay = WindowsDebugService.createDebugOverlay(context, message);
+          if (overlay != null) {
+            overlayState.insert(overlay);
+            _debugOverlays.add(overlay);
+            
+            // Auto-remove after duration
+            Future.delayed(overlayDuration, () {
+              if (_debugOverlays.contains(overlay)) {
+                overlay.remove();
+                _debugOverlays.remove(overlay);
+              }
+            });
           }
-        });
+        }
+      } catch (e) {
+        // Silently handle overlay errors during app initialization
+        if (kDebugMode) {
+          print('🪟 [DEBUG] Overlay not ready yet: $e');
+        }
       }
     }
   }
