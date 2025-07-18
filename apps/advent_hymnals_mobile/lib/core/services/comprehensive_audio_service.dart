@@ -54,6 +54,11 @@ class HymnAudioInfo {
     final available = availableFormats;
     if (available.isEmpty) return null;
     
+    // On Windows, only MP3 is supported (MIDI files are not supported)
+    if (Platform.isWindows) {
+      return available.contains(AudioFormat.mp3) ? AudioFormat.mp3 : null;
+    }
+    
     // MP3 is supported on all platforms and provides better quality
     return available.contains(AudioFormat.mp3) ? AudioFormat.mp3 : available.first;
   }
@@ -77,6 +82,17 @@ class ComprehensiveAudioService {
   
   /// Base URLs for audio files (matching web implementation)
   static const String _primaryAudioBase = 'https://media.adventhymnals.org/audio';
+  
+  /// Check if an audio format is supported on the current platform
+  static bool isFormatSupported(AudioFormat format) {
+    switch (format) {
+      case AudioFormat.mp3:
+        return true; // MP3 is supported on all platforms
+      case AudioFormat.midi:
+        // MIDI files are not supported on Windows
+        return !Platform.isWindows;
+    }
+  }
   
   /// Get audio URLs for a hymn with fallback support
   List<String> _getAudioUrls(Hymn hymn, AudioFormat format) {
@@ -122,13 +138,19 @@ class ComprehensiveAudioService {
       }
     }
     
-    // Create initial info with checking state
+    // Create initial info with checking state (only for supported formats)
+    final Map<AudioFormat, AudioAvailability> initialAvailability = {};
+    for (final format in AudioFormat.values) {
+      if (isFormatSupported(format)) {
+        initialAvailability[format] = AudioAvailability.checking;
+      } else {
+        initialAvailability[format] = AudioAvailability.unavailable;
+      }
+    }
+    
     final initialInfo = HymnAudioInfo(
       hymn: hymn,
-      availability: {
-        AudioFormat.mp3: AudioAvailability.checking,
-        AudioFormat.midi: AudioAvailability.checking,
-      },
+      availability: initialAvailability,
       audioFiles: {},
       lastChecked: DateTime.now(),
     );
@@ -148,6 +170,12 @@ class ComprehensiveAudioService {
     
     // Check each format
     for (final format in AudioFormat.values) {
+      // Skip unsupported formats on current platform
+      if (!isFormatSupported(format)) {
+        availability[format] = AudioAvailability.unavailable;
+        continue;
+      }
+      
       final urls = _getAudioUrls(hymn, format);
       bool found = false;
       

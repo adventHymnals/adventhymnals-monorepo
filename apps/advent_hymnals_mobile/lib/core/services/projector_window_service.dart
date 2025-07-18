@@ -44,7 +44,7 @@ class ProjectorWindowService {
     } catch (e) {
       _lastError = 'Failed to initialize projector window service: ${e.toString()}';
       if (kDebugMode) {
-        print('❌ [ProjectorWindowService] Initialization failed: $_lastError');
+        print('ℹ️ [ProjectorWindowService] Initialization failed (platform channel not available): $_lastError');
       }
       return false;
     }
@@ -64,7 +64,7 @@ class ProjectorWindowService {
     } catch (e) {
       _lastError = 'Failed to get monitor list: ${e.toString()}';
       if (kDebugMode) {
-        print('❌ [ProjectorWindowService] Monitor detection failed: $_lastError');
+        print('ℹ️ [ProjectorWindowService] Monitor detection failed (platform channel not available): $_lastError');
       }
       return [];
     }
