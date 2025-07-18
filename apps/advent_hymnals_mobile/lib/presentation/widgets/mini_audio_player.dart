@@ -11,20 +11,23 @@ class MiniAudioPlayer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Consumer<AudioPlayerProvider>(
       builder: (context, audioProvider, child) {
-        if (audioProvider.currentHymn == null) {
+        if (audioProvider.currentHymn == null || 
+            (!audioProvider.isPlaying && !audioProvider.isPaused)) {
           return const SizedBox.shrink();
         }
 
         final hymn = audioProvider.currentHymn!;
         
+        print('🎵 [MiniAudioPlayer] Showing mini player for: ${hymn.title}, state: ${audioProvider.isPlaying ? "playing" : "paused"}');
+        
         return Container(
           margin: const EdgeInsets.all(8),
           decoration: BoxDecoration(
-            color: const Color(0xFF1A1A1A),
+            color: Theme.of(context).cardColor,
             borderRadius: BorderRadius.circular(12),
             boxShadow: [
               BoxShadow(
-                color: Colors.black.withOpacity(0.3),
+                color: Colors.black.withOpacity(0.1),
                 blurRadius: 8,
                 offset: const Offset(0, 4),
               ),
@@ -45,7 +48,7 @@ class MiniAudioPlayer extends StatelessWidget {
                     // Progress Bar
                     LinearProgressIndicator(
                       value: audioProvider.progress.clamp(0.0, 1.0),
-                      backgroundColor: Colors.white.withOpacity(0.2),
+                      backgroundColor: Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.2),
                       valueColor: const AlwaysStoppedAnimation<Color>(
                         Color(AppColors.primaryBlue),
                       ),
@@ -73,13 +76,13 @@ class MiniAudioPlayer extends StatelessWidget {
                             children: [
                               Icon(
                                 Icons.music_note,
-                                color: Colors.white.withOpacity(0.8),
+                                color: Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.8),
                                 size: 20,
                               ),
                               Text(
                                 '#${hymn.hymnNumber}',
                                 style: TextStyle(
-                                  color: Colors.white.withOpacity(0.6),
+                                  color: Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.6),
                                   fontSize: 8,
                                   fontWeight: FontWeight.w600,
                                 ),
@@ -97,8 +100,8 @@ class MiniAudioPlayer extends StatelessWidget {
                             children: [
                               Text(
                                 hymn.title,
-                                style: const TextStyle(
-                                  color: Colors.white,
+                                style: TextStyle(
+                                  color: Theme.of(context).textTheme.bodyLarge?.color,
                                   fontSize: 14,
                                   fontWeight: FontWeight.w600,
                                 ),
@@ -109,7 +112,7 @@ class MiniAudioPlayer extends StatelessWidget {
                               Text(
                                 hymn.author ?? hymn.collectionAbbreviation ?? 'Unknown',
                                 style: TextStyle(
-                                  color: Colors.white.withOpacity(0.7),
+                                  color: Theme.of(context).textTheme.bodyMedium?.color,
                                   fontSize: 12,
                                 ),
                                 maxLines: 1,
@@ -127,10 +130,13 @@ class MiniAudioPlayer extends StatelessWidget {
                             GestureDetector(
                               onTap: () {
                                 if (audioProvider.isPlaying) {
+                                  print('🎵 [MiniAudioPlayer] Pausing from mini player');
                                   audioProvider.pause();
                                 } else if (audioProvider.isPaused) {
+                                  print('🎵 [MiniAudioPlayer] Resuming from mini player');
                                   audioProvider.resume();
                                 } else {
+                                  print('🎵 [MiniAudioPlayer] Starting playback from mini player');
                                   audioProvider.playHymn(hymn);
                                 }
                               },

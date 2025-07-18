@@ -257,6 +257,10 @@ class AudioPlayerProvider extends ChangeNotifier {
   // Playback control methods
   Future<void> playHymn(Hymn hymn, {List<Hymn>? playlist, AudioFormat? preferredFormat}) async {
     try {
+      if (kDebugMode) {
+        print('🎵 [AudioPlayerProvider] Starting playback for hymn ${hymn.hymnNumber}: ${hymn.title}');
+      }
+      
       _setAudioState(AudioState.loading);
       _clearError();
 
@@ -273,18 +277,35 @@ class AudioPlayerProvider extends ChangeNotifier {
         _playlist = [hymn];
         _currentIndex = 0;
       }
+      
+      if (kDebugMode) {
+        print('🎵 [AudioPlayerProvider] Set audio state to loading, current hymn set');
+      }
 
       // Get audio info with availability checking
       _currentAudioInfo = await _audioService.getAudioInfo(hymn);
       
+      if (kDebugMode) {
+        print('🎵 [AudioPlayerProvider] Got audio info, isChecking=${_currentAudioInfo!.isChecking}, hasAnyAudio=${_currentAudioInfo!.hasAnyAudio}');
+      }
+      
       // Wait for availability check if still checking
       if (_currentAudioInfo!.isChecking) {
+        if (kDebugMode) {
+          print('🎵 [AudioPlayerProvider] Still checking, waiting 1.5 seconds...');
+        }
         // Give it a moment to complete the check
         await Future.delayed(const Duration(milliseconds: 1500));
         _currentAudioInfo = await _audioService.getAudioInfo(hymn);
+        if (kDebugMode) {
+          print('🎵 [AudioPlayerProvider] After waiting, isChecking=${_currentAudioInfo!.isChecking}, hasAnyAudio=${_currentAudioInfo!.hasAnyAudio}');
+        }
       }
       
       if (!_currentAudioInfo!.hasAnyAudio) {
+        if (kDebugMode) {
+          print('❌ [AudioPlayerProvider] No audio files available for this hymn');
+        }
         _setError('No audio files available for this hymn');
         return;
       }
@@ -295,13 +316,23 @@ class AudioPlayerProvider extends ChangeNotifier {
         preferredFormat: preferredFormat,
       );
       
+      if (kDebugMode) {
+        print('🎵 [AudioPlayerProvider] Best audio file: ${audioFile?.url}, format: ${audioFile?.format}, isLocal: ${audioFile?.isLocal}');
+      }
+      
       if (audioFile == null) {
+        if (kDebugMode) {
+          print('❌ [AudioPlayerProvider] No suitable audio file found for playback');
+        }
         _setError('No audio files available for this platform');
         return;
       }
       
       // Check if the selected format is supported on this platform
       if (!ComprehensiveAudioService.isFormatSupported(audioFile.format)) {
+        if (kDebugMode) {
+          print('❌ [AudioPlayerProvider] Audio format ${audioFile.format} not supported on this platform');
+        }
         _setError('Audio format not supported on this platform');
         return;
       }
@@ -320,21 +351,36 @@ class AudioPlayerProvider extends ChangeNotifier {
       }
       
       if (Platform.isWindows && _windowsAudioService != null) {
+        if (kDebugMode) {
+          print('🎵 [AudioPlayerProvider] Using Windows audio service');
+        }
         // Use Windows audio service
         final success = audioFile.isLocal 
           ? await _windowsAudioService!.playFromFile(audioSource)
           : await _windowsAudioService!.playFromUrl(audioSource);
         if (!success) {
+          if (kDebugMode) {
+            print('❌ [AudioPlayerProvider] Windows audio service failed: ${_windowsAudioService!.lastError}');
+          }
           _setError(_windowsAudioService!.lastError ?? 'Failed to play hymn on Windows');
           return;
         }
+        if (kDebugMode) {
+          print('✅ [AudioPlayerProvider] Windows audio service started successfully');
+        }
         // State will be set via Windows audio service listeners
       } else {
+        if (kDebugMode) {
+          print('🎵 [AudioPlayerProvider] Using standard audio player');
+        }
         // Use standard audio player
         if (audioFile.isLocal) {
           await _audioPlayer.play(DeviceFileSource(audioSource));
         } else {
           await _audioPlayer.play(UrlSource(audioSource));
+        }
+        if (kDebugMode) {
+          print('✅ [AudioPlayerProvider] Standard audio player started successfully');
         }
         // State will be set via standard audio player listeners
       }
@@ -578,6 +624,9 @@ class AudioPlayerProvider extends ChangeNotifier {
   }
 
   void _setAudioState(AudioState state) {
+    if (kDebugMode) {
+      print('🎵 [AudioPlayerProvider] State change: ${_audioState.name} -> ${state.name}');
+    }
     _audioState = state;
     if (state != AudioState.error) {
       _errorMessage = null;
@@ -586,6 +635,9 @@ class AudioPlayerProvider extends ChangeNotifier {
   }
 
   void _setError(String error) {
+    if (kDebugMode) {
+      print('❌ [AudioPlayerProvider] Error: $error');
+    }
     _audioState = AudioState.error;
     _errorMessage = error;
     notifyListeners();

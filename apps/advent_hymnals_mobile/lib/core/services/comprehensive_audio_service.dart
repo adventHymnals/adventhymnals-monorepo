@@ -130,10 +130,17 @@ class ComprehensiveAudioService {
   Future<HymnAudioInfo> getAudioInfo(Hymn hymn, {Function(HymnAudioInfo)? onComplete}) async {
     final cacheKey = '${hymn.collectionAbbreviation}_${hymn.hymnNumber}';
     
+    if (kDebugMode) {
+      print('🔍 [AudioService] Getting audio info for $cacheKey');
+    }
+    
     // Check if we have recent cached data
     if (_audioCache.containsKey(cacheKey)) {
       final cached = _audioCache[cacheKey]!;
       if (DateTime.now().difference(cached.lastChecked) < _cacheValidDuration) {
+        if (kDebugMode) {
+          print('🔍 [AudioService] Returning cached data for $cacheKey: hasAudio=${cached.hasAnyAudio}, formats=${cached.availableFormats}');
+        }
         return cached;
       }
     }
@@ -143,8 +150,14 @@ class ComprehensiveAudioService {
     for (final format in AudioFormat.values) {
       if (isFormatSupported(format)) {
         initialAvailability[format] = AudioAvailability.checking;
+        if (kDebugMode) {
+          print('🔍 [AudioService] Format ${format.name} is supported, setting to checking');
+        }
       } else {
         initialAvailability[format] = AudioAvailability.unavailable;
+        if (kDebugMode) {
+          print('🔍 [AudioService] Format ${format.name} is NOT supported on this platform, setting to unavailable');
+        }
       }
     }
     
@@ -156,6 +169,10 @@ class ComprehensiveAudioService {
     );
     
     _audioCache[cacheKey] = initialInfo;
+    
+    if (kDebugMode) {
+      print('🔍 [AudioService] Created initial info, isChecking=${initialInfo.isChecking}');
+    }
     
     // Check availability asynchronously
     _checkAudioAvailability(hymn, cacheKey, onComplete: onComplete);

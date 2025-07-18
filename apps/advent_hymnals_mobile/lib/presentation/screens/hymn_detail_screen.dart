@@ -233,21 +233,28 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     if (_hymn == null) return;
     
     try {
+      print('🔍 [HymnDetail] Starting audio availability check for hymn ${_hymn!.hymnNumber}: ${_hymn!.title}');
       setState(() {
         _isCheckingAudio = true;
       });
+      print('🔍 [HymnDetail] Set _isCheckingAudio = true, UI should show loading button');
       
       final audioService = ComprehensiveAudioService.instance;
       final audioInfo = await audioService.getAudioInfo(_hymn!, onComplete: (updatedInfo) {
+        print('🔍 [HymnDetail] Audio check completed! Available formats: ${updatedInfo.availableFormats}');
+        print('🔍 [HymnDetail] Has any audio: ${updatedInfo.hasAnyAudio}');
+        print('🔍 [HymnDetail] Preferred format: ${updatedInfo.preferredFormat}');
         // Update UI when audio check completes
         if (mounted) {
           setState(() {
             _audioInfo = updatedInfo;
             _isCheckingAudio = false;
           });
+          print('🔍 [HymnDetail] Updated UI with final audio info, _isCheckingAudio = false');
         }
       });
       
+      print('🔍 [HymnDetail] Initial audio info received, still checking: ${audioInfo.isChecking}');
       setState(() {
         _audioInfo = audioInfo;
         _isCheckingAudio = false;
@@ -258,7 +265,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       await audioProvider.checkAudioAvailability(_hymn!);
       
     } catch (e) {
-      print('⚠️ [HymnDetail] Failed to check audio availability: $e');
+      print('❌ [HymnDetail] Failed to check audio availability: $e');
       setState(() {
         _isCheckingAudio = false;
       });
@@ -682,7 +689,11 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               final hasAudio = _audioInfo?.hasAnyAudio ?? false;
               final isCheckingAudio = _isCheckingAudio || (_audioInfo?.isChecking ?? false);
               
+              print('🎵 [HymnDetail] Audio button state: isCheckingAudio=$isCheckingAudio, hasAudio=$hasAudio, isCurrentHymn=$isCurrentHymn, isPlaying=${audioProvider.isPlaying}');
+              print('🎵 [HymnDetail] _isCheckingAudio=$_isCheckingAudio, _audioInfo?.isChecking=${_audioInfo?.isChecking}');
+              
               if (isCheckingAudio) {
+                print('🎵 [HymnDetail] Showing loading button (CircularProgressIndicator)');
                 return IconButton(
                   icon: const SizedBox(
                     width: 20,
@@ -712,6 +723,10 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                     case 'play':
                       _togglePlayback(audioProvider);
                       break;
+                    case 'stop':
+                      print('🎵 [HymnDetail] Stopping playback');
+                      audioProvider.stop();
+                      break;
                     case 'download_mp3':
                       _downloadAudioFile(AudioFormat.mp3);
                       break;
@@ -731,6 +746,17 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                       ],
                     ),
                   ),
+                  if (isCurrentHymn && (audioProvider.isPlaying || audioProvider.isPaused))
+                    PopupMenuItem(
+                      value: 'stop',
+                      child: Row(
+                        children: [
+                          const Icon(Icons.stop),
+                          const SizedBox(width: 8),
+                          const Text('Stop'),
+                        ],
+                      ),
+                    ),
                   // Only show download options for remote files (not already cached locally)
                   if ((_audioInfo?.availableFormats.contains(AudioFormat.mp3) ?? false) &&
                       !(_audioInfo?.audioFiles[AudioFormat.mp3]?.isLocal ?? false))
@@ -1782,15 +1808,21 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   void _togglePlayback(AudioPlayerProvider audioProvider) {
     final isCurrentHymn = audioProvider.currentHymn?.id == widget.hymnId;
     
+    print('🎵 [HymnDetail] _togglePlayback called: isCurrentHymn=$isCurrentHymn, isPlaying=${audioProvider.isPlaying}');
+    
     if (isCurrentHymn) {
       if (audioProvider.isPlaying) {
+        print('🎵 [HymnDetail] Pausing current hymn');
         audioProvider.pause();
       } else {
+        print('🎵 [HymnDetail] Resuming current hymn');
         audioProvider.resume();
       }
     } else {
       // Use the current hymn for playback with preferred format
       final preferredFormat = _audioInfo?.preferredFormat;
+      print('🎵 [HymnDetail] Starting playback of new hymn ${_hymn!.hymnNumber}: ${_hymn!.title}');
+      print('🎵 [HymnDetail] Preferred format: $preferredFormat');
       audioProvider.playHymn(_hymn!, preferredFormat: preferredFormat);
     }
   }
