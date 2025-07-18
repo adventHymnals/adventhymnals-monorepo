@@ -723,7 +723,9 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                       ],
                     ),
                   ),
-                  if (_audioInfo?.availableFormats.contains(AudioFormat.mp3) ?? false)
+                  // Only show download options for remote files (not already cached locally)
+                  if ((_audioInfo?.availableFormats.contains(AudioFormat.mp3) ?? false) &&
+                      !(_audioInfo?.audioFiles[AudioFormat.mp3]?.isLocal ?? false))
                     const PopupMenuItem(
                       value: 'download_mp3',
                       child: Row(
@@ -734,7 +736,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                         ],
                       ),
                     ),
-                  if (_audioInfo?.availableFormats.contains(AudioFormat.midi) ?? false)
+                  if ((_audioInfo?.availableFormats.contains(AudioFormat.midi) ?? false) &&
+                      !(_audioInfo?.audioFiles[AudioFormat.midi]?.isLocal ?? false))
                     const PopupMenuItem(
                       value: 'download_midi',
                       child: Row(
