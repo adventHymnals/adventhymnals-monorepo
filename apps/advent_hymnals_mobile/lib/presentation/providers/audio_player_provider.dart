@@ -230,6 +230,29 @@ class AudioPlayerProvider extends ChangeNotifier {
       return false;
     }
   }
+
+  // Play audio from local file
+  Future<void> playFromLocalFile(String filePath) async {
+    try {
+      _setAudioState(AudioState.loading);
+      
+      if (Platform.isWindows && _windowsAudioService != null) {
+        // Use Windows audio service
+        final success = await _windowsAudioService!.playFromFile(filePath);
+        if (!success) {
+          _setError(_windowsAudioService!.lastError ?? 'Failed to play local file on Windows');
+          return;
+        }
+        // State will be set via Windows audio service listeners
+      } else {
+        // Use standard audio player
+        await _audioPlayer.play(DeviceFileSource(filePath));
+        // State will be set via standard audio player listeners
+      }
+    } catch (e) {
+      _setError('Failed to play local file: ${e.toString()}');
+    }
+  }
   
   // Playback control methods
   Future<void> playHymn(Hymn hymn, {List<Hymn>? playlist, AudioFormat? preferredFormat}) async {
@@ -273,7 +296,13 @@ class AudioPlayerProvider extends ChangeNotifier {
       );
       
       if (audioFile == null) {
-        _setError('No suitable audio file found for playback');
+        _setError('No audio files available for this platform');
+        return;
+      }
+      
+      // Check if the selected format is supported on this platform
+      if (!ComprehensiveAudioService.isFormatSupported(audioFile.format)) {
+        _setError('Audio format not supported on this platform');
         return;
       }
       
@@ -299,6 +328,7 @@ class AudioPlayerProvider extends ChangeNotifier {
           _setError(_windowsAudioService!.lastError ?? 'Failed to play hymn on Windows');
           return;
         }
+        // State will be set via Windows audio service listeners
       } else {
         // Use standard audio player
         if (audioFile.isLocal) {
@@ -306,6 +336,7 @@ class AudioPlayerProvider extends ChangeNotifier {
         } else {
           await _audioPlayer.play(UrlSource(audioSource));
         }
+        // State will be set via standard audio player listeners
       }
       
       notifyListeners();

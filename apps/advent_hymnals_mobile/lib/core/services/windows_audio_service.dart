@@ -12,6 +12,9 @@ class WindowsAudioService {
   bool _isInitialized = false;
   String? _lastError;
 
+  /// Get the underlying AudioPlayer instance for event listening
+  AudioPlayer? get audioPlayer => _audioPlayer;
+
   /// Initialize Windows audio service
   Future<bool> initialize() async {
     if (_isInitialized) return true;

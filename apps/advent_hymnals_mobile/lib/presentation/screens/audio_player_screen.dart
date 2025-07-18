@@ -449,7 +449,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
             title: Text(
               hymn.title,
               style: TextStyle(
-                color: isCurrentHymn ? Colors.white : Theme.of(context).textTheme.bodyLarge?.color,
+                color: isCurrentHymn ? const Color(AppColors.primaryBlue) : Theme.of(context).textTheme.bodyLarge?.color,
                 fontWeight: isCurrentHymn ? FontWeight.w600 : FontWeight.normal,
               ),
             ),
@@ -615,20 +615,20 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
           children: [
             // Cache Info Card
             Card(
-              color: const Color(0xFF2A2A2A),
+              color: Theme.of(context).cardColor,
               child: Padding(
                 padding: const EdgeInsets.all(16),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Row(
+                    Row(
                       children: [
-                        Icon(Icons.storage, color: Colors.white),
-                        SizedBox(width: 8),
+                        Icon(Icons.storage, color: Theme.of(context).textTheme.bodyLarge?.color),
+                        const SizedBox(width: 8),
                         Text(
                           'Cache Information',
                           style: TextStyle(
-                            color: Colors.white,
+                            color: Theme.of(context).textTheme.bodyLarge?.color,
                             fontSize: 18,
                             fontWeight: FontWeight.w600,
                           ),
@@ -639,16 +639,16 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        const Text(
+                        Text(
                           'Cache Size:',
-                          style: TextStyle(color: Colors.grey),
+                          style: TextStyle(color: Theme.of(context).textTheme.bodyMedium?.color),
                         ),
                         Text(
                           snapshot.hasData 
                             ? audioProvider.formatCacheSize(snapshot.data!)
                             : 'Calculating...',
-                          style: const TextStyle(
-                            color: Colors.white,
+                          style: TextStyle(
+                            color: Theme.of(context).textTheme.bodyLarge?.color,
                             fontWeight: FontWeight.w500,
                           ),
                         ),
@@ -1050,10 +1050,9 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
   }
 
   void _playFile(String filePath) {
-    // TODO: Implement playing local file
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('Playing local files coming soon')),
-    );
+    // Play the local file using audio player provider
+    final audioProvider = Provider.of<AudioPlayerProvider>(context, listen: false);
+    audioProvider.playFromLocalFile(filePath);
   }
 }
 
