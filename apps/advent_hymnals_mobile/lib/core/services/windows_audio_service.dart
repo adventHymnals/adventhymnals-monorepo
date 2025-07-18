@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/foundation.dart';
+import 'windows_midi_service.dart';
 
 /// Windows-specific audio service for handling platform-specific audio operations
 class WindowsAudioService {
@@ -9,6 +10,7 @@ class WindowsAudioService {
   WindowsAudioService._internal();
 
   AudioPlayer? _audioPlayer;
+  WindowsMidiService? _midiService;
   bool _isInitialized = false;
   String? _lastError;
 
@@ -25,6 +27,10 @@ class WindowsAudioService {
       }
 
       _audioPlayer = AudioPlayer();
+      _midiService = WindowsMidiService.instance;
+      
+      // Initialize MIDI service
+      await _midiService!.initialize();
       
       // Windows-specific audio configuration
       await _configureWindowsAudio();
@@ -115,14 +121,40 @@ class WindowsAudioService {
     try {
       // Convert to Windows-compatible file path
       final windowsPath = _normalizeWindowsPath(filePath);
-      await _audioPlayer!.play(DeviceFileSource(windowsPath));
-      _lastError = null;
       
-      if (kDebugMode) {
-        print('✅ [WindowsAudioService] Started playing file: $windowsPath');
+      // Check if this is a MIDI file
+      if (filePath.toLowerCase().endsWith('.mid') || filePath.toLowerCase().endsWith('.midi')) {
+        if (kDebugMode) {
+          print('🎵 [WindowsAudioService] Detected MIDI file, using MIDI service: $windowsPath');
+        }
+        
+        if (_midiService != null) {
+          final success = await _midiService!.playMidiFile(windowsPath);
+          if (success) {
+            _lastError = null;
+            if (kDebugMode) {
+              print('✅ [WindowsAudioService] Started playing MIDI file: $windowsPath');
+            }
+            return true;
+          } else {
+            _lastError = _midiService!.lastError ?? 'Failed to play MIDI file';
+            if (kDebugMode) {
+              print('❌ [WindowsAudioService] MIDI playback failed: $_lastError');
+            }
+            return false;
+          }
+        }
+      } else {
+        // Use regular audio player for non-MIDI files
+        await _audioPlayer!.play(DeviceFileSource(windowsPath));
+        _lastError = null;
+        
+        if (kDebugMode) {
+          print('✅ [WindowsAudioService] Started playing file: $windowsPath');
+        }
+        
+        return true;
       }
-      
-      return true;
     } catch (e) {
       _lastError = 'Failed to play file: ${e.toString()}';
       if (kDebugMode) {
@@ -130,6 +162,8 @@ class WindowsAudioService {
       }
       return false;
     }
+    
+    return false;
   }
 
   /// Pause audio playback
@@ -175,7 +209,13 @@ class WindowsAudioService {
     if (_audioPlayer == null) return false;
 
     try {
+      // Stop both regular audio and MIDI playback
       await _audioPlayer!.stop();
+      
+      if (_midiService != null) {
+        await _midiService!.stopMidiPlayback();
+      }
+      
       if (kDebugMode) {
         print('✅ [WindowsAudioService] Audio stopped');
       }
