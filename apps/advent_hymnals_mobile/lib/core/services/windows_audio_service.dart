@@ -13,7 +13,7 @@ class WindowsAudioService {
   String? _lastError;
 
   /// Get the underlying AudioPlayer instance for event listening
-  AudioPlayer? get audioPlayer => _audioPlayer;
+  AudioPlayer? get playerInstance => _audioPlayer;
 
   /// Initialize Windows audio service
   Future<bool> initialize() async {

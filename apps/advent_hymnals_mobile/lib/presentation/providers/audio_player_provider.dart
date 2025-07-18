@@ -149,7 +149,7 @@ class AudioPlayerProvider extends ChangeNotifier {
         final initialized = await _windowsAudioService!.initialize();
         if (initialized) {
           // Set up Windows audio player event listeners
-          final windowsPlayer = _windowsAudioService!.audioPlayer;
+          final windowsPlayer = _windowsAudioService!.playerInstance;
           if (windowsPlayer != null) {
             windowsPlayer.onPlayerStateChanged.listen((state) {
               switch (state) {
