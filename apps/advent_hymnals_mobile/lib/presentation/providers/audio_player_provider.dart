@@ -198,7 +198,16 @@ class AudioPlayerProvider extends ChangeNotifier {
   Future<void> checkAudioAvailability(Hymn hymn) async {
     try {
       _setAudioState(AudioState.checking_availability);
-      _currentAudioInfo = await _audioService.getAudioInfo(hymn);
+      _currentAudioInfo = await _audioService.getAudioInfo(hymn, onComplete: (updatedInfo) {
+        // Update state when audio check completes
+        _currentAudioInfo = updatedInfo;
+        if (updatedInfo.hasAnyAudio) {
+          _setAudioState(AudioState.stopped);
+        } else if (!updatedInfo.isChecking) {
+          _setAudioState(AudioState.stopped);
+        }
+        notifyListeners();
+      });
       
       if (_currentAudioInfo!.hasAnyAudio) {
         _setAudioState(AudioState.stopped);

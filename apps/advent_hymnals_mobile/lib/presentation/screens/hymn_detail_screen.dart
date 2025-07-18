@@ -238,7 +238,15 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       });
       
       final audioService = ComprehensiveAudioService.instance;
-      final audioInfo = await audioService.getAudioInfo(_hymn!);
+      final audioInfo = await audioService.getAudioInfo(_hymn!, onComplete: (updatedInfo) {
+        // Update UI when audio check completes
+        if (mounted) {
+          setState(() {
+            _audioInfo = updatedInfo;
+            _isCheckingAudio = false;
+          });
+        }
+      });
       
       setState(() {
         _audioInfo = audioInfo;

@@ -111,7 +111,7 @@ class ComprehensiveAudioService {
   }
   
   /// Get audio availability for a hymn (with caching)
-  Future<HymnAudioInfo> getAudioInfo(Hymn hymn) async {
+  Future<HymnAudioInfo> getAudioInfo(Hymn hymn, {Function(HymnAudioInfo)? onComplete}) async {
     final cacheKey = '${hymn.collectionAbbreviation}_${hymn.hymnNumber}';
     
     // Check if we have recent cached data
@@ -136,13 +136,13 @@ class ComprehensiveAudioService {
     _audioCache[cacheKey] = initialInfo;
     
     // Check availability asynchronously
-    _checkAudioAvailability(hymn, cacheKey);
+    _checkAudioAvailability(hymn, cacheKey, onComplete: onComplete);
     
     return initialInfo;
   }
   
   /// Check audio availability for all formats
-  Future<void> _checkAudioAvailability(Hymn hymn, String cacheKey) async {
+  Future<void> _checkAudioAvailability(Hymn hymn, String cacheKey, {Function(HymnAudioInfo)? onComplete}) async {
     final Map<AudioFormat, AudioAvailability> availability = {};
     final Map<AudioFormat, AudioFileInfo> audioFiles = {};
     
@@ -184,6 +184,11 @@ class ComprehensiveAudioService {
     
     if (kDebugMode) {
       print('✅ [AudioService] Audio availability checked for ${hymn.title}: ${availability.toString()}');
+    }
+    
+    // Notify completion
+    if (onComplete != null) {
+      onComplete(updatedInfo);
     }
   }
   
