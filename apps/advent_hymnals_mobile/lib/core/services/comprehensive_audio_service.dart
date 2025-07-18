@@ -54,9 +54,13 @@ class HymnAudioInfo {
     final available = availableFormats;
     if (available.isEmpty) return null;
     
-    // On Windows, only MP3 is supported (MIDI files are not supported)
+    // TEMPORARILY: Allow MIDI on Windows for testing
     if (Platform.isWindows) {
-      return available.contains(AudioFormat.mp3) ? AudioFormat.mp3 : null;
+      if (kDebugMode) {
+        print('🔍 [AudioService] Windows preferred format - available: $available');
+      }
+      // Prefer MP3 if available, otherwise use MIDI temporarily
+      return available.contains(AudioFormat.mp3) ? AudioFormat.mp3 : available.first;
     }
     
     // MP3 is supported on all platforms and provides better quality
@@ -89,8 +93,11 @@ class ComprehensiveAudioService {
       case AudioFormat.mp3:
         return true; // MP3 is supported on all platforms
       case AudioFormat.midi:
-        // MIDI files are not supported on Windows
-        return !Platform.isWindows;
+        // TEMPORARILY allow MIDI on Windows to test - we'll need to fix this properly
+        if (kDebugMode) {
+          print('🔍 [AudioService] MIDI support check on Windows - temporarily allowing for testing');
+        }
+        return true; // Temporarily allow MIDI on Windows
     }
   }
   
@@ -185,18 +192,32 @@ class ComprehensiveAudioService {
     final Map<AudioFormat, AudioAvailability> availability = {};
     final Map<AudioFormat, AudioFileInfo> audioFiles = {};
     
+    if (kDebugMode) {
+      print('🔍 [AudioService] Checking audio availability for ${hymn.title}');
+    }
+    
     // Check each format
     for (final format in AudioFormat.values) {
       // Skip unsupported formats on current platform
       if (!isFormatSupported(format)) {
         availability[format] = AudioAvailability.unavailable;
+        if (kDebugMode) {
+          print('🔍 [AudioService] Skipping ${format.name} - not supported on this platform');
+        }
         continue;
       }
       
       final urls = _getAudioUrls(hymn, format);
       bool found = false;
       
+      if (kDebugMode) {
+        print('🔍 [AudioService] Checking ${format.name} URLs: $urls');
+      }
+      
       for (final url in urls) {
+        if (kDebugMode) {
+          print('🔍 [AudioService] Testing URL: $url');
+        }
         if (await _checkAudioExists(url)) {
           availability[format] = AudioAvailability.available;
           audioFiles[format] = AudioFileInfo(
@@ -205,12 +226,22 @@ class ComprehensiveAudioService {
             isLocal: false,
           );
           found = true;
+          if (kDebugMode) {
+            print('✅ [AudioService] Found ${format.name} file: $url');
+          }
           break;
+        } else {
+          if (kDebugMode) {
+            print('❌ [AudioService] URL not found: $url');
+          }
         }
       }
       
       if (!found) {
         availability[format] = AudioAvailability.unavailable;
+        if (kDebugMode) {
+          print('❌ [AudioService] No ${format.name} files found');
+        }
       }
     }
     
@@ -318,20 +349,43 @@ class ComprehensiveAudioService {
   /// Get the best audio file for playback (local first, then online)
   Future<AudioFileInfo?> getBestAudioFile(HymnAudioInfo audioInfo, {AudioFormat? preferredFormat}) async {
     final format = preferredFormat ?? audioInfo.preferredFormat;
-    if (format == null) return null;
+    
+    if (kDebugMode) {
+      print('🔍 [AudioService] getBestAudioFile: preferredFormat=$preferredFormat, audioInfo.preferredFormat=${audioInfo.preferredFormat}, final format=$format');
+      print('🔍 [AudioService] Available formats: ${audioInfo.availableFormats}');
+      print('🔍 [AudioService] Audio files: ${audioInfo.audioFiles.keys.toList()}');
+    }
+    
+    if (format == null) {
+      if (kDebugMode) {
+        print('❌ [AudioService] No suitable format found for this platform');
+      }
+      return null;
+    }
     
     final audioFile = audioInfo.audioFiles[format];
-    if (audioFile == null) return null;
+    if (audioFile == null) {
+      if (kDebugMode) {
+        print('❌ [AudioService] No audio file found for format ${format.name}');
+      }
+      return null;
+    }
     
     // Check if local file exists and is valid
     if (audioFile.isLocal && audioFile.localPath != null) {
       final localFile = File(audioFile.localPath!);
       if (await localFile.exists()) {
+        if (kDebugMode) {
+          print('✅ [AudioService] Returning local file: ${audioFile.localPath}');
+        }
         return audioFile;
       }
     }
     
     // Return online file
+    if (kDebugMode) {
+      print('✅ [AudioService] Returning online file: ${audioFile.url}');
+    }
     return audioFile;
   }
   
