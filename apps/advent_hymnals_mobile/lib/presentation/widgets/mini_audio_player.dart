@@ -172,6 +172,29 @@ class MiniAudioPlayer extends StatelessWidget {
                                 ),
                               ),
                             ),
+                            
+                            const SizedBox(width: 8),
+                            
+                            // Close Button
+                            GestureDetector(
+                              onTap: () {
+                                audioProvider.stop();
+                                audioProvider.clearPlaylist();
+                              },
+                              child: Container(
+                                width: 32,
+                                height: 32,
+                                decoration: BoxDecoration(
+                                  color: Colors.white.withOpacity(0.2),
+                                  shape: BoxShape.circle,
+                                ),
+                                child: const Icon(
+                                  Icons.close,
+                                  color: Colors.white,
+                                  size: 18,
+                                ),
+                              ),
+                            ),
                           ],
                         ),
                       ],

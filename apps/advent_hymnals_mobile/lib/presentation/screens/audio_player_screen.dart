@@ -38,14 +38,17 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
     return Consumer<AudioPlayerProvider>(
       builder: (context, audioProvider, child) {
         return Scaffold(
-          backgroundColor: const Color(0xFF0A0A0A),
+          backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           appBar: AppBar(
-            backgroundColor: const Color(0xFF0A0A0A),
-            foregroundColor: Colors.white,
+            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            foregroundColor: Theme.of(context).textTheme.bodyLarge?.color,
             elevation: 0,
-            title: const Text(
+            title: Text(
               'Audio Player',
-              style: TextStyle(fontWeight: FontWeight.w600),
+              style: TextStyle(
+                fontWeight: FontWeight.w600,
+                color: Theme.of(context).textTheme.bodyLarge?.color,
+              ),
             ),
             actions: [
               IconButton(
@@ -157,13 +160,13 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
                 Icon(
                   Icons.music_note,
                   size: 64,
-                  color: Colors.white.withOpacity(0.8),
+                  color: Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.8),
                 ),
                 const SizedBox(height: 8),
                 Text(
                   '#${hymn.hymnNumber}',
                   style: TextStyle(
-                    color: Colors.white.withOpacity(0.6),
+                    color: Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.6),
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
                   ),
@@ -177,8 +180,8 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
           // Hymn Information
           Text(
             hymn.title,
-            style: const TextStyle(
-              color: Colors.white,
+            style: TextStyle(
+              color: Theme.of(context).textTheme.bodyLarge?.color,
               fontSize: 24,
               fontWeight: FontWeight.bold,
             ),
@@ -193,7 +196,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
             Text(
               hymn.author!,
               style: TextStyle(
-                color: Colors.white.withOpacity(0.7),
+                color: Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.7),
                 fontSize: 16,
               ),
               textAlign: TextAlign.center,
@@ -205,7 +208,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
               child: Text(
                 hymn.collectionAbbreviation!,
                 style: TextStyle(
-                  color: Colors.white.withOpacity(0.5),
+                  color: Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.5),
                   fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
@@ -228,7 +231,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
               Icons.shuffle,
               color: audioProvider.isShuffleEnabled
                   ? const Color(AppColors.primaryBlue)
-                  : Colors.white.withOpacity(0.7),
+                  : Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.7),
               size: 28,
             ),
             onPressed: audioProvider.toggleShuffle,
@@ -236,7 +239,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
           
           // Previous
           IconButton(
-            icon: const Icon(Icons.skip_previous, color: Colors.white, size: 36),
+            icon: Icon(Icons.skip_previous, color: Theme.of(context).textTheme.bodyLarge?.color, size: 36),
             onPressed: audioProvider.hasPrevious ? audioProvider.playPrevious : null,
           ),
           
@@ -275,7 +278,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
           
           // Next
           IconButton(
-            icon: const Icon(Icons.skip_next, color: Colors.white, size: 36),
+            icon: Icon(Icons.skip_next, color: Theme.of(context).textTheme.bodyLarge?.color, size: 36),
             onPressed: audioProvider.hasNext ? audioProvider.playNext : null,
           ),
           
@@ -288,7 +291,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
                       ? Icons.repeat_one
                       : Icons.repeat,
               color: audioProvider.repeatMode == RepeatMode.off
-                  ? Colors.white.withOpacity(0.7)
+                  ? Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.7)
                   : const Color(AppColors.primaryBlue),
               size: 28,
             ),
@@ -308,7 +311,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
           SliderTheme(
             data: SliderTheme.of(context).copyWith(
               activeTrackColor: const Color(AppColors.primaryBlue),
-              inactiveTrackColor: Colors.white.withOpacity(0.3),
+              inactiveTrackColor: Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.3),
               thumbColor: const Color(AppColors.primaryBlue),
               overlayColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
               trackHeight: 4,
@@ -332,14 +335,14 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
                 Text(
                   audioProvider.positionText,
                   style: TextStyle(
-                    color: Colors.white.withOpacity(0.7),
+                    color: Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.7),
                     fontSize: 12,
                   ),
                 ),
                 Text(
                   audioProvider.durationText,
                   style: TextStyle(
-                    color: Colors.white.withOpacity(0.7),
+                    color: Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.7),
                     fontSize: 12,
                   ),
                 ),
@@ -356,12 +359,12 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
       children: [
         // Tab Bar
         Container(
-          color: const Color(0xFF1A1A1A),
+          color: Theme.of(context).cardColor,
           child: TabBar(
             controller: _tabController,
             indicatorColor: const Color(AppColors.primaryBlue),
-            labelColor: Colors.white,
-            unselectedLabelColor: Colors.white.withOpacity(0.6),
+            labelColor: Theme.of(context).textTheme.bodyLarge?.color,
+            unselectedLabelColor: Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.6),
             tabs: const [
               Tab(text: 'Queue'),
               Tab(text: 'Playlists'),
@@ -387,28 +390,28 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
 
   Widget _buildQueueTab(AudioPlayerProvider audioProvider) {
     if (audioProvider.playlist.isEmpty) {
-      return const Center(
+      return Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(
               Icons.queue_music,
               size: 64,
-              color: Colors.grey,
+              color: Theme.of(context).textTheme.bodyMedium?.color,
             ),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
             Text(
               'No hymns in queue',
               style: TextStyle(
-                color: Colors.grey,
+                color: Theme.of(context).textTheme.bodyMedium?.color,
                 fontSize: 18,
               ),
             ),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
             Text(
               'Add hymns to start playing',
               style: TextStyle(
-                color: Colors.grey,
+                color: Theme.of(context).textTheme.bodyMedium?.color,
                 fontSize: 14,
               ),
             ),
@@ -429,7 +432,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
           key: ValueKey(hymn.id),
           color: isCurrentHymn 
             ? const Color(AppColors.primaryBlue).withOpacity(0.2)
-            : const Color(0xFF2A2A2A),
+            : Theme.of(context).cardColor,
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: isCurrentHymn 
@@ -438,7 +441,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
               child: Text(
                 hymn.hymnNumber.toString(),
                 style: TextStyle(
-                  color: isCurrentHymn ? Colors.white : Colors.grey[600],
+                  color: isCurrentHymn ? Colors.white : Theme.of(context).textTheme.bodyMedium?.color,
                   fontWeight: FontWeight.w600,
                 ),
               ),
@@ -446,7 +449,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
             title: Text(
               hymn.title,
               style: TextStyle(
-                color: isCurrentHymn ? Colors.white : Colors.grey[300],
+                color: isCurrentHymn ? Colors.white : Theme.of(context).textTheme.bodyLarge?.color,
                 fontWeight: isCurrentHymn ? FontWeight.w600 : FontWeight.normal,
               ),
             ),
@@ -454,7 +457,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
                 ? Text(
                     hymn.author!,
                     style: TextStyle(
-                      color: Colors.grey[600],
+                      color: Theme.of(context).textTheme.bodyMedium?.color,
                     ),
                   )
                 : null,
@@ -468,7 +471,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
                   ),
                 IconButton(
                   icon: const Icon(Icons.remove_circle_outline),
-                  color: Colors.grey[600],
+                  color: Theme.of(context).textTheme.bodyMedium?.color,
                   onPressed: () {
                     audioProvider.removeFromPlaylist(index);
                   },
@@ -752,11 +755,11 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
     final hymn = audioProvider.currentHymn;
     
     if (hymn == null) {
-      return const Center(
+      return Center(
         child: Text(
           'No hymn selected',
           style: TextStyle(
-            color: Colors.grey,
+            color: Theme.of(context).textTheme.bodyMedium?.color,
             fontSize: 18,
           ),
         ),
@@ -764,7 +767,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
     }
 
     return Container(
-      color: const Color(0xFF1A1A1A),
+      color: Theme.of(context).cardColor,
       child: SingleChildScrollView(
         padding: const EdgeInsets.all(24),
         child: Column(
@@ -773,8 +776,8 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
             // Hymn Title
             Text(
               hymn.title,
-              style: const TextStyle(
-                color: Colors.white,
+              style: TextStyle(
+                color: Theme.of(context).textTheme.bodyLarge?.color,
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
               ),
@@ -785,7 +788,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
               Text(
                 'By ${hymn.author}',
                 style: TextStyle(
-                  color: Colors.white.withOpacity(0.7),
+                  color: Theme.of(context).textTheme.bodyLarge?.color?.withOpacity(0.7),
                   fontSize: 16,
                 ),
               ),
@@ -797,17 +800,17 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen>
             if (hymn.lyrics != null && hymn.lyrics!.isNotEmpty)
               Text(
                 hymn.lyrics!,
-                style: const TextStyle(
-                  color: Colors.white,
+                style: TextStyle(
+                  color: Theme.of(context).textTheme.bodyLarge?.color,
                   fontSize: 18,
                   height: 1.6,
                 ),
               )
             else
-              const Text(
+              Text(
                 'Lyrics not available',
                 style: TextStyle(
-                  color: Colors.grey,
+                  color: Theme.of(context).textTheme.bodyMedium?.color,
                   fontSize: 16,
                 ),
               ),

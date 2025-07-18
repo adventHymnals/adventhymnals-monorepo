@@ -50,15 +50,12 @@ class HymnAudioInfo {
       .toList();
       
   AudioFormat? get preferredFormat {
-    // Prefer MP3 for mobile, MIDI for desktop when both available
+    // Always prefer MP3 as it's more widely supported across platforms
     final available = availableFormats;
     if (available.isEmpty) return null;
     
-    if (Platform.isAndroid || Platform.isIOS) {
-      return available.contains(AudioFormat.mp3) ? AudioFormat.mp3 : available.first;
-    } else {
-      return available.contains(AudioFormat.midi) ? AudioFormat.midi : available.first;
-    }
+    // MP3 is supported on all platforms and provides better quality
+    return available.contains(AudioFormat.mp3) ? AudioFormat.mp3 : available.first;
   }
 }
 
