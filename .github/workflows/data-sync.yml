@@ -34,18 +34,18 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
           
-          # Sync only changed media files efficiently
+          # Sync only changed media files efficiently to consolidated infrastructure
           rsync -avz --delete --progress \
             data/sources/ \
-            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/opt/advent-hymnals/data/sources/
+            ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/opt/infrastructure-automation/advent-hymnals/data/sources/
           
-          # Fix permissions
+          # Fix permissions for consolidated structure
           ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
-            "sudo chown -R 1001:1001 /opt/advent-hymnals/data/sources/"
+            "sudo chown -R 1001:1001 /opt/infrastructure-automation/advent-hymnals/data/sources/"
           
-          # Restart media server to refresh content
+          # Restart media server using Make commands in consolidated infrastructure
           ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} \
-            "cd /opt/advent-hymnals && docker restart advent-hymnals-media"
+            "cd /opt/infrastructure-automation && make restart SERVICE=advent-hymnals-web"
           
           echo "✅ Media files synced successfully"
           

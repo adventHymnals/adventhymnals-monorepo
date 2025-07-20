@@ -216,12 +216,12 @@ jobs:
           key: ${{ secrets.DEPLOY_SSH_KEY }}
           port: ${{ secrets.DEPLOY_PORT || 22 }}
           script: |
-            cd /opt/advent-hymnals
+            cd /opt/infrastructure-automation
             
             echo "🚀 Starting deployment of Advent Hymnals..."
             echo "📦 Web Image: ${{ needs.build-docker.outputs.image-tags }}"
             
-            # Update .env file with secrets
+            # Update .env file with secrets (consolidated infrastructure)
             cat > .env << EOF
             SITE_URL=https://adventhymnals.org
             NEXT_PUBLIC_SITE_URL=https://adventhymnals.org
@@ -232,23 +232,23 @@ jobs:
             GOOGLE_SCRIPT_URL=${{ secrets.GOOGLE_SCRIPT_URL }}
             GOOGLE_CHOIR_SCRIPT_URL=${{ secrets.GOOGLE_CHOIR_SCRIPT_URL }}
             NEXT_PUBLIC_GOOGLE_CHOIR_SCRIPT_URL=${{ secrets.GOOGLE_CHOIR_SCRIPT_URL }}
+            ADVENT_HYMNALS_IMAGE=${{ needs.build-docker.outputs.image-tag }}
             EOF
             
             # Create external network if it doesn't exist
-            if ! docker network ls | grep -q web-network; then
+            if ! docker network ls | grep -q infrastructure-network; then
               echo "🌐 Creating external Docker network..."
-              docker network create web-network
+              docker network create infrastructure-network
             fi
             
             echo "📦 Pulling Docker images..."
             docker pull ${{ needs.build-docker.outputs.image-tag }}
             
-            echo "🛑 Stopping existing containers..."
-            docker compose down || true
+            echo "🛑 Stopping existing containers using Make..."
+            make stop
             
-            echo "🚀 Starting new containers..."
-            export ADVENT_HYMNALS_IMAGE="${{ needs.build-docker.outputs.image-tag }}"
-            docker compose up -d
+            echo "🚀 Starting containers with updated image using Make..."
+            make start
             
             sleep 15
             echo "✅ Deployment completed successfully!"
@@ -261,25 +261,29 @@ jobs:
           key: ${{ secrets.DEPLOY_SSH_KEY }}
           port: ${{ secrets.DEPLOY_PORT || 22 }}
           script: |
-            cd /opt/advent-hymnals
+            cd /opt/infrastructure-automation
             
             echo "🔍 Performing post-deployment verification..."
-            docker compose ps
+            make status
             
-            RUNNING_CONTAINERS=$(docker compose ps --services --filter "status=running" | wc -l)
+            # Get running container count using make ps
+            RUNNING_CONTAINERS=$(make ps | grep -c "Up" || echo "0")
             
             if [ "$RUNNING_CONTAINERS" -gt 0 ]; then
               echo "✅ Found $RUNNING_CONTAINERS running container(s)"
               
-              if curl -sf http://localhost/api/health > /dev/null 2>&1; then
+              # Test health endpoint through the infrastructure
+              if curl -sf http://localhost:3000/api/health > /dev/null 2>&1; then
                 echo "✅ Web application health check passed"
+              elif curl -sf http://localhost/api/health > /dev/null 2>&1; then
+                echo "✅ Web application health check passed (via proxy)"
               else
                 echo "⚠️ Web application health check failed"
-                docker compose logs --tail=10
+                make logs | tail -20
               fi
             else
               echo "❌ No containers are running"
-              docker compose logs --tail=20
+              make logs | tail -20
               exit 1
             fi
 
