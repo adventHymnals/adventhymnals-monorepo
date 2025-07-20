@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-134",
+  "number": 134,
+  "title": "O Jesus Sweet",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "6.6.6.6.6.6.6.6",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Jesus sweet, O Jesus mild,\nThy Father's will Thou hast fulfilled;\nFor Thou hast left Thy heavenly throne,\nO Jesus sweet, O Jesus mild."
+    },
+    {
+      "number": 2,
+      "text": "O Jesus sweet, O Jesus mild,\nWith joy Thou hast the whole world filled;\nThou comest down from heaven's pure fire,\nO Jesus sweet, O Jesus mild."
+    },
+    {
+      "number": 3,
+      "text": "O Jesus sweet, O Jesus mild,\nThou art love's image undefiled.\nInflame our hearts with Thy love's fire,\nO Jesus sweet, O Jesus mild."
+    },
+    {
+      "number": 4,
+      "text": "O Jesus sweet, O Jesus mild,\nHelp us to do as Thou hast willed.\nWhat'er we have be Thine own,\nO Jesus sweet, O Jesus mild."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "jesus",
+      "devotion",
+      "love",
+      "obedience",
+      "surrender"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

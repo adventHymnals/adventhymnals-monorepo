@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-403",
+  "number": 403,
+  "title": "Let Us Break Bread Together",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Let us break bread together on our knees;\nLet us break bread together on our knees."
+    },
+    {
+      "number": 2,
+      "text": "Let us drink wine together on our knees;\nLet us drink wine together on our knees."
+    },
+    {
+      "number": 3,
+      "text": "Let us praise God together on our knees;\nLet us praise God together on our knees."
+    }
+  ],
+  "chorus": {
+    "text": "When I fall on my knees, With my face to the rising sun,\nO Lord, have mercy on me."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "communion",
+      "worship",
+      "humility",
+      "praise"
+    ],
+    "scripture_references": [],
+    "tune_source": "Spiritual",
+    "original_language": "en"
+  }
+}

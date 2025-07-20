@@ -1,4 +1,7 @@
 import 'package:flutter/foundation.dart';
+import 'package:dio/dio.dart';
+import 'package:path_provider/path_provider.dart';
+import 'dart:io';
 import '../../core/database/database_helper.dart';
 import '../../core/constants/app_constants.dart';
 
@@ -77,6 +80,7 @@ class DownloadItem {
 
 class DownloadProvider extends ChangeNotifier {
   final DatabaseHelper _db = DatabaseHelper.instance;
+  final Dio _dio = Dio();
   
   final List<DownloadItem> _downloadQueue = [];
   final List<DownloadItem> _activeDownloads = [];
@@ -103,6 +107,33 @@ class DownloadProvider extends ChangeNotifier {
   int get queuedCount => _downloadQueue.length;
   int get activeCount => _activeDownloads.length;
   int get completedCount => _completedDownloads.length;
+
+  // Convenience methods for downloading hymns
+  Future<void> downloadHymnAudio(int hymnId, String hymnTitle, {String? collectionAbbr, String quality = 'standard'}) async {
+    final title = collectionAbbr != null ? '$collectionAbbr - $hymnTitle' : hymnTitle;
+    await addToDownloadQueue(hymnId, title, 'mp3', quality: quality);
+  }
+
+  Future<void> downloadHymnMidi(int hymnId, String hymnTitle, {String? collectionAbbr}) async {
+    final title = collectionAbbr != null ? '$collectionAbbr - $hymnTitle' : hymnTitle;
+    await addToDownloadQueue(hymnId, title, 'midi');
+  }
+
+  Future<void> downloadHymnSheet(int hymnId, String hymnTitle, {String? collectionAbbr}) async {
+    final title = collectionAbbr != null ? '$collectionAbbr - $hymnTitle' : hymnTitle;
+    await addToDownloadQueue(hymnId, title, 'pdf');
+  }
+
+  Future<void> downloadAllHymnFormats(int hymnId, String hymnTitle, {String? collectionAbbr}) async {
+    await downloadHymnAudio(hymnId, hymnTitle, collectionAbbr: collectionAbbr);
+    await downloadHymnMidi(hymnId, hymnTitle, collectionAbbr: collectionAbbr);
+    await downloadHymnSheet(hymnId, hymnTitle, collectionAbbr: collectionAbbr);
+  }
+
+  bool isHymnDownloaded(int hymnId, String fileType) {
+    final downloadKey = '${hymnId}_${fileType}_default';
+    return _completedDownloads.any((item) => item.downloadKey == downloadKey && item.state == DownloadState.completed);
+  }
 
   // Load download cache from database
   Future<void> loadDownloadCache() async {
@@ -321,25 +352,134 @@ class DownloadProvider extends ChangeNotifier {
 
   Future<void> _performDownload(DownloadItem item) async {
     try {
-      // Simulate download with progress updates
-      for (int i = 0; i <= 100; i += 10) {
-        await Future.delayed(const Duration(milliseconds: 100));
-        
-        final index = _activeDownloads.indexWhere((activeItem) => activeItem.downloadKey == item.downloadKey);
-        if (index != -1) {
-          _activeDownloads[index] = _activeDownloads[index].copyWith(
-            progress: i / 100.0,
-          );
-          notifyListeners();
-        }
-      }
+      // Get the download URL for the media file
+      final downloadUrl = _getMediaDownloadUrl(item);
+      
+      // Get the local file path where the file will be saved
+      final filePath = await _getLocalFilePath(item);
+      
+      // Ensure the directory exists
+      final file = File(filePath);
+      await file.parent.create(recursive: true);
+      
+      // Start the download with progress tracking
+      await _dio.download(
+        downloadUrl,
+        filePath,
+        onReceiveProgress: (received, total) {
+          if (total != -1) {
+            final progress = received / total;
+            final index = _activeDownloads.indexWhere((activeItem) => activeItem.downloadKey == item.downloadKey);
+            if (index != -1) {
+              _activeDownloads[index] = _activeDownloads[index].copyWith(
+                progress: progress,
+              );
+              notifyListeners();
+            }
+          }
+        },
+        options: Options(
+          headers: {
+            'Accept': '*/*',
+            'User-Agent': 'AdventHymnals/1.0',
+          },
+        ),
+      );
 
-      // Simulate successful completion
-      await _handleDownloadSuccess(item);
+      // Get file size
+      final fileSize = await file.length();
+      
+      // Handle successful download
+      await _handleDownloadSuccess(item.copyWith(
+        filePath: filePath,
+        fileSize: fileSize,
+      ));
       
     } catch (e) {
       await _handleDownloadError(item, e.toString());
     }
+  }
+
+  String _getMediaDownloadUrl(DownloadItem item) {
+    // Use the same CDN structure as the audio player
+    final baseUrl = 'https://media.adventhymnals.org';
+    
+    switch (item.fileType.toLowerCase()) {
+      case 'mp3':
+      case 'audio':
+        // Extract collection abbreviation from hymn title or use default
+        final collectionAbbr = _extractCollectionFromTitle(item.hymnTitle) ?? 'CH1941';
+        return '$baseUrl/audio/$collectionAbbr/${item.hymnId}.mp3';
+      
+      case 'midi':
+      case 'mid':
+        final collectionAbbr = _extractCollectionFromTitle(item.hymnTitle) ?? 'CH1941';
+        return '$baseUrl/audio/$collectionAbbr/${item.hymnId}.mid';
+      
+      case 'pdf':
+        final collectionAbbr = _extractCollectionFromTitle(item.hymnTitle) ?? 'CH1941';
+        return '$baseUrl/pdf/$collectionAbbr/${item.hymnId}.pdf';
+      
+      case 'image':
+      case 'jpg':
+      case 'png':
+        final collectionAbbr = _extractCollectionFromTitle(item.hymnTitle) ?? 'CH1941';
+        return '$baseUrl/images/$collectionAbbr/page-${item.hymnId.toString().padLeft(3, '0')}.jpg';
+      
+      default:
+        throw Exception('Unsupported file type: ${item.fileType}');
+    }
+  }
+
+  String? _extractCollectionFromTitle(String title) {
+    // Try to extract collection abbreviation from title if it contains it
+    // This is a fallback - ideally we'd pass collection info in the DownloadItem
+    final patterns = ['CH1941', 'SDAH', 'CS1900', 'CM2000', 'NZK', 'WN', 'HGPP', 'HSAB'];
+    for (final pattern in patterns) {
+      if (title.contains(pattern)) {
+        return pattern;
+      }
+    }
+    return null;
+  }
+
+  Future<String> _getLocalFilePath(DownloadItem item) async {
+    final appDir = await getApplicationDocumentsDirectory();
+    final mediaDir = Directory('${appDir.path}/media');
+    
+    String subdirectory;
+    String extension;
+    
+    switch (item.fileType.toLowerCase()) {
+      case 'mp3':
+      case 'audio':
+        subdirectory = 'audio';
+        extension = 'mp3';
+        break;
+      case 'midi':
+      case 'mid':
+        subdirectory = 'audio';
+        extension = 'mid';
+        break;
+      case 'pdf':
+        subdirectory = 'pdf';
+        extension = 'pdf';
+        break;
+      case 'image':
+      case 'jpg':
+      case 'png':
+        subdirectory = 'images';
+        extension = 'jpg';
+        break;
+      default:
+        subdirectory = 'other';
+        extension = item.fileType.toLowerCase();
+    }
+    
+    final qualitySuffix = item.quality != null ? '_${item.quality}' : '';
+    final fileName = '${item.hymnId}$qualitySuffix.$extension';
+    
+    return '${mediaDir.path}/$subdirectory/$fileName';
   }
 
   Future<void> _handleDownloadSuccess(DownloadItem item) async {
@@ -362,9 +502,9 @@ class DownloadProvider extends ChangeNotifier {
       await _db.addDownloadCache(
         item.hymnId,
         item.fileType,
-        '/path/to/downloaded/file',
+        item.filePath ?? '',
         item.quality,
-        1024 * 1024,
+        item.fileSize ?? 0,
       );
       
       notifyListeners();

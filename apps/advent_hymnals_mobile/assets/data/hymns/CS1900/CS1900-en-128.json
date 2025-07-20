@@ -1,0 +1,37 @@
+{
+  "id": "CS1900-en-128",
+  "number": 128,
+  "title": "Hallelujah for the Cross!",
+  "author": "Horatius Bonar",
+  "composer": "J. H. Stockton",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The cross! it stand - eth fast, Hal - le - lu - jah! hal - le - lu - jah!\nDefying every blast, Hal - le - lu - jah! hal - le - lu - jah!\nFor this glad - ness day and night, Hal - le - lu - jah! hal - le - lu - jah!\nThe winds of hell have blown, The world its hate has shown,\nYet it is not overthrown, Hal - le - lu - jah! for the cross!"
+    },
+    {
+      "number": 2,
+      "text": "It is the old cross still, Hal - le - lu - jah! hal - le - lu - jah!\nIts triumph let us tell, Hal - le - lu - jah! hal - le - lu - jah!\nThe grace of God here flows, The truth of God here shows,\nHal - le - lu - jah! hal - le - lu - jah! So round the cross we sing, of Christ our Glo - rious King."
+    },
+    {
+      "number": 3,
+      "text": "Yet 'tis not overthrown, Hal - le - lu - jah! for the cross!\nWho died for sin atone, Hal - le - lu - jah! hal - le - lu - jah!\nThe world its hate has shown, Hal - le - lu - jah! for the cross!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1895, by J. H. Stockton.",
+    "themes": [
+      "cross",
+      "triumph",
+      "hallelujah"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. H. Stockton",
+    "original_language": "en"
+  }
+}

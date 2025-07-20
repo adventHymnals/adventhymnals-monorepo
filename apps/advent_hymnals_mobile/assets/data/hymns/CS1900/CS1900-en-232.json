@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-232",
+  "number": 232,
+  "title": "MORE LIKE JESUS",
+  "author": "FANNY J. CROSBY",
+  "composer": "W. H. DOANE",
+  "tune": null,
+  "meter": "7s. 6s.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "More like Jesus as we go, Let our lives and conduct show Let our Saviour's love with joy Fill our hearts from day to day."
+    },
+    {
+      "number": 2,
+      "text": "More like Jesus let us be, Till our blessed Lord we see; Take the world, the flesh, and all, That may tempt us to fall."
+    },
+    {
+      "number": 3,
+      "text": "More like Jesus, day by day, May we walk the narrow way; Till we reach the golden shore, Where the saved shall part no more."
+    },
+    {
+      "number": 4,
+      "text": "More like Jesus, while we pray, More like Jesus, day by day; Till we reach the shining shore, Where the saved shall part no more."
+    }
+  ],
+  "chorus": {
+    "text": "More like Jesus would I be, Let my Saviour dwell in me; Fill my soul with peace and love, Make me gentle as a dove."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1900, by W. H. DOANE. Used by permission.",
+    "themes": [
+      "jesus",
+      "christlike",
+      "growth",
+      "sanctification"
+    ],
+    "scripture_references": [],
+    "tune_source": "W. H. DOANE",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "SDAH-en-441",
+  "number": 441,
+  "title": "I Saw One Weary",
+  "author": "Eliza E. Hewitt",
+  "composer": "John R. Sweney",
+  "tune": "I SAW ONE WEARY",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I saw one weary, sad, and torn,\nWith eager steps press on the way,\nWho long the hallowed cross had borne,\nStill looking for the promised day;"
+    },
+    {
+      "number": 2,
+      "text": "And one I saw, with sword and shield,\nWho boldly braved the world's cold frown,\nAnd fought, unyielding, on the field,\nTo win an everlasting crown."
+    },
+    {
+      "number": 3,
+      "text": "And there was one who left behind\nThe cherished friends of early years,\nAnd honored, but pleasures none,\nOr tribulation, hate, and scorn,"
+    },
+    {
+      "number": 4,
+      "text": "While pilgrims here we journey on\nIn this dark vale of sin and gloom,\nThrough many a line of grief and care,\nUp on his brow was furrowed there;"
+    }
+  ],
+  "chorus": {
+    "text": "I asked what buoyed his spirits up,\n\"O this!\" said he, \"the blessed hope.\""
+  },
+  "metadata": {
+    "year": 1887,
+    "copyright": "Public Domain",
+    "themes": [
+      "pilgrimage",
+      "perseverance",
+      "hope",
+      "cross bearing",
+      "spiritual warfare"
+    ],
+    "scripture_references": [
+      "Hebrews 12:1-2",
+      "Ephesians 6:11-17",
+      "Titus 2:13"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-133",
+  "number": 133,
+  "title": "Now Is Born the Divine Christ Child",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "8.8.8.8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "He was born in a stable bare,\nOn bed of straw how He sleeps so soundly,\nHe was born in a stable bare,\nLet us worship and to Him bow."
+    },
+    {
+      "number": 2,
+      "text": "Ages long since are past and gone,\nWhen the wise men foretold His coming,\nAges long since are past and gone,\nWhen the wise men foretold His birth."
+    }
+  ],
+  "chorus": {
+    "text": "Now is born the divine Christ child,\nPlay the musette, play the tuneful oboe,\nNow is born the divine Christ child,\nSing we all and rejoice this day."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "christmas",
+      "nativity",
+      "worship",
+      "celebration",
+      "wise_men"
+    ],
+    "scripture_references": [
+      "Matthew 2:1-12",
+      "Luke 2:1-20"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

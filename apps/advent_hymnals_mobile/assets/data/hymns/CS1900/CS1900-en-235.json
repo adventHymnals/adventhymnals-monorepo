@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-235",
+  "number": 235,
+  "title": "I'VE FOUND A FRIEND",
+  "author": "J. G. SMALL",
+  "composer": "GEO. C. STEBBINS",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I've found a friend, O such a friend! He loved me ere I knew him; He drew me with the cords of love, And thus he bound me to him."
+    },
+    {
+      "number": 2,
+      "text": "I've found a friend, O such a friend! He bled, he died to save me; And not alone the gift of life, But his own self he gave me."
+    },
+    {
+      "number": 3,
+      "text": "I've found a friend, O such a friend! All pow'r to him is given, To guard me on my onward course, And bring me safe to heaven."
+    },
+    {
+      "number": 4,
+      "text": "I've found a friend, O such a friend! So kind and true and tender, So wise a counselor and guide, So mighty a defender!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "friend",
+      "jesus",
+      "love",
+      "salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": "GEO. C. STEBBINS",
+    "original_language": "en"
+  }
+}

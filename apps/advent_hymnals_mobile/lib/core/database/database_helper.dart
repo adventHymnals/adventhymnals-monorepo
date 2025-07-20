@@ -277,65 +277,123 @@ class DatabaseHelper {
     String? orderBy,
   }) async {
     final db = await database;
-    return await db.query(
-      'hymns',
-      limit: limit,
-      offset: offset,
-      orderBy: orderBy ?? 'hymn_number ASC',
-    );
+    return await db.rawQuery('''
+      SELECT h.*, a.name as author_name, c.name as collection_name, c.abbreviation as collection_abbr
+      FROM hymns h
+      LEFT JOIN authors a ON h.author_id = a.id
+      LEFT JOIN collections c ON h.collection_id = c.id
+      ORDER BY ${orderBy ?? 'h.hymn_number ASC'}
+      ${limit != null ? 'LIMIT $limit' : ''}
+      ${offset != null ? 'OFFSET $offset' : ''}
+    ''');
   }
 
   Future<Map<String, dynamic>?> getHymnById(int id) async {
     final db = await database;
-    final result = await db.query(
-      'hymns',
-      where: 'id = ?',
-      whereArgs: [id],
-      limit: 1,
-    );
+    final result = await db.rawQuery('''
+      SELECT h.*, a.name as author_name, c.name as collection_name, c.abbreviation as collection_abbr
+      FROM hymns h
+      LEFT JOIN authors a ON h.author_id = a.id
+      LEFT JOIN collections c ON h.collection_id = c.id
+      WHERE h.id = ?
+      LIMIT 1
+    ''', [id]);
     return result.isNotEmpty ? result.first : null;
   }
 
   Future<List<Map<String, dynamic>>> searchHymns(String query) async {
     final db = await database;
     return await db.rawQuery('''
-      SELECT h.*, a.name as author_name, c.name as collection_name, c.abbreviation as collection_abbr
+      SELECT h.*, a.name as author_name, c.name as collection_name, c.abbreviation as collection_abbr,
+             CASE WHEN f.hymn_id IS NOT NULL THEN 1 ELSE 0 END as is_favorite,
+             0 as has_audio,
+             (
+               -- Relevance scoring: exact matches get higher scores
+               CASE 
+                 WHEN LOWER(h.title) = LOWER(?) THEN 1000
+                 WHEN LOWER(h.title) LIKE LOWER(?) THEN 900
+                 WHEN LOWER(h.first_line) = LOWER(?) THEN 800
+                 WHEN LOWER(h.first_line) LIKE LOWER(?) THEN 700
+                 WHEN LOWER(a.name) = LOWER(?) THEN 600
+                 WHEN LOWER(a.name) LIKE LOWER(?) THEN 500
+                 WHEN LOWER(h.composer) LIKE LOWER(?) THEN 400
+                 WHEN LOWER(h.tune_name) LIKE LOWER(?) THEN 300
+                 WHEN LOWER(h.lyrics) LIKE LOWER(?) THEN 200
+                 ELSE 100
+               END +
+               -- Bonus for matches at the beginning of text
+               CASE 
+                 WHEN LOWER(h.title) LIKE LOWER(?) THEN 50
+                 WHEN LOWER(h.first_line) LIKE LOWER(?) THEN 40
+                 WHEN LOWER(a.name) LIKE LOWER(?) THEN 30
+                 ELSE 0
+               END +
+               -- Bonus for shorter texts (more specific matches)
+               CASE 
+                 WHEN LENGTH(h.title) < 30 THEN 20
+                 WHEN LENGTH(h.title) < 50 THEN 10
+                 ELSE 0
+               END
+             ) as relevance_score
       FROM hymns h
       LEFT JOIN authors a ON h.author_id = a.id
       LEFT JOIN collections c ON h.collection_id = c.id
-      WHERE h.title LIKE ? OR h.first_line LIKE ? OR a.name LIKE ? OR h.lyrics LIKE ?
-      ORDER BY 
-        CASE 
-          WHEN h.title LIKE ? THEN 1
-          WHEN h.first_line LIKE ? THEN 2
-          WHEN a.name LIKE ? THEN 3
-          ELSE 4
-        END,
-        h.title ASC
+      LEFT JOIN favorites f ON h.id = f.hymn_id AND f.user_id = 'default'
+      WHERE 
+        LOWER(h.title) LIKE LOWER(?) OR 
+        LOWER(h.first_line) LIKE LOWER(?) OR 
+        LOWER(a.name) LIKE LOWER(?) OR 
+        LOWER(h.composer) LIKE LOWER(?) OR 
+        LOWER(h.tune_name) LIKE LOWER(?) OR 
+        LOWER(h.lyrics) LIKE LOWER(?) OR
+        LOWER(h.meter) LIKE LOWER(?) OR
+        LOWER(h.scripture_refs) LIKE LOWER(?) OR
+        CAST(h.hymn_number AS TEXT) LIKE ?
+      ORDER BY relevance_score DESC, h.title ASC
     ''', [
-      '%$query%', '%$query%', '%$query%', '%$query%',
-      '$query%', '$query%', '$query%'
+      // For relevance scoring
+      query, '$query%', query, '$query%', query, '$query%', '%$query%', '%$query%', '%$query%',
+      '$query%', '$query%', '$query%',
+      // For WHERE clause
+      '%$query%', '%$query%', '%$query%', '%$query%', '%$query%', '%$query%', '%$query%', '%$query%', '%$query%'
     ]);
   }
 
   Future<List<Map<String, dynamic>>> getHymnsByCollection(int collectionId) async {
     final db = await database;
-    return await db.query(
-      'hymns',
-      where: 'collection_id = ?',
-      whereArgs: [collectionId],
-      orderBy: 'hymn_number ASC',
-    );
+    return await db.rawQuery('''
+      SELECT h.*, a.name as author_name, c.name as collection_name, c.abbreviation as collection_abbr
+      FROM hymns h
+      LEFT JOIN authors a ON h.author_id = a.id
+      LEFT JOIN collections c ON h.collection_id = c.id
+      WHERE h.collection_id = ?
+      ORDER BY h.hymn_number ASC
+    ''', [collectionId]);
+  }
+
+  Future<Map<String, dynamic>?> getHymnByNumberInCollection(int hymnNumber, int collectionId) async {
+    final db = await database;
+    final result = await db.rawQuery('''
+      SELECT h.*, a.name as author_name, c.name as collection_name, c.abbreviation as collection_abbr
+      FROM hymns h
+      LEFT JOIN authors a ON h.author_id = a.id
+      LEFT JOIN collections c ON h.collection_id = c.id
+      WHERE h.hymn_number = ? AND h.collection_id = ?
+      LIMIT 1
+    ''', [hymnNumber, collectionId]);
+    return result.isNotEmpty ? result.first : null;
   }
 
   Future<List<Map<String, dynamic>>> getHymnsByAuthor(int authorId) async {
     final db = await database;
-    return await db.query(
-      'hymns',
-      where: 'author_id = ?',
-      whereArgs: [authorId],
-      orderBy: 'title ASC',
-    );
+    return await db.rawQuery('''
+      SELECT h.*, a.name as author_name, c.name as collection_name, c.abbreviation as collection_abbr
+      FROM hymns h
+      LEFT JOIN authors a ON h.author_id = a.id
+      LEFT JOIN collections c ON h.collection_id = c.id
+      WHERE h.author_id = ?
+      ORDER BY h.title ASC
+    ''', [authorId]);
   }
 
   Future<List<Map<String, dynamic>>> getHymnsByTopic(int topicId) async {
@@ -730,33 +788,30 @@ class DatabaseHelper {
     try {
       final db = await database;
       
-      // Create the WHERE clause for full-text search within collection
-      const whereClause = '''
-        collection_id = ? AND (
-          title LIKE ? OR 
-          author_name LIKE ? OR 
-          composer LIKE ? OR 
-          tune_name LIKE ? OR 
-          meter LIKE ? OR 
-          first_line LIKE ? OR 
-          lyrics LIKE ? OR 
-          CAST(hymn_number AS TEXT) LIKE ?
+      final result = await db.rawQuery('''
+        SELECT h.*, a.name as author_name, c.name as collection_name, c.abbreviation as collection_abbr,
+               CASE WHEN f.hymn_id IS NOT NULL THEN 1 ELSE 0 END as is_favorite,
+               0 as has_audio
+        FROM hymns h
+        LEFT JOIN authors a ON h.author_id = a.id
+        LEFT JOIN collections c ON h.collection_id = c.id
+        LEFT JOIN favorites f ON h.id = f.hymn_id AND f.user_id = 'default'
+        WHERE h.collection_id = ? AND (
+          h.title LIKE ? OR 
+          a.name LIKE ? OR 
+          h.composer LIKE ? OR 
+          h.tune_name LIKE ? OR 
+          h.meter LIKE ? OR 
+          h.first_line LIKE ? OR 
+          h.lyrics LIKE ? OR 
+          CAST(h.hymn_number AS TEXT) LIKE ?
         )
-      ''';
-      
-      final searchTerm = '%$query%';
-      final whereArgs = [
+        ORDER BY h.hymn_number ASC
+      ''', [
         collectionId,
-        searchTerm, searchTerm, searchTerm, searchTerm, 
-        searchTerm, searchTerm, searchTerm, searchTerm
-      ];
-      
-      final result = await db.query(
-        'hymns',
-        where: whereClause,
-        whereArgs: whereArgs,
-        orderBy: 'hymn_number ASC',
-      );
+        '%$query%', '%$query%', '%$query%', '%$query%', 
+        '%$query%', '%$query%', '%$query%', '%$query%'
+      ]);
       
       print('🔍 [DatabaseHelper] Collection search found ${result.length} results for "$query" in collection $collectionId');
       return result;

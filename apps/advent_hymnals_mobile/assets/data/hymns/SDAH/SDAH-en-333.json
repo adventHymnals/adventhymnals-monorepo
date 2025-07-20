@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-333",
+  "number": 333,
+  "title": "On Jordan's Banks the Baptist's Cry",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "On Jordan's banks the Baptist's cry\nAnnounces that the Lord is nigh;\nAwake and hearken, for he brings\nGlad tidings of the King of kings!"
+    },
+    {
+      "number": 2,
+      "text": "Then cleansed be every life from sin;\nMake straight the way for God within,\nAnd let us all our hearts prepare\nFor Christ to come and enter there."
+    },
+    {
+      "number": 3,
+      "text": "We hail You as our Savior, Lord,\nOur refuge and our great reward;\nWithout Your grace we waste away\nLike flowers that wither and decay."
+    },
+    {
+      "number": 4,
+      "text": "Stretch forth Your hand, our health restore,\nAnd make us rise to fall no more;\nOh, let Your face upon us shine\nAnd fill the world with love divine."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "John the Baptist",
+      "Advent",
+      "Preparation",
+      "Jesus Christ",
+      "Salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "CS1900-en-313",
+  "number": 313,
+  "title": "Ten Thousand Harps",
+  "author": "T. Kelly",
+  "composer": "Haydn",
+  "tune": "Haydn",
+  "meter": "8, 8, 8, 8, 8, 8.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! ten thousand harps and voices Sound the note of praise above; Jesus reigns, and heaven rejoices, Jesus reigns, the God of love."
+    },
+    {
+      "number": 2,
+      "text": "See, he sits on yonder throne; Jesus rules the world alone. Hallelujah! hallelujah! hallelujah! Amen."
+    },
+    {
+      "number": 3,
+      "text": "Jesus, hail! whose glory brightens All above, and gives it worth; Lord of life, thy smile enlightens, Cheers, and charms thy saints on earth."
+    },
+    {
+      "number": 4,
+      "text": "Savior, hasten thine appearing, Bring, O bring the glorious day, When, the awful summons hearing, Heaven and earth shall pass away."
+    },
+    {
+      "number": 5,
+      "text": "King of glory, reign forever; Thine an everlasting crown; Nothing, from thy love, shall sever Those whom thou dost call thine own."
+    }
+  ],
+  "chorus": {
+    "text": "Hallelujah! hallelujah! hallelujah! Amen. Hallelujah! hallelujah! hallelujah! Amen."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Jesus reign",
+      "praise",
+      "heaven",
+      "glory"
+    ],
+    "scripture_references": [
+      "Revelation 5:11-13"
+    ],
+    "tune_source": "Haydn",
+    "original_language": "en"
+  }
+}

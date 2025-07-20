@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-013",
+  "number": 13,
+  "title": "New Songs of Celebration Render",
+  "author": "Erik Routley",
+  "composer": "C. Hubert H. Parry",
+  "tune": "Laudate Dominum",
+  "meter": "10.10.11.11",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Now songs of celebration render\nTo Him who has great wonders done.\nLove sits enthroned in ageless splendor:\nCome, and adore the mighty One.\nHe has made known His great salvation\nWhich all His friends with joy confess;\nHe has revealed to every nation\nHis everlasting righteousness."
+    },
+    {
+      "number": 2,
+      "text": "Joyfully, heartily resounding,\nLet every instrument and voice\nPeal out the praise of grace abounding,\nCalling the whole world to rejoice.\nTrumpets and organs, set in motion\nSuch sounds as make the heavens ring;\nRighteous, commanding, ever glorious,\nPraises be His that never cease."
+    },
+    {
+      "number": 3,
+      "text": "Rivers and seas and torrents roaring,\nHonor the Lord with wild acclaim;\nMountains and stones look up adoring,\nAnd find a voice to praise His name.\nRighteous, commanding, ever glorious,\nJust is our God, whose truth victorious,\nEstablishes the world in peace."
+    }
+  ],
+  "metadata": {
+    "year": 1974,
+    "copyright": "© 1974 Hope Publishing Company",
+    "themes": [
+      "celebration",
+      "praise",
+      "worship",
+      "creation",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Psalm 98",
+      "Psalm 96:1-3"
+    ],
+    "tune_source": "C. Hubert H. Parry, 1894",
+    "original_language": "en"
+  }
+}

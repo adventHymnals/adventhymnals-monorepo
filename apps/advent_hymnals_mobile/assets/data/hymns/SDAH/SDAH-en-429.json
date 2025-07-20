@@ -1,0 +1,49 @@
+{
+  "id": "SDAH-en-429",
+  "number": 429,
+  "title": "Jerusalem the Golden",
+  "author": "Bernard of Cluny",
+  "composer": "Alexander Ewing",
+  "tune": "EWING",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jerusalem the golden,\nWith milk and honey blest,\nBeneath thy contemplation\nSink heart and voice oppressed."
+    },
+    {
+      "number": 2,
+      "text": "They stand, those halls of Zion,\nAll jubilant with song,\nAnd bright with many an angel,\nAnd all the martyr throng."
+    },
+    {
+      "number": 3,
+      "text": "There is the throne of David,\nAnd there, from care released,\nThe shout of them that triumph,\nThe song of them that feast."
+    },
+    {
+      "number": 4,
+      "text": "O sweet and blessed country,\nThe home of God's elect!\nO sweet and blessed country\nThat eager hearts expect!"
+    }
+  ],
+  "chorus": {
+    "text": "I know not, O I know not\nWhat holy joys are there,\nWhat radiancy of glory,\nWhat bliss beyond compare."
+  },
+  "metadata": {
+    "year": 1858,
+    "copyright": "Public Domain",
+    "themes": [
+      "heaven",
+      "Jerusalem",
+      "glory",
+      "eternal joy",
+      "paradise"
+    ],
+    "scripture_references": [
+      "Revelation 21:2",
+      "Hebrews 12:22",
+      "Revelation 7:9-10"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "la"
+  }
+}

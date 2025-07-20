@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-041",
+  "number": 41,
+  "title": "Will You Go?",
+  "author": "Anonymous",
+  "composer": "Rev. W. F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"If any man will come after me, let him deny himself, and take up his cross, and follow me.\"—Mark 10: 21. Will you seek by land of the pur - y, set the ho - ly, To the homes of the hap-py, the kingdom of love; Will you go where the Saviour has giv - en his life, where the redeemer has vent his love; In His peace, now your deserts, not far handful - op por - tun-tion, Can in - jure the dwell-ers that is - ly groves;"
+    },
+    {
+      "number": 2,
+      "text": "Will you go with God, in the throne of God, fol - low him still you go to the E - den a - bove; And bear thee a long to the E - den a-bove."
+    }
+  ],
+  "chorus": {
+    "text": "Will you go, will you go, will you go? O say, will you go to the E - den a - bove?"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "going",
+      "following",
+      "cross",
+      "sacrifice",
+      "Eden",
+      "kingdom",
+      "love"
+    ],
+    "scripture_references": [
+      "Mark 10:21"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "SDAH-en-511",
+  "number": 511,
+  "title": "I Know Whom I Have Believed",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I know not why God's wondrous grace To me He hath made known,\nNor why, unworthy, Christ in love Redeemed me for His own."
+    },
+    {
+      "number": 2,
+      "text": "I know not how this saving faith To me He did impart,\nNor how believing in His word Wrought peace within my heart."
+    },
+    {
+      "number": 3,
+      "text": "I know not how the Spirit moves, Convincing men of sin,\nRevealing Jesus through the word, Creating faith in Him."
+    },
+    {
+      "number": 4,
+      "text": "I know not when my Lord may come, At night or noonday fair,\nNor if I walk the vale with Him, Or meet Him in the air."
+    }
+  ],
+  "chorus": {
+    "text": "But \"I know whom I have believed, and am persuaded that He is able\nTo keep that which I've committed Unto Him against that day.\""
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "faith",
+      "assurance",
+      "trust",
+      "salvation"
+    ],
+    "scripture_references": [
+      "2 Timothy 1:12"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

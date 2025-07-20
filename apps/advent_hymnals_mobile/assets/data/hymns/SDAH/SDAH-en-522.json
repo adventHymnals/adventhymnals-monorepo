@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-522",
+  "number": 522,
+  "title": "My Hope Is Built on Nothing Less",
+  "author": "Edward Mote",
+  "composer": "William Bradbury",
+  "tune": "Solid Rock",
+  "meter": "L.M. with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My hope is built on nothing less\nThan Jesus' blood and righteousness;\nI dare not trust the sweetest frame,\nBut wholly lean on Jesus' name."
+    },
+    {
+      "number": 2,
+      "text": "When darkness seems to veil His face,\nI rest on His unchanging grace;\nIn every high and stormy gale,\nMy anchor holds within the veil."
+    },
+    {
+      "number": 3,
+      "text": "His oath, His covenant, and blood\nSupport me in the whelming flood;\nWhen all around my soul gives way,\nHe then is all my hope and stay."
+    },
+    {
+      "number": 4,
+      "text": "When He shall come with trumpet sound,\nO may I then in Him be found;\nClad in His righteousness alone,\nFaultless to stand before the throne."
+    }
+  ],
+  "chorus": {
+    "text": "On Christ, the solid Rock, I stand;\nAll other ground is sinking sand,\nAll other ground is sinking sand."
+  },
+  "metadata": {
+    "year": 1834,
+    "copyright": "Public Domain",
+    "themes": [
+      "hope",
+      "salvation",
+      "foundation",
+      "righteousness",
+      "security"
+    ],
+    "scripture_references": [
+      "1 Corinthians 3:11",
+      "Matthew 7:24-25"
+    ],
+    "tune_source": "William Bradbury",
+    "original_language": "en"
+  }
+}

@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/constants/app_constants.dart';
 import '../providers/recently_viewed_provider.dart';
+import '../providers/favorites_provider.dart';
 import '../../domain/entities/hymn.dart';
 
 class RecentlyViewedScreen extends StatefulWidget {
@@ -29,6 +30,21 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
       appBar: AppBar(
         title: const Text('Recently Viewed'),
         elevation: 0,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            try {
+              context.go('/home');
+            } catch (e) {
+              print('❌ [RecentlyViewedScreen] Navigation error: $e');
+              // Fallback to Navigator.pop if context.go fails
+              if (Navigator.of(context).canPop()) {
+                Navigator.of(context).pop();
+              }
+            }
+          },
+          tooltip: 'Back to Home',
+        ),
         actions: [
           Consumer<RecentlyViewedProvider>(
             builder: (context, provider, child) {
@@ -57,7 +73,7 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(
+                    const Icon(
                       Icons.error_outline,
                       size: 80,
                       color: Color(AppColors.errorRed),
@@ -71,7 +87,7 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
                     Text(
                       provider.errorMessage ?? 'Unknown error occurred',
                       style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                        color: Color(AppColors.gray500),
+                        color: const Color(AppColors.gray500),
                       ),
                       textAlign: TextAlign.center,
                     ),
@@ -110,7 +126,7 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
+            const Icon(
               Icons.history,
               size: 80,
               color: Color(AppColors.gray400),
@@ -124,7 +140,7 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
             Text(
               'Hymns you view will appear here for quick access.',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Color(AppColors.gray500),
+                color: const Color(AppColors.gray500),
               ),
               textAlign: TextAlign.center,
             ),
@@ -144,16 +160,29 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
     return Card(
       margin: const EdgeInsets.only(bottom: AppSizes.spacing12),
       child: ListTile(
-        leading: CircleAvatar(
-          backgroundColor: Color(AppColors.primaryBlue),
-          child: Text(
-            hymn.collectionAbbreviation != null 
-            ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
-            : '${hymn.hymnNumber}',
-            style: const TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-              fontSize: 12,
+        leading: Container(
+          width: 56,
+          height: 40,
+          decoration: BoxDecoration(
+            color: const Color(AppColors.primaryBlue).withOpacity(0.1),
+            borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+          ),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 4.0),
+            child: Align(
+              alignment: Alignment.centerRight,
+              child: Text(
+                hymn.collectionAbbreviation != null 
+                  ? '${hymn.collectionAbbreviation}\n${hymn.hymnNumber}'
+                  : hymn.hymnNumber.toString(),
+                style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                  color: const Color(AppColors.primaryBlue),
+                  fontWeight: FontWeight.bold,
+                  fontSize: 10,
+                ),
+                textAlign: TextAlign.right,
+                maxLines: 2,
+              ),
             ),
           ),
         ),
@@ -168,13 +197,13 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
               Text(
                 'by ${hymn.author}',
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: Color(AppColors.gray600),
+                  color: const Color(AppColors.gray600),
                 ),
               ),
             const SizedBox(height: 4),
             Row(
               children: [
-                Icon(
+                const Icon(
                   Icons.access_time,
                   size: 14,
                   color: Color(AppColors.gray500),
@@ -183,7 +212,7 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
                 Text(
                   _getTimeAgo(hymn.lastViewed ?? DateTime.now()),
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.gray500),
+                    color: const Color(AppColors.gray500),
                   ),
                 ),
               ],
@@ -197,10 +226,7 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
                 context.read<RecentlyViewedProvider>().removeFromRecent(hymn);
                 break;
               case 'favorite':
-                // Add to favorites logic here
-                ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(content: Text('Added ${hymn.title} to favorites')),
-                );
+                _addToFavorites(context, hymn);
                 break;
             }
           },
@@ -247,6 +273,36 @@ class _RecentlyViewedScreenState extends State<RecentlyViewedScreen> {
       return '${difference.inMinutes} minute${difference.inMinutes == 1 ? '' : 's'} ago';
     } else {
       return 'Just now';
+    }
+  }
+
+  Future<void> _addToFavorites(BuildContext context, Hymn hymn) async {
+    try {
+      final favoritesProvider = Provider.of<FavoritesProvider>(context, listen: false);
+      await favoritesProvider.addFavorite(hymn.id);
+      
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Added "${hymn.title}" to favorites'),
+            action: SnackBarAction(
+              label: 'Undo',
+              onPressed: () async {
+                await favoritesProvider.removeFavorite(hymn.id);
+              },
+            ),
+          ),
+        );
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Failed to add "${hymn.title}" to favorites'),
+            backgroundColor: const Color(AppColors.errorRed),
+          ),
+        );
+      }
     }
   }
 

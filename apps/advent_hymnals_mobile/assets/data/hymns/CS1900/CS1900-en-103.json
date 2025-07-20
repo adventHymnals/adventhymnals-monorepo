@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-103",
+  "number": 103,
+  "title": "Jesus, Remember Me",
+  "author": "J. H. Burke",
+  "composer": "J. H. Burke",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, remember me, As thou hast promised, Lord;\nI said and are my Savior here?, Just tell me sing thy word;\nI trust their love mine, And let me sing with glee;\nJesus, remember me, Jesus, remember me."
+    },
+    {
+      "number": 2,
+      "text": "When I forsake thee, Lord, And sin thy dear face away,\nHere will I hide my thinking face, While thy dear mercy open;\nThen soon I'll sing thy praise, When my dear Jesus came;\nJesus, remember me, Jesus, remember me."
+    }
+  ],
+  "chorus": {
+    "text": "Remember me, remember me,\nO bless-ed Jesus, remember me;\nRemember me, remember me,\nWhen thou dost come in thy kingdom."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "remembrance",
+      "prayer",
+      "salvation"
+    ],
+    "scripture_references": [
+      "Luke 23:42"
+    ],
+    "tune_source": "J. H. Burke",
+    "original_language": "en",
+    "verse_count": 2,
+    "structure": "2 verses with chorus",
+    "first_line": "Jesus, remember me"
+  }
+}

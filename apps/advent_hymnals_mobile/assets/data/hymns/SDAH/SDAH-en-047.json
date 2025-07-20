@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-047",
+  "number": 47,
+  "title": "God, Who Made the Earth and Heaven",
+  "author": "Reginald Heber",
+  "composer": "Welsh Traditional",
+  "tune": "Ar Hyd Y Nos",
+  "meter": "8.4.8.4.8.8.8.4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God, who made the earth and heaven,\nDarkness and light:\nYou the day for work have given,\nFor rest the night.\nMay Your angel guards defend us,\nSlumber sweet Your mercy send us,\nHoly dreams and hopes attend us,\nAll through the night."
+    },
+    {
+      "number": 2,
+      "text": "And when morn again shall call us\nTo run life's way,\nMay we still, whate'er befall us,\nYour will obey.\nFrom the power of evil hide us,\nIn the narrow pathway guide us,\nNor Your smile be e'er denied us\nAll through the day."
+    },
+    {
+      "number": 3,
+      "text": "Guard us waking, guard us sleeping,\nAnd when we die,\nMay we in Your mighty keeping\nAll peaceful lie.\nWhen the last dread call shall wake us,\nDo not Thou our God forsake us,\nBut to reign in glory take us\nWith Thee on high."
+    },
+    {
+      "number": 4,
+      "text": "Holy Father, throned in heaven,\nAll holy Son,\nHoly Spirit, freely given,\nBlest Three in One:\nGrant us grace, we now implore You,\nTill we lay our crowns before You\nAnd in worthier strains adore You\nWhile ages run."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1827,
+    "copyright": "Public Domain",
+    "themes": [
+      "evening",
+      "protection",
+      "trinity",
+      "rest",
+      "angels",
+      "divine guidance"
+    ],
+    "scripture_references": [
+      "Psalm 121:4",
+      "Psalm 4:8",
+      "Matthew 28:19"
+    ],
+    "tune_source": "Welsh Traditional melody",
+    "original_language": "en"
+  }
+}

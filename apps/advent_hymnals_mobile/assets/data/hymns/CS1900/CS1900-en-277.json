@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-277",
+  "number": 277,
+  "title": "Thy Righteousness",
+  "author": "Anon",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Thy righteousness, O God, reaches high,\nThou who hast done great things;\nO God, who is like unto thee?\nFor great are all thy works."
+    },
+    {
+      "number": 2,
+      "text": "Thou hast shown me great and severe troubles,\nBut thou wilt revive me again;\nThou wilt bring me up again from the depths,\nAnd wilt increase my greatness."
+    },
+    {
+      "number": 3,
+      "text": "Thou wilt comfort me on every side,\nI will also praise thee with psaltery;\nEven thy truth, O my God,\nI will sing with the harp."
+    },
+    {
+      "number": 4,
+      "text": "My lips shall greatly rejoice when I sing,\nAnd my soul which thou hast redeemed;\nMy tongue also shall talk of thy righteousness,\nAll the day long shall I praise thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "righteousness",
+      "God's greatness",
+      "praise",
+      "redemption"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

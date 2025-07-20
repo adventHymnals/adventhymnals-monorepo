@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-475",
+  "number": 475,
+  "title": "Balm in Gilead",
+  "author": "Traditional African American Spiritual",
+  "composer": "Traditional African American Spiritual",
+  "tune": "BALM IN GILEAD",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sometimes I feel discouraged,\nAnd think my work's in vain,\nBut then the Holy Spirit\nRevives my soul again."
+    },
+    {
+      "number": 2,
+      "text": "If you cannot preach like Peter,\nIf you cannot pray like Paul,\nYou can tell the love of Jesus,\nAnd say He died for all."
+    }
+  ],
+  "chorus": {
+    "text": "There is a balm in Gilead\nTo make the wounded whole;\nThere is a balm in Gilead\nTo heal the sin-sick soul."
+  },
+  "metadata": {
+    "year": 1800,
+    "copyright": "Public Domain",
+    "themes": [
+      "healing",
+      "spiritual comfort",
+      "divine balm",
+      "encouragement",
+      "African American spiritual"
+    ],
+    "scripture_references": [
+      "Jeremiah 8:22",
+      "Luke 4:18",
+      "Psalm 147:3"
+    ],
+    "tune_source": "Traditional African American Spiritual",
+    "original_language": "en"
+  }
+}

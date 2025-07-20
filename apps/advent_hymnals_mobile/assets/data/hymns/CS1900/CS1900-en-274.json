@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-274",
+  "number": 274,
+  "title": "Praise God",
+  "author": "Praise",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise God from whom all blessings flow,\nPraise him all creatures here below;\nPraise him above, ye heavenly host,\nPraise Father, Son, and Holy Ghost."
+    },
+    {
+      "number": 2,
+      "text": "To God the Father, God the Son,\nAnd God the Spirit, Three in One,\nBe honor, praise, and glory given\nBy all on earth and all in heaven."
+    },
+    {
+      "number": 3,
+      "text": "From all that dwell below the skies,\nLet the Creator's praise arise;\nLet the Redeemer's name be sung\nThrough every land, by every tongue."
+    },
+    {
+      "number": 4,
+      "text": "Eternal are thy mercies, Lord,\nEternal truth attends thy word;\nThy praise shall sound from shore to shore,\nTill suns shall rise and set no more."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "praise",
+      "Trinity",
+      "worship",
+      "glory to God"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

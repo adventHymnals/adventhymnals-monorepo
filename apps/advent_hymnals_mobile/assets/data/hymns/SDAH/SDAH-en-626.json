@@ -1,0 +1,47 @@
+{
+  "id": "SDAH-en-626",
+  "number": 626,
+  "title": "In a Little While We're Going Home",
+  "author": "A. B. Simpson",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Let us sing a song that will cheer us by the way,\nIn a little while we're going home;\nFor the night will end in the everlasting day,\nIn a little while we're going home."
+    },
+    {
+      "number": 2,
+      "text": "We will do the work that our hands may find to do,\nIn a little while we're going home;\nAnd the grace of God will our daily strength renew,\nIn a little while we're going home."
+    },
+    {
+      "number": 3,
+      "text": "We will smooth the path for some weary, way-worn feet,\nIn a little while we're going home;\nAnd our loving hearts spread around an influence sweet,\nIn a little while we're going home."
+    },
+    {
+      "number": 4,
+      "text": "There's a rest beyond, there's relief from every care,\nIn a little while we're going home;\nAnd no tears shall fall in that city bright and fair,\nIn a little while we're going home."
+    }
+  ],
+  "chorus": {
+    "text": "In a little while, In a little while,\nWe shall cross the billow's foam;\nWe shall meet at last, When the stormy winds are past,\nIn a little while we're going home."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": [
+      "heaven",
+      "homecoming",
+      "comfort",
+      "hope"
+    ],
+    "scripture_references": [
+      "John 14:2-3",
+      "Revelation 21:4"
+    ],
+    "tune_source": "",
+    "original_language": "en"
+  }
+}

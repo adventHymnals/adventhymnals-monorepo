@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-546",
+  "number": 546,
+  "title": "Morn Breaks O'er Thee",
+  "author": "Mrs. M. E. Meredith",
+  "composer": "H. R. Palmer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Darkness has now safely fled the hill, but the golden light shine forth,\nAnd the lamp of God's love bright and clear, shall fill the earth;\nO soul, the light of God's love bright and clear, shall fill the earth;\nO soul, the light of God's love bright and clear, shall fill the earth."
+    },
+    {
+      "number": 2,
+      "text": "O soul, the eternal day will dawn, A sweet final hope of life;\nO soul, the eternal day will dawn, Peaceful, holy, bright and clear;\nO soul, the eternal day will dawn, A sweet final hope of life,\nO soul, the eternal day will dawn, Peaceful, holy, bright and clear."
+    },
+    {
+      "number": 3,
+      "text": "O soul, thy Lord has come and gone, He comes that thou might have life;\nO soul, thy Lord has come and gone, He comes that thou might have life;\nO soul, thy Lord has come and gone, He comes that thou might have life;\nO soul, thy Lord has come and gone, He comes that thou might have life."
+    },
+    {
+      "number": 4,
+      "text": "Then rise, O soul, and catch the day, and let the light shine within;\nThen rise, O soul, and catch the day, and let the light shine within;\nThen rise, O soul, and catch the day, and let the light shine within;\nThen rise, O soul, and catch the day, and let the light shine within."
+    }
+  ],
+  "chorus": {
+    "text": "Morn breaks o'er thee, morn breaks o'er thee,\nO soul, awake and sing!\nMorn breaks o'er thee, morn breaks o'er thee,\nAll hail the coming King!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "dawn",
+      "light",
+      "awakening",
+      "second coming"
+    ],
+    "scripture_references": [],
+    "tune_source": "H. R. Palmer",
+    "original_language": "en"
+  }
+}

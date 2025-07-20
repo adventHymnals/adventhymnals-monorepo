@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-608",
+  "number": 608,
+  "title": "Faith Is the Victory",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Encamped along the hills of light,\nYe Christian soldiers, rise,\nAnd press the battle ere the night\nShall veil the glowing skies.\nAgainst the foe in vales below\nLet all our strength be hurled;\nFaith is the victory, we know,\nThat overcomes the world."
+    },
+    {
+      "number": 2,
+      "text": "On every hand the foe we find\nDrawn up in dread array;\nLet tents of ease be left behind,\nAnd onward to the fray;\nSalvation's helmet on each head,\nWith truth all girt about,\nThe earth shall tremble 'neath our tread,\nAnd echo with our shout."
+    },
+    {
+      "number": 3,
+      "text": "To him that overcomes the foe,\nWhite raiment shall be giv'n;\nBefore the angels he shall know\nHis name confessed in heav'n.\nThen onward from the hills of light,\nOur hearts with love aflame,\nWe'll vanquish all the hosts of night,\nIn Jesus' conquering name."
+    }
+  ],
+  "chorus": {
+    "text": "Faith is the victory!\nFaith is the victory!\nO, glorious victory,\nThat overcomes the world."
+  },
+  "metadata": {
+    "themes": [
+      "faith",
+      "victory",
+      "spiritual warfare",
+      "triumph"
+    ],
+    "scripture_references": [
+      "1 John 5:4",
+      "Ephesians 6:11-17",
+      "Revelation 3:5"
+    ],
+    "copyright": "Public Domain"
+  }
+}

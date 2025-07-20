@@ -1,0 +1,46 @@
+{
+  "id": "CS1900-en-069",
+  "number": 69,
+  "title": "Gethsemane",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'Tis midnight; and on Olive's brow\nThe star is dimmed that lately shone;\n'Tis midnight; in the garden now\nThe suffering Saviour prays alone."
+    },
+    {
+      "number": 2,
+      "text": "'Tis midnight; and from all removed,\nThe Saviour wrestles lone with fears;\nE'en that disciple whom He loved\nHeeds not his Master's grief and tears."
+    },
+    {
+      "number": 3,
+      "text": "'Tis midnight; and for others' guilt\nThe Man of Sorrows weeps in blood;\nYet He that hath in anguish knelt\nIs not forsaken by His God."
+    },
+    {
+      "number": 4,
+      "text": "'Tis midnight; and from ether plains\nIs borne the song that angels know;\nUnheard by mortals are the strains\nThat sweetly soothe the Saviour's woe."
+    }
+  ],
+  "chorus": {
+    "text": "Gethsemane, Gethsemane!\nWhere Jesus knelt for you and me;\nGethsemane, Gethsemane!\nBlessed garden of agony!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Gethsemane",
+      "prayer",
+      "suffering",
+      "Jesus"
+    ],
+    "scripture_references": [
+      "Matthew 26:36-46"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-067",
+  "number": 67,
+  "title": "O Lord, Now Let Your Servant",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "10 10 10 10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Lord, now let Your servant\nDepart in heav'nly peace,\nFor I have seen the glory\nOf Your redeeming grace:"
+    },
+    {
+      "number": 2,
+      "text": "Then grant that I may follow\nYour gleam, O glorious Light,\nTill earthly shadows scatter\nAnd faith is changed to sight;"
+    }
+  ],
+  "chorus": {
+    "text": "A light to lead the Gentiles\nUnto Your holy hill,\nThe glory of Your people,\nYour chosen Israel."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": [
+      "Nunc Dimittis",
+      "peace",
+      "salvation",
+      "light",
+      "glory"
+    ],
+    "scripture_references": [
+      "Luke 2:29-32"
+    ],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

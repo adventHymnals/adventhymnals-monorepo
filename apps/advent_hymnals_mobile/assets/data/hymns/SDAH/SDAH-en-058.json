@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-058",
+  "number": 58,
+  "title": "Hark, the Vesper Hymn Is Stealing",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hark! the vesper hymn is stealing\nO'er the waters soft and clear;\nNearer yet, and nearer pealing,\nSoft it breaks upon the ear."
+    },
+    {
+      "number": 2,
+      "text": "Now, like moonbeams on the water,\nNearer it draws near;\nJubilate! Jubilate!\nJubilate! Amen."
+    }
+  ],
+  "chorus": {
+    "text": "Jubilate! Jubilate!\nJubilate! Amen."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "evening",
+      "vespers",
+      "water",
+      "praise"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-015",
+  "number": 15,
+  "title": "Able to Deliver",
+  "author": "Rev. J. H. Stockton",
+  "composer": "Enos L. Martin",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Able to deliver, able to atone; Is there any power can really by? Able to de - liver! can it real - ly be? Are you trusting? Don't you see? all save the won?"
+    },
+    {
+      "number": 2,
+      "text": "Able to de - liver me from Satan's chain? Tell me, tell me tru - ly, is the Christ once slain Able to de - liver me from Satan's chain? Give me her sad ading, be - ly for the saint?"
+    }
+  ],
+  "chorus": {
+    "text": "Able to de - liver, Able to save, When you are, my Brother, A - ble to de - liver."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1896, by Enos L. Martin",
+    "themes": [
+      "deliverance",
+      "salvation",
+      "power",
+      "Christ",
+      "atonement",
+      "trust"
+    ],
+    "scripture_references": [
+      "Dan. 3:17"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

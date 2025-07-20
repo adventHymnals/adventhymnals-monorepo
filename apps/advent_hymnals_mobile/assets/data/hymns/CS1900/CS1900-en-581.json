@@ -1,0 +1,43 @@
+{
+  "id": "CS1900-en-581",
+  "number": 581,
+  "title": "The One Thing Needful",
+  "author": "William Cowper",
+  "composer": "Anonymous",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The Spirit breathes upon the word, And brings the truth to sight; Precepts and promises afford A sanctifying light."
+    },
+    {
+      "number": 2,
+      "text": "A glory gilds the sacred page, Majestic like the sun; It gives a light to every age, It gives, but borrows none."
+    },
+    {
+      "number": 3,
+      "text": "The hand that gave it still supplies The gracious light and heat; His truths upon the nations rise, They rise, but never set."
+    }
+  ],
+  "refrain": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Holy Spirit",
+      "word of God",
+      "truth",
+      "scripture",
+      "light",
+      "divine guidance"
+    ],
+    "scripture_references": [
+      "2 Timothy 3:16",
+      "Psalm 119:105"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

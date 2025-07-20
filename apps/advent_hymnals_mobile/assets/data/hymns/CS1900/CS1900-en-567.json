@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-567",
+  "number": 567,
+  "title": "WHEN I SHALL AWAKE",
+  "author": "Fanny J. Crosby",
+  "composer": "J. H. Brubaker",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When I shall wake in that fair realm of glory,\nAnd with the ransomed stand before the throne,\nI'll drop my cross, take up my crown and harp,\nAnd claim the victor's prize - won;\nI shall gaze up-on the face of him, Perfect in wisdom from the cross of woe, And praise his ho-ly name,\nFor I shall know as I am known."
+    }
+  ],
+  "chorus": {
+    "text": "Lay - e - ter-nal hope,\nOn the beau-ti-ful shore,\nI shall be - - satis-fied then,\nBut for more of years, I shall be - satis-fied then,\nI shall be satis-fied then,\nI shall be satis-fied then."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Words, copyright 1900 by J. E. Rankin",
+    "themes": [
+      "glory",
+      "throne",
+      "victory",
+      "satisfaction",
+      "heaven"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. H. Brubaker",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "CS1900-en-560",
+  "number": 560,
+  "title": "NEARER, MY GOD, TO THEE",
+  "author": "Sarah F. Adams",
+  "composer": "Bethany",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Nearer, my God, to thee,\nNearer to thee!\nE'en though it be a cross\nThat raiseth me;\nStill all my song shall be,\nNearer, my God, to thee,\nNearer, my God, to thee,\nNearer to thee!"
+    },
+    {
+      "number": 2,
+      "text": "Though like the wanderer,\nThe sun gone down,\nDarkness be over me,\nMy rest a stone;\nYet in my dreams I'd be\nNearer, my God, to thee,\nNearer, my God, to thee,\nNearer to thee!"
+    },
+    {
+      "number": 3,
+      "text": "There let the way appear\nSteps unto heaven;\nAll that thou sendest me\nIn mercy given;\nAngels to beckon me\nNearer, my God, to thee,\nNearer, my God, to thee,\nNearer to thee!"
+    },
+    {
+      "number": 4,
+      "text": "Then with my waking thoughts\nBright with thy praise,\nOut of my stony griefs\nBethel I'll raise;\nSo by my woes to be\nNearer, my God, to thee,\nNearer, my God, to thee,\nNearer to thee!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "closeness to God",
+      "perseverance",
+      "spiritual journey"
+    ],
+    "scripture_references": [
+      "Genesis 28:10-22"
+    ],
+    "tune_source": "Bethany",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-203",
+  "number": 203,
+  "title": "This Is the Threefold Truth",
+  "author": "Fred Pratt Green",
+  "composer": "Allen W. Foster",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "This is the threefold truth\nOn which our faith depends;\nAnd with this joyful cry\nWorship begins and ends;"
+    },
+    {
+      "number": 2,
+      "text": "By this we are upheld\nWhen doubt and grief assails\nOur Christian fortitude,\nAnd only grace avails."
+    },
+    {
+      "number": 3,
+      "text": "This is the threefold truth\nWhich, if we hold it fast,\nChanges the world and us\nAnd brings us home at last."
+    }
+  ],
+  "chorus": {
+    "text": "Christ has died! Christ is risen!\nChrist will come again!"
+  },
+  "metadata": {
+    "year": 1980,
+    "copyright": "Words © 1980 Hope Publishing Co., Carol Stream, IL 60188. All rights reserved. Used by permission. Music © 1984 Allen W. Foster. All rights reserved. Used by permission.",
+    "themes": [
+      "Faith",
+      "Christ's Death",
+      "Resurrection",
+      "Second Coming"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

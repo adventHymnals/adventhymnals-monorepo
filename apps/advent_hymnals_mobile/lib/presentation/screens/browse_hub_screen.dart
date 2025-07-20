@@ -1,10 +1,65 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/constants/app_constants.dart';
+import '../../core/database/database_helper.dart';
 import '../widgets/banner_ad_widget.dart';
 
-class BrowseHubScreen extends StatelessWidget {
+class BrowseHubScreen extends StatefulWidget {
   const BrowseHubScreen({super.key});
+
+  @override
+  State<BrowseHubScreen> createState() => _BrowseHubScreenState();
+}
+
+class _BrowseHubScreenState extends State<BrowseHubScreen> {
+  Map<String, int> _stats = {};
+
+  @override
+  void initState() {
+    super.initState();
+    _loadStats();
+  }
+
+  Future<void> _loadStats() async {
+    try {
+      final db = DatabaseHelper.instance;
+      final database = await db.database;
+      
+      // Load various statistics from database
+      final results = await Future.wait([
+        database.rawQuery('SELECT COUNT(*) as count FROM hymns'),
+        database.rawQuery('SELECT COUNT(DISTINCT author_name) as count FROM hymns WHERE author_name IS NOT NULL'),
+        database.rawQuery('SELECT COUNT(*) as count FROM topics'),
+        database.rawQuery('SELECT COUNT(*) as count FROM collections'),
+        database.rawQuery('SELECT COUNT(DISTINCT tune_name) as count FROM hymns WHERE tune_name IS NOT NULL'),
+        database.rawQuery('SELECT COUNT(DISTINCT meter) as count FROM hymns WHERE meter IS NOT NULL'),
+      ]);
+      
+      setState(() {
+        _stats = {
+          'hymns': results[0].first['count'] as int,
+          'authors': results[1].first['count'] as int,
+          'topics': results[2].first['count'] as int,
+          'collections': results[3].first['count'] as int,
+          'tunes': results[4].first['count'] as int,
+          'meters': results[5].first['count'] as int,
+        };
+      });
+    } catch (e) {
+      print('Error loading stats: $e');
+      // Fallback to default values
+      setState(() {
+        _stats = {
+          'hymns': 0,
+          'authors': 0,
+          'topics': 0,
+          'collections': 0,
+          'tunes': 0,
+          'meters': 0,
+        };
+      });
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -12,6 +67,21 @@ class BrowseHubScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text(AppStrings.browseTitle),
         elevation: 0,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            try {
+              context.go('/home');
+            } catch (e) {
+              print('❌ [BrowseHubScreen] Navigation error: $e');
+              // Fallback to Navigator.pop if context.go fails
+              if (Navigator.of(context).canPop()) {
+                Navigator.of(context).pop();
+              }
+            }
+          },
+          tooltip: 'Back to Home',
+        ),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(AppSizes.spacing16),
@@ -29,7 +99,7 @@ class BrowseHubScreen extends StatelessWidget {
             Text(
               'Browse hymns by different categories',
               style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                color: Color(AppColors.gray700),
+                color: const Color(AppColors.gray700),
               ),
             ),
             
@@ -55,62 +125,62 @@ class BrowseHubScreen extends StatelessWidget {
 
   Widget _buildBrowseGrid(BuildContext context) {
     final browseItems = [
-      BrowseItem(
+      const BrowseItem(
         icon: Icons.library_books,
         title: AppStrings.collectionsTitle,
         subtitle: 'Browse by hymnal collections',
         color: Color(AppColors.primaryBlue),
         route: '/browse/collections',
       ),
-      BrowseItem(
+      const BrowseItem(
         icon: Icons.person,
         title: AppStrings.authorsTitle,
         subtitle: 'Find hymns by author',
         color: Color(AppColors.successGreen),
         route: '/browse/authors',
       ),
-      BrowseItem(
+      const BrowseItem(
+        icon: Icons.music_note,
+        title: 'Composers',
+        subtitle: 'Find hymns by composer',
+        color: Color(AppColors.infoBlue),
+        route: '/browse/composers',
+      ),
+      const BrowseItem(
         icon: Icons.category,
         title: AppStrings.topicsTitle,
         subtitle: 'Browse by theme and topic',
         color: Color(AppColors.purple),
         route: '/browse/topics',
       ),
-      BrowseItem(
-        icon: Icons.music_note,
+      const BrowseItem(
+        icon: Icons.queue_music,
         title: AppStrings.tunesTitle,
         subtitle: 'Search by tune name',
         color: Color(AppColors.warningOrange),
         route: '/browse/tunes',
       ),
-      BrowseItem(
+      const BrowseItem(
         icon: Icons.straighten,
         title: AppStrings.metersTitle,
         subtitle: 'Find hymns by meter',
         color: Color(AppColors.secondaryBlue),
         route: '/browse/meters',
       ),
-      BrowseItem(
+      const BrowseItem(
         icon: Icons.menu_book,
         title: AppStrings.scriptureTitle,
         subtitle: 'Browse by scripture reference',
         color: Color(AppColors.errorRed),
         route: '/browse/scripture',
       ),
-      BrowseItem(
-        icon: Icons.format_quote,
-        title: AppStrings.firstLinesTitle,
-        subtitle: 'Search by first line',
-        color: Color(AppColors.gray700),
-        route: '/browse/first-lines',
-      ),
     ];
 
     return GridView.builder(
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: _getResponsiveColumnCount(context),
         crossAxisSpacing: AppSizes.spacing12,
         mainAxisSpacing: AppSizes.spacing12,
         childAspectRatio: 1.1,
@@ -121,6 +191,25 @@ class BrowseHubScreen extends StatelessWidget {
         return _buildBrowseCard(context, item);
       },
     );
+  }
+
+  int _getResponsiveColumnCount(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+    
+    // Responsive breakpoints for column count
+    if (screenWidth >= 1200) {
+      // Desktop: 4 columns
+      return 4;
+    } else if (screenWidth >= 800) {
+      // Large tablet: 3 columns
+      return 3;
+    } else if (screenWidth >= 600) {
+      // Small tablet: 3 columns
+      return 3;
+    } else {
+      // Mobile: 2 columns
+      return 2;
+    }
   }
 
   Widget _buildBrowseCard(BuildContext context, BrowseItem item) {
@@ -161,7 +250,7 @@ class BrowseHubScreen extends StatelessWidget {
               Text(
                 item.subtitle,
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: Color(AppColors.gray600),
+                  color: const Color(AppColors.gray600),
                 ),
                 textAlign: TextAlign.center,
                 maxLines: 2,
@@ -179,10 +268,10 @@ class BrowseHubScreen extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.all(AppSizes.spacing20),
       decoration: BoxDecoration(
-        color: Color(AppColors.background),
+        color: const Color(AppColors.background),
         borderRadius: BorderRadius.circular(AppSizes.radiusLarge),
         border: Border.all(
-          color: Color(AppColors.gray300),
+          color: const Color(AppColors.gray300),
           width: 1,
         ),
       ),
@@ -202,9 +291,9 @@ class BrowseHubScreen extends StatelessWidget {
                 child: _buildStatItem(
                   context,
                   icon: Icons.library_books,
-                  title: '2,500+',
+                  title: _stats['hymns']?.toString() ?? '0',
                   subtitle: 'Total Hymns',
-                  color: Color(AppColors.primaryBlue),
+                  color: const Color(AppColors.primaryBlue),
                 ),
               ),
               const SizedBox(width: AppSizes.spacing16),
@@ -212,9 +301,9 @@ class BrowseHubScreen extends StatelessWidget {
                 child: _buildStatItem(
                   context,
                   icon: Icons.person,
-                  title: '400+',
+                  title: _stats['authors']?.toString() ?? '0',
                   subtitle: 'Authors',
-                  color: Color(AppColors.successGreen),
+                  color: const Color(AppColors.successGreen),
                 ),
               ),
               const SizedBox(width: AppSizes.spacing16),
@@ -222,9 +311,9 @@ class BrowseHubScreen extends StatelessWidget {
                 child: _buildStatItem(
                   context,
                   icon: Icons.category,
-                  title: '50+',
+                  title: _stats['topics']?.toString() ?? '0',
                   subtitle: 'Topics',
-                  color: Color(AppColors.purple),
+                  color: const Color(AppColors.purple),
                 ),
               ),
             ],
@@ -236,9 +325,9 @@ class BrowseHubScreen extends StatelessWidget {
                 child: _buildStatItem(
                   context,
                   icon: Icons.collections,
-                  title: '6',
+                  title: _stats['collections']?.toString() ?? '0',
                   subtitle: 'Collections',
-                  color: Color(AppColors.warningOrange),
+                  color: const Color(AppColors.warningOrange),
                 ),
               ),
               const SizedBox(width: AppSizes.spacing16),
@@ -246,9 +335,9 @@ class BrowseHubScreen extends StatelessWidget {
                 child: _buildStatItem(
                   context,
                   icon: Icons.music_note,
-                  title: '300+',
+                  title: _stats['tunes']?.toString() ?? '0',
                   subtitle: 'Tunes',
-                  color: Color(AppColors.secondaryBlue),
+                  color: const Color(AppColors.secondaryBlue),
                 ),
               ),
               const SizedBox(width: AppSizes.spacing16),
@@ -256,9 +345,9 @@ class BrowseHubScreen extends StatelessWidget {
                 child: _buildStatItem(
                   context,
                   icon: Icons.straighten,
-                  title: '100+',
+                  title: _stats['meters']?.toString() ?? '0',
                   subtitle: 'Meters',
-                  color: Color(AppColors.errorRed),
+                  color: const Color(AppColors.errorRed),
                 ),
               ),
             ],
@@ -294,7 +383,7 @@ class BrowseHubScreen extends StatelessWidget {
         Text(
           subtitle,
           style: Theme.of(context).textTheme.bodySmall?.copyWith(
-            color: Color(AppColors.gray600),
+            color: const Color(AppColors.gray600),
           ),
           textAlign: TextAlign.center,
         ),

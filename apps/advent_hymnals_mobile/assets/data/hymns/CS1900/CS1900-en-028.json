@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-028",
+  "number": 28,
+  "title": "Christ Receiveth Sinful Men",
+  "author": "Arr. from Neumaster",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"The Pharisees and scribes murmured, saying, this man receiveth sinners.\"—Luke 15: 2. Sing it o'er and o'er a - gain; Christ re - ceiv - eth sin - ful men; 'T is to - day the same as then, Christ re - ceiv - eth sin - ful men; Years of sin, condemn as not, Pure be - fore thy shy we stand; Je - sus' blood can cleanse each spot, Shall we not his love com - mand?"
+    },
+    {
+      "number": 2,
+      "text": "He will take the sin - ful heart, He will cleanse and make it clean; Let the world-y joys de - part, Je - sus makes the heart se - rene. This he speaks and this a - lone: Won - der - ful word."
+    }
+  ],
+  "chorus": {
+    "text": "Sing it o'er and o'er a - gain, Christ re - ceiv - eth sin - ful men; Won - der - ful word, O sweet re - frain! Christ re - ceiv - eth sin - ful"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1886, by F. E. Belden",
+    "themes": [
+      "Christ",
+      "receiving",
+      "sinners",
+      "cleansing",
+      "blood",
+      "heart",
+      "wonderful"
+    ],
+    "scripture_references": [
+      "Luke 15:2"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

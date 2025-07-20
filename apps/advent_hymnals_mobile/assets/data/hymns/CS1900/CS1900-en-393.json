@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-393",
+  "number": 393,
+  "title": "DRAW ME CLOSER TO THEE",
+  "author": "Fanny J. Crosby",
+  "composer": "W. H. Doane",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Clos-er to thee, my Fa-ther, draw me, I long for thy em-brace;\nClos-er to thee, my Sav-ior, draw me, Not of my love, but thine own grace;\nClos-er by thy sweet Spir-it draw me, Till I am all like thee."
+    },
+    {
+      "number": 2,
+      "text": "Draw me clos-er to thy dear self, And let my spir-it rest in thee;\nDraw me clos-er to thy pre-cious side, And let my love be all for thee;\nDraw me clos-er to thy lov-ing heart, And let me die to self and sin."
+    }
+  ],
+  "chorus": {
+    "text": "Clos-er with thine arms en-fold me, I seek a rest-ing place;\nClos-er still, nev-er from thy pres-ence Let me part, with the cords of love, Draw me clos-er to thy-self a-bove."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "closeness to God",
+      "intimacy",
+      "spiritual growth",
+      "surrender"
+    ],
+    "scripture_references": [],
+    "tune_source": "W. H. Doane",
+    "original_language": "en"
+  }
+}

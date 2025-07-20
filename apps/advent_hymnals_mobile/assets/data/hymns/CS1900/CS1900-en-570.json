@@ -1,0 +1,39 @@
+{
+  "id": "CS1900-en-570",
+  "number": 570,
+  "title": "GOLDEN DAWNING",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Waiting for the coming of our Lord Jesus Christ.\" - 1 Cor. 1:7.\nWaiting for the dawning of the day that brings us home; Waiting for the breaking;\nOf the still-born brightly breaking, Sun of Right-eous-ness to rise, To ye shall from slumber;\nFar be-yond the vale of weeping, For ex-pect-ing face to face, When Jesus comes again."
+    },
+    {
+      "number": 2,
+      "text": "Waiting for the time when we shall meet him in the air;\nWaiting for the golden dawning,\nWait-ing! As God's glo-ry gilds the skies,\nO the joy-ful-dawn-ing that, let prayer!"
+    }
+  ],
+  "chorus": {
+    "text": "Golden dawning, are ye more cheery, Other poets reply,\nBa-ton on;\nGolden dawning, (dawning,) O day of joy, O day of\nBa-ton on;\nGolden dawning, (dawning,) that the night, of our row cease;\nGolden dawning, (dawning,) when our row cease;\nHal-le-lu-jah!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1900, by F. E. Belden",
+    "themes": [
+      "second coming",
+      "dawning",
+      "waiting",
+      "glory",
+      "Jesus' return"
+    ],
+    "scripture_references": [
+      "1 Cor. 1:7"
+    ],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

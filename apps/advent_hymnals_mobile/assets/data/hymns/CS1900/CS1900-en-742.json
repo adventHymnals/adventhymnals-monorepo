@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-742",
+  "number": 742,
+  "title": "Meet Again",
+  "author": "J. S. Heal",
+  "composer": "J. S. Heal",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Meet a-gain, we are go-ing to meet a-gain;\nMeet a-gain where part-ing nev-er comes;\nMeet a-gain where sin-ners joy We shall meet with-out de-lay;"
+    },
+    {
+      "number": 2,
+      "text": "Meet a-gain, we are go-ing to meet a-gain;\nMeet a-gain where part-ing nev-er comes;\nMeet a-gain where sin-ners joy We shall meet with-out de-lay;"
+    },
+    {
+      "number": 3,
+      "text": "Meet a-gain, we are go-ing to meet a-gain;\nThen our friend-ship will be pure and sweet;\nThen our love will glow with heav-en-ly light,\nAnd we nev-er more shall part."
+    }
+  ],
+  "chorus": {
+    "text": "Meet a-gain, meet a-gain,\nWe are go-ing to meet a-gain;\nMeet a-gain, meet a-gain,\nWe are go-ing to meet a-gain."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "reunion",
+      "heaven",
+      "eternal friendship",
+      "no parting"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. S. Heal",
+    "original_language": "en"
+  }
+}

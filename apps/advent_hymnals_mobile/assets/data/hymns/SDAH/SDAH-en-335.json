@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-335",
+  "number": 335,
+  "title": "What a Wonderful Savior",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Christ has for sin atonement made,\nWhat a wonderful Savior! We\nare redeemed! the price is paid!\nWhat a wonderful Savior!"
+    },
+    {
+      "number": 2,
+      "text": "I praise Him for the cleansing blood,\nWhat a wonderful Savior! That\nreconciled my soul to God;\nWhat a wonderful Savior!"
+    },
+    {
+      "number": 3,
+      "text": "He walks beside me all the way,\nWhat a wonderful Savior! That\nkeeps me faithful day by day;\nWhat a wonderful Savior!"
+    },
+    {
+      "number": 4,
+      "text": "He gives me overcoming power,\nWhat a wonderful Savior! And\ntriumph in each trying hour;\nWhat a wonderful Savior!"
+    }
+  ],
+  "chorus": {
+    "text": "What a wonderful Savior is Jesus, my Jesus!\nWhat a wonderful Savior is Jesus, my Lord!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Jesus Christ",
+      "Salvation",
+      "Atonement",
+      "Praise",
+      "Redemption"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

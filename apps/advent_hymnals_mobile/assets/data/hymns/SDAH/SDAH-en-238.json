@@ -1,0 +1,49 @@
+{
+  "id": "SDAH-en-238",
+  "number": 238,
+  "title": "How Sweet the Name!",
+  "author": "John Newton",
+  "composer": "Traditional American",
+  "tune": "AMAZING GRACE",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How sweet the name of Jesus sounds\nIn a believer's ear!\nIt soothes his sorrows, heals his wounds,\nAnd drives away his fear."
+    },
+    {
+      "number": 2,
+      "text": "It makes the wounded spirit whole,\nAnd calms the troubled breast;\n'Tis manna to the hungry soul,\nAnd to the weary, rest."
+    },
+    {
+      "number": 3,
+      "text": "Dear name, the rock on which I build,\nMy shield and hiding place,\nMy never-failing treasury, filled\nWith boundless stores of grace."
+    },
+    {
+      "number": 4,
+      "text": "Jesus! my Shepherd, Guardian, Friend,\nMy Prophet, Priest, and King!\nMy Lord, my life, my way, my end!\nAccept the praise I bring."
+    },
+    {
+      "number": 5,
+      "text": "Weak is the effort of my heart,\nAnd cold my warmest thought;\nBut when I see Thee as Thou art,\nI'll praise Thee as I ought."
+    }
+  ],
+  "metadata": {
+    "year": 1779,
+    "copyright": "Public Domain",
+    "themes": [
+      "Name of Jesus",
+      "Comfort",
+      "Healing",
+      "Grace",
+      "Praise"
+    ],
+    "scripture_references": [
+      "Acts 4:12",
+      "Philippians 2:9-10"
+    ],
+    "tune_source": "Traditional American melody",
+    "original_language": "en"
+  }
+}

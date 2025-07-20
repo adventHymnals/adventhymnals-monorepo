@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-526",
+  "number": 526,
+  "title": "Because He Lives",
+  "author": "William J. Gaither",
+  "composer": "William J. Gaither",
+  "tune": "Because He Lives",
+  "meter": "Irregular with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God sent His Son, they called Him Jesus;\nHe came to love, heal, and forgive;\nHe lived and died to buy my pardon,\nAn empty grave is there to prove my Savior lives."
+    },
+    {
+      "number": 2,
+      "text": "How sweet to hold a newborn baby,\nAnd feel the pride and joy he gives;\nBut greater still the calm assurance,\nThis child can face uncertain days because He lives."
+    }
+  ],
+  "chorus": {
+    "text": "Because He lives, I can face tomorrow;\nBecause He lives, all fear is gone;\nBecause I know He holds the future,\nAnd life is worth the living just because He lives."
+  },
+  "metadata": {
+    "year": 1971,
+    "copyright": "© 1971 William J. Gaither",
+    "themes": [
+      "resurrection",
+      "hope",
+      "life",
+      "future",
+      "assurance"
+    ],
+    "scripture_references": [
+      "1 Corinthians 15:20",
+      "Romans 6:9"
+    ],
+    "tune_source": "William J. Gaither",
+    "original_language": "en"
+  }
+}

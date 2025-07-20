@@ -14,14 +14,16 @@ class AppTheme {
   static const Color _black = Color(AppColors.black);
   static const Color _gray100 = Color(AppColors.gray100);
   static const Color _gray300 = Color(AppColors.gray300);
+  static const Color _gray400 = Color(AppColors.gray400);
   static const Color _gray500 = Color(AppColors.gray500);
+  static const Color _gray600 = Color(AppColors.gray600);
   static const Color _gray700 = Color(AppColors.gray700);
   static const Color _gray900 = Color(AppColors.gray900);
 
   static ThemeData get lightTheme {
     return ThemeData(
       useMaterial3: true,
-      colorScheme: ColorScheme.light(
+      colorScheme: const ColorScheme.light(
         primary: _primaryBlue,
         secondary: _secondaryBlue,
         surface: _white,
@@ -55,18 +57,20 @@ class AppTheme {
       bottomNavigationBarTheme: const BottomNavigationBarThemeData(
         type: BottomNavigationBarType.fixed,
         backgroundColor: _white,
-        selectedItemColor: _secondaryBlue,
-        unselectedItemColor: _gray500,
+        selectedItemColor: _primaryBlue,
+        unselectedItemColor: _gray600,
         elevation: 8,
+        showSelectedLabels: true,
+        showUnselectedLabels: true,
         selectedLabelStyle: TextStyle(
           fontFamily: AppFonts.inter,
-          fontSize: 11,
+          fontSize: 12,
           fontWeight: FontWeight.w600,
         ),
         unselectedLabelStyle: TextStyle(
           fontFamily: AppFonts.inter,
-          fontSize: 11,
-          fontWeight: FontWeight.w400,
+          fontSize: 12,
+          fontWeight: FontWeight.w500,
         ),
       ),
 
@@ -387,7 +391,7 @@ class AppTheme {
   static ThemeData get darkTheme {
     return ThemeData(
       useMaterial3: true,
-      colorScheme: ColorScheme.dark(
+      colorScheme: const ColorScheme.dark(
         primary: _secondaryBlue,
         secondary: _secondaryBlue,
         surface: _gray900,
@@ -422,17 +426,19 @@ class AppTheme {
         type: BottomNavigationBarType.fixed,
         backgroundColor: _gray900,
         selectedItemColor: _secondaryBlue,
-        unselectedItemColor: _gray500,
+        unselectedItemColor: _gray400,
         elevation: 8,
+        showSelectedLabels: true,
+        showUnselectedLabels: true,
         selectedLabelStyle: TextStyle(
           fontFamily: AppFonts.inter,
-          fontSize: 11,
+          fontSize: 12,
           fontWeight: FontWeight.w600,
         ),
         unselectedLabelStyle: TextStyle(
           fontFamily: AppFonts.inter,
-          fontSize: 11,
-          fontWeight: FontWeight.w400,
+          fontSize: 12,
+          fontWeight: FontWeight.w500,
         ),
       ),
 

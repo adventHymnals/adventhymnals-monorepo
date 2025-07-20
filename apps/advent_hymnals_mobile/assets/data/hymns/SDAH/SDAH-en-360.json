@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-360",
+  "number": 360,
+  "title": "From the Eastern Mountains",
+  "author": "Godfrey Thring",
+  "composer": "Traditional",
+  "tune": "FOREST GREEN",
+  "meter": "8.6.8.6.8.6",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "From the eastern mountains pressing on they come,\nWise men in their wisdom, to His humble home;\nStirred by deep devotion, hasting from afar,\nEver journeying onward, guided by a star."
+    },
+    {
+      "number": 2,
+      "text": "There their Lord and Savior meek and lowly lay,\nWondrous light that led them onward on their way,\nEver now to light that knew Thee, nations from afar,\nAs they journey homeward by that guiding star."
+    },
+    {
+      "number": 3,
+      "text": "Gather in the outcasts, all who've gone astray,\nThrow Thy radiance o'er them, guide them on their way;\nThose who never knew Thee, those who've wandered far,\nGuide them by Thy brightness, Thou their guiding star."
+    },
+    {
+      "number": 4,
+      "text": "Until every nation, whether bond or free,\n'Neath Thy starlit banner, Jesus follows thee.\nO'er the distant mountains to that heavenly home,\nWhere no sin nor sorrow evermore shall come."
+    }
+  ],
+  "metadata": {
+    "year": 1864,
+    "copyright": "Public Domain",
+    "themes": [
+      "Epiphany",
+      "Wise Men",
+      "Guidance",
+      "Mission",
+      "Star of Bethlehem"
+    ],
+    "scripture_references": [
+      "Matthew 2:1-12",
+      "Isaiah 60:3"
+    ],
+    "tune_source": "Traditional English Melody",
+    "original_language": "en"
+  }
+}

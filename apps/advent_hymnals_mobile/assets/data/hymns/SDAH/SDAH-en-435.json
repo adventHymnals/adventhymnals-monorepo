@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-435",
+  "number": 435,
+  "title": "The Glory Song",
+  "author": "Charles H. Gabriel",
+  "composer": "Charles H. Gabriel",
+  "tune": "THE GLORY SONG",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "When all my labors and trials are o'er,\nAnd I am safe on that beautiful shore,\nJust to be near the dear Lord I adore,\nWill through the ages be glory for me."
+    },
+    {
+      "number": 2,
+      "text": "When, by the gift of His infinite grace,\nI am accorded in heaven a place,\nJust to be there and to look on His face,\nWill through the ages be glory for me."
+    },
+    {
+      "number": 3,
+      "text": "Friends will be there I have loved long ago;\nJoy like a river around me will flow;\nYet, just a smile from my Savior, I know,\nWill through the ages be glory for me."
+    }
+  ],
+  "chorus": {
+    "text": "O that will be glory for me,\nGlory for me, glory for me;\nWhen by His grace I shall look on His face,\nThat will be glory, be glory for me."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Public Domain",
+    "themes": [
+      "heaven",
+      "glory",
+      "eternal life",
+      "Jesus face",
+      "triumph"
+    ],
+    "scripture_references": [
+      "1 Corinthians 13:12",
+      "Revelation 22:4",
+      "2 Corinthians 3:18"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

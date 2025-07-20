@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-350",
+  "number": 350,
+  "title": "WALKING WITH GOD",
+  "author": "James Rowe",
+  "composer": "James Rowe",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Walking with God, in the light of His word,\nWhat a glory He sheds on our way!\nWhile we do His good will He abides with us still,\nAnd with all who will trust and obey."
+    },
+    {
+      "number": 2,
+      "text": "Walking with God, how it cheers up the road,\nAs we travel each day to our home!\nWith our hand in His own, we're never alone,\nAnd He never will leave us to roam."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "walking with God",
+      "light",
+      "trust"
+    ],
+    "scripture_references": [],
+    "tune_source": "James Rowe",
+    "original_language": "en"
+  }
+}

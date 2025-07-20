@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-120",
+  "number": 120,
+  "title": "Angels We Have Heard on High",
+  "author": "Traditional French",
+  "composer": "Traditional French",
+  "tune": "Gloria",
+  "meter": "7.7.7.7 with refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Angels we have heard on high,\nSweetly singing o'er the plains,\nAnd the mountains in reply\nEchoing their joyous strains."
+    },
+    {
+      "number": 2,
+      "text": "Shepherds, why this jubilee?\nWhy your joyous strains prolong?\nWhat the gladsome tidings be\nWhich inspire your heavenly song?"
+    },
+    {
+      "number": 3,
+      "text": "Come to Bethlehem and see\nHim whose birth the angels sing;\nCome, adore on bended knee\nChrist, the Lord, the newborn King."
+    }
+  ],
+  "chorus": {
+    "text": "Gloria in excelsis Deo!\nGloria in excelsis Deo!"
+  },
+  "metadata": {
+    "year": 1862,
+    "copyright": "Public Domain",
+    "themes": [
+      "christmas",
+      "angels",
+      "nativity",
+      "praise"
+    ],
+    "scripture_references": [
+      "Luke 2:8-14"
+    ],
+    "tune_source": "Traditional French carol",
+    "original_language": "fr",
+    "translator": "James Chadwick"
+  }
+}

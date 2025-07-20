@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-062",
+  "number": 62,
+  "title": "How Lovely Is Thy Dwelling Place",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How lovely is Thy dwelling place,\nO Lord of hosts to me!\nThe tabernacles of Thy grace\nHow pleasant, Lord, they be!"
+    },
+    {
+      "number": 2,
+      "text": "My thirsty soul longs ardently,\nYea, faints Thy courts to see;\nMy very heart and flesh cry out,\nO living God, for Thee."
+    },
+    {
+      "number": 3,
+      "text": "Behold, the sparrow findeth out\nA house wherein to rest;\nThe swallow also for herself\nHath builded her a nest."
+    },
+    {
+      "number": 4,
+      "text": "Ev'n Thine own altars, where she safe\nHer young ones forth may bring,\nO Thou, almighty Lord of hosts,\nThou art my God and King."
+    },
+    {
+      "number": 5,
+      "text": "Blest are they in Thy house that dwell;\nThey ever give Thee praise.\nBlest is the man whose strength Thou art,\nIn whose heart are Thy ways."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": [
+      "God's dwelling",
+      "worship",
+      "praise",
+      "longing for God"
+    ],
+    "scripture_references": [
+      "Psalm 84"
+    ],
+    "tune_source": "[unclear]",
+    "original_language": "en"
+  }
+}

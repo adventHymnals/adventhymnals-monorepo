@@ -1,0 +1,46 @@
+{
+  "id": "CS1900-en-073",
+  "number": 73,
+  "title": "The Handwriting on the Wall",
+  "author": "F. E. Belden",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "At the feast of Belshazzar and a thousand of his lords,\nWhile they drank from golden vessels, as the Book of Truth records,\nIn the night, as they reveled in the royal palace hall,\nThey were seized with consternation, 'twas the Hand upon the wall."
+    },
+    {
+      "number": 2,
+      "text": "See the brave captive, Daniel, as he stood before the throng,\nAnd rebuked the haughty monarch for his mighty deeds of wrong;\nAs he read out the writing, 'twas the doom of one and all,\nFor the kingdom now was finished, said the Hand upon the wall."
+    },
+    {
+      "number": 3,
+      "text": "See the faith of God's servant, how he trusted in his Lord;\nThough the den of hungry lions was his portion and reward,\nHe was faithful to his Master, and would answer to his call,\nAnd despised the king's commandment, and the Hand upon the wall."
+    },
+    {
+      "number": 4,
+      "text": "In this holy Book recorded, there are warnings for us all,\nOf the secret of sin might, in the balance; it has turned the scale; yet the, understand the\nreaders – all shall come to judgment, all shall answer to their call,\nWhen the Sinner's condemnation shall be the Hand upon the wall."
+    }
+  ],
+  "chorus": {
+    "text": "'Tis the hand of God upon the wall!\nFinished, finished, finished, shall be the kingdom, mighty and tall!\nIs the hand of God writing on the palace wall?"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1893, by F. E. Belden",
+    "themes": [
+      "judgment",
+      "Belshazzar",
+      "Daniel",
+      "handwriting"
+    ],
+    "scripture_references": [
+      "Daniel 5:5-28"
+    ],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

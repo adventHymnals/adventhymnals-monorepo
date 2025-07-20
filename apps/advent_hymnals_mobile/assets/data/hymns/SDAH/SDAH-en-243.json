@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-243",
+  "number": 243,
+  "title": "King of Glory, King of Peace",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "King of glory, King of peace,\nI will love Thee;\nAnd that love may never cease,\nI will move Thee.\nThou hast granted my request,\nThou hast heard me;\nThou didst note my working breast,\nThou hast spared me."
+    },
+    {
+      "number": 2,
+      "text": "Wherefore with my utmost art\nI will sing Thee,\nAnd the cream of all my heart\nI will bring Thee.\nThough my sins against me cried,\nThou didst clear me;\nAnd alone, when they replied,\nThou didst hear me."
+    },
+    {
+      "number": 3,
+      "text": "Seven whole days, not one in seven,\nI will praise Thee;\nIn my heart, though not in heav'n,\nI can raise Thee.\nSmall it is, in this poor sort\nTo enroll Thee:\nE'en eternity's too short\nTo extol Thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "King of Glory",
+      "Peace",
+      "Love",
+      "Praise",
+      "Worship"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

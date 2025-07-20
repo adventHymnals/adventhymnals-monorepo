@@ -1,0 +1,35 @@
+{
+  "id": "SDAH-en-095",
+  "number": 95,
+  "title": "Spring Has Now Unwrapped the Flowers",
+  "author": "Thomas Blackburn",
+  "composer": "Medieval French melody",
+  "tune": "Tempus Adest Floridum",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Spring has now unwrapped the flowers,\nDay is fast reviving,\nLife in all her growing powers\nTowards the light is striving:\nGone the iron touch of cold,\nWinter time and frost time,\nSeedlings, working through the mould,\nNow make up for lost time."
+    },
+    {
+      "number": 2,
+      "text": "Herb and plant that winter long\nSlumbered at their leisure,\nNow bestirring, green and strong,\nFind in growth their pleasure:\nAll the world with beauty fills,\nGold the green enhancing;\nFlowers make glee among the hills,\nSet the meadows dancing."
+    },
+    {
+      "number": 3,
+      "text": "Through each wonder of fair days\nGod Himself expresses;\nBeauty follows all His ways,\nAs the world He blesses:\nSo, as He renews the earth,\nArtist without rival,\nIn His grace of glad new birth\nWe must seek revival."
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "Spring",
+      "Nature",
+      "Creation",
+      "Renewal"
+    ],
+    "scripture_references": [],
+    "tune_source": "Tempus Adest Floridum",
+    "original_language": "en"
+  }
+}

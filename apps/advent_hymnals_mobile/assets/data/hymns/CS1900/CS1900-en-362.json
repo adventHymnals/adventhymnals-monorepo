@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-362",
+  "number": 362,
+  "title": "COME, THOU ALMIGHTY KING",
+  "author": "C. Wesley",
+  "composer": "F. Giardini",
+  "tune": "ITALIAN HYMN",
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, thou Al-might-y King, Help us thy name to sing,\nHelp us to praise; Fa-ther, all-glo-ri-ous, O'er all vic-\nto-ri-ous, Come, and reign o-ver us, An-cient of Days."
+    },
+    {
+      "number": 2,
+      "text": "Come, thou In-car-nate Word, Gird on thy might-y sword,\nOur prayer at-tend; Come, and thy peo-ple bless, And give thy\nword suc-cess; Spir-it of ho-li-ness, On us de-scend."
+    },
+    {
+      "number": 3,
+      "text": "Come, Ho-ly Com-fort-er, Thy sa-cred wit-ness bear\nIn this glad hour; Thou who al-might-y art, Now rule in\nev-'ry heart, And ne'er from us de-part, Spir-it of pow'r."
+    },
+    {
+      "number": 4,
+      "text": "To thee, great One in Three, E-ter-nal prais-es be,\nHence ev-er-more; Thy sov-'reign ma-jes-ty May we in\nglo-ry see, And to e-ter-ni-ty Love and a-dore."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Trinity",
+      "praise",
+      "worship",
+      "majesty"
+    ],
+    "scripture_references": [],
+    "tune_source": "F. Giardini",
+    "original_language": "en"
+  }
+}

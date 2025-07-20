@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
+import 'dart:io' show Platform;
 import '../../core/constants/app_constants.dart';
+import '../../core/services/windows_debug_service.dart';
 
 class DataLoadingScreen extends StatelessWidget {
   final String status;
@@ -7,6 +10,7 @@ class DataLoadingScreen extends StatelessWidget {
   final bool hasError;
   final String? errorMessage;
   final VoidCallback? onRetry;
+  final VoidCallback? onSkip;
 
   const DataLoadingScreen({
     super.key,
@@ -15,12 +19,23 @@ class DataLoadingScreen extends StatelessWidget {
     this.hasError = false,
     this.errorMessage,
     this.onRetry,
+    this.onSkip,
   });
 
   @override
   Widget build(BuildContext context) {
+    // Debug: DataLoadingScreen build
+    if (Platform.isWindows && kDebugMode) {
+      debugPrint('🪟 [Windows] DataLoadingScreen.build() - status: $status, progress: $progress, hasError: $hasError');
+      WindowsDebugService.debugMilestone('DataLoadingScreen.build() - Status: $status');
+    }
+    
+    // Safe theme access with fallbacks
+    final theme = Theme.of(context);
+    final textTheme = theme.textTheme;
+    
     return Scaffold(
-      backgroundColor: Color(AppColors.background),
+      backgroundColor: const Color(AppColors.background),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(AppSizes.spacing24),
@@ -32,10 +47,10 @@ class DataLoadingScreen extends StatelessWidget {
                 width: 120,
                 height: 120,
                 decoration: BoxDecoration(
-                  color: Color(AppColors.primaryBlue).withOpacity(0.1),
+                  color: const Color(AppColors.primaryBlue).withOpacity(0.1),
                   borderRadius: BorderRadius.circular(AppSizes.radiusLarge),
                 ),
-                child: Icon(
+                child: const Icon(
                   Icons.library_music,
                   size: 64,
                   color: Color(AppColors.primaryBlue),
@@ -47,8 +62,8 @@ class DataLoadingScreen extends StatelessWidget {
               // App Title
               Text(
                 AppStrings.appTitle,
-                style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                  color: Color(AppColors.primaryBlue),
+                style: (textTheme.headlineMedium ?? const TextStyle()).copyWith(
+                  color: const Color(AppColors.primaryBlue),
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -57,7 +72,7 @@ class DataLoadingScreen extends StatelessWidget {
               
               // Error State
               if (hasError) ...[
-                Icon(
+                const Icon(
                   Icons.error_outline,
                   size: 64,
                   color: Color(AppColors.errorRed),
@@ -65,29 +80,48 @@ class DataLoadingScreen extends StatelessWidget {
                 const SizedBox(height: AppSizes.spacing16),
                 Text(
                   'Import Failed',
-                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    color: Color(AppColors.errorRed),
+                  style: (textTheme.titleLarge ?? const TextStyle()).copyWith(
+                    color: const Color(AppColors.errorRed),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing8),
                 Text(
                   errorMessage ?? 'An error occurred during data import',
-                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Color(AppColors.gray600),
+                  style: (textTheme.bodyMedium ?? const TextStyle()).copyWith(
+                    color: const Color(AppColors.gray600),
                   ),
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: AppSizes.spacing24),
-                ElevatedButton.icon(
-                  onPressed: onRetry,
-                  icon: const Icon(Icons.refresh),
-                  label: const Text('Retry'),
-                  style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: AppSizes.spacing24,
-                      vertical: AppSizes.spacing12,
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    ElevatedButton.icon(
+                      onPressed: onRetry,
+                      icon: const Icon(Icons.refresh),
+                      label: const Text('Retry'),
+                      style: ElevatedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: AppSizes.spacing24,
+                          vertical: AppSizes.spacing12,
+                        ),
+                      ),
                     ),
-                  ),
+                    if (onSkip != null) ...[
+                      const SizedBox(width: AppSizes.spacing16),
+                      OutlinedButton.icon(
+                        onPressed: onSkip,
+                        icon: const Icon(Icons.skip_next),
+                        label: const Text('Continue Anyway'),
+                        style: OutlinedButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: AppSizes.spacing24,
+                            vertical: AppSizes.spacing12,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ],
                 ),
               ]
               // Loading State
@@ -106,8 +140,8 @@ class DataLoadingScreen extends StatelessWidget {
                         child: CircularProgressIndicator(
                           value: progress > 0 ? progress : null,
                           strokeWidth: 8,
-                          backgroundColor: Color(AppColors.gray300),
-                          valueColor: AlwaysStoppedAnimation<Color>(
+                          backgroundColor: const Color(AppColors.gray300),
+                          valueColor: const AlwaysStoppedAnimation<Color>(
                             Color(AppColors.primaryBlue),
                           ),
                         ),
@@ -119,21 +153,21 @@ class DataLoadingScreen extends StatelessWidget {
                           children: [
                             Text(
                               '${(progress * 100).toInt()}%',
-                              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                                color: Color(AppColors.primaryBlue),
+                              style: (textTheme.headlineMedium ?? const TextStyle()).copyWith(
+                                color: const Color(AppColors.primaryBlue),
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
                             Text(
                               'Loading',
-                              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                                color: Color(AppColors.gray600),
+                              style: (textTheme.bodyMedium ?? const TextStyle()).copyWith(
+                                color: const Color(AppColors.gray600),
                               ),
                             ),
                           ],
                         )
                       else
-                        Icon(
+                        const Icon(
                           Icons.download,
                           size: 48,
                           color: Color(AppColors.primaryBlue),
@@ -147,8 +181,8 @@ class DataLoadingScreen extends StatelessWidget {
                 // Status text
                 Text(
                   status,
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    color: Color(AppColors.primaryBlue),
+                  style: (textTheme.titleMedium ?? const TextStyle()).copyWith(
+                    color: const Color(AppColors.primaryBlue),
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -158,8 +192,8 @@ class DataLoadingScreen extends StatelessWidget {
                 // Description
                 Text(
                   'Setting up your hymnal library for the first time.\nThis may take a few moments.',
-                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Color(AppColors.gray600),
+                  style: (textTheme.bodyMedium ?? const TextStyle()).copyWith(
+                    color: const Color(AppColors.gray600),
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -170,12 +204,12 @@ class DataLoadingScreen extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.all(AppSizes.spacing16),
                   decoration: BoxDecoration(
-                    color: Color(AppColors.primaryBlue).withOpacity(0.1),
+                    color: const Color(AppColors.primaryBlue).withOpacity(0.1),
                     borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
                   ),
                   child: Row(
                     children: [
-                      Icon(
+                      const Icon(
                         Icons.info_outline,
                         color: Color(AppColors.primaryBlue),
                         size: 20,
@@ -184,8 +218,8 @@ class DataLoadingScreen extends StatelessWidget {
                       Expanded(
                         child: Text(
                           'Loading hymn collections and preparing search functionality.',
-                          style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: Color(AppColors.primaryBlue),
+                          style: (textTheme.bodySmall ?? const TextStyle()).copyWith(
+                            color: const Color(AppColors.primaryBlue),
                           ),
                         ),
                       ),

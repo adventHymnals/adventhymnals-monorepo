@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-289",
+  "number": 289,
+  "title": "Praise Him",
+  "author": "Tate and Brady",
+  "composer": "Arranged",
+  "tune": "Old Hundredth",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise God from whom all blessings flow, Praise him, all creatures here below; Praise him above, ye heavenly host, Praise Father, Son, and Holy Ghost."
+    },
+    {
+      "number": 2,
+      "text": "From all that dwell below the skies, Let the Creator's praise arise; Let the Redeemer's name be sung, Through every land, by every tongue."
+    },
+    {
+      "number": 3,
+      "text": "Eternal are thy mercies, Lord, Eternal truth attends thy word; Thy praise shall sound from shore to shore, Till suns shall rise and set no more."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "praise",
+      "doxology",
+      "Trinity",
+      "worship"
+    ],
+    "scripture_references": [
+      "Psalm 117:1"
+    ],
+    "tune_source": "Arranged",
+    "original_language": "en"
+  }
+}

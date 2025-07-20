@@ -1,0 +1,38 @@
+{
+  "id": "SDAH-en-167",
+  "number": 167,
+  "title": "Alleluia! Sing to Jesus!",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "3/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Alleluia! sing to Jesus! His the scepter, His the throne;\nAlleluia! His the triumph, His the victory alone;\nHark! the songs of peaceful Zion Thunder like a mighty flood;\nJesus out of every nation Hath redeemed us by His blood."
+    },
+    {
+      "number": 2,
+      "text": "Alleluia! not as orphans Are we left in sorrow now;\nAlleluia! He is near us, Faith believes, nor questions how:\nThough the cloud from sight received Him, When the forty days were o'er,\nShall our hearts forget His promise, \"I am with you evermore\"?"
+    },
+    {
+      "number": 3,
+      "text": "Alleluia! Bread of Heaven, Thou on earth our food, our stay!\nAlleluia! here the sinful Flee to Thee from day to day:\nIntercessor, Friend of sinners, Earth's Redeemer, plead for me,\nWhere the songs of all the sinless Sweep across the crystal sea."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "praise",
+      "Jesus",
+      "victory",
+      "redemption"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-137",
+  "number": 137,
+  "title": "The Holiest Name",
+  "author": "Margaret Moody",
+  "composer": "W. A. Ogden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How soft the name of Jesus sounds In true believer's ear;\nSweet est earth-ly name my heart has held, And dearest far and near."
+    },
+    {
+      "number": 2,
+      "text": "To my heart it brings a blessing, And my lips take up the strain;\nOh, my soul can find no music, Like the precious name of Jesus."
+    }
+  ],
+  "chorus": {
+    "text": "To the world be-hold, I sing that ho-ly name!\nTell its sweetness over a-gain,\nTo the same all-glorious name!\nBlessed name! blessed name!\nBlessed name!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1892, by Thos. A. White, Bell Co. Used by permission.",
+    "themes": [
+      "name of Jesus",
+      "blessing",
+      "praise",
+      "holiness"
+    ],
+    "scripture_references": [],
+    "tune_source": "W. A. Ogden",
+    "original_language": "en"
+  }
+}

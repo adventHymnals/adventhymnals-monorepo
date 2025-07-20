@@ -1,0 +1,43 @@
+{
+  "id": "CS1900-en-580",
+  "number": 580,
+  "title": "Truth Crushed to Earth",
+  "author": "Isaac Watts",
+  "composer": "Lowell Mason",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Truth crushed to earth shall rise again, The eternal years of God are hers; But Error, wounded, writhes in pain, And dies among his worshippers."
+    },
+    {
+      "number": 2,
+      "text": "Yes, though the good man die, his deed Shall light the world in after years; That deed shall shine through endless deed, And kindle hope and dry the tears."
+    },
+    {
+      "number": 3,
+      "text": "So let the way appear steps unto heaven; All paths but one are wrong, And lead to endless night; But one is right, and leads to light."
+    }
+  ],
+  "refrain": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "truth",
+      "resurrection",
+      "error",
+      "righteousness",
+      "eternal years",
+      "divine justice"
+    ],
+    "scripture_references": [
+      "Psalm 85:11",
+      "John 8:32"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

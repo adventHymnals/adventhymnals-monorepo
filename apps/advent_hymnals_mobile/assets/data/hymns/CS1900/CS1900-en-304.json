@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-304",
+  "number": 304,
+  "title": "Repose",
+  "author": "Bishop Doane",
+  "composer": "J. Barnby",
+  "tune": "Merrial",
+  "meter": "6, 4, 6, 4, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Softly now the light of day Fades upon my sight away; Free from care, from labor free, Lord, I would commune with thee."
+    },
+    {
+      "number": 2,
+      "text": "Thou, whose all-pervading eye Naught escapes, without, within, Pardon each infirmity, Open fault and secret sin."
+    },
+    {
+      "number": 3,
+      "text": "Soon, for me, the light of day Shall for ever pass away; Then, from sin and sorrow free, Take me, Lord, to dwell with thee."
+    },
+    {
+      "number": 4,
+      "text": "Thou who, sinless, yet hast known All of man's infirmity, Then, from thine eternal throne, Jesus, look with pitying eye."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "evening",
+      "prayer",
+      "rest",
+      "communion"
+    ],
+    "scripture_references": [
+      "Psalm 4:8"
+    ],
+    "tune_source": "J. Barnby",
+    "original_language": "en"
+  }
+}

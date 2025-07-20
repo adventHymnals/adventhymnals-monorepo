@@ -1,0 +1,202 @@
+name: 🪟 Debug Windows Build (Dev)
+
+on:
+  push:
+    branches: [dev]
+    paths:
+      - 'apps/advent_hymnals_mobile/**'
+      - '.github/workflows/debug-windows-build.yml'
+  workflow_dispatch:
+    inputs:
+      build_type:
+        description: 'Build type (debug or release)'
+        required: true
+        default: 'release'
+        type: choice
+        options:
+          - debug
+          - release
+      verbose_logging:
+        description: 'Enable verbose logging'
+        required: false
+        default: true
+        type: boolean
+      skip_data_loading:
+        description: 'Skip data loading for debugging'
+        required: false
+        default: false
+        type: boolean
+
+env:
+  FLUTTER_VERSION: '3.19.0'
+
+permissions:
+  contents: read
+  packages: write
+
+concurrency:
+  group: "debug-windows-build-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  debug-windows-build:
+    runs-on: windows-latest
+    
+    steps:
+      - name: 🔍 Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: 🪟 Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+          
+      - name: 🪟 Enable Windows desktop
+        run: flutter config --enable-windows-desktop
+        
+      - name: 📦 Get Flutter dependencies
+        working-directory: apps/advent_hymnals_mobile
+        run: flutter pub get
+        
+      - name: 🔍 Flutter doctor
+        run: flutter doctor -v
+        
+      - name: 🔧 Setup build environment
+        working-directory: apps/advent_hymnals_mobile
+        run: |
+          echo "Build Type: ${{ inputs.build_type || 'release' }}"
+          echo "Verbose Logging: ${{ inputs.verbose_logging || 'true' }}"
+          echo "Skip Data Loading: ${{ inputs.skip_data_loading || 'false' }}"
+          
+      - name: 🏗️ Build Windows executable (Debug)
+        if: ${{ inputs.build_type == 'debug' }}
+        working-directory: apps/advent_hymnals_mobile
+        run: |
+          echo "Building debug version with console output..."
+          flutter build windows --debug --verbose
+          
+      - name: 🏗️ Build Windows executable (Release)
+        if: ${{ inputs.build_type != 'debug' }}
+        working-directory: apps/advent_hymnals_mobile
+        run: |
+          echo "Building release version..."
+          flutter build windows --release --verbose
+          
+      - name: 🔍 Verify build output
+        working-directory: apps/advent_hymnals_mobile
+        run: |
+          echo "Checking build output..."
+          if ("${{ inputs.build_type }}" -eq "debug") {
+            $buildPath = "build/windows/x64/runner/Debug"
+          } else {
+            $buildPath = "build/windows/x64/runner/Release"
+          }
+          
+          if (Test-Path $buildPath) {
+            Write-Host "✅ Build directory exists: $buildPath"
+            Get-ChildItem $buildPath -Recurse | Select-Object Name, Length, LastWriteTime
+          } else {
+            Write-Host "❌ Build directory not found: $buildPath"
+            exit 1
+          }
+          
+      - name: 🔍 Check asset bundling
+        working-directory: apps/advent_hymnals_mobile
+        run: |
+          if ("${{ inputs.build_type }}" -eq "debug") {
+            $dataPath = "build/windows/x64/runner/Debug/data/flutter_assets/assets/data"
+          } else {
+            $dataPath = "build/windows/x64/runner/Release/data/flutter_assets/assets/data"
+          }
+          
+          if (Test-Path $dataPath) {
+            Write-Host "✅ Assets bundled correctly"
+            Write-Host "📁 Asset files:"
+            Get-ChildItem $dataPath -Recurse | Select-Object Name, Length
+          } else {
+            Write-Host "❌ Assets not found in: $dataPath"
+            exit 1
+          }
+          
+      - name: 🧪 Test executable startup
+        working-directory: apps/advent_hymnals_mobile
+        run: |
+          if ("${{ inputs.build_type }}" -eq "debug") {
+            $exePath = "build/windows/x64/runner/Debug/AdventHymnals.exe"
+          } else {
+            $exePath = "build/windows/x64/runner/Release/AdventHymnals.exe"
+          }
+          
+          if (Test-Path $exePath) {
+            Write-Host "✅ Executable exists: $exePath"
+            Write-Host "🔍 File info:"
+            Get-ItemProperty $exePath | Select-Object Name, Length, CreationTime
+            
+            # Test if executable starts (with timeout)
+            Write-Host "🧪 Testing executable startup..."
+            $process = Start-Process -FilePath $exePath -PassThru -NoNewWindow
+            Start-Sleep -Seconds 5
+            
+            if ($process.HasExited) {
+              Write-Host "❌ Executable exited immediately (exit code: $($process.ExitCode))"
+              exit 1
+            } else {
+              Write-Host "✅ Executable started successfully"
+              Stop-Process -Id $process.Id -Force
+            }
+          } else {
+            Write-Host "❌ Executable not found: $exePath"
+            exit 1
+          }
+          
+      - name: 📦 Package Windows build
+        working-directory: apps/advent_hymnals_mobile
+        run: |
+          if ("${{ inputs.build_type }}" -eq "debug") {
+            $buildDir = "build/windows/x64/runner/Debug"
+            $zipName = "advent-hymnals-mobile-windows-debug.zip"
+          } else {
+            $buildDir = "build/windows/x64/runner/Release"
+            $zipName = "advent-hymnals-mobile-windows-release.zip"
+          }
+          
+          cd $buildDir
+          7z a "../../../../../$zipName" *
+          
+          cd ../../../../../
+          Write-Host "📦 Created package: $zipName"
+          if (Test-Path $zipName) {
+            $size = (Get-Item $zipName).Length / 1MB
+            Write-Host "📦 Package size: $([math]::Round($size, 2)) MB"
+          }
+          
+      - name: 📤 Upload Windows artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-debug-build-${{ inputs.build_type || 'release' }}-${{ github.sha }}
+          path: |
+            apps/advent_hymnals_mobile/advent-hymnals-mobile-windows-*.zip
+          retention-days: 7
+          
+      - name: 📊 Build summary
+        run: |
+          Write-Host "🎯 Build Summary:"
+          Write-Host "  - Branch: ${{ github.ref_name }}"
+          Write-Host "  - Build Type: ${{ inputs.build_type || 'release' }}"
+          Write-Host "  - Verbose Logging: ${{ inputs.verbose_logging || 'true' }}"
+          Write-Host "  - Skip Data Loading: ${{ inputs.skip_data_loading || 'false' }}"
+          Write-Host "  - Commit: ${{ github.sha }}"
+          Write-Host "  - Flutter Version: ${{ env.FLUTTER_VERSION }}"
+          
+      - name: 🔍 Debug information
+        if: ${{ inputs.verbose_logging == true || inputs.verbose_logging == 'true' }}
+        run: |
+          Write-Host "🔍 System Information:"
+          Get-ComputerInfo | Select-Object WindowsProductName, WindowsVersion, TotalPhysicalMemory
+          
+          Write-Host "🔍 Flutter Information:"
+          flutter --version
+          
+          Write-Host "🔍 Build Environment:"
+          Get-ChildItem Env: | Where-Object { $_.Name -like "*FLUTTER*" -or $_.Name -like "*DART*" }

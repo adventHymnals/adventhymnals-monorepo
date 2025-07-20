@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-392",
+  "number": 392,
+  "title": "TIS SO SWEET TO TRUST IN JESUS",
+  "author": "Louisa M. R. Stead",
+  "composer": "Wm. J. Kirkpatrick",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "'Tis so sweet to trust in Je-sus, Just to take him at his word,\nJust to rest up-on his prom-ise, Just to know thus saith the Lord."
+    },
+    {
+      "number": 2,
+      "text": "O how sweet to trust in Je-sus, Just to trust his cleans-ing blood,\nJust to rest up-on his prom-ise, Just to know thus saith the Lord."
+    },
+    {
+      "number": 3,
+      "text": "Yes, 'tis sweet to trust in Je-sus, Just from sin and self to cease,\nJust from Je-sus sim-ply tak-ing Life, and rest, and joy, and peace."
+    },
+    {
+      "number": 4,
+      "text": "I'm so glad I learned to trust thee, Pre-cious Je-sus, Sav-ior, friend;\nAnd I know that thou art with me, Wilt be with me to the end."
+    }
+  ],
+  "chorus": {
+    "text": "Je-sus, Je-sus, how I trust him! How I've proved him o'er and o'er!\nJe-sus, Je-sus, pre-cious Je-sus! O for grace to trust him more!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "trust",
+      "faith",
+      "Jesus",
+      "assurance"
+    ],
+    "scripture_references": [],
+    "tune_source": "Wm. J. Kirkpatrick",
+    "original_language": "en"
+  }
+}

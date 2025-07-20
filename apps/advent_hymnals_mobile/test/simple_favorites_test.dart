@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:advent_hymnals_mobile/presentation/providers/favorites_provider.dart';
+import 'package:advent_hymnals/presentation/providers/favorites_provider.dart';
 
 void main() {
   group('Simple Favorites Test', () {

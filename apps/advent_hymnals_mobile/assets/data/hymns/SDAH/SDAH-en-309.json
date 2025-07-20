@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-309",
+  "number": 309,
+  "title": "I Surrender All",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All to Jesus I surrender,\nAll to Him I freely give;\nI will ever love and trust Him,\nIn His presence daily live."
+    },
+    {
+      "number": 2,
+      "text": "All to Jesus I surrender,\nHumbly at His feet I bow,\nWorldly pleasures all forsaken,\nTake me, Jesus, take me now."
+    },
+    {
+      "number": 3,
+      "text": "All to Jesus I surrender,\nMake me, Savior, wholly Thine;\nLet me feel the Holy Spirit,\nTruly know that Thou art mine."
+    },
+    {
+      "number": 4,
+      "text": "All to Jesus I surrender,\nNow I feel the sacred flame.\nO the joy of full salvation!\nGlory, glory to His name!"
+    }
+  ],
+  "chorus": {
+    "text": "I surrender all, I surrender all,\nI surrender all,\nAll to Thee, my blessed Savior,\nI surrender all."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Surrender",
+      "Consecration",
+      "Total Commitment",
+      "Salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

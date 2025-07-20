@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-444",
+  "number": 444,
+  "title": "I'm a Pilgrim",
+  "author": "Mary S. B. Dana",
+  "composer": "Traditional",
+  "tune": "I'M A PILGRIM",
+  "meter": "7.7.7.7 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I'm a pilgrim, and I'm a stranger;\nI can tarry, I can tarry but a night;\nDo not detain me, for I am going\nTo where the fountains are ever flowing."
+    },
+    {
+      "number": 2,
+      "text": "There the glory is ever shining!\nO, my longing heart, my longing heart is there;\nHere in this country so dark and dreary,\nI long have wandered forlorn and weary."
+    },
+    {
+      "number": 3,
+      "text": "There's the city to which I journey;\nMy Redeemer, my Redeemer is its light!\nThere is no sorrow, nor any sighing,\nNor any tears there, nor any dying."
+    }
+  ],
+  "chorus": {
+    "text": "I'm a pilgrim, and I'm a stranger;\nI can tarry, I can tarry but a night."
+  },
+  "metadata": {
+    "year": 1841,
+    "copyright": "Public Domain",
+    "themes": [
+      "pilgrimage",
+      "stranger",
+      "journey",
+      "heavenly city",
+      "temporary sojourn"
+    ],
+    "scripture_references": [
+      "Hebrews 11:13",
+      "1 Peter 2:11",
+      "Revelation 21:4"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

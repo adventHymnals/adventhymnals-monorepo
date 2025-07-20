@@ -1,0 +1,46 @@
+{
+  "id": "SDAH-en-170",
+  "number": 170,
+  "title": "Come, You Faithful",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, you faithful, raise the strain\nOf triumphant gladness;\nIs-ra-el In-to joy from sadness.\nGod has brought His people forth\nLoosed from Pharaoh's bitter yoke\nJacob's sons and daughters;\nLed them with unmoistened foot\nThrough the Red Sea waters."
+    },
+    {
+      "number": 2,
+      "text": "'Tis the spring of souls today;\nChrist has burst His prison,\nAnd from three days' sleep in death\nAs a sun has risen.\nAll the winter of our sins,\nLong and dark, is flying\nFrom His light, to whom we give\nLaud and praise undying."
+    },
+    {
+      "number": 3,
+      "text": "Now the queen of seasons, bright\nWith the day of splendor,\nWith the royal feast of feasts,\nComes its joy to render;\nComes to glad Jerusalem,\nWho with true affection\nWelcomes in unwearied strains\nJesus' resurrection."
+    },
+    {
+      "number": 4,
+      "text": "For today among the twelve\nChrist appeared, bestowing\nHis deep peace, which evermore\nPasses human knowing.\nNeither could the gates of death,\nNor the tomb's dark portal,\nNor the watchers, nor the seal\nHold Thee as a mortal."
+    },
+    {
+      "number": 5,
+      "text": "\"Alleluia!\" now we cry\nTo our King immortal,\nWho, triumphant, burst the bars\nOf the tomb's dark portal;\n\"Alleluia!\" with the Son,\nGod the Father praising,\n\"Alleluia!\" yet again\nTo the Spirit raising."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "resurrection",
+      "Easter",
+      "triumph",
+      "praise"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-228",
+  "number": 228,
+  "title": "A Hymn of Glory Let Us Sing",
+  "author": "The Venerable Bede",
+  "composer": "Charles Villiers Stanford",
+  "tune": "DEUS TUORUM MILITUM",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "A hymn of glory let us sing;\nNew hymns throughout the world shall ring:\nAlleluia! Alleluia!\nChrist, by a road before untrod,\nAscends unto the throne of God.\nAlleluia! Alleluia!"
+    },
+    {
+      "number": 2,
+      "text": "O Lord, our homeward pathway bend,\nThat our unwearied hearts ascend,\nAlleluia! Alleluia!\nWhere, seated on Your Father's throne,\nYou reign as King of kings alone.\nAlleluia! Alleluia!"
+    },
+    {
+      "number": 3,
+      "text": "Give us Your joy on earth, O Lord,\nIn heaven to be our great reward,\nAlleluia! Alleluia!\nWhen throned with You forever, we\nShall praise Your name eternally.\nAlleluia! Alleluia!"
+    },
+    {
+      "number": 4,
+      "text": "O risen Christ, ascended Lord,\nAll praise to You let earth accord,\nAlleluia! Alleluia!\nYou are, while endless ages run,\nWith Father and with Spirit one.\nAlleluia! Alleluia!"
+    }
+  ],
+  "metadata": {
+    "year": 731,
+    "copyright": "Public Domain",
+    "themes": [
+      "Ascension",
+      "Glory",
+      "Praise",
+      "Eternal Reign"
+    ],
+    "scripture_references": [
+      "Luke 24:51",
+      "Acts 1:9-11"
+    ],
+    "tune_source": "Charles Villiers Stanford, 1904",
+    "original_language": "la"
+  }
+}

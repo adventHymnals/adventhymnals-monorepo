@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-513",
+  "number": 513,
+  "title": "In Heavenly Love Abiding",
+  "author": "Anna Laetitia Waring",
+  "composer": "Felix Mendelssohn",
+  "tune": "Gottlob",
+  "meter": "8.7.8.7.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In heavenly love abiding,\nNo change my heart shall fear;\nAnd safe is such confiding,\nFor nothing changes here.\nThe storm may roar without me,\nMy heart may low be laid;\nBut God is round about me,\nAnd can I be dismayed?"
+    },
+    {
+      "number": 2,
+      "text": "Wherever He may guide me,\nNo want shall turn me back;\nMy Shepherd is beside me,\nAnd nothing can I lack.\nHis wisdom ever waketh,\nHis sight is never dim;\nHe knows the way He taketh,\nAnd I will walk with Him."
+    },
+    {
+      "number": 3,
+      "text": "Green pastures are before me,\nWhich yet I have not seen;\nBright skies will soon be o'er me,\nWhere darkest clouds have been.\nMy hope I cannot measure,\nMy path to life is free;\nMy Savior has my treasure,\nAnd He will walk with me."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1850,
+    "copyright": "Public Domain",
+    "themes": [
+      "trust",
+      "guidance",
+      "protection",
+      "shepherd",
+      "comfort"
+    ],
+    "scripture_references": [
+      "Psalm 23",
+      "John 10:11"
+    ],
+    "tune_source": "Felix Mendelssohn",
+    "original_language": "en"
+  }
+}

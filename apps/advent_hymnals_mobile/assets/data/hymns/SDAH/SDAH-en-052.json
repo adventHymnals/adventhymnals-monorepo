@@ -1,0 +1,38 @@
+{
+  "id": "SDAH-en-052",
+  "number": 52,
+  "title": "Now the Day Is Over",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Now the day is over,\nNight is drawing nigh,\nShadows of the evening\nSteal across the sky."
+    },
+    {
+      "number": 2,
+      "text": "Father, give the weary\nCalm and sweet repose;\nWith Thy tenderest blessing\nMay our eyelids close."
+    },
+    {
+      "number": 3,
+      "text": "Through the long night watches\nMay Thine angels spread\nTheir white wings above me,\nWatching round my bed."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "evening",
+      "rest",
+      "protection",
+      "angels"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

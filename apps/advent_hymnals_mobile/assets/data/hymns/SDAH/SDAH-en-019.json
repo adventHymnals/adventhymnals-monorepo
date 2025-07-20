@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-019",
+  "number": 19,
+  "title": "O Sing a New Song to the Lord",
+  "author": "The Psalter, 1912",
+  "composer": "Traditional",
+  "tune": "Cantate Domino",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O sing a new song to the Lord\nFor marvels He has done;\nHis right hand and His holy arm\nThe victory have won."
+    },
+    {
+      "number": 2,
+      "text": "With harp, with harp and voice of psalms\nUnto Jehovah sing;\nLet seas with all their creatures roar,\nThe world and all therein."
+    },
+    {
+      "number": 3,
+      "text": "Let all their hands clap their hands,\nThe hills their joy declare,\nAnd let the rivers clap their hands,\nThe Lord acclaim with care."
+    },
+    {
+      "number": 4,
+      "text": "Before the Lord; because He comes,\nTo judge the earth comes He;\nHe'll judge the world with righteousness,\nHis folk with equity."
+    }
+  ],
+  "metadata": {
+    "year": 1912,
+    "copyright": "Public Domain",
+    "themes": [
+      "new song",
+      "victory",
+      "judgment",
+      "praise",
+      "creation"
+    ],
+    "scripture_references": [
+      "Psalm 98"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en",
+    "notes": "Metrical version of Psalm 98"
+  }
+}

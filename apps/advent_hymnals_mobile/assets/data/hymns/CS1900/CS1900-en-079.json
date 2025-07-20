@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-079",
+  "number": 79,
+  "title": "The Cleansing Wave",
+  "author": "Phoebe Palmer",
+  "composer": "Mrs. Jos. F. Knapp",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O now I see the cleansing wave! The fountain deep and wide;\nJesus, my Lord, mighty to save, Points to His wounded side."
+    },
+    {
+      "number": 2,
+      "text": "The cleansing stream, I see, I see! I plunge, and oh, it cleanseth me!\nOh, praise the Lord, it cleanseth me! It cleanseth me, yes, cleanseth me!"
+    },
+    {
+      "number": 3,
+      "text": "I rise to walk in heaven's own light, Above the world and sin,\nWith heart made pure and garments white, And Christ enthroned within."
+    }
+  ],
+  "chorus": {
+    "text": "The cleansing stream flows on! I plunge, and oh, it cleanseth me!\nOh, praise the Lord, it cleanseth me! It cleanseth me, yes, cleanseth me!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "cleansing",
+      "fountain",
+      "purity",
+      "salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": "Mrs. Jos. F. Knapp",
+    "original_language": "en"
+  }
+}

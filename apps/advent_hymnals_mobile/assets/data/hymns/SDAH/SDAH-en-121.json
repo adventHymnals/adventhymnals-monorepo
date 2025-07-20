@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-121",
+  "number": 121,
+  "title": "Go, Tell It on the Mountain",
+  "author": "John W. Work, Jr.",
+  "composer": "African-American Spiritual",
+  "tune": "Go Tell It",
+  "meter": "Irregular",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "While shepherds kept their watching\nO'er silent flocks by night,\nBehold through out the heavens\nThere shone a holy light."
+    },
+    {
+      "number": 2,
+      "text": "The shepherds feared and trembled\nWhen lo! Above the earth\nRang out the angel chorus\nThat hailed our Savior's birth."
+    },
+    {
+      "number": 3,
+      "text": "Down in a lowly manger\nThe humble Christ was born,\nAnd brought us God's salvation\nThat blessed Christmas morn."
+    }
+  ],
+  "chorus": {
+    "text": "Go, tell it on the mountain,\nOver the hills and everywhere;\nGo, tell it on the mountain\nThat Jesus Christ is born!"
+  },
+  "metadata": {
+    "year": 1907,
+    "copyright": "Public Domain",
+    "themes": [
+      "Christmas",
+      "Evangelism",
+      "Christ's Birth",
+      "Shepherds"
+    ],
+    "scripture_references": [
+      "Luke 2:8-20"
+    ],
+    "tune_source": "African-American Spiritual",
+    "original_language": "en"
+  }
+}

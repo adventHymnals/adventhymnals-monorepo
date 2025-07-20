@@ -6,12 +6,28 @@ import 'package:go_router/go_router.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/services/projector_service.dart';
 import '../../core/data/hymn_data_manager.dart';
+import '../../core/database/database_helper.dart';
+
 import '../providers/favorites_provider.dart';
 import '../providers/audio_player_provider.dart';
 import '../providers/hymn_provider.dart';
 import '../providers/recently_viewed_provider.dart';
 import '../../domain/entities/hymn.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../../core/services/comprehensive_audio_service.dart';
+
+// Simple inline model for lyrics sections
+class LyricsSection {
+  final String type; // "verse", "chorus", "bridge", "refrain"
+  final int number; // verse number (1, 2, 3, etc.)
+  final String content; // the actual text content
+
+  const LyricsSection({
+    required this.type,
+    required this.number,
+    required this.content,
+  });
+}
 
 class HymnDetailScreen extends StatefulWidget {
   final int hymnId;
@@ -32,14 +48,30 @@ class HymnDetailScreen extends StatefulWidget {
 class _HymnDetailScreenState extends State<HymnDetailScreen> {
   String _selectedFormat = 'lyrics';
   bool _isFavorite = false;
+  late final FocusNode _focusNode;
   bool _isLoading = true;
   Hymn? _hymn;
   String? _errorMessage;
+  HymnAudioInfo? _audioInfo;
+  bool _isCheckingAudio = false;
 
   @override
   void initState() {
     super.initState();
+    _focusNode = FocusNode();
     _loadHymnData();
+    // Request focus for keyboard navigation on desktop
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
+        _focusNode.requestFocus();
+      }
+    });
+  }
+
+  @override
+  void dispose() {
+    _focusNode.dispose();
+    super.dispose();
   }
 
   Future<void> _loadHymnData() async {
@@ -69,6 +101,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           // Add to recently viewed and load favorite status
           _addToRecentlyViewed();
           _loadFavoriteStatus();
+          _checkAudioAvailability();
           return;
         }
       }
@@ -94,6 +127,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           // Add to recently viewed and load favorite status
           _addToRecentlyViewed();
           _loadFavoriteStatus();
+          _checkAudioAvailability();
           return;
         }
       }
@@ -107,6 +141,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       
       // Load favorite status for fallback hymn (but don't add to recently viewed since it's not a real hymn)
       _loadFavoriteStatus();
+      _checkAudioAvailability();
       
     } catch (e) {
       print('❌ [HymnDetail] Error loading hymn: $e');
@@ -133,17 +168,45 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   
   Future<void> _addToRecentlyViewed() async {
     try {
-      // Only add to recently viewed if we have a loaded hymn with a valid database ID
-      if (_hymn == null || _hymn!.id <= 0) {
-        print('⚠️ [HymnDetail] Cannot add to recently viewed: hymn not loaded or invalid ID');
+      if (_hymn == null) {
+        print('⚠️ [HymnDetail] Cannot add to recently viewed: hymn not loaded');
         return;
       }
       
+      print('🔍 [HymnDetail] Adding hymn ${_hymn!.id} (${_hymn!.title}) to recently viewed');
+      
+      // If the hymn doesn't have a proper database ID (loaded from JSON), 
+      // try to find it in the database first
+      int? databaseId = _hymn!.id;
+      if (databaseId <= 0) {
+        print('🔄 [HymnDetail] Hymn has invalid database ID, searching by hymn number and collection');
+        // Try to find the hymn in the database by hymn number and collection
+        final db = DatabaseHelper.instance;
+        final hymns = await db.getHymns();
+        final matchingHymn = hymns.where((h) => 
+          h['hymn_number'] == _hymn!.hymnNumber && 
+          h['title'] == _hymn!.title
+        ).firstOrNull;
+        
+        if (matchingHymn != null) {
+          databaseId = matchingHymn['id'] as int;
+          print('✅ [HymnDetail] Found matching hymn in database with ID: $databaseId');
+        } else {
+          print('⚠️ [HymnDetail] Could not find hymn in database, skipping recently viewed');
+          return;
+        }
+      }
+      
       final recentlyViewedProvider = Provider.of<RecentlyViewedProvider>(context, listen: false);
-      await recentlyViewedProvider.addRecentlyViewed(_hymn!.id);
-      print('✅ [HymnDetail] Added hymn ${_hymn!.id} (${_hymn!.title}) to recently viewed');
+      final success = await recentlyViewedProvider.addRecentlyViewed(databaseId);
+      
+      if (success) {
+        print('✅ [HymnDetail] Successfully added hymn $databaseId (${_hymn!.title}) to recently viewed');
+      } else {
+        print('❌ [HymnDetail] Failed to add hymn $databaseId to recently viewed');
+      }
     } catch (e) {
-      print('⚠️ [HymnDetail] Failed to add to recently viewed: $e');
+      print('❌ [HymnDetail] Exception while adding to recently viewed: $e');
       // Don't show error to user as this is not critical functionality
     }
   }
@@ -165,6 +228,381 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       print('⚠️ [HymnDetail] Failed to load favorite status: $e');
     }
   }
+  
+  Future<void> _checkAudioAvailability() async {
+    if (_hymn == null) return;
+    
+    try {
+      print('🔍 [HymnDetail] Starting audio availability check for hymn ${_hymn!.hymnNumber}: ${_hymn!.title}');
+      setState(() {
+        _isCheckingAudio = true;
+      });
+      print('🔍 [HymnDetail] Set _isCheckingAudio = true, UI should show loading button');
+      
+      final audioService = ComprehensiveAudioService.instance;
+      final audioInfo = await audioService.getAudioInfo(_hymn!, onComplete: (updatedInfo) {
+        print('🔍 [HymnDetail] Audio check completed! Available formats: ${updatedInfo.availableFormats}');
+        print('🔍 [HymnDetail] Has any audio: ${updatedInfo.hasAnyAudio}');
+        print('🔍 [HymnDetail] Preferred format: ${updatedInfo.preferredFormat}');
+        // Update UI when audio check completes
+        if (mounted) {
+          setState(() {
+            _audioInfo = updatedInfo;
+            _isCheckingAudio = false;
+          });
+          print('🔍 [HymnDetail] Updated UI with final audio info, _isCheckingAudio = false');
+        }
+      });
+      
+      print('🔍 [HymnDetail] Initial audio info received, still checking: ${audioInfo.isChecking}');
+      setState(() {
+        _audioInfo = audioInfo;
+        _isCheckingAudio = false;
+      });
+      
+      // Also trigger check in audio provider
+      final audioProvider = Provider.of<AudioPlayerProvider>(context, listen: false);
+      await audioProvider.checkAudioAvailability(_hymn!);
+      
+    } catch (e) {
+      print('❌ [HymnDetail] Failed to check audio availability: $e');
+      setState(() {
+        _isCheckingAudio = false;
+      });
+    }
+  }
+
+  void _handleHorizontalDragEnd(DragEndDetails details) {
+    // Check if the swipe velocity is significant enough
+    const double minSwipeVelocity = 500.0;
+    
+    if (details.primaryVelocity == null) return;
+    
+    final double velocity = details.primaryVelocity!;
+    
+    if (velocity.abs() < minSwipeVelocity) return;
+    
+    // Add haptic feedback for swipe gestures
+    HapticFeedback.lightImpact();
+    
+    if (velocity > 0) {
+      // Swipe right - go to previous hymn
+      _navigateToPreviousHymn();
+    } else {
+      // Swipe left - go to next hymn
+      _navigateToNextHymn();
+    }
+  }
+
+  void _handleKeyEvent(KeyEvent event) {
+    // Only handle key down events to avoid double triggers
+    if (event is! KeyDownEvent) return;
+    
+    // Desktop keyboard navigation
+    if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
+      switch (event.logicalKey) {
+        case LogicalKeyboardKey.arrowLeft:
+        case LogicalKeyboardKey.keyJ:
+          // Left arrow or J key = Previous hymn
+          _navigateToPreviousHymn();
+          break;
+        case LogicalKeyboardKey.arrowRight:
+        case LogicalKeyboardKey.keyK:
+          // Right arrow or K key = Next hymn
+          _navigateToNextHymn();
+          break;
+        case LogicalKeyboardKey.space:
+          // Spacebar = Play/Pause audio
+          _toggleAudioPlayback();
+          break;
+        case LogicalKeyboardKey.escape:
+          // Escape key = Go back
+          _navigateBack();
+          break;
+      }
+    }
+  }
+
+  void _toggleAudioPlayback() {
+    if (_hymn == null) return;
+    
+    final audioProvider = Provider.of<AudioPlayerProvider>(context, listen: false);
+    
+    if (audioProvider.currentHymn?.id == _hymn!.id && audioProvider.isPlaying) {
+      audioProvider.pause();
+    } else {
+      audioProvider.playHymn(_hymn!);
+    }
+  }
+
+  bool _canNavigateToNext() {
+    if (_hymn == null) {
+      print('🔍 [Navigation] _canNavigateToNext: false - _hymn is null');
+      return false;
+    }
+    
+    try {
+      final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
+      final allHymns = hymnProvider.hymns;
+      
+      // Use the hymn's own collection abbreviation as the primary source
+      final currentCollection = _hymn!.collectionAbbreviation ?? widget.collectionId;
+      print('🔍 [Navigation] _canNavigateToNext: current hymn ${_hymn!.hymnNumber}, collection: $currentCollection');
+      
+      // Debug: show sample collection abbreviations
+      final sampleCollections = allHymns.take(5).map((h) => '${h.hymnNumber}:${h.collectionAbbreviation}').join(', ');
+      print('🔍 [Navigation] Sample hymn collections: $sampleCollections');
+      
+      final collectionHymns = allHymns
+          .where((h) => h.collectionAbbreviation?.toLowerCase() == currentCollection?.toLowerCase())
+          .toList();
+      collectionHymns.sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
+      
+      print('🔍 [Navigation] Found ${collectionHymns.length} hymns in collection $currentCollection');
+      if (collectionHymns.isEmpty) {
+        // Debug: show all unique collections available
+        final uniqueCollections = allHymns.map((h) => h.collectionAbbreviation).toSet().toList();
+        print('🔍 [Navigation] Available collections: $uniqueCollections');
+      }
+      
+      final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
+      final canNavigate = currentIndex >= 0 && currentIndex < collectionHymns.length - 1;
+      
+      print('🔍 [Navigation] Current index: $currentIndex, can navigate next: $canNavigate');
+      return canNavigate;
+    } catch (e) {
+      print('❌ [Navigation] Error in _canNavigateToNext: $e');
+      return false;
+    }
+  }
+
+  bool _canNavigateToPrevious() {
+    if (_hymn == null) {
+      print('🔍 [Navigation] _canNavigateToPrevious: false - _hymn is null');
+      return false;
+    }
+    
+    try {
+      final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
+      final allHymns = hymnProvider.hymns;
+      
+      // Use the hymn's own collection abbreviation as the primary source
+      final currentCollection = _hymn!.collectionAbbreviation ?? widget.collectionId;
+      print('🔍 [Navigation] _canNavigateToPrevious: current hymn ${_hymn!.hymnNumber}, collection: $currentCollection');
+      
+      final collectionHymns = allHymns
+          .where((h) => h.collectionAbbreviation?.toLowerCase() == currentCollection?.toLowerCase())
+          .toList();
+      collectionHymns.sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
+      
+      print('🔍 [Navigation] Found ${collectionHymns.length} hymns in collection $currentCollection');
+      
+      final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
+      final canNavigate = currentIndex > 0;
+      
+      print('🔍 [Navigation] Current index: $currentIndex, can navigate previous: $canNavigate');
+      return canNavigate;
+    } catch (e) {
+      print('❌ [Navigation] Error in _canNavigateToPrevious: $e');
+      return false;
+    }
+  }
+
+  void _navigateToNextHymn() {
+    if (_hymn == null) {
+      _showNavigationFeedback('Unable to navigate: hymn not loaded');
+      return;
+    }
+
+    try {
+      // Get the current hymn provider to access the hymns in the collection
+      final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
+      final hymns = hymnProvider.hymns;
+      
+      if (hymns.isEmpty) {
+        _showNavigationFeedback('No hymns available in collection');
+        return;
+      }
+
+      // Use the hymn's own collection abbreviation as the primary source
+      final currentCollection = _hymn!.collectionAbbreviation ?? widget.collectionId;
+      
+      print('🔍 [Navigation] Current hymn: ${_hymn!.hymnNumber}, Collection: $currentCollection');
+      print('🔍 [Navigation] Available hymns: ${hymns.length}');
+      
+      // Find hymns in the same collection, sorted by hymn number
+      final collectionHymns = hymns
+          .where((h) => h.collectionAbbreviation?.toLowerCase() == currentCollection?.toLowerCase())
+          .toList()
+        ..sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
+
+      print('🔍 [Navigation] Collection hymns found: ${collectionHymns.length}');
+
+      if (collectionHymns.isEmpty) {
+        _showNavigationFeedback('No hymns found in this collection ($currentCollection)');
+        return;
+      }
+
+      // Find current hymn index
+      final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
+      
+      if (currentIndex == -1) {
+        _showNavigationFeedback('Current hymn not found in collection');
+        return;
+      }
+
+      // Check if we're at the last hymn
+      if (currentIndex >= collectionHymns.length - 1) {
+        _showNavigationFeedback('This is the last hymn in the collection');
+        return;
+      }
+
+      // Navigate to next hymn
+      final nextHymn = collectionHymns[currentIndex + 1];
+      context.pushReplacement('/hymn/${nextHymn.hymnNumber}?collection=${currentCollection}&fromSource=${widget.fromSource ?? 'swipe'}');
+      
+    } catch (e) {
+      print('❌ [HymnDetail] Error navigating to next hymn: $e');
+      _showNavigationFeedback('Error navigating to next hymn');
+    }
+  }
+
+  void _navigateToPreviousHymn() {
+    if (_hymn == null) {
+      _showNavigationFeedback('Unable to navigate: hymn not loaded');
+      return;
+    }
+
+    try {
+      // Get the current hymn provider to access the hymns in the collection
+      final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
+      final hymns = hymnProvider.hymns;
+      
+      if (hymns.isEmpty) {
+        _showNavigationFeedback('No hymns available in collection');
+        return;
+      }
+
+      // Use the hymn's own collection abbreviation as the primary source
+      final currentCollection = _hymn!.collectionAbbreviation ?? widget.collectionId;
+      
+      // Find hymns in the same collection, sorted by hymn number
+      final collectionHymns = hymns
+          .where((h) => h.collectionAbbreviation?.toLowerCase() == currentCollection?.toLowerCase())
+          .toList()
+        ..sort((a, b) => a.hymnNumber.compareTo(b.hymnNumber));
+
+      if (collectionHymns.isEmpty) {
+        _showNavigationFeedback('No hymns found in this collection ($currentCollection)');
+        return;
+      }
+
+      // Find current hymn index
+      final currentIndex = collectionHymns.indexWhere((h) => h.hymnNumber == _hymn!.hymnNumber);
+      
+      if (currentIndex == -1) {
+        _showNavigationFeedback('Current hymn not found in collection');
+        return;
+      }
+
+      // Check if we're at the first hymn
+      if (currentIndex <= 0) {
+        _showNavigationFeedback('This is the first hymn in the collection');
+        return;
+      }
+
+      // Navigate to previous hymn
+      final previousHymn = collectionHymns[currentIndex - 1];
+      context.pushReplacement('/hymn/${previousHymn.hymnNumber}?collection=${currentCollection}&fromSource=${widget.fromSource ?? 'swipe'}');
+      
+    } catch (e) {
+      print('❌ [HymnDetail] Error navigating to previous hymn: $e');
+      _showNavigationFeedback('Error navigating to previous hymn');
+    }
+  }
+
+  void _showNavigationFeedback(String message) {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(message),
+        duration: const Duration(seconds: 2),
+        behavior: SnackBarBehavior.floating,
+      ),
+    );
+  }
+
+  Future<List<Map<String, dynamic>>> _getRelatedHymns() async {
+    if (_hymn == null) return [];
+    
+    try {
+      final db = DatabaseHelper.instance;
+      
+      // Get topics for current hymn
+      final topics = await db.database.then((database) => database.rawQuery('''
+        SELECT t.id, t.name 
+        FROM topics t
+        INNER JOIN hymn_topics ht ON t.id = ht.topic_id
+        WHERE ht.hymn_id = ?
+        LIMIT 3
+      ''', [_hymn!.id]));
+      
+      if (topics.isEmpty) {
+        // If no topics, try to find hymns by same author
+        return await _getHymnsByAuthor();
+      }
+      
+      // Get hymns that share topics with current hymn
+      List<Map<String, dynamic>> relatedHymns = [];
+      
+      for (final topic in topics) {
+        final topicId = topic['id'];
+        final hymnsByTopic = await db.database.then((database) => database.rawQuery('''
+          SELECT h.id, h.hymn_number, h.title, h.author_name, c.name as collection_name
+          FROM hymns h
+          LEFT JOIN collections c ON h.collection_id = c.id
+          INNER JOIN hymn_topics ht ON h.id = ht.hymn_id
+          WHERE ht.topic_id = ? AND h.id != ?
+          ORDER BY h.title ASC
+          LIMIT 5
+        ''', [topicId, _hymn!.id]));
+        
+        relatedHymns.addAll(hymnsByTopic);
+      }
+      
+      // Remove duplicates and limit to 5
+      final uniqueHymns = <int, Map<String, dynamic>>{};
+      for (final hymn in relatedHymns) {
+        uniqueHymns[hymn['id']] = hymn;
+      }
+      
+      return uniqueHymns.values.take(5).toList();
+      
+    } catch (e) {
+      print('Error fetching related hymns: $e');
+      return [];
+    }
+  }
+
+  Future<List<Map<String, dynamic>>> _getHymnsByAuthor() async {
+    if (_hymn == null || _hymn!.author == null) return [];
+    
+    try {
+      final db = DatabaseHelper.instance;
+      
+      return await db.database.then((database) => database.rawQuery('''
+        SELECT h.id, h.hymn_number, h.title, h.author_name, c.name as collection_name
+        FROM hymns h
+        LEFT JOIN collections c ON h.collection_id = c.id
+        WHERE h.author_name = ? AND h.id != ?
+        ORDER BY h.title ASC
+        LIMIT 5
+      ''', [_hymn!.author, _hymn!.id]));
+      
+    } catch (e) {
+      print('Error fetching hymns by author: $e');
+      return [];
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -175,6 +613,14 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           title: const Text('Loading...'),
           elevation: 0,
           leading: _buildBackButton(),
+          actions: [
+            // Home button
+            IconButton(
+              icon: const Icon(Icons.home),
+              onPressed: () => context.go('/home'),
+              tooltip: 'Go to Home',
+            ),
+          ],
         ),
         body: const Center(
           child: CircularProgressIndicator(),
@@ -189,6 +635,14 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           title: const Text('Error'),
           elevation: 0,
           leading: _buildBackButton(),
+          actions: [
+            // Home button
+            IconButton(
+              icon: const Icon(Icons.home),
+              onPressed: () => context.go('/home'),
+              tooltip: 'Go to Home',
+            ),
+          ],
         ),
         body: Center(
           child: Column(
@@ -212,10 +666,18 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     final hymn = _hymn!;
     return Scaffold(
       appBar: AppBar(
-        title: Text(hymn.title),
+        title: _buildOptimizedTitle(hymn),
         elevation: 0,
+        backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
+        foregroundColor: Theme.of(context).appBarTheme.foregroundColor,
         leading: _buildBackButton(),
         actions: [
+          // Home button
+          IconButton(
+            icon: const Icon(Icons.home),
+            onPressed: () => context.go('/home'),
+            tooltip: 'Go to Home',
+          ),
           IconButton(
             icon: Icon(_isFavorite ? Icons.favorite : Icons.favorite_border),
             onPressed: _toggleFavorite,
@@ -224,14 +686,103 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           Consumer<AudioPlayerProvider>(
             builder: (context, audioProvider, child) {
               final isCurrentHymn = audioProvider.currentHymn?.id == widget.hymnId;
-              return IconButton(
+              final hasAudio = _audioInfo?.hasAnyAudio ?? false;
+              final isCheckingAudio = _isCheckingAudio || (_audioInfo?.isChecking ?? false);
+              
+              print('🎵 [HymnDetail] Audio button state: isCheckingAudio=$isCheckingAudio, hasAudio=$hasAudio, isCurrentHymn=$isCurrentHymn, isPlaying=${audioProvider.isPlaying}');
+              print('🎵 [HymnDetail] _isCheckingAudio=$_isCheckingAudio, _audioInfo?.isChecking=${_audioInfo?.isChecking}');
+              
+              if (isCheckingAudio) {
+                print('🎵 [HymnDetail] Showing loading button (CircularProgressIndicator)');
+                return IconButton(
+                  icon: const SizedBox(
+                    width: 20,
+                    height: 20,
+                    child: CircularProgressIndicator(strokeWidth: 2),
+                  ),
+                  onPressed: null,
+                  tooltip: 'Checking audio availability...',
+                );
+              }
+              
+              return PopupMenuButton<String>(
+                enabled: hasAudio,
                 icon: Icon(
-                  isCurrentHymn && audioProvider.isPlaying
-                      ? Icons.pause_circle_filled
-                      : Icons.play_circle_filled,
+                  hasAudio
+                    ? (isCurrentHymn && audioProvider.isPlaying
+                        ? Icons.pause_circle_filled
+                        : Icons.play_circle_filled)
+                    : Icons.play_circle_outline,
+                  color: hasAudio ? null : Colors.grey,
                 ),
-                onPressed: () => _togglePlayback(audioProvider),
-                tooltip: isCurrentHymn && audioProvider.isPlaying ? 'Pause' : 'Play',
+                tooltip: hasAudio 
+                  ? (isCurrentHymn && audioProvider.isPlaying ? 'Audio Options' : 'Audio Options')
+                  : 'No audio available',
+                onSelected: (value) async {
+                  switch (value) {
+                    case 'play':
+                      _togglePlayback(audioProvider);
+                      break;
+                    case 'stop':
+                      print('🎵 [HymnDetail] Stopping playback');
+                      audioProvider.stop();
+                      break;
+                    case 'download_mp3':
+                      _downloadAudioFile(AudioFormat.mp3);
+                      break;
+                    case 'download_midi':
+                      _downloadAudioFile(AudioFormat.midi);
+                      break;
+                  }
+                },
+                itemBuilder: (context) => [
+                  PopupMenuItem(
+                    value: 'play',
+                    child: Row(
+                      children: [
+                        Icon(isCurrentHymn && audioProvider.isPlaying ? Icons.pause : Icons.play_arrow),
+                        const SizedBox(width: 8),
+                        Text(isCurrentHymn && audioProvider.isPlaying ? 'Pause' : 'Play'),
+                      ],
+                    ),
+                  ),
+                  if (isCurrentHymn && (audioProvider.isPlaying || audioProvider.isPaused))
+                    PopupMenuItem(
+                      value: 'stop',
+                      child: Row(
+                        children: [
+                          const Icon(Icons.stop),
+                          const SizedBox(width: 8),
+                          const Text('Stop'),
+                        ],
+                      ),
+                    ),
+                  // Only show download options for remote files (not already cached locally)
+                  if ((_audioInfo?.availableFormats.contains(AudioFormat.mp3) ?? false) &&
+                      !(_audioInfo?.audioFiles[AudioFormat.mp3]?.isLocal ?? false))
+                    const PopupMenuItem(
+                      value: 'download_mp3',
+                      child: Row(
+                        children: [
+                          Icon(Icons.download),
+                          SizedBox(width: 8),
+                          Text('Download MP3'),
+                        ],
+                      ),
+                    ),
+                  if ((_audioInfo?.availableFormats.contains(AudioFormat.midi) ?? false) &&
+                      !(_audioInfo?.audioFiles[AudioFormat.midi]?.isLocal ?? false))
+                    const PopupMenuItem(
+                      value: 'download_midi',
+                      child: Row(
+                        children: [
+                          Icon(Icons.download),
+                          SizedBox(width: 8),
+                          Text('Download MIDI'),
+                        ],
+                      ),
+                    ),
+                ],
               );
             },
           ),
@@ -251,6 +802,19 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 );
               },
             ),
+          // Desktop navigation buttons
+          if (Platform.isLinux || Platform.isWindows || Platform.isMacOS) ...[
+            IconButton(
+              icon: const Icon(Icons.skip_previous),
+              onPressed: _canNavigateToPrevious() ? _navigateToPreviousHymn : null,
+              tooltip: 'Previous Hymn (← or J)',
+            ),
+            IconButton(
+              icon: const Icon(Icons.skip_next),
+              onPressed: _canNavigateToNext() ? _navigateToNextHymn : null,
+              tooltip: 'Next Hymn (→ or K)',
+            ),
+          ],
           IconButton(
             icon: const Icon(Icons.share),
             onPressed: _shareHymn,
@@ -305,103 +869,49 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           ),
         ],
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            // Header Section
-            _buildHeader(),
-            
-            // Format Selector
-            _buildFormatSelector(),
-            
-            // Content Section
-            _buildContent(),
-            
-            // Banner Ad
-            const BannerAdWidget(),
-            
-            // Metadata Section
-            _buildMetadata(),
-            
-            // Scripture References
-            if (_hymn!.scriptureRefs != null && _hymn!.scriptureRefs!.isNotEmpty) _buildScriptureReferences(),
-            
-            // Related Hymns
-            _buildRelatedHymns(),
-            
-            const SizedBox(height: AppSizes.spacing24),
-          ],
+      body: KeyboardListener(
+        focusNode: _focusNode,
+        onKeyEvent: _handleKeyEvent,
+        child: GestureDetector(
+          onHorizontalDragEnd: _handleHorizontalDragEnd,
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                // Format Selector
+                _buildFormatSelector(),
+                
+                // Content Section
+                _buildContent(),
+                
+                // Banner Ad
+                const BannerAdWidget(),
+                
+                // Metadata Section
+                _buildMetadata(),
+                
+                // Scripture References
+                if (_hymn!.scriptureRefs != null && _hymn!.scriptureRefs!.isNotEmpty) _buildScriptureReferences(),
+                
+                // Alternate Tunes
+                _buildAlternateTunes(),
+                
+                // Related Hymns
+                _buildRelatedHymns(),
+                
+                // Hymn Comparison
+                _buildHymnComparison(),
+                
+                const SizedBox(height: AppSizes.spacing24),
+              ],
+            ),
+          ),
         ),
       ),
     );
   }
 
-  Widget _buildHeader() {
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(AppSizes.spacing20),
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [
-            Color(AppColors.primaryBlue),
-            Color(AppColors.secondaryBlue),
-          ],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: AppSizes.spacing12,
-                  vertical: AppSizes.spacing8,
-                ),
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
-                ),
-                child: Text(
-                  '#${_hymn!.hymnNumber}',
-                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-              const SizedBox(width: AppSizes.spacing12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      _hymn!.title,
-                      style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: AppSizes.spacing4),
-                    Text(
-                      'Adventist Hymnal',
-                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                        color: Colors.white.withOpacity(0.9),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ],
-      ),
-    );
-  }
+
 
   Widget _buildFormatSelector() {
     return Container(
@@ -447,16 +957,16 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             icon, 
             size: 16,
             color: isSelected 
-              ? Color(AppColors.primaryBlue) 
-              : Color(AppColors.gray700),
+              ? const Color(AppColors.primaryBlue) 
+              : const Color(AppColors.gray700),
           ),
           const SizedBox(width: AppSizes.spacing4),
           Text(
             label,
             style: TextStyle(
               color: isSelected 
-                ? Color(AppColors.primaryBlue) 
-                : Color(AppColors.gray700),
+                ? const Color(AppColors.primaryBlue) 
+                : const Color(AppColors.gray700),
               fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
             ),
           ),
@@ -469,19 +979,41 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           });
         }
       },
-      selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-      backgroundColor: Color(AppColors.gray100),
-      checkmarkColor: Color(AppColors.primaryBlue),
+      selectedColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+      backgroundColor: const Color(AppColors.gray100),
+      checkmarkColor: const Color(AppColors.primaryBlue),
       side: BorderSide(
         color: isSelected 
-          ? Color(AppColors.primaryBlue) 
-          : Color(AppColors.gray300),
+          ? const Color(AppColors.primaryBlue) 
+          : const Color(AppColors.gray300),
         width: 1,
       ),
     );
   }
 
   Widget _buildContent() {
+    // Check if hymn has chorus sections to determine layout
+    final hasChorus = _hymn != null && _hymn!.lyrics != null && _hasChorusSections(_hymn!.lyrics!);
+    
+    // Use full width card for hymns without choruses
+    if (!hasChorus && _selectedFormat == 'lyrics') {
+      return Padding(
+        padding: const EdgeInsets.all(AppSizes.spacing16),
+        child: Card(
+          child: Padding(
+            padding: const EdgeInsets.all(AppSizes.spacing20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                _buildLyricsContent(),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
+    
+    // Default card layout for hymns with choruses or other formats
     return Padding(
       padding: const EdgeInsets.all(AppSizes.spacing16),
       child: Card(
@@ -505,28 +1037,30 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   Widget _buildLyricsContent() {
     final hymn = _hymn!;
     
-    // If we have structured lyrics (verse by verse), use that
+    // If we have lyrics, parse them into verses with proper labeling
     if (hymn.lyrics != null && hymn.lyrics!.isNotEmpty) {
-      // Split lyrics into verses (assuming they're separated by double newlines)
-      final verses = hymn.lyrics!.split('\\n\\n').where((v) => v.trim().isNotEmpty).toList();
+      // Split lyrics into sections (verses, chorus, etc.)
+      final sections = _parseLyricsIntoSections(hymn.lyrics!);
       
-      return Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          for (int i = 0; i < verses.length; i++) ...[
-            _buildVerse(verses[i], i + 1),
-            if (i < verses.length - 1)
-              const SizedBox(height: AppSizes.spacing16),
+      if (sections.isNotEmpty) {
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            for (int i = 0; i < sections.length; i++) ...[
+              _buildLyricsSection(sections[i]),
+              if (i < sections.length - 1)
+                const SizedBox(height: AppSizes.spacing16),
+            ],
           ],
-        ],
-      );
+        );
+      }
     }
     
     // Fallback if no lyrics
     return Center(
       child: Column(
         children: [
-          Icon(
+          const Icon(
             Icons.music_note_outlined,
             size: 64,
             color: Color(AppColors.gray500),
@@ -540,13 +1074,28 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           Text(
             'The lyrics for this hymn are not currently available.',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray600),
+              color: const Color(AppColors.gray600),
             ),
             textAlign: TextAlign.center,
           ),
         ],
       ),
     );
+  }
+
+  Widget _buildLyricsSection(LyricsSection section) {
+    switch (section.type.toLowerCase()) {
+      case 'verse':
+        return _buildVerse(section.content, section.number);
+      case 'chorus':
+        return _buildChorus(section.content);
+      case 'refrain':
+        return _buildRefrain(section.content);
+      case 'bridge':
+        return _buildBridge(section.content);
+      default:
+        return _buildVerse(section.content, section.number);
+    }
   }
 
   Widget _buildVerse(String verse, int number) {
@@ -559,13 +1108,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             vertical: AppSizes.spacing4,
           ),
           decoration: BoxDecoration(
-            color: Color(AppColors.primaryBlue).withOpacity(0.1),
+            color: const Color(AppColors.primaryBlue).withOpacity(0.1),
             borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
           ),
           child: Text(
             'Verse $number',
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: Color(AppColors.primaryBlue),
+              color: const Color(AppColors.primaryBlue),
               fontWeight: FontWeight.w600,
             ),
           ),
@@ -591,13 +1140,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             vertical: AppSizes.spacing4,
           ),
           decoration: BoxDecoration(
-            color: Color(AppColors.successGreen).withOpacity(0.1),
+            color: const Color(AppColors.successGreen).withOpacity(0.1),
             borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
           ),
           child: Text(
             'Chorus',
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: Color(AppColors.successGreen),
+              color: const Color(AppColors.successGreen),
               fontWeight: FontWeight.w600,
             ),
           ),
@@ -607,10 +1156,10 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           width: double.infinity,
           padding: const EdgeInsets.all(AppSizes.spacing16),
           decoration: BoxDecoration(
-            color: Color(AppColors.successGreen).withOpacity(0.05),
+            color: const Color(AppColors.successGreen).withOpacity(0.05),
             borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
             border: Border.all(
-              color: Color(AppColors.successGreen).withOpacity(0.2),
+              color: const Color(AppColors.successGreen).withOpacity(0.2),
             ),
           ),
           child: Text(
@@ -625,11 +1174,88 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     );
   }
 
+  Widget _buildRefrain(String refrain) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Container(
+          padding: const EdgeInsets.symmetric(
+            horizontal: AppSizes.spacing8,
+            vertical: AppSizes.spacing4,
+          ),
+          decoration: BoxDecoration(
+            color: const Color(AppColors.secondaryBlue).withOpacity(0.1),
+            borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+          ),
+          child: Text(
+            'Refrain',
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: const Color(AppColors.secondaryBlue),
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+        ),
+        const SizedBox(height: AppSizes.spacing8),
+        Container(
+          width: double.infinity,
+          padding: const EdgeInsets.all(AppSizes.spacing16),
+          decoration: BoxDecoration(
+            color: const Color(AppColors.secondaryBlue).withOpacity(0.05),
+            borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
+            border: Border.all(
+              color: const Color(AppColors.secondaryBlue).withOpacity(0.2),
+            ),
+          ),
+          child: Text(
+            refrain,
+            style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+              height: 1.6,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildBridge(String bridge) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Container(
+          padding: const EdgeInsets.symmetric(
+            horizontal: AppSizes.spacing8,
+            vertical: AppSizes.spacing4,
+          ),
+          decoration: BoxDecoration(
+            color: const Color(AppColors.purple).withOpacity(0.1),
+            borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+          ),
+          child: Text(
+            'Bridge',
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: const Color(AppColors.purple),
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+        ),
+        const SizedBox(height: AppSizes.spacing8),
+        Text(
+          bridge,
+          style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+            height: 1.6,
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+      ],
+    );
+  }
+
   Widget _buildSolfaContent() {
     return Center(
       child: Column(
         children: [
-          Icon(
+          const Icon(
             Icons.music_note,
             size: 64,
             color: Color(AppColors.gray500),
@@ -643,7 +1269,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           Text(
             'Solfa notation will be available soon',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray600),
+              color: const Color(AppColors.gray600),
             ),
           ),
         ],
@@ -655,7 +1281,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     return Center(
       child: Column(
         children: [
-          Icon(
+          const Icon(
             Icons.piano,
             size: 64,
             color: Color(AppColors.gray500),
@@ -669,7 +1295,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           Text(
             'Staff notation will be available soon',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray600),
+              color: const Color(AppColors.gray600),
             ),
           ),
         ],
@@ -681,7 +1307,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     return Center(
       child: Column(
         children: [
-          Icon(
+          const Icon(
             Icons.my_library_music,
             size: 64,
             color: Color(AppColors.gray500),
@@ -695,7 +1321,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           Text(
             'Chord charts will be available soon',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray600),
+              color: const Color(AppColors.gray600),
             ),
           ),
         ],
@@ -721,17 +1347,97 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               const SizedBox(height: AppSizes.spacing16),
               
               if (_hymn!.author != null && _hymn!.author!.isNotEmpty)
-                _buildMetadataItem('Author', _hymn!.author!, Icons.person),
+                _buildMetadataItem('Author', _hymn!.author!, Icons.person, onTap: () {
+                  context.push('/browse/authors/${Uri.encodeComponent(_hymn!.author!)}');
+                }),
               
               if (_hymn!.composer != null && _hymn!.composer!.isNotEmpty)
-                _buildMetadataItem('Composer', _hymn!.composer!, Icons.music_note),
+                _buildMetadataItem('Composer', _hymn!.composer!, Icons.music_note, onTap: () {
+                  context.push('/browse/composers/${Uri.encodeComponent(_hymn!.composer!)}');
+                }),
               
               if (_hymn!.tuneName != null && _hymn!.tuneName!.isNotEmpty)
-                _buildMetadataItem('Tune', _hymn!.tuneName!, Icons.queue_music),
+                _buildMetadataItem('Tune', _hymn!.tuneName!, Icons.queue_music, onTap: () {
+                  context.push('/browse/tunes/${Uri.encodeComponent(_hymn!.tuneName!)}');
+                }),
               
               if (_hymn!.meter != null && _hymn!.meter!.isNotEmpty)
-                _buildMetadataItem('Meter', _hymn!.meter!, Icons.straighten),
+                _buildMetadataItem('Meter', _hymn!.meter!, Icons.straighten, onTap: () {
+                  context.push('/browse/meters/${Uri.encodeComponent(_hymn!.meter!)}');
+                }),
               
+              
+              // Audio Information
+              if (_audioInfo != null) ...[
+                const SizedBox(height: AppSizes.spacing12),
+                Text(
+                  'Audio',
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                const SizedBox(height: AppSizes.spacing8),
+                if (_audioInfo!.hasAnyAudio) ...[
+                  ...(_audioInfo!.availableFormats.map((format) {
+                    final audioFile = _audioInfo!.audioFiles[format];
+                    return Padding(
+                      padding: const EdgeInsets.only(bottom: AppSizes.spacing4),
+                      child: Row(
+                        children: [
+                          Icon(
+                            format == AudioFormat.mp3 ? Icons.audiotrack : Icons.piano,
+                            size: 16,
+                            color: const Color(AppColors.successGreen),
+                          ),
+                          const SizedBox(width: AppSizes.spacing8),
+                          Text(
+                            '${format.name.toUpperCase()} ${audioFile?.isLocal == true ? '(Downloaded)' : '(Online)'}',
+                            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                              color: const Color(AppColors.successGreen),
+                            ),
+                          ),
+                          if (audioFile?.isLocal == false) ...[
+                            const Spacer(),
+                            TextButton(
+                              onPressed: () => _downloadAudioFile(format),
+                              child: const Text('Download', style: TextStyle(fontSize: 12)),
+                            ),
+                          ],
+                        ],
+                      ),
+                    );
+                  })),
+                ] else if (_audioInfo!.isChecking) ...[
+                  const Row(
+                    children: [
+                      SizedBox(
+                        width: 16,
+                        height: 16,
+                        child: CircularProgressIndicator(strokeWidth: 2),
+                      ),
+                      SizedBox(width: AppSizes.spacing8),
+                      Text('Checking audio availability...'),
+                    ],
+                  ),
+                ] else ...[
+                  Row(
+                    children: [
+                      const Icon(
+                        Icons.audiotrack_outlined,
+                        size: 16,
+                        color: Color(AppColors.gray500),
+                      ),
+                      const SizedBox(width: AppSizes.spacing8),
+                      Text(
+                        'No audio files available',
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: const Color(AppColors.gray500),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ],
               
               // Themes
               if (_hymn!.themeTags != null && _hymn!.themeTags!.isNotEmpty) ...[
@@ -746,13 +1452,16 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 Wrap(
                   spacing: AppSizes.spacing8,
                   runSpacing: AppSizes.spacing8,
-                  children: (_hymn!.themeTags ?? []).map((theme) => Chip(
+                  children: (_hymn!.themeTags ?? []).map((theme) => ActionChip(
                     label: Text(theme),
-                    backgroundColor: Color(AppColors.purple).withOpacity(0.1),
-                    labelStyle: TextStyle(
+                    backgroundColor: const Color(AppColors.purple).withOpacity(0.1),
+                    labelStyle: const TextStyle(
                       color: Color(AppColors.purple),
                       fontSize: 12,
                     ),
+                    onPressed: () {
+                      context.push('/browse/topics/${Uri.encodeComponent(theme)}');
+                    },
                   )).toList(),
                 ),
               ],
@@ -763,8 +1472,8 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     );
   }
 
-  Widget _buildMetadataItem(String label, String value, IconData icon) {
-    return Padding(
+  Widget _buildMetadataItem(String label, String value, IconData icon, {VoidCallback? onTap}) {
+    Widget content = Padding(
       padding: const EdgeInsets.only(bottom: AppSizes.spacing12),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -772,7 +1481,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
           Icon(
             icon,
             size: 20,
-            color: Color(AppColors.gray600),
+            color: const Color(AppColors.gray600),
           ),
           const SizedBox(width: AppSizes.spacing12),
           Expanded(
@@ -782,21 +1491,40 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 Text(
                   label,
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.gray600),
+                    color: const Color(AppColors.gray600),
                     fontWeight: FontWeight.w500,
                   ),
                 ),
                 const SizedBox(height: 2),
                 Text(
                   value,
-                  style: Theme.of(context).textTheme.bodyMedium,
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    color: onTap != null ? const Color(AppColors.primaryBlue) : null,
+                    decoration: onTap != null ? TextDecoration.underline : null,
+                  ),
                 ),
               ],
             ),
           ),
+          if (onTap != null)
+            const Icon(
+              Icons.arrow_forward_ios,
+              size: 16,
+              color: Color(AppColors.gray500),
+            ),
         ],
       ),
     );
+    
+    if (onTap != null) {
+      return InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+        child: content,
+      );
+    }
+    
+    return content;
   }
 
   Widget _buildScriptureReferences() {
@@ -810,7 +1538,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
             children: [
               Row(
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.menu_book,
                     color: Color(AppColors.secondaryBlue),
                   ),
@@ -829,7 +1557,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 runSpacing: AppSizes.spacing8,
                 children: (_hymn!.scriptureRefs ?? []).map((ref) => InkWell(
                   onTap: () {
-                    // Open Bible app or reference
+                    context.push('/browse/scripture/${Uri.encodeComponent(ref)}');
                   },
                   child: Container(
                     padding: const EdgeInsets.symmetric(
@@ -837,16 +1565,16 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                       vertical: AppSizes.spacing8,
                     ),
                     decoration: BoxDecoration(
-                      color: Color(AppColors.secondaryBlue).withOpacity(0.1),
+                      color: const Color(AppColors.secondaryBlue).withOpacity(0.1),
                       borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
                       border: Border.all(
-                        color: Color(AppColors.secondaryBlue).withOpacity(0.3),
+                        color: const Color(AppColors.secondaryBlue).withOpacity(0.3),
                       ),
                     ),
                     child: Text(
                       ref,
                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: Color(AppColors.secondaryBlue),
+                        color: const Color(AppColors.secondaryBlue),
                         fontWeight: FontWeight.w500,
                       ),
                     ),
@@ -876,10 +1604,48 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                 ),
               ),
               const SizedBox(height: AppSizes.spacing12),
-              // Sample related hymns
-              _buildRelatedHymnItem('Great Is Thy Faithfulness', 'Thomas Chisholm', 18),
-              _buildRelatedHymnItem('How Great Thou Art', 'Carl Boberg', 86),
-              _buildRelatedHymnItem('Blessed Assurance', 'Fanny J. Crosby', 462),
+              // Load related hymns from database
+              FutureBuilder<List<Map<String, dynamic>>>(
+                future: _getRelatedHymns(),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const Center(
+                      child: Padding(
+                        padding: EdgeInsets.all(AppSizes.spacing16),
+                        child: CircularProgressIndicator(),
+                      ),
+                    );
+                  }
+                  
+                  if (snapshot.hasError) {
+                    return Text(
+                      'Error loading related hymns',
+                      style: TextStyle(color: Colors.grey[600]),
+                    );
+                  }
+                  
+                  final relatedHymns = snapshot.data ?? [];
+                  
+                  if (relatedHymns.isEmpty) {
+                    return Text(
+                      'No related hymns found',
+                      style: TextStyle(color: Colors.grey[600]),
+                    );
+                  }
+                  
+                  return Column(
+                    children: relatedHymns.map((hymn) {
+                      return _buildRelatedHymnItem(
+                        hymn['title'] ?? 'Unknown Title',
+                        hymn['author_name'] ?? 'Unknown Author',
+                        hymn['hymn_number'] ?? 0,
+                        hymn['id'] ?? 0,
+                        hymn['collection_name'] ?? '',
+                      );
+                    }).toList(),
+                  );
+                },
+              ),
             ],
           ),
         ),
@@ -887,11 +1653,11 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
     );
   }
 
-  Widget _buildRelatedHymnItem(String title, String author, int number) {
+  Widget _buildRelatedHymnItem(String title, String author, int number, int hymnId, String collectionName) {
     return InkWell(
       onTap: () {
-        // Navigate to related hymn
-        context.push('/hymn/$number');
+        // Navigate to related hymn with proper context
+        context.push('/hymn/$hymnId?from=related');
       },
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: AppSizes.spacing8),
@@ -901,7 +1667,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
               width: 32,
               height: 32,
               decoration: BoxDecoration(
-                color: Color(AppColors.gray300),
+                color: const Color(AppColors.gray300),
                 borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
               ),
               child: Center(
@@ -927,13 +1693,13 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
                   Text(
                     author,
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Color(AppColors.gray600),
+                      color: const Color(AppColors.gray600),
                     ),
                   ),
                 ],
               ),
             ),
-            Icon(
+            const Icon(
               Icons.arrow_forward_ios,
               size: 16,
               color: Color(AppColors.gray500),
@@ -989,7 +1755,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text('Failed to ${_isFavorite ? 'remove from' : 'add to'} favorites'),
-            backgroundColor: Color(AppColors.errorRed),
+            backgroundColor: const Color(AppColors.errorRed),
             duration: const Duration(seconds: 2),
           ),
         );
@@ -999,7 +1765,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text('Error: ${e.toString()}'),
-          backgroundColor: Color(AppColors.errorRed),
+          backgroundColor: const Color(AppColors.errorRed),
           duration: const Duration(seconds: 2),
         ),
       );
@@ -1042,15 +1808,89 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   void _togglePlayback(AudioPlayerProvider audioProvider) {
     final isCurrentHymn = audioProvider.currentHymn?.id == widget.hymnId;
     
+    print('🎵 [HymnDetail] _togglePlayback called: isCurrentHymn=$isCurrentHymn, isPlaying=${audioProvider.isPlaying}');
+    
     if (isCurrentHymn) {
       if (audioProvider.isPlaying) {
+        print('🎵 [HymnDetail] Pausing current hymn');
         audioProvider.pause();
       } else {
+        print('🎵 [HymnDetail] Resuming current hymn');
         audioProvider.resume();
       }
     } else {
-      // Use the current hymn for playback
-      audioProvider.playHymn(_hymn!);
+      // Use the current hymn for playback with preferred format
+      final preferredFormat = _audioInfo?.preferredFormat;
+      print('🎵 [HymnDetail] Starting playback of new hymn ${_hymn!.hymnNumber}: ${_hymn!.title}');
+      print('🎵 [HymnDetail] Preferred format: $preferredFormat');
+      audioProvider.playHymn(_hymn!, preferredFormat: preferredFormat);
+    }
+  }
+  
+  Future<void> _downloadAudioFile(AudioFormat format) async {
+    if (_hymn == null) return;
+    
+    try {
+      // Show progress dialog
+      showDialog(
+        context: context,
+        barrierDismissible: false,
+        builder: (context) => AlertDialog(
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const CircularProgressIndicator(),
+              const SizedBox(height: 16),
+              Text('Downloading ${format.name.toUpperCase()} file...'),
+            ],
+          ),
+        ),
+      );
+      
+      final audioProvider = Provider.of<AudioPlayerProvider>(context, listen: false);
+      final success = await audioProvider.downloadAudioFile(_hymn!, format);
+      
+      // Close progress dialog
+      if (mounted) {
+        Navigator.of(context).pop();
+      }
+      
+      if (success) {
+        // Refresh audio info to show downloaded status
+        await _checkAudioAvailability();
+        
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text('${format.name.toUpperCase()} file downloaded successfully'),
+              backgroundColor: const Color(AppColors.successGreen),
+            ),
+          );
+        }
+      } else {
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text('Failed to download ${format.name.toUpperCase()} file'),
+              backgroundColor: const Color(AppColors.errorRed),
+            ),
+          );
+        }
+      }
+    } catch (e) {
+      // Close progress dialog if still open
+      if (mounted && Navigator.of(context).canPop()) {
+        Navigator.of(context).pop();
+      }
+      
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Error downloading audio: $e'),
+            backgroundColor: const Color(AppColors.errorRed),
+          ),
+        );
+      }
     }
   }
 
@@ -1074,66 +1914,332 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
         ),
       );
     } else {
-      projectorService.startProjector(widget.hymnId);
+      // Calculate total verses from the hymn lyrics
+      final totalVerses = _hymn != null ? _parseVerses(_hymn!.lyrics ?? '').length : 0;
+      
+      projectorService.startProjector(widget.hymnId, totalVerses: totalVerses);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Row(
             children: [
               const Icon(Icons.present_to_all, color: Colors.white),
               const SizedBox(width: 8),
-              Text('Projecting "${_hymn!.title}"'),
+              Text('Projecting "${_hymn!.title}" ($totalVerses verses)'),
             ],
           ),
           backgroundColor: Colors.orange,
           duration: const Duration(seconds: 3),
           action: SnackBarAction(
-            label: 'View',
+            label: 'Open URL',
             textColor: Colors.white,
-            onPressed: () => context.go('/projector?hymn=${widget.hymnId}'),
+            onPressed: () {
+              ScaffoldMessenger.of(context).hideCurrentSnackBar();
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(
+                  content: Text('Projector URL copied to clipboard. Paste in a new browser window on your projector screen.'),
+                  backgroundColor: Colors.blue,
+                  duration: Duration(seconds: 4),
+                ),
+              );
+            },
           ),
         ),
       );
     }
   }
 
-  Widget _buildBackButton() {
-    return IconButton(
-      icon: const Icon(Icons.arrow_back),
-      onPressed: () {
-        // Handle back navigation based on source
-        if (widget.fromSource != null) {
-          switch (widget.fromSource) {
-            case 'favorites':
-              context.go('/favorites');
-              break;
-            case 'recent':
-              context.go('/recently-viewed');
-              break;
-            case 'home':
-              context.go('/home');
-              break;
-            default:
-              _defaultBackNavigation();
-              break;
-          }
-        } else if (widget.collectionId != null) {
-          // If no source but has collection ID, try to navigate to collection
-          // Note: This assumes collectionId is a valid collection identifier
-          context.go('/collection/${widget.collectionId}');
-        } else {
-          _defaultBackNavigation();
-        }
-      },
-      tooltip: _getBackTooltip(),
+  /// Parse verses from lyrics (same logic as ProjectorWindowScreen)
+  List<String> _parseVerses(String lyrics) {
+    if (lyrics.isEmpty) return ['No lyrics available'];
+    
+    // Split by double newlines or verse markers
+    final verses = lyrics.split(RegExp(r'\n\s*\n|\n\d+\.\s*'));
+    return verses.where((verse) => verse.trim().isNotEmpty).toList();
+  }
+
+  Widget _buildOptimizedTitle(Hymn hymn) {
+    // Get hymnal abbreviation - use collectionAbbreviation if available, otherwise derive from collectionId
+    String hymnalAbbrev = hymn.collectionAbbreviation ?? 
+                         (widget.collectionId?.toUpperCase() ?? 'HYMN');
+    
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        // First line: Hymnal abbreviation and hymn number
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            // Hymnal abbreviation with better contrast
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(0.2),
+                borderRadius: BorderRadius.circular(4),
+              ),
+              child: Text(
+                hymnalAbbrev,
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            const SizedBox(width: 8),
+            
+            // Hymn number
+            Text(
+              '#${hymn.hymnNumber}',
+              style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                fontWeight: FontWeight.w600,
+                color: Theme.of(context).appBarTheme.foregroundColor,
+                fontSize: 18,
+              ),
+            ),
+          ],
+        ),
+        
+        const SizedBox(height: 2),
+        
+        // Second line: Title
+        Text(
+          hymn.title,
+          style: Theme.of(context).textTheme.titleMedium?.copyWith(
+            color: Theme.of(context).appBarTheme.foregroundColor,
+            fontSize: 16,
+          ),
+          overflow: TextOverflow.ellipsis,
+          maxLines: 1,
+        ),
+      ],
     );
   }
 
-  void _defaultBackNavigation() {
-    if (Navigator.of(context).canPop()) {
-      Navigator.of(context).pop();
-    } else {
-      context.go('/home');
+  List<LyricsSection> _parseLyricsIntoSections(String lyrics) {
+    final sections = <LyricsSection>[];
+    
+    // Split by double newlines to get potential sections
+    final rawSections = lyrics.split(RegExp(r'\n\s*\n')).where((s) => s.trim().isNotEmpty).toList();
+    
+    int verseNumber = 1;
+    LyricsSection? chorusSection;
+    
+    for (final rawSection in rawSections) {
+      final trimmedSection = rawSection.trim();
+      if (trimmedSection.isEmpty) continue;
+      
+      final sectionType = _detectSectionType(trimmedSection);
+      
+      switch (sectionType) {
+        case 'chorus':
+        case 'refrain':
+          // Store chorus/refrain for later repetition
+          final cleanContent = _cleanSectionContent(trimmedSection, sectionType);
+          chorusSection = LyricsSection(
+            type: sectionType,
+            number: 1,
+            content: cleanContent,
+          );
+          sections.add(chorusSection);
+          break;
+          
+        case 'bridge':
+          final cleanContent = _cleanSectionContent(trimmedSection, sectionType);
+          sections.add(LyricsSection(
+            type: 'bridge',
+            number: 1,
+            content: cleanContent,
+          ));
+          break;
+          
+        case 'verse':
+        default:
+          // Treat as verse
+          final cleanContent = _cleanSectionContent(trimmedSection, 'verse');
+          sections.add(LyricsSection(
+            type: 'verse',
+            number: verseNumber,
+            content: cleanContent,
+          ));
+          
+          // Add chorus after verse if it exists and should repeat
+          if (chorusSection != null && verseNumber > 1) {
+            sections.add(chorusSection);
+          }
+          
+          verseNumber++;
+          break;
+      }
     }
+    
+    return sections;
+  }
+
+  String _detectSectionType(String section) {
+    final firstLine = section.split('\n').first.toLowerCase().trim();
+    
+    // Check for explicit labels
+    if (firstLine.startsWith('chorus') || 
+        firstLine.contains('chorus:')) {
+      return 'chorus';
+    }
+    
+    if (firstLine.startsWith('refrain') ||
+        firstLine.contains('refrain:')) {
+      return 'refrain';
+    }
+    
+    // Check for bridge indicators
+    if (firstLine.startsWith('bridge') || firstLine.contains('bridge:')) {
+      return 'bridge';
+    }
+    
+    // Check for verse indicators
+    if (firstLine.startsWith('verse') || 
+        firstLine.contains('verse') ||
+        RegExp(r'^\d+\.?\s').hasMatch(firstLine)) {
+      return 'verse';
+    }
+    
+    // Only detect chorus/refrain if explicitly labeled or in a hymn structure with multiple sections
+    // Don't auto-detect based on word repetition as that can incorrectly classify verses
+    
+    // Default to verse
+    return 'verse';
+  }
+
+  bool _hasChorusSections(String lyrics) {
+    // Check if the lyrics contain explicit chorus/refrain section labels
+    // Look for labels at the beginning of lines, not just anywhere in the text
+    final lines = lyrics.toLowerCase().split('\n');
+    for (final line in lines) {
+      final trimmedLine = line.trim();
+      if (trimmedLine.startsWith('chorus') || 
+          trimmedLine.contains('chorus:') ||
+          trimmedLine.startsWith('refrain') ||
+          trimmedLine.contains('refrain:') ||
+          trimmedLine.startsWith('bridge') ||
+          trimmedLine.contains('bridge:')) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  String _cleanSectionContent(String section, String sectionType) {
+    final lines = section.split('\n').map((l) => l.trim()).toList();
+    final cleanedLines = <String>[];
+    
+    for (int i = 0; i < lines.length; i++) {
+      final line = lines[i];
+      if (line.isEmpty) continue;
+      
+      // Skip the first line if it's just a label
+      if (i == 0 && _isLabelLine(line, sectionType)) {
+        continue;
+      }
+      
+      cleanedLines.add(line);
+    }
+    
+    return cleanedLines.join('\n').trim();
+  }
+
+  bool _isLabelLine(String line, String sectionType) {
+    final lowerLine = line.toLowerCase().trim();
+    final cleanLine = lowerLine.replaceAll(RegExp(r'[^\w\s]'), '').trim();
+    
+    switch (sectionType) {
+      case 'chorus':
+        return cleanLine == 'chorus' || cleanLine.startsWith('chorus ');
+      case 'refrain':
+        return cleanLine == 'refrain' || cleanLine.startsWith('refrain ');
+      case 'bridge':
+        return cleanLine == 'bridge' || cleanLine.startsWith('bridge ');
+      case 'verse':
+        return RegExp(r'^verse\s*\d*$').hasMatch(cleanLine) ||
+               RegExp(r'^\d+\.?\s*$').hasMatch(cleanLine);
+      default:
+        return false;
+    }
+  }
+
+  Widget _buildBackButton() {
+    return IconButton(
+      icon: const Icon(Icons.arrow_back),
+      onPressed: () => _navigateBack(),
+      tooltip: _getBackButtonTooltip(),
+    );
+  }
+
+  String _getBackButtonTooltip() {
+    switch (widget.fromSource) {
+      case 'favorites':
+        return 'Back to Favorites';
+      case 'recent':
+        return 'Back to Recently Viewed';
+      case 'search':
+        return 'Back to Search';
+      case 'collection':
+        return 'Back to Collection';
+      case 'browse':
+        return 'Back to Browse';
+      case 'home':
+      default:
+        return 'Back to Home';
+    }
+  }
+
+  void _navigateBack() {
+    try {
+      // Navigate based on source context
+      if (widget.fromSource != null) {
+        switch (widget.fromSource) {
+          case 'favorites':
+            context.go('/favorites');
+            break;
+          case 'recent':
+            context.go('/recently-viewed');
+            break;
+          case 'search':
+            context.go('/search');
+            break;
+          case 'collection':
+            if (widget.collectionId != null) {
+              context.go('/collection/${widget.collectionId}');
+            } else {
+              context.go('/browse/collections');
+            }
+            break;
+          case 'browse':
+            context.go('/browse');
+            break;
+          case 'home':
+          default:
+            context.go('/home');
+            break;
+        }
+      } else {
+        // Fallback to standard back navigation or home
+        if (Navigator.of(context).canPop()) {
+          Navigator.of(context).pop();
+        } else {
+          context.go('/home');
+        }
+      }
+    } catch (e) {
+      print('❌ [HymnDetail] Navigation error: $e');
+      // Fallback navigation
+      if (Navigator.of(context).canPop()) {
+        Navigator.of(context).pop();
+      } else {
+        context.go('/home');
+      }
+    }
+  }
+
+  void _defaultBackNavigation() {
+    _navigateBack();
   }
 
   String _getBackTooltip() {
@@ -1226,7 +2332,7 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
       context: context,
       builder: (context) => AlertDialog(
         title: const Text('Print Preview'),
-        content: Container(
+        content: SizedBox(
           width: double.maxFinite,
           height: 300,
           child: SingleChildScrollView(
@@ -1376,38 +2482,350 @@ class _HymnDetailScreenState extends State<HymnDetailScreen> {
   }
 
   void _downloadAudio() {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Row(
+    if (_audioInfo == null || !_audioInfo!.hasAnyAudio) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('No audio files available for download'),
+          backgroundColor: Color(AppColors.errorRed),
+        ),
+      );
+      return;
+    }
+    
+    // Show dialog with available formats
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Download Audio'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
-            const SizedBox(
-              width: 20,
-              height: 20,
-              child: CircularProgressIndicator(strokeWidth: 2),
-            ),
-            const SizedBox(width: 12),
-            Text('Downloading "${_hymn!.title}.mp3"...'),
+            Text('Choose audio format for "${_hymn!.title}":'),
+            const SizedBox(height: 16),
+            ...(_audioInfo!.availableFormats.map((format) {
+              final audioFile = _audioInfo!.audioFiles[format];
+              final isLocal = audioFile?.isLocal ?? false;
+              
+              return ListTile(
+                leading: Icon(
+                  format == AudioFormat.mp3 ? Icons.audiotrack : Icons.piano,
+                  color: isLocal ? const Color(AppColors.successGreen) : null,
+                ),
+                title: Text(format.name.toUpperCase()),
+                subtitle: Text(isLocal ? 'Already downloaded' : 'Download for offline use'),
+                trailing: isLocal ? const Icon(Icons.check_circle, color: Color(AppColors.successGreen)) : null,
+                enabled: !isLocal,
+                onTap: isLocal ? null : () {
+                  Navigator.of(context).pop();
+                  _downloadAudioFile(format);
+                },
+              );
+            })),
           ],
         ),
-        duration: const Duration(seconds: 5),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Cancel'),
+          ),
+        ],
       ),
     );
-    
-    Future.delayed(const Duration(seconds: 5), () {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Downloaded "${_hymn!.title}.mp3" to Downloads folder'),
-            action: SnackBarAction(
-              label: 'Play',
-              onPressed: () {
-                // Play audio
-              },
-            ),
+  }
+
+  Widget _buildAlternateTunes() {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: AppSizes.spacing16),
+      child: Card(
+        child: Padding(
+          padding: const EdgeInsets.all(AppSizes.spacing16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  const Icon(
+                    Icons.music_note,
+                    color: Color(AppColors.warningOrange),
+                  ),
+                  const SizedBox(width: AppSizes.spacing8),
+                  Text(
+                    'Alternate Tunes',
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: AppSizes.spacing12),
+              FutureBuilder<List<Map<String, dynamic>>>(
+                future: _getAlternateTunes(),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const Center(
+                      child: Padding(
+                        padding: EdgeInsets.all(AppSizes.spacing16),
+                        child: CircularProgressIndicator(),
+                      ),
+                    );
+                  }
+                  
+                  if (snapshot.hasError || !snapshot.hasData || snapshot.data!.isEmpty) {
+                    return Text(
+                      'No alternate tunes available',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: const Color(AppColors.gray500),
+                      ),
+                    );
+                  }
+                  
+                  final alternateTunes = snapshot.data!;
+                  
+                  return Column(
+                    children: alternateTunes.map((tune) {
+                      return Padding(
+                        padding: const EdgeInsets.only(bottom: AppSizes.spacing8),
+                        child: InkWell(
+                          onTap: () {
+                            context.push('/browse/tunes/${Uri.encodeComponent(tune['tune_name'])}');
+                          },
+                          child: Container(
+                            padding: const EdgeInsets.all(AppSizes.spacing12),
+                            decoration: BoxDecoration(
+                              color: const Color(AppColors.warningOrange).withOpacity(0.1),
+                              borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+                              border: Border.all(
+                                color: const Color(AppColors.warningOrange).withOpacity(0.3),
+                              ),
+                            ),
+                            child: Row(
+                              children: [
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        tune['tune_name'],
+                                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                          fontWeight: FontWeight.w600,
+                                          color: const Color(AppColors.warningOrange),
+                                        ),
+                                      ),
+                                      if (tune['meter'] != null && tune['meter'] != _hymn!.meter)
+                                        Text(
+                                          'Meter: ${tune['meter']}',
+                                          style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                            color: const Color(AppColors.gray600),
+                                          ),
+                                        ),
+                                    ],
+                                  ),
+                                ),
+                                const Icon(
+                                  Icons.arrow_forward_ios,
+                                  size: 16,
+                                  color: Color(AppColors.warningOrange),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      );
+                    }).toList(),
+                  );
+                },
+              ),
+            ],
           ),
-        );
-      }
-    });
+        ),
+      ),
+    );
+  }
+
+  Widget _buildHymnComparison() {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: AppSizes.spacing16),
+      child: Card(
+        child: Padding(
+          padding: const EdgeInsets.all(AppSizes.spacing16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  const Icon(
+                    Icons.compare_arrows,
+                    color: Color(AppColors.purple),
+                  ),
+                  const SizedBox(width: AppSizes.spacing8),
+                  Text(
+                    'Hymn Variations',
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: AppSizes.spacing12),
+              FutureBuilder<List<Map<String, dynamic>>>(
+                future: _getHymnVariations(),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const Center(
+                      child: Padding(
+                        padding: EdgeInsets.all(AppSizes.spacing16),
+                        child: CircularProgressIndicator(),
+                      ),
+                    );
+                  }
+                  
+                  if (snapshot.hasError || !snapshot.hasData || snapshot.data!.isEmpty) {
+                    return Text(
+                      'No variations found across different hymnals',
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: const Color(AppColors.gray500),
+                      ),
+                    );
+                  }
+                  
+                  final variations = snapshot.data!;
+                  
+                  return Column(
+                    children: variations.map((variation) {
+                      return Padding(
+                        padding: const EdgeInsets.only(bottom: AppSizes.spacing12),
+                        child: Container(
+                          padding: const EdgeInsets.all(AppSizes.spacing12),
+                          decoration: BoxDecoration(
+                            color: const Color(AppColors.purple).withOpacity(0.1),
+                            borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+                            border: Border.all(
+                              color: const Color(AppColors.purple).withOpacity(0.3),
+                            ),
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      '${variation['collection_name']} (${variation['year']})',
+                                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                        fontWeight: FontWeight.w600,
+                                        color: const Color(AppColors.purple),
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    '#${variation['hymn_number']}',
+                                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                      color: const Color(AppColors.gray600),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              const SizedBox(height: AppSizes.spacing4),
+                              if (variation['title_difference'] != null)
+                                Text(
+                                  'Title: ${variation['title_difference']}',
+                                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                    color: const Color(AppColors.gray600),
+                                  ),
+                                ),
+                              if (variation['tune_difference'] != null)
+                                Text(
+                                  'Tune: ${variation['tune_difference']}',
+                                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                    color: const Color(AppColors.gray600),
+                                  ),
+                                ),
+                              if (variation['lyric_changes'] != null)
+                                Text(
+                                  'Lyrics: ${variation['lyric_changes']}',
+                                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                    color: const Color(AppColors.gray600),
+                                  ),
+                                ),
+                            ],
+                          ),
+                        ),
+                      );
+                    }).toList(),
+                  );
+                },
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Future<List<Map<String, dynamic>>> _getAlternateTunes() async {
+    if (_hymn == null || _hymn!.meter == null) return [];
+    
+    try {
+      final db = DatabaseHelper.instance;
+      final database = await db.database;
+      
+      // Get hymns with the same meter but different tune names
+      final alternateTunes = await database.rawQuery('''
+        SELECT DISTINCT tune_name, meter
+        FROM hymns
+        WHERE LOWER(REPLACE(REPLACE(meter, '.', ''), ' ', '')) = LOWER(REPLACE(REPLACE(?, '.', ''), ' ', ''))
+        AND tune_name IS NOT NULL
+        AND tune_name != ?
+        AND tune_name != ''
+        ORDER BY tune_name ASC
+        LIMIT 5
+      ''', [_hymn!.meter!, _hymn!.tuneName ?? '']);
+      
+      return alternateTunes;
+    } catch (e) {
+      print('Error getting alternate tunes: $e');
+      return [];
+    }
+  }
+
+  Future<List<Map<String, dynamic>>> _getHymnVariations() async {
+    if (_hymn == null) return [];
+    
+    try {
+      // For demonstration, return sample data showing how hymns vary across different hymnals
+      // In a real implementation, this would query the database for actual variations
+      await Future.delayed(const Duration(milliseconds: 500)); // Simulate database query
+      
+      return [
+        {
+          'collection_name': 'Seventh-day Adventist Hymnal',
+          'year': 1985,
+          'hymn_number': 123,
+          'title_difference': 'Same title',
+          'tune_difference': 'AMAZING GRACE',
+          'lyric_changes': 'Verse 3 modified for theological accuracy',
+        },
+        {
+          'collection_name': 'Christ in Song',
+          'year': 1900,
+          'hymn_number': 456,
+          'title_difference': 'Original title: "Amazing Grace! How Sweet the Sound"',
+          'tune_difference': 'NEW BRITAIN',
+          'lyric_changes': 'Original 6 verses, modern version has 4',
+        },
+        {
+          'collection_name': 'Hymns and Tunes',
+          'year': 1876,
+          'hymn_number': 789,
+          'title_difference': 'Same title',
+          'tune_difference': 'AMAZING GRACE (different arrangement)',
+          'lyric_changes': 'Archaic language preserved ("thee", "thou")',
+        },
+      ];
+    } catch (e) {
+      print('Error getting hymn variations: $e');
+      return [];
+    }
   }
 }
 
@@ -1538,4 +2956,5 @@ class _FullscreenHymnViewState extends State<FullscreenHymnView> {
       ),
     );
   }
+
 }

@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-244",
+  "number": 244,
+  "title": "My Song Shall Be of Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My song shall be of Jesus,\nHis mercy crowns my days,\nHe fills my cup with blessings,\nAnd tunes my heart to praise;\nMy song shall be of Jesus,\nThe precious Lamb of God,\nWho gave Himself my ransom,\nAnd bought me with His blood."
+    },
+    {
+      "number": 2,
+      "text": "My song shall be of Jesus,\nWhen sitting at His feet,\nI call to mind His goodness,\nAnd know my joy's complete;\nMy song shall be of Jesus,\nWhat-ever ills befall,\nI'll sing the grace that saves me,\nAnd triumphs over all."
+    },
+    {
+      "number": 3,
+      "text": "My song shall be of Jesus,\nWhile pressing on my way\nTo where my home shines glorious\nIn pure and perfect day;\nAnd when my soul shall enter\nThe mansions fair,\nA song of praise to Jesus\nI'll sing forever there."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Jesus Christ",
+      "Song",
+      "Praise",
+      "Mercy",
+      "Salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

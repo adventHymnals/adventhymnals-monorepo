@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-659",
+  "number": 659,
+  "title": "May the Grace of Christ Our Savior",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "May the grace of Christ our Savior\nAnd the Father's boundless love,\nWith the Holy Spirit's favor,\nRest upon them from above."
+    },
+    {
+      "number": 2,
+      "text": "Thus may they abide in union\nWith each other and the Lord,\nAnd possess, in sweet communion,\nJoys which earth cannot afford."
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "benediction",
+      "grace",
+      "union",
+      "blessing"
+    ],
+    "scripture_references": [
+      "2 Corinthians 13:14",
+      "Numbers 6:24-26"
+    ],
+    "copyright": "Public Domain"
+  }
+}

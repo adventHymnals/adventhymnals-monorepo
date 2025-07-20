@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-422",
+  "number": 422,
+  "title": "Marching to Zion",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, we that love the Lord,\nAnd let our joys be known;\nJoin in a song with sweet accord,\nAnd thus surround the throne."
+    },
+    {
+      "number": 2,
+      "text": "Let those refuse to sing\nWho never knew our God;\nBut children of the heavenly King\nMay speak their joys abroad."
+    },
+    {
+      "number": 3,
+      "text": "The hill of Zion yields\nA thousand sacred sweets,\nBefore we reach the heavenly fields,\nOr walk the golden streets."
+    },
+    {
+      "number": 4,
+      "text": "Then let our songs abound,\nAnd every tear be dry;\nWe're marching through Immanuel's ground\nTo fairer worlds on high."
+    }
+  ],
+  "chorus": {
+    "text": "We're marching to Zion,\nBeautiful, beautiful Zion;\nWe're marching upward to Zion,\nThe beautiful city of God."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Zion",
+      "Worship",
+      "Journey",
+      "Heaven"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

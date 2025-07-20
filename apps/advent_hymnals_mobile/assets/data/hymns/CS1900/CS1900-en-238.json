@@ -1,0 +1,43 @@
+{
+  "id": "CS1900-en-238",
+  "number": 238,
+  "title": "Seeking the Lost",
+  "author": "W. A. O.",
+  "composer": "W. A. Ogden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Seeking the lost, yes, kindly entreating Wanderers on the mountain's track; \"Come unto me,\" his message repeating, Words of the Master speaking today."
+    },
+    {
+      "number": 2,
+      "text": "Seeking the lost, and pointing to Jesus, Souls that are weak and hearts that are sore; Thus would I go on Jesus' errand, Him would I follow day by day."
+    },
+    {
+      "number": 3,
+      "text": "Thus would I go on Jesus' errand, Him would I follow day by day, Care for the dying, raising the fallen, Cheering the faint and weary way."
+    }
+  ],
+  "chorus": {
+    "text": "Going afar upon the mountain, Bringing the wanderer back again, Into the fold of the good Shepherd, Back to the narrow way again."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Used by permission of W. A. Ogden",
+    "themes": [
+      "seeking",
+      "lost",
+      "wanderer",
+      "mountain",
+      "Jesus",
+      "shepherd",
+      "rescue"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

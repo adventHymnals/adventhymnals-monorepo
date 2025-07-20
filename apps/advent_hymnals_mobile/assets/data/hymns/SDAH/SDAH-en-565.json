@@ -1,0 +1,38 @@
+{
+  "id": "SDAH-en-565",
+  "number": 565,
+  "title": "For the Beauty of the Earth",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "For the beauty of the earth,\nFor the glory of the skies,\nFor the love which from our birth\nOver and around us lies,\nLord of all, to Thee we raise\nThis our grateful song of praise."
+    },
+    {
+      "number": 2,
+      "text": "For the joy of human love,\nBrother, sister, parent, child,\nFriends on earth and Friend above,\nPleasures pure and undefiled,\nLord of all, to Thee we raise\nThis our grateful song of praise."
+    },
+    {
+      "number": 3,
+      "text": "For the gift of Thy dear Son,\nFor the hope of heaven at last,\nFor the Spirit's victory won,\nFor the crown when life is past,\nLord of all, to Thee we raise\nSongs of gratitude and praise."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "creation",
+      "beauty",
+      "love",
+      "gratitude"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

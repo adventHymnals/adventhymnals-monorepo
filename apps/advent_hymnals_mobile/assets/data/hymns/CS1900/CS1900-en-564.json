@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-564",
+  "number": 564,
+  "title": "THOUGH NATURE WEEPS",
+  "author": "Guthrie",
+  "composer": "L. O. Emerson",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Though nature weeps o'er her children sleeping,\nThe church triumphant for joy,\nFor death is but the golden gate\nWhich leads to endless joy."
+    },
+    {
+      "number": 2,
+      "text": "The living know that weary sorrow,\nOf mortal flesh at dissolution;\nYet in our hearty tears of,\nWe find the sweet consolation."
+    },
+    {
+      "number": 3,
+      "text": "Then let me learn, the word of breath;\nGod's purpose cannot fail;\nWe'll all be bound again,\nNo storm can death assail."
+    },
+    {
+      "number": 4,
+      "text": "For death from life, the soul of breath,\nGod's purpose cannot fail;\nOur loved ones have peace and rest,\nBeyond the gloomy veil."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "death",
+      "comfort",
+      "eternal life"
+    ],
+    "scripture_references": [],
+    "tune_source": "L. O. Emerson",
+    "original_language": "en"
+  }
+}

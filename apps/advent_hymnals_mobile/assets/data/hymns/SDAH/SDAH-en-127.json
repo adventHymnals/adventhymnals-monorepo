@@ -1,0 +1,36 @@
+{
+  "id": "SDAH-en-127",
+  "number": 127,
+  "title": "Infant Holy, Infant Lowly",
+  "author": "Polish carol; trans. Edith M. G. Reed",
+  "composer": "Polish carol",
+  "tune": "W Zlobie Lezy",
+  "meter": "44.74.44.74",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Infant holy, infant lowly,\nFor His bed a cattle stall;\nOxen lowing, little knowing\nChrist the babe is Lord of all.\nSwift are winging angels singing,\nNoels ringing, tidings bringing:\nChrist the babe is Lord of all,\nChrist the babe is Lord of all."
+    },
+    {
+      "number": 2,
+      "text": "Flocks were sleeping, shepherds keeping\nVigil till the morning new;\nSaw the glory, heard the story,\nTidings of the gospel true.\nThus rejoicing, free from sorrow,\nPraises voicing, greet the morrow:\nChrist the babe was born for you,\nChrist the babe was born for you."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1200,
+    "copyright": "Public Domain",
+    "themes": [
+      "Christmas",
+      "Christ's Birth",
+      "Angels",
+      "Shepherds"
+    ],
+    "scripture_references": [
+      "Luke 2:8-20"
+    ],
+    "tune_source": "Polish carol",
+    "original_language": "pl"
+  }
+}

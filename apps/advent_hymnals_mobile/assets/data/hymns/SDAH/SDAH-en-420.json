@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-420",
+  "number": 420,
+  "title": "Jerusalem, My Happy Home",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jerusalem, my happy home,\nO how I long for thee!\nWhen will my sorrows have an end,\nThy joys when shall I see?"
+    },
+    {
+      "number": 2,
+      "text": "Thy walls are all of precious stone,\nMost glorious to behold;\nThy gates are rich with many pearl,\nThy streets are paved with gold."
+    },
+    {
+      "number": 3,
+      "text": "Thy garden and thy pleasant walks\nMy study long have been;\nSuch dazzling views by human sight\nHave never yet been seen."
+    },
+    {
+      "number": 4,
+      "text": "Lord, help us by Thy might\nThy gracious help to win;\nTill Thou dost come to take us home\nTo that blest paradise."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Heaven",
+      "New Jerusalem",
+      "Hope",
+      "Longing"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

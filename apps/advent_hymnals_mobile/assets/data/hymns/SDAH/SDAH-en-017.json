@@ -1,0 +1,50 @@
+{
+  "id": "SDAH-en-017",
+  "number": 17,
+  "title": "Lord of All Being, Throned Afar",
+  "author": "Oliver Wendell Holmes",
+  "composer": "John B. Dykes",
+  "tune": "Louvan",
+  "meter": "L.M.D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord of all being, throned afar,\nThy glory flames from sun and star;\nCenter and soul of every sphere,\nYet to each loving heart how near!"
+    },
+    {
+      "number": 2,
+      "text": "Sun of our life, Thy quickening ray\nSheds on our path the glow of day;\nStar of our hope, Thy softened light\nCheers the long watches of the night."
+    },
+    {
+      "number": 3,
+      "text": "Our midnight is Thy smile withdrawn;\nOur noontide is Thy gracious dawn;\nOur rainbow arch, Thy mercy's sign;\nAll, save the clouds of sin, are Thine."
+    },
+    {
+      "number": 4,
+      "text": "Lord of all life, below, above,\nWhose light is truth, whose warmth is love,\nBefore Thy ever-blazing throne\nWe ask no luster of our own."
+    },
+    {
+      "number": 5,
+      "text": "Grant us Thy truth to make us free,\nAnd kindling hearts that burn for Thee,\nTill all Thy living altars claim\nOne holy light, one heavenly flame."
+    }
+  ],
+  "metadata": {
+    "year": 1848,
+    "copyright": "Public Domain",
+    "themes": [
+      "worship",
+      "nature",
+      "light",
+      "truth",
+      "love"
+    ],
+    "scripture_references": [
+      "John 1:4-5",
+      "1 John 1:5",
+      "John 8:32"
+    ],
+    "tune_source": "John B. Dykes, 1875",
+    "original_language": "en"
+  }
+}

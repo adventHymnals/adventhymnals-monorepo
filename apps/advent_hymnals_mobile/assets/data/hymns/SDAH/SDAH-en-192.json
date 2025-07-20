@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-192",
+  "number": 192,
+  "title": "O Shepherd Divine",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Shepherd divine, I know Thou art mine;\nThy search in the night was for me.\nThis bleak world is cold, but warm is Thy fold;\nMy Shepherd, I follow Thee."
+    },
+    {
+      "number": 2,
+      "text": "O Shepherd divine, I know Thou art mine;\nThy great heart was broken for me.\nThy grace and Thy law I picture in awe;\nThey kissed upon Calvary."
+    },
+    {
+      "number": 3,
+      "text": "O Shepherd divine, I know Thou art mine;\nI hear Thee say, 'Follow thou Me.'\nThe Spirit of Prophecy,\nThy Ah! I"
+    }
+  ],
+  "chorus": {
+    "text": "Thy beautiful lamp shineth bright o'er my way,\nThy glorious light unto Thy perfect day.\nThro' life that was given near to my soul,\nAh! heart that was broken to make sinners whole.\nThis way Thou dost lead to the still waters deep,\nOne pastures serene, Thro' valleys of green,\nMy Shepherd, I follow Thee."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "shepherd",
+      "guidance",
+      "following_jesus",
+      "calvary",
+      "protection"
+    ],
+    "scripture_references": [
+      "Psalm 23"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

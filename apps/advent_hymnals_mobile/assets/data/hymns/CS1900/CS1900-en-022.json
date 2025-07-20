@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-022",
+  "number": 22,
+  "title": "The Comforter Has Come",
+  "author": "Rev. F. Bottome",
+  "composer": "W. J. Kirkpatrick",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"I will pray the Father, and he shall give you another Comforter, that he may abide with you forever.\" — John 14:16.\nO spread the tidings 'round, wherever man is found,\nWherever human hearts and human woes abound;\nLet every Christian tongue proclaim the joyful sound:\nThe Comforter has come!"
+    },
+    {
+      "number": 2,
+      "text": "The long, long night is past, the morning breaks at last;\nAnd hushed the dreadful wail of captives held so fast!\nHe lives who once was dead, the open fountain flows\nFrom Calv’ry’s sacred head; oh, bless His name!"
+    },
+    {
+      "number": 3,
+      "text": "The Comforter has come, the Comforter has come!\nThe Holy Ghost from Heav’n, the Father’s promise giv’n;\nO spread the tidings ’round, wherever man is found—\nThe Comforter has come!"
+    }
+  ],
+  "chorus": {
+    "text": "The Comforter has come! The Comforter has come!\nThe Holy Ghost from Heav’n, the Father’s promise giv’n;\nO spread the tidings ’round, wherever man is found—\nThe Comforter has come!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright by W. J. Kirkpatrick",
+    "themes": [
+      "Comforter",
+      "Holy Ghost",
+      "Promise",
+      "Father",
+      "Tidings",
+      "Joy"
+    ],
+    "scripture_references": [
+      "John 14:16"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

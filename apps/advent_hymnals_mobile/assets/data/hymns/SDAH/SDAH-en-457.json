@@ -1,0 +1,49 @@
+{
+  "id": "SDAH-en-457",
+  "number": 457,
+  "title": "I Love to Tell the Story",
+  "author": "Katherine Hankey",
+  "composer": "William G. Fischer",
+  "tune": "HANKEY",
+  "meter": "7.6.7.6.D with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I love to tell the story of unseen things above,\nOf Jesus and His glory, of Jesus and His love.\nI love to tell the story, because I know 'tis true;\nIt satisfies my longings as nothing else can do."
+    },
+    {
+      "number": 2,
+      "text": "I love to tell the story; more wonderful it seems\nThan all the golden fancies of all our golden dreams.\nI love to tell the story, it did so much for me;\nAnd that is just the reason I tell it now to thee."
+    },
+    {
+      "number": 3,
+      "text": "I love to tell the story; 'tis pleasant to repeat\nWhat seems, each time I tell it, more wonderfully sweet.\nI love to tell the story, for some have never heard\nThe message of salvation from God's own holy Word."
+    },
+    {
+      "number": 4,
+      "text": "I love to tell the story; for those who know it best\nSeem hungering and thirsting to hear it like the rest.\nAnd when, in scenes of glory, I sing the new, new song,\n'Twill be the old, old story that I have loved so long."
+    }
+  ],
+  "chorus": {
+    "text": "I love to tell the story; 'twill be my theme in glory\nTo tell the old, old story of Jesus and His love."
+  },
+  "metadata": {
+    "year": 1868,
+    "copyright": "Public Domain",
+    "themes": [
+      "evangelism",
+      "testimony",
+      "gospel story",
+      "salvation",
+      "witnessing"
+    ],
+    "scripture_references": [
+      "Romans 1:16",
+      "1 Corinthians 1:18",
+      "2 Timothy 4:2"
+    ],
+    "tune_source": "William G. Fischer",
+    "original_language": "en"
+  }
+}

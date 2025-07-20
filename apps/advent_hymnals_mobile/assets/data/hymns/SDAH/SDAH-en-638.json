@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-638",
+  "number": 638,
+  "title": "The Wise May Bring Their Learning",
+  "author": "Anonymous",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The wise may bring their learning,\nThe rich may bring their wealth,\nAnd some may bring their greatness,\nAnd some their strength and health:"
+    },
+    {
+      "number": 2,
+      "text": "We'll bring Him hearts that love Him,\nWe'll bring Him thankful praise,\nAnd young souls meekly striving\nTo follow in His ways:"
+    },
+    {
+      "number": 3,
+      "text": "We'll bring the little duties\nWe have to do each day;\nWe'll try our best to please Him,\nAt home, at school, at play:"
+    }
+  ],
+  "chorus": {
+    "text": "We too would bring our treasures\nTo offer to the King,\nWe have no wealth or learning;\nWhat shall we children bring?"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": [
+      "children",
+      "offering",
+      "service",
+      "devotion"
+    ],
+    "scripture_references": [
+      "Matthew 2:11",
+      "Mark 10:14"
+    ],
+    "tune_source": "",
+    "original_language": "en"
+  }
+}

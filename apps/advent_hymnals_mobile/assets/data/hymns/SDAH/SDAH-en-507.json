@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-507",
+  "number": 507,
+  "title": "Moment by Moment",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Dying with Jesus, by death reckoned mine, Living with Jesus, a new life divine,\nLooking to Jesus till glory doth shine, Moment by moment, O Lord, I am Thine."
+    },
+    {
+      "number": 2,
+      "text": "Never a trial that He is not there, Never a burden that He doth not bear,\nNever a sorrow that He doth not share, Moment by moment, I'm under His care."
+    },
+    {
+      "number": 3,
+      "text": "Never a heartache, and never a groan, Never a teardrop and never a moan,\nNever a danger but there on the throne, Moment by moment He thinks of His own."
+    },
+    {
+      "number": 4,
+      "text": "Never a weakness that He doth not feel, Moment by moment, in woe or in weal,\nJesus my Savior, abides with me still, Moment by moment I'm kept in His love."
+    }
+  ],
+  "chorus": {
+    "text": "Moment by moment I'm kept in His love;\nMoment by moment I've life from above;\nLooking to Jesus till glory doth shine;\nMoment by moment, O Lord, I am Thine."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Jesus",
+      "continuous grace",
+      "divine care",
+      "spiritual life"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

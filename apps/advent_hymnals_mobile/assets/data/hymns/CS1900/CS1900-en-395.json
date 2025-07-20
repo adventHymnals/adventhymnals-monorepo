@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-395",
+  "number": 395,
+  "title": "ONE MORE DAY'S WORK FOR JESUS",
+  "author": "Anna Warner",
+  "composer": "Robert Lowry",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "One more day's work for Je-sus, One less of life for me;\nBut heav'n is near-er, And Christ is dear-er,\nThan yes-ter-day to me; His love and light Fill all my sight, His will is peace for me."
+    },
+    {
+      "number": 2,
+      "text": "One more day's work for Je-sus, One more day to praise his name;\nAnd rest comes sweet-er, And rest comes sweet-er,\nAnd rest comes sweet-er, And rest comes sweet-er."
+    },
+    {
+      "number": 3,
+      "text": "One more day's work for Je-sus, O yes, A wea-ry day, but how glor-ious;\nAnd rest comes sweet-er, For work is done; And rest comes sweet-er,\nAnd rest comes sweet-er, For work is done."
+    }
+  ],
+  "chorus": {
+    "text": "Then go - to him whose love for me, For all my soul's re-lieved,\nWhere Christ's flock gath-er in! How shall shine In that poor heart of mine! One more day's work for Je-sus."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "daily work",
+      "service",
+      "faithfulness",
+      "rest"
+    ],
+    "scripture_references": [],
+    "tune_source": "Robert Lowry",
+    "original_language": "en"
+  }
+}

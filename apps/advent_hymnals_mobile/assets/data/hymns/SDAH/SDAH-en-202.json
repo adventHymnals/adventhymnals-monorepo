@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-202",
+  "number": 202,
+  "title": "Hail Him the King of Glory",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Tell it to every kindred and nation,\nTell it far and near;\nEarth's darkest night will fade with the dawning,\nJesus will soon appear."
+    },
+    {
+      "number": 2,
+      "text": "Nations again in strife and commotion,\nWarnings by the way;\nSigns in the heavy omens,\nHerald the glorious day."
+    },
+    {
+      "number": 3,
+      "text": "Children of God look up with rejoicing;\nShout and sing His praise;\nBlessed are they who, waiting and watching,\nLook for the dawning rays."
+    }
+  ],
+  "chorus": {
+    "text": "Hail Him the King of glory,\nOnce the Lamb for sinners slain;\nTell, tell the wondrous story,\n\"Jesus comes to reign.\""
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Second Coming",
+      "King of Glory",
+      "Proclamation",
+      "Praise"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

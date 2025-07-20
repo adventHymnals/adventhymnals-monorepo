@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-456",
+  "number": 456,
+  "title": "Beautiful Flowers",
+  "author": "F. E. B.",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We should be like our dear, Kind-est and ten-der-est, Now our with beau-ty blos-som-ing, Grow in the light of His; Like the morning,\nThen whose bright crown of gold, Shin-ing in glo-ry told; All like the cry of trum-pets, Thrill-ing, the cost small,\nStl - ling the bris-bel with ta; Linked words and deeds Are like the cry of trum-pets, Thrill-ing, the cost small,\nAs - sure their fife our God, Bright with childlike of love; We would be a-mong the faith-ful, Shin-ing in His life."
+    },
+    {
+      "number": 2,
+      "text": "Vir - tues are like kind words, Bov-in and the love, Friend-er that sun and rain; Free of sin and guile;\nBeau-ti-ful the flow-ers, Shin-ing in the light;\nFind time to love the sweet-est, Lov-ing words the best, Yield-ing hope and com-fort; Joy and peace, and rest,\nTruth the like flow-ers, Grow-ing by de-grees; Let flow-ers crown your life Up to His 15."
+    }
+  ],
+  "chorus": {
+    "text": "Beau-ti-ful flow-ers! beau-ti-ful flow-ers! Beau-ti-ful flow-ers! He watching over; Beau-ti-ful flow-ers! We would be fair as"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1895, by F. E. Belden. Used by permission of Bible Echo.",
+    "themes": [
+      "beauty",
+      "virtue",
+      "Christian character",
+      "flowers"
+    ],
+    "scripture_references": [
+      "Matthew 5:16"
+    ],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

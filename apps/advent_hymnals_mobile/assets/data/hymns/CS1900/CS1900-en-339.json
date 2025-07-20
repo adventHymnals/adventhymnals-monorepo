@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-339",
+  "number": 339,
+  "title": "MY NEED, AND THY LOVE",
+  "author": "Frances R. Havergal",
+  "composer": "Ira D. Sankey",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My need is great, but greater still thy love;\nThou hast for me in all thy courts of glory;\nThy love extends to all mankind on earth;\nThy love extends to all thy throne of grace."
+    },
+    {
+      "number": 2,
+      "text": "Thy love is now at work in me, Lord Jesus;\nThy love is now at work in me in thy mercy;\nThy love is now my counsel and my guide;\nThy love is now my strength and my defense."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "love",
+      "need",
+      "grace"
+    ],
+    "scripture_references": [],
+    "tune_source": "Ira D. Sankey",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "SDAH-en-151",
+  "number": 151,
+  "title": "Jesus Walked This Lonesome Valley",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus walked this lonesome valley;\nHe had to walk it by Himself.\nO nobody else could walk it for Him.\nHe had to walk it by Himself."
+    },
+    {
+      "number": 2,
+      "text": "I must go and stand my trial.\nI have to stand it by myself.\nO nobody else could stand it for me.\nI have to stand it by myself."
+    },
+    {
+      "number": 3,
+      "text": "Jesus walked this lonesome valley;\nHe had to walk it by Himself.\nO nobody else could walk it for Him.\nHe had to walk it by Himself."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Jesus",
+      "sacrifice",
+      "trial",
+      "individual journey"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

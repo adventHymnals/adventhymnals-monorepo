@@ -1,7 +1,9 @@
 import 'dart:async';
+import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:desktop_multi_window/desktop_multi_window.dart';
 
 class ProjectorService extends ChangeNotifier {
   static final ProjectorService _instance = ProjectorService._internal();
@@ -13,6 +15,8 @@ class ProjectorService extends ChangeNotifier {
   int _currentVerseIndex = 0;
   bool _isProjectorActive = false;
   Timer? _autoAdvanceTimer;
+  int? _projectorWindowId;
+  int _totalVerses = 0;
   
   // Auto-advance settings
   bool _autoAdvanceEnabled = false;
@@ -38,20 +42,37 @@ class ProjectorService extends ChangeNotifier {
   bool get showHymnNumber => _showHymnNumber;
   bool get showTitle => _showTitle;
   bool get showMetadata => _showMetadata;
+  int get totalVerses => _totalVerses;
 
   /// Start projector mode with a hymn
-  void startProjector(int hymnId) {
-    print('🎥 [ProjectorService] Starting projector mode with hymn $hymnId');
+  void startProjector(int hymnId, {int totalVerses = 0}) {
+    print('🎥 [ProjectorService] Starting projector mode with hymn $hymnId (${totalVerses} verses)');
+    print('🎥 [ProjectorService] Current state before start: hymnId=$_currentHymnId, verses=$_totalVerses, active=$_isProjectorActive');
+    
     _currentHymnId = hymnId;
     _currentVerseIndex = 0;
+    _totalVerses = totalVerses;
     _isProjectorActive = true;
+    
+    print('🎥 [ProjectorService] Updated state: hymnId=$_currentHymnId, verses=$_totalVerses, active=$_isProjectorActive');
+    
     _resetAutoAdvanceTimer();
     notifyListeners();
     
     // Try to open secondary window on desktop
     if (Platform.isLinux || Platform.isWindows || Platform.isMacOS) {
+      print('🎥 [ProjectorService] Desktop platform detected, opening secondary window');
       _openSecondaryWindow();
+    } else {
+      print('🎥 [ProjectorService] Mobile platform, skipping secondary window');
     }
+  }
+
+  /// Set the total number of verses for the current hymn
+  void setTotalVerses(int totalVerses) {
+    _totalVerses = totalVerses;
+    print('🎥 [ProjectorService] Total verses set to $totalVerses');
+    notifyListeners();
   }
 
   /// Stop projector mode
@@ -60,24 +81,45 @@ class ProjectorService extends ChangeNotifier {
     _isProjectorActive = false;
     _currentHymnId = null;
     _currentVerseIndex = 0;
+    _totalVerses = 0;
     _stopAutoAdvanceTimer();
+    
+    // Close secondary window on desktop
+    if (Platform.isLinux || Platform.isWindows || Platform.isMacOS) {
+      _closeSecondaryWindow();
+    }
+    
     notifyListeners();
   }
 
   /// Change to a different hymn
-  void changeHymn(int hymnId) {
-    print('🎥 [ProjectorService] Changing hymn to $hymnId');
+  void changeHymn(int hymnId, {int totalVerses = 0}) {
+    print('🎥 [ProjectorService] Changing hymn to $hymnId (${totalVerses} verses)');
     _currentHymnId = hymnId;
     _currentVerseIndex = 0;
+    _totalVerses = totalVerses;
     _resetAutoAdvanceTimer();
+    _updateSecondaryWindowContent();
     notifyListeners();
   }
 
   /// Navigate to next verse/chorus
   void nextSection() {
-    print('🎥 [ProjectorService] Moving to next section (verse ${_currentVerseIndex + 1})');
+    print('🎥 [ProjectorService] nextSection() called - current: ${_currentVerseIndex + 1}/$_totalVerses');
+    
+    // Check if we're at the last verse
+    if (_totalVerses > 0 && _currentVerseIndex >= _totalVerses - 1) {
+      print('🎥 [ProjectorService] Already at last verse (${_currentVerseIndex + 1}/$_totalVerses) - stopping auto-advance');
+      _stopAutoAdvanceTimer();
+      return;
+    }
+    
+    print('🎥 [ProjectorService] Moving to next section (verse ${_currentVerseIndex + 1} → ${_currentVerseIndex + 2})');
     _currentVerseIndex++;
+    print('🎥 [ProjectorService] Updated to verse ${_currentVerseIndex + 1}/$_totalVerses');
+    
     _resetAutoAdvanceTimer();
+    _updateSecondaryWindowContent();
     notifyListeners();
   }
 
@@ -87,6 +129,7 @@ class ProjectorService extends ChangeNotifier {
       print('🎥 [ProjectorService] Moving to previous section (verse ${_currentVerseIndex - 1})');
       _currentVerseIndex--;
       _resetAutoAdvanceTimer();
+      _updateSecondaryWindowContent();
       notifyListeners();
     }
   }
@@ -96,6 +139,7 @@ class ProjectorService extends ChangeNotifier {
     print('🎥 [ProjectorService] Jumping to verse $verseIndex');
     _currentVerseIndex = verseIndex;
     _resetAutoAdvanceTimer();
+    _updateSecondaryWindowContent();
     notifyListeners();
   }
 
@@ -140,6 +184,7 @@ class ProjectorService extends ChangeNotifier {
     if (showMetadata != null) _showMetadata = showMetadata;
     
     print('🎥 [ProjectorService] Updated projector settings');
+    _updateSecondaryWindowContent();
     notifyListeners();
   }
 
@@ -163,16 +208,49 @@ class ProjectorService extends ChangeNotifier {
   }
 
   /// Open secondary window for projector (desktop only)
-  void _openSecondaryWindow() {
-    // This would require platform-specific implementation
-    // For now, we'll use the same window but indicate it's projector mode
-    print('🎥 [ProjectorService] Would open secondary window on desktop platform');
+  Future<void> _openSecondaryWindow() async {
+    print('🎥 [ProjectorService] Opening secondary window on desktop platform');
     
-    // In a full implementation, this would:
-    // 1. Create a new window using platform channels
-    // 2. Position it on the secondary monitor
-    // 3. Set it to fullscreen mode
-    // 4. Navigate to the projector display screen
+    try {
+      if (_currentHymnId != null) {
+        // For now, use clipboard method until we properly configure desktop_multi_window
+        await _fallbackToClipboard();
+      }
+    } catch (e) {
+      print('❌ [ProjectorService] Error preparing secondary window: $e');
+    }
+  }
+
+  /// Fallback method for platforms where desktop_multi_window isn't available
+  Future<void> _fallbackToClipboard() async {
+    if (_currentHymnId != null) {
+      final projectorUrl = 'http://localhost:8080/projector-window?hymn=$_currentHymnId';
+      await Clipboard.setData(ClipboardData(text: projectorUrl));
+      print('📋 [ProjectorService] Fallback: URL copied to clipboard. Open in browser window on second screen.');
+    }
+  }
+
+  /// Close secondary window for projector (desktop only)
+  Future<void> _closeSecondaryWindow() async {
+    try {
+      print('🎥 [ProjectorService] Projector mode stopped. Close the browser window/tab manually if needed.');
+      _projectorWindowId = null;
+    } catch (e) {
+      print('❌ [ProjectorService] Error in close secondary window: $e');
+      _projectorWindowId = null;
+    }
+  }
+
+  /// Update content in secondary window
+  Future<void> _updateSecondaryWindowContent() async {
+    try {
+      // The projector window automatically updates via Provider/ChangeNotifier
+      // No need for manual content updates since the ProjectorWindowScreen
+      // listens to ProjectorService changes
+      print('🎥 [ProjectorService] Content updated - projector window will auto-refresh (verse ${_currentVerseIndex + 1})');
+    } catch (e) {
+      print('❌ [ProjectorService] Error updating secondary window content: $e');
+    }
   }
 
   /// Get estimated time until next auto-advance (for UI feedback)

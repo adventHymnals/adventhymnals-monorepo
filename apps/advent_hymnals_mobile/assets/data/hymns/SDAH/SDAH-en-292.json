@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-292",
+  "number": 292,
+  "title": "Jesus, I Come",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Out of my bondage, sorrow and night,\nJesus, I come, Jesus, I come;\nInto Thy freedom, gladness and light,\nJesus, I come to Thee;"
+    },
+    {
+      "number": 2,
+      "text": "Out of my shameful failure and loss,\nJesus, I come, Jesus, I come;\nInto the glorious gain of Thy cross,\nJesus, I come to Thee;"
+    },
+    {
+      "number": 3,
+      "text": "Out of unrest and arrogant pride,\nJesus, I come, Jesus, I come;\nInto Thy blessed will to abide,\nJesus, I come to Thee;"
+    },
+    {
+      "number": 4,
+      "text": "Out of the fear and dread of the tomb,\nJesus, I come, Jesus, I come;\nInto the joy and light of Thy home,\nJesus, I come to Thee;"
+    }
+  ],
+  "chorus": {
+    "text": "Out of my sickness into Thy health,\nOut of my want and into Thy wealth,\nOut of my sin and into Thyself,\nJesus, I come to Thee.\nOut of earth's sorrows into Thy balm,\nOut of life's storms and into Thy calm,\nOut of distress to jubilant psalm,\nJesus, I come to Thee.\nOut of the depths of ruin untold,\nInto the peace of Thy sheltering fold,\nEver Thy glorious face to behold,\nJesus, I come to Thee."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Coming to Jesus",
+      "Transformation",
+      "Freedom",
+      "Peace"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

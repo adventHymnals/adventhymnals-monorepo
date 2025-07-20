@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-006",
+  "number": 6,
+  "title": "O Worship the Lord",
+  "author": "John Samuel Bewley Monsell",
+  "composer": "Robert Jackson",
+  "tune": "Wareham",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O worship the Lord in the beauty of holiness;\nBow down before Him, His glory proclaim;\nWith gold of obedience, and incense of lowliness,\nKneel and adore Him; the Lord is His name."
+    },
+    {
+      "number": 2,
+      "text": "Low at His feet lay thy burden of carefulness,\nHigh on His heart He will bear it for thee,\nComfort thy sorrows, and answer thy prayerfulness,\nGuiding thy steps as may best for thee be."
+    },
+    {
+      "number": 3,
+      "text": "Fear not to enter His courts in the slenderness\nOf the poor wealth thou wouldst reckon as thine;\nTruth in its beauty, and love in its tenderness,\nThese are the offerings to lay on His shrine."
+    },
+    {
+      "number": 4,
+      "text": "These, though we bring them in trembling and fearfulness,\nHe will accept for the name that is dear;\nMornings of joy give for evenings of tearfulness,\nTrust for our trembling and hope for our fear."
+    }
+  ],
+  "metadata": {
+    "year": 1863,
+    "copyright": "Public Domain",
+    "themes": [
+      "worship",
+      "holiness",
+      "reverence",
+      "trust"
+    ],
+    "scripture_references": [
+      "Psalm 96:9",
+      "1 Chronicles 16:29"
+    ],
+    "tune_source": "Robert Jackson, 1888",
+    "original_language": "en"
+  }
+}

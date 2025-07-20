@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-183",
+  "number": 183,
+  "title": "I Will Sing of Jesus' Love",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I will sing (I will sing) of Jesus' love,\nSing of Him (sing of Him) who first loved me;\nFor He left (for He left) bright worlds above,\nAnd died on Calvary."
+    },
+    {
+      "number": 2,
+      "text": "O the depths (O the depths) of love divine!\nEarth or heaven (earth or heaven) can never know\nHow that sins (how that sins) as dark as mine\nCan be made as white as snow."
+    },
+    {
+      "number": 3,
+      "text": "Nothing good (nothing good) for Him I've done;\nHow could He (how could He) such love bestow?\nLord, I own (Lord, I own) my heart is won;\nHelp me now my love to show."
+    }
+  ],
+  "chorus": {
+    "text": "I will sing of Jesus' love, Endless praise my heart shall give;\nHe has died that I might live I will sing His love to me."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "jesus_love",
+      "salvation",
+      "praise",
+      "worship",
+      "calvary"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

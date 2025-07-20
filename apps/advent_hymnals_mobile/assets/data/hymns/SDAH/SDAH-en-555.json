@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-555",
+  "number": 555,
+  "title": "Shepherd of Tender Youth",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Shepherd of tender youth,\nGuiding in love and truth,\nThrough devious ways;\nChrist our triumphant King,\nWe come Thy name to sing,\nHither our children bring\nTo shout Thy praise."
+    },
+    {
+      "number": 2,
+      "text": "Thou art our holy Lord,\nThe all-subduing Word,\nHealer of strife;\nThou didst Thyself abase,\nThat from sin's deep disgrace\nThou mightest save our race,\nAnd give us life."
+    },
+    {
+      "number": 3,
+      "text": "Thou art the great High Priest;\nThou hast prepared the feast\nOf heavenly love;\nWhile in our mortal pain\nNone calls on Thee in vain;\nHelp Thou dost not disdain,\nHelp from above."
+    },
+    {
+      "number": 4,
+      "text": "Ever be Thou our Guide,\nOur Shepherd and our pride,\nOur staff and song;\nJesus, Thou Christ of God,\nBy Thy perennial word,\nLead us where Thou hast trod,\nMake our faith strong."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "shepherd",
+      "youth",
+      "guidance",
+      "Christ"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

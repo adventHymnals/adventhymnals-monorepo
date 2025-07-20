@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-099",
+  "number": 99,
+  "title": "I Am Coming, Lord",
+  "author": "Rev. J. H. Gilmore",
+  "composer": "Geo. C. Stebbins",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I hear thy welcome voice, That calls on me to be true;\nI long to rise and follow thee, And do what thou wilt do;\nI'll go with thee through the garden, Through the judgment and the pain;\nI'll come and love thee freely, And I'll love thee as I came."
+    },
+    {
+      "number": 2,
+      "text": "I am coming to the Lord, I am coming to the Lord;\nCome and let me know thy name, Though the conflict may be long;\nI am coming to the Lord, I am coming to the Lord!"
+    }
+  ],
+  "chorus": {
+    "text": "I am coming, Lord!\nComing now to thee!\nWith my sin and guilt,\nI am coming, Lord!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "surrender",
+      "calling",
+      "commitment"
+    ],
+    "scripture_references": [],
+    "tune_source": "Geo. C. Stebbins",
+    "original_language": "en",
+    "verse_count": 2,
+    "structure": "2 verses with chorus",
+    "first_line": "I hear thy welcome voice"
+  }
+}

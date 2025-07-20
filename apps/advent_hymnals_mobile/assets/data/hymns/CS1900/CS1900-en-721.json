@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-721",
+  "number": 721,
+  "title": "Even at the Door",
+  "author": "J. E. Rankin",
+  "composer": "J. E. Rankin",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The mo-ments haste a-way, The morn-ing star is ris-ing bright;\nThe shad-ows flee a-way, The day is break-ing, glo-ri-ous day;\nTurn to the light, turn to the light, And come a-way."
+    },
+    {
+      "number": 2,
+      "text": "The signs are thick a-round, The stars are fall-ing from the sky;\nThe earth is break-ing up, The trump-et soon will sound on high;\nCome while you may, come while you may, And come a-way."
+    },
+    {
+      "number": 3,
+      "text": "At the door, at the door, At the door, e-ven at the door;\nAt the door, at the door, at the door, E-ven at the door;\nBe-hold He stands, be-hold He stands, E-ven at the door."
+    }
+  ],
+  "chorus": {
+    "text": "E-ven at the door, e-ven at the door,\nBe-hold the Bride-groom com-eth, e-ven at the door.\nGo out to meet Him, go out to meet Him,\nBe-hold the Bride-groom com-eth, e-ven at the door."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "second coming",
+      "urgency",
+      "preparation",
+      "bridegroom"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. E. Rankin",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-651",
+  "number": 651,
+  "title": "Happy the Home That Welcomes You",
+  "author": "Karl J. P. Spitta",
+  "composer": "Alfred Scott-Gatty",
+  "tune": "Welwyn",
+  "meter": "11.10.11.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Happy the home that welcomes You,\nLord Jesus,\nTruest of friends, most honored guest of all,\nWhere hearts and eyes are bright with joy to greet You,\nAnd eager voices answer to Your call."
+    },
+    {
+      "number": 2,
+      "text": "Happy the home where man and wife together\nAre of one mind believing in Your love:\nO loving Friend of children,\nWhere they are given to You with hands of prayer."
+    },
+    {
+      "number": 3,
+      "text": "Happy the home where each one serves You, lowly,\nWhatever his appointed work may be,\nTill every common task seems great and holy\nWhen it is done, O Lord, as unto Thee."
+    }
+  ],
+  "metadata": {
+    "year": 1845,
+    "copyright": "Public Domain",
+    "themes": [
+      "home",
+      "family",
+      "Christian living",
+      "love in the home"
+    ],
+    "scripture_references": [
+      "Colossians 3:17",
+      "Joshua 24:15"
+    ],
+    "tune_source": "Alfred Scott-Gatty, 1847-1918",
+    "original_language": "de",
+    "author_dates": "1801-1859",
+    "composer_dates": "1847-1918",
+    "translator": "Honor Mary Thwaites"
+  }
+}

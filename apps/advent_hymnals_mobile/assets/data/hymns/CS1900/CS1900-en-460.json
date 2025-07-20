@@ -1,0 +1,47 @@
+{
+  "id": "CS1900-en-460",
+  "number": 460,
+  "title": "On the Mountain",
+  "author": "A. B. Simpson",
+  "composer": "J. H. Tenney",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I love to climb where Jesus leads far from the Golden gloom;\nUp, up the shining mountain steeds, beyond the veil of doom;\nWhere eagles soar and spirits soar, and angels come and go,\nAnd Jesus waits with open door, and bids my soul to know."
+    },
+    {
+      "number": 2,
+      "text": "I love to be with Jesus, where rolling mists depart;\nWhere I can see His loving face, and feel His beating heart;\nWhere I can lay my weary head upon His faithful breast,\nAnd find in Him my all in all, my home, my hope, my rest."
+    },
+    {
+      "number": 3,
+      "text": "I love to lift my eyes above the shadows dark and drear;\nWhere faith can reach and hope can move, and love can persevere;\nWhere sorrows flee and teardrops dry, and broken hearts find balm,\nAnd Jesus reigns supremely nigh, and all is peace and calm."
+    },
+    {
+      "number": 4,
+      "text": "I love to sit with Jesus where the glory round me falls;\nWhere I can hear the music there, and harken to His calls;\nWhere I can tell Him all my need, and know that He will care,\nAnd He will give me all I need, and more than I can bear."
+    }
+  ],
+  "chorus": {
+    "text": "On the mountain, on the mountain, where the golden sunlight gleams;\nOn the mountain, on the mountain, God is nearer than He seems;\nOn the mountain, on the mountain, I can see my Savior's face,\nOn the mountain, on the mountain, I can feel His wondrous grace."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "mountain top experience",
+      "communion with Christ",
+      "spiritual vision",
+      "peace"
+    ],
+    "scripture_references": [
+      "Matthew 17:1-9",
+      "Exodus 24:12-18"
+    ],
+    "tune_source": "J. H. Tenney",
+    "original_language": "en"
+  }
+}

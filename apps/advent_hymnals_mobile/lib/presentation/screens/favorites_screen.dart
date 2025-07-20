@@ -12,7 +12,7 @@ class FavoritesScreen extends StatefulWidget {
 }
 
 class _FavoritesScreenState extends State<FavoritesScreen> {
-  String _sortBy = 'date_added';
+  String _sortBy = 'date_added_desc';
   String _searchQuery = '';
   final TextEditingController _searchController = TextEditingController();
 
@@ -45,68 +45,83 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   void _showSortDialog() {
     showDialog(
       context: context,
-      builder: (context) {
+      builder: (dialogContext) {
         return AlertDialog(
-          title: const Text('Sort by'),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              RadioListTile<String>(
-                title: const Text('Date Added'),
-                value: 'date_added',
-                groupValue: _sortBy,
-                onChanged: (value) {
-                  setState(() {
-                    _sortBy = value!;
-                  });
-                  Navigator.of(context).pop();
-                  _applySorting();
-                },
+          title: const Text('Sort Favorites'),
+          content: SizedBox(
+            width: double.maxFinite,
+            child: SingleChildScrollView(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  _buildFavoritesSortSection('Date Added', [
+                    ('date_added_desc', 'Date Added (Newest first)'),
+                    ('date_added_asc', 'Date Added (Oldest first)'),
+                  ], dialogContext),
+                  const SizedBox(height: 16),
+                  _buildFavoritesSortSection('Title', [
+                    ('title_asc', 'Title (A-Z)'),
+                    ('title_desc', 'Title (Z-A)'),
+                  ], dialogContext),
+                  const SizedBox(height: 16),
+                  _buildFavoritesSortSection('Author', [
+                    ('author_asc', 'Author (A-Z)'),
+                    ('author_desc', 'Author (Z-A)'),
+                  ], dialogContext),
+                  const SizedBox(height: 16),
+                  _buildFavoritesSortSection('Hymn Number', [
+                    ('hymn_number_asc', 'Hymn Number (Low to High)'),
+                    ('hymn_number_desc', 'Hymn Number (High to Low)'),
+                  ], dialogContext),
+                ],
               ),
-              RadioListTile<String>(
-                title: const Text('Title'),
-                value: 'title',
-                groupValue: _sortBy,
-                onChanged: (value) {
-                  setState(() {
-                    _sortBy = value!;
-                  });
-                  Navigator.of(context).pop();
-                  _applySorting();
-                },
-              ),
-              RadioListTile<String>(
-                title: const Text('Author'),
-                value: 'author',
-                groupValue: _sortBy,
-                onChanged: (value) {
-                  setState(() {
-                    _sortBy = value!;
-                  });
-                  Navigator.of(context).pop();
-                  _applySorting();
-                },
-              ),
-              RadioListTile<String>(
-                title: const Text('Hymn Number'),
-                value: 'hymn_number',
-                groupValue: _sortBy,
-                onChanged: (value) {
-                  setState(() {
-                    _sortBy = value!;
-                  });
-                  Navigator.of(context).pop();
-                  _applySorting();
-                },
-              ),
-            ],
+            ),
           ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(dialogContext).pop(),
+              child: const Text('Cancel'),
+            ),
+          ],
         );
       },
     );
   }
 
+  Widget _buildFavoritesSortSection(String title, List<(String, String)> options, BuildContext dialogContext) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          title,
+          style: Theme.of(context).textTheme.titleSmall?.copyWith(
+            fontWeight: FontWeight.bold,
+            color: const Color(AppColors.primaryBlue),
+          ),
+        ),
+        ...options.map((option) => RadioListTile<String>(
+          title: Text(option.$2),
+          value: option.$1,
+          groupValue: _sortBy,
+          onChanged: (value) {
+            if (value != null) {
+              setState(() {
+                _sortBy = value;
+              });
+              Navigator.of(dialogContext).pop();
+              _applySorting();
+            }
+          },
+          dense: true,
+          contentPadding: const EdgeInsets.symmetric(horizontal: 8),
+        )),
+      ],
+    );
+  }
+
   void _applySorting() {
+    print('🔄 [FavoritesScreen] Applying sort: $_sortBy');
     final favoritesProvider = Provider.of<FavoritesProvider>(context, listen: false);
     favoritesProvider.sortFavorites(_sortBy);
   }
@@ -143,6 +158,21 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
       appBar: AppBar(
         title: const Text(AppStrings.favoritesTitle),
         elevation: 0,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            try {
+              context.go('/home');
+            } catch (e) {
+              print('❌ [FavoritesScreen] Navigation error: $e');
+              // Fallback to Navigator.pop if context.go fails
+              if (Navigator.of(context).canPop()) {
+                Navigator.of(context).pop();
+              }
+            }
+          },
+          tooltip: 'Back to Home',
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.sort),
@@ -255,7 +285,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
           Text(
             _getSortDescription(),
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: Color(AppColors.gray500),
+              color: const Color(AppColors.gray500),
             ),
           ),
         ],
@@ -265,6 +295,23 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
 
   String _getSortDescription() {
     switch (_sortBy) {
+      case 'date_added_desc':
+        return 'Sorted by Date Added (Newest first)';
+      case 'date_added_asc':
+        return 'Sorted by Date Added (Oldest first)';
+      case 'title_asc':
+        return 'Sorted by Title (A-Z)';
+      case 'title_desc':
+        return 'Sorted by Title (Z-A)';
+      case 'author_asc':
+        return 'Sorted by Author (A-Z)';
+      case 'author_desc':
+        return 'Sorted by Author (Z-A)';
+      case 'hymn_number_asc':
+        return 'Sorted by Hymn Number (Low to High)';
+      case 'hymn_number_desc':
+        return 'Sorted by Hymn Number (High to Low)';
+      // Legacy support for old sorting values
       case 'date_added':
         return 'Sorted by Date Added';
       case 'title':
@@ -274,7 +321,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
       case 'hymn_number':
         return 'Sorted by Hymn Number';
       default:
-        return 'Sorted by Date Added';
+        return 'Sorted by Date Added (Newest first)';
     }
   }
 
@@ -286,20 +333,27 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
       ),
       child: ListTile(
         leading: Container(
-          width: 40,
+          width: 56,
           height: 40,
           decoration: BoxDecoration(
-            color: Color(AppColors.primaryBlue).withOpacity(0.1),
+            color: const Color(AppColors.primaryBlue).withOpacity(0.1),
             borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
           ),
-          child: Center(
-            child: Text(
-              hymn.collectionAbbreviation != null 
-                ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
-                : hymn.hymnNumber.toString(),
-              style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                color: Color(AppColors.primaryBlue),
-                fontWeight: FontWeight.bold,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 4.0),
+            child: Align(
+              alignment: Alignment.centerRight,
+              child: Text(
+                hymn.collectionAbbreviation != null 
+                  ? '${hymn.collectionAbbreviation}\n${hymn.hymnNumber}'
+                  : hymn.hymnNumber.toString(),
+                style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                  color: const Color(AppColors.primaryBlue),
+                  fontWeight: FontWeight.bold,
+                  fontSize: 10,
+                ),
+                textAlign: TextAlign.right,
+                maxLines: 2,
               ),
             ),
           ),
@@ -371,7 +425,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
+            const Icon(
               Icons.favorite_border,
               size: 64,
               color: Color(AppColors.gray500),
@@ -385,7 +439,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
             Text(
               'Tap the heart icon on any hymn to add it to your favorites',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Color(AppColors.gray500),
+                color: const Color(AppColors.gray500),
               ),
               textAlign: TextAlign.center,
             ),
@@ -410,7 +464,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
+            const Icon(
               Icons.error_outline,
               size: 64,
               color: Color(AppColors.errorRed),
@@ -424,7 +478,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
             Text(
               error,
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Color(AppColors.gray500),
+                color: const Color(AppColors.gray500),
               ),
               textAlign: TextAlign.center,
             ),

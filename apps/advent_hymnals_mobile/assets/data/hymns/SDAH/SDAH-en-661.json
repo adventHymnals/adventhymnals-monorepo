@@ -1,0 +1,33 @@
+{
+  "id": "SDAH-en-661",
+  "number": 661,
+  "title": "Holy, Holy, Holy",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Holy, holy, holy, Holy is the Lord!\nHoly, holy, holy, Holy is our God!\nHe who always liveth, Evermore the same\nHeaven and earth He ruleth, Come and praise His name!"
+    },
+    {
+      "number": 2,
+      "text": "Holy, holy, holy, Holy is the Lord!\nHoly, holy, holy, Holy is our God!\nGlorious and beloved Is the One adored!\nHoly, holy, holy, Holy is the Lord."
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "holiness",
+      "worship",
+      "praise",
+      "Trinity"
+    ],
+    "scripture_references": [
+      "Isaiah 6:3",
+      "Revelation 4:8"
+    ],
+    "copyright": "Public Domain"
+  }
+}

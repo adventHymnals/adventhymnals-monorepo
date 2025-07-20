@@ -1,0 +1,38 @@
+{
+  "id": "SDAH-en-538",
+  "number": 538,
+  "title": "Guide Me, O Thou Great Jehovah",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Guide me, O Thou great Jehovah,\nPilgrim through this barren land;\nI am weak, but Thou art mighty;\nHold me with Thy powerful hand;\nBread of heaven, Bread of heaven,\nFeed me till I want no more,\nFeed me till I want no more."
+    },
+    {
+      "number": 2,
+      "text": "Open now the crystal fountain,\nWhence the healing stream doth flow;\nLet the fire and cloudy pillar\nLead me all my journey through;\nStrong deliverer, strong deliverer,\nBe Thou still my strength and shield,\nBe Thou still my strength and shield."
+    },
+    {
+      "number": 3,
+      "text": "When I tread the verge of Jordan,\nBid my anxious fears subside;\nDeath of death and hell's destruction,\nLand me safe on Canaan's side;\nSongs of praises, songs of praises,\nI will ever give to Thee,\nI will ever give to Thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "guidance",
+      "pilgrimage",
+      "provision",
+      "protection"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

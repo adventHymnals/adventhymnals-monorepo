@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-328",
+  "number": 328,
+  "title": "The Voice of Jesus",
+  "author": "R. Horatius Bonar",
+  "composer": "Lewis Newton",
+  "tune": "Newton",
+  "meter": "C. M. D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I heard the voice of Jesus say, 'Come unto me and rest; Lay down, thou weary one, lay down Thy head upon my breast.' I came to Jesus as I was, Weary and worn and sad; I found in him a resting place, And he has made me glad."
+    },
+    {
+      "number": 2,
+      "text": "I heard the voice of Jesus say, 'Behold, I freely give The living water; thirsty one, Stoop down and drink and live.' I came to Jesus, and I drank Of that life-giving stream; My thirst was quenched, my soul revived, And now I live in him."
+    },
+    {
+      "number": 3,
+      "text": "I heard the voice of Jesus say, 'I am this dark world's light; Look unto me, thy morn shall rise, And all thy day be bright.' I looked to Jesus, and I found In him my star, my sun; And in that light of life I'll walk Till traveling days are done."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "invitation",
+      "rest",
+      "living water",
+      "light"
+    ],
+    "scripture_references": [
+      "Matthew 11:28"
+    ],
+    "tune_source": "Lewis Newton",
+    "original_language": "en"
+  }
+}

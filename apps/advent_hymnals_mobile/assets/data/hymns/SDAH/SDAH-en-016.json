@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-016",
+  "number": 16,
+  "title": "All People That on Earth Do Dwell",
+  "author": "William Kethe",
+  "composer": "Louis Bourgeois",
+  "tune": "Old 100th",
+  "meter": "L.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "All people that on earth do dwell,\nSing to the Lord with cheerful voice;\nHim serve with mirth, His praise forth tell,\nCome ye before Him and rejoice."
+    },
+    {
+      "number": 2,
+      "text": "Know that the Lord is God indeed;\nWithout our aid He did us make;\nWe are His folk, He doth us feed,\nAnd for His sheep He doth us take."
+    },
+    {
+      "number": 3,
+      "text": "O enter then His gates with praise,\nApproach with joy His courts unto;\nPraise, laud, and bless His name always,\nFor it is seemly so to do."
+    },
+    {
+      "number": 4,
+      "text": "For why the Lord our God is good,\nHis mercy is forever sure;\nHis truth at all times firmly stood,\nAnd shall from age to age endure."
+    }
+  ],
+  "metadata": {
+    "year": 1561,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "worship",
+      "thanksgiving",
+      "God's goodness"
+    ],
+    "scripture_references": [
+      "Psalm 100"
+    ],
+    "tune_source": "Genevan Psalter, 1551",
+    "original_language": "en",
+    "notes": "Metrical version of Psalm 100"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-074",
+  "number": 74,
+  "title": "Weighed and Wanting",
+  "author": "F. E. Belden",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Weighed in the balance and found wanting,\nShall we hear the Chief works speak-ers say?\nShall we hear the Saviour's pleading,\nWhile we from our sins are turning away?"
+    },
+    {
+      "number": 2,
+      "text": "Shall we hear the Chief works speak-ers say?\n\"Faithful servants\" and \"Well done,\" Or far down-cast awful sentence,\nShall we hear the Saviour's pleading,\nWhile our sins are all forgiven?"
+    },
+    {
+      "number": 3,
+      "text": "Oh, we must be weighed and found wanting,\nWarned in the balance of the Lord;\nShall we not heed the warning,\nShall we wait and found and wanting?"
+    }
+  ],
+  "chorus": {
+    "text": "Weighed in the balance and found wanting,\nShall we weigh and found wanting,\nShall we wait and found and wanting?"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1893, by F. E. Belden",
+    "themes": [
+      "judgment",
+      "weighing",
+      "balance",
+      "warning"
+    ],
+    "scripture_references": [
+      "Daniel 5:27"
+    ],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

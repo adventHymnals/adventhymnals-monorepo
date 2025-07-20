@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-119",
+  "number": 119,
+  "title": "For Others' Guilt",
+  "author": "Mrs. W. J. Kirkpatrick",
+  "composer": "Mrs. W. J. Kirkpatrick",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "He suffered and died at Gethsemane, the lot was that light, shame;\nHe suffered and died at Gethsemane, in agony of pain;\nHe suffered and died at Gethsemane, that their souls might be saved;\nHe suffered and died at Gethsemane, for sins our souls have made."
+    },
+    {
+      "number": 2,
+      "text": "To substitute us in our - lay we the off true loving grand, a- lam,\nBut for the sin of these he blood fell, But for the sin of these he blood fell;\nHe was our substitute, he is our song,\nWithout him we're lost, without him we're long."
+    },
+    {
+      "number": 3,
+      "text": "He suffered and died at Gethsemane, the lot was that light, shame;\nHe suffered and died at Gethsemane, in agony of pain;\nHe suffered and died at Gethsemane, that their souls might be saved;\nHe suffered and died at Gethsemane, for sins our souls have made."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "substitution",
+      "suffering",
+      "Gethsemane"
+    ],
+    "scripture_references": [],
+    "tune_source": "Mrs. W. J. Kirkpatrick",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses, no chorus",
+    "first_line": "He suffered and died at Gethsemane"
+  }
+}

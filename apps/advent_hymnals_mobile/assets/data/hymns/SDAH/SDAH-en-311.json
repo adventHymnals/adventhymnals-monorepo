@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-311",
+  "number": 311,
+  "title": "I Would Be Like Jesus",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Earthly pleasures vainly call me,\nI would be like Jesus;\nNothing worldly shall enthrall me,\nI would be like Jesus."
+    },
+    {
+      "number": 2,
+      "text": "He has broken every fetter,\nI would be like Jesus;\nThat my soul may serve Him better,\nI would be like Jesus."
+    },
+    {
+      "number": 3,
+      "text": "All the way from earth to glory,\nI would be like Jesus;\nTelling o'er and o'er the story,\nI would be like Jesus."
+    },
+    {
+      "number": 4,
+      "text": "That in heaven He may meet me,\nI would be like Jesus;\nThat His words \"Well done\" may greet me,\nI would be like Jesus."
+    }
+  ],
+  "chorus": {
+    "text": "Be like Jesus, this my song,\nIn the home and in the throng;\nBe like Jesus, all day long!\nI would be like Jesus."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Christian Character",
+      "Christlikeness",
+      "Discipleship",
+      "Sanctification"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

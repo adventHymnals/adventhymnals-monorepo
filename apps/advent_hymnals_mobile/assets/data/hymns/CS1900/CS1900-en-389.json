@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-389",
+  "number": 389,
+  "title": "HEAR THE PENNIES DROPPING",
+  "author": "Priscilla J. Owens",
+  "composer": "W. J. Kirkpatrick",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hear the pen-nies drop-ping, list-en as they fall,\nEv-'ry one for Je-sus, he shall have them all.\nNow while we are lit-tle, pen-nies are our store,\nBut when we are big-ger, we can give much more."
+    },
+    {
+      "number": 2,
+      "text": "Drop-ping, drop-ping, drop-ping, hear the pen-nies fall!\nEv-'ry one for Je-sus, he will get them all."
+    }
+  ],
+  "chorus": {
+    "text": "Drop-ping, drop-ping, drop-ping, hear the pen-nies fall!\nEv-'ry one for Je-sus, he will get them all."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "giving",
+      "children",
+      "offerings",
+      "generosity"
+    ],
+    "scripture_references": [],
+    "tune_source": "W. J. Kirkpatrick",
+    "original_language": "en"
+  }
+}

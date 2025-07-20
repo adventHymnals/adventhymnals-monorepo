@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-286",
+  "number": 286,
+  "title": "Wonderful Words of Life",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sing them over again to me,\nWonderful words of life;\nLet me more of their beauty see,\nWonderful words of life."
+    },
+    {
+      "number": 2,
+      "text": "Christ, the blessed One, gives to all\nWonderful words of life;\nSinner, list to the loving call,\nWonderful words of life."
+    },
+    {
+      "number": 3,
+      "text": "Sweetly echo the gospel call,\nWonderful words of life;\nOffer pardon and peace to all,\nWonderful words of life."
+    }
+  ],
+  "chorus": {
+    "text": "Words of life and beauty,\nTeach me faith and duty;\nBeautiful words, wonderful words,\nWonderful words of life.\nBeautiful words, wonderful words,\nWonderful words of life."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Words of Life",
+      "Gospel",
+      "Scripture",
+      "Beauty"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

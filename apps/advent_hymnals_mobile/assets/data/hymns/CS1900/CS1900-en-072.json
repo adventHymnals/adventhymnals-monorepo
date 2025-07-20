@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-072",
+  "number": 72,
+  "title": "In the Silent Midnight Watches",
+  "author": "F. E. Belden",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In the silent midnight watches, List—thy bosom door!\nHow it knocketh, knocketh, knocketh, Knocketh evermore!\nSay not 'tis thy pulse's beating, 'Tis thy heart of sin;\n'Tis thy Saviour knocks, and crieth, \"Rise, and let me in.\""
+    },
+    {
+      "number": 2,
+      "text": "Death comes on with reckless footstep, To the hall and hut;\nThink you death will tarry knocking Where the door is shut?\nJesus waiteth, waiteth, waiteth, But thy door is fast;\nGrieveth that His love must leave thee, Leave thee for the last."
+    },
+    {
+      "number": 3,
+      "text": "By and by the night of weeping Shall be lost in day;\nBy and by the chains of darkness Shall be rent away;\nBut 'twill be too late, too late, When the dawn appears,\nFor the Master will not linger When the night is o'er."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1893, by F. E. Belden",
+    "themes": [
+      "midnight",
+      "knocking",
+      "Jesus",
+      "invitation"
+    ],
+    "scripture_references": [
+      "Revelation 3:20"
+    ],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

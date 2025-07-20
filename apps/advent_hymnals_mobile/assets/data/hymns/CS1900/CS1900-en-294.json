@@ -1,0 +1,48 @@
+{
+  "id": "CS1900-en-294",
+  "number": 294,
+  "title": "Bliss of the Pure",
+  "author": "Thomas Kelly",
+  "composer": "Henry Smart",
+  "tune": null,
+  "meter": "C. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O bliss of the purified! bliss of the free! I plunge in the crimson fountain, And though I descend all black to the stream, I rise all spotless from it."
+    },
+    {
+      "number": 2,
+      "text": "I rise to my native skies, and look down On the storms and the clouds beneath me; I rise to the arms of my Savior above, Who died on the cross to save me."
+    },
+    {
+      "number": 3,
+      "text": "O glory! the light of the city of God For ever and ever surrounds me; The Lamb is the light of the city above, And glory to God resounds there."
+    },
+    {
+      "number": 4,
+      "text": "O when shall I sweetly sink into rest In the arms of my dear Redeemer? When shall I see him, and never depart? When shall I sin no more?"
+    },
+    {
+      "number": 5,
+      "text": "When I have done with these conflicts below, When I have done with the tears and the sighing, When I have done with temptations and fears, And done with the sin and the dying."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "purification",
+      "salvation",
+      "heaven",
+      "redemption"
+    ],
+    "scripture_references": [
+      "Revelation 7:14"
+    ],
+    "tune_source": "Henry Smart",
+    "original_language": "en"
+  }
+}

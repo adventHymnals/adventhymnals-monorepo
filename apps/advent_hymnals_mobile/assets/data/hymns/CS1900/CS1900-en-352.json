@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-352",
+  "number": 352,
+  "title": "THE JUBILEE",
+  "author": "H. J. Zelley",
+  "composer": "H. J. Zelley",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The jubilee has come, return, ye ransomed sinners, home;\nThe year of jubilee has come, return, ye ransomed sinners, home;\nA season of release has come, return, ye ransomed sinners, home."
+    },
+    {
+      "number": 2,
+      "text": "The trump of jubilee has sounded, the captives shall be free;\nThe trump of jubilee has sounded, the captives shall be free;\nThe year of favor has come, return, ye ransomed sinners, home."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "jubilee",
+      "freedom",
+      "redemption"
+    ],
+    "scripture_references": [],
+    "tune_source": "H. J. Zelley",
+    "original_language": "en"
+  }
+}

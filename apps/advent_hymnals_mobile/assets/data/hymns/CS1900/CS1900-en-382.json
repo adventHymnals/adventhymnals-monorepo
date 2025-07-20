@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-382",
+  "number": 382,
+  "title": "GIVE ME THE BIBLE",
+  "author": "Priscilla J. Owens",
+  "composer": "E. S. Lorenz",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Give me the Bi-ble, star of glad-ness gleam-ing,\nTo cheer the wan-d'rer lone and tem-pest-tossed;\nNo storm can hide that peace-ful ra-diance stream-ing,\nSince Je-sus came to seek and save the lost."
+    },
+    {
+      "number": 2,
+      "text": "Give me the Bi-ble, all my steps en-light-en,\nTeach me the dan-ger of these realms be-low;\nThat lamp through all the dark-ness bright-en,\nThe on-ly light that God has giv-en so."
+    },
+    {
+      "number": 3,
+      "text": "Give me the Bi-ble, lamp of life im-mor-tal,\nHold up that splen-dor by the o-pen grave;\nShow me the light from heav-en's gold-en por-tal,\nShow me the glo-ry, gild-ing Jordan's wave."
+    }
+  ],
+  "chorus": {
+    "text": "Give me the Bi-ble, ho-ly mes-sage shin-ing,\nThy light shall guide me in the nar-row way;\nPre-cept and prom-ise, law and love com-bin-ing,\nTill night shall van-ish in e-ter-nal day."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Bible",
+      "guidance",
+      "light",
+      "Scripture"
+    ],
+    "scripture_references": [],
+    "tune_source": "E. S. Lorenz",
+    "original_language": "en"
+  }
+}

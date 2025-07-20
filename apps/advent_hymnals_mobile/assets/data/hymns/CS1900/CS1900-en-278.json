@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-278",
+  "number": 278,
+  "title": "By Thee We Rise",
+  "author": "Anon",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Glorious things of thee are spoken,\nZion, city of our God;\nHe whose word cannot be broken\nFormed thee for his own abode."
+    },
+    {
+      "number": 2,
+      "text": "On the rock of ages founded,\nWhat can shake thy sure repose?\nWith salvation's walls surrounded,\nThou may'st smile at all thy foes."
+    },
+    {
+      "number": 3,
+      "text": "See, the streams of living waters,\nSpringing from eternal love,\nWell supply thy sons and daughters,\nAnd all fear of want remove."
+    },
+    {
+      "number": 4,
+      "text": "Blest inhabitants of Zion,\nWashed in the Redeemer's blood,\nJesus, whom their souls rely on,\nMakes them kings and priests to God."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Zion",
+      "God's city",
+      "security",
+      "salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

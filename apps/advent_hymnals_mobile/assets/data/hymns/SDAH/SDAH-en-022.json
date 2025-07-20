@@ -1,0 +1,46 @@
+{
+  "id": "SDAH-en-022",
+  "number": 22,
+  "title": "God Is Our Song",
+  "author": "Fred Pratt Green",
+  "composer": "Genevan Psalter",
+  "tune": "Old 124th",
+  "meter": "10.10.10.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "God is our Song, and every singer blest\nWho praising Him finds energy and rest.\nAll who praise God with unaffected joy\nGive back to us the wisdom we destroy."
+    },
+    {
+      "number": 2,
+      "text": "God is our Song, for Jesus comes to save;\nWhile praising Him we offer all we have.\nNew songs we sing, what rich complexities of sound\nWhen God builds up on a gain the voice of ground."
+    },
+    {
+      "number": 3,
+      "text": "This is the Song no conflict ever drowns;\nWho praises God our human wrath disowns.\nLove glorious the faith which silently obeys\nUntil we find a gain the voice of praise."
+    },
+    {
+      "number": 4,
+      "text": "God is our silence when no songs are sung,\nWhen ecstasy or sorrow stills the tongue.\nGive back to us the wisdom we destroy,\nWhen God builds up on a gain the voice of praise."
+    }
+  ],
+  "metadata": {
+    "year": 1976,
+    "copyright": "© 1976 Hope Publishing Company",
+    "themes": [
+      "praise",
+      "worship",
+      "song",
+      "silence",
+      "faith"
+    ],
+    "scripture_references": [
+      "Psalm 40:3",
+      "Ephesians 5:19",
+      "Colossians 3:16"
+    ],
+    "tune_source": "Genevan Psalter, 1551",
+    "original_language": "en"
+  }
+}

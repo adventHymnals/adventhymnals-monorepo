@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-529",
+  "number": 529,
+  "title": "Under His Wings",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Under His wings I am safely abiding;\nThough the night deepens and tempests are wild,\nStill I can trust Him; I know He will keep me;\nHe has redeemed me, and I am His child."
+    },
+    {
+      "number": 2,
+      "text": "Under His wings, what a refuge in sorrow!\nHow the heart yearning-ly turns to its rest!\nOften when earth has no balm for my healing,\nThere I find comfort, and there I am blest."
+    },
+    {
+      "number": 3,
+      "text": "Under His wings, O what precious enjoyment!\nThere will I hide till life's trials are o'er;\nSheltered, protected, no evil can harm me;\nResting in Jesus I'm safe evermore."
+    }
+  ],
+  "chorus": {
+    "text": "Under His wings, under His wings,\nWho from His love can sever?\nUnder His wings my soul shall abide,\nSafely abide forever."
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "refuge",
+      "protection",
+      "trust",
+      "comfort"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

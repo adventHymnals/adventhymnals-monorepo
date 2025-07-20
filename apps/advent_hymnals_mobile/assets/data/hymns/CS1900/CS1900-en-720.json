@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-720",
+  "number": 720,
+  "title": "Jesus Is Coming Again",
+  "author": "J. Lux",
+  "composer": "J. Lux",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lift up the trum-pet, and loud let it ring; Je-sus is com-ing a-gain!\nCheer up, ye pil-grims, be joy-ful and sing; Je-sus is com-ing a-gain!"
+    },
+    {
+      "number": 2,
+      "text": "Ech-o it, hills and ye val-leys pro-claim; Je-sus is com-ing a-gain!\nOcean and earth tell the won-der-ful name; Je-sus is com-ing a-gain!"
+    },
+    {
+      "number": 3,
+      "text": "Com-ing a-gain, com-ing a-gain, Pos-si-bly morn-ing, or noon, or at night;\nCom-ing a-gain, com-ing a-gain, O what a won-der-ful, glo-ri-ous sight!"
+    }
+  ],
+  "chorus": {
+    "text": "Je-sus is com-ing a-gain, Je-sus is com-ing a-gain,\nCom-ing in pow-er and love to reign; Je-sus is com-ing a-gain!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "second coming",
+      "joy",
+      "proclamation",
+      "triumph"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. Lux",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-228",
+  "number": 228,
+  "title": "JESUS IS MINE",
+  "author": "E. E. HEWITT",
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Fair, rich each earthly joy, Jesus is mine! Break ev'ry tender tie, Jesus is mine!"
+    },
+    {
+      "number": 2,
+      "text": "Tempt not my soul away, Jesus is mine! Here would I ever stay, Jesus is mine!"
+    },
+    {
+      "number": 3,
+      "text": "Farewell, ye dreams of night, Jesus is mine! Lost in this dawning bright, Jesus is mine!"
+    },
+    {
+      "number": 4,
+      "text": "Farewell, mortality, Jesus is mine! Welcome, eternity, Jesus is mine!"
+    }
+  ],
+  "chorus": {
+    "text": "Per - ish - ing things of clay, All at his feet I lay, Born to an endless day, Jesus is mine!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "jesus",
+      "mine",
+      "eternal",
+      "joy"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

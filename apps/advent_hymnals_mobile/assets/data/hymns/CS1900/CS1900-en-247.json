@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-247",
+  "number": 247,
+  "title": "Valley Lilies",
+  "author": "Flora Kirkland",
+  "composer": "Anita Corey",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Con-sid-er the lil-ies of the field, how they grow! \"Not Sol-o-mon in all\nVal-ley lil-ies, gold-en heart-ed, Love's sweet mes-sage you un-furl, For you tell us\nVal-ley lil-ies, in the eve-ning your per-fume is sent a-broad, Ever point-ing"
+    },
+    {
+      "number": 2,
+      "text": "Pure and lil-y-white, bend-ing low in prayer, For you teach us to be meek,\nPerfumed prayers for the night-time, If we sought His Fa-ther's care, Snow-y lil-ies of the val-ley,\nThen we would be like the lil-ies, That we care, The world may come."
+    },
+    {
+      "number": 3,
+      "text": "Speak a-gain your mes-sage sweet, Tell us how to live for Je-sus, Heav-en's Lil-y, somewhat fair!"
+    }
+  ],
+  "chorus": {
+    "text": "Snow-y lil-ies of the val-ley, Snow-y lil-ies of the val-ley,\nSnow-y lil-ies of the val-ley, Speak a-gain your mes-sage sweet!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "From \"Glad Tidings\" by per. of Gospel Advocate Publishing Co.",
+    "themes": [
+      "nature",
+      "lilies",
+      "God's care",
+      "prayer"
+    ],
+    "scripture_references": [
+      "Matthew 6:28-29"
+    ],
+    "tune_source": "Anita Corey",
+    "original_language": "en"
+  }
+}

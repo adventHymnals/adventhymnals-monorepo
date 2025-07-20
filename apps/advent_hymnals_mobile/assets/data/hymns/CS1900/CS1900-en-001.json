@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-001",
+  "number": 1,
+  "title": "Lead Them to Thee",
+  "author": "Anon",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lead them to God, O thee, Lead them to thee; These children dear of thine, Thou gav-est me: For thee they trust and cry, For thee they live and die, That thou this precious gift Wilt not re-ceive."
+    },
+    {
+      "number": 2,
+      "text": "When each soul trusts to land, Fold thy love and say: I would bring each of these, when each soul craves, That they take all to him, I would they leave, That thou the precious gift Wilt not re-ceive."
+    },
+    {
+      "number": 3,
+      "text": "Yea, they cry him to thee, I would thy leave, That thou this precious gift, Wilt not re-ceive."
+    }
+  ],
+  "refrain": {
+    "text": "O by thy love divine, Lead them, my God, to thee; Lead them to thee, Lead them to thee; So by thy love divine, Lead them, my God, to thee; Lead them, my God, to thee; lead them to thee."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "children",
+      "leading",
+      "God",
+      "divine love",
+      "precious gift",
+      "trust"
+    ],
+    "scripture_references": [
+      "Mark 10:14"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-518",
+  "number": 518,
+  "title": "Standing on the Promises",
+  "author": "Russell Kelso Carter",
+  "composer": "Russell Kelso Carter",
+  "tune": "Promises",
+  "meter": "11.11.11.11. with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Standing on the promises of Christ my King,\nThru eternal ages let His praises ring;\nGlory in the highest, I will shout and sing,\nStanding on the promises of God."
+    },
+    {
+      "number": 2,
+      "text": "Standing on the promises that cannot fail,\nWhen the howling storms of doubt and fear assail,\nBy the living word of God I shall prevail,\nStanding on the promises of God."
+    },
+    {
+      "number": 3,
+      "text": "Standing on the promises of Christ the Lord,\nBound to Him eternally by love's strong cord,\nOvercoming daily with the Spirit's sword,\nStanding on the promises of God."
+    }
+  ],
+  "chorus": {
+    "text": "Standing, standing,\nStanding on the promises of God my Savior;\nStanding, standing,\nI'm standing on the promises of God."
+  },
+  "metadata": {
+    "year": 1886,
+    "copyright": "Public Domain",
+    "themes": [
+      "faith",
+      "promises",
+      "victory",
+      "trust",
+      "word of God"
+    ],
+    "scripture_references": [
+      "2 Corinthians 1:20",
+      "Hebrews 6:18"
+    ],
+    "tune_source": "Russell Kelso Carter",
+    "original_language": "en"
+  }
+}

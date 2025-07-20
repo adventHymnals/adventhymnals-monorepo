@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-088",
+  "number": 88,
+  "title": "Weeping Will Not Save Me",
+  "author": "Fanny Crosby",
+  "composer": "W. H. Doane",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text available in source hymnal]"
+    }
+  ],
+  "chorus": {
+    "text": "[Chorus text available in source hymnal]"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "By permission of B. Lowry",
+    "themes": [
+      "salvation",
+      "faith",
+      "trust"
+    ],
+    "scripture_references": [],
+    "tune_source": "W. H. Doane",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "Weeping will not save me"
+  }
+}

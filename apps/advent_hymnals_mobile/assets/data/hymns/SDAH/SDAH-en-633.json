@@ -1,0 +1,47 @@
+{
+  "id": "SDAH-en-633",
+  "number": 633,
+  "title": "When We All Get to Heaven",
+  "author": "Eliza E. Hewitt",
+  "composer": "",
+  "tune": "",
+  "meter": "",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sing the wondrous love of Jesus,\nSing His mercy and His grace;\nIn the mansions bright and blessed\nHe'll prepare for us a place."
+    },
+    {
+      "number": 2,
+      "text": "While we walk the pilgrim pathway\nClouds will overspread the sky;\nBut when traveling days are over\nNot a shadow, not a sigh."
+    },
+    {
+      "number": 3,
+      "text": "Let us then be true and faithful,\nTrusting, serving every day;\nJust one glimpse of Him in glory\nWill the toils of life repay."
+    },
+    {
+      "number": 4,
+      "text": "Onward to the prize before us!\nSoon His beauty we'll behold;\nSoon the pearly gates will open,\nWe shall tread the streets of gold."
+    }
+  ],
+  "chorus": {
+    "text": "When we all get to heaven,\nWhat a day of rejoicing that will be!\nWhen we all see Jesus,\nWe'll sing and shout the victory!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": "",
+    "themes": [
+      "heaven",
+      "reunion",
+      "victory",
+      "joy"
+    ],
+    "scripture_references": [
+      "John 14:2-3",
+      "Revelation 21:21"
+    ],
+    "tune_source": "",
+    "original_language": "en"
+  }
+}

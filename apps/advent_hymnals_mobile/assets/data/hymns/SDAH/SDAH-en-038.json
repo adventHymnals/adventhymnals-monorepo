@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-038",
+  "number": 38,
+  "title": "Arise, My Soul, Arise!",
+  "author": "Charles Wesley",
+  "composer": "Lewis Edson",
+  "tune": "Lenox",
+  "meter": "6.6.8.4.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Arise, my soul, arise! Stretch forth to things eternal\nAnd hasten to the feet of your Redeemer God.\nThough hid from mortal eyes, He dwells in light supernal;\nYet worship Him in humbleness and call Him Lord.\nHis banquet of love awaits you above;\nYet here He grants a foretaste of the feast to come!"
+    },
+    {
+      "number": 2,
+      "text": "Now hear the harps of heaven! Oh, hear the song victorious,\nThe never-ending anthem sounding through the sky!\nTo mortals is not given to join in strains so glorious;\nYet here on earth we too can sing our praises high!\nHe bought with His blood the ransomed of God;\nTo Him be everlasting power and victory."
+    }
+  ],
+  "chorus": {
+    "text": "Alleluia, alleluia, alleluia!"
+  },
+  "metadata": {
+    "year": 1742,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "heaven",
+      "eternal life",
+      "victory",
+      "redemption",
+      "worship"
+    ],
+    "scripture_references": [
+      "Hebrews 12:22-24",
+      "Revelation 5:11-12"
+    ],
+    "tune_source": "Lewis Edson, 1782",
+    "original_language": "en"
+  }
+}

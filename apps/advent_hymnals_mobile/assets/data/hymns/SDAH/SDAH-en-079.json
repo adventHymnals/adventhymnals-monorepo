@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-079",
+  "number": 79,
+  "title": "O Love of God, How Strong and True!",
+  "author": "Horatius Bonar",
+  "composer": "John Bacchus Dykes",
+  "tune": "Rutherford",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O love of God, how strong and true!\nEternal, and yet ever new;\nUncomprehended and unbought,\nBeyond all knowledge and all thought."
+    },
+    {
+      "number": 2,
+      "text": "O love of God, how deep and great!\nFar deeper than man's deepest hate;\nSelf-fed, self-kindled like the light,\nChangeless, eternal, infinite."
+    },
+    {
+      "number": 3,
+      "text": "We read thee best in Him who came\nTo bear for us the cross of shame;\nSent by the Father from on high,\nOur life to live, our death to die."
+    },
+    {
+      "number": 4,
+      "text": "We read thy power to bless and save\nE'en in the darkness of the grave;\nStill more in resurrection light\nWe read the fullness of thy might."
+    },
+    {
+      "number": 5,
+      "text": "O love of God, our shield and stay\nThrough all the perils of our way!\nEternal love, in thee we rest\nForever safe, forever blest."
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "God's Love",
+      "Cross",
+      "Resurrection",
+      "Eternal Love"
+    ],
+    "scripture_references": [],
+    "tune_source": "Rutherford",
+    "original_language": "en"
+  }
+}

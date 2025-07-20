@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-606",
+  "number": 606,
+  "title": "Once to Every Man and Nation",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Once to every man and nation comes the moment to decide,\nIn the strife of truth with falsehood, for the good or evil side;\nSome great cause, God's new Messiah, offering each the bloom or blight,\nAnd the choice goes by forever 'twixt that darkness and that light."
+    },
+    {
+      "number": 2,
+      "text": "Then to side with truth is noble when we share her wretched crust,\nEre her cause bring fame and profit, and 'tis prosperous to be just;\nThen it is the brave man chooses, while the coward stands aside,\nTill the multitude make virtue of the faith they had denied."
+    },
+    {
+      "number": 3,
+      "text": "By the light of burning martyrs, Christ, Thy bleeding feet we track,\nToiling up new Calvaries ever with the cross that turns not back;\nNew occasions teach new duties, time makes ancient good uncouth;\nThey must upward still and onward who would keep abreast of truth."
+    },
+    {
+      "number": 4,
+      "text": "Though the cause of evil prosper, yet 'tis truth alone is strong;\nThough her portion be the scaffold, and upon the throne be wrong,\nYet that scaffold sways the future, and, behind the dim unknown,\nStandeth God within the shadow, keeping watch above His own."
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "moral choice",
+      "courage",
+      "truth",
+      "social justice"
+    ],
+    "scripture_references": [
+      "Joshua 24:15",
+      "Isaiah 55:11",
+      "Galatians 6:7"
+    ],
+    "copyright": "Public Domain"
+  }
+}

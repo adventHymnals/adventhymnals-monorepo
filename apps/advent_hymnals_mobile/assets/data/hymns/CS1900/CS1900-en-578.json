@@ -1,0 +1,35 @@
+{
+  "id": "CS1900-en-578",
+  "number": 578,
+  "title": "JESUS COMES",
+  "author": "Charlotte Elliott",
+  "composer": "W. J. Kirkpatrick",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "\"Behold, the Lord cometh with ten thousands of his saints.\" - Jude 14.\nWatch, ye saints, with eye-lids wake-ing, Lo! the pow-ers of heav'n are shak-ing; Keep your lamps all\nBurn-ing bright, Christ shall come to-mor-row night. Hark! the ju-bi-lant pro-claim-ing, Hark! his char-iot wheels are rum-bling; Tell - O tell of\nNat-ions waking, Earth through all her king-doms quaking, Christ the Lord re-turns to-night! Hark! the horn! the trump, the reign, Pray-er and prais-es to him bring."
+    }
+  ],
+  "chorus": {
+    "text": "REFRAIN:\nHeav'n and earth are, prais-es ring-ing, Lord's re-turn-ing,\nCrowns of vict'ry, Whilst the say-with trump-et sound-ing; Lo! he comes, lo! Je-sus comes,\nPeace of promise, While the an-gels sing tri-umph-ant; home-ward bound! Shall pro-claim his roy-al ad-vent."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "From \"Gospel Hymns\"—Hope Publishing Co., owners of copyright",
+    "themes": [
+      "Jesus coming",
+      "watching",
+      "saints",
+      "trumpet",
+      "chariot"
+    ],
+    "scripture_references": [
+      "Jude 14"
+    ],
+    "tune_source": "W. J. Kirkpatrick",
+    "original_language": "en"
+  }
+}

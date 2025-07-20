@@ -1,0 +1,46 @@
+{
+  "id": "CS1900-en-318",
+  "number": 318,
+  "title": "The Sweetest Name",
+  "author": "W. B. Bradbury",
+  "composer": "W. B. Bradbury",
+  "tune": "Sweet Hour",
+  "meter": "L. M. D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There is no name so sweet on earth, No name so sweet in heaven, The name, before his wondrous birth, To Christ the Savior given."
+    },
+    {
+      "number": 2,
+      "text": "His human name they did proclaim When Jesus here among them came, And still the precious name we claim Above all names whatever."
+    },
+    {
+      "number": 3,
+      "text": "And when he hung upon the tree, They wrote this name above him, That all might see the reason we Forever more must love him."
+    },
+    {
+      "number": 4,
+      "text": "So now upon his Father's throne He bears the name forever, The name by mortals here made known, The blessed name of Jesus."
+    }
+  ],
+  "chorus": {
+    "text": "We love to sing around his throne, And hear his blessed name; For there's no word ear ever heard So dear, so sweet as Jesus."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Jesus name",
+      "love",
+      "worship",
+      "heaven"
+    ],
+    "scripture_references": [
+      "Philippians 2:9-11"
+    ],
+    "tune_source": "W. B. Bradbury",
+    "original_language": "en"
+  }
+}

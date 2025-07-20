@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-343",
+  "number": 343,
+  "title": "BLEST BE THE TIE",
+  "author": "J. Fawcett",
+  "composer": "J. P. Naegeli",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Blest be the tie that binds our hearts in Christian love;\nThe fellowship of kindred minds is like to that above;\nThe fellowship of kindred minds is like to that above."
+    },
+    {
+      "number": 2,
+      "text": "Before our Father's throne we pour our ardent prayers;\nOur fears, our hopes, our aims are one, our comforts and our cares;\nOur fears, our hopes, our aims are one, our comforts and our cares."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "fellowship",
+      "unity",
+      "Christian love"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. P. Naegeli",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-547",
+  "number": 547,
+  "title": "Lead, Kindly Light",
+  "author": "Cardinal Newman",
+  "composer": "J. B. Dykes",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lead, kindly light, amid the encircling gloom, Lead thou me on;\nThe night is dark, and I am far from home, Lead thou me on;\nKeep thou my feet; I do not ask to see\nThe distant scene; one step enough for me."
+    },
+    {
+      "number": 2,
+      "text": "I was not ever thus, nor prayed that thou shouldst lead me on;\nI loved to choose and see my path, but now\nLead thou me on;\nI loved the garish day, and spite of fears,\nPride ruled my will. Remember not past years."
+    },
+    {
+      "number": 3,
+      "text": "So long thy power hath blest me, sure it still will lead me on,\nO'er moor and fen, o'er crag and torrent, till\nThe night is gone,\nAnd with the morn those angel faces smile,\nWhich I have loved long since, and lost awhile."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "guidance",
+      "trust",
+      "journey",
+      "faith"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. B. Dykes",
+    "original_language": "en"
+  }
+}

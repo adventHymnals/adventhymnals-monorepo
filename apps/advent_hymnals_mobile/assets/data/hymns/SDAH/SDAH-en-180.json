@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-180",
+  "number": 180,
+  "title": "O Listen to Our Wondrous Story",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "8.7.8.7.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O listen to our wondrous story,\nCounted once among the lost;\nYet One came down from heaven's glory,\nSaving us at awful cost!"
+    },
+    {
+      "number": 2,
+      "text": "No angel could His place have taken,\nHighest of the high though he;\nThe loved One on the cross forsaken\nWas One of the Godhead three!"
+    },
+    {
+      "number": 3,
+      "text": "Will you surrender to this Savior?\nTo His scepter humbly bow?\nYou, too, shall come to know His favor,\nHe will save you, save you now."
+    }
+  ],
+  "chorus": {
+    "text": "Who saved us from eternal loss?\nWhat did He do?\nWhere is He now? Believe it thou, In\nheaven interceding!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "salvation",
+      "story",
+      "cross",
+      "intercession",
+      "surrender"
+    ],
+    "scripture_references": [
+      "1 Timothy 1:15",
+      "Hebrews 7:25"
+    ],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-272",
+  "number": 272,
+  "title": "I've Found the Pearl",
+  "author": "Jno. Dunbar",
+  "composer": "Chas. P. Jones",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I have found the Pearl of greatest val-ue, Lost the dear joy for which I'd paid the cost;\nI have found the Pearl of greatest val-ue, Nothing but good can-not be lost;\nI have found the Pearl of great-est val-ue, Peace and joy, My all in all."
+    },
+    {
+      "number": 2,
+      "text": "I have found my rest in Je-sus on-ly, I hold my sure-ty,\nI have found my rest in Je-sus on-ly, Sav-ior, I love and trust and stay;\nI have found my rest in Je-sus on-ly, Let me talk as sav-ior-ly."
+    }
+  ],
+  "chorus": {
+    "text": "I've found the Pearl of great-est val-ue, God has giv-en me the Pearl of great-est val-ue!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "salvation",
+      "pearl of great price",
+      "Jesus",
+      "value"
+    ],
+    "scripture_references": [
+      "Matthew 13:46"
+    ],
+    "tune_source": "Chas. P. Jones",
+    "original_language": "en"
+  }
+}

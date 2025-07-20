@@ -6,10 +6,12 @@
 #endif
 
 #include "flutter/generated_plugin_registrant.h"
+#include "projector_window_manager.h"
 
 struct _MyApplication {
   GtkApplication parent_instance;
   char** dart_entrypoint_arguments;
+  ProjectorWindowManager* projector_window_manager;
 };
 
 G_DEFINE_TYPE(MyApplication, my_application, GTK_TYPE_APPLICATION)
@@ -59,6 +61,10 @@ static void my_application_activate(GApplication* application) {
 
   fl_register_plugins(FL_PLUGIN_REGISTRY(view));
 
+  // Initialize projector window manager
+  self->projector_window_manager = new ProjectorWindowManager();
+  self->projector_window_manager->Initialize(view);
+
   gtk_widget_grab_focus(GTK_WIDGET(view));
 }
 
@@ -92,7 +98,14 @@ static void my_application_startup(GApplication* application) {
 
 // Implements GApplication::shutdown.
 static void my_application_shutdown(GApplication* application) {
-  //MyApplication* self = MY_APPLICATION(object);
+  MyApplication* self = MY_APPLICATION(application);
+
+  // Cleanup projector window manager
+  if (self->projector_window_manager) {
+    self->projector_window_manager->Dispose();
+    delete self->projector_window_manager;
+    self->projector_window_manager = nullptr;
+  }
 
   // Perform any actions required at application shutdown.
 
@@ -114,7 +127,9 @@ static void my_application_class_init(MyApplicationClass* klass) {
   G_OBJECT_CLASS(klass)->dispose = my_application_dispose;
 }
 
-static void my_application_init(MyApplication* self) {}
+static void my_application_init(MyApplication* self) {
+  self->projector_window_manager = nullptr;
+}
 
 MyApplication* my_application_new() {
   return MY_APPLICATION(g_object_new(my_application_get_type(),

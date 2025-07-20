@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-342",
+  "number": 342,
+  "title": "WE LIVE ANEW",
+  "author": "Unknown",
+  "composer": "Unknown",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Baptized into our Savior's death, we now rise to walk with Christ our Lord;\nThus in the future we walk, in newness of life with Christ our Lord;\nFor we have been thus planted in the likeness of His death,\nShall we not be, in power, raised up like His breath?"
+    },
+    {
+      "number": 2,
+      "text": "We live anew; in this our Christian walk we must be earnest,\nWe live anew; in this our Christian walk we must be earnest,\nFor we have been thus planted in the likeness of His death,\nShall we not be, in power, raised up like His breath?"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "baptism",
+      "new life",
+      "resurrection"
+    ],
+    "scripture_references": [],
+    "tune_source": "Unknown",
+    "original_language": "en"
+  }
+}

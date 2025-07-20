@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-146",
+  "number": 146,
+  "title": "To-day the Saviour Calls",
+  "author": null,
+  "composer": "J. H. Stockton",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "To - day the Sav - iour calls; Ye wan - d'rers come; O ye be - night - ed souls, Why long - er roam?"
+    },
+    {
+      "number": 2,
+      "text": "To - day the Sav - iour calls; O lis - ten now! With - in these sa - cred walls To Je - sus bow."
+    },
+    {
+      "number": 3,
+      "text": "To - day the Sav - iour calls; For ref - uge fly; The storm of jus - tice falls, And death is nigh."
+    },
+    {
+      "number": 4,
+      "text": "The spir - it calls to - day; Yield to his pow'r; O grieve him not a - way; 'Tis mer - cy's hour."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "call",
+      "salvation",
+      "urgency",
+      "mercy"
+    ],
+    "scripture_references": [
+      "2 Corinthians 6:2"
+    ],
+    "tune_source": "J. H. Stockton",
+    "original_language": "en"
+  }
+}

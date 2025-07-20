@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-201",
+  "number": 201,
+  "title": "Christ Is Coming",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Christ is coming! let creation\nBid her groans and travail cease;\nLet the glorious proclamation\nHope restore and faith increase;"
+    },
+    {
+      "number": 2,
+      "text": "Earth can now but tell the story\nOf Thy bitter cross and pain;\nShe shall yet behold Thy glory\nWhen Thou comest back to reign;"
+    },
+    {
+      "number": 3,
+      "text": "With that \"blessed hope\" before us,\nLet no harp remain unstrung;\nLet the mighty advent chorus\nOnward roll from tongue to tongue:"
+    }
+  ],
+  "chorus": {
+    "text": "Christ is coming! Christ is coming!\nCome, Thou blessed Prince of Peace!\nCome, Thou blessed Prince of Peace!\nCome, Lord Jesus, quickly come!\nCome, Thou blessed Prince of Peace!"
+  },
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Second Coming",
+      "Advent",
+      "Hope",
+      "Peace"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

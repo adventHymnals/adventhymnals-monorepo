@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:advent_hymnals_mobile/main.dart';
-import 'package:advent_hymnals_mobile/presentation/screens/tunes_browse_screen.dart';
-import 'package:advent_hymnals_mobile/presentation/screens/meters_browse_screen.dart';
-import 'package:advent_hymnals_mobile/presentation/screens/scripture_browse_screen.dart';
-import 'package:advent_hymnals_mobile/presentation/screens/first_lines_browse_screen.dart';
-import 'package:advent_hymnals_mobile/presentation/screens/authors_browse_screen.dart';
-import 'package:advent_hymnals_mobile/presentation/screens/topics_browse_screen.dart';
-import 'package:advent_hymnals_mobile/presentation/screens/collections_browse_screen.dart';
-import 'package:advent_hymnals_mobile/presentation/screens/search_screen.dart';
-import 'package:advent_hymnals_mobile/presentation/screens/favorites_screen.dart';
-import 'package:advent_hymnals_mobile/presentation/screens/more_screen.dart';
-import 'package:advent_hymnals_mobile/core/constants/app_constants.dart';
+import 'package:advent_hymnals/main.dart';
+import 'package:advent_hymnals/presentation/screens/tunes_browse_screen.dart';
+import 'package:advent_hymnals/presentation/screens/meters_browse_screen.dart';
+import 'package:advent_hymnals/presentation/screens/scripture_browse_screen.dart';
+import 'package:advent_hymnals/presentation/screens/first_lines_browse_screen.dart';
+import 'package:advent_hymnals/presentation/screens/authors_browse_screen.dart';
+import 'package:advent_hymnals/presentation/screens/topics_browse_screen.dart';
+import 'package:advent_hymnals/presentation/screens/collections_browse_screen.dart';
+import 'package:advent_hymnals/presentation/screens/search_screen.dart';
+import 'package:advent_hymnals/presentation/screens/favorites_screen.dart';
+import 'package:advent_hymnals/presentation/screens/more_screen.dart';
+import 'package:advent_hymnals/core/constants/app_constants.dart';
 
 void main() {
   group('Core Functionality Tests', () {

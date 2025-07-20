@@ -15,31 +15,31 @@ class _TopicsBrowseScreenState extends State<TopicsBrowseScreen> {
 
   // Sample topics data
   final List<TopicItem> _topics = [
-    TopicItem(name: 'Worship and Praise', description: 'Hymns of adoration and worship', hymnCount: 187),
-    TopicItem(name: 'Jesus Christ', description: 'Life, ministry, and sacrifice of Christ', hymnCount: 156),
-    TopicItem(name: 'Salvation and Grace', description: 'God\'s saving grace and redemption', hymnCount: 134),
-    TopicItem(name: 'Christmas', description: 'Birth and incarnation of Jesus', hymnCount: 89),
-    TopicItem(name: 'Easter and Resurrection', description: 'Christ\'s death and resurrection', hymnCount: 78),
-    TopicItem(name: 'Prayer and Communion', description: 'Personal relationship with God', hymnCount: 67),
-    TopicItem(name: 'Faith and Trust', description: 'Trust in God\'s providence', hymnCount: 62),
-    TopicItem(name: 'Love of God', description: 'God\'s love and mercy', hymnCount: 58),
-    TopicItem(name: 'Comfort and Peace', description: 'God\'s comfort in trials', hymnCount: 54),
-    TopicItem(name: 'Holy Spirit', description: 'Work and presence of the Spirit', hymnCount: 48),
-    TopicItem(name: 'Eternal Life', description: 'Hope of heaven and eternal joy', hymnCount: 45),
-    TopicItem(name: 'Christian Living', description: 'Daily walk with Christ', hymnCount: 42),
-    TopicItem(name: 'Second Coming', description: 'Return of Jesus Christ', hymnCount: 38),
-    TopicItem(name: 'Missions and Evangelism', description: 'Spreading the Gospel', hymnCount: 36),
-    TopicItem(name: 'Repentance and Forgiveness', description: 'Turning from sin to God', hymnCount: 34),
-    TopicItem(name: 'Baptism', description: 'Symbol of new life in Christ', hymnCount: 28),
-    TopicItem(name: 'Communion and Lord\'s Supper', description: 'Remembrance of Christ\'s sacrifice', hymnCount: 26),
-    TopicItem(name: 'Creation and Nature', description: 'God\'s creation and natural world', hymnCount: 24),
-    TopicItem(name: 'Church and Fellowship', description: 'Unity of believers', hymnCount: 22),
-    TopicItem(name: 'Thanksgiving', description: 'Gratitude to God', hymnCount: 21),
-    TopicItem(name: 'Cross and Atonement', description: 'Christ\'s sacrifice for sin', hymnCount: 19),
-    TopicItem(name: 'Bible and Word of God', description: 'Scripture and divine revelation', hymnCount: 18),
-    TopicItem(name: 'Service and Dedication', description: 'Serving God and others', hymnCount: 16),
-    TopicItem(name: 'Morning and Evening', description: 'Daily devotion hymns', hymnCount: 15),
-    TopicItem(name: 'Trials and Suffering', description: 'Endurance through hardship', hymnCount: 14),
+    const TopicItem(name: 'Worship and Praise', description: 'Hymns of adoration and worship', hymnCount: 187),
+    const TopicItem(name: 'Jesus Christ', description: 'Life, ministry, and sacrifice of Christ', hymnCount: 156),
+    const TopicItem(name: 'Salvation and Grace', description: 'God\'s saving grace and redemption', hymnCount: 134),
+    const TopicItem(name: 'Christmas', description: 'Birth and incarnation of Jesus', hymnCount: 89),
+    const TopicItem(name: 'Easter and Resurrection', description: 'Christ\'s death and resurrection', hymnCount: 78),
+    const TopicItem(name: 'Prayer and Communion', description: 'Personal relationship with God', hymnCount: 67),
+    const TopicItem(name: 'Faith and Trust', description: 'Trust in God\'s providence', hymnCount: 62),
+    const TopicItem(name: 'Love of God', description: 'God\'s love and mercy', hymnCount: 58),
+    const TopicItem(name: 'Comfort and Peace', description: 'God\'s comfort in trials', hymnCount: 54),
+    const TopicItem(name: 'Holy Spirit', description: 'Work and presence of the Spirit', hymnCount: 48),
+    const TopicItem(name: 'Eternal Life', description: 'Hope of heaven and eternal joy', hymnCount: 45),
+    const TopicItem(name: 'Christian Living', description: 'Daily walk with Christ', hymnCount: 42),
+    const TopicItem(name: 'Second Coming', description: 'Return of Jesus Christ', hymnCount: 38),
+    const TopicItem(name: 'Missions and Evangelism', description: 'Spreading the Gospel', hymnCount: 36),
+    const TopicItem(name: 'Repentance and Forgiveness', description: 'Turning from sin to God', hymnCount: 34),
+    const TopicItem(name: 'Baptism', description: 'Symbol of new life in Christ', hymnCount: 28),
+    const TopicItem(name: 'Communion and Lord\'s Supper', description: 'Remembrance of Christ\'s sacrifice', hymnCount: 26),
+    const TopicItem(name: 'Creation and Nature', description: 'God\'s creation and natural world', hymnCount: 24),
+    const TopicItem(name: 'Church and Fellowship', description: 'Unity of believers', hymnCount: 22),
+    const TopicItem(name: 'Thanksgiving', description: 'Gratitude to God', hymnCount: 21),
+    const TopicItem(name: 'Cross and Atonement', description: 'Christ\'s sacrifice for sin', hymnCount: 19),
+    const TopicItem(name: 'Bible and Word of God', description: 'Scripture and divine revelation', hymnCount: 18),
+    const TopicItem(name: 'Service and Dedication', description: 'Serving God and others', hymnCount: 16),
+    const TopicItem(name: 'Morning and Evening', description: 'Daily devotion hymns', hymnCount: 15),
+    const TopicItem(name: 'Trials and Suffering', description: 'Endurance through hardship', hymnCount: 14),
   ];
 
   List<TopicItem> get _filteredTopics {
@@ -62,7 +62,7 @@ class _TopicsBrowseScreenState extends State<TopicsBrowseScreen> {
           // Search Section
           Container(
             padding: const EdgeInsets.all(AppSizes.spacing16),
-            color: Color(AppColors.background),
+            color: const Color(AppColors.background),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -76,7 +76,7 @@ class _TopicsBrowseScreenState extends State<TopicsBrowseScreen> {
                 Text(
                   'Find hymns by theme and topic',
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Color(AppColors.gray700),
+                    color: const Color(AppColors.gray700),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing16),
@@ -123,7 +123,7 @@ class _TopicsBrowseScreenState extends State<TopicsBrowseScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(
+          const Icon(
             Icons.category_outlined,
             size: 64,
             color: Color(AppColors.gray500),
@@ -132,14 +132,14 @@ class _TopicsBrowseScreenState extends State<TopicsBrowseScreen> {
           Text(
             'No topics found',
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-              color: Color(AppColors.gray700),
+              color: const Color(AppColors.gray700),
             ),
           ),
           const SizedBox(height: AppSizes.spacing8),
           Text(
             'Try adjusting your search terms',
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray500),
+              color: const Color(AppColors.gray500),
             ),
           ),
         ],
@@ -160,10 +160,10 @@ class _TopicsBrowseScreenState extends State<TopicsBrowseScreen> {
               width: 48,
               height: 48,
               decoration: BoxDecoration(
-                color: Color(AppColors.purple).withOpacity(0.1),
+                color: const Color(AppColors.purple).withOpacity(0.1),
                 borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
               ),
-              child: Icon(
+              child: const Icon(
                 Icons.category,
                 color: Color(AppColors.purple),
               ),
@@ -181,20 +181,20 @@ class _TopicsBrowseScreenState extends State<TopicsBrowseScreen> {
                 Text(
                   topic.description,
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.gray600),
+                    color: const Color(AppColors.gray600),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing4),
                 Text(
                   '${topic.hymnCount} hymn${topic.hymnCount == 1 ? '' : 's'}',
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Color(AppColors.purple),
+                    color: const Color(AppColors.purple),
                     fontWeight: FontWeight.w500,
                   ),
                 ),
               ],
             ),
-            trailing: Icon(
+            trailing: const Icon(
               Icons.arrow_forward_ios,
               size: 16,
               color: Color(AppColors.gray500),

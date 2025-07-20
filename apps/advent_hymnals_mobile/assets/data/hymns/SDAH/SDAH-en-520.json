@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-520",
+  "number": 520,
+  "title": "He Hideth My Soul",
+  "author": "Fanny J. Crosby",
+  "composer": "William J. Kirkpatrick",
+  "tune": "He Hideth My Soul",
+  "meter": "10.10.10.10. with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "A wonderful Savior is Jesus my Lord,\nA wonderful Savior to me;\nHe hideth my soul in the cleft of the rock,\nWhere rivers of pleasure I see."
+    },
+    {
+      "number": 2,
+      "text": "A wonderful Savior is Jesus my Lord,\nHe taketh my burden away;\nHe holdeth me up, and I shall not be moved,\nHe giveth me strength as my day."
+    },
+    {
+      "number": 3,
+      "text": "With numberless blessings each moment He crowns,\nAnd filled with His fullness divine,\nI sing in my rapture, Oh, glory to God\nFor such a Redeemer as mine!"
+    },
+    {
+      "number": 4,
+      "text": "When clothed in His brightness, transported I rise\nTo meet Him in clouds of the sky,\nHis perfect salvation, His wonderful love,\nI'll shout with the millions on high."
+    }
+  ],
+  "chorus": {
+    "text": "He hideth my soul in the cleft of the rock\nThat shadows a dry, thirsty land;\nHe hideth my life in the depths of His love,\nAnd covers me there with His hand."
+  },
+  "metadata": {
+    "year": 1890,
+    "copyright": "Public Domain",
+    "themes": [
+      "salvation",
+      "protection",
+      "refuge",
+      "praise",
+      "security"
+    ],
+    "scripture_references": [
+      "Exodus 33:22",
+      "Psalm 91:1"
+    ],
+    "tune_source": "William J. Kirkpatrick",
+    "original_language": "en"
+  }
+}

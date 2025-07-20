@@ -1,0 +1,45 @@
+{
+  "id": "SDAH-en-612",
+  "number": 612,
+  "title": "Onward, Christian Soldiers!",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Onward, Christian soldiers!\nMarching as to war,\nWith the cross of Jesus\nGoing on before.\nChrist the royal Master\nLeads against the foe;\nForward into battle,\nSee, His banners go!"
+    },
+    {
+      "number": 2,
+      "text": "Like a mighty army\nMoves the church of God;\nBrothers, we are treading\nWhere the saints have trod;\nWe are not divided,\nAll one body we,\nOne in hope and doctrine,\nOne in charity."
+    },
+    {
+      "number": 3,
+      "text": "Crowns and thrones may perish,\nKingdoms rise and wane,\nBut the church of Jesus\nConstant will remain;\nGates of hell can never\n'Gainst that church prevail;\nWe have Christ's own promise,\nAnd that cannot fail."
+    },
+    {
+      "number": 4,
+      "text": "Onward, then, ye people!\nJoin our happy throng,\nBlend with ours your voices\nIn the triumph song;\nGlory, laud, and honor\nUnto Christ the King,\nThis through countless ages\nMen and angels sing."
+    }
+  ],
+  "chorus": {
+    "text": "Onward, Christian soldiers!\nMarching as to war,\nWith the cross of Jesus\nGoing on before."
+  },
+  "metadata": {
+    "themes": [
+      "warfare",
+      "unity",
+      "church",
+      "triumph"
+    ],
+    "scripture_references": [
+      "2 Timothy 2:3",
+      "Ephesians 6:11",
+      "Matthew 16:18"
+    ],
+    "copyright": "Public Domain"
+  }
+}

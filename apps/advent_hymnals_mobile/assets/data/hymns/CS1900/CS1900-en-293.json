@@ -1,0 +1,52 @@
+{
+  "id": "CS1900-en-293",
+  "number": 293,
+  "title": "Happy in Him",
+  "author": "John Newton",
+  "composer": "Lewis Edson",
+  "tune": "Lenox",
+  "meter": "6, 6, 8, 4, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "How sweet the name of Jesus sounds In a believer's ear! It soothes his sorrows, heals his wounds, And drives away his fear."
+    },
+    {
+      "number": 2,
+      "text": "It makes the wounded spirit whole, And calms the troubled breast; 'Tis manna to the hungry soul, And to the weary, rest."
+    },
+    {
+      "number": 3,
+      "text": "Dear name! the rock on which I build, My shield and hiding place; My never-failing treasury, filled With boundless stores of grace."
+    },
+    {
+      "number": 4,
+      "text": "Jesus, my shepherd, brother, friend, My prophet, priest, and king; My Lord, my life, my way, my end, Accept the praise I bring."
+    },
+    {
+      "number": 5,
+      "text": "Weak is the effort of my heart, And cold my warmest thought; But when I see thee as thou art, I'll praise thee as I ought."
+    },
+    {
+      "number": 6,
+      "text": "Till then I would thy love proclaim With every fleeting breath; And may the music of thy name Refresh my soul in death."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Jesus name",
+      "comfort",
+      "salvation",
+      "praise"
+    ],
+    "scripture_references": [
+      "Acts 4:12"
+    ],
+    "tune_source": "Lewis Edson",
+    "original_language": "en"
+  }
+}

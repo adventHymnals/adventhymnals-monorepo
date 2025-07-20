@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-299",
+  "number": 299,
+  "title": "Our Parting Hymn",
+  "author": "Rev. Aaron R. Wolfe",
+  "composer": "L. J. Hayward",
+  "tune": "Dulcina",
+  "meter": "S. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lord, dismiss us with thy blessing, Fill our hearts with joy and peace; Let us each, thy love possessing, Triumph in redeeming grace."
+    },
+    {
+      "number": 2,
+      "text": "Thanks we give and adoration For thy gospel's joyful sound; May the fruits of thy salvation In our hearts and lives abound."
+    },
+    {
+      "number": 3,
+      "text": "So that when thy love shall call us, Savior, from the world away, Fear of death shall not appall us, Glad thy summons to obey."
+    },
+    {
+      "number": 4,
+      "text": "Ever faithful, ever faithful To the truth may we be found; So may we through life be faithful, Till with glory we are crowned."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "dismissal",
+      "blessing",
+      "faithfulness",
+      "gospel"
+    ],
+    "scripture_references": [
+      "Numbers 6:24-26"
+    ],
+    "tune_source": "L. J. Hayward",
+    "original_language": "en"
+  }
+}

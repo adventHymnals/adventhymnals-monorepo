@@ -1,0 +1,41 @@
+{
+  "id": "SDAH-en-146",
+  "number": 146,
+  "title": "I Think When I Read That Sweet Story",
+  "author": "Jemima Luke",
+  "composer": "Traditional Greek melody",
+  "tune": "Sweet Story",
+  "meter": "8.8.8.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "I think when I read that sweet story of old,\nWhen Jesus was here among men,\nHow He called little children as lambs to His fold,\nI should like to have been with Him then."
+    },
+    {
+      "number": 2,
+      "text": "I wish that His hands had been placed on my head,\nThat His arm had been thrown around me,\nAnd that I might have seen His kind look when He said,\n\"Let the little ones come unto Me.\""
+    },
+    {
+      "number": 3,
+      "text": "I long for the joy of that glorious time,\nThe sweetest and brightest and best,\nWhen the dear little children of every clime\nShall crowd to His arms and be blest."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1841,
+    "copyright": null,
+    "themes": [
+      "children",
+      "jesus_love",
+      "blessing",
+      "childhood_faith"
+    ],
+    "scripture_references": [
+      "Matthew 19:13-15",
+      "Mark 10:13-16"
+    ],
+    "tune_source": "Greek",
+    "original_language": "en"
+  }
+}

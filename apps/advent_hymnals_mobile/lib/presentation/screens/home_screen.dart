@@ -2,12 +2,23 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
 import 'dart:io' show Platform;
+import 'package:shared_preferences/shared_preferences.dart';
 import '../providers/hymn_provider.dart';
 import '../providers/favorites_provider.dart';
 import '../providers/recently_viewed_provider.dart';
+import '../providers/audio_player_provider.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/data/collections_data_manager.dart';
+import '../../core/database/database_helper.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/projector_control_widget.dart';
+
+enum CollectionSortOption {
+  name,
+  year,
+  language,
+  hymnCount,
+}
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -18,15 +29,25 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   List<CollectionInfo> _collections = [];
-  List<String> _selectedLanguages = ['en']; // Default to English only
+  List<String> _selectedLanguages = []; // No default selection - show all languages
   bool _showAudioOnly = false;
   bool _showFavoritesOnly = false;
+  
+  // Collection sorting state
+  CollectionSortOption _sortOption = CollectionSortOption.year;
+  bool _sortAscending = false; // Default to descending (newest first for year)
+  
+  // SharedPreferences keys
+  static const String _sortOptionKey = 'collection_sort_option';
+  static const String _sortAscendingKey = 'collection_sort_ascending';
+  static const String _selectedLanguagesKey = 'collection_selected_languages';
   
   @override
   void initState() {
     super.initState();
     // Schedule the async loading after the build is complete
     WidgetsBinding.instance.addPostFrameCallback((_) {
+      _loadSortPreferences();
       _loadData();
       _loadCollections();
     });
@@ -48,12 +69,127 @@ class _HomeScreenState extends State<HomeScreen> {
   Future<void> _loadCollections() async {
     try {
       final collectionsDataManager = CollectionsDataManager();
-      final collections = await collectionsDataManager.getCollectionsList();
+      final collections = await collectionsDataManager.getCollectionsList(sortByYear: false);
       setState(() {
         _collections = collections;
+        _sortCollections();
       });
     } catch (e) {
       print('Error loading collections: $e');
+    }
+  }
+
+  Future<List<Map<String, dynamic>>> _getAvailableLanguages() async {
+    try {
+      // Get languages from the collections data manager instead of database
+      // This ensures consistency with the actual collection data displayed
+      final collectionsDataManager = CollectionsDataManager();
+      final collections = await collectionsDataManager.getCollectionsList(sortByYear: false);
+      
+      // Group collections by language and count them
+      final languageMap = <String, int>{};
+      for (final collection in collections) {
+        final languageCode = _getLanguageCode(collection.language);
+        languageMap[languageCode] = (languageMap[languageCode] ?? 0) + 1;
+      }
+      
+      // Convert to the expected format
+      final languages = languageMap.entries.map((entry) => {
+        'language': entry.key,
+        'collection_count': entry.value,
+      }).toList();
+      
+      // Sort by collection count (descending) then by language code
+      languages.sort((a, b) {
+        final countCompare = (b['collection_count'] as int).compareTo(a['collection_count'] as int);
+        if (countCompare != 0) return countCompare;
+        return (a['language'] as String).compareTo(b['language'] as String);
+      });
+      
+      return languages;
+      
+    } catch (e) {
+      print('Error fetching languages: $e');
+      // Fallback to hardcoded languages
+      return [
+        {'language': 'en', 'collection_count': 1},
+        {'language': 'swa', 'collection_count': 1},
+        {'language': 'luo', 'collection_count': 1},
+      ];
+    }
+  }
+
+  String _getLanguageDisplayName(String languageCode) {
+    switch (languageCode.toLowerCase()) {
+      case 'en':
+        return 'English';
+      case 'swa':
+        return 'Kiswahili';
+      case 'luo':
+        return 'Dholuo';
+      default:
+        return languageCode.toUpperCase();
+    }
+  }
+
+  Future<void> _loadSortPreferences() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final sortOptionIndex = prefs.getInt(_sortOptionKey) ?? CollectionSortOption.year.index;
+      final sortAscending = prefs.getBool(_sortAscendingKey) ?? false;
+      final selectedLanguages = prefs.getStringList(_selectedLanguagesKey) ?? [];
+      
+      setState(() {
+        _sortOption = CollectionSortOption.values[sortOptionIndex];
+        _sortAscending = sortAscending;
+        _selectedLanguages = selectedLanguages;
+      });
+      
+      print('🔄 [HomeScreen] Loaded preferences: sort=${_sortOption.name}, ascending=$_sortAscending, languages=$_selectedLanguages');
+    } catch (e) {
+      print('❌ [HomeScreen] Error loading preferences: $e');
+    }
+  }
+
+  Future<void> _saveSortPreferences() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setInt(_sortOptionKey, _sortOption.index);
+      await prefs.setBool(_sortAscendingKey, _sortAscending);
+      await prefs.setStringList(_selectedLanguagesKey, _selectedLanguages);
+      
+      print('💾 [HomeScreen] Saved preferences: sort=${_sortOption.name}, ascending=$_sortAscending, languages=$_selectedLanguages');
+    } catch (e) {
+      print('❌ [HomeScreen] Error saving preferences: $e');
+    }
+  }
+
+  void _sortCollections() {
+    switch (_sortOption) {
+      case CollectionSortOption.name:
+        _collections.sort((a, b) => _sortAscending 
+          ? a.title.compareTo(b.title) 
+          : b.title.compareTo(a.title));
+        break;
+      case CollectionSortOption.year:
+        _collections.sort((a, b) => _sortAscending 
+          ? a.year.compareTo(b.year) 
+          : b.year.compareTo(a.year));
+        break;
+      case CollectionSortOption.language:
+        _collections.sort((a, b) {
+          final langCompare = _sortAscending 
+            ? a.language.compareTo(b.language) 
+            : b.language.compareTo(a.language);
+          // Secondary sort by name if languages are the same
+          return langCompare != 0 ? langCompare : a.title.compareTo(b.title);
+        });
+        break;
+      case CollectionSortOption.hymnCount:
+        _collections.sort((a, b) => _sortAscending 
+          ? a.hymnCount.compareTo(b.hymnCount) 
+          : b.hymnCount.compareTo(a.hymnCount));
+        break;
     }
   }
 
@@ -64,6 +200,42 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const Text(AppStrings.appTitle),
         elevation: 0,
         actions: [
+          // Audio Player Button
+          Consumer<AudioPlayerProvider>(
+            builder: (context, audioProvider, child) {
+              final hasCurrentHymn = audioProvider.currentHymn != null;
+              
+              return IconButton(
+                icon: Stack(
+                  children: [
+                    Icon(
+                      hasCurrentHymn ? Icons.music_note : Icons.music_note_outlined,
+                      color: hasCurrentHymn ? const Color(AppColors.primaryBlue) : null,
+                    ),
+                    if (audioProvider.isPlaying)
+                      Positioned(
+                        right: 0,
+                        top: 0,
+                        child: Container(
+                          width: 8,
+                          height: 8,
+                          decoration: const BoxDecoration(
+                            color: Color(AppColors.successGreen),
+                            shape: BoxShape.circle,
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
+                onPressed: () {
+                  context.push('/player');
+                },
+                tooltip: hasCurrentHymn 
+                  ? 'Audio Player - ${audioProvider.currentHymn!.title}'
+                  : 'Audio Player',
+              );
+            },
+          ),
           IconButton(
             icon: const Icon(Icons.search),
             onPressed: () {
@@ -84,6 +256,10 @@ class _HomeScreenState extends State<HomeScreen> {
               _buildWelcomeSection(),
               
               const SizedBox(height: AppSizes.spacing24),
+              
+              // Projector Control Widget (Desktop only)
+              if (Platform.isLinux || Platform.isWindows || Platform.isMacOS)
+                const ProjectorControlWidget(),
               
               // Quick Actions
               _buildQuickActions(),
@@ -119,7 +295,7 @@ class _HomeScreenState extends State<HomeScreen> {
       width: double.infinity,
       padding: const EdgeInsets.all(AppSizes.spacing20),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
+        gradient: const LinearGradient(
           colors: [
             Color(AppColors.primaryBlue),
             Color(AppColors.secondaryBlue),
@@ -205,7 +381,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 title: 'Browse',
                 subtitle: 'Explore collections',
                 onTap: () {
-                  context.go('/browse');
+                  context.go('/browse/collections');
                 },
               ),
             ),
@@ -220,7 +396,7 @@ class _HomeScreenState extends State<HomeScreen> {
       elevation: 4,
       child: Container(
         decoration: BoxDecoration(
-          gradient: LinearGradient(
+          gradient: const LinearGradient(
             colors: [
               Color(AppColors.purple),
               Color(AppColors.darkPurple),
@@ -245,7 +421,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Colors.white.withOpacity(0.2),
                     borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
                   ),
-                  child: Icon(
+                  child: const Icon(
                     Icons.present_to_all,
                     size: AppSizes.iconSizeLarge,
                     color: Colors.white,
@@ -303,7 +479,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Icon(
                 icon,
                 size: AppSizes.iconSizeLarge,
-                color: Color(AppColors.secondaryBlue),
+                color: const Color(AppColors.secondaryBlue),
               ),
               const SizedBox(height: AppSizes.spacing8),
               Text(
@@ -431,21 +607,44 @@ class _HomeScreenState extends State<HomeScreen> {
               'Browse Collections',
               style: Theme.of(context).textTheme.titleLarge,
             ),
-            TextButton.icon(
-              onPressed: _showCollectionFilters,
-              icon: const Icon(Icons.filter_list, size: 18),
-              label: const Text('Filter'),
+            Row(
+              children: [
+                TextButton.icon(
+                  onPressed: _showSortOptions,
+                  icon: Icon(
+                    _sortAscending ? Icons.arrow_upward : Icons.arrow_downward,
+                    size: 18,
+                  ),
+                  label: Text('Sort: ${_getSortLabel()}'),
+                ),
+                TextButton.icon(
+                  onPressed: _showCollectionFilters,
+                  icon: const Icon(Icons.filter_list, size: 18),
+                  label: const Text('Filter'),
+                ),
+              ],
             ),
           ],
         ),
         const SizedBox(height: AppSizes.spacing12),
+        // Collection count indicator
+        if (_collections.isNotEmpty)
+          Padding(
+            padding: const EdgeInsets.only(bottom: AppSizes.spacing8),
+            child: Text(
+              '${_buildFilteredCollections().length} collections',
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                color: const Color(AppColors.gray600),
+              ),
+            ),
+          ),
         ...(_buildFilteredCollections()),
         const SizedBox(height: AppSizes.spacing16),
         SizedBox(
           width: double.infinity,
           child: OutlinedButton.icon(
             onPressed: () {
-              context.go('/browse');
+              context.go('/browse/collections');
             },
             icon: const Icon(Icons.explore),
             label: const Text('Explore All Collections'),
@@ -481,7 +680,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
                     : hymn.hymnNumber.toString(),
                   style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                    color: Color(AppColors.secondaryBlue),
+                    color: const Color(AppColors.secondaryBlue),
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -519,10 +718,12 @@ class _HomeScreenState extends State<HomeScreen> {
     final filteredCollections = <Widget>[];
     
     for (final collection in _collections) {
-      // Apply language filter
-      final languageCode = _getLanguageCode(collection.language);
-      if (_selectedLanguages.isNotEmpty && !_selectedLanguages.contains(languageCode)) {
-        continue;
+      // Apply language filter - if no languages selected, show all
+      if (_selectedLanguages.isNotEmpty) {
+        final languageCode = _getLanguageCode(collection.language);
+        if (!_selectedLanguages.contains(languageCode)) {
+          continue;
+        }
       }
       
       // Apply audio filter (mock - would check real audio availability)
@@ -557,7 +758,7 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Center(
             child: Column(
               children: [
-                Icon(
+                const Icon(
                   Icons.filter_list_off,
                   size: 48,
                   color: Color(AppColors.gray500),
@@ -566,14 +767,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text(
                   'No collections match your filters',
                   style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    color: Color(AppColors.gray600),
+                    color: const Color(AppColors.gray600),
                   ),
                 ),
                 const SizedBox(height: AppSizes.spacing4),
                 Text(
                   'Try adjusting your language or filter settings',
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Color(AppColors.gray500),
+                    color: const Color(AppColors.gray500),
                   ),
                 ),
               ],
@@ -596,6 +797,32 @@ class _HomeScreenState extends State<HomeScreen> {
         return 'luo';
       default:
         return languageName.toLowerCase();
+    }
+  }
+
+  String _getSortLabel() {
+    switch (_sortOption) {
+      case CollectionSortOption.name:
+        return 'Name';
+      case CollectionSortOption.year:
+        return 'Year';
+      case CollectionSortOption.language:
+        return 'Language';
+      case CollectionSortOption.hymnCount:
+        return 'Hymns';
+    }
+  }
+
+  IconData _getSortIcon() {
+    switch (_sortOption) {
+      case CollectionSortOption.name:
+        return Icons.sort_by_alpha;
+      case CollectionSortOption.year:
+        return Icons.calendar_today;
+      case CollectionSortOption.language:
+        return Icons.language;
+      case CollectionSortOption.hymnCount:
+        return Icons.numbers;
     }
   }
 
@@ -651,7 +878,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
               ),
-              Icon(
+              const Icon(
                 Icons.arrow_forward_ios,
                 color: Color(AppColors.gray500),
                 size: 16,
@@ -676,20 +903,20 @@ class _HomeScreenState extends State<HomeScreen> {
           Icon(
             icon,
             size: 48,
-            color: Color(AppColors.gray500),
+            color: const Color(AppColors.gray500),
           ),
           const SizedBox(height: AppSizes.spacing16),
           Text(
             title,
             style: Theme.of(context).textTheme.titleMedium?.copyWith(
-              color: Color(AppColors.gray700),
+              color: const Color(AppColors.gray700),
             ),
           ),
           const SizedBox(height: AppSizes.spacing8),
           Text(
             subtitle,
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: Color(AppColors.gray500),
+              color: const Color(AppColors.gray500),
             ),
             textAlign: TextAlign.center,
           ),
@@ -754,48 +981,38 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text('Languages:', style: Theme.of(context).textTheme.titleSmall),
                 const SizedBox(height: 8),
                 
-                // Language checkboxes - based on actual data
-                CheckboxListTile(
-                  title: const Text('English'),
-                  value: tempSelectedLanguages.contains('en'),
-                  onChanged: (value) {
-                    setState(() {
-                      if (value == true) {
-                        tempSelectedLanguages.add('en');
-                      } else {
-                        tempSelectedLanguages.remove('en');
-                      }
-                    });
+                // Dynamic language checkboxes from database
+                FutureBuilder<List<Map<String, dynamic>>>(
+                  future: _getAvailableLanguages(),
+                  builder: (context, snapshot) {
+                    if (snapshot.connectionState == ConnectionState.waiting) {
+                      return const Center(child: CircularProgressIndicator());
+                    }
+                    
+                    final languages = snapshot.data ?? [];
+                    
+                    return Column(
+                      children: languages.map((language) {
+                        final languageCode = language['language'] as String;
+                        final collectionCount = language['collection_count'] as int;
+                        
+                        return CheckboxListTile(
+                          title: Text('${_getLanguageDisplayName(languageCode)} ($collectionCount)'),
+                          value: tempSelectedLanguages.contains(languageCode),
+                          onChanged: (value) {
+                            setState(() {
+                              if (value == true) {
+                                tempSelectedLanguages.add(languageCode);
+                              } else {
+                                tempSelectedLanguages.remove(languageCode);
+                              }
+                            });
+                          },
+                          dense: true,
+                        );
+                      }).toList(),
+                    );
                   },
-                  dense: true,
-                ),
-                CheckboxListTile(
-                  title: const Text('Kiswahili'),
-                  value: tempSelectedLanguages.contains('swa'),
-                  onChanged: (value) {
-                    setState(() {
-                      if (value == true) {
-                        tempSelectedLanguages.add('swa');
-                      } else {
-                        tempSelectedLanguages.remove('swa');
-                      }
-                    });
-                  },
-                  dense: true,
-                ),
-                CheckboxListTile(
-                  title: const Text('Dholuo'),
-                  value: tempSelectedLanguages.contains('luo'),
-                  onChanged: (value) {
-                    setState(() {
-                      if (value == true) {
-                        tempSelectedLanguages.add('luo');
-                      } else {
-                        tempSelectedLanguages.remove('luo');
-                      }
-                    });
-                  },
-                  dense: true,
                 ),
                 
                 const SizedBox(height: 16),
@@ -838,12 +1055,17 @@ class _HomeScreenState extends State<HomeScreen> {
                   _showAudioOnly = tempShowAudioOnly;
                   _showFavoritesOnly = tempShowFavoritesOnly;
                 });
+                
+                // Save preferences including language filters
+                _saveSortPreferences();
+                
                 Navigator.pop(context);
                 
-                // Show confirmation
+                // Show confirmation with language display names instead of codes
+                final languageNames = tempSelectedLanguages.map((code) => _getLanguageDisplayName(code)).toList();
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
-                    content: Text('Filters applied: ${tempSelectedLanguages.isEmpty ? 'All languages' : tempSelectedLanguages.join(', ')}'),
+                    content: Text('Filters applied: ${languageNames.isEmpty ? 'All languages' : languageNames.join(', ')}'),
                     duration: const Duration(seconds: 2),
                   ),
                 );
@@ -854,5 +1076,95 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
     );
+  }
+
+  void _showSortOptions() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Sort Collections'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ListTile(
+              leading: Icon(_getSortIcon()),
+              title: Text('Sort by ${_getSortLabel()}'),
+              subtitle: Text(_sortAscending ? 'Ascending' : 'Descending'),
+              trailing: IconButton(
+                icon: Icon(
+                  _sortAscending ? Icons.arrow_upward : Icons.arrow_downward,
+                  color: const Color(AppColors.primaryBlue),
+                ),
+                onPressed: () {
+                  setState(() {
+                    _sortAscending = !_sortAscending;
+                    _sortCollections();
+                  });
+                  _saveSortPreferences();
+                  Navigator.pop(context);
+                },
+              ),
+            ),
+            const Divider(),
+            const Text('Sort Options:', style: TextStyle(fontWeight: FontWeight.bold)),
+            const SizedBox(height: 8),
+            ...CollectionSortOption.values.map((option) {
+              final isSelected = _sortOption == option;
+              return ListTile(
+                leading: Icon(
+                  _getSortIconForOption(option),
+                  color: isSelected ? const Color(AppColors.primaryBlue) : null,
+                ),
+                title: Text(_getSortLabelForOption(option)),
+                trailing: isSelected 
+                  ? const Icon(Icons.check, color: Color(AppColors.primaryBlue))
+                  : null,
+                selected: isSelected,
+                onTap: () {
+                  setState(() {
+                    _sortOption = option;
+                    _sortCollections();
+                  });
+                  _saveSortPreferences();
+                  Navigator.pop(context);
+                },
+              );
+            }).toList(),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Close'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _getSortLabelForOption(CollectionSortOption option) {
+    switch (option) {
+      case CollectionSortOption.name:
+        return 'Name';
+      case CollectionSortOption.year:
+        return 'Year';
+      case CollectionSortOption.language:
+        return 'Language';
+      case CollectionSortOption.hymnCount:
+        return 'Hymn Count';
+    }
+  }
+
+  IconData _getSortIconForOption(CollectionSortOption option) {
+    switch (option) {
+      case CollectionSortOption.name:
+        return Icons.sort_by_alpha;
+      case CollectionSortOption.year:
+        return Icons.calendar_today;
+      case CollectionSortOption.language:
+        return Icons.language;
+      case CollectionSortOption.hymnCount:
+        return Icons.numbers;
+    }
   }
 }

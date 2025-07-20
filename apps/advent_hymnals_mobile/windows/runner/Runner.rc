@@ -89,11 +89,11 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
+            VALUE "CompanyName", "com.adventhymnals.org" "\0"
             VALUE "FileDescription", "advent_hymnals_mobile" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "advent_hymnals_mobile" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.adventhymnals.org. All rights reserved." "\0"
             VALUE "OriginalFilename", "advent_hymnals_mobile.exe" "\0"
             VALUE "ProductName", "advent_hymnals_mobile" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"

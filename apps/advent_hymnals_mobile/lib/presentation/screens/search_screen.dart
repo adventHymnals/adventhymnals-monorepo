@@ -5,6 +5,9 @@ import '../providers/hymn_provider.dart';
 import '../../core/constants/app_constants.dart';
 import '../../domain/entities/hymn.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../../core/utils/search_query_parser.dart';
+import '../../core/models/search_query.dart';
+import '../../core/database/database_helper.dart';
 
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});
@@ -16,17 +19,28 @@ class SearchScreen extends StatefulWidget {
 class _SearchScreenState extends State<SearchScreen> {
   final TextEditingController _searchController = TextEditingController();
   final FocusNode _searchFocusNode = FocusNode();
-  List<String> _searchFilters = [];
+  final List<String> _searchFilters = [];
 
   @override
   void initState() {
     super.initState();
     _searchFocusNode.requestFocus();
-    // Load available collections for filtering
+    // Load available collections for filtering and initialize search parser
     WidgetsBinding.instance.addPostFrameCallback((_) {
       final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
       hymnProvider.loadAvailableCollections();
+      // Pre-load search query parser abbreviations
+      _preloadSearchAbbreviations();
     });
+  }
+
+  void _preloadSearchAbbreviations() async {
+    try {
+      // This will cache the abbreviations for sync usage
+      await SearchQueryParser.parse('');
+    } catch (e) {
+      print('Warning: Could not preload search abbreviations: $e');
+    }
   }
 
   @override
@@ -37,9 +51,12 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   void _performSearch(String query) {
+    final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
     if (query.isNotEmpty) {
-      final hymnProvider = Provider.of<HymnProvider>(context, listen: false);
       hymnProvider.searchHymns(query);
+    } else {
+      // When search is cleared, reset to initial state
+      hymnProvider.clearSearch();
     }
   }
 
@@ -49,23 +66,65 @@ class _SearchScreenState extends State<SearchScreen> {
     hymnProvider.clearSearch();
   }
 
+  List<Hymn> _applySearchFilters(List<Hymn> results) {
+    if (_searchFilters.isEmpty) return results;
+    
+    return results.where((hymn) {
+      // Apply "favorites only" filter
+      if (_searchFilters.contains('favorites') && !hymn.isFavorite) {
+        return false;
+      }
+      
+      // Apply "hymns only" filter (exclude other types if we had them)
+      if (_searchFilters.contains('hymns')) {
+        // For now, all results are hymns, so this doesn't filter anything
+        // This could be extended if we had other content types
+      }
+      
+      // Apply "with audio" filter
+      if (_searchFilters.contains('audio')) {
+        // TODO: Implement audio availability checking when has_audio field is added to Hymn entity
+        // For now, we'll assume all hymns potentially have audio
+        // This could be extended with actual audio availability checking
+      }
+      
+      return true;
+    }).toList();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text(AppStrings.searchTitle),
         elevation: 0,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            try {
+              context.go('/home');
+            } catch (e) {
+              print('❌ [SearchScreen] Navigation error: $e');
+              // Fallback to Navigator.pop if context.go fails
+              if (Navigator.of(context).canPop()) {
+                Navigator.of(context).pop();
+              }
+            }
+          },
+          tooltip: 'Back to Home',
+        ),
         actions: [
-          IconButton(
-            icon: const Icon(Icons.tune),
-            onPressed: () => _showCollectionFilterDialog(context),
-            tooltip: 'Filter Collections',
-          ),
-          IconButton(
-            icon: const Icon(Icons.filter_list),
-            onPressed: _showFilterDialog,
-            tooltip: 'Other Filters',
-          ),
+          // Temporarily disabled filter buttons
+          // IconButton(
+          //   icon: const Icon(Icons.tune),
+          //   onPressed: () => _showCollectionFilterDialog(context),
+          //   tooltip: 'Filter Collections',
+          // ),
+          // IconButton(
+          //   icon: const Icon(Icons.filter_list),
+          //   onPressed: _showFilterDialog,
+          //   tooltip: 'Other Filters',
+          // ),
         ],
       ),
       body: Column(
@@ -78,6 +137,19 @@ class _SearchScreenState extends State<SearchScreen> {
             builder: (context, provider, child) {
               if (provider.selectedCollections.isNotEmpty) {
                 return _buildCollectionFilters(provider);
+              }
+              return const SizedBox.shrink();
+            },
+          ),
+          
+          // Hymnal Filters (from search query parsing)
+          Consumer<HymnProvider>(
+            builder: (context, provider, child) {
+              if (provider.searchQuery.isNotEmpty) {
+                final parsedQuery = SearchQueryParser.parseSync(provider.searchQuery);
+                if (parsedQuery != null && parsedQuery.hasHymnalFilter) {
+                  return _buildHymnalFilters(parsedQuery);
+                }
               }
               return const SizedBox.shrink();
             },
@@ -109,7 +181,9 @@ class _SearchScreenState extends State<SearchScreen> {
                   return _buildEmptyResults();
                 }
                 
-                return _buildSearchResults(provider.searchResults);
+                // Apply local filters to search results
+                final filteredResults = _applySearchFilters(provider.searchResults);
+                return _buildSearchResults(filteredResults);
               },
             ),
           ),
@@ -121,20 +195,24 @@ class _SearchScreenState extends State<SearchScreen> {
   Widget _buildSearchBar() {
     return Container(
       padding: const EdgeInsets.all(AppSizes.spacing16),
-      child: TextField(
-        controller: _searchController,
-        focusNode: _searchFocusNode,
-        onChanged: _performSearch,
-        decoration: InputDecoration(
-          hintText: 'Search hymns, authors, or first lines...',
-          prefixIcon: const Icon(Icons.search),
-          suffixIcon: _searchController.text.isNotEmpty
-              ? IconButton(
-                  icon: const Icon(Icons.clear),
-                  onPressed: _clearSearch,
-                )
-              : null,
-        ),
+      child: Consumer<HymnProvider>(
+        builder: (context, provider, child) {
+          return TextField(
+            controller: _searchController,
+            focusNode: _searchFocusNode,
+            onChanged: _performSearch,
+            decoration: InputDecoration(
+              hintText: 'Search hymns, authors, or first lines...',
+              prefixIcon: const Icon(Icons.search),
+              suffixIcon: (_searchController.text.isNotEmpty || provider.searchQuery.isNotEmpty)
+                  ? IconButton(
+                      icon: const Icon(Icons.clear),
+                      onPressed: _clearSearch,
+                    )
+                  : null,
+            ),
+          );
+        },
       ),
     );
   }
@@ -153,7 +231,7 @@ class _SearchScreenState extends State<SearchScreen> {
             child: FilterChip(
               label: Text(
                 filter,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Color(AppColors.primaryBlue),
                   fontWeight: FontWeight.w600,
                 ),
@@ -163,7 +241,7 @@ class _SearchScreenState extends State<SearchScreen> {
                   _searchFilters.removeAt(index);
                 });
               },
-              deleteIcon: Icon(
+              deleteIcon: const Icon(
                 Icons.close, 
                 size: 18,
                 color: Color(AppColors.primaryBlue),
@@ -171,11 +249,11 @@ class _SearchScreenState extends State<SearchScreen> {
               onSelected: (bool selected) {
                 // Handle filter selection
               },
-              selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-              backgroundColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-              checkmarkColor: Color(AppColors.primaryBlue),
-              deleteIconColor: Color(AppColors.primaryBlue),
-              side: BorderSide(
+              selectedColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+              backgroundColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+              checkmarkColor: const Color(AppColors.primaryBlue),
+              deleteIconColor: const Color(AppColors.primaryBlue),
+              side: const BorderSide(
                 color: Color(AppColors.primaryBlue),
                 width: 1,
               ),
@@ -212,17 +290,8 @@ class _SearchScreenState extends State<SearchScreen> {
           
           const SizedBox(height: AppSizes.spacing24),
           
-          // Search by Category
-          _buildSuggestionSection(
-            title: 'Search by Category',
-            suggestions: [
-              'Praise and Worship',
-              'Christmas',
-              'Easter',
-              'Communion',
-              'Baptism',
-            ],
-          ),
+          // Search by Category (Real Topics from Database)
+          _buildTopicSuggestionSection(),
           
           const SizedBox(height: AppSizes.spacing24),
           
@@ -252,7 +321,7 @@ class _SearchScreenState extends State<SearchScreen> {
             return ActionChip(
               label: Text(
                 suggestion,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Color(AppColors.gray700),
                   fontWeight: FontWeight.w500,
                 ),
@@ -261,8 +330,8 @@ class _SearchScreenState extends State<SearchScreen> {
                 _searchController.text = suggestion;
                 _performSearch(suggestion);
               },
-              backgroundColor: Color(AppColors.gray100),
-              side: BorderSide(
+              backgroundColor: const Color(AppColors.gray100),
+              side: const BorderSide(
                 color: Color(AppColors.gray300),
                 width: 1,
               ),
@@ -278,9 +347,9 @@ class _SearchScreenState extends State<SearchScreen> {
     return Container(
       padding: const EdgeInsets.all(AppSizes.spacing16),
       decoration: BoxDecoration(
-        color: Color(AppColors.background),
+        color: const Color(AppColors.background),
         borderRadius: BorderRadius.circular(AppSizes.radiusMedium),
-        border: Border.all(color: Color(AppColors.gray300)),
+        border: Border.all(color: const Color(AppColors.gray300)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -294,6 +363,9 @@ class _SearchScreenState extends State<SearchScreen> {
           _buildTipItem('Search by author: "Charles Wesley"'),
           _buildTipItem('Search by first line: "Amazing grace how sweet"'),
           _buildTipItem('Search by topic: "praise" or "Christmas"'),
+          const SizedBox(height: AppSizes.spacing12),
+          // Hymnal abbreviations from database
+          _buildHymnalAbbreviationsSection(),
         ],
       ),
     );
@@ -305,7 +377,7 @@ class _SearchScreenState extends State<SearchScreen> {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Icon(
+          const Icon(
             Icons.lightbulb_outline,
             size: 16,
             color: Color(AppColors.warningOrange),
@@ -332,7 +404,7 @@ class _SearchScreenState extends State<SearchScreen> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                '${results.length} result${results.length == 1 ? '' : 's'}',
+                '${results.length} result${results.length == 1 ? '' : 's'}${_searchFilters.isNotEmpty ? ' (filtered)' : ''}',
                 style: Theme.of(context).textTheme.titleMedium,
               ),
               Consumer<HymnProvider>(
@@ -406,19 +478,25 @@ class _SearchScreenState extends State<SearchScreen> {
           width: 56,
           height: 40,
           decoration: BoxDecoration(
-            color: Color(AppColors.primaryBlue).withOpacity(0.1),
+            color: const Color(AppColors.primaryBlue).withOpacity(0.1),
             borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
           ),
-          child: Center(
-            child: Text(
-              hymn.collectionAbbreviation != null 
-                  ? '${hymn.collectionAbbreviation} ${hymn.hymnNumber}'
-                  : hymn.hymnNumber.toString(),
-              style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                color: Color(AppColors.primaryBlue),
-                fontWeight: FontWeight.bold,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 4.0),
+            child: Align(
+              alignment: Alignment.centerRight,
+              child: Text(
+                hymn.collectionAbbreviation != null 
+                    ? '${hymn.collectionAbbreviation}\n${hymn.hymnNumber}'
+                    : hymn.hymnNumber.toString(),
+                style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                  color: const Color(AppColors.primaryBlue),
+                  fontWeight: FontWeight.bold,
+                  fontSize: 10,
+                ),
+                textAlign: TextAlign.right,
+                maxLines: 2,
               ),
-              textAlign: TextAlign.center,
             ),
           ),
         ),
@@ -461,7 +539,7 @@ class _SearchScreenState extends State<SearchScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
+            const Icon(
               Icons.search_off,
               size: 64,
               color: Color(AppColors.gray500),
@@ -475,7 +553,7 @@ class _SearchScreenState extends State<SearchScreen> {
             Text(
               'Try adjusting your search terms or filters',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Color(AppColors.gray500),
+                color: const Color(AppColors.gray500),
               ),
               textAlign: TextAlign.center,
             ),
@@ -500,7 +578,7 @@ class _SearchScreenState extends State<SearchScreen> {
             Icon(
               isDatabaseError ? Icons.info_outline : Icons.error_outline,
               size: 64,
-              color: isDatabaseError ? Color(AppColors.primaryBlue) : Color(AppColors.errorRed),
+              color: isDatabaseError ? const Color(AppColors.primaryBlue) : const Color(AppColors.errorRed),
             ),
             const SizedBox(height: AppSizes.spacing16),
             Text(
@@ -513,7 +591,7 @@ class _SearchScreenState extends State<SearchScreen> {
                   ? 'Search is currently using demonstration data. Full database functionality will be available when the hymnal database is loaded.'
                   : error,
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: Color(AppColors.gray500),
+                color: const Color(AppColors.gray500),
               ),
               textAlign: TextAlign.center,
             ),
@@ -530,6 +608,109 @@ class _SearchScreenState extends State<SearchScreen> {
     );
   }
 
+  Widget _buildHymnalFilters(SearchQuery parsedQuery) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: AppSizes.spacing16, vertical: AppSizes.spacing8),
+      child: Row(
+        children: [
+          const Icon(
+            Icons.filter_alt,
+            size: 16,
+            color: Color(AppColors.successGreen),
+          ),
+          const SizedBox(width: AppSizes.spacing8),
+          Text(
+            'Active Filter:',
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: const Color(AppColors.gray600),
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+          const SizedBox(width: AppSizes.spacing8),
+          Container(
+            padding: const EdgeInsets.symmetric(
+              horizontal: AppSizes.spacing12,
+              vertical: AppSizes.spacing4,
+            ),
+            decoration: BoxDecoration(
+              color: const Color(AppColors.successGreen).withOpacity(0.1),
+              borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+              border: Border.all(
+                color: const Color(AppColors.successGreen),
+                width: 1,
+              ),
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Icon(
+                  Icons.library_books,
+                  size: 14,
+                  color: const Color(AppColors.successGreen),
+                ),
+                const SizedBox(width: AppSizes.spacing4),
+                Text(
+                  _buildHymnalFilterText(parsedQuery),
+                  style: const TextStyle(
+                    color: Color(AppColors.successGreen),
+                    fontWeight: FontWeight.w600,
+                    fontSize: 12,
+                  ),
+                ),
+                const SizedBox(width: AppSizes.spacing4),
+                GestureDetector(
+                  onTap: () => _clearHymnalFilter(),
+                  child: const Icon(
+                    Icons.close,
+                    size: 14,
+                    color: Color(AppColors.successGreen),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const Spacer(),
+          Text(
+            '${_getFilteredResultsCount()} results',
+            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+              color: const Color(AppColors.gray600),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _buildHymnalFilterText(SearchQuery parsedQuery) {
+    final hymnal = parsedQuery.hymnalAbbreviation!;
+    if (parsedQuery.hymnNumber != null) {
+      return '$hymnal #${parsedQuery.hymnNumber}';
+    } else if (parsedQuery.searchText.isNotEmpty) {
+      return '$hymnal: "${parsedQuery.searchText}"';
+    } else {
+      return hymnal;
+    }
+  }
+
+  int _getFilteredResultsCount() {
+    final provider = Provider.of<HymnProvider>(context, listen: false);
+    return provider.searchResults.length;
+  }
+
+  void _clearHymnalFilter() {
+    final provider = Provider.of<HymnProvider>(context, listen: false);
+    final parsedQuery = SearchQueryParser.parseSync(provider.searchQuery);
+    
+    // If there's search text without hymnal filter, keep just the search text
+    if (parsedQuery != null && parsedQuery.searchText.isNotEmpty) {
+      _searchController.text = parsedQuery.searchText;
+      _performSearch(parsedQuery.searchText);
+    } else {
+      // Clear the entire search
+      _clearSearch();
+    }
+  }
+
   Widget _buildCollectionFilters(HymnProvider provider) {
     return Container(
       height: 50,
@@ -541,7 +722,7 @@ class _SearchScreenState extends State<SearchScreen> {
           final collectionId = provider.selectedCollections[index];
           final collection = provider.availableCollections.firstWhere(
             (c) => c['id'] == collectionId,
-            orElse: () => {'name': collectionId, 'abbreviation': collectionId},
+            orElse: () => <String, dynamic>{'name': collectionId, 'abbreviation': collectionId},
           );
           
           return Container(
@@ -549,7 +730,7 @@ class _SearchScreenState extends State<SearchScreen> {
             child: FilterChip(
               label: Text(
                 collection['abbreviation'] ?? collection['name'],
-                style: TextStyle(
+                style: const TextStyle(
                   color: Color(AppColors.primaryBlue),
                   fontWeight: FontWeight.w600,
                   fontSize: 12,
@@ -560,7 +741,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 updatedCollections.removeAt(index);
                 provider.setSelectedCollections(updatedCollections);
               },
-              deleteIcon: Icon(
+              deleteIcon: const Icon(
                 Icons.close, 
                 size: 16,
                 color: Color(AppColors.primaryBlue),
@@ -568,11 +749,11 @@ class _SearchScreenState extends State<SearchScreen> {
               onSelected: (bool selected) {
                 // Handle filter selection
               },
-              selectedColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-              backgroundColor: Color(AppColors.primaryBlue).withOpacity(0.2),
-              checkmarkColor: Color(AppColors.primaryBlue),
-              deleteIconColor: Color(AppColors.primaryBlue),
-              side: BorderSide(
+              selectedColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+              backgroundColor: const Color(AppColors.primaryBlue).withOpacity(0.2),
+              checkmarkColor: const Color(AppColors.primaryBlue),
+              deleteIconColor: const Color(AppColors.primaryBlue),
+              side: const BorderSide(
                 color: Color(AppColors.primaryBlue),
                 width: 1,
               ),
@@ -664,7 +845,7 @@ class _SearchScreenState extends State<SearchScreen> {
                                     language,
                                     style: Theme.of(context).textTheme.titleSmall?.copyWith(
                                       fontWeight: FontWeight.bold,
-                                      color: Color(AppColors.primaryBlue),
+                                      color: const Color(AppColors.primaryBlue),
                                     ),
                                   ),
                                 ),
@@ -779,6 +960,10 @@ class _SearchScreenState extends State<SearchScreen> {
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop();
+                // Re-run search with updated filters
+                if (_searchController.text.isNotEmpty) {
+                  _performSearch(_searchController.text);
+                }
                 setState(() {});
               },
               child: const Text('Apply'),
@@ -787,5 +972,184 @@ class _SearchScreenState extends State<SearchScreen> {
         );
       },
     );
+  }
+
+  Widget _buildTopicSuggestionSection() {
+    return FutureBuilder<List<Map<String, dynamic>>>(
+      future: _getTopicsFromDatabase(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Center(
+            child: Padding(
+              padding: EdgeInsets.all(AppSizes.spacing16),
+              child: CircularProgressIndicator(),
+            ),
+          );
+        }
+        
+        if (snapshot.hasError) {
+          print('Error loading topics: ${snapshot.error}');
+          // Fallback to minimal categories if database fails
+          return _buildSuggestionSection(
+            title: 'Search by Category',
+            suggestions: [
+              'Praise and Worship',
+              'Communion',
+              'Baptism',
+            ],
+          );
+        }
+        
+        final topics = snapshot.data ?? [];
+        
+        if (topics.isEmpty) {
+          // Fallback to minimal categories if no topics in database
+          return _buildSuggestionSection(
+            title: 'Search by Category',
+            suggestions: [
+              'Praise and Worship',
+              'Communion',
+              'Baptism',
+            ],
+          );
+        }
+        
+        // Use real topics from database
+        final topicNames = topics.map((topic) => topic['name'] as String).toList();
+        
+        return _buildSuggestionSection(
+          title: 'Search by Category',
+          suggestions: topicNames,
+        );
+      },
+    );
+  }
+
+  Future<List<Map<String, dynamic>>> _getTopicsFromDatabase() async {
+    try {
+      final db = DatabaseHelper.instance;
+      
+      // First check if we have data in the database
+      final database = await db.database;
+      
+      // Check if topics table has data
+      final topicsCheck = await database.rawQuery('SELECT COUNT(*) as count FROM topics');
+      final topicsCount = topicsCheck.first['count'] as int;
+      
+      if (topicsCount == 0) {
+        print('No topics found in database');
+        return [];
+      }
+      
+      // Get topics with hymn counts
+      final topics = await database.rawQuery('''
+        SELECT t.id, t.name, t.category, COUNT(ht.hymn_id) as hymn_count
+        FROM topics t
+        LEFT JOIN hymn_topics ht ON t.id = ht.topic_id
+        GROUP BY t.id, t.name, t.category
+        HAVING hymn_count > 0
+        ORDER BY hymn_count DESC, t.name ASC
+        LIMIT 10
+      ''');
+      
+      print('Found ${topics.length} topics from database');
+      return topics;
+      
+    } catch (e) {
+      print('Error fetching topics from database: $e');
+      return [];
+    }
+  }
+
+  Widget _buildHymnalAbbreviationsSection() {
+    return FutureBuilder<List<Map<String, dynamic>>>(
+      future: _getHymnalAbbreviations(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const SizedBox(
+            height: 30,
+            child: Center(child: CircularProgressIndicator()),
+          );
+        }
+        
+        if (snapshot.hasError || !snapshot.hasData || snapshot.data!.isEmpty) {
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Hymnal Abbreviations:',
+                style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: AppSizes.spacing4),
+              _buildTipItem('Search in specific hymnal: "SDAH:123" or "CH:Holy"'),
+            ],
+          );
+        }
+        
+        final hymnals = snapshot.data!;
+        
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              'Hymnal Abbreviations:',
+              style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            const SizedBox(height: AppSizes.spacing8),
+            Wrap(
+              spacing: AppSizes.spacing8,
+              runSpacing: AppSizes.spacing4,
+              children: hymnals.map((hymnal) {
+                return Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: AppSizes.spacing8,
+                    vertical: AppSizes.spacing4,
+                  ),
+                  decoration: BoxDecoration(
+                    color: const Color(AppColors.primaryBlue).withOpacity(0.1),
+                    borderRadius: BorderRadius.circular(AppSizes.radiusSmall),
+                    border: Border.all(
+                      color: const Color(AppColors.primaryBlue).withOpacity(0.3),
+                    ),
+                  ),
+                  child: Text(
+                    hymnal['abbreviation'] ?? hymnal['name'],
+                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      color: const Color(AppColors.primaryBlue),
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                );
+              }).toList(),
+            ),
+            const SizedBox(height: AppSizes.spacing4),
+            _buildTipItem('Search in specific hymnal: "SDAH:123" or "CH:Holy"'),
+          ],
+        );
+      },
+    );
+  }
+
+  Future<List<Map<String, dynamic>>> _getHymnalAbbreviations() async {
+    try {
+      final db = DatabaseHelper.instance;
+      
+      // Get collections with their abbreviations
+      final collections = await db.database.then((database) => database.rawQuery('''
+        SELECT DISTINCT name, abbreviation
+        FROM collections
+        ORDER BY abbreviation ASC
+      '''));
+      
+      return collections;
+      
+    } catch (e) {
+      print('Error fetching hymnal abbreviations: $e');
+      return [];
+    }
   }
 }

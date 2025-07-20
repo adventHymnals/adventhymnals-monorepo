@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-123",
+  "number": 123,
+  "title": "As With Gladness Men of Old",
+  "author": "William C. Dix",
+  "composer": "Conrad Kocher",
+  "tune": "Dix",
+  "meter": "77.77.77",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "As with gladness men of old\nDid the guiding star behold,\nAs with joy they hailed its light,\nLeading onward, beaming bright,\nSo, most gracious Lord, may we\nEvermore be led to Thee."
+    },
+    {
+      "number": 2,
+      "text": "As with joyful steps they sped\nTo that lowly manger bed,\nThere to bend the knee before\nHim whom heav'n and earth adore,\nSo may we with willing feet\nEver seek Thy mercy seat."
+    },
+    {
+      "number": 3,
+      "text": "As they offered gifts most rare\nAt that manger rude and bare,\nSo may we with holy joy,\nPure, and free from sin's alloy,\nAll our costliest treasures bring,\nChrist, to Thee our heav'nly King."
+    },
+    {
+      "number": 4,
+      "text": "Holy Jesus, ev'ry day\nKeep us in the narrow way;\nAnd, when earthly things are past,\nBring our ransomed souls at last\nWhere they need no star to guide,\nWhere no clouds Thy glory hide."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1860,
+    "copyright": "Public Domain",
+    "themes": [
+      "Epiphany",
+      "Wise Men",
+      "Star of Bethlehem",
+      "Worship"
+    ],
+    "scripture_references": [
+      "Matthew 2:1-12"
+    ],
+    "tune_source": "Conrad Kocher, 1838",
+    "original_language": "en"
+  }
+}

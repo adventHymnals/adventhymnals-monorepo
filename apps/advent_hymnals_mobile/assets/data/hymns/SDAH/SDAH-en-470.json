@@ -1,0 +1,49 @@
+{
+  "id": "SDAH-en-470",
+  "number": 470,
+  "title": "There's Sunshine in My Soul Today",
+  "author": "Eliza E. Hewitt",
+  "composer": "John R. Sweney",
+  "tune": "SUNSHINE IN MY SOUL",
+  "meter": "8.7.8.7 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "There's sunshine in my soul today,\nMore glorious and bright\nThan glows in any earthly sky,\nFor Jesus is my light."
+    },
+    {
+      "number": 2,
+      "text": "There's music in my soul today,\nA carol to my King,\nAnd Jesus, listening, can hear\nThe songs I cannot sing."
+    },
+    {
+      "number": 3,
+      "text": "There's springtime in my soul today,\nFor when the Lord is near,\nThe dove of peace sings in my heart,\nThe flowers of grace appear."
+    },
+    {
+      "number": 4,
+      "text": "There's gladness in my soul today,\nAnd hope, and praise, and love,\nFor blessings which He gives me now,\nFor joys 'laid up' above."
+    }
+  ],
+  "chorus": {
+    "text": "O there's sunshine, blessed sunshine,\nWhen the peaceful happy moments roll;\nWhen Jesus shows His smiling face\nThere is sunshine in the soul."
+  },
+  "metadata": {
+    "year": 1887,
+    "copyright": "Public Domain",
+    "themes": [
+      "joy",
+      "spiritual sunshine",
+      "peace",
+      "praise",
+      "divine presence"
+    ],
+    "scripture_references": [
+      "Psalm 16:11",
+      "John 8:12",
+      "Galatians 5:22"
+    ],
+    "tune_source": "John R. Sweney",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-226",
+  "number": 226,
+  "title": "Lift Up Your Heads",
+  "author": "Charles Wesley",
+  "composer": "Georg Philipp Telemann",
+  "tune": "MACH'S MIT MIR",
+  "meter": "7.6.7.6.D",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Lift up your heads, ye mighty gates!\nBehold the King of glory waits;\nThe King of kings is drawing near,\nThe Savior of the world is here."
+    },
+    {
+      "number": 2,
+      "text": "The Lord is just, a helper tried,\nMercy is ever at His side;\nHis kingly crown is holiness,\nHis scepter, pity in distress."
+    },
+    {
+      "number": 3,
+      "text": "O blest the land, the city blessed,\nWhere Christ the Ruler is confessed!\nO happy hearts and happy homes\nTo whom this King in triumph comes!"
+    },
+    {
+      "number": 4,
+      "text": "Fling wide the portals of your heart;\nMake it a temple, set apart\nFrom earthly use for heaven's employ,\nAdorned with prayer and love and joy."
+    },
+    {
+      "number": 5,
+      "text": "Redeemer, come; I open wide\nMy heart to Thee; here, Lord, abide.\nLet me Thy inner presence feel;\nThy grace and love in me reveal."
+    }
+  ],
+  "metadata": {
+    "year": 1739,
+    "copyright": "Public Domain",
+    "themes": [
+      "Advent",
+      "Christ's Coming",
+      "Heart Preparation",
+      "Kingdom"
+    ],
+    "scripture_references": [
+      "Psalm 24:7-10",
+      "Revelation 3:20"
+    ],
+    "tune_source": "Georg Philipp Telemann, 1730",
+    "original_language": "en"
+  }
+}

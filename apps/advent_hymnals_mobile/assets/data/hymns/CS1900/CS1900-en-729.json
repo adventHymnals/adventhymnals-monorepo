@@ -1,0 +1,41 @@
+{
+  "id": "CS1900-en-729",
+  "number": 729,
+  "title": "THE HOMELAND DEAR",
+  "author": null,
+  "composer": null,
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The homeland dear we shall see our nation,\nBut at our longing heart;\nThat where we shall be,\nWe rest and partake more."
+    },
+    {
+      "number": 2,
+      "text": "The homeland dear we see afar rolling,\nThe day is set and go;\nTo the fair our exalted\nOur King holds on the love."
+    },
+    {
+      "number": 3,
+      "text": "The homeland dear it is of sky,\nWe rest and partake more;\nFrom deep when a lovely Day\nOur King shall be our all."
+    },
+    {
+      "number": 4,
+      "text": "And now the best loved part of all,\nThe homeland dear we shall see;\nAnd in peace that is whither\nIn thy radiance it should be."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "heaven",
+      "homeland",
+      "eternal rest"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

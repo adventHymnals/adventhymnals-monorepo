@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-025",
+  "number": 25,
+  "title": "Praise the Lord, His Glories Show",
+  "author": "Henry Francis Lyte",
+  "composer": "Robert Williams",
+  "tune": "Llanfair",
+  "meter": "7.7.7.7 with Alleluias",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Praise the Lord, His glories show,\nAlleluia!\nSaints within His courts below,\nAlleluia!\nAngels 'round His throne above,\nAlleluia!\nAll that see and share His love.\nAlleluia!"
+    },
+    {
+      "number": 2,
+      "text": "Earth to heaven and heaven to earth,\nAlleluia!\nTell His wonders, sing His worth,\nAlleluia!\nAge to age and shore to shore,\nAlleluia!\nPraise Him, praise Him evermore!\nAlleluia!"
+    },
+    {
+      "number": 3,
+      "text": "Praise the Lord, His mercies trace,\nAlleluia!\nPraise His providence and grace,\nAlleluia!\nAll that He for man hath done,\nAlleluia!\nAll He sends us through His Son.\nAlleluia!"
+    }
+  ],
+  "metadata": {
+    "year": 1834,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "worship",
+      "glory",
+      "creation",
+      "providence"
+    ],
+    "scripture_references": [
+      "Psalm 150",
+      "Psalm 148",
+      "Revelation 19:1"
+    ],
+    "tune_source": "Robert Williams, 1817",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-114",
+  "number": 114,
+  "title": "The Last Call Of Mercy",
+  "author": "Will L. Thompson",
+  "composer": "Will L. Thompson",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The last call of mercy, now sounding so clear,\nIs calling for you and for me;\nO slight not the warning now ringing in your ear,\nBut haste to the Savior and be free!"
+    },
+    {
+      "number": 2,
+      "text": "O slight not the warning now ringing in your ear,\nBut haste to the Savior and be free;\nO slight not the warning now ringing in your ear,\nBut haste to the Savior and be free!"
+    },
+    {
+      "number": 3,
+      "text": "The last call of mercy, now sounding so clear,\nIs calling for you and for me;\nO slight not the warning now ringing in your ear,\nBut haste to the Savior and be free!"
+    }
+  ],
+  "chorus": {
+    "text": "Come now to Jesus, 'tis mercy's sweet call;\nCome now to Jesus, 'tis mercy's sweet call."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "mercy",
+      "warning",
+      "salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": "Will L. Thompson",
+    "original_language": "en",
+    "verse_count": 3,
+    "structure": "3 verses with chorus",
+    "first_line": "The last call of mercy"
+  }
+}

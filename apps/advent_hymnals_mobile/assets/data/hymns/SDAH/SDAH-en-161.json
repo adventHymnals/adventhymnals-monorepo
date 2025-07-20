@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-161",
+  "number": 161,
+  "title": "Throned Upon the Awful Tree",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "4/4",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Throned upon the awful tree,\nLamb of God, Your grief we see.\nDarkness veils Your anguished face;\nNone its lines of woe can trace."
+    },
+    {
+      "number": 2,
+      "text": "Silent through those three dread hours,\nWrestling with the evil powers,\nLeft alone with human sin,\nGloom around You and within."
+    },
+    {
+      "number": 3,
+      "text": "Hark, that cry that peals aloud\nUpward through the whelming cloud!\nYou, the Father's only Son,\nYou, His own anointed one,"
+    },
+    {
+      "number": 4,
+      "text": "Lord, should fear and anguish roll\nDarkly o'er our sinful soul,\nYou, who once were thus bereft\nThat your own might ne'er be left."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "crucifixion",
+      "suffering",
+      "sacrifice",
+      "darkness"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

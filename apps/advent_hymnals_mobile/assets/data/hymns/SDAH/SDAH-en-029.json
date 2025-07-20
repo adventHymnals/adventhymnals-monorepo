@@ -1,0 +1,49 @@
+{
+  "id": "SDAH-en-029",
+  "number": 29,
+  "title": "Sing Praise to God",
+  "author": "Johann Jakob Schütz",
+  "composer": "Bohemian Brethren",
+  "tune": "Mit Freuden Zart",
+  "meter": "8.7.8.7.8.8.7",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sing praise to God who reigns above,\nThe God of all creation,\nThe God of power, the God of love,\nThe God of our salvation.\nWith healing balm my soul He fills,\nAnd every faithless murmur stills:\nTo God all praise and glory!"
+    },
+    {
+      "number": 2,
+      "text": "What God's almighty power hath made\nHis gracious mercy keepeth;\nBy morning glow or evening shade\nHis watchful eye ne'er sleepeth.\nWithin the kingdom of His might,\nLo! all is just, and all is right:\nTo God all praise and glory!"
+    },
+    {
+      "number": 3,
+      "text": "The Lord is never far away,\nThroughout all grief distressing;\nAn ever-present help and stay,\nOur peace, and joy, and blessing.\nAs with a mother's tender hand,\nHe leads His own, His chosen band:\nTo God all praise and glory!"
+    },
+    {
+      "number": 4,
+      "text": "Then all my gladsome way along,\nI sing aloud Thy praises,\nThat men may hear the grateful song\nMy voice unwearied raises.\nBe joyful in the Lord, my heart!\nBoth soul and body bear your part!\nTo God all praise and glory!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1675,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "God's power",
+      "God's love",
+      "salvation",
+      "providence",
+      "mercy"
+    ],
+    "scripture_references": [
+      "Psalm 146:10",
+      "Psalm 103:1",
+      "1 Chronicles 29:11"
+    ],
+    "tune_source": "Bohemian Brethren Kirchengesänge, 1566",
+    "original_language": "de",
+    "translator": "Frances Elizabeth Cox"
+  }
+}

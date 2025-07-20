@@ -1,0 +1,38 @@
+{
+  "id": "CS1900-en-005",
+  "number": 5,
+  "title": "Shall I Let Him In?",
+  "author": "H. R. P.",
+  "composer": "P. P. Bilhorn",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Christ is knocking at my sad heart; Shall I let him in? Patiently pleading with folded arms; Shall I let him in? Cold and proud in his love impart, He can save me from my sins apart, O shall I let him in?"
+    },
+    {
+      "number": 2,
+      "text": "Shall I send him from my door? Shall I let him go? God and gracious Lord, O shall I let him in? He can take my sin-sick heart, He can bless and comfort and impart, O bless-ed Saviour, a kiss with me, God and gracious Lord."
+    },
+    {
+      "number": 3,
+      "text": "Christ is all with joy and gladness on my side; O shall I let him in? If I ask him from his heart, Shall I bid him go? Christ is bidding me turn-ed to him, O shall I let him in? O all will nights of woe; I am safe if I'm on - ly with thee, O bless-ed Lord, come in!"
+    }
+  ],
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1896, by P. P. Bilhorn",
+    "themes": [
+      "Christ",
+      "invitation",
+      "heart",
+      "salvation",
+      "pleading"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

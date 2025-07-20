@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-502",
+  "number": 502,
+  "title": "Sun of My Soul",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sun of my soul, O Savior dear!\nIt is not night if Thou be near;\nO may no earthborn cloud arise\nTo hide Thee from Thy servant's eyes."
+    },
+    {
+      "number": 2,
+      "text": "When soft the dews of kindly sleep\nMy weary eyelids gently steep,\nBe my last thought how sweet to rest\nForever on my Savior's breast!"
+    },
+    {
+      "number": 3,
+      "text": "Abide with me from morn till eve,\nFor without Thee I cannot live;\nAbide with me when night is nigh,\nFor without Thee I dare not die."
+    },
+    {
+      "number": 4,
+      "text": "Be near and bless me when I wake,\nEre through the world my way I take;\nTill in the ocean of Thy love\nI lose myself in heaven above."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Jesus",
+      "comfort",
+      "protection",
+      "rest"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

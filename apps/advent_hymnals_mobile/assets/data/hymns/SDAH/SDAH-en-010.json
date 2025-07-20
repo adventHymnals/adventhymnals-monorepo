@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-010",
+  "number": 10,
+  "title": "Come, Christians, Join to Sing",
+  "author": "Christian Henry Bateman",
+  "composer": "Traditional Spanish",
+  "tune": "Spanish Hymn",
+  "meter": "6.6.6.6.D with Alleluias",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Come, Christians, join to sing\nAlleluia! Amen!\nLoud praise to Christ our King;\nAlleluia! Amen!\nLet all, with heart and voice,\nBefore His throne rejoice;\nPraise is His gracious choice:\nAlleluia! Amen!"
+    },
+    {
+      "number": 2,
+      "text": "Come, lift your hearts on high;\nAlleluia! Amen!\nLet praises fill the sky;\nAlleluia! Amen!\nHe is our Guide and Friend;\nTo us He'll condescend;\nHis love shall never end:\nAlleluia! Amen!"
+    },
+    {
+      "number": 3,
+      "text": "Praise yet our Christ again;\nAlleluia! Amen!\nLife shall not end the strain;\nAlleluia! Amen!\nOn heaven's blissful shore\nHis goodness we'll adore,\nSinging forevermore:\nAlleluia! Amen!"
+    }
+  ],
+  "metadata": {
+    "year": 1843,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "worship",
+      "joy",
+      "eternal"
+    ],
+    "scripture_references": [
+      "Psalm 95:1-2",
+      "Revelation 19:6"
+    ],
+    "tune_source": "Traditional Spanish melody",
+    "original_language": "en"
+  }
+}

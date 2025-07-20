@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../constants/app_constants.dart';
 import '../update/update_manager.dart';
@@ -62,15 +61,15 @@ class CollectionsDataManager {
     final collections = <CollectionInfo>[];
     
     final colorMap = {
-      'SDAH': Color(AppColors.primaryBlue),
-      'CS1900': Color(AppColors.successGreen), 
-      'CH1941': Color(AppColors.purple),
-      'HT1869': Color(AppColors.warningOrange),
-      'HT1876': Color(AppColors.infoBlue),
-      'HT1886': Color(AppColors.darkPurple),
-      'CM2000': Color(AppColors.gray600),
-      'NZK': Color(AppColors.errorRed),
-      'WN': Color(AppColors.gray700),
+      'SDAH': const Color(AppColors.primaryBlue),
+      'CS1900': const Color(AppColors.successGreen), 
+      'CH1941': const Color(AppColors.purple),
+      'HT1869': const Color(AppColors.warningOrange),
+      'HT1876': const Color(AppColors.infoBlue),
+      'HT1886': const Color(AppColors.darkPurple),
+      'CM2000': const Color(AppColors.gray600),
+      'NZK': const Color(AppColors.errorRed),
+      'WN': const Color(AppColors.gray700),
     };
     
     collectionsData.forEach((id, data) {
@@ -103,7 +102,7 @@ class CollectionsDataManager {
         description: bundled 
             ? 'Available offline with $totalSongs hymns in $languageName. Published in $year.'
             : 'Collection with $totalSongs hymns in $languageName. Published in $year. Download required.',
-        color: colorMap[id] ?? Color(AppColors.primaryBlue),
+        color: colorMap[id] ?? const Color(AppColors.primaryBlue),
         language: languageName,
         hymnCount: totalSongs,
         isAvailable: true,
@@ -133,6 +132,59 @@ class CollectionsDataManager {
     } catch (e) {
       return null;
     }
+  }
+
+  /// Get hymnal abbreviations for use in search query parsing
+  Future<Map<String, String>> getHymnalAbbreviations() async {
+    final collectionsData = await loadCollectionsData();
+    final abbreviations = <String, String>{};
+    
+    collectionsData.forEach((id, data) {
+      final abbreviation = data['abbreviation'] as String;
+      
+      // Add the main abbreviation (e.g., "SDAH" -> "SDAH")
+      abbreviations[abbreviation.toLowerCase()] = abbreviation;
+      
+      // Add the full ID as an alternative (e.g., "cs1900" -> "CS1900")
+      abbreviations[id.toLowerCase()] = abbreviation;
+      
+      // Add common short forms and variations
+      switch (abbreviation) {
+        case 'SDAH':
+          abbreviations['sda'] = abbreviation;
+          abbreviations['adventist'] = abbreviation;
+          break;
+        case 'CH1941':
+          abbreviations['ch'] = abbreviation;
+          abbreviations['christ'] = abbreviation;
+          abbreviations['christinsong'] = abbreviation;
+          break;
+        case 'CS1900':
+          abbreviations['cs'] = abbreviation;
+          abbreviations['christinsong'] = abbreviation;
+          break;
+        case 'HT1869':
+        case 'HT1876':
+        case 'HT1886':
+          abbreviations['ht'] = abbreviation; // Will use the last one found
+          abbreviations['hymnstunes'] = abbreviation;
+          break;
+        case 'CM2000':
+          abbreviations['cm'] = abbreviation;
+          abbreviations['campus'] = abbreviation;
+          break;
+        case 'NZK':
+          abbreviations['nyimbo'] = abbreviation;
+          break;
+        case 'WN':
+          abbreviations['wende'] = abbreviation;
+          break;
+      }
+    });
+    
+    print('🔍 [CollectionsDataManager] Loaded ${abbreviations.length} abbreviations: ${abbreviations.keys.take(10).join(', ')}${abbreviations.length > 10 ? '...' : ''}');
+    
+    return abbreviations;
   }
 
   /// Clear cache to force reload

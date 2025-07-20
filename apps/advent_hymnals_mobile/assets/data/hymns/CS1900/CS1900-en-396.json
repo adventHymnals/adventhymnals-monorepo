@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-396",
+  "number": 396,
+  "title": "RESCUE THE PERISHING",
+  "author": "Fanny J. Crosby",
+  "composer": "W. H. Doane",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Res-cue the per-ish-ing, Care for the dy-ing, Snatch them in pit-y from sin and the grave;\nWeep o'er the err-ing one, Lift up the fall-en, Tell them of Je-sus, the might-y to save."
+    },
+    {
+      "number": 2,
+      "text": "Tho' they are slight-ing him, Still he is wait-ing, Wait-ing the pen-i-tent child to re-ceive;\nPlead with them ear-nest-ly, Plead with them gen-tly, He will for-give if they on-ly be-lieve."
+    },
+    {
+      "number": 3,
+      "text": "Down in the hu-man heart, Crushed by the tempt-er, Feel-ings lie bur-ied that grace can re-store;\nTouched by a lov-ing heart, Wak-ened by kind-ness, Chords that are bro-ken will vi-brate once more."
+    }
+  ],
+  "chorus": {
+    "text": "Res-cue the per-ish-ing, Care for the dy-ing; Je-sus is mer-ci-ful, Je-sus will save."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "rescue",
+      "evangelism",
+      "compassion",
+      "salvation"
+    ],
+    "scripture_references": [],
+    "tune_source": "W. H. Doane",
+    "original_language": "en"
+  }
+}

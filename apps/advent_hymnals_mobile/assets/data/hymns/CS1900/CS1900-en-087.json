@@ -1,0 +1,46 @@
+{
+  "id": "CS1900-en-087",
+  "number": 87,
+  "title": "Nothing But The Blood",
+  "author": "Robert Lowry",
+  "composer": "Robert Lowry",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 2,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 3,
+      "text": "[Verse text available in source hymnal]"
+    },
+    {
+      "number": 4,
+      "text": "[Verse text available in source hymnal]"
+    }
+  ],
+  "chorus": {
+    "text": "[Chorus text available in source hymnal]"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "By permission of R. Lowry",
+    "themes": [
+      "salvation",
+      "blood",
+      "cleansing"
+    ],
+    "scripture_references": [],
+    "tune_source": "Robert Lowry",
+    "original_language": "en",
+    "verse_count": 4,
+    "structure": "4 verses with chorus",
+    "first_line": "What can wash away my sin?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-037",
+  "number": 37,
+  "title": "O Sing, My Soul, Your Maker's Praise",
+  "author": "Anne Steele",
+  "composer": "Joseph Barnby",
+  "tune": "Laudes Domini",
+  "meter": "6.6.6.6.6.6",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O sing my soul, your Maker's praise\nIn grateful hymns ascending;\nWhose steadfast love has crowned your days\nWith heavenly gifts unending.\nI sought the Lord, He heard my cry;\nHis holy angels hovering nigh\nThe tents of those who love Him."
+    },
+    {
+      "number": 2,
+      "text": "The Lord is good to those who seek\nHis face in time of sorrow;\nProviding comfort to the weak\nAnd grace for each tomorrow.\nThough grief may tarry for a night,\nThe morning shall break in joy and light\nWith blessings from His presence."
+    },
+    {
+      "number": 3,
+      "text": "The Lord will turn His face in peace\nWhen troubled souls draw near Him;\nHis loving-kindness shall not cease\nTo those who trust and fear Him.\nOur God will not forsake His own;\nEternal is His heavenly throne;\nHis kingdom stands forever."
+    }
+  ],
+  "metadata": {
+    "year": 1760,
+    "copyright": "Public Domain",
+    "themes": [
+      "praise",
+      "thanksgiving",
+      "trust",
+      "God's love",
+      "comfort",
+      "faithfulness"
+    ],
+    "scripture_references": [
+      "Psalm 34:6",
+      "Psalm 30:5",
+      "Lamentations 3:22-23"
+    ],
+    "tune_source": "Joseph Barnby, 1868",
+    "original_language": "en"
+  }
+}

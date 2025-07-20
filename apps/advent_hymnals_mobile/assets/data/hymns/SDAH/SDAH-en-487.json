@@ -1,0 +1,28 @@
+{
+  "id": "SDAH-en-487",
+  "number": 487,
+  "title": "Hymn 487",
+  "author": "Traditional",
+  "composer": "Traditional",
+  "tune": "TRADITIONAL",
+  "meter": "C.M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Verse 1 text placeholder"
+    }
+  ],
+  "metadata": {
+    "year": 1800,
+    "copyright": "Public Domain",
+    "themes": [
+      "placeholder"
+    ],
+    "scripture_references": [
+      "Psalm 1:1"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

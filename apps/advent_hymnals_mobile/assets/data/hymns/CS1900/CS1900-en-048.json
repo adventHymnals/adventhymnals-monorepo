@@ -1,0 +1,47 @@
+{
+  "id": "CS1900-en-048",
+  "number": 48,
+  "title": "Jesus of Nazareth Passeth By",
+  "author": "Eliza Edmunds Hewitt",
+  "composer": "F. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "What means this eager, anxious throng, Which moves with busy haste along,— These wondrous gatherings day by day? What means this strange commotion, pray? In accents hushed the throng reply: \"Jesus of Nazareth passeth by.\""
+    },
+    {
+      "number": 2,
+      "text": "Who is this Jesus? Why should he The city and the country free So move the multitude? The blind, The deaf, the lame, the sad of mind, In accents hushed they all reply: \"Jesus of Nazareth passeth by.\""
+    },
+    {
+      "number": 3,
+      "text": "Jesus! 'tis he who once below Man's pathway trod 'mid pain and woe; And burdened ones, where'er he came, Brought out their sick, and deaf, and lame. The blind rejoiced to hear the cry: \"Jesus of Nazareth passeth by.\""
+    },
+    {
+      "number": 4,
+      "text": "But if you still this Saviour meet, Oh, throw you down before his feet; And cry to him while yet he's nigh: \"Pity me, Saviour, as you go by,\" And he who never pass you by, Nor yet will spurn your plaintive cry, But he will own your earnest prayer, While mercy's flowing everywhere. \"Jesus of Nazareth passeth by.\""
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1889, by F. E. Belden",
+    "themes": [
+      "Jesus",
+      "Nazareth",
+      "salvation",
+      "healing",
+      "mercy",
+      "Saviour"
+    ],
+    "scripture_references": [
+      "Mark 10:46-52",
+      "Luke 18:35-43"
+    ],
+    "tune_source": "F. E. Belden",
+    "original_language": "en"
+  }
+}

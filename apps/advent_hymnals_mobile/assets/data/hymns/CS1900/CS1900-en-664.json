@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-664",
+  "number": 664,
+  "title": "Behold the Bridegroom",
+  "author": "J. H. Waggoner",
+  "composer": "E. E. Belden",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Are you ready for the Bridegroom When he comes, when he comes? Are you ready for the Bridegroom When he comes?\nHave your lamps all trimmed and bright, Are you children of the light, Are you ready for the Bridegroom When he comes?"
+    },
+    {
+      "number": 2,
+      "text": "We will all go out to meet him When he comes, when he comes, We will all go out to meet him When he comes;\nWe will all go out to meet him When he comes, when he comes, We will all go out to meet him When he comes."
+    },
+    {
+      "number": 3,
+      "text": "Are you ready for the Bridegroom When he comes, when he comes? Are you ready for the Bridegroom When he comes?\nHave your lamps all trimmed and bright, Are you children of the light, Are you ready for the Bridegroom When he comes?"
+    }
+  ],
+  "chorus": {
+    "text": "Behold, he cometh! behold, he cometh! Behold, he cometh! behold, he cometh!\nBehold, he cometh! behold, he cometh! Behold, he cometh! behold, he cometh!\nBe-hold! the Bride-groom; for he cometh! Behold, he cometh! Behold, he cometh!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright, 1885, by E. E. Belden. Used by permission",
+    "themes": [
+      "second coming",
+      "readiness",
+      "parable",
+      "bridegroom"
+    ],
+    "scripture_references": [
+      "Matthew 25:1-13"
+    ],
+    "tune_source": "E. E. Belden",
+    "original_language": "en"
+  }
+}

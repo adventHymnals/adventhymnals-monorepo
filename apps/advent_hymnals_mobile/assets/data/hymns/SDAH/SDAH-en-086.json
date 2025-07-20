@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-086",
+  "number": 86,
+  "title": "How Great Thou Art",
+  "author": "Stuart K. Hine",
+  "composer": "Stuart K. Hine",
+  "tune": "O Store Gud",
+  "meter": "11.10.11.10 with Refrain",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Lord my God! when I in awesome wonder\nConsider all the worlds Thy hands have made,\nI see the stars, I hear the rolling thunder,\nThy pow'r throughout the universe displayed."
+    },
+    {
+      "number": 2,
+      "text": "When thro' the woods and forest glades I wander\nAnd hear the birds sing sweetly in the trees;\nWhen I look down from lofty mountain grandeur\nAnd hear the brook and feel the gentle breeze."
+    },
+    {
+      "number": 3,
+      "text": "And when I think that God, His Son not sparing,\nSent Him to die, I scarce can take it in;\nThat on the cross, my burden gladly bearing,\nHe bled and died to take away my sin."
+    },
+    {
+      "number": 4,
+      "text": "When Christ shall come with shout of acclamation\nAnd take me home, what joy shall fill my heart!\nThen I shall bow in humble adoration\nAnd there proclaim, my God, how great Thou art!"
+    }
+  ],
+  "chorus": {
+    "text": "Then sings my soul, my Savior God to Thee;\nHow great Thou art, how great Thou art!\nThen sings my soul, my Savior God to Thee;\nHow great Thou art, How great Thou art!"
+  },
+  "metadata": {
+    "year": 1949,
+    "copyright": "© 1949 and 1953 The Stuart Hine Trust. All rights in the USA, its territories and possessions, except print rights, administered by Capitol CMG Publishing. USA, North Central and South America print rights administered by Hope Publishing Company. All other non US Americas rights administered by The Stuart Hine Trust. Rest of world rights administered by Integrity Music UK. All rights reserved. Used by permission.",
+    "themes": [
+      "God's Greatness",
+      "Creation",
+      "Cross",
+      "Second Coming"
+    ],
+    "scripture_references": [],
+    "tune_source": "O Store Gud",
+    "original_language": "sv"
+  }
+}

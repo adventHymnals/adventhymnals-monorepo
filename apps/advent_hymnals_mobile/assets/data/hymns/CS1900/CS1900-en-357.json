@@ -1,0 +1,33 @@
+{
+  "id": "CS1900-en-357",
+  "number": 357,
+  "title": "SAFELY THRO' ANOTHER WEEK",
+  "author": "John Newton",
+  "composer": "Lowell Mason",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Safely through another week\nGod has brought us on our way;\nLet us now a blessing seek,\nWaiting in His courts today;\nDay of all the week the best,\nEmblem of eternal rest."
+    },
+    {
+      "number": 2,
+      "text": "While we pray for pardoning grace,\nThrough the dear Redeemer's name,\nShow Thy reconciling face,\nTake away our sin and shame;\nFrom our worldly cares set free,\nMay we rest this day in Thee."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "Sabbath",
+      "rest",
+      "blessing"
+    ],
+    "scripture_references": [],
+    "tune_source": "Lowell Mason",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-115",
+  "number": 115,
+  "title": "O Come, O Come, Immanuel",
+  "author": "Latin, 12th century; trans. John Mason Neale",
+  "composer": "French melody, 15th century",
+  "tune": "Veni Emmanuel",
+  "meter": "88.88.88",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O come, O come, Immanuel,\nAnd ransom captive Israel,\nThat mourns in lonely exile here\nUntil the Son of God appear."
+    },
+    {
+      "number": 2,
+      "text": "O come, Thou Wisdom from on high,\nAnd order all things, far and nigh;\nTo us the path of knowledge show,\nAnd cause us in her ways to go."
+    },
+    {
+      "number": 3,
+      "text": "O come, Desire of nations, bind\nAll peoples in one heart and mind;\nBid envy, strife, and quarrels cease;\nFill the whole world with heaven's peace."
+    }
+  ],
+  "chorus": {
+    "text": "Rejoice! Rejoice! Immanuel\nShall come to thee, O Israel!"
+  },
+  "metadata": {
+    "year": 1200,
+    "copyright": "Public Domain",
+    "themes": [
+      "Advent",
+      "Christ's Coming",
+      "Redemption",
+      "Peace"
+    ],
+    "scripture_references": [
+      "Isaiah 7:14",
+      "Matthew 1:23"
+    ],
+    "tune_source": "French melody, 15th century",
+    "original_language": "la"
+  }
+}

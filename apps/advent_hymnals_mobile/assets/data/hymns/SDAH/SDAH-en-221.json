@@ -1,0 +1,44 @@
+{
+  "id": "SDAH-en-221",
+  "number": 221,
+  "title": "Rejoice, the Lord Is King",
+  "author": "Charles Wesley",
+  "composer": "John Darwall",
+  "tune": "DARWALL'S 148TH",
+  "meter": "6.6.6.6.8.8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Rejoice, the Lord is King!\nYour Lord and King adore!\nRejoice, give thanks, and sing,\nAnd triumph evermore:\nLift up your heart, lift up your voice!\nRejoice, again I say, rejoice!"
+    },
+    {
+      "number": 2,
+      "text": "Jesus, the Savior, reigns,\nThe God of truth and love;\nWhen He had purged our stains,\nHe took His seat above:\nLift up your heart, lift up your voice!\nRejoice, again I say, rejoice!"
+    },
+    {
+      "number": 3,
+      "text": "His kingdom cannot fail,\nHe rules o'er earth and heaven;\nThe keys of death and hell\nAre to our Jesus given:\nLift up your heart, lift up your voice!\nRejoice, again I say, rejoice!"
+    },
+    {
+      "number": 4,
+      "text": "Rejoice in glorious hope!\nOur Lord the judge shall come,\nAnd take His servants up\nTo their eternal home:\nLift up your heart, lift up your voice!\nRejoice, again I say, rejoice!"
+    }
+  ],
+  "metadata": {
+    "year": 1746,
+    "copyright": "Public Domain",
+    "themes": [
+      "Kingship of Christ",
+      "Joy",
+      "Praise",
+      "Second Coming"
+    ],
+    "scripture_references": [
+      "Philippians 4:4",
+      "Revelation 19:6"
+    ],
+    "tune_source": "John Darwall, 1770",
+    "original_language": "en"
+  }
+}

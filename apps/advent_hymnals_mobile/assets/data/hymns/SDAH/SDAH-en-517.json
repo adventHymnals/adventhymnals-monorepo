@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-517",
+  "number": 517,
+  "title": "My Faith Looks Up to Thee",
+  "author": "Ray Palmer",
+  "composer": "Lowell Mason",
+  "tune": "Olivet",
+  "meter": "6.6.4.6.6.6.4.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My faith looks up to Thee,\nThou Lamb of Calvary,\nSavior divine;\nNow hear me while I pray,\nTake all my guilt away,\nO let me from this day\nBe wholly Thine."
+    },
+    {
+      "number": 2,
+      "text": "May Thy rich grace impart\nStrength to my fainting heart,\nMy zeal inspire;\nAs Thou hast died for me,\nO may my love to Thee\nPure, warm, and changeless be,\nA living fire."
+    },
+    {
+      "number": 3,
+      "text": "While life's dark maze I tread,\nAnd griefs around me spread,\nBe Thou my Guide;\nBid darkness turn to day,\nWipe sorrow's tears away,\nNor let me ever stray\nFrom Thee aside."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1830,
+    "copyright": "Public Domain",
+    "themes": [
+      "faith",
+      "salvation",
+      "guidance",
+      "dedication",
+      "prayer"
+    ],
+    "scripture_references": [
+      "John 1:29",
+      "Hebrews 12:2"
+    ],
+    "tune_source": "Lowell Mason",
+    "original_language": "en"
+  }
+}

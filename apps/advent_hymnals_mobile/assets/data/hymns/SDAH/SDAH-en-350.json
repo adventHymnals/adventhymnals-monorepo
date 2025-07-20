@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-350",
+  "number": 350,
+  "title": "Blest Be the Tie That Binds",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Blest be the tie that binds\nOur hearts in Christian love!\nThe fellowship of kindred minds\nIs like to that above."
+    },
+    {
+      "number": 2,
+      "text": "Before our Father's throne\nWe pour our ardent prayers;\nOur fears, our hopes, our aims are one,\nOur comforts and our cares."
+    },
+    {
+      "number": 3,
+      "text": "We share our mutual woes,\nOur mutual burdens bear;\nAnd often for each other flows\nThe sympathizing tear."
+    },
+    {
+      "number": 4,
+      "text": "When we asunder part,\nIt gives us inward pain;\nBut we shall still be joined in heart,\nAnd hope to meet again."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "Fellowship",
+      "Christian Unity",
+      "Love",
+      "Prayer",
+      "Comfort"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "SDAH-en-543",
+  "number": 543,
+  "title": "Jesus, Friend of Little Children",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "[unclear]",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Jesus, Friend of little children,\nBe a Friend to me;\nTake my hand and ever keep me\nClose to Thee."
+    },
+    {
+      "number": 2,
+      "text": "Teach me how to grow in goodness,\nDaily as I grow;\nThou hast been a child, and surely\nThou dost know."
+    },
+    {
+      "number": 3,
+      "text": "Step by step, O, lead me onward,\nUpward into youth;\nWiser, stronger, still becoming\nIn Thy truth."
+    },
+    {
+      "number": 4,
+      "text": "Never leave me, nor forsake me,\nEver be my Friend;\nFor I need Thee from life's dawning\nTo its end."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "children",
+      "friendship",
+      "growth",
+      "guidance"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}

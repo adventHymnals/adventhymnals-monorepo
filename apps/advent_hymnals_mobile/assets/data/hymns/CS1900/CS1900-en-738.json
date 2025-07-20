@@ -1,0 +1,40 @@
+{
+  "id": "CS1900-en-738",
+  "number": 738,
+  "title": "My Rest Is in Heaven",
+  "author": "H. R. Palmer",
+  "composer": "H. R. Palmer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "My rest is in heav-en, my rest is not here;\nThen why should I mur-mur when tri-als are near?\nBe hushed, my sad spir-it, the worst that can come\nBut short-ens my jour-ney and has-tens me home."
+    },
+    {
+      "number": 2,
+      "text": "My rest is in heav-en, my rest is not here;\nThen let me be pa-tient and ban-ish each fear;\nI know I'm a strang-er and pil-grim be-low,\nAnd home is in heav-en, to which I must go."
+    },
+    {
+      "number": 3,
+      "text": "My rest is in heav-en, my rest is not here;\nThen let me be will-ing to la-bor and bear;\nIfJe-sus re-quires it, I'll cheer-ful-ly stay,\nBut still I'll be long-ing to be called a-way."
+    }
+  ],
+  "chorus": {
+    "text": "It may be at morn, when the day is a-wak-ing,\nWhen sun-light through dark-ness and shad-ow is break-ing,\nThat Je-sus will come in the full-ness of glo-ry,\nTo re-ceive from the world His own."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by F. E. Belden",
+    "themes": [
+      "rest",
+      "heaven",
+      "pilgrimage",
+      "patience"
+    ],
+    "scripture_references": [],
+    "tune_source": "H. R. Palmer",
+    "original_language": "en"
+  }
+}

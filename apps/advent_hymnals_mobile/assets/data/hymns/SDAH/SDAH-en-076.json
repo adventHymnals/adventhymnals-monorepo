@@ -1,0 +1,39 @@
+{
+  "id": "SDAH-en-076",
+  "number": 76,
+  "title": "O Love That Wilt Not Let Me Go",
+  "author": "George Matheson",
+  "composer": "Albert L. Peace",
+  "tune": "St. Margaret",
+  "meter": "8.8.8.6",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "O Love that wilt not let me go,\nI rest my weary soul in Thee;\nI give Thee back the life I owe,\nThat in Thine ocean depths its flow\nMay richer, fuller be."
+    },
+    {
+      "number": 2,
+      "text": "O Light that followest all my way,\nI yield my flickering torch to Thee;\nMy heart restores its borrowed ray,\nThat in Thy sunshine's blaze its day\nMay brighter, fairer be."
+    },
+    {
+      "number": 3,
+      "text": "O Joy that seekest me through pain,\nI cannot close my heart to Thee;\nI trace the rainbow through the rain,\nAnd feel the promise is not vain\nThat morn shall tearless be."
+    },
+    {
+      "number": 4,
+      "text": "O Cross that liftest up my head,\nI dare not ask to fly from Thee;\nI lay in dust life's glory dead,\nAnd from the ground there blossoms red\nLife that shall endless be."
+    }
+  ],
+  "metadata": {
+    "themes": [
+      "God's Love",
+      "Surrender",
+      "Hope",
+      "Cross"
+    ],
+    "scripture_references": [],
+    "tune_source": "St. Margaret",
+    "original_language": "en"
+  }
+}

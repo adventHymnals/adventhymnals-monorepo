@@ -1,0 +1,44 @@
+{
+  "id": "CS1900-en-291",
+  "number": 291,
+  "title": "We Thank Thee",
+  "author": "C. Wordsworth",
+  "composer": "J. A. Freylinghausen",
+  "tune": "Haydn",
+  "meter": "L. M.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "We thank thee, Lord, for this our food, For life and health and every good; Let manna to our souls be given, The bread of life sent down from heaven."
+    },
+    {
+      "number": 2,
+      "text": "We thank thee for our daily bread, Let also, Lord, our souls be fed; O Bread of life, from day to day, Be thou our strength, our joy, our stay."
+    },
+    {
+      "number": 3,
+      "text": "We thank thee for the morning light, For rest and shelter of the night; For health and food, for love and friends, For everything thy goodness sends."
+    },
+    {
+      "number": 4,
+      "text": "We thank thee, Lord, for grace and good, For sunshine and for daily food; For those who love us, and who care, And make our burdens light to bear."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "thanksgiving",
+      "gratitude",
+      "daily bread",
+      "provision"
+    ],
+    "scripture_references": [
+      "Matthew 6:11"
+    ],
+    "tune_source": "J. A. Freylinghausen",
+    "original_language": "en"
+  }
+}

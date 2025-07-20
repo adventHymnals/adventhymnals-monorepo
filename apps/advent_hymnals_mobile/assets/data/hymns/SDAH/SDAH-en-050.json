@@ -1,0 +1,48 @@
+{
+  "id": "SDAH-en-050",
+  "number": 50,
+  "title": "Abide With Me",
+  "author": "Henry Francis Lyte",
+  "composer": "William Henry Monk",
+  "tune": "Eventide",
+  "meter": "10.10.10.10",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Abide with me; fast falls the eventide;\nThe darkness deepens; Lord, with me abide!\nWhen other helpers fail and comforts flee,\nHelp of the helpless, O abide with me!"
+    },
+    {
+      "number": 2,
+      "text": "Swift to its close ebbs out life's little day;\nEarth's joys grow dim, its glories pass away;\nChange and decay in all around I see;\nO Thou, who changest not, abide with me!"
+    },
+    {
+      "number": 3,
+      "text": "I need Thy presence every passing hour;\nWhat but Thy grace can foil the tempter's power?\nWho like Thy-self my guide and stay can be?\nThrough cloud and sunshine, O abide with me!"
+    },
+    {
+      "number": 4,
+      "text": "I fear no foe, with Thee at hand to bless;\nIlls have no weight, and tears no bitterness.\nWhere is death's sting? where, grave, thy victory?\nI triumph still, if Thou abide with me!"
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1847,
+    "copyright": "Public Domain",
+    "themes": [
+      "evening",
+      "companionship",
+      "comfort",
+      "death",
+      "divine presence",
+      "eternity"
+    ],
+    "scripture_references": [
+      "Luke 24:29",
+      "1 Corinthians 15:55",
+      "Hebrews 13:8"
+    ],
+    "tune_source": "William Henry Monk, 1861",
+    "original_language": "en"
+  }
+}

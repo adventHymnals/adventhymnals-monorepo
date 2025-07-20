@@ -1,0 +1,40 @@
+{
+  "id": "SDAH-en-386",
+  "number": 386,
+  "title": "The Sacred Anthem",
+  "author": "Anonymous",
+  "composer": "Traditional",
+  "tune": "SACRED ANTHEM",
+  "meter": "8.8.8.8.8.8.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The sacred anthem slowly rang\nAcross the fields of praise,\nWhen earth's first Sabbath made complete\nAll creatures and all days.\nWalking with God, there,\nWoman and man together share\nThe blessed Sabbath mood;\nAnd in that green and golden world\nKnow all God's works are good."
+    },
+    {
+      "number": 2,
+      "text": "But now in our diminished lives\nWe sing a blemished song;\nThe earth is worn and disarrayed\nAnd all our work goes wrong.\nStill in our sinful worship,\nJoining in praise and fellowship,\nBy Sabbath we are blessed,\nWe put our doubt and fear away\nAnd rest within God's rest."
+    },
+    {
+      "number": 3,
+      "text": "And arching over time and space\nThe Lord of Sabbaths wills\nRenewal for the weary earth\nAnd healing for our ills.\nHearts will rejoice then;\nThere will be no more weeping, when\nWe know and shall be known.\nWith hosts of the redeemed we'll sing\nAround God's shining throne."
+    }
+  ],
+  "metadata": {
+    "year": null,
+    "copyright": "Public Domain",
+    "themes": [
+      "Sabbath",
+      "Creation",
+      "Worship",
+      "Restoration"
+    ],
+    "scripture_references": [
+      "Genesis 2:2-3",
+      "Revelation 21:1-4"
+    ],
+    "tune_source": "Traditional",
+    "original_language": "en"
+  }
+}

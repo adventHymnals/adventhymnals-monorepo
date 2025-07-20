@@ -1,0 +1,43 @@
+{
+  "id": "CS1900-en-244",
+  "number": 244,
+  "title": "My Sabbath Home",
+  "author": "W. C. E. Bunnell",
+  "composer": "W. H. Doane",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Sweet Sab-bath School! once dear to me, Than fair-est pal-ace dome, My heart e'er turns with\nHere first my will-ing heart, the way of life was shown; Here first I sought the\nHere Je-sus stood with me, The voice, Oh! treat-ed me; And now my cho-sen"
+    },
+    {
+      "number": 2,
+      "text": "The peace that once I felt there, Will nev-er be for-got-ten;\nThe glow-ing love that filled my heart, The joy that made it bright-en;\nThe words of truth that touched my soul, The songs of praise a-scend-ing."
+    },
+    {
+      "number": 3,
+      "text": "My teach-er's voice I hear a-gain, So gen-tle and so kind;\nThe les-sons that she used to teach, Come fresh-ly to my mind;\nThe pray-ers she breathed for me, The coun-sel true and ten-der."
+    },
+    {
+      "number": 4,
+      "text": "Though years have passed since then a-way, And I am far from home;\nYet still I love that sa-cred place, Where first I learned to pray;\nAnd when life's toils and cares are o'er, And I shall go to rest."
+    }
+  ],
+  "chorus": {
+    "text": "Joy to thee, My dear Sab-bath home, Sab-bath home! bless-ed home! Sab-bath\nhome! sweet home!\nJoy to thee, In that dear Sab-bath home.\nSweet home! sweet home!\nMy heart e'er turns with joy to thee, My dear Sab-bath home!"
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": "Copyright 1900 by W. H. Doane. Used by permission.",
+    "themes": [
+      "Sabbath School",
+      "childhood memories",
+      "religious education"
+    ],
+    "scripture_references": [],
+    "tune_source": "W. H. Doane",
+    "original_language": "en"
+  }
+}

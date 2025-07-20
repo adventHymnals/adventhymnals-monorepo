@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-298",
+  "number": 298,
+  "title": "Salvation Free",
+  "author": "Rev. William J. Kirkpatrick",
+  "composer": "Wm. J. Kirkpatrick",
+  "tune": "Free Grace",
+  "meter": "8, 7, 8, 7, D.",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "Free from the law, O happy condition! Jesus hath bled, and there is remission; Cursed by the law and bruised by the fall, Grace hath redeemed us once for all."
+    },
+    {
+      "number": 2,
+      "text": "Now are we free, there's no condemnation, Jesus provides a perfect salvation; Come unto him, O hear his sweet call, Come, and he saves us once for all."
+    },
+    {
+      "number": 3,
+      "text": "Children of God, O glorious calling! Surely his grace will keep us from falling; Passing from death to life at his call, Blessed salvation once for all."
+    }
+  ],
+  "chorus": {
+    "text": "Once for all, O sinner, receive it! Once for all, O brother, believe it! Cling to the cross, the burden will fall, Christ hath redeemed us once for all."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "salvation",
+      "freedom",
+      "grace",
+      "redemption"
+    ],
+    "scripture_references": [
+      "Romans 6:14"
+    ],
+    "tune_source": "Wm. J. Kirkpatrick",
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "CS1900-en-554",
+  "number": 554,
+  "title": "Each Returning Morn",
+  "author": "J. Keble",
+  "composer": "J. Stainer",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "New every morning is the love Our wakening and uprising prove;\nThrough sleep and darkness safely brought, Restored to life and power and thought."
+    },
+    {
+      "number": 2,
+      "text": "New mercies, each returning day, Hover around us while we pray;\nNew perils past, new sins forgiven, New thoughts of God, new hopes of heaven."
+    },
+    {
+      "number": 3,
+      "text": "If on our daily course our mind Be set to hallow all we find,\nNew treasures still, of countless price, God will provide for sacrifice."
+    },
+    {
+      "number": 4,
+      "text": "The trivial round, the common task, Would furnish all we ought to ask;\nRoom to deny ourselves; a road To bring us, daily, nearer God."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "morning",
+      "mercy",
+      "daily life",
+      "gratitude"
+    ],
+    "scripture_references": [],
+    "tune_source": "J. Stainer",
+    "original_language": "en"
+  }
+}

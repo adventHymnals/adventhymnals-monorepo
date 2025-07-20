@@ -177,7 +177,7 @@ class UpdateManager {
   Future<void> _deleteCollectionData(String collectionId) async {
     try {
       final dataDir = await _getOptimalDataDirectory();
-      final collectionFile = File('${dataDir.path}/hymnal_data/collections/${collectionId}-collection.json');
+      final collectionFile = File('${dataDir.path}/hymnal_data/collections/$collectionId-collection.json');
       
       if (await collectionFile.exists()) {
         await collectionFile.delete();

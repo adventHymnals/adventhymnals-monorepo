@@ -1,0 +1,36 @@
+{
+  "id": "CS1900-en-388",
+  "number": 388,
+  "title": "KEEP STEP",
+  "author": "Fanny J. Crosby",
+  "composer": "W. H. Doane",
+  "tune": null,
+  "meter": null,
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "In the ser-vice of the heav-en-ly king, we must keep step from the first, Go keep step; step in time;\nWhile you an-swer to the mu-sic of the, When we for-get the pain which the cap-tains have borne, Yet march ev-er- in\nHis is the cross of the brave that holds all things here; we'll keep step, and we'll keep step all the time."
+    },
+    {
+      "number": 2,
+      "text": "While you march in the ranks of the, While you march in time with the, While you march in the ranks of the,\nWhen you march in the ranks of the, While you march in time with the, While you march in the ranks of the."
+    }
+  ],
+  "chorus": {
+    "text": "Keep step! keep step! ev-er, Keep step! keep step! ev-er, Keep step! keep step! ev-er, Keep step! keep step! ev-er."
+  },
+  "metadata": {
+    "year": 1900,
+    "copyright": null,
+    "themes": [
+      "marching",
+      "discipline",
+      "following Christ",
+      "keeping time"
+    ],
+    "scripture_references": [],
+    "tune_source": "W. H. Doane",
+    "original_language": "en"
+  }
+}

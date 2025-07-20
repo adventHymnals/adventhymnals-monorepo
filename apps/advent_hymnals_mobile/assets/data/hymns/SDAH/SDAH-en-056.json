@@ -1,0 +1,43 @@
+{
+  "id": "SDAH-en-056",
+  "number": 56,
+  "title": "The Day Thou Gavest",
+  "author": "[unclear]",
+  "composer": "[unclear]",
+  "tune": "[unclear]",
+  "meter": "9/8",
+  "language": "en",
+  "verses": [
+    {
+      "number": 1,
+      "text": "The day Thou gavest, Lord, is ended,\nThe darkness falls at Thy behest;\nTo Thee our morning hymns ascended,\nThy praise shall not be silenced."
+    },
+    {
+      "number": 2,
+      "text": "We thank Thee that Thy church, unsleeping,\nWhile earth rolls onward into light,\nThrough all the world her watch is keeping,\nAnd rests not now by day or night."
+    },
+    {
+      "number": 3,
+      "text": "As o'er each continent and island\nThe dawn leads on another day,\nThe voice of prayer is never silent,\nNor dies the strain of praise away."
+    },
+    {
+      "number": 4,
+      "text": "So be it, Lord; Thy throne shall never,\nLike earth's proud empires, pass away;\nThy kingdom stands, and grows forever,\nTill all Thy creatures own Thy sway."
+    }
+  ],
+  "chorus": null,
+  "metadata": {
+    "year": null,
+    "copyright": null,
+    "themes": [
+      "evening",
+      "church",
+      "global worship",
+      "God's kingdom",
+      "praise"
+    ],
+    "scripture_references": [],
+    "tune_source": null,
+    "original_language": "en"
+  }
+}
